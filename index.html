@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="Alt-Cam Security UA — відеоспостереження, домофонія, контроль доступу та резервне живлення для дому й бізнесу в Україні.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="uk_UA">
+  <meta property="og:title" content="Відеоспостереження під ключ по Україні — Alt-Cam Security UA">
+  <meta property="og:description" content="Підбір обладнання, монтаж, налаштування, гарантія та перегляд камер з телефону.">
+  <meta property="og:image" content="https://alt-cam.ua/assets/alt-cam-mark.png">
+  <meta property="og:url" content="https://alt-cam.ua/">
+  <link rel="canonical" href="https://alt-cam.ua/">
+  <link rel="icon" type="image/png" href="assets/alt-cam-mark.png">
+  <title>Alt-Cam Security UA — системи безпеки для дому та бізнесу</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Alt-Cam Security UA",
+    "url": "https://alt-cam.ua/",
+    "logo": "https://alt-cam.ua/assets/alt-cam-mark.png",
+    "image": "https://alt-cam.ua/assets/alt-cam-mark.png",
+    "description": "Відеоспостереження, домофонія, контроль доступу та резервне живлення під ключ по Україні.",
+    "telephone": "+380000000000",
+    "email": "info@alt-cam.ua",
+    "areaServed": {"@type": "Country", "name": "Україна"},
+    "priceRange": "₴₴",
+    "sameAs": [
+      "https://facebook.com/",
+      "https://instagram.com/",
+      "https://tiktok.com/"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <svg class="svg-sprite" aria-hidden="true">
+    <symbol id="i-camera" viewBox="0 0 24 24"><path d="M14.5 5 13 3h-2L9.5 5H5a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3h-4.5ZM12 17a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z"/></symbol>
+    <symbol id="i-door" viewBox="0 0 24 24"><path d="M4 21h16M6 21V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v17M14 12h.01"/></symbol>
+    <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="m11 12 8-8m-3 3 2 2m-5 1 2 2"/></symbol>
+    <symbol id="i-battery" viewBox="0 0 24 24"><rect x="3" y="6" width="17" height="12" rx="2"/><path d="M22 10v4M8 9l-2 3h3l-2 3"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M10 18h4"/></symbol>
+    <symbol id="i-tools" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5-5L12 3.6 8.6 7 6.3 4.7a4 4 0 0 0 5 5L20 18.4a1.4 1.4 0 0 1-2 2l-8.7-8.7"/><path d="m5 14-3 3 5 5 3-3"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 11 9-8 9 8v10H3V11Z"/><path d="M9 21v-6h6v6"/></symbol>
+    <symbol id="i-shop" viewBox="0 0 24 24"><path d="M3 9h18l-2-6H5L3 9Z"/><path d="M5 9v12h14V9M9 21v-7h6v7"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24"><path d="m4 7 8-4 8 4-8 4-8-4Z"/><path d="m4 7 8 4 8-4v10l-8 4-8-4V7Z"/></symbol>
+    <symbol id="i-car" viewBox="0 0 24 24"><path d="m5 11 2-5h10l2 5M3 12a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6H3v-6Z"/><path d="M5 18v2m14-2v2M7 14h.01M17 14h.01"/></symbol>
+    <symbol id="i-coffee" viewBox="0 0 24 24"><path d="M4 8h13v6a6 6 0 0 1-6 6H10a6 6 0 0 1-6-6V8Z"/><path d="M17 10h2a3 3 0 0 1 0 6h-2M7 4h8"/></symbol>
+    <symbol id="i-office" viewBox="0 0 24 24"><path d="M4 21V3h12v18M16 9h4v12M8 7h4m-4 4h4m-4 4h4m-4 6v-2h4v2"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4 20-7Z"/><path d="M22 2 11 13"/></symbol>
+  </svg>
+
+  <header class="header" id="top">
+    <div class="container nav">
+      <a class="logo" href="#top" aria-label="Alt-Cam Security UA — на головну">
+        <img class="brand-logo-img" src="assets/alt-cam-mark.png" alt="" width="48" height="58">
+        <span>ALT-CAM <small>SECURITY UA</small></span>
+      </a>
+      <nav class="nav-links" id="nav-menu" aria-label="Головна навігація">
+        <a href="#services">Послуги</a>
+        <a href="#audience">Для кого</a>
+        <a href="#calculator">Калькулятор</a>
+        <a href="#process">Як працюємо</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacts">Контакти</a>
+      </nav>
+      <a class="btn btn-small btn-outline header-cta" href="#calculator">Розрахувати вартість</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Відкрити меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-grid-bg"></div>
+      <div class="container hero-layout">
+        <div class="hero-content reveal">
+          <div class="eyebrow"><span class="pulse"></span> Безпека, що працює 24/7</div>
+          <h1>Відеоспостереження <span>під ключ по Україні</span></h1>
+          <p>Проєктуємо та встановлюємо надійні системи для дому, магазину, офісу, складу й виробництва.</p>
+          <ul class="hero-benefits">
+            <li><svg><use href="#i-check"/></svg>Безкоштовний підбір обладнання</li>
+            <li><svg><use href="#i-check"/></svg>Монтаж та налаштування</li>
+            <li><svg><use href="#i-check"/></svg>Гарантія на обладнання і роботи</li>
+            <li><svg><use href="#i-check"/></svg>Віддалений перегляд з телефону</li>
+          </ul>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-large" href="#quiz">Отримати консультацію <svg><use href="#i-arrow"/></svg></a>
+            <a class="btn btn-black btn-large" href="#calculator">Розрахувати вартість <svg><use href="#i-camera"/></svg></a>
+          </div>
+          <div class="hero-trust">
+            <div><strong>Під ключ</strong><span>від підбору до запуску</span></div>
+            <div><strong>По Україні</strong><span>обладнання та супровід</span></div>
+            <div><strong>Без переплат</strong><span>рішення під ваш бюджет</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-label="Візуалізація системи відеоспостереження">
+          <div class="visual-glow"></div>
+          <div class="camera-rig">
+            <div class="camera-bracket"></div>
+            <div class="camera-body">
+              <div class="camera-line"></div>
+              <div class="camera-lens"><div class="lens-core"></div></div>
+              <span class="camera-led"></span>
+            </div>
+          </div>
+          <div class="scan-cone"></div>
+          <div class="status-card status-online">
+            <span class="status-dot"></span>
+            <div><b>Система активна</b><small>Усі камери онлайн</small></div>
+          </div>
+          <div class="status-card status-phone">
+            <span class="mini-icon"><svg><use href="#i-phone"/></svg></span>
+            <div><b>Перегляд онлайн</b><small>Доступ зі смартфона</small></div>
+          </div>
+          <div class="frame-corner corner-1"></div>
+          <div class="frame-corner corner-2"></div>
+          <div class="frame-corner corner-3"></div>
+          <div class="frame-corner corner-4"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><span class="section-kicker">Наші послуги</span><h2>Все необхідне для вашої безпеки</h2></div>
+          <p>Будуємо надійну систему навколо ваших задач — без зайвого обладнання та складних пояснень.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card reveal"><span class="card-icon"><svg><use href="#i-camera"/></svg></span><h3>Відеоспостереження</h3><p>Камери для приміщень і вулиці, нічне бачення, запис та аналітика.</p><a href="#request">Підібрати систему <svg><use href="#i-arrow"/></svg></a></article>
+          <article class="service-card reveal"><span class="card-icon"><svg><use href="#i-door"/></svg></span><h3>Домофонія</h3><p>Відеодомофони, викличні панелі та керування замком зі смартфона.</p><a href="#request">Дізнатися більше <svg><use href="#i-arrow"/></svg></a></article>
+          <article class="service-card reveal"><span class="card-icon"><svg><use href="#i-key"/></svg></span><h3>Контроль доступу</h3><p>Електронні замки, картки, коди та облік доступу для персоналу.</p><a href="#request">Отримати рішення <svg><use href="#i-arrow"/></svg></a></article>
+          <article class="service-card reveal"><span class="card-icon"><svg><use href="#i-battery"/></svg></span><h3>UPS та резервне живлення</h3><p>Стабільна робота систем безпеки під час відключень електроенергії.</p><a href="#request">Розрахувати живлення <svg><use href="#i-arrow"/></svg></a></article>
+          <article class="service-card reveal"><span class="card-icon"><svg><use href="#i-phone"/></svg></span><h3>Перегляд з телефону</h3><p>Безпечний віддалений доступ до камер у будь-який момент і з будь-якого місця.</p><a href="#request">Підключити доступ <svg><use href="#i-arrow"/></svg></a></article>
+          <article class="service-card reveal"><span class="card-icon"><svg><use href="#i-tools"/></svg></span><h3>Технічний супровід</h3><p>Монтаж, налаштування, діагностика та підтримка після запуску.</p><a href="#request">Замовити супровід <svg><use href="#i-arrow"/></svg></a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why-section" id="why-us">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><span class="section-kicker">Чому обирають нас</span><h2>Відповідаємо за результат, а не лише за обладнання</h2></div>
+          <p>Пояснюємо рішення простою мовою, погоджуємо бюджет до початку робіт і залишаємося на зв’язку після запуску.</p>
+        </div>
+        <div class="why-grid">
+          <article class="why-card reveal"><span>10+</span><h3>Років практичного досвіду</h3><p>Знаємо типові проблеми об’єктів і передбачаємо їх ще на етапі підбору.</p></article>
+          <article class="why-card reveal"><span>UA</span><h3>Працюємо по всій Україні</h3><p>Підбір, відправка, дистанційне налаштування та технічна підтримка.</p></article>
+          <article class="why-card reveal"><svg><use href="#i-check"/></svg><h3>Рішення під ваш бюджет</h3><p>Пропонуємо декілька конфігурацій без непотрібних функцій і переплат.</p></article>
+          <article class="why-card reveal"><svg><use href="#i-tools"/></svg><h3>Гарантія та підтримка</h3><p>Допомагаємо з налаштуванням, оновленням і розвитком системи після монтажу.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="brands-section" aria-label="Бренди обладнання">
+      <div class="container">
+        <p>Працюємо з обладнанням провідних виробників</p>
+        <div class="brand-row">
+          <span>HIKVISION</span><span>DAHUA</span><span>AJAX</span><span>UNIVIEW</span>
+          <span>IMOU</span><span>TP-LINK</span><span>Ubiquiti</span><span>MikroTik</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section catalog-section" id="catalog">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><span class="section-kicker">Популярні рішення</span><h2>Готові комплекти з орієнтовною ціною</h2></div>
+          <p>Базові конфігурації для швидкого старту. Фінальна вартість залежить від кабельних трас, висоти монтажу, архіву та умов об’єкта.</p>
+        </div>
+        <div class="catalog-grid">
+          <article class="package-card reveal">
+            <span class="package-tag">Для квартири або входу</span><svg><use href="#i-camera"/></svg>
+            <h3>Комплект на 2 камери</h3><p>Камери 4 Мп, реєстратор, диск, кабель, налаштування перегляду.</p>
+            <strong>від 14 900 грн</strong><a class="btn package-btn" href="#quiz">Дізнатись більше</a>
+          </article>
+          <article class="package-card package-featured reveal">
+            <span class="package-tag">Найчастіше обирають</span><svg><use href="#i-home"/></svg>
+            <h3>Комплект на 4 камери</h3><p>Оптимальне покриття будинку або магазину, архів і доступ з телефону.</p>
+            <strong>від 18 900 грн</strong><a class="btn btn-primary" href="#quiz">Дізнатись більше</a>
+          </article>
+          <article class="package-card reveal">
+            <span class="package-tag">Для бізнесу</span><svg><use href="#i-office"/></svg>
+            <h3>Комплект на 8 камер</h3><p>Контроль залу, каси, входів, складу та зовнішнього периметра.</p>
+            <strong>від 35 000 грн</strong><a class="btn package-btn" href="#quiz">Дізнатись більше</a>
+          </article>
+          <article class="package-card reveal">
+            <span class="package-tag">Контроль входу</span><svg><use href="#i-door"/></svg>
+            <h3>Відеодомофон</h3><p>Монітор, виклична панель, відкриття замка та віддалений доступ.</p>
+            <strong>від 8 900 грн</strong><a class="btn package-btn" href="#quiz">Дізнатись більше</a>
+          </article>
+          <article class="package-card reveal">
+            <span class="package-tag">Охорона об’єкта</span><svg><use href="#i-key"/></svg>
+            <h3>Система Ajax</h3><p>Централь, датчики руху й відкриття, сирена та керування у застосунку.</p>
+            <strong>від 16 500 грн</strong><a class="btn package-btn" href="#quiz">Дізнатись більше</a>
+          </article>
+          <article class="package-card reveal">
+            <span class="package-tag">Робота без світла</span><svg><use href="#i-battery"/></svg>
+            <h3>UPS та резервне живлення</h3><p>Підбір потужності й автономності для камер, мережі та домофонії.</p>
+            <strong>від 6 500 грн</strong><a class="btn package-btn" href="#quiz">Дізнатись більше</a>
+          </article>
+        </div>
+        <p class="catalog-note">* Ціни є стартовими орієнтирами для базової конфігурації та не є публічною офертою.</p>
+      </div>
+    </section>
+
+    <section class="section section-blue" id="audience">
+      <div class="container">
+        <div class="section-head light reveal">
+          <div><span class="section-kicker">Для кого</span><h2>Захистимо об’єкт будь-якого масштабу</h2></div>
+          <p>Підберемо конфігурацію під планування, ризики, умови експлуатації та бюджет.</p>
+        </div>
+        <div class="audience-grid">
+          <article class="audience-card reveal"><svg><use href="#i-home"/></svg><span>Для дому</span></article>
+          <article class="audience-card reveal"><svg><use href="#i-shop"/></svg><span>Для магазинів</span></article>
+          <article class="audience-card reveal"><svg><use href="#i-box"/></svg><span>Для складів</span></article>
+          <article class="audience-card reveal"><svg><use href="#i-car"/></svg><span>Для СТО</span></article>
+          <article class="audience-card reveal"><svg><use href="#i-coffee"/></svg><span>Для кафе</span></article>
+          <article class="audience-card reveal"><svg><use href="#i-office"/></svg><span>Для офісів</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section mistakes">
+      <div class="container split-layout">
+        <div class="mistake-intro reveal">
+          <span class="section-kicker">Корисно знати</span>
+          <h2>3 помилки при виборі камер</h2>
+          <p>Камера може бути встановлена, але не вирішувати задачу. Ось що найчастіше стає причиною розчарування.</p>
+          <div class="target-visual" aria-hidden="true">
+            <div class="target-ring ring-1"></div><div class="target-ring ring-2"></div><div class="target-ring ring-3"></div><span></span>
+          </div>
+        </div>
+        <div class="mistake-list">
+          <article class="mistake-item reveal"><span>01</span><div><h3>Гнатися лише за низькою ціною</h3><p>Купити найдешевшу камеру без якісного нічного бачення — означає втратити головні деталі саме тоді, коли вони потрібні.</p></div></article>
+          <article class="mistake-item reveal"><span>02</span><div><h3>Не врахувати інтернет і живлення</h3><p>Без стабільного зв’язку та резерву живлення система може стати недоступною у критичний момент.</p></div></article>
+          <article class="mistake-item reveal"><span>03</span><div><h3>Обрати неправильне місце</h3><p>Невдалий кут огляду — і обличчя людини або номер автомобіля залишаться нерозбірливими.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="solution">
+      <div class="container solution-card reveal">
+        <div class="solution-icon"><svg><use href="#i-check"/></svg></div>
+        <div><span class="section-kicker">Рішення без ризику</span><h2>Ми підберемо рішення під ваш об’єкт</h2><p>Перед покупкою краще зробити простий підбір під задачу, бюджет і умови об’єкта. Ви отримаєте зрозумілу конфігурацію без зайвих витрат.</p></div>
+        <a class="btn btn-dark" href="#request">Отримати підбір <svg><use href="#i-arrow"/></svg></a>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><span class="section-kicker">Як ми працюємо</span><h2>Від заявки до готової системи</h2></div>
+          <p>П’ять зрозумілих кроків — і ви точно знаєте, що отримаєте та скільки це коштує.</p>
+        </div>
+        <div class="process-grid">
+          <article class="process-step reveal"><span>01</span><h3>Залишаєте заявку</h3><p>У формі або зручному месенджері.</p></article>
+          <article class="process-step reveal"><span>02</span><h3>Уточнюємо задачу</h3><p>Тип об’єкта, зони контролю та бюджет.</p></article>
+          <article class="process-step reveal"><span>03</span><h3>Підбираємо обладнання</h3><p>Сумісний і надійний комплект.</p></article>
+          <article class="process-step reveal"><span>04</span><h3>Узгоджуємо рішення</h3><p>Пояснюємо склад і вартість системи.</p></article>
+          <article class="process-step reveal"><span>05</span><h3>Монтуємо та запускаємо</h3><p>Або супроводжуємо ваш монтаж.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section calculator-section" id="calculator">
+      <div class="container">
+        <div class="section-head light reveal">
+          <div><span class="section-kicker">Попередній розрахунок</span><h2>Калькулятор системи відеоспостереження</h2></div>
+          <p>Вкажіть розміри плану двору або будівлі та висоту монтажу. Отримаєте орієнтовний склад системи й бюджет.</p>
+        </div>
+
+        <div class="calculator-shell reveal">
+          <form class="calculator-form" id="security-calculator">
+            <div class="calc-form-title"><span>01</span><div><h3>Параметри об’єкта</h3><p>Змініть дані — результат оновиться автоматично.</p></div></div>
+
+            <label>Тип об’єкта
+              <select name="calcType">
+                <option value="building">Приватний будинок / приміщення</option>
+                <option value="yard">Двір / відкрита територія</option>
+                <option value="commerce">Магазин / кафе / офіс</option>
+                <option value="warehouse">Склад / СТО</option>
+              </select>
+            </label>
+
+            <div class="calc-fields-row">
+              <label>Довжина плану, м
+                <input type="number" name="calcLength" min="3" max="500" step="1" value="12">
+              </label>
+              <label>Ширина плану, м
+                <input type="number" name="calcWidth" min="3" max="500" step="1" value="10">
+              </label>
+            </div>
+
+            <label class="range-label">Висота монтажу: <strong><output id="height-output">3,0 м</output></strong>
+              <input type="range" name="calcHeight" min="2" max="12" step="0.5" value="3">
+              <span class="range-scale"><i>2 м</i><i>12 м</i></span>
+            </label>
+
+            <div class="calc-fields-row">
+              <label>Якість зображення
+                <select name="calcQuality">
+                  <option value="2mp">2 Мп — базова</option>
+                  <option value="4mp" selected>4 Мп — оптимальна</option>
+                  <option value="8mp">8 Мп — максимальна деталізація</option>
+                </select>
+              </label>
+              <label>Глибина архіву
+                <select name="calcArchive">
+                  <option value="7">7 днів</option>
+                  <option value="14" selected>14 днів</option>
+                  <option value="30">30 днів</option>
+                </select>
+              </label>
+            </div>
+
+            <label class="calc-check">
+              <input type="checkbox" name="calcUps" checked>
+              <span><b>Додати резервне живлення</b><small>Робота системи під час відключень</small></span>
+            </label>
+          </form>
+
+          <div class="calculator-result" aria-live="polite">
+            <div class="calc-result-head">
+              <div><span>Орієнтовний бюджет</span><strong id="calc-total">—</strong></div>
+              <span class="calc-area"><b id="calc-area">120</b> м²</span>
+            </div>
+
+            <div class="calc-result-list">
+              <div><span><svg><use href="#i-camera"/></svg> Камери</span><strong id="calc-cameras">—</strong></div>
+              <div><span><svg><use href="#i-box"/></svg> Реєстратор</span><strong id="calc-recorder">—</strong></div>
+              <div><span><svg><use href="#i-tools"/></svg> Кабель</span><strong id="calc-cable">—</strong></div>
+              <div><span><svg><use href="#i-battery"/></svg> Жорсткий диск</span><strong id="calc-storage">—</strong></div>
+            </div>
+
+            <div class="calc-cost-split">
+              <div><span>Обладнання</span><strong id="calc-equipment">—</strong></div>
+              <div><span>Монтаж і налаштування</span><strong id="calc-work">—</strong></div>
+            </div>
+
+            <p class="calc-note" id="calc-note">Попередній автоматичний розрахунок. Точна кількість камер залежить від зон огляду, освітлення та перешкод на об’єкті.</p>
+            <button class="btn btn-primary" type="button" id="send-calculation">Надіслати розрахунок у Telegram <svg><use href="#i-send"/></svg></button>
+            <button class="btn calc-proposal-btn" type="button" id="download-proposal">Отримати комерційну пропозицію <svg><use href="#i-arrow"/></svg></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quiz-section" id="quiz">
+      <div class="container quiz-layout">
+        <div class="quiz-copy reveal">
+          <span class="section-kicker">Розрахунок за 1 хвилину</span>
+          <h2>Підберемо систему під вашу задачу</h2>
+          <p>Дайте відповідь на чотири короткі запитання. Ми отримаємо технічне завдання і запропонуємо відповідний комплект.</p>
+          <div class="quiz-trust"><span><svg><use href="#i-check"/></svg>Безкоштовно</span><span><svg><use href="#i-check"/></svg>Без нав’язливих дзвінків</span></div>
+        </div>
+        <form class="quiz-card reveal" id="security-quiz">
+          <div class="quiz-progress"><span id="quiz-progress-bar"></span></div>
+          <div class="quiz-meta"><span>Крок <b id="quiz-current">1</b> з 5</span><small id="quiz-percent">20%</small></div>
+
+          <fieldset class="quiz-step active" data-quiz-step="1">
+            <legend>Який об’єкт потрібно захистити?</legend>
+            <div class="quiz-options quiz-options-grid">
+              <label><input type="radio" name="quizObject" value="Приватний будинок"><span><svg><use href="#i-home"/></svg>Приватний будинок</span></label>
+              <label><input type="radio" name="quizObject" value="Квартира"><span><svg><use href="#i-door"/></svg>Квартира</span></label>
+              <label><input type="radio" name="quizObject" value="Магазин / кафе"><span><svg><use href="#i-shop"/></svg>Магазин / кафе</span></label>
+              <label><input type="radio" name="quizObject" value="Склад / СТО"><span><svg><use href="#i-box"/></svg>Склад / СТО</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="quiz-step" data-quiz-step="2">
+            <legend>Скільки камер орієнтовно потрібно?</legend>
+            <div class="quiz-options">
+              <label><input type="radio" name="quizCameras" value="Не знаю — потрібна консультація"><span>Не знаю — потрібна консультація</span></label>
+              <label><input type="radio" name="quizCameras" value="1–2 камери"><span>1–2 камери</span></label>
+              <label><input type="radio" name="quizCameras" value="3–4 камери"><span>3–4 камери</span></label>
+              <label><input type="radio" name="quizCameras" value="5–8 камер"><span>5–8 камер</span></label>
+              <label><input type="radio" name="quizCameras" value="9 і більше"><span>9 і більше</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="quiz-step" data-quiz-step="3">
+            <legend>Чи потрібне кольорове нічне бачення?</legend>
+            <div class="quiz-options">
+              <label><input type="radio" name="quizNight" value="Так, важлива деталізація вночі"><span>Так, важлива деталізація вночі</span></label>
+              <label><input type="radio" name="quizNight" value="Достатньо стандартного ІЧ-підсвічування"><span>Достатньо стандартного ІЧ-підсвічування</span></label>
+              <label><input type="radio" name="quizNight" value="Потрібна порада"><span>Потрібна порада спеціаліста</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="quiz-step" data-quiz-step="4">
+            <legend>Чи потрібен перегляд з телефону?</legend>
+            <div class="quiz-options">
+              <label><input type="radio" name="quizPhoneView" value="Так, потрібен віддалений перегляд"><span>Так, потрібен віддалений перегляд</span></label>
+              <label><input type="radio" name="quizPhoneView" value="Ні, тільки локальний запис"><span>Ні, тільки локальний запис</span></label>
+              <label><input type="radio" name="quizPhoneView" value="Ще не вирішив"><span>Ще не вирішив</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="quiz-step" data-quiz-step="5">
+            <legend>Куди надіслати попередній розрахунок?</legend>
+            <div class="quiz-contact-fields">
+              <label>Ваше ім’я<input type="text" name="quizName" placeholder="Як до вас звертатися?"></label>
+              <label>Номер телефону<input type="tel" name="quizContact" placeholder="+380 __ ___ __ __"></label>
+            </div>
+            <p>Після натискання відкриється Telegram із заповненою заявкою.</p>
+          </fieldset>
+
+          <p class="quiz-error" id="quiz-error" role="alert"></p>
+          <div class="quiz-nav">
+            <button class="quiz-back" type="button" id="quiz-back" disabled>Назад</button>
+            <button class="btn btn-primary" type="button" id="quiz-next">Далі <svg><use href="#i-arrow"/></svg></button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section request-section" id="request">
+      <div class="container request-layout">
+        <div class="request-copy reveal">
+          <span class="section-kicker">Безкоштовна консультація</span>
+          <h2>Розкажіть про ваш об’єкт — запропонуємо оптимальне рішення</h2>
+          <p>Заповніть коротку форму. Після натискання відкриється Telegram або WhatsApp із готовим текстом заявки.</p>
+          <ul>
+            <li><svg><use href="#i-check"/></svg> Попередній підбір безкоштовно</li>
+            <li><svg><use href="#i-check"/></svg> Врахуємо умови та ваш бюджет</li>
+            <li><svg><use href="#i-check"/></svg> Без нав’язування зайвого обладнання</li>
+          </ul>
+        </div>
+        <form class="request-form reveal" id="lead-form">
+          <div class="form-head"><h3>Отримати консультацію</h3><span>Відповімо у робочий час</span></div>
+          <label>Ваше ім’я<input type="text" name="name" placeholder="Як до вас звертатися?" required></label>
+          <label>Номер телефону<input type="tel" name="phone" placeholder="+380 __ ___ __ __" required></label>
+          <label>Тип об’єкта
+            <select name="object" required>
+              <option value="" selected disabled>Оберіть варіант</option>
+              <option>Приватний будинок</option><option>Квартира</option><option>Магазин</option>
+              <option>Кафе</option><option>Офіс</option><option>СТО</option><option>Склад</option><option>Інший об’єкт</option>
+            </select>
+          </label>
+          <label>Коментар<textarea name="comment" rows="3" placeholder="Що потрібно захистити?"></textarea></label>
+          <div class="submit-row">
+            <button class="btn btn-primary" type="submit" data-channel="telegram">Надіслати в Telegram <svg><use href="#i-send"/></svg></button>
+            <button class="messenger-btn" type="submit" data-channel="whatsapp" aria-label="Надіслати у WhatsApp">WA</button>
+          </div>
+          <p class="form-note">Натискаючи кнопку, ви погоджуєтесь на обробку даних для зв’язку з вами.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="container faq-layout">
+        <div class="faq-title reveal"><span class="section-kicker">FAQ</span><h2>Часті запитання</h2><p>Коротко відповідаємо на те, що важливо знати до встановлення системи.</p></div>
+        <div class="faq-list">
+          <details class="faq-item reveal"><summary>Скільки коштує система відеоспостереження?<span></span></summary><p>Вартість залежить від кількості камер, якості зображення, глибини архіву та умов монтажу. Після короткого уточнення задачі ми запропонуємо кілька варіантів під ваш бюджет.</p></details>
+          <details class="faq-item reveal"><summary>Чи можна дивитися камери з телефону?<span></span></summary><p>Так. Налаштуємо захищений віддалений доступ через застосунок на Android або iOS та покажемо, як ним користуватися.</p></details>
+          <details class="faq-item reveal"><summary>Чи працюватимуть камери без світла?<span></span></summary><p>Так, якщо передбачити UPS або інше резервне живлення. Ми розрахуємо потрібну потужність і час автономної роботи.</p></details>
+          <details class="faq-item reveal"><summary>Ви працюєте по всій Україні?<span></span></summary><p>Так. Виконуємо підбір, продаж обладнання, дистанційне налаштування й технічний супровід по Україні. Можливість монтажу уточнюється для вашого міста.</p></details>
+          <details class="faq-item reveal"><summary>Чи можна модернізувати наявну систему?<span></span></summary><p>У більшості випадків — так. Перевіримо сумісність камер, реєстратора, кабелів і живлення та запропонуємо, що варто залишити або замінити.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reviews-section" id="reviews">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><span class="section-kicker">Відгуки</span><h2>Що важливо нашим клієнтам</h2></div>
+          <p>Нижче — демонстраційні приклади оформлення. Перед публікацією замініть їх перевіреними відгуками реальних клієнтів.</p>
+        </div>
+        <div class="reviews-grid">
+          <article class="review-card reveal"><span class="review-label">Приклад відгуку</span><div class="stars">★★★★★</div><p>«Пояснили різницю між комплектами, підібрали рішення без зайвих камер і налаштували перегляд на телефоні.»</p><div><b>Олександр</b><small>Приватний будинок</small></div></article>
+          <article class="review-card reveal"><span class="review-label">Приклад відгуку</span><div class="stars">★★★★★</div><p>«Система працює стабільно навіть під час відключень. Окремо вдячні за порядок у шафі та зрозумілу інструкцію.»</p><div><b>Марина</b><small>Магазин</small></div></article>
+          <article class="review-card reveal"><span class="review-label">Приклад відгуку</span><div class="stars">★★★★★</div><p>«Швидко знайшли проблему у старій системі, частину обладнання залишили й допомогли не переплачувати.»</p><div><b>Андрій</b><small>СТО</small></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="container final-cta-inner reveal">
+        <div><span>Потрібна порада?</span><h2>Напишіть «КАМЕРА» — безкоштовно підберемо рішення</h2></div>
+        <a class="btn btn-primary js-telegram" href="#request">Написати зараз <svg><use href="#i-send"/></svg></a>
+      </div>
+    </section>
+  </main>
+
+  <a class="calc-fab" href="#calculator" aria-label="Відкрити калькулятор вартості">
+    <svg><use href="#i-camera"/></svg>
+    <span><b>Калькулятор</b><small>Розрахувати вартість</small></span>
+  </a>
+
+  <div class="messenger-dock" aria-label="Швидкий зв’язок">
+    <a class="dock-link dock-telegram js-telegram" href="#" aria-label="Написати в Telegram">TG</a>
+    <a class="dock-link dock-messenger js-messenger" href="#" aria-label="Написати в Messenger">M</a>
+    <a class="dock-link dock-viber js-viber" href="#" aria-label="Написати у Viber">V</a>
+    <a class="dock-link dock-whatsapp js-whatsapp" href="#" aria-label="Написати у WhatsApp">WA</a>
+  </div>
+  <a class="mobile-call js-phone" href="tel:+380000000000"><svg><use href="#i-phone"/></svg>Подзвонити</a>
+
+  <footer class="footer" id="contacts">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="#top"><img class="brand-logo-img" src="assets/alt-cam-mark.png" alt="" width="48" height="58"><span>ALT-CAM <small>SECURITY UA</small></span></a>
+        <p>Сучасні рішення для безпеки дому та бізнесу в Україні.</p>
+      </div>
+      <div class="footer-links"><h3>Навігація</h3><a href="#services">Послуги</a><a href="#audience">Для кого</a><a href="#process">Як працюємо</a><a href="#faq">FAQ</a></div>
+      <div class="footer-links"><h3>Послуги</h3><a href="#services">Відеоспостереження</a><a href="#services">Домофонія</a><a href="#services">Контроль доступу</a><a href="#services">Резервне живлення</a></div>
+      <div class="footer-contacts"><h3>Контакти</h3><a class="js-phone" href="tel:+380000000000">+380 (00) 000-00-00</a><a class="js-email" href="mailto:info@alt-cam.ua">info@alt-cam.ua</a><div class="socials"><a class="js-telegram" href="#" aria-label="Telegram">TG</a><a class="js-facebook" href="#" aria-label="Facebook">f</a><a class="js-instagram" href="#" aria-label="Instagram">ig</a><a class="js-tiktok" href="#" aria-label="TikTok">tt</a></div></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Alt-Cam Security UA. Усі права захищено.</span><a href="#top">Нагору ↑</a></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
