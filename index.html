@@ -296,73 +296,57 @@
 
         <div class="calculator-shell calc-panel active reveal" data-calc-panel="video">
           <form class="calculator-form" id="security-calculator">
-            <div class="calc-form-title"><span>01</span><div><h3>Параметри об’єкта</h3><p>Змініть дані — результат оновиться автоматично.</p></div></div>
+            <div class="calc-form-title"><span>01</span><div><h3>Склад IP-відеоспостереження</h3><p>Hikvision / Dahua, обладнання та монтаж.</p></div></div>
 
-            <label>Тип об’єкта
-              <select name="calcType">
-                <option value="building">Приватний будинок / приміщення</option>
-                <option value="yard">Двір / відкрита територія</option>
-                <option value="commerce">Магазин / кафе / офіс</option>
-                <option value="warehouse">Склад / СТО</option>
-              </select>
-            </label>
-
-            <div class="calc-fields-row">
-              <label>Довжина плану, м
-                <input type="number" name="calcLength" min="3" max="500" step="1" value="12">
+            <div class="calc-fields-row calc-fields-three">
+              <label>Внутрішні купольні
+                <input type="number" name="videoIndoor" min="0" max="64" step="1" value="2">
               </label>
-              <label>Ширина плану, м
-                <input type="number" name="calcWidth" min="3" max="500" step="1" value="10">
+              <label>Вуличні циліндричні
+                <input type="number" name="videoOutdoor" min="0" max="64" step="1" value="2">
+              </label>
+              <label>Поворотні PTZ
+                <input type="number" name="videoPtz" min="0" max="16" step="1" value="0">
               </label>
             </div>
 
-            <label class="range-label">Висота монтажу: <strong><output id="height-output">3,0 м</output></strong>
-              <input type="range" name="calcHeight" min="2" max="12" step="0.5" value="3">
-              <span class="range-scale"><i>2 м</i><i>12 м</i></span>
-            </label>
-
             <div class="calc-fields-row">
-              <label>Якість зображення
-                <select name="calcQuality">
-                  <option value="2mp">2 Мп — базова</option>
-                  <option value="4mp" selected>4 Мп — оптимальна</option>
-                  <option value="8mp">8 Мп — максимальна деталізація</option>
+              <label>Відеореєстратор NVR
+                <select name="videoNvr">
+                  <option value="4">4 канали — 1 800 грн</option>
+                  <option value="8" selected>8 каналів — 3 200 грн</option>
+                  <option value="16">16 каналів — 5 400 грн</option>
                 </select>
               </label>
-              <label>Глибина архіву
-                <select name="calcArchive">
-                  <option value="7">7 днів</option>
-                  <option value="14" selected>14 днів</option>
-                  <option value="30">30 днів</option>
+              <label>Жорсткий диск WD Purple
+                <select name="videoHdd">
+                  <option value="1">1 ТБ — 2 400 грн</option>
+                  <option value="2" selected>2 ТБ — 3 500 грн</option>
+                  <option value="4">4 ТБ — 5 200 грн</option>
                 </select>
               </label>
             </div>
 
             <label class="calc-check">
-              <input type="checkbox" name="calcUps" checked>
-              <span><b>Додати резервне живлення</b><small>Робота системи під час відключень</small></span>
+              <input type="checkbox" name="videoInstall" checked>
+              <span><b>Професійний монтаж і пусконалагодження</b><small>Монтаж камер, NVR, портів і мобільного застосунку</small></span>
             </label>
           </form>
 
           <div class="calculator-result" aria-live="polite">
             <div class="calc-result-head">
-              <div><span>Орієнтовний бюджет</span><strong id="calc-total">—</strong></div>
-              <span class="calc-area"><b id="calc-area">120</b> м²</span>
+              <div><span>Повна вартість проєкту</span><strong id="calc-total">—</strong></div>
+              <span class="calc-area"><b id="calc-camera-count">4</b> камер</span>
             </div>
 
             <div class="calc-result-list">
-              <div><span><svg><use href="#i-camera"/></svg> Камери</span><strong id="calc-cameras">—</strong></div>
-              <div><span><svg><use href="#i-box"/></svg> Реєстратор</span><strong id="calc-recorder">—</strong></div>
-              <div><span><svg><use href="#i-tools"/></svg> Кабель</span><strong id="calc-cable">—</strong></div>
-              <div><span><svg><use href="#i-battery"/></svg> Жорсткий диск</span><strong id="calc-storage">—</strong></div>
+              <div><span><svg><use href="#i-camera"/></svg> Камери</span><strong id="calc-cameras-price">—</strong></div>
+              <div><span><svg><use href="#i-box"/></svg> NVR + жорсткий диск</span><strong id="calc-central-price">—</strong></div>
+              <div><span><svg><use href="#i-tools"/></svg> Кріплення та витратні матеріали</span><strong id="calc-materials-price">—</strong></div>
+              <div><span><svg><use href="#i-check"/></svg> Інсталяція під ключ</span><strong id="calc-install-price">—</strong></div>
             </div>
 
-            <div class="calc-cost-split">
-              <div><span>Обладнання</span><strong id="calc-equipment">—</strong></div>
-              <div><span>Монтаж і налаштування</span><strong id="calc-work">—</strong></div>
-            </div>
-
-            <p class="calc-note" id="calc-note">Попередній автоматичний розрахунок. Точна кількість камер залежить від зон огляду, освітлення та перешкод на об’єкті.</p>
+            <p class="calc-note" id="calc-note">Витратні матеріали включають кабель, RJ-45, гермокоробки, дюбелі, стяжки, ізоляцію та патч-корди.</p>
             <button class="btn btn-primary" type="button" id="send-calculation">Надіслати розрахунок у Telegram <svg><use href="#i-send"/></svg></button>
             <button class="btn calc-proposal-btn" type="button" id="download-proposal">Отримати комерційну пропозицію <svg><use href="#i-arrow"/></svg></button>
           </div>
@@ -370,106 +354,99 @@
 
         <div class="calculator-shell calc-panel" data-calc-panel="power">
           <form class="calculator-form" id="power-calculator">
-            <div class="calc-form-title"><span>02</span><div><h3>Резервне живлення</h3><p>Освітлення та частина основного обладнання.</p></div></div>
+            <div class="calc-form-title"><span>02</span><div><h3>АКБ та інвертор</h3><p>Електротехнічний розрахунок автономності.</p></div></div>
 
-            <div class="calc-fields-row">
-              <label>Тип об’єкта
-                <select name="powerType">
-                  <option value="apartment">Квартира</option>
-                  <option value="house" selected>Приватний будинок</option>
-                  <option value="office">Офіс</option>
-                </select>
-              </label>
-              <label>Площа, м²
-                <input type="number" name="powerArea" min="20" max="2000" step="10" value="120">
-              </label>
-            </div>
-
-            <label class="range-label">Потрібна автономність: <strong><output id="power-hours-output">4 год</output></strong>
-              <input type="range" name="powerHours" min="2" max="12" step="1" value="4">
-              <span class="range-scale"><i>2 год</i><i>12 год</i></span>
+            <label>Потужність навантаження, Вт
+              <input type="number" name="powerLoad" min="10" max="30000" step="10" value="150">
             </label>
 
-            <div class="power-load-title">Що повинно працювати</div>
-            <div class="power-load-grid">
-              <label class="calc-check"><input type="checkbox" name="powerLights" checked><span><b>Освітлення</b><small>LED у основних зонах</small></span></label>
-              <label class="calc-check"><input type="checkbox" name="powerRouter" checked><span><b>Інтернет</b><small>Роутер та ONU</small></span></label>
-              <label class="calc-check"><input type="checkbox" name="powerFridge" checked><span><b>Холодильник</b><small>З урахуванням пуску</small></span></label>
-              <label class="calc-check"><input type="checkbox" name="powerHeating"><span><b>Насос опалення</b><small>Котел і циркуляція</small></span></label>
-              <label class="calc-check"><input type="checkbox" name="powerCctv" checked><span><b>Відеоспостереження</b><small>Камери, NVR, мережа</small></span></label>
-              <label class="calc-check"><input type="checkbox" name="powerWorkplace" checked><span><b>Робоче місце</b><small>Ноутбук або ПК</small></span></label>
+            <div class="calc-fields-row calc-fields-three">
+              <label>Напруга системи
+                <select name="powerVoltage">
+                  <option value="12">12 V</option>
+                  <option value="24" selected>24 V</option>
+                  <option value="48">48 V</option>
+                </select>
+              </label>
+              <label>Ємність одного АКБ, А·год
+                <input type="number" name="powerAh" min="7" max="500" step="1" value="100">
+              </label>
+              <label>Кількість АКБ
+                <input type="number" name="powerCount" min="1" max="32" step="1" value="2">
+              </label>
             </div>
+
+            <label>Тип акумулятора / безпечний розряд
+              <select name="powerBatteryType">
+                <option value="0.9">LiFePO₄ — DOD 90%</option>
+                <option value="0.7">Gel / AGM — DOD 70%</option>
+                <option value="0.5">Автомобільний стартерний — DOD 50%</option>
+              </select>
+            </label>
+
+            <label>ККД інвертора
+              <select name="powerEfficiency">
+                <option value="0.92">Чиста синусоїда — 92%</option>
+                <option value="0.85">Бюджетний інвертор — 85%</option>
+              </select>
+            </label>
           </form>
 
           <div class="calculator-result" aria-live="polite">
             <div class="calc-result-head">
-              <div><span>Орієнтовний бюджет</span><strong id="power-total">—</strong></div>
-              <span class="calc-area"><b id="power-load">—</b> навантаження</span>
+              <div><span>Автономна робота</span><strong id="power-runtime-main">—</strong></div>
+              <span class="calc-area"><b id="power-load">150 Вт</b> навантаження</span>
             </div>
             <div class="calc-result-list">
-              <div><span><svg><use href="#i-battery"/></svg> Інвертор</span><strong id="power-inverter">—</strong></div>
-              <div><span><svg><use href="#i-battery"/></svg> Акумулятор LiFePO₄</span><strong id="power-battery">—</strong></div>
-              <div><span><svg><use href="#i-check"/></svg> Розрахункова автономність</span><strong id="power-runtime">—</strong></div>
-              <div><span><svg><use href="#i-tools"/></svg> Захист і підключення</span><strong>У комплекті</strong></div>
+              <div><span><svg><use href="#i-battery"/></svg> Загальний запас енергії</span><strong id="power-capacity">—</strong></div>
+              <div><span><svg><use href="#i-check"/></svg> Доступна корисна енергія</span><strong id="power-effective">—</strong></div>
+              <div><span><svg><use href="#i-battery"/></svg> Безпечна глибина розряду</span><strong id="power-dod">—</strong></div>
+              <div><span><svg><use href="#i-tools"/></svg> Втрати інвертора</span><strong id="power-loss">—</strong></div>
             </div>
-            <div class="calc-cost-split">
-              <div><span>Обладнання</span><strong id="power-equipment">—</strong></div>
-              <div><span>Монтаж і запуск</span><strong id="power-work">—</strong></div>
-            </div>
-            <p class="calc-note">Розрахунок не включає електроплиту, бойлер, кондиціонер та інші потужні нагрівачі. Для них потрібен окремий проєкт.</p>
+            <p class="calc-note">Реальний час може відрізнятися через температуру, вік АКБ, пускові струми та фактичний профіль навантаження.</p>
             <button class="btn btn-primary" type="button" id="send-power-calculation">Надіслати розрахунок у Telegram <svg><use href="#i-send"/></svg></button>
           </div>
         </div>
 
         <div class="calculator-shell calc-panel" data-calc-panel="ajax">
           <form class="calculator-form" id="ajax-calculator">
-            <div class="calc-form-title"><span>03</span><div><h3>Ajax та комплексна безпека</h3><p>Охорона, пожежа, протікання й керування.</p></div></div>
+            <div class="calc-form-title"><span>03</span><div><h3>Ajax, СКУД та домофонія</h3><p>Точний склад обладнання й інсталяції.</p></div></div>
 
-            <div class="calc-fields-row">
-              <label>Тип об’єкта
-                <select name="ajaxType">
-                  <option value="apartment">Квартира</option>
-                  <option value="house" selected>Приватний будинок</option>
-                  <option value="office">Офіс / магазин</option>
-                  <option value="warehouse">Склад / СТО</option>
-                </select>
-              </label>
-              <label>Площа, м²
-                <input type="number" name="ajaxArea" min="20" max="5000" step="10" value="120">
-              </label>
-            </div>
-
+            <div class="power-load-title">Бездротова сигналізація Ajax</div>
+            <label class="calc-check"><input type="checkbox" name="ajaxHub" checked><span><b>Ajax Hub 2</b><small>Централь системи — 5 100 грн</small></span></label>
             <div class="calc-fields-row calc-fields-three">
-              <label>Поверхів<input type="number" name="ajaxFloors" min="1" max="10" value="2"></label>
-              <label>Вхідних дверей<input type="number" name="ajaxDoors" min="1" max="30" value="2"></label>
-              <label>Вікон<input type="number" name="ajaxWindows" min="0" max="100" value="8"></label>
+              <label>MotionProtect
+                <input type="number" name="ajaxMotion" min="0" max="100" value="3">
+              </label>
+              <label>DoorProtect
+                <input type="number" name="ajaxDoor" min="0" max="100" value="2">
+              </label>
+              <label>LeaksProtect
+                <input type="number" name="ajaxLeaks" min="0" max="50" value="1">
+              </label>
             </div>
 
-            <div class="power-load-title">Додатковий захист</div>
+            <div class="power-load-title">СКУД та IP-домофон</div>
             <div class="power-load-grid">
-              <label class="calc-check"><input type="checkbox" name="ajaxFire" checked><span><b>Пожежні датчики</b><small>Дим і температура</small></span></label>
-              <label class="calc-check"><input type="checkbox" name="ajaxLeaks" checked><span><b>Захист від протікання</b><small>Кухня та санвузли</small></span></label>
-              <label class="calc-check"><input type="checkbox" name="ajaxKeypad" checked><span><b>Клавіатура</b><small>Постановка без телефону</small></span></label>
-              <label class="calc-check"><input type="checkbox" name="ajaxSiren" checked><span><b>Сирена</b><small>Гучне сповіщення</small></span></label>
+              <label class="calc-check"><input type="checkbox" name="accessLock"><span><b>Замок Yli 300 кг</b><small>Електромагнітний — 2 100 грн</small></span></label>
+              <label class="calc-check"><input type="checkbox" name="accessController"><span><b>Контролер + зчитувач</b><small>Мережевий комплект — 3 600 грн</small></span></label>
+              <label class="calc-check"><input type="checkbox" name="accessIntercom"><span><b>IP-домофон Hikvision</b><small>Монітор + панель — 8 900 грн</small></span></label>
+              <label class="calc-check"><input type="checkbox" name="securityInstall" checked><span><b>Монтаж і програмування</b><small>З витратними матеріалами</small></span></label>
             </div>
           </form>
 
           <div class="calculator-result" aria-live="polite">
             <div class="calc-result-head">
-              <div><span>Орієнтовний бюджет</span><strong id="ajax-total">—</strong></div>
-              <span class="calc-area"><b id="ajax-devices">—</b> пристроїв</span>
+              <div><span>Повна вартість комплексу</span><strong id="ajax-total">—</strong></div>
+              <span class="calc-area"><b id="ajax-devices">—</b> компонентів</span>
             </div>
             <div class="calc-result-list">
-              <div><span><svg><use href="#i-key"/></svg> Централь Ajax</span><strong id="ajax-hub">—</strong></div>
-              <div><span><svg><use href="#i-home"/></svg> Датчики руху</span><strong id="ajax-motion">—</strong></div>
-              <div><span><svg><use href="#i-door"/></svg> Двері та вікна</span><strong id="ajax-opening">—</strong></div>
-              <div><span><svg><use href="#i-check"/></svg> Пожежа / протікання</span><strong id="ajax-safety">—</strong></div>
+              <div><span><svg><use href="#i-key"/></svg> Обладнання Ajax</span><strong id="ajax-equipment-price">—</strong></div>
+              <div><span><svg><use href="#i-door"/></svg> СКУД, домофонія та ББЖ</span><strong id="access-equipment-price">—</strong></div>
+              <div><span><svg><use href="#i-tools"/></svg> Кабелі, короби та кріплення</span><strong id="security-materials-price">—</strong></div>
+              <div><span><svg><use href="#i-check"/></svg> Монтаж і пусконалагодження</span><strong id="security-work-price">—</strong></div>
             </div>
-            <div class="calc-cost-split">
-              <div><span>Обладнання</span><strong id="ajax-equipment">—</strong></div>
-              <div><span>Монтаж і налаштування</span><strong id="ajax-work">—</strong></div>
-            </div>
-            <p class="calc-note">Фінальний склад залежить від планування, матеріалів стін, домашніх тварин і сценаріїв автоматизації.</p>
+            <p class="calc-note">При виборі замка або контролера ББЖ 12 В з АКБ 7 А·год додається автоматично.</p>
             <button class="btn btn-primary" type="button" id="send-ajax-calculation">Надіслати розрахунок у Telegram <svg><use href="#i-send"/></svg></button>
           </div>
         </div>

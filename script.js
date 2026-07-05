@@ -230,6 +230,8 @@ function nextDiskSize(requiredTb) {
 }
 
 function calculateSecuritySystem() {
+  return calculateSecuritySystemExact();
+  /* Попередня площинна модель залишена нижче для історії версій. */
   const data = new FormData(calculator);
   const type = data.get("calcType");
   const length = Math.max(3, Number(data.get("calcLength")) || 3);
@@ -316,6 +318,70 @@ function calculateSecuritySystem() {
   document.querySelector("#calc-work").textContent = `≈ ${money(work)}`;
 }
 
+function calculateSecuritySystemExact() {
+  const data = new FormData(calculator);
+  const indoor = Math.max(0, Number(data.get("videoIndoor")) || 0);
+  const outdoor = Math.max(0, Number(data.get("videoOutdoor")) || 0);
+  const ptz = Math.max(0, Number(data.get("videoPtz")) || 0);
+  const nvrChannels = Number(data.get("videoNvr"));
+  const hddTb = Number(data.get("videoHdd"));
+  const includeInstall = data.get("videoInstall") === "on";
+  const nvrPrices = { 4: 1800, 8: 3200, 16: 5400 };
+  const hddPrices = { 1: 2400, 2: 3500, 4: 5200 };
+  const cameras = indoor + outdoor + ptz;
+  const cameraPrice = indoor * 1450 + outdoor * 1950 + ptz * 4200;
+  const centralPrice = nvrPrices[nvrChannels] + hddPrices[hddTb];
+  const materials = indoor * 450 + outdoor * 650 + ptz * 700 + 400;
+  const installation = includeInstall
+    ? indoor * 750 + outdoor * 950 + ptz * 1500 + 1200
+    : 0;
+  const total = cameraPrice + centralPrice + materials + installation;
+  const channelWarning = cameras > nvrChannels
+    ? ` Увага: обраний NVR має ${nvrChannels} каналів для ${cameras} камер.`
+    : "";
+
+  calcState.message = [
+    "Точний розрахунок IP-відеоспостереження Alt-Cam",
+    "",
+    `Внутрішні купольні камери: ${indoor} шт.`,
+    `Вуличні циліндричні камери: ${outdoor} шт.`,
+    `Поворотні PTZ: ${ptz} шт.`,
+    `NVR: ${nvrChannels} каналів`,
+    `WD Purple: ${hddTb} ТБ`,
+    "",
+    `Камери: ${money(cameraPrice)}`,
+    `Центральний вузол: ${money(centralPrice)}`,
+    `Витратні матеріали: ${money(materials)}`,
+    `Монтаж і налаштування: ${money(installation)}`,
+    `Загальна вартість: ${money(total)}`,
+    channelWarning.trim(),
+    "",
+    "Хочу уточнити цей розрахунок."
+  ].filter(Boolean).join("\n");
+  calcState.quote = {
+    indoor,
+    outdoor,
+    ptz,
+    cameras,
+    nvrChannels,
+    hddTb,
+    cameraPrice,
+    centralPrice,
+    materials,
+    installation,
+    total
+  };
+
+  document.querySelector("#calc-total").textContent = money(total);
+  document.querySelector("#calc-camera-count").textContent = cameras;
+  document.querySelector("#calc-cameras-price").textContent = money(cameraPrice);
+  document.querySelector("#calc-central-price").textContent = money(centralPrice);
+  document.querySelector("#calc-materials-price").textContent = money(materials);
+  document.querySelector("#calc-install-price").textContent = money(installation);
+  document.querySelector("#calc-note").textContent =
+    `Витратні матеріали включають кабель, RJ-45, гермокоробки, кріплення та патч-корди.${channelWarning}`;
+}
+
 calculator.addEventListener("input", calculateSecuritySystem);
 calculator.addEventListener("change", calculateSecuritySystem);
 document.querySelector("#send-calculation").addEventListener("click", () => {
@@ -344,21 +410,18 @@ document.querySelector("#download-proposal").addEventListener("click", () => {
   <header><div><h1>Комерційна пропозиція</h1><div class="muted">Попередній розрахунок системи відеоспостереження</div></div><div class="brand">ALT-CAM <span>SECURITY UA</span></div></header>
   <div class="muted">Сформовано: ${today}</div>
   <div class="grid">
-    <div class="item"><span>Об’єкт</span><strong>${quote.object}</strong></div>
-    <div class="item"><span>Площа</span><strong>${quote.area} м² (${quote.dimensions})</strong></div>
-    <div class="item"><span>Висота монтажу</span><strong>${quote.height}</strong></div>
-    <div class="item"><span>Якість і архів</span><strong>${quote.quality}, ${quote.archiveDays} днів</strong></div>
+    <div class="item"><span>Внутрішні камери</span><strong>${quote.indoor} шт.</strong></div>
+    <div class="item"><span>Вуличні камери</span><strong>${quote.outdoor} шт.</strong></div>
+    <div class="item"><span>Поворотні PTZ</span><strong>${quote.ptz} шт.</strong></div>
+    <div class="item"><span>Центральний вузол</span><strong>NVR ${quote.nvrChannels} каналів, HDD ${quote.hddTb} ТБ</strong></div>
   </div>
   <table>
-    <tr><td>Камери</td><td>${quote.cameras} шт.</td></tr>
-    <tr><td>Реєстратор</td><td>${quote.recorderChannels} каналів</td></tr>
-    <tr><td>Кабель</td><td>≈ ${quote.cable} м</td></tr>
-    <tr><td>Жорсткий диск</td><td>${quote.storageTb} ТБ</td></tr>
-    <tr><td>Резервне живлення</td><td>${quote.includeUps ? "Включено" : "Не включено"}</td></tr>
-    <tr><td>Обладнання</td><td>≈ ${money(quote.equipment)}</td></tr>
-    <tr><td>Монтаж і налаштування</td><td>≈ ${money(quote.work)}</td></tr>
+    <tr><td>IP-камери</td><td>${money(quote.cameraPrice)}</td></tr>
+    <tr><td>NVR + WD Purple</td><td>${money(quote.centralPrice)}</td></tr>
+    <tr><td>Кріплення та витратні матеріали</td><td>${money(quote.materials)}</td></tr>
+    <tr><td>Монтаж і пусконалагодження</td><td>${money(quote.installation)}</td></tr>
   </table>
-  <div class="total"><span>Орієнтовний бюджет</span><strong>${money(quote.low)} — ${money(quote.high)}</strong></div>
+  <div class="total"><span>Загальна вартість</span><strong>${money(quote.total)}</strong></div>
   <footer>Цей документ є попереднім автоматичним розрахунком і не є публічною офертою. Точна конфігурація та вартість визначаються після уточнення зон огляду й умов монтажу.</footer>
   <button class="print" onclick="window.print()">Зберегти як PDF / Друкувати</button>
   </body></html>`);
@@ -397,6 +460,8 @@ function nextBatterySize(requiredKwh) {
 }
 
 function calculateBackupPower() {
+  return calculateBackupPowerExact();
+  /* Попередня модель підбору комплекту залишена нижче для історії версій. */
   const data = new FormData(powerCalculator);
   const type = data.get("powerType");
   const area = Math.max(20, Number(data.get("powerArea")) || 20);
@@ -458,6 +523,59 @@ function calculateBackupPower() {
   document.querySelector("#power-work").textContent = `≈ ${money(work)}`;
 }
 
+function formatRuntime(hoursValue) {
+  let hours = Math.floor(hoursValue);
+  let minutes = Math.round((hoursValue - hours) * 60);
+  if (minutes === 60) {
+    hours += 1;
+    minutes = 0;
+  }
+  return `${hours} год. ${String(minutes).padStart(2, "0")} хв.`;
+}
+
+function calculateBackupPowerExact() {
+  const data = new FormData(powerCalculator);
+  const load = Math.max(1, Number(data.get("powerLoad")) || 1);
+  const voltage = Number(data.get("powerVoltage"));
+  const capacityAh = Math.max(1, Number(data.get("powerAh")) || 1);
+  const batteryCount = Math.max(1, Number(data.get("powerCount")) || 1);
+  const dod = Number(data.get("powerBatteryType"));
+  const efficiency = Number(data.get("powerEfficiency"));
+  const totalCapacityKwh = capacityAh * voltage * batteryCount / 1000;
+  const effectiveWh = capacityAh * voltage * batteryCount * dod * efficiency;
+  const runtimeHours = effectiveWh / load;
+  const runtimeText = formatRuntime(runtimeHours);
+  const batteryLabel = powerCalculator.elements.powerBatteryType.options[
+    powerCalculator.elements.powerBatteryType.selectedIndex
+  ].text;
+  const inverterLabel = powerCalculator.elements.powerEfficiency.options[
+    powerCalculator.elements.powerEfficiency.selectedIndex
+  ].text;
+
+  powerState.message = [
+    "Електротехнічний розрахунок резервного живлення Alt-Cam",
+    "",
+    `Навантаження: ${load} Вт`,
+    `Система: ${voltage} V`,
+    `Акумулятори: ${batteryCount} × ${capacityAh} А·год`,
+    `Тип АКБ: ${batteryLabel}`,
+    `Інвертор: ${inverterLabel}`,
+    "",
+    `Загальний запас: ${totalCapacityKwh.toFixed(2)} кВт·год`,
+    `Доступна енергія: ${Math.round(effectiveWh)} Вт·год`,
+    `Час автономної роботи: ${runtimeText}`,
+    "",
+    "Потрібен підбір сумісного інвертора та акумуляторів."
+  ].join("\n");
+
+  document.querySelector("#power-runtime-main").textContent = runtimeText;
+  document.querySelector("#power-load").textContent = `${load} Вт`;
+  document.querySelector("#power-capacity").textContent = `${totalCapacityKwh.toFixed(2)} кВт·год`;
+  document.querySelector("#power-effective").textContent = `${Math.round(effectiveWh)} Вт·год`;
+  document.querySelector("#power-dod").textContent = `${Math.round(dod * 100)}%`;
+  document.querySelector("#power-loss").textContent = `${Math.round((1 - efficiency) * 100)}%`;
+}
+
 powerCalculator.addEventListener("input", calculateBackupPower);
 powerCalculator.addEventListener("change", calculateBackupPower);
 document.querySelector("#send-power-calculation").addEventListener("click", () => {
@@ -470,6 +588,8 @@ const ajaxCalculator = document.querySelector("#ajax-calculator");
 const ajaxState = {};
 
 function calculateAjaxSystem() {
+  return calculateAjaxAccessExact();
+  /* Попередня площинна модель залишена нижче для історії версій. */
   const data = new FormData(ajaxCalculator);
   const type = data.get("ajaxType");
   const area = Math.max(20, Number(data.get("ajaxArea")) || 20);
@@ -534,6 +654,75 @@ function calculateAjaxSystem() {
   document.querySelector("#ajax-safety").textContent = `${fire} / ${leaks} шт.`;
   document.querySelector("#ajax-equipment").textContent = `≈ ${money(equipment)}`;
   document.querySelector("#ajax-work").textContent = `≈ ${money(work)}`;
+}
+
+function calculateAjaxAccessExact() {
+  const data = new FormData(ajaxCalculator);
+  const includeHub = data.get("ajaxHub") === "on";
+  const motion = Math.max(0, Number(data.get("ajaxMotion")) || 0);
+  const door = Math.max(0, Number(data.get("ajaxDoor")) || 0);
+  const leaks = Math.max(0, Number(data.get("ajaxLeaks")) || 0);
+  const includeLock = data.get("accessLock") === "on";
+  const includeController = data.get("accessController") === "on";
+  const includeIntercom = data.get("accessIntercom") === "on";
+  const includeInstall = data.get("securityInstall") === "on";
+  const hasAjax = includeHub || motion + door + leaks > 0;
+  const hasAccess = includeLock || includeController;
+  const hasWiredSystem = hasAccess || includeIntercom;
+  const sensorCount = motion + door + leaks;
+
+  const ajaxEquipment =
+    (includeHub ? 5100 : 0) +
+    motion * 1350 +
+    door * 1050 +
+    leaks * 1250;
+  const accessEquipment =
+    (includeLock ? 2100 : 0) +
+    (includeController ? 3600 : 0) +
+    (includeIntercom ? 8900 : 0) +
+    (hasAccess ? 1200 : 0);
+  const materials = hasWiredSystem ? 900 : 0;
+  const work = includeInstall
+    ? (hasAjax ? 1000 + sensorCount * 200 : 0) +
+      (hasAccess ? 2500 : 0) +
+      (includeIntercom ? 1500 : 0)
+    : 0;
+  const total = ajaxEquipment + accessEquipment + materials + work;
+  const totalComponents =
+    (includeHub ? 1 : 0) +
+    sensorCount +
+    (includeLock ? 1 : 0) +
+    (includeController ? 1 : 0) +
+    (includeIntercom ? 1 : 0) +
+    (hasAccess ? 1 : 0);
+
+  ajaxState.message = [
+    "Розрахунок Ajax, СКУД та домофонії — Alt-Cam",
+    "",
+    `Ajax Hub 2: ${includeHub ? "так" : "ні"}`,
+    `MotionProtect: ${motion} шт.`,
+    `DoorProtect: ${door} шт.`,
+    `LeaksProtect: ${leaks} шт.`,
+    `Електромагнітний замок: ${includeLock ? "так" : "ні"}`,
+    `Контролер і зчитувач: ${includeController ? "так" : "ні"}`,
+    `IP-домофон Hikvision: ${includeIntercom ? "так" : "ні"}`,
+    `ББЖ 12 В + АКБ 7 А·год: ${hasAccess ? "додано автоматично" : "не потрібен"}`,
+    "",
+    `Обладнання Ajax: ${money(ajaxEquipment)}`,
+    `СКУД, домофонія та ББЖ: ${money(accessEquipment)}`,
+    `Витратні матеріали: ${money(materials)}`,
+    `Монтаж і програмування: ${money(work)}`,
+    `Загальна вартість: ${money(total)}`,
+    "",
+    "Хочу уточнити цей комплекс."
+  ].join("\n");
+
+  document.querySelector("#ajax-total").textContent = money(total);
+  document.querySelector("#ajax-devices").textContent = totalComponents;
+  document.querySelector("#ajax-equipment-price").textContent = money(ajaxEquipment);
+  document.querySelector("#access-equipment-price").textContent = money(accessEquipment);
+  document.querySelector("#security-materials-price").textContent = money(materials);
+  document.querySelector("#security-work-price").textContent = money(work);
 }
 
 ajaxCalculator.addEventListener("input", calculateAjaxSystem);
