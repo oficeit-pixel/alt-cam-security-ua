@@ -278,11 +278,23 @@
     <section class="section calculator-section" id="calculator">
       <div class="container">
         <div class="section-head light reveal">
-          <div><span class="section-kicker">Попередній розрахунок</span><h2>Калькулятор системи відеоспостереження</h2></div>
-          <p>Вкажіть розміри плану двору або будівлі та висоту монтажу. Отримаєте орієнтовний склад системи й бюджет.</p>
+          <div><span class="section-kicker">Попередній розрахунок</span><h2>Калькулятор систем безпеки</h2></div>
+          <p>Оберіть напрямок, вкажіть параметри об’єкта та отримайте орієнтовний склад обладнання й бюджет.</p>
         </div>
 
-        <div class="calculator-shell reveal">
+        <div class="calculator-tabs reveal" role="tablist" aria-label="Тип розрахунку">
+          <button class="calculator-tab active" type="button" data-calc-tab="video" role="tab" aria-selected="true">
+            <svg><use href="#i-camera"/></svg><span>Відеоспостереження</span>
+          </button>
+          <button class="calculator-tab" type="button" data-calc-tab="power" role="tab" aria-selected="false">
+            <svg><use href="#i-battery"/></svg><span>Резервне живлення</span>
+          </button>
+          <button class="calculator-tab" type="button" data-calc-tab="ajax" role="tab" aria-selected="false">
+            <svg><use href="#i-key"/></svg><span>Ajax та безпека</span>
+          </button>
+        </div>
+
+        <div class="calculator-shell calc-panel active reveal" data-calc-panel="video">
           <form class="calculator-form" id="security-calculator">
             <div class="calc-form-title"><span>01</span><div><h3>Параметри об’єкта</h3><p>Змініть дані — результат оновиться автоматично.</p></div></div>
 
@@ -353,6 +365,112 @@
             <p class="calc-note" id="calc-note">Попередній автоматичний розрахунок. Точна кількість камер залежить від зон огляду, освітлення та перешкод на об’єкті.</p>
             <button class="btn btn-primary" type="button" id="send-calculation">Надіслати розрахунок у Telegram <svg><use href="#i-send"/></svg></button>
             <button class="btn calc-proposal-btn" type="button" id="download-proposal">Отримати комерційну пропозицію <svg><use href="#i-arrow"/></svg></button>
+          </div>
+        </div>
+
+        <div class="calculator-shell calc-panel" data-calc-panel="power">
+          <form class="calculator-form" id="power-calculator">
+            <div class="calc-form-title"><span>02</span><div><h3>Резервне живлення</h3><p>Освітлення та частина основного обладнання.</p></div></div>
+
+            <div class="calc-fields-row">
+              <label>Тип об’єкта
+                <select name="powerType">
+                  <option value="apartment">Квартира</option>
+                  <option value="house" selected>Приватний будинок</option>
+                  <option value="office">Офіс</option>
+                </select>
+              </label>
+              <label>Площа, м²
+                <input type="number" name="powerArea" min="20" max="2000" step="10" value="120">
+              </label>
+            </div>
+
+            <label class="range-label">Потрібна автономність: <strong><output id="power-hours-output">4 год</output></strong>
+              <input type="range" name="powerHours" min="2" max="12" step="1" value="4">
+              <span class="range-scale"><i>2 год</i><i>12 год</i></span>
+            </label>
+
+            <div class="power-load-title">Що повинно працювати</div>
+            <div class="power-load-grid">
+              <label class="calc-check"><input type="checkbox" name="powerLights" checked><span><b>Освітлення</b><small>LED у основних зонах</small></span></label>
+              <label class="calc-check"><input type="checkbox" name="powerRouter" checked><span><b>Інтернет</b><small>Роутер та ONU</small></span></label>
+              <label class="calc-check"><input type="checkbox" name="powerFridge" checked><span><b>Холодильник</b><small>З урахуванням пуску</small></span></label>
+              <label class="calc-check"><input type="checkbox" name="powerHeating"><span><b>Насос опалення</b><small>Котел і циркуляція</small></span></label>
+              <label class="calc-check"><input type="checkbox" name="powerCctv" checked><span><b>Відеоспостереження</b><small>Камери, NVR, мережа</small></span></label>
+              <label class="calc-check"><input type="checkbox" name="powerWorkplace" checked><span><b>Робоче місце</b><small>Ноутбук або ПК</small></span></label>
+            </div>
+          </form>
+
+          <div class="calculator-result" aria-live="polite">
+            <div class="calc-result-head">
+              <div><span>Орієнтовний бюджет</span><strong id="power-total">—</strong></div>
+              <span class="calc-area"><b id="power-load">—</b> навантаження</span>
+            </div>
+            <div class="calc-result-list">
+              <div><span><svg><use href="#i-battery"/></svg> Інвертор</span><strong id="power-inverter">—</strong></div>
+              <div><span><svg><use href="#i-battery"/></svg> Акумулятор LiFePO₄</span><strong id="power-battery">—</strong></div>
+              <div><span><svg><use href="#i-check"/></svg> Розрахункова автономність</span><strong id="power-runtime">—</strong></div>
+              <div><span><svg><use href="#i-tools"/></svg> Захист і підключення</span><strong>У комплекті</strong></div>
+            </div>
+            <div class="calc-cost-split">
+              <div><span>Обладнання</span><strong id="power-equipment">—</strong></div>
+              <div><span>Монтаж і запуск</span><strong id="power-work">—</strong></div>
+            </div>
+            <p class="calc-note">Розрахунок не включає електроплиту, бойлер, кондиціонер та інші потужні нагрівачі. Для них потрібен окремий проєкт.</p>
+            <button class="btn btn-primary" type="button" id="send-power-calculation">Надіслати розрахунок у Telegram <svg><use href="#i-send"/></svg></button>
+          </div>
+        </div>
+
+        <div class="calculator-shell calc-panel" data-calc-panel="ajax">
+          <form class="calculator-form" id="ajax-calculator">
+            <div class="calc-form-title"><span>03</span><div><h3>Ajax та комплексна безпека</h3><p>Охорона, пожежа, протікання й керування.</p></div></div>
+
+            <div class="calc-fields-row">
+              <label>Тип об’єкта
+                <select name="ajaxType">
+                  <option value="apartment">Квартира</option>
+                  <option value="house" selected>Приватний будинок</option>
+                  <option value="office">Офіс / магазин</option>
+                  <option value="warehouse">Склад / СТО</option>
+                </select>
+              </label>
+              <label>Площа, м²
+                <input type="number" name="ajaxArea" min="20" max="5000" step="10" value="120">
+              </label>
+            </div>
+
+            <div class="calc-fields-row calc-fields-three">
+              <label>Поверхів<input type="number" name="ajaxFloors" min="1" max="10" value="2"></label>
+              <label>Вхідних дверей<input type="number" name="ajaxDoors" min="1" max="30" value="2"></label>
+              <label>Вікон<input type="number" name="ajaxWindows" min="0" max="100" value="8"></label>
+            </div>
+
+            <div class="power-load-title">Додатковий захист</div>
+            <div class="power-load-grid">
+              <label class="calc-check"><input type="checkbox" name="ajaxFire" checked><span><b>Пожежні датчики</b><small>Дим і температура</small></span></label>
+              <label class="calc-check"><input type="checkbox" name="ajaxLeaks" checked><span><b>Захист від протікання</b><small>Кухня та санвузли</small></span></label>
+              <label class="calc-check"><input type="checkbox" name="ajaxKeypad" checked><span><b>Клавіатура</b><small>Постановка без телефону</small></span></label>
+              <label class="calc-check"><input type="checkbox" name="ajaxSiren" checked><span><b>Сирена</b><small>Гучне сповіщення</small></span></label>
+            </div>
+          </form>
+
+          <div class="calculator-result" aria-live="polite">
+            <div class="calc-result-head">
+              <div><span>Орієнтовний бюджет</span><strong id="ajax-total">—</strong></div>
+              <span class="calc-area"><b id="ajax-devices">—</b> пристроїв</span>
+            </div>
+            <div class="calc-result-list">
+              <div><span><svg><use href="#i-key"/></svg> Централь Ajax</span><strong id="ajax-hub">—</strong></div>
+              <div><span><svg><use href="#i-home"/></svg> Датчики руху</span><strong id="ajax-motion">—</strong></div>
+              <div><span><svg><use href="#i-door"/></svg> Двері та вікна</span><strong id="ajax-opening">—</strong></div>
+              <div><span><svg><use href="#i-check"/></svg> Пожежа / протікання</span><strong id="ajax-safety">—</strong></div>
+            </div>
+            <div class="calc-cost-split">
+              <div><span>Обладнання</span><strong id="ajax-equipment">—</strong></div>
+              <div><span>Монтаж і налаштування</span><strong id="ajax-work">—</strong></div>
+            </div>
+            <p class="calc-note">Фінальний склад залежить від планування, матеріалів стін, домашніх тварин і сценаріїв автоматизації.</p>
+            <button class="btn btn-primary" type="button" id="send-ajax-calculation">Надіслати розрахунок у Telegram <svg><use href="#i-send"/></svg></button>
           </div>
         </div>
       </div>

@@ -367,6 +367,183 @@ document.querySelector("#download-proposal").addEventListener("click", () => {
 });
 calculateSecuritySystem();
 
+const calculatorTabs = [...document.querySelectorAll("[data-calc-tab]")];
+const calculatorPanels = [...document.querySelectorAll("[data-calc-panel]")];
+
+calculatorTabs.forEach((tab) => {
+  tab.addEventListener("click", () => {
+    const target = tab.dataset.calcTab;
+    calculatorTabs.forEach((item) => {
+      const isActive = item === tab;
+      item.classList.toggle("active", isActive);
+      item.setAttribute("aria-selected", String(isActive));
+    });
+    calculatorPanels.forEach((panel) => {
+      panel.classList.toggle("active", panel.dataset.calcPanel === target);
+    });
+    trackEvent("calculator_mode", { mode: target });
+  });
+});
+
+const powerCalculator = document.querySelector("#power-calculator");
+const powerState = {};
+
+function nextPowerSize(requiredKw) {
+  return [1, 2, 3, 5, 8, 10, 15, 20].find((size) => size >= requiredKw) || 20;
+}
+
+function nextBatterySize(requiredKwh) {
+  return [1.28, 2.56, 5.12, 7.68, 10.24, 15.36, 20.48, 25.6].find((size) => size >= requiredKwh) || 25.6;
+}
+
+function calculateBackupPower() {
+  const data = new FormData(powerCalculator);
+  const type = data.get("powerType");
+  const area = Math.max(20, Number(data.get("powerArea")) || 20);
+  const hours = Number(data.get("powerHours"));
+  const hasLights = data.get("powerLights") === "on";
+  const hasRouter = data.get("powerRouter") === "on";
+  const hasFridge = data.get("powerFridge") === "on";
+  const hasHeating = data.get("powerHeating") === "on";
+  const hasCctv = data.get("powerCctv") === "on";
+  const hasWorkplace = data.get("powerWorkplace") === "on";
+
+  const typeFactor = { apartment: 0.85, house: 1, office: 1.35 }[type];
+  const lighting = hasLights ? Math.min(900, area * 4.5) : 0;
+  const router = hasRouter ? 35 : 0;
+  const fridge = hasFridge ? 140 : 0;
+  const heating = hasHeating ? 160 : 0;
+  const cctv = hasCctv ? (type === "office" ? 180 : 100) : 0;
+  const workplace = hasWorkplace ? (type === "office" ? 450 : 180) : 0;
+  const continuousLoad = Math.max(80, Math.round((lighting + router + fridge + heating + cctv + workplace) * typeFactor));
+  const surgeLoad = continuousLoad + (hasFridge ? 650 : 0) + (hasHeating ? 250 : 0);
+  const inverterKw = nextPowerSize(Math.max(continuousLoad * 1.35, surgeLoad) / 1000);
+  const requiredKwh = continuousLoad * hours / 1000 / 0.85;
+  const batteryKwh = nextBatterySize(requiredKwh);
+  const realRuntime = batteryKwh * 0.85 * 1000 / continuousLoad;
+  const inverterPrice = 8500 + inverterKw * 6200;
+  const batteryPrice = batteryKwh * 11800;
+  const protectionPrice = 6200 + inverterKw * 550;
+  const equipment = Math.round(inverterPrice + batteryPrice + protectionPrice);
+  const work = Math.round(5200 + inverterKw * 950 + (type === "office" ? 2800 : 0));
+  const total = equipment + work;
+  const low = Math.round(total * 0.92 / 500) * 500;
+  const high = Math.round(total * 1.12 / 500) * 500;
+
+  powerState.message = [
+    "Попередній розрахунок резервного живлення Alt-Cam",
+    "",
+    `Об’єкт: ${powerCalculator.elements.powerType.options[powerCalculator.elements.powerType.selectedIndex].text}`,
+    `Площа: ${area} м²`,
+    `Потрібна автономність: ${hours} год`,
+    `Розрахункове навантаження: ${continuousLoad} Вт`,
+    "",
+    `Інвертор: ${inverterKw} кВт, чиста синусоїда`,
+    `Акумулятор LiFePO₄: ${batteryKwh.toFixed(2)} кВт·год`,
+    `Очікувана автономність: близько ${realRuntime.toFixed(1)} год`,
+    `Обладнання: близько ${money(equipment)}`,
+    `Монтаж і запуск: близько ${money(work)}`,
+    `Загальний діапазон: ${money(low)} — ${money(high)}`,
+    "",
+    "Потрібна консультація та точний розрахунок."
+  ].join("\n");
+
+  document.querySelector("#power-hours-output").textContent = `${hours} год`;
+  document.querySelector("#power-total").textContent = `${money(low)} — ${money(high)}`;
+  document.querySelector("#power-load").textContent = `${continuousLoad} Вт`;
+  document.querySelector("#power-inverter").textContent = `${inverterKw} кВт, чистий синус`;
+  document.querySelector("#power-battery").textContent = `${batteryKwh.toFixed(2)} кВт·год`;
+  document.querySelector("#power-runtime").textContent = `≈ ${realRuntime.toFixed(1)} год`;
+  document.querySelector("#power-equipment").textContent = `≈ ${money(equipment)}`;
+  document.querySelector("#power-work").textContent = `≈ ${money(work)}`;
+}
+
+powerCalculator.addEventListener("input", calculateBackupPower);
+powerCalculator.addEventListener("change", calculateBackupPower);
+document.querySelector("#send-power-calculation").addEventListener("click", () => {
+  trackEvent("calculator_send", { mode: "backup_power" });
+  window.open(telegramUrl(powerState.message), "_blank", "noopener,noreferrer");
+});
+calculateBackupPower();
+
+const ajaxCalculator = document.querySelector("#ajax-calculator");
+const ajaxState = {};
+
+function calculateAjaxSystem() {
+  const data = new FormData(ajaxCalculator);
+  const type = data.get("ajaxType");
+  const area = Math.max(20, Number(data.get("ajaxArea")) || 20);
+  const floors = Math.max(1, Number(data.get("ajaxFloors")) || 1);
+  const doors = Math.max(1, Number(data.get("ajaxDoors")) || 1);
+  const windows = Math.max(0, Number(data.get("ajaxWindows")) || 0);
+  const includeFire = data.get("ajaxFire") === "on";
+  const includeLeaks = data.get("ajaxLeaks") === "on";
+  const includeKeypad = data.get("ajaxKeypad") === "on";
+  const includeSiren = data.get("ajaxSiren") === "on";
+
+  const coverage = { apartment: 45, house: 55, office: 50, warehouse: 75 }[type];
+  const motion = Math.max(floors, Math.ceil(area / coverage));
+  const opening = doors + windows;
+  const fire = includeFire ? Math.max(floors, Math.ceil(area / 80)) : 0;
+  const leaks = includeLeaks ? Math.max(1, type === "house" ? floors + 1 : Math.ceil(area / 120)) : 0;
+  const totalDevices = 1 + motion + opening + fire + leaks + (includeKeypad ? 1 : 0) + (includeSiren ? 1 : 0);
+  const hubName = totalDevices > 28 || type === "warehouse" ? "Hub 2 Plus" : "Hub 2";
+  const hubPrice = hubName === "Hub 2 Plus" ? 10500 : 7200;
+  const equipment = Math.round(
+    hubPrice +
+    motion * 1950 +
+    opening * 1250 +
+    fire * 3850 +
+    leaks * 1550 +
+    (includeKeypad ? 3700 : 0) +
+    (includeSiren ? 2450 : 0)
+  );
+  const work = Math.round(2800 + (totalDevices - 1) * 520 + floors * 450);
+  const total = equipment + work;
+  const low = Math.round(total * 0.94 / 500) * 500;
+  const high = Math.round(total * 1.1 / 500) * 500;
+
+  ajaxState.message = [
+    "Попередній розрахунок системи Ajax — Alt-Cam",
+    "",
+    `Об’єкт: ${ajaxCalculator.elements.ajaxType.options[ajaxCalculator.elements.ajaxType.selectedIndex].text}`,
+    `Площа: ${area} м², поверхів: ${floors}`,
+    `Двері: ${doors}, вікна: ${windows}`,
+    "",
+    `Централь: Ajax ${hubName}`,
+    `Датчики руху: ${motion} шт.`,
+    `Датчики відкриття: ${opening} шт.`,
+    `Пожежні датчики: ${fire} шт.`,
+    `Датчики протікання: ${leaks} шт.`,
+    `Клавіатура: ${includeKeypad ? "так" : "ні"}`,
+    `Сирена: ${includeSiren ? "так" : "ні"}`,
+    `Усього пристроїв: ${totalDevices}`,
+    "",
+    `Обладнання: близько ${money(equipment)}`,
+    `Монтаж і налаштування: близько ${money(work)}`,
+    `Загальний діапазон: ${money(low)} — ${money(high)}`,
+    "",
+    "Хочу уточнити склад системи."
+  ].join("\n");
+
+  document.querySelector("#ajax-total").textContent = `${money(low)} — ${money(high)}`;
+  document.querySelector("#ajax-devices").textContent = totalDevices;
+  document.querySelector("#ajax-hub").textContent = hubName;
+  document.querySelector("#ajax-motion").textContent = `${motion} шт.`;
+  document.querySelector("#ajax-opening").textContent = `${opening} шт.`;
+  document.querySelector("#ajax-safety").textContent = `${fire} / ${leaks} шт.`;
+  document.querySelector("#ajax-equipment").textContent = `≈ ${money(equipment)}`;
+  document.querySelector("#ajax-work").textContent = `≈ ${money(work)}`;
+}
+
+ajaxCalculator.addEventListener("input", calculateAjaxSystem);
+ajaxCalculator.addEventListener("change", calculateAjaxSystem);
+document.querySelector("#send-ajax-calculation").addEventListener("click", () => {
+  trackEvent("calculator_send", { mode: "ajax_security" });
+  window.open(telegramUrl(ajaxState.message), "_blank", "noopener,noreferrer");
+});
+calculateAjaxSystem();
+
 const quiz = document.querySelector("#security-quiz");
 const quizSteps = [...quiz.querySelectorAll(".quiz-step")];
 const quizNext = document.querySelector("#quiz-next");
