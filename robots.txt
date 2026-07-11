@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://alt-cam.ua/sitemap.xml
+Sitemap: https://oficeit-pixel.github.io/alt-cam-security-ua/sitemap.xml

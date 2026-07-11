@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "lint:uk": "node scripts/check-ukrainian-text.mjs"
+  }
+}

@@ -1,20 +1,34 @@
 /* =========================================================
-   КОНТАКТИ — замініть значення нижче на реальні перед публікацією.
+   SITE_URL: https://oficeit-pixel.github.io/alt-cam-security-ua/
+   TODO: вставити реальні контактні дані перед запуском.
    Telegram: ім'я користувача без символу @
    WhatsApp/телефон: тільки цифри у міжнародному форматі
    ========================================================= */
+const SITE_URL = "https://oficeit-pixel.github.io/alt-cam-security-ua/";
+
 const CONTACTS = {
-  telegram: "",
+  telegram: "OficeITHelp",
   whatsapp: "",
-  phone: "+380000000000",
-  phoneLabel: "+380 (00) 000-00-00",
-  email: "info@alt-cam.ua",
-  facebook: "https://facebook.com/",
-  instagram: "https://instagram.com/",
-  tiktok: "https://tiktok.com/",
-  messenger: "https://m.me/",
+  phone: "",
+  phoneLabel: "",
+  email: "",
+  facebook: "",
+  instagram: "",
+  tiktok: "",
+  messenger: "",
   viber: ""
 };
+
+function setHidden(element, shouldHide) {
+  if (!element) return;
+  element.classList.toggle("is-hidden", shouldHide);
+  element.toggleAttribute("aria-hidden", shouldHide);
+  if (shouldHide) {
+    element.setAttribute("tabindex", "-1");
+  } else {
+    element.removeAttribute("tabindex");
+  }
+}
 
 /* Вставьте идентификаторы после создания сервисов.
    webhook — URL Google Apps Script/CRM, который принимает JSON-заявки
@@ -33,7 +47,7 @@ function sendLeadToCrm(payload) {
     headers: { "Content-Type": "text/plain;charset=utf-8" },
     body: JSON.stringify({
       ...payload,
-      source: "alt-cam.ua",
+      source: SITE_URL,
       createdAt: new Date().toISOString()
     })
   }).catch(() => {
@@ -133,10 +147,64 @@ document.querySelectorAll(".js-telegram").forEach((link) => {
   link.rel = "noopener noreferrer";
 });
 
+const onlineDemoModal = document.querySelector("#online-demo-modal");
+const onlineDemoTrigger = document.querySelector(".online-demo-trigger");
+const onlineDemoCloseElements = document.querySelectorAll("[data-close-online-demo]");
+const onlineDemoCtaElements = document.querySelectorAll("[data-online-demo-cta]");
+const onlineDemoVideo = document.querySelector(".demo-video-frame");
+
+function openOnlineDemo() {
+  if (!onlineDemoModal) return;
+  onlineDemoModal.classList.remove("video-finished");
+  if (onlineDemoVideo) {
+    onlineDemoVideo.currentTime = 0;
+    onlineDemoVideo.play().catch(() => {});
+  }
+  onlineDemoModal.hidden = false;
+  document.body.classList.add("modal-open");
+  onlineDemoModal.querySelector(".online-demo-close")?.focus();
+}
+
+function closeOnlineDemo() {
+  if (!onlineDemoModal || onlineDemoModal.hidden) return;
+  onlineDemoModal.hidden = true;
+  if (onlineDemoVideo) {
+    onlineDemoVideo.pause();
+    onlineDemoVideo.currentTime = 0;
+  }
+  document.body.classList.remove("modal-open");
+  onlineDemoTrigger?.focus();
+}
+
+onlineDemoTrigger?.addEventListener("click", openOnlineDemo);
+onlineDemoCloseElements.forEach((element) => element.addEventListener("click", closeOnlineDemo));
+onlineDemoVideo?.addEventListener("ended", () => {
+  onlineDemoModal?.classList.add("video-finished");
+});
+onlineDemoCtaElements.forEach((element) => {
+  element.addEventListener("click", () => {
+    onlineDemoModal.hidden = true;
+    if (onlineDemoVideo) {
+      onlineDemoVideo.pause();
+      onlineDemoVideo.currentTime = 0;
+    }
+    document.body.classList.remove("modal-open");
+  });
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    closeOnlineDemo();
+  }
+});
+
 const leadForm = document.querySelector("#lead-form");
 let selectedChannel = "telegram";
 
 leadForm.querySelectorAll("[data-channel]").forEach((button) => {
+  if (button.dataset.channel === "whatsapp") {
+    setHidden(button, !CONTACTS.whatsapp);
+  }
   button.addEventListener("click", () => {
     selectedChannel = button.dataset.channel;
   });
@@ -172,6 +240,8 @@ leadForm.addEventListener("submit", (event) => {
 });
 
 document.querySelectorAll(".js-phone").forEach((phoneLink) => {
+  setHidden(phoneLink, !CONTACTS.phone);
+  if (!CONTACTS.phone) return;
   phoneLink.href = `tel:${CONTACTS.phone}`;
   if (!phoneLink.classList.contains("mobile-call")) {
     phoneLink.textContent = CONTACTS.phoneLabel;
@@ -179,31 +249,39 @@ document.querySelectorAll(".js-phone").forEach((phoneLink) => {
 });
 
 const emailLink = document.querySelector(".js-email");
-emailLink.href = `mailto:${CONTACTS.email}`;
-emailLink.textContent = CONTACTS.email;
+setHidden(emailLink, !CONTACTS.email);
+if (CONTACTS.email) {
+  emailLink.href = `mailto:${CONTACTS.email}`;
+  emailLink.textContent = CONTACTS.email;
+}
 
 ["facebook", "instagram", "tiktok"].forEach((network) => {
   const link = document.querySelector(`.js-${network}`);
+  setHidden(link, !CONTACTS[network]);
+  if (!CONTACTS[network]) return;
   link.href = CONTACTS[network];
   link.target = "_blank";
   link.rel = "noopener noreferrer";
 });
 
 const messengerLink = document.querySelector(".js-messenger");
-messengerLink.href = CONTACTS.messenger;
-messengerLink.target = "_blank";
-messengerLink.rel = "noopener noreferrer";
+setHidden(messengerLink, !CONTACTS.messenger);
+if (CONTACTS.messenger) {
+  messengerLink.href = CONTACTS.messenger;
+  messengerLink.target = "_blank";
+  messengerLink.rel = "noopener noreferrer";
+}
 
 const viberLink = document.querySelector(".js-viber");
-viberLink.href = CONTACTS.viber
-  ? `viber://chat?number=${encodeURIComponent(CONTACTS.viber)}`
-  : "#request";
+setHidden(viberLink, !CONTACTS.viber);
+if (CONTACTS.viber) {
+  viberLink.href = `viber://chat?number=${encodeURIComponent(CONTACTS.viber)}`;
+}
 
 const whatsAppLink = document.querySelector(".js-whatsapp");
-whatsAppLink.href = CONTACTS.whatsapp
-  ? `https://wa.me/${CONTACTS.whatsapp}?text=${encodeURIComponent("Вітаю! Хочу отримати консультацію щодо системи безпеки.")}`
-  : "#request";
+setHidden(whatsAppLink, !CONTACTS.whatsapp);
 if (CONTACTS.whatsapp) {
+  whatsAppLink.href = `https://wa.me/${CONTACTS.whatsapp}?text=${encodeURIComponent("Вітаю! Хочу отримати консультацію щодо системи безпеки.")}`;
   whatsAppLink.target = "_blank";
   whatsAppLink.rel = "noopener noreferrer";
 }
@@ -790,7 +868,7 @@ quizNext.addEventListener("click", () => {
     `Об’єкт: ${data.get("quizObject")}`,
     `Кількість камер: ${data.get("quizCameras")}`,
     `Нічне бачення: ${data.get("quizNight")}`,
-    `Перегляд з телефону: ${data.get("quizPhoneView")}`,
+    `Перегляд зі смартфона: ${data.get("quizPhoneView")}`,
     "",
     `Ім’я: ${data.get("quizName")}`,
     `Телефон: ${data.get("quizContact")}`,
