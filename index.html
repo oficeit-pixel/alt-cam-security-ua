@@ -180,35 +180,35 @@
           <article class="package-card reveal">
             <span class="package-tag">Для квартири або входу</span><svg><use href="#i-camera"/></svg>
             <h3>Комплект на 2 камери</h3><p>Камери 4 Мп, реєстратор, диск, кабель, налаштування перегляду.</p>
-            <strong>від 14 900 грн</strong><a class="btn package-btn" href="#quiz">Дізнатись більше</a>
+            <strong>2 камери, архів і смартфон</strong><a class="btn package-btn" href="#quiz">Дізнатись більше</a>
           </article>
           <article class="package-card package-featured reveal">
             <span class="package-tag">Найчастіше обирають</span><svg><use href="#i-home"/></svg>
             <h3>Комплект на 4 камери</h3><p>Оптимальне покриття будинку або магазину, архів і доступ зі смартфона.</p>
-            <strong>від 18 900 грн</strong><a class="btn btn-primary" href="#quiz">Дізнатись більше</a>
+            <strong>4 камери, запас каналів</strong><a class="btn btn-primary" href="#quiz">Дізнатись більше</a>
           </article>
           <article class="package-card reveal">
             <span class="package-tag">Для бізнесу</span><svg><use href="#i-office"/></svg>
             <h3>Комплект на 8 камер</h3><p>Контроль залу, каси, входів, складу та зовнішнього периметра.</p>
-            <strong>від 35 000 грн</strong><a class="btn package-btn" href="#quiz">Дізнатись більше</a>
+            <strong>8 камер, довший архів</strong><a class="btn package-btn" href="#quiz">Дізнатись більше</a>
           </article>
           <article class="package-card reveal">
             <span class="package-tag">Контроль входу</span><svg><use href="#i-door"/></svg>
             <h3>Відеодомофон</h3><p>Монітор, виклична панель, відкриття замка та віддалений доступ.</p>
-            <strong>від 8 900 грн</strong><a class="btn package-btn" href="#quiz">Дізнатись більше</a>
+            <strong>панель, монітор, замок</strong><a class="btn package-btn" href="#quiz">Дізнатись більше</a>
           </article>
           <article class="package-card reveal">
             <span class="package-tag">Охорона об’єкта</span><svg><use href="#i-key"/></svg>
             <h3>Система Ajax</h3><p>Централь, датчики руху й відкриття, сирена та керування у застосунку.</p>
-            <strong>від 16 500 грн</strong><a class="btn package-btn" href="#quiz">Дізнатись більше</a>
+            <strong>Hub, датчики, сирена</strong><a class="btn package-btn" href="#quiz">Дізнатись більше</a>
           </article>
           <article class="package-card reveal">
             <span class="package-tag">Робота без світла</span><svg><use href="#i-battery"/></svg>
             <h3>UPS та резервне живлення</h3><p>Підбір потужності й автономності для камер, мережі та домофонії.</p>
-            <strong>від 6 500 грн</strong><a class="btn package-btn" href="#quiz">Дізнатись більше</a>
+            <strong>інвертор, АКБ, автономність</strong><a class="btn package-btn" href="#quiz">Дізнатись більше</a>
           </article>
         </div>
-        <p class="catalog-note">* Ціни є стартовими орієнтирами для базової конфігурації та не є публічною офертою.</p>
+        <p class="catalog-note">* Підсумкова сума формується в калькуляторі після вибору обладнання, монтажу та знижок.</p>
       </div>
     </section>
 
@@ -309,16 +309,16 @@
             <div class="calc-fields-row">
               <label>Відеореєстратор NVR
                 <select name="videoNvr">
-                  <option value="4">4 канали — 1 800 грн</option>
-                  <option value="8" selected>8 каналів — 3 200 грн</option>
-                  <option value="16">16 каналів — 5 400 грн</option>
+                  <option value="4">4 канали — для 1–4 камер</option>
+                  <option value="8" selected>8 каналів — запас для розширення</option>
+                  <option value="16">16 каналів — для великого об’єкта</option>
                 </select>
               </label>
               <label>Жорсткий диск WD Purple
                 <select name="videoHdd">
-                  <option value="1">1 ТБ — 2 400 грн</option>
-                  <option value="2" selected>2 ТБ — 3 500 грн</option>
-                  <option value="4">4 ТБ — 5 200 грн</option>
+                  <option value="1">1 ТБ — короткий архів</option>
+                  <option value="2" selected>2 ТБ — оптимальний архів</option>
+                  <option value="4">4 ТБ — збільшений архів</option>
                 </select>
               </label>
             </div>
@@ -340,10 +340,12 @@
               <div><span><svg><use href="#i-box"/></svg> NVR + жорсткий диск</span><strong id="calc-central-price">—</strong></div>
               <div><span><svg><use href="#i-tools"/></svg> Кріплення та витратні матеріали</span><strong id="calc-materials-price">—</strong></div>
               <div><span><svg><use href="#i-check"/></svg> Інсталяція під ключ</span><strong id="calc-install-price">—</strong></div>
+              <div><span><svg><use href="#i-check"/></svg> Знижка за прайсом</span><strong id="calc-discount">—</strong></div>
+              <div><span><svg><use href="#i-battery"/></svg> Рекомендований завдаток</span><strong id="calc-deposit">—</strong></div>
             </div>
 
             <p class="calc-note" id="calc-note">Витратні матеріали включають кабель, RJ-45, гермокоробки, дюбелі, стяжки, ізоляцію та патч-корди.</p>
-            <button class="btn btn-primary" type="button" id="send-calculation">Надіслати розрахунок у Telegram <svg><use href="#i-send"/></svg></button>
+            <button class="btn btn-primary" type="button" id="send-calculation">Підтвердити розрахунок <svg><use href="#i-send"/></svg></button>
             <button class="btn calc-proposal-btn" type="button" id="download-proposal">Отримати комерційну пропозицію <svg><use href="#i-arrow"/></svg></button>
           </div>
         </div>
@@ -398,9 +400,11 @@
               <div><span><svg><use href="#i-check"/></svg> Доступна корисна енергія</span><strong id="power-effective">—</strong></div>
               <div><span><svg><use href="#i-battery"/></svg> Безпечна глибина розряду</span><strong id="power-dod">—</strong></div>
               <div><span><svg><use href="#i-tools"/></svg> Втрати інвертора</span><strong id="power-loss">—</strong></div>
+              <div><span><svg><use href="#i-tools"/></svg> Монтаж і налаштування</span><strong id="power-service-price">—</strong></div>
+              <div><span><svg><use href="#i-check"/></svg> Знижка за прайсом</span><strong id="power-discount">—</strong></div>
             </div>
             <p class="calc-note">Реальний час може відрізнятися через температуру, вік АКБ, пускові струми та фактичний профіль навантаження.</p>
-            <button class="btn btn-primary" type="button" id="send-power-calculation">Надіслати розрахунок у Telegram <svg><use href="#i-send"/></svg></button>
+            <button class="btn btn-primary" type="button" id="send-power-calculation">Підтвердити розрахунок <svg><use href="#i-send"/></svg></button>
           </div>
         </div>
 
@@ -409,7 +413,7 @@
             <div class="calc-form-title"><span>03</span><div><h3>Ajax, СКУД та домофонія</h3><p>Точний склад обладнання й інсталяції.</p></div></div>
 
             <div class="power-load-title">Бездротова сигналізація Ajax</div>
-            <label class="calc-check"><input type="checkbox" name="ajaxHub" checked><span><b>Ajax Hub 2</b><small>Хаб системи — 5 100 грн</small></span></label>
+            <label class="calc-check"><input type="checkbox" name="ajaxHub" checked><span><b>Ajax Hub 2</b><small>Хаб системи для керування датчиками</small></span></label>
             <div class="calc-fields-row calc-fields-three">
               <label>MotionProtect
                 <input type="number" name="ajaxMotion" min="0" max="100" value="3">
@@ -424,9 +428,9 @@
 
             <div class="power-load-title">СКУД та IP-домофон</div>
             <div class="power-load-grid">
-              <label class="calc-check"><input type="checkbox" name="accessLock"><span><b>Замок Yli 300 кг</b><small>Електромагнітний — 2 100 грн</small></span></label>
-              <label class="calc-check"><input type="checkbox" name="accessController"><span><b>Контролер + зчитувач</b><small>Мережевий комплект — 3 600 грн</small></span></label>
-              <label class="calc-check"><input type="checkbox" name="accessIntercom"><span><b>IP-домофон Hikvision</b><small>Монітор + панель — 8 900 грн</small></span></label>
+              <label class="calc-check"><input type="checkbox" name="accessLock"><span><b>Замок Yli 300 кг</b><small>Електромагнітне утримання дверей</small></span></label>
+              <label class="calc-check"><input type="checkbox" name="accessController"><span><b>Контролер + зчитувач</b><small>Картки, брелоки або код доступу</small></span></label>
+              <label class="calc-check"><input type="checkbox" name="accessIntercom"><span><b>IP-домофон Hikvision</b><small>Монітор, виклична панель і застосунок</small></span></label>
               <label class="calc-check"><input type="checkbox" name="securityInstall" checked><span><b>Монтаж і програмування</b><small>З витратними матеріалами</small></span></label>
             </div>
           </form>
@@ -441,9 +445,11 @@
               <div><span><svg><use href="#i-door"/></svg> СКУД, домофонія та ББЖ</span><strong id="access-equipment-price">—</strong></div>
               <div><span><svg><use href="#i-tools"/></svg> Кабелі, короби та кріплення</span><strong id="security-materials-price">—</strong></div>
               <div><span><svg><use href="#i-check"/></svg> Монтаж і пусконалагодження</span><strong id="security-work-price">—</strong></div>
+              <div><span><svg><use href="#i-check"/></svg> Знижка за прайсом</span><strong id="ajax-discount">—</strong></div>
+              <div><span><svg><use href="#i-battery"/></svg> Рекомендований завдаток</span><strong id="ajax-deposit">—</strong></div>
             </div>
             <p class="calc-note">При виборі замка або контролера ББЖ 12 В з АКБ 7 А·год додається автоматично.</p>
-            <button class="btn btn-primary" type="button" id="send-ajax-calculation">Надіслати розрахунок у Telegram <svg><use href="#i-send"/></svg></button>
+            <button class="btn btn-primary" type="button" id="send-ajax-calculation">Підтвердити розрахунок <svg><use href="#i-send"/></svg></button>
           </div>
         </div>
       </div>
@@ -623,6 +629,38 @@
           <a class="btn btn-outline" href="#calculator" data-online-demo-cta>Розрахувати систему <svg><use href="#i-camera"/></svg></a>
         </div>
       </div>
+    </div>
+  </div>
+
+  <div class="quote-modal" id="quote-modal" role="dialog" aria-modal="true" aria-labelledby="quote-modal-title" hidden>
+    <div class="quote-modal-backdrop" data-close-quote></div>
+    <div class="quote-modal-panel" role="document">
+      <button class="quote-modal-close" type="button" aria-label="Закрити форму підтвердження" data-close-quote>×</button>
+      <div class="quote-modal-summary">
+        <span class="section-kicker">Підтвердження розрахунку</span>
+        <h2 id="quote-modal-title">Залиште дані для погодження дати</h2>
+        <p>Менеджер перевірить конфігурацію, підтвердить дату робіт і надішле на email розрахунок із сумою завдатку на обладнання.</p>
+        <div class="quote-summary-list" id="quote-summary-list"></div>
+      </div>
+      <form class="quote-confirm-form" id="quote-confirm-form">
+        <label>Ваше ім’я
+          <input type="text" name="quoteName" placeholder="Як до вас звертатися?" required>
+        </label>
+        <label>Телефон
+          <input type="tel" name="quotePhone" placeholder="+380 __ ___ __ __" required>
+        </label>
+        <label>Email для розрахунку
+          <input type="email" name="quoteEmail" placeholder="name@example.com" required>
+        </label>
+        <label>Бажана дата робіт
+          <input type="date" name="quoteDate" required>
+        </label>
+        <label>Коментар
+          <textarea name="quoteComment" rows="3" placeholder="Адреса об’єкта, зручний час, особливі побажання"></textarea>
+        </label>
+        <p class="form-note">Після надсилання заявка піде менеджеру. Email із розрахунком і завдатком надсилається після підтвердження дати.</p>
+        <button class="btn btn-primary" type="submit">Надіслати на підтвердження <svg><use href="#i-send"/></svg></button>
+      </form>
     </div>
   </div>
 

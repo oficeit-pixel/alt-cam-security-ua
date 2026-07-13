@@ -19,6 +19,65 @@ const CONTACTS = {
   viber: ""
 };
 
+const PRICE_POLICY = {
+  baseDiscount: 0.05,
+  highTotalThreshold: 50000,
+  highTotalDiscount: 0.05,
+  equipmentDepositRate: 0.3
+};
+
+const PDF_RATES = {
+  video: {
+    indoorCamera: { one: 1100, two: 800, threeToEight: 600, overEight: 500, heightFactor: 1.3 },
+    outdoorCamera: { one: 1200, two: 900, threeToEight: 700, overEight: 600, heightFactor: 1.5 },
+    recorderSetup: 800,
+    mobileAppSetup: 150,
+    speedDomeMin: 1200,
+    cableIndoorPerMeter: 16,
+    cableOutdoorPerMeter: 22,
+    junctionBox: 250,
+    bracket: 200
+  },
+  intercom: {
+    analogKit: 1400,
+    analogMobileKit: 1800,
+    ipKit: 2200,
+    ipPanelSurface: 1100,
+    ipMonitor: 1100,
+    mobilePlace: 300
+  },
+  access: {
+    magneticLock: 700,
+    lockConnection: 400,
+    controller: 700,
+    reader: 600,
+    exitButtonSurface: 250,
+    backupPower: 350,
+    keyProgramming: 20
+  },
+  ajax: {
+    starterKit: 900,
+    motionIndoor: 250,
+    motionOutdoor: 400,
+    opening: 200,
+    leak: 100,
+    hubSetup: 500,
+    sirenIndoor: 250,
+    sirenOutdoor: 350,
+    keypad: 250
+  },
+  additional: {
+    routerSetup: 400,
+    officeSetup: 500,
+    remoteSetupMin: 500,
+    remoteSetupMax: 1000,
+    cableBoxPerMeter: 35,
+    serverCabinetAssembly: 800,
+    powerSupply: 350,
+    monitorInstall: 300
+  }
+};
+
 function setHidden(element, shouldHide) {
   if (!element) return;
   element.classList.toggle("is-hidden", shouldHide);
@@ -28,6 +87,56 @@ function setHidden(element, shouldHide) {
   } else {
     element.removeAttribute("tabindex");
   }
+}
+
+function roundMoney(value) {
+  return Math.round(value / 10) * 10;
+}
+
+function priced(value) {
+  return roundMoney(value * (1 - PRICE_POLICY.baseDiscount));
+}
+
+function applyPricePolicy(equipment, work, materials = 0) {
+  const original = roundMoney(equipment + work + materials);
+  const afterBaseDiscount = roundMoney(original * (1 - PRICE_POLICY.baseDiscount));
+  const highTotalDiscount = afterBaseDiscount > PRICE_POLICY.highTotalThreshold
+    ? roundMoney(afterBaseDiscount * PRICE_POLICY.highTotalDiscount)
+    : 0;
+  const total = roundMoney(afterBaseDiscount - highTotalDiscount);
+  const discount = original - total;
+  const deposit = roundMoney(Math.max(0, equipment) * PRICE_POLICY.equipmentDepositRate);
+  return { original, afterBaseDiscount, highTotalDiscount, total, discount, deposit };
+}
+
+function videoCameraInstallRate(count, isOutdoor) {
+  if (count <= 0) return 0;
+  const table = isOutdoor ? PDF_RATES.video.outdoorCamera : PDF_RATES.video.indoorCamera;
+  if (count === 1) return table.one;
+  if (count === 2) return table.two;
+  if (count <= 8) return table.threeToEight;
+  return table.overEight;
+}
+
+function buildQuoteMessage(state, client = null) {
+  const clientLines = client ? [
+    "",
+    "Дані клієнта:",
+    `Ім’я: ${client.name}`,
+    `Телефон: ${client.phone}`,
+    `Email: ${client.email}`,
+    `Бажана дата: ${client.date}`,
+    `Коментар: ${client.comment || "Не вказано"}`
+  ] : [];
+  return [
+    state.message,
+    "",
+    `Сума до знижок: ${money(state.quote.original)}`,
+    `Знижка: ${money(state.quote.discount)}`,
+    `До сплати після знижок: ${money(state.quote.total)}`,
+    `Рекомендований завдаток на обладнання: ${money(state.quote.deposit)}`,
+    ...clientLines
+  ].join("\n");
 }
 
 /* Вставьте идентификаторы после создания сервисов.
@@ -286,6 +395,72 @@ if (CONTACTS.whatsapp) {
   whatsAppLink.rel = "noopener noreferrer";
 }
 
+const quoteModal = document.querySelector("#quote-modal");
+const quoteForm = document.querySelector("#quote-confirm-form");
+const quoteSummaryList = document.querySelector("#quote-summary-list");
+const quoteCloseElements = document.querySelectorAll("[data-close-quote]");
+let activeQuoteState = null;
+
+function quoteRows(state) {
+  const quote = state.quote;
+  return [
+    ["Тип розрахунку", quote.type],
+    ["Сума до знижок", money(quote.original)],
+    ["Знижка", `− ${money(quote.discount)}`],
+    ["До сплати після знижок", money(quote.total), "quote-total"],
+    ["Завдаток на обладнання", money(quote.deposit)]
+  ];
+}
+
+function renderQuoteSummary(state) {
+  quoteSummaryList.innerHTML = quoteRows(state).map(([label, value, className]) => (
+    `<div class="${className || ""}"><span>${label}</span><strong>${value}</strong></div>`
+  )).join("");
+}
+
+function openQuoteModal(state) {
+  activeQuoteState = state;
+  renderQuoteSummary(state);
+  quoteModal.hidden = false;
+  document.body.classList.add("modal-open");
+  quoteForm.querySelector("input[name='quoteName']")?.focus();
+}
+
+function closeQuoteModal() {
+  if (!quoteModal || quoteModal.hidden) return;
+  quoteModal.hidden = true;
+  document.body.classList.remove("modal-open");
+}
+
+quoteCloseElements.forEach((element) => element.addEventListener("click", closeQuoteModal));
+
+quoteForm?.addEventListener("submit", (event) => {
+  event.preventDefault();
+  if (!quoteForm.reportValidity() || !activeQuoteState) return;
+
+  const data = new FormData(quoteForm);
+  const client = {
+    name: data.get("quoteName").trim(),
+    phone: data.get("quotePhone").trim(),
+    email: data.get("quoteEmail").trim(),
+    date: data.get("quoteDate"),
+    comment: data.get("quoteComment").trim()
+  };
+  const message = buildQuoteMessage(activeQuoteState, client);
+  sendLeadToCrm({
+    type: "quote_confirmation",
+    quote: activeQuoteState.quote,
+    message,
+    client,
+    nextStep: "Після підтвердження дати надіслати клієнту email із розрахунком і сумою завдатку на обладнання."
+  });
+  trackEvent("quote_confirm", { type: activeQuoteState.quote.type, total: activeQuoteState.quote.total });
+  window.open(telegramUrl(message), "_blank", "noopener,noreferrer");
+  quoteForm.reset();
+  closeQuoteModal();
+  alert("Заявку на підтвердження надіслано. Менеджер перевірить дату та підготує email із розрахунком і завдатком.");
+});
+
 document.querySelector("#year").textContent = new Date().getFullYear();
 
 const calculator = document.querySelector("#security-calculator");
@@ -409,14 +584,27 @@ function calculateSecuritySystemExact() {
   const cameras = indoor + outdoor + ptz;
   const cameraPrice = indoor * 1450 + outdoor * 1950 + ptz * 4200;
   const centralPrice = nvrPrices[nvrChannels] + hddPrices[hddTb];
-  const materials = indoor * 450 + outdoor * 650 + ptz * 700 + 400;
+  const cableMeters = indoor * 12 + outdoor * 18 + ptz * 22 + 10;
+  const materials =
+    cableMeters * PDF_RATES.video.cableIndoorPerMeter +
+    outdoor * (PDF_RATES.video.junctionBox + PDF_RATES.video.bracket) +
+    ptz * (PDF_RATES.video.junctionBox + PDF_RATES.video.bracket) +
+    indoor * PDF_RATES.video.bracket;
   const installation = includeInstall
-    ? indoor * 750 + outdoor * 950 + ptz * 1500 + 1200
+    ? indoor * videoCameraInstallRate(indoor, false) +
+      outdoor * videoCameraInstallRate(outdoor, true) +
+      ptz * PDF_RATES.video.speedDomeMin +
+      (cameras ? PDF_RATES.video.recorderSetup + PDF_RATES.video.mobileAppSetup : 0)
     : 0;
-  const total = cameraPrice + centralPrice + materials + installation;
+  const policy = applyPricePolicy(cameraPrice + centralPrice, installation, materials);
   const channelWarning = cameras > nvrChannels
     ? ` Увага: обраний NVR має ${nvrChannels} каналів для ${cameras} камер.`
     : "";
+  const archiveHint = hddTb === 1
+    ? "короткий архів для невеликої кількості камер"
+    : hddTb === 2
+      ? "оптимальний архів для типового об’єкта"
+      : "збільшений архів для довшого зберігання";
 
   calcState.message = [
     "Точний розрахунок IP-відеоспостереження Alt-Cam",
@@ -425,46 +613,53 @@ function calculateSecuritySystemExact() {
     `Вуличні циліндричні камери: ${outdoor} шт.`,
     `Поворотні PTZ: ${ptz} шт.`,
     `NVR: ${nvrChannels} каналів`,
-    `WD Purple: ${hddTb} ТБ`,
+    `WD Purple: ${hddTb} ТБ (${archiveHint})`,
     "",
     `Камери: ${money(cameraPrice)}`,
     `Центральний вузол: ${money(centralPrice)}`,
-    `Витратні матеріали: ${money(materials)}`,
-    `Монтаж і налаштування: ${money(installation)}`,
-    `Загальна вартість: ${money(total)}`,
+    `Витратні матеріали за прайсом: ${money(materials)}`,
+    `Монтаж і налаштування за прайсом: ${money(installation)}`,
+    `Знижка 5%: застосовано`,
+    policy.highTotalDiscount ? `Додаткова знижка 5% від 50 000 грн: ${money(policy.highTotalDiscount)}` : "Додаткова знижка від 50 000 грн: не застосовується",
+    `Загальна вартість після знижок: ${money(policy.total)}`,
+    `Рекомендований завдаток на обладнання: ${money(policy.deposit)}`,
     channelWarning.trim(),
     "",
     "Хочу уточнити цей розрахунок."
   ].filter(Boolean).join("\n");
   calcState.quote = {
+    type: "IP-відеоспостереження",
     indoor,
     outdoor,
     ptz,
     cameras,
     nvrChannels,
     hddTb,
+    archiveHint,
     cameraPrice,
     centralPrice,
     materials,
     installation,
-    total
+    ...policy
   };
 
-  document.querySelector("#calc-total").textContent = money(total);
+  document.querySelector("#calc-total").textContent = money(policy.total);
   document.querySelector("#calc-camera-count").textContent = cameras;
   document.querySelector("#calc-cameras-price").textContent = money(cameraPrice);
   document.querySelector("#calc-central-price").textContent = money(centralPrice);
   document.querySelector("#calc-materials-price").textContent = money(materials);
   document.querySelector("#calc-install-price").textContent = money(installation);
+  document.querySelector("#calc-discount").textContent = `− ${money(policy.discount)}`;
+  document.querySelector("#calc-deposit").textContent = money(policy.deposit);
   document.querySelector("#calc-note").textContent =
-    `Витратні матеріали включають кабель, RJ-45, гермокоробки, кріплення та патч-корди.${channelWarning}`;
+    `Роботи рахуються за PDF-прайсом монтажу: камери, NVR, мобільний застосунок, кабель і кріплення. ${archiveHint}.${channelWarning}`;
 }
 
 calculator.addEventListener("input", calculateSecuritySystem);
 calculator.addEventListener("change", calculateSecuritySystem);
 document.querySelector("#send-calculation").addEventListener("click", () => {
-  trackEvent("calculator_send", { cameras: calcState.quote.cameras });
-  window.open(telegramUrl(calcState.message), "_blank", "noopener,noreferrer");
+  trackEvent("calculator_confirm_open", { mode: "video", total: calcState.quote.total });
+  openQuoteModal(calcState);
 });
 
 document.querySelector("#download-proposal").addEventListener("click", () => {
@@ -629,6 +824,12 @@ function calculateBackupPowerExact() {
   const inverterLabel = powerCalculator.elements.powerEfficiency.options[
     powerCalculator.elements.powerEfficiency.selectedIndex
   ].text;
+  const serviceBase =
+    PDF_RATES.additional.powerSupply +
+    PDF_RATES.additional.routerSetup +
+    PDF_RATES.additional.officeSetup +
+    Math.ceil(load / 500) * PDF_RATES.additional.cableBoxPerMeter * 5;
+  const policy = applyPricePolicy(0, serviceBase, 0);
 
   powerState.message = [
     "Електротехнічний розрахунок резервного живлення Alt-Cam",
@@ -642,9 +843,30 @@ function calculateBackupPowerExact() {
     `Загальний запас: ${totalCapacityKwh.toFixed(2)} кВт·год`,
     `Доступна енергія: ${Math.round(effectiveWh)} Вт·год`,
     `Час автономної роботи: ${runtimeText}`,
+    `Монтаж і налаштування за прайсом: ${money(serviceBase)}`,
+    `Знижка 5%: застосовано`,
+    policy.highTotalDiscount ? `Додаткова знижка 5% від 50 000 грн: ${money(policy.highTotalDiscount)}` : "Додаткова знижка від 50 000 грн: не застосовується",
+    `Орієнтовна вартість робіт після знижок: ${money(policy.total)}`,
     "",
     "Потрібен підбір сумісного інвертора та акумуляторів."
   ].join("\n");
+  powerState.quote = {
+    type: "Резервне живлення",
+    load,
+    voltage,
+    capacityAh,
+    batteryCount,
+    batteryLabel,
+    inverterLabel,
+    totalCapacityKwh,
+    effectiveWh,
+    runtimeText,
+    serviceBase,
+    equipment: 0,
+    work: serviceBase,
+    materials: 0,
+    ...policy
+  };
 
   document.querySelector("#power-runtime-main").textContent = runtimeText;
   document.querySelector("#power-load").textContent = `${load} Вт`;
@@ -652,13 +874,15 @@ function calculateBackupPowerExact() {
   document.querySelector("#power-effective").textContent = `${Math.round(effectiveWh)} Вт·год`;
   document.querySelector("#power-dod").textContent = `${Math.round(dod * 100)}%`;
   document.querySelector("#power-loss").textContent = `${Math.round((1 - efficiency) * 100)}%`;
+  document.querySelector("#power-service-price").textContent = money(policy.total);
+  document.querySelector("#power-discount").textContent = `− ${money(policy.discount)}`;
 }
 
 powerCalculator.addEventListener("input", calculateBackupPower);
 powerCalculator.addEventListener("change", calculateBackupPower);
 document.querySelector("#send-power-calculation").addEventListener("click", () => {
-  trackEvent("calculator_send", { mode: "backup_power" });
-  window.open(telegramUrl(powerState.message), "_blank", "noopener,noreferrer");
+  trackEvent("calculator_confirm_open", { mode: "backup_power", total: powerState.quote.total });
+  openQuoteModal(powerState);
 });
 calculateBackupPower();
 
@@ -759,13 +983,20 @@ function calculateAjaxAccessExact() {
     (includeController ? 3600 : 0) +
     (includeIntercom ? 8900 : 0) +
     (hasAccess ? 1200 : 0);
-  const materials = hasWiredSystem ? 900 : 0;
-  const work = includeInstall
-    ? (hasAjax ? 1000 + sensorCount * 200 : 0) +
-      (hasAccess ? 2500 : 0) +
-      (includeIntercom ? 1500 : 0)
+  const materials = hasWiredSystem
+    ? PDF_RATES.additional.cableBoxPerMeter * 12 + PDF_RATES.video.junctionBox
     : 0;
-  const total = ajaxEquipment + accessEquipment + materials + work;
+  const work = includeInstall
+    ? (hasAjax ? PDF_RATES.ajax.starterKit + PDF_RATES.ajax.hubSetup : 0) +
+      motion * PDF_RATES.ajax.motionIndoor +
+      door * PDF_RATES.ajax.opening +
+      leaks * PDF_RATES.ajax.leak +
+      (includeLock ? PDF_RATES.access.magneticLock + PDF_RATES.access.lockConnection : 0) +
+      (includeController ? PDF_RATES.access.controller + PDF_RATES.access.reader : 0) +
+      (includeIntercom ? PDF_RATES.intercom.ipKit + PDF_RATES.intercom.mobilePlace : 0) +
+      (hasAccess ? PDF_RATES.access.backupPower : 0)
+    : 0;
+  const policy = applyPricePolicy(ajaxEquipment + accessEquipment, work, materials);
   const totalComponents =
     (includeHub ? 1 : 0) +
     sensorCount +
@@ -789,25 +1020,47 @@ function calculateAjaxAccessExact() {
     `Обладнання Ajax: ${money(ajaxEquipment)}`,
     `СКУД, домофонія та ББЖ: ${money(accessEquipment)}`,
     `Витратні матеріали: ${money(materials)}`,
-    `Монтаж і програмування: ${money(work)}`,
-    `Загальна вартість: ${money(total)}`,
+    `Монтаж і програмування за прайсом: ${money(work)}`,
+    `Знижка 5%: застосовано`,
+    policy.highTotalDiscount ? `Додаткова знижка 5% від 50 000 грн: ${money(policy.highTotalDiscount)}` : "Додаткова знижка від 50 000 грн: не застосовується",
+    `Загальна вартість після знижок: ${money(policy.total)}`,
+    `Рекомендований завдаток на обладнання: ${money(policy.deposit)}`,
     "",
     "Хочу уточнити цей комплекс."
   ].join("\n");
+  ajaxState.quote = {
+    type: "Ajax, СКУД та домофонія",
+    includeHub,
+    motion,
+    door,
+    leaks,
+    includeLock,
+    includeController,
+    includeIntercom,
+    includeInstall,
+    ajaxEquipment,
+    accessEquipment,
+    materials,
+    work,
+    totalComponents,
+    ...policy
+  };
 
-  document.querySelector("#ajax-total").textContent = money(total);
+  document.querySelector("#ajax-total").textContent = money(policy.total);
   document.querySelector("#ajax-devices").textContent = totalComponents;
   document.querySelector("#ajax-equipment-price").textContent = money(ajaxEquipment);
   document.querySelector("#access-equipment-price").textContent = money(accessEquipment);
   document.querySelector("#security-materials-price").textContent = money(materials);
   document.querySelector("#security-work-price").textContent = money(work);
+  document.querySelector("#ajax-discount").textContent = `− ${money(policy.discount)}`;
+  document.querySelector("#ajax-deposit").textContent = money(policy.deposit);
 }
 
 ajaxCalculator.addEventListener("input", calculateAjaxSystem);
 ajaxCalculator.addEventListener("change", calculateAjaxSystem);
 document.querySelector("#send-ajax-calculation").addEventListener("click", () => {
-  trackEvent("calculator_send", { mode: "ajax_security" });
-  window.open(telegramUrl(ajaxState.message), "_blank", "noopener,noreferrer");
+  trackEvent("calculator_confirm_open", { mode: "ajax_security", total: ajaxState.quote.total });
+  openQuoteModal(ajaxState);
 });
 calculateAjaxSystem();
 
