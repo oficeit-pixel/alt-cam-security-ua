@@ -324,25 +324,43 @@ select,
   transition: var(--premium-transition);
 }
 
+/* Hard fix for native dropdown popups across the whole site.
+   Some browsers draw <option> menus with OS defaults, so these rules are
+   intentionally global and stronger than the form-specific styles above. */
+select {
+  color: var(--premium-heading) !important;
+  background-color: var(--premium-bg-soft) !important;
+  color-scheme: dark;
+}
+
 select option,
 select optgroup,
 .calculator-form select option,
 .request-form select option {
-  color: var(--premium-heading);
-  background: var(--premium-bg-soft);
+  color: var(--premium-heading) !important;
+  background-color: var(--premium-bg-soft) !important;
+}
+
+select option:hover,
+select option:focus,
+.calculator-form select option:hover,
+.request-form select option:hover {
+  color: var(--premium-heading) !important;
+  background-color: #2a2a2d !important;
 }
 
 select option:checked,
 .calculator-form select option:checked,
 .request-form select option:checked {
-  color: #111;
-  background: var(--premium-gold);
+  color: #111 !important;
+  background-color: var(--premium-gold) !important;
 }
 
 select option:disabled,
+.calculator-form select option:disabled,
 .request-form select option:disabled {
-  color: var(--premium-muted);
-  background: var(--premium-bg-soft);
+  color: var(--premium-muted) !important;
+  background-color: var(--premium-bg-soft) !important;
 }
 
 input:focus,
