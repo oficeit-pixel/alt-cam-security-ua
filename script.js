@@ -12,9 +12,9 @@ const CONTACTS = {
   phone: "",
   phoneLabel: "",
   email: "altcam.ua@gmail.com",
-  facebook: "",
-  instagram: "",
-  threads: "",
+  facebook: "https://www.facebook.com/profile.php?id=61586809808794",
+  instagram: "https://www.instagram.com/alt_cam_security_ua/",
+  threads: "https://www.threads.com/@alt_cam_security_ua",
   tiktok: "",
   messenger: "",
   viber: ""
