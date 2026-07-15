@@ -318,7 +318,7 @@
 
         <div class="calculator-shell calc-panel active reveal" data-calc-panel="video">
           <form class="calculator-form" id="security-calculator">
-            <div class="calc-form-title"><span>01</span><div><h3>Склад IP-відеоспостереження</h3><p>Hikvision / Dahua, обладнання та монтаж.</p></div></div>
+            <div class="calc-form-title"><span>01</span><div><h3>Склад IP-відеоспостереження</h3><p>Hikvision / Dahua / Uniview або підбір без прив’язки до бренду.</p></div></div>
 
             <div class="calc-fields-row calc-fields-three">
               <label>Внутрішні купольні
@@ -329,6 +329,34 @@
               </label>
               <label>Поворотні PTZ
                 <input type="number" name="videoPtz" min="0" max="16" step="1" value="0">
+              </label>
+            </div>
+
+            <div class="calc-fields-row calc-fields-three">
+              <label>Бренд камер
+                <select name="videoBrand">
+                  <option value="auto" selected>Не знаю — підберіть оптимально</option>
+                  <option value="hikvision">Hikvision — AcuSense / ColorVu</option>
+                  <option value="dahua">Dahua — WizSense / TiOC</option>
+                  <option value="uniview">Uniview — LightHunter / ColorHunter</option>
+                  <option value="imou">IMOU — дім / малий офіс</option>
+                </select>
+              </label>
+              <label>Роздільна здатність
+                <select name="videoResolution">
+                  <option value="auto" selected>Не знаю — підберіть під задачу</option>
+                  <option value="2mp">2 Мп — базовий огляд</option>
+                  <option value="4mp">4 Мп — оптимально для більшості об’єктів</option>
+                  <option value="8mp">8 Мп / 4K — висока деталізація</option>
+                </select>
+              </label>
+              <label>Нічний режим / аналітика
+                <select name="videoNightMode">
+                  <option value="auto" selected>Не знаю — підберіть по локації</option>
+                  <option value="ir">ІЧ-підсвітка — класичний нічний режим</option>
+                  <option value="color">Кольорове нічне бачення</option>
+                  <option value="ai">AI-детекція людей / авто</option>
+                </select>
               </label>
             </div>
 
@@ -378,11 +406,38 @@
 
         <div class="calculator-shell calc-panel" data-calc-panel="power">
           <form class="calculator-form" id="power-calculator">
-            <div class="calc-form-title"><span>02</span><div><h3>АКБ та інвертор</h3><p>Електротехнічний розрахунок автономності.</p></div></div>
+            <div class="calc-form-title"><span>02</span><div><h3>АКБ та інвертор</h3><p>Електротехнічний розрахунок автономності та класу резерву.</p></div></div>
 
             <label>Потужність навантаження, Вт
               <input type="number" name="powerLoad" min="10" max="30000" step="10" value="150">
             </label>
+
+            <div class="calc-fields-row calc-fields-three">
+              <label>Формат резерву
+                <select name="powerProfile">
+                  <option value="auto" selected>Не знаю — підберіть оптимально</option>
+                  <option value="network">Роутер / NVR / камери</option>
+                  <option value="home">Будинок: котел, світло, зв’язок</option>
+                  <option value="business">Офіс / магазин з запасом</option>
+                </select>
+              </label>
+              <label>Бренд / клас обладнання
+                <select name="powerBrand">
+                  <option value="auto" selected>Без бренду — підбір за бюджетом</option>
+                  <option value="logicpower">LogicPower / LP — доступний сегмент</option>
+                  <option value="must">Must / Deye — інверторні системи</option>
+                  <option value="victron">Victron — преміум-надійність</option>
+                  <option value="station">EcoFlow / Bluetti — портативні станції</option>
+                </select>
+              </label>
+              <label>Запас потужності
+                <select name="powerReserve">
+                  <option value="1.15" selected>Стандартний запас 15%</option>
+                  <option value="1.3">Посилений запас 30%</option>
+                  <option value="1.5">Максимальний запас 50%</option>
+                </select>
+              </label>
+            </div>
 
             <div class="calc-fields-row calc-fields-three">
               <label>Напруга системи
@@ -436,9 +491,17 @@
 
         <div class="calculator-shell calc-panel" data-calc-panel="ajax">
           <form class="calculator-form" id="ajax-calculator">
-            <div class="calc-form-title"><span>03</span><div><h3>Ajax, СКУД та домофонія</h3><p>Точний склад обладнання й інсталяції.</p></div></div>
+            <div class="calc-form-title"><span>03</span><div><h3>Ajax, СКУД та домофонія</h3><p>Підбір охорони, доступу, домофона та резервного живлення.</p></div></div>
 
             <div class="power-load-title">Бездротова сигналізація Ajax</div>
+            <label>Лінійка Ajax
+              <select name="ajaxLine">
+                <option value="auto" selected>Не знаю — підберіть комплект</option>
+                <option value="hub2">Hub 2 — базова охорона</option>
+                <option value="motioncam">Hub 2 + MotionCam — фотоверифікація</option>
+                <option value="hub2plus">Hub 2 Plus — більше каналів зв’язку</option>
+              </select>
+            </label>
             <label class="calc-check"><input type="checkbox" name="ajaxHub" checked><span><b>Ajax Hub 2</b><small>Хаб системи для керування датчиками</small></span></label>
             <div class="calc-fields-row calc-fields-three">
               <label>MotionProtect
@@ -453,6 +516,26 @@
             </div>
 
             <div class="power-load-title">СКУД та IP-домофон</div>
+            <div class="calc-fields-row">
+              <label>Бренд домофонії
+                <select name="intercomBrand">
+                  <option value="auto" selected>Не знаю — підберіть під об’єкт</option>
+                  <option value="hikvision">Hikvision — IP-домофонія</option>
+                  <option value="dahua">Dahua — IP-домофонія</option>
+                  <option value="akuvox">Akuvox — преміум IP-рішення</option>
+                  <option value="basip">BAS-IP — преміум-домофонія</option>
+                </select>
+              </label>
+              <label>Бренд / клас СКУД
+                <select name="accessBrand">
+                  <option value="auto" selected>Без бренду — підбір за задачею</option>
+                  <option value="yli">YLI / ATIS — замки та контролери</option>
+                  <option value="hikvision">Hikvision — СКУД + відео</option>
+                  <option value="zkteco">ZKTeco — доступ і облік часу</option>
+                  <option value="premium">Преміум-комплект з розширенням</option>
+                </select>
+              </label>
+            </div>
             <div class="power-load-grid">
               <label class="calc-check"><input type="checkbox" name="accessLock"><span><b>Замок Yli 300 кг</b><small>Електромагнітне утримання дверей</small></span></label>
               <label class="calc-check"><input type="checkbox" name="accessController"><span><b>Контролер + зчитувач</b><small>Картки, брелоки або код доступу</small></span></label>

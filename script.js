@@ -576,14 +576,40 @@ function calculateSecuritySystemExact() {
   const indoor = Math.max(0, Number(data.get("videoIndoor")) || 0);
   const outdoor = Math.max(0, Number(data.get("videoOutdoor")) || 0);
   const ptz = Math.max(0, Number(data.get("videoPtz")) || 0);
+  const videoBrand = data.get("videoBrand") || "auto";
+  const videoResolution = data.get("videoResolution") || "auto";
+  const videoNightMode = data.get("videoNightMode") || "auto";
   const nvrChannels = Number(data.get("videoNvr"));
   const hddTb = Number(data.get("videoHdd"));
   const includeInstall = data.get("videoInstall") === "on";
   const nvrPrices = { 4: 1800, 8: 3200, 16: 5400 };
   const hddPrices = { 1: 2400, 2: 3500, 4: 5200 };
+  const brandProfiles = {
+    auto: { label: "Без бренду — підбір за задачею та бюджетом", cameraFactor: 1, nvrFactor: 1 },
+    hikvision: { label: "Hikvision — AcuSense / ColorVu", cameraFactor: 1.18, nvrFactor: 1.12 },
+    dahua: { label: "Dahua — WizSense / TiOC", cameraFactor: 1.15, nvrFactor: 1.1 },
+    uniview: { label: "Uniview — LightHunter / ColorHunter", cameraFactor: 1.08, nvrFactor: 1.06 },
+    imou: { label: "IMOU — дім / малий офіс", cameraFactor: 0.92, nvrFactor: 0.95 }
+  };
+  const resolutionProfiles = {
+    auto: { label: "Роздільна здатність підбирається після огляду зон", factor: 1 },
+    "2mp": { label: "2 Мп — базовий огляд", factor: 0.88 },
+    "4mp": { label: "4 Мп — оптимальна деталізація", factor: 1 },
+    "8mp": { label: "8 Мп / 4K — висока деталізація", factor: 1.45 }
+  };
+  const nightProfiles = {
+    auto: { label: "Нічний режим підбирається по освітленню", factor: 1 },
+    ir: { label: "ІЧ-підсвітка", factor: 1 },
+    color: { label: "Кольорове нічне бачення", factor: 1.18 },
+    ai: { label: "AI-детекція людей / авто", factor: 1.22 }
+  };
+  const brandProfile = brandProfiles[videoBrand] || brandProfiles.auto;
+  const resolutionProfile = resolutionProfiles[videoResolution] || resolutionProfiles.auto;
+  const nightProfile = nightProfiles[videoNightMode] || nightProfiles.auto;
   const cameras = indoor + outdoor + ptz;
-  const cameraPrice = indoor * 1450 + outdoor * 1950 + ptz * 4200;
-  const centralPrice = nvrPrices[nvrChannels] + hddPrices[hddTb];
+  const cameraBasePrice = indoor * 1450 + outdoor * 1950 + ptz * 4200;
+  const cameraPrice = Math.round(cameraBasePrice * brandProfile.cameraFactor * resolutionProfile.factor * nightProfile.factor);
+  const centralPrice = Math.round(nvrPrices[nvrChannels] * brandProfile.nvrFactor + hddPrices[hddTb]);
   const cableMeters = indoor * 12 + outdoor * 18 + ptz * 22 + 10;
   const materials =
     cableMeters * PDF_RATES.video.cableIndoorPerMeter +
@@ -612,6 +638,9 @@ function calculateSecuritySystemExact() {
     `Внутрішні купольні камери: ${indoor} шт.`,
     `Вуличні циліндричні камери: ${outdoor} шт.`,
     `Поворотні PTZ: ${ptz} шт.`,
+    `Бренд / клас камер: ${brandProfile.label}`,
+    `Роздільна здатність: ${resolutionProfile.label}`,
+    `Нічний режим / аналітика: ${nightProfile.label}`,
     `NVR: ${nvrChannels} каналів`,
     `WD Purple: ${hddTb} ТБ (${archiveHint})`,
     "",
@@ -633,6 +662,9 @@ function calculateSecuritySystemExact() {
     outdoor,
     ptz,
     cameras,
+    videoBrand: brandProfile.label,
+    videoResolution: resolutionProfile.label,
+    videoNightMode: nightProfile.label,
     nvrChannels,
     hddTb,
     archiveHint,
@@ -652,7 +684,7 @@ function calculateSecuritySystemExact() {
   document.querySelector("#calc-discount").textContent = `− ${money(policy.discount)}`;
   document.querySelector("#calc-deposit").textContent = money(policy.deposit);
   document.querySelector("#calc-note").textContent =
-    `Роботи рахуються за PDF-прайсом монтажу: камери, NVR, мобільний застосунок, кабель і кріплення. ${archiveHint}.${channelWarning}`;
+    `Підбір: ${brandProfile.label}; ${resolutionProfile.label}; ${nightProfile.label}. Роботи рахуються за PDF-прайсом монтажу: камери, NVR, мобільний застосунок, кабель і кріплення. ${archiveHint}.${channelWarning}`;
 }
 
 calculator.addEventListener("input", calculateSecuritySystem);
@@ -687,6 +719,8 @@ document.querySelector("#download-proposal").addEventListener("click", () => {
     <div class="item"><span>Вуличні камери</span><strong>${quote.outdoor} шт.</strong></div>
     <div class="item"><span>Поворотні PTZ</span><strong>${quote.ptz} шт.</strong></div>
     <div class="item"><span>Центральний вузол</span><strong>NVR ${quote.nvrChannels} каналів, HDD ${quote.hddTb} ТБ</strong></div>
+    <div class="item"><span>Бренд / клас камер</span><strong>${quote.videoBrand}</strong></div>
+    <div class="item"><span>Параметри камер</span><strong>${quote.videoResolution}; ${quote.videoNightMode}</strong></div>
   </div>
   <table>
     <tr><td>IP-камери</td><td>${money(quote.cameraPrice)}</td></tr>
@@ -809,11 +843,30 @@ function formatRuntime(hoursValue) {
 function calculateBackupPowerExact() {
   const data = new FormData(powerCalculator);
   const load = Math.max(1, Number(data.get("powerLoad")) || 1);
+  const powerProfileKey = data.get("powerProfile") || "auto";
+  const powerBrandKey = data.get("powerBrand") || "auto";
+  const reserveFactor = Number(data.get("powerReserve")) || 1.15;
   const voltage = Number(data.get("powerVoltage"));
   const capacityAh = Math.max(1, Number(data.get("powerAh")) || 1);
   const batteryCount = Math.max(1, Number(data.get("powerCount")) || 1);
   const dod = Number(data.get("powerBatteryType"));
   const efficiency = Number(data.get("powerEfficiency"));
+  const powerProfiles = {
+    auto: { label: "Не знаю — підбір оптимального формату", factor: 1.05 },
+    network: { label: "Роутер / NVR / камери", factor: 1 },
+    home: { label: "Будинок: котел, світло, зв’язок", factor: 1.12 },
+    business: { label: "Офіс / магазин з запасом", factor: 1.18 }
+  };
+  const powerBrands = {
+    auto: { label: "Без бренду — підбір за бюджетом", factor: 1 },
+    logicpower: { label: "LogicPower / LP — доступний сегмент", factor: 0.96 },
+    must: { label: "Must / Deye — інверторні системи", factor: 1.08 },
+    victron: { label: "Victron — преміум-надійність", factor: 1.2 },
+    station: { label: "EcoFlow / Bluetti — портативні станції", factor: 1.15 }
+  };
+  const powerProfile = powerProfiles[powerProfileKey] || powerProfiles.auto;
+  const powerBrand = powerBrands[powerBrandKey] || powerBrands.auto;
+  const recommendedPower = Math.ceil(load * reserveFactor);
   const totalCapacityKwh = capacityAh * voltage * batteryCount / 1000;
   const effectiveWh = capacityAh * voltage * batteryCount * dod * efficiency;
   const runtimeHours = effectiveWh / load;
@@ -825,16 +878,21 @@ function calculateBackupPowerExact() {
     powerCalculator.elements.powerEfficiency.selectedIndex
   ].text;
   const serviceBase =
-    PDF_RATES.additional.powerSupply +
-    PDF_RATES.additional.routerSetup +
-    PDF_RATES.additional.officeSetup +
-    Math.ceil(load / 500) * PDF_RATES.additional.cableBoxPerMeter * 5;
+    Math.round((
+      PDF_RATES.additional.powerSupply +
+      PDF_RATES.additional.routerSetup +
+      PDF_RATES.additional.officeSetup +
+      Math.ceil(load / 500) * PDF_RATES.additional.cableBoxPerMeter * 5
+    ) * powerProfile.factor * powerBrand.factor * Math.max(1, reserveFactor / 1.15));
   const policy = applyPricePolicy(0, serviceBase, 0);
 
   powerState.message = [
     "Електротехнічний розрахунок резервного живлення Alt-Cam",
     "",
+    `Формат резерву: ${powerProfile.label}`,
+    `Бренд / клас: ${powerBrand.label}`,
     `Навантаження: ${load} Вт`,
+    `Рекомендований запас потужності: ${recommendedPower} Вт`,
     `Система: ${voltage} V`,
     `Акумулятори: ${batteryCount} × ${capacityAh} А·год`,
     `Тип АКБ: ${batteryLabel}`,
@@ -853,6 +911,10 @@ function calculateBackupPowerExact() {
   powerState.quote = {
     type: "Резервне живлення",
     load,
+    powerProfile: powerProfile.label,
+    powerBrand: powerBrand.label,
+    reserveFactor,
+    recommendedPower,
     voltage,
     capacityAh,
     batteryCount,
@@ -960,6 +1022,9 @@ function calculateAjaxSystem() {
 
 function calculateAjaxAccessExact() {
   const data = new FormData(ajaxCalculator);
+  const ajaxLineKey = data.get("ajaxLine") || "auto";
+  const intercomBrandKey = data.get("intercomBrand") || "auto";
+  const accessBrandKey = data.get("accessBrand") || "auto";
   const includeHub = data.get("ajaxHub") === "on";
   const motion = Math.max(0, Number(data.get("ajaxMotion")) || 0);
   const door = Math.max(0, Number(data.get("ajaxDoor")) || 0);
@@ -972,17 +1037,39 @@ function calculateAjaxAccessExact() {
   const hasAccess = includeLock || includeController;
   const hasWiredSystem = hasAccess || includeIntercom;
   const sensorCount = motion + door + leaks;
+  const ajaxLines = {
+    auto: { label: "Ajax — підбір комплекту після уточнення об’єкта", hubPrice: 5100, sensorFactor: 1 },
+    hub2: { label: "Ajax Hub 2 — базова охорона", hubPrice: 5100, sensorFactor: 1 },
+    motioncam: { label: "Ajax Hub 2 + MotionCam — фотоверифікація", hubPrice: 6500, sensorFactor: 1.25 },
+    hub2plus: { label: "Ajax Hub 2 Plus — більше каналів зв’язку", hubPrice: 9800, sensorFactor: 1.15 }
+  };
+  const intercomBrands = {
+    auto: { label: "Домофонія — підбір під об’єкт", factor: 1 },
+    hikvision: { label: "Hikvision — IP-домофонія", factor: 1 },
+    dahua: { label: "Dahua — IP-домофонія", factor: 1.05 },
+    akuvox: { label: "Akuvox — преміум IP-рішення", factor: 1.25 },
+    basip: { label: "BAS-IP — преміум-домофонія", factor: 1.35 }
+  };
+  const accessBrands = {
+    auto: { label: "СКУД — підбір за задачею", factor: 1 },
+    yli: { label: "YLI / ATIS — замки та контролери", factor: 1 },
+    hikvision: { label: "Hikvision — СКУД + відео", factor: 1.15 },
+    zkteco: { label: "ZKTeco — доступ і облік часу", factor: 1.1 },
+    premium: { label: "Преміум-комплект з розширенням", factor: 1.22 }
+  };
+  const ajaxLine = ajaxLines[ajaxLineKey] || ajaxLines.auto;
+  const intercomBrand = intercomBrands[intercomBrandKey] || intercomBrands.auto;
+  const accessBrand = accessBrands[accessBrandKey] || accessBrands.auto;
 
   const ajaxEquipment =
-    (includeHub ? 5100 : 0) +
-    motion * 1350 +
-    door * 1050 +
-    leaks * 1250;
-  const accessEquipment =
+    (includeHub ? ajaxLine.hubPrice : 0) +
+    Math.round((motion * 1350 + door * 1050 + leaks * 1250) * ajaxLine.sensorFactor);
+  const accessCore =
     (includeLock ? 2100 : 0) +
     (includeController ? 3600 : 0) +
-    (includeIntercom ? 8900 : 0) +
     (hasAccess ? 1200 : 0);
+  const accessEquipment =
+    Math.round(accessCore * accessBrand.factor + (includeIntercom ? 8900 * intercomBrand.factor : 0));
   const materials = hasWiredSystem
     ? PDF_RATES.additional.cableBoxPerMeter * 12 + PDF_RATES.video.junctionBox
     : 0;
@@ -1008,13 +1095,16 @@ function calculateAjaxAccessExact() {
   ajaxState.message = [
     "Розрахунок Ajax, СКУД та домофонії — Alt-Cam",
     "",
-    `Ajax Hub 2: ${includeHub ? "так" : "ні"}`,
+    `Лінійка Ajax: ${ajaxLine.label}`,
+    `Хаб Ajax: ${includeHub ? "так" : "ні"}`,
     `MotionProtect: ${motion} шт.`,
     `DoorProtect: ${door} шт.`,
     `LeaksProtect: ${leaks} шт.`,
+    `Бренд / клас СКУД: ${accessBrand.label}`,
+    `Бренд домофонії: ${intercomBrand.label}`,
     `Електромагнітний замок: ${includeLock ? "так" : "ні"}`,
     `Контролер і зчитувач: ${includeController ? "так" : "ні"}`,
-    `IP-домофон Hikvision: ${includeIntercom ? "так" : "ні"}`,
+    `IP-домофон: ${includeIntercom ? "так" : "ні"}`,
     `ББЖ 12 В + АКБ 7 А·год: ${hasAccess ? "додано автоматично" : "не потрібен"}`,
     "",
     `Обладнання Ajax: ${money(ajaxEquipment)}`,
@@ -1030,6 +1120,9 @@ function calculateAjaxAccessExact() {
   ].join("\n");
   ajaxState.quote = {
     type: "Ajax, СКУД та домофонія",
+    ajaxLine: ajaxLine.label,
+    intercomBrand: intercomBrand.label,
+    accessBrand: accessBrand.label,
     includeHub,
     motion,
     door,
