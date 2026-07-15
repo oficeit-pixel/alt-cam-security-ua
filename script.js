@@ -11,9 +11,10 @@ const CONTACTS = {
   whatsapp: "",
   phone: "",
   phoneLabel: "",
-  email: "",
+  email: "altcam.ua@gmail.com",
   facebook: "",
   instagram: "",
+  threads: "",
   tiktok: "",
   messenger: "",
   viber: ""
@@ -364,7 +365,7 @@ if (CONTACTS.email) {
   emailLink.textContent = CONTACTS.email;
 }
 
-["facebook", "instagram", "tiktok"].forEach((network) => {
+["facebook", "instagram", "threads", "tiktok"].forEach((network) => {
   const link = document.querySelector(`.js-${network}`);
   setHidden(link, !CONTACTS[network]);
   if (!CONTACTS[network]) return;
