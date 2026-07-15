@@ -37,13 +37,19 @@ python -m pip install -r social-posts/meta-automation/requirements.txt
 python social-posts/meta-automation/publish_due.py --dry-run --force --post-id altcam-001-cameras-before-theft
 ```
 
-5. Когда токены проверены, в `.env` поставить:
+5. Проверить токены и найти Instagram ID:
+
+```powershell
+python social-posts/meta-automation/check_setup.py
+```
+
+6. Когда токены проверены, в `.env` поставить:
 
 ```env
 DRY_RUN=false
 ```
 
-6. Опубликовать конкретный тестовый пост:
+7. Опубликовать конкретный тестовый пост:
 
 ```powershell
 python social-posts/meta-automation/publish_due.py --force --post-id altcam-001-cameras-before-theft
