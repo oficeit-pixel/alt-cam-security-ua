@@ -1,0 +1,363 @@
+/*
+  Alt-Cam Security UA — Premium Security Platform Overrides
+  --------------------------------------------------------
+  Purpose:
+  This stylesheet sits after styles.css and modernizes the existing landing page
+  without requiring a full HTML rebuild. It shifts the design from heavy utility
+  black/yellow into a cleaner anthracite + glass + restrained gold system.
+*/
+
+:root {
+  --premium-bg: #161618;
+  --premium-bg-soft: #1d1d20;
+  --premium-bg-deep: #121212;
+  --premium-surface: rgba(255, 255, 255, 0.02);
+  --premium-surface-strong: rgba(255, 255, 255, 0.045);
+  --premium-border: rgba(255, 255, 255, 0.08);
+  --premium-border-strong: rgba(255, 255, 255, 0.14);
+  --premium-heading: #f5f5f7;
+  --premium-text: #d9d9df;
+  --premium-muted: #86868b;
+  --premium-gold: #ffcc00;
+  --premium-gold-soft: rgba(255, 204, 0, 0.14);
+  --premium-gold-glow: rgba(255, 204, 0, 0.45);
+  --premium-radius: 12px;
+  --premium-radius-lg: 22px;
+  --premium-shadow: 0 28px 90px rgba(0, 0, 0, 0.32);
+  --premium-transition: all 0.3s ease;
+}
+
+/* 1. Global foundation */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--premium-text);
+  background:
+    radial-gradient(circle at 18% 0%, rgba(255, 204, 0, 0.08), transparent 28%),
+    radial-gradient(circle at 82% 12%, rgba(88, 166, 255, 0.08), transparent 34%),
+    linear-gradient(180deg, var(--premium-bg), var(--premium-bg-deep));
+  font-family: Inter, Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  text-rendering: geometricPrecision;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.36), transparent 72%);
+}
+
+h1,
+h2,
+h3,
+.section-head h2,
+.section-head.light h2 {
+  color: var(--premium-heading);
+  letter-spacing: -0.045em;
+}
+
+p,
+.section-head p,
+.section-head.light p,
+.service-card p,
+.why-card p,
+.package-card p,
+.process-step p,
+.mistake-item p,
+.faq-item p,
+.review-card > p {
+  color: var(--premium-muted);
+}
+
+/* 2. More premium spacing between large blocks */
+.section {
+  padding-top: clamp(96px, 9vw, 150px);
+  padding-bottom: clamp(96px, 9vw, 150px);
+}
+
+.section-head {
+  margin-bottom: clamp(42px, 5vw, 72px);
+}
+
+.container {
+  position: relative;
+}
+
+/* 3. Anthracite backgrounds instead of heavy black */
+.hero,
+.dark-section,
+.audience,
+.request-section,
+.final-cta,
+.footer,
+.works-section,
+.mistakes,
+.solution,
+.faq-section,
+.reviews-section {
+  background:
+    radial-gradient(circle at 20% 10%, rgba(255, 204, 0, 0.055), transparent 30%),
+    linear-gradient(180deg, var(--premium-bg), var(--premium-bg-deep));
+}
+
+.works-section,
+.mistakes,
+.faq-section {
+  background:
+    radial-gradient(circle at 80% 20%, rgba(88, 166, 255, 0.07), transparent 32%),
+    linear-gradient(180deg, #18181b, #121212);
+}
+
+/* 4. Glassmorphism cards and blocks */
+.service-card,
+.why-card,
+.package-card,
+.audience-card,
+.work-card,
+.process-step,
+.mistake-item,
+.review-card,
+.faq-item,
+.quiz-card,
+.request-form,
+.calculator-form,
+.calculator-result,
+.status-card,
+.brand-row span,
+.solution-card {
+  border: 1px solid var(--premium-border);
+  border-radius: var(--premium-radius);
+  background: var(--premium-surface);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.18);
+}
+
+.service-card:hover,
+.why-card:hover,
+.package-card:hover,
+.audience-card:hover,
+.work-card:hover,
+.mistake-item:hover,
+.faq-item:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 204, 0, 0.28);
+  background: var(--premium-surface-strong);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.24);
+}
+
+.service-card,
+.why-card,
+.package-card,
+.mistake-item,
+.review-card,
+.faq-item {
+  transition: var(--premium-transition);
+}
+
+.service-card::after,
+.package-featured::before {
+  background: radial-gradient(circle, var(--premium-gold-soft), transparent 64%);
+}
+
+/* 5. Gold is now an accent, not a container color */
+.card-icon,
+.package-card > svg,
+.why-card > span,
+.why-card > svg,
+.audience-card svg,
+.section-kicker,
+.service-card a,
+.service-card a svg,
+.stars,
+.review-label {
+  color: var(--premium-gold);
+}
+
+.card-icon,
+.package-card > svg,
+.why-card > span,
+.why-card > svg {
+  background: rgba(255, 204, 0, 0.09);
+}
+
+.solution-card {
+  color: var(--premium-heading);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.025)),
+    rgba(255, 255, 255, 0.03);
+  box-shadow: var(--premium-shadow);
+}
+
+.solution-card .section-kicker,
+.solution-card h2,
+.solution-card p {
+  color: inherit;
+}
+
+/* 6. Sleek interactive CTA buttons */
+.btn,
+.btn-primary,
+.btn-secondary,
+.header-cta,
+.mobile-call,
+button[type="submit"],
+.calculator-actions button,
+.quiz-actions button {
+  min-height: 46px;
+  border-radius: 8px;
+  transition: var(--premium-transition);
+}
+
+.btn-primary,
+.header-cta,
+.mobile-call,
+button[type="submit"],
+.calculator-actions button,
+.quiz-actions button {
+  border: 1px solid rgba(255, 204, 0, 0.45);
+  color: #111;
+  background: linear-gradient(135deg, #ffd84a, var(--premium-gold));
+  box-shadow: 0 12px 35px rgba(255, 204, 0, 0.16);
+}
+
+.btn-secondary {
+  border: 1px solid var(--premium-border-strong);
+  color: var(--premium-heading);
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.btn:hover,
+.btn-primary:hover,
+.btn-secondary:hover,
+.header-cta:hover,
+.mobile-call:hover,
+button[type="submit"]:hover,
+.calculator-actions button:hover,
+.quiz-actions button:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px var(--premium-gold-glow);
+}
+
+.btn-secondary:hover {
+  border-color: rgba(255, 204, 0, 0.38);
+  color: var(--premium-gold);
+}
+
+/* 7. Navigation and hero polish */
+.header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  background: rgba(18, 18, 18, 0.72);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.nav-links a {
+  color: rgba(245, 245, 247, 0.78);
+  transition: var(--premium-transition);
+}
+
+.nav-links a:hover {
+  color: var(--premium-gold);
+}
+
+.hero-content > p,
+.hero-benefits span,
+.hero-trust small {
+  color: var(--premium-muted);
+}
+
+.hero-trust div {
+  border-color: var(--premium-border);
+  background: rgba(255, 255, 255, 0.025);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* 8. Completed works carousel: equal premium cards */
+.works-carousel {
+  gap: 18px;
+  padding-bottom: 22px;
+}
+
+.works-carousel .work-card {
+  min-height: 360px;
+  border-radius: 18px;
+}
+
+.work-card figcaption {
+  border: 1px solid var(--premium-border);
+  background: rgba(18, 18, 18, 0.58);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.work-card figcaption b {
+  color: var(--premium-heading);
+}
+
+.work-card figcaption span,
+.photo-credit {
+  color: var(--premium-muted);
+}
+
+/* 9. Forms and inputs */
+input,
+textarea,
+select,
+.request-form input,
+.request-form textarea,
+.calculator-form input,
+.calculator-form select {
+  border: 1px solid var(--premium-border);
+  border-radius: 10px;
+  color: var(--premium-heading);
+  background: rgba(255, 255, 255, 0.035);
+  transition: var(--premium-transition);
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+.request-form input:focus,
+.request-form textarea:focus,
+.calculator-form input:focus,
+.calculator-form select:focus {
+  border-color: rgba(255, 204, 0, 0.46);
+  box-shadow: 0 0 0 4px rgba(255, 204, 0, 0.1);
+}
+
+/* 10. Mobile refinements */
+@media (max-width: 780px) {
+  .section {
+    padding-top: 84px;
+    padding-bottom: 84px;
+  }
+
+  .service-card,
+  .why-card,
+  .package-card,
+  .request-form,
+  .quiz-card {
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 520px) {
+  .section {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .works-carousel .work-card {
+    min-height: 300px;
+  }
+}
