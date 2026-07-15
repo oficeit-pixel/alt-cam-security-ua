@@ -585,3 +585,388 @@ h2 { margin-bottom: 0; font-size: clamp(34px, 4vw, 52px); line-height: 1.12; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* Premium identity overrides: anthracite, glass cards, CTA-only gold accents */
+:root {
+  --ink: #f5f5f7;
+  --navy: #121212;
+  --blue: #1a1a1a;
+  --yellow: #ffcc00;
+  --yellow-2: #ffe066;
+  --white: #f5f5f7;
+  --muted: #86868b;
+  --line: rgba(255,255,255,.08);
+  --soft: #161616;
+  --surface: #1a1a1a;
+  --glass: rgba(255,255,255,.03);
+  --glass-strong: rgba(255,255,255,.055);
+  --shadow: 0 24px 80px rgba(0,0,0,.35);
+}
+
+body {
+  font-family: "Inter", "Manrope", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #f5f5f7;
+  background: #121212;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+  background:
+    radial-gradient(circle at 16% 8%, rgba(255,204,0,.07), transparent 28%),
+    radial-gradient(circle at 84% 22%, rgba(78,155,255,.08), transparent 30%),
+    linear-gradient(180deg, #121212, #171717 46%, #121212);
+}
+
+h1, h2, h3 { letter-spacing: -.025em; }
+h2, .section-head.light h2 { color: #f5f5f7; }
+.section-head p, .section-head.light p, p, .service-card p, .why-card p, .package-card p, .process-step p, .mistake-item p, .faq-title p, .faq-item p { color: #86868b; }
+.section-kicker { color: #ffcc00; }
+
+.header.scrolled,
+.nav-links.open {
+  background: rgba(18,18,18,.82);
+  border-color: rgba(255,255,255,.08);
+  box-shadow: 0 18px 60px rgba(0,0,0,.32);
+}
+
+.btn {
+  border-radius: 8px;
+  transition: transform .22s ease, box-shadow .22s ease, background .22s ease, border-color .22s ease, color .22s ease;
+}
+
+.btn:hover {
+  transform: scale(1.02);
+}
+
+.btn-primary,
+.calculator-tab.active,
+.mobile-call,
+.quiz-progress span {
+  color: #121212;
+  background: #ffcc00;
+  box-shadow: 0 0 15px rgba(255,204,0,.28);
+}
+
+.btn-primary:hover,
+.btn-calc:hover,
+.btn-dark:hover,
+.calculator-tab.active:hover {
+  color: #121212;
+  background: #ffe066;
+  box-shadow: 0 0 15px rgba(255,204,0,.4), 0 18px 46px rgba(255,204,0,.18);
+}
+
+.btn-black,
+.btn-ghost,
+.btn-outline,
+.package-btn,
+.calc-proposal-btn,
+.btn-dark {
+  color: #f5f5f7;
+  background: rgba(255,255,255,.035);
+  border-color: rgba(255,255,255,.12);
+}
+
+.btn-black:hover,
+.btn-ghost:hover,
+.btn-outline:hover,
+.package-btn:hover,
+.calculator-result .calc-proposal-btn:hover {
+  color: #ffcc00;
+  border-color: rgba(255,204,0,.55);
+  background: rgba(255,204,0,.06);
+  box-shadow: 0 0 15px rgba(255,204,0,.16);
+}
+
+.hero {
+  background:
+    radial-gradient(circle at 78% 38%, rgba(255,204,0,.08), transparent 28%),
+    radial-gradient(circle at 55% 58%, rgba(64,137,255,.12), transparent 38%),
+    linear-gradient(135deg, #121212, #1a1a1a 58%, #101010);
+}
+
+.hero::before {
+  background: linear-gradient(90deg, rgba(18,18,18,.18) 44%, transparent), linear-gradient(180deg, transparent 76%, #121212);
+}
+
+.hero h1 span {
+  color: #f5f5f7;
+  text-shadow: 0 0 24px rgba(255,204,0,.18);
+}
+
+.hero-benefits svg,
+.quiz-trust svg,
+.request-copy li svg,
+.calc-fab > svg,
+.calc-form-title > span,
+.mini-icon {
+  color: #121212;
+  background: #ffcc00;
+}
+
+.section,
+.why-section,
+.catalog-section,
+.mistakes,
+.solution,
+.works-section,
+.faq-section,
+.reviews-section,
+.brands-section {
+  background: transparent;
+}
+
+.section-blue,
+.calculator-section,
+.quiz-section,
+.request-section,
+.final-cta,
+.footer {
+  background: #121212;
+}
+
+.service-card,
+.why-card,
+.package-card,
+.audience-card,
+.mistake-item,
+.faq-item,
+.review-card,
+.quiz-card,
+.request-form,
+.calculator-shell,
+.calculator-tabs,
+.status-card,
+.quote-modal-panel,
+.online-demo-panel,
+.solution-card {
+  background: rgba(255,255,255,.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,.08);
+  box-shadow: 0 24px 80px rgba(0,0,0,.22);
+}
+
+.service-card:hover,
+.why-card:hover,
+.package-card:hover,
+.audience-card:hover,
+.mistake-item:hover,
+.faq-item[open],
+.work-card:hover {
+  border-color: rgba(255,204,0,.42);
+  box-shadow: 0 0 15px rgba(255,204,0,.12), 0 30px 90px rgba(0,0,0,.32);
+}
+
+.service-card,
+.why-card,
+.package-card,
+.mistake-item,
+.faq-item,
+.process-step,
+.quiz-card,
+.request-form {
+  color: #f5f5f7;
+}
+
+.service-card::after {
+  background: rgba(255,204,0,.04);
+}
+
+.card-icon,
+.package-card > svg,
+.why-card > span,
+.why-card > svg,
+.process-step > span,
+.faq-item summary span,
+.review-label {
+  color: #ffcc00;
+  background: rgba(255,204,0,.08);
+  border-color: rgba(255,204,0,.14);
+}
+
+.service-card h3,
+.why-card h3,
+.package-card h3,
+.package-card > strong,
+.mistake-item h3,
+.process-step h3,
+.faq-item summary,
+.request-form h3,
+.quiz-step legend {
+  color: #f5f5f7;
+}
+
+.package-featured,
+.solution-card {
+  background:
+    radial-gradient(circle at 85% 12%, rgba(255,204,0,.08), transparent 28%),
+    rgba(255,255,255,.045);
+}
+
+.solution-card .section-kicker,
+.solution-card h2,
+.solution-card p {
+  color: #f5f5f7;
+}
+
+.solution-icon {
+  color: #121212;
+  background: #ffcc00;
+}
+
+.brands-section {
+  border-color: rgba(255,255,255,.08);
+}
+
+.brand-row span {
+  color: #f5f5f7;
+  opacity: .62;
+}
+
+.brand-row span:hover {
+  color: #ffcc00;
+  opacity: 1;
+}
+
+.calculator-section::before {
+  opacity: .08;
+}
+
+.calculator-shell,
+.calculator-result {
+  background:
+    radial-gradient(circle at 90% 10%, rgba(255,204,0,.08), transparent 26%),
+    rgba(255,255,255,.035);
+}
+
+.calculator-form select,
+.calculator-form input[type="number"],
+.request-form input,
+.request-form select,
+.request-form textarea,
+.quote-confirm-form input,
+.quote-confirm-form textarea,
+.quiz-contact-fields input,
+.quiz-options label > span {
+  color: #f5f5f7;
+  background: rgba(255,255,255,.04);
+  border-color: rgba(255,255,255,.1);
+}
+
+.calculator-form select:focus,
+.calculator-form input[type="number"]:focus,
+.request-form input:focus,
+.request-form select:focus,
+.request-form textarea:focus,
+.quote-confirm-form input:focus,
+.quote-confirm-form textarea:focus,
+.quiz-contact-fields input:focus {
+  border-color: rgba(255,204,0,.68);
+  box-shadow: 0 0 0 3px rgba(255,204,0,.12), 0 0 15px rgba(255,204,0,.14);
+  background: rgba(255,255,255,.06);
+}
+
+.calc-check,
+.calc-cost-split > div,
+.quote-summary-list div {
+  background: rgba(255,255,255,.035);
+  border-color: rgba(255,255,255,.08);
+}
+
+.works-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.works-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, transparent, rgba(255,255,255,.025), transparent);
+}
+
+.works-grid {
+  grid-auto-rows: 285px;
+}
+
+.work-card {
+  border: 1px solid rgba(255,255,255,.08);
+  background: rgba(255,255,255,.03);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 24px 80px rgba(0,0,0,.24);
+}
+
+.work-visual::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,.09), transparent 36%),
+    radial-gradient(circle at 76% 24%, rgba(255,204,0,.18), transparent 18%),
+    linear-gradient(145deg, #232323, #141414);
+  transition: transform .5s, filter .5s;
+}
+
+.work-visual::after {
+  background: linear-gradient(180deg, transparent 34%, rgba(18,18,18,.9));
+}
+
+.work-visual:hover::before {
+  transform: scale(1.045);
+  filter: saturate(1.15);
+}
+
+.work-visual-rack::before {
+  background:
+    linear-gradient(90deg, transparent 16%, rgba(255,255,255,.12) 17%, transparent 18%, transparent 32%, rgba(255,255,255,.08) 33%, transparent 34%),
+    radial-gradient(circle at 70% 28%, rgba(64,213,136,.24), transparent 12%),
+    linear-gradient(145deg, #262626, #151515);
+}
+
+.work-visual-door::before {
+  background:
+    radial-gradient(circle at 32% 42%, rgba(255,204,0,.2), transparent 13%),
+    linear-gradient(90deg, rgba(255,255,255,.11) 0 26%, transparent 26%),
+    linear-gradient(145deg, #202020, #131313);
+}
+
+.work-visual-camera::before {
+  background:
+    linear-gradient(115deg, transparent 0 44%, rgba(255,204,0,.16) 44% 58%, transparent 58%),
+    radial-gradient(circle at 27% 30%, rgba(255,255,255,.18), transparent 12%),
+    linear-gradient(145deg, #242424, #111);
+}
+
+.work-visual-mobile::before {
+  background:
+    linear-gradient(90deg, transparent 36%, rgba(255,255,255,.12) 37% 63%, transparent 64%),
+    radial-gradient(circle at 51% 34%, rgba(64,213,136,.24), transparent 10%),
+    linear-gradient(145deg, #252525, #141414);
+}
+
+.work-card figcaption {
+  padding: 16px;
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 12px;
+  background: rgba(18,18,18,.56);
+  backdrop-filter: blur(10px);
+}
+
+.work-card figcaption span,
+.photo-credit,
+.catalog-note,
+.form-note {
+  color: #86868b;
+}
+
+.photo-credit a {
+  color: #ffcc00;
+}
+
+.footer {
+  border-top: 1px solid rgba(255,255,255,.08);
+}
