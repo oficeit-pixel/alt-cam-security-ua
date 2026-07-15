@@ -324,6 +324,27 @@ select,
   transition: var(--premium-transition);
 }
 
+select option,
+select optgroup,
+.calculator-form select option,
+.request-form select option {
+  color: var(--premium-heading);
+  background: var(--premium-bg-soft);
+}
+
+select option:checked,
+.calculator-form select option:checked,
+.request-form select option:checked {
+  color: #111;
+  background: var(--premium-gold);
+}
+
+select option:disabled,
+.request-form select option:disabled {
+  color: var(--premium-muted);
+  background: var(--premium-bg-soft);
+}
+
 input:focus,
 textarea:focus,
 select:focus,
