@@ -8,6 +8,7 @@ const SITE_URL = "https://oficeit-pixel.github.io/alt-cam-security-ua/";
 
 const CONTACTS = {
   telegram: "OficeITHelp",
+  telegramChannel: "altcam_security_ua",
   whatsapp: "",
   phone: "",
   phoneLabel: "",
@@ -251,8 +252,20 @@ function telegramUrl(text = "Вітаю! Хочу отримати консул�
     : `https://t.me/share/url?url=&text=${encodeURIComponent(text)}`;
 }
 
+function telegramChannelUrl() {
+  return CONTACTS.telegramChannel
+    ? `https://t.me/${CONTACTS.telegramChannel}`
+    : telegramUrl("Вітаю! Хочу перейти до Telegram-каналу Alt-Cam Security UA.");
+}
+
 document.querySelectorAll(".js-telegram").forEach((link) => {
   link.href = telegramUrl("Вітаю! Хочу отримати безкоштовну консультацію щодо системи безпеки.");
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+});
+
+document.querySelectorAll(".js-telegram-channel").forEach((link) => {
+  link.href = telegramChannelUrl();
   link.target = "_blank";
   link.rel = "noopener noreferrer";
 });
@@ -262,6 +275,35 @@ const onlineDemoTrigger = document.querySelector(".online-demo-trigger");
 const onlineDemoCloseElements = document.querySelectorAll("[data-close-online-demo]");
 const onlineDemoCtaElements = document.querySelectorAll("[data-online-demo-cta]");
 const onlineDemoVideo = document.querySelector(".demo-video-frame");
+
+const calcFab = document.querySelector(".calc-fab");
+const footerElement = document.querySelector(".footer");
+
+if (calcFab && footerElement) {
+  const setCalcFabFooterState = (footerIsVisible) => {
+    calcFab.classList.toggle("is-footer-hidden", footerIsVisible);
+    calcFab.setAttribute("aria-hidden", String(footerIsVisible));
+    calcFab.tabIndex = footerIsVisible ? -1 : 0;
+  };
+  const updateCalcFabFooterState = () => {
+    const footerTop = footerElement.getBoundingClientRect().top;
+    const contactsHashIsActive = window.location.hash === "#contacts";
+    setCalcFabFooterState(contactsHashIsActive || footerTop < window.innerHeight - 80);
+  };
+
+  updateCalcFabFooterState();
+  window.addEventListener("scroll", updateCalcFabFooterState, { passive: true });
+  window.addEventListener("resize", updateCalcFabFooterState);
+  window.addEventListener("hashchange", updateCalcFabFooterState);
+
+  if ("IntersectionObserver" in window) {
+    const calcFabFooterObserver = new IntersectionObserver((entries) => {
+      const footerIsVisible = entries.some((entry) => entry.isIntersecting);
+      setCalcFabFooterState(footerIsVisible);
+    }, { rootMargin: "0px 0px -10% 0px", threshold: 0.01 });
+    calcFabFooterObserver.observe(footerElement);
+  }
+}
 
 function openOnlineDemo() {
   if (!onlineDemoModal) return;
