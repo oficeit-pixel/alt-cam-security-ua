@@ -368,7 +368,7 @@ select option:disabled,
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  gap: 10px;
+  gap: 12px;
   width: min(100%, 245px);
   max-width: 100%;
   margin-top: 6px;
@@ -404,6 +404,13 @@ select option:disabled,
   color: #fff;
   background: rgba(255, 255, 255, 0.06);
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.22);
+}
+
+.footer .socials .social-icon-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
 }
 
 .footer .socials .social-link svg {
@@ -442,6 +449,31 @@ select option:disabled,
   color: #2aabee;
 }
 
+.footer .socials .social-link--icon {
+  width: 46px;
+  min-width: 46px;
+  max-width: 46px;
+  min-height: 46px;
+  height: 46px;
+  justify-content: center;
+  padding: 0;
+  border-radius: 13px;
+}
+
+.footer .socials .social-link--icon span {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.footer .socials .social-link--icon svg {
+  width: 21px;
+  height: 21px;
+}
+
 .footer .socials .social-link--facebook svg {
   color: #1877f2;
 }
@@ -468,9 +500,7 @@ select option:disabled,
 
   .footer .socials {
     width: 100%;
-    max-width: none;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 245px;
   }
 }
 
