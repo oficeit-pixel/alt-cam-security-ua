@@ -1,0 +1,78 @@
+{
+  "timezone": "Europe/Kyiv",
+  "notes": "Images must be available by public HTTPS URL for Instagram and Threads publishing APIs.",
+  "posts": [
+    {
+      "id": "altcam-001-cameras-before-theft",
+      "scheduled_at": "2026-07-16T18:30:00+03:00",
+      "platforms": ["facebook", "instagram", "threads"],
+      "image_path": "../images/01-cameras-before-theft.png",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/images/01-cameras-before-theft.png",
+      "caption": "Камери потрібні не після крадіжки, а до неї.\n\nСистема відеоспостереження — це не просто запис. Це контроль території, спокій для власника і швидка реакція, коли щось іде не так.\n\nALT-CAM Security UA підбирає та встановлює рішення під конкретний об’єкт: будинок, квартиру, офіс, магазин, склад або виробництво.\n\nХочете зрозуміти, що саме потрібно для вашого об’єкта? Напишіть нам або перейдіть на alt-cam.net.ua.\n\n#відеоспостереження #камери #безпека #охорона #AltCam"
+    },
+    {
+      "id": "altcam-002-home-video-security",
+      "scheduled_at": "2026-07-18T18:30:00+03:00",
+      "platforms": ["facebook", "instagram", "threads"],
+      "image_path": "../images/02-home-video-security.png",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/images/02-home-video-security.png",
+      "caption": "Приватний будинок потребує не “просто камер”, а правильної схеми огляду.\n\nМи дивимось на входи, двір, паркомісце, периметр, нічне освітлення, інтернет і резервне живлення. Після цього підбираємо камери так, щоб система реально працювала, а не просто висіла на фасаді.\n\nALT-CAM Security UA — продаж, монтаж і налаштування систем безпеки під ключ.\n\nРозрахуйте рішення для свого будинку на alt-cam.net.ua.\n\n#безпекабудинку #камеридлябудинку #відеоспостереження #монтажкамер #AltCam"
+    },
+    {
+      "id": "altcam-003-intercom",
+      "scheduled_at": "2026-07-20T18:30:00+03:00",
+      "platforms": ["facebook", "instagram", "threads"],
+      "image_path": "../images/03-intercom.png",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/images/03-intercom.png",
+      "caption": "Домофонія — це комфорт, контроль і безпека входу.\n\nСучасний домофон дозволяє бачити відвідувача, відкривати двері, спілкуватися дистанційно та інтегрувати систему з іншими рішеннями безпеки.\n\nПідберемо домофон для квартири, приватного будинку, офісу або бізнес-об’єкта. Встановимо, налаштуємо і пояснимо, як користуватися.\n\nALT-CAM Security UA — системи безпеки, які працюють у реальному житті.\n\n#домофонія #відеодомофон #контрольвходу #системибезпеки #AltCam"
+    },
+    {
+      "id": "altcam-004-ajax",
+      "scheduled_at": "2026-07-22T18:30:00+03:00",
+      "platforms": ["facebook", "instagram", "threads"],
+      "image_path": "../images/04-ajax.png",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/images/04-ajax.png",
+      "caption": "Ajax — це коли безпека виглядає акуратно і працює розумно.\n\nДатчики руху, відкриття, сирени, керування зі смартфона, сценарії автоматизації та швидкі сповіщення — все в одній системі.\n\nМи допоможемо підібрати комплект Ajax під ваш об’єкт, правильно розмістити обладнання і налаштувати систему.\n\nПотрібна консультація? Напишіть ALT-CAM Security UA або заходьте на alt-cam.net.ua.\n\n#Ajax #сигналізація #охоронабудинку #розумнийдім #AltCam"
+    },
+    {
+      "id": "altcam-005-ups-backup",
+      "scheduled_at": "2026-07-24T18:30:00+03:00",
+      "platforms": ["facebook", "instagram", "threads"],
+      "image_path": "../images/05-ups-backup.png",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/images/05-ups-backup.png",
+      "caption": "Без світла камера не має перетворюватися на декор.\n\nДля стабільної роботи системи безпеки важливо продумати резервне живлення: UPS, акумулятори, живлення для роутера, реєстратора, камер та Ajax.\n\nALT-CAM Security UA підбирає рішення так, щоб система залишалась на зв’язку тоді, коли це найбільше потрібно.\n\nХочете перевірити, чи витримає ваша система відключення? Напишіть нам.\n\n#резервнеживлення #UPS #відеоспостереження #безсвітла #AltCam"
+    },
+    {
+      "id": "altcam-006-camera-mistakes",
+      "scheduled_at": "2026-07-27T18:30:00+03:00",
+      "platforms": ["facebook", "instagram", "threads"],
+      "image_path": "../images/06-camera-mistakes.png",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/images/06-camera-mistakes.png",
+      "caption": "5 помилок, які часто роблять при виборі камер:\n\n1. Орієнтуються тільки на ціну.\n2. Не враховують нічну зйомку.\n3. Ставлять камери без правильної схеми огляду.\n4. Забувають про інтернет і резервне живлення.\n5. Не планують, де і як зберігатиметься архів.\n\nПравильна система починається не з покупки камери, а з підбору рішення під об’єкт.\n\nALT-CAM Security UA допоможе не переплатити і не втратити важливе.\n\n#поради #камериспостереження #безпека #відеоспостереження #AltCam"
+    },
+    {
+      "id": "altcam-007-access-control",
+      "scheduled_at": "2026-07-29T18:30:00+03:00",
+      "platforms": ["facebook", "instagram", "threads"],
+      "image_path": "../images/07-access-control.png",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/images/07-access-control.png",
+      "caption": "Контроль доступу — це порядок на вході без зайвих пояснень.\n\nКартки, брелоки, кодові клавіатури, електрозамки, облік входів і обмеження доступу до окремих зон — усе це допомагає бізнесу працювати безпечніше.\n\nПідберемо рішення для офісу, складу, магазину, виробництва або під’їзду.\n\nALT-CAM Security UA — монтаж і налаштування систем контролю доступу.\n\n#контрольдоступу #офіс #бізнесбезпека #електрозамок #AltCam"
+    },
+    {
+      "id": "altcam-008-turnkey-installation",
+      "scheduled_at": "2026-07-31T18:30:00+03:00",
+      "platforms": ["facebook", "instagram", "threads"],
+      "image_path": "../images/08-turnkey-installation.png",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/images/08-turnkey-installation.png",
+      "caption": "Монтаж під ключ — це коли вам не потрібно збирати систему з випадкових порад.\n\nМи допомагаємо з підбором обладнання, схемою розміщення, монтажем, налаштуванням, доступом зі смартфона та поясненням, як користуватися системою.\n\nПрацюємо з відеоспостереженням, домофонією, Ajax, контролем доступу та резервним живленням.\n\nALT-CAM Security UA — безпека, яку можна показати клієнту професійно.\n\n#монтажпідключ #системибезпеки #відеоспостереження #домофонія #AltCam"
+    },
+    {
+      "id": "altcam-009-cost-calculator",
+      "scheduled_at": "2026-08-03T18:30:00+03:00",
+      "platforms": ["facebook", "instagram", "threads"],
+      "image_path": "../images/09-cost-calculator.png",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/images/09-cost-calculator.png",
+      "caption": "Не знаєте, з чого почати?\n\nНа сайті alt-cam.net.ua можна швидко зорієнтуватися, які рішення потрібні для вашого об’єкта: камери, домофонія, Ajax, контроль доступу або резервне живлення.\n\nА якщо не впевнені з брендом чи параметрами — це нормально. Ми допоможемо підібрати оптимальний варіант під задачу і бюджет.\n\nРозрахуйте вартість або напишіть нам для консультації.\n\n#розрахуноквартості #системибезпеки #відеоспостереження #AltCam #безпека"
+    }
+  ]
+}
