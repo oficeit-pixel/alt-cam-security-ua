@@ -44,6 +44,7 @@ jobs:
         run: python social-posts/meta-automation/publish_due.py
 
       - name: Save publication state
+        if: always()
         run: |
           if [ -f social-posts/meta-automation/state.json ]; then
             git config user.name "github-actions[bot]"

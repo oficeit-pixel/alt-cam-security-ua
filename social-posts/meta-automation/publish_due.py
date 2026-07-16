@@ -35,6 +35,18 @@ def save_json(path: Path, data) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def github_escape(value: str) -> str:
+    return value.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+
+
+def warn(message: str) -> None:
+    print(f"::warning::{github_escape(message)}")
+
+
+def error(message: str) -> None:
+    print(f"::error::{github_escape(message)}")
+
+
 def graph_url(path: str) -> str:
     version = os.getenv("META_GRAPH_VERSION", "v21.0").strip().lstrip("/")
     return f"https://graph.facebook.com/{version}/{path.lstrip('/')}"
@@ -197,6 +209,10 @@ def main() -> int:
         print("No due posts.")
         return 0
 
+    published_count = 0
+    skipped_count = 0
+    failed = []
+
     for post in selected:
         post_state = state["published"].setdefault(post["id"], {})
         platforms = [p for p in post.get("platforms", []) if p in PUBLISHERS]
@@ -206,21 +222,43 @@ def main() -> int:
         for platform in platforms:
             if post_state.get(platform) and not args.force:
                 print(f"SKIP already published: {post['id']} -> {platform}")
+                skipped_count += 1
                 continue
 
             print(f"{'DRY ' if dry_run else ''}PUBLISH {post['id']} -> {platform}")
             if dry_run:
                 continue
 
-            result = PUBLISHERS[platform](post)
+            try:
+                result = PUBLISHERS[platform](post)
+            except Exception as exc:
+                message = f"Publish failed: {post['id']} -> {platform}: {exc}"
+                failed.append(message)
+                warn(message)
+                continue
+
             post_state[platform] = {
                 "published_at": datetime.now(timezone.utc).isoformat(),
                 "result": result,
             }
             save_json(STATE_FILE, state)
+            published_count += 1
 
     if dry_run:
         print("Dry run complete. Set DRY_RUN=false in .env to publish.")
+        return 0
+
+    print(
+        "Publish summary: "
+        f"published={published_count}, skipped={skipped_count}, failed={len(failed)}"
+    )
+
+    if failed and published_count == 0:
+        error("All publication attempts failed. Check Meta tokens, permissions, and app access.")
+        return 1
+
+    if failed:
+        print("Some platforms failed, but successful platforms were not blocked.")
     return 0
 
 
