@@ -2,6 +2,7 @@ import argparse
 import json
 import os
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -85,6 +86,25 @@ def post_graph(path: str, token: str, data: dict, *, base: str = "facebook") -> 
     return body
 
 
+def get_graph(path: str, token: str, params: dict | None = None, *, base: str = "facebook") -> dict:
+    payload = dict(params or {})
+    payload["access_token"] = token
+    if base == "instagram":
+        url = instagram_url(path)
+    elif base == "threads":
+        url = threads_url(path)
+    else:
+        url = graph_url(path)
+    response = requests.get(url, params=payload, timeout=60)
+    try:
+        body = response.json()
+    except Exception:
+        body = {"raw": response.text}
+    if not response.ok:
+        raise RuntimeError(f"Graph API error {response.status_code} for {path}: {body}")
+    return body
+
+
 def publish_facebook(post: dict) -> dict:
     page_id = os.getenv("FACEBOOK_PAGE_ID", "").strip()
     token = os.getenv("FACEBOOK_PAGE_ACCESS_TOKEN", "").strip()
@@ -120,13 +140,37 @@ def publish_instagram(post: dict) -> dict:
     creation_id = container.get("id")
     if not creation_id:
         raise RuntimeError(f"Instagram did not return creation container id: {container}")
+
+    container_status = wait_for_instagram_container(creation_id, token, api_base)
     published = post_graph(
         f"{ig_user_id}/media_publish",
         token,
         {"creation_id": creation_id},
         base=api_base,
     )
-    return {"container": container, "published": published}
+    return {"container": container, "status": container_status, "published": published}
+
+
+def wait_for_instagram_container(creation_id: str, token: str, api_base: str) -> dict:
+    last_status = {}
+    for attempt in range(1, 16):
+        last_status = get_graph(
+            creation_id,
+            token,
+            {"fields": "status_code"},
+            base=api_base,
+        )
+        status_code = last_status.get("status_code")
+        if status_code == "FINISHED":
+            return last_status
+        if status_code in {"ERROR", "EXPIRED"}:
+            raise RuntimeError(f"Instagram container is not publishable: {last_status}")
+        print(
+            "WAIT instagram media container "
+            f"{creation_id}: status={status_code or 'unknown'} attempt={attempt}/15"
+        )
+        time.sleep(4)
+    raise RuntimeError(f"Instagram container was not ready after waiting: {last_status}")
 
 
 def publish_threads(post: dict) -> dict:
