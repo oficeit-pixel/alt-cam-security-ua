@@ -55,7 +55,7 @@
     <header>
       <div>
         <h1>ALT-CAM контент-календар</h1>
-        <p>План публікацій Facebook, Instagram та Threads до кінця тижня. Автозапуск перевіряє календар кожні 30 хвилин.</p>
+        <p>План публікацій Facebook, Instagram та Threads. Автозапуск перевіряє календар кожні 30 хвилин.</p>
       </div>
       <div class="badge">Cloud schedule active</div>
     </header>
@@ -77,7 +77,7 @@
       .then((response) => response.json())
       .then((data) => {
         const posts = data.posts
-          .filter((post) => new Date(post.scheduled_at) <= new Date("2026-07-20T00:00:00+03:00"))
+          .filter((post) => new Date(post.scheduled_at) <= new Date("2026-07-27T00:00:00+03:00"))
           .sort((a, b) => new Date(a.scheduled_at) - new Date(b.scheduled_at));
         const days = new Map();
         for (const post of posts) {
