@@ -25,10 +25,30 @@ def graph_url(path: str) -> str:
     return f"https://graph.facebook.com/{version}/{path.lstrip('/')}"
 
 
-def graph_get(path: str, token: str, params: dict | None = None) -> dict:
+def instagram_url(path: str) -> str:
+    version = os.getenv("INSTAGRAM_GRAPH_VERSION", "").strip().strip("/")
+    if version:
+        return f"https://graph.instagram.com/{version}/{path.lstrip('/')}"
+    return f"https://graph.instagram.com/{path.lstrip('/')}"
+
+
+def threads_url(path: str) -> str:
+    version = os.getenv("THREADS_GRAPH_VERSION", "").strip().strip("/")
+    if version:
+        return f"https://graph.threads.net/{version}/{path.lstrip('/')}"
+    return f"https://graph.threads.net/{path.lstrip('/')}"
+
+
+def graph_get(path: str, token: str, params: dict | None = None, *, base: str = "facebook") -> dict:
     payload = dict(params or {})
     payload["access_token"] = token
-    response = requests.get(graph_url(path), params=payload, timeout=60)
+    if base == "instagram":
+        url = instagram_url(path)
+    elif base == "threads":
+        url = threads_url(path)
+    else:
+        url = graph_url(path)
+    response = requests.get(url, params=payload, timeout=60)
     try:
         body = response.json()
     except Exception:
@@ -72,7 +92,10 @@ def main() -> int:
     if ig_user_id and ig_token:
         print()
         print("Checking Instagram token...")
-        ig = graph_get(ig_user_id, ig_token, {"fields": "id,username,name"})
+        if ig_token.startswith("IG"):
+            ig = graph_get("me", ig_token, {"fields": "user_id,username,account_type"}, base="instagram")
+        else:
+            ig = graph_get(ig_user_id, ig_token, {"fields": "id,username,name"})
         print(json.dumps(ig, ensure_ascii=False, indent=2))
     else:
         print("INSTAGRAM_USER_ID or INSTAGRAM_ACCESS_TOKEN is empty; skipping Instagram check.")
@@ -80,7 +103,7 @@ def main() -> int:
     if threads_user_id and threads_token:
         print()
         print("Checking Threads token...")
-        th = graph_get(threads_user_id, threads_token, {"fields": "id,username,name"})
+        th = graph_get("me", threads_token, {"fields": "id,username"}, base="threads")
         print(json.dumps(th, ensure_ascii=False, indent=2))
     else:
         print("THREADS_USER_ID or THREADS_ACCESS_TOKEN is empty; skipping Threads check.")

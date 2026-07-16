@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ALT-CAM контент-календар</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #111114;
+      --panel: rgba(255,255,255,.045);
+      --panel-2: rgba(255,255,255,.07);
+      --text: #f5f5f7;
+      --muted: #a1a1aa;
+      --line: rgba(255,255,255,.12);
+      --gold: #ffcc00;
+      --green: #47d18c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top left, rgba(255,204,0,.13), transparent 34rem), var(--bg);
+      color: var(--text);
+    }
+    main { width: min(1120px, calc(100% - 32px)); margin: 0 auto; padding: 42px 0 56px; }
+    header { display: flex; gap: 18px; align-items: flex-end; justify-content: space-between; margin-bottom: 28px; }
+    h1 { margin: 0 0 8px; font-size: clamp(30px, 5vw, 54px); letter-spacing: -.045em; }
+    p { margin: 0; color: var(--muted); line-height: 1.55; }
+    .badge { display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid var(--line); border-radius: 999px; background: var(--panel); color: var(--text); white-space: nowrap; }
+    .badge::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--green); box-shadow: 0 0 16px var(--green); }
+    .grid { display: grid; gap: 16px; }
+    .day { border: 1px solid var(--line); border-radius: 22px; background: var(--panel); backdrop-filter: blur(12px); overflow: hidden; }
+    .day-head { display: flex; justify-content: space-between; gap: 12px; padding: 18px 20px; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.035); }
+    .day-head h2 { margin: 0; font-size: 19px; }
+    .count { color: var(--gold); font-weight: 700; }
+    .post { display: grid; grid-template-columns: 92px 112px 1fr; gap: 16px; padding: 18px 20px; border-bottom: 1px solid var(--line); align-items: start; }
+    .post:last-child { border-bottom: 0; }
+    .time { color: var(--gold); font-weight: 800; font-size: 18px; }
+    img { width: 112px; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 16px; border: 1px solid var(--line); background: #222; }
+    h3 { margin: 0 0 8px; font-size: 18px; }
+    .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .chip { font-size: 12px; color: var(--text); background: var(--panel-2); border: 1px solid var(--line); padding: 6px 9px; border-radius: 999px; }
+    .note { margin-top: 22px; padding: 16px 18px; border-radius: 18px; background: rgba(255,204,0,.08); border: 1px solid rgba(255,204,0,.22); color: #f8eab0; }
+    @media (max-width: 720px) {
+      header { display: block; }
+      .badge { margin-top: 18px; }
+      .post { grid-template-columns: 1fr; }
+      img { width: 100%; max-height: 260px; aspect-ratio: 16 / 10; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <h1>ALT-CAM контент-календар</h1>
+        <p>План публікацій Facebook, Instagram та Threads до кінця тижня. Автозапуск перевіряє календар кожні 30 хвилин.</p>
+      </div>
+      <div class="badge">Cloud schedule active</div>
+    </header>
+    <section id="calendar" class="grid" aria-live="polite"></section>
+    <p class="note">Якщо час уже настав, публікація вийде під час найближчого запуску GitHub Actions. Статус фактичної публікації зберігається у state.json.</p>
+  </main>
+  <script>
+    const POSTS_URL = "../meta-automation/posts.json";
+    const fmtDate = new Intl.DateTimeFormat("uk-UA", { weekday: "long", day: "numeric", month: "long", timeZone: "Europe/Kyiv" });
+    const fmtTime = new Intl.DateTimeFormat("uk-UA", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Kyiv" });
+    const calendar = document.getElementById("calendar");
+
+    function titleFromCaption(post) {
+      const text = (post.captions?.instagram || post.caption || "").split("\n").find(Boolean) || post.id;
+      return text.length > 86 ? text.slice(0, 83) + "…" : text;
+    }
+
+    fetch(POSTS_URL)
+      .then((response) => response.json())
+      .then((data) => {
+        const posts = data.posts
+          .filter((post) => new Date(post.scheduled_at) <= new Date("2026-07-20T00:00:00+03:00"))
+          .sort((a, b) => new Date(a.scheduled_at) - new Date(b.scheduled_at));
+        const days = new Map();
+        for (const post of posts) {
+          const key = post.scheduled_at.slice(0, 10);
+          if (!days.has(key)) days.set(key, []);
+          days.get(key).push(post);
+        }
+        calendar.innerHTML = [...days.entries()].map(([key, items]) => `
+          <article class="day">
+            <div class="day-head">
+              <h2>${fmtDate.format(new Date(items[0].scheduled_at))}</h2>
+              <div class="count">${items.length} публікації</div>
+            </div>
+            ${items.map((post) => `
+              <div class="post">
+                <div class="time">${fmtTime.format(new Date(post.scheduled_at))}</div>
+                <img src="${post.image_url}" alt="">
+                <div>
+                  <h3>${titleFromCaption(post)}</h3>
+                  <p>${(post.captions?.threads || post.caption || "").split("\n").filter(Boolean).slice(0, 2).join(" ")}</p>
+                  <div class="meta">
+                    ${post.platforms.map((platform) => `<span class="chip">${platform}</span>`).join("")}
+                    <span class="chip">${post.id}</span>
+                  </div>
+                </div>
+              </div>
+            `).join("")}
+          </article>
+        `).join("");
+      })
+      .catch(() => {
+        calendar.innerHTML = "<p>Не вдалося завантажити календар. Перевірте posts.json.</p>";
+      });
+  </script>
+</body>
+</html>

@@ -40,10 +40,30 @@ def graph_url(path: str) -> str:
     return f"https://graph.facebook.com/{version}/{path.lstrip('/')}"
 
 
-def post_graph(path: str, token: str, data: dict) -> dict:
+def instagram_url(path: str) -> str:
+    version = os.getenv("INSTAGRAM_GRAPH_VERSION", "").strip().strip("/")
+    if version:
+        return f"https://graph.instagram.com/{version}/{path.lstrip('/')}"
+    return f"https://graph.instagram.com/{path.lstrip('/')}"
+
+
+def threads_url(path: str) -> str:
+    version = os.getenv("THREADS_GRAPH_VERSION", "").strip().strip("/")
+    if version:
+        return f"https://graph.threads.net/{version}/{path.lstrip('/')}"
+    return f"https://graph.threads.net/{path.lstrip('/')}"
+
+
+def post_graph(path: str, token: str, data: dict, *, base: str = "facebook") -> dict:
     payload = dict(data)
     payload["access_token"] = token
-    response = requests.post(graph_url(path), data=payload, timeout=60)
+    if base == "instagram":
+        url = instagram_url(path)
+    elif base == "threads":
+        url = threads_url(path)
+    else:
+        url = graph_url(path)
+    response = requests.post(url, data=payload, timeout=60)
     try:
         body = response.json()
     except Exception:
@@ -63,7 +83,7 @@ def publish_facebook(post: dict) -> dict:
         token,
         {
             "url": post["image_url"],
-            "caption": post["caption"],
+            "caption": caption_for(post, "facebook"),
             "published": "true",
         },
     )
@@ -74,14 +94,16 @@ def publish_instagram(post: dict) -> dict:
     token = os.getenv("INSTAGRAM_ACCESS_TOKEN", "").strip()
     if not ig_user_id or not token:
         raise RuntimeError("INSTAGRAM_USER_ID or INSTAGRAM_ACCESS_TOKEN is missing.")
+    api_base = "instagram" if token.startswith("IG") else "facebook"
 
     container = post_graph(
         f"{ig_user_id}/media",
         token,
         {
             "image_url": post["image_url"],
-            "caption": post["caption"],
+            "caption": caption_for(post, "instagram"),
         },
+        base=api_base,
     )
     creation_id = container.get("id")
     if not creation_id:
@@ -90,6 +112,7 @@ def publish_instagram(post: dict) -> dict:
         f"{ig_user_id}/media_publish",
         token,
         {"creation_id": creation_id},
+        base=api_base,
     )
     return {"container": container, "published": published}
 
@@ -106,8 +129,9 @@ def publish_threads(post: dict) -> dict:
         {
             "media_type": "IMAGE",
             "image_url": post["image_url"],
-            "text": post["caption"],
+            "text": caption_for(post, "threads"),
         },
+        base="threads",
     )
     creation_id = container.get("id")
     if not creation_id:
@@ -116,6 +140,7 @@ def publish_threads(post: dict) -> dict:
         f"{threads_user_id}/threads_publish",
         token,
         {"creation_id": creation_id},
+        base="threads",
     )
     return {"container": container, "published": published}
 
@@ -125,6 +150,10 @@ PUBLISHERS = {
     "instagram": publish_instagram,
     "threads": publish_threads,
 }
+
+
+def caption_for(post: dict, platform: str) -> str:
+    return post.get("captions", {}).get(platform) or post["caption"]
 
 
 def parse_dt(value: str) -> datetime:
