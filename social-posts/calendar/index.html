@@ -77,7 +77,7 @@
       .then((response) => response.json())
       .then((data) => {
         const posts = data.posts
-          .filter((post) => new Date(post.scheduled_at) <= new Date("2026-07-27T00:00:00+03:00"))
+          .filter((post) => new Date(post.scheduled_at) <= new Date("2026-08-03T00:00:00+03:00"))
           .sort((a, b) => new Date(a.scheduled_at) - new Date(b.scheduled_at));
         const days = new Map();
         for (const post of posts) {
