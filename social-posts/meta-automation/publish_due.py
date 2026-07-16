@@ -67,6 +67,18 @@ def threads_url(path: str) -> str:
     return f"https://graph.threads.net/{path.lstrip('/')}"
 
 
+def tiktok_url(path: str) -> str:
+    return f"https://open.tiktokapis.com/{path.lstrip('/')}"
+
+
+def require_env(*names: str) -> dict[str, str]:
+    values = {name: os.getenv(name, "").strip() for name in names}
+    missing = [name for name, value in values.items() if not value]
+    if missing:
+        raise RuntimeError(f"Missing environment variable(s): {', '.join(missing)}")
+    return values
+
+
 def post_graph(path: str, token: str, data: dict, *, base: str = "facebook") -> dict:
     payload = dict(data)
     payload["access_token"] = token
@@ -105,14 +117,33 @@ def get_graph(path: str, token: str, params: dict | None = None, *, base: str = 
     return body
 
 
+def post_json(url: str, token: str, payload: dict) -> dict:
+    response = requests.post(
+        url,
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json; charset=UTF-8",
+        },
+        json=payload,
+        timeout=60,
+    )
+    try:
+        body = response.json()
+    except Exception:
+        body = {"raw": response.text}
+    if not response.ok:
+        raise RuntimeError(f"HTTP error {response.status_code} for {url}: {body}")
+    error_info = body.get("error") or {}
+    if error_info.get("code") not in {None, "", "ok"}:
+        raise RuntimeError(f"API error for {url}: {body}")
+    return body
+
+
 def publish_facebook(post: dict) -> dict:
-    page_id = os.getenv("FACEBOOK_PAGE_ID", "").strip()
-    token = os.getenv("FACEBOOK_PAGE_ACCESS_TOKEN", "").strip()
-    if not page_id or not token:
-        raise RuntimeError("FACEBOOK_PAGE_ID or FACEBOOK_PAGE_ACCESS_TOKEN is missing.")
+    env = require_env("FACEBOOK_PAGE_ID", "FACEBOOK_PAGE_ACCESS_TOKEN")
     return post_graph(
-        f"{page_id}/photos",
-        token,
+        f"{env['FACEBOOK_PAGE_ID']}/photos",
+        env["FACEBOOK_PAGE_ACCESS_TOKEN"],
         {
             "url": post["image_url"],
             "caption": caption_for(post, "facebook"),
@@ -122,10 +153,9 @@ def publish_facebook(post: dict) -> dict:
 
 
 def publish_instagram(post: dict) -> dict:
-    ig_user_id = os.getenv("INSTAGRAM_USER_ID", "").strip()
-    token = os.getenv("INSTAGRAM_ACCESS_TOKEN", "").strip()
-    if not ig_user_id or not token:
-        raise RuntimeError("INSTAGRAM_USER_ID or INSTAGRAM_ACCESS_TOKEN is missing.")
+    env = require_env("INSTAGRAM_USER_ID", "INSTAGRAM_ACCESS_TOKEN")
+    ig_user_id = env["INSTAGRAM_USER_ID"]
+    token = env["INSTAGRAM_ACCESS_TOKEN"]
     api_base = "instagram" if token.startswith("IG") else "facebook"
 
     container = post_graph(
@@ -174,10 +204,9 @@ def wait_for_instagram_container(creation_id: str, token: str, api_base: str) ->
 
 
 def publish_threads(post: dict) -> dict:
-    threads_user_id = os.getenv("THREADS_USER_ID", "").strip()
-    token = os.getenv("THREADS_ACCESS_TOKEN", "").strip()
-    if not threads_user_id or not token:
-        raise RuntimeError("THREADS_USER_ID or THREADS_ACCESS_TOKEN is missing.")
+    env = require_env("THREADS_USER_ID", "THREADS_ACCESS_TOKEN")
+    threads_user_id = env["THREADS_USER_ID"]
+    token = env["THREADS_ACCESS_TOKEN"]
 
     container = post_graph(
         f"{threads_user_id}/threads",
@@ -201,15 +230,131 @@ def publish_threads(post: dict) -> dict:
     return {"container": container, "published": published}
 
 
+def publish_telegram(post: dict) -> dict:
+    env = require_env("TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID")
+    token = env["TELEGRAM_BOT_TOKEN"]
+    chat_id = env["TELEGRAM_CHAT_ID"]
+    caption = caption_for(post, "telegram")
+    api_base = f"https://api.telegram.org/bot{token}"
+
+    photo_payload = {
+        "chat_id": chat_id,
+        "photo": post["image_url"],
+    }
+    followup = None
+    if len(caption) <= 1024:
+        photo_payload["caption"] = caption
+    else:
+        photo_payload["caption"] = caption[:1000].rstrip() + "…"
+        followup = caption
+
+    photo_response = requests.post(
+        f"{api_base}/sendPhoto",
+        data=photo_payload,
+        timeout=60,
+    )
+    try:
+        photo_body = photo_response.json()
+    except Exception:
+        photo_body = {"raw": photo_response.text}
+    if not photo_response.ok or not photo_body.get("ok"):
+        raise RuntimeError(f"Telegram sendPhoto failed: {photo_body}")
+
+    result = {"photo": photo_body}
+    if followup:
+        message_response = requests.post(
+            f"{api_base}/sendMessage",
+            data={
+                "chat_id": chat_id,
+                "text": followup[:4096],
+                "disable_web_page_preview": "true",
+            },
+            timeout=60,
+        )
+        try:
+            message_body = message_response.json()
+        except Exception:
+            message_body = {"raw": message_response.text}
+        if not message_response.ok or not message_body.get("ok"):
+            raise RuntimeError(f"Telegram sendMessage failed: {message_body}")
+        result["message"] = message_body
+    return result
+
+
+def publish_tiktok(post: dict) -> dict:
+    env = require_env("TIKTOK_ACCESS_TOKEN")
+    token = env["TIKTOK_ACCESS_TOKEN"]
+    post_mode = os.getenv("TIKTOK_POST_MODE", "MEDIA_UPLOAD").strip().upper()
+    if post_mode not in {"MEDIA_UPLOAD", "DIRECT_POST"}:
+        raise RuntimeError("TIKTOK_POST_MODE must be MEDIA_UPLOAD or DIRECT_POST.")
+
+    post_info = {
+        "title": tiktok_title_for(post),
+        "description": caption_for(post, "tiktok"),
+    }
+    if post_mode == "DIRECT_POST":
+        post_info.update(
+            {
+                "privacy_level": os.getenv("TIKTOK_PRIVACY_LEVEL", "PUBLIC_TO_EVERYONE").strip()
+                or "PUBLIC_TO_EVERYONE",
+                "disable_comment": os.getenv("TIKTOK_DISABLE_COMMENT", "false").lower()
+                in {"1", "true", "yes", "on"},
+                "auto_add_music": os.getenv("TIKTOK_AUTO_ADD_MUSIC", "true").lower()
+                in {"1", "true", "yes", "on"},
+            }
+        )
+
+    payload = {
+        "post_info": post_info,
+        "source_info": {
+            "source": "PULL_FROM_URL",
+            "photo_cover_index": 1,
+            "photo_images": tiktok_photo_images_for(post),
+        },
+        "post_mode": post_mode,
+        "media_type": "PHOTO",
+    }
+    return post_json(
+        tiktok_url("/v2/post/publish/content/init/"),
+        token,
+        payload,
+    )
+
+
 PUBLISHERS = {
     "facebook": publish_facebook,
     "instagram": publish_instagram,
     "threads": publish_threads,
+    "telegram": publish_telegram,
+    "tiktok": publish_tiktok,
 }
 
 
 def caption_for(post: dict, platform: str) -> str:
     return post.get("captions", {}).get(platform) or post["caption"]
+
+
+def tiktok_title_for(post: dict) -> str:
+    title = post.get("titles", {}).get("tiktok") or post.get("title") or post["id"]
+    return title[:90]
+
+
+def tiktok_photo_images_for(post: dict) -> list[str]:
+    images = post.get("tiktok_photo_images") or post.get("image_urls") or [post["image_url"]]
+    if not isinstance(images, list) or not images:
+        raise RuntimeError("TikTok photo post needs image_url, image_urls, or tiktok_photo_images.")
+    return images[:35]
+
+
+def platform_has_credentials(platform: str) -> bool:
+    required = {
+        "facebook": ("FACEBOOK_PAGE_ID", "FACEBOOK_PAGE_ACCESS_TOKEN"),
+        "instagram": ("INSTAGRAM_USER_ID", "INSTAGRAM_ACCESS_TOKEN"),
+        "threads": ("THREADS_USER_ID", "THREADS_ACCESS_TOKEN"),
+        "telegram": ("TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID"),
+        "tiktok": ("TIKTOK_ACCESS_TOKEN",),
+    }.get(platform, ())
+    return all(os.getenv(name, "").strip() for name in required)
 
 
 def parse_dt(value: str) -> datetime:
@@ -264,6 +409,11 @@ def main() -> int:
             platforms = [p for p in platforms if p in platforms_filter]
 
         for platform in platforms:
+            if not platform_has_credentials(platform):
+                warn(f"Skip not configured platform: {post['id']} -> {platform}")
+                skipped_count += 1
+                continue
+
             if post_state.get(platform) and not args.force:
                 print(f"SKIP already published: {post['id']} -> {platform}")
                 skipped_count += 1

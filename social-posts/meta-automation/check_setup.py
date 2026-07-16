@@ -39,6 +39,10 @@ def threads_url(path: str) -> str:
     return f"https://graph.threads.net/{path.lstrip('/')}"
 
 
+def tiktok_url(path: str) -> str:
+    return f"https://open.tiktokapis.com/{path.lstrip('/')}"
+
+
 def graph_get(path: str, token: str, params: dict | None = None, *, base: str = "facebook") -> dict:
     payload = dict(params or {})
     payload["access_token"] = token
@@ -58,6 +62,25 @@ def graph_get(path: str, token: str, params: dict | None = None, *, base: str = 
     return body
 
 
+def tiktok_post(path: str, token: str, payload: dict | None = None) -> dict:
+    response = requests.post(
+        tiktok_url(path),
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json; charset=UTF-8",
+        },
+        json=payload or {},
+        timeout=60,
+    )
+    try:
+        body = response.json()
+    except Exception:
+        body = {"raw": response.text}
+    if not response.ok:
+        raise RuntimeError(f"TikTok API error {response.status_code} for {path}: {body}")
+    return body
+
+
 def main() -> int:
     load_env_file(ENV_FILE)
 
@@ -67,6 +90,9 @@ def main() -> int:
     ig_token = os.getenv("INSTAGRAM_ACCESS_TOKEN", "").strip()
     threads_user_id = os.getenv("THREADS_USER_ID", "").strip()
     threads_token = os.getenv("THREADS_ACCESS_TOKEN", "").strip()
+    telegram_bot_token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
+    telegram_chat_id = os.getenv("TELEGRAM_CHAT_ID", "").strip()
+    tiktok_token = os.getenv("TIKTOK_ACCESS_TOKEN", "").strip()
 
     if not page_id:
         print("FACEBOOK_PAGE_ID is missing.")
@@ -107,6 +133,32 @@ def main() -> int:
         print(json.dumps(th, ensure_ascii=False, indent=2))
     else:
         print("THREADS_USER_ID or THREADS_ACCESS_TOKEN is empty; skipping Threads check.")
+
+    if telegram_bot_token and telegram_chat_id:
+        print()
+        print("Checking Telegram bot token...")
+        response = requests.get(
+            f"https://api.telegram.org/bot{telegram_bot_token}/getMe",
+            timeout=60,
+        )
+        try:
+            body = response.json()
+        except Exception:
+            body = {"raw": response.text}
+        if not response.ok or not body.get("ok"):
+            raise RuntimeError(f"Telegram getMe failed: {body}")
+        print(json.dumps(body, ensure_ascii=False, indent=2))
+        print(f"Telegram target chat: {telegram_chat_id}")
+    else:
+        print("TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID is empty; skipping Telegram check.")
+
+    if tiktok_token:
+        print()
+        print("Checking TikTok Content Posting token...")
+        creator = tiktok_post("/v2/post/publish/creator_info/query/", tiktok_token)
+        print(json.dumps(creator, ensure_ascii=False, indent=2))
+    else:
+        print("TIKTOK_ACCESS_TOKEN is empty; skipping TikTok check.")
 
     return 0
 
