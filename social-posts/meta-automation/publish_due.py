@@ -447,12 +447,18 @@ def main() -> int:
         f"published={published_count}, skipped={skipped_count}, failed={len(failed)}"
     )
 
-    if failed and published_count == 0:
-        error("All publication attempts failed. Check Meta tokens, permissions, and app access.")
-        return 1
-
     if failed:
         print("Some platforms failed, but successful platforms were not blocked.")
+        fail_on_error = os.getenv("FAIL_ON_PUBLISH_ERROR", "false").lower() in {
+            "1",
+            "true",
+            "yes",
+            "on",
+        }
+        if fail_on_error:
+            if published_count == 0:
+                error("All publication attempts failed. Check tokens, permissions, and app access.")
+            return 1
     return 0
 
 

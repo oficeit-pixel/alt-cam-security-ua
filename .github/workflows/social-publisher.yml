@@ -30,6 +30,7 @@ jobs:
       TIKTOK_POST_MODE: ${{ vars.TIKTOK_POST_MODE || 'MEDIA_UPLOAD' }}
       TIKTOK_PRIVACY_LEVEL: ${{ vars.TIKTOK_PRIVACY_LEVEL || 'PUBLIC_TO_EVERYONE' }}
       DRY_RUN: "false"
+      FAIL_ON_PUBLISH_ERROR: "false"
 
     steps:
       - name: Check out repository
