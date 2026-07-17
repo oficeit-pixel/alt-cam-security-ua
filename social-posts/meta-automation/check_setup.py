@@ -83,6 +83,7 @@ def tiktok_post(path: str, token: str, payload: dict | None = None) -> dict:
 
 def main() -> int:
     load_env_file(ENV_FILE)
+    failures: list[str] = []
 
     page_id = os.getenv("FACEBOOK_PAGE_ID", "").strip()
     page_token = os.getenv("FACEBOOK_PAGE_ACCESS_TOKEN", "").strip()
@@ -100,65 +101,98 @@ def main() -> int:
 
     if page_token:
         print("Checking Facebook Page token...")
-        page = graph_get(
-            page_id,
-            page_token,
-            {
-                "fields": "id,name,instagram_business_account{id,username},connected_instagram_account{id,username}"
-            },
-        )
-        print(json.dumps(page, ensure_ascii=False, indent=2))
-        ig = page.get("instagram_business_account") or page.get("connected_instagram_account")
-        if ig and not ig_user_id:
-            print()
-            print(f"Suggested INSTAGRAM_USER_ID={ig.get('id')}")
+        try:
+            page = graph_get(
+                page_id,
+                page_token,
+                {
+                    "fields": "id,name,instagram_business_account{id,username},connected_instagram_account{id,username}"
+                },
+            )
+        except Exception as exc:
+            failures.append(f"Facebook Page token check failed: {exc}")
+            print(f"Facebook Page token check failed: {exc}")
+            print("Use a Meta Business system user token for FACEBOOK_PAGE_ACCESS_TOKEN.")
+        else:
+            print(json.dumps(page, ensure_ascii=False, indent=2))
+            ig = page.get("instagram_business_account") or page.get("connected_instagram_account")
+            if ig and not ig_user_id:
+                print()
+                print(f"Suggested INSTAGRAM_USER_ID={ig.get('id')}")
     else:
         print("FACEBOOK_PAGE_ACCESS_TOKEN is empty; skipping Page check.")
 
     if ig_user_id and ig_token:
         print()
         print("Checking Instagram token...")
-        if ig_token.startswith("IG"):
-            ig = graph_get("me", ig_token, {"fields": "user_id,username,account_type"}, base="instagram")
+        try:
+            if ig_token.startswith("IG"):
+                ig = graph_get("me", ig_token, {"fields": "user_id,username,account_type"}, base="instagram")
+            else:
+                ig = graph_get(ig_user_id, ig_token, {"fields": "id,username,name"})
+        except Exception as exc:
+            failures.append(f"Instagram token check failed: {exc}")
+            print(f"Instagram token check failed: {exc}")
         else:
-            ig = graph_get(ig_user_id, ig_token, {"fields": "id,username,name"})
-        print(json.dumps(ig, ensure_ascii=False, indent=2))
+            print(json.dumps(ig, ensure_ascii=False, indent=2))
     else:
         print("INSTAGRAM_USER_ID or INSTAGRAM_ACCESS_TOKEN is empty; skipping Instagram check.")
 
     if threads_user_id and threads_token:
         print()
         print("Checking Threads token...")
-        th = graph_get("me", threads_token, {"fields": "id,username"}, base="threads")
-        print(json.dumps(th, ensure_ascii=False, indent=2))
+        try:
+            th = graph_get("me", threads_token, {"fields": "id,username"}, base="threads")
+        except Exception as exc:
+            failures.append(f"Threads token check failed: {exc}")
+            print(f"Threads token check failed: {exc}")
+        else:
+            print(json.dumps(th, ensure_ascii=False, indent=2))
     else:
         print("THREADS_USER_ID or THREADS_ACCESS_TOKEN is empty; skipping Threads check.")
 
     if telegram_bot_token and telegram_chat_id:
         print()
         print("Checking Telegram bot token...")
-        response = requests.get(
-            f"https://api.telegram.org/bot{telegram_bot_token}/getMe",
-            timeout=60,
-        )
         try:
-            body = response.json()
-        except Exception:
-            body = {"raw": response.text}
-        if not response.ok or not body.get("ok"):
-            raise RuntimeError(f"Telegram getMe failed: {body}")
-        print(json.dumps(body, ensure_ascii=False, indent=2))
-        print(f"Telegram target chat: {telegram_chat_id}")
+            response = requests.get(
+                f"https://api.telegram.org/bot{telegram_bot_token}/getMe",
+                timeout=60,
+            )
+            try:
+                body = response.json()
+            except Exception:
+                body = {"raw": response.text}
+            if not response.ok or not body.get("ok"):
+                raise RuntimeError(f"Telegram getMe failed: {body}")
+        except Exception as exc:
+            failures.append(f"Telegram token check failed: {exc}")
+            print(f"Telegram token check failed: {exc}")
+        else:
+            print(json.dumps(body, ensure_ascii=False, indent=2))
+            print(f"Telegram target chat: {telegram_chat_id}")
     else:
         print("TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID is empty; skipping Telegram check.")
 
     if tiktok_token:
         print()
         print("Checking TikTok Content Posting token...")
-        creator = tiktok_post("/v2/post/publish/creator_info/query/", tiktok_token)
-        print(json.dumps(creator, ensure_ascii=False, indent=2))
+        try:
+            creator = tiktok_post("/v2/post/publish/creator_info/query/", tiktok_token)
+        except Exception as exc:
+            failures.append(f"TikTok token check failed: {exc}")
+            print(f"TikTok token check failed: {exc}")
+        else:
+            print(json.dumps(creator, ensure_ascii=False, indent=2))
     else:
         print("TIKTOK_ACCESS_TOKEN is empty; skipping TikTok check.")
+
+    if failures:
+        print()
+        print("Setup check finished with warnings:")
+        for failure in failures:
+            print(f"- {failure}")
+        return 1
 
     return 0
 

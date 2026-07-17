@@ -5,7 +5,7 @@ GitHub Actions runs the publisher every 30 minutes and publishes posts whose `sc
 ## GitHub Secrets
 
 - `FACEBOOK_PAGE_ID`
-- `FACEBOOK_PAGE_ACCESS_TOKEN`
+- `FACEBOOK_PAGE_ACCESS_TOKEN` — use a Meta Business system user token, not a short-lived Graph API Explorer user token. See `META_STABLE_TOKEN.md`.
 - `INSTAGRAM_USER_ID`
 - `INSTAGRAM_ACCESS_TOKEN`
 - `THREADS_USER_ID`
@@ -20,6 +20,8 @@ GitHub Actions runs the publisher every 30 minutes and publishes posts whose `sc
 - `TIKTOK_PRIVACY_LEVEL` — `PUBLIC_TO_EVERYONE` by default for Direct Post.
 
 The workflow stores publication results in `social-posts/meta-automation/state.json` and commits that file back to the repository so posts are not duplicated.
+
+Before publishing, the workflow runs `check_setup.py`. This step is allowed to warn without stopping the whole publisher, so working channels such as Telegram can continue even if one Meta token needs attention.
 
 Calendar page:
 
