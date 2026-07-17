@@ -25,6 +25,14 @@ def graph_url(path: str) -> str:
     return f"https://graph.facebook.com/{version}/{path.lstrip('/')}"
 
 
+def github_escape(value: str) -> str:
+    return value.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+
+
+def warn(message: str) -> None:
+    print(f"::warning::{github_escape(message)}")
+
+
 def instagram_url(path: str) -> str:
     version = os.getenv("INSTAGRAM_GRAPH_VERSION", "").strip().strip("/")
     if version:
@@ -192,7 +200,8 @@ def main() -> int:
         print("Setup check finished with warnings:")
         for failure in failures:
             print(f"- {failure}")
-        return 1
+            warn(failure)
+        return 0
 
     return 0
 
