@@ -33,6 +33,83 @@
           "id": "122129537553226993",
           "post_id": "962902993572061_122129537571226993"
         }
+      },
+      "telegram": {
+        "published_at": "2026-07-17T08:17:52.951708+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 5,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784276272,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADBWpZ5TDvV4_M_3oY_iqOsUpcG6Q0AAKgDWsbrNrUUm72rP2RciaLAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADoA1rG6za1FJ4",
+                  "file_size": 1869,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADBWpZ5TDvV4_M_3oY_iqOsUpcG6Q0AAKgDWsbrNrUUm72rP2RciaLAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADoA1rG6za1FJy",
+                  "file_size": 24793,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADBWpZ5TDvV4_M_3oY_iqOsUpcG6Q0AAKgDWsbrNrUUm72rP2RciaLAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADoA1rG6za1FJ9",
+                  "file_size": 105980,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADBWpZ5TDvV4_M_3oY_iqOsUpcG6Q0AAKgDWsbrNrUUm72rP2RciaLAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADoA1rG6za1FJ-",
+                  "file_size": 213587,
+                  "width": 1254,
+                  "height": 1254
+                }
+              ],
+              "caption": "Камери потрібні не після крадіжки, а до неї.\n\nПравильне відеоспостереження — це контроль території, спокій і швидка реакція. ALT-CAM Security UA підбирає систему під реальний об’єкт.\n\n#відеоспостереження #камери #безпека #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 184,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 204,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 212,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 221,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
       }
     },
     "altcam-2026-07-16-04-home-security": {
@@ -66,6 +143,78 @@
           },
           "published": {
             "id": "18016670573911279"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-17T08:17:53.776474+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 6,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784276273,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADBmpZ5TG_maC7ZGOidoKrpVtc04l9AALuDWsb8o_UUuWwPkl6KTAzAQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD7g1rG_KP1FJ4",
+                  "file_size": 1987,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADBmpZ5TG_maC7ZGOidoKrpVtc04l9AALuDWsb8o_UUuWwPkl6KTAzAQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD7g1rG_KP1FJy",
+                  "file_size": 29553,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADBmpZ5TG_maC7ZGOidoKrpVtc04l9AALuDWsb8o_UUuWwPkl6KTAzAQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD7g1rG_KP1FJ9",
+                  "file_size": 133717,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADBmpZ5TG_maC7ZGOidoKrpVtc04l9AALuDWsb8o_UUuWwPkl6KTAzAQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD7g1rG_KP1FJ-",
+                  "file_size": 274389,
+                  "width": 1254,
+                  "height": 1254
+                }
+              ],
+              "caption": "Приватний будинок потребує не “просто камер”, а правильної схеми огляду.\n\nВходи, двір, паркомісце, периметр, нічне освітлення, інтернет і резервне живлення — усе має значення.\n\n#безпекабудинку #відеоспостереження #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 177,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 193,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 213,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
           }
         }
       }
@@ -103,6 +252,78 @@
             "id": "18401037085083613"
           }
         }
+      },
+      "telegram": {
+        "published_at": "2026-07-17T08:17:54.706072+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 7,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784276274,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADB2pZ5TLtFvKNzR0YaayHZw_YpebWAALuDWsbiojUUm-M95UNMytnAQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD7g1rG4qI1FJ4",
+                  "file_size": 2151,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADB2pZ5TLtFvKNzR0YaayHZw_YpebWAALuDWsbiojUUm-M95UNMytnAQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD7g1rG4qI1FJy",
+                  "file_size": 29187,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADB2pZ5TLtFvKNzR0YaayHZw_YpebWAALuDWsbiojUUm-M95UNMytnAQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD7g1rG4qI1FJ9",
+                  "file_size": 108370,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADB2pZ5TLtFvKNzR0YaayHZw_YpebWAALuDWsbiojUUm-M95UNMytnAQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD7g1rG4qI1FJ-",
+                  "file_size": 208183,
+                  "width": 1254,
+                  "height": 1254
+                }
+              ],
+              "caption": "5 помилок при виборі камер: ціна замість задачі, слабка нічна зйомка, неправильний огляд, відсутнє резервне живлення, хаос з архівом.\n\n#поради #відеоспостереження #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 135,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 143,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 163,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
       }
     },
     "altcam-2026-07-17-04-intercom": {
@@ -129,6 +350,78 @@
           },
           "published": {
             "id": "18079471778677127"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-17T08:17:55.675090+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 8,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784276275,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADCGpZ5TP3hdG-hnkeeOiQpyLHcG3hAAKwDmsb4ufMUjLgzmklQ0t0AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADsA5rG-LnzFJ4",
+                  "file_size": 1829,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADCGpZ5TP3hdG-hnkeeOiQpyLHcG3hAAKwDmsb4ufMUjLgzmklQ0t0AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADsA5rG-LnzFJy",
+                  "file_size": 23353,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADCGpZ5TP3hdG-hnkeeOiQpyLHcG3hAAKwDmsb4ufMUjLgzmklQ0t0AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADsA5rG-LnzFJ9",
+                  "file_size": 93186,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADCGpZ5TP3hdG-hnkeeOiQpyLHcG3hAAKwDmsb4ufMUjLgzmklQ0t0AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADsA5rG-LnzFJ-",
+                  "file_size": 193336,
+                  "width": 1254,
+                  "height": 1254
+                }
+              ],
+              "caption": "Домофонія — це комфорт, контроль і безпека входу. Бачити, говорити, відкривати дистанційно і не гадати, хто біля дверей.\n\n#домофонія #відеодомофон #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 122,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 133,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 147,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
           }
         }
       }
