@@ -425,6 +425,106 @@
           }
         }
       }
+    },
+    "altcam-2026-07-17-04-access-control": {
+      "instagram": {
+        "published_at": "2026-07-17T12:19:43.556405+00:00",
+        "result": {
+          "container": {
+            "id": "18071177687418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18071177687418944"
+          },
+          "published": {
+            "id": "17897502591517021"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-17T12:19:50.435635+00:00",
+        "result": {
+          "container": {
+            "id": "18071067857424516"
+          },
+          "published": {
+            "id": "18473081767107352"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-17T12:19:51.327166+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 9,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784290791,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADCWpaHedEdRE8NR3Xy099YD1vA5zvAAK7DWsbRjHcUiq9waN9yideAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADuw1rG0Yx3FJ4",
+                  "file_size": 1986,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADCWpaHedEdRE8NR3Xy099YD1vA5zvAAK7DWsbRjHcUiq9waN9yideAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADuw1rG0Yx3FJy",
+                  "file_size": 25464,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADCWpaHedEdRE8NR3Xy099YD1vA5zvAAK7DWsbRjHcUiq9waN9yideAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADuw1rG0Yx3FJ9",
+                  "file_size": 97195,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADCWpaHedEdRE8NR3Xy099YD1vA5zvAAK7DWsbRjHcUiq9waN9yideAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADuw1rG0Yx3FJ-",
+                  "file_size": 186045,
+                  "width": 1254,
+                  "height": 1254
+                }
+              ],
+              "caption": "Контроль доступу — це порядок на вході без зайвих пояснень: картки, брелоки, коди, електрозамки та обмеження зон.\n\n#контрольдоступу #бізнесбезпека #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 115,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 132,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 147,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
