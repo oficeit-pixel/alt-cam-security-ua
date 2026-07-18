@@ -725,6 +725,106 @@
           }
         }
       }
+    },
+    "altcam-2026-07-18-04-ups-backup": {
+      "instagram": {
+        "published_at": "2026-07-18T14:42:16.223679+00:00",
+        "result": {
+          "container": {
+            "id": "18071462678418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18071462678418944"
+          },
+          "published": {
+            "id": "18104502160869820"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-18T14:42:26.290718+00:00",
+        "result": {
+          "container": {
+            "id": "18071335373424516"
+          },
+          "published": {
+            "id": "18105646748121653"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-18T14:42:27.258580+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 12,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784385747,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADDGpbkNNSlRIYVVPPm43EYyO_zpkqAAKnDWsbcQnlUqi0HVC17EtSAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADpw1rG3EJ5VJ4",
+                  "file_size": 1739,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADDGpbkNNSlRIYVVPPm43EYyO_zpkqAAKnDWsbcQnlUqi0HVC17EtSAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADpw1rG3EJ5VJy",
+                  "file_size": 23546,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADDGpbkNNSlRIYVVPPm43EYyO_zpkqAAKnDWsbcQnlUqi0HVC17EtSAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADpw1rG3EJ5VJ9",
+                  "file_size": 92047,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADDGpbkNNSlRIYVVPPm43EYyO_zpkqAAKnDWsbcQnlUqi0HVC17EtSAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADpw1rG3EJ5VJ-",
+                  "file_size": 186614,
+                  "width": 1254,
+                  "height": 1254
+                }
+              ],
+              "caption": "Без світла камера не має ставати декором. Резервне живлення — важлива частина системи безпеки.\n\n#резервнеживлення #UPS #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 96,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 114,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 119,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
