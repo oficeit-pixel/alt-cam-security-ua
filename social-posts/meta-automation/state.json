@@ -825,6 +825,106 @@
           }
         }
       }
+    },
+    "altcam-2026-07-18-04-turnkey": {
+      "instagram": {
+        "published_at": "2026-07-18T17:25:17.039883+00:00",
+        "result": {
+          "container": {
+            "id": "18071501324418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18071501324418944"
+          },
+          "published": {
+            "id": "18463661968115238"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-18T17:25:22.774795+00:00",
+        "result": {
+          "container": {
+            "id": "18071378315424516"
+          },
+          "published": {
+            "id": "17976700134063943"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-18T17:25:23.790865+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 13,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784395523,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADDWpbtwORuDBs4Qmz4CXkcwNrr-nJAAJkDmsbNjrcUkbJucqKL-RiAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADZA5rGzY63FJ4",
+                  "file_size": 1931,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADDWpbtwORuDBs4Qmz4CXkcwNrr-nJAAJkDmsbNjrcUkbJucqKL-RiAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADZA5rGzY63FJy",
+                  "file_size": 24654,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADDWpbtwORuDBs4Qmz4CXkcwNrr-nJAAJkDmsbNjrcUkbJucqKL-RiAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADZA5rGzY63FJ9",
+                  "file_size": 98843,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADDWpbtwORuDBs4Qmz4CXkcwNrr-nJAAJkDmsbNjrcUkbJucqKL-RiAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADZA5rGzY63FJ-",
+                  "file_size": 198441,
+                  "width": 1254,
+                  "height": 1254
+                }
+              ],
+              "caption": "Монтаж під ключ — це коли систему не збирають з випадкових порад, а проєктують під задачу, об’єкт і бюджет.\n\n#монтажпідключ #системибезпеки #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 109,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 124,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 140,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
