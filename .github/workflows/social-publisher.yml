@@ -2,7 +2,8 @@ name: ALT-CAM Social Publisher
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    # Four checks per hour, shifted away from :00 where GitHub Actions is busiest.
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
 
 permissions:
