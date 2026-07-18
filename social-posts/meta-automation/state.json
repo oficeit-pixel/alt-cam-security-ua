@@ -625,6 +625,106 @@
           }
         }
       }
+    },
+    "altcam-2026-07-18-04-ajax": {
+      "instagram": {
+        "published_at": "2026-07-18T11:19:13.841974+00:00",
+        "result": {
+          "container": {
+            "id": "18071420720418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18071420720418944"
+          },
+          "published": {
+            "id": "17915410287221885"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-18T11:19:22.701674+00:00",
+        "result": {
+          "container": {
+            "id": "18071296946424516"
+          },
+          "published": {
+            "id": "18422942344177391"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-18T11:19:23.970842+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 11,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784373563,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADC2pbYTuK-FpGaxL003ygOLr_BDnNAALKDWsbTQ7cUlsTddDAIBJdAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADyg1rG00O3FJ4",
+                  "file_size": 1933,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADC2pbYTuK-FpGaxL003ygOLr_BDnNAALKDWsbTQ7cUlsTddDAIBJdAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADyg1rG00O3FJy",
+                  "file_size": 24885,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADC2pbYTuK-FpGaxL003ygOLr_BDnNAALKDWsbTQ7cUlsTddDAIBJdAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADyg1rG00O3FJ9",
+                  "file_size": 97797,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADC2pbYTuK-FpGaxL003ygOLr_BDnNAALKDWsbTQ7cUlsTddDAIBJdAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADyg1rG00O3FJ-",
+                  "file_size": 195637,
+                  "width": 1254,
+                  "height": 1254
+                }
+              ],
+              "caption": "Ajax — безпека, яка виглядає акуратно і працює розумно: датчики, сирени, смартфон, сценарії та швидкі сповіщення.\n\n#Ajax #сигналізація #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 115,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 121,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 135,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
