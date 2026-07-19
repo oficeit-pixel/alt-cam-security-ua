@@ -213,9 +213,9 @@ def render_card(product: dict, category: str, accent: str, index: int, photo_pat
     draw.rounded_rectangle((72, 1360, 590, 1460), 25, outline=accent_rgb, width=4)
     draw.text((102, 1383), f"{price} грн", font=font(48, True), fill=accent_rgb)
 
-    draw.text((72, 1515), "• Офіційне фото та модель Viatec", font=font(31), fill="#e7e7e7")
-    draw.text((72, 1570), "• Підбір під ваш об'єкт", font=font(31), fill="#e7e7e7")
-    draw.text((72, 1625), "• Монтаж і налаштування ALT-CAM", font=font(31), fill="#e7e7e7")
+    draw.text((72, 1515), "• Перевірене обладнання ALT-CAM", font=font(31), fill="#e7e7e7")
+    draw.text((72, 1570), "• Підбір під ваш об'єкт і бюджет", font=font(31), fill="#e7e7e7")
+    draw.text((72, 1625), "• Монтаж, налаштування та сервіс", font=font(31), fill="#e7e7e7")
 
     draw.line((72, 1735, 1008, 1735), fill=accent_rgb, width=3)
     draw.text((72, 1770), "Напишіть «ПІДБІР» у Direct", font=font(38, True), fill="white")
