@@ -1,0 +1,591 @@
+{
+  "generated_on": "2026-07-19",
+  "source": "https://viatec.ua/ru",
+  "categories": [
+    {
+      "slug": "cameras",
+      "title": "КАМЕРИ",
+      "source_url": "https://viatec.ua/ru/catalog/cameras",
+      "products": [
+        {
+          "name": "HDCVI видеокамера Dahua DH-HAC-T1A21P-U 2МП (2.8мм)",
+          "price": 1087,
+          "image": "https://viatec.ua/upload/images/prod/2024-05/T1A21-U.webp",
+          "url": "https://viatec.ua/ru/product/DH-HAC-T1A21P-U",
+          "sku": "99-00019687",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/cameras/01-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/cameras/01.webp"
+        },
+        {
+          "name": "IP видеокамера Dahua DH-P5D-5F-PV 5МП (2.8+6мм) WiFi",
+          "price": 5580,
+          "image": "https://viatec.ua/upload/images/prod/2025-01/P5D-5F-PV.webp",
+          "url": "https://viatec.ua/ru/product/DH-P5D-5F-PV",
+          "sku": "99-00022237",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/cameras/02-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/cameras/02.webp"
+        },
+        {
+          "name": "Turbo HD видеокамера Hikvision DS-2CE56D0T-IRMF (С) 2МП (2.8мм)",
+          "price": 1350,
+          "image": "https://viatec.ua/upload/images/prod/DS-2CE56D0T-IRMF%EF%BC%88C%EF%BC%89-2.8mm.jpg",
+          "url": "https://viatec.ua/ru/product/DS-2CE56D0T-IRMF-C28",
+          "sku": "99-00003315",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/cameras/03-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/cameras/03.jpg"
+        },
+        {
+          "name": "IP видеокамера Hikvision DS-2CD1047G3-LIUF 4МП (2.8мм)",
+          "price": 5947,
+          "image": "https://viatec.ua/upload/images/prod/2024-03/2CD1027G2H-LIU.webp",
+          "url": "https://viatec.ua/ru/product/DS-2CD1047G3-LIUF-28",
+          "sku": "99-10029305",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/cameras/04-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/cameras/04.webp"
+        },
+        {
+          "name": "HDCVI видеокамера Dahua DH-HAC-HDW1200TLMP-IL-A 2МП (2.8мм)",
+          "price": 1530,
+          "image": "https://viatec.ua/upload/images/prod/2023-07/HAC-HDW1200TLM-IL-A.webp",
+          "url": "https://viatec.ua/ru/product/DH-HAC-HDW1200TLMP-IL-A-28",
+          "sku": "99-00014824",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/cameras/05-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/cameras/05.webp"
+        },
+        {
+          "name": "IP видеокамера Hikvision DS-2CD2443G2-I 4МП (2.8мм)",
+          "price": 5994,
+          "image": "https://viatec.ua/upload/images/prod/image(1).webp",
+          "url": "https://viatec.ua/ru/product/DS-2CD2443G2-I-28",
+          "sku": "99-00006323",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/cameras/06-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/cameras/06.webp"
+        },
+        {
+          "name": "IP видеокамера VIA SECURITY VS-B22AS 2МП (2.8мм)",
+          "price": 2160,
+          "image": "https://viatec.ua/upload/images/prod/2024-08/b22as.webp",
+          "url": "https://viatec.ua/ru/product/VIA-SECURITY-VS-B22AS",
+          "sku": "99-00020946",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/cameras/07-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/cameras/07.webp"
+        },
+        {
+          "name": "IP видеокамера Dahua DH-IPC-HDW2449T-S-PRO 4МП (2.8мм)",
+          "price": 6075,
+          "image": "https://viatec.ua/upload/images/prod/2024-10/HDW2449T-S-PRO.webp",
+          "url": "https://viatec.ua/ru/product/DH-IPC-HDW2449T-S-PRO",
+          "sku": "99-00022546",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/cameras/08-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/cameras/08.webp"
+        },
+        {
+          "name": "IP видеокамера Dahua DH-IPC-HFW1539DTK1-SAW-IL 5МП WiFi (2.8мм)",
+          "price": 2835,
+          "image": "https://viatec.ua/upload/2/HFW1539DTK1-SAW-IL.webp",
+          "url": "https://viatec.ua/ru/product/DH-IPC-HFW1539DTK1-SAW-IL",
+          "sku": "99-10026334",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/cameras/09-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/cameras/09.webp"
+        },
+        {
+          "name": "IP видеокамера Hikvision DS-2CD1047G3H-LIUF 4МП (2.8мм)",
+          "price": 7704,
+          "image": "https://viatec.ua/upload/2/DS-2CD1047G3H-LIUF1_SL.webp",
+          "url": "https://viatec.ua/ru/product/DS-2CD1047G3H-LIUF-28",
+          "sku": "99-10030061",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/cameras/10-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/cameras/10.webp"
+        }
+      ]
+    },
+    {
+      "slug": "recorders",
+      "title": "РЕЄСТРАТОРИ",
+      "source_url": "https://viatec.ua/ru/catalog/dvr",
+      "products": [
+        {
+          "name": "Видеорегистратор VIA SECURITY VS-N2105",
+          "price": 2250,
+          "image": "https://viatec.ua/upload/images/prod/2024-08/dvr1104.webp",
+          "url": "https://viatec.ua/ru/product/VS-N2105",
+          "sku": "99-00020953",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/recorders/01-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/recorders/01.webp"
+        },
+        {
+          "name": "Видеорегистратор Dahua DH-XVR5108C-I3/T 8-канальный 5MP",
+          "price": 7245,
+          "image": "https://viatec.ua/upload/2/XVR5104C-I3-T.webp",
+          "url": "https://viatec.ua/ru/product/DH-XVR5108C-I3T",
+          "sku": "99-10028659",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/recorders/02-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/recorders/02.webp"
+        },
+        {
+          "name": "Видеорегистратор VIA SECURITY VS-N1104 PoE",
+          "price": 2385,
+          "image": "https://viatec.ua/upload/images/prod/2024-08/dvr1104.webp",
+          "url": "https://viatec.ua/ru/product/VS-N1104",
+          "sku": "99-00020951",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/recorders/03-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/recorders/03.webp"
+        },
+        {
+          "name": "Видеорегистратор Dahua DHI-NVR2116-I2 16-канальный 1U 1HDD WizSense",
+          "price": 8280,
+          "image": "https://viatec.ua/upload/images/prod/NVR2116-I2.jpg",
+          "url": "https://viatec.ua/ru/product/DHI-NVR2116-I2",
+          "sku": "99-00010279",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/recorders/04-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/recorders/04.jpg"
+        },
+        {
+          "name": "Видеорегистратор VIA SECURITY VS-N2110",
+          "price": 2520,
+          "image": "https://viatec.ua/upload/images/prod/2024-08/dvr1104.webp",
+          "url": "https://viatec.ua/ru/product/VS-N2110",
+          "sku": "99-00020954",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/recorders/05-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/recorders/05.webp"
+        },
+        {
+          "name": "Видеорегистратор Dahua DHI-NVR2104-P-I2 4-канальный 1U 4PoE 1HDD WizSense",
+          "price": 9090,
+          "image": "https://viatec.ua/upload/images/prod/DHI-NVR2104-I2.webp",
+          "url": "https://viatec.ua/ru/product/DHI-NVR2104-P-I2",
+          "sku": "99-00010945",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/recorders/06-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/recorders/06.webp"
+        },
+        {
+          "name": "Видеорегистратор VIASecurity VIA-NVR04V1Q 4-канальный",
+          "price": 3150,
+          "image": "https://viatec.ua/upload/2/NVR08_04.webp",
+          "url": "https://viatec.ua/ru/product/VIA-NVR04V1Q",
+          "sku": "99-10026385",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/recorders/07-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/recorders/07.webp"
+        },
+        {
+          "name": "Видеорегистратор Dahua DH-XVR5108HS-4KL-I3/T 8-канальный 4K Value/5MP 1U 1HDD WizSense",
+          "price": 10710,
+          "image": "https://viatec.ua/upload/2/DH-XVR5108HS-4KL-I3T1.webp",
+          "url": "https://viatec.ua/ru/product/DH-XVR5108HS-4KL-I3T",
+          "sku": "99-10029628",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/recorders/08-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/recorders/08.webp"
+        },
+        {
+          "name": "Видеорегистратор SafetyEye SE-NVR08V1Q",
+          "price": 3195,
+          "image": "https://viatec.ua/upload/images/prod/2024-04/SE-NVR04V1Q.webp",
+          "url": "https://viatec.ua/ru/product/SE-NVR08V1Q",
+          "sku": "99-00017910",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/recorders/09-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/recorders/09.webp"
+        },
+        {
+          "name": "Видеорегистратор Dahua DHI-NVR2108-8P-I2 8-канальный 1U PoE WizSense",
+          "price": 11790,
+          "image": "https://viatec.ua/upload/images/prod/2023-08/DHI-NVR2108-8P-I2.webp",
+          "url": "https://viatec.ua/ru/product/DHI-NVR2108-8P-I2",
+          "sku": "99-00014834",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/recorders/10-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/recorders/10.webp"
+        }
+      ]
+    },
+    {
+      "slug": "intercoms",
+      "title": "ДОМОФОНИ",
+      "source_url": "https://viatec.ua/ru/catalog/vth",
+      "products": [
+        {
+          "name": "Видеодомофон Slinex SK-07 graphite",
+          "price": 2700,
+          "image": "https://viatec.ua/upload/2/Slinex-SK-07.webp",
+          "url": "https://viatec.ua/ru/product/Slinex-SK-07-graphite",
+          "sku": "99-10028774",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/01-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/intercoms/01.webp"
+        },
+        {
+          "name": "Видеодомофон Dnake H616 White 8' Android 10",
+          "price": 11439,
+          "image": "https://viatec.ua/upload/2/H6162(1).webp",
+          "url": "https://viatec.ua/ru/product/Dnake-H616White8",
+          "sku": "99-10026272",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/02-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/intercoms/02.webp"
+        },
+        {
+          "name": "Видеодомофон Slinex SK-07HD graphite",
+          "price": 3645,
+          "image": "https://viatec.ua/upload/2/Slinex-SK-07.webp",
+          "url": "https://viatec.ua/ru/product/Slinex-SK-07HD-graphite",
+          "sku": "99-10025447",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/03-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/intercoms/03.webp"
+        },
+        {
+          "name": "Видеодомофон Dnake H616 BLACK 8' Android 10",
+          "price": 11439,
+          "image": "https://viatec.ua/upload/2/H616.webp",
+          "url": "https://viatec.ua/ru/product/Dnake-H616BLACK8",
+          "sku": "99-10026271",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/04-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/intercoms/04.webp"
+        },
+        {
+          "name": "Видеодомофон Hikvision DS-KH6100-E1 4.3\" дюйма",
+          "price": 3667,
+          "image": "https://viatec.ua/upload/images/2018-04-26/DS-KH6100-E1.webp",
+          "url": "https://viatec.ua/ru/product/DS-KH6100-E1",
+          "sku": "99-00016890",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/05-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/intercoms/05.webp"
+        },
+        {
+          "name": "Видеодомофон Hikvision DS-KH8520-WTE1(Europe BV)",
+          "price": 11925,
+          "image": "https://viatec.ua/upload/images/prod/2023-08/DS-KH8520-WTE1.webp",
+          "url": "https://viatec.ua/ru/product/DS-KH8520-WTE1-eu",
+          "sku": "99-00014090",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/06-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/intercoms/06.webp"
+        },
+        {
+          "name": "Видеодомофон Slinex SQ-04M 4.3\" дюймов (white)",
+          "price": 4005,
+          "image": "https://viatec.ua/upload/images/prod/2024-05/SQ-04M.webp",
+          "url": "https://viatec.ua/ru/product/slinex-sq-04m-white",
+          "sku": "99-00006900",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/07-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/intercoms/07.webp"
+        },
+        {
+          "name": "Видеодомофон DHI-VTH5321GB-W",
+          "price": 11970,
+          "image": "https://viatec.ua/upload/images/prod/DHI-VTH5321GB-W.jpg",
+          "url": "https://viatec.ua/ru/product/DHI-VTH5321GB-W",
+          "sku": "99-00002965",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/08-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/intercoms/08.jpg"
+        },
+        {
+          "name": "Видеодомофон Slinex SQ-04M 4\" дюйма (black)",
+          "price": 4005,
+          "image": "https://viatec.ua/upload/images/prod/2024-05/SQ-04Mb.webp",
+          "url": "https://viatec.ua/ru/product/slinex-sq-04m-black",
+          "sku": "99-00006899",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/09-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/intercoms/09.webp"
+        },
+        {
+          "name": "Видеодомофон DHI-VTH5321GW-W",
+          "price": 11970,
+          "image": "https://viatec.ua/upload/images/prod/Untitled-5.jpg",
+          "url": "https://viatec.ua/ru/product/DHI-VTH5321GW-W",
+          "sku": "99-00002966",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/10-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/intercoms/10.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "ajax",
+      "title": "AJAX",
+      "source_url": "https://viatec.ua/ru/catalog/alarm-ppk/proizvoditel%3A390",
+      "products": [
+        {
+          "name": "Ретранслятор радиоканальный Ajax ReX black EU",
+          "price": 4349,
+          "image": "https://viatec.ua/upload/images/prod/Hub.jpg",
+          "url": "https://viatec.ua/ru/product/ReX-black-EU",
+          "sku": "99-00001836",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/ajax/01-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/ajax/01.jpg"
+        },
+        {
+          "name": "Охранная централь Ajax Hub 2 Plus (8EU/ECG) UA white",
+          "price": 13699,
+          "image": "https://viatec.ua/upload/images/prod/ajax2plus.webp",
+          "url": "https://viatec.ua/ru/product/Ajax-Hub-2-Plus-8EU-ECG-UA-white",
+          "sku": "99-00006336",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/ajax/02-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/ajax/02.webp"
+        },
+        {
+          "name": "Ретранслятор радиоканальный Ajax ReX white EU",
+          "price": 4349,
+          "image": "https://viatec.ua/upload/images/prod/HubW.jpg",
+          "url": "https://viatec.ua/ru/product/ReX-white-EU",
+          "sku": "99-00001210",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/ajax/03-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/ajax/03.jpg"
+        },
+        {
+          "name": "Централь Ajax Hub 2 Plus (8EU/ECG) UA black",
+          "price": 13699,
+          "image": "https://viatec.ua/upload/images/prod/Ajax-Hub-2-Plus.jpg",
+          "url": "https://viatec.ua/ru/product/Ajax-Hub-2-Plus-black-EU",
+          "sku": "99-00005821",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/ajax/04-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/ajax/04.jpg"
+        },
+        {
+          "name": "Модуль Ajax MultiTransmitter white интеграции сторонних проводных устройств",
+          "price": 5299,
+          "image": "https://viatec.ua/upload/images/prod/1-500x500.jpg",
+          "url": "https://viatec.ua/ru/product/Ajax-MultiTransmitter-white",
+          "sku": "99-00003148",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/ajax/05-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/ajax/05.jpg"
+        },
+        {
+          "name": "Комплект Ajax StarterKit Cam HDR (8EU) UA black охранной сигнализации",
+          "price": 15499,
+          "image": "https://viatec.ua/upload/images/prod/2025-02/starterkit_cam_bblackhdr.webp",
+          "url": "https://viatec.ua/ru/product/Ajax-StarterKit-Cam-8EU-UA-blackHDR",
+          "sku": "99-00024252",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/ajax/06-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/ajax/06.webp"
+        },
+        {
+          "name": "Модуль Ajax MultiTransmitter black интеграции сторонних проводных устройств",
+          "price": 5299,
+          "image": "https://viatec.ua/upload/images/prod/3094-auto_width_1000.jpg",
+          "url": "https://viatec.ua/ru/product/Ajax-MultiTransmitter-black",
+          "sku": "99-00003246",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/ajax/07-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/ajax/07.jpg"
+        },
+        {
+          "name": "Комплект Ajax StarterKit Cam HDR white охранной сигнализации",
+          "price": 15499,
+          "image": "https://viatec.ua/upload/images/prod/StarterKit_white.webp",
+          "url": "https://viatec.ua/ru/product/Ajax-StarterKit-Cam-8EU-UA-whiteHDR",
+          "sku": "99-00023766",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/ajax/08-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/ajax/08.webp"
+        },
+        {
+          "name": "Ретранслятор сигнала Ajax ReX 2 (8EU) black",
+          "price": 5749,
+          "image": "https://viatec.ua/upload/images/prod/Ajax_rex_black-800x800.webp",
+          "url": "https://viatec.ua/ru/product/ajax-rex2",
+          "sku": "99-00006839",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/ajax/09-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/ajax/09.webp"
+        },
+        {
+          "name": "Комплект Ajax StarterKit Cam Plus HDR ECG (8EU) UA white",
+          "price": 20999,
+          "image": "https://viatec.ua/upload/images/prod/StarterKit_white.webp",
+          "url": "https://viatec.ua/ru/product/Ajax-StarterKit-Cam-Plus-8EU-hdr",
+          "sku": "99-00023613",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/ajax/10-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/ajax/10.webp"
+        }
+      ]
+    },
+    {
+      "slug": "backup",
+      "title": "РЕЗЕРВ",
+      "source_url": "https://viatec.ua/ru/catalog/istochniki-bespereboinogo-pitania-12-24v",
+      "products": [
+        {
+          "name": "Источник бесперебойного питания Kraft PSU-1203LED(P) 12В 3А",
+          "price": 924,
+          "image": "https://viatec.ua/upload/images/prod/2024-01/3/dzherelo-bezperebijnogo-zhivlennja-kraft-psu-1203led-p (5).webp",
+          "url": "https://viatec.ua/ru/product/kraft-psu-1203led-p",
+          "sku": "99-00016996",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/backup/01-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/backup/01.webp"
+        },
+        {
+          "name": "Блок питания U-PROX PSU60W 14В 2.8А M0 kit с функцией UPS",
+          "price": 2465,
+          "image": "https://viatec.ua/upload/images/prod/2024-12/uprxpower12.webp",
+          "url": "https://viatec.ua/ru/product/PSU60WM0kit",
+          "sku": "99-00022699",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/backup/02-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/backup/02.webp"
+        },
+        {
+          "name": "Блок бесперебойного питания Full Energy BBGP-123DIN на DIN-рейке 12В 3А",
+          "price": 968,
+          "image": "https://viatec.ua/upload/images/prod/Full_Energy_BBGP-123DIN.webp",
+          "url": "https://viatec.ua/ru/product/BBGP-123DIN",
+          "sku": "99-00011481",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/backup/03-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/backup/03.webp"
+        },
+        {
+          "name": "Блок бесперебойного питания Full Energy BBGP-1210 12В 10А",
+          "price": 2618,
+          "image": "https://viatec.ua/upload/images/prod/BBGP-1210.jpg",
+          "url": "https://viatec.ua/ru/product/BBGP-1210",
+          "sku": "99-00005175",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/backup/04-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/backup/04.jpg"
+        },
+        {
+          "name": "Блок бесперебойного питания Full Energy BBG-124/1 12В 4А",
+          "price": 968,
+          "image": "https://viatec.ua/upload/images/prod/BBG-121.jpg",
+          "url": "https://viatec.ua/ru/product/BBG-1241",
+          "sku": "99-00006788",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/backup/05-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/backup/05.jpg"
+        },
+        {
+          "name": "Блок бесперебойного питания Full Energy BBGP-1210 PoE 12В 10А",
+          "price": 2772,
+          "image": "https://viatec.ua/upload/images/prod/Full_Energy_BBGP-1210.webp",
+          "url": "https://viatec.ua/ru/product/BBGP-1210-PoE-100W",
+          "sku": "99-00011480",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/backup/06-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/backup/06.webp"
+        },
+        {
+          "name": "Блок бесперебойного питания Full Energy BBGP-123 12В 3А",
+          "price": 1035,
+          "image": "https://viatec.ua/upload/images/prod/BBGP-123.jpg",
+          "url": "https://viatec.ua/ru/product/BBGP-123",
+          "sku": "99-00004639",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/backup/07-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/backup/07.jpg"
+        },
+        {
+          "name": "Блок бесперебойного питания Full Energy BBG-245 24В 5А",
+          "price": 3080,
+          "image": "https://viatec.ua/upload/images/prod/BBGP-245.jpg",
+          "url": "https://viatec.ua/ru/product/BBGP-245",
+          "sku": "99-00005393",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/backup/08-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/backup/08.jpg"
+        },
+        {
+          "name": "Источник бесперебойного питания Full Energy BBG-123 12В 3А",
+          "price": 1101,
+          "image": "https://viatec.ua/upload/images/prod/Full_Energy_BBG-123.webp",
+          "url": "https://viatec.ua/ru/product/Full-Energy-BBG-123",
+          "sku": "99-00008299",
+          "price_valid_until": "2026-07-20",
+          "tier": "БЮДЖЕТ",
+          "card_path": "social-posts/instagram-catalog/product-cards/backup/09-бюджет.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/backup/09.webp"
+        },
+        {
+          "name": "Блок бесперебойного питания Tiras 1230 12В 3А",
+          "price": 8448,
+          "image": "https://viatec.ua/upload/images/prod/%D0%91%D0%96_1230_Front.webp",
+          "url": "https://viatec.ua/ru/product/tiras-1230",
+          "sku": "99-00006751",
+          "price_valid_until": "2026-07-20",
+          "tier": "РОЗШИРЕНИЙ",
+          "card_path": "social-posts/instagram-catalog/product-cards/backup/10-розширений.jpg",
+          "photo_path": "social-posts/instagram-catalog/product-photos/backup/10.webp"
+        }
+      ]
+    }
+  ]
+}

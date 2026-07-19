@@ -141,6 +141,16 @@ def post_json(url: str, token: str, payload: dict) -> dict:
 
 def publish_facebook(post: dict) -> dict:
     env = require_env("FACEBOOK_PAGE_ID", "FACEBOOK_PAGE_ACCESS_TOKEN")
+    if post.get("media_type") == "video":
+        return post_graph(
+            f"{env['FACEBOOK_PAGE_ID']}/videos",
+            env["FACEBOOK_PAGE_ACCESS_TOKEN"],
+            {
+                "file_url": post["video_url"],
+                "description": caption_for(post, "facebook"),
+                "published": "true",
+            },
+        )
     return post_graph(
         f"{env['FACEBOOK_PAGE_ID']}/photos",
         env["FACEBOOK_PAGE_ACCESS_TOKEN"],
@@ -158,13 +168,34 @@ def publish_instagram(post: dict) -> dict:
     token = env["INSTAGRAM_ACCESS_TOKEN"]
     api_base = "instagram" if token.startswith("IG") else "facebook"
 
+    instagram_media_type = str(post.get("instagram_media_type", "")).upper()
+    if instagram_media_type == "STORIES":
+        media_payload = {"media_type": "STORIES"}
+        if post.get("media_type") == "video":
+            media_payload["video_url"] = post["video_url"]
+        else:
+            media_payload["image_url"] = post["image_url"]
+    elif post.get("media_type") == "video":
+        media_payload = {
+            "caption": caption_for(post, "instagram"),
+        }
+        media_payload.update(
+            {
+                "media_type": "REELS",
+                "video_url": post["video_url"],
+                "share_to_feed": "true",
+            }
+        )
+    else:
+        media_payload = {
+            "caption": caption_for(post, "instagram"),
+            "image_url": post["image_url"],
+        }
+
     container = post_graph(
         f"{ig_user_id}/media",
         token,
-        {
-            "image_url": post["image_url"],
-            "caption": caption_for(post, "instagram"),
-        },
+        media_payload,
         base=api_base,
     )
     creation_id = container.get("id")
@@ -208,14 +239,19 @@ def publish_threads(post: dict) -> dict:
     threads_user_id = env["THREADS_USER_ID"]
     token = env["THREADS_ACCESS_TOKEN"]
 
+    media_payload = {
+        "media_type": "VIDEO" if post.get("media_type") == "video" else "IMAGE",
+        "text": caption_for(post, "threads"),
+    }
+    if post.get("media_type") == "video":
+        media_payload["video_url"] = post["video_url"]
+    else:
+        media_payload["image_url"] = post["image_url"]
+
     container = post_graph(
         f"{threads_user_id}/threads",
         token,
-        {
-            "media_type": "IMAGE",
-            "image_url": post["image_url"],
-            "text": caption_for(post, "threads"),
-        },
+        media_payload,
         base="threads",
     )
     creation_id = container.get("id")
@@ -237,30 +273,33 @@ def publish_telegram(post: dict) -> dict:
     caption = caption_for(post, "telegram")
     api_base = f"https://api.telegram.org/bot{token}"
 
-    photo_payload = {
+    is_video = post.get("media_type") == "video"
+    media_method = "sendVideo" if is_video else "sendPhoto"
+    media_key = "video" if is_video else "photo"
+    media_payload = {
         "chat_id": chat_id,
-        "photo": post["image_url"],
+        media_key: post["video_url"] if is_video else post["image_url"],
     }
     followup = None
     if len(caption) <= 1024:
-        photo_payload["caption"] = caption
+        media_payload["caption"] = caption
     else:
-        photo_payload["caption"] = caption[:1000].rstrip() + "…"
+        media_payload["caption"] = caption[:1000].rstrip() + "…"
         followup = caption
 
-    photo_response = requests.post(
-        f"{api_base}/sendPhoto",
-        data=photo_payload,
+    media_response = requests.post(
+        f"{api_base}/{media_method}",
+        data=media_payload,
         timeout=60,
     )
     try:
-        photo_body = photo_response.json()
+        media_body = media_response.json()
     except Exception:
-        photo_body = {"raw": photo_response.text}
-    if not photo_response.ok or not photo_body.get("ok"):
-        raise RuntimeError(f"Telegram sendPhoto failed: {photo_body}")
+        media_body = {"raw": media_response.text}
+    if not media_response.ok or not media_body.get("ok"):
+        raise RuntimeError(f"Telegram {media_method} failed: {media_body}")
 
-    result = {"photo": photo_body}
+    result = {media_key: media_body}
     if followup:
         message_response = requests.post(
             f"{api_base}/sendMessage",
@@ -287,6 +326,42 @@ def publish_tiktok(post: dict) -> dict:
     post_mode = os.getenv("TIKTOK_POST_MODE", "MEDIA_UPLOAD").strip().upper()
     if post_mode not in {"MEDIA_UPLOAD", "DIRECT_POST"}:
         raise RuntimeError("TIKTOK_POST_MODE must be MEDIA_UPLOAD or DIRECT_POST.")
+
+    if post.get("media_type") == "video":
+        if post_mode == "MEDIA_UPLOAD":
+            return post_json(
+                tiktok_url("/v2/post/publish/inbox/video/init/"),
+                token,
+                {
+                    "source_info": {
+                        "source": "PULL_FROM_URL",
+                        "video_url": post["video_url"],
+                    }
+                },
+            )
+        return post_json(
+            tiktok_url("/v2/post/publish/video/init/"),
+            token,
+            {
+                "post_info": {
+                    "title": caption_for(post, "tiktok")[:2200],
+                    "privacy_level": os.getenv(
+                        "TIKTOK_PRIVACY_LEVEL", "PUBLIC_TO_EVERYONE"
+                    ).strip()
+                    or "PUBLIC_TO_EVERYONE",
+                    "disable_comment": os.getenv(
+                        "TIKTOK_DISABLE_COMMENT", "false"
+                    ).lower()
+                    in {"1", "true", "yes", "on"},
+                    "brand_organic_toggle": True,
+                    "is_aigc": bool(post.get("is_aigc", False)),
+                },
+                "source_info": {
+                    "source": "PULL_FROM_URL",
+                    "video_url": post["video_url"],
+                },
+            },
+        )
 
     post_info = {
         "title": tiktok_title_for(post),
@@ -362,6 +437,8 @@ def parse_dt(value: str) -> datetime:
 
 
 def is_due(post: dict, now: datetime, force: bool) -> bool:
+    if post.get("status", "ready") != "ready":
+        return False
     if force:
         return True
     scheduled = parse_dt(post["scheduled_at"])

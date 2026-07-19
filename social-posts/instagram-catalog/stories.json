@@ -1,0 +1,966 @@
+{
+  "timezone": "Europe/Kyiv",
+  "notes": "Instagram Stories queue for six ALT-CAM highlights.",
+  "posts": [
+    {
+      "id": "ig-highlight-cameras-01",
+      "scheduled_at": "2026-07-19T12:04:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/cameras/01-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/cameras/01-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "КАМЕРИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-cameras-02",
+      "scheduled_at": "2026-07-19T12:06:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/cameras/02-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/cameras/02-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "КАМЕРИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-cameras-03",
+      "scheduled_at": "2026-07-19T12:08:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/cameras/03-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/cameras/03-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "КАМЕРИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-cameras-04",
+      "scheduled_at": "2026-07-19T12:10:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/cameras/04-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/cameras/04-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "КАМЕРИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-cameras-05",
+      "scheduled_at": "2026-07-19T12:12:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/cameras/05-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/cameras/05-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "КАМЕРИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-cameras-06",
+      "scheduled_at": "2026-07-19T12:14:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/cameras/06-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/cameras/06-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "КАМЕРИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-cameras-07",
+      "scheduled_at": "2026-07-19T12:16:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/cameras/07-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/cameras/07-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "КАМЕРИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-cameras-08",
+      "scheduled_at": "2026-07-19T12:18:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/cameras/08-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/cameras/08-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "КАМЕРИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-cameras-09",
+      "scheduled_at": "2026-07-19T12:20:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/cameras/09-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/cameras/09-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "КАМЕРИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-cameras-10",
+      "scheduled_at": "2026-07-19T12:22:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/cameras/10-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/cameras/10-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "КАМЕРИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-recorders-01",
+      "scheduled_at": "2026-07-19T12:24:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/recorders/01-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/recorders/01-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "РЕЄСТРАТОРИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-recorders-02",
+      "scheduled_at": "2026-07-19T12:26:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/recorders/02-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/recorders/02-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "РЕЄСТРАТОРИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-recorders-03",
+      "scheduled_at": "2026-07-19T12:28:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/recorders/03-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/recorders/03-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "РЕЄСТРАТОРИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-recorders-04",
+      "scheduled_at": "2026-07-19T12:30:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/recorders/04-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/recorders/04-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "РЕЄСТРАТОРИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-recorders-05",
+      "scheduled_at": "2026-07-19T12:32:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/recorders/05-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/recorders/05-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "РЕЄСТРАТОРИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-recorders-06",
+      "scheduled_at": "2026-07-19T12:34:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/recorders/06-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/recorders/06-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "РЕЄСТРАТОРИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-recorders-07",
+      "scheduled_at": "2026-07-19T12:36:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/recorders/07-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/recorders/07-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "РЕЄСТРАТОРИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-recorders-08",
+      "scheduled_at": "2026-07-19T12:38:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/recorders/08-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/recorders/08-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "РЕЄСТРАТОРИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-recorders-09",
+      "scheduled_at": "2026-07-19T12:40:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/recorders/09-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/recorders/09-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "РЕЄСТРАТОРИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-recorders-10",
+      "scheduled_at": "2026-07-19T12:42:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/recorders/10-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/recorders/10-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "РЕЄСТРАТОРИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-intercoms-01",
+      "scheduled_at": "2026-07-19T12:44:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/intercoms/01-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/intercoms/01-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "ДОМОФОНИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-intercoms-02",
+      "scheduled_at": "2026-07-19T12:46:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/intercoms/02-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/intercoms/02-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "ДОМОФОНИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-intercoms-03",
+      "scheduled_at": "2026-07-19T12:48:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/intercoms/03-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/intercoms/03-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "ДОМОФОНИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-intercoms-04",
+      "scheduled_at": "2026-07-19T12:50:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/intercoms/04-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/intercoms/04-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "ДОМОФОНИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-intercoms-05",
+      "scheduled_at": "2026-07-19T12:52:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/intercoms/05-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/intercoms/05-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "ДОМОФОНИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-intercoms-06",
+      "scheduled_at": "2026-07-19T12:54:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/intercoms/06-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/intercoms/06-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "ДОМОФОНИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-intercoms-07",
+      "scheduled_at": "2026-07-19T12:56:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/intercoms/07-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/intercoms/07-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "ДОМОФОНИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-intercoms-08",
+      "scheduled_at": "2026-07-19T12:58:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/intercoms/08-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/intercoms/08-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "ДОМОФОНИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-intercoms-09",
+      "scheduled_at": "2026-07-19T13:00:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/intercoms/09-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/intercoms/09-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "ДОМОФОНИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-intercoms-10",
+      "scheduled_at": "2026-07-19T13:02:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/intercoms/10-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/intercoms/10-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "ДОМОФОНИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-ajax-01",
+      "scheduled_at": "2026-07-19T13:04:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/ajax/01-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/ajax/01-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "AJAX",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-ajax-02",
+      "scheduled_at": "2026-07-19T13:06:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/ajax/02-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/ajax/02-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "AJAX",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-ajax-03",
+      "scheduled_at": "2026-07-19T13:08:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/ajax/03-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/ajax/03-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "AJAX",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-ajax-04",
+      "scheduled_at": "2026-07-19T13:10:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/ajax/04-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/ajax/04-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "AJAX",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-ajax-05",
+      "scheduled_at": "2026-07-19T13:12:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/ajax/05-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/ajax/05-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "AJAX",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-ajax-06",
+      "scheduled_at": "2026-07-19T13:14:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/ajax/06-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/ajax/06-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "AJAX",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-ajax-07",
+      "scheduled_at": "2026-07-19T13:16:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/ajax/07-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/ajax/07-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "AJAX",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-ajax-08",
+      "scheduled_at": "2026-07-19T13:18:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/ajax/08-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/ajax/08-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "AJAX",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-ajax-09",
+      "scheduled_at": "2026-07-19T13:20:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/ajax/09-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/ajax/09-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "AJAX",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-ajax-10",
+      "scheduled_at": "2026-07-19T13:22:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/ajax/10-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/ajax/10-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "AJAX",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-backup-01",
+      "scheduled_at": "2026-07-19T13:24:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/backup/01-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/backup/01-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "РЕЗЕРВ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-backup-02",
+      "scheduled_at": "2026-07-19T13:26:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/backup/02-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/backup/02-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "РЕЗЕРВ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-backup-03",
+      "scheduled_at": "2026-07-19T13:28:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/backup/03-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/backup/03-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "РЕЗЕРВ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-backup-04",
+      "scheduled_at": "2026-07-19T13:30:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/backup/04-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/backup/04-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "РЕЗЕРВ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-backup-05",
+      "scheduled_at": "2026-07-19T13:32:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/backup/05-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/backup/05-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "РЕЗЕРВ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-backup-06",
+      "scheduled_at": "2026-07-19T13:34:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/backup/06-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/backup/06-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "РЕЗЕРВ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-backup-07",
+      "scheduled_at": "2026-07-19T13:36:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/backup/07-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/backup/07-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "РЕЗЕРВ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-backup-08",
+      "scheduled_at": "2026-07-19T13:38:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/backup/08-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/backup/08-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "РЕЗЕРВ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-backup-09",
+      "scheduled_at": "2026-07-19T13:40:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/backup/09-бюджет.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/backup/09-бюджет.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "РЕЗЕРВ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-backup-10",
+      "scheduled_at": "2026-07-19T13:42:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "product-cards/backup/10-розширений.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/product-cards/backup/10-розширений.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "РЕЗЕРВ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-services-01",
+      "scheduled_at": "2026-07-19T13:44:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "service-cards/01-service.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/service-cards/01-service.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "ПОСЛУГИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-services-02",
+      "scheduled_at": "2026-07-19T13:46:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "service-cards/02-service.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/service-cards/02-service.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "ПОСЛУГИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-services-03",
+      "scheduled_at": "2026-07-19T13:48:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "service-cards/03-service.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/service-cards/03-service.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "ПОСЛУГИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-services-04",
+      "scheduled_at": "2026-07-19T13:50:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "service-cards/04-service.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/service-cards/04-service.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "ПОСЛУГИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-services-05",
+      "scheduled_at": "2026-07-19T13:52:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "service-cards/05-service.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/service-cards/05-service.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "ПОСЛУГИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-services-06",
+      "scheduled_at": "2026-07-19T13:54:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "service-cards/06-service.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/service-cards/06-service.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "ПОСЛУГИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-services-07",
+      "scheduled_at": "2026-07-19T13:56:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "service-cards/07-service.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/service-cards/07-service.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "ПОСЛУГИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-services-08",
+      "scheduled_at": "2026-07-19T13:58:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "service-cards/08-service.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/service-cards/08-service.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "ПОСЛУГИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-services-09",
+      "scheduled_at": "2026-07-19T14:00:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "service-cards/09-service.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/service-cards/09-service.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "ПОСЛУГИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    },
+    {
+      "id": "ig-highlight-services-10",
+      "scheduled_at": "2026-07-19T14:02:16",
+      "platforms": [
+        "instagram"
+      ],
+      "image_path": "service-cards/10-service.jpg",
+      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/instagram-catalog/service-cards/10-service.jpg",
+      "instagram_media_type": "STORIES",
+      "highlight_category": "ПОСЛУГИ",
+      "status": "ready",
+      "caption": "",
+      "captions": {
+        "instagram": ""
+      }
+    }
+  ]
+}
