@@ -925,6 +925,101 @@
           }
         }
       }
+    },
+    "altcam-2026-07-19-04-security-audit": {
+      "instagram": {
+        "published_at": "2026-07-19T07:38:21.460170+00:00",
+        "result": {
+          "container": {
+            "id": "18071640986418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18071640986418944"
+          },
+          "published": {
+            "id": "18365921083225064"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-19T07:38:28.218176+00:00",
+        "result": {
+          "container": {
+            "id": "18071520635424516"
+          },
+          "published": {
+            "id": "18110597516068628"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-19T07:38:28.780098+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 14,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784446708,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADDmpcfvSo_BOOC-hrVj-VagFFi6RVAAKgDWsbrNrUUm72rP2RciaLAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADoA1rG6za1FJ4",
+                  "file_size": 1869,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADDmpcfvSo_BOOC-hrVj-VagFFi6RVAAKgDWsbrNrUUm72rP2RciaLAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADoA1rG6za1FJy",
+                  "file_size": 24793,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADDmpcfvSo_BOOC-hrVj-VagFFi6RVAAKgDWsbrNrUUm72rP2RciaLAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADoA1rG6za1FJ9",
+                  "file_size": 105980,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADDmpcfvSo_BOOC-hrVj-VagFFi6RVAAKgDWsbrNrUUm72rP2RciaLAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADoA1rG6za1FJ-",
+                  "file_size": 213587,
+                  "width": 1254,
+                  "height": 1254
+                }
+              ],
+              "caption": "Перед покупкою обладнання варто відповісти на просте питання: що саме ми хочемо контролювати?\n\nALT-CAM починає з задачі, а не з випадкового комплекту.\n\n#аудитбезпеки #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 152,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 166,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
