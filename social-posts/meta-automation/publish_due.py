@@ -10,8 +10,8 @@ import requests
 
 
 ROOT = Path(__file__).resolve().parent
-POSTS_FILE = ROOT / "posts.json"
-STATE_FILE = ROOT / "state.json"
+POSTS_FILE = Path(os.getenv("SOCIAL_POSTS_FILE", str(ROOT / "posts.json")))
+STATE_FILE = Path(os.getenv("SOCIAL_STATE_FILE", str(ROOT / "state.json")))
 ENV_FILE = ROOT / ".env"
 
 

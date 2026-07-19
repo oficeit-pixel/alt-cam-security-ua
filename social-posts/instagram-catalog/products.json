@@ -15,7 +15,7 @@
           "sku": "99-00019687",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/cameras/01-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/cameras/01-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/cameras/01.webp"
         },
         {
@@ -26,7 +26,7 @@
           "sku": "99-00022237",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/cameras/02-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/cameras/02-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/cameras/02.webp"
         },
         {
@@ -37,7 +37,7 @@
           "sku": "99-00003315",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/cameras/03-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/cameras/03-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/cameras/03.jpg"
         },
         {
@@ -48,7 +48,7 @@
           "sku": "99-10029305",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/cameras/04-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/cameras/04-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/cameras/04.webp"
         },
         {
@@ -59,7 +59,7 @@
           "sku": "99-00014824",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/cameras/05-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/cameras/05-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/cameras/05.webp"
         },
         {
@@ -70,7 +70,7 @@
           "sku": "99-00006323",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/cameras/06-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/cameras/06-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/cameras/06.webp"
         },
         {
@@ -81,7 +81,7 @@
           "sku": "99-00020946",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/cameras/07-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/cameras/07-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/cameras/07.webp"
         },
         {
@@ -92,7 +92,7 @@
           "sku": "99-00022546",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/cameras/08-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/cameras/08-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/cameras/08.webp"
         },
         {
@@ -103,7 +103,7 @@
           "sku": "99-10026334",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/cameras/09-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/cameras/09-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/cameras/09.webp"
         },
         {
@@ -114,7 +114,7 @@
           "sku": "99-10030061",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/cameras/10-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/cameras/10-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/cameras/10.webp"
         }
       ]
@@ -132,7 +132,7 @@
           "sku": "99-00020953",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/recorders/01-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/recorders/01-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/recorders/01.webp"
         },
         {
@@ -143,7 +143,7 @@
           "sku": "99-10028659",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/recorders/02-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/recorders/02-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/recorders/02.webp"
         },
         {
@@ -154,7 +154,7 @@
           "sku": "99-00020951",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/recorders/03-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/recorders/03-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/recorders/03.webp"
         },
         {
@@ -165,7 +165,7 @@
           "sku": "99-00010279",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/recorders/04-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/recorders/04-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/recorders/04.jpg"
         },
         {
@@ -176,7 +176,7 @@
           "sku": "99-00020954",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/recorders/05-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/recorders/05-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/recorders/05.webp"
         },
         {
@@ -187,7 +187,7 @@
           "sku": "99-00010945",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/recorders/06-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/recorders/06-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/recorders/06.webp"
         },
         {
@@ -198,7 +198,7 @@
           "sku": "99-10026385",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/recorders/07-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/recorders/07-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/recorders/07.webp"
         },
         {
@@ -209,7 +209,7 @@
           "sku": "99-10029628",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/recorders/08-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/recorders/08-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/recorders/08.webp"
         },
         {
@@ -220,7 +220,7 @@
           "sku": "99-00017910",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/recorders/09-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/recorders/09-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/recorders/09.webp"
         },
         {
@@ -231,7 +231,7 @@
           "sku": "99-00014834",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/recorders/10-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/recorders/10-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/recorders/10.webp"
         }
       ]
@@ -249,7 +249,7 @@
           "sku": "99-10028774",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/01-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/01-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/intercoms/01.webp"
         },
         {
@@ -260,7 +260,7 @@
           "sku": "99-10026272",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/02-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/02-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/intercoms/02.webp"
         },
         {
@@ -271,7 +271,7 @@
           "sku": "99-10025447",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/03-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/03-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/intercoms/03.webp"
         },
         {
@@ -282,7 +282,7 @@
           "sku": "99-10026271",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/04-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/04-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/intercoms/04.webp"
         },
         {
@@ -293,7 +293,7 @@
           "sku": "99-00016890",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/05-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/05-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/intercoms/05.webp"
         },
         {
@@ -304,7 +304,7 @@
           "sku": "99-00014090",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/06-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/06-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/intercoms/06.webp"
         },
         {
@@ -315,7 +315,7 @@
           "sku": "99-00006900",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/07-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/07-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/intercoms/07.webp"
         },
         {
@@ -326,7 +326,7 @@
           "sku": "99-00002965",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/08-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/08-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/intercoms/08.jpg"
         },
         {
@@ -337,7 +337,7 @@
           "sku": "99-00006899",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/09-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/09-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/intercoms/09.webp"
         },
         {
@@ -348,7 +348,7 @@
           "sku": "99-00002966",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/10-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/intercoms/10-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/intercoms/10.jpg"
         }
       ]
@@ -366,7 +366,7 @@
           "sku": "99-00001836",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/ajax/01-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/ajax/01-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/ajax/01.jpg"
         },
         {
@@ -377,7 +377,7 @@
           "sku": "99-00006336",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/ajax/02-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/ajax/02-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/ajax/02.webp"
         },
         {
@@ -388,7 +388,7 @@
           "sku": "99-00001210",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/ajax/03-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/ajax/03-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/ajax/03.jpg"
         },
         {
@@ -399,7 +399,7 @@
           "sku": "99-00005821",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/ajax/04-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/ajax/04-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/ajax/04.jpg"
         },
         {
@@ -410,7 +410,7 @@
           "sku": "99-00003148",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/ajax/05-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/ajax/05-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/ajax/05.jpg"
         },
         {
@@ -421,7 +421,7 @@
           "sku": "99-00024252",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/ajax/06-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/ajax/06-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/ajax/06.webp"
         },
         {
@@ -432,7 +432,7 @@
           "sku": "99-00003246",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/ajax/07-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/ajax/07-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/ajax/07.jpg"
         },
         {
@@ -443,7 +443,7 @@
           "sku": "99-00023766",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/ajax/08-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/ajax/08-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/ajax/08.webp"
         },
         {
@@ -454,7 +454,7 @@
           "sku": "99-00006839",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/ajax/09-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/ajax/09-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/ajax/09.webp"
         },
         {
@@ -465,7 +465,7 @@
           "sku": "99-00023613",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/ajax/10-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/ajax/10-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/ajax/10.webp"
         }
       ]
@@ -483,7 +483,7 @@
           "sku": "99-00016996",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/backup/01-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/backup/01-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/backup/01.webp"
         },
         {
@@ -494,7 +494,7 @@
           "sku": "99-00022699",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/backup/02-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/backup/02-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/backup/02.webp"
         },
         {
@@ -505,7 +505,7 @@
           "sku": "99-00011481",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/backup/03-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/backup/03-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/backup/03.webp"
         },
         {
@@ -516,7 +516,7 @@
           "sku": "99-00005175",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/backup/04-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/backup/04-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/backup/04.jpg"
         },
         {
@@ -527,7 +527,7 @@
           "sku": "99-00006788",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/backup/05-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/backup/05-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/backup/05.jpg"
         },
         {
@@ -538,7 +538,7 @@
           "sku": "99-00011480",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/backup/06-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/backup/06-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/backup/06.webp"
         },
         {
@@ -549,7 +549,7 @@
           "sku": "99-00004639",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/backup/07-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/backup/07-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/backup/07.jpg"
         },
         {
@@ -560,7 +560,7 @@
           "sku": "99-00005393",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/backup/08-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/backup/08-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/backup/08.jpg"
         },
         {
@@ -571,7 +571,7 @@
           "sku": "99-00008299",
           "price_valid_until": "2026-07-20",
           "tier": "БЮДЖЕТ",
-          "card_path": "social-posts/instagram-catalog/product-cards/backup/09-бюджет.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/backup/09-budget.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/backup/09.webp"
         },
         {
@@ -582,7 +582,7 @@
           "sku": "99-00006751",
           "price_valid_until": "2026-07-20",
           "tier": "РОЗШИРЕНИЙ",
-          "card_path": "social-posts/instagram-catalog/product-cards/backup/10-розширений.jpg",
+          "card_path": "social-posts/instagram-catalog/product-cards/backup/10-premium.jpg",
           "photo_path": "social-posts/instagram-catalog/product-photos/backup/10.webp"
         }
       ]

@@ -243,7 +243,8 @@ def main():
             photo_path = photo_dir / f"{index:02d}{suffix}"
             photo_path.write_bytes(fetch(product["image"]))
             card = render_card(product, title, accent, index, photo_path)
-            card_path = category_dir / f"{index:02d}-{product['tier'].lower()}.jpg"
+            tier_slug = "budget" if product["tier"] == "БЮДЖЕТ" else "premium"
+            card_path = category_dir / f"{index:02d}-{tier_slug}.jpg"
             card.save(card_path, quality=94, optimize=True)
             product["card_path"] = str(card_path.relative_to(ROOT)).replace("\\", "/")
             product["photo_path"] = str(photo_path.relative_to(ROOT)).replace("\\", "/")
