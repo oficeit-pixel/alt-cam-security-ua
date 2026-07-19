@@ -1020,6 +1020,200 @@
           }
         }
       }
+    },
+    "altcam-2026-07-19-04-brands": {
+      "instagram": {
+        "published_at": "2026-07-19T11:38:42.190187+00:00",
+        "result": {
+          "container": {
+            "id": "18071690327418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18071690327418944"
+          },
+          "published": {
+            "id": "18420094699183030"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-19T11:38:49.080754+00:00",
+        "result": {
+          "container": {
+            "id": "18071563820424516"
+          },
+          "published": {
+            "id": "17942569623057809"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-19T11:38:49.598329+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 15,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784461129,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADD2pct0nCxjTRCx2XTT31Ba4NjRN2AALuDWsb8o_UUuWwPkl6KTAzAQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD7g1rG_KP1FJ4",
+                  "file_size": 1987,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADD2pct0nCxjTRCx2XTT31Ba4NjRN2AALuDWsb8o_UUuWwPkl6KTAzAQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD7g1rG_KP1FJy",
+                  "file_size": 29553,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADD2pct0nCxjTRCx2XTT31Ba4NjRN2AALuDWsb8o_UUuWwPkl6KTAzAQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD7g1rG_KP1FJ9",
+                  "file_size": 133717,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADD2pct0nCxjTRCx2XTT31Ba4NjRN2AALuDWsb8o_UUuWwPkl6KTAzAQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD7g1rG_KP1FJ-",
+                  "file_size": 274389,
+                  "width": 1254,
+                  "height": 1254
+                }
+              ],
+              "caption": "Не знаєте, який бренд камер обрати? Це нормально. Важливіше правильно визначити задачу, умови та бюджет.\n\n#камери #брендикамер #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 106,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 114,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 127,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "altcam-2026-07-19-04-weekend-cta": {
+      "instagram": {
+        "published_at": "2026-07-19T18:46:41.814564+00:00",
+        "result": {
+          "container": {
+            "id": "18071789171418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18071789171418944"
+          },
+          "published": {
+            "id": "18119201699498655"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-19T18:46:47.061436+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 16,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784486806,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADEGpdG5aP8J9c2KBTMiG67jd_6y6iAAL_DWsbQ07cUoOsLDth1rlUAQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD_w1rG0NO3FJ4",
+                  "file_size": 1744,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADEGpdG5aP8J9c2KBTMiG67jd_6y6iAAL_DWsbQ07cUoOsLDth1rlUAQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD_w1rG0NO3FJy",
+                  "file_size": 24270,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADEGpdG5aP8J9c2KBTMiG67jd_6y6iAAL_DWsbQ07cUoOsLDth1rlUAQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD_w1rG0NO3FJ9",
+                  "file_size": 94715,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADEGpdG5aP8J9c2KBTMiG67jd_6y6iAAL_DWsbQ07cUoOsLDth1rlUAQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD_w1rG0NO3FJ-",
+                  "file_size": 182041,
+                  "width": 1254,
+                  "height": 1254
+                }
+              ],
+              "caption": "Хочете зрозуміти, що потрібно саме вашому об’єкту? Напишіть ALT-CAM або зайдіть на alt-cam.net.ua.\n\n#консультація #системибезпеки #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 83,
+                  "length": 14,
+                  "type": "url"
+                },
+                {
+                  "offset": 100,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 114,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 130,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
