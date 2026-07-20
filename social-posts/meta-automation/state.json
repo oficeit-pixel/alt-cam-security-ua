@@ -1545,6 +1545,111 @@
           }
         }
       }
+    },
+    "altcam-2026-07-20-04-ups-ritar": {
+      "instagram": {
+        "published_at": "2026-07-20T20:46:05.660704+00:00",
+        "result": {
+          "container": {
+            "id": "18072060221418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18072060221418944"
+          },
+          "published": {
+            "id": "17898918657472910"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-20T20:46:14.077034+00:00",
+        "result": {
+          "container": {
+            "id": "18071932811424516"
+          },
+          "published": {
+            "id": "18111253516953542"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-20T20:46:14.899542+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 20,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784580374,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADFGpeiRZX8H2m5eRLotp81d5FycKVAAJ5DmsbdJ71UgNr_LbKrc4QAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADeQ5rG3Se9VJ4",
+                  "file_size": 1757,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADFGpeiRZX8H2m5eRLotp81d5FycKVAAJ5DmsbdJ71UgNr_LbKrc4QAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADeQ5rG3Se9VJy",
+                  "file_size": 23370,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADFGpeiRZX8H2m5eRLotp81d5FycKVAAJ5DmsbdJ71UgNr_LbKrc4QAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADeQ5rG3Se9VJ9",
+                  "file_size": 89124,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADFGpeiRZX8H2m5eRLotp81d5FycKVAAJ5DmsbdJ71UgNr_LbKrc4QAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADeQ5rG3Se9VJ-",
+                  "file_size": 135751,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Без світла камера не має ставати муляжем.\n\nRITAR RTSW-500 LED: UPS під зовнішній АКБ, правильна синусоїда. Орієнтир від 3 221 грн.\nМонтаж ББП — від 333 грн.\n\nЩо резервуємо: камери, роутер, Ajax чи все разом?\n\n#UPS #резервнеживлення #безсвітла #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 209,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 214,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 232,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 243,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
