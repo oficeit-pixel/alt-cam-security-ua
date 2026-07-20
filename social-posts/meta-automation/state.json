@@ -1225,6 +1225,116 @@
           }
         }
       }
+    },
+    "altcam-2026-07-20-01-camera-price-hook": {
+      "instagram": {
+        "published_at": "2026-07-20T08:29:12.901210+00:00",
+        "result": {
+          "container": {
+            "id": "18071919617418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18071919617418944"
+          },
+          "published": {
+            "id": "18337639063177116"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-20T08:29:20.271184+00:00",
+        "result": {
+          "container": {
+            "id": "18071792888424516"
+          },
+          "published": {
+            "id": "18013329509728134"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-20T08:29:21.101425+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 17,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784536161,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADEWpd3GBW9oafTj5EmpCEM2QRKzBdAAKTDmsbEgvtUvyxZ-O2yWPxAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADkw5rGxIL7VJ4",
+                  "file_size": 1755,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADEWpd3GBW9oafTj5EmpCEM2QRKzBdAAKTDmsbEgvtUvyxZ-O2yWPxAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADkw5rGxIL7VJy",
+                  "file_size": 23265,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADEWpd3GBW9oafTj5EmpCEM2QRKzBdAAKTDmsbEgvtUvyxZ-O2yWPxAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADkw5rGxIL7VJ9",
+                  "file_size": 93277,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADEWpd3GBW9oafTj5EmpCEM2QRKzBdAAKTDmsbEgvtUvyxZ-O2yWPxAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADkw5rGxIL7VJ-",
+                  "file_size": 142769,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Камера, яка реально бачить вночі 👀\n\nHikvision DS-2CD1327G2H-LIUF: 2МП, мікрофон, PoE, IP67, гібридне підсвічування до 30 м.\n\nОрієнтир по ціні: від 4 392 грн.\nМонтаж внутрішньої камери: від 1 045 грн.\n\nЩо обрали б ви: дешевшу камеру чи нормальну нічну картинку? Пишіть у коментарях 👇\n\n#камери #відеоспостереження #монтажкамер #Hikvision #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 286,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 294,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 314,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 327,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 338,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
