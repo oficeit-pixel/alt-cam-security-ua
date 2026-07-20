@@ -1335,6 +1335,216 @@
           }
         }
       }
+    },
+    "altcam-2026-07-20-02-intercom-dahua": {
+      "instagram": {
+        "published_at": "2026-07-20T15:32:55.830138+00:00",
+        "result": {
+          "container": {
+            "id": "18072003971418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18072003971418944"
+          },
+          "published": {
+            "id": "17899481865472699"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-20T15:33:02.758402+00:00",
+        "result": {
+          "container": {
+            "id": "18071874866424516"
+          },
+          "published": {
+            "id": "17974489938097378"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-20T15:33:03.867808+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 18,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784561583,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADEmpeP695T-paHp7-t0IoEmoTzyTIAAKHDmsbeFL0UtEZcDuBz0P_AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADhw5rG3hS9FJ4",
+                  "file_size": 1645,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADEmpeP695T-paHp7-t0IoEmoTzyTIAAKHDmsbeFL0UtEZcDuBz0P_AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADhw5rG3hS9FJy",
+                  "file_size": 20900,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADEmpeP695T-paHp7-t0IoEmoTzyTIAAKHDmsbeFL0UtEZcDuBz0P_AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADhw5rG3hS9FJ9",
+                  "file_size": 81581,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADEmpeP695T-paHp7-t0IoEmoTzyTIAAKHDmsbeFL0UtEZcDuBz0P_AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADhw5rG3hS9FJ-",
+                  "file_size": 127674,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Домофон, який може більше 👇\n\nDahua DHI-VTH2421FW-P 7”: PoE, сенсорний екран, робота з камерами Dahua/ONVIF, запис дзвінка.\n\nОрієнтир: від 7 781 грн.\nМонтаж/налаштування: від 665 грн.\n\nКуди ставимо: квартира, будинок чи офіс?\n\n#домофон #відеодомофон #Dahua #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 227,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 236,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 250,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 257,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "altcam-2026-07-20-03-ajax-starterkit": {
+      "instagram": {
+        "published_at": "2026-07-20T15:33:15.428328+00:00",
+        "result": {
+          "container": {
+            "id": "18072004025418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18072004025418944"
+          },
+          "published": {
+            "id": "18111354409947511"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-20T15:33:22.494810+00:00",
+        "result": {
+          "container": {
+            "id": "18071874896424516"
+          },
+          "published": {
+            "id": "17890539618596209"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-20T15:33:23.446950+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 19,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784561603,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADE2peP8N68geGA12Zfe93dUAWijbDAAJIDmsbhPH0UqT2zgebbWfwAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADSA5rG4Tx9FJ4",
+                  "file_size": 1827,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADE2peP8N68geGA12Zfe93dUAWijbDAAJIDmsbhPH0UqT2zgebbWfwAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADSA5rG4Tx9FJy",
+                  "file_size": 22993,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADE2peP8N68geGA12Zfe93dUAWijbDAAJIDmsbhPH0UqT2zgebbWfwAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADSA5rG4Tx9FJ9",
+                  "file_size": 91520,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADE2peP8N68geGA12Zfe93dUAWijbDAAJIDmsbhPH0UqT2zgebbWfwAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADSA5rG4Tx9FJ-",
+                  "file_size": 140423,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Ajax StarterKit — старт без дротів і ремонту.\n\nAjax StarterKit 2: орієнтир від 11 494 грн.\nМонтаж + базове налаштування: від 855 грн.\n\nПочинаємо з руху, відкриття, хаба і брелока. Далі — сирени, дим, затоплення, сценарії.\n\nЩо важливіше: проникнення, пожежа чи затоплення?\n\n#Ajax #сигналізація #охоронабудинку #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 273,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 279,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 293,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 309,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
