@@ -1965,6 +1965,106 @@
           }
         }
       }
+    },
+    "altcam-2026-07-21-04-cost-breakdown": {
+      "instagram": {
+        "published_at": "2026-07-21T20:46:59.740576+00:00",
+        "result": {
+          "container": {
+            "id": "18072311072418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18072311072418944"
+          },
+          "published": {
+            "id": "17923661199164811"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-21T20:47:10.703881+00:00",
+        "result": {
+          "container": {
+            "id": "18072202112424516"
+          },
+          "published": {
+            "id": "17948631909231702"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-21T20:47:11.486521+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 24,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784666831,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADGGpf2s-_AYVs0yfybbe2q4SeJNumAAIZDWsb--QEUzvirKLSMZ-xAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADGQ1rG_vkBFN4",
+                  "file_size": 1701,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADGGpf2s-_AYVs0yfybbe2q4SeJNumAAIZDWsb--QEUzvirKLSMZ-xAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADGQ1rG_vkBFNy",
+                  "file_size": 22799,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADGGpf2s-_AYVs0yfybbe2q4SeJNumAAIZDWsb--QEUzvirKLSMZ-xAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADGQ1rG_vkBFN9",
+                  "file_size": 86219,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADGGpf2s-_AYVs0yfybbe2q4SeJNumAAIZDWsb--QEUzvirKLSMZ-xAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADGQ1rG_vkBFN-",
+                  "file_size": 129315,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Кошторис — це не тільки камери.\n\nЄ кабель, кронштейни, бокси, монтаж, додатки, архів, резерв живлення.\n\nОрієнтир:\n• кронштейн — від 190 грн\n• комутаційний бокс — від 238 грн\n• додаток на телефон — від 143 грн\n\nХочете приклад “4 камери під ключ”? Пишіть “4 КАМЕРИ”.\n\n#смета #монтажкамер #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 266,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 273,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 286,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
