@@ -1860,6 +1860,111 @@
           }
         }
       }
+    },
+    "altcam-2026-07-21-03-battery-litime": {
+      "instagram": {
+        "published_at": "2026-07-21T15:56:46.817206+00:00",
+        "result": {
+          "container": {
+            "id": "18072255887418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18072255887418944"
+          },
+          "published": {
+            "id": "18072258191707889"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-21T15:56:53.285869+00:00",
+        "result": {
+          "container": {
+            "id": "18072145133424516"
+          },
+          "published": {
+            "id": "18114441347316139"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-21T15:56:54.009009+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 23,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784649413,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADF2pflsW7kbLOsYr9ybOIGtkRaoxcAALTDWsbB7EEUwYyksWUcA8UAQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD0w1rGwexBFN4",
+                  "file_size": 1763,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADF2pflsW7kbLOsYr9ybOIGtkRaoxcAALTDWsbB7EEUwYyksWUcA8UAQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD0w1rGwexBFNy",
+                  "file_size": 24345,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADF2pflsW7kbLOsYr9ybOIGtkRaoxcAALTDWsbB7EEUwYyksWUcA8UAQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD0w1rGwexBFN9",
+                  "file_size": 91286,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADF2pflsW7kbLOsYr9ybOIGtkRaoxcAALTDWsbB7EEUwYyksWUcA8UAQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD0w1rGwexBFN-",
+                  "file_size": 137834,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "LiFePO4 для резерву — це про ресурс і стабільність.\n\nLiTime LiFePO4 12V 100Ah bluetooth: орієнтир від 12 122 грн.\n\nАле головне — порахувати споживання камер, роутера, домофона чи Ajax.\n\nСкільки годин автономності вам потрібно?\n\n#LiFePO4 #акумулятор #резервнеживлення #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 228,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 237,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 249,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 267,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
