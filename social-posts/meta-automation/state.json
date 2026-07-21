@@ -1650,6 +1650,216 @@
           }
         }
       }
+    },
+    "altcam-2026-07-21-01-videosurveillance-sets": {
+      "instagram": {
+        "published_at": "2026-07-21T09:42:19.224667+00:00",
+        "result": {
+          "container": {
+            "id": "18072171080418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18072171080418944"
+          },
+          "published": {
+            "id": "18461370901117766"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-21T09:42:27.039818+00:00",
+        "result": {
+          "container": {
+            "id": "18072063110424516"
+          },
+          "published": {
+            "id": "17898262215512344"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-21T09:42:27.807095+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 21,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784626947,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADFWpfPwNVLv3EHEEr4VIAAfz-_J9kwwACTQ5rG_O8_VJ2avYP-LdzxQEAAwIAA3MAAz0E",
+                  "file_unique_id": "AQADTQ5rG_O8_VJ4",
+                  "file_size": 1730,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADFWpfPwNVLv3EHEEr4VIAAfz-_J9kwwACTQ5rG_O8_VJ2avYP-LdzxQEAAwIAA20AAz0E",
+                  "file_unique_id": "AQADTQ5rG_O8_VJy",
+                  "file_size": 23006,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADFWpfPwNVLv3EHEEr4VIAAfz-_J9kwwACTQ5rG_O8_VJ2avYP-LdzxQEAAwIAA3gAAz0E",
+                  "file_unique_id": "AQADTQ5rG_O8_VJ9",
+                  "file_size": 91963,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADFWpfPwNVLv3EHEEr4VIAAfz-_J9kwwACTQ5rG_O8_VJ2avYP-LdzxQEAAwIAA3kAAz0E",
+                  "file_unique_id": "AQADTQ5rG_O8_VJ-",
+                  "file_size": 140302,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Більше камер ≠ більше безпеки.\n\n4 правильно поставлені камери можуть закрити об'єкт краще, ніж 8 випадкових.\n\nОрієнтир монтажу:\n• 3-8 внутрішніх камер — від 570 грн/шт\n• 3-8 вуличних камер — від 665 грн/шт\n• реєстратор + додаток — від 760 грн\n\nКоментар: який у вас об'єкт — дім, магазин, склад чи офіс?\n\n#відеоспостереження #монтажкамер #безпекабудинку #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 304,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 324,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 337,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 353,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "altcam-2026-07-21-02-access-reader": {
+      "instagram": {
+        "published_at": "2026-07-21T09:42:40.222536+00:00",
+        "result": {
+          "container": {
+            "id": "18072171155418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18072171155418944"
+          },
+          "published": {
+            "id": "18107551093832918"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-21T09:42:46.327390+00:00",
+        "result": {
+          "container": {
+            "id": "18072063206424516"
+          },
+          "published": {
+            "id": "18612387418002853"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-21T09:42:47.138170+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 22,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784626967,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADFmpfPxccnneRlCIb_r6unXMU8Mt_AAJTDmsbzsf8Uox4XustivjEAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADUw5rG87H_FJ4",
+                  "file_size": 1751,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADFmpfPxccnneRlCIb_r6unXMU8Mt_AAJTDmsbzsf8Uox4XustivjEAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADUw5rG87H_FJy",
+                  "file_size": 21893,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADFmpfPxccnneRlCIb_r6unXMU8Mt_AAJTDmsbzsf8Uox4XustivjEAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADUw5rG87H_FJ9",
+                  "file_size": 84246,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADFmpfPxccnneRlCIb_r6unXMU8Mt_AAJTDmsbzsf8Uox4XustivjEAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADUw5rG87H_FJ-",
+                  "file_size": 128288,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Картка, брелок чи телефон?\n\nДля офісу/складу/магазину контроль доступу часто починається зі зчитувача, контролера та електрозамка.\n\nDahua DHI-ASR2100A-D Marine IP66: від 1 154 грн.\nМонтаж зчитувача: від 570 грн.\n\nЩо обрали б ви? 👇\n\n#контрольдоступу #СКД #офіс #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 233,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 250,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 255,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 261,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
