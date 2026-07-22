@@ -2385,6 +2385,100 @@
           }
         }
       }
+    },
+    "altcam-2026-07-22-04-cable-truth": {
+      "instagram": {
+        "published_at": "2026-07-22T20:02:09.896622+00:00",
+        "result": {
+          "container": {
+            "id": "18072573212418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18072573212418944"
+          },
+          "published": {
+            "id": "18041711330801945"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-22T20:02:15.237265+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 28,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784750535,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADHGphIcf9UWXh4bLIldz5gWF_Q8ZMAAI6DmsbahgMU6ApGYvZTydVAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADOg5rG2oYDFN4",
+                  "file_size": 1768,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADHGphIcf9UWXh4bLIldz5gWF_Q8ZMAAI6DmsbahgMU6ApGYvZTydVAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADOg5rG2oYDFNy",
+                  "file_size": 22885,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADHGphIcf9UWXh4bLIldz5gWF_Q8ZMAAI6DmsbahgMU6ApGYvZTydVAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADOg5rG2oYDFN9",
+                  "file_size": 86361,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADHGphIcf9UWXh4bLIldz5gWF_Q8ZMAAI6DmsbahgMU6ApGYvZTydVAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADOg5rG2oYDFN-",
+                  "file_size": 131399,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Кабель — це не дрібниця.\n\nПогана траса = проблеми з живленням, відео і сервісом.\n\nОрієнтир:\n• всередині — від 15 грн/м\n• зовні — від 21 грн/м\n• у коробі/гофрі — від 33 грн/м\n• бокс — від 238 грн\n\nЩо важливіше: красиво сховати чи максимально надійно?\n\n#монтаж #кабель #відеоспостереження #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 251,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 259,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 267,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 287,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
