@@ -2280,6 +2280,111 @@
           }
         }
       }
+    },
+    "altcam-2026-07-22-03-ajax-camera-verification": {
+      "instagram": {
+        "published_at": "2026-07-22T15:24:14.613301+00:00",
+        "result": {
+          "container": {
+            "id": "18072516020418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18072516020418944"
+          },
+          "published": {
+            "id": "18103662218112840"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-22T15:24:23.861958+00:00",
+        "result": {
+          "container": {
+            "id": "18072417086424516"
+          },
+          "published": {
+            "id": "18124486768680586"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-22T15:24:24.749226+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 27,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784733864,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADG2pg4KhmlgiQkVcrR26Dg3fDWRxsAAIeDWsbrCcNU0rwOhvdv6S-AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADHg1rG6wnDVN4",
+                  "file_size": 1828,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADG2pg4KhmlgiQkVcrR26Dg3fDWRxsAAIeDWsbrCcNU0rwOhvdv6S-AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADHg1rG6wnDVNy",
+                  "file_size": 22913,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADG2pg4KhmlgiQkVcrR26Dg3fDWRxsAAIeDWsbrCcNU0rwOhvdv6S-AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADHg1rG6wnDVN9",
+                  "file_size": 91586,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADG2pg4KhmlgiQkVcrR26Dg3fDWRxsAAIeDWsbrCcNU0rwOhvdv6S-AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADHg1rG6wnDVN-",
+                  "file_size": 141358,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Фотоверифікація Ajax = бачити, що сталося.\n\nAjax StarterKit Cam HDR: Hub 2, MotionCam, DoorProtect, SpaceControl. Орієнтир від 13 964 грн.\n\nМонтаж датчика руху — від 238 грн, відкриття — від 190 грн, хаб — від 475 грн.\n\nВам достатньо тривоги чи потрібне фото?\n\n#Ajax #MotionCam #сигналізація #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 261,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 267,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 278,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 292,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
