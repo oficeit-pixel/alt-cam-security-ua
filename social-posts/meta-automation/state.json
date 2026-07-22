@@ -2065,6 +2065,221 @@
           }
         }
       }
+    },
+    "altcam-2026-07-22-01-dahua-budget-camera": {
+      "instagram": {
+        "published_at": "2026-07-22T09:37:01.763628+00:00",
+        "result": {
+          "container": {
+            "id": "18072439082418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18072439082418944"
+          },
+          "published": {
+            "id": "18221671540331280"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-22T09:37:09.447979+00:00",
+        "result": {
+          "container": {
+            "id": "18072344879424516"
+          },
+          "published": {
+            "id": "17898732291474749"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-22T09:37:10.636667+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 25,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784713030,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADGWpgj0Z2nGM_j3uLp0GUkk11fRYoAAJDDWsbv-YMUz4QiiSWcfiJAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADQw1rG7_mDFN4",
+                  "file_size": 1746,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADGWpgj0Z2nGM_j3uLp0GUkk11fRYoAAJDDWsbv-YMUz4QiiSWcfiJAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADQw1rG7_mDFNy",
+                  "file_size": 23178,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADGWpgj0Z2nGM_j3uLp0GUkk11fRYoAAJDDWsbv-YMUz4QiiSWcfiJAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADQw1rG7_mDFN9",
+                  "file_size": 93068,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADGWpgj0Z2nGM_j3uLp0GUkk11fRYoAAJDDWsbv-YMUz4QiiSWcfiJAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADQw1rG7_mDFN-",
+                  "file_size": 142487,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Дешева камера — не завжди погано.\n\nDahua DH-HAC-T1A21P-U 2МП: орієнтир від 941 грн. Для простих зон — ок. Для входу, каси, воріт і нічного периметра — треба підбирати уважніше.\n\nДе ви б не економили на камері? 👇\n\n#Dahua #камери #відеоспостереження #безпека #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 214,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 221,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 229,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 249,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 258,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "altcam-2026-07-22-02-intercom-ip-install": {
+      "instagram": {
+        "published_at": "2026-07-22T09:37:20.068874+00:00",
+        "result": {
+          "container": {
+            "id": "18072439166418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18072439166418944"
+          },
+          "published": {
+            "id": "18116802683490596"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-22T09:37:26.604195+00:00",
+        "result": {
+          "container": {
+            "id": "18072344906424516"
+          },
+          "published": {
+            "id": "18078543851505735"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-22T09:37:27.305412+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 26,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784713047,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADGmpgj1fWps8HwqGu4qBf8D0WGBwWAAJPDWsbzsANU03320ZVbpw9AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADTw1rG87ADVN4",
+                  "file_size": 1816,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADGmpgj1fWps8HwqGu4qBf8D0WGBwWAAJPDWsbzsANU03320ZVbpw9AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADTw1rG87ADVNy",
+                  "file_size": 24067,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADGmpgj1fWps8HwqGu4qBf8D0WGBwWAAJPDWsbzsANU03320ZVbpw9AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADTw1rG87ADVN9",
+                  "file_size": 93373,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADGmpgj1fWps8HwqGu4qBf8D0WGBwWAAJPDWsbzsANU03320ZVbpw9AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADTw1rG87ADVN-",
+                  "file_size": 143214,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "IP-домофонія — це коли треба більше, ніж “дзвінок біля дверей”.\n\nВіддалений доступ, кілька входів, інтеграція, зручність для офісу/будинку/ЖК.\n\nОрієнтир монтажу:\n• IP-комплект — від 2 090 грн\n• Bas-IP — від 2 375 грн\n• IP-панель — від 1 045 грн\n\nПотрібен доступ з телефону?\n\n#IPдомофон #домофонія #контрольвходу #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 275,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 286,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 297,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 312,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
