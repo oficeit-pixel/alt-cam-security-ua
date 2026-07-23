@@ -2595,6 +2595,216 @@
           }
         }
       }
+    },
+    "altcam-2026-07-23-02-access-locks": {
+      "instagram": {
+        "published_at": "2026-07-23T16:03:56.145362+00:00",
+        "result": {
+          "container": {
+            "id": "18072804965418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18072804965418944"
+          },
+          "published": {
+            "id": "17942120298268981"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-23T16:04:01.987318+00:00",
+        "result": {
+          "container": {
+            "id": "18072688835424516"
+          },
+          "published": {
+            "id": "18148941664491526"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-23T16:04:02.766110+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 30,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784822642,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADHmpiO3J4T0eIB9PIGWqqch9N3LDcAAJ_DWsbCgABHVNnNVX6ozKm2QEAAwIAA3MAAz0E",
+                  "file_unique_id": "AQADfw1rGwoAAR1TeA",
+                  "file_size": 1858,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADHmpiO3J4T0eIB9PIGWqqch9N3LDcAAJ_DWsbCgABHVNnNVX6ozKm2QEAAwIAA20AAz0E",
+                  "file_unique_id": "AQADfw1rGwoAAR1Tcg",
+                  "file_size": 23654,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADHmpiO3J4T0eIB9PIGWqqch9N3LDcAAJ_DWsbCgABHVNnNVX6ozKm2QEAAwIAA3gAAz0E",
+                  "file_unique_id": "AQADfw1rGwoAAR1TfQ",
+                  "file_size": 91858,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADHmpiO3J4T0eIB9PIGWqqch9N3LDcAAJ_DWsbCgABHVNnNVX6ozKm2QEAAwIAA3kAAz0E",
+                  "file_unique_id": "AQADfw1rGwoAAR1Tfg",
+                  "file_size": 138582,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Електрозамок — дрібниця, поки він не почав заїдати 😅\n\nОрієнтир робіт:\n• магнітний замок — від 665 грн\n• електромеханічний — від 760 грн\n• електрозащіпка — від 1 140 грн\n• підключення — від 380 грн\n\nЯкі двері: офіс, під'їзд, хвіртка чи склад?\n\n#електрозамок #контрольдоступу #СКД #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 244,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 258,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 275,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 280,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "altcam-2026-07-23-03-autonomous-system": {
+      "instagram": {
+        "published_at": "2026-07-23T16:04:12.307278+00:00",
+        "result": {
+          "container": {
+            "id": "18072805043418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18072805043418944"
+          },
+          "published": {
+            "id": "18098185511209909"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-23T16:04:17.877497+00:00",
+        "result": {
+          "container": {
+            "id": "18072688883424516"
+          },
+          "published": {
+            "id": "17892980046584512"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-23T16:04:18.729740+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 31,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784822658,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADH2piO4LFn2F5dfAIPqoD2ndjoVIbAAKYDWsbZSwUUy1ASdgI7M0GAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADmA1rG2UsFFN4",
+                  "file_size": 1647,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADH2piO4LFn2F5dfAIPqoD2ndjoVIbAAKYDWsbZSwUUy1ASdgI7M0GAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADmA1rG2UsFFNy",
+                  "file_size": 21718,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADH2piO4LFn2F5dfAIPqoD2ndjoVIbAAKYDWsbZSwUUy1ASdgI7M0GAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADmA1rG2UsFFN9",
+                  "file_size": 82725,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADH2piO4LFn2F5dfAIPqoD2ndjoVIbAAKYDWsbZSwUUy1ASdgI7M0GAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADmA1rG2UsFFN-",
+                  "file_size": 126997,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Коли UPS уже замало?\n\nКоли треба тримати касу, інтернет, камери, домофонію і охорону.\n\nHYXiPower HYX-EA1000 + EcoFlow 110W: орієнтир від 39 829 грн. LiFePO4, близько 1000 Вт·г, сонячна підзарядка.\n\nЩо для бізнесу критичніше: інтернет, каса чи камери?\n\n#резервнеживлення #бізнес #UPS #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 252,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 270,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 278,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 283,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
