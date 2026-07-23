@@ -2805,6 +2805,100 @@
           }
         }
       }
+    },
+    "altcam-2026-07-23-04-business-checklist": {
+      "instagram": {
+        "published_at": "2026-07-23T20:20:00.290047+00:00",
+        "result": {
+          "container": {
+            "id": "18072856769418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18072856769418944"
+          },
+          "published": {
+            "id": "18154533571495550"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-23T20:20:05.556580+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 32,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784838005,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADIGpid3WiSeN58hNnzFPltxQ7AuSKAAI1DmsbFZ8VU0KRv7qluJR8AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADNQ5rGxWfFVN4",
+                  "file_size": 1748,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADIGpid3WiSeN58hNnzFPltxQ7AuSKAAI1DmsbFZ8VU0KRv7qluJR8AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADNQ5rGxWfFVNy",
+                  "file_size": 22788,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADIGpid3WiSeN58hNnzFPltxQ7AuSKAAI1DmsbFZ8VU0KRv7qluJR8AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADNQ5rGxWfFVN9",
+                  "file_size": 86450,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADIGpid3WiSeN58hNnzFPltxQ7AuSKAAI1DmsbFZ8VU0KRv7qluJR8AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADNQ5rGxWfFVN-",
+                  "file_size": 131443,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Чеклист для магазину:\n\n✅ вхід\n✅ каса\n✅ склад\n✅ архів\n✅ смартфон\n✅ резерв живлення\n✅ доступ персоналу\n\nМонтаж 3-8 внутрішніх камер — від 570 грн/шт. Реєстратор — від 760 грн.\n\nДе найчастіше сліпа зона: каса, вхід чи склад?\n\n#магазин #відеоспостереження #бізнесбезпека #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 223,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 232,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 252,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 267,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
