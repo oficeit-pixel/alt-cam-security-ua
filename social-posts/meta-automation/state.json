@@ -2490,6 +2490,111 @@
           }
         }
       }
+    },
+    "altcam-2026-07-23-01-comment-bait-night": {
+      "instagram": {
+        "published_at": "2026-07-23T09:14:56.283957+00:00",
+        "result": {
+          "container": {
+            "id": "18072711170418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18072711170418944"
+          },
+          "published": {
+            "id": "17923831518163419"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-23T09:15:03.239734+00:00",
+        "result": {
+          "container": {
+            "id": "18072598595424516"
+          },
+          "published": {
+            "id": "18209721259355220"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-23T09:15:03.900294+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 29,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784798103,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADHWph25cMcPgs2FDdKIywW0e-epwfAAJjDWsbGEMUUy5YW-mspH9UAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADYw1rGxhDFFN4",
+                  "file_size": 1768,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADHWph25cMcPgs2FDdKIywW0e-epwfAAJjDWsbGEMUUy5YW-mspH9UAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADYw1rGxhDFFNy",
+                  "file_size": 23924,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADHWph25cMcPgs2FDdKIywW0e-epwfAAJjDWsbGEMUUy5YW-mspH9UAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADYw1rGxhDFFN9",
+                  "file_size": 90817,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADHWph25cMcPgs2FDdKIywW0e-epwfAAJjDWsbGEMUUy5YW-mspH9UAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADYw1rGxhDFFN-",
+                  "file_size": 133408,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Що краще: камера з видимим світлом чи непомітна ІЧ?\n\nВидиме світло = кольорова нічна картинка і ефект “вас бачать”.\nІЧ = менш помітно, але не завжди достатньо деталей.\n\nВаш вибір? Світло чи непомітність? 👇\n\n#камери #нічназйомка #відеоспостереження #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 208,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 216,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 229,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 249,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
