@@ -2899,6 +2899,111 @@
           }
         }
       }
+    },
+    "altcam-2026-07-24-01-ajax-hub-choice": {
+      "instagram": {
+        "published_at": "2026-07-24T08:01:25.855149+00:00",
+        "result": {
+          "container": {
+            "id": "18072988415418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18072988415418944"
+          },
+          "published": {
+            "id": "17976070431110470"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-24T08:01:33.304014+00:00",
+        "result": {
+          "container": {
+            "id": "18072857294424516"
+          },
+          "published": {
+            "id": "17916812940415870"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-24T08:01:34.205163+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 33,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784880094,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADIWpjG94vLVEISUAZz9_RZMuBxwmDAAJODWsbUXAcU_4eyNlf9Ot8AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADTg1rG1FwHFN4",
+                  "file_size": 1756,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADIWpjG94vLVEISUAZz9_RZMuBxwmDAAJODWsbUXAcU_4eyNlf9Ot8AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADTg1rG1FwHFNy",
+                  "file_size": 21658,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADIWpjG94vLVEISUAZz9_RZMuBxwmDAAJODWsbUXAcU_4eyNlf9Ot8AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADTg1rG1FwHFN9",
+                  "file_size": 85305,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADIWpjG94vLVEISUAZz9_RZMuBxwmDAAJODWsbUXAcU_4eyNlf9Ot8AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADTg1rG1FwHFN-",
+                  "file_size": 132158,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Ajax Hub 2 чи Hub 2 Plus?\n\nHub 2 — від 7 599 грн.\nHub 2 Plus — від 12 064 грн.\n\nНе завжди треба брати найдорожче: усе залежить від об'єкта, зв'язку, кількості датчиків і сценаріїв.\n\nЩо у вас: квартира, будинок чи бізнес?\n\n#Ajax #Hub2 #сигналізація #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 222,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 228,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 234,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 248,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
