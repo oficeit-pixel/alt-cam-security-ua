@@ -2898,6 +2898,17 @@
             }
           }
         }
+      },
+      "threads": {
+        "published_at": "2026-07-24T13:08:00.911227+00:00",
+        "result": {
+          "container": {
+            "id": "18072920588424516"
+          },
+          "published": {
+            "id": "18172026547441022"
+          }
+        }
       }
     },
     "altcam-2026-07-24-01-ajax-hub-choice": {
@@ -2996,6 +3007,111 @@
                 },
                 {
                   "offset": 248,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "altcam-2026-07-24-02-nvr-choice": {
+      "instagram": {
+        "published_at": "2026-07-24T13:08:12.120690+00:00",
+        "result": {
+          "container": {
+            "id": "18073056515418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18073056515418944"
+          },
+          "published": {
+            "id": "17876075586526640"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-24T13:08:18.843004+00:00",
+        "result": {
+          "container": {
+            "id": "18072920624424516"
+          },
+          "published": {
+            "id": "18162014062461375"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-24T13:08:19.750274+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 34,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784898499,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADImpjY8MJa_tgB0wa6lIQ8dNGpO6sAAJ8DWsbkf4cUzC3pWYF6wmdAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADfA1rG5H-HFN4",
+                  "file_size": 1704,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADImpjY8MJa_tgB0wa6lIQ8dNGpO6sAAJ8DWsbkf4cUzC3pWYF6wmdAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADfA1rG5H-HFNy",
+                  "file_size": 23318,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADImpjY8MJa_tgB0wa6lIQ8dNGpO6sAAJ8DWsbkf4cUzC3pWYF6wmdAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADfA1rG5H-HFN9",
+                  "file_size": 89092,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADImpjY8MJa_tgB0wa6lIQ8dNGpO6sAAJ8DWsbkf4cUzC3pWYF6wmdAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADfA1rG5H-HFN-",
+                  "file_size": 132769,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Реєстратор — серце відеосистеми.\n\nHikvision 32-канальний AcuSeek: орієнтир від 44 631 грн. Для великих об'єктів — запас каналів і розумний пошук.\n\nА для малого об'єкта може вистачити 4-8 каналів.\n\nСкільки камер вам потрібно: 4, 8, 16 чи більше?\n\n#відеореєстратор #Hikvision #відеоспостереження #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 246,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 263,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 274,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 294,
                   "length": 7,
                   "type": "hashtag"
                 }
