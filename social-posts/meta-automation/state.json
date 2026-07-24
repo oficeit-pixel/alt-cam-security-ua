@@ -3120,6 +3120,205 @@
           }
         }
       }
+    },
+    "altcam-2026-07-24-03-office-access": {
+      "instagram": {
+        "published_at": "2026-07-24T18:07:35.644386+00:00",
+        "result": {
+          "container": {
+            "id": "18073130207418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18073130207418944"
+          },
+          "published": {
+            "id": "17898689544489270"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-24T18:07:43.039584+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 35,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784916462,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADI2pjqe76AAEsSZACG8WytSe2cPe_XwAC0g1rGzZRHVPjhHYRn8INQAEAAwIAA3MAAz0E",
+                  "file_unique_id": "AQAD0g1rGzZRHVN4",
+                  "file_size": 1754,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADI2pjqe76AAEsSZACG8WytSe2cPe_XwAC0g1rGzZRHVPjhHYRn8INQAEAAwIAA20AAz0E",
+                  "file_unique_id": "AQAD0g1rGzZRHVNy",
+                  "file_size": 21710,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADI2pjqe76AAEsSZACG8WytSe2cPe_XwAC0g1rGzZRHVPjhHYRn8INQAEAAwIAA3gAAz0E",
+                  "file_unique_id": "AQAD0g1rGzZRHVN9",
+                  "file_size": 83512,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADI2pjqe76AAEsSZACG8WytSe2cPe_XwAC0g1rGzZRHVPjhHYRn8INQAEAAwIAA3kAAz0E",
+                  "file_unique_id": "AQAD0g1rGzZRHVN-",
+                  "file_size": 127641,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Офіс без ключів — це зручно.\n\nКартки/брелоки можна видавати, блокувати і змінювати права доступу.\n\nОрієнтир робіт:\n• контролер — від 665 грн\n• зчитувач — від 570 грн\n• кнопка виходу — від 238 грн\n• магнітний замок — від 665 грн\n\nУ вас ключі чи картки?\n\n#офіс #контрольдоступу #СКД #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 253,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 259,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 276,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 281,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "altcam-2026-07-24-04-home-minimum": {
+      "instagram": {
+        "published_at": "2026-07-24T18:07:54.455527+00:00",
+        "result": {
+          "container": {
+            "id": "18073130261418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18073130261418944"
+          },
+          "published": {
+            "id": "18432343555131662"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-24T18:08:02.260117+00:00",
+        "result": {
+          "container": {
+            "id": "18072993767424516"
+          },
+          "published": {
+            "id": "18098812217223171"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-24T18:08:03.423831+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 36,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784916483,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADJGpjqgMPmxKcRN4lQ5qDloqNgak7AALoDWsbQXUdU-bAifUuSrj5AQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD6A1rG0F1HVN4",
+                  "file_size": 1651,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADJGpjqgMPmxKcRN4lQ5qDloqNgak7AALoDWsbQXUdU-bAifUuSrj5AQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD6A1rG0F1HVNy",
+                  "file_size": 20609,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADJGpjqgMPmxKcRN4lQ5qDloqNgak7AALoDWsbQXUdU-bAifUuSrj5AQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD6A1rG0F1HVN9",
+                  "file_size": 81758,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADJGpjqgMPmxKcRN4lQ5qDloqNgak7AALoDWsbQXUdU-bAifUuSrj5AQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD6A1rG0F1HVN-",
+                  "file_size": 125458,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Мінімум для будинку:\n\n🏠 вхід\n🚗 двір/паркомісце\n🚪 Ajax на двері\n📲 доступ зі смартфона\n🔋 резерв живлення\n\nМожна стартувати з 2-4 камер або базового Ajax і розширювати поступово.\n\nНапишіть “ДІМ” — підкажемо схему.\n\n#безпекабудинку #камеридлябудинку #Ajax #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 217,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 233,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 251,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 257,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
