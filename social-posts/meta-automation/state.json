@@ -3645,6 +3645,95 @@
           }
         }
       }
+    },
+    "altcam-2026-07-25-04-weekly-offer": {
+      "instagram": {
+        "published_at": "2026-07-25T18:10:24.307871+00:00",
+        "result": {
+          "container": {
+            "id": "18073417211418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18073417211418944"
+          },
+          "published": {
+            "id": "18109014895820917"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-25T18:10:29.824832+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 44,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1785003029,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADLGpk_BUcOnlMt6_TXUGnb9RHk6n5AAIlDmsb8fMsU4x-UiEmMV3YAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADJQ5rG_HzLFN4",
+                  "file_size": 1739,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADLGpk_BUcOnlMt6_TXUGnb9RHk6n5AAIlDmsb8fMsU4x-UiEmMV3YAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADJQ5rG_HzLFNy",
+                  "file_size": 22169,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADLGpk_BUcOnlMt6_TXUGnb9RHk6n5AAIlDmsb8fMsU4x-UiEmMV3YAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADJQ5rG_HzLFN9",
+                  "file_size": 84270,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADLGpk_BUcOnlMt6_TXUGnb9RHk6n5AAIlDmsb8fMsU4x-UiEmMV3YAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADJQ5rG_HzLFN-",
+                  "file_size": 128361,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Хочете без зайвих витрат?\n\nНапишіть:\n1️⃣ тип об'єкта\n2️⃣ що контролювати\n3️⃣ чи є інтернет/світло\n4️⃣ бюджет або “не знаю”\n\nПідкажемо мінімальний старт: камери, Ajax, домофонія, СКД або резерв.\n\nЯкий у вас об'єкт?\n\n#консультація #системибезпеки #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 215,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 229,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 245,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
