@@ -3213,6 +3213,17 @@
             }
           }
         }
+      },
+      "threads": {
+        "published_at": "2026-07-25T06:36:40.642715+00:00",
+        "result": {
+          "container": {
+            "id": "18073123952424516"
+          },
+          "published": {
+            "id": "18124986959489961"
+          }
+        }
       }
     },
     "altcam-2026-07-24-04-home-minimum": {
@@ -3311,6 +3322,111 @@
                 },
                 {
                   "offset": 257,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "altcam-2026-07-25-01-ajax-myths": {
+      "instagram": {
+        "published_at": "2026-07-25T06:36:54.595524+00:00",
+        "result": {
+          "container": {
+            "id": "18073265813418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18073265813418944"
+          },
+          "published": {
+            "id": "18637905802032682"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-25T06:37:01.649942+00:00",
+        "result": {
+          "container": {
+            "id": "18073123997424516"
+          },
+          "published": {
+            "id": "18109691735076917"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-25T06:37:02.401456+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 37,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784961422,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADJWpkWY42at9JMVuDvSG_f3ulZpKaAALgDWsbg-MkUyJWAAGNVRFm_QEAAwIAA3MAAz0E",
+                  "file_unique_id": "AQAD4A1rG4PjJFN4",
+                  "file_size": 1886,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADJWpkWY42at9JMVuDvSG_f3ulZpKaAALgDWsbg-MkUyJWAAGNVRFm_QEAAwIAA20AAz0E",
+                  "file_unique_id": "AQAD4A1rG4PjJFNy",
+                  "file_size": 24022,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADJWpkWY42at9JMVuDvSG_f3ulZpKaAALgDWsbg-MkUyJWAAGNVRFm_QEAAwIAA3gAAz0E",
+                  "file_unique_id": "AQAD4A1rG4PjJFN9",
+                  "file_size": 95036,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADJWpkWY42at9JMVuDvSG_f3ulZpKaAALgDWsbg-MkUyJWAAGNVRFm_QEAAwIAA3kAAz0E",
+                  "file_unique_id": "AQAD4A1rG4PjJFN-",
+                  "file_size": 145772,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Ajax за 15 хвилин? Можна. Але правильно — не завжди.\n\nВажливі зони, висота, перешкоди, сценарії, користувачі, сирени й сповіщення.\n\nОрієнтир монтажу:\n• датчик руху — від 238 грн\n• зовнішній рух — від 380 грн\n• сирена — від 238 грн\n\nВи за DIY чи професійне налаштування?\n\n#Ajax #монтажAjax #сигналізація #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 271,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 277,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 289,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 303,
                   "length": 7,
                   "type": "hashtag"
                 }
