@@ -3540,6 +3540,111 @@
           }
         }
       }
+    },
+    "altcam-2026-07-25-03-network-wifi": {
+      "instagram": {
+        "published_at": "2026-07-25T14:52:23.202004+00:00",
+        "result": {
+          "container": {
+            "id": "18073368203418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18073368203418944"
+          },
+          "published": {
+            "id": "18019776080898896"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-25T14:52:30.620843+00:00",
+        "result": {
+          "container": {
+            "id": "18073223471424516"
+          },
+          "published": {
+            "id": "18244920037308684"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-25T14:52:31.385171+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 43,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784991151,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADK2pkza_iKEebjMOA0GyjvSVXu2gfAALXDWsb6EctU32mcYQ6nxIdAQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD1w1rG-hHLVN4",
+                  "file_size": 1784,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADK2pkza_iKEebjMOA0GyjvSVXu2gfAALXDWsb6EctU32mcYQ6nxIdAQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD1w1rG-hHLVNy",
+                  "file_size": 25014,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADK2pkza_iKEebjMOA0GyjvSVXu2gfAALXDWsb6EctU32mcYQ6nxIdAQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD1w1rG-hHLVN9",
+                  "file_size": 95957,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADK2pkza_iKEebjMOA0GyjvSVXu2gfAALXDWsb6EctU32mcYQ6nxIdAQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD1w1rG-hHLVN-",
+                  "file_size": 142127,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Слабке місце системи безпеки часто не камера, а інтернет.\n\nRuijie Reyee Wi-Fi 6 2.5G 2xWAN: орієнтир від 6 459 грн.\nНалаштування роутера — від 380 грн.\n\nКамери краще кабелем, але інтернет теж має бути стабільним.\n\nУ вас камери кабель чи Wi-Fi?\n\n#мережа #WiFi #відеоспостереження #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 245,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 253,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 259,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 279,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
