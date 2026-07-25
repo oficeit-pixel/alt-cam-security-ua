@@ -3435,6 +3435,111 @@
           }
         }
       }
+    },
+    "altcam-2026-07-25-02-ptz-wow": {
+      "instagram": {
+        "published_at": "2026-07-25T11:03:10.415673+00:00",
+        "result": {
+          "container": {
+            "id": "18073316540418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18073316540418944"
+          },
+          "published": {
+            "id": "18112222759758347"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-25T11:03:18.147500+00:00",
+        "result": {
+          "container": {
+            "id": "18073174580424516"
+          },
+          "published": {
+            "id": "18117142003721426"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-25T11:03:19.330344+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 41,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1784977399,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADKWpkl_dQqHkD6uV-GIniKa58JaFMAALgDWsbmfEtU1JZczq5EDlMAQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD4A1rG5nxLVN4",
+                  "file_size": 1823,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADKWpkl_dQqHkD6uV-GIniKa58JaFMAALgDWsbmfEtU1JZczq5EDlMAQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD4A1rG5nxLVNy",
+                  "file_size": 24603,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADKWpkl_dQqHkD6uV-GIniKa58JaFMAALgDWsbmfEtU1JZczq5EDlMAQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD4A1rG5nxLVN9",
+                  "file_size": 97380,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADKWpkl_dQqHkD6uV-GIniKa58JaFMAALgDWsbmfEtU1JZczq5EDlMAQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD4A1rG5nxLVN-",
+                  "file_size": 148132,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "PTZ-камера — це не просто “вау, вона крутиться”.\n\nDahua X-Spans 4+4МП: орієнтир від 26 602 грн. Корисна для двору, парковки, складу, периметра.\n\nАле вона не замінює всю систему — її треба правильно поставити в схему.\n\nДе б ви поставили PTZ?\n\n#PTZ #Dahua #відеоспостереження #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 242,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 247,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 254,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 274,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
