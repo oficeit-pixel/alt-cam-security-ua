@@ -353,7 +353,7 @@
               </label>
               <label>Роздільна здатність
                 <select name="videoResolution">
-                  <option value="auto" selected>Не знаю — підберіть під задачу</option>
+                  <option value="auto" selected>Не знаю — підберіть під завдання</option>
                   <option value="2mp">2 Мп — базовий огляд</option>
                   <option value="4mp">4 Мп — оптимально для більшості об’єктів</option>
                   <option value="8mp">8 Мп / 4K — висока деталізація</option>
@@ -537,7 +537,7 @@
               </label>
               <label>Бренд / клас СКУД
                 <select name="accessBrand">
-                  <option value="auto" selected>Без бренду — підбір за задачею</option>
+                  <option value="auto" selected>Без бренду — підбір за завданням</option>
                   <option value="yli">YLI / ATIS — замки та контролери</option>
                   <option value="hikvision">Hikvision — СКУД + відео</option>
                   <option value="zkteco">ZKTeco — доступ і облік часу</option>
@@ -629,6 +629,8 @@
             <div class="quiz-contact-fields">
               <label>Ваше ім’я<input type="text" name="quizName" placeholder="Як до вас звертатися?"></label>
               <label>Номер телефону<input type="tel" name="quizContact" placeholder="+380 __ ___ __ __"></label>
+              <label>Що вже відомо про монтаж?<textarea name="quizTech" rows="3" placeholder="Стадія ремонту, висота, траси, інтернет/220 В, особливі вузли"></textarea></label>
+              <label class="calc-check"><input type="checkbox" name="quizPhotoReady"><span><b>Підготую фото об’єкта</b><small>Загальний план, роутер/щиток і складний вузол для точнішого кошторису.</small></span></label>
             </div>
             <p>Після натискання відкриється Telegram із заповненою заявкою.</p>
           </fieldset>
@@ -661,10 +663,67 @@
           <label>Тип об’єкта
             <select name="object" required>
               <option value="" selected disabled>Оберіть варіант</option>
-              <option>Приватний будинок</option><option>Квартира</option><option>Магазин</option>
-              <option>Кафе</option><option>Офіс</option><option>СТО</option><option>Склад</option><option>Інший об’єкт</option>
+              <option>Приватний будинок</option><option>Квартира</option><option>Офіс Open Space</option>
+              <option>Магазин</option><option>Кафе</option><option>СТО</option><option>Склад</option>
+              <option>Відкритий майданчик</option><option>Інший об’єкт</option>
             </select>
           </label>
+          <details class="tech-details" open>
+            <summary>Дані для точного виїзду монтажника</summary>
+            <div class="tech-details-grid">
+              <label>Стадія ремонту
+                <select name="repairStage">
+                  <option>Не знаю / уточнити</option>
+                  <option>Чистовий ремонт</option>
+                  <option>Чорновий / після будівельників</option>
+                  <option>Об’єкт працює, монтаж без зупинки</option>
+                </select>
+              </label>
+              <label>Стіни / стеля
+                <select name="wallMaterial">
+                  <option>Не знаю / різні матеріали</option>
+                  <option>Бетон / моноліт</option>
+                  <option>Цегла</option>
+                  <option>Газоблок</option>
+                  <option>Дерево</option>
+                  <option>Сендвіч-панелі</option>
+                </select>
+              </label>
+              <label>Висота монтажу
+                <select name="mountHeight">
+                  <option>До 3 м — стандартна драбина</option>
+                  <option>3–5 м — висока драбина / тура</option>
+                  <option>Понад 5 м — потрібне спецобладнання</option>
+                </select>
+              </label>
+              <label>Кабельні траси
+                <select name="cableRoute">
+                  <option>Не знаю — потрібна порада</option>
+                  <option>Відкритий кабель</option>
+                  <option>Гофротруба</option>
+                  <option>Пластиковий кабель-канал</option>
+                  <option>Закладання в штрабу</option>
+                  <option>Підвісний трос між будівлями</option>
+                  <option>Прокладання під землею в ПНД-трубі</option>
+                </select>
+              </label>
+              <label>Найдовша траса, м
+                <input type="number" name="routeLength" min="0" max="1000" step="5" placeholder="Наприклад: 45">
+              </label>
+              <label>Інтернет і 220 В
+                <select name="networkPower">
+                  <option>Є роутер і розетка біля вузла</option>
+                  <option>Є інтернет, але потрібна розетка</option>
+                  <option>Є 220 В, але інтернет треба підвести</option>
+                  <option>Потрібно перевірити на об’єкті</option>
+                </select>
+              </label>
+            </div>
+            <label class="calc-check photo-ready-check">
+              <input type="checkbox" name="photoReady" required>
+              <span><b>Підготую 2–3 фото для діагностики</b><small>Загальний план, місце роутера/шафи та складний вузол: фасад, двері, щиток або стовп.</small></span>
+            </label>
+          </details>
           <label>Коментар<textarea name="comment" rows="3" placeholder="Що потрібно захистити?"></textarea></label>
           <div class="submit-row">
             <button class="btn btn-primary" type="submit" data-channel="telegram">Надіслати в Telegram <svg><use href="#i-send"/></svg></button>
@@ -773,6 +832,62 @@
         <label>Бажана дата робіт
           <input type="date" name="quoteDate" required>
         </label>
+        <div class="quote-tech-block">
+          <h3>Технічний контур об’єкта</h3>
+          <div class="quote-tech-grid">
+            <label>Тип об’єкта
+              <select name="quoteObjectType" required>
+                <option value="" selected disabled>Оберіть варіант</option>
+                <option>Приватний будинок</option><option>Квартира</option><option>Офіс Open Space</option>
+                <option>Склад</option><option>СТО</option><option>Магазин</option><option>Відкритий майданчик</option>
+              </select>
+            </label>
+            <label>Стадія ремонту
+              <select name="quoteRepairStage" required>
+                <option>Чистовий ремонт</option>
+                <option>Чорновий / після будівельників</option>
+                <option>Об’єкт працює, монтаж без зупинки</option>
+                <option>Потрібно уточнити</option>
+              </select>
+            </label>
+            <label>Матеріал стін / стелі
+              <select name="quoteWallMaterial" required>
+                <option>Бетон / моноліт</option><option>Цегла</option><option>Газоблок</option>
+                <option>Дерево</option><option>Сендвіч-панелі</option><option>Різні матеріали / не знаю</option>
+              </select>
+            </label>
+            <label>Висота монтажу
+              <select name="quoteMountHeight" required>
+                <option>До 3 м — стандартна драбина</option>
+                <option>3–5 м — висока драбина / тура</option>
+                <option>Понад 5 м — потрібне спецобладнання</option>
+              </select>
+            </label>
+            <label>Тип прокладання
+              <select name="quoteCableRoute" required>
+                <option>Відкритий кабель</option><option>Гофротруба</option><option>Пластиковий кабель-канал</option>
+                <option>Закладання в штрабу</option><option>Підвісний трос між будівлями</option>
+                <option>Прокладання під землею в ПНД-трубі</option><option>Потрібна порада</option>
+              </select>
+            </label>
+            <label>Найдовша траса, м
+              <input type="number" name="quoteRouteLength" min="0" max="1000" step="5" placeholder="Наприклад: 60" required>
+            </label>
+          </div>
+          <label>Інтернет, живлення та доступ
+            <textarea name="quoteNetworkPower" rows="2" placeholder="Чи є роутер, вільна розетка 220 В, доступ до щитка / шафи?" required></textarea>
+          </label>
+          <label>Деталі за напрямком
+            <textarea name="quoteDirectionDetails" rows="3" placeholder="Наприклад: потрібен архів 14 днів, фіксація номерів авто, замок уже встановлений, є тварини до 10 кг"></textarea>
+          </label>
+        </div>
+        <div class="quote-photo-block">
+          <h3>Фото-діагностика перед виїздом</h3>
+          <label class="calc-check"><input type="checkbox" name="quotePhotoGeneral" required><span><b>Загальний план об’єкта</b><small>Стеля, стіни, фасад або зона прокладання траси.</small></span></label>
+          <label class="calc-check"><input type="checkbox" name="quotePhotoNode" required><span><b>Центральний вузол</b><small>Роутер, електрощиток, місце під шафу або реєстратор.</small></span></label>
+          <label class="calc-check"><input type="checkbox" name="quotePhotoComplex" required><span><b>Складний вузол</b><small>Дверний профіль, лутка, стовп, фасад, кабельний короб або місце замка.</small></span></label>
+          <p class="form-note">Після відправлення заявки прикріпіть ці фото у відкритому чаті Telegram. Так майстер підготує інструмент, кріплення та точні витратні матеріали.</p>
+        </div>
         <label>Коментар
           <textarea name="quoteComment" rows="3" placeholder="Адреса об’єкта, зручний час, особливі побажання"></textarea>
         </label>

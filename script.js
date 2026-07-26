@@ -120,6 +120,49 @@ function videoCameraInstallRate(count, isOutdoor) {
   return table.overEight;
 }
 
+function formText(data, name, fallback = "Не вказано") {
+  const value = data.get(name);
+  return value && String(value).trim() ? String(value).trim() : fallback;
+}
+
+function collectSiteDiagnostics(data, prefix = "") {
+  const field = (name) => `${prefix}${name}`;
+  return {
+    objectType: formText(data, field("ObjectType"), formText(data, "object")),
+    repairStage: formText(data, field("RepairStage"), formText(data, "repairStage")),
+    wallMaterial: formText(data, field("WallMaterial"), formText(data, "wallMaterial")),
+    mountHeight: formText(data, field("MountHeight"), formText(data, "mountHeight")),
+    cableRoute: formText(data, field("CableRoute"), formText(data, "cableRoute")),
+    routeLength: formText(data, field("RouteLength"), formText(data, "routeLength")),
+    networkPower: formText(data, field("NetworkPower"), formText(data, "networkPower")),
+    directionDetails: formText(data, field("DirectionDetails"), "Не вказано"),
+    photoGeneral: data.get(`${prefix}PhotoGeneral`) === "on" || data.get("photoReady") === "on",
+    photoNode: data.get(`${prefix}PhotoNode`) === "on" || data.get("photoReady") === "on",
+    photoComplex: data.get(`${prefix}PhotoComplex`) === "on" || data.get("photoReady") === "on"
+  };
+}
+
+function diagnosticLines(diagnostics) {
+  if (!diagnostics) return [];
+  return [
+    "",
+    "Технічний контур об’єкта:",
+    `Тип об’єкта: ${diagnostics.objectType}`,
+    `Стадія ремонту: ${diagnostics.repairStage}`,
+    `Стіни / стеля: ${diagnostics.wallMaterial}`,
+    `Висота монтажу: ${diagnostics.mountHeight}`,
+    `Кабельні траси: ${diagnostics.cableRoute}`,
+    `Найдовша траса: ${diagnostics.routeLength === "Не вказано" ? diagnostics.routeLength : `${diagnostics.routeLength} м`}`,
+    `Інтернет / 220 В / доступ: ${diagnostics.networkPower}`,
+    `Деталі за напрямком: ${diagnostics.directionDetails}`,
+    "",
+    "Фото-діагностика:",
+    `Загальний план: ${diagnostics.photoGeneral ? "клієнт підтвердив" : "потрібно запросити"}`,
+    `Центральний вузол: ${diagnostics.photoNode ? "клієнт підтвердив" : "потрібно запросити"}`,
+    `Складний вузол: ${diagnostics.photoComplex ? "клієнт підтвердив" : "потрібно запросити"}`
+  ];
+}
+
 function buildQuoteMessage(state, client = null) {
   const clientLines = client ? [
     "",
@@ -128,7 +171,8 @@ function buildQuoteMessage(state, client = null) {
     `Телефон: ${client.phone}`,
     `Email: ${client.email}`,
     `Бажана дата: ${client.date}`,
-    `Коментар: ${client.comment || "Не вказано"}`
+    `Коментар: ${client.comment || "Не вказано"}`,
+    ...diagnosticLines(client.diagnostics)
   ] : [];
   return [
     state.message,
@@ -367,13 +411,17 @@ leadForm.addEventListener("submit", (event) => {
   if (!leadForm.reportValidity()) return;
 
   const data = new FormData(leadForm);
+  const diagnostics = collectSiteDiagnostics(data);
   const message = [
     "Заявка з сайту Alt-Cam Security UA",
     "",
     `Ім’я: ${data.get("name")}`,
     `Телефон: ${data.get("phone")}`,
     `Тип об’єкта: ${data.get("object")}`,
-    `Коментар: ${data.get("comment") || "Не вказано"}`
+    `Коментар: ${data.get("comment") || "Не вказано"}`,
+    ...diagnosticLines(diagnostics),
+    "",
+    "Наступний крок: попросити клієнта прикріпити 2–3 фото в чаті, якщо фото ще не надіслані."
   ].join("\n");
 
   const url = selectedChannel === "whatsapp"
@@ -385,7 +433,8 @@ leadForm.addEventListener("submit", (event) => {
     name: data.get("name"),
     phone: data.get("phone"),
     object: data.get("object"),
-    comment: data.get("comment") || ""
+    comment: data.get("comment") || "",
+    diagnostics
   });
   trackEvent("generate_lead", { form: "contact_form", channel: selectedChannel });
   window.open(url, "_blank", "noopener,noreferrer");
@@ -464,6 +513,16 @@ function renderQuoteSummary(state) {
 function openQuoteModal(state) {
   activeQuoteState = state;
   renderQuoteSummary(state);
+  const detailsField = quoteForm.querySelector("textarea[name='quoteDirectionDetails']");
+  if (detailsField) {
+    const type = state.quote.type;
+    const placeholders = {
+      "IP-відеоспостереження": "Архів 7/14/30 днів, фіксація номерів чи облич, широкий кут 2.8 мм або зум, ColorVu/Full-color, грозозахист для вулиці.",
+      "Резервне живлення": "Що має працювати без світла, потрібна автономність 2–4 / 8–12 / 24+ год, місце для інвертора та АКБ, вентиляція.",
+      "Ajax, СКУД та домофонія": "Тип дверей, замок уже встановлений чи ні, картки/код/біометрія, тварини вдома, сирени, пультова охорона, виклик на смартфон."
+    };
+    detailsField.placeholder = placeholders[type] || "Опишіть важливі деталі об’єкта, які впливають на монтаж.";
+  }
   quoteModal.hidden = false;
   document.body.classList.add("modal-open");
   quoteForm.querySelector("input[name='quoteName']")?.focus();
@@ -487,7 +546,8 @@ quoteForm?.addEventListener("submit", (event) => {
     phone: data.get("quotePhone").trim(),
     email: data.get("quoteEmail").trim(),
     date: data.get("quoteDate"),
-    comment: data.get("quoteComment").trim()
+    comment: data.get("quoteComment").trim(),
+    diagnostics: collectSiteDiagnostics(data, "quote")
   };
   const message = buildQuoteMessage(activeQuoteState, client);
   sendLeadToCrm({
@@ -495,7 +555,8 @@ quoteForm?.addEventListener("submit", (event) => {
     quote: activeQuoteState.quote,
     message,
     client,
-    nextStep: "Після підтвердження дати надіслати клієнту email із розрахунком і сумою завдатку на обладнання."
+    diagnostics: client.diagnostics,
+    nextStep: "Після підтвердження дати перевірити фото, сформувати картку монтажника, надіслати клієнту email із розрахунком і сумою завдатку на обладнання."
   });
   trackEvent("quote_confirm", { type: activeQuoteState.quote.type, total: activeQuoteState.quote.total });
   window.open(telegramUrl(message), "_blank", "noopener,noreferrer");
@@ -628,7 +689,7 @@ function calculateSecuritySystemExact() {
   const nvrPrices = { 4: 1800, 8: 3200, 16: 5400 };
   const hddPrices = { 1: 2400, 2: 3500, 4: 5200 };
   const brandProfiles = {
-    auto: { label: "Без бренду — підбір за задачею та бюджетом", cameraFactor: 1, nvrFactor: 1 },
+    auto: { label: "Без бренду — підбір за завданням та бюджетом", cameraFactor: 1, nvrFactor: 1 },
     hikvision: { label: "Hikvision — AcuSense / ColorVu", cameraFactor: 1.18, nvrFactor: 1.12 },
     dahua: { label: "Dahua — WizSense / TiOC", cameraFactor: 1.15, nvrFactor: 1.1 },
     uniview: { label: "Uniview — LightHunter / ColorHunter", cameraFactor: 1.08, nvrFactor: 1.06 },
@@ -1094,7 +1155,7 @@ function calculateAjaxAccessExact() {
     basip: { label: "BAS-IP — преміум-домофонія", factor: 1.35 }
   };
   const accessBrands = {
-    auto: { label: "СКУД — підбір за задачею", factor: 1 },
+    auto: { label: "СКУД — підбір за завданням", factor: 1 },
     yli: { label: "YLI / ATIS — замки та контролери", factor: 1 },
     hikvision: { label: "Hikvision — СКУД + відео", factor: 1.15 },
     zkteco: { label: "ZKTeco — доступ і облік часу", factor: 1.1 },
@@ -1261,7 +1322,10 @@ quizNext.addEventListener("click", () => {
     "",
     `Ім’я: ${data.get("quizName")}`,
     `Телефон: ${data.get("quizContact")}`,
+    `Що відомо про монтаж: ${data.get("quizTech") || "Не вказано"}`,
+    `Фото-діагностика: ${data.get("quizPhotoReady") === "on" ? "клієнт готовий підготувати фото" : "потрібно запросити фото"}`,
     "",
+    "Перед виїздом уточнити: ремонт, матеріал стін, висоту монтажу, кабельні траси, інтернет і 220 В.",
     "Прошу підготувати попередній розрахунок."
   ].join("\n");
   sendLeadToCrm({
@@ -1271,7 +1335,9 @@ quizNext.addEventListener("click", () => {
     nightVision: data.get("quizNight"),
     phoneView: data.get("quizPhoneView"),
     name: data.get("quizName"),
-    phone: data.get("quizContact")
+    phone: data.get("quizContact"),
+    technicalNote: data.get("quizTech") || "",
+    photoReady: data.get("quizPhotoReady") === "on"
   });
   trackEvent("generate_lead", { form: "quiz", channel: "telegram" });
   window.open(telegramUrl(message), "_blank", "noopener,noreferrer");
