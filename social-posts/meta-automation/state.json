@@ -3733,6 +3733,111 @@
             }
           }
         }
+      },
+      "threads": {
+        "published_at": "2026-07-26T07:45:25.707429+00:00",
+        "result": {
+          "container": {
+            "id": "18073421915424516"
+          },
+          "published": {
+            "id": "18110437897961418"
+          }
+        }
+      }
+    },
+    "altcam-2026-07-26-01-ajax-nvr": {
+      "instagram": {
+        "published_at": "2026-07-26T07:45:33.760306+00:00",
+        "result": {
+          "container": {
+            "id": "18073576325418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18073576325418944"
+          },
+          "published": {
+            "id": "18238316422311623"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-26T07:45:38.276339+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 47,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1785051938,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADL2pluyK8a2Z2rl3XpCSNBb0asYd7AAJcDWsbRH00U4RDL8woT7f3AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADXA1rG0R9NFN4",
+                  "file_size": 1871,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADL2pluyK8a2Z2rl3XpCSNBb0asYd7AAJcDWsbRH00U4RDL8woT7f3AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADXA1rG0R9NFNy",
+                  "file_size": 23783,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADL2pluyK8a2Z2rl3XpCSNBb0asYd7AAJcDWsbRH00U4RDL8woT7f3AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADXA1rG0R9NFN9",
+                  "file_size": 94290,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADL2pluyK8a2Z2rl3XpCSNBb0asYd7AAJcDWsbRH00U4RDL8woT7f3AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADXA1rG0R9NFN-",
+                  "file_size": 144868,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Ajax NVR — коли хочеться відео в екосистемі Ajax.\n\nAjax NVR HAC 8ch: орієнтир від 7 979 грн.\n\nЗручно, коли охорона, відео, сповіщення і керування працюють в одному підході.\n\nВи за одну екосистему чи окремі рішення?\n\n#Ajax #AjaxNVR #відеоспостереження #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 216,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 222,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 231,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 251,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
       }
     }
   }
