@@ -3955,6 +3955,34 @@
           }
         }
       }
+    },
+    "altcam-2026-07-26-03-save-money": {
+      "instagram": {
+        "published_at": "2026-07-26T15:45:23.285466+00:00",
+        "result": {
+          "container": {
+            "id": "18073698755418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18073698755418944"
+          },
+          "published": {
+            "id": "17980827449880205"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-26T15:45:31.437588+00:00",
+        "result": {
+          "container": {
+            "id": "18073532240424516"
+          },
+          "published": {
+            "id": "18382577605205309"
+          }
+        }
+      }
     }
   }
 }
