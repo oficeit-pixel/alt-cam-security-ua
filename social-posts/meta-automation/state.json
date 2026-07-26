@@ -3983,6 +3983,34 @@
           }
         }
       }
+    },
+    "altcam-2026-07-26-04-night-vs-detail": {
+      "instagram": {
+        "published_at": "2026-07-26T20:03:15.115710+00:00",
+        "result": {
+          "container": {
+            "id": "18073757843418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18073757843418944"
+          },
+          "published": {
+            "id": "18088727432542791"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-26T20:03:23.857660+00:00",
+        "result": {
+          "container": {
+            "id": "18073595468424516"
+          },
+          "published": {
+            "id": "18160411012471172"
+          }
+        }
+      }
     }
   }
 }
