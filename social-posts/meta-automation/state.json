@@ -3838,6 +3838,122 @@
             }
           }
         }
+      },
+      "threads": {
+        "published_at": "2026-07-26T11:48:30.837330+00:00",
+        "result": {
+          "container": {
+            "id": "18073474316424516"
+          },
+          "published": {
+            "id": "18098352575608771"
+          }
+        }
+      }
+    },
+    "altcam-2026-07-26-02-roi-question": {
+      "instagram": {
+        "published_at": "2026-07-26T11:48:42.565539+00:00",
+        "result": {
+          "container": {
+            "id": "18073636127418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18073636127418944"
+          },
+          "published": {
+            "id": "17995293224809659"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-26T11:48:49.673679+00:00",
+        "result": {
+          "container": {
+            "id": "18073474451424516"
+          },
+          "published": {
+            "id": "18132765655614711"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-07-26T11:48:50.485938+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 48,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1785066530,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADMGpl9CIniDpyvwZlI2xppsijffH6AAJDDWsbMpc0U3ygrWGem55OAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADQw1rGzKXNFN4",
+                  "file_size": 1802,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADMGpl9CIniDpyvwZlI2xppsijffH6AAJDDWsbMpc0U3ygrWGem55OAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADQw1rGzKXNFNy",
+                  "file_size": 23952,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADMGpl9CIniDpyvwZlI2xppsijffH6AAJDDWsbMpc0U3ygrWGem55OAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADQw1rGzKXNFN9",
+                  "file_size": 90518,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADMGpl9CIniDpyvwZlI2xppsijffH6AAJDDWsbMpc0U3ygrWGem55OAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADQw1rGzKXNFN-",
+                  "file_size": 135754,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Що дорожче: система безпеки чи наслідки її відсутності?\n\nМожна почати з мінімуму: 2-4 камери, базовий Ajax, домофон або резерв для роутера/реєстратора.\n\nНапишіть “МІНІМУМ” — підкажемо стартовий варіант.\n\n#безпека #відеоспостереження #Ajax #AltCam\n\n📍 Працюємо: Київ, Вишгород, Київська область.",
+              "caption_entities": [
+                {
+                  "offset": 204,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 213,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 233,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 239,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
       }
     }
   }
