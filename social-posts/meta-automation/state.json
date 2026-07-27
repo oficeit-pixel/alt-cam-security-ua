@@ -4011,6 +4011,62 @@
           }
         }
       }
+    },
+    "altcam-2026-07-27-01-dahua-dual-lens-review": {
+      "instagram": {
+        "published_at": "2026-07-27T12:40:05.573560+00:00",
+        "result": {
+          "container": {
+            "id": "18073943861418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18073943861418944"
+          },
+          "published": {
+            "id": "17882144748611531"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-27T12:40:13.792518+00:00",
+        "result": {
+          "container": {
+            "id": "18073772063424516"
+          },
+          "published": {
+            "id": "18330723265278210"
+          }
+        }
+      }
+    },
+    "altcam-2026-07-27-02-wifi7-review": {
+      "instagram": {
+        "published_at": "2026-07-27T12:40:27.049601+00:00",
+        "result": {
+          "container": {
+            "id": "18073943951418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18073943951418944"
+          },
+          "published": {
+            "id": "18185067847396727"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-27T12:40:34.604968+00:00",
+        "result": {
+          "container": {
+            "id": "18073772123424516"
+          },
+          "published": {
+            "id": "18203678587364030"
+          }
+        }
+      }
     }
   }
 }
