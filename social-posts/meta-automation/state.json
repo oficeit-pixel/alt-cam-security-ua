@@ -4207,6 +4207,23 @@
           }
         }
       }
+    },
+    "altcam-2026-07-28-04-real-cost-4-cameras": {
+      "instagram": {
+        "published_at": "2026-07-28T20:45:44.992044+00:00",
+        "result": {
+          "container": {
+            "id": "18074353904418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18074353904418944"
+          },
+          "published": {
+            "id": "18005815328760759"
+          }
+        }
+      }
     }
   }
 }
