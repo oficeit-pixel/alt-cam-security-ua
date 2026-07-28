@@ -4123,6 +4123,34 @@
           }
         }
       }
+    },
+    "altcam-2026-07-28-01-blind-zone-pain": {
+      "instagram": {
+        "published_at": "2026-07-28T08:02:43.968374+00:00",
+        "result": {
+          "container": {
+            "id": "18074180336418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18074180336418944"
+          },
+          "published": {
+            "id": "18607126417040194"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-28T08:02:52.494858+00:00",
+        "result": {
+          "container": {
+            "id": "18074002955424516"
+          },
+          "published": {
+            "id": "17952118572012207"
+          }
+        }
+      }
     }
   }
 }
