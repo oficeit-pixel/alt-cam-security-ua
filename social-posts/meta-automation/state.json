@@ -4291,6 +4291,34 @@
           }
         }
       }
+    },
+    "altcam-2026-07-29-03-ajax-nvr-full-review": {
+      "instagram": {
+        "published_at": "2026-07-29T16:05:23.410314+00:00",
+        "result": {
+          "container": {
+            "id": "18074602157418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18074602157418944"
+          },
+          "published": {
+            "id": "18039961388810482"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-29T16:05:31.595616+00:00",
+        "result": {
+          "container": {
+            "id": "18074428331424516"
+          },
+          "published": {
+            "id": "17916074997423259"
+          }
+        }
+      }
     }
   }
 }
