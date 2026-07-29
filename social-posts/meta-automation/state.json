@@ -4235,6 +4235,62 @@
           }
         }
       }
+    },
+    "altcam-2026-07-29-01-hikvision-4mp-review": {
+      "instagram": {
+        "published_at": "2026-07-29T10:18:47.411986+00:00",
+        "result": {
+          "container": {
+            "id": "18074512772418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18074512772418944"
+          },
+          "published": {
+            "id": "17986693080041005"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-29T10:19:08.118043+00:00",
+        "result": {
+          "container": {
+            "id": "18074337530424516"
+          },
+          "published": {
+            "id": "17986056939044674"
+          }
+        }
+      }
+    },
+    "altcam-2026-07-29-02-u-prox-reader-review": {
+      "instagram": {
+        "published_at": "2026-07-29T10:19:23.818087+00:00",
+        "result": {
+          "container": {
+            "id": "18074512922418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18074512922418944"
+          },
+          "published": {
+            "id": "18161242705482534"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-29T10:19:42.026055+00:00",
+        "result": {
+          "container": {
+            "id": "18074337671424516"
+          },
+          "published": {
+            "id": "18103553450162619"
+          }
+        }
+      }
     }
   }
 }
