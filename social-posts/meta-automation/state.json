@@ -4431,6 +4431,34 @@
           }
         }
       }
+    },
+    "altcam-2026-07-30-04-cable-beauty-vs-reliability": {
+      "instagram": {
+        "published_at": "2026-07-30T20:23:23.481035+00:00",
+        "result": {
+          "container": {
+            "id": "18074984564418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18074984564418944"
+          },
+          "published": {
+            "id": "18119351785883197"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-30T20:23:32.704528+00:00",
+        "result": {
+          "container": {
+            "id": "18074804993424516"
+          },
+          "published": {
+            "id": "18176273368425002"
+          }
+        }
+      }
     }
   }
 }
