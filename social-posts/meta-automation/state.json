@@ -4515,6 +4515,34 @@
           }
         }
       }
+    },
+    "altcam-2026-07-31-03-enterprise-nvr-pain": {
+      "instagram": {
+        "published_at": "2026-07-31T16:28:32.764282+00:00",
+        "result": {
+          "container": {
+            "id": "18075249806418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18075249806418944"
+          },
+          "published": {
+            "id": "17901952335530423"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-31T16:28:40.710751+00:00",
+        "result": {
+          "container": {
+            "id": "18075076436424516"
+          },
+          "published": {
+            "id": "18435590035125447"
+          }
+        }
+      }
     }
   }
 }
