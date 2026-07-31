@@ -4543,6 +4543,34 @@
           }
         }
       }
+    },
+    "altcam-2026-07-31-04-follow-cta": {
+      "instagram": {
+        "published_at": "2026-07-31T20:50:46.117022+00:00",
+        "result": {
+          "container": {
+            "id": "18075307976418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18075307976418944"
+          },
+          "published": {
+            "id": "18105279331872644"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-07-31T20:50:54.342612+00:00",
+        "result": {
+          "container": {
+            "id": "18075135452424516"
+          },
+          "published": {
+            "id": "17918005443421195"
+          }
+        }
+      }
     }
   }
 }
