@@ -4571,6 +4571,34 @@
           }
         }
       }
+    },
+    "altcam-2026-08-01-01-dahua-triple-sight-review": {
+      "instagram": {
+        "published_at": "2026-08-01T08:43:01.873232+00:00",
+        "result": {
+          "container": {
+            "id": "18075445499418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18075445499418944"
+          },
+          "published": {
+            "id": "18099378404361725"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-08-01T08:43:08.146640+00:00",
+        "result": {
+          "container": {
+            "id": "18075277415424516"
+          },
+          "published": {
+            "id": "17859266007679130"
+          }
+        }
+      }
     }
   }
 }
