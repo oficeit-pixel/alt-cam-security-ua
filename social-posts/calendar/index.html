@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ALT-CAM контент-календар</title>
+  <title>ALT-CAM 60 днів — контент-календар</title>
   <style>
     :root {
       color-scheme: dark;
@@ -15,6 +15,8 @@
       --line: rgba(255,255,255,.12);
       --gold: #ffcc00;
       --green: #47d18c;
+      --orange: #ff9f43;
+      --red: #ff3b30;
     }
     * { box-sizing: border-box; }
     body {
@@ -23,30 +25,49 @@
       background: radial-gradient(circle at top left, rgba(255,204,0,.13), transparent 34rem), var(--bg);
       color: var(--text);
     }
-    main { width: min(1120px, calc(100% - 32px)); margin: 0 auto; padding: 42px 0 56px; }
-    header { display: flex; gap: 18px; align-items: flex-end; justify-content: space-between; margin-bottom: 28px; }
+    main { width: min(1180px, calc(100% - 32px)); margin: 0 auto; padding: 42px 0 56px; }
+    header { display: flex; gap: 18px; align-items: flex-end; justify-content: space-between; margin-bottom: 22px; }
     h1 { margin: 0 0 8px; font-size: clamp(30px, 5vw, 54px); letter-spacing: -.045em; }
     p { margin: 0; color: var(--muted); line-height: 1.55; }
     .badge { display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid var(--line); border-radius: 999px; background: var(--panel); color: var(--text); white-space: nowrap; }
     .badge::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--green); box-shadow: 0 0 16px var(--green); }
+    .toolbar { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 18px; }
+    button, .link-btn { cursor: pointer; color: var(--text); background: var(--panel); border: 1px solid var(--line); padding: 10px 13px; border-radius: 999px; text-decoration: none; font: inherit; }
+    button.active { background: var(--gold); color: #171200; border-color: var(--gold); font-weight: 800; }
+    .platform-plan { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 0 0 20px; }
+    .platform-card { border: 1px solid var(--line); border-radius: 18px; background: rgba(255,255,255,.04); padding: 14px; }
+    .platform-card strong { display: block; color: var(--gold); margin-bottom: 6px; }
+    .platform-card span { display: block; color: var(--muted); line-height: 1.45; font-size: 14px; }
     .grid { display: grid; gap: 16px; }
     .day { border: 1px solid var(--line); border-radius: 22px; background: var(--panel); backdrop-filter: blur(12px); overflow: hidden; }
     .day-head { display: flex; justify-content: space-between; gap: 12px; padding: 18px 20px; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.035); }
     .day-head h2 { margin: 0; font-size: 19px; }
-    .count { color: var(--gold); font-weight: 700; }
-    .post { display: grid; grid-template-columns: 92px 112px 1fr; gap: 16px; padding: 18px 20px; border-bottom: 1px solid var(--line); align-items: start; }
-    .post:last-child { border-bottom: 0; }
+    .count { color: var(--gold); font-weight: 700; text-align: right; }
+    .post { display: grid; grid-template-columns: 92px 156px 1fr; gap: 16px; padding: 18px 20px; align-items: start; }
     .time { color: var(--gold); font-weight: 800; font-size: 18px; }
-    img { width: 112px; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 16px; border: 1px solid var(--line); background: #222; }
-    h3 { margin: 0 0 8px; font-size: 18px; }
+    .media { display: grid; gap: 10px; }
+    img { width: 156px; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 16px; border: 1px solid var(--line); background: #222; }
+    .thumb { aspect-ratio: 16 / 9; }
+    h3 { margin: 0 0 8px; font-size: 20px; }
     .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
     .chip { font-size: 12px; color: var(--text); background: var(--panel-2); border: 1px solid var(--line); padding: 6px 9px; border-radius: 999px; }
+    .chip.draft { color: #201500; background: var(--orange); border-color: var(--orange); font-weight: 800; }
+    .chip.ready { color: #062015; background: var(--green); border-color: var(--green); font-weight: 800; }
+    .chip.hot { color: #260200; background: var(--gold); border-color: var(--gold); font-weight: 900; }
+    details { margin-top: 12px; border: 1px solid var(--line); border-radius: 14px; background: rgba(255,255,255,.035); overflow: hidden; }
+    summary { padding: 12px 14px; cursor: pointer; color: var(--gold); font-weight: 800; }
+    pre { white-space: pre-wrap; margin: 0; padding: 0 14px 14px; font-family: inherit; color: var(--text); line-height: 1.5; }
+    .platform-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 14px; }
+    .mini { border: 1px solid var(--line); border-radius: 14px; padding: 12px; background: rgba(0,0,0,.18); }
+    .mini strong { color: var(--gold); }
     .note { margin-top: 22px; padding: 16px 18px; border-radius: 18px; background: rgba(255,204,0,.08); border: 1px solid rgba(255,204,0,.22); color: #f8eab0; }
-    @media (max-width: 720px) {
+    @media (max-width: 840px) {
       header { display: block; }
       .badge { margin-top: 18px; }
       .post { grid-template-columns: 1fr; }
-      img { width: 100%; max-height: 260px; aspect-ratio: 16 / 10; }
+      .platform-plan { grid-template-columns: 1fr; }
+      img { width: 100%; max-height: 420px; }
+      .platform-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -54,63 +75,114 @@
   <main>
     <header>
       <div>
-        <h1>ALT-CAM контент-календар</h1>
-        <p>План публікацій Facebook, Instagram та Threads. Автозапуск перевіряє календар кожні 30 хвилин.</p>
+        <h1>ALT-CAM 60 днів</h1>
+        <p>Контент-календар для Facebook, Instagram, TikTok/Reels/Shorts, Threads, Telegram і YouTube. Заставки зроблені живішими: товар, Аліса, Сергій або конкретна проблема.</p>
       </div>
-      <div class="badge">Cloud schedule active</div>
+      <div class="badge">60-day media plan</div>
     </header>
+    <nav class="toolbar" id="filters">
+      <button class="active" data-filter="all">Усі</button>
+      <button data-filter="Captivate">Captivate</button>
+      <button data-filter="Expert">Expert</button>
+      <button data-filter="Proof">Proof</button>
+      <button data-filter="Offer">Offer</button>
+      <a class="link-btn" href="../content-plans/2026-08-03-60-day-matrix/media/MEDIA_INDEX.md">MEDIA_INDEX</a>
+      <a class="link-btn" href="../content-plans/2026-08-03-60-day-matrix/platform-posts/README.md">Тексти по платформах</a>
+    </nav>
+    <section class="platform-plan" aria-label="План публикацій по соцмережах">
+      <div class="platform-card"><strong>Facebook</strong><span>1 адаптований пост щодня: проблема → рішення → комплектація → ціна → CTA в Telegram-бот.</span></div>
+      <div class="platform-card"><strong>Instagram</strong><span>Карусель/Reels: обкладинка, 6 слайдів, хештеги, гео Київ / Вишгород / область.</span></div>
+      <div class="platform-card"><strong>TikTok / Reels / Shorts</strong><span>Кричаща заставка + сценарій 0–30 сек: гачок, біль, рішення, вердикт, реклама.</span></div>
+      <div class="platform-card"><strong>Telegram</strong><span>Розбір або акція з кнопкою на квиз/калькулятор: “Розрахувати вартість у боті”.</span></div>
+      <div class="platform-card"><strong>Threads</strong><span>Короткі теми для обговорення: питання, міфи, помилки, заклик коментувати.</span></div>
+      <div class="platform-card"><strong>YouTube</strong><span>Long + Community: SEO-назва, таймкоди, опис, закріплений коментар і обкладинка.</span></div>
+    </section>
     <section id="calendar" class="grid" aria-live="polite"></section>
-    <p class="note">Якщо час уже настав, публікація вийде під час найближчого запуску GitHub Actions. Статус фактичної публікації зберігається у state.json.</p>
+    <p class="note">Перед автоматичною публікацією перевіряємо: чи є реальне фото/відео об’єкта, чи підходить ціна, чи не треба замінити заставку на живий кадр із монтажу.</p>
   </main>
+  <script src="./altcam-60-day-data.js"></script>
   <script>
-    const POSTS_URL = "../meta-automation/posts.json";
     const fmtDate = new Intl.DateTimeFormat("uk-UA", { weekday: "long", day: "numeric", month: "long", timeZone: "Europe/Kyiv" });
     const fmtTime = new Intl.DateTimeFormat("uk-UA", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Kyiv" });
     const calendar = document.getElementById("calendar");
+    const filters = document.getElementById("filters");
+    let active = "all";
 
-    function titleFromCaption(post) {
-      const text = (post.captions?.instagram || post.caption || "").split("\n").find(Boolean) || post.id;
-      return text.length > 86 ? text.slice(0, 83) + "…" : text;
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;"
+      })[char]);
     }
 
-    fetch(POSTS_URL)
-      .then((response) => response.json())
-      .then((data) => {
-        const posts = data.posts
-          .filter((post) => new Date(post.scheduled_at) <= new Date("2026-08-03T00:00:00+03:00"))
-          .sort((a, b) => new Date(a.scheduled_at) - new Date(b.scheduled_at));
-        const days = new Map();
-        for (const post of posts) {
-          const key = post.scheduled_at.slice(0, 10);
-          if (!days.has(key)) days.set(key, []);
-          days.get(key).push(post);
-        }
-        calendar.innerHTML = [...days.entries()].map(([key, items]) => `
-          <article class="day">
-            <div class="day-head">
-              <h2>${fmtDate.format(new Date(items[0].scheduled_at))}</h2>
-              <div class="count">${items.length} публікації</div>
-            </div>
-            ${items.map((post) => `
-              <div class="post">
-                <div class="time">${fmtTime.format(new Date(post.scheduled_at))}</div>
-                <img src="${post.image_url}" alt="">
-                <div>
-                  <h3>${titleFromCaption(post)}</h3>
-                  <p>${(post.captions?.threads || post.caption || "").split("\n").filter(Boolean).slice(0, 2).join(" ")}</p>
-                  <div class="meta">
-                    ${post.platforms.map((platform) => `<span class="chip">${platform}</span>`).join("")}
-                    <span class="chip">${post.id}</span>
-                  </div>
-                </div>
+    function titleFromPost(post) {
+      const text = post.hook || post.topic || post.id;
+      return text.length > 96 ? text.slice(0, 93) + "…" : text;
+    }
+
+    function platformBlock(label, text) {
+      return `<details><summary>${label}</summary><pre>${escapeHtml(text)}</pre></details>`;
+    }
+
+    function render(posts) {
+      const filtered = active === "all" ? posts : posts.filter((post) => post.content_type === active);
+      const days = new Map();
+      for (const post of filtered.sort((a, b) => new Date(a.scheduled_at) - new Date(b.scheduled_at))) {
+        const key = post.scheduled_at.slice(0, 10);
+        if (!days.has(key)) days.set(key, []);
+        days.get(key).push(post);
+      }
+      calendar.innerHTML = [...days.entries()].map(([key, items]) => `
+        <article class="day">
+          <div class="day-head">
+            <h2>${fmtDate.format(new Date(items[0].scheduled_at))}</h2>
+            <div class="count">${items.length} тема • 6 платформ</div>
+          </div>
+          ${items.map((post) => `
+            <div class="post">
+              <div class="time">${fmtTime.format(new Date(post.scheduled_at))}</div>
+              <div class="media">
+                <img src="${post.image_path}" alt="">
+                <img class="thumb" src="${post.youtube_thumb}" alt="">
               </div>
-            `).join("")}
-          </article>
-        `).join("");
-      })
-      .catch(() => {
-        calendar.innerHTML = "<p>Не вдалося завантажити календар. Перевірте posts.json.</p>";
-      });
+              <div>
+                <h3>${escapeHtml(titleFromPost(post))}</h3>
+                <p>${escapeHtml(post.summary)}</p>
+                <div class="meta">
+                  <span class="chip hot">${post.content_type}</span>
+                  ${post.platforms.map((platform) => `<span class="chip">${platform}</span>`).join("")}
+                  <span class="chip ${post.status === "draft" ? "draft" : "ready"}">${post.status === "draft" ? "ЧЕРНЕТКА" : "ГОТОВО"}</span>
+                  <span class="chip">${escapeHtml(post.keyword)}</span>
+                  <span class="chip">${escapeHtml(post.object_type)}</span>
+                  <span class="chip">📍 Київ / Вишгород</span>
+                </div>
+                <div class="platform-grid">
+                  <div class="mini"><strong>TikTok/Reels/Shorts</strong><br>${escapeHtml(post.platform_details.tiktok.visual_hook)}</div>
+                  <div class="mini"><strong>Instagram/Facebook</strong><br>${escapeHtml(post.platform_details.instagram_facebook.carousel_title)}</div>
+                  <div class="mini"><strong>Threads</strong><br>${escapeHtml(post.platform_details.threads.first_comment)}</div>
+                  <div class="mini"><strong>YouTube</strong><br>${escapeHtml(post.platform_details.youtube.title)}</div>
+                </div>
+                ${platformBlock("Facebook", post.captions.facebook)}
+                ${platformBlock("Instagram", post.captions.instagram)}
+                ${platformBlock("TikTok / Reels / Shorts сценарій", post.captions.tiktok)}
+                ${platformBlock("Threads", post.captions.threads)}
+                ${platformBlock("Telegram", post.captions.telegram)}
+                ${platformBlock("YouTube", post.captions.youtube)}
+              </div>
+            </div>
+          `).join("")}
+        </article>
+      `).join("");
+    }
+
+    filters.addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-filter]");
+      if (!button) return;
+      active = button.dataset.filter;
+      filters.querySelectorAll("button").forEach((item) => item.classList.toggle("active", item === button));
+      render(window.ALT_CAM_60_DAY_CALENDAR.posts);
+    });
+
+    render(window.ALT_CAM_60_DAY_CALENDAR.posts);
   </script>
 </body>
 </html>
