@@ -34,6 +34,10 @@
     .toolbar { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 18px; }
     button, .link-btn { cursor: pointer; color: var(--text); background: var(--panel); border: 1px solid var(--line); padding: 10px 13px; border-radius: 999px; text-decoration: none; font: inherit; }
     button.active { background: var(--gold); color: #171200; border-color: var(--gold); font-weight: 800; }
+    .platform-plan { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 0 0 20px; }
+    .platform-card { border: 1px solid var(--line); border-radius: 18px; background: rgba(255,255,255,.04); padding: 14px; }
+    .platform-card strong { display: block; color: var(--gold); margin-bottom: 6px; }
+    .platform-card span { display: block; color: var(--muted); line-height: 1.45; font-size: 14px; }
     .grid { display: grid; gap: 16px; }
     .day { border: 1px solid var(--line); border-radius: 22px; background: var(--panel); backdrop-filter: blur(12px); overflow: hidden; }
     .day-head { display: flex; justify-content: space-between; gap: 12px; padding: 18px 20px; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.035); }
@@ -61,6 +65,7 @@
       header { display: block; }
       .badge { margin-top: 18px; }
       .post { grid-template-columns: 1fr; }
+      .platform-plan { grid-template-columns: 1fr; }
       img { width: 100%; max-height: 420px; }
       .platform-grid { grid-template-columns: 1fr; }
     }
@@ -84,6 +89,14 @@
       <a class="link-btn" href="../content-plans/2026-08-03-60-day-matrix/media/MEDIA_INDEX.md">MEDIA_INDEX</a>
       <a class="link-btn" href="../content-plans/2026-08-03-60-day-matrix/platform-posts/README.md">Тексти по платформах</a>
     </nav>
+    <section class="platform-plan" aria-label="План публикацій по соцмережах">
+      <div class="platform-card"><strong>Facebook</strong><span>1 адаптований пост щодня: проблема → рішення → комплектація → ціна → CTA в Telegram-бот.</span></div>
+      <div class="platform-card"><strong>Instagram</strong><span>Карусель/Reels: обкладинка, 6 слайдів, хештеги, гео Київ / Вишгород / область.</span></div>
+      <div class="platform-card"><strong>TikTok / Reels / Shorts</strong><span>Кричаща заставка + сценарій 0–30 сек: гачок, біль, рішення, вердикт, реклама.</span></div>
+      <div class="platform-card"><strong>Telegram</strong><span>Розбір або акція з кнопкою на квиз/калькулятор: “Розрахувати вартість у боті”.</span></div>
+      <div class="platform-card"><strong>Threads</strong><span>Короткі теми для обговорення: питання, міфи, помилки, заклик коментувати.</span></div>
+      <div class="platform-card"><strong>YouTube</strong><span>Long + Community: SEO-назва, таймкоди, опис, закріплений коментар і обкладинка.</span></div>
+    </section>
     <section id="calendar" class="grid" aria-live="polite"></section>
     <p class="note">Перед автоматичною публікацією перевіряємо: чи є реальне фото/відео об’єкта, чи підходить ціна, чи не треба замінити заставку на живий кадр із монтажу.</p>
   </main>

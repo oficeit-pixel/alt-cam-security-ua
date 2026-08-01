@@ -1,5 +1,5 @@
 window.ALT_CAM_60_DAY_CALENDAR = {
-  "generated_at": "2026-08-01T12:22:13",
+  "generated_at": "2026-08-01T12:27:33",
   "timezone": "Europe/Kyiv",
   "source": "social-posts/content-plans/2026-08-03-60-day-matrix",
   "posts": [
