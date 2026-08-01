@@ -6,66 +6,66 @@
 
 | День | Дата | Контур | Тема | Медіа |
 |---:|---|---|---|---|
-| 1 | 2026-08-03 | Captivate | 5 помилок монтажу камер, через які не видно обличчя для квартира: міф, який коштує грошей | [media](media/tiktok-covers/day-01-камера-tiktok-cover.png) |
-| 2 | 2026-08-04 | Expert | AcuSense, ColorVu та WizSense простими словами для офіс: помилка, яку видно лише після проблеми | [media](media/tiktok-covers/day-02-технологія-tiktok-cover.png) |
-| 3 | 2026-08-05 | Proof | До/після: акуратне кабелювання і серверний щит для паркінг: тест на реальному сценарії | [media](media/tiktok-covers/day-03-монтаж-tiktok-cover.png) |
-| 4 | 2026-08-06 | Offer | Комплект відеоспостереження на 4 камери під ключ для виробництво: до/після без прикрас | [media](media/tiktok-covers/day-04-комплект-tiktok-cover.png) |
-| 5 | 2026-08-07 | Captivate | Блекаут: що вимкнеться першим — камери, роутер чи Ajax для магазин: скільки коштує помилка | [media](media/tiktok-covers/day-05-резерв-tiktok-cover.png) |
-| 6 | 2026-08-08 | Expert | Безпечне налаштування Hik-Connect, DMSS та Imou Life для ОСББ: чек-лист перед покупкою | [media](media/tiktok-covers/day-06-доступ-tiktok-cover.png) |
-| 7 | 2026-08-09 | Proof | Ajax + камери: як зрозуміти, що сталося під час тривоги для салон: чесне питання власнику | [media](media/tiktok-covers/day-07-ajax-tiktok-cover.png) |
-| 8 | 2026-08-10 | Offer | Відеодомофон для будинку: бачити гостя і відкривати зі смартфона для приватний будинок: антифакап для дому й бізнесу | [media](media/tiktok-covers/day-08-домофон-tiktok-cover.png) |
-| 9 | 2026-08-11 | Captivate | СКУД для офісу: як прибрати хаос із ключами для склад: міф, який коштує грошей | [media](media/tiktok-covers/day-09-скуд-tiktok-cover.png) |
-| 10 | 2026-08-12 | Expert | Камера для магазину: каса, вхід і сліпі зони для кав’ярня: помилка, яку видно лише після проблеми | [media](media/tiktok-covers/day-10-бізнес-tiktok-cover.png) |
-| 11 | 2026-08-13 | Proof | Двір приватного будинку: як закрити сліпі зони для квартира: тест на реальному сценарії | [media](media/tiktok-covers/day-11-двір-tiktok-cover.png) |
-| 12 | 2026-08-14 | Offer | Ложні тривоги Ajax: чому систему вимикають для офіс: до/після без прикрас | [media](media/tiktok-covers/day-12-тривога-tiktok-cover.png) |
-| 13 | 2026-08-15 | Captivate | Під’їзд ОСББ: домофон, доводчик і контроль входу для паркінг: скільки коштує помилка | [media](media/tiktok-covers/day-13-підїзд-tiktok-cover.png) |
-| 14 | 2026-08-16 | Expert | Самостійний монтаж: чому переробка часто дорожча для виробництво: чек-лист перед покупкою | [media](media/tiktok-covers/day-14-аудит-tiktok-cover.png) |
-| 15 | 2026-08-17 | Proof | Скільки днів архіву реально потрібно для магазин: чесне питання власнику | [media](media/tiktok-covers/day-15-архів-tiktok-cover.png) |
-| 16 | 2026-08-18 | Offer | 5 помилок монтажу камер, через які не видно обличчя для ОСББ: антифакап для дому й бізнесу | [media](media/tiktok-covers/day-16-камера-tiktok-cover.png) |
-| 17 | 2026-08-19 | Captivate | AcuSense, ColorVu та WizSense простими словами для салон: міф, який коштує грошей | [media](media/tiktok-covers/day-17-технологія-tiktok-cover.png) |
-| 18 | 2026-08-20 | Expert | До/після: акуратне кабелювання і серверний щит для приватний будинок: помилка, яку видно лише після проблеми | [media](media/tiktok-covers/day-18-монтаж-tiktok-cover.png) |
-| 19 | 2026-08-21 | Proof | Комплект відеоспостереження на 4 камери під ключ для склад: тест на реальному сценарії | [media](media/tiktok-covers/day-19-комплект-tiktok-cover.png) |
-| 20 | 2026-08-22 | Offer | Блекаут: що вимкнеться першим — камери, роутер чи Ajax для кав’ярня: до/після без прикрас | [media](media/tiktok-covers/day-20-резерв-tiktok-cover.png) |
-| 21 | 2026-08-23 | Captivate | Безпечне налаштування Hik-Connect, DMSS та Imou Life для квартира: скільки коштує помилка | [media](media/tiktok-covers/day-21-доступ-tiktok-cover.png) |
-| 22 | 2026-08-24 | Expert | Ajax + камери: як зрозуміти, що сталося під час тривоги для офіс: чек-лист перед покупкою | [media](media/tiktok-covers/day-22-ajax-tiktok-cover.png) |
-| 23 | 2026-08-25 | Proof | Відеодомофон для будинку: бачити гостя і відкривати зі смартфона для паркінг: чесне питання власнику | [media](media/tiktok-covers/day-23-домофон-tiktok-cover.png) |
-| 24 | 2026-08-26 | Offer | СКУД для офісу: як прибрати хаос із ключами для виробництво: антифакап для дому й бізнесу | [media](media/tiktok-covers/day-24-скуд-tiktok-cover.png) |
-| 25 | 2026-08-27 | Captivate | Камера для магазину: каса, вхід і сліпі зони для магазин: міф, який коштує грошей | [media](media/tiktok-covers/day-25-бізнес-tiktok-cover.png) |
-| 26 | 2026-08-28 | Expert | Двір приватного будинку: як закрити сліпі зони для ОСББ: помилка, яку видно лише після проблеми | [media](media/tiktok-covers/day-26-двір-tiktok-cover.png) |
-| 27 | 2026-08-29 | Proof | Ложні тривоги Ajax: чому систему вимикають для салон: тест на реальному сценарії | [media](media/tiktok-covers/day-27-тривога-tiktok-cover.png) |
-| 28 | 2026-08-30 | Offer | Під’їзд ОСББ: домофон, доводчик і контроль входу для приватний будинок: до/після без прикрас | [media](media/tiktok-covers/day-28-підїзд-tiktok-cover.png) |
-| 29 | 2026-08-31 | Captivate | Самостійний монтаж: чому переробка часто дорожча для склад: скільки коштує помилка | [media](media/tiktok-covers/day-29-аудит-tiktok-cover.png) |
-| 30 | 2026-09-01 | Expert | Скільки днів архіву реально потрібно для кав’ярня: чек-лист перед покупкою | [media](media/tiktok-covers/day-30-архів-tiktok-cover.png) |
-| 31 | 2026-09-02 | Proof | 5 помилок монтажу камер, через які не видно обличчя для квартира: чесне питання власнику | [media](media/tiktok-covers/day-31-камера-tiktok-cover.png) |
-| 32 | 2026-09-03 | Offer | AcuSense, ColorVu та WizSense простими словами для офіс: антифакап для дому й бізнесу | [media](media/tiktok-covers/day-32-технологія-tiktok-cover.png) |
-| 33 | 2026-09-04 | Captivate | До/після: акуратне кабелювання і серверний щит для паркінг: міф, який коштує грошей | [media](media/tiktok-covers/day-33-монтаж-tiktok-cover.png) |
-| 34 | 2026-09-05 | Expert | Комплект відеоспостереження на 4 камери під ключ для виробництво: помилка, яку видно лише після проблеми | [media](media/tiktok-covers/day-34-комплект-tiktok-cover.png) |
-| 35 | 2026-09-06 | Proof | Блекаут: що вимкнеться першим — камери, роутер чи Ajax для магазин: тест на реальному сценарії | [media](media/tiktok-covers/day-35-резерв-tiktok-cover.png) |
-| 36 | 2026-09-07 | Offer | Безпечне налаштування Hik-Connect, DMSS та Imou Life для ОСББ: до/після без прикрас | [media](media/tiktok-covers/day-36-доступ-tiktok-cover.png) |
-| 37 | 2026-09-08 | Captivate | Ajax + камери: як зрозуміти, що сталося під час тривоги для салон: скільки коштує помилка | [media](media/tiktok-covers/day-37-ajax-tiktok-cover.png) |
-| 38 | 2026-09-09 | Expert | Відеодомофон для будинку: бачити гостя і відкривати зі смартфона для приватний будинок: чек-лист перед покупкою | [media](media/tiktok-covers/day-38-домофон-tiktok-cover.png) |
-| 39 | 2026-09-10 | Proof | СКУД для офісу: як прибрати хаос із ключами для склад: чесне питання власнику | [media](media/tiktok-covers/day-39-скуд-tiktok-cover.png) |
-| 40 | 2026-09-11 | Offer | Камера для магазину: каса, вхід і сліпі зони для кав’ярня: антифакап для дому й бізнесу | [media](media/tiktok-covers/day-40-бізнес-tiktok-cover.png) |
-| 41 | 2026-09-12 | Captivate | Двір приватного будинку: як закрити сліпі зони для квартира: міф, який коштує грошей | [media](media/tiktok-covers/day-41-двір-tiktok-cover.png) |
-| 42 | 2026-09-13 | Expert | Ложні тривоги Ajax: чому систему вимикають для офіс: помилка, яку видно лише після проблеми | [media](media/tiktok-covers/day-42-тривога-tiktok-cover.png) |
-| 43 | 2026-09-14 | Proof | Під’їзд ОСББ: домофон, доводчик і контроль входу для паркінг: тест на реальному сценарії | [media](media/tiktok-covers/day-43-підїзд-tiktok-cover.png) |
-| 44 | 2026-09-15 | Offer | Самостійний монтаж: чому переробка часто дорожча для виробництво: до/після без прикрас | [media](media/tiktok-covers/day-44-аудит-tiktok-cover.png) |
-| 45 | 2026-09-16 | Captivate | Скільки днів архіву реально потрібно для магазин: скільки коштує помилка | [media](media/tiktok-covers/day-45-архів-tiktok-cover.png) |
-| 46 | 2026-09-17 | Expert | 5 помилок монтажу камер, через які не видно обличчя для ОСББ: чек-лист перед покупкою | [media](media/tiktok-covers/day-46-камера-tiktok-cover.png) |
-| 47 | 2026-09-18 | Proof | AcuSense, ColorVu та WizSense простими словами для салон: чесне питання власнику | [media](media/tiktok-covers/day-47-технологія-tiktok-cover.png) |
-| 48 | 2026-09-19 | Offer | До/після: акуратне кабелювання і серверний щит для приватний будинок: антифакап для дому й бізнесу | [media](media/tiktok-covers/day-48-монтаж-tiktok-cover.png) |
-| 49 | 2026-09-20 | Captivate | Комплект відеоспостереження на 4 камери під ключ для склад: міф, який коштує грошей | [media](media/tiktok-covers/day-49-комплект-tiktok-cover.png) |
-| 50 | 2026-09-21 | Expert | Блекаут: що вимкнеться першим — камери, роутер чи Ajax для кав’ярня: помилка, яку видно лише після проблеми | [media](media/tiktok-covers/day-50-резерв-tiktok-cover.png) |
-| 51 | 2026-09-22 | Proof | Безпечне налаштування Hik-Connect, DMSS та Imou Life для квартира: тест на реальному сценарії | [media](media/tiktok-covers/day-51-доступ-tiktok-cover.png) |
-| 52 | 2026-09-23 | Offer | Ajax + камери: як зрозуміти, що сталося під час тривоги для офіс: до/після без прикрас | [media](media/tiktok-covers/day-52-ajax-tiktok-cover.png) |
-| 53 | 2026-09-24 | Captivate | Відеодомофон для будинку: бачити гостя і відкривати зі смартфона для паркінг: скільки коштує помилка | [media](media/tiktok-covers/day-53-домофон-tiktok-cover.png) |
-| 54 | 2026-09-25 | Expert | СКУД для офісу: як прибрати хаос із ключами для виробництво: чек-лист перед покупкою | [media](media/tiktok-covers/day-54-скуд-tiktok-cover.png) |
-| 55 | 2026-09-26 | Proof | Камера для магазину: каса, вхід і сліпі зони для магазин: чесне питання власнику | [media](media/tiktok-covers/day-55-бізнес-tiktok-cover.png) |
-| 56 | 2026-09-27 | Offer | Двір приватного будинку: як закрити сліпі зони для ОСББ: антифакап для дому й бізнесу | [media](media/tiktok-covers/day-56-двір-tiktok-cover.png) |
-| 57 | 2026-09-28 | Captivate | Ложні тривоги Ajax: чому систему вимикають для салон: міф, який коштує грошей | [media](media/tiktok-covers/day-57-тривога-tiktok-cover.png) |
-| 58 | 2026-09-29 | Expert | Під’їзд ОСББ: домофон, доводчик і контроль входу для приватний будинок: помилка, яку видно лише після проблеми | [media](media/tiktok-covers/day-58-підїзд-tiktok-cover.png) |
-| 59 | 2026-09-30 | Proof | Самостійний монтаж: чому переробка часто дорожча для склад: тест на реальному сценарії | [media](media/tiktok-covers/day-59-аудит-tiktok-cover.png) |
-| 60 | 2026-10-01 | Offer | Скільки днів архіву реально потрібно для кав’ярня: до/після без прикрас | [media](media/tiktok-covers/day-60-архів-tiktok-cover.png) |
+| 1 | 2026-08-03 | Captivate | 5 помилок монтажу камер, через які не видно обличчя для квартира: міф, який коштує грошей | [media](../media/tiktok-covers/day-01-camera-tiktok-cover.png) |
+| 2 | 2026-08-04 | Expert | AcuSense, ColorVu та WizSense простими словами для офіс: помилка, яку видно лише після проблеми | [media](../media/tiktok-covers/day-02-technology-tiktok-cover.png) |
+| 3 | 2026-08-05 | Proof | До/після: акуратне кабелювання і серверний щит для паркінг: тест на реальному сценарії | [media](../media/tiktok-covers/day-03-installation-tiktok-cover.png) |
+| 4 | 2026-08-06 | Offer | Комплект відеоспостереження на 4 камери під ключ для виробництво: до/після без прикрас | [media](../media/tiktok-covers/day-04-kit-tiktok-cover.png) |
+| 5 | 2026-08-07 | Captivate | Блекаут: що вимкнеться першим — камери, роутер чи Ajax для магазин: скільки коштує помилка | [media](../media/tiktok-covers/day-05-backup-power-tiktok-cover.png) |
+| 6 | 2026-08-08 | Expert | Безпечне налаштування Hik-Connect, DMSS та Imou Life для ОСББ: чек-лист перед покупкою | [media](../media/tiktok-covers/day-06-remote-access-tiktok-cover.png) |
+| 7 | 2026-08-09 | Proof | Ajax + камери: як зрозуміти, що сталося під час тривоги для салон: чесне питання власнику | [media](../media/tiktok-covers/day-07-ajax-tiktok-cover.png) |
+| 8 | 2026-08-10 | Offer | Відеодомофон для будинку: бачити гостя і відкривати зі смартфона для приватний будинок: антифакап для дому й бізнесу | [media](../media/tiktok-covers/day-08-intercom-tiktok-cover.png) |
+| 9 | 2026-08-11 | Captivate | СКУД для офісу: як прибрати хаос із ключами для склад: міф, який коштує грошей | [media](../media/tiktok-covers/day-09-access-control-tiktok-cover.png) |
+| 10 | 2026-08-12 | Expert | Камера для магазину: каса, вхід і сліпі зони для кав’ярня: помилка, яку видно лише після проблеми | [media](../media/tiktok-covers/day-10-business-security-tiktok-cover.png) |
+| 11 | 2026-08-13 | Proof | Двір приватного будинку: як закрити сліпі зони для квартира: тест на реальному сценарії | [media](../media/tiktok-covers/day-11-yard-security-tiktok-cover.png) |
+| 12 | 2026-08-14 | Offer | Ложні тривоги Ajax: чому систему вимикають для офіс: до/після без прикрас | [media](../media/tiktok-covers/day-12-false-alarm-tiktok-cover.png) |
+| 13 | 2026-08-15 | Captivate | Під’їзд ОСББ: домофон, доводчик і контроль входу для паркінг: скільки коштує помилка | [media](../media/tiktok-covers/day-13-building-entrance-tiktok-cover.png) |
+| 14 | 2026-08-16 | Expert | Самостійний монтаж: чому переробка часто дорожча для виробництво: чек-лист перед покупкою | [media](../media/tiktok-covers/day-14-security-audit-tiktok-cover.png) |
+| 15 | 2026-08-17 | Proof | Скільки днів архіву реально потрібно для магазин: чесне питання власнику | [media](../media/tiktok-covers/day-15-archive-storage-tiktok-cover.png) |
+| 16 | 2026-08-18 | Offer | 5 помилок монтажу камер, через які не видно обличчя для ОСББ: антифакап для дому й бізнесу | [media](../media/tiktok-covers/day-16-camera-tiktok-cover.png) |
+| 17 | 2026-08-19 | Captivate | AcuSense, ColorVu та WizSense простими словами для салон: міф, який коштує грошей | [media](../media/tiktok-covers/day-17-technology-tiktok-cover.png) |
+| 18 | 2026-08-20 | Expert | До/після: акуратне кабелювання і серверний щит для приватний будинок: помилка, яку видно лише після проблеми | [media](../media/tiktok-covers/day-18-installation-tiktok-cover.png) |
+| 19 | 2026-08-21 | Proof | Комплект відеоспостереження на 4 камери під ключ для склад: тест на реальному сценарії | [media](../media/tiktok-covers/day-19-kit-tiktok-cover.png) |
+| 20 | 2026-08-22 | Offer | Блекаут: що вимкнеться першим — камери, роутер чи Ajax для кав’ярня: до/після без прикрас | [media](../media/tiktok-covers/day-20-backup-power-tiktok-cover.png) |
+| 21 | 2026-08-23 | Captivate | Безпечне налаштування Hik-Connect, DMSS та Imou Life для квартира: скільки коштує помилка | [media](../media/tiktok-covers/day-21-remote-access-tiktok-cover.png) |
+| 22 | 2026-08-24 | Expert | Ajax + камери: як зрозуміти, що сталося під час тривоги для офіс: чек-лист перед покупкою | [media](../media/tiktok-covers/day-22-ajax-tiktok-cover.png) |
+| 23 | 2026-08-25 | Proof | Відеодомофон для будинку: бачити гостя і відкривати зі смартфона для паркінг: чесне питання власнику | [media](../media/tiktok-covers/day-23-intercom-tiktok-cover.png) |
+| 24 | 2026-08-26 | Offer | СКУД для офісу: як прибрати хаос із ключами для виробництво: антифакап для дому й бізнесу | [media](../media/tiktok-covers/day-24-access-control-tiktok-cover.png) |
+| 25 | 2026-08-27 | Captivate | Камера для магазину: каса, вхід і сліпі зони для магазин: міф, який коштує грошей | [media](../media/tiktok-covers/day-25-business-security-tiktok-cover.png) |
+| 26 | 2026-08-28 | Expert | Двір приватного будинку: як закрити сліпі зони для ОСББ: помилка, яку видно лише після проблеми | [media](../media/tiktok-covers/day-26-yard-security-tiktok-cover.png) |
+| 27 | 2026-08-29 | Proof | Ложні тривоги Ajax: чому систему вимикають для салон: тест на реальному сценарії | [media](../media/tiktok-covers/day-27-false-alarm-tiktok-cover.png) |
+| 28 | 2026-08-30 | Offer | Під’їзд ОСББ: домофон, доводчик і контроль входу для приватний будинок: до/після без прикрас | [media](../media/tiktok-covers/day-28-building-entrance-tiktok-cover.png) |
+| 29 | 2026-08-31 | Captivate | Самостійний монтаж: чому переробка часто дорожча для склад: скільки коштує помилка | [media](../media/tiktok-covers/day-29-security-audit-tiktok-cover.png) |
+| 30 | 2026-09-01 | Expert | Скільки днів архіву реально потрібно для кав’ярня: чек-лист перед покупкою | [media](../media/tiktok-covers/day-30-archive-storage-tiktok-cover.png) |
+| 31 | 2026-09-02 | Proof | 5 помилок монтажу камер, через які не видно обличчя для квартира: чесне питання власнику | [media](../media/tiktok-covers/day-31-camera-tiktok-cover.png) |
+| 32 | 2026-09-03 | Offer | AcuSense, ColorVu та WizSense простими словами для офіс: антифакап для дому й бізнесу | [media](../media/tiktok-covers/day-32-technology-tiktok-cover.png) |
+| 33 | 2026-09-04 | Captivate | До/після: акуратне кабелювання і серверний щит для паркінг: міф, який коштує грошей | [media](../media/tiktok-covers/day-33-installation-tiktok-cover.png) |
+| 34 | 2026-09-05 | Expert | Комплект відеоспостереження на 4 камери під ключ для виробництво: помилка, яку видно лише після проблеми | [media](../media/tiktok-covers/day-34-kit-tiktok-cover.png) |
+| 35 | 2026-09-06 | Proof | Блекаут: що вимкнеться першим — камери, роутер чи Ajax для магазин: тест на реальному сценарії | [media](../media/tiktok-covers/day-35-backup-power-tiktok-cover.png) |
+| 36 | 2026-09-07 | Offer | Безпечне налаштування Hik-Connect, DMSS та Imou Life для ОСББ: до/після без прикрас | [media](../media/tiktok-covers/day-36-remote-access-tiktok-cover.png) |
+| 37 | 2026-09-08 | Captivate | Ajax + камери: як зрозуміти, що сталося під час тривоги для салон: скільки коштує помилка | [media](../media/tiktok-covers/day-37-ajax-tiktok-cover.png) |
+| 38 | 2026-09-09 | Expert | Відеодомофон для будинку: бачити гостя і відкривати зі смартфона для приватний будинок: чек-лист перед покупкою | [media](../media/tiktok-covers/day-38-intercom-tiktok-cover.png) |
+| 39 | 2026-09-10 | Proof | СКУД для офісу: як прибрати хаос із ключами для склад: чесне питання власнику | [media](../media/tiktok-covers/day-39-access-control-tiktok-cover.png) |
+| 40 | 2026-09-11 | Offer | Камера для магазину: каса, вхід і сліпі зони для кав’ярня: антифакап для дому й бізнесу | [media](../media/tiktok-covers/day-40-business-security-tiktok-cover.png) |
+| 41 | 2026-09-12 | Captivate | Двір приватного будинку: як закрити сліпі зони для квартира: міф, який коштує грошей | [media](../media/tiktok-covers/day-41-yard-security-tiktok-cover.png) |
+| 42 | 2026-09-13 | Expert | Ложні тривоги Ajax: чому систему вимикають для офіс: помилка, яку видно лише після проблеми | [media](../media/tiktok-covers/day-42-false-alarm-tiktok-cover.png) |
+| 43 | 2026-09-14 | Proof | Під’їзд ОСББ: домофон, доводчик і контроль входу для паркінг: тест на реальному сценарії | [media](../media/tiktok-covers/day-43-building-entrance-tiktok-cover.png) |
+| 44 | 2026-09-15 | Offer | Самостійний монтаж: чому переробка часто дорожча для виробництво: до/після без прикрас | [media](../media/tiktok-covers/day-44-security-audit-tiktok-cover.png) |
+| 45 | 2026-09-16 | Captivate | Скільки днів архіву реально потрібно для магазин: скільки коштує помилка | [media](../media/tiktok-covers/day-45-archive-storage-tiktok-cover.png) |
+| 46 | 2026-09-17 | Expert | 5 помилок монтажу камер, через які не видно обличчя для ОСББ: чек-лист перед покупкою | [media](../media/tiktok-covers/day-46-camera-tiktok-cover.png) |
+| 47 | 2026-09-18 | Proof | AcuSense, ColorVu та WizSense простими словами для салон: чесне питання власнику | [media](../media/tiktok-covers/day-47-technology-tiktok-cover.png) |
+| 48 | 2026-09-19 | Offer | До/після: акуратне кабелювання і серверний щит для приватний будинок: антифакап для дому й бізнесу | [media](../media/tiktok-covers/day-48-installation-tiktok-cover.png) |
+| 49 | 2026-09-20 | Captivate | Комплект відеоспостереження на 4 камери під ключ для склад: міф, який коштує грошей | [media](../media/tiktok-covers/day-49-kit-tiktok-cover.png) |
+| 50 | 2026-09-21 | Expert | Блекаут: що вимкнеться першим — камери, роутер чи Ajax для кав’ярня: помилка, яку видно лише після проблеми | [media](../media/tiktok-covers/day-50-backup-power-tiktok-cover.png) |
+| 51 | 2026-09-22 | Proof | Безпечне налаштування Hik-Connect, DMSS та Imou Life для квартира: тест на реальному сценарії | [media](../media/tiktok-covers/day-51-remote-access-tiktok-cover.png) |
+| 52 | 2026-09-23 | Offer | Ajax + камери: як зрозуміти, що сталося під час тривоги для офіс: до/після без прикрас | [media](../media/tiktok-covers/day-52-ajax-tiktok-cover.png) |
+| 53 | 2026-09-24 | Captivate | Відеодомофон для будинку: бачити гостя і відкривати зі смартфона для паркінг: скільки коштує помилка | [media](../media/tiktok-covers/day-53-intercom-tiktok-cover.png) |
+| 54 | 2026-09-25 | Expert | СКУД для офісу: як прибрати хаос із ключами для виробництво: чек-лист перед покупкою | [media](../media/tiktok-covers/day-54-access-control-tiktok-cover.png) |
+| 55 | 2026-09-26 | Proof | Камера для магазину: каса, вхід і сліпі зони для магазин: чесне питання власнику | [media](../media/tiktok-covers/day-55-business-security-tiktok-cover.png) |
+| 56 | 2026-09-27 | Offer | Двір приватного будинку: як закрити сліпі зони для ОСББ: антифакап для дому й бізнесу | [media](../media/tiktok-covers/day-56-yard-security-tiktok-cover.png) |
+| 57 | 2026-09-28 | Captivate | Ложні тривоги Ajax: чому систему вимикають для салон: міф, який коштує грошей | [media](../media/tiktok-covers/day-57-false-alarm-tiktok-cover.png) |
+| 58 | 2026-09-29 | Expert | Під’їзд ОСББ: домофон, доводчик і контроль входу для приватний будинок: помилка, яку видно лише після проблеми | [media](../media/tiktok-covers/day-58-building-entrance-tiktok-cover.png) |
+| 59 | 2026-09-30 | Proof | Самостійний монтаж: чому переробка часто дорожча для склад: тест на реальному сценарії | [media](../media/tiktok-covers/day-59-security-audit-tiktok-cover.png) |
+| 60 | 2026-10-01 | Offer | Скільки днів архіву реально потрібно для кав’ярня: до/після без прикрас | [media](../media/tiktok-covers/day-60-archive-storage-tiktok-cover.png) |
 
 ---
 
@@ -74,7 +74,7 @@
 **Тема:** 5 помилок монтажу камер, через які не видно обличчя для квартира: міф, який коштує грошей  
 **Об’єкт:** квартира  
 **CTA:** КАМЕРА  
-**Медіа:** [day-01-камера-tiktok-cover.png](media/tiktok-covers/day-01-камера-tiktok-cover.png)
+**Медіа:** [day-01-camera-tiktok-cover.png](../media/tiktok-covers/day-01-camera-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -106,7 +106,7 @@
 **Тема:** AcuSense, ColorVu та WizSense простими словами для офіс: помилка, яку видно лише після проблеми  
 **Об’єкт:** офіс  
 **CTA:** ТЕХНОЛОГІЯ  
-**Медіа:** [day-02-технологія-tiktok-cover.png](media/tiktok-covers/day-02-технологія-tiktok-cover.png)
+**Медіа:** [day-02-technology-tiktok-cover.png](../media/tiktok-covers/day-02-technology-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -138,7 +138,7 @@
 **Тема:** До/після: акуратне кабелювання і серверний щит для паркінг: тест на реальному сценарії  
 **Об’єкт:** паркінг  
 **CTA:** МОНТАЖ  
-**Медіа:** [day-03-монтаж-tiktok-cover.png](media/tiktok-covers/day-03-монтаж-tiktok-cover.png)
+**Медіа:** [day-03-installation-tiktok-cover.png](../media/tiktok-covers/day-03-installation-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -170,7 +170,7 @@
 **Тема:** Комплект відеоспостереження на 4 камери під ключ для виробництво: до/після без прикрас  
 **Об’єкт:** виробництво  
 **CTA:** КОМПЛЕКТ  
-**Медіа:** [day-04-комплект-tiktok-cover.png](media/tiktok-covers/day-04-комплект-tiktok-cover.png)
+**Медіа:** [day-04-kit-tiktok-cover.png](../media/tiktok-covers/day-04-kit-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -202,7 +202,7 @@
 **Тема:** Блекаут: що вимкнеться першим — камери, роутер чи Ajax для магазин: скільки коштує помилка  
 **Об’єкт:** магазин  
 **CTA:** РЕЗЕРВ  
-**Медіа:** [day-05-резерв-tiktok-cover.png](media/tiktok-covers/day-05-резерв-tiktok-cover.png)
+**Медіа:** [day-05-backup-power-tiktok-cover.png](../media/tiktok-covers/day-05-backup-power-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -234,7 +234,7 @@
 **Тема:** Безпечне налаштування Hik-Connect, DMSS та Imou Life для ОСББ: чек-лист перед покупкою  
 **Об’єкт:** ОСББ  
 **CTA:** ДОСТУП  
-**Медіа:** [day-06-доступ-tiktok-cover.png](media/tiktok-covers/day-06-доступ-tiktok-cover.png)
+**Медіа:** [day-06-remote-access-tiktok-cover.png](../media/tiktok-covers/day-06-remote-access-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -266,7 +266,7 @@
 **Тема:** Ajax + камери: як зрозуміти, що сталося під час тривоги для салон: чесне питання власнику  
 **Об’єкт:** салон  
 **CTA:** AJAX  
-**Медіа:** [day-07-ajax-tiktok-cover.png](media/tiktok-covers/day-07-ajax-tiktok-cover.png)
+**Медіа:** [day-07-ajax-tiktok-cover.png](../media/tiktok-covers/day-07-ajax-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -298,7 +298,7 @@
 **Тема:** Відеодомофон для будинку: бачити гостя і відкривати зі смартфона для приватний будинок: антифакап для дому й бізнесу  
 **Об’єкт:** приватний будинок  
 **CTA:** ДОМОФОН  
-**Медіа:** [day-08-домофон-tiktok-cover.png](media/tiktok-covers/day-08-домофон-tiktok-cover.png)
+**Медіа:** [day-08-intercom-tiktok-cover.png](../media/tiktok-covers/day-08-intercom-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -330,7 +330,7 @@
 **Тема:** СКУД для офісу: як прибрати хаос із ключами для склад: міф, який коштує грошей  
 **Об’єкт:** склад  
 **CTA:** СКУД  
-**Медіа:** [day-09-скуд-tiktok-cover.png](media/tiktok-covers/day-09-скуд-tiktok-cover.png)
+**Медіа:** [day-09-access-control-tiktok-cover.png](../media/tiktok-covers/day-09-access-control-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -362,7 +362,7 @@
 **Тема:** Камера для магазину: каса, вхід і сліпі зони для кав’ярня: помилка, яку видно лише після проблеми  
 **Об’єкт:** кав’ярня  
 **CTA:** БІЗНЕС  
-**Медіа:** [day-10-бізнес-tiktok-cover.png](media/tiktok-covers/day-10-бізнес-tiktok-cover.png)
+**Медіа:** [day-10-business-security-tiktok-cover.png](../media/tiktok-covers/day-10-business-security-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -394,7 +394,7 @@
 **Тема:** Двір приватного будинку: як закрити сліпі зони для квартира: тест на реальному сценарії  
 **Об’єкт:** квартира  
 **CTA:** ДВІР  
-**Медіа:** [day-11-двір-tiktok-cover.png](media/tiktok-covers/day-11-двір-tiktok-cover.png)
+**Медіа:** [day-11-yard-security-tiktok-cover.png](../media/tiktok-covers/day-11-yard-security-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -426,7 +426,7 @@
 **Тема:** Ложні тривоги Ajax: чому систему вимикають для офіс: до/після без прикрас  
 **Об’єкт:** офіс  
 **CTA:** ТРИВОГА  
-**Медіа:** [day-12-тривога-tiktok-cover.png](media/tiktok-covers/day-12-тривога-tiktok-cover.png)
+**Медіа:** [day-12-false-alarm-tiktok-cover.png](../media/tiktok-covers/day-12-false-alarm-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -458,7 +458,7 @@
 **Тема:** Під’їзд ОСББ: домофон, доводчик і контроль входу для паркінг: скільки коштує помилка  
 **Об’єкт:** паркінг  
 **CTA:** ПІДЇЗД  
-**Медіа:** [day-13-підїзд-tiktok-cover.png](media/tiktok-covers/day-13-підїзд-tiktok-cover.png)
+**Медіа:** [day-13-building-entrance-tiktok-cover.png](../media/tiktok-covers/day-13-building-entrance-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -490,7 +490,7 @@
 **Тема:** Самостійний монтаж: чому переробка часто дорожча для виробництво: чек-лист перед покупкою  
 **Об’єкт:** виробництво  
 **CTA:** АУДИТ  
-**Медіа:** [day-14-аудит-tiktok-cover.png](media/tiktok-covers/day-14-аудит-tiktok-cover.png)
+**Медіа:** [day-14-security-audit-tiktok-cover.png](../media/tiktok-covers/day-14-security-audit-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -522,7 +522,7 @@
 **Тема:** Скільки днів архіву реально потрібно для магазин: чесне питання власнику  
 **Об’єкт:** магазин  
 **CTA:** АРХІВ  
-**Медіа:** [day-15-архів-tiktok-cover.png](media/tiktok-covers/day-15-архів-tiktok-cover.png)
+**Медіа:** [day-15-archive-storage-tiktok-cover.png](../media/tiktok-covers/day-15-archive-storage-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -554,7 +554,7 @@
 **Тема:** 5 помилок монтажу камер, через які не видно обличчя для ОСББ: антифакап для дому й бізнесу  
 **Об’єкт:** ОСББ  
 **CTA:** КАМЕРА  
-**Медіа:** [day-16-камера-tiktok-cover.png](media/tiktok-covers/day-16-камера-tiktok-cover.png)
+**Медіа:** [day-16-camera-tiktok-cover.png](../media/tiktok-covers/day-16-camera-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -586,7 +586,7 @@
 **Тема:** AcuSense, ColorVu та WizSense простими словами для салон: міф, який коштує грошей  
 **Об’єкт:** салон  
 **CTA:** ТЕХНОЛОГІЯ  
-**Медіа:** [day-17-технологія-tiktok-cover.png](media/tiktok-covers/day-17-технологія-tiktok-cover.png)
+**Медіа:** [day-17-technology-tiktok-cover.png](../media/tiktok-covers/day-17-technology-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -618,7 +618,7 @@
 **Тема:** До/після: акуратне кабелювання і серверний щит для приватний будинок: помилка, яку видно лише після проблеми  
 **Об’єкт:** приватний будинок  
 **CTA:** МОНТАЖ  
-**Медіа:** [day-18-монтаж-tiktok-cover.png](media/tiktok-covers/day-18-монтаж-tiktok-cover.png)
+**Медіа:** [day-18-installation-tiktok-cover.png](../media/tiktok-covers/day-18-installation-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -650,7 +650,7 @@
 **Тема:** Комплект відеоспостереження на 4 камери під ключ для склад: тест на реальному сценарії  
 **Об’єкт:** склад  
 **CTA:** КОМПЛЕКТ  
-**Медіа:** [day-19-комплект-tiktok-cover.png](media/tiktok-covers/day-19-комплект-tiktok-cover.png)
+**Медіа:** [day-19-kit-tiktok-cover.png](../media/tiktok-covers/day-19-kit-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -682,7 +682,7 @@
 **Тема:** Блекаут: що вимкнеться першим — камери, роутер чи Ajax для кав’ярня: до/після без прикрас  
 **Об’єкт:** кав’ярня  
 **CTA:** РЕЗЕРВ  
-**Медіа:** [day-20-резерв-tiktok-cover.png](media/tiktok-covers/day-20-резерв-tiktok-cover.png)
+**Медіа:** [day-20-backup-power-tiktok-cover.png](../media/tiktok-covers/day-20-backup-power-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -714,7 +714,7 @@
 **Тема:** Безпечне налаштування Hik-Connect, DMSS та Imou Life для квартира: скільки коштує помилка  
 **Об’єкт:** квартира  
 **CTA:** ДОСТУП  
-**Медіа:** [day-21-доступ-tiktok-cover.png](media/tiktok-covers/day-21-доступ-tiktok-cover.png)
+**Медіа:** [day-21-remote-access-tiktok-cover.png](../media/tiktok-covers/day-21-remote-access-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -746,7 +746,7 @@
 **Тема:** Ajax + камери: як зрозуміти, що сталося під час тривоги для офіс: чек-лист перед покупкою  
 **Об’єкт:** офіс  
 **CTA:** AJAX  
-**Медіа:** [day-22-ajax-tiktok-cover.png](media/tiktok-covers/day-22-ajax-tiktok-cover.png)
+**Медіа:** [day-22-ajax-tiktok-cover.png](../media/tiktok-covers/day-22-ajax-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -778,7 +778,7 @@
 **Тема:** Відеодомофон для будинку: бачити гостя і відкривати зі смартфона для паркінг: чесне питання власнику  
 **Об’єкт:** паркінг  
 **CTA:** ДОМОФОН  
-**Медіа:** [day-23-домофон-tiktok-cover.png](media/tiktok-covers/day-23-домофон-tiktok-cover.png)
+**Медіа:** [day-23-intercom-tiktok-cover.png](../media/tiktok-covers/day-23-intercom-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -810,7 +810,7 @@
 **Тема:** СКУД для офісу: як прибрати хаос із ключами для виробництво: антифакап для дому й бізнесу  
 **Об’єкт:** виробництво  
 **CTA:** СКУД  
-**Медіа:** [day-24-скуд-tiktok-cover.png](media/tiktok-covers/day-24-скуд-tiktok-cover.png)
+**Медіа:** [day-24-access-control-tiktok-cover.png](../media/tiktok-covers/day-24-access-control-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -842,7 +842,7 @@
 **Тема:** Камера для магазину: каса, вхід і сліпі зони для магазин: міф, який коштує грошей  
 **Об’єкт:** магазин  
 **CTA:** БІЗНЕС  
-**Медіа:** [day-25-бізнес-tiktok-cover.png](media/tiktok-covers/day-25-бізнес-tiktok-cover.png)
+**Медіа:** [day-25-business-security-tiktok-cover.png](../media/tiktok-covers/day-25-business-security-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -874,7 +874,7 @@
 **Тема:** Двір приватного будинку: як закрити сліпі зони для ОСББ: помилка, яку видно лише після проблеми  
 **Об’єкт:** ОСББ  
 **CTA:** ДВІР  
-**Медіа:** [day-26-двір-tiktok-cover.png](media/tiktok-covers/day-26-двір-tiktok-cover.png)
+**Медіа:** [day-26-yard-security-tiktok-cover.png](../media/tiktok-covers/day-26-yard-security-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -906,7 +906,7 @@
 **Тема:** Ложні тривоги Ajax: чому систему вимикають для салон: тест на реальному сценарії  
 **Об’єкт:** салон  
 **CTA:** ТРИВОГА  
-**Медіа:** [day-27-тривога-tiktok-cover.png](media/tiktok-covers/day-27-тривога-tiktok-cover.png)
+**Медіа:** [day-27-false-alarm-tiktok-cover.png](../media/tiktok-covers/day-27-false-alarm-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -938,7 +938,7 @@
 **Тема:** Під’їзд ОСББ: домофон, доводчик і контроль входу для приватний будинок: до/після без прикрас  
 **Об’єкт:** приватний будинок  
 **CTA:** ПІДЇЗД  
-**Медіа:** [day-28-підїзд-tiktok-cover.png](media/tiktok-covers/day-28-підїзд-tiktok-cover.png)
+**Медіа:** [day-28-building-entrance-tiktok-cover.png](../media/tiktok-covers/day-28-building-entrance-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -970,7 +970,7 @@
 **Тема:** Самостійний монтаж: чому переробка часто дорожча для склад: скільки коштує помилка  
 **Об’єкт:** склад  
 **CTA:** АУДИТ  
-**Медіа:** [day-29-аудит-tiktok-cover.png](media/tiktok-covers/day-29-аудит-tiktok-cover.png)
+**Медіа:** [day-29-security-audit-tiktok-cover.png](../media/tiktok-covers/day-29-security-audit-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1002,7 +1002,7 @@
 **Тема:** Скільки днів архіву реально потрібно для кав’ярня: чек-лист перед покупкою  
 **Об’єкт:** кав’ярня  
 **CTA:** АРХІВ  
-**Медіа:** [day-30-архів-tiktok-cover.png](media/tiktok-covers/day-30-архів-tiktok-cover.png)
+**Медіа:** [day-30-archive-storage-tiktok-cover.png](../media/tiktok-covers/day-30-archive-storage-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1034,7 +1034,7 @@
 **Тема:** 5 помилок монтажу камер, через які не видно обличчя для квартира: чесне питання власнику  
 **Об’єкт:** квартира  
 **CTA:** КАМЕРА  
-**Медіа:** [day-31-камера-tiktok-cover.png](media/tiktok-covers/day-31-камера-tiktok-cover.png)
+**Медіа:** [day-31-camera-tiktok-cover.png](../media/tiktok-covers/day-31-camera-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1066,7 +1066,7 @@
 **Тема:** AcuSense, ColorVu та WizSense простими словами для офіс: антифакап для дому й бізнесу  
 **Об’єкт:** офіс  
 **CTA:** ТЕХНОЛОГІЯ  
-**Медіа:** [day-32-технологія-tiktok-cover.png](media/tiktok-covers/day-32-технологія-tiktok-cover.png)
+**Медіа:** [day-32-technology-tiktok-cover.png](../media/tiktok-covers/day-32-technology-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1098,7 +1098,7 @@
 **Тема:** До/після: акуратне кабелювання і серверний щит для паркінг: міф, який коштує грошей  
 **Об’єкт:** паркінг  
 **CTA:** МОНТАЖ  
-**Медіа:** [day-33-монтаж-tiktok-cover.png](media/tiktok-covers/day-33-монтаж-tiktok-cover.png)
+**Медіа:** [day-33-installation-tiktok-cover.png](../media/tiktok-covers/day-33-installation-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1130,7 +1130,7 @@
 **Тема:** Комплект відеоспостереження на 4 камери під ключ для виробництво: помилка, яку видно лише після проблеми  
 **Об’єкт:** виробництво  
 **CTA:** КОМПЛЕКТ  
-**Медіа:** [day-34-комплект-tiktok-cover.png](media/tiktok-covers/day-34-комплект-tiktok-cover.png)
+**Медіа:** [day-34-kit-tiktok-cover.png](../media/tiktok-covers/day-34-kit-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1162,7 +1162,7 @@
 **Тема:** Блекаут: що вимкнеться першим — камери, роутер чи Ajax для магазин: тест на реальному сценарії  
 **Об’єкт:** магазин  
 **CTA:** РЕЗЕРВ  
-**Медіа:** [day-35-резерв-tiktok-cover.png](media/tiktok-covers/day-35-резерв-tiktok-cover.png)
+**Медіа:** [day-35-backup-power-tiktok-cover.png](../media/tiktok-covers/day-35-backup-power-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1194,7 +1194,7 @@
 **Тема:** Безпечне налаштування Hik-Connect, DMSS та Imou Life для ОСББ: до/після без прикрас  
 **Об’єкт:** ОСББ  
 **CTA:** ДОСТУП  
-**Медіа:** [day-36-доступ-tiktok-cover.png](media/tiktok-covers/day-36-доступ-tiktok-cover.png)
+**Медіа:** [day-36-remote-access-tiktok-cover.png](../media/tiktok-covers/day-36-remote-access-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1226,7 +1226,7 @@
 **Тема:** Ajax + камери: як зрозуміти, що сталося під час тривоги для салон: скільки коштує помилка  
 **Об’єкт:** салон  
 **CTA:** AJAX  
-**Медіа:** [day-37-ajax-tiktok-cover.png](media/tiktok-covers/day-37-ajax-tiktok-cover.png)
+**Медіа:** [day-37-ajax-tiktok-cover.png](../media/tiktok-covers/day-37-ajax-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1258,7 +1258,7 @@
 **Тема:** Відеодомофон для будинку: бачити гостя і відкривати зі смартфона для приватний будинок: чек-лист перед покупкою  
 **Об’єкт:** приватний будинок  
 **CTA:** ДОМОФОН  
-**Медіа:** [day-38-домофон-tiktok-cover.png](media/tiktok-covers/day-38-домофон-tiktok-cover.png)
+**Медіа:** [day-38-intercom-tiktok-cover.png](../media/tiktok-covers/day-38-intercom-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1290,7 +1290,7 @@
 **Тема:** СКУД для офісу: як прибрати хаос із ключами для склад: чесне питання власнику  
 **Об’єкт:** склад  
 **CTA:** СКУД  
-**Медіа:** [day-39-скуд-tiktok-cover.png](media/tiktok-covers/day-39-скуд-tiktok-cover.png)
+**Медіа:** [day-39-access-control-tiktok-cover.png](../media/tiktok-covers/day-39-access-control-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1322,7 +1322,7 @@
 **Тема:** Камера для магазину: каса, вхід і сліпі зони для кав’ярня: антифакап для дому й бізнесу  
 **Об’єкт:** кав’ярня  
 **CTA:** БІЗНЕС  
-**Медіа:** [day-40-бізнес-tiktok-cover.png](media/tiktok-covers/day-40-бізнес-tiktok-cover.png)
+**Медіа:** [day-40-business-security-tiktok-cover.png](../media/tiktok-covers/day-40-business-security-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1354,7 +1354,7 @@
 **Тема:** Двір приватного будинку: як закрити сліпі зони для квартира: міф, який коштує грошей  
 **Об’єкт:** квартира  
 **CTA:** ДВІР  
-**Медіа:** [day-41-двір-tiktok-cover.png](media/tiktok-covers/day-41-двір-tiktok-cover.png)
+**Медіа:** [day-41-yard-security-tiktok-cover.png](../media/tiktok-covers/day-41-yard-security-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1386,7 +1386,7 @@
 **Тема:** Ложні тривоги Ajax: чому систему вимикають для офіс: помилка, яку видно лише після проблеми  
 **Об’єкт:** офіс  
 **CTA:** ТРИВОГА  
-**Медіа:** [day-42-тривога-tiktok-cover.png](media/tiktok-covers/day-42-тривога-tiktok-cover.png)
+**Медіа:** [day-42-false-alarm-tiktok-cover.png](../media/tiktok-covers/day-42-false-alarm-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1418,7 +1418,7 @@
 **Тема:** Під’їзд ОСББ: домофон, доводчик і контроль входу для паркінг: тест на реальному сценарії  
 **Об’єкт:** паркінг  
 **CTA:** ПІДЇЗД  
-**Медіа:** [day-43-підїзд-tiktok-cover.png](media/tiktok-covers/day-43-підїзд-tiktok-cover.png)
+**Медіа:** [day-43-building-entrance-tiktok-cover.png](../media/tiktok-covers/day-43-building-entrance-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1450,7 +1450,7 @@
 **Тема:** Самостійний монтаж: чому переробка часто дорожча для виробництво: до/після без прикрас  
 **Об’єкт:** виробництво  
 **CTA:** АУДИТ  
-**Медіа:** [day-44-аудит-tiktok-cover.png](media/tiktok-covers/day-44-аудит-tiktok-cover.png)
+**Медіа:** [day-44-security-audit-tiktok-cover.png](../media/tiktok-covers/day-44-security-audit-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1482,7 +1482,7 @@
 **Тема:** Скільки днів архіву реально потрібно для магазин: скільки коштує помилка  
 **Об’єкт:** магазин  
 **CTA:** АРХІВ  
-**Медіа:** [day-45-архів-tiktok-cover.png](media/tiktok-covers/day-45-архів-tiktok-cover.png)
+**Медіа:** [day-45-archive-storage-tiktok-cover.png](../media/tiktok-covers/day-45-archive-storage-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1514,7 +1514,7 @@
 **Тема:** 5 помилок монтажу камер, через які не видно обличчя для ОСББ: чек-лист перед покупкою  
 **Об’єкт:** ОСББ  
 **CTA:** КАМЕРА  
-**Медіа:** [day-46-камера-tiktok-cover.png](media/tiktok-covers/day-46-камера-tiktok-cover.png)
+**Медіа:** [day-46-camera-tiktok-cover.png](../media/tiktok-covers/day-46-camera-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1546,7 +1546,7 @@
 **Тема:** AcuSense, ColorVu та WizSense простими словами для салон: чесне питання власнику  
 **Об’єкт:** салон  
 **CTA:** ТЕХНОЛОГІЯ  
-**Медіа:** [day-47-технологія-tiktok-cover.png](media/tiktok-covers/day-47-технологія-tiktok-cover.png)
+**Медіа:** [day-47-technology-tiktok-cover.png](../media/tiktok-covers/day-47-technology-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1578,7 +1578,7 @@
 **Тема:** До/після: акуратне кабелювання і серверний щит для приватний будинок: антифакап для дому й бізнесу  
 **Об’єкт:** приватний будинок  
 **CTA:** МОНТАЖ  
-**Медіа:** [day-48-монтаж-tiktok-cover.png](media/tiktok-covers/day-48-монтаж-tiktok-cover.png)
+**Медіа:** [day-48-installation-tiktok-cover.png](../media/tiktok-covers/day-48-installation-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1610,7 +1610,7 @@
 **Тема:** Комплект відеоспостереження на 4 камери під ключ для склад: міф, який коштує грошей  
 **Об’єкт:** склад  
 **CTA:** КОМПЛЕКТ  
-**Медіа:** [day-49-комплект-tiktok-cover.png](media/tiktok-covers/day-49-комплект-tiktok-cover.png)
+**Медіа:** [day-49-kit-tiktok-cover.png](../media/tiktok-covers/day-49-kit-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1642,7 +1642,7 @@
 **Тема:** Блекаут: що вимкнеться першим — камери, роутер чи Ajax для кав’ярня: помилка, яку видно лише після проблеми  
 **Об’єкт:** кав’ярня  
 **CTA:** РЕЗЕРВ  
-**Медіа:** [day-50-резерв-tiktok-cover.png](media/tiktok-covers/day-50-резерв-tiktok-cover.png)
+**Медіа:** [day-50-backup-power-tiktok-cover.png](../media/tiktok-covers/day-50-backup-power-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1674,7 +1674,7 @@
 **Тема:** Безпечне налаштування Hik-Connect, DMSS та Imou Life для квартира: тест на реальному сценарії  
 **Об’єкт:** квартира  
 **CTA:** ДОСТУП  
-**Медіа:** [day-51-доступ-tiktok-cover.png](media/tiktok-covers/day-51-доступ-tiktok-cover.png)
+**Медіа:** [day-51-remote-access-tiktok-cover.png](../media/tiktok-covers/day-51-remote-access-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1706,7 +1706,7 @@
 **Тема:** Ajax + камери: як зрозуміти, що сталося під час тривоги для офіс: до/після без прикрас  
 **Об’єкт:** офіс  
 **CTA:** AJAX  
-**Медіа:** [day-52-ajax-tiktok-cover.png](media/tiktok-covers/day-52-ajax-tiktok-cover.png)
+**Медіа:** [day-52-ajax-tiktok-cover.png](../media/tiktok-covers/day-52-ajax-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1738,7 +1738,7 @@
 **Тема:** Відеодомофон для будинку: бачити гостя і відкривати зі смартфона для паркінг: скільки коштує помилка  
 **Об’єкт:** паркінг  
 **CTA:** ДОМОФОН  
-**Медіа:** [day-53-домофон-tiktok-cover.png](media/tiktok-covers/day-53-домофон-tiktok-cover.png)
+**Медіа:** [day-53-intercom-tiktok-cover.png](../media/tiktok-covers/day-53-intercom-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1770,7 +1770,7 @@
 **Тема:** СКУД для офісу: як прибрати хаос із ключами для виробництво: чек-лист перед покупкою  
 **Об’єкт:** виробництво  
 **CTA:** СКУД  
-**Медіа:** [day-54-скуд-tiktok-cover.png](media/tiktok-covers/day-54-скуд-tiktok-cover.png)
+**Медіа:** [day-54-access-control-tiktok-cover.png](../media/tiktok-covers/day-54-access-control-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1802,7 +1802,7 @@
 **Тема:** Камера для магазину: каса, вхід і сліпі зони для магазин: чесне питання власнику  
 **Об’єкт:** магазин  
 **CTA:** БІЗНЕС  
-**Медіа:** [day-55-бізнес-tiktok-cover.png](media/tiktok-covers/day-55-бізнес-tiktok-cover.png)
+**Медіа:** [day-55-business-security-tiktok-cover.png](../media/tiktok-covers/day-55-business-security-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1834,7 +1834,7 @@
 **Тема:** Двір приватного будинку: як закрити сліпі зони для ОСББ: антифакап для дому й бізнесу  
 **Об’єкт:** ОСББ  
 **CTA:** ДВІР  
-**Медіа:** [day-56-двір-tiktok-cover.png](media/tiktok-covers/day-56-двір-tiktok-cover.png)
+**Медіа:** [day-56-yard-security-tiktok-cover.png](../media/tiktok-covers/day-56-yard-security-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1866,7 +1866,7 @@
 **Тема:** Ложні тривоги Ajax: чому систему вимикають для салон: міф, який коштує грошей  
 **Об’єкт:** салон  
 **CTA:** ТРИВОГА  
-**Медіа:** [day-57-тривога-tiktok-cover.png](media/tiktok-covers/day-57-тривога-tiktok-cover.png)
+**Медіа:** [day-57-false-alarm-tiktok-cover.png](../media/tiktok-covers/day-57-false-alarm-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1898,7 +1898,7 @@
 **Тема:** Під’їзд ОСББ: домофон, доводчик і контроль входу для приватний будинок: помилка, яку видно лише після проблеми  
 **Об’єкт:** приватний будинок  
 **CTA:** ПІДЇЗД  
-**Медіа:** [day-58-підїзд-tiktok-cover.png](media/tiktok-covers/day-58-підїзд-tiktok-cover.png)
+**Медіа:** [day-58-building-entrance-tiktok-cover.png](../media/tiktok-covers/day-58-building-entrance-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1930,7 +1930,7 @@
 **Тема:** Самостійний монтаж: чому переробка часто дорожча для склад: тест на реальному сценарії  
 **Об’єкт:** склад  
 **CTA:** АУДИТ  
-**Медіа:** [day-59-аудит-tiktok-cover.png](media/tiktok-covers/day-59-аудит-tiktok-cover.png)
+**Медіа:** [day-59-security-audit-tiktok-cover.png](../media/tiktok-covers/day-59-security-audit-tiktok-cover.png)
 
 ### Готовий текст
 
@@ -1962,7 +1962,7 @@
 **Тема:** Скільки днів архіву реально потрібно для кав’ярня: до/після без прикрас  
 **Об’єкт:** кав’ярня  
 **CTA:** АРХІВ  
-**Медіа:** [day-60-архів-tiktok-cover.png](media/tiktok-covers/day-60-архів-tiktok-cover.png)
+**Медіа:** [day-60-archive-storage-tiktok-cover.png](../media/tiktok-covers/day-60-archive-storage-tiktok-cover.png)
 
 ### Готовий текст
 

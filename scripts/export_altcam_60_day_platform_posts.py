@@ -30,6 +30,11 @@ def media_link(day: dict, platform: str) -> str:
     return ""
 
 
+def markdown_media_link(day: dict, platform: str) -> str:
+    link = media_link(day, platform)
+    return f"../{link}" if link else ""
+
+
 def platform_text(day: dict, platform: str) -> str:
     if platform == "facebook":
         return day["instagram_facebook"]["caption"]
@@ -54,12 +59,12 @@ def render_platform_md(plan: dict, platform: str, title: str) -> str:
         "|---:|---|---|---|---|",
     ]
     for day in plan["days"]:
-        link = media_link(day, platform)
+        link = markdown_media_link(day, platform)
         link_md = f"[media]({link})" if link else "—"
         lines.append(f"| {day['day']} | {day['date']} | {day['content_type']} | {day['topic']} | {link_md} |")
 
     for day in plan["days"]:
-        link = media_link(day, platform)
+        link = markdown_media_link(day, platform)
         lines.extend([
             "",
             "---",
