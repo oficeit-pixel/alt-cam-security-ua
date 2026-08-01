@@ -21,6 +21,12 @@ def calendar_media_path(path: str) -> str:
     return os.path.relpath(source, CALENDAR_DIR).replace("\\", "/")
 
 
+def premium_prompt_path(day: dict) -> str:
+    source_name = Path(day["media"]["generation_prompt"]).name.replace("-media-prompt.md", "-premium-grok-prompt.md")
+    source = PLAN_DIR / "media" / "premium-grok-prompts" / source_name
+    return os.path.relpath(source, CALENDAR_DIR).replace("\\", "/")
+
+
 def first_lines(text: str, count: int = 2) -> str:
     lines = [line.strip() for line in text.splitlines() if line.strip()]
     return " ".join(lines[:count])
@@ -58,6 +64,7 @@ def build_payload() -> dict:
                 "image_path": calendar_media_path(media["tiktok_cover"]),
                 "youtube_thumb": calendar_media_path(media["youtube_thumbnail"]),
                 "prompt_path": calendar_media_path(media["generation_prompt"]),
+                "premium_prompt_path": premium_prompt_path(day),
                 "caption": draft.get("caption", ""),
                 "summary": first_lines(draft.get("caption", "")),
                 "captions": {
@@ -199,6 +206,7 @@ def render_html() -> str:
       <button data-filter="Proof">Proof</button>
       <button data-filter="Offer">Offer</button>
       <a class="link-btn" href="../content-plans/2026-08-03-60-day-matrix/media/MEDIA_INDEX.md">MEDIA_INDEX</a>
+      <a class="link-btn" href="../content-plans/2026-08-03-60-day-matrix/media/premium-grok-prompts/README.md">Premium Grok prompts</a>
       <a class="link-btn" href="../content-plans/2026-08-03-60-day-matrix/platform-posts/README.md">Тексти по платформах</a>
     </nav>
     <section class="platform-plan" aria-label="План публикацій по соцмережах">
@@ -266,6 +274,7 @@ def render_html() -> str:
                   <span class="chip">${escapeHtml(post.keyword)}</span>
                   <span class="chip">${escapeHtml(post.object_type)}</span>
                   <span class="chip">📍 Київ / Вишгород</span>
+                  <a class="chip" href="${post.premium_prompt_path}">Premium prompt</a>
                 </div>
                 <div class="platform-grid">
                   <div class="mini"><strong>TikTok/Reels/Shorts</strong><br>${escapeHtml(post.platform_details.tiktok.visual_hook)}</div>

@@ -87,6 +87,7 @@
       <button data-filter="Proof">Proof</button>
       <button data-filter="Offer">Offer</button>
       <a class="link-btn" href="../content-plans/2026-08-03-60-day-matrix/media/MEDIA_INDEX.md">MEDIA_INDEX</a>
+      <a class="link-btn" href="../content-plans/2026-08-03-60-day-matrix/media/premium-grok-prompts/README.md">Premium Grok prompts</a>
       <a class="link-btn" href="../content-plans/2026-08-03-60-day-matrix/platform-posts/README.md">Тексти по платформах</a>
     </nav>
     <section class="platform-plan" aria-label="План публикацій по соцмережах">
@@ -154,6 +155,7 @@
                   <span class="chip">${escapeHtml(post.keyword)}</span>
                   <span class="chip">${escapeHtml(post.object_type)}</span>
                   <span class="chip">📍 Київ / Вишгород</span>
+                  <a class="chip" href="${post.premium_prompt_path}">Premium prompt</a>
                 </div>
                 <div class="platform-grid">
                   <div class="mini"><strong>TikTok/Reels/Shorts</strong><br>${escapeHtml(post.platform_details.tiktok.visual_hook)}</div>
