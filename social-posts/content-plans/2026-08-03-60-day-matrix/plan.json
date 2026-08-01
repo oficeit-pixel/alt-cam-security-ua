@@ -145,9 +145,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-01-камера-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-01-камера-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-01-камера-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-01-camera-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-01-camera-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-01-camera-media-prompt.md"
       }
     },
     {
@@ -270,9 +270,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-02-технологія-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-02-технологія-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-02-технологія-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-02-technology-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-02-technology-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-02-technology-media-prompt.md"
       }
     },
     {
@@ -395,9 +395,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-03-монтаж-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-03-монтаж-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-03-монтаж-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-03-installation-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-03-installation-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-03-installation-media-prompt.md"
       }
     },
     {
@@ -520,9 +520,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-04-комплект-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-04-комплект-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-04-комплект-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-04-kit-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-04-kit-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-04-kit-media-prompt.md"
       }
     },
     {
@@ -645,9 +645,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-05-резерв-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-05-резерв-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-05-резерв-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-05-backup-power-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-05-backup-power-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-05-backup-power-media-prompt.md"
       }
     },
     {
@@ -770,9 +770,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-06-доступ-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-06-доступ-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-06-доступ-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-06-remote-access-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-06-remote-access-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-06-remote-access-media-prompt.md"
       }
     },
     {
@@ -1020,9 +1020,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-08-домофон-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-08-домофон-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-08-домофон-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-08-intercom-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-08-intercom-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-08-intercom-media-prompt.md"
       }
     },
     {
@@ -1145,9 +1145,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-09-скуд-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-09-скуд-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-09-скуд-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-09-access-control-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-09-access-control-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-09-access-control-media-prompt.md"
       }
     },
     {
@@ -1270,9 +1270,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-10-бізнес-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-10-бізнес-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-10-бізнес-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-10-business-security-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-10-business-security-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-10-business-security-media-prompt.md"
       }
     },
     {
@@ -1395,9 +1395,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-11-двір-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-11-двір-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-11-двір-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-11-yard-security-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-11-yard-security-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-11-yard-security-media-prompt.md"
       }
     },
     {
@@ -1520,9 +1520,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-12-тривога-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-12-тривога-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-12-тривога-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-12-false-alarm-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-12-false-alarm-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-12-false-alarm-media-prompt.md"
       }
     },
     {
@@ -1645,9 +1645,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-13-підїзд-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-13-підїзд-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-13-підїзд-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-13-building-entrance-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-13-building-entrance-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-13-building-entrance-media-prompt.md"
       }
     },
     {
@@ -1770,9 +1770,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-14-аудит-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-14-аудит-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-14-аудит-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-14-security-audit-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-14-security-audit-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-14-security-audit-media-prompt.md"
       }
     },
     {
@@ -1895,9 +1895,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-15-архів-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-15-архів-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-15-архів-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-15-archive-storage-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-15-archive-storage-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-15-archive-storage-media-prompt.md"
       }
     },
     {
@@ -2020,9 +2020,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-16-камера-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-16-камера-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-16-камера-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-16-camera-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-16-camera-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-16-camera-media-prompt.md"
       }
     },
     {
@@ -2145,9 +2145,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-17-технологія-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-17-технологія-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-17-технологія-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-17-technology-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-17-technology-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-17-technology-media-prompt.md"
       }
     },
     {
@@ -2270,9 +2270,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-18-монтаж-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-18-монтаж-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-18-монтаж-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-18-installation-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-18-installation-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-18-installation-media-prompt.md"
       }
     },
     {
@@ -2395,9 +2395,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-19-комплект-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-19-комплект-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-19-комплект-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-19-kit-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-19-kit-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-19-kit-media-prompt.md"
       }
     },
     {
@@ -2520,9 +2520,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-20-резерв-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-20-резерв-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-20-резерв-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-20-backup-power-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-20-backup-power-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-20-backup-power-media-prompt.md"
       }
     },
     {
@@ -2645,9 +2645,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-21-доступ-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-21-доступ-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-21-доступ-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-21-remote-access-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-21-remote-access-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-21-remote-access-media-prompt.md"
       }
     },
     {
@@ -2895,9 +2895,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-23-домофон-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-23-домофон-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-23-домофон-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-23-intercom-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-23-intercom-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-23-intercom-media-prompt.md"
       }
     },
     {
@@ -3020,9 +3020,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-24-скуд-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-24-скуд-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-24-скуд-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-24-access-control-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-24-access-control-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-24-access-control-media-prompt.md"
       }
     },
     {
@@ -3145,9 +3145,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-25-бізнес-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-25-бізнес-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-25-бізнес-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-25-business-security-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-25-business-security-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-25-business-security-media-prompt.md"
       }
     },
     {
@@ -3270,9 +3270,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-26-двір-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-26-двір-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-26-двір-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-26-yard-security-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-26-yard-security-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-26-yard-security-media-prompt.md"
       }
     },
     {
@@ -3395,9 +3395,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-27-тривога-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-27-тривога-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-27-тривога-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-27-false-alarm-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-27-false-alarm-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-27-false-alarm-media-prompt.md"
       }
     },
     {
@@ -3520,9 +3520,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-28-підїзд-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-28-підїзд-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-28-підїзд-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-28-building-entrance-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-28-building-entrance-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-28-building-entrance-media-prompt.md"
       }
     },
     {
@@ -3645,9 +3645,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-29-аудит-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-29-аудит-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-29-аудит-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-29-security-audit-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-29-security-audit-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-29-security-audit-media-prompt.md"
       }
     },
     {
@@ -3770,9 +3770,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-30-архів-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-30-архів-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-30-архів-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-30-archive-storage-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-30-archive-storage-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-30-archive-storage-media-prompt.md"
       }
     },
     {
@@ -3895,9 +3895,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-31-камера-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-31-камера-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-31-камера-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-31-camera-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-31-camera-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-31-camera-media-prompt.md"
       }
     },
     {
@@ -4020,9 +4020,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-32-технологія-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-32-технологія-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-32-технологія-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-32-technology-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-32-technology-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-32-technology-media-prompt.md"
       }
     },
     {
@@ -4145,9 +4145,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-33-монтаж-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-33-монтаж-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-33-монтаж-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-33-installation-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-33-installation-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-33-installation-media-prompt.md"
       }
     },
     {
@@ -4270,9 +4270,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-34-комплект-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-34-комплект-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-34-комплект-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-34-kit-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-34-kit-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-34-kit-media-prompt.md"
       }
     },
     {
@@ -4395,9 +4395,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-35-резерв-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-35-резерв-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-35-резерв-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-35-backup-power-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-35-backup-power-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-35-backup-power-media-prompt.md"
       }
     },
     {
@@ -4520,9 +4520,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-36-доступ-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-36-доступ-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-36-доступ-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-36-remote-access-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-36-remote-access-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-36-remote-access-media-prompt.md"
       }
     },
     {
@@ -4770,9 +4770,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-38-домофон-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-38-домофон-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-38-домофон-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-38-intercom-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-38-intercom-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-38-intercom-media-prompt.md"
       }
     },
     {
@@ -4895,9 +4895,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-39-скуд-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-39-скуд-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-39-скуд-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-39-access-control-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-39-access-control-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-39-access-control-media-prompt.md"
       }
     },
     {
@@ -5020,9 +5020,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-40-бізнес-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-40-бізнес-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-40-бізнес-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-40-business-security-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-40-business-security-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-40-business-security-media-prompt.md"
       }
     },
     {
@@ -5145,9 +5145,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-41-двір-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-41-двір-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-41-двір-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-41-yard-security-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-41-yard-security-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-41-yard-security-media-prompt.md"
       }
     },
     {
@@ -5270,9 +5270,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-42-тривога-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-42-тривога-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-42-тривога-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-42-false-alarm-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-42-false-alarm-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-42-false-alarm-media-prompt.md"
       }
     },
     {
@@ -5395,9 +5395,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-43-підїзд-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-43-підїзд-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-43-підїзд-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-43-building-entrance-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-43-building-entrance-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-43-building-entrance-media-prompt.md"
       }
     },
     {
@@ -5520,9 +5520,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-44-аудит-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-44-аудит-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-44-аудит-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-44-security-audit-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-44-security-audit-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-44-security-audit-media-prompt.md"
       }
     },
     {
@@ -5645,9 +5645,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-45-архів-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-45-архів-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-45-архів-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-45-archive-storage-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-45-archive-storage-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-45-archive-storage-media-prompt.md"
       }
     },
     {
@@ -5770,9 +5770,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-46-камера-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-46-камера-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-46-камера-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-46-camera-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-46-camera-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-46-camera-media-prompt.md"
       }
     },
     {
@@ -5895,9 +5895,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-47-технологія-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-47-технологія-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-47-технологія-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-47-technology-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-47-technology-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-47-technology-media-prompt.md"
       }
     },
     {
@@ -6020,9 +6020,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-48-монтаж-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-48-монтаж-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-48-монтаж-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-48-installation-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-48-installation-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-48-installation-media-prompt.md"
       }
     },
     {
@@ -6145,9 +6145,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-49-комплект-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-49-комплект-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-49-комплект-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-49-kit-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-49-kit-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-49-kit-media-prompt.md"
       }
     },
     {
@@ -6270,9 +6270,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-50-резерв-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-50-резерв-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-50-резерв-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-50-backup-power-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-50-backup-power-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-50-backup-power-media-prompt.md"
       }
     },
     {
@@ -6395,9 +6395,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-51-доступ-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-51-доступ-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-51-доступ-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-51-remote-access-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-51-remote-access-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-51-remote-access-media-prompt.md"
       }
     },
     {
@@ -6645,9 +6645,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-53-домофон-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-53-домофон-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-53-домофон-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-53-intercom-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-53-intercom-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-53-intercom-media-prompt.md"
       }
     },
     {
@@ -6770,9 +6770,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-54-скуд-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-54-скуд-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-54-скуд-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-54-access-control-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-54-access-control-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-54-access-control-media-prompt.md"
       }
     },
     {
@@ -6895,9 +6895,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-55-бізнес-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-55-бізнес-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-55-бізнес-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-55-business-security-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-55-business-security-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-55-business-security-media-prompt.md"
       }
     },
     {
@@ -7020,9 +7020,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-56-двір-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-56-двір-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-56-двір-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-56-yard-security-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-56-yard-security-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-56-yard-security-media-prompt.md"
       }
     },
     {
@@ -7145,9 +7145,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-57-тривога-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-57-тривога-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-57-тривога-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-57-false-alarm-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-57-false-alarm-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-57-false-alarm-media-prompt.md"
       }
     },
     {
@@ -7270,9 +7270,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-58-підїзд-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-58-підїзд-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-58-підїзд-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-58-building-entrance-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-58-building-entrance-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-58-building-entrance-media-prompt.md"
       }
     },
     {
@@ -7395,9 +7395,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-59-аудит-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-59-аудит-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-59-аудит-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-59-security-audit-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-59-security-audit-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-59-security-audit-media-prompt.md"
       }
     },
     {
@@ -7520,9 +7520,9 @@
         }
       },
       "media": {
-        "tiktok_cover": "media/tiktok-covers/day-60-архів-tiktok-cover.png",
-        "youtube_thumbnail": "media/youtube-thumbnails/day-60-архів-youtube-thumb.png",
-        "generation_prompt": "media/generation-prompts/day-60-архів-media-prompt.md"
+        "tiktok_cover": "media/tiktok-covers/day-60-archive-storage-tiktok-cover.png",
+        "youtube_thumbnail": "media/youtube-thumbnails/day-60-archive-storage-youtube-thumb.png",
+        "generation_prompt": "media/generation-prompts/day-60-archive-storage-media-prompt.md"
       }
     }
   ]

@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import json
-import re
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
@@ -34,10 +33,28 @@ def font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
     return ImageFont.load_default()
 
 
-def slug(text: str) -> str:
-    text = text.lower()
-    text = re.sub(r"[^a-zа-яіїєґ0-9]+", "-", text, flags=re.IGNORECASE)
-    return text.strip("-")[:70] or "altcam"
+KEYWORD_SLUGS = {
+    "КАМЕРА": "camera",
+    "ТЕХНОЛОГІЯ": "technology",
+    "МОНТАЖ": "installation",
+    "КОМПЛЕКТ": "kit",
+    "РЕЗЕРВ": "backup-power",
+    "ДОСТУП": "remote-access",
+    "AJAX": "ajax",
+    "ДОМОФОН": "intercom",
+    "СКУД": "access-control",
+    "БІЗНЕС": "business-security",
+    "ДВІР": "yard-security",
+    "ТРИВОГА": "false-alarm",
+    "ПІДЇЗД": "building-entrance",
+    "АУДИТ": "security-audit",
+    "АРХІВ": "archive-storage",
+}
+
+
+def slug(day: dict) -> str:
+    keyword = day.get("keyword", "")
+    return KEYWORD_SLUGS.get(keyword, f"topic-{day['day']:02d}")
 
 
 def wrap(draw: ImageDraw.ImageDraw, text: str, fnt: ImageFont.FreeTypeFont, width: int) -> list[str]:
@@ -183,7 +200,7 @@ def main() -> int:
 
     index = []
     for day in plan["days"]:
-        base = f"day-{day['day']:02d}-{slug(day['keyword'])}"
+        base = f"day-{day['day']:02d}-{slug(day)}"
         tiktok_path = tiktok_dir / f"{base}-tiktok-cover.png"
         youtube_path = youtube_dir / f"{base}-youtube-thumb.png"
         prompt_path = prompts_dir / f"{base}-media-prompt.md"
@@ -212,10 +229,13 @@ def main() -> int:
     ]
     for day in index:
         media = day["media"]
+        tiktok_link = str(Path(media["tiktok_cover"]).relative_to("media")).replace("\\", "/")
+        youtube_link = str(Path(media["youtube_thumbnail"]).relative_to("media")).replace("\\", "/")
+        prompt_link = str(Path(media["generation_prompt"]).relative_to("media")).replace("\\", "/")
         lines.append(
-            f"| {day['day']} | {day['topic']} | [{Path(media['tiktok_cover']).name}]({media['tiktok_cover']}) | "
-            f"[{Path(media['youtube_thumbnail']).name}]({media['youtube_thumbnail']}) | "
-            f"[prompt]({media['generation_prompt']}) |"
+            f"| {day['day']} | {day['topic']} | [{Path(media['tiktok_cover']).name}]({tiktok_link}) | "
+            f"[{Path(media['youtube_thumbnail']).name}]({youtube_link}) | "
+            f"[prompt]({prompt_link}) |"
         )
     (MEDIA_DIR / "MEDIA_INDEX.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(MEDIA_DIR)
