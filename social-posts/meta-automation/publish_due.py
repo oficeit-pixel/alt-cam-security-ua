@@ -173,7 +173,29 @@ def publish_instagram(post: dict) -> dict:
     api_base = "instagram" if token.startswith("IG") else "facebook"
 
     instagram_media_type = str(post.get("instagram_media_type", "")).upper()
-    if instagram_media_type == "STORIES":
+    if instagram_media_type == "CAROUSEL":
+        image_urls = post.get("image_urls") or []
+        if len(image_urls) < 2:
+            raise RuntimeError("Instagram carousel needs at least two image_urls.")
+        child_ids = []
+        for image_url in image_urls[:10]:
+            child = post_graph(
+                f"{ig_user_id}/media",
+                token,
+                {"image_url": image_url, "is_carousel_item": "true"},
+                base=api_base,
+            )
+            child_id = child.get("id")
+            if not child_id:
+                raise RuntimeError(f"Instagram did not return carousel child id: {child}")
+            wait_for_instagram_container(child_id, token, api_base)
+            child_ids.append(child_id)
+        media_payload = {
+            "media_type": "CAROUSEL",
+            "children": ",".join(child_ids),
+            "caption": caption_for(post, "instagram"),
+        }
+    elif instagram_media_type == "STORIES":
         media_payload = {"media_type": "STORIES"}
         if post.get("media_type") == "video":
             media_payload["video_url"] = post["video_url"]
