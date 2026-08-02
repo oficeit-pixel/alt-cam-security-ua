@@ -89,6 +89,22 @@ def tiktok_post(path: str, token: str, payload: dict | None = None) -> dict:
     return body
 
 
+def tiktok_get(path: str, token: str, params: dict | None = None) -> dict:
+    response = requests.get(
+        tiktok_url(path),
+        headers={"Authorization": f"Bearer {token}"},
+        params=params or {},
+        timeout=60,
+    )
+    try:
+        body = response.json()
+    except Exception:
+        body = {"raw": response.text}
+    if not response.ok or body.get("error", {}).get("code") not in {None, "", "ok"}:
+        raise RuntimeError(f"TikTok API error {response.status_code} for {path}: {body}")
+    return body
+
+
 def main() -> int:
     load_env_file(ENV_FILE)
     failures: list[str] = []
@@ -186,7 +202,14 @@ def main() -> int:
         print()
         print("Checking TikTok Content Posting token...")
         try:
-            creator = tiktok_post("/v2/post/publish/creator_info/query/", tiktok_token)
+            if os.getenv("TIKTOK_POST_MODE", "MEDIA_UPLOAD").upper() == "DIRECT_POST":
+                creator = tiktok_post("/v2/post/publish/creator_info/query/", tiktok_token)
+            else:
+                creator = tiktok_get(
+                    "/v2/user/info/",
+                    tiktok_token,
+                    {"fields": "open_id,display_name,avatar_url"},
+                )
         except Exception as exc:
             failures.append(f"TikTok token check failed: {exc}")
             print(f"TikTok token check failed: {exc}")
