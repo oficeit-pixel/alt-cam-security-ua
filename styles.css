@@ -972,6 +972,30 @@ h2, .section-head.light h2 { color: #f5f5f7; }
   border-radius: 12px;
   background: rgba(18,18,18,.56);
   backdrop-filter: blur(10px);
+  opacity: 0;
+  transform: translateY(18px);
+  pointer-events: none;
+  transition: opacity .28s ease, transform .28s ease;
+}
+
+.work-card::after {
+  opacity: 0;
+  transition: opacity .28s ease;
+}
+
+.work-card:hover::after,
+.work-card:focus::after,
+.work-card:focus-visible::after,
+.work-card.is-active::after {
+  opacity: 1;
+}
+
+.work-card:hover figcaption,
+.work-card:focus figcaption,
+.work-card:focus-visible figcaption,
+.work-card.is-active figcaption {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .work-card figcaption span,

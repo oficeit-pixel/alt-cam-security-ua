@@ -293,6 +293,35 @@ const observer = new IntersectionObserver((entries) => {
 
 document.querySelectorAll(".reveal").forEach((element) => observer.observe(element));
 
+const workCards = document.querySelectorAll(".work-card");
+
+workCards.forEach((card) => {
+  card.addEventListener("pointerenter", () => {
+    if (window.matchMedia("(hover: hover)").matches) {
+      card.classList.add("is-active");
+    }
+  });
+
+  card.addEventListener("pointerleave", () => {
+    if (window.matchMedia("(hover: hover)").matches) {
+      card.classList.remove("is-active");
+    }
+  });
+
+  card.addEventListener("click", () => {
+    if (!window.matchMedia("(hover: none)").matches) return;
+    const isActive = card.classList.contains("is-active");
+    workCards.forEach((item) => item.classList.remove("is-active"));
+    card.classList.toggle("is-active", !isActive);
+  });
+});
+
+document.addEventListener("click", (event) => {
+  if (!event.target.closest(".work-card")) {
+    workCards.forEach((card) => card.classList.remove("is-active"));
+  }
+});
+
 function telegramUrl(text = "Вітаю! Хочу отримати консультацію щодо системи безпеки.") {
   return CONTACTS.telegram
     ? `https://t.me/${CONTACTS.telegram}?text=${encodeURIComponent(text)}`
