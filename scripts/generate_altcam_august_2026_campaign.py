@@ -92,7 +92,7 @@ SLOTS = [
     ("20:30", "Послуга", 1, ["facebook", "instagram", "threads", "telegram"], "4:5"),
 ]
 
-COLORS = [(255, 204, 0), (0, 210, 255), (255, 86, 64), (85, 226, 145), (180, 95, 255)]
+COLORS = [(255, 204, 0), (45, 189, 255), (255, 112, 87), (64, 214, 143), (174, 112, 255)]
 
 PUBLISH_DISTRIBUTION = {
     "Стаття": ["facebook", "telegram"],
@@ -134,59 +134,71 @@ def source_images() -> dict[str, list[Path]]:
     return groups
 
 
-def gradient(size, accent):
+def bright_canvas(size, accent):
+    """Bright brand background without dimming the source photo."""
     w, h = size
-    image = Image.new("RGB", size, (9, 12, 18))
-    glow = Image.new("RGBA", size, (0, 0, 0, 0))
-    gd = ImageDraw.Draw(glow)
-    radius = int(max(w, h) * .52)
-    cx, cy = int(w * .82), int(h * .15)
-    gd.ellipse((cx-radius, cy-radius, cx+radius, cy+radius), fill=accent + (115,))
-    glow = glow.filter(ImageFilter.GaussianBlur(radius // 2))
-    return Image.alpha_composite(image.convert("RGBA"), glow).convert("RGB")
+    image = Image.new("RGB", size, (248, 249, 252))
+    draw = ImageDraw.Draw(image)
+    draw.rounded_rectangle((-w // 5, -h // 7, int(w * .72), int(h * .34)), radius=90, fill=accent)
+    draw.ellipse((int(w * .70), int(h * .02), int(w * 1.18), int(h * .34)), fill=(255, 225, 92))
+    draw.rectangle((0, h - 18, w, h), fill=accent)
+    return image
 
 
-def render_card(post: dict, background_path: Path, output: Path):
-    sizes = {"9:16": (1080, 1920), "4:5": (1080, 1350), "16:9": (1280, 720)}
+def render_card(post: dict, background_path: Path, output: Path, slide=1, total=1):
+    sizes = {"9:16": (1080, 1920), "4:5": (1080, 1350), "16:9": (1200, 630)}
     size = sizes[post["aspect_ratio"]]
     accent = COLORS[(post["day"] + post["slot_index"]) % len(COLORS)]
-    canvas = gradient(size, accent)
+    canvas = bright_canvas(size, accent)
     bg = Image.open(background_path).convert("RGB")
-    bg = ImageOps.fit(bg, size, method=Image.Resampling.LANCZOS)
-    bg = ImageEnhance.Contrast(bg).enhance(1.08)
-    bg = ImageEnhance.Color(bg).enhance(1.1)
-    overlay = Image.new("RGBA", size, (0, 0, 0, 0))
-    od = ImageDraw.Draw(overlay)
+    bg = ImageEnhance.Contrast(bg).enhance(1.03)
+    bg = ImageEnhance.Color(bg).enhance(1.06)
+    w, h = size
     if post["aspect_ratio"] == "16:9":
-        od.rectangle((0, 0, int(size[0] * .64), size[1]), fill=(5, 8, 14, 218))
-        od.rectangle((int(size[0] * .6), 0, size[0], size[1]), fill=(5, 8, 14, 65))
-        text_width, x, y = int(size[0] * .53), 64, 92
-        title_size, small_size = 58, 27
+        photo_box = (int(w * .54), 34, w - 34, h - 34)
+        text_width, x, y = int(w * .46), 54, 54
+        title_size, small_size = 48, 23
     else:
-        od.rectangle((0, 0, size[0], size[1]), fill=(5, 8, 14, 72))
-        od.rectangle((0, 0, size[0], int(size[1] * .48)), fill=(5, 8, 14, 220))
-        od.rectangle((0, int(size[1] * .78), size[0], size[1]), fill=(5, 8, 14, 224))
-        text_width, x, y = size[0] - 112, 56, 92
-        title_size, small_size = (70 if post["aspect_ratio"] == "9:16" else 60), 29
-    canvas = Image.blend(canvas, bg, .55)
-    canvas = Image.alpha_composite(canvas.convert("RGBA"), overlay)
+        photo_top = int(h * .46)
+        photo_box = (48, photo_top, w - 48, h - 178)
+        text_width, x, y = w - 112, 56, 70
+        title_size, small_size = (64 if post["aspect_ratio"] == "9:16" else 54), 27
+
+    px0, py0, px1, py1 = photo_box
+    canvas_draw = ImageDraw.Draw(canvas)
+    canvas_draw.rounded_rectangle(photo_box, radius=38, fill=(255, 255, 255), outline=(220, 224, 232), width=3)
+    fitted = ImageOps.contain(bg, (px1 - px0 - 24, py1 - py0 - 24), method=Image.Resampling.LANCZOS)
+    fx = px0 + (px1 - px0 - fitted.width) // 2
+    fy = py0 + (py1 - py0 - fitted.height) // 2
+    canvas.paste(fitted, (fx, fy))
+    canvas = canvas.convert("RGBA")
     draw = ImageDraw.Draw(canvas)
-    draw.rounded_rectangle((x, y, x + 230, y + 48), radius=24, fill=accent + (255,))
-    draw.text((x + 20, y + 10), post["content_format"].upper(), font=font(22, True), fill=(8, 10, 14))
+    label = post["content_format"].upper()
+    if total > 1:
+        label += f"  {slide}/{total}"
+    draw.rounded_rectangle((x, y, x + 290, y + 48), radius=24, fill=(20, 24, 31, 255))
+    draw.text((x + 20, y + 10), label, font=font(21, True), fill=accent)
     y += 78
     title_font = font(title_size, True)
-    lines = wrap(draw, post["question"], title_font, text_width)
+    slide_titles = post.get("carousel_titles") or [post["question"]]
+    title = slide_titles[min(slide - 1, len(slide_titles) - 1)]
+    lines = wrap(draw, title, title_font, text_width)
     for line in lines[:4]:
-        draw.text((x, y), line, font=title_font, fill=(255, 255, 255), stroke_width=1, stroke_fill=(0, 0, 0))
+        draw.text((x, y), line, font=title_font, fill=(15, 20, 29))
         y += title_size * 1.08
     draw.line((x, y + 14, x + min(300, text_width), y + 14), fill=accent, width=8)
-    if post["aspect_ratio"] == "16:9":
-        bottom_y = size[1] - 135
-    else:
-        bottom_y = size[1] - 185
-    draw.text((x, bottom_y), "ALT-CAM SECURITY UA", font=font(small_size, True), fill=accent)
-    draw.text((x, bottom_y + 42), post["cta_short"], font=font(small_size, True), fill=(255, 255, 255))
-    draw.text((x, bottom_y + 82), "Київ • Вишгород • область", font=font(22), fill=(210, 214, 222))
+    if post["content_format"] in {"Товар", "Послуга"}:
+        info_font = font(25 if post["aspect_ratio"] != "16:9" else 22, False)
+        info_y = y + 34
+        for info_line in wrap(draw, post["summary"], info_font, text_width)[:3]:
+            draw.text((x, info_y), info_line, font=info_font, fill=(42, 49, 60))
+            info_y += 34
+    bottom_y = h - (136 if post["aspect_ratio"] == "16:9" else 150)
+    provider = "ПРОДАЄ ALT-CAM" if post["content_format"] == "Товар" else "НАДАЄ ALT-CAM" if post["content_format"] == "Послуга" else "ALT-CAM SECURITY UA"
+    draw.text((x, bottom_y), provider, font=font(small_size, True), fill=(17, 22, 30))
+    detail = post.get("price") if post["content_format"] in {"Товар", "Послуга"} else post["cta_short"]
+    draw.text((x, bottom_y + 38), detail or post["cta_short"], font=font(small_size, True), fill=(17, 22, 30))
+    draw.text((x, bottom_y + 76), "Київ • Вишгород • область", font=font(21), fill=(55, 62, 73))
     output.parent.mkdir(parents=True, exist_ok=True)
     canvas.convert("RGB").save(output, "JPEG", quality=78, optimize=True, progressive=True)
 
@@ -244,6 +256,18 @@ def make_post(day_index, current, slot_index, slot, product_images):
     caption = base_caption(title, question, body, price)
     scheduled = f"{current.isoformat()}T{time_text}:00+03:00"
     slug = f"altcam-aug-{current.isoformat()}-{slot_index+1:02d}"
+    carousel_titles = [question]
+    if content_format == "Reels":
+        carousel_titles = [
+            question,
+            "Чому це стається?",
+            "Рішення без зайвого обладнання",
+            f"{presenter} показує результат ALT-CAM",
+        ]
+    elif content_format == "Товар":
+        carousel_titles = [question, product[3], f"Ціна: {price}", "Підбір і монтаж від ALT-CAM"]
+    elif content_format == "Послуга":
+        carousel_titles = [question, body, f"Вартість: {price}", "Роботу виконує ALT-CAM"]
     return {
         "id": slug,
         "day": day_index + 1,
@@ -261,7 +285,9 @@ def make_post(day_index, current, slot_index, slot, product_images):
         "summary": body,
         "price": price,
         "cta_short": cta,
-        "source_url": source,
+        "carousel_titles": carousel_titles,
+        # Research sources stay internal; the public calendar routes only to ALT-CAM.
+        "source_url": SITE,
         "caption": caption,
         "captions": {
             "facebook": caption,
@@ -272,6 +298,19 @@ def make_post(day_index, current, slot_index, slot, product_images):
             "youtube": f"{title} | ALT-CAM Security UA\n\n{body}\n\nКонсультація: {BOT}\nСайт: {SITE}\n📍 {LOCATION}",
         },
     }, background
+
+
+def selected_platform(post: dict) -> str:
+    choices = PUBLISH_DISTRIBUTION[post["content_format"]]
+    return choices[(post["day"] + post["slot_index"]) % len(choices)]
+
+
+def publication_aspect(post: dict, platform: str) -> str:
+    if platform == "tiktok" or post["content_format"] == "Reels":
+        return "9:16"
+    if platform == "instagram" or post["content_format"] in {"Товар", "Послуга", "Пост"}:
+        return "4:5"
+    return "16:9"
 
 
 def render_html():
@@ -292,8 +331,7 @@ filters.addEventListener('click',e=>{const b=e.target.closest('button[data-filte
 
 
 def publisher_post(post: dict) -> dict:
-    choices = PUBLISH_DISTRIBUTION[post["content_format"]]
-    platform = choices[(post["day"] + post["slot_index"]) % len(choices)]
+    platform = selected_platform(post)
     captions = dict(post["captions"])
     captions["instagram"] = (
         captions["instagram"].replace(
@@ -319,7 +357,7 @@ def publisher_post(post: dict) -> dict:
                     "`Актуальна ціна — після перевірки наявності`",
                 )
             captions[name] = caption
-    return {
+    result = {
         "id": post["id"],
         "scheduled_at": post["scheduled_at"],
         "status": "ready",
@@ -331,7 +369,8 @@ def publisher_post(post: dict) -> dict:
         "media_type": "image",
         "image_path": post["image_path"],
         "image_url": post["image_url"],
-        "tiktok_photo_images": [post["image_url"]],
+        "image_urls": post.get("image_urls", [post["image_url"]]),
+        "tiktok_photo_images": post.get("image_urls", [post["image_url"]]),
         "title": post["title"],
         "caption": captions.get(platform, post["caption"]),
         "captions": captions,
@@ -341,6 +380,9 @@ def publisher_post(post: dict) -> dict:
             "telegram_channel": "https://t.me/altcam_security_ua",
         },
     }
+    if platform == "instagram" and len(result["image_urls"]) > 1:
+        result["instagram_media_type"] = "CAROUSEL"
+    return result
 
 
 def main():
@@ -363,16 +405,36 @@ def main():
                 "Товар": "product",
                 "Послуга": "service",
             }
-            filename = f"{current.isoformat()}-{slot_index+1:02d}-{format_slugs[post['content_format']]}.jpg"
-            output = MEDIA / filename
-            if not output.exists():
-                render_card(post, background, output)
+            platform = selected_platform(post)
+            post["aspect_ratio"] = publication_aspect(post, platform)
+            base_filename = f"{current.isoformat()}-{slot_index+1:02d}-{format_slugs[post['content_format']]}"
+            slide_count = 4 if post["content_format"] == "Reels" else 1
+            filenames = []
+            for slide in range(1, slide_count + 1):
+                suffix = f"-slide-{slide:02d}" if slide_count > 1 else ""
+                filename = f"{base_filename}{suffix}.jpg"
+                output = MEDIA / filename
+                slide_background = background
+                if slide_count > 1:
+                    if slide == slide_count:
+                        slide_background = CHARACTERS[0 if post["presenter"] == "Сергій" else 1]
+                    elif slide > 1:
+                        slide_background = product_images["all"][(day_index * 13 + slot_index * 5 + slide) % len(product_images["all"])]
+                render_card(post, slide_background, output, slide=slide, total=slide_count)
+                filenames.append(filename)
+            filename = filenames[0]
             post["image_path"] = f"../august-2026-media/{filename}"
             post["image_url"] = f"https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/august-2026-media/{filename}"
+            post["image_paths"] = [f"../august-2026-media/{name}" for name in filenames]
+            post["image_urls"] = [f"https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/august-2026-media/{name}" for name in filenames]
             posts.append(post)
         current += timedelta(days=1)
         day_index += 1
-    expected_media = {Path(post["image_path"]).name for post in posts}
+    expected_media = {
+        Path(path).name
+        for post in posts
+        for path in post.get("image_paths", [post["image_path"]])
+    }
     for stale in MEDIA.glob("*.jpg"):
         if stale.name not in expected_media:
             stale.unlink()
