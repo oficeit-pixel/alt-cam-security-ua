@@ -55,6 +55,8 @@ jobs:
       ALT_CAM_TELEGRAM_GROUP_URL: https://t.me/altcam_security_ua
       DRY_RUN: "false"
       FAIL_ON_PUBLISH_ERROR: "false"
+      # Temporary quality-control pause while August media is being rebuilt.
+      PUBLISHING_PAUSED: "true"
       WORKFLOW_FORCE_POST_ID: ${{ inputs.force_post_id || '' }}
       WORKFLOW_FORCE_PLATFORM: ${{ inputs.force_platform || '' }}
       # TikTok uses the approved Upload-to-Inbox flow; Direct Post is not enabled.
@@ -82,6 +84,7 @@ jobs:
         run: python social-posts/meta-automation/check_setup.py
 
       - name: Publish due posts
+        if: env.PUBLISHING_PAUSED != 'true'
         shell: bash
         run: |
           args=()
