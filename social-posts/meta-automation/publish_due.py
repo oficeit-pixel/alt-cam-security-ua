@@ -405,7 +405,7 @@ def publish_tiktok(post: dict) -> dict:
         "post_info": post_info,
         "source_info": {
             "source": "PULL_FROM_URL",
-            "photo_cover_index": 1,
+            "photo_cover_index": 0,
             "photo_images": tiktok_photo_images_for(post),
         },
         "post_mode": post_mode,
