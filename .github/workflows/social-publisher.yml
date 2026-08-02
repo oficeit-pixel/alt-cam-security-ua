@@ -36,9 +36,9 @@ jobs:
       ALT_CAM_TELEGRAM_GROUP_URL: https://t.me/altcam_security_ua
       DRY_RUN: "false"
       FAIL_ON_PUBLISH_ERROR: "false"
-      # Telegram token currently returns 401 and TikTok has no cloud token.
-      # Keep their queue items pending without blocking healthy platforms.
-      DISABLED_PLATFORMS: telegram,tiktok
+      # TikTok Direct Post remains unavailable until video.publish is authorized.
+      # Keep TikTok queue items pending without blocking healthy platforms.
+      DISABLED_PLATFORMS: tiktok
 
     steps:
       - name: Check out repository
