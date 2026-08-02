@@ -5,6 +5,22 @@ on:
     # Four checks per hour, shifted away from :00 where GitHub Actions is busiest.
     - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
+    inputs:
+      force_post_id:
+        description: "Optional post ID to process now"
+        required: false
+        type: string
+      force_platform:
+        description: "Optional platform limit"
+        required: false
+        type: choice
+        options:
+          - ""
+          - facebook
+          - instagram
+          - threads
+          - telegram
+          - tiktok
 
 permissions:
   contents: write
@@ -39,6 +55,8 @@ jobs:
       ALT_CAM_TELEGRAM_GROUP_URL: https://t.me/altcam_security_ua
       DRY_RUN: "false"
       FAIL_ON_PUBLISH_ERROR: "false"
+      WORKFLOW_FORCE_POST_ID: ${{ inputs.force_post_id || '' }}
+      WORKFLOW_FORCE_PLATFORM: ${{ inputs.force_platform || '' }}
       # TikTok uses the approved Upload-to-Inbox flow; Direct Post is not enabled.
       DISABLED_PLATFORMS: ""
 
@@ -64,7 +82,16 @@ jobs:
         run: python social-posts/meta-automation/check_setup.py
 
       - name: Publish due posts
-        run: python social-posts/meta-automation/publish_due.py
+        shell: bash
+        run: |
+          args=()
+          if [ -n "$WORKFLOW_FORCE_POST_ID" ]; then
+            args+=(--force --post-id "$WORKFLOW_FORCE_POST_ID")
+          fi
+          if [ -n "$WORKFLOW_FORCE_PLATFORM" ]; then
+            args+=(--platform "$WORKFLOW_FORCE_PLATFORM")
+          fi
+          python social-posts/meta-automation/publish_due.py "${args[@]}"
 
       - name: Save publication state
         if: always()
