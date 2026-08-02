@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import math
+import re
 import textwrap
 from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
@@ -14,6 +15,7 @@ CALENDAR = ROOT / "social-posts" / "calendar"
 MEDIA = ROOT / "social-posts" / "august-2026-media"
 DATA = CALENDAR / "altcam-august-2026-data.js"
 INDEX = CALENDAR / "index.html"
+QUEUE = ROOT / "social-posts" / "weekly-automation" / "posts.json"
 CHARACTERS = [
     ROOT / "social-posts" / "characters" / "character-2-founder-altcam-uniform.png",
     ROOT / "social-posts" / "characters" / "character-1-woman-altcam-uniform.png",
@@ -91,6 +93,15 @@ SLOTS = [
 ]
 
 COLORS = [(255, 204, 0), (0, 210, 255), (255, 86, 64), (85, 226, 145), (180, 95, 255)]
+
+PUBLISH_DISTRIBUTION = {
+    "Стаття": ["facebook", "telegram"],
+    "Reels": ["instagram", "tiktok"],
+    "Пост": ["instagram", "facebook", "telegram"],
+    "Обговорення": ["threads", "facebook", "telegram"],
+    "Товар": ["instagram", "facebook", "telegram", "tiktok"],
+    "Послуга": ["facebook", "instagram", "threads", "telegram"],
+}
 
 
 def font(size: int, bold: bool = False):
@@ -280,6 +291,58 @@ filters.addEventListener('click',e=>{const b=e.target.closest('button[data-filte
 </script></body></html>'''
 
 
+def publisher_post(post: dict) -> dict:
+    choices = PUBLISH_DISTRIBUTION[post["content_format"]]
+    platform = choices[(post["day"] + post["slot_index"]) % len(choices)]
+    captions = dict(post["captions"])
+    captions["instagram"] = (
+        captions["instagram"].replace(
+            f"Напишіть нам: {BOT}\nСайт: {SITE}",
+            "Напишіть нам у Direct. Посилання на сайт і Telegram — у шапці профілю.",
+        )
+    )
+    captions["tiktok"] = (
+        f"{post['question']}\n\n{post['cta_short']}\n"
+        "Посилання на консультацію — у профілі.\n"
+        "#AltCam #безпека #Київ #Вишгород"
+    )
+    if post["content_format"] == "Товар":
+        for name, caption in captions.items():
+            caption = re.sub(
+                r"💰[^\n]*",
+                "💰 Актуальна ціна — після перевірки наявності.",
+                caption,
+            )
+            if post.get("price"):
+                caption = caption.replace(
+                    f"`{post['price']}`",
+                    "`Актуальна ціна — після перевірки наявності`",
+                )
+            captions[name] = caption
+    return {
+        "id": post["id"],
+        "scheduled_at": post["scheduled_at"],
+        "status": "ready",
+        "approval_required": False,
+        "campaign": "altcam-august-2026",
+        "content_format": post["content_format"],
+        "presenter": post["presenter"],
+        "platforms": [platform],
+        "media_type": "image",
+        "image_path": post["image_path"],
+        "image_url": post["image_url"],
+        "tiktok_photo_images": [post["image_url"]],
+        "title": post["title"],
+        "caption": captions.get(platform, post["caption"]),
+        "captions": captions,
+        "funnel": {
+            "primary": BOT,
+            "secondary": SITE,
+            "telegram_channel": "https://t.me/altcam_security_ua",
+        },
+    }
+
+
 def main():
     product_images = source_images()
     if not product_images["all"]:
@@ -326,6 +389,13 @@ def main():
     DATA.write_text("window.ALT_CAM_AUGUST_2026 = " + json.dumps(payload, ensure_ascii=False, indent=2) + ";\n", encoding="utf-8")
     INDEX.write_text(render_html(), encoding="utf-8")
     (MEDIA / "manifest.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    queue_payload = {
+        "timezone": "Europe/Kyiv",
+        "notes": "Approved August 2026 queue. Content is distributed across platforms to avoid cross-platform duplication. YouTube remains manual until API integration.",
+        "posts": [publisher_post(post) for post in posts],
+    }
+    QUEUE.parent.mkdir(parents=True, exist_ok=True)
+    QUEUE.write_text(json.dumps(queue_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Generated {len(posts)} posts and {len(posts)} media cards")
 
 
