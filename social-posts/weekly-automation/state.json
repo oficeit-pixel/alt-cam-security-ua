@@ -1,3 +1,19 @@
 {
-  "published": {}
+  "published": {
+    "altcam-aug-2026-08-03-07": {
+      "tiktok": {
+        "published_at": "2026-08-02T09:31:04.743314+00:00",
+        "result": {
+          "data": {
+            "publish_id": "p_inbox_url~v2.7669363516725626900"
+          },
+          "error": {
+            "code": "ok",
+            "message": "",
+            "log_id": "2026080217310428578DCE49107396DF32"
+          }
+        }
+      }
+    }
+  }
 }
