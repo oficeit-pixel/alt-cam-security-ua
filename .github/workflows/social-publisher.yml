@@ -30,6 +30,10 @@ jobs:
       TIKTOK_ACCESS_TOKEN: ${{ secrets.TIKTOK_ACCESS_TOKEN }}
       TIKTOK_POST_MODE: ${{ vars.TIKTOK_POST_MODE || 'MEDIA_UPLOAD' }}
       TIKTOK_PRIVACY_LEVEL: ${{ vars.TIKTOK_PRIVACY_LEVEL || 'PUBLIC_TO_EVERYONE' }}
+      SOCIAL_POSTS_FILE: social-posts/weekly-automation/posts.json
+      SOCIAL_STATE_FILE: social-posts/weekly-automation/state.json
+      MAX_POSTS_PER_RUN: "1"
+      ALT_CAM_TELEGRAM_GROUP_URL: https://t.me/altcam_security_ua
       DRY_RUN: "false"
       FAIL_ON_PUBLISH_ERROR: "false"
 
@@ -57,10 +61,10 @@ jobs:
       - name: Save publication state
         if: always()
         run: |
-          if [ -f social-posts/meta-automation/state.json ]; then
+          if [ -f social-posts/weekly-automation/state.json ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add -f social-posts/meta-automation/state.json
+            git add -f social-posts/weekly-automation/state.json
             if ! git diff --cached --quiet; then
               git commit -m "Update social publisher state [skip ci]"
               git push
