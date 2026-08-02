@@ -149,58 +149,47 @@ def render_card(post: dict, background_path: Path, output: Path, slide=1, total=
     sizes = {"9:16": (1080, 1920), "4:5": (1080, 1350), "16:9": (1200, 630)}
     size = sizes[post["aspect_ratio"]]
     accent = COLORS[(post["day"] + post["slot_index"]) % len(COLORS)]
-    canvas = bright_canvas(size, accent)
     bg = Image.open(background_path).convert("RGB")
     bg = ImageEnhance.Contrast(bg).enhance(1.03)
     bg = ImageEnhance.Color(bg).enhance(1.06)
     w, h = size
-    if post["aspect_ratio"] == "16:9":
-        photo_box = (int(w * .54), 34, w - 34, h - 34)
-        text_width, x, y = int(w * .46), 54, 54
-        title_size, small_size = 48, 23
-    else:
-        photo_top = int(h * .46)
-        photo_box = (48, photo_top, w - 48, h - 178)
-        text_width, x, y = w - 112, 56, 70
-        title_size, small_size = (64 if post["aspect_ratio"] == "9:16" else 54), 27
-
-    px0, py0, px1, py1 = photo_box
-    canvas_draw = ImageDraw.Draw(canvas)
-    canvas_draw.rounded_rectangle(photo_box, radius=38, fill=(255, 255, 255), outline=(220, 224, 232), width=3)
-    fitted = ImageOps.contain(bg, (px1 - px0 - 24, py1 - py0 - 24), method=Image.Resampling.LANCZOS)
-    fx = px0 + (px1 - px0 - fitted.width) // 2
-    fy = py0 + (py1 - py0 - fitted.height) // 2
-    canvas.paste(fitted, (fx, fy))
-    canvas = canvas.convert("RGBA")
+    # Reference style: full-bleed cinematic image, short topical copy directly
+    # over the scene, no large panels and no global darkening layer.
+    canvas = ImageOps.fit(bg, size, method=Image.Resampling.LANCZOS).convert("RGBA")
+    x = 54 if post["aspect_ratio"] == "16:9" else 60
+    is_presenter_slide = total > 1 and slide == total
+    y = int(h * .66) if is_presenter_slide else (56 if post["aspect_ratio"] == "16:9" else 82)
+    text_width = int(w * .55) if post["aspect_ratio"] == "16:9" else int(w * .82)
+    title_size = 50 if post["aspect_ratio"] == "16:9" else (66 if post["aspect_ratio"] == "9:16" else 56)
+    small_size = 24 if post["aspect_ratio"] == "16:9" else 28
     draw = ImageDraw.Draw(canvas)
     label = post["content_format"].upper()
     if total > 1:
         label += f"  {slide}/{total}"
-    draw.rounded_rectangle((x, y, x + 290, y + 48), radius=24, fill=(20, 24, 31, 255))
-    draw.text((x + 20, y + 10), label, font=font(21, True), fill=accent)
-    y += 78
+    draw.text((x, y), label, font=font(22, True), fill=accent, stroke_width=3, stroke_fill=(8, 10, 14))
+    y += 54
     title_font = font(title_size, True)
     slide_titles = post.get("carousel_titles") or [post["question"]]
     title = slide_titles[min(slide - 1, len(slide_titles) - 1)]
     lines = wrap(draw, title, title_font, text_width)
-    for line in lines[:4]:
-        draw.text((x, y), line, font=title_font, fill=(15, 20, 29))
+    for line_no, line in enumerate(lines[:4]):
+        line_fill = accent if line_no == 0 and len(lines) > 1 else (255, 255, 255)
+        draw.text((x, y), line, font=title_font, fill=line_fill, stroke_width=5, stroke_fill=(5, 7, 10))
         y += title_size * 1.08
-    draw.line((x, y + 14, x + min(300, text_width), y + 14), fill=accent, width=8)
+    draw.line((x, y + 10, x + min(330, text_width), y + 10), fill=accent, width=7)
     if post["content_format"] in {"Товар", "Послуга"}:
         info_font = font(25 if post["aspect_ratio"] != "16:9" else 22, False)
-        info_y = y + 34
+        info_y = y + 28
         for info_line in wrap(draw, post["summary"], info_font, text_width)[:3]:
-            draw.text((x, info_y), info_line, font=info_font, fill=(42, 49, 60))
+            draw.text((x, info_y), info_line, font=info_font, fill=(255, 255, 255), stroke_width=3, stroke_fill=(5, 7, 10))
             info_y += 34
-    bottom_y = h - (136 if post["aspect_ratio"] == "16:9" else 150)
+    bottom_y = h - (92 if post["aspect_ratio"] == "16:9" else 118)
     provider = "ПРОДАЄ ALT-CAM" if post["content_format"] == "Товар" else "НАДАЄ ALT-CAM" if post["content_format"] == "Послуга" else "ALT-CAM SECURITY UA"
-    draw.text((x, bottom_y), provider, font=font(small_size, True), fill=(17, 22, 30))
+    draw.text((x, bottom_y), provider, font=font(small_size, True), fill=accent, stroke_width=3, stroke_fill=(5, 7, 10))
     detail = post.get("price") if post["content_format"] in {"Товар", "Послуга"} else post["cta_short"]
-    draw.text((x, bottom_y + 38), detail or post["cta_short"], font=font(small_size, True), fill=(17, 22, 30))
-    draw.text((x, bottom_y + 76), "Київ • Вишгород • область", font=font(21), fill=(55, 62, 73))
+    draw.text((x, bottom_y + 38), detail or post["cta_short"], font=font(small_size, True), fill=(255, 255, 255), stroke_width=3, stroke_fill=(5, 7, 10))
     output.parent.mkdir(parents=True, exist_ok=True)
-    canvas.convert("RGB").save(output, "JPEG", quality=78, optimize=True, progressive=True)
+    canvas.convert("RGB").save(output, "JPEG", quality=84, optimize=True, progressive=True)
 
 
 def base_caption(title, question, body, price=None):
@@ -218,6 +207,7 @@ def make_post(day_index, current, slot_index, slot, product_images):
     product = PRODUCTS[(day_index * 2 + variant + slot_index) % len(PRODUCTS)]
     service = SERVICES[(day_index + slot_index) % len(SERVICES)]
     presenter = "Сергій" if (day_index + slot_index) % 2 == 0 else "Аліса"
+    topic_solution = topic[3]
     if content_format == "Товар":
         title, body, price, source = product[0], f"{product[1]}. {product[3]}", product[2], product[4]
         question = f"{product[0]} — підійде для вашого об'єкта?"
@@ -260,9 +250,9 @@ def make_post(day_index, current, slot_index, slot, product_images):
     if content_format == "Reels":
         carousel_titles = [
             question,
-            "Чому це стається?",
-            "Рішення без зайвого обладнання",
-            f"{presenter} показує результат ALT-CAM",
+            f"Причина: {title}",
+            f"Рішення ALT-CAM: {topic_solution}",
+            f"{presenter} перевіряє результат на об’єкті",
         ]
     elif content_format == "Товар":
         carousel_titles = [question, product[3], f"Ціна: {price}", "Підбір і монтаж від ALT-CAM"]
