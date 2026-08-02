@@ -13,6 +13,10 @@ ROOT = Path(__file__).resolve().parent
 POSTS_FILE = Path(os.getenv("SOCIAL_POSTS_FILE", str(ROOT / "posts.json")))
 STATE_FILE = Path(os.getenv("SOCIAL_STATE_FILE", str(ROOT / "state.json")))
 ENV_FILE = ROOT / ".env"
+TELEGRAM_GROUP_URL = os.getenv(
+    "ALT_CAM_TELEGRAM_GROUP_URL",
+    "https://t.me/altcam_security_ua",
+).strip()
 
 
 def load_env_file(path: Path) -> None:
@@ -203,12 +207,30 @@ def publish_instagram(post: dict) -> dict:
         raise RuntimeError(f"Instagram did not return creation container id: {container}")
 
     container_status = wait_for_instagram_container(creation_id, token, api_base)
-    published = post_graph(
-        f"{ig_user_id}/media_publish",
-        token,
-        {"creation_id": creation_id},
-        base=api_base,
-    )
+    published = None
+    publish_error = None
+    for publish_attempt in range(1, 8):
+        try:
+            published = post_graph(
+                f"{ig_user_id}/media_publish",
+                token,
+                {"creation_id": creation_id},
+                base=api_base,
+            )
+            break
+        except RuntimeError as exc:
+            publish_error = exc
+            if "9007" not in str(exc) and "Media ID is not available" not in str(exc):
+                raise
+            print(
+                f"WAIT instagram media publish "
+                f"{publish_attempt}/7 for container {creation_id}"
+            )
+            time.sleep(4)
+    if published is None:
+        raise RuntimeError(
+            f"Instagram media_publish stayed unavailable: {publish_error}"
+        )
     return {"container": container, "status": container_status, "published": published}
 
 
@@ -406,7 +428,10 @@ PUBLISHERS = {
 
 
 def caption_for(post: dict, platform: str) -> str:
-    return post.get("captions", {}).get(platform) or post["caption"]
+    caption = post.get("captions", {}).get(platform) or post["caption"]
+    if TELEGRAM_GROUP_URL and TELEGRAM_GROUP_URL not in caption:
+        caption = f"{caption.rstrip()}\n\nTelegram ALT-CAM: {TELEGRAM_GROUP_URL}"
+    return caption
 
 
 def tiktok_title_for(post: dict) -> str:
@@ -442,6 +467,10 @@ def is_due(post: dict, now: datetime, force: bool) -> bool:
     if force:
         return True
     scheduled = parse_dt(post["scheduled_at"])
+    # Older generated story queues used timestamps without an explicit offset.
+    # Treat them as UTC so comparisons with the aware `now` value stay valid.
+    if scheduled.tzinfo is None:
+        scheduled = scheduled.replace(tzinfo=timezone.utc)
     return scheduled <= now
 
 
@@ -456,6 +485,11 @@ def main() -> int:
     load_env_file(ENV_FILE)
     dry_run = args.dry_run or os.getenv("DRY_RUN", "true").lower() in {"1", "true", "yes", "on"}
     platforms_filter = set(args.platform or [])
+    disabled_platforms = {
+        item.strip()
+        for item in os.getenv("DISABLED_PLATFORMS", "").split(",")
+        if item.strip()
+    }
 
     data = load_json(POSTS_FILE, {})
     posts = data.get("posts", [])
@@ -464,12 +498,27 @@ def main() -> int:
 
     now = datetime.now(timezone.utc).astimezone()
     selected = []
+    max_posts_per_run = max(1, int(os.getenv("MAX_POSTS_PER_RUN", "1")))
     for post in posts:
         if args.post_id and post["id"] != args.post_id:
             continue
         if not is_due(post, now, args.force):
             continue
+        post_state = state["published"].get(post["id"], {})
+        actionable_platforms = [
+            platform
+            for platform in post.get("platforms", [])
+            if platform in PUBLISHERS
+            and platform not in disabled_platforms
+            and (not platforms_filter or platform in platforms_filter)
+            and platform_has_credentials(platform)
+            and not post_state.get(platform)
+        ]
+        if not actionable_platforms:
+            continue
         selected.append(post)
+        if len(selected) >= max_posts_per_run:
+            break
 
     if not selected:
         print("No due posts.")
@@ -484,6 +533,7 @@ def main() -> int:
         platforms = [p for p in post.get("platforms", []) if p in PUBLISHERS]
         if platforms_filter:
             platforms = [p for p in platforms if p in platforms_filter]
+        platforms = [p for p in platforms if p not in disabled_platforms]
 
         for platform in platforms:
             if not platform_has_credentials(platform):
