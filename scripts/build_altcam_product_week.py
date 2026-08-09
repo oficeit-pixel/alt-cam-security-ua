@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = ROOT / "social-posts" / "content-plans" / "2026-08-10-product-week"
 PROMPTS_DIR = OUT_DIR / "image-prompts"
 MEDIA_DIR = OUT_DIR / "media"
+BRAND_REFS_DIR = OUT_DIR / "brand-references"
 CALENDAR_DIR = ROOT / "social-posts" / "calendar"
 DATA_PATH = CALENDAR_DIR / "product-week-data.js"
 HTML_PATH = CALENDAR_DIR / "product-week.html"
@@ -28,6 +29,41 @@ YELLOW = "#FFCC00"
 WHITE = "#F5F5F7"
 MUTED = "#86868B"
 LINE = "#3A3A42"
+
+BRAND_REFERENCES = [
+    {
+        "name": "Uniform front/back",
+        "role": "official ALT-CAM installer uniform with logo placement on chest, sleeves, back and pants",
+        "path": "brand-references/uniform-front-back-reference.png",
+    },
+    {
+        "name": "Serhii avatar",
+        "role": "male senior security expert / showroom consultant in branded ALT-CAM uniform",
+        "path": "brand-references/serhii-avatar-showroom.png",
+    },
+    {
+        "name": "Alisa avatar",
+        "role": "female consultant / smart security advisor in branded ALT-CAM uniform",
+        "path": "brand-references/alisa-avatar-showroom.png",
+    },
+    {
+        "name": "ALT-CAM logo dark glow",
+        "role": "dark premium logo reference for covers and dramatic backgrounds",
+        "path": "brand-references/altcam-logo-dark-glow.png",
+    },
+    {
+        "name": "ALT-CAM logo white",
+        "role": "clean logo reference for white cards, profile graphics and documentation",
+        "path": "brand-references/altcam-logo-white.png",
+    },
+]
+
+
+def brand_reference_block() -> str:
+    refs = "\n".join(f"- {item['name']}: `{item['path']}` — {item['role']}" for item in BRAND_REFERENCES)
+    return f"""Brand references to use when generating or editing media:
+{refs}
+Character/style rules: use Serhii for expert/owner/technical trust scenes; use Alisa for consultation, showroom, smart-home and customer guidance scenes; use the young installer/uniform reference for montage and field-work scenes. Preserve ALT-CAM black/yellow uniform, logo placement, shield-camera logo, premium anthracite/yellow palette and professional Ukrainian security-brand mood. Do not invent a different logo, mascot, uniform color or supplier branding."""
 
 
 PRODUCTS = [
@@ -382,6 +418,7 @@ Scene/backdrop: {category_direction}
 Composition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.
 Text zones: leave clean space for headline “{product['hook']}”, short feature line, and bottom CTA “НАПИШІТЬ «{product['keyword']}»”.
 Brand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.
+{brand_reference_block()}
 Strict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.
 Avoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.
 """
@@ -598,6 +635,21 @@ def build_reel(current_date: date, day_index: int, day_products: list[dict]) -> 
         "Як виглядає система безпеки без хаосу",
         "3 рішення для дому, офісу або складу",
         "Перед покупкою: короткий чек-лист ALT-CAM",
+        "Кабель вирішує більше, ніж здається",
+        "Кронштейн і кут огляду: чому це важливо",
+        "СКУД для офісу без ключів і хаосу",
+        "Серверна шафа: NVR, PoE, UPS в одному місці",
+        "Відеоспостереження для магазину: каса, зал, склад",
+        "Домофон для воріт: бачити до того, як відкрити",
+        "Резерв живлення: без світла система не повинна сліпнути",
+        "Ajax для дому й бізнесу: різні сценарії захисту",
+        "Тест лінії перед здачею об’єкта",
+        "Периметр вночі: коли потрібне тепловізійне рішення",
+        "PoE для IP-камер: менше блоків, більше порядку",
+        "Не ставте камеру навмання: спочатку задача",
+        "Монтаж без зайвих дірок і видимих кабелів",
+        "Відео + доступ + резерв: система як єдине ціле",
+        "Фінальний чек-лист місяця від ALT-CAM",
     ][day_index]
     products_text = ", ".join(product["keyword"] for product in day_products)
     post_id = f"altcam-reel-{current_date.isoformat()}-{day_index + 1:02d}"
@@ -635,7 +687,8 @@ def build_reel(current_date: date, day_index: int, day_products: list[dict]) -> 
         "image_prompt": (
             "Create a premium advertising carousel/reels cover for ALT-CAM Security UA: dark anthracite background, "
             "realistic security products, clean yellow CTA, product-card style from user's reference examples, "
-            f"theme: {theme}. Include visual places for 3 product tiles and brand resources: website, Telegram, service advantages."
+            f"theme: {theme}. Include visual places for 3 product tiles and brand resources: website, Telegram, service advantages.\n"
+            + brand_reference_block()
         ),
     }
 
@@ -858,6 +911,460 @@ GENERATED_MEDIA_POSTS = [
 ]
 
 
+AUGUST_EXTENSION_POSTS = [
+    {
+        "filename": "aug-01-utp-cat6.jpg",
+        "category": "Кабель / монтаж",
+        "product": "UTP / FTP кабель для IP-камер та PoE",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "IP-камери / PoE / офіс / будинок / склад",
+        "keyword": "КАБЕЛЬ",
+        "hook": "Хороша камера починається не з камери. Вона починається з нормального кабелю.",
+        "benefits": ["стабільна лінія для IP-камер", "менше обривів і просідань", "підбір під довжину траси", "акуратна прокладка без хаосу"],
+    },
+    {
+        "filename": "aug-02-outdoor-cable.jpg",
+        "category": "Кабель / монтаж",
+        "product": "Зовнішній кабель для камер відеоспостереження",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "фасад / двір / ворота / периметр",
+        "keyword": "КАБЕЛЬ",
+        "hook": "Вулиця швидко показує, де був дешевий кабель і поганий монтаж.",
+        "benefits": ["захист траси на вулиці", "підбір під умови об’єкта", "акуратне введення в коробку", "менше ризику від вологи й морозу"],
+    },
+    {
+        "filename": "aug-03-bnc-dc-cable-kit.jpg",
+        "category": "Кабель / аксесуари",
+        "product": "BNC + DC комплект для аналогових / HDCVI камер",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "модернізація старої системи / HDCVI / аналог",
+        "keyword": "BNC",
+        "hook": "Не кожен об’єкт треба переробляти з нуля — іноді розумніше оновити правильно.",
+        "benefits": ["швидке підключення камер", "зручно для модернізації", "менше зайвих робіт", "перевірка сигналу перед здачею"],
+    },
+    {
+        "filename": "aug-04-junction-box.jpg",
+        "category": "Аксесуари для монтажу",
+        "product": "Монтажна коробка для камери",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "вуличні камери / фасад / ворота / склад",
+        "keyword": "КОРОБКА",
+        "hook": "З’єднання під камерою не має висіти “як вийшло”.",
+        "benefits": ["захист з’єднань", "акуратний вигляд", "легше обслуговувати", "менше шансів на проблеми від вологи"],
+    },
+    {
+        "filename": "aug-05-camera-bracket.jpg",
+        "category": "Кронштейни для камер",
+        "product": "Кронштейн і монтажна пластина для камери",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "стіна / фасад / вхід / склад",
+        "keyword": "КРОНШТЕЙН",
+        "hook": "Кронштейн — це не дрібниця. Це кут огляду, стабільність і доказова картинка.",
+        "benefits": ["правильний кут камери", "надійна фіксація", "чистий монтаж", "підбір під корпус і місце встановлення"],
+    },
+    {
+        "filename": "aug-06-pole-mount.jpg",
+        "category": "Кронштейни для камер",
+        "product": "Кріплення камери на стовп",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "парковка / ворота / периметр / двір",
+        "keyword": "СТОВП",
+        "hook": "Камеру можна поставити на стовп красиво — без саморобних рішень.",
+        "benefits": ["надійна фіксація хомутами", "підходить для периметра", "менше вібрацій", "правильна висота й напрямок огляду"],
+    },
+    {
+        "filename": "aug-08-crimping-tool.jpg",
+        "category": "Інструменти",
+        "product": "Інструмент для обжиму RJ45 та монтажу кабелю",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "монтаж IP-камер / PoE / мережеві лінії",
+        "keyword": "RJ45",
+        "hook": "Погано обжатий конектор може ламати систему випадково і дуже нервово.",
+        "benefits": ["правильний обжим RJ45", "менше втрат контакту", "акуратні кінці кабелю", "перевірка перед запуском"],
+    },
+    {
+        "filename": "aug-09-network-tester.jpg",
+        "category": "Прилади для налаштування",
+        "product": "Тестер телеком-ліній і мережевого кабелю",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "IP-камери / офісна мережа / PoE / склад",
+        "keyword": "ТЕСТЕР",
+        "hook": "Кабель треба не просто прокласти. Його треба перевірити.",
+        "benefits": ["перевірка жил", "швидкий пошук помилок", "контроль перед здачею", "менше виїздів через дрібні збої"],
+    },
+    {
+        "filename": "aug-10-poe-injector-switch.jpg",
+        "category": "Сетевое оборудование",
+        "product": "PoE інжектор / малий PoE-комутатор",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "1–4 IP-камери / невеликий офіс / будинок",
+        "keyword": "PoE",
+        "hook": "PoE — це коли камера отримує і дані, і живлення одним кабелем.",
+        "benefits": ["менше блоків живлення", "акуратніша схема", "зручне масштабування", "підбір під кількість камер"],
+    },
+    {
+        "filename": "aug-12-installer-drilling.jpg",
+        "category": "Послуги монтажу",
+        "product": "Монтаж камери з правильним кронштейном",
+        "price": "вартість робіт уточнюємо після огляду",
+        "audience": "будинок / офіс / магазин / склад",
+        "keyword": "МОНТАЖ",
+        "hook": "Один зайвий отвір у фасаді — і “дешевий монтаж” вже не здається дешевим.",
+        "benefits": ["акуратне свердління", "правильна висота", "кабель без хаосу", "перевірка картинки після встановлення"],
+    },
+    {
+        "filename": "aug-13-cable-trunking.jpg",
+        "category": "Аксесуари для монтажу",
+        "product": "Кабель-канал і кліпси для акуратної прокладки",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "офіс / магазин / квартира / кафе",
+        "keyword": "КАНАЛ",
+        "hook": "Дроти не повинні псувати ремонт і перше враження від об’єкта.",
+        "benefits": ["акуратний вигляд", "захист кабелю", "легше обслуговувати", "підбір кольору й маршруту"],
+    },
+    {
+        "filename": "aug-14-rack-cable-manager.jpg",
+        "category": "Серверна / монтаж",
+        "product": "Кабель-менеджмент у серверній шафі",
+        "price": "вартість уточнюємо після аудиту шафи",
+        "audience": "офіс / склад / бізнес / мережа камер",
+        "keyword": "ШАФА",
+        "hook": "Якщо в шафі хаос — будь-який збій шукатиметься довше.",
+        "benefits": ["порядок у патчкордах", "легше сервісне обслуговування", "менше випадкових відключень", "готовність до масштабування"],
+    },
+    {
+        "filename": "aug-15-patch-panel.jpg",
+        "category": "Сетевое оборудование",
+        "product": "Патч-панель і патчкорди для IP-мережі",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "офіс / склад / магазин / серверна",
+        "keyword": "ПАТЧ",
+        "hook": "Патч-панель — це коли кабелі перестають бути загадкою.",
+        "benefits": ["зручна структура мережі", "швидше обслуговування", "акуратний монтаж", "підходить для PoE-камер"],
+    },
+    {
+        "filename": "aug-18-waterproof-connector.jpg",
+        "category": "Аксесуари для монтажу",
+        "product": "Герметичний роз’єм для вуличного підключення",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "вуличні камери / ворота / фасад / периметр",
+        "keyword": "ГЕРМО",
+        "hook": "Дощ не має бути причиною, чому камера “раптом пропала”.",
+        "benefits": ["захист з’єднання", "акуратна герметизація", "менше окислення", "правильний монтаж на вулиці"],
+    },
+    {
+        "filename": "aug-19-power-supply-12v.jpg",
+        "category": "Резервне живлення",
+        "product": "Блок живлення 12В для камер, замків і контролерів",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "камери / електрозамки / домофони / СКУД",
+        "keyword": "ЖИВЛЕННЯ",
+        "hook": "Нестабільне живлення — це прихована причина дивних збоїв.",
+        "benefits": ["стабільна напруга", "підбір по навантаженню", "акуратне підключення", "можливість резервування"],
+    },
+    {
+        "filename": "aug-20-router-ups.jpg",
+        "category": "Резервне живлення",
+        "product": "UPS для роутера, камер і NVR",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "будинок / офіс / магазин / склад",
+        "keyword": "UPS",
+        "hook": "Світло зникло — а камера, інтернет і запис мають працювати.",
+        "benefits": ["резерв для роутера", "живлення камер/NVR", "менше простоїв", "підбір під потрібний час автономності"],
+    },
+    {
+        "filename": "aug-21-house-camera-install.jpg",
+        "category": "Послуги монтажу",
+        "product": "Монтаж відеоспостереження для приватного будинку",
+        "price": "вартість робіт уточнюємо після огляду",
+        "audience": "приватний будинок / двір / вхід / гараж",
+        "keyword": "БУДИНОК",
+        "hook": "У будинку важливо бачити не “все одразу”, а саме ризикові точки.",
+        "benefits": ["вхід і ворота", "двір і гараж", "віддалений перегляд", "підбір камер під нічний сценарій"],
+    },
+    {
+        "filename": "aug-23-premium-gate-intercom.jpg",
+        "category": "Домофонія",
+        "product": "Відеодомофон і панель виклику для хвіртки",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "приватний будинок / ворота / хвіртка",
+        "keyword": "ДОМОФОН",
+        "hook": "Відкривати хвіртку потрібно тільки тому, кого ви бачите.",
+        "benefits": ["відеовиклик", "зв’язок зі смартфоном", "інтеграція із замком", "акуратний монтаж на вході"],
+    },
+    {
+        "filename": "aug-25-office-glass-access.jpg",
+        "category": "Контроль доступу",
+        "product": "СКУД для офісних дверей",
+        "price": "вартість уточнюємо після підбору комплекту",
+        "audience": "офіс / бізнес-центр / переговорна / склад",
+        "keyword": "СКУД",
+        "hook": "Офіс має відкриватися для своїх — і закриватися для випадкових.",
+        "benefits": ["контроль входу", "журнал подій", "картка/брелок/QR", "можна інтегрувати з відео"],
+    },
+    {
+        "filename": "aug-26-qr-reader-access.jpg",
+        "category": "Контроль доступу",
+        "product": "U-PROX SE QR slim",
+        "price": "орієнтир: 6 071 ₴",
+        "audience": "офіс / сервісний центр / склад / бізнес",
+        "keyword": "QR",
+        "hook": "QR-доступ зручний там, де ключі вже давно заважають.",
+        "benefits": ["QR-сценарії", "RFID-доступ", "тонкий корпус", "підходить для сучасного офісу"],
+    },
+    {
+        "filename": "aug-27-server-cabinet.jpg",
+        "category": "Серверна / монтаж",
+        "product": "Серверна шафа з NVR, PoE та UPS",
+        "price": "вартість уточнюємо після підбору комплектації",
+        "audience": "офіс / склад / магазин / ЖК",
+        "keyword": "ШАФА",
+        "hook": "Коли все обладнання в одному місці — систему реально обслуговувати.",
+        "benefits": ["NVR у шафі", "PoE-комутатор", "резерв живлення", "кабель-менеджмент без хаосу"],
+    },
+    {
+        "filename": "aug-28-technician-tablet.jpg",
+        "category": "Послуги налаштування",
+        "product": "Налаштування віддаленого перегляду камер",
+        "price": "вартість уточнюємо після задачі",
+        "audience": "власник бізнесу / будинок / магазин / офіс",
+        "keyword": "ДОСТУП",
+        "hook": "Камери без зручного доступу з телефону — це половина системи.",
+        "benefits": ["перегляд зі смартфона", "права доступу", "перевірка запису", "навчання користувача"],
+    },
+    {
+        "filename": "aug-29-ajax-apartment.jpg",
+        "category": "Ajax / сигналізація",
+        "product": "Ajax комплект для квартири",
+        "price": "вартість уточнюємо після підбору датчиків",
+        "audience": "квартира / орендна нерухомість / офіс",
+        "keyword": "AJAX",
+        "hook": "Сигналізація може виглядати акуратно й не псувати інтер’єр.",
+        "benefits": ["датчики руху", "датчики відкриття", "сирена", "керування через застосунок"],
+    },
+    {
+        "filename": "aug-31-retail-dome-camera.jpg",
+        "category": "Відеоспостереження",
+        "product": "Відеоспостереження для магазину",
+        "price": "вартість уточнюємо після плану об’єкта",
+        "audience": "магазин / каса / торговий зал / склад",
+        "keyword": "МАГАЗИН",
+        "hook": "У магазині камери мають бачити касу, зал і спірні ситуації.",
+        "benefits": ["контроль каси", "огляд торгового залу", "запис інцидентів", "віддалений перегляд для власника"],
+    },
+    {
+        "filename": "aug-32-warehouse-bullet-camera.jpg",
+        "category": "Відеоспостереження",
+        "product": "Відеоспостереження для складу",
+        "price": "вартість уточнюємо після плану складу",
+        "audience": "склад / логістика / зона відвантаження",
+        "keyword": "СКЛАД",
+        "hook": "Склад без камер — це коли спірні ситуації вирішуються “на словах”.",
+        "benefits": ["ворота й рампа", "проходи між рядами", "контроль відвантаження", "камери під висоту й освітлення"],
+    },
+    {
+        "filename": "aug-33-parking-ptz.jpg",
+        "category": "PTZ відеоспостереження",
+        "product": "PTZ-камера для парковки",
+        "price": "орієнтир: 4 810 ₴",
+        "audience": "парковка / двір / в’їзд / бізнес",
+        "keyword": "PTZ",
+        "hook": "На парковці одна нерухома камера часто не закриває всю задачу.",
+        "benefits": ["поворотний огляд", "контроль в’їзду", "робота вночі", "підбір точки встановлення"],
+    },
+    {
+        "filename": "aug-35-cafe-camera.jpg",
+        "category": "Послуги монтажу",
+        "product": "Відеоспостереження для кафе або ресторану",
+        "price": "вартість уточнюємо після огляду",
+        "audience": "кафе / ресторан / бар / кухня",
+        "keyword": "КАФЕ",
+        "hook": "Камери в кафе мають допомагати, а не псувати атмосферу.",
+        "benefits": ["каса й зал", "кухня та склад", "дискретний монтаж", "доступ для власника зі смартфона"],
+    },
+    {
+        "filename": "aug-37-battery-backup-internet.jpg",
+        "category": "Резервне живлення",
+        "product": "Резерв живлення для інтернету та камер",
+        "price": "вартість уточнюємо після розрахунку автономності",
+        "audience": "офіс / будинок / магазин / склад",
+        "keyword": "РЕЗЕРВ",
+        "hook": "Якщо інтернет впав разом зі світлом — камери теж стають майже сліпими.",
+        "benefits": ["роутер під резервом", "камера/NVR під резервом", "розрахунок часу роботи", "акуратна схема живлення"],
+    },
+    {
+        "filename": "aug-38-thermal-industrial-fence.jpg",
+        "category": "Тепловізійне відеоспостереження",
+        "product": "Тепловізійний контроль периметра",
+        "price": "вартість уточнюємо після задачі й дистанції",
+        "audience": "виробництво / склад / периметр / промисловий об’єкт",
+        "keyword": "ПЕРИМЕТР",
+        "hook": "Там, де темно, далеко або складне освітлення — звичайної камери може бути мало.",
+        "benefits": ["контроль периметра", "робота в складних умовах", "менше сліпих зон", "підбір під дистанцію"],
+    },
+    {
+        "filename": "aug-40-line-testing.jpg",
+        "category": "Прилади для налаштування",
+        "product": "Тестування кабельних ліній після монтажу",
+        "price": "вартість уточнюємо після кількості ліній",
+        "audience": "IP-камери / офісна мережа / PoE / серверна",
+        "keyword": "ТЕСТ",
+        "hook": "Ми не здаємо лінію “на око” — її треба перевірити приладом.",
+        "benefits": ["перевірка обжиму", "пошук помилок", "контроль перед запуском", "менше сюрпризів після монтажу"],
+    },
+    {
+        "filename": "aug-41-dome-dual-light.jpg",
+        "category": "Відеоспостереження",
+        "product": "Dahua WizColor / Dual Light купольна камера 4МП",
+        "price": "орієнтир: 4 403 ₴",
+        "audience": "офіс / під’їзд / магазин / приватний будинок",
+        "keyword": "КАМЕРА",
+        "hook": "Купольна камера — коли потрібно акуратно, помітно менше і з нормальною нічною картинкою.",
+        "benefits": ["4МП", "Dual Light", "акуратний корпус", "підходить для приміщень і входів"],
+    },
+    {
+        "filename": "aug-42-black-bullet-mic.jpg",
+        "category": "Відеоспостереження",
+        "product": "Bullet IP-камера з мікрофоном",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "вхід / фасад / магазин / склад",
+        "keyword": "МІКРОФОН",
+        "hook": "Іноді відео недостатньо — звук допомагає зрозуміти контекст.",
+        "benefits": ["камера + аудіо", "контроль входу", "нічний сценарій", "підбір під законний сценарій використання"],
+    },
+    {
+        "filename": "aug-43-panoramic-ptz.jpg",
+        "category": "PTZ відеоспостереження",
+        "product": "Панорамна + PTZ камера для великої зони",
+        "price": "орієнтир: 26 602 ₴",
+        "audience": "паркінг / периметр / великий двір / бізнес",
+        "keyword": "PTZ",
+        "hook": "Панорама показує всю сцену, PTZ дає деталь — сильна зв’язка для великих зон.",
+        "benefits": ["широкий огляд", "деталізація події", "зручно для парковок", "менше сліпих зон"],
+    },
+    {
+        "filename": "aug-44-mini-ptz-eave.jpg",
+        "category": "PTZ відеоспостереження",
+        "product": "Hikvision mini PTZ 2МП",
+        "price": "орієнтир: 4 810 ₴",
+        "audience": "вхід / двір / невелика парковка / магазин",
+        "keyword": "MINI PTZ",
+        "hook": "Mini PTZ — коли потрібен рухомий огляд, але без великої промислової камери.",
+        "benefits": ["поворотний огляд", "компактний корпус", "нічна підсвітка", "підбір точки встановлення"],
+    },
+    {
+        "filename": "aug-45-ai-nvr-black.jpg",
+        "category": "Відеоспостереження",
+        "product": "Dahua WizMind NVR 128ch",
+        "price": "орієнтир: 94 520 ₴",
+        "audience": "великий об’єкт / склад / виробництво / мережа камер",
+        "keyword": "NVR",
+        "hook": "Якщо камер багато — реєстратор має бути не слабкою ланкою, а центром системи.",
+        "benefits": ["до 128 каналів", "8 HDD", "AI-аналітика", "рішення для великих систем"],
+    },
+    {
+        "filename": "aug-46-4ch-poe-nvr.jpg",
+        "category": "Відеоспостереження",
+        "product": "Dahua 4ch PoE NVR WizSense",
+        "price": "орієнтир: 8 636 ₴",
+        "audience": "будинок / малий офіс / магазин / 4 IP-камери",
+        "keyword": "NVR",
+        "hook": "Для малого об’єкта не завжди потрібна велика шафа — іноді достатньо компактного PoE-рішення.",
+        "benefits": ["4 канали", "PoE-порти", "запис на HDD", "зручно для стартового комплекту"],
+    },
+    {
+        "filename": "aug-47-white-intercom-monitor.jpg",
+        "category": "Домофонія",
+        "product": "Dahua DHI-VTH2421FW-P 7” PoE",
+        "price": "орієнтир: 6 156 ₴",
+        "audience": "квартира / будинок / офіс / ресепшн",
+        "keyword": "ДОМОФОН",
+        "hook": "Відеодомофон може бути центром контролю входу, а не просто екраном на стіні.",
+        "benefits": ["7” TFT", "PoE", "підключення камер", "запис дзвінка на карту пам’яті"],
+    },
+    {
+        "filename": "aug-49-call-panel-slim.jpg",
+        "category": "Домофонія",
+        "product": "Slim IP виклична панель",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "хвіртка / офіс / під’їзд / вхідна група",
+        "keyword": "ПАНЕЛЬ",
+        "hook": "Перше, що бачить гість, — виклична панель. Вона має виглядати й працювати нормально.",
+        "benefits": ["камера в панелі", "кнопка виклику", "сценарій з електрозамком", "акуратний монтаж на вході"],
+    },
+    {
+        "filename": "aug-50-face-terminal.jpg",
+        "category": "Контроль доступу",
+        "product": "Термінал контролю доступу з розпізнаванням облич",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "офіс / склад / бізнес-центр / персонал",
+        "keyword": "ТЕРМІНАЛ",
+        "hook": "Коли картки губляться, а доступ треба контролювати швидко.",
+        "benefits": ["розпізнавання облич", "журнал подій", "контроль персоналу", "інтеграція зі СКУД"],
+    },
+    {
+        "filename": "aug-51-rfid-reader-ip65.jpg",
+        "category": "Контроль доступу",
+        "product": "Dahua DHI-ASR2100A-D Marine IP66",
+        "price": "орієнтир: 1 154 ₴",
+        "audience": "офіс / склад / вхідна зона / вулиця",
+        "keyword": "RFID",
+        "hook": "Зчитувач має працювати стабільно там, де двері відкриваються щодня десятки разів.",
+        "benefits": ["IP66", "RFID-доступ", "міцний корпус", "підходить для складніших умов"],
+    },
+    {
+        "filename": "aug-52-exit-button-magnetic-lock.jpg",
+        "category": "Контроль доступу",
+        "product": "Кнопка виходу + магнітний замок",
+        "price": "вартість уточнюємо після підбору дверей",
+        "audience": "офіс / склад / магазин / службовий вхід",
+        "keyword": "ЗАМОК",
+        "hook": "Контроль доступу — це не тільки зчитувач. Двері мають ще й правильно закриватися.",
+        "benefits": ["магнітний замок", "кнопка виходу", "живлення й резерв", "налаштування сценарію доступу"],
+    },
+    {
+        "filename": "aug-54-unmanaged-poe-switch.jpg",
+        "category": "Сетевое оборудование",
+        "product": "PoE-комутатор для IP-камер",
+        "price": "орієнтир: 10 402 ₴",
+        "audience": "IP-камери / офіс / магазин / склад",
+        "keyword": "PoE",
+        "hook": "PoE-комутатор — це серце невеликої системи IP-відеонагляду.",
+        "benefits": ["живлення камер по Ethernet", "менше блоків живлення", "зручна схема", "підбір під кількість портів"],
+    },
+    {
+        "filename": "aug-55-managed-24-poe-switch.jpg",
+        "category": "Сетевое оборудование",
+        "product": "Керований 24-портовий комутатор",
+        "price": "орієнтир: 44 174 ₴",
+        "audience": "офіс / великий склад / мережа камер / бізнес",
+        "keyword": "SWITCH",
+        "hook": "Коли портів багато, мережу треба не просто зібрати — її треба контролювати.",
+        "benefits": ["24 порти", "керування мережею", "масштабування", "підходить для складніших систем"],
+    },
+    {
+        "filename": "aug-56-sfp-fiber.jpg",
+        "category": "Сетевое оборудование",
+        "product": "SFP-модулі та оптичні патчкорди",
+        "price": "орієнтир: 2 950 ₴",
+        "audience": "зв’язок між будівлями / серверна / склад / периметр",
+        "keyword": "ОПТИКА",
+        "hook": "Коли відстань велика, мідь не завжди найкраще рішення.",
+        "benefits": ["оптична лінія", "зв’язок між шафами", "стабільність на дистанції", "підбір під обладнання"],
+    },
+    {
+        "filename": "aug-58-inverter-battery-backup.jpg",
+        "category": "Енергетичне обладнання",
+        "product": "Інвертор + акумулятор для резерву об’єкта",
+        "price": "вартість уточнюємо після розрахунку потужності",
+        "audience": "будинок / офіс / магазин / система безпеки",
+        "keyword": "ІНВЕРТОР",
+        "hook": "Енергонезалежність — це коли безпека не вимикається разом зі світлом.",
+        "benefits": ["резерв для камер і мережі", "підбір потужності", "масштабування", "дистанційний контроль сценарію"],
+    },
+]
+
+
 REEL_MEDIA = [
     "altcam-reel-2026-08-10-01.jpg",
     "altcam-reel-2026-08-11-02.jpg",
@@ -866,12 +1373,27 @@ REEL_MEDIA = [
     "altcam-reel-2026-08-14-05.jpg",
     "altcam-reel-2026-08-15-06.jpg",
     "altcam-reel-2026-08-16-07.jpg",
+    "altcam-reel-2026-08-17-08.jpg",
+    "altcam-reel-2026-08-18-09.jpg",
+    "altcam-reel-2026-08-19-10.jpg",
+    "altcam-reel-2026-08-20-11.jpg",
+    "altcam-reel-2026-08-21-12.jpg",
+    "altcam-reel-2026-08-22-13.jpg",
+    "altcam-reel-2026-08-23-14.jpg",
+    "altcam-reel-2026-08-24-15.jpg",
+    "altcam-reel-2026-08-25-16.jpg",
+    "altcam-reel-2026-08-26-17.jpg",
+    "altcam-reel-2026-08-27-18.jpg",
+    "altcam-reel-2026-08-28-19.jpg",
+    "altcam-reel-2026-08-29-20.jpg",
+    "altcam-reel-2026-08-30-21.jpg",
+    "altcam-reel-2026-08-31-22.jpg",
 ]
 
 
 def apply_uploaded_media_content(plan: dict) -> None:
     product_posts = [post for post in plan["posts"] if post["type"] == "product"]
-    for post, product in zip(product_posts, [*UPLOADED_MEDIA_POSTS, *GENERATED_MEDIA_POSTS]):
+    for post, product in zip(product_posts, [*UPLOADED_MEDIA_POSTS, *GENERATED_MEDIA_POSTS, *AUGUST_EXTENSION_POSTS]):
         post["product"] = public_product(product)
         post["title"] = product["hook"]
         post["cta"] = f"Напишіть «{product['keyword']}» у Telegram або відкрийте {SITE}"
@@ -894,21 +1416,29 @@ def apply_uploaded_media_content(plan: dict) -> None:
 
 def build_plan() -> dict:
     start = date(2026, 8, 10)
+    end = date(2026, 8, 31)
     times = [time(10, 0), time(14, 0), time(18, 0)]
     posts = []
     product_index = 0
-    for day_index in range(7):
+    source_products = []
+    for product in [*UPLOADED_MEDIA_POSTS, *GENERATED_MEDIA_POSTS, *AUGUST_EXTENSION_POSTS]:
+        item = dict(product)
+        item["source"] = "VIATEC"
+        item["source_url"] = "https://viatec.ua/ru"
+        source_products.append(item)
+    for day_index in range((end - start).days + 1):
         current = start + timedelta(days=day_index)
-        day_products = PRODUCTS[product_index : product_index + 3]
+        day_products = source_products[product_index : product_index + 3]
         for slot, product in enumerate(day_products):
             posts.append(build_post(product, current, times[slot], slot + 1))
         posts.append(build_reel(current, day_index, day_products))
         product_index += 3
     return {
         "brand": "ALT-CAM Security UA",
-        "period": "2026-08-10 — 2026-08-16",
+        "period": "2026-08-10 — 2026-08-31",
         "timezone": "Europe/Kyiv",
         "posting_rule": "3 товарні пости щодня + 1 Reels/карусель щодня",
+        "brand_references": BRAND_REFERENCES,
         "posts": posts,
     }
 
@@ -943,6 +1473,7 @@ def write_prompts(plan: dict) -> None:
             body = f"# {post['title']}\n\n{post['image_prompt']}\n\n## Текстові зони\n\nCTA: {post['cta']}\n\n## Caption Instagram\n\n{post['captions']['instagram']}\n"
         else:
             body = f"# {post['title']}\n\n{post['image_prompt']}\n\n## Сценарій\n\n" + "\n".join(f"- {k}: {v}" for k, v in post["scenario"].items()) + "\n\n## Caption\n\n" + post["caption"] + "\n"
+        body += "\n\n## Brand references\n\n" + brand_reference_block() + "\n"
         path.write_text(body, encoding="utf-8")
         post["prompt_path"] = str(path.relative_to(OUT_DIR).as_posix())
 
@@ -970,7 +1501,7 @@ def write_publishing_posts(plan: dict) -> None:
             item["scenario"] = post["scenario"]
             item["carousel_slides"] = post["carousel_slides"]
         ready_posts.append(item)
-    PUBLISHING_PATH.write_text(json.dumps({"posts": ready_posts}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    PUBLISHING_PATH.write_text(json.dumps({"brand_references": BRAND_REFERENCES, "posts": ready_posts}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def render_md(plan: dict) -> str:
@@ -982,6 +1513,10 @@ def render_md(plan: dict) -> str:
         "Правило: **3 товарні пости щодня + 1 Reels/карусель щодня**.",
         "",
         "CTA: сайт `https://alt-cam.net.ua` або Telegram-бот `https://t.me/alt_cam_bot`.",
+        "",
+        "## Brand references",
+        "",
+        *[f"- `{item['path']}` — {item['name']}: {item['role']}" for item in BRAND_REFERENCES],
         "",
     ]
     for post in plan["posts"]:
@@ -1049,7 +1584,7 @@ def render_calendar_html() -> str:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ALT-CAM товарний тиждень</title>
+  <title>ALT-CAM календар до кінця серпня</title>
   <style>
     :root { color-scheme: dark; --bg:#121212; --panel:rgba(255,255,255,.045); --line:rgba(255,255,255,.12); --text:#F5F5F7; --muted:#96969B; --gold:#FFCC00; }
     * { box-sizing: border-box; }
@@ -1088,15 +1623,16 @@ def render_calendar_html() -> str:
 <main>
   <header>
     <div>
-      <h1>ALT-CAM товарний тиждень</h1>
-      <p>3 товарні пости щодня + 1 Reels/карусель. Тексти готові, медіа додаються вручну у папку за вказаними іменами файлів.</p>
+      <h1>ALT-CAM календар до кінця серпня</h1>
+      <p>3 товарні пости щодня + 1 Reels/карусель. Додано камери, домофони, СКУД, Ajax, резерв живлення, кабельну продукцію, кронштейни, інструменти, прилади й монтажні послуги.</p>
     </div>
-    <div class="badge">10–16 серпня 2026</div>
+    <div class="badge">10–31 серпня 2026</div>
   </header>
   <nav class="toolbar">
     <a class="chip" href="./index.html">60-денний календар</a>
     <a class="chip" href="../content-plans/2026-08-10-product-week/PLAN.md">PLAN.md</a>
     <a class="chip" href="../content-plans/2026-08-10-product-week/publishing-posts.json">publishing-posts.json</a>
+    <a class="chip" href="../content-plans/2026-08-10-product-week/brand-references/">бренд-референсы</a>
   </nav>
   <section id="calendar" class="grid"></section>
 </main>
