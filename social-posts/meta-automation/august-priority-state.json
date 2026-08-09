@@ -26,6 +26,113 @@
             "id": "18134141554623512"
           }
         }
+      },
+      "telegram": {
+        "published_at": "2026-08-09T10:09:04.862235+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 51,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1786270144,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADM2p4UcBN6N8VrYXod-u-5f7tp1LYAALUD2sbjHzEUwPH-W9JmJGTAQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD1A9rG4x8xFN4",
+                  "file_size": 1933,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADM2p4UcBN6N8VrYXod-u-5f7tp1LYAALUD2sbjHzEUwPH-W9JmJGTAQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD1A9rG4x8xFNy",
+                  "file_size": 24885,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADM2p4UcBN6N8VrYXod-u-5f7tp1LYAALUD2sbjHzEUwPH-W9JmJGTAQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD1A9rG4x8xFN9",
+                  "file_size": 97797,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADM2p4UcBN6N8VrYXod-u-5f7tp1LYAALUD2sbjHzEUwPH-W9JmJGTAQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD1A9rG4x8xFN-",
+                  "file_size": 195637,
+                  "width": 1254,
+                  "height": 1254
+                }
+              ],
+              "caption": "Оголошення ALT-CAM Security UA\n\nПідбираємо, встановлюємо та налаштовуємо системи безпеки під ваш об’єкт: відеоспостереження, домофонія, СКУД, Ajax, резервне живлення, кабель та монтаж.\n\nНапишіть «ПІДБІР» — підкажемо рішення без зайвого обладнання.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #монтажкамер #домофон #Ajax #Київ #Вишгород\n\nTelegram ALT-CAM: https://t.me/altcam_security_ua",
+              "caption_entities": [
+                {
+                  "offset": 251,
+                  "length": 24,
+                  "type": "url"
+                },
+                {
+                  "offset": 279,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 341,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 349,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 369,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 382,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 391,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 397,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 403,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 432,
+                  "length": 31,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
       }
     },
     "meta-priority-altcam-product-2026-08-10-01-product": {
@@ -59,6 +166,73 @@
           },
           "published": {
             "id": "18160541020479816"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-08-09T10:09:05.382937+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 52,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1786270145,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADM2p4UcBN6N8VrYXod-u-5f7tp1LYAALUD2sbjHzEUwPH-W9JmJGTAQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD1A9rG4x8xFN4",
+                  "file_size": 1933,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADM2p4UcBN6N8VrYXod-u-5f7tp1LYAALUD2sbjHzEUwPH-W9JmJGTAQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD1A9rG4x8xFNy",
+                  "file_size": 24885,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADM2p4UcBN6N8VrYXod-u-5f7tp1LYAALUD2sbjHzEUwPH-W9JmJGTAQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD1A9rG4x8xFN9",
+                  "file_size": 97797,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADM2p4UcBN6N8VrYXod-u-5f7tp1LYAALUD2sbjHzEUwPH-W9JmJGTAQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD1A9rG4x8xFN-",
+                  "file_size": 195637,
+                  "width": 1254,
+                  "height": 1254
+                }
+              ],
+              "caption": "<b>Захист, який працює навіть тоді, коли вас немає поруч.</b>\n\n<b>Товар:</b> Ajax для дому та бізнесу\n<b>Для кого:</b> квартира / будинок / офіс / магазин\n\n• датчики руху й відкриття\n• керування зі смартфона\n• сирена та push-сповіщення\n• підбір сценарію під ваш об’єкт\n\n<code>Вартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.</code>\n\nНатисніть кнопку або напишіть «AJAX» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot\n\nTelegram ALT-CAM: https://t.me/altcam_security_ua",
+              "caption_entities": [
+                {
+                  "offset": 453,
+                  "length": 24,
+                  "type": "url"
+                },
+                {
+                  "offset": 497,
+                  "length": 31,
+                  "type": "url"
+                }
+              ]
+            }
           }
         }
       }
