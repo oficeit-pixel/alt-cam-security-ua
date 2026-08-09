@@ -355,6 +355,8 @@ def publish_telegram(post: dict) -> dict:
     followup = None
     if len(caption) <= 1024:
         media_payload["caption"] = caption
+        if "<" in caption and ">" in caption:
+            media_payload["parse_mode"] = "HTML"
     else:
         media_payload["caption"] = caption[:1000].rstrip() + "…"
         followup = caption
@@ -373,13 +375,16 @@ def publish_telegram(post: dict) -> dict:
 
     result = {media_key: media_body}
     if followup:
+        message_data = {
+            "chat_id": chat_id,
+            "text": followup[:4096],
+            "disable_web_page_preview": "true",
+        }
+        if "<" in followup and ">" in followup:
+            message_data["parse_mode"] = "HTML"
         message_response = requests.post(
             f"{api_base}/sendMessage",
-            data={
-                "chat_id": chat_id,
-                "text": followup[:4096],
-                "disable_web_page_preview": "true",
-            },
+            data=message_data,
             timeout=60,
         )
         try:
@@ -480,10 +485,7 @@ PUBLISHERS = {
 
 
 def caption_for(post: dict, platform: str) -> str:
-    caption = post.get("captions", {}).get(platform) or post["caption"]
-    if TELEGRAM_GROUP_URL and TELEGRAM_GROUP_URL not in caption:
-        caption = f"{caption.rstrip()}\n\nTelegram ALT-CAM: {TELEGRAM_GROUP_URL}"
-    return caption
+    return post.get("captions", {}).get(platform) or post["caption"]
 
 
 def tiktok_title_for(post: dict) -> str:

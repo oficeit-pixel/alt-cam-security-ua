@@ -85,6 +85,11 @@ jobs:
         continue-on-error: true
         run: python social-posts/meta-automation/check_setup.py
 
+      - name: Delete previous forced Telegram post
+        if: env.PUBLISHING_PAUSED != 'true' && env.WORKFLOW_FORCE_PLATFORM == 'telegram' && env.WORKFLOW_FORCE_POST_ID != ''
+        continue-on-error: true
+        run: python scripts/delete_telegram_messages_from_state.py --post-id "$WORKFLOW_FORCE_POST_ID"
+
       - name: Publish due posts
         if: env.PUBLISHING_PAUSED != 'true'
         shell: bash
