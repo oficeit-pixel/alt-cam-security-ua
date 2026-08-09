@@ -18,15 +18,17 @@
     .day { border:1px solid var(--line); border-radius:22px; overflow:hidden; background:var(--panel); }
     .day-head { padding:18px 20px; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; gap:12px; background:rgba(255,255,255,.035); }
     h2 { font-size:19px; margin:0; }
-    .post { display:grid; grid-template-columns:92px 1fr; gap:16px; padding:18px 20px; border-bottom:1px solid var(--line); }
+    .post { display:grid; grid-template-columns:92px 190px 1fr; gap:16px; padding:18px 20px; border-bottom:1px solid var(--line); }
     .post:last-child { border-bottom:0; }
     .time { color:var(--gold); font-weight:900; font-size:18px; }
+    img.media { width:190px; aspect-ratio:1/1; object-fit:cover; border-radius:18px; border:1px solid var(--line); background:#222; }
+    img.media.vertical { aspect-ratio:9/16; }
     h3 { margin:0 0 8px; font-size:21px; }
     .meta { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0; }
     details { margin-top:10px; border:1px solid var(--line); border-radius:14px; overflow:hidden; background:rgba(0,0,0,.18); }
     summary { cursor:pointer; padding:12px 14px; color:var(--gold); font-weight:800; }
     pre { white-space:pre-wrap; margin:0; padding:0 14px 14px; font-family:inherit; line-height:1.5; }
-    @media (max-width:720px){ header{display:block}.badge{margin-top:16px}.post{grid-template-columns:1fr} }
+    @media (max-width:720px){ header{display:block}.badge{margin-top:16px}.post{grid-template-columns:1fr} img.media{width:100%;max-height:420px;} }
   </style>
 </head>
 <body>
@@ -34,14 +36,14 @@
   <header>
     <div>
       <h1>ALT-CAM товарний тиждень</h1>
-      <p>3 товарні пости щодня + 1 Reels/карусель. Стиль: premium product-card, як у прикладах.</p>
+      <p>3 товарні пости щодня + 1 Reels/карусель. Медіа та тексти підготовлені для автопублікації після підтвердження.</p>
     </div>
     <div class="badge">10–16 серпня 2026</div>
   </header>
   <nav class="toolbar">
     <a class="chip" href="./index.html">60-денний календар</a>
     <a class="chip" href="../content-plans/2026-08-10-product-week/PLAN.md">PLAN.md</a>
-    <a class="chip" href="../content-plans/2026-08-10-product-week/image-prompts/">Image prompts</a>
+    <a class="chip" href="../content-plans/2026-08-10-product-week/publishing-posts.json">publishing-posts.json</a>
   </nav>
   <section id="calendar" class="grid"></section>
 </main>
@@ -64,14 +66,14 @@ calendar.innerHTML = [...days.entries()].map(([key, posts]) => `
     ${posts.map(post => `
       <div class="post">
         <div class="time">${fmtTime.format(new Date(post.scheduled_at))}</div>
+        <img class="media ${post.type === 'reel_carousel' ? 'vertical' : ''}" src="../content-plans/2026-08-10-product-week/${post.media_path}" alt="">
         <div>
           <h3>${esc(post.title)}</h3>
           <p>${esc(post.type === 'product' ? post.product.product : post.carousel_slides[0])}</p>
           <div class="meta">
             <span class="chip">${post.type}</span>
             ${post.platforms.map(p => `<span class="chip">${p}</span>`).join('')}
-            <a class="chip" href="../content-plans/2026-08-10-product-week/${post.prompt_path}">prompt</a>
-            ${post.type === 'product' ? `<a class="chip" href="${post.product.source_url}">${post.product.source}</a>` : ''}
+            <a class="chip" href="../content-plans/2026-08-10-product-week/${post.media_path}">media</a>
           </div>
           ${post.type === 'product' ? block('Facebook', post.captions.facebook) + block('Instagram', post.captions.instagram) + block('Threads', post.captions.threads) + block('Telegram', post.captions.telegram) + block('YouTube Community', post.captions.youtube) : block('Reels / TikTok / Shorts сценарій', Object.entries(post.scenario).map(([k,v]) => `${k}: ${v}`).join('\n')) + block('Карусель', post.carousel_slides.join('\n')) + block('Caption', post.caption)}
         </div>

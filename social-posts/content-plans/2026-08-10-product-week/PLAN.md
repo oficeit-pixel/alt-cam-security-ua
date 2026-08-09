@@ -12,8 +12,8 @@ CTA: сайт `https://alt-cam.net.ua` або Telegram-бот `https://t.me/alt_
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: Hikvision DS-2CD2443G2-I Black 4МП
 - Категорія: Відеоспостереження
-- Джерело: [VIATEC](https://viatec.ua/ru)
-- Ціна: орієнтир постачальника: 6 233 ₴
+- Ціна: орієнтир: 6 233 ₴
+- Медіа: [media/square/altcam-product-2026-08-10-01-camera.jpg](media/square/altcam-product-2026-08-10-01-camera.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-10-01-camera.md](image-prompts/altcam-product-2026-08-10-01-camera.md)
 
 ### Facebook
@@ -29,9 +29,9 @@ CTA: сайт `https://alt-cam.net.ua` або Telegram-бот `https://t.me/alt_
 • 4МП деталізація
 • компактний корпус
 • підходить для офісу й квартири
-• зручно показати в premium product-card
+• легко інтегрувати в готову систему
 
-Ціна: орієнтир постачальника: 6 233 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
+Ціна: орієнтир: 6 233 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
 
 Хочете підібрати без помилки? Напишіть «КАМЕРА» у Telegram або відкрийте сайт.
 🤖 https://t.me/alt_cam_bot
@@ -49,7 +49,7 @@ Hikvision DS-2CD2443G2-I Black 4МП — варіант для: квартира
 • 4МП деталізація
 • компактний корпус
 • підходить для офісу й квартири
-• зручно показати в premium product-card
+• легко інтегрувати в готову систему
 
 Напишіть «КАМЕРА» — підкажемо, чи підходить саме під ваш об’єкт.
 🤖 https://t.me/alt_cam_bot
@@ -76,9 +76,9 @@ Hikvision DS-2CD2443G2-I Black 4МП — варіант для: квартира
 • 4МП деталізація
 • компактний корпус
 • підходить для офісу й квартири
-• зручно показати в premium product-card
+• легко інтегрувати в готову систему
 
-<code>Ціна: орієнтир постачальника: 6 233 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
+<code>Ціна: орієнтир: 6 233 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
 
 Натисніть кнопку або напишіть «КАМЕРА» — підберемо варіант під об’єкт.
 https://t.me/alt_cam_bot
@@ -89,8 +89,8 @@ https://t.me/alt_cam_bot
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: NeoLight OPTIMA GSM
 - Категорія: Домофонія
-- Джерело: [NeoLight](https://neolight.in.ua/uk)
-- Ціна: орієнтир постачальника: 7 650 ₴
+- Ціна: орієнтир: 7 650 ₴
+- Медіа: [media/square/altcam-product-2026-08-10-02-intercom.jpg](media/square/altcam-product-2026-08-10-02-intercom.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-10-02-intercom.md](image-prompts/altcam-product-2026-08-10-02-intercom.md)
 
 ### Facebook
@@ -108,7 +108,7 @@ https://t.me/alt_cam_bot
 • актуально для воріт
 • зручно для приватного будинку
 
-Ціна: орієнтир постачальника: 7 650 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
+Ціна: орієнтир: 7 650 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
 
 Хочете підібрати без помилки? Напишіть «ДОМОФОН» у Telegram або відкрийте сайт.
 🤖 https://t.me/alt_cam_bot
@@ -155,7 +155,7 @@ NeoLight OPTIMA GSM — варіант для: ворота / приватний
 • актуально для воріт
 • зручно для приватного будинку
 
-<code>Ціна: орієнтир постачальника: 7 650 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
+<code>Ціна: орієнтир: 7 650 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
 
 Натисніть кнопку або напишіть «ДОМОФОН» — підберемо варіант під об’єкт.
 https://t.me/alt_cam_bot
@@ -166,8 +166,8 @@ https://t.me/alt_cam_bot
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: Одескабель КППт-ВП U/UTP Cat.5E CU 305 м для зовнішніх робіт
 - Категорія: Кабель / монтаж
-- Джерело: [ЮГТОРГ / BigOpt](https://yugtorg.bigopt.com/)
 - Ціна: ціну уточнюємо перед публікацією
+- Медіа: [media/square/altcam-product-2026-08-10-03-cable.jpg](media/square/altcam-product-2026-08-10-03-cable.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-10-03-cable.md](image-prompts/altcam-product-2026-08-10-03-cable.md)
 
 ### Facebook
@@ -241,6 +241,7 @@ https://t.me/alt_cam_bot
 
 - Тип: reel_carousel
 - Платформи: instagram_reels, facebook_reels, tiktok, youtube_shorts, telegram
+- Медіа: [media/vertical/altcam-reel-2026-08-10-01-cover.jpg](media/vertical/altcam-reel-2026-08-10-01-cover.jpg)
 - Prompt: [image-prompts/altcam-reel-2026-08-10-01.md](image-prompts/altcam-reel-2026-08-10-01.md)
 
 ### Сценарій
@@ -280,8 +281,8 @@ https://t.me/alt_cam_bot
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: Dahua DHI-VTH2421FW-P 7” PoE
 - Категорія: Домофонія
-- Джерело: [VIATEC](https://viatec.ua/ru/product/DHI-VTH2421FW-P)
-- Ціна: орієнтир постачальника: 6 480 ₴
+- Ціна: орієнтир: 6 480 ₴
+- Медіа: [media/square/altcam-product-2026-08-11-01-intercom.jpg](media/square/altcam-product-2026-08-11-01-intercom.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-11-01-intercom.md](image-prompts/altcam-product-2026-08-11-01-intercom.md)
 
 ### Facebook
@@ -299,7 +300,7 @@ https://t.me/alt_cam_bot
 • підключення камер Dahua/ONVIF
 • запис дзвінка на карту пам’яті
 
-Ціна: орієнтир постачальника: 6 480 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
+Ціна: орієнтир: 6 480 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
 
 Хочете підібрати без помилки? Напишіть «ДОМОФОН» у Telegram або відкрийте сайт.
 🤖 https://t.me/alt_cam_bot
@@ -346,7 +347,7 @@ Dahua DHI-VTH2421FW-P 7” PoE — варіант для: квартира / о�
 • підключення камер Dahua/ONVIF
 • запис дзвінка на карту пам’яті
 
-<code>Ціна: орієнтир постачальника: 6 480 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
+<code>Ціна: орієнтир: 6 480 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
 
 Натисніть кнопку або напишіть «ДОМОФОН» — підберемо варіант під об’єкт.
 https://t.me/alt_cam_bot
@@ -357,8 +358,8 @@ https://t.me/alt_cam_bot
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: Hikvision DS-2CD1047G3H-LIUF 4МП
 - Категорія: Відеоспостереження
-- Джерело: [VIATEC](https://viatec.ua/ru)
-- Ціна: орієнтир постачальника: 7 704 ₴
+- Ціна: орієнтир: 7 704 ₴
+- Медіа: [media/square/altcam-product-2026-08-11-02-camera.jpg](media/square/altcam-product-2026-08-11-02-camera.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-11-02-camera.md](image-prompts/altcam-product-2026-08-11-02-camera.md)
 
 ### Facebook
@@ -376,7 +377,7 @@ https://t.me/alt_cam_bot
 • підходить для входу й двору
 • сильний акцент у рекламній картці
 
-Ціна: орієнтир постачальника: 7 704 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
+Ціна: орієнтир: 7 704 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
 
 Хочете підібрати без помилки? Напишіть «КАМЕРА» у Telegram або відкрийте сайт.
 🤖 https://t.me/alt_cam_bot
@@ -423,7 +424,7 @@ Hikvision DS-2CD1047G3H-LIUF 4МП — варіант для: двір / фас�
 • підходить для входу й двору
 • сильний акцент у рекламній картці
 
-<code>Ціна: орієнтир постачальника: 7 704 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
+<code>Ціна: орієнтир: 7 704 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
 
 Натисніть кнопку або напишіть «КАМЕРА» — підберемо варіант під об’єкт.
 https://t.me/alt_cam_bot
@@ -434,8 +435,8 @@ https://t.me/alt_cam_bot
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: NeoLight NeoKit HD WF + замок
 - Категорія: Домофонія
-- Джерело: [NeoLight](https://neolight.in.ua/uk)
-- Ціна: орієнтир постачальника: 10 770 ₴
+- Ціна: орієнтир: 10 770 ₴
+- Медіа: [media/square/altcam-product-2026-08-11-03-intercom.jpg](media/square/altcam-product-2026-08-11-03-intercom.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-11-03-intercom.md](image-prompts/altcam-product-2026-08-11-03-intercom.md)
 
 ### Facebook
@@ -453,7 +454,7 @@ https://t.me/alt_cam_bot
 • замок у сценарії
 • керування входом
 
-Ціна: орієнтир постачальника: 10 770 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
+Ціна: орієнтир: 10 770 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
 
 Хочете підібрати без помилки? Напишіть «ДОМОФОН» у Telegram або відкрийте сайт.
 🤖 https://t.me/alt_cam_bot
@@ -500,7 +501,7 @@ NeoLight NeoKit HD WF + замок — варіант для: будинок / �
 • замок у сценарії
 • керування входом
 
-<code>Ціна: орієнтир постачальника: 10 770 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
+<code>Ціна: орієнтир: 10 770 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
 
 Натисніть кнопку або напишіть «ДОМОФОН» — підберемо варіант під об’єкт.
 https://t.me/alt_cam_bot
@@ -509,6 +510,7 @@ https://t.me/alt_cam_bot
 
 - Тип: reel_carousel
 - Платформи: instagram_reels, facebook_reels, tiktok, youtube_shorts, telegram
+- Медіа: [media/vertical/altcam-reel-2026-08-11-02-cover.jpg](media/vertical/altcam-reel-2026-08-11-02-cover.jpg)
 - Prompt: [image-prompts/altcam-reel-2026-08-11-02.md](image-prompts/altcam-reel-2026-08-11-02.md)
 
 ### Сценарій
@@ -548,8 +550,8 @@ https://t.me/alt_cam_bot
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: YOSO YO-IPC43D5MP50 PTZ 5МП Wi‑Fi з сиреною
 - Категорія: Wi‑Fi відеоспостереження
-- Джерело: [ЮГТОРГ / BigOpt](https://yugtorg.bigopt.com/goods-price/4/)
-- Ціна: орієнтир постачальника: 2 398,50 ₴
+- Ціна: орієнтир: 2 398,50 ₴
+- Медіа: [media/square/altcam-product-2026-08-12-01-camera.jpg](media/square/altcam-product-2026-08-12-01-camera.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-12-01-camera.md](image-prompts/altcam-product-2026-08-12-01-camera.md)
 
 ### Facebook
@@ -567,7 +569,7 @@ https://t.me/alt_cam_bot
 • PTZ
 • сирена та SD-карта
 
-Ціна: орієнтир постачальника: 2 398,50 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
+Ціна: орієнтир: 2 398,50 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
 
 Хочете підібрати без помилки? Напишіть «КАМЕРА» у Telegram або відкрийте сайт.
 🤖 https://t.me/alt_cam_bot
@@ -614,7 +616,7 @@ YOSO YO-IPC43D5MP50 PTZ 5МП Wi‑Fi з сиреною — варіант дл�
 • PTZ
 • сирена та SD-карта
 
-<code>Ціна: орієнтир постачальника: 2 398,50 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
+<code>Ціна: орієнтир: 2 398,50 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
 
 Натисніть кнопку або напишіть «КАМЕРА» — підберемо варіант під об’єкт.
 https://t.me/alt_cam_bot
@@ -625,8 +627,8 @@ https://t.me/alt_cam_bot
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: Dahua DH-HAC-HFW1801TLMP-IL-A 8МП
 - Категорія: Відеоспостереження
-- Джерело: [VIATEC](https://viatec.ua/ru)
-- Ціна: орієнтир постачальника: 2 970 ₴
+- Ціна: орієнтир: 2 970 ₴
+- Медіа: [media/square/altcam-product-2026-08-12-02-camera.jpg](media/square/altcam-product-2026-08-12-02-camera.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-12-02-camera.md](image-prompts/altcam-product-2026-08-12-02-camera.md)
 
 ### Facebook
@@ -644,7 +646,7 @@ https://t.me/alt_cam_bot
 • вуличний форм-фактор
 • вигідна точка входу
 
-Ціна: орієнтир постачальника: 2 970 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
+Ціна: орієнтир: 2 970 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
 
 Хочете підібрати без помилки? Напишіть «КАМЕРА» у Telegram або відкрийте сайт.
 🤖 https://t.me/alt_cam_bot
@@ -691,7 +693,7 @@ Dahua DH-HAC-HFW1801TLMP-IL-A 8МП — варіант для: магазин / 
 • вуличний форм-фактор
 • вигідна точка входу
 
-<code>Ціна: орієнтир постачальника: 2 970 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
+<code>Ціна: орієнтир: 2 970 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
 
 Натисніть кнопку або напишіть «КАМЕРА» — підберемо варіант під об’єкт.
 https://t.me/alt_cam_bot
@@ -702,8 +704,8 @@ https://t.me/alt_cam_bot
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: NeoLight MEZZO Hybrid HD KIT Graphite 10.1” Wi‑Fi
 - Категорія: Домофонія
-- Джерело: [NeoLight](https://neolight.in.ua/uk)
-- Ціна: орієнтир постачальника: 16 120 ₴
+- Ціна: орієнтир: 16 120 ₴
+- Медіа: [media/square/altcam-product-2026-08-12-03-intercom.jpg](media/square/altcam-product-2026-08-12-03-intercom.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-12-03-intercom.md](image-prompts/altcam-product-2026-08-12-03-intercom.md)
 
 ### Facebook
@@ -721,7 +723,7 @@ https://t.me/alt_cam_bot
 • гібридний комплект
 • 2Мп відеопанель
 
-Ціна: орієнтир постачальника: 16 120 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
+Ціна: орієнтир: 16 120 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
 
 Хочете підібрати без помилки? Напишіть «ДОМОФОН» у Telegram або відкрийте сайт.
 🤖 https://t.me/alt_cam_bot
@@ -768,7 +770,7 @@ NeoLight MEZZO Hybrid HD KIT Graphite 10.1” Wi‑Fi — варіант для:
 • гібридний комплект
 • 2Мп відеопанель
 
-<code>Ціна: орієнтир постачальника: 16 120 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
+<code>Ціна: орієнтир: 16 120 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
 
 Натисніть кнопку або напишіть «ДОМОФОН» — підберемо варіант під об’єкт.
 https://t.me/alt_cam_bot
@@ -777,6 +779,7 @@ https://t.me/alt_cam_bot
 
 - Тип: reel_carousel
 - Платформи: instagram_reels, facebook_reels, tiktok, youtube_shorts, telegram
+- Медіа: [media/vertical/altcam-reel-2026-08-12-03-cover.jpg](media/vertical/altcam-reel-2026-08-12-03-cover.jpg)
 - Prompt: [image-prompts/altcam-reel-2026-08-12-03.md](image-prompts/altcam-reel-2026-08-12-03.md)
 
 ### Сценарій
@@ -816,8 +819,8 @@ https://t.me/alt_cam_bot
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: Шафа Merlion 15U 600×600×768 мм
 - Категорія: Серверна / монтаж
-- Джерело: [ЮГТОРГ / BigOpt](https://yugtorg.bigopt.com/)
 - Ціна: ціну уточнюємо перед публікацією
+- Медіа: [media/square/altcam-product-2026-08-13-01-rack.jpg](media/square/altcam-product-2026-08-13-01-rack.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-13-01-rack.md](image-prompts/altcam-product-2026-08-13-01-rack.md)
 
 ### Facebook
@@ -893,8 +896,8 @@ https://t.me/alt_cam_bot
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: Dahua DHI-ASR2100A-D Marine IP66
 - Категорія: Контроль доступу
-- Джерело: [VIATEC](https://viatec.ua/ru)
-- Ціна: орієнтир постачальника: 1 215 ₴
+- Ціна: орієнтир: 1 215 ₴
+- Медіа: [media/square/altcam-product-2026-08-13-02-access.jpg](media/square/altcam-product-2026-08-13-02-access.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-13-02-access.md](image-prompts/altcam-product-2026-08-13-02-access.md)
 
 ### Facebook
@@ -912,7 +915,7 @@ https://t.me/alt_cam_bot
 • для контролю доступу
 • підходить для суворіших умов
 
-Ціна: орієнтир постачальника: 1 215 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
+Ціна: орієнтир: 1 215 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
 
 Хочете підібрати без помилки? Напишіть «ДОСТУП» у Telegram або відкрийте сайт.
 🤖 https://t.me/alt_cam_bot
@@ -959,7 +962,7 @@ Dahua DHI-ASR2100A-D Marine IP66 — варіант для: офіс / скла�
 • для контролю доступу
 • підходить для суворіших умов
 
-<code>Ціна: орієнтир постачальника: 1 215 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
+<code>Ціна: орієнтир: 1 215 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
 
 Натисніть кнопку або напишіть «ДОСТУП» — підберемо варіант під об’єкт.
 https://t.me/alt_cam_bot
@@ -970,8 +973,8 @@ https://t.me/alt_cam_bot
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: NeoLight ALPHA Hybrid HD KIT Graphite + 2 IP камери
 - Категорія: Домофонія + відео
-- Джерело: [NeoLight](https://neolight.in.ua/uk)
-- Ціна: орієнтир постачальника: 16 220 ₴
+- Ціна: орієнтир: 16 220 ₴
+- Медіа: [media/square/altcam-product-2026-08-13-03-intercom.jpg](media/square/altcam-product-2026-08-13-03-intercom.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-13-03-intercom.md](image-prompts/altcam-product-2026-08-13-03-intercom.md)
 
 ### Facebook
@@ -989,7 +992,7 @@ https://t.me/alt_cam_bot
 • комплектне рішення
 • зручно для контролю входу
 
-Ціна: орієнтир постачальника: 16 220 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
+Ціна: орієнтир: 16 220 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
 
 Хочете підібрати без помилки? Напишіть «ДОМОФОН» у Telegram або відкрийте сайт.
 🤖 https://t.me/alt_cam_bot
@@ -1036,7 +1039,7 @@ NeoLight ALPHA Hybrid HD KIT Graphite + 2 IP камери — варіант д�
 • комплектне рішення
 • зручно для контролю входу
 
-<code>Ціна: орієнтир постачальника: 16 220 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
+<code>Ціна: орієнтир: 16 220 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
 
 Натисніть кнопку або напишіть «ДОМОФОН» — підберемо варіант під об’єкт.
 https://t.me/alt_cam_bot
@@ -1045,6 +1048,7 @@ https://t.me/alt_cam_bot
 
 - Тип: reel_carousel
 - Платформи: instagram_reels, facebook_reels, tiktok, youtube_shorts, telegram
+- Медіа: [media/vertical/altcam-reel-2026-08-13-04-cover.jpg](media/vertical/altcam-reel-2026-08-13-04-cover.jpg)
 - Prompt: [image-prompts/altcam-reel-2026-08-13-04.md](image-prompts/altcam-reel-2026-08-13-04.md)
 
 ### Сценарій
@@ -1084,8 +1088,8 @@ https://t.me/alt_cam_bot
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: Hikvision DS-KH6110-WE1/White 4.3”
 - Категорія: Домофонія
-- Джерело: [VIATEC](https://viatec.ua/ru)
-- Ціна: орієнтир постачальника: 4 050 ₴
+- Ціна: орієнтир: 4 050 ₴
+- Медіа: [media/square/altcam-product-2026-08-14-01-intercom.jpg](media/square/altcam-product-2026-08-14-01-intercom.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-14-01-intercom.md](image-prompts/altcam-product-2026-08-14-01-intercom.md)
 
 ### Facebook
@@ -1103,7 +1107,7 @@ https://t.me/alt_cam_bot
 • для базового сценарію
 • підходить для квартири
 
-Ціна: орієнтир постачальника: 4 050 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
+Ціна: орієнтир: 4 050 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
 
 Хочете підібрати без помилки? Напишіть «ДОМОФОН» у Telegram або відкрийте сайт.
 🤖 https://t.me/alt_cam_bot
@@ -1150,7 +1154,7 @@ Hikvision DS-KH6110-WE1/White 4.3” — варіант для: квартира
 • для базового сценарію
 • підходить для квартири
 
-<code>Ціна: орієнтир постачальника: 4 050 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
+<code>Ціна: орієнтир: 4 050 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
 
 Натисніть кнопку або напишіть «ДОМОФОН» — підберемо варіант під об’єкт.
 https://t.me/alt_cam_bot
@@ -1161,8 +1165,8 @@ https://t.me/alt_cam_bot
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: Ritar FTP Cat.6 CU 305 м
 - Категорія: Кабель / монтаж
-- Джерело: [ЮГТОРГ / BigOpt](https://yugtorg.bigopt.com/)
 - Ціна: ціну уточнюємо перед публікацією
+- Медіа: [media/square/altcam-product-2026-08-14-02-cable.jpg](media/square/altcam-product-2026-08-14-02-cable.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-14-02-cable.md](image-prompts/altcam-product-2026-08-14-02-cable.md)
 
 ### Facebook
@@ -1238,8 +1242,8 @@ https://t.me/alt_cam_bot
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: Dahua WizMind Triple-Sight DH-IPC-MFW5241T2-E3-ASE
 - Категорія: Відеоспостереження
-- Джерело: [VIATEC](https://viatec.ua/ru)
-- Ціна: орієнтир постачальника: 17 550 ₴
+- Ціна: орієнтир: 17 550 ₴
+- Медіа: [media/square/altcam-product-2026-08-14-03-camera.jpg](media/square/altcam-product-2026-08-14-03-camera.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-14-03-camera.md](image-prompts/altcam-product-2026-08-14-03-camera.md)
 
 ### Facebook
@@ -1257,7 +1261,7 @@ https://t.me/alt_cam_bot
 • різні фокусні відстані
 • для складних зон
 
-Ціна: орієнтир постачальника: 17 550 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
+Ціна: орієнтир: 17 550 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
 
 Хочете підібрати без помилки? Напишіть «КАМЕРА» у Telegram або відкрийте сайт.
 🤖 https://t.me/alt_cam_bot
@@ -1304,7 +1308,7 @@ Dahua WizMind Triple-Sight DH-IPC-MFW5241T2-E3-ASE — варіант для: с
 • різні фокусні відстані
 • для складних зон
 
-<code>Ціна: орієнтир постачальника: 17 550 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
+<code>Ціна: орієнтир: 17 550 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
 
 Натисніть кнопку або напишіть «КАМЕРА» — підберемо варіант під об’єкт.
 https://t.me/alt_cam_bot
@@ -1313,6 +1317,7 @@ https://t.me/alt_cam_bot
 
 - Тип: reel_carousel
 - Платформи: instagram_reels, facebook_reels, tiktok, youtube_shorts, telegram
+- Медіа: [media/vertical/altcam-reel-2026-08-14-05-cover.jpg](media/vertical/altcam-reel-2026-08-14-05-cover.jpg)
 - Prompt: [image-prompts/altcam-reel-2026-08-14-05.md](image-prompts/altcam-reel-2026-08-14-05.md)
 
 ### Сценарій
@@ -1352,8 +1357,8 @@ https://t.me/alt_cam_bot
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: NeoLight NeoKIT FHD PRO + замок
 - Категорія: Домофонія
-- Джерело: [NeoLight](https://neolight.in.ua/uk)
-- Ціна: орієнтир постачальника: 9 059 ₴
+- Ціна: орієнтир: 9 059 ₴
+- Медіа: [media/square/altcam-product-2026-08-15-01-intercom.jpg](media/square/altcam-product-2026-08-15-01-intercom.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-15-01-intercom.md](image-prompts/altcam-product-2026-08-15-01-intercom.md)
 
 ### Facebook
@@ -1371,7 +1376,7 @@ https://t.me/alt_cam_bot
 • для дверей/хвіртки
 • зручний сценарій входу
 
-Ціна: орієнтир постачальника: 9 059 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
+Ціна: орієнтир: 9 059 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
 
 Хочете підібрати без помилки? Напишіть «ДОМОФОН» у Telegram або відкрийте сайт.
 🤖 https://t.me/alt_cam_bot
@@ -1418,7 +1423,7 @@ NeoLight NeoKIT FHD PRO + замок — варіант для: хвіртка /
 • для дверей/хвіртки
 • зручний сценарій входу
 
-<code>Ціна: орієнтир постачальника: 9 059 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
+<code>Ціна: орієнтир: 9 059 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
 
 Натисніть кнопку або напишіть «ДОМОФОН» — підберемо варіант під об’єкт.
 https://t.me/alt_cam_bot
@@ -1429,8 +1434,8 @@ https://t.me/alt_cam_bot
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: BMS JK-BD6A24S20P Li-Ion/LiFePO4/LTO
 - Категорія: Резервне живлення
-- Джерело: [ЮГТОРГ / BigOpt](https://yugtorg.bigopt.com/)
 - Ціна: ціну уточнюємо перед публікацією
+- Медіа: [media/square/altcam-product-2026-08-15-02-backup.jpg](media/square/altcam-product-2026-08-15-02-backup.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-15-02-backup.md](image-prompts/altcam-product-2026-08-15-02-backup.md)
 
 ### Facebook
@@ -1506,8 +1511,8 @@ https://t.me/alt_cam_bot
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: Hikvision DS-2DE1C200IW-DE3(F1)(S7) 2МП PTZ
 - Категорія: PTZ відеоспостереження
-- Джерело: [VIATEC](https://viatec.ua/ru)
-- Ціна: орієнтир постачальника: 5 063 ₴
+- Ціна: орієнтир: 5 063 ₴
+- Медіа: [media/square/altcam-product-2026-08-15-03-camera.jpg](media/square/altcam-product-2026-08-15-03-camera.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-15-03-camera.md](image-prompts/altcam-product-2026-08-15-03-camera.md)
 
 ### Facebook
@@ -1525,7 +1530,7 @@ https://t.me/alt_cam_bot
 • 4 мм
 • для гнучкого огляду
 
-Ціна: орієнтир постачальника: 5 063 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
+Ціна: орієнтир: 5 063 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
 
 Хочете підібрати без помилки? Напишіть «КАМЕРА» у Telegram або відкрийте сайт.
 🤖 https://t.me/alt_cam_bot
@@ -1572,7 +1577,7 @@ Hikvision DS-2DE1C200IW-DE3(F1)(S7) 2МП PTZ — варіант для: дві�
 • 4 мм
 • для гнучкого огляду
 
-<code>Ціна: орієнтир постачальника: 5 063 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
+<code>Ціна: орієнтир: 5 063 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
 
 Натисніть кнопку або напишіть «КАМЕРА» — підберемо варіант під об’єкт.
 https://t.me/alt_cam_bot
@@ -1581,6 +1586,7 @@ https://t.me/alt_cam_bot
 
 - Тип: reel_carousel
 - Платформи: instagram_reels, facebook_reels, tiktok, youtube_shorts, telegram
+- Медіа: [media/vertical/altcam-reel-2026-08-15-06-cover.jpg](media/vertical/altcam-reel-2026-08-15-06-cover.jpg)
 - Prompt: [image-prompts/altcam-reel-2026-08-15-06.md](image-prompts/altcam-reel-2026-08-15-06.md)
 
 ### Сценарій
@@ -1620,8 +1626,8 @@ https://t.me/alt_cam_bot
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: NeoLight ALPHA Hybrid HD KIT Graphite + 2Мп камера
 - Категорія: Домофонія
-- Джерело: [NeoLight](https://neolight.in.ua/uk)
-- Ціна: орієнтир постачальника: 12 490 ₴
+- Ціна: орієнтир: 12 490 ₴
+- Медіа: [media/square/altcam-product-2026-08-16-01-intercom.jpg](media/square/altcam-product-2026-08-16-01-intercom.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-16-01-intercom.md](image-prompts/altcam-product-2026-08-16-01-intercom.md)
 
 ### Facebook
@@ -1639,7 +1645,7 @@ https://t.me/alt_cam_bot
 • graphite дизайн
 • готовий сценарій входу
 
-Ціна: орієнтир постачальника: 12 490 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
+Ціна: орієнтир: 12 490 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
 
 Хочете підібрати без помилки? Напишіть «ДОМОФОН» у Telegram або відкрийте сайт.
 🤖 https://t.me/alt_cam_bot
@@ -1686,7 +1692,7 @@ NeoLight ALPHA Hybrid HD KIT Graphite + 2Мп камера — варіант д
 • graphite дизайн
 • готовий сценарій входу
 
-<code>Ціна: орієнтир постачальника: 12 490 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
+<code>Ціна: орієнтир: 12 490 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
 
 Натисніть кнопку або напишіть «ДОМОФОН» — підберемо варіант під об’єкт.
 https://t.me/alt_cam_bot
@@ -1697,8 +1703,8 @@ https://t.me/alt_cam_bot
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: Патчкорд BNC + DC 25 м
 - Категорія: Кабель / аксесуари
-- Джерело: [ЮГТОРГ / BigOpt](https://bigopt.com/bnc.htm)
-- Ціна: орієнтир постачальника: 304,20 ₴
+- Ціна: орієнтир: 304,20 ₴
+- Медіа: [media/square/altcam-product-2026-08-16-02-cable.jpg](media/square/altcam-product-2026-08-16-02-cable.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-16-02-cable.md](image-prompts/altcam-product-2026-08-16-02-cable.md)
 
 ### Facebook
@@ -1716,7 +1722,7 @@ https://t.me/alt_cam_bot
 • відео + живлення
 • для швидкого монтажу
 
-Ціна: орієнтир постачальника: 304,20 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
+Ціна: орієнтир: 304,20 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
 
 Хочете підібрати без помилки? Напишіть «КАБЕЛЬ» у Telegram або відкрийте сайт.
 🤖 https://t.me/alt_cam_bot
@@ -1763,7 +1769,7 @@ https://t.me/alt_cam_bot
 • відео + живлення
 • для швидкого монтажу
 
-<code>Ціна: орієнтир постачальника: 304,20 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
+<code>Ціна: орієнтир: 304,20 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
 
 Натисніть кнопку або напишіть «КАБЕЛЬ» — підберемо варіант під об’єкт.
 https://t.me/alt_cam_bot
@@ -1774,8 +1780,8 @@ https://t.me/alt_cam_bot
 - Платформи: facebook, instagram, threads, telegram, youtube_community
 - Товар: Dahua DHI-VTH2421FB-P
 - Категорія: Домофонія
-- Джерело: [VIATEC](https://viatec.ua/ru/product/DHI-VTH2421FW-P)
-- Ціна: орієнтир постачальника: 6 750 ₴
+- Ціна: орієнтир: 6 750 ₴
+- Медіа: [media/square/altcam-product-2026-08-16-03-intercom.jpg](media/square/altcam-product-2026-08-16-03-intercom.jpg)
 - Prompt: [image-prompts/altcam-product-2026-08-16-03-intercom.md](image-prompts/altcam-product-2026-08-16-03-intercom.md)
 
 ### Facebook
@@ -1793,7 +1799,7 @@ https://t.me/alt_cam_bot
 • Dahua екосистема
 • для квартири й офісу
 
-Ціна: орієнтир постачальника: 6 750 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
+Ціна: орієнтир: 6 750 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.
 
 Хочете підібрати без помилки? Напишіть «ДОМОФОН» у Telegram або відкрийте сайт.
 🤖 https://t.me/alt_cam_bot
@@ -1840,7 +1846,7 @@ Dahua DHI-VTH2421FB-P — варіант для: квартира / офіс / �
 • Dahua екосистема
 • для квартири й офісу
 
-<code>Ціна: орієнтир постачальника: 6 750 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
+<code>Ціна: орієнтир: 6 750 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>
 
 Натисніть кнопку або напишіть «ДОМОФОН» — підберемо варіант під об’єкт.
 https://t.me/alt_cam_bot
@@ -1849,6 +1855,7 @@ https://t.me/alt_cam_bot
 
 - Тип: reel_carousel
 - Платформи: instagram_reels, facebook_reels, tiktok, youtube_shorts, telegram
+- Медіа: [media/vertical/altcam-reel-2026-08-16-07-cover.jpg](media/vertical/altcam-reel-2026-08-16-07-cover.jpg)
 - Prompt: [image-prompts/altcam-reel-2026-08-16-07.md](image-prompts/altcam-reel-2026-08-16-07.md)
 
 ### Сценарій

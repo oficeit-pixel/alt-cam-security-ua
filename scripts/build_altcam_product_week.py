@@ -4,18 +4,30 @@ import json
 from datetime import date, datetime, time, timedelta
 from pathlib import Path
 
+from PIL import Image, ImageDraw, ImageFont
+
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = ROOT / "social-posts" / "content-plans" / "2026-08-10-product-week"
 PROMPTS_DIR = OUT_DIR / "image-prompts"
+MEDIA_DIR = OUT_DIR / "media"
 CALENDAR_DIR = ROOT / "social-posts" / "calendar"
 DATA_PATH = CALENDAR_DIR / "product-week-data.js"
 HTML_PATH = CALENDAR_DIR / "product-week.html"
+PUBLISHING_PATH = OUT_DIR / "publishing-posts.json"
 
 SITE = "https://alt-cam.net.ua"
 BOT = "https://t.me/alt_cam_bot"
 LOCATION = "Київ • Вишгород • Київська область"
 HASHTAGS_BASE = "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород"
+
+ANTHRACITE = "#121212"
+PANEL = "#1B1B1F"
+GRAPHITE = "#2C2C31"
+YELLOW = "#FFCC00"
+WHITE = "#F5F5F7"
+MUTED = "#86868B"
+LINE = "#3A3A42"
 
 
 PRODUCTS = [
@@ -28,7 +40,7 @@ PRODUCTS = [
         "audience": "квартира / офіс",
         "keyword": "КАМЕРА",
         "hook": "Камера в приміщенні, яка не виглядає як “офісний монстр”.",
-        "benefits": ["4МП деталізація", "компактний корпус", "підходить для офісу й квартири", "зручно показати в premium product-card"],
+        "benefits": ["4МП деталізація", "компактний корпус", "підходить для офісу й квартири", "легко інтегрувати в готову систему"],
     },
     {
         "source": "NeoLight",
@@ -265,8 +277,24 @@ def slugify(text: str) -> str:
     return mapping.get(text, "product")
 
 
+def public_product(product: dict) -> dict:
+    return {
+        "category": product["category"],
+        "product": product["product"],
+        "price": clean_price(product["price"]),
+        "audience": product["audience"],
+        "keyword": product["keyword"],
+        "hook": product["hook"],
+        "benefits": product["benefits"],
+    }
+
+
+def clean_price(value: str) -> str:
+    return value.replace("орієнтир постачальника:", "орієнтир:").strip()
+
+
 def price_line(product: dict) -> str:
-    return f"Ціна: {product['price']}. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації."
+    return f"Ціна: {clean_price(product['price'])}. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації."
 
 
 def hashtags(product: dict) -> str:
@@ -357,6 +385,191 @@ Avoid: cheap marketplace style, red SALE stickers, cartoon icons, military/polic
 """
 
 
+def font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
+    candidates = [
+        "C:/Windows/Fonts/arialbd.ttf" if bold else "C:/Windows/Fonts/arial.ttf",
+        "C:/Windows/Fonts/segoeuib.ttf" if bold else "C:/Windows/Fonts/segoeui.ttf",
+    ]
+    for candidate in candidates:
+        try:
+            return ImageFont.truetype(candidate, size=size)
+        except OSError:
+            pass
+    return ImageFont.load_default()
+
+
+def wrap(draw: ImageDraw.ImageDraw, text: str, fnt: ImageFont.FreeTypeFont, width: int) -> list[str]:
+    words = text.split()
+    lines: list[str] = []
+    current = ""
+    for word in words:
+        test = f"{current} {word}".strip()
+        if draw.textbbox((0, 0), test, font=fnt)[2] <= width:
+            current = test
+        else:
+            if current:
+                lines.append(current)
+            current = word
+    if current:
+        lines.append(current)
+    return lines
+
+
+def draw_logo(draw: ImageDraw.ImageDraw, x: int, y: int, scale: float = 1.0) -> None:
+    s = scale
+    size = int(64 * s)
+    draw.rounded_rectangle((x, y, x + size, y + size), radius=int(16 * s), fill=YELLOW)
+    draw.rounded_rectangle((x + int(16 * s), y + int(22 * s), x + int(50 * s), y + int(45 * s)), radius=int(7 * s), fill=ANTHRACITE)
+    draw.ellipse((x + int(25 * s), y + int(27 * s), x + int(43 * s), y + int(45 * s)), fill=YELLOW)
+    draw.ellipse((x + int(31 * s), y + int(32 * s), x + int(38 * s), y + int(39 * s)), fill=ANTHRACITE)
+    draw.text((x + int(78 * s), y - int(2 * s)), "ALT-CAM", fill=WHITE, font=font(int(40 * s), True))
+    draw.text((x + int(82 * s), y + int(40 * s)), "SECURITY UA", fill=YELLOW, font=font(int(18 * s), True))
+
+
+def category_accent(product: dict) -> str:
+    if "Домофон" in product["category"]:
+        return "#F6D58B"
+    if "доступ" in product["category"].lower():
+        return "#66D9EF"
+    if "Кабель" in product["category"]:
+        return "#8EA7C2"
+    if "Резерв" in product["category"]:
+        return "#FFB24A"
+    if "Сервер" in product["category"]:
+        return "#A8ADB7"
+    return "#66AFFF"
+
+
+def short_category(product: dict) -> str:
+    category = product["category"]
+    if "Відеоспостереження" in category or "відеоспостереження" in category:
+        return "ВІДЕОНАГЛЯД"
+    if "Домофон" in category:
+        return "ДОМОФОНІЯ"
+    if "Кабель" in category:
+        return "КАБЕЛЬ"
+    if "Резерв" in category:
+        return "РЕЗЕРВ"
+    if "Контроль" in category:
+        return "СКУД"
+    if "Сервер" in category:
+        return "СЕРВЕРНА"
+    return category[:16].upper()
+
+
+def draw_product_symbol(draw: ImageDraw.ImageDraw, product: dict, x: int, y: int, w: int, h: int, accent: str) -> None:
+    keyword = product["keyword"]
+    if keyword == "ДОМОФОН":
+        draw.rounded_rectangle((x + w * 0.15, y + h * 0.10, x + w * 0.72, y + h * 0.70), radius=32, fill="#E9E9EE", outline=accent, width=4)
+        draw.rectangle((x + w * 0.22, y + h * 0.20, x + w * 0.65, y + h * 0.48), fill="#111114")
+        draw.ellipse((x + w * 0.38, y + h * 0.27, x + w * 0.50, y + h * 0.39), fill=accent)
+        draw.rounded_rectangle((x + w * 0.77, y + h * 0.15, x + w * 0.94, y + h * 0.78), radius=28, fill="#151519", outline=accent, width=3)
+        draw.ellipse((x + w * 0.82, y + h * 0.22, x + w * 0.89, y + h * 0.29), fill="#050506", outline=accent, width=2)
+        draw.rounded_rectangle((x + w * 0.82, y + h * 0.55, x + w * 0.89, y + h * 0.64), radius=12, fill=accent)
+    elif keyword in {"КАМЕРА"}:
+        draw.rounded_rectangle((x + w * 0.08, y + h * 0.23, x + w * 0.72, y + h * 0.55), radius=34, fill="#F2F2F5", outline="#FFFFFF", width=3)
+        draw.rectangle((x + w * 0.68, y + h * 0.34, x + w * 0.95, y + h * 0.43), fill="#F2F2F5")
+        draw.ellipse((x + w * 0.18, y + h * 0.27, x + w * 0.46, y + h * 0.55), fill="#050506", outline=accent, width=10)
+        draw.ellipse((x + w * 0.26, y + h * 0.35, x + w * 0.38, y + h * 0.47), fill="#2C2C31", outline="#777", width=3)
+        draw.ellipse((x + w * 0.31, y + h * 0.39, x + w * 0.35, y + h * 0.43), fill="#FFFFFF")
+        draw.rounded_rectangle((x + w * 0.56, y + h * 0.58, x + w * 0.88, y + h * 0.72), radius=16, fill=YELLOW)
+        draw.text((x + w * 0.60, y + h * 0.61), "ALT-CAM", fill=ANTHRACITE, font=font(24, True))
+    elif keyword in {"КАБЕЛЬ"}:
+        for i, color in enumerate([accent, YELLOW, "#D6D6DB", "#6B7280"]):
+            yy = y + int(h * (0.18 + i * 0.13))
+            draw.arc((x + w * 0.10, yy, x + w * 0.90, yy + h * 0.55), 200, 340, fill=color, width=18)
+        draw.rounded_rectangle((x + w * 0.62, y + h * 0.35, x + w * 0.94, y + h * 0.55), radius=18, fill="#EDEDF0", outline=accent, width=3)
+        draw.rectangle((x + w * 0.91, y + h * 0.39, x + w * 0.98, y + h * 0.51), fill=accent)
+    elif keyword == "ЩИТ":
+        draw.rounded_rectangle((x + w * 0.20, y + h * 0.08, x + w * 0.78, y + h * 0.86), radius=28, fill="#222229", outline=accent, width=4)
+        for i in range(8):
+            yy = y + int(h * (0.18 + i * 0.075))
+            draw.rectangle((x + w * 0.28, yy, x + w * 0.70, yy + 18), fill="#101014", outline=YELLOW if i % 3 == 0 else "#555", width=2)
+        for i, color in enumerate([YELLOW, accent, "#47D18C"]):
+            draw.arc((x + w * 0.66 + i * 12, y + h * 0.25, x + w * 0.92 + i * 12, y + h * 0.76), 190, 330, fill=color, width=6)
+    elif keyword == "РЕЗЕРВ":
+        draw.rounded_rectangle((x + w * 0.22, y + h * 0.18, x + w * 0.78, y + h * 0.72), radius=34, fill="#202026", outline=accent, width=4)
+        draw.rectangle((x + w * 0.42, y + h * 0.10, x + w * 0.58, y + h * 0.18), fill=accent)
+        draw.rectangle((x + w * 0.32, y + h * 0.36, x + w * 0.68, y + h * 0.53), fill=YELLOW)
+        draw.text((x + w * 0.38, y + h * 0.39), "UPS", fill=ANTHRACITE, font=font(34, True))
+    else:
+        draw.rounded_rectangle((x + w * 0.25, y + h * 0.18, x + w * 0.75, y + h * 0.74), radius=30, fill="#EDEDF0", outline=accent, width=4)
+        draw.ellipse((x + w * 0.38, y + h * 0.30, x + w * 0.62, y + h * 0.54), fill="#111114", outline=accent, width=6)
+
+
+def draw_product_card(post: dict, out: Path) -> None:
+    product = post["product"]
+    accent = category_accent(product)
+    w = h = 1080
+    img = Image.new("RGB", (w, h), ANTHRACITE)
+    draw = ImageDraw.Draw(img)
+    draw.rounded_rectangle((36, 36, w - 36, h - 36), radius=42, fill=PANEL, outline=accent, width=3)
+    for i in range(-200, w, 90):
+        draw.line((i, 0, i + 360, h), fill="#18181D", width=3)
+    draw_logo(draw, 72, 70, 1.0)
+    draw.rounded_rectangle((770, 78, 1006, 130), radius=18, fill=accent)
+    draw.text((792, 91), short_category(product), fill=ANTHRACITE, font=font(21, True))
+    draw_product_symbol(draw, product, 515, 190, 470, 385, accent)
+    title_font = font(58, True)
+    y = 190
+    for line in wrap(draw, post["title"], title_font, 475)[:4]:
+        draw.text((72, y + 5), line, fill="#000", font=title_font)
+        draw.text((72, y), line, fill=WHITE, font=title_font)
+        y += 66
+    draw.rectangle((72, y + 18, 460, y + 30), fill=YELLOW)
+    y += 78
+    draw.text((72, y), product["product"][:42], fill=WHITE, font=font(28, True))
+    draw.text((72, y + 42), product["audience"], fill=MUTED, font=font(25))
+    info_y = 610
+    draw.rounded_rectangle((72, info_y, 1008, info_y + 238), radius=24, fill=GRAPHITE, outline=LINE, width=2)
+    draw.text((104, info_y + 28), "ЩО ВАЖЛИВО:", fill=YELLOW, font=font(28, True))
+    bx = 104
+    by = info_y + 76
+    for benefit in product["benefits"][:4]:
+        draw.text((bx, by), f"• {benefit}", fill=WHITE, font=font(24))
+        by += 31
+    price = clean_price(product["price"])
+    draw.text((104, info_y + 202), price[:62], fill=MUTED, font=font(21))
+    draw.rounded_rectangle((72, 875, 1008, 990), radius=28, fill=YELLOW)
+    draw.text((132, 905), f"НАПИШІТЬ «{product['keyword']}»", fill=ANTHRACITE, font=font(40, True))
+    draw.text((132, 953), "підберемо варіант під ваш об’єкт", fill=ANTHRACITE, font=font(24))
+    draw.text((74, 1016), "alt-cam.net.ua • t.me/alt_cam_bot • Київ / Вишгород", fill=MUTED, font=font(22))
+    img.save(out, quality=94)
+
+
+def draw_reel_cover(post: dict, out: Path) -> None:
+    w, h = 1080, 1920
+    img = Image.new("RGB", (w, h), ANTHRACITE)
+    draw = ImageDraw.Draw(img)
+    draw.rounded_rectangle((44, 44, w - 44, h - 44), radius=48, fill=PANEL, outline=YELLOW, width=4)
+    for i in range(-200, w, 120):
+        draw.line((i, 0, i + 620, h), fill="#18181D", width=4)
+    draw_logo(draw, 84, 96, 1.15)
+    draw.rounded_rectangle((84, 235, 430, 295), radius=20, fill=YELLOW)
+    draw.text((110, 249), "REELS / SHORTS", fill=ANTHRACITE, font=font(28, True))
+    y = 390
+    title_font = font(74, True)
+    for line in wrap(draw, post["title"], title_font, 880)[:5]:
+        draw.text((84, y + 6), line, fill="#000", font=title_font)
+        draw.text((84, y), line, fill=WHITE, font=title_font)
+        y += 86
+    draw.rectangle((84, y + 22, 720, y + 38), fill=YELLOW)
+    y += 120
+    for idx, slide in enumerate(post["carousel_slides"][1:4], start=1):
+        card_y = y + (idx - 1) * 185
+        draw.rounded_rectangle((84, card_y, 996, card_y + 148), radius=24, fill=GRAPHITE, outline=LINE, width=2)
+        draw.rounded_rectangle((112, card_y + 28, 174, card_y + 90), radius=18, fill=YELLOW)
+        draw.text((132, card_y + 38), str(idx), fill=ANTHRACITE, font=font(30, True))
+        for line in wrap(draw, slide.replace(f"Слайд {idx + 1}: ", ""), font(30, True), 720)[:2]:
+            draw.text((205, card_y + 32), line, fill=WHITE, font=font(30, True))
+            card_y += 36
+    draw.rounded_rectangle((84, 1575, 996, 1710), radius=30, fill=YELLOW)
+    draw.text((135, 1612), "НАПИШІТЬ «ПІДБІР»", fill=ANTHRACITE, font=font(46, True))
+    draw.text((135, 1665), "отримаєте рішення під свій об’єкт", fill=ANTHRACITE, font=font(26))
+    draw.text((92, 1788), "ALT-CAM Security UA • alt-cam.net.ua • Telegram", fill=MUTED, font=font(25))
+    img.save(out, quality=94)
+
+
 def build_post(product: dict, current_date: date, time_value: time, index: int) -> dict:
     post_id = f"altcam-product-{current_date.isoformat()}-{index:02d}-{slugify(product['keyword'])}"
     return {
@@ -365,7 +578,7 @@ def build_post(product: dict, current_date: date, time_value: time, index: int) 
         "scheduled_at": datetime.combine(current_date, time_value).isoformat() + "+03:00",
         "type": "product",
         "platforms": ["facebook", "instagram", "threads", "telegram", "youtube_community"],
-        "product": product,
+        "product": public_product(product),
         "title": product["hook"],
         "cta": f"Напишіть «{product['keyword']}» у Telegram або відкрийте {SITE}",
         "captions": {platform: product_caption(product, platform) for platform in ["facebook", "instagram", "threads", "telegram", "youtube"]},
@@ -442,13 +655,28 @@ def build_plan() -> dict:
         "period": "2026-08-10 — 2026-08-16",
         "timezone": "Europe/Kyiv",
         "posting_rule": "3 товарні пости щодня + 1 Reels/карусель щодня",
-        "sources": [
-            "https://viatec.ua/ru",
-            "https://neolight.in.ua/uk",
-            "https://yugtorg.bigopt.com/",
-        ],
         "posts": posts,
     }
+
+
+def write_media(plan: dict) -> None:
+    square_dir = MEDIA_DIR / "square"
+    vertical_dir = MEDIA_DIR / "vertical"
+    square_dir.mkdir(parents=True, exist_ok=True)
+    vertical_dir.mkdir(parents=True, exist_ok=True)
+    for post in plan["posts"]:
+        if post["type"] == "product":
+            path = square_dir / f"{post['id']}.jpg"
+            draw_product_card(post, path)
+            post["media_type"] = "image"
+            post["media_path"] = str(path.relative_to(OUT_DIR).as_posix())
+            post["media_note"] = "готова квадратна товарна картка для Facebook / Instagram / Telegram / Threads"
+        else:
+            path = vertical_dir / f"{post['id']}-cover.jpg"
+            draw_reel_cover(post, path)
+            post["media_type"] = "image"
+            post["media_path"] = str(path.relative_to(OUT_DIR).as_posix())
+            post["media_note"] = "готова вертикальна обкладинка для Reels / TikTok / Shorts; відео монтуємо за сценарієм"
 
 
 def write_prompts(plan: dict) -> None:
@@ -461,6 +689,29 @@ def write_prompts(plan: dict) -> None:
             body = f"# {post['title']}\n\n{post['image_prompt']}\n\n## Сценарій\n\n" + "\n".join(f"- {k}: {v}" for k, v in post["scenario"].items()) + "\n\n## Caption\n\n" + post["caption"] + "\n"
         path.write_text(body, encoding="utf-8")
         post["prompt_path"] = str(path.relative_to(OUT_DIR).as_posix())
+
+
+def write_publishing_posts(plan: dict) -> None:
+    ready_posts = []
+    for post in plan["posts"]:
+        item = {
+            "id": post["id"],
+            "scheduled_at": post["scheduled_at"],
+            "platforms": post["platforms"],
+            "status": "ready",
+            "approval_required": True,
+            "media_type": post["media_type"],
+            "media_path": post["media_path"],
+        }
+        if post["type"] == "product":
+            item["captions"] = post["captions"]
+            item["caption"] = post["captions"]["instagram"]
+        else:
+            item["caption"] = post["caption"]
+            item["scenario"] = post["scenario"]
+            item["carousel_slides"] = post["carousel_slides"]
+        ready_posts.append(item)
+    PUBLISHING_PATH.write_text(json.dumps({"posts": ready_posts}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def render_md(plan: dict) -> str:
@@ -486,8 +737,8 @@ def render_md(plan: dict) -> str:
             lines.extend([
                 f"- Товар: {product['product']}",
                 f"- Категорія: {product['category']}",
-                f"- Джерело: [{product['source']}]({product['source_url']})",
                 f"- Ціна: {product['price']}",
+                f"- Медіа: [{post['media_path']}]({post['media_path']})",
                 f"- Prompt: [{post['prompt_path']}]({post['prompt_path']})",
                 "",
                 "### Facebook",
@@ -509,6 +760,7 @@ def render_md(plan: dict) -> str:
             ])
         else:
             lines.extend([
+                f"- Медіа: [{post['media_path']}]({post['media_path']})",
                 f"- Prompt: [{post['prompt_path']}]({post['prompt_path']})",
                 "",
                 "### Сценарій",
@@ -551,15 +803,17 @@ def render_calendar_html() -> str:
     .day { border:1px solid var(--line); border-radius:22px; overflow:hidden; background:var(--panel); }
     .day-head { padding:18px 20px; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; gap:12px; background:rgba(255,255,255,.035); }
     h2 { font-size:19px; margin:0; }
-    .post { display:grid; grid-template-columns:92px 1fr; gap:16px; padding:18px 20px; border-bottom:1px solid var(--line); }
+    .post { display:grid; grid-template-columns:92px 190px 1fr; gap:16px; padding:18px 20px; border-bottom:1px solid var(--line); }
     .post:last-child { border-bottom:0; }
     .time { color:var(--gold); font-weight:900; font-size:18px; }
+    img.media { width:190px; aspect-ratio:1/1; object-fit:cover; border-radius:18px; border:1px solid var(--line); background:#222; }
+    img.media.vertical { aspect-ratio:9/16; }
     h3 { margin:0 0 8px; font-size:21px; }
     .meta { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0; }
     details { margin-top:10px; border:1px solid var(--line); border-radius:14px; overflow:hidden; background:rgba(0,0,0,.18); }
     summary { cursor:pointer; padding:12px 14px; color:var(--gold); font-weight:800; }
     pre { white-space:pre-wrap; margin:0; padding:0 14px 14px; font-family:inherit; line-height:1.5; }
-    @media (max-width:720px){ header{display:block}.badge{margin-top:16px}.post{grid-template-columns:1fr} }
+    @media (max-width:720px){ header{display:block}.badge{margin-top:16px}.post{grid-template-columns:1fr} img.media{width:100%;max-height:420px;} }
   </style>
 </head>
 <body>
@@ -567,14 +821,14 @@ def render_calendar_html() -> str:
   <header>
     <div>
       <h1>ALT-CAM товарний тиждень</h1>
-      <p>3 товарні пости щодня + 1 Reels/карусель. Стиль: premium product-card, як у прикладах.</p>
+      <p>3 товарні пости щодня + 1 Reels/карусель. Медіа та тексти підготовлені для автопублікації після підтвердження.</p>
     </div>
     <div class="badge">10–16 серпня 2026</div>
   </header>
   <nav class="toolbar">
     <a class="chip" href="./index.html">60-денний календар</a>
     <a class="chip" href="../content-plans/2026-08-10-product-week/PLAN.md">PLAN.md</a>
-    <a class="chip" href="../content-plans/2026-08-10-product-week/image-prompts/">Image prompts</a>
+    <a class="chip" href="../content-plans/2026-08-10-product-week/publishing-posts.json">publishing-posts.json</a>
   </nav>
   <section id="calendar" class="grid"></section>
 </main>
@@ -597,14 +851,14 @@ calendar.innerHTML = [...days.entries()].map(([key, posts]) => `
     ${posts.map(post => `
       <div class="post">
         <div class="time">${fmtTime.format(new Date(post.scheduled_at))}</div>
+        <img class="media ${post.type === 'reel_carousel' ? 'vertical' : ''}" src="../content-plans/2026-08-10-product-week/${post.media_path}" alt="">
         <div>
           <h3>${esc(post.title)}</h3>
           <p>${esc(post.type === 'product' ? post.product.product : post.carousel_slides[0])}</p>
           <div class="meta">
             <span class="chip">${post.type}</span>
             ${post.platforms.map(p => `<span class="chip">${p}</span>`).join('')}
-            <a class="chip" href="../content-plans/2026-08-10-product-week/${post.prompt_path}">prompt</a>
-            ${post.type === 'product' ? `<a class="chip" href="${post.product.source_url}">${post.product.source}</a>` : ''}
+            <a class="chip" href="../content-plans/2026-08-10-product-week/${post.media_path}">media</a>
           </div>
           ${post.type === 'product' ? block('Facebook', post.captions.facebook) + block('Instagram', post.captions.instagram) + block('Threads', post.captions.threads) + block('Telegram', post.captions.telegram) + block('YouTube Community', post.captions.youtube) : block('Reels / TikTok / Shorts сценарій', Object.entries(post.scenario).map(([k,v]) => `${k}: ${v}`).join('\\n')) + block('Карусель', post.carousel_slides.join('\\n')) + block('Caption', post.caption)}
         </div>
@@ -622,7 +876,9 @@ def main() -> int:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     CALENDAR_DIR.mkdir(parents=True, exist_ok=True)
     plan = build_plan()
+    write_media(plan)
     write_prompts(plan)
+    write_publishing_posts(plan)
     (OUT_DIR / "plan.json").write_text(json.dumps(plan, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (OUT_DIR / "PLAN.md").write_text(render_md(plan), encoding="utf-8")
     DATA_PATH.write_text("window.ALT_CAM_PRODUCT_WEEK = " + json.dumps(plan, ensure_ascii=False, indent=2) + ";\n", encoding="utf-8")
