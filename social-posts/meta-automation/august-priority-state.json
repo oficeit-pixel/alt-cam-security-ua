@@ -28,12 +28,12 @@
         }
       },
       "telegram": {
-        "published_at": "2026-08-09T10:09:04.862235+00:00",
+        "published_at": "2026-08-09T14:05:56.558237+00:00",
         "result": {
           "photo": {
             "ok": true,
             "result": {
-              "message_id": 51,
+              "message_id": 56,
               "sender_chat": {
                 "id": -1004320686994,
                 "title": "Alt-Cam Security UA",
@@ -46,7 +46,7 @@
                 "username": "altcam_security_ua",
                 "type": "channel"
               },
-              "date": 1786270144,
+              "date": 1786284356,
               "photo": [
                 {
                   "file_id": "AgACAgQAAyEGAAMBAYhzkgADM2p4UcBN6N8VrYXod-u-5f7tp1LYAALUD2sbjHzEUwPH-W9JmJGTAQADAgADcwADPQQ",
@@ -77,7 +77,7 @@
                   "height": 1254
                 }
               ],
-              "caption": "Оголошення ALT-CAM Security UA\n\nПідбираємо, встановлюємо та налаштовуємо системи безпеки під ваш об’єкт: відеоспостереження, домофонія, СКУД, Ajax, резервне живлення, кабель та монтаж.\n\nНапишіть «ПІДБІР» — підкажемо рішення без зайвого обладнання.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #монтажкамер #домофон #Ajax #Київ #Вишгород\n\nTelegram ALT-CAM: https://t.me/altcam_security_ua",
+              "caption": "Оголошення ALT-CAM Security UA\n\nПідбираємо, встановлюємо та налаштовуємо системи безпеки під ваш об’єкт: відеоспостереження, домофонія, СКУД, Ajax, резервне живлення, кабель та монтаж.\n\nНапишіть «ПІДБІР» — підкажемо рішення без зайвого обладнання.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #монтажкамер #домофон #Ajax #Київ #Вишгород",
               "caption_entities": [
                 {
                   "offset": 251,
@@ -123,11 +123,6 @@
                   "offset": 403,
                   "length": 9,
                   "type": "hashtag"
-                },
-                {
-                  "offset": 432,
-                  "length": 31,
-                  "type": "url"
                 }
               ]
             }
