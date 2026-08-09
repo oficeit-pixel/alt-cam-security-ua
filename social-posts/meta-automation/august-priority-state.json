@@ -253,6 +253,108 @@
           }
         }
       }
+    },
+    "meta-priority-altcam-product-2026-08-10-02-intercom": {
+      "instagram": {
+        "published_at": "2026-08-09T11:23:36.436936+00:00",
+        "result": {
+          "container": {
+            "id": "18078198710418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18078198710418944"
+          },
+          "published": {
+            "id": "17962123428174224"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-08-09T11:23:47.213062+00:00",
+        "result": {
+          "container": {
+            "id": "18078034988424516"
+          },
+          "published": {
+            "id": "18029355797663931"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-08-09T11:23:48.407046+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 53,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1786274628,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADNWp4Y0Q-U7NwGS6St-VL_q_V21l0AAKTD2sbrBrNUxpuczauzJ9PAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADkw9rG6wazVN4",
+                  "file_size": 1652,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADNWp4Y0Q-U7NwGS6St-VL_q_V21l0AAKTD2sbrBrNUxpuczauzJ9PAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADkw9rG6wazVNy",
+                  "file_size": 18321,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADNWp4Y0Q-U7NwGS6St-VL_q_V21l0AAKTD2sbrBrNUxpuczauzJ9PAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADkw9rG6wazVN9",
+                  "file_size": 69108,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADNWp4Y0Q-U7NwGS6St-VL_q_V21l0AAKTD2sbrBrNUxpuczauzJ9PAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADkw9rG6wazVN-",
+                  "file_size": 141134,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADNWp4Y0Q-U7NwGS6St-VL_q_V21l0AAKTD2sbrBrNUxpuczauzJ9PAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADkw9rG6wazVN8",
+                  "file_size": 166905,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "<b>Домофон має не просто дзвонити — він має давати контроль входу.</b>\n\n<b>Товар:</b> Dahua DHI-VTH2421FW-P 7” PoE\n<b>Для кого:</b> квартира / офіс / приватний будинок\n\n• 7” сенсорний екран\n• PoE-підключення\n• робота з відеокамерами\n• зручний сценарій для квартири, офісу й будинку\n\n<code>Вартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.</code>\n\nНатисніть кнопку або напишіть «ДОМОФОН» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot\n\nTelegram ALT-CAM: https://t.me/altcam_security_ua",
+              "caption_entities": [
+                {
+                  "offset": 469,
+                  "length": 24,
+                  "type": "url"
+                },
+                {
+                  "offset": 513,
+                  "length": 31,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
