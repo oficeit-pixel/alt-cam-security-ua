@@ -208,6 +208,7 @@ def render_html() -> str:
       <a class="link-btn" href="../content-plans/2026-08-03-60-day-matrix/media/MEDIA_INDEX.md">MEDIA_INDEX</a>
       <a class="link-btn" href="../content-plans/2026-08-03-60-day-matrix/media/premium-grok-prompts/README.md">Premium Grok prompts</a>
       <a class="link-btn" href="../content-plans/2026-08-03-60-day-matrix/platform-posts/README.md">Тексти по платформах</a>
+      <a class="link-btn" href="./product-week.html">Товарний тиждень</a>
     </nav>
     <section class="platform-plan" aria-label="План публикацій по соцмережах">
       <div class="platform-card"><strong>Facebook</strong><span>1 адаптований пост щодня: проблема → рішення → комплектація → ціна → CTA в Telegram-бот.</span></div>

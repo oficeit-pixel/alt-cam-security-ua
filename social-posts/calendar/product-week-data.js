@@ -1,0 +1,1091 @@
+window.ALT_CAM_PRODUCT_WEEK = {
+  "brand": "ALT-CAM Security UA",
+  "period": "2026-08-10 — 2026-08-16",
+  "timezone": "Europe/Kyiv",
+  "posting_rule": "3 товарні пости щодня + 1 Reels/карусель щодня",
+  "sources": [
+    "https://viatec.ua/ru",
+    "https://neolight.in.ua/uk",
+    "https://yugtorg.bigopt.com/"
+  ],
+  "posts": [
+    {
+      "id": "altcam-product-2026-08-10-01-camera",
+      "date": "2026-08-10",
+      "scheduled_at": "2026-08-10T10:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "VIATEC",
+        "source_url": "https://viatec.ua/ru",
+        "category": "Відеоспостереження",
+        "product": "Hikvision DS-2CD2443G2-I Black 4МП",
+        "price": "орієнтир постачальника: 6 233 ₴",
+        "audience": "квартира / офіс",
+        "keyword": "КАМЕРА",
+        "hook": "Камера в приміщенні, яка не виглядає як “офісний монстр”.",
+        "benefits": [
+          "4МП деталізація",
+          "компактний корпус",
+          "підходить для офісу й квартири",
+          "зручно показати в premium product-card"
+        ]
+      },
+      "title": "Камера в приміщенні, яка не виглядає як “офісний монстр”.",
+      "cta": "Напишіть «КАМЕРА» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "Камера в приміщенні, яка не виглядає як “офісний монстр”.\n\nТовар: Hikvision DS-2CD2443G2-I Black 4МП\nКатегорія: Відеоспостереження\n\nКому підійде: квартира / офіс.\n\nЩо важливо:\n• 4МП деталізація\n• компактний корпус\n• підходить для офісу й квартири\n• зручно показати в premium product-card\n\nЦіна: орієнтир постачальника: 6 233 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «КАМЕРА» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #камери #відеонагляд #Hikvision #Dahua",
+        "instagram": "Камера в приміщенні, яка не виглядає як “офісний монстр”.\n\nHikvision DS-2CD2443G2-I Black 4МП — варіант для: квартира / офіс.\n\n• 4МП деталізація\n• компактний корпус\n• підходить для офісу й квартири\n• зручно показати в premium product-card\n\nНапишіть «КАМЕРА» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #камери #відеонагляд #Hikvision #Dahua",
+        "threads": "Камера в приміщенні, яка не виглядає як “офісний монстр”.\n\nПитання до власників: ви обираєте відеоспостереження за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «КАМЕРА» — підкажемо коротко.",
+        "telegram": "<b>Камера в приміщенні, яка не виглядає як “офісний монстр”.</b>\n\n<b>Товар:</b> Hikvision DS-2CD2443G2-I Black 4МП\n<b>Для кого:</b> квартира / офіс\n\n• 4МП деталізація\n• компактний корпус\n• підходить для офісу й квартири\n• зручно показати в premium product-card\n\n<code>Ціна: орієнтир постачальника: 6 233 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «КАМЕРА» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: Камера в приміщенні, яка не виглядає як “офісний монстр”.\n\nПоказуємо Hikvision DS-2CD2443G2-I Black 4МП і пояснюємо, де воно доречне: квартира / офіс.\nЯкщо хочете розбір у відео — напишіть у коментарі «КАМЕРА»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #камери #відеонагляд #Hikvision #Dahua",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: Hikvision DS-2CD2443G2-I Black 4МП\nCategory: Відеоспостереження\nMain visual mode: product-only premium catalog card\nScene/backdrop: steel-blue secondary glow, field-of-view lines, modern home/business architecture, precision optics\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “Камера в приміщенні, яка не виглядає як “офісний монстр”.”, short feature line, and bottom CTA “НАПИШІТЬ «КАМЕРА»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-10-01-camera.md"
+    },
+    {
+      "id": "altcam-product-2026-08-10-02-intercom",
+      "date": "2026-08-10",
+      "scheduled_at": "2026-08-10T14:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "NeoLight",
+        "source_url": "https://neolight.in.ua/uk",
+        "category": "Домофонія",
+        "product": "NeoLight OPTIMA GSM",
+        "price": "орієнтир постачальника: 7 650 ₴",
+        "audience": "ворота / приватний будинок",
+        "keyword": "ДОМОФОН",
+        "hook": "Виклик на ворота без зайвих дротів там, де класичний домофон незручний.",
+        "benefits": [
+          "GSM-сценарій",
+          "панель виклику",
+          "актуально для воріт",
+          "зручно для приватного будинку"
+        ]
+      },
+      "title": "Виклик на ворота без зайвих дротів там, де класичний домофон незручний.",
+      "cta": "Напишіть «ДОМОФОН» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "Виклик на ворота без зайвих дротів там, де класичний домофон незручний.\n\nТовар: NeoLight OPTIMA GSM\nКатегорія: Домофонія\n\nКому підійде: ворота / приватний будинок.\n\nЩо важливо:\n• GSM-сценарій\n• панель виклику\n• актуально для воріт\n• зручно для приватного будинку\n\nЦіна: орієнтир постачальника: 7 650 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «ДОМОФОН» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+        "instagram": "Виклик на ворота без зайвих дротів там, де класичний домофон незручний.\n\nNeoLight OPTIMA GSM — варіант для: ворота / приватний будинок.\n\n• GSM-сценарій\n• панель виклику\n• актуально для воріт\n• зручно для приватного будинку\n\nНапишіть «ДОМОФОН» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+        "threads": "Виклик на ворота без зайвих дротів там, де класичний домофон незручний.\n\nПитання до власників: ви обираєте домофонія за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «ДОМОФОН» — підкажемо коротко.",
+        "telegram": "<b>Виклик на ворота без зайвих дротів там, де класичний домофон незручний.</b>\n\n<b>Товар:</b> NeoLight OPTIMA GSM\n<b>Для кого:</b> ворота / приватний будинок\n\n• GSM-сценарій\n• панель виклику\n• актуально для воріт\n• зручно для приватного будинку\n\n<code>Ціна: орієнтир постачальника: 7 650 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «ДОМОФОН» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: Виклик на ворота без зайвих дротів там, де класичний домофон незручний.\n\nПоказуємо NeoLight OPTIMA GSM і пояснюємо, де воно доречне: ворота / приватний будинок.\nЯкщо хочете розбір у відео — напишіть у коментарі «ДОМОФОН»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: NeoLight OPTIMA GSM\nCategory: Домофонія\nMain visual mode: product-only premium catalog card\nScene/backdrop: warm white/champagne glow, premium entrance door, gate, smart residential access\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “Виклик на ворота без зайвих дротів там, де класичний домофон незручний.”, short feature line, and bottom CTA “НАПИШІТЬ «ДОМОФОН»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-10-02-intercom.md"
+    },
+    {
+      "id": "altcam-product-2026-08-10-03-cable",
+      "date": "2026-08-10",
+      "scheduled_at": "2026-08-10T18:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "ЮГТОРГ / BigOpt",
+        "source_url": "https://yugtorg.bigopt.com/",
+        "category": "Кабель / монтаж",
+        "product": "Одескабель КППт-ВП U/UTP Cat.5E CU 305 м для зовнішніх робіт",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "монтаж камер зовні",
+        "keyword": "КАБЕЛЬ",
+        "hook": "Поганий кабель може зіпсувати навіть хорошу камеру.",
+        "benefits": [
+          "мідний кабель CU",
+          "для зовнішніх робіт",
+          "305 м у бухті",
+          "основа стабільної системи"
+        ]
+      },
+      "title": "Поганий кабель може зіпсувати навіть хорошу камеру.",
+      "cta": "Напишіть «КАБЕЛЬ» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "Поганий кабель може зіпсувати навіть хорошу камеру.\n\nТовар: Одескабель КППт-ВП U/UTP Cat.5E CU 305 м для зовнішніх робіт\nКатегорія: Кабель / монтаж\n\nКому підійде: монтаж камер зовні.\n\nЩо важливо:\n• мідний кабель CU\n• для зовнішніх робіт\n• 305 м у бухті\n• основа стабільної системи\n\nЦіна: ціну уточнюємо перед публікацією. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «КАБЕЛЬ» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #кабель #монтаж #PoE #UTP",
+        "instagram": "Поганий кабель може зіпсувати навіть хорошу камеру.\n\nОдескабель КППт-ВП U/UTP Cat.5E CU 305 м для зовнішніх робіт — варіант для: монтаж камер зовні.\n\n• мідний кабель CU\n• для зовнішніх робіт\n• 305 м у бухті\n• основа стабільної системи\n\nНапишіть «КАБЕЛЬ» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #кабель #монтаж #PoE #UTP",
+        "threads": "Поганий кабель може зіпсувати навіть хорошу камеру.\n\nПитання до власників: ви обираєте кабель / монтаж за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «КАБЕЛЬ» — підкажемо коротко.",
+        "telegram": "<b>Поганий кабель може зіпсувати навіть хорошу камеру.</b>\n\n<b>Товар:</b> Одескабель КППт-ВП U/UTP Cat.5E CU 305 м для зовнішніх робіт\n<b>Для кого:</b> монтаж камер зовні\n\n• мідний кабель CU\n• для зовнішніх робіт\n• 305 м у бухті\n• основа стабільної системи\n\n<code>Ціна: ціну уточнюємо перед публікацією. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «КАБЕЛЬ» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: Поганий кабель може зіпсувати навіть хорошу камеру.\n\nПоказуємо Одескабель КППт-ВП U/UTP Cat.5E CU 305 м для зовнішніх робіт і пояснюємо, де воно доречне: монтаж камер зовні.\nЯкщо хочете розбір у відео — напишіть у коментарі «КАБЕЛЬ»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #кабель #монтаж #PoE #UTP",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: Одескабель КППт-ВП U/UTP Cat.5E CU 305 м для зовнішніх робіт\nCategory: Кабель / монтаж\nMain visual mode: product-only premium catalog card\nScene/backdrop: blue-grey infrastructure mood, cable texture, connectors, neat technical graphite background\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “Поганий кабель може зіпсувати навіть хорошу камеру.”, short feature line, and bottom CTA “НАПИШІТЬ «КАБЕЛЬ»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-10-03-cable.md"
+    },
+    {
+      "id": "altcam-reel-2026-08-10-01",
+      "date": "2026-08-10",
+      "scheduled_at": "2026-08-10T20:30:00+03:00",
+      "type": "reel_carousel",
+      "platforms": [
+        "instagram_reels",
+        "facebook_reels",
+        "tiktok",
+        "youtube_shorts",
+        "telegram"
+      ],
+      "title": "Як ALT-CAM підбирає рішення безпеки під об’єкт",
+      "scenario": {
+        "0-3s": "Крупний hook на екрані: “Як ALT-CAM підбирає рішення безпеки під об’єкт”. Швидкі кадри товарів: КАМЕРА, ДОМОФОН, КАБЕЛЬ.",
+        "3-10s": "Показати 3 проблеми: не видно обличчя, немає резерву, незручно відкривати двері або хаос у кабелях.",
+        "10-20s": "Показати рішення ALT-CAM: товар + монтаж + налаштування + перевірка зі смартфона.",
+        "20-30s": "Фінальний кадр: сайт, Telegram-бот, географія Київ / Вишгород / область. Заклик написати ключове слово."
+      },
+      "carousel_slides": [
+        "Слайд 1: Як ALT-CAM підбирає рішення безпеки під об’єкт",
+        "Слайд 2: Hikvision DS-2CD2443G2-I Black 4МП — Камера в приміщенні, яка не виглядає як “офісний монстр”.",
+        "Слайд 3: NeoLight OPTIMA GSM — Виклик на ворота без зайвих дротів там, де класичний домофон незручний.",
+        "Слайд 4: Одескабель КППт-ВП U/UTP Cat.5E CU 305 м для зовнішніх робіт — Поганий кабель може зіпсувати навіть хорошу камеру.",
+        "Слайд 5: Переваги ALT-CAM — підбір, монтаж, налаштування, підтримка",
+        "Слайд 6: CTA — Напишіть «ПІДБІР» у Telegram"
+      ],
+      "caption": "Як ALT-CAM підбирає рішення безпеки під об’єкт\n\nЦе не просто добірка товарів. Це сценарій: що поставити, де воно має працювати і як не купити зайве.\n\nУ каруселі: Hikvision DS-2CD2443G2-I Black 4МП, NeoLight OPTIMA GSM, Одескабель КППт-ВП U/UTP Cat.5E CU 305 м для зовнішніх робіт.\n\nНапишіть у Telegram «ПІДБІР» — підкажемо варіант під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #security #відеоспостереження #домофон #монтаж #Київ #Вишгород",
+      "image_prompt": "Create a premium advertising carousel/reels cover for ALT-CAM Security UA: dark anthracite background, realistic security products, clean yellow CTA, product-card style from user's reference examples, theme: Як ALT-CAM підбирає рішення безпеки під об’єкт. Include visual places for 3 product tiles and brand resources: website, Telegram, service advantages.",
+      "prompt_path": "image-prompts/altcam-reel-2026-08-10-01.md"
+    },
+    {
+      "id": "altcam-product-2026-08-11-01-intercom",
+      "date": "2026-08-11",
+      "scheduled_at": "2026-08-11T10:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "VIATEC",
+        "source_url": "https://viatec.ua/ru/product/DHI-VTH2421FW-P",
+        "category": "Домофонія",
+        "product": "Dahua DHI-VTH2421FW-P 7” PoE",
+        "price": "орієнтир постачальника: 6 480 ₴",
+        "audience": "квартира / офіс / будинок",
+        "keyword": "ДОМОФОН",
+        "hook": "Відеодомофон, який може бути центром контролю входу.",
+        "benefits": [
+          "7” TFT",
+          "PoE",
+          "підключення камер Dahua/ONVIF",
+          "запис дзвінка на карту пам’яті"
+        ]
+      },
+      "title": "Відеодомофон, який може бути центром контролю входу.",
+      "cta": "Напишіть «ДОМОФОН» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "Відеодомофон, який може бути центром контролю входу.\n\nТовар: Dahua DHI-VTH2421FW-P 7” PoE\nКатегорія: Домофонія\n\nКому підійде: квартира / офіс / будинок.\n\nЩо важливо:\n• 7” TFT\n• PoE\n• підключення камер Dahua/ONVIF\n• запис дзвінка на карту пам’яті\n\nЦіна: орієнтир постачальника: 6 480 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «ДОМОФОН» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+        "instagram": "Відеодомофон, який може бути центром контролю входу.\n\nDahua DHI-VTH2421FW-P 7” PoE — варіант для: квартира / офіс / будинок.\n\n• 7” TFT\n• PoE\n• підключення камер Dahua/ONVIF\n• запис дзвінка на карту пам’яті\n\nНапишіть «ДОМОФОН» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+        "threads": "Відеодомофон, який може бути центром контролю входу.\n\nПитання до власників: ви обираєте домофонія за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «ДОМОФОН» — підкажемо коротко.",
+        "telegram": "<b>Відеодомофон, який може бути центром контролю входу.</b>\n\n<b>Товар:</b> Dahua DHI-VTH2421FW-P 7” PoE\n<b>Для кого:</b> квартира / офіс / будинок\n\n• 7” TFT\n• PoE\n• підключення камер Dahua/ONVIF\n• запис дзвінка на карту пам’яті\n\n<code>Ціна: орієнтир постачальника: 6 480 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «ДОМОФОН» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: Відеодомофон, який може бути центром контролю входу.\n\nПоказуємо Dahua DHI-VTH2421FW-P 7” PoE і пояснюємо, де воно доречне: квартира / офіс / будинок.\nЯкщо хочете розбір у відео — напишіть у коментарі «ДОМОФОН»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: Dahua DHI-VTH2421FW-P 7” PoE\nCategory: Домофонія\nMain visual mode: product-only premium catalog card\nScene/backdrop: warm white/champagne glow, premium entrance door, gate, smart residential access\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “Відеодомофон, який може бути центром контролю входу.”, short feature line, and bottom CTA “НАПИШІТЬ «ДОМОФОН»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-11-01-intercom.md"
+    },
+    {
+      "id": "altcam-product-2026-08-11-02-camera",
+      "date": "2026-08-11",
+      "scheduled_at": "2026-08-11T14:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "VIATEC",
+        "source_url": "https://viatec.ua/ru",
+        "category": "Відеоспостереження",
+        "product": "Hikvision DS-2CD1047G3H-LIUF 4МП",
+        "price": "орієнтир постачальника: 7 704 ₴",
+        "audience": "двір / фасад / вхід",
+        "keyword": "КАМЕРА",
+        "hook": "Коли треба бачити не просто силует, а реальну картинку біля входу.",
+        "benefits": [
+          "4МП",
+          "вуличний формат",
+          "підходить для входу й двору",
+          "сильний акцент у рекламній картці"
+        ]
+      },
+      "title": "Коли треба бачити не просто силует, а реальну картинку біля входу.",
+      "cta": "Напишіть «КАМЕРА» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "Коли треба бачити не просто силует, а реальну картинку біля входу.\n\nТовар: Hikvision DS-2CD1047G3H-LIUF 4МП\nКатегорія: Відеоспостереження\n\nКому підійде: двір / фасад / вхід.\n\nЩо важливо:\n• 4МП\n• вуличний формат\n• підходить для входу й двору\n• сильний акцент у рекламній картці\n\nЦіна: орієнтир постачальника: 7 704 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «КАМЕРА» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #камери #відеонагляд #Hikvision #Dahua",
+        "instagram": "Коли треба бачити не просто силует, а реальну картинку біля входу.\n\nHikvision DS-2CD1047G3H-LIUF 4МП — варіант для: двір / фасад / вхід.\n\n• 4МП\n• вуличний формат\n• підходить для входу й двору\n• сильний акцент у рекламній картці\n\nНапишіть «КАМЕРА» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #камери #відеонагляд #Hikvision #Dahua",
+        "threads": "Коли треба бачити не просто силует, а реальну картинку біля входу.\n\nПитання до власників: ви обираєте відеоспостереження за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «КАМЕРА» — підкажемо коротко.",
+        "telegram": "<b>Коли треба бачити не просто силует, а реальну картинку біля входу.</b>\n\n<b>Товар:</b> Hikvision DS-2CD1047G3H-LIUF 4МП\n<b>Для кого:</b> двір / фасад / вхід\n\n• 4МП\n• вуличний формат\n• підходить для входу й двору\n• сильний акцент у рекламній картці\n\n<code>Ціна: орієнтир постачальника: 7 704 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «КАМЕРА» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: Коли треба бачити не просто силует, а реальну картинку біля входу.\n\nПоказуємо Hikvision DS-2CD1047G3H-LIUF 4МП і пояснюємо, де воно доречне: двір / фасад / вхід.\nЯкщо хочете розбір у відео — напишіть у коментарі «КАМЕРА»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #камери #відеонагляд #Hikvision #Dahua",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: Hikvision DS-2CD1047G3H-LIUF 4МП\nCategory: Відеоспостереження\nMain visual mode: product-only premium catalog card\nScene/backdrop: steel-blue secondary glow, field-of-view lines, modern home/business architecture, precision optics\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “Коли треба бачити не просто силует, а реальну картинку біля входу.”, short feature line, and bottom CTA “НАПИШІТЬ «КАМЕРА»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-11-02-camera.md"
+    },
+    {
+      "id": "altcam-product-2026-08-11-03-intercom",
+      "date": "2026-08-11",
+      "scheduled_at": "2026-08-11T18:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "NeoLight",
+        "source_url": "https://neolight.in.ua/uk",
+        "category": "Домофонія",
+        "product": "NeoLight NeoKit HD WF + замок",
+        "price": "орієнтир постачальника: 10 770 ₴",
+        "audience": "будинок / офіс / хвіртка",
+        "keyword": "ДОМОФОН",
+        "hook": "Не просто бачити гостя — а відкривати там, де це безпечно.",
+        "benefits": [
+          "Wi‑Fi комплект",
+          "панель + монітор",
+          "замок у сценарії",
+          "керування входом"
+        ]
+      },
+      "title": "Не просто бачити гостя — а відкривати там, де це безпечно.",
+      "cta": "Напишіть «ДОМОФОН» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "Не просто бачити гостя — а відкривати там, де це безпечно.\n\nТовар: NeoLight NeoKit HD WF + замок\nКатегорія: Домофонія\n\nКому підійде: будинок / офіс / хвіртка.\n\nЩо важливо:\n• Wi‑Fi комплект\n• панель + монітор\n• замок у сценарії\n• керування входом\n\nЦіна: орієнтир постачальника: 10 770 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «ДОМОФОН» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+        "instagram": "Не просто бачити гостя — а відкривати там, де це безпечно.\n\nNeoLight NeoKit HD WF + замок — варіант для: будинок / офіс / хвіртка.\n\n• Wi‑Fi комплект\n• панель + монітор\n• замок у сценарії\n• керування входом\n\nНапишіть «ДОМОФОН» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+        "threads": "Не просто бачити гостя — а відкривати там, де це безпечно.\n\nПитання до власників: ви обираєте домофонія за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «ДОМОФОН» — підкажемо коротко.",
+        "telegram": "<b>Не просто бачити гостя — а відкривати там, де це безпечно.</b>\n\n<b>Товар:</b> NeoLight NeoKit HD WF + замок\n<b>Для кого:</b> будинок / офіс / хвіртка\n\n• Wi‑Fi комплект\n• панель + монітор\n• замок у сценарії\n• керування входом\n\n<code>Ціна: орієнтир постачальника: 10 770 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «ДОМОФОН» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: Не просто бачити гостя — а відкривати там, де це безпечно.\n\nПоказуємо NeoLight NeoKit HD WF + замок і пояснюємо, де воно доречне: будинок / офіс / хвіртка.\nЯкщо хочете розбір у відео — напишіть у коментарі «ДОМОФОН»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: NeoLight NeoKit HD WF + замок\nCategory: Домофонія\nMain visual mode: product-only premium catalog card\nScene/backdrop: warm white/champagne glow, premium entrance door, gate, smart residential access\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “Не просто бачити гостя — а відкривати там, де це безпечно.”, short feature line, and bottom CTA “НАПИШІТЬ «ДОМОФОН»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-11-03-intercom.md"
+    },
+    {
+      "id": "altcam-reel-2026-08-11-02",
+      "date": "2026-08-11",
+      "scheduled_at": "2026-08-11T20:30:00+03:00",
+      "type": "reel_carousel",
+      "platforms": [
+        "instagram_reels",
+        "facebook_reels",
+        "tiktok",
+        "youtube_shorts",
+        "telegram"
+      ],
+      "title": "Товар дня: що дивитися перед покупкою",
+      "scenario": {
+        "0-3s": "Крупний hook на екрані: “Товар дня: що дивитися перед покупкою”. Швидкі кадри товарів: ДОМОФОН, КАМЕРА, ДОМОФОН.",
+        "3-10s": "Показати 3 проблеми: не видно обличчя, немає резерву, незручно відкривати двері або хаос у кабелях.",
+        "10-20s": "Показати рішення ALT-CAM: товар + монтаж + налаштування + перевірка зі смартфона.",
+        "20-30s": "Фінальний кадр: сайт, Telegram-бот, географія Київ / Вишгород / область. Заклик написати ключове слово."
+      },
+      "carousel_slides": [
+        "Слайд 1: Товар дня: що дивитися перед покупкою",
+        "Слайд 2: Dahua DHI-VTH2421FW-P 7” PoE — Відеодомофон, який може бути центром контролю входу.",
+        "Слайд 3: Hikvision DS-2CD1047G3H-LIUF 4МП — Коли треба бачити не просто силует, а реальну картинку біля входу.",
+        "Слайд 4: NeoLight NeoKit HD WF + замок — Не просто бачити гостя — а відкривати там, де це безпечно.",
+        "Слайд 5: Переваги ALT-CAM — підбір, монтаж, налаштування, підтримка",
+        "Слайд 6: CTA — Напишіть «ПІДБІР» у Telegram"
+      ],
+      "caption": "Товар дня: що дивитися перед покупкою\n\nЦе не просто добірка товарів. Це сценарій: що поставити, де воно має працювати і як не купити зайве.\n\nУ каруселі: Dahua DHI-VTH2421FW-P 7” PoE, Hikvision DS-2CD1047G3H-LIUF 4МП, NeoLight NeoKit HD WF + замок.\n\nНапишіть у Telegram «ПІДБІР» — підкажемо варіант під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #security #відеоспостереження #домофон #монтаж #Київ #Вишгород",
+      "image_prompt": "Create a premium advertising carousel/reels cover for ALT-CAM Security UA: dark anthracite background, realistic security products, clean yellow CTA, product-card style from user's reference examples, theme: Товар дня: що дивитися перед покупкою. Include visual places for 3 product tiles and brand resources: website, Telegram, service advantages.",
+      "prompt_path": "image-prompts/altcam-reel-2026-08-11-02.md"
+    },
+    {
+      "id": "altcam-product-2026-08-12-01-camera",
+      "date": "2026-08-12",
+      "scheduled_at": "2026-08-12T10:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "ЮГТОРГ / BigOpt",
+        "source_url": "https://yugtorg.bigopt.com/goods-price/4/",
+        "category": "Wi‑Fi відеоспостереження",
+        "product": "YOSO YO-IPC43D5MP50 PTZ 5МП Wi‑Fi з сиреною",
+        "price": "орієнтир постачальника: 2 398,50 ₴",
+        "audience": "дача / двір / тимчасовий об’єкт",
+        "keyword": "КАМЕРА",
+        "hook": "Камера для об’єкта, де немає бажання тягнути повну систему одразу.",
+        "benefits": [
+          "5МП",
+          "Wi‑Fi",
+          "PTZ",
+          "сирена та SD-карта"
+        ]
+      },
+      "title": "Камера для об’єкта, де немає бажання тягнути повну систему одразу.",
+      "cta": "Напишіть «КАМЕРА» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "Камера для об’єкта, де немає бажання тягнути повну систему одразу.\n\nТовар: YOSO YO-IPC43D5MP50 PTZ 5МП Wi‑Fi з сиреною\nКатегорія: Wi‑Fi відеоспостереження\n\nКому підійде: дача / двір / тимчасовий об’єкт.\n\nЩо важливо:\n• 5МП\n• Wi‑Fi\n• PTZ\n• сирена та SD-карта\n\nЦіна: орієнтир постачальника: 2 398,50 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «КАМЕРА» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород",
+        "instagram": "Камера для об’єкта, де немає бажання тягнути повну систему одразу.\n\nYOSO YO-IPC43D5MP50 PTZ 5МП Wi‑Fi з сиреною — варіант для: дача / двір / тимчасовий об’єкт.\n\n• 5МП\n• Wi‑Fi\n• PTZ\n• сирена та SD-карта\n\nНапишіть «КАМЕРА» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород",
+        "threads": "Камера для об’єкта, де немає бажання тягнути повну систему одразу.\n\nПитання до власників: ви обираєте wi‑fi відеоспостереження за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «КАМЕРА» — підкажемо коротко.",
+        "telegram": "<b>Камера для об’єкта, де немає бажання тягнути повну систему одразу.</b>\n\n<b>Товар:</b> YOSO YO-IPC43D5MP50 PTZ 5МП Wi‑Fi з сиреною\n<b>Для кого:</b> дача / двір / тимчасовий об’єкт\n\n• 5МП\n• Wi‑Fi\n• PTZ\n• сирена та SD-карта\n\n<code>Ціна: орієнтир постачальника: 2 398,50 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «КАМЕРА» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: Камера для об’єкта, де немає бажання тягнути повну систему одразу.\n\nПоказуємо YOSO YO-IPC43D5MP50 PTZ 5МП Wi‑Fi з сиреною і пояснюємо, де воно доречне: дача / двір / тимчасовий об’єкт.\nЯкщо хочете розбір у відео — напишіть у коментарі «КАМЕРА»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: YOSO YO-IPC43D5MP50 PTZ 5МП Wi‑Fi з сиреною\nCategory: Wi‑Fi відеоспостереження\nMain visual mode: product-only premium catalog card\nScene/backdrop: home yard or temporary site, Wi-Fi signal lines, clean product card, no cheap marketplace look\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “Камера для об’єкта, де немає бажання тягнути повну систему одразу.”, short feature line, and bottom CTA “НАПИШІТЬ «КАМЕРА»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-12-01-camera.md"
+    },
+    {
+      "id": "altcam-product-2026-08-12-02-camera",
+      "date": "2026-08-12",
+      "scheduled_at": "2026-08-12T14:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "VIATEC",
+        "source_url": "https://viatec.ua/ru",
+        "category": "Відеоспостереження",
+        "product": "Dahua DH-HAC-HFW1801TLMP-IL-A 8МП",
+        "price": "орієнтир постачальника: 2 970 ₴",
+        "audience": "магазин / склад / двір",
+        "keyword": "КАМЕРА",
+        "hook": "8МП — це не магія. Але для правильного місця це сильний аргумент.",
+        "benefits": [
+          "8МП",
+          "HDCVI",
+          "вуличний форм-фактор",
+          "вигідна точка входу"
+        ]
+      },
+      "title": "8МП — це не магія. Але для правильного місця це сильний аргумент.",
+      "cta": "Напишіть «КАМЕРА» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "8МП — це не магія. Але для правильного місця це сильний аргумент.\n\nТовар: Dahua DH-HAC-HFW1801TLMP-IL-A 8МП\nКатегорія: Відеоспостереження\n\nКому підійде: магазин / склад / двір.\n\nЩо важливо:\n• 8МП\n• HDCVI\n• вуличний форм-фактор\n• вигідна точка входу\n\nЦіна: орієнтир постачальника: 2 970 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «КАМЕРА» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #камери #відеонагляд #Hikvision #Dahua",
+        "instagram": "8МП — це не магія. Але для правильного місця це сильний аргумент.\n\nDahua DH-HAC-HFW1801TLMP-IL-A 8МП — варіант для: магазин / склад / двір.\n\n• 8МП\n• HDCVI\n• вуличний форм-фактор\n• вигідна точка входу\n\nНапишіть «КАМЕРА» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #камери #відеонагляд #Hikvision #Dahua",
+        "threads": "8МП — це не магія. Але для правильного місця це сильний аргумент.\n\nПитання до власників: ви обираєте відеоспостереження за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «КАМЕРА» — підкажемо коротко.",
+        "telegram": "<b>8МП — це не магія. Але для правильного місця це сильний аргумент.</b>\n\n<b>Товар:</b> Dahua DH-HAC-HFW1801TLMP-IL-A 8МП\n<b>Для кого:</b> магазин / склад / двір\n\n• 8МП\n• HDCVI\n• вуличний форм-фактор\n• вигідна точка входу\n\n<code>Ціна: орієнтир постачальника: 2 970 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «КАМЕРА» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: 8МП — це не магія. Але для правильного місця це сильний аргумент.\n\nПоказуємо Dahua DH-HAC-HFW1801TLMP-IL-A 8МП і пояснюємо, де воно доречне: магазин / склад / двір.\nЯкщо хочете розбір у відео — напишіть у коментарі «КАМЕРА»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #камери #відеонагляд #Hikvision #Dahua",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: Dahua DH-HAC-HFW1801TLMP-IL-A 8МП\nCategory: Відеоспостереження\nMain visual mode: product-only premium catalog card\nScene/backdrop: steel-blue secondary glow, field-of-view lines, modern home/business architecture, precision optics\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “8МП — це не магія. Але для правильного місця це сильний аргумент.”, short feature line, and bottom CTA “НАПИШІТЬ «КАМЕРА»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-12-02-camera.md"
+    },
+    {
+      "id": "altcam-product-2026-08-12-03-intercom",
+      "date": "2026-08-12",
+      "scheduled_at": "2026-08-12T18:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "NeoLight",
+        "source_url": "https://neolight.in.ua/uk",
+        "category": "Домофонія",
+        "product": "NeoLight MEZZO Hybrid HD KIT Graphite 10.1” Wi‑Fi",
+        "price": "орієнтир постачальника: 16 120 ₴",
+        "audience": "преміальний будинок / офіс",
+        "keyword": "ДОМОФОН",
+        "hook": "Коли домофон має виглядати як частина інтер’єру, а не компроміс.",
+        "benefits": [
+          "10.1” монітор",
+          "Wi‑Fi",
+          "гібридний комплект",
+          "2Мп відеопанель"
+        ]
+      },
+      "title": "Коли домофон має виглядати як частина інтер’єру, а не компроміс.",
+      "cta": "Напишіть «ДОМОФОН» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "Коли домофон має виглядати як частина інтер’єру, а не компроміс.\n\nТовар: NeoLight MEZZO Hybrid HD KIT Graphite 10.1” Wi‑Fi\nКатегорія: Домофонія\n\nКому підійде: преміальний будинок / офіс.\n\nЩо важливо:\n• 10.1” монітор\n• Wi‑Fi\n• гібридний комплект\n• 2Мп відеопанель\n\nЦіна: орієнтир постачальника: 16 120 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «ДОМОФОН» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+        "instagram": "Коли домофон має виглядати як частина інтер’єру, а не компроміс.\n\nNeoLight MEZZO Hybrid HD KIT Graphite 10.1” Wi‑Fi — варіант для: преміальний будинок / офіс.\n\n• 10.1” монітор\n• Wi‑Fi\n• гібридний комплект\n• 2Мп відеопанель\n\nНапишіть «ДОМОФОН» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+        "threads": "Коли домофон має виглядати як частина інтер’єру, а не компроміс.\n\nПитання до власників: ви обираєте домофонія за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «ДОМОФОН» — підкажемо коротко.",
+        "telegram": "<b>Коли домофон має виглядати як частина інтер’єру, а не компроміс.</b>\n\n<b>Товар:</b> NeoLight MEZZO Hybrid HD KIT Graphite 10.1” Wi‑Fi\n<b>Для кого:</b> преміальний будинок / офіс\n\n• 10.1” монітор\n• Wi‑Fi\n• гібридний комплект\n• 2Мп відеопанель\n\n<code>Ціна: орієнтир постачальника: 16 120 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «ДОМОФОН» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: Коли домофон має виглядати як частина інтер’єру, а не компроміс.\n\nПоказуємо NeoLight MEZZO Hybrid HD KIT Graphite 10.1” Wi‑Fi і пояснюємо, де воно доречне: преміальний будинок / офіс.\nЯкщо хочете розбір у відео — напишіть у коментарі «ДОМОФОН»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: NeoLight MEZZO Hybrid HD KIT Graphite 10.1” Wi‑Fi\nCategory: Домофонія\nMain visual mode: product-only premium catalog card\nScene/backdrop: warm white/champagne glow, premium entrance door, gate, smart residential access\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “Коли домофон має виглядати як частина інтер’єру, а не компроміс.”, short feature line, and bottom CTA “НАПИШІТЬ «ДОМОФОН»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-12-03-intercom.md"
+    },
+    {
+      "id": "altcam-reel-2026-08-12-03",
+      "date": "2026-08-12",
+      "scheduled_at": "2026-08-12T20:30:00+03:00",
+      "type": "reel_carousel",
+      "platforms": [
+        "instagram_reels",
+        "facebook_reels",
+        "tiktok",
+        "youtube_shorts",
+        "telegram"
+      ],
+      "title": "Камера, домофон, кабель: де найчастіше помиляються",
+      "scenario": {
+        "0-3s": "Крупний hook на екрані: “Камера, домофон, кабель: де найчастіше помиляються”. Швидкі кадри товарів: КАМЕРА, КАМЕРА, ДОМОФОН.",
+        "3-10s": "Показати 3 проблеми: не видно обличчя, немає резерву, незручно відкривати двері або хаос у кабелях.",
+        "10-20s": "Показати рішення ALT-CAM: товар + монтаж + налаштування + перевірка зі смартфона.",
+        "20-30s": "Фінальний кадр: сайт, Telegram-бот, географія Київ / Вишгород / область. Заклик написати ключове слово."
+      },
+      "carousel_slides": [
+        "Слайд 1: Камера, домофон, кабель: де найчастіше помиляються",
+        "Слайд 2: YOSO YO-IPC43D5MP50 PTZ 5МП Wi‑Fi з сиреною — Камера для об’єкта, де немає бажання тягнути повну систему одразу.",
+        "Слайд 3: Dahua DH-HAC-HFW1801TLMP-IL-A 8МП — 8МП — це не магія. Але для правильного місця це сильний аргумент.",
+        "Слайд 4: NeoLight MEZZO Hybrid HD KIT Graphite 10.1” Wi‑Fi — Коли домофон має виглядати як частина інтер’єру, а не компроміс.",
+        "Слайд 5: Переваги ALT-CAM — підбір, монтаж, налаштування, підтримка",
+        "Слайд 6: CTA — Напишіть «ПІДБІР» у Telegram"
+      ],
+      "caption": "Камера, домофон, кабель: де найчастіше помиляються\n\nЦе не просто добірка товарів. Це сценарій: що поставити, де воно має працювати і як не купити зайве.\n\nУ каруселі: YOSO YO-IPC43D5MP50 PTZ 5МП Wi‑Fi з сиреною, Dahua DH-HAC-HFW1801TLMP-IL-A 8МП, NeoLight MEZZO Hybrid HD KIT Graphite 10.1” Wi‑Fi.\n\nНапишіть у Telegram «ПІДБІР» — підкажемо варіант під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #security #відеоспостереження #домофон #монтаж #Київ #Вишгород",
+      "image_prompt": "Create a premium advertising carousel/reels cover for ALT-CAM Security UA: dark anthracite background, realistic security products, clean yellow CTA, product-card style from user's reference examples, theme: Камера, домофон, кабель: де найчастіше помиляються. Include visual places for 3 product tiles and brand resources: website, Telegram, service advantages.",
+      "prompt_path": "image-prompts/altcam-reel-2026-08-12-03.md"
+    },
+    {
+      "id": "altcam-product-2026-08-13-01-rack",
+      "date": "2026-08-13",
+      "scheduled_at": "2026-08-13T10:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "ЮГТОРГ / BigOpt",
+        "source_url": "https://yugtorg.bigopt.com/",
+        "category": "Серверна / монтаж",
+        "product": "Шафа Merlion 15U 600×600×768 мм",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "офіс / склад / бізнес",
+        "keyword": "ЩИТ",
+        "hook": "Коли кабелі заховані правильно — систему не страшно обслуговувати.",
+        "benefits": [
+          "15U",
+          "скляні двері",
+          "замок",
+          "порядок для NVR/PoE/UPS"
+        ]
+      },
+      "title": "Коли кабелі заховані правильно — систему не страшно обслуговувати.",
+      "cta": "Напишіть «ЩИТ» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "Коли кабелі заховані правильно — систему не страшно обслуговувати.\n\nТовар: Шафа Merlion 15U 600×600×768 мм\nКатегорія: Серверна / монтаж\n\nКому підійде: офіс / склад / бізнес.\n\nЩо важливо:\n• 15U\n• скляні двері\n• замок\n• порядок для NVR/PoE/UPS\n\nЦіна: ціну уточнюємо перед публікацією. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «ЩИТ» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород",
+        "instagram": "Коли кабелі заховані правильно — систему не страшно обслуговувати.\n\nШафа Merlion 15U 600×600×768 мм — варіант для: офіс / склад / бізнес.\n\n• 15U\n• скляні двері\n• замок\n• порядок для NVR/PoE/UPS\n\nНапишіть «ЩИТ» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород",
+        "threads": "Коли кабелі заховані правильно — систему не страшно обслуговувати.\n\nПитання до власників: ви обираєте серверна / монтаж за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «ЩИТ» — підкажемо коротко.",
+        "telegram": "<b>Коли кабелі заховані правильно — систему не страшно обслуговувати.</b>\n\n<b>Товар:</b> Шафа Merlion 15U 600×600×768 мм\n<b>Для кого:</b> офіс / склад / бізнес\n\n• 15U\n• скляні двері\n• замок\n• порядок для NVR/PoE/UPS\n\n<code>Ціна: ціну уточнюємо перед публікацією. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «ЩИТ» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: Коли кабелі заховані правильно — систему не страшно обслуговувати.\n\nПоказуємо Шафа Merlion 15U 600×600×768 мм і пояснюємо, де воно доречне: офіс / склад / бізнес.\nЯкщо хочете розбір у відео — напишіть у коментарі «ЩИТ»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: Шафа Merlion 15U 600×600×768 мм\nCategory: Серверна / монтаж\nMain visual mode: product-only premium catalog card\nScene/backdrop: server rack, NVR, PoE switch, UPS, labeled cables, clean engineering infrastructure\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “Коли кабелі заховані правильно — систему не страшно обслуговувати.”, short feature line, and bottom CTA “НАПИШІТЬ «ЩИТ»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-13-01-rack.md"
+    },
+    {
+      "id": "altcam-product-2026-08-13-02-access",
+      "date": "2026-08-13",
+      "scheduled_at": "2026-08-13T14:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "VIATEC",
+        "source_url": "https://viatec.ua/ru",
+        "category": "Контроль доступу",
+        "product": "Dahua DHI-ASR2100A-D Marine IP66",
+        "price": "орієнтир постачальника: 1 215 ₴",
+        "audience": "офіс / склад / вхідна зона",
+        "keyword": "ДОСТУП",
+        "hook": "Доступ має відкриватися своїм — і закриватися для випадкових.",
+        "benefits": [
+          "IP66",
+          "зчитувач",
+          "для контролю доступу",
+          "підходить для суворіших умов"
+        ]
+      },
+      "title": "Доступ має відкриватися своїм — і закриватися для випадкових.",
+      "cta": "Напишіть «ДОСТУП» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "Доступ має відкриватися своїм — і закриватися для випадкових.\n\nТовар: Dahua DHI-ASR2100A-D Marine IP66\nКатегорія: Контроль доступу\n\nКому підійде: офіс / склад / вхідна зона.\n\nЩо важливо:\n• IP66\n• зчитувач\n• для контролю доступу\n• підходить для суворіших умов\n\nЦіна: орієнтир постачальника: 1 215 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «ДОСТУП» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #контрольдоступу #СКУД #Dahua",
+        "instagram": "Доступ має відкриватися своїм — і закриватися для випадкових.\n\nDahua DHI-ASR2100A-D Marine IP66 — варіант для: офіс / склад / вхідна зона.\n\n• IP66\n• зчитувач\n• для контролю доступу\n• підходить для суворіших умов\n\nНапишіть «ДОСТУП» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #контрольдоступу #СКУД #Dahua",
+        "threads": "Доступ має відкриватися своїм — і закриватися для випадкових.\n\nПитання до власників: ви обираєте контроль доступу за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «ДОСТУП» — підкажемо коротко.",
+        "telegram": "<b>Доступ має відкриватися своїм — і закриватися для випадкових.</b>\n\n<b>Товар:</b> Dahua DHI-ASR2100A-D Marine IP66\n<b>Для кого:</b> офіс / склад / вхідна зона\n\n• IP66\n• зчитувач\n• для контролю доступу\n• підходить для суворіших умов\n\n<code>Ціна: орієнтир постачальника: 1 215 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «ДОСТУП» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: Доступ має відкриватися своїм — і закриватися для випадкових.\n\nПоказуємо Dahua DHI-ASR2100A-D Marine IP66 і пояснюємо, де воно доречне: офіс / склад / вхідна зона.\nЯкщо хочете розбір у відео — напишіть у коментарі «ДОСТУП»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #контрольдоступу #СКУД #Dahua",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: Dahua DHI-ASR2100A-D Marine IP66\nCategory: Контроль доступу\nMain visual mode: product-only premium catalog card\nScene/backdrop: cyan metallic ambient, office glass doors, RFID access zone, professional identification\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “Доступ має відкриватися своїм — і закриватися для випадкових.”, short feature line, and bottom CTA “НАПИШІТЬ «ДОСТУП»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-13-02-access.md"
+    },
+    {
+      "id": "altcam-product-2026-08-13-03-intercom",
+      "date": "2026-08-13",
+      "scheduled_at": "2026-08-13T18:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "NeoLight",
+        "source_url": "https://neolight.in.ua/uk",
+        "category": "Домофонія + відео",
+        "product": "NeoLight ALPHA Hybrid HD KIT Graphite + 2 IP камери",
+        "price": "орієнтир постачальника: 16 220 ₴",
+        "audience": "будинок / офіс / вхідна група",
+        "keyword": "ДОМОФОН",
+        "hook": "Вхід і відеонагляд в одному сценарії — без зоопарку пристроїв.",
+        "benefits": [
+          "гібридний домофон",
+          "2 IP камери",
+          "комплектне рішення",
+          "зручно для контролю входу"
+        ]
+      },
+      "title": "Вхід і відеонагляд в одному сценарії — без зоопарку пристроїв.",
+      "cta": "Напишіть «ДОМОФОН» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "Вхід і відеонагляд в одному сценарії — без зоопарку пристроїв.\n\nТовар: NeoLight ALPHA Hybrid HD KIT Graphite + 2 IP камери\nКатегорія: Домофонія + відео\n\nКому підійде: будинок / офіс / вхідна група.\n\nЩо важливо:\n• гібридний домофон\n• 2 IP камери\n• комплектне рішення\n• зручно для контролю входу\n\nЦіна: орієнтир постачальника: 16 220 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «ДОМОФОН» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород",
+        "instagram": "Вхід і відеонагляд в одному сценарії — без зоопарку пристроїв.\n\nNeoLight ALPHA Hybrid HD KIT Graphite + 2 IP камери — варіант для: будинок / офіс / вхідна група.\n\n• гібридний домофон\n• 2 IP камери\n• комплектне рішення\n• зручно для контролю входу\n\nНапишіть «ДОМОФОН» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород",
+        "threads": "Вхід і відеонагляд в одному сценарії — без зоопарку пристроїв.\n\nПитання до власників: ви обираєте домофонія + відео за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «ДОМОФОН» — підкажемо коротко.",
+        "telegram": "<b>Вхід і відеонагляд в одному сценарії — без зоопарку пристроїв.</b>\n\n<b>Товар:</b> NeoLight ALPHA Hybrid HD KIT Graphite + 2 IP камери\n<b>Для кого:</b> будинок / офіс / вхідна група\n\n• гібридний домофон\n• 2 IP камери\n• комплектне рішення\n• зручно для контролю входу\n\n<code>Ціна: орієнтир постачальника: 16 220 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «ДОМОФОН» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: Вхід і відеонагляд в одному сценарії — без зоопарку пристроїв.\n\nПоказуємо NeoLight ALPHA Hybrid HD KIT Graphite + 2 IP камери і пояснюємо, де воно доречне: будинок / офіс / вхідна група.\nЯкщо хочете розбір у відео — напишіть у коментарі «ДОМОФОН»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: NeoLight ALPHA Hybrid HD KIT Graphite + 2 IP камери\nCategory: Домофонія + відео\nMain visual mode: product-only premium catalog card\nScene/backdrop: premium entrance with intercom monitor and camera ecosystem, warm residential lighting\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “Вхід і відеонагляд в одному сценарії — без зоопарку пристроїв.”, short feature line, and bottom CTA “НАПИШІТЬ «ДОМОФОН»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-13-03-intercom.md"
+    },
+    {
+      "id": "altcam-reel-2026-08-13-04",
+      "date": "2026-08-13",
+      "scheduled_at": "2026-08-13T20:30:00+03:00",
+      "type": "reel_carousel",
+      "platforms": [
+        "instagram_reels",
+        "facebook_reels",
+        "tiktok",
+        "youtube_shorts",
+        "telegram"
+      ],
+      "title": "Преміальний монтаж: що має бути в кадрі",
+      "scenario": {
+        "0-3s": "Крупний hook на екрані: “Преміальний монтаж: що має бути в кадрі”. Швидкі кадри товарів: ЩИТ, ДОСТУП, ДОМОФОН.",
+        "3-10s": "Показати 3 проблеми: не видно обличчя, немає резерву, незручно відкривати двері або хаос у кабелях.",
+        "10-20s": "Показати рішення ALT-CAM: товар + монтаж + налаштування + перевірка зі смартфона.",
+        "20-30s": "Фінальний кадр: сайт, Telegram-бот, географія Київ / Вишгород / область. Заклик написати ключове слово."
+      },
+      "carousel_slides": [
+        "Слайд 1: Преміальний монтаж: що має бути в кадрі",
+        "Слайд 2: Шафа Merlion 15U 600×600×768 мм — Коли кабелі заховані правильно — систему не страшно обслуговувати.",
+        "Слайд 3: Dahua DHI-ASR2100A-D Marine IP66 — Доступ має відкриватися своїм — і закриватися для випадкових.",
+        "Слайд 4: NeoLight ALPHA Hybrid HD KIT Graphite + 2 IP камери — Вхід і відеонагляд в одному сценарії — без зоопарку пристроїв.",
+        "Слайд 5: Переваги ALT-CAM — підбір, монтаж, налаштування, підтримка",
+        "Слайд 6: CTA — Напишіть «ПІДБІР» у Telegram"
+      ],
+      "caption": "Преміальний монтаж: що має бути в кадрі\n\nЦе не просто добірка товарів. Це сценарій: що поставити, де воно має працювати і як не купити зайве.\n\nУ каруселі: Шафа Merlion 15U 600×600×768 мм, Dahua DHI-ASR2100A-D Marine IP66, NeoLight ALPHA Hybrid HD KIT Graphite + 2 IP камери.\n\nНапишіть у Telegram «ПІДБІР» — підкажемо варіант під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #security #відеоспостереження #домофон #монтаж #Київ #Вишгород",
+      "image_prompt": "Create a premium advertising carousel/reels cover for ALT-CAM Security UA: dark anthracite background, realistic security products, clean yellow CTA, product-card style from user's reference examples, theme: Преміальний монтаж: що має бути в кадрі. Include visual places for 3 product tiles and brand resources: website, Telegram, service advantages.",
+      "prompt_path": "image-prompts/altcam-reel-2026-08-13-04.md"
+    },
+    {
+      "id": "altcam-product-2026-08-14-01-intercom",
+      "date": "2026-08-14",
+      "scheduled_at": "2026-08-14T10:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "VIATEC",
+        "source_url": "https://viatec.ua/ru",
+        "category": "Домофонія",
+        "product": "Hikvision DS-KH6110-WE1/White 4.3”",
+        "price": "орієнтир постачальника: 4 050 ₴",
+        "audience": "квартира / орендна нерухомість",
+        "keyword": "ДОМОФОН",
+        "hook": "Маленький монітор, який закриває базову задачу контролю входу.",
+        "benefits": [
+          "4.3”",
+          "білий корпус",
+          "для базового сценарію",
+          "підходить для квартири"
+        ]
+      },
+      "title": "Маленький монітор, який закриває базову задачу контролю входу.",
+      "cta": "Напишіть «ДОМОФОН» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "Маленький монітор, який закриває базову задачу контролю входу.\n\nТовар: Hikvision DS-KH6110-WE1/White 4.3”\nКатегорія: Домофонія\n\nКому підійде: квартира / орендна нерухомість.\n\nЩо важливо:\n• 4.3”\n• білий корпус\n• для базового сценарію\n• підходить для квартири\n\nЦіна: орієнтир постачальника: 4 050 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «ДОМОФОН» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+        "instagram": "Маленький монітор, який закриває базову задачу контролю входу.\n\nHikvision DS-KH6110-WE1/White 4.3” — варіант для: квартира / орендна нерухомість.\n\n• 4.3”\n• білий корпус\n• для базового сценарію\n• підходить для квартири\n\nНапишіть «ДОМОФОН» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+        "threads": "Маленький монітор, який закриває базову задачу контролю входу.\n\nПитання до власників: ви обираєте домофонія за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «ДОМОФОН» — підкажемо коротко.",
+        "telegram": "<b>Маленький монітор, який закриває базову задачу контролю входу.</b>\n\n<b>Товар:</b> Hikvision DS-KH6110-WE1/White 4.3”\n<b>Для кого:</b> квартира / орендна нерухомість\n\n• 4.3”\n• білий корпус\n• для базового сценарію\n• підходить для квартири\n\n<code>Ціна: орієнтир постачальника: 4 050 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «ДОМОФОН» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: Маленький монітор, який закриває базову задачу контролю входу.\n\nПоказуємо Hikvision DS-KH6110-WE1/White 4.3” і пояснюємо, де воно доречне: квартира / орендна нерухомість.\nЯкщо хочете розбір у відео — напишіть у коментарі «ДОМОФОН»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: Hikvision DS-KH6110-WE1/White 4.3”\nCategory: Домофонія\nMain visual mode: product-only premium catalog card\nScene/backdrop: warm white/champagne glow, premium entrance door, gate, smart residential access\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “Маленький монітор, який закриває базову задачу контролю входу.”, short feature line, and bottom CTA “НАПИШІТЬ «ДОМОФОН»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-14-01-intercom.md"
+    },
+    {
+      "id": "altcam-product-2026-08-14-02-cable",
+      "date": "2026-08-14",
+      "scheduled_at": "2026-08-14T14:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "ЮГТОРГ / BigOpt",
+        "source_url": "https://yugtorg.bigopt.com/",
+        "category": "Кабель / монтаж",
+        "product": "Ritar FTP Cat.6 CU 305 м",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "IP-камери / мережа / PoE",
+        "keyword": "КАБЕЛЬ",
+        "hook": "IP-камера починається не з камери. Вона починається з нормальної лінії.",
+        "benefits": [
+          "Cat.6",
+          "CU",
+          "FTP",
+          "для стабільної мережі"
+        ]
+      },
+      "title": "IP-камера починається не з камери. Вона починається з нормальної лінії.",
+      "cta": "Напишіть «КАБЕЛЬ» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "IP-камера починається не з камери. Вона починається з нормальної лінії.\n\nТовар: Ritar FTP Cat.6 CU 305 м\nКатегорія: Кабель / монтаж\n\nКому підійде: IP-камери / мережа / PoE.\n\nЩо важливо:\n• Cat.6\n• CU\n• FTP\n• для стабільної мережі\n\nЦіна: ціну уточнюємо перед публікацією. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «КАБЕЛЬ» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #кабель #монтаж #PoE #UTP",
+        "instagram": "IP-камера починається не з камери. Вона починається з нормальної лінії.\n\nRitar FTP Cat.6 CU 305 м — варіант для: IP-камери / мережа / PoE.\n\n• Cat.6\n• CU\n• FTP\n• для стабільної мережі\n\nНапишіть «КАБЕЛЬ» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #кабель #монтаж #PoE #UTP",
+        "threads": "IP-камера починається не з камери. Вона починається з нормальної лінії.\n\nПитання до власників: ви обираєте кабель / монтаж за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «КАБЕЛЬ» — підкажемо коротко.",
+        "telegram": "<b>IP-камера починається не з камери. Вона починається з нормальної лінії.</b>\n\n<b>Товар:</b> Ritar FTP Cat.6 CU 305 м\n<b>Для кого:</b> IP-камери / мережа / PoE\n\n• Cat.6\n• CU\n• FTP\n• для стабільної мережі\n\n<code>Ціна: ціну уточнюємо перед публікацією. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «КАБЕЛЬ» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: IP-камера починається не з камери. Вона починається з нормальної лінії.\n\nПоказуємо Ritar FTP Cat.6 CU 305 м і пояснюємо, де воно доречне: IP-камери / мережа / PoE.\nЯкщо хочете розбір у відео — напишіть у коментарі «КАБЕЛЬ»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #кабель #монтаж #PoE #UTP",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: Ritar FTP Cat.6 CU 305 м\nCategory: Кабель / монтаж\nMain visual mode: product-only premium catalog card\nScene/backdrop: blue-grey infrastructure mood, cable texture, connectors, neat technical graphite background\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “IP-камера починається не з камери. Вона починається з нормальної лінії.”, short feature line, and bottom CTA “НАПИШІТЬ «КАБЕЛЬ»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-14-02-cable.md"
+    },
+    {
+      "id": "altcam-product-2026-08-14-03-camera",
+      "date": "2026-08-14",
+      "scheduled_at": "2026-08-14T18:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "VIATEC",
+        "source_url": "https://viatec.ua/ru",
+        "category": "Відеоспостереження",
+        "product": "Dahua WizMind Triple-Sight DH-IPC-MFW5241T2-E3-ASE",
+        "price": "орієнтир постачальника: 17 550 ₴",
+        "audience": "склад / периметр / бізнес",
+        "keyword": "КАМЕРА",
+        "hook": "Одна точка — три погляди. Для об’єктів, де сліпі зони коштують дорого.",
+        "benefits": [
+          "3×2МП",
+          "Triple-Sight",
+          "різні фокусні відстані",
+          "для складних зон"
+        ]
+      },
+      "title": "Одна точка — три погляди. Для об’єктів, де сліпі зони коштують дорого.",
+      "cta": "Напишіть «КАМЕРА» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "Одна точка — три погляди. Для об’єктів, де сліпі зони коштують дорого.\n\nТовар: Dahua WizMind Triple-Sight DH-IPC-MFW5241T2-E3-ASE\nКатегорія: Відеоспостереження\n\nКому підійде: склад / периметр / бізнес.\n\nЩо важливо:\n• 3×2МП\n• Triple-Sight\n• різні фокусні відстані\n• для складних зон\n\nЦіна: орієнтир постачальника: 17 550 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «КАМЕРА» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #камери #відеонагляд #Hikvision #Dahua",
+        "instagram": "Одна точка — три погляди. Для об’єктів, де сліпі зони коштують дорого.\n\nDahua WizMind Triple-Sight DH-IPC-MFW5241T2-E3-ASE — варіант для: склад / периметр / бізнес.\n\n• 3×2МП\n• Triple-Sight\n• різні фокусні відстані\n• для складних зон\n\nНапишіть «КАМЕРА» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #камери #відеонагляд #Hikvision #Dahua",
+        "threads": "Одна точка — три погляди. Для об’єктів, де сліпі зони коштують дорого.\n\nПитання до власників: ви обираєте відеоспостереження за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «КАМЕРА» — підкажемо коротко.",
+        "telegram": "<b>Одна точка — три погляди. Для об’єктів, де сліпі зони коштують дорого.</b>\n\n<b>Товар:</b> Dahua WizMind Triple-Sight DH-IPC-MFW5241T2-E3-ASE\n<b>Для кого:</b> склад / периметр / бізнес\n\n• 3×2МП\n• Triple-Sight\n• різні фокусні відстані\n• для складних зон\n\n<code>Ціна: орієнтир постачальника: 17 550 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «КАМЕРА» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: Одна точка — три погляди. Для об’єктів, де сліпі зони коштують дорого.\n\nПоказуємо Dahua WizMind Triple-Sight DH-IPC-MFW5241T2-E3-ASE і пояснюємо, де воно доречне: склад / периметр / бізнес.\nЯкщо хочете розбір у відео — напишіть у коментарі «КАМЕРА»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #камери #відеонагляд #Hikvision #Dahua",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: Dahua WizMind Triple-Sight DH-IPC-MFW5241T2-E3-ASE\nCategory: Відеоспостереження\nMain visual mode: product-only premium catalog card\nScene/backdrop: steel-blue secondary glow, field-of-view lines, modern home/business architecture, precision optics\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “Одна точка — три погляди. Для об’єктів, де сліпі зони коштують дорого.”, short feature line, and bottom CTA “НАПИШІТЬ «КАМЕРА»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-14-03-camera.md"
+    },
+    {
+      "id": "altcam-reel-2026-08-14-05",
+      "date": "2026-08-14",
+      "scheduled_at": "2026-08-14T20:30:00+03:00",
+      "type": "reel_carousel",
+      "platforms": [
+        "instagram_reels",
+        "facebook_reels",
+        "tiktok",
+        "youtube_shorts",
+        "telegram"
+      ],
+      "title": "Як виглядає система безпеки без хаосу",
+      "scenario": {
+        "0-3s": "Крупний hook на екрані: “Як виглядає система безпеки без хаосу”. Швидкі кадри товарів: ДОМОФОН, КАБЕЛЬ, КАМЕРА.",
+        "3-10s": "Показати 3 проблеми: не видно обличчя, немає резерву, незручно відкривати двері або хаос у кабелях.",
+        "10-20s": "Показати рішення ALT-CAM: товар + монтаж + налаштування + перевірка зі смартфона.",
+        "20-30s": "Фінальний кадр: сайт, Telegram-бот, географія Київ / Вишгород / область. Заклик написати ключове слово."
+      },
+      "carousel_slides": [
+        "Слайд 1: Як виглядає система безпеки без хаосу",
+        "Слайд 2: Hikvision DS-KH6110-WE1/White 4.3” — Маленький монітор, який закриває базову задачу контролю входу.",
+        "Слайд 3: Ritar FTP Cat.6 CU 305 м — IP-камера починається не з камери. Вона починається з нормальної лінії.",
+        "Слайд 4: Dahua WizMind Triple-Sight DH-IPC-MFW5241T2-E3-ASE — Одна точка — три погляди. Для об’єктів, де сліпі зони коштують дорого.",
+        "Слайд 5: Переваги ALT-CAM — підбір, монтаж, налаштування, підтримка",
+        "Слайд 6: CTA — Напишіть «ПІДБІР» у Telegram"
+      ],
+      "caption": "Як виглядає система безпеки без хаосу\n\nЦе не просто добірка товарів. Це сценарій: що поставити, де воно має працювати і як не купити зайве.\n\nУ каруселі: Hikvision DS-KH6110-WE1/White 4.3”, Ritar FTP Cat.6 CU 305 м, Dahua WizMind Triple-Sight DH-IPC-MFW5241T2-E3-ASE.\n\nНапишіть у Telegram «ПІДБІР» — підкажемо варіант під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #security #відеоспостереження #домофон #монтаж #Київ #Вишгород",
+      "image_prompt": "Create a premium advertising carousel/reels cover for ALT-CAM Security UA: dark anthracite background, realistic security products, clean yellow CTA, product-card style from user's reference examples, theme: Як виглядає система безпеки без хаосу. Include visual places for 3 product tiles and brand resources: website, Telegram, service advantages.",
+      "prompt_path": "image-prompts/altcam-reel-2026-08-14-05.md"
+    },
+    {
+      "id": "altcam-product-2026-08-15-01-intercom",
+      "date": "2026-08-15",
+      "scheduled_at": "2026-08-15T10:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "NeoLight",
+        "source_url": "https://neolight.in.ua/uk",
+        "category": "Домофонія",
+        "product": "NeoLight NeoKIT FHD PRO + замок",
+        "price": "орієнтир постачальника: 9 059 ₴",
+        "audience": "хвіртка / двері / офіс",
+        "keyword": "ДОМОФОН",
+        "hook": "Відеодомофон без замка — це половина контролю.",
+        "benefits": [
+          "FHD PRO",
+          "комплект із замком",
+          "для дверей/хвіртки",
+          "зручний сценарій входу"
+        ]
+      },
+      "title": "Відеодомофон без замка — це половина контролю.",
+      "cta": "Напишіть «ДОМОФОН» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "Відеодомофон без замка — це половина контролю.\n\nТовар: NeoLight NeoKIT FHD PRO + замок\nКатегорія: Домофонія\n\nКому підійде: хвіртка / двері / офіс.\n\nЩо важливо:\n• FHD PRO\n• комплект із замком\n• для дверей/хвіртки\n• зручний сценарій входу\n\nЦіна: орієнтир постачальника: 9 059 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «ДОМОФОН» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+        "instagram": "Відеодомофон без замка — це половина контролю.\n\nNeoLight NeoKIT FHD PRO + замок — варіант для: хвіртка / двері / офіс.\n\n• FHD PRO\n• комплект із замком\n• для дверей/хвіртки\n• зручний сценарій входу\n\nНапишіть «ДОМОФОН» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+        "threads": "Відеодомофон без замка — це половина контролю.\n\nПитання до власників: ви обираєте домофонія за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «ДОМОФОН» — підкажемо коротко.",
+        "telegram": "<b>Відеодомофон без замка — це половина контролю.</b>\n\n<b>Товар:</b> NeoLight NeoKIT FHD PRO + замок\n<b>Для кого:</b> хвіртка / двері / офіс\n\n• FHD PRO\n• комплект із замком\n• для дверей/хвіртки\n• зручний сценарій входу\n\n<code>Ціна: орієнтир постачальника: 9 059 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «ДОМОФОН» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: Відеодомофон без замка — це половина контролю.\n\nПоказуємо NeoLight NeoKIT FHD PRO + замок і пояснюємо, де воно доречне: хвіртка / двері / офіс.\nЯкщо хочете розбір у відео — напишіть у коментарі «ДОМОФОН»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: NeoLight NeoKIT FHD PRO + замок\nCategory: Домофонія\nMain visual mode: product-only premium catalog card\nScene/backdrop: warm white/champagne glow, premium entrance door, gate, smart residential access\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “Відеодомофон без замка — це половина контролю.”, short feature line, and bottom CTA “НАПИШІТЬ «ДОМОФОН»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-15-01-intercom.md"
+    },
+    {
+      "id": "altcam-product-2026-08-15-02-backup",
+      "date": "2026-08-15",
+      "scheduled_at": "2026-08-15T14:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "ЮГТОРГ / BigOpt",
+        "source_url": "https://yugtorg.bigopt.com/",
+        "category": "Резервне живлення",
+        "product": "BMS JK-BD6A24S20P Li-Ion/LiFePO4/LTO",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "резерв для мережі / безпеки",
+        "keyword": "РЕЗЕРВ",
+        "hook": "Резерв живлення — це не просто акумулятор. Це контроль і захист.",
+        "benefits": [
+          "Li‑Ion/LiFePO4/LTO",
+          "до 24S",
+          "200A",
+          "CAN/RS485/Bluetooth"
+        ]
+      },
+      "title": "Резерв живлення — це не просто акумулятор. Це контроль і захист.",
+      "cta": "Напишіть «РЕЗЕРВ» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "Резерв живлення — це не просто акумулятор. Це контроль і захист.\n\nТовар: BMS JK-BD6A24S20P Li-Ion/LiFePO4/LTO\nКатегорія: Резервне живлення\n\nКому підійде: резерв для мережі / безпеки.\n\nЩо важливо:\n• Li‑Ion/LiFePO4/LTO\n• до 24S\n• 200A\n• CAN/RS485/Bluetooth\n\nЦіна: ціну уточнюємо перед публікацією. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «РЕЗЕРВ» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #резервнеживлення #UPS #LiFePO4",
+        "instagram": "Резерв живлення — це не просто акумулятор. Це контроль і захист.\n\nBMS JK-BD6A24S20P Li-Ion/LiFePO4/LTO — варіант для: резерв для мережі / безпеки.\n\n• Li‑Ion/LiFePO4/LTO\n• до 24S\n• 200A\n• CAN/RS485/Bluetooth\n\nНапишіть «РЕЗЕРВ» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #резервнеживлення #UPS #LiFePO4",
+        "threads": "Резерв живлення — це не просто акумулятор. Це контроль і захист.\n\nПитання до власників: ви обираєте резервне живлення за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «РЕЗЕРВ» — підкажемо коротко.",
+        "telegram": "<b>Резерв живлення — це не просто акумулятор. Це контроль і захист.</b>\n\n<b>Товар:</b> BMS JK-BD6A24S20P Li-Ion/LiFePO4/LTO\n<b>Для кого:</b> резерв для мережі / безпеки\n\n• Li‑Ion/LiFePO4/LTO\n• до 24S\n• 200A\n• CAN/RS485/Bluetooth\n\n<code>Ціна: ціну уточнюємо перед публікацією. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «РЕЗЕРВ» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: Резерв живлення — це не просто акумулятор. Це контроль і захист.\n\nПоказуємо BMS JK-BD6A24S20P Li-Ion/LiFePO4/LTO і пояснюємо, де воно доречне: резерв для мережі / безпеки.\nЯкщо хочете розбір у відео — напишіть у коментарі «РЕЗЕРВ»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #резервнеживлення #UPS #LiFePO4",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: BMS JK-BD6A24S20P Li-Ion/LiFePO4/LTO\nCategory: Резервне живлення\nMain visual mode: product-only premium catalog card\nScene/backdrop: amber electric glow, battery management, backup power, technical cabinet, stable energy\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “Резерв живлення — це не просто акумулятор. Це контроль і захист.”, short feature line, and bottom CTA “НАПИШІТЬ «РЕЗЕРВ»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-15-02-backup.md"
+    },
+    {
+      "id": "altcam-product-2026-08-15-03-camera",
+      "date": "2026-08-15",
+      "scheduled_at": "2026-08-15T18:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "VIATEC",
+        "source_url": "https://viatec.ua/ru",
+        "category": "PTZ відеоспостереження",
+        "product": "Hikvision DS-2DE1C200IW-DE3(F1)(S7) 2МП PTZ",
+        "price": "орієнтир постачальника: 5 063 ₴",
+        "audience": "двір / парковка / магазин",
+        "keyword": "КАМЕРА",
+        "hook": "Коли треба не тільки бачити, а й змінювати напрям огляду.",
+        "benefits": [
+          "PTZ",
+          "2МП",
+          "4 мм",
+          "для гнучкого огляду"
+        ]
+      },
+      "title": "Коли треба не тільки бачити, а й змінювати напрям огляду.",
+      "cta": "Напишіть «КАМЕРА» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "Коли треба не тільки бачити, а й змінювати напрям огляду.\n\nТовар: Hikvision DS-2DE1C200IW-DE3(F1)(S7) 2МП PTZ\nКатегорія: PTZ відеоспостереження\n\nКому підійде: двір / парковка / магазин.\n\nЩо важливо:\n• PTZ\n• 2МП\n• 4 мм\n• для гнучкого огляду\n\nЦіна: орієнтир постачальника: 5 063 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «КАМЕРА» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород",
+        "instagram": "Коли треба не тільки бачити, а й змінювати напрям огляду.\n\nHikvision DS-2DE1C200IW-DE3(F1)(S7) 2МП PTZ — варіант для: двір / парковка / магазин.\n\n• PTZ\n• 2МП\n• 4 мм\n• для гнучкого огляду\n\nНапишіть «КАМЕРА» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород",
+        "threads": "Коли треба не тільки бачити, а й змінювати напрям огляду.\n\nПитання до власників: ви обираєте ptz відеоспостереження за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «КАМЕРА» — підкажемо коротко.",
+        "telegram": "<b>Коли треба не тільки бачити, а й змінювати напрям огляду.</b>\n\n<b>Товар:</b> Hikvision DS-2DE1C200IW-DE3(F1)(S7) 2МП PTZ\n<b>Для кого:</b> двір / парковка / магазин\n\n• PTZ\n• 2МП\n• 4 мм\n• для гнучкого огляду\n\n<code>Ціна: орієнтир постачальника: 5 063 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «КАМЕРА» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: Коли треба не тільки бачити, а й змінювати напрям огляду.\n\nПоказуємо Hikvision DS-2DE1C200IW-DE3(F1)(S7) 2МП PTZ і пояснюємо, де воно доречне: двір / парковка / магазин.\nЯкщо хочете розбір у відео — напишіть у коментарі «КАМЕРА»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: Hikvision DS-2DE1C200IW-DE3(F1)(S7) 2МП PTZ\nCategory: PTZ відеоспостереження\nMain visual mode: product-only premium catalog card\nScene/backdrop: steel-blue secondary glow, PTZ camera as hero, parking or yard, direction arrows, intelligent surveillance\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “Коли треба не тільки бачити, а й змінювати напрям огляду.”, short feature line, and bottom CTA “НАПИШІТЬ «КАМЕРА»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-15-03-camera.md"
+    },
+    {
+      "id": "altcam-reel-2026-08-15-06",
+      "date": "2026-08-15",
+      "scheduled_at": "2026-08-15T20:30:00+03:00",
+      "type": "reel_carousel",
+      "platforms": [
+        "instagram_reels",
+        "facebook_reels",
+        "tiktok",
+        "youtube_shorts",
+        "telegram"
+      ],
+      "title": "3 рішення для дому, офісу або складу",
+      "scenario": {
+        "0-3s": "Крупний hook на екрані: “3 рішення для дому, офісу або складу”. Швидкі кадри товарів: ДОМОФОН, РЕЗЕРВ, КАМЕРА.",
+        "3-10s": "Показати 3 проблеми: не видно обличчя, немає резерву, незручно відкривати двері або хаос у кабелях.",
+        "10-20s": "Показати рішення ALT-CAM: товар + монтаж + налаштування + перевірка зі смартфона.",
+        "20-30s": "Фінальний кадр: сайт, Telegram-бот, географія Київ / Вишгород / область. Заклик написати ключове слово."
+      },
+      "carousel_slides": [
+        "Слайд 1: 3 рішення для дому, офісу або складу",
+        "Слайд 2: NeoLight NeoKIT FHD PRO + замок — Відеодомофон без замка — це половина контролю.",
+        "Слайд 3: BMS JK-BD6A24S20P Li-Ion/LiFePO4/LTO — Резерв живлення — це не просто акумулятор. Це контроль і захист.",
+        "Слайд 4: Hikvision DS-2DE1C200IW-DE3(F1)(S7) 2МП PTZ — Коли треба не тільки бачити, а й змінювати напрям огляду.",
+        "Слайд 5: Переваги ALT-CAM — підбір, монтаж, налаштування, підтримка",
+        "Слайд 6: CTA — Напишіть «ПІДБІР» у Telegram"
+      ],
+      "caption": "3 рішення для дому, офісу або складу\n\nЦе не просто добірка товарів. Це сценарій: що поставити, де воно має працювати і як не купити зайве.\n\nУ каруселі: NeoLight NeoKIT FHD PRO + замок, BMS JK-BD6A24S20P Li-Ion/LiFePO4/LTO, Hikvision DS-2DE1C200IW-DE3(F1)(S7) 2МП PTZ.\n\nНапишіть у Telegram «ПІДБІР» — підкажемо варіант під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #security #відеоспостереження #домофон #монтаж #Київ #Вишгород",
+      "image_prompt": "Create a premium advertising carousel/reels cover for ALT-CAM Security UA: dark anthracite background, realistic security products, clean yellow CTA, product-card style from user's reference examples, theme: 3 рішення для дому, офісу або складу. Include visual places for 3 product tiles and brand resources: website, Telegram, service advantages.",
+      "prompt_path": "image-prompts/altcam-reel-2026-08-15-06.md"
+    },
+    {
+      "id": "altcam-product-2026-08-16-01-intercom",
+      "date": "2026-08-16",
+      "scheduled_at": "2026-08-16T10:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "NeoLight",
+        "source_url": "https://neolight.in.ua/uk",
+        "category": "Домофонія",
+        "product": "NeoLight ALPHA Hybrid HD KIT Graphite + 2Мп камера",
+        "price": "орієнтир постачальника: 12 490 ₴",
+        "audience": "будинок / квартира / офіс",
+        "keyword": "ДОМОФОН",
+        "hook": "Готовий комплект, щоб не збирати домофон “по шматках”.",
+        "benefits": [
+          "гібридний комплект",
+          "2Мп камера",
+          "graphite дизайн",
+          "готовий сценарій входу"
+        ]
+      },
+      "title": "Готовий комплект, щоб не збирати домофон “по шматках”.",
+      "cta": "Напишіть «ДОМОФОН» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "Готовий комплект, щоб не збирати домофон “по шматках”.\n\nТовар: NeoLight ALPHA Hybrid HD KIT Graphite + 2Мп камера\nКатегорія: Домофонія\n\nКому підійде: будинок / квартира / офіс.\n\nЩо важливо:\n• гібридний комплект\n• 2Мп камера\n• graphite дизайн\n• готовий сценарій входу\n\nЦіна: орієнтир постачальника: 12 490 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «ДОМОФОН» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+        "instagram": "Готовий комплект, щоб не збирати домофон “по шматках”.\n\nNeoLight ALPHA Hybrid HD KIT Graphite + 2Мп камера — варіант для: будинок / квартира / офіс.\n\n• гібридний комплект\n• 2Мп камера\n• graphite дизайн\n• готовий сценарій входу\n\nНапишіть «ДОМОФОН» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+        "threads": "Готовий комплект, щоб не збирати домофон “по шматках”.\n\nПитання до власників: ви обираєте домофонія за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «ДОМОФОН» — підкажемо коротко.",
+        "telegram": "<b>Готовий комплект, щоб не збирати домофон “по шматках”.</b>\n\n<b>Товар:</b> NeoLight ALPHA Hybrid HD KIT Graphite + 2Мп камера\n<b>Для кого:</b> будинок / квартира / офіс\n\n• гібридний комплект\n• 2Мп камера\n• graphite дизайн\n• готовий сценарій входу\n\n<code>Ціна: орієнтир постачальника: 12 490 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «ДОМОФОН» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: Готовий комплект, щоб не збирати домофон “по шматках”.\n\nПоказуємо NeoLight ALPHA Hybrid HD KIT Graphite + 2Мп камера і пояснюємо, де воно доречне: будинок / квартира / офіс.\nЯкщо хочете розбір у відео — напишіть у коментарі «ДОМОФОН»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: NeoLight ALPHA Hybrid HD KIT Graphite + 2Мп камера\nCategory: Домофонія\nMain visual mode: product-only premium catalog card\nScene/backdrop: warm white/champagne glow, premium entrance door, gate, smart residential access\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “Готовий комплект, щоб не збирати домофон “по шматках”.”, short feature line, and bottom CTA “НАПИШІТЬ «ДОМОФОН»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-16-01-intercom.md"
+    },
+    {
+      "id": "altcam-product-2026-08-16-02-cable",
+      "date": "2026-08-16",
+      "scheduled_at": "2026-08-16T14:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "ЮГТОРГ / BigOpt",
+        "source_url": "https://bigopt.com/bnc.htm",
+        "category": "Кабель / аксесуари",
+        "product": "Патчкорд BNC + DC 25 м",
+        "price": "орієнтир постачальника: 304,20 ₴",
+        "audience": "аналогові / HDCVI камери",
+        "keyword": "КАБЕЛЬ",
+        "hook": "Іноді слабке місце системи — не камера, а кабель між камерою і реєстратором.",
+        "benefits": [
+          "BNC + DC",
+          "25 м",
+          "відео + живлення",
+          "для швидкого монтажу"
+        ]
+      },
+      "title": "Іноді слабке місце системи — не камера, а кабель між камерою і реєстратором.",
+      "cta": "Напишіть «КАБЕЛЬ» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "Іноді слабке місце системи — не камера, а кабель між камерою і реєстратором.\n\nТовар: Патчкорд BNC + DC 25 м\nКатегорія: Кабель / аксесуари\n\nКому підійде: аналогові / HDCVI камери.\n\nЩо важливо:\n• BNC + DC\n• 25 м\n• відео + живлення\n• для швидкого монтажу\n\nЦіна: орієнтир постачальника: 304,20 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «КАБЕЛЬ» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород",
+        "instagram": "Іноді слабке місце системи — не камера, а кабель між камерою і реєстратором.\n\nПатчкорд BNC + DC 25 м — варіант для: аналогові / HDCVI камери.\n\n• BNC + DC\n• 25 м\n• відео + живлення\n• для швидкого монтажу\n\nНапишіть «КАБЕЛЬ» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород",
+        "threads": "Іноді слабке місце системи — не камера, а кабель між камерою і реєстратором.\n\nПитання до власників: ви обираєте кабель / аксесуари за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «КАБЕЛЬ» — підкажемо коротко.",
+        "telegram": "<b>Іноді слабке місце системи — не камера, а кабель між камерою і реєстратором.</b>\n\n<b>Товар:</b> Патчкорд BNC + DC 25 м\n<b>Для кого:</b> аналогові / HDCVI камери\n\n• BNC + DC\n• 25 м\n• відео + живлення\n• для швидкого монтажу\n\n<code>Ціна: орієнтир постачальника: 304,20 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «КАБЕЛЬ» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: Іноді слабке місце системи — не камера, а кабель між камерою і реєстратором.\n\nПоказуємо Патчкорд BNC + DC 25 м і пояснюємо, де воно доречне: аналогові / HDCVI камери.\nЯкщо хочете розбір у відео — напишіть у коментарі «КАБЕЛЬ»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: Патчкорд BNC + DC 25 м\nCategory: Кабель / аксесуари\nMain visual mode: product-only premium catalog card\nScene/backdrop: clean accessory catalog presentation, cable and connectors detailed, graphite platform\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “Іноді слабке місце системи — не камера, а кабель між камерою і реєстратором.”, short feature line, and bottom CTA “НАПИШІТЬ «КАБЕЛЬ»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-16-02-cable.md"
+    },
+    {
+      "id": "altcam-product-2026-08-16-03-intercom",
+      "date": "2026-08-16",
+      "scheduled_at": "2026-08-16T18:00:00+03:00",
+      "type": "product",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram",
+        "youtube_community"
+      ],
+      "product": {
+        "source": "VIATEC",
+        "source_url": "https://viatec.ua/ru/product/DHI-VTH2421FW-P",
+        "category": "Домофонія",
+        "product": "Dahua DHI-VTH2421FB-P",
+        "price": "орієнтир постачальника: 6 750 ₴",
+        "audience": "квартира / офіс / ресепшн",
+        "keyword": "ДОМОФОН",
+        "hook": "Контроль входу має бути простим для власника і зрозумілим для гостя.",
+        "benefits": [
+          "відеомонітор",
+          "сценарій входу",
+          "Dahua екосистема",
+          "для квартири й офісу"
+        ]
+      },
+      "title": "Контроль входу має бути простим для власника і зрозумілим для гостя.",
+      "cta": "Напишіть «ДОМОФОН» у Telegram або відкрийте https://alt-cam.net.ua",
+      "captions": {
+        "facebook": "Контроль входу має бути простим для власника і зрозумілим для гостя.\n\nТовар: Dahua DHI-VTH2421FB-P\nКатегорія: Домофонія\n\nКому підійде: квартира / офіс / ресепшн.\n\nЩо важливо:\n• відеомонітор\n• сценарій входу\n• Dahua екосистема\n• для квартири й офісу\n\nЦіна: орієнтир постачальника: 6 750 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nХочете підібрати без помилки? Напишіть «ДОМОФОН» у Telegram або відкрийте сайт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+        "instagram": "Контроль входу має бути простим для власника і зрозумілим для гостя.\n\nDahua DHI-VTH2421FB-P — варіант для: квартира / офіс / ресепшн.\n\n• відеомонітор\n• сценарій входу\n• Dahua екосистема\n• для квартири й офісу\n\nНапишіть «ДОМОФОН» — підкажемо, чи підходить саме під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n\n#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+        "threads": "Контроль входу має бути простим для власника і зрозумілим для гостя.\n\nПитання до власників: ви обираєте домофонія за ціною чи за сценарієм об’єкта?\n\nМи за другий варіант: спочатку задача, потім модель.\nНапишіть «ДОМОФОН» — підкажемо коротко.",
+        "telegram": "<b>Контроль входу має бути простим для власника і зрозумілим для гостя.</b>\n\n<b>Товар:</b> Dahua DHI-VTH2421FB-P\n<b>Для кого:</b> квартира / офіс / ресепшн\n\n• відеомонітор\n• сценарій входу\n• Dahua екосистема\n• для квартири й офісу\n\n<code>Ціна: орієнтир постачальника: 6 750 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.</code>\n\nНатисніть кнопку або напишіть «ДОМОФОН» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+        "youtube": "Community post: Контроль входу має бути простим для власника і зрозумілим для гостя.\n\nПоказуємо Dahua DHI-VTH2421FB-P і пояснюємо, де воно доречне: квартира / офіс / ресепшн.\nЯкщо хочете розбір у відео — напишіть у коментарі «ДОМОФОН»."
+      },
+      "hashtags": "#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua",
+      "image_prompt": "Use case: ads-marketing\nAsset type: social product card / carousel slide\nPrimary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.\nProduct: Dahua DHI-VTH2421FB-P\nCategory: Домофонія\nMain visual mode: product-only premium catalog card\nScene/backdrop: warm white/champagne glow, premium entrance door, gate, smart residential access\nComposition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.\nText zones: leave clean space for headline “Контроль входу має бути простим для власника і зрозумілим для гостя.”, short feature line, and bottom CTA “НАПИШІТЬ «ДОМОФОН»”.\nBrand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.\nStrict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.\nAvoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.\n",
+      "prompt_path": "image-prompts/altcam-product-2026-08-16-03-intercom.md"
+    },
+    {
+      "id": "altcam-reel-2026-08-16-07",
+      "date": "2026-08-16",
+      "scheduled_at": "2026-08-16T20:30:00+03:00",
+      "type": "reel_carousel",
+      "platforms": [
+        "instagram_reels",
+        "facebook_reels",
+        "tiktok",
+        "youtube_shorts",
+        "telegram"
+      ],
+      "title": "Перед покупкою: короткий чек-лист ALT-CAM",
+      "scenario": {
+        "0-3s": "Крупний hook на екрані: “Перед покупкою: короткий чек-лист ALT-CAM”. Швидкі кадри товарів: ДОМОФОН, КАБЕЛЬ, ДОМОФОН.",
+        "3-10s": "Показати 3 проблеми: не видно обличчя, немає резерву, незручно відкривати двері або хаос у кабелях.",
+        "10-20s": "Показати рішення ALT-CAM: товар + монтаж + налаштування + перевірка зі смартфона.",
+        "20-30s": "Фінальний кадр: сайт, Telegram-бот, географія Київ / Вишгород / область. Заклик написати ключове слово."
+      },
+      "carousel_slides": [
+        "Слайд 1: Перед покупкою: короткий чек-лист ALT-CAM",
+        "Слайд 2: NeoLight ALPHA Hybrid HD KIT Graphite + 2Мп камера — Готовий комплект, щоб не збирати домофон “по шматках”.",
+        "Слайд 3: Патчкорд BNC + DC 25 м — Іноді слабке місце системи — не камера, а кабель між камерою і реєстратором.",
+        "Слайд 4: Dahua DHI-VTH2421FB-P — Контроль входу має бути простим для власника і зрозумілим для гостя.",
+        "Слайд 5: Переваги ALT-CAM — підбір, монтаж, налаштування, підтримка",
+        "Слайд 6: CTA — Напишіть «ПІДБІР» у Telegram"
+      ],
+      "caption": "Перед покупкою: короткий чек-лист ALT-CAM\n\nЦе не просто добірка товарів. Це сценарій: що поставити, де воно має працювати і як не купити зайве.\n\nУ каруселі: NeoLight ALPHA Hybrid HD KIT Graphite + 2Мп камера, Патчкорд BNC + DC 25 м, Dahua DHI-VTH2421FB-P.\n\nНапишіть у Telegram «ПІДБІР» — підкажемо варіант під ваш об’єкт.\n🤖 https://t.me/alt_cam_bot\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#AltCam #security #відеоспостереження #домофон #монтаж #Київ #Вишгород",
+      "image_prompt": "Create a premium advertising carousel/reels cover for ALT-CAM Security UA: dark anthracite background, realistic security products, clean yellow CTA, product-card style from user's reference examples, theme: Перед покупкою: короткий чек-лист ALT-CAM. Include visual places for 3 product tiles and brand resources: website, Telegram, service advantages.",
+      "prompt_path": "image-prompts/altcam-reel-2026-08-16-07.md"
+    }
+  ]
+};
