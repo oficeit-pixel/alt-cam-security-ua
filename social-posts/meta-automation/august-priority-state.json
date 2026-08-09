@@ -165,12 +165,12 @@
         }
       },
       "telegram": {
-        "published_at": "2026-08-09T10:09:05.382937+00:00",
+        "published_at": "2026-08-09T14:06:33.839971+00:00",
         "result": {
           "photo": {
             "ok": true,
             "result": {
-              "message_id": 52,
+              "message_id": 57,
               "sender_chat": {
                 "id": -1004320686994,
                 "title": "Alt-Cam Security UA",
@@ -183,7 +183,7 @@
                 "username": "altcam_security_ua",
                 "type": "channel"
               },
-              "date": 1786270145,
+              "date": 1786284393,
               "photo": [
                 {
                   "file_id": "AgACAgQAAyEGAAMBAYhzkgADM2p4UcBN6N8VrYXod-u-5f7tp1LYAALUD2sbjHzEUwPH-W9JmJGTAQADAgADcwADPQQ",
@@ -214,16 +214,31 @@
                   "height": 1254
                 }
               ],
-              "caption": "<b>Захист, який працює навіть тоді, коли вас немає поруч.</b>\n\n<b>Товар:</b> Ajax для дому та бізнесу\n<b>Для кого:</b> квартира / будинок / офіс / магазин\n\n• датчики руху й відкриття\n• керування зі смартфона\n• сирена та push-сповіщення\n• підбір сценарію під ваш об’єкт\n\n<code>Вартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.</code>\n\nНатисніть кнопку або напишіть «AJAX» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot\n\nTelegram ALT-CAM: https://t.me/altcam_security_ua",
+              "caption": "Захист, який працює навіть тоді, коли вас немає поруч.\n\nТовар: Ajax для дому та бізнесу\nДля кого: квартира / будинок / офіс / магазин\n\n• датчики руху й відкриття\n• керування зі смартфона\n• сирена та push-сповіщення\n• підбір сценарію під ваш об’єкт\n\nВартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.\n\nНатисніть кнопку або напишіть «AJAX» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
               "caption_entities": [
                 {
-                  "offset": 453,
-                  "length": 24,
-                  "type": "url"
+                  "offset": 0,
+                  "length": 54,
+                  "type": "bold"
                 },
                 {
-                  "offset": 497,
-                  "length": 31,
+                  "offset": 56,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 88,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 249,
+                  "length": 99,
+                  "type": "code"
+                },
+                {
+                  "offset": 419,
+                  "length": 24,
                   "type": "url"
                 }
               ]
