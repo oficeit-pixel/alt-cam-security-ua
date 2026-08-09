@@ -18,9 +18,11 @@ on:
           - ""
           - facebook
           - instagram
+          - instagram_story
           - threads
           - telegram
           - tiktok
+          - facebook_story
 
 permissions:
   contents: write
@@ -49,18 +51,17 @@ jobs:
       TIKTOK_TOKEN_ENCRYPTION_KEY: ${{ secrets.TIKTOK_TOKEN_ENCRYPTION_KEY }}
       TIKTOK_POST_MODE: ${{ vars.TIKTOK_POST_MODE || 'MEDIA_UPLOAD' }}
       TIKTOK_PRIVACY_LEVEL: ${{ vars.TIKTOK_PRIVACY_LEVEL || 'PUBLIC_TO_EVERYONE' }}
-      SOCIAL_POSTS_FILE: social-posts/weekly-automation/posts.json
-      SOCIAL_STATE_FILE: social-posts/weekly-automation/state.json
-      MAX_POSTS_PER_RUN: "1"
+      SOCIAL_POSTS_FILE: social-posts/meta-automation/august-priority-posts.json
+      SOCIAL_STATE_FILE: social-posts/meta-automation/august-priority-state.json
+      MAX_POSTS_PER_RUN: "3"
       ALT_CAM_TELEGRAM_GROUP_URL: https://t.me/altcam_security_ua
       DRY_RUN: "false"
       FAIL_ON_PUBLISH_ERROR: "false"
-      # Temporary quality-control pause while August media is being rebuilt.
-      PUBLISHING_PAUSED: "true"
+      PUBLISHING_PAUSED: "false"
       WORKFLOW_FORCE_POST_ID: ${{ inputs.force_post_id || '' }}
       WORKFLOW_FORCE_PLATFORM: ${{ inputs.force_platform || '' }}
       # TikTok uses the approved Upload-to-Inbox flow; Direct Post is not enabled.
-      DISABLED_PLATFORMS: ""
+      DISABLED_PLATFORMS: "telegram,facebook_story"
 
     steps:
       - name: Check out repository
@@ -77,6 +78,7 @@ jobs:
         run: python -m pip install -r social-posts/meta-automation/requirements.txt
 
       - name: Refresh TikTok token securely
+        continue-on-error: true
         run: node social-posts/tiktok-automation/cloud_refresh_token.mjs
 
       - name: Check publisher setup
@@ -99,10 +101,13 @@ jobs:
       - name: Save publication state
         if: always()
         run: |
-          if [ -f social-posts/weekly-automation/state.json ]; then
+          if [ -f "$SOCIAL_STATE_FILE" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add -f social-posts/weekly-automation/state.json social-posts/tiktok-automation/cloud-token.enc.json
+            git add -f "$SOCIAL_STATE_FILE"
+            if [ -f social-posts/tiktok-automation/cloud-token.enc.json ]; then
+              git add -f social-posts/tiktok-automation/cloud-token.enc.json
+            fi
             if ! git diff --cached --quiet; then
               git commit -m "Update social publisher state [skip ci]"
               git push

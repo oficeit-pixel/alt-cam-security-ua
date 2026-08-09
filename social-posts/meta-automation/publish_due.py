@@ -166,6 +166,34 @@ def publish_facebook(post: dict) -> dict:
     )
 
 
+def publish_facebook_story(post: dict) -> dict:
+    env = require_env("FACEBOOK_PAGE_ID", "FACEBOOK_PAGE_ACCESS_TOKEN")
+    page_id = env["FACEBOOK_PAGE_ID"]
+    token = env["FACEBOOK_PAGE_ACCESS_TOKEN"]
+
+    if post.get("media_type") == "video":
+        raise RuntimeError("Facebook story video publishing is not enabled in this queue; use image stories.")
+
+    photo = post_graph(
+        f"{page_id}/photos",
+        token,
+        {
+            "url": post["image_url"],
+            "published": "false",
+        },
+    )
+    photo_id = photo.get("id")
+    if not photo_id:
+        raise RuntimeError(f"Facebook did not return unpublished story photo id: {photo}")
+
+    story = post_graph(
+        f"{page_id}/photo_stories",
+        token,
+        {"photo_id": photo_id},
+    )
+    return {"photo": photo, "story": story}
+
+
 def publish_instagram(post: dict) -> dict:
     env = require_env("INSTAGRAM_USER_ID", "INSTAGRAM_ACCESS_TOKEN")
     ig_user_id = env["INSTAGRAM_USER_ID"]
@@ -442,7 +470,9 @@ def publish_tiktok(post: dict) -> dict:
 
 PUBLISHERS = {
     "facebook": publish_facebook,
+    "facebook_story": publish_facebook_story,
     "instagram": publish_instagram,
+    "instagram_story": publish_instagram,
     "threads": publish_threads,
     "telegram": publish_telegram,
     "tiktok": publish_tiktok,
@@ -471,7 +501,9 @@ def tiktok_photo_images_for(post: dict) -> list[str]:
 def platform_has_credentials(platform: str) -> bool:
     required = {
         "facebook": ("FACEBOOK_PAGE_ID", "FACEBOOK_PAGE_ACCESS_TOKEN"),
+        "facebook_story": ("FACEBOOK_PAGE_ID", "FACEBOOK_PAGE_ACCESS_TOKEN"),
         "instagram": ("INSTAGRAM_USER_ID", "INSTAGRAM_ACCESS_TOKEN"),
+        "instagram_story": ("INSTAGRAM_USER_ID", "INSTAGRAM_ACCESS_TOKEN"),
         "threads": ("THREADS_USER_ID", "THREADS_ACCESS_TOKEN"),
         "telegram": ("TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID"),
         "tiktok": ("TIKTOK_ACCESS_TOKEN",),
