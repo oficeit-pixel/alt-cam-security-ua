@@ -115,6 +115,16 @@ jobs:
             fi
             if ! git diff --cached --quiet; then
               git commit -m "Update social publisher state [skip ci]"
-              git push
+              for attempt in 1 2 3; do
+                git pull --rebase --autostash origin "${GITHUB_REF_NAME:-main}" || true
+                if git push; then
+                  break
+                fi
+                if [ "$attempt" = "3" ]; then
+                  echo "Failed to push publication state after 3 attempts."
+                  exit 1
+                fi
+                sleep 2
+              done
             fi
           fi

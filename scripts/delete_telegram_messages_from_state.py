@@ -16,6 +16,23 @@ def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def save_json(path: Path, data: dict) -> None:
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def clear_platform_state(state_path: Path, state: dict, post_id: str, platform: str) -> None:
+    published = state.get("published", {})
+    post_state = published.get(post_id)
+    if not isinstance(post_state, dict) or platform not in post_state:
+        return
+
+    post_state.pop(platform, None)
+    if not post_state:
+        published.pop(post_id, None)
+    save_json(state_path, state)
+    print(f"Cleared saved {platform} state for {post_id}; forced republish can proceed.")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Delete previously published Telegram message using saved publisher state.")
     parser.add_argument("--post-id", required=True)
@@ -61,10 +78,16 @@ def main() -> int:
     except Exception:
         body = {"raw": response.text}
     if not response.ok or not body.get("ok"):
+        description = str(body.get("description", "")).lower()
+        if "message to delete not found" in description:
+            print(f"Telegram message already absent for {args.post_id}; clearing stale state.")
+            clear_platform_state(state_path, state, args.post_id, args.platform)
+            return 0
         print(f"Telegram delete failed for {args.post_id}: {body}")
         return 0
 
     print(f"Deleted Telegram message for {args.post_id}: chat_id={chat_id} message_id={message_id}")
+    clear_platform_state(state_path, state, args.post_id, args.platform)
     return 0
 
 
