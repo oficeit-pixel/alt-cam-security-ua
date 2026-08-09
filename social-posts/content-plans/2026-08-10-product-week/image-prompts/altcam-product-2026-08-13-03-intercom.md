@@ -1,14 +1,14 @@
-# Вхід і відеонагляд в одному сценарії — без зоопарку пристроїв.
+# Коли вночі потрібно бачити колір, а не сіру пляму.
 
 Use case: ads-marketing
 Asset type: social product card / carousel slide
 Primary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.
-Product: NeoLight ALPHA Hybrid HD KIT Graphite + 2 IP камери
-Category: Домофонія + відео
+Product: Hikvision DS-2CD1047G3H-LIUF ColorVu 4МП
+Category: Відеоспостереження
 Main visual mode: product-only premium catalog card
-Scene/backdrop: premium entrance with intercom monitor and camera ecosystem, warm residential lighting
+Scene/backdrop: steel-blue secondary glow, field-of-view lines, modern home/business architecture, precision optics
 Composition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.
-Text zones: leave clean space for headline “Вхід і відеонагляд в одному сценарії — без зоопарку пристроїв.”, short feature line, and bottom CTA “НАПИШІТЬ «ДОМОФОН»”.
+Text zones: leave clean space for headline “Коли вночі потрібно бачити колір, а не сіру пляму.”, short feature line, and bottom CTA “НАПИШІТЬ «COLORVU»”.
 Brand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.
 Strict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.
 Avoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.
@@ -16,21 +16,21 @@ Avoid: cheap marketplace style, red SALE stickers, cartoon icons, military/polic
 
 ## Текстові зони
 
-CTA: Напишіть «ДОМОФОН» у Telegram або відкрийте https://alt-cam.net.ua
+CTA: Напишіть «COLORVU» у Telegram або відкрийте https://alt-cam.net.ua
 
 ## Caption Instagram
 
-Вхід і відеонагляд в одному сценарії — без зоопарку пристроїв.
+Коли вночі потрібно бачити колір, а не сіру пляму.
 
-NeoLight ALPHA Hybrid HD KIT Graphite + 2 IP камери — варіант для: будинок / офіс / вхідна група.
+Hikvision DS-2CD1047G3H-LIUF ColorVu 4МП — варіант для: двір / фасад / вхід / магазин.
 
-• гібридний домофон
-• 2 IP камери
-• комплектне рішення
-• зручно для контролю входу
+• ColorVu 3.0
+• 4МП деталізація
+• Smart Hybrid Light до 30 м
+• мікрофон для контролю ситуації
 
-Напишіть «ДОМОФОН» — підкажемо, чи підходить саме під ваш об’єкт.
+Напишіть «COLORVU» — підкажемо, чи підходить саме під ваш об’єкт.
 🤖 https://t.me/alt_cam_bot
 🌐 https://alt-cam.net.ua
 
-#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород
+#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #камери #відеонагляд #Hikvision #Dahua

@@ -1,14 +1,14 @@
-# IP-камера починається не з камери. Вона починається з нормальної лінії.
+# Коли камер багато, слабкий реєстратор стає вузьким місцем усієї системи.
 
 Use case: ads-marketing
 Asset type: social product card / carousel slide
 Primary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.
-Product: Ritar FTP Cat.6 CU 305 м
-Category: Кабель / монтаж
+Product: Dahua DHI-NVR58128H-XI 128-канальний WizMind
+Category: Відеоспостереження
 Main visual mode: product-only premium catalog card
-Scene/backdrop: blue-grey infrastructure mood, cable texture, connectors, neat technical graphite background
+Scene/backdrop: steel-blue secondary glow, field-of-view lines, modern home/business architecture, precision optics
 Composition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.
-Text zones: leave clean space for headline “IP-камера починається не з камери. Вона починається з нормальної лінії.”, short feature line, and bottom CTA “НАПИШІТЬ «КАБЕЛЬ»”.
+Text zones: leave clean space for headline “Коли камер багато, слабкий реєстратор стає вузьким місцем усієї системи.”, short feature line, and bottom CTA “НАПИШІТЬ «NVR»”.
 Brand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.
 Strict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.
 Avoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.
@@ -16,21 +16,21 @@ Avoid: cheap marketplace style, red SALE stickers, cartoon icons, military/polic
 
 ## Текстові зони
 
-CTA: Напишіть «КАБЕЛЬ» у Telegram або відкрийте https://alt-cam.net.ua
+CTA: Напишіть «NVR» у Telegram або відкрийте https://alt-cam.net.ua
 
 ## Caption Instagram
 
-IP-камера починається не з камери. Вона починається з нормальної лінії.
+Коли камер багато, слабкий реєстратор стає вузьким місцем усієї системи.
 
-Ritar FTP Cat.6 CU 305 м — варіант для: IP-камери / мережа / PoE.
+Dahua DHI-NVR58128H-XI 128-канальний WizMind — варіант для: склад / виробництво / великий бізнес / мережа об’єктів.
 
-• Cat.6
-• CU
-• FTP
-• для стабільної мережі
+• 128 каналів
+• 8 HDD
+• AI-аналітика
+• рішення для великих систем відеонагляду
 
-Напишіть «КАБЕЛЬ» — підкажемо, чи підходить саме під ваш об’єкт.
+Напишіть «NVR» — підкажемо, чи підходить саме під ваш об’єкт.
 🤖 https://t.me/alt_cam_bot
 🌐 https://alt-cam.net.ua
 
-#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #кабель #монтаж #PoE #UTP
+#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #камери #відеонагляд #Hikvision #Dahua

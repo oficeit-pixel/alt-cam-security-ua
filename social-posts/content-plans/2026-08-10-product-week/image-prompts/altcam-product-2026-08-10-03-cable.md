@@ -1,14 +1,14 @@
-# Поганий кабель може зіпсувати навіть хорошу камеру.
+# Коли однієї статичної камери мало — потрібен огляд із поворотом.
 
 Use case: ads-marketing
 Asset type: social product card / carousel slide
 Primary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.
-Product: Одескабель КППт-ВП U/UTP Cat.5E CU 305 м для зовнішніх робіт
-Category: Кабель / монтаж
+Product: Hikvision DS-2DE1C200IW-DE3 mini PTZ
+Category: PTZ відеоспостереження
 Main visual mode: product-only premium catalog card
-Scene/backdrop: blue-grey infrastructure mood, cable texture, connectors, neat technical graphite background
+Scene/backdrop: steel-blue secondary glow, PTZ camera as hero, parking or yard, direction arrows, intelligent surveillance
 Composition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.
-Text zones: leave clean space for headline “Поганий кабель може зіпсувати навіть хорошу камеру.”, short feature line, and bottom CTA “НАПИШІТЬ «КАБЕЛЬ»”.
+Text zones: leave clean space for headline “Коли однієї статичної камери мало — потрібен огляд із поворотом.”, short feature line, and bottom CTA “НАПИШІТЬ «PTZ»”.
 Brand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.
 Strict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.
 Avoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.
@@ -16,21 +16,21 @@ Avoid: cheap marketplace style, red SALE stickers, cartoon icons, military/polic
 
 ## Текстові зони
 
-CTA: Напишіть «КАБЕЛЬ» у Telegram або відкрийте https://alt-cam.net.ua
+CTA: Напишіть «PTZ» у Telegram або відкрийте https://alt-cam.net.ua
 
 ## Caption Instagram
 
-Поганий кабель може зіпсувати навіть хорошу камеру.
+Коли однієї статичної камери мало — потрібен огляд із поворотом.
 
-Одескабель КППт-ВП U/UTP Cat.5E CU 305 м для зовнішніх робіт — варіант для: монтаж камер зовні.
+Hikvision DS-2DE1C200IW-DE3 mini PTZ — варіант для: двір / вхід / парковка / невеликий бізнес.
 
-• мідний кабель CU
-• для зовнішніх робіт
-• 305 м у бухті
-• основа стабільної системи
+• mini PTZ-формат
+• керування напрямком огляду
+• IR-підсвітка до 15 м
+• зручно для двору, входу або парковки
 
-Напишіть «КАБЕЛЬ» — підкажемо, чи підходить саме під ваш об’єкт.
+Напишіть «PTZ» — підкажемо, чи підходить саме під ваш об’єкт.
 🤖 https://t.me/alt_cam_bot
 🌐 https://alt-cam.net.ua
 
-#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #кабель #монтаж #PoE #UTP
+#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород

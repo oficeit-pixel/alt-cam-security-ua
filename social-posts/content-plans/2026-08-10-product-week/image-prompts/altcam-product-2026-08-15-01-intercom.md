@@ -1,14 +1,14 @@
-# Відеодомофон без замка — це половина контролю.
+# Акуратна мережа — це коли камери працюють стабільно, а не “як пощастить”.
 
 Use case: ads-marketing
 Asset type: social product card / carousel slide
 Primary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.
-Product: NeoLight NeoKIT FHD PRO + замок
-Category: Домофонія
+Product: PoE-комутатор + мережева шафа для IP-камер
+Category: Серверна / монтаж
 Main visual mode: product-only premium catalog card
-Scene/backdrop: warm white/champagne glow, premium entrance door, gate, smart residential access
+Scene/backdrop: server rack, NVR, PoE switch, UPS, labeled cables, clean engineering infrastructure
 Composition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.
-Text zones: leave clean space for headline “Відеодомофон без замка — це половина контролю.”, short feature line, and bottom CTA “НАПИШІТЬ «ДОМОФОН»”.
+Text zones: leave clean space for headline “Акуратна мережа — це коли камери працюють стабільно, а не “як пощастить”.”, short feature line, and bottom CTA “НАПИШІТЬ «PoE»”.
 Brand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.
 Strict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.
 Avoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.
@@ -16,21 +16,21 @@ Avoid: cheap marketplace style, red SALE stickers, cartoon icons, military/polic
 
 ## Текстові зони
 
-CTA: Напишіть «ДОМОФОН» у Telegram або відкрийте https://alt-cam.net.ua
+CTA: Напишіть «PoE» у Telegram або відкрийте https://alt-cam.net.ua
 
 ## Caption Instagram
 
-Відеодомофон без замка — це половина контролю.
+Акуратна мережа — це коли камери працюють стабільно, а не “як пощастить”.
 
-NeoLight NeoKIT FHD PRO + замок — варіант для: хвіртка / двері / офіс.
+PoE-комутатор + мережева шафа для IP-камер — варіант для: офіс / магазин / склад / приватний будинок.
 
-• FHD PRO
-• комплект із замком
-• для дверей/хвіртки
-• зручний сценарій входу
+• живлення камер по кабелю
+• порядок у шафі
+• зручне обслуговування
+• менше випадкових відключень
 
-Напишіть «ДОМОФОН» — підкажемо, чи підходить саме під ваш об’єкт.
+Напишіть «PoE» — підкажемо, чи підходить саме під ваш об’єкт.
 🤖 https://t.me/alt_cam_bot
 🌐 https://alt-cam.net.ua
 
-#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #домофон #відеодомофон #NeoLight #Dahua
+#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород

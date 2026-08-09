@@ -294,6 +294,8 @@ def clean_price(value: str) -> str:
 
 
 def price_line(product: dict) -> str:
+    if clean_price(product["price"]).lower().startswith("ціну"):
+        return "Вартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну."
     return f"Ціна: {clean_price(product['price'])}. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації."
 
 
@@ -638,6 +640,258 @@ def build_reel(current_date: date, day_index: int, day_products: list[dict]) -> 
     }
 
 
+UPLOADED_MEDIA_POSTS = [
+    {
+        "filename": "04-ajax.png",
+        "category": "Ajax / сигналізація",
+        "product": "Ajax для дому та бізнесу",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "квартира / будинок / офіс / магазин",
+        "keyword": "AJAX",
+        "hook": "Захист, який працює навіть тоді, коли вас немає поруч.",
+        "benefits": ["датчики руху й відкриття", "керування зі смартфона", "сирена та push-сповіщення", "підбір сценарію під ваш об’єкт"],
+    },
+    {
+        "filename": "grok-07fd78e8-64bb-4abe-a865-07a943e9a395.jpg",
+        "category": "Домофонія",
+        "product": "Dahua DHI-VTH2421FW-P 7” PoE",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "квартира / офіс / приватний будинок",
+        "keyword": "ДОМОФОН",
+        "hook": "Домофон має не просто дзвонити — він має давати контроль входу.",
+        "benefits": ["7” сенсорний екран", "PoE-підключення", "робота з відеокамерами", "зручний сценарій для квартири, офісу й будинку"],
+    },
+    {
+        "filename": "grok-4688d7ce-dc63-433c-b569-cf9d7f707359.jpg",
+        "category": "PTZ відеоспостереження",
+        "product": "Hikvision DS-2DE1C200IW-DE3 mini PTZ",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "двір / вхід / парковка / невеликий бізнес",
+        "keyword": "PTZ",
+        "hook": "Коли однієї статичної камери мало — потрібен огляд із поворотом.",
+        "benefits": ["mini PTZ-формат", "керування напрямком огляду", "IR-підсвітка до 15 м", "зручно для двору, входу або парковки"],
+    },
+    {
+        "filename": "grok-d1dfdfdb-e419-456a-94b6-98158f03a4fe.jpg",
+        "category": "PTZ відеоспостереження",
+        "product": "Dahua DH-IPC-PTS2249B-E2-S-PV-PRO",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "периметр / склад / паркінг / комерційний об’єкт",
+        "keyword": "ПЕРИМЕТР",
+        "hook": "Камера, яка не тільки бачить, а й допомагає відлякати порушника.",
+        "benefits": ["2+2МП", "WizColor", "активне відлякування до 30 м", "сильне рішення для периметра й бізнесу"],
+    },
+    {
+        "filename": "grok-dbbdd71e-019d-4ef4-b713-2b620597a1fb.jpg",
+        "category": "Відеоспостереження",
+        "product": "Dahua DH-IPC-HDW2449TM-S-IL",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "магазин / офіс / під’їзд / приватний будинок",
+        "keyword": "КАМЕРА",
+        "hook": "AI-камера для місць, де важливо бачити деталі, а не просто рух.",
+        "benefits": ["4МП", "Smart Dual Light до 30 м", "WizSense AI", "акуратний купольний формат"],
+    },
+    {
+        "filename": "grok-image-0cf4bb1d-db8f-477b-9235-a28aab85ab51.jpg",
+        "category": "Wi‑Fi відеоспостереження",
+        "product": "Imou Turret SE‑C IPC‑T22EP‑C 1080P",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "квартира / невеликий офіс / кімната / касова зона",
+        "keyword": "IMOU",
+        "hook": "Коли потрібна проста IP-камера без зайвої складності.",
+        "benefits": ["1080P", "кут огляду 92°", "H.265", "детекція руху та ІЧ-підсвітка до 30 м"],
+    },
+    {
+        "filename": "grok-image-148d303a-f438-43ed-89cd-fe5ab84c985e.jpg",
+        "category": "Wi‑Fi відеоспостереження",
+        "product": "Imou Turret SE‑C IPC‑T22EP‑C 1080P",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "квартира / офіс / невеликий магазин",
+        "keyword": "IMOU",
+        "hook": "Бюджетна камера може працювати добре — якщо її правильно підібрати й поставити.",
+        "benefits": ["2МП Full HD", "детекція руху", "ІЧ-підсвітка", "варіант для базового відеонагляду"],
+    },
+    {
+        "filename": "imagine-381afb84-2c95-46be-8965-b07a4a419850.jpg",
+        "category": "Відеоспостереження",
+        "product": "Dahua WizMind Triple‑Sight DH-IPC-MFW5241T2-E3-ASE",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "склад / периметр / виробництво / великий двір",
+        "keyword": "ТРІПЛ",
+        "hook": "Одна точка монтажу — більше контролю по зоні огляду.",
+        "benefits": ["Triple‑Sight 3×2МП", "AI-аналітика", "ІЧ до 100 м", "для об’єктів, де сліпі зони коштують дорого"],
+    },
+    {
+        "filename": "imagine-83c076f2-35fb-4852-831c-40d198f3339c.jpg",
+        "category": "Домофонія",
+        "product": "Dahua DHI-VTH2421FW-P 7” PoE",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "квартира / офіс / ресепшн / приватний будинок",
+        "keyword": "ДОМОФОН",
+        "hook": "Бачити, хто біля дверей, — це вже не преміум. Це базова безпека.",
+        "benefits": ["7” touch-монітор", "PoE", "підключення до 32 камер", "зручний центр керування входом"],
+    },
+    {
+        "filename": "imagine-a8a7fa2a-94a5-4fce-9ca7-169b01ca1d04.jpg",
+        "category": "Відеоспостереження",
+        "product": "Dahua WizMind Triple‑Sight DH-IPC-MFW5241T2-E3-ASE",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "периметр / склад / логістика / бізнес",
+        "keyword": "WIZMIND",
+        "hook": "Для серйозного об’єкта потрібна не “просто камера”, а аналітика.",
+        "benefits": ["3×2МП", "AI-розпізнавання сценаріїв", "захист IP67", "контроль широкої зони з однієї точки"],
+    },
+    {
+        "filename": "imagine-b5490aab-f026-44b5-8da4-401253e3fb7a.jpg",
+        "category": "Відеоспостереження",
+        "product": "Hikvision DS-2CD1047G3H-LIUF ColorVu 4МП",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "двір / фасад / вхід / магазин",
+        "keyword": "COLORVU",
+        "hook": "Нічна картинка має бути кольоровою, якщо вам важливо впізнати деталі.",
+        "benefits": ["ColorVu 3.0", "Smart Hybrid Light до 30 м", "4МП", "вдалий варіант для входу, двору й фасаду"],
+    },
+]
+
+
+GENERATED_MEDIA_POSTS = [
+    {
+        "filename": "generated-01-hikvision-colorvu-bullet.jpg",
+        "category": "Відеоспостереження",
+        "product": "Hikvision DS-2CD1047G3H-LIUF ColorVu 4МП",
+        "price": "орієнтир: 7 319 ₴",
+        "audience": "двір / фасад / вхід / магазин",
+        "keyword": "COLORVU",
+        "hook": "Коли вночі потрібно бачити колір, а не сіру пляму.",
+        "benefits": ["ColorVu 3.0", "4МП деталізація", "Smart Hybrid Light до 30 м", "мікрофон для контролю ситуації"],
+    },
+    {
+        "filename": "generated-02-indoor-cube-camera.jpg",
+        "category": "Відеоспостереження",
+        "product": "Hikvision DS-2CD2443G2-I Black 4МП",
+        "price": "орієнтир: 5 921 ₴",
+        "audience": "квартира / офіс / ресепшн / касова зона",
+        "keyword": "ОФІС",
+        "hook": "Камера для приміщення, яка не псує інтер’єр і дає нормальну деталізацію.",
+        "benefits": ["4МП", "компактний формат", "для офісу або квартири", "зручно контролювати з телефону"],
+    },
+    {
+        "filename": "generated-03-wizmind-nvr.jpg",
+        "category": "Відеоспостереження",
+        "product": "Dahua DHI-NVR58128H-XI 128-канальний WizMind",
+        "price": "орієнтир: 94 520 ₴",
+        "audience": "склад / виробництво / великий бізнес / мережа об’єктів",
+        "keyword": "NVR",
+        "hook": "Коли камер багато, слабкий реєстратор стає вузьким місцем усієї системи.",
+        "benefits": ["128 каналів", "8 HDD", "AI-аналітика", "рішення для великих систем відеонагляду"],
+    },
+    {
+        "filename": "generated-04-qr-access-reader.jpg",
+        "category": "Контроль доступу",
+        "product": "U-PROX SE QR slim",
+        "price": "орієнтир: 6 071 ₴",
+        "audience": "офіс / бізнес-центр / склад / сервісна зона",
+        "keyword": "СКУД",
+        "hook": "Доступ без хаосу: QR, картка або брелок — і зрозуміло, хто заходив.",
+        "benefits": ["QR-доступ", "RFID-сценарії", "тонкий корпус", "зручно для офісів і комерції"],
+    },
+    {
+        "filename": "generated-05-poe-network-cabinet.jpg",
+        "category": "Серверна / монтаж",
+        "product": "PoE-комутатор + мережева шафа для IP-камер",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "офіс / магазин / склад / приватний будинок",
+        "keyword": "PoE",
+        "hook": "Акуратна мережа — це коли камери працюють стабільно, а не “як пощастить”.",
+        "benefits": ["живлення камер по кабелю", "порядок у шафі", "зручне обслуговування", "менше випадкових відключень"],
+    },
+    {
+        "filename": "generated-06-ups-backup-power.jpg",
+        "category": "Резервне живлення",
+        "product": "UPS / резервне живлення для камер, роутера та NVR",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "будинок / офіс / магазин / склад",
+        "keyword": "РЕЗЕРВ",
+        "hook": "Світло зникло — а відеонагляд і інтернет мають працювати далі.",
+        "benefits": ["резерв для камер", "живлення роутера/NVR", "менше простоїв", "підбір під час автономної роботи"],
+    },
+    {
+        "filename": "generated-07-ip-call-panel.jpg",
+        "category": "Домофонія",
+        "product": "IP виклична панель для хвіртки або входу",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "приватний будинок / офіс / ЖК / ворота",
+        "keyword": "ПАНЕЛЬ",
+        "hook": "Відкривати двері потрібно тільки тому, кого ви бачите.",
+        "benefits": ["відеовиклик", "зв’язок зі смартфоном", "сценарій для хвіртки або входу", "можна інтегрувати з електрозамком"],
+    },
+    {
+        "filename": "generated-08-thermal-perimeter-camera.jpg",
+        "category": "Тепловізійне відеоспостереження",
+        "product": "Тепловізійна камера для периметра",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "склад / промисловий об’єкт / периметр / поле огляду без світла",
+        "keyword": "ПЕРИМЕТР",
+        "hook": "Якщо об’єкт великий, периметр треба бачити навіть у темряві й тумані.",
+        "benefits": ["контроль периметра", "робота в складному освітленні", "менше сліпих зон", "підбір під реальну відстань"],
+    },
+    {
+        "filename": "generated-09-ajax-security-kit.jpg",
+        "category": "Ajax / сигналізація",
+        "product": "Ajax комплект для дому або бізнесу",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "квартира / будинок / офіс / магазин",
+        "keyword": "AJAX",
+        "hook": "Сигналізація має попереджати раніше, ніж проблема стане збитками.",
+        "benefits": ["датчики руху", "датчики відкриття", "сирена", "керування через застосунок"],
+    },
+    {
+        "filename": "generated-10-installer-service.jpg",
+        "category": "Монтаж / сервіс",
+        "product": "Підбір, монтаж і налаштування систем безпеки ALT-CAM",
+        "price": "ціну уточнюємо перед публікацією",
+        "audience": "дім / офіс / склад / магазин / ЖК",
+        "keyword": "ПІДБІР",
+        "hook": "Обладнання важливе. Але правильний монтаж вирішує, чи буде система працювати.",
+        "benefits": ["виїзд і оцінка задачі", "підбір обладнання", "акуратний монтаж", "налаштування доступу зі смартфона"],
+    },
+]
+
+
+REEL_MEDIA = [
+    "altcam-reel-2026-08-10-01.jpg",
+    "altcam-reel-2026-08-11-02.jpg",
+    "altcam-reel-2026-08-12-03.jpg",
+    "altcam-reel-2026-08-13-04.jpg",
+    "altcam-reel-2026-08-14-05.jpg",
+    "altcam-reel-2026-08-15-06.jpg",
+    "altcam-reel-2026-08-16-07.jpg",
+]
+
+
+def apply_uploaded_media_content(plan: dict) -> None:
+    product_posts = [post for post in plan["posts"] if post["type"] == "product"]
+    for post, product in zip(product_posts, [*UPLOADED_MEDIA_POSTS, *GENERATED_MEDIA_POSTS]):
+        post["product"] = public_product(product)
+        post["title"] = product["hook"]
+        post["cta"] = f"Напишіть «{product['keyword']}» у Telegram або відкрийте {SITE}"
+        post["captions"] = {platform: product_caption(product, platform) for platform in ["facebook", "instagram", "threads", "telegram", "youtube"]}
+        post["hashtags"] = hashtags(product)
+        post["image_prompt"] = image_prompt(product, "product")
+        post["media_type"] = "image"
+        post["media_path"] = f"media/square/{product['filename']}"
+        post["media_status"] = "ready"
+        post["media_note"] = "медіа завантажено користувачем і текст адаптовано під цю картинку"
+        post["media_requirements"] = "готова квадратна картинка для Facebook / Instagram / Telegram / Threads / YouTube Community"
+        post["uploaded_media_filename"] = product["filename"]
+    for post, filename in zip([post for post in plan["posts"] if post["type"] == "reel_carousel"], REEL_MEDIA):
+        post["media_type"] = "image"
+        post["media_path"] = f"media/vertical/{filename}"
+        post["media_status"] = "ready"
+        post["media_note"] = "готова вертикальна обкладинка; відео/карусель монтуємо за сценарієм"
+        post["media_requirements"] = "готова обкладинка 9:16 для Reels / TikTok / Shorts"
+
+
 def build_plan() -> dict:
     start = date(2026, 8, 10)
     times = [time(10, 0), time(14, 0), time(18, 0)]
@@ -659,7 +913,7 @@ def build_plan() -> dict:
     }
 
 
-def write_media(plan: dict) -> None:
+def prepare_manual_media_slots(plan: dict) -> None:
     square_dir = MEDIA_DIR / "square"
     vertical_dir = MEDIA_DIR / "vertical"
     square_dir.mkdir(parents=True, exist_ok=True)
@@ -667,16 +921,18 @@ def write_media(plan: dict) -> None:
     for post in plan["posts"]:
         if post["type"] == "product":
             path = square_dir / f"{post['id']}.jpg"
-            draw_product_card(post, path)
             post["media_type"] = "image"
             post["media_path"] = str(path.relative_to(OUT_DIR).as_posix())
-            post["media_note"] = "готова квадратна товарна картка для Facebook / Instagram / Telegram / Threads"
+            post["media_status"] = "awaiting_upload"
+            post["media_note"] = "завантажте власне квадратне медіа 1:1 з таким іменем файлу"
+            post["media_requirements"] = "JPG/PNG, 1080×1080, без згадки постачальників"
         else:
-            path = vertical_dir / f"{post['id']}-cover.jpg"
-            draw_reel_cover(post, path)
-            post["media_type"] = "image"
+            path = vertical_dir / f"{post['id']}.mp4"
+            post["media_type"] = "video"
             post["media_path"] = str(path.relative_to(OUT_DIR).as_posix())
-            post["media_note"] = "готова вертикальна обкладинка для Reels / TikTok / Shorts; відео монтуємо за сценарієм"
+            post["media_status"] = "awaiting_upload"
+            post["media_note"] = "завантажте власне вертикальне відео 9:16 з таким іменем файлу"
+            post["media_requirements"] = "MP4, 1080×1920, 10–30 секунд, перші 3 секунди з сильним гачком"
 
 
 def write_prompts(plan: dict) -> None:
@@ -702,6 +958,9 @@ def write_publishing_posts(plan: dict) -> None:
             "approval_required": True,
             "media_type": post["media_type"],
             "media_path": post["media_path"],
+            "media_status": post["media_status"],
+            "media_note": post["media_note"],
+            "media_requirements": post["media_requirements"],
         }
         if post["type"] == "product":
             item["captions"] = post["captions"]
@@ -738,7 +997,8 @@ def render_md(plan: dict) -> str:
                 f"- Товар: {product['product']}",
                 f"- Категорія: {product['category']}",
                 f"- Ціна: {product['price']}",
-                f"- Медіа: [{post['media_path']}]({post['media_path']})",
+                f"- Медіа: `{post['media_path']}`",
+                f"- Статус медіа: {post['media_note']}",
                 f"- Prompt: [{post['prompt_path']}]({post['prompt_path']})",
                 "",
                 "### Facebook",
@@ -760,7 +1020,8 @@ def render_md(plan: dict) -> str:
             ])
         else:
             lines.extend([
-                f"- Медіа: [{post['media_path']}]({post['media_path']})",
+                f"- Медіа: `{post['media_path']}`",
+                f"- Статус медіа: {post['media_note']}",
                 f"- Prompt: [{post['prompt_path']}]({post['prompt_path']})",
                 "",
                 "### Сценарій",
@@ -807,13 +1068,20 @@ def render_calendar_html() -> str:
     .post:last-child { border-bottom:0; }
     .time { color:var(--gold); font-weight:900; font-size:18px; }
     img.media { width:190px; aspect-ratio:1/1; object-fit:cover; border-radius:18px; border:1px solid var(--line); background:#222; }
-    img.media.vertical { aspect-ratio:9/16; }
+    img.media.vertical, video.media.vertical { aspect-ratio:9/16; }
+    video.media { width:190px; aspect-ratio:1/1; object-fit:cover; border-radius:18px; border:1px solid var(--line); background:#222; }
+    .media-wrap { width:190px; }
+    .media-slot { width:190px; min-height:190px; border:1px dashed rgba(255,204,0,.55); border-radius:18px; background:rgba(255,204,0,.07); padding:14px; display:none; flex-direction:column; justify-content:center; gap:8px; color:var(--text); }
+    .media-slot.vertical { min-height:338px; }
+    .media-slot b { color:var(--gold); font-size:13px; text-transform:uppercase; letter-spacing:.08em; }
+    .media-slot code { color:var(--text); word-break:break-word; font-size:12px; }
+    .media-slot small { color:var(--muted); line-height:1.35; }
     h3 { margin:0 0 8px; font-size:21px; }
     .meta { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0; }
     details { margin-top:10px; border:1px solid var(--line); border-radius:14px; overflow:hidden; background:rgba(0,0,0,.18); }
     summary { cursor:pointer; padding:12px 14px; color:var(--gold); font-weight:800; }
     pre { white-space:pre-wrap; margin:0; padding:0 14px 14px; font-family:inherit; line-height:1.5; }
-    @media (max-width:720px){ header{display:block}.badge{margin-top:16px}.post{grid-template-columns:1fr} img.media{width:100%;max-height:420px;} }
+    @media (max-width:720px){ header{display:block}.badge{margin-top:16px}.post{grid-template-columns:1fr}.media-wrap,img.media,video.media,.media-slot{width:100%;max-height:420px;} }
   </style>
 </head>
 <body>
@@ -821,7 +1089,7 @@ def render_calendar_html() -> str:
   <header>
     <div>
       <h1>ALT-CAM товарний тиждень</h1>
-      <p>3 товарні пости щодня + 1 Reels/карусель. Медіа та тексти підготовлені для автопублікації після підтвердження.</p>
+      <p>3 товарні пости щодня + 1 Reels/карусель. Тексти готові, медіа додаються вручну у папку за вказаними іменами файлів.</p>
     </div>
     <div class="badge">10–16 серпня 2026</div>
   </header>
@@ -839,6 +1107,15 @@ const fmtDate = new Intl.DateTimeFormat('uk-UA', {weekday:'long', day:'numeric',
 const fmtTime = new Intl.DateTimeFormat('uk-UA', {hour:'2-digit', minute:'2-digit', timeZone:'Europe/Kyiv'});
 function esc(v){ return String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c])); }
 function block(label, text){ return `<details><summary>${label}</summary><pre>${esc(text)}</pre></details>`; }
+function mediaBlock(post){
+  const src = `../content-plans/2026-08-10-product-week/${post.media_path}`;
+  const vertical = post.type === 'reel_carousel';
+  const slot = `<div class="media-slot ${vertical ? 'vertical' : ''}"><b>очікує ваше медіа</b><code>${esc(post.media_path)}</code><small>${esc(post.media_requirements || post.media_note)}</small></div>`;
+  if (post.media_type === 'video') {
+    return `<div class="media-wrap"><video class="media ${vertical ? 'vertical' : ''}" src="${src}" controls onerror="this.nextElementSibling.style.display='flex';this.remove()"></video>${slot}</div>`;
+  }
+  return `<div class="media-wrap"><img class="media" src="${src}" alt="" onerror="this.nextElementSibling.style.display='flex';this.remove()">${slot}</div>`;
+}
 const days = new Map();
 for (const post of window.ALT_CAM_PRODUCT_WEEK.posts) {
   const key = post.scheduled_at.slice(0,10);
@@ -851,14 +1128,15 @@ calendar.innerHTML = [...days.entries()].map(([key, posts]) => `
     ${posts.map(post => `
       <div class="post">
         <div class="time">${fmtTime.format(new Date(post.scheduled_at))}</div>
-        <img class="media ${post.type === 'reel_carousel' ? 'vertical' : ''}" src="../content-plans/2026-08-10-product-week/${post.media_path}" alt="">
+        ${mediaBlock(post)}
         <div>
           <h3>${esc(post.title)}</h3>
           <p>${esc(post.type === 'product' ? post.product.product : post.carousel_slides[0])}</p>
           <div class="meta">
             <span class="chip">${post.type}</span>
             ${post.platforms.map(p => `<span class="chip">${p}</span>`).join('')}
-            <a class="chip" href="../content-plans/2026-08-10-product-week/${post.media_path}">media</a>
+            <span class="chip">${post.media_status === 'awaiting_upload' ? 'медіа: додати вручну' : 'медіа готове'}</span>
+            <a class="chip" href="../content-plans/2026-08-10-product-week/media/">папка media</a>
           </div>
           ${post.type === 'product' ? block('Facebook', post.captions.facebook) + block('Instagram', post.captions.instagram) + block('Threads', post.captions.threads) + block('Telegram', post.captions.telegram) + block('YouTube Community', post.captions.youtube) : block('Reels / TikTok / Shorts сценарій', Object.entries(post.scenario).map(([k,v]) => `${k}: ${v}`).join('\\n')) + block('Карусель', post.carousel_slides.join('\\n')) + block('Caption', post.caption)}
         </div>
@@ -876,7 +1154,8 @@ def main() -> int:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     CALENDAR_DIR.mkdir(parents=True, exist_ok=True)
     plan = build_plan()
-    write_media(plan)
+    prepare_manual_media_slots(plan)
+    apply_uploaded_media_content(plan)
     write_prompts(plan)
     write_publishing_posts(plan)
     (OUT_DIR / "plan.json").write_text(json.dumps(plan, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

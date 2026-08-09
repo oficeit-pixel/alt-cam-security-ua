@@ -1,14 +1,14 @@
-# Камера в приміщенні, яка не виглядає як “офісний монстр”.
+# Захист, який працює навіть тоді, коли вас немає поруч.
 
 Use case: ads-marketing
 Asset type: social product card / carousel slide
 Primary request: create a premium commercial product card for ALT-CAM Security UA in the same style as the user's reference examples.
-Product: Hikvision DS-2CD2443G2-I Black 4МП
-Category: Відеоспостереження
+Product: Ajax для дому та бізнесу
+Category: Ajax / сигналізація
 Main visual mode: product-only premium catalog card
-Scene/backdrop: steel-blue secondary glow, field-of-view lines, modern home/business architecture, precision optics
+Scene/backdrop: premium security-tech product card
 Composition: 1:1 square, deep anthracite #121212 background, graphite panels #1B1B1F/#2C2C31, product occupies 50–65% of composition, realistic commercial product photography, subtle glassmorphism, Apple/premium smart-home mood, controlled cinematic lighting, ALT-CAM yellow #FFCC00 only as accent lines, small labels and CTA zones.
-Text zones: leave clean space for headline “Камера в приміщенні, яка не виглядає як “офісний монстр”.”, short feature line, and bottom CTA “НАПИШІТЬ «КАМЕРА»”.
+Text zones: leave clean space for headline “Захист, який працює навіть тоді, коли вас немає поруч.”, short feature line, and bottom CTA “НАПИШІТЬ «AJAX»”.
 Brand zone: bottom branded ALT-CAM Security UA area, professional European security integrator feeling.
 Strict product preservation: if a product photo is uploaded, preserve exact body shape, ports, lens quantity, brackets, sensors, buttons, color and manufacturer logo. Do not redesign the equipment.
 Avoid: cheap marketplace style, red SALE stickers, cartoon icons, military/police mood, random unreadable text, full yellow background, fake functions.
@@ -16,21 +16,21 @@ Avoid: cheap marketplace style, red SALE stickers, cartoon icons, military/polic
 
 ## Текстові зони
 
-CTA: Напишіть «КАМЕРА» у Telegram або відкрийте https://alt-cam.net.ua
+CTA: Напишіть «AJAX» у Telegram або відкрийте https://alt-cam.net.ua
 
 ## Caption Instagram
 
-Камера в приміщенні, яка не виглядає як “офісний монстр”.
+Захист, який працює навіть тоді, коли вас немає поруч.
 
-Hikvision DS-2CD2443G2-I Black 4МП — варіант для: квартира / офіс.
+Ajax для дому та бізнесу — варіант для: квартира / будинок / офіс / магазин.
 
-• 4МП деталізація
-• компактний корпус
-• підходить для офісу й квартири
-• легко інтегрувати в готову систему
+• датчики руху й відкриття
+• керування зі смартфона
+• сирена та push-сповіщення
+• підбір сценарію під ваш об’єкт
 
-Напишіть «КАМЕРА» — підкажемо, чи підходить саме під ваш об’єкт.
+Напишіть «AJAX» — підкажемо, чи підходить саме під ваш об’єкт.
 🤖 https://t.me/alt_cam_bot
 🌐 https://alt-cam.net.ua
 
-#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород #камери #відеонагляд #Hikvision #Dahua
+#AltCam #відеоспостереження #системибезпеки #монтажкамер #домофон #Ajax #Київ #Вишгород
