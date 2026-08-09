@@ -355,6 +355,210 @@
           }
         }
       }
+    },
+    "meta-priority-altcam-product-2026-08-10-03-product": {
+      "instagram": {
+        "published_at": "2026-08-09T13:12:13.777313+00:00",
+        "result": {
+          "container": {
+            "id": "18078225989418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18078225989418944"
+          },
+          "published": {
+            "id": "17901876597512997"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-08-09T13:12:20.473383+00:00",
+        "result": {
+          "container": {
+            "id": "18078071711424516"
+          },
+          "published": {
+            "id": "18050417603578666"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-08-09T13:12:21.476781+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 54,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1786281141,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADNmp4fLV1S_rINjZuhiAr400LArdcAAK-D2sb1CvMU_5xpRKNE_64AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADvg9rG9QrzFN4",
+                  "file_size": 1423,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADNmp4fLV1S_rINjZuhiAr400LArdcAAK-D2sb1CvMU_5xpRKNE_64AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADvg9rG9QrzFNy",
+                  "file_size": 15883,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADNmp4fLV1S_rINjZuhiAr400LArdcAAK-D2sb1CvMU_5xpRKNE_64AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADvg9rG9QrzFN9",
+                  "file_size": 55030,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADNmp4fLV1S_rINjZuhiAr400LArdcAAK-D2sb1CvMU_5xpRKNE_64AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADvg9rG9QrzFN-",
+                  "file_size": 111519,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADNmp4fLV1S_rINjZuhiAr400LArdcAAK-D2sb1CvMU_5xpRKNE_64AQADAgADdwADPQQ",
+                  "file_unique_id": "AQADvg9rG9QrzFN8",
+                  "file_size": 130891,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "<b>Коли однієї статичної камери мало — потрібен огляд із поворотом.</b>\n\n<b>Товар:</b> Hikvision DS-2DE1C200IW-DE3 mini PTZ\n<b>Для кого:</b> двір / вхід / парковка / невеликий бізнес\n\n• mini PTZ-формат\n• керування напрямком огляду\n• IR-підсвітка до 15 м\n• зручно для двору, входу або парковки\n\n<code>Вартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.</code>\n\nНатисніть кнопку або напишіть «PTZ» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot\n\nTelegram ALT-CAM: https://t.me/altcam_security_ua",
+              "caption_entities": [
+                {
+                  "offset": 476,
+                  "length": 24,
+                  "type": "url"
+                },
+                {
+                  "offset": 520,
+                  "length": 31,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "meta-priority-altcam-product-2026-08-11-01-product": {
+      "instagram": {
+        "published_at": "2026-08-09T13:12:32.921242+00:00",
+        "result": {
+          "container": {
+            "id": "18078226172418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18078226172418944"
+          },
+          "published": {
+            "id": "18100666406221553"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-08-09T13:12:38.518664+00:00",
+        "result": {
+          "container": {
+            "id": "18078071843424516"
+          },
+          "published": {
+            "id": "18023214221692612"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-08-09T13:12:39.404907+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 55,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1786281159,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADN2p4fMfhE6gFHU9oB3baDq8N09enAAIrD2sbv3DEUxP3SnSyuf3yAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADKw9rG79wxFN4",
+                  "file_size": 1636,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADN2p4fMfhE6gFHU9oB3baDq8N09enAAIrD2sbv3DEUxP3SnSyuf3yAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADKw9rG79wxFNy",
+                  "file_size": 19263,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADN2p4fMfhE6gFHU9oB3baDq8N09enAAIrD2sbv3DEUxP3SnSyuf3yAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADKw9rG79wxFN9",
+                  "file_size": 70874,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADN2p4fMfhE6gFHU9oB3baDq8N09enAAIrD2sbv3DEUxP3SnSyuf3yAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADKw9rG79wxFN-",
+                  "file_size": 144471,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADN2p4fMfhE6gFHU9oB3baDq8N09enAAIrD2sbv3DEUxP3SnSyuf3yAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADKw9rG79wxFN8",
+                  "file_size": 169659,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "<b>Камера, яка не тільки бачить, а й допомагає відлякати порушника.</b>\n\n<b>Товар:</b> Dahua DH-IPC-PTS2249B-E2-S-PV-PRO\n<b>Для кого:</b> периметр / склад / паркінг / комерційний об’єкт\n\n• 2+2МП\n• WizColor\n• активне відлякування до 30 м\n• сильне рішення для периметра й бізнесу\n\n<code>Вартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.</code>\n\nНатисніть кнопку або напишіть «ПЕРИМЕТР» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot\n\nTelegram ALT-CAM: https://t.me/altcam_security_ua",
+              "caption_entities": [
+                {
+                  "offset": 466,
+                  "length": 24,
+                  "type": "url"
+                },
+                {
+                  "offset": 510,
+                  "length": 31,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
