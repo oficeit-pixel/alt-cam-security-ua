@@ -61,7 +61,7 @@ jobs:
       WORKFLOW_FORCE_POST_ID: ${{ inputs.force_post_id || '' }}
       WORKFLOW_FORCE_PLATFORM: ${{ inputs.force_platform || '' }}
       # TikTok uses the approved Upload-to-Inbox flow; Direct Post is not enabled.
-      DISABLED_PLATFORMS: "telegram,facebook_story"
+      DISABLED_PLATFORMS: "facebook_story"
 
     steps:
       - name: Check out repository
