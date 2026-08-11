@@ -569,6 +569,123 @@
           }
         }
       }
+    },
+    "meta-priority-altcam-product-2026-08-11-02-camera": {
+      "instagram": {
+        "published_at": "2026-08-11T06:36:38.642790+00:00",
+        "result": {
+          "container": {
+            "id": "18078801812418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18078801812418944"
+          },
+          "published": {
+            "id": "18092459054566510"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-08-11T06:36:45.541881+00:00",
+        "result": {
+          "container": {
+            "id": "18078724616424516"
+          },
+          "published": {
+            "id": "18335910289255506"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-08-11T06:36:46.639668+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 58,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1786430206,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADOmp6wv69tZBhv_hi3RTah3Q3RJV0AAIuD2sbJA3cU3Ghb2FAlsavAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADLg9rGyQN3FN4",
+                  "file_size": 1698,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADOmp6wv69tZBhv_hi3RTah3Q3RJV0AAIuD2sbJA3cU3Ghb2FAlsavAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADLg9rGyQN3FNy",
+                  "file_size": 21772,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADOmp6wv69tZBhv_hi3RTah3Q3RJV0AAIuD2sbJA3cU3Ghb2FAlsavAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADLg9rGyQN3FN9",
+                  "file_size": 79708,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADOmp6wv69tZBhv_hi3RTah3Q3RJV0AAIuD2sbJA3cU3Ghb2FAlsavAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADLg9rGyQN3FN-",
+                  "file_size": 160550,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADOmp6wv69tZBhv_hi3RTah3Q3RJV0AAIuD2sbJA3cU3Ghb2FAlsavAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADLg9rGyQN3FN8",
+                  "file_size": 182201,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "AI-камера для місць, де важливо бачити деталі, а не просто рух.\n\nТовар: Dahua DH-IPC-HDW2449TM-S-IL\nДля кого: магазин / офіс / під’їзд / приватний будинок\n\n• 4МП\n• Smart Dual Light до 30 м\n• WizSense AI\n• акуратний купольний формат\n\nВартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.\n\nНатисніть кнопку або напишіть «КАМЕРА» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 63,
+                  "type": "bold"
+                },
+                {
+                  "offset": 65,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 100,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 233,
+                  "length": 99,
+                  "type": "code"
+                },
+                {
+                  "offset": 405,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
