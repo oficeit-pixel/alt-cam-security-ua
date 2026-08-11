@@ -3,7 +3,7 @@ import json
 import os
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -530,6 +530,28 @@ def is_due(post: dict, now: datetime, force: bool) -> bool:
     return scheduled <= now
 
 
+def latest_successful_publication(state: dict) -> datetime | None:
+    latest = None
+    for post_state in state.get("published", {}).values():
+        if not isinstance(post_state, dict):
+            continue
+        for platform_state in post_state.values():
+            if not isinstance(platform_state, dict):
+                continue
+            value = platform_state.get("published_at")
+            if not value:
+                continue
+            try:
+                published_at = parse_dt(value)
+            except (TypeError, ValueError):
+                continue
+            if published_at.tzinfo is None:
+                published_at = published_at.replace(tzinfo=timezone.utc)
+            if latest is None or published_at > latest:
+                latest = published_at
+    return latest
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Publish due ALT-CAM posts to Meta platforms.")
     parser.add_argument("--dry-run", action="store_true", help="Show what would be published without posting.")
@@ -553,6 +575,19 @@ def main() -> int:
     state.setdefault("published", {})
 
     now = datetime.now(timezone.utc).astimezone()
+    min_interval_minutes = max(
+        0, int(os.getenv("MIN_SUCCESS_INTERVAL_MINUTES", "0"))
+    )
+    if not args.force and min_interval_minutes:
+        latest_publication = latest_successful_publication(state)
+        if latest_publication is not None:
+            next_allowed = latest_publication + timedelta(minutes=min_interval_minutes)
+            if now < next_allowed:
+                print(
+                    "No due posts: publication interval is active; "
+                    f"next attempt after {next_allowed.isoformat()}."
+                )
+                return 0
     selected = []
     max_posts_per_run = max(1, int(os.getenv("MAX_POSTS_PER_RUN", "1")))
     for post in posts:

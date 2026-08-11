@@ -53,7 +53,8 @@ jobs:
       TIKTOK_PRIVACY_LEVEL: ${{ vars.TIKTOK_PRIVACY_LEVEL || 'PUBLIC_TO_EVERYONE' }}
       SOCIAL_POSTS_FILE: social-posts/meta-automation/august-priority-posts.json
       SOCIAL_STATE_FILE: social-posts/meta-automation/august-priority-state.json
-      MAX_POSTS_PER_RUN: "3"
+      MAX_POSTS_PER_RUN: "1"
+      MIN_SUCCESS_INTERVAL_MINUTES: "120"
       ALT_CAM_TELEGRAM_GROUP_URL: https://t.me/altcam_security_ua
       DRY_RUN: "false"
       FAIL_ON_PUBLISH_ERROR: "false"
@@ -61,7 +62,9 @@ jobs:
       WORKFLOW_FORCE_POST_ID: ${{ inputs.force_post_id || '' }}
       WORKFLOW_FORCE_PLATFORM: ${{ inputs.force_platform || '' }}
       # TikTok uses the approved Upload-to-Inbox flow; Direct Post is not enabled.
-      DISABLED_PLATFORMS: "facebook_story"
+      # Facebook publishing currently returns Meta code 200/publish_actions.
+      # Keep it out of the queue so it cannot starve working platforms.
+      DISABLED_PLATFORMS: "facebook,facebook_story"
 
     steps:
       - name: Check out repository
