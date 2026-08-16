@@ -34,14 +34,29 @@ unique('brand').forEach(value => brand.add(new Option(value,value)));
 function clean(value){return String(value||'').replace(/<[^>]+>|&\w+;/g,' ').replace(/\s+/g,' ').trim()}
 function money(value){return new Intl.NumberFormat('uk-UA').format(value)+' ₴'}
 function track(event,data={}){fetch(API+'/api/analytics',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({event,session_id:sessionId,page:location.pathname,data}),keepalive:true}).catch(()=>{})}
+function defaultShowcase(list){
+  const isKit=item=>/комплект|набір/i.test(`${item.name} ${item.model}`);
+  const buckets=[
+    list.filter(item=>item.category==='Відеоспостереження'&&isKit(item)),
+    list.filter(item=>item.subcategory==='Домофони'&&isKit(item)),
+    list.filter(item=>item.category==='Охоронні системи'),
+    list.filter(item=>item.subcategory==='Контроль доступу'),
+    list.filter(item=>item.category==='Кабель та конектори')
+  ];
+  const showcase=[];
+  for(let index=0;index<10;index+=1) buckets.forEach(bucket=>{if(bucket[index])showcase.push(bucket[index])});
+  const featuredIds=new Set(showcase.map(item=>item.id));
+  return [...showcase,...list.filter(item=>!featuredIds.has(item.id))];
+}
 function renderProducts(){
   const query=search.value.trim().toLowerCase();
   let list=products.filter(item=>(!category.value||item.category===category.value)&&(!brand.value||item.brand===brand.value)&&(!query||[item.id,item.name,item.model,item.brand,item.sku,item.subcategory].join(' ').toLowerCase().includes(query)));
   if(sort.value==='name') list.sort((a,b)=>a.name.localeCompare(b.name,'uk'));
   if(sort.value==='brand') list.sort((a,b)=>a.brand.localeCompare(b.brand,'uk'));
+  if(sort.value==='featured'&&!category.value&&!brand.value&&!query) list=defaultShowcase(list);
   document.querySelector('#result-count').textContent=`Знайдено: ${list.length}`;
   const visible=list.slice(0,visibleCount);
-  grid.innerHTML=list.length?visible.map(item=>{const retail=publicPrices[item.id]||item.price;const revealed=revealedPrices.has(item.id);return `<article class="product-card"><div class="product-image"><span class="stock">Є в наявності</span><img src="${item.image}" alt="${clean(item.name)}" loading="lazy"></div><div class="product-copy"><small>${clean(item.category)} · ${clean(item.subcategory)}</small><h3>${clean(item.model||item.name)}</h3><p>${clean(item.description)}</p>${revealed?`<div class="revealed-price"><strong>${retail?money(retail):'Ціна підтверджується менеджером'}</strong><small>Роздрібна ціна за 1 шт. При замовленні монтажу, комплекту, кількох камер або аксесуарів ціна буде перерахована.</small></div>`:`<button class="price-button" data-reveal-price="${item.id}">Уточнити ціну</button>`}<div class="product-bottom"><span>Перевірений товар · гарантія та підбір ALT-CAM</span><button class="add-button" data-add="${item.id}">До кошика</button></div></div></article>`}).join(''):'<div class="no-results">За цими параметрами товарів не знайдено.</div>';
+  grid.innerHTML=list.length?visible.map(item=>{const retail=publicPrices[item.id]||item.price;const revealed=revealedPrices.has(item.id);return `<article class="product-card"><div class="product-image"><span class="stock">Є в наявності</span><img src="${item.image}" alt="${clean(item.name)}" loading="lazy"></div><div class="product-copy"><small>${clean(item.category)} · ${clean(item.subcategory)}</small><h3>${clean(item.model||item.name)}</h3><p>${clean(item.description)}</p>${revealed?`<div class="revealed-price"><strong>${retail?money(retail):'Ціна підтверджується менеджером'}</strong><small>Ціна за 1 шт. При замовленні монтажу, комплекту, кількох камер або аксесуарів ціна буде перерахована.</small></div>`:`<button class="price-button" data-reveal-price="${item.id}">Уточнити ціну</button>`}<div class="product-bottom"><span>Гарантія та підбір ALT-CAM</span><button class="add-button" data-add="${item.id}">До кошика</button></div></div></article>`}).join(''):'<div class="no-results">За цими параметрами товарів не знайдено.</div>';
   loadMore.hidden=visible.length>=list.length;
 }
 
@@ -64,7 +79,7 @@ grid.addEventListener('click',event=>{const priceButton=event.target.closest('[d
 document.querySelector('#service-grid').addEventListener('click',event=>{const button=event.target.closest('[data-service]');if(button){add(button.dataset.service,'service');openCart()}});
 document.querySelector('#cart-items').addEventListener('click',event=>{const button=event.target.closest('[data-remove]');if(button){cart=cart.filter(x=>x.id!==button.dataset.remove);saveCart()}});
 document.querySelector('#cart-open').addEventListener('click',openCart);document.querySelector('#cart-close').addEventListener('click',closeCart);document.querySelector('#cart-backdrop').addEventListener('click',closeCart);
-document.querySelector('#cart-order').addEventListener('click',async()=>{if(!cart.length)return;const name=document.querySelector('#order-name').value.trim(),phone=document.querySelector('#order-phone').value.trim(),city=document.querySelector('#order-city').value.trim();if(!name||!phone){alert('Вкажіть ім’я та телефон для підтвердження замовлення.');return}const orderItems=cart.map(entry=>{const item=entry.type==='service'?services.find(x=>x.id===entry.id):products.find(x=>x.id===entry.id);return {id:entry.id,type:entry.type,name:item?.model||item?.title||item?.name,price:publicPrices[entry.id]||null}});track('order_started',{items:orderItems.length});let orderNumber='';try{const response=await fetch(API+'/api/orders',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({customer:{name,phone,city},items:orderItems})});if(response.ok){const data=await response.json();orderNumber=data.order_number||'';track('order_sent',{order_number:orderNumber})}}catch{}const lines=orderItems.map((item,i)=>`${i+1}. ${item.name}`);const text=[`Вітаю! ${orderNumber?'Замовлення '+orderNumber+'. ':''}Хочу підтвердити наявність і роздрібну ціну:`,...lines,'',`Ім’я: ${name}`,`Телефон: ${phone}`,`Місто: ${city||'не вказано'}`].join('\n');window.open(`https://t.me/altcam_security_ua?text=${encodeURIComponent(text)}`,'_blank','noopener')});
+document.querySelector('#cart-order').addEventListener('click',async()=>{if(!cart.length)return;const name=document.querySelector('#order-name').value.trim(),phone=document.querySelector('#order-phone').value.trim(),city=document.querySelector('#order-city').value.trim();if(!name||!phone){alert('Вкажіть ім’я та телефон для підтвердження замовлення.');return}const orderItems=cart.map(entry=>{const item=entry.type==='service'?services.find(x=>x.id===entry.id):products.find(x=>x.id===entry.id);return {id:entry.id,type:entry.type,name:item?.model||item?.title||item?.name,price:publicPrices[entry.id]||null}});track('order_started',{items:orderItems.length});let orderNumber='';try{const response=await fetch(API+'/api/orders',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({customer:{name,phone,city},items:orderItems})});if(response.ok){const data=await response.json();orderNumber=data.order_number||'';track('order_sent',{order_number:orderNumber})}}catch{}const lines=orderItems.map((item,i)=>`${i+1}. ${item.name}`);const text=[`Вітаю! ${orderNumber?'Замовлення '+orderNumber+'. ':''}Хочу підтвердити наявність і ціну:`,...lines,'',`Ім’я: ${name}`,`Телефон: ${phone}`,`Місто: ${city||'не вказано'}`].join('\n');window.open(`https://t.me/altcam_security_ua?text=${encodeURIComponent(text)}`,'_blank','noopener')});
 async function loadPrices(){try{const response=await fetch(API+'/api/catalog/prices');if(response.ok)publicPrices=await response.json()}catch{}renderProducts()}
 const requestedProduct=new URLSearchParams(location.search).get('product');
 if(requestedProduct&&products.some(item=>item.id===requestedProduct)){search.value=requestedProduct;revealedPrices.add(requestedProduct)}
