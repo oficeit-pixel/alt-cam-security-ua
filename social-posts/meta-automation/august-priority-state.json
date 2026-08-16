@@ -958,6 +958,23 @@
           }
         }
       }
+    },
+    "meta-priority-story-altcam-reel-2026-08-12-03": {
+      "instagram_story": {
+        "published_at": "2026-08-16T13:40:36.246047+00:00",
+        "result": {
+          "container": {
+            "id": "18080862698418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18080862698418944"
+          },
+          "published": {
+            "id": "18119476342686905"
+          }
+        }
+      }
     }
   }
 }
