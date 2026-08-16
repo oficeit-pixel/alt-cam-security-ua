@@ -16,19 +16,17 @@ on:
         type: choice
         options:
           - ""
-          - facebook
           - instagram
           - instagram_story
           - threads
           - telegram
           - tiktok
-          - facebook_story
 
 permissions:
   contents: write
 
 concurrency:
-  group: alt-cam-social-publisher
+  group: alt-cam-social-state
   cancel-in-progress: false
 
 jobs:
@@ -37,8 +35,6 @@ jobs:
 
     env:
       META_GRAPH_VERSION: v21.0
-      FACEBOOK_PAGE_ID: "962902993572061"
-      FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN_STABLE }}
       INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
       INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
       THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
