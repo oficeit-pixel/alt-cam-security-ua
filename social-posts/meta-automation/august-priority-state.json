@@ -834,6 +834,123 @@
           }
         }
       }
+    },
+    "meta-priority-altcam-product-2026-08-12-01-product": {
+      "instagram": {
+        "published_at": "2026-08-16T12:57:28.646174+00:00",
+        "result": {
+          "container": {
+            "id": "18080849756418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18080849756418944"
+          },
+          "published": {
+            "id": "18022135634880679"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-08-16T12:57:37.557566+00:00",
+        "result": {
+          "container": {
+            "id": "18080727662424516"
+          },
+          "published": {
+            "id": "18618774955030139"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-08-16T12:57:38.591575+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 60,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1786885058,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADPGqBs8LnudfAFcNNqvIeUtY7QS0vAALmD2sbt3IVUHUFLeB7557yAQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD5g9rG7dyFVB4",
+                  "file_size": 1971,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADPGqBs8LnudfAFcNNqvIeUtY7QS0vAALmD2sbt3IVUHUFLeB7557yAQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD5g9rG7dyFVBy",
+                  "file_size": 24995,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADPGqBs8LnudfAFcNNqvIeUtY7QS0vAALmD2sbt3IVUHUFLeB7557yAQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD5g9rG7dyFVB9",
+                  "file_size": 93247,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADPGqBs8LnudfAFcNNqvIeUtY7QS0vAALmD2sbt3IVUHUFLeB7557yAQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD5g9rG7dyFVB-",
+                  "file_size": 184822,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADPGqBs8LnudfAFcNNqvIeUtY7QS0vAALmD2sbt3IVUHUFLeB7557yAQADAgADdwADPQQ",
+                  "file_unique_id": "AQAD5g9rG7dyFVB8",
+                  "file_size": 204543,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Бюджетна камера може працювати добре — якщо її правильно підібрати й поставити.\n\nТовар: Imou Turret SE‑C IPC‑T22EP‑C 1080P\nДля кого: квартира / офіс / невеликий магазин\n\n• 2МП Full HD\n• детекція руху\n• ІЧ-підсвітка\n• варіант для базового відеонагляду\n\nВартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.\n\nНатисніть кнопку або напишіть «IMOU» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 79,
+                  "type": "bold"
+                },
+                {
+                  "offset": 81,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 123,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 252,
+                  "length": 99,
+                  "type": "code"
+                },
+                {
+                  "offset": 422,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
