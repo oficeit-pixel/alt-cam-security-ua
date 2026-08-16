@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: alt-cam-facebook-publisher
+  group: alt-cam-social-state
   cancel-in-progress: false
 
 jobs:

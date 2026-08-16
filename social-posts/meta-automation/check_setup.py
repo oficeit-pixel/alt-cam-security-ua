@@ -108,6 +108,11 @@ def tiktok_get(path: str, token: str, params: dict | None = None) -> dict:
 def main() -> int:
     load_env_file(ENV_FILE)
     failures: list[str] = []
+    disabled_platforms = {
+        item.strip().lower()
+        for item in os.getenv("DISABLED_PLATFORMS", "").split(",")
+        if item.strip()
+    }
 
     page_id = os.getenv("FACEBOOK_PAGE_ID", "").strip()
     page_token = os.getenv("FACEBOOK_PAGE_ACCESS_TOKEN", "").strip()
@@ -119,11 +124,13 @@ def main() -> int:
     telegram_chat_id = os.getenv("TELEGRAM_CHAT_ID", "").strip()
     tiktok_token = os.getenv("TIKTOK_ACCESS_TOKEN", "").strip()
 
-    if not page_id:
+    facebook_disabled = {"facebook", "facebook_story"}.issubset(disabled_platforms)
+    if facebook_disabled:
+        print("Facebook is disabled in this workflow; skipping Page check.")
+    elif not page_id:
+        failures.append("FACEBOOK_PAGE_ID is missing.")
         print("FACEBOOK_PAGE_ID is missing.")
-        return 1
-
-    if page_token:
+    elif page_token:
         print("Checking Facebook Page token...")
         try:
             page = graph_get(
