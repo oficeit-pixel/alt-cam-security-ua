@@ -693,6 +693,140 @@
           }
         }
       }
+    },
+    "meta-priority-story-altcam-reel-2026-08-11-02": {
+      "instagram_story": {
+        "published_at": "2026-08-16T10:14:56.796887+00:00",
+        "result": {
+          "container": {
+            "id": "18080808332418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18080808332418944"
+          },
+          "published": {
+            "id": "17945532960260420"
+          }
+        }
+      }
+    },
+    "meta-priority-altcam-product-2026-08-11-03-product": {
+      "instagram": {
+        "published_at": "2026-08-16T10:15:08.144977+00:00",
+        "result": {
+          "container": {
+            "id": "18080808377418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18080808377418944"
+          },
+          "published": {
+            "id": "18081257402306988"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-08-16T10:15:16.218337+00:00",
+        "result": {
+          "container": {
+            "id": "18080685197424516"
+          },
+          "published": {
+            "id": "18110572303922075"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-08-16T10:15:17.578231+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 59,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1786875317,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADO2qBjbVLY8IuNqavaKi7HdMOL7RGAAKvD2sbNXQNUGset2oeDqb9AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADrw9rGzV0DVB4",
+                  "file_size": 1662,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADO2qBjbVLY8IuNqavaKi7HdMOL7RGAAKvD2sbNXQNUGset2oeDqb9AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADrw9rGzV0DVBy",
+                  "file_size": 26669,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADO2qBjbVLY8IuNqavaKi7HdMOL7RGAAKvD2sbNXQNUGset2oeDqb9AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADrw9rGzV0DVB9",
+                  "file_size": 110884,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADO2qBjbVLY8IuNqavaKi7HdMOL7RGAAKvD2sbNXQNUGset2oeDqb9AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADrw9rGzV0DVB-",
+                  "file_size": 238981,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADO2qBjbVLY8IuNqavaKi7HdMOL7RGAAKvD2sbNXQNUGset2oeDqb9AQADAgADdwADPQQ",
+                  "file_unique_id": "AQADrw9rGzV0DVB8",
+                  "file_size": 264908,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Коли потрібна проста IP-камера без зайвої складності.\n\nТовар: Imou Turret SE‑C IPC‑T22EP‑C 1080P\nДля кого: квартира / невеликий офіс / кімната / касова зона\n\n• 1080P\n• кут огляду 92°\n• H.265\n• детекція руху та ІЧ-підсвітка до 30 м\n\nВартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.\n\nНатисніть кнопку або напишіть «IMOU» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 53,
+                  "type": "bold"
+                },
+                {
+                  "offset": 55,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 97,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 232,
+                  "length": 99,
+                  "type": "code"
+                },
+                {
+                  "offset": 402,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
