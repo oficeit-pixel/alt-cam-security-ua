@@ -48,7 +48,7 @@ def infer_brand(product: dict) -> str:
     for candidate in ("Hikvision", "Dahua", "Ajax", "Imou", "Uniview", "NeoLight", "Full Energy", "Ritar"):
         if candidate.lower() in haystack:
             return candidate
-    return "ALT-CAM"
+    return "Інший виробник"
 
 
 def normalize_image_url(value: object) -> str:
@@ -72,6 +72,33 @@ def public_description(value: object) -> str:
     return re.sub(r"\s+", " ", description).strip()
 
 
+def key_features(product: dict) -> list[str]:
+    text = clean(
+        " ".join(
+            str(product.get(key) or "")
+            for key in ("name_uk", "model", "description_uk", "properties")
+        ),
+        12000,
+    )
+    patterns = (
+        r"\b\d+(?:[.,]\d+)?\s*(?:Мп|MP)\b",
+        r"\b(?:ІЧ|ИК|IR)\s*(?:підсвічування\s*)?(?:до\s*)?\d+\s*м\b",
+        r"\bIP\d{2}\b",
+        r"\b(?:PoE|Wi[‑-]?Fi|HDCVI|HD[‑-]?TVI|AHD|ONVIF|ColorVu|AcuSense)\b",
+        r"\b\d+(?:[.,]\d+)?\s*мм\b",
+        r"\b\d+\s*(?:А·год|Аг|Ah|Вт|W)\b",
+    )
+    found: list[str] = []
+    for pattern in patterns:
+        for match in re.findall(pattern, text, flags=re.IGNORECASE):
+            value = clean(match, 32)
+            if value and value.casefold() not in {item.casefold() for item in found}:
+                found.append(value)
+            if len(found) == 4:
+                return found
+    return found
+
+
 def is_publishable(product: dict, group: str) -> bool:
     price = float(product.get("source_price_uah") or 0)
     image = clean(product.get("image_url"), 2000)
@@ -80,9 +107,11 @@ def is_publishable(product: dict, group: str) -> bool:
     security_detector = bool(
         re.search(r"ajax|охорон|рух|відкрит|магнітоконтакт|розбит|вібрац|тривож|затоп", title)
     )
+    retailer_brand = infer_brand(product).casefold() in {"viatec", "югторг", "yugtorg", "nadzor"}
     return bool(
         category_id in ALLOWED_CATEGORY_IDS[group]
         and (group != "ajax_security" or category_id != 39 or security_detector)
+        and not retailer_brand
         and
         product.get("in_stock")
         and product.get("catalog_id")
@@ -110,6 +139,7 @@ def load_public_products(source: Path) -> list[dict]:
                     "name": clean(item.get("name_uk") or item.get("model") or "Обладнання", 200),
                     "model": clean(item.get("model"), 150),
                     "description": public_description(item.get("description_uk")) or "Характеристики уточнюються.",
+                    "features": key_features(item),
                     "image": normalize_image_url(item["image_url"]),
                     "available": True,
                     "price": round(float(item["source_price_uah"]), 2),

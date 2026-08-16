@@ -1,93 +1,38 @@
-const fallbackServices = [
-  {id:'service-survey',title:'Обстеження та проєктування',description:'Визначаємо зони контролю, ризики, кабельні траси, живлення та обсяг архіву.',includes:['Консультація за фото або виїзд','Схема розміщення обладнання','Кошторис у 2–3 комплектаціях']},
-  {id:'service-video',title:'Монтаж відеоспостереження',description:'Встановлюємо IP, HD-TVI та HDCVI системи для дому, офісу, магазину й виробництва.',includes:['Монтаж камер і реєстратора','Прокладання та маркування кабелю','Архів і перегляд зі смартфона','Тестування та інструктаж']},
-  {id:'service-intercom',title:'Домофонія та контроль доступу',description:'Організовуємо контрольоване відкриття дверей, хвірток, воріт і службових зон.',includes:['Панель, монітор або контролер','Замок, доводчик, кнопка виходу','Мобільний доступ та сценарії','Перевірка безпечного відкривання']},
-  {id:'service-ajax',title:'Система безпеки Ajax',description:'Захист від проникнення, пожежі та протікання з керуванням у застосунку.',includes:['Проєктування зон охорони','Монтаж Hub і датчиків','Налаштування користувачів','Тест тривог та інструктаж']},
-  {id:'service-power',title:'Резервне живлення',description:'Розраховуємо автономність системи та підбираємо ДБЖ, інвертор і акумулятори.',includes:['Розрахунок навантаження','Підбір захисту та кабелів','Монтаж і безпечне підключення','Тест автономної роботи']},
-  {id:'service-network',title:'Мережа та кабельна інфраструктура',description:'Готуємо надійну мережу для камер, домофонії, Wi‑Fi та віддаленого доступу.',includes:['Кабельні траси та комутація','PoE-комутатори й шафи','Маркування портів','Перевірка швидкості та стабільності']},
-  {id:'service-setup',title:'Налаштування та віддалений доступ',description:'Підключаємо Hik-Connect, DMSS, Imou Life, Ajax та безпечний доступ користувачів.',includes:['Створення або перенесення облікового запису','Додавання пристроїв','Сповіщення та права доступу','Резервна інструкція для власника']},
-  {id:'service-maintenance',title:'Обслуговування та ремонт',description:'Діагностуємо несправності, відновлюємо запис і модернізуємо наявні системи.',includes:['Аудит камер, дисків і живлення','Очищення та оновлення ПЗ','Заміна несправних вузлів','Звіт і план модернізації']},
-  {id:'service-support',title:'Технічний супровід',description:'Допомагаємо після запуску: користувачі, архів, сповіщення, оновлення й розширення.',includes:['Дистанційна консультація','Контроль працездатності','Допомога з архівом','Планове обслуговування']}
-];
-const services = Array.isArray(window.ALTCAM_SERVICES) ? window.ALTCAM_SERVICES : fallbackServices;
-
-const products = Array.isArray(window.ALTCAM_CATALOG) ? window.ALTCAM_CATALOG : [];
-const API = 'https://alt-cam-manager-bot.onrender.com';
-const sessionId = localStorage.getItem('altcam-session') || (crypto.randomUUID ? crypto.randomUUID() : String(Date.now()));
-localStorage.setItem('altcam-session', sessionId);
-let publicPrices = {};
-const revealedPrices = new Set();
-let cart = JSON.parse(localStorage.getItem('altcam-cart') || '[]');
-const grid = document.querySelector('#product-grid');
-const search = document.querySelector('#catalog-search');
-const category = document.querySelector('#category-filter');
-const brand = document.querySelector('#brand-filter');
-const sort = document.querySelector('#sort-filter');
-const loadMore = document.querySelector('#load-more');
-const PAGE_SIZE = 48;
-let visibleCount = PAGE_SIZE;
-
-const unique = key => [...new Set(products.map(x => x[key]).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'uk'));
-unique('category').forEach(value => category.add(new Option(value,value)));
-unique('brand').forEach(value => brand.add(new Option(value,value)));
-
-function clean(value){return String(value||'').replace(/<[^>]+>|&\w+;/g,' ').replace(/\s+/g,' ').trim()}
-function money(value){return new Intl.NumberFormat('uk-UA').format(value)+' ₴'}
-function track(event,data={}){fetch(API+'/api/analytics',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({event,session_id:sessionId,page:location.pathname,data}),keepalive:true}).catch(()=>{})}
-function defaultShowcase(list){
-  const cablePriority=item=>{
-    const text=`${item.name} ${item.model}`.toLowerCase();
-    if(/вита пара|звита пара|\butp\b|\bftp\b/.test(text)) return 0;
-    if(/сигнальн|сигналіза/.test(text)) return 1;
-    if(/коаксіальн|коаксиальн|\brg[- ]?\d|\bквк\b/.test(text)) return 2;
-    return 3;
-  };
-  const cables=list.filter(item=>item.category==='Кабель для систем безпеки').sort((a,b)=>cablePriority(a)-cablePriority(b));
-  const buckets=[
-    list.filter(item=>item.category==='Комплекти відеоспостереження'),
-    list.filter(item=>item.category==='Комплекти домофонії'),
-    list.filter(item=>item.category==='Ajax та охоронна сигналізація'),
-    list.filter(item=>item.category==='Системи контролю доступу'),
-    cables
-  ];
-  const showcase=[];
-  for(let index=0;index<10;index+=1) buckets.forEach(bucket=>{if(bucket[index])showcase.push(bucket[index])});
-  const featuredIds=new Set(showcase.map(item=>item.id));
-  return [...showcase,...list.filter(item=>!featuredIds.has(item.id))];
-}
-function renderProducts(){
-  const query=search.value.trim().toLowerCase();
-  let list=products.filter(item=>(!category.value||item.category===category.value)&&(!brand.value||item.brand===brand.value)&&(!query||[item.id,item.name,item.model,item.brand,item.sku,item.subcategory].join(' ').toLowerCase().includes(query)));
-  if(sort.value==='name') list.sort((a,b)=>a.name.localeCompare(b.name,'uk'));
-  if(sort.value==='brand') list.sort((a,b)=>a.brand.localeCompare(b.brand,'uk'));
-  if(sort.value==='featured'&&!category.value&&!brand.value&&!query) list=defaultShowcase(list);
-  document.querySelector('#result-count').textContent=`Знайдено: ${list.length}`;
-  const visible=list.slice(0,visibleCount);
-  grid.innerHTML=list.length?visible.map(item=>{const retail=publicPrices[item.id]||item.price;const revealed=revealedPrices.has(item.id);return `<article class="product-card"><div class="product-image"><span class="stock">Є в наявності</span><img src="${item.image}" alt="${clean(item.name)}" loading="lazy"><span class="product-brand">ALT-CAM</span></div><div class="product-copy"><h3>${clean(item.name)}</h3><p>${clean(item.description)}</p>${revealed?`<div class="revealed-price"><strong>${retail?money(retail):'Ціна підтверджується менеджером'}</strong><small>Ціна за 1 шт. При замовленні монтажу, комплекту, кількох камер або аксесуарів ціна буде перерахована.</small></div>`:`<button class="price-button" data-reveal-price="${item.id}">Уточнити ціну</button>`}<div class="product-bottom"><span>Гарантія та підбір ALT-CAM</span><button class="add-button" data-add="${item.id}">До кошика</button></div></div></article>`}).join(''):'<div class="no-results">За цими параметрами товарів не знайдено.</div>';
-  loadMore.hidden=visible.length>=list.length;
-}
-
-function renderServices(){document.querySelector('#service-grid').innerHTML=services.map((s,i)=>`<article class="service-item"><span class="service-number">${String(i+1).padStart(2,'0')} · ${s.group||'Послуга'}</span><h3>${s.title}</h3>${s.tagline?`<b>${s.tagline}</b>`:''}<p>${s.description}</p><ul>${s.includes.map(x=>`<li>${x}</li>`).join('')}</ul>${s.priceFrom?`<strong>від ${money(s.priceFrom)} <small>${s.unit||''}</small></strong>`:''}${s.options?.length?`<details class="service-price-list"><summary>Детальний прайс</summary>${s.options.map(([name,price])=>`<div><span>${name}</span><b>${price}</b></div>`).join('')}</details>`:''}${s.note?`<p><small>${s.note}</small></p>`:''}<button data-service="${s.id}">Додати до заявки</button></article>`).join('')}
-function saveCart(){localStorage.setItem('altcam-cart',JSON.stringify(cart));renderCart()}
-function add(id,type='product'){if(!cart.some(x=>x.id===id))cart.push({id,type});saveCart();track('add_to_cart',{id,type})}
-function renderCart(){
-  const rows=cart.map(entry=>{const item=entry.type==='service'?services.find(x=>x.id===entry.id):products.find(x=>x.id===entry.id);return item?`<div class="cart-item"><div><b>${clean(item.model||item.title||item.name)}</b><br><small>${entry.type==='service'?'Послуга ALT-CAM':clean(item.brand)}</small></div><button class="cart-remove" data-remove="${entry.id}">Видалити</button></div>`:''}).join('');
-  document.querySelector('#cart-items').innerHTML=rows||'<div class="cart-empty">Кошик порожній.<br>Додайте обладнання або послугу.</div>';
-  document.querySelector('#cart-count').textContent=cart.length;
-}
-function openCart(){document.querySelector('#cart').classList.add('is-open');document.querySelector('#cart').setAttribute('aria-hidden','false')}
-function closeCart(){document.querySelector('#cart').classList.remove('is-open');document.querySelector('#cart').setAttribute('aria-hidden','true')}
-
-[search,category,brand,sort].forEach(el=>el.addEventListener(el===search?'input':'change',()=>{visibleCount=PAGE_SIZE;renderProducts()}));
-document.querySelector('#filter-reset').addEventListener('click',()=>{search.value='';category.value='';brand.value='';sort.value='featured';visibleCount=PAGE_SIZE;renderProducts()});
-document.querySelectorAll('[data-category]').forEach(button=>button.addEventListener('click',()=>{track('category_view',{category:button.dataset.category});if(button.dataset.category==='Послуги'){document.querySelector('#services').scrollIntoView()}else{category.value=button.dataset.category;visibleCount=PAGE_SIZE;renderProducts();document.querySelector('#products').scrollIntoView()}}));
-loadMore.addEventListener('click',()=>{visibleCount+=PAGE_SIZE;renderProducts()});
-grid.addEventListener('click',event=>{const priceButton=event.target.closest('[data-reveal-price]');if(priceButton){revealedPrices.add(priceButton.dataset.revealPrice);track('price_revealed',{id:priceButton.dataset.revealPrice});renderProducts();return}const button=event.target.closest('[data-add]');if(button){add(button.dataset.add);openCart()}});
-document.querySelector('#service-grid').addEventListener('click',event=>{const button=event.target.closest('[data-service]');if(button){add(button.dataset.service,'service');openCart()}});
-document.querySelector('#cart-items').addEventListener('click',event=>{const button=event.target.closest('[data-remove]');if(button){cart=cart.filter(x=>x.id!==button.dataset.remove);saveCart()}});
-document.querySelector('#cart-open').addEventListener('click',openCart);document.querySelector('#cart-close').addEventListener('click',closeCart);document.querySelector('#cart-backdrop').addEventListener('click',closeCart);
-document.querySelector('#cart-order').addEventListener('click',async()=>{if(!cart.length)return;const name=document.querySelector('#order-name').value.trim(),phone=document.querySelector('#order-phone').value.trim(),city=document.querySelector('#order-city').value.trim();if(!name||!phone){alert('Вкажіть ім’я та телефон для підтвердження замовлення.');return}const orderItems=cart.map(entry=>{const item=entry.type==='service'?services.find(x=>x.id===entry.id):products.find(x=>x.id===entry.id);return {id:entry.id,type:entry.type,name:item?.model||item?.title||item?.name,price:publicPrices[entry.id]||null}});track('order_started',{items:orderItems.length});let orderNumber='';try{const response=await fetch(API+'/api/orders',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({customer:{name,phone,city},items:orderItems})});if(response.ok){const data=await response.json();orderNumber=data.order_number||'';track('order_sent',{order_number:orderNumber})}}catch{}const lines=orderItems.map((item,i)=>`${i+1}. ${item.name}`);const text=[`Вітаю! ${orderNumber?'Замовлення '+orderNumber+'. ':''}Хочу підтвердити наявність і ціну:`,...lines,'',`Ім’я: ${name}`,`Телефон: ${phone}`,`Місто: ${city||'не вказано'}`].join('\n');window.open(`https://t.me/altcam_security_ua?text=${encodeURIComponent(text)}`,'_blank','noopener')});
-async function loadPrices(){try{const response=await fetch(API+'/api/catalog/prices');if(response.ok)publicPrices=await response.json()}catch{}renderProducts()}
-const requestedProduct=new URLSearchParams(location.search).get('product');
-if(requestedProduct&&products.some(item=>item.id===requestedProduct)){search.value=requestedProduct;revealedPrices.add(requestedProduct)}
-renderServices();renderProducts();renderCart();loadPrices();track('page_view');
+const fallbackServices=[{id:'service-survey',title:'Обстеження та проєктування',description:'Зони контролю, кабельні траси, живлення та архів.',includes:['Консультація','Схема розміщення','Кошторис']}];
+const services=Array.isArray(window.ALTCAM_SERVICES)?window.ALTCAM_SERVICES:fallbackServices;
+const products=(Array.isArray(window.ALTCAM_CATALOG)?window.ALTCAM_CATALOG:[]).filter(item=>!/^(?:viatec|югторг|yugtorg|nadzor)$/i.test(item.brand||''));
+const API='https://alt-cam-manager-bot.onrender.com';
+const TELEGRAM='https://t.me/altcam_security_ua';
+const sessionId=localStorage.getItem('altcam-session')||(crypto.randomUUID?crypto.randomUUID():String(Date.now()));
+localStorage.setItem('altcam-session',sessionId);
+let publicPrices={},cart=JSON.parse(localStorage.getItem('altcam-cart')||'[]'),visibleCount=48;
+const $=selector=>document.querySelector(selector);
+const grid=$('#product-grid'),search=$('#catalog-search'),category=$('#category-filter'),brand=$('#brand-filter'),sort=$('#sort-filter');
+const resolution=$('#resolution-filter'),connection=$('#connection-filter'),placement=$('#placement-filter'),price=$('#price-filter'),loadMore=$('#load-more');
+const clean=value=>String(value||'').replace(/<[^>]+>|&(?:nbsp|amp|quot|lt|gt);/gi,' ').replace(/\s+/g,' ').trim();
+const money=value=>new Intl.NumberFormat('uk-UA',{maximumFractionDigits:0}).format(value)+' ₴';
+const textOf=item=>clean([item.name,item.model,item.brand,item.description,...(item.features||[])].join(' ')).toLowerCase();
+const unique=key=>[...new Set(products.map(item=>item[key]).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'uk'));
+unique('category').forEach(value=>category.add(new Option(value,value)));
+unique('brand').forEach(value=>brand.add(new Option(value,value)));
+function track(event,data={}){fetch(API+'/api/analytics',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({event,session_id:sessionId,page:location.pathname,data}),keepalive:true}).catch(()=>{});}
+function defaultShowcase(list){const priority=['Комплекти відеоспостереження','Комплекти домофонії','Ajax та охоронна сигналізація','Системи контролю доступу','Кабель для систем безпеки'];return [...list].sort((a,b)=>{const ai=priority.indexOf(a.category),bi=priority.indexOf(b.category);return (ai<0?99:ai)-(bi<0?99:bi)||a.name.localeCompare(b.name,'uk')});}
+function matchesAdvanced(item){const text=textOf(item),amount=Number(publicPrices[item.id]||item.price||0);if(resolution.value&&!new RegExp(`\\b${resolution.value}\\s*(мп|mp)\\b`,'i').test(text))return false;if(connection.value==='poe'&&!/\bpoe\b/i.test(text))return false;if(connection.value==='wifi'&&!/wi[‑-]?fi/i.test(text))return false;if(connection.value==='analog'&&!/(hdcvi|hdtvi|hd-tvi|ahd|аналог)/i.test(text))return false;if(placement.value==='outdoor'&&!/(вулич|зовніш|ip6[5-9]|outdoor)/i.test(text))return false;if(placement.value==='indoor'&&!/(внутріш|приміщ|indoor)/i.test(text))return false;if(price.value&&amount>Number(price.value))return false;return true;}
+function productSchema(item,amount){return JSON.stringify({'@context':'https://schema.org','@type':'Product',name:clean(item.name),image:item.image,sku:item.sku||item.id,brand:{'@type':'Brand',name:item.brand==='ALT-CAM'?'Інший виробник':item.brand},offers:{'@type':'Offer',priceCurrency:'UAH',price:amount,availability:'https://schema.org/InStock',url:`${location.origin}${location.pathname}?product=${encodeURIComponent(item.id)}`}}).replace(/</g,'\\u003c');}
+function renderProducts(){const query=search.value.trim().toLowerCase();let list=products.filter(item=>(!category.value||item.category===category.value)&&(!brand.value||item.brand===brand.value)&&(!query||textOf(item).includes(query))&&matchesAdvanced(item));if(sort.value==='name')list.sort((a,b)=>a.name.localeCompare(b.name,'uk'));else if(sort.value==='price-asc')list.sort((a,b)=>(a.price||Infinity)-(b.price||Infinity));else if(sort.value==='price-desc')list.sort((a,b)=>(b.price||0)-(a.price||0));else if(sort.value==='featured'&&!category.value&&!brand.value&&!query)list=defaultShowcase(list);$('#result-count').textContent=`Знайдено: ${list.length}`;const visible=list.slice(0,visibleCount);grid.innerHTML=visible.length?visible.map(item=>{const amount=Number(publicPrices[item.id]||item.price||0),features=(item.features||[]).slice(0,4);return `<article class="product-card"><div class="product-image"><span class="stock">В наявності</span><img src="${item.image}" alt="${clean(item.name)}" loading="lazy" onerror="this.closest('.product-card').hidden=true"><span class="product-brand">ALT-CAM</span></div><div class="product-copy"><small>${clean(item.brand)}</small><h3>${clean(item.name)}</h3>${features.length?`<div class="product-features">${features.map(value=>`<span>${clean(value)}</span>`).join('')}</div>`:''}<p>${clean(item.description).slice(0,220)}</p><div class="price-orient"><strong>${amount?'від '+money(amount):'Ціна за запитом'}</strong><span class="availability">● В наявності</span></div><button class="price-button" data-consult="${item.id}">Отримати точну ціну</button><div class="product-bottom"><span>Гарантія та підбір ALT-CAM</span><button class="add-button" data-add="${item.id}">До кошика</button></div><script type="application/ld+json">${productSchema(item,amount)}</script></div></article>`;}).join(''):'<div class="no-results"><b>Нічого не знайдено.</b><br>Скиньте фільтри або напишіть інженеру — підберемо аналог.</div>';loadMore.hidden=visible.length>=list.length;}
+function renderSolutions(){const definitions=[['solution-video','Відеоспостереження для будинку','4 камери, реєстратор, кабель і базове налаштування','Комплекти відеоспостереження'],['solution-ajax','Ajax для будинку','Hub, датчики руху й відкриття, налаштування застосунку','Ajax та охоронна сигналізація'],['solution-intercom','Домофонія та доступ','Монітор, виклична панель, замок і мобільний доступ','Комплекти домофонії']];$('#solutions-grid').innerHTML=definitions.map(([id,title,description,cat])=>{const sample=products.filter(x=>x.category===cat&&Number(x.price)>=5000).sort((a,b)=>(a.price||Infinity)-(b.price||Infinity))[0];return `<article class="solution-card"><span>ГОТОВЕ РІШЕННЯ</span><h3>${title}</h3><p>${description}</p><strong class="solution-price">${sample?.price?'обладнання від '+money(sample.price):'Персональний розрахунок'}</strong><button data-solution="${id}" data-title="${title}">Отримати точний розрахунок</button></article>`;}).join('');}
+function renderServices(){$('#service-grid').innerHTML=services.map((item,index)=>`<article class="service-item"><span class="service-number">${String(index+1).padStart(2,'0')} · ${item.group||'Послуга'}</span><h3>${item.title}</h3><p>${item.description}</p><ul>${(item.includes||[]).map(value=>`<li>${value}</li>`).join('')}</ul>${item.priceFrom?`<strong>від ${money(item.priceFrom)} <small>${item.unit||''}</small></strong>`:''}<button data-service="${item.id}">Додати до заявки</button></article>`).join('');}
+function saveCart(){localStorage.setItem('altcam-cart',JSON.stringify(cart));renderCart();}
+function add(id,type='product',name=''){if(!cart.some(item=>item.id===id))cart.push({id,type,name});saveCart();track('add_to_cart',{id,type});}
+function renderCart(){const rows=cart.map(entry=>{const item=entry.type==='service'?services.find(x=>x.id===entry.id):products.find(x=>x.id===entry.id);const name=item?.model||item?.title||item?.name||entry.name;return name?`<div class="cart-item"><div><b>${clean(name)}</b><br><small>${entry.type==='service'?'Послуга ALT-CAM':clean(item?.brand||'Готове рішення')}</small></div><button class="cart-remove" data-remove="${entry.id}">Видалити</button></div>`:'';}).join('');$('#cart-items').innerHTML=rows||'<div class="cart-empty">Кошик порожній.<br>Додайте обладнання або послугу.</div>';$('#cart-count').textContent=cart.length;}
+function openCart(){$('#cart').classList.add('is-open');$('#cart').setAttribute('aria-hidden','false');}function closeCart(){$('#cart').classList.remove('is-open');$('#cart').setAttribute('aria-hidden','true');}
+function reset(){[search,category,brand,sort,resolution,connection,placement,price].forEach(el=>el.value='');sort.value='featured';visibleCount=48;renderProducts();}
+[search,category,brand,sort,resolution,connection,placement,price].forEach(el=>el.addEventListener(el===search?'input':'change',()=>{visibleCount=48;renderProducts();}));
+$('#filter-reset').addEventListener('click',reset);document.querySelectorAll('[data-category]').forEach(button=>button.addEventListener('click',()=>{category.value=button.dataset.category;visibleCount=48;renderProducts();$('#products').scrollIntoView({behavior:'smooth'});}));loadMore.addEventListener('click',()=>{visibleCount+=48;renderProducts();});
+grid.addEventListener('click',event=>{const consult=event.target.closest('[data-consult]');if(consult){const item=products.find(x=>x.id===consult.dataset.consult);add(item.id,'product');openCart();return;}const button=event.target.closest('[data-add]');if(button){add(button.dataset.add);openCart();}});
+$('#solutions-grid').addEventListener('click',event=>{const button=event.target.closest('[data-solution]');if(button){add(button.dataset.solution,'solution',button.dataset.title);openCart();}});$('#service-grid').addEventListener('click',event=>{const button=event.target.closest('[data-service]');if(button){add(button.dataset.service,'service');openCart();}});$('#cart-items').addEventListener('click',event=>{const button=event.target.closest('[data-remove]');if(button){cart=cart.filter(x=>x.id!==button.dataset.remove);saveCart();}});$('#cart-open').addEventListener('click',openCart);$('#cart-close').addEventListener('click',closeCart);$('#cart-backdrop').addEventListener('click',closeCart);
+$('#cart-order').addEventListener('click',async()=>{if(!cart.length)return;const name=$('#order-name').value.trim(),phone=$('#order-phone').value.trim(),city=$('#order-city').value.trim();if(!name||!phone){alert('Вкажіть ім’я та телефон.');return;}const items=cart.map(entry=>{const item=entry.type==='service'?services.find(x=>x.id===entry.id):products.find(x=>x.id===entry.id);return{id:entry.id,type:entry.type,name:item?.model||item?.title||item?.name||entry.name,price:publicPrices[entry.id]||item?.price||null};});let orderNumber='';try{const response=await fetch(API+'/api/orders',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({customer:{name,phone,city},items})});if(response.ok)orderNumber=(await response.json()).order_number||'';}catch{}const text=[`Вітаю! ${orderNumber?`Замовлення ${orderNumber}. `:''}Хочу отримати точну пропозицію:`,...items.map((item,index)=>`${index+1}. ${item.name}`),'',`Ім’я: ${name}`,`Телефон: ${phone}`,`Місто: ${city||'не вказано'}`].join('\n');window.open(`${TELEGRAM}?text=${encodeURIComponent(text)}`,'_blank','noopener');});
+$('#consult-form').addEventListener('submit',async event=>{event.preventDefault();const form=new FormData(event.currentTarget),status=$('#consult-status');status.textContent='Надсилаємо…';try{const response=await fetch(API+'/site-lead',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({type:'catalog_consultation',source:location.href,client:{name:form.get('name'),phone:form.get('phone')},message:form.get('question')})});if(!response.ok)throw new Error();status.textContent='Дякуємо. Інженер зв’яжеться з вами.';event.currentTarget.reset();track('consultation_sent');}catch{status.innerHTML=`Не вдалося надіслати. <a href="${TELEGRAM}" target="_blank" rel="noopener">Напишіть у Telegram</a>.`;}});
+async function loadPrices(){try{const response=await fetch(API+'/api/catalog/prices');if(response.ok)publicPrices=await response.json();}catch{}renderProducts();}
+const requested=new URLSearchParams(location.search).get('product');if(requested&&products.some(item=>item.id===requested))search.value=requested;
+renderSolutions();renderServices();renderCart();renderProducts();loadPrices();track('page_view');
