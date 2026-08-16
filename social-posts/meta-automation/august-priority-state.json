@@ -1099,6 +1099,123 @@
           }
         }
       }
+    },
+    "meta-priority-altcam-product-2026-08-12-03-intercom": {
+      "instagram": {
+        "published_at": "2026-08-16T17:08:54.225822+00:00",
+        "result": {
+          "container": {
+            "id": "18080931920418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18080931920418944"
+          },
+          "published": {
+            "id": "18073498397415003"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-08-16T17:09:01.834673+00:00",
+        "result": {
+          "container": {
+            "id": "18080800199424516"
+          },
+          "published": {
+            "id": "17903711436539778"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-08-16T17:09:03.007081+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 62,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1786900142,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADPmqB7q7Pyp8lRvIwRym3nty6eDXtAAJKD2sbHDMVUFEQnMnPm4n4AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADSg9rGxwzFVB4",
+                  "file_size": 1523,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADPmqB7q7Pyp8lRvIwRym3nty6eDXtAAJKD2sbHDMVUFEQnMnPm4n4AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADSg9rGxwzFVBy",
+                  "file_size": 18236,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADPmqB7q7Pyp8lRvIwRym3nty6eDXtAAJKD2sbHDMVUFEQnMnPm4n4AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADSg9rGxwzFVB9",
+                  "file_size": 70430,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADPmqB7q7Pyp8lRvIwRym3nty6eDXtAAJKD2sbHDMVUFEQnMnPm4n4AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADSg9rGxwzFVB-",
+                  "file_size": 143256,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADPmqB7q7Pyp8lRvIwRym3nty6eDXtAAJKD2sbHDMVUFEQnMnPm4n4AQADAgADdwADPQQ",
+                  "file_unique_id": "AQADSg9rGxwzFVB8",
+                  "file_size": 168597,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Бачити, хто біля дверей, — це вже не преміум. Це базова безпека.\n\nТовар: Dahua DHI-VTH2421FW-P 7” PoE\nДля кого: квартира / офіс / ресепшн / приватний будинок\n\n• 7” touch-монітор\n• PoE\n• підключення до 32 камер\n• зручний центр керування входом\n\nВартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.\n\nНатисніть кнопку або напишіть «ДОМОФОН» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 64,
+                  "type": "bold"
+                },
+                {
+                  "offset": 66,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 102,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 244,
+                  "length": 99,
+                  "type": "code"
+                },
+                {
+                  "offset": 417,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
