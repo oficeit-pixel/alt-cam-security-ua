@@ -1,1 +1,21 @@
-{"published": {}}
+{
+  "published": {
+    "discussion-story-2026-08-01": {
+      "instagram_story": {
+        "published_at": "2026-08-16T10:38:15.110888+00:00",
+        "result": {
+          "container": {
+            "id": "18080813672418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18080813672418944"
+          },
+          "published": {
+            "id": "17951491974237898"
+          }
+        }
+      }
+    }
+  }
+}
