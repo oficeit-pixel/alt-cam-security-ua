@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Каталог обладнання та послуг | ALT-CAM Security UA</title>
+  <meta name="description" content="Каталог систем відеоспостереження, домофонії, Ajax, резервного живлення, кабелю, кріплень і послуг ALT-CAM.">
+  <link rel="stylesheet" href="catalog.css?v=preview-1">
+  <link rel="stylesheet" href="service-prices.css?v=1">
+  <style>.checkout-fields{display:grid;gap:9px;margin:14px 0}.checkout-fields input{width:100%;height:44px;padding:0 12px;border:1px solid #dedee4;border-radius:9px}</style>
+</head>
+<body>
+  <header class="catalog-header">
+    <a class="catalog-brand" href="index.html"><img src="assets/alt-cam-mark.png" alt=""><span>ALT-CAM<small>SECURITY UA</small></span></a>
+    <nav><a href="index.html">Головна</a><a href="#products">Товари</a><a href="#services">Послуги</a></nav>
+    <button class="cart-button" id="cart-open" type="button">Кошик <b id="cart-count">0</b></button>
+  </header>
+
+  <main>
+    <section class="catalog-hero">
+      <span>КАТАЛОГ ALT-CAM</span>
+      <h1>Обладнання і монтаж<br>в одному замовленні</h1>
+      <p>Відеоспостереження, домофонія, Ajax, резервне живлення та все для професійного монтажу.</p>
+      <div class="approval-note"><b>Роздрібна ціна — за запитом</b> Натисніть кнопку в картці товару. Для комплекту або монтажу менеджер перерахує персональну ціну.</div>
+    </section>
+
+    <section class="category-strip" aria-label="Категорії каталогу">
+      <button data-category="Відеоспостереження">Камери й реєстратори</button>
+      <button data-category="Домофонія та доступ">Домофонія та СКУД</button>
+      <button data-category="Охоронні системи">Ajax та сигналізація</button>
+      <button data-category="Резервне живлення">Резервне живлення</button>
+      <button data-category="Кабель та конектори">Кабель і конектори</button>
+      <button data-category="Кронштейни та коробки">Кронштейни й коробки</button>
+      <button data-category="Монтажні матеріали">Монтажні матеріали</button>
+      <button data-category="Аксесуари">Аксесуари</button>
+      <button data-category="Послуги">Послуги</button>
+    </section>
+
+    <section class="catalog-section" id="products">
+      <div class="section-title"><div><span>ОБЛАДНАННЯ</span><h2>Підібрати товар</h2></div><p id="result-count"></p></div>
+      <div class="filter-bar">
+        <label class="search"><span>Пошук</span><input id="catalog-search" type="search" placeholder="Модель, бренд або назва"></label>
+        <label><span>Категорія</span><select id="category-filter"><option value="">Усі категорії</option></select></label>
+        <label><span>Бренд</span><select id="brand-filter"><option value="">Усі бренди</option></select></label>
+        <label><span>Сортування</span><select id="sort-filter"><option value="featured">Рекомендовані</option><option value="name">За назвою</option><option value="brand">За брендом</option></select></label>
+        <button id="filter-reset" type="button">Скинути</button>
+      </div>
+      <div class="product-grid" id="product-grid"></div>
+    </section>
+
+    <section class="services-section" id="services">
+      <div class="section-title"><div><span>ПОСЛУГИ ALT-CAM</span><h2>Від обстеження до підтримки</h2></div><p>Точну вартість погоджуємо після фото або огляду об’єкта.</p></div>
+      <div class="service-catalog" id="service-grid"></div>
+    </section>
+  </main>
+
+  <aside class="cart" id="cart" aria-hidden="true">
+    <button class="cart-backdrop" id="cart-backdrop" aria-label="Закрити кошик"></button>
+    <div class="cart-panel">
+      <div class="cart-head"><div><span>ВАШЕ ЗАМОВЛЕННЯ</span><h2>Кошик</h2></div><button id="cart-close" type="button">×</button></div>
+      <div id="cart-items" class="cart-items"></div>
+      <div class="cart-footer">
+        <p>Менеджер перевірить сумісність, наявність і роздрібну ціну перед підтвердженням.</p>
+        <div class="checkout-fields">
+          <input id="order-name" type="text" placeholder="Ваше ім’я">
+          <input id="order-phone" type="tel" placeholder="Телефон +380…">
+          <input id="order-city" type="text" placeholder="Місто / населений пункт">
+        </div>
+        <button class="order-button" id="cart-order" type="button">Надіслати заявку в Telegram</button>
+      </div>
+    </div>
+  </aside>
+
+  <script src="catalog-data.js?v=preview-1"></script>
+  <script src="service-rates-draft.js?v=1"></script>
+  <script src="catalog.js?v=preview-1"></script>
+</body>
+</html>

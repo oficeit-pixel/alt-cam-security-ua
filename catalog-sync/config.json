@@ -1,0 +1,17 @@
+{
+  "language": "uk",
+  "currency": "UAH",
+  "viatec_feed_url": "https://viatec.ua/files/product_info_a_uk.xml",
+  "yugtorg_api_base": "https://b2b.yugtorg.com/apiservices/export",
+  "included_root_category_ids": [186, 2, 5, 185, 188],
+  "google_drive": {
+    "root_folder_id": "1mfgyJ0tNJ8zX2dntMy7c2NfvfaFs5Sm3",
+    "raw_folder_id": "1KuBRIFy_T1_DbzcRBUcpsXMqssm9cqg1",
+    "normalized_folder_id": "1eveLS7OngFJvOyYMmzcQws17jDKspkh-",
+    "media_review_folder_id": "1339DD_V_XVEPfc_GIn7lBgCZi6B3Dop4",
+    "meta_folder_id": "1EcmvrT3B5VhpOX7Z6H2MKctkoHdArQGv",
+    "site_telegram_folder_id": "1lc2BWALMmH7w71c-DsR0RueC1D77b9Cx",
+    "tiktok_folder_id": "1Yn3BoDYZ6G-GPAh7NiC8Z_IlccKz_TRx",
+    "reports_folder_id": "1v4e-YDt1I1Bqw-vtc9sLM0GbqbM0k9Fr"
+  }
+}

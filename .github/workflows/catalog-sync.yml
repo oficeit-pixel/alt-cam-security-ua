@@ -1,0 +1,49 @@
+name: ALT-CAM catalog sync
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */4 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build normalized catalog
+        env:
+          YUGTORG_API_KEY: ${{ secrets.YUGTORG_API_KEY }}
+        run: python scripts/sync_product_catalog.py
+      - name: Build public site catalog and Meta feed
+        run: |
+          python scripts/build_site_catalog.py
+          python scripts/generate_meta_catalog.py
+      - name: Upload catalog build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: altcam-catalog
+          path: catalog-sync/output
+          retention-days: 14
+      - name: Install Google Drive client
+        if: env.GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON != ''
+        run: pip install google-api-python-client google-auth
+      - name: Upload reports and normalized catalog to Google Drive
+        if: env.GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON != ''
+        run: python scripts/upload_catalog_to_drive.py
+      - name: Publish refreshed site and Meta feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog-data.js feeds/meta-catalog.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh ALT-CAM product catalog [skip ci]"
+            git push
+          fi
