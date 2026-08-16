@@ -518,7 +518,7 @@ def parse_dt(value: str) -> datetime:
 
 
 def is_due(post: dict, now: datetime, force: bool) -> bool:
-    if post.get("status", "ready") != "ready":
+    if post.get("status", "ready") not in {"ready", "approved"}:
         return False
     if force:
         return True
@@ -530,25 +530,23 @@ def is_due(post: dict, now: datetime, force: bool) -> bool:
     return scheduled <= now
 
 
-def latest_successful_publication(state: dict) -> datetime | None:
+def latest_platform_publication(state: dict, platform: str) -> datetime | None:
     latest = None
     for post_state in state.get("published", {}).values():
-        if not isinstance(post_state, dict):
+        platform_state = post_state.get(platform) if isinstance(post_state, dict) else None
+        if not isinstance(platform_state, dict):
             continue
-        for platform_state in post_state.values():
-            if not isinstance(platform_state, dict):
-                continue
-            value = platform_state.get("published_at")
-            if not value:
-                continue
-            try:
-                published_at = parse_dt(value)
-            except (TypeError, ValueError):
-                continue
-            if published_at.tzinfo is None:
-                published_at = published_at.replace(tzinfo=timezone.utc)
-            if latest is None or published_at > latest:
-                latest = published_at
+        value = platform_state.get("published_at")
+        if not value:
+            continue
+        try:
+            published_at = parse_dt(value)
+        except (TypeError, ValueError):
+            continue
+        if published_at.tzinfo is None:
+            published_at = published_at.replace(tzinfo=timezone.utc)
+        if latest is None or published_at > latest:
+            latest = published_at
     return latest
 
 
@@ -578,16 +576,16 @@ def main() -> int:
     min_interval_minutes = max(
         0, int(os.getenv("MIN_SUCCESS_INTERVAL_MINUTES", "0"))
     )
-    if not args.force and min_interval_minutes:
-        latest_publication = latest_successful_publication(state)
-        if latest_publication is not None:
-            next_allowed = latest_publication + timedelta(minutes=min_interval_minutes)
-            if now < next_allowed:
-                print(
-                    "No due posts: publication interval is active; "
-                    f"next attempt after {next_allowed.isoformat()}."
-                )
-                return 0
+    platform_ready_at = {}
+    for platform in PUBLISHERS:
+        latest = latest_platform_publication(state, platform)
+        platform_ready_at[platform] = (
+            latest + timedelta(minutes=min_interval_minutes) if latest else None
+        )
+
+    def platform_interval_open(platform: str) -> bool:
+        ready_at = platform_ready_at.get(platform)
+        return args.force or ready_at is None or now >= ready_at
     selected = []
     max_posts_per_run = max(1, int(os.getenv("MAX_POSTS_PER_RUN", "1")))
     for post in posts:
@@ -603,6 +601,7 @@ def main() -> int:
             and platform not in disabled_platforms
             and (not platforms_filter or platform in platforms_filter)
             and platform_has_credentials(platform)
+            and platform_interval_open(platform)
             and not post_state.get(platform)
         ]
         if not actionable_platforms:
@@ -618,6 +617,7 @@ def main() -> int:
     published_count = 0
     skipped_count = 0
     failed = []
+    attempted_platforms = set()
 
     for post in selected:
         post_state = state["published"].setdefault(post["id"], {})
@@ -627,6 +627,12 @@ def main() -> int:
         platforms = [p for p in platforms if p not in disabled_platforms]
 
         for platform in platforms:
+            if platform in attempted_platforms and not args.force:
+                skipped_count += 1
+                continue
+            if not platform_interval_open(platform):
+                skipped_count += 1
+                continue
             if not platform_has_credentials(platform):
                 warn(f"Skip not configured platform: {post['id']} -> {platform}")
                 skipped_count += 1
@@ -638,6 +644,7 @@ def main() -> int:
                 continue
 
             print(f"{'DRY ' if dry_run else ''}PUBLISH {post['id']} -> {platform}")
+            attempted_platforms.add(platform)
             if dry_run:
                 continue
 
@@ -674,8 +681,7 @@ def main() -> int:
             "on",
         }
         if fail_on_error:
-            if published_count == 0:
-                error("All publication attempts failed. Check tokens, permissions, and app access.")
+            error("One or more publication attempts failed. Check tokens and permissions.")
             return 1
     return 0
 
