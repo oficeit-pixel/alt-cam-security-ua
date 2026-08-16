@@ -25,7 +25,7 @@ jobs:
       MIN_SUCCESS_INTERVAL_MINUTES: "120"
       DRY_RUN: "false"
       FAIL_ON_PUBLISH_ERROR: "true"
-      DISABLED_PLATFORMS: "instagram,instagram_story,threads,telegram,tiktok"
+      DISABLED_PLATFORMS: "facebook_story,instagram,instagram_story,threads,telegram,tiktok"
 
     steps:
       - uses: actions/checkout@v4
