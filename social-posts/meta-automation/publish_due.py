@@ -143,12 +143,26 @@ def post_json(url: str, token: str, payload: dict) -> dict:
     return body
 
 
-def publish_facebook(post: dict) -> dict:
+def facebook_page_credentials() -> tuple[str, str]:
     env = require_env("FACEBOOK_PAGE_ID", "FACEBOOK_PAGE_ACCESS_TOKEN")
+    page_id = env["FACEBOOK_PAGE_ID"]
+    source_token = env["FACEBOOK_PAGE_ACCESS_TOKEN"]
+    page = get_graph(page_id, source_token, {"fields": "access_token"})
+    page_token = str(page.get("access_token", "")).strip()
+    if not page_token:
+        raise RuntimeError(
+            "Meta did not return a Page Access Token. Assign the Page to the System User "
+            "with content-management access."
+        )
+    return page_id, page_token
+
+
+def publish_facebook(post: dict) -> dict:
+    page_id, token = facebook_page_credentials()
     if post.get("media_type") == "video":
         return post_graph(
-            f"{env['FACEBOOK_PAGE_ID']}/videos",
-            env["FACEBOOK_PAGE_ACCESS_TOKEN"],
+            f"{page_id}/videos",
+            token,
             {
                 "file_url": post["video_url"],
                 "description": caption_for(post, "facebook"),
@@ -156,8 +170,8 @@ def publish_facebook(post: dict) -> dict:
             },
         )
     return post_graph(
-        f"{env['FACEBOOK_PAGE_ID']}/photos",
-        env["FACEBOOK_PAGE_ACCESS_TOKEN"],
+        f"{page_id}/photos",
+        token,
         {
             "url": post["image_url"],
             "caption": caption_for(post, "facebook"),
@@ -167,9 +181,7 @@ def publish_facebook(post: dict) -> dict:
 
 
 def publish_facebook_story(post: dict) -> dict:
-    env = require_env("FACEBOOK_PAGE_ID", "FACEBOOK_PAGE_ACCESS_TOKEN")
-    page_id = env["FACEBOOK_PAGE_ID"]
-    token = env["FACEBOOK_PAGE_ACCESS_TOKEN"]
+    page_id, token = facebook_page_credentials()
 
     if post.get("media_type") == "video":
         raise RuntimeError("Facebook story video publishing is not enabled in this queue; use image stories.")
