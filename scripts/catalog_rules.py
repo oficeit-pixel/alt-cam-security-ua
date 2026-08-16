@@ -7,16 +7,16 @@ from urllib.parse import quote
 
 
 GROUPS = {
-    "cameras": ("Відеоспостереження", "Камери"),
-    "recorders_storage": ("Відеоспостереження", "Реєстратори та накопичувачі"),
-    "intercoms": ("Домофонія та доступ", "Домофони"),
-    "access_control": ("Домофонія та доступ", "Контроль доступу"),
-    "ajax_security": ("Охоронні системи", "Ajax та сигналізація"),
-    "backup_power": ("Резервне живлення", "ДБЖ, АКБ та інвертори"),
-    "brackets_junction_boxes": ("Кронштейни та коробки", "Кронштейни та монтажні бокси"),
-    "cables_connectors": ("Кабель та конектори", "Кабель, роз'єми та перехідники"),
-    "installation_consumables": ("Монтажні матеріали", "Кріплення та витратні матеріали"),
-    "accessories": ("Аксесуари", "Аксесуари"),
+    "cameras": "Камери відеоспостереження",
+    "recorders_storage": "Відеореєстратори та накопичувачі",
+    "intercoms": "Домофони та викличні панелі",
+    "access_control": "Системи контролю доступу",
+    "ajax_security": "Ajax та охоронна сигналізація",
+    "backup_power": "Резервне живлення",
+    "brackets_junction_boxes": "Кронштейни та монтажні коробки",
+    "cables_connectors": "Кабель для систем безпеки",
+    "installation_consumables": "Монтажні матеріали",
+    "accessories": "Аксесуари для систем безпеки",
 }
 
 # Only supplier categories that belong to the ALT-CAM assortment are public.
@@ -26,12 +26,12 @@ ALLOWED_CATEGORY_IDS = {
     "recorders_storage": {12, 17, 271},
     "intercoms": {20, 21, 22, 23},
     "access_control": {25, 26, 27, 28, 29, 30, 31, 32, 64, 71, 268},
-    "ajax_security": {11, 38, 39, 40, 41, 79, 82, 84, 158, 173},
+    "ajax_security": {11, 38, 39, 40, 41, 84},
     "backup_power": {46, 47, 87, 88, 163, 192, 200, 216, 217, 218, 237, 239, 263},
     "brackets_junction_boxes": {15, 24, 71, 200, 210, 266},
     "cables_connectors": {45, 239},
     "installation_consumables": {43, 44, 48, 194, 240},
-    "accessories": {24, 42, 46, 71, 139, 194, 217},
+    "accessories": {24, 42, 46, 71, 217},
 }
 
 
@@ -56,11 +56,33 @@ def normalize_image_url(value: object) -> str:
     return quote(url, safe=":/%?&=+#,()[]")
 
 
+def public_category(group: str, product: dict) -> str:
+    category_id = int(product.get("category_id") or 0)
+    if group == "cameras" and category_id == 155:
+        return "Комплекти відеоспостереження"
+    if group == "intercoms" and category_id == 23:
+        return "Комплекти домофонії"
+    return GROUPS[group]
+
+
+def public_description(value: object) -> str:
+    description = clean(value, 5000)
+    description = re.sub(r"https?://\S+|www\.\S+", "", description, flags=re.IGNORECASE)
+    description = re.sub(r"\b(?:Viatec|Югторг|Yugtorg|Nadzor)\b", "", description, flags=re.IGNORECASE)
+    return re.sub(r"\s+", " ", description).strip()
+
+
 def is_publishable(product: dict, group: str) -> bool:
     price = float(product.get("source_price_uah") or 0)
     image = clean(product.get("image_url"), 2000)
+    category_id = int(product.get("category_id") or 0)
+    title = f"{product.get('name_uk', '')} {product.get('model', '')}".lower()
+    security_detector = bool(
+        re.search(r"ajax|охорон|рух|відкрит|магнітоконтакт|розбит|вібрац|тривож|затоп", title)
+    )
     return bool(
-        int(product.get("category_id") or 0) in ALLOWED_CATEGORY_IDS[group]
+        category_id in ALLOWED_CATEGORY_IDS[group]
+        and (group != "ajax_security" or category_id != 39 or security_detector)
         and
         product.get("in_stock")
         and product.get("catalog_id")
@@ -73,7 +95,7 @@ def is_publishable(product: dict, group: str) -> bool:
 
 def load_public_products(source: Path) -> list[dict]:
     products: list[dict] = []
-    for group, (category, subcategory) in GROUPS.items():
+    for group in GROUPS:
         path = source / f"{group}.json"
         for item in json.loads(path.read_text(encoding="utf-8")):
             if not is_publishable(item, group):
@@ -82,12 +104,12 @@ def load_public_products(source: Path) -> list[dict]:
                 {
                     "id": clean(item["catalog_id"], 100),
                     "sku": clean(item.get("sku") or item.get("model") or item["catalog_id"], 100),
-                    "category": category,
-                    "subcategory": subcategory,
+                    "category": public_category(group, item),
+                    "subcategory": "",
                     "brand": infer_brand(item),
                     "name": clean(item.get("name_uk") or item.get("model") or "Обладнання", 200),
                     "model": clean(item.get("model"), 150),
-                    "description": clean(item.get("description_uk"), 5000) or "Характеристики уточнюються.",
+                    "description": public_description(item.get("description_uk")) or "Характеристики уточнюються.",
                     "image": normalize_image_url(item["image_url"]),
                     "available": True,
                     "price": round(float(item["source_price_uah"]), 2),

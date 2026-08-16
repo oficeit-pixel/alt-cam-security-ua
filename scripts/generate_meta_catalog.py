@@ -28,9 +28,9 @@ def main() -> None:
                 "link": f"{SITE}?product={quote(product['id'])}",
                 "image_link": product["image"],
                 "brand": product["brand"],
-                "product_type": f"{product['category']} > {product['subcategory']}",
+                "product_type": product["category"],
                 "custom_label_0": product["category"],
-                "custom_label_1": product["subcategory"],
+                "custom_label_1": "",
                 "custom_label_2": "ALT-CAM retail",
             }
         )

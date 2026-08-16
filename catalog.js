@@ -35,7 +35,6 @@ function clean(value){return String(value||'').replace(/<[^>]+>|&\w+;/g,' ').rep
 function money(value){return new Intl.NumberFormat('uk-UA').format(value)+' ₴'}
 function track(event,data={}){fetch(API+'/api/analytics',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({event,session_id:sessionId,page:location.pathname,data}),keepalive:true}).catch(()=>{})}
 function defaultShowcase(list){
-  const isKit=item=>/комплект|набір/i.test(`${item.name} ${item.model}`);
   const cablePriority=item=>{
     const text=`${item.name} ${item.model}`.toLowerCase();
     if(/вита пара|звита пара|\butp\b|\bftp\b/.test(text)) return 0;
@@ -43,12 +42,12 @@ function defaultShowcase(list){
     if(/коаксіальн|коаксиальн|\brg[- ]?\d|\bквк\b/.test(text)) return 2;
     return 3;
   };
-  const cables=list.filter(item=>item.category==='Кабель та конектори').sort((a,b)=>cablePriority(a)-cablePriority(b));
+  const cables=list.filter(item=>item.category==='Кабель для систем безпеки').sort((a,b)=>cablePriority(a)-cablePriority(b));
   const buckets=[
-    list.filter(item=>item.category==='Відеоспостереження'&&isKit(item)),
-    list.filter(item=>item.subcategory==='Домофони'&&isKit(item)),
-    list.filter(item=>item.category==='Охоронні системи'),
-    list.filter(item=>item.subcategory==='Контроль доступу'),
+    list.filter(item=>item.category==='Комплекти відеоспостереження'),
+    list.filter(item=>item.category==='Комплекти домофонії'),
+    list.filter(item=>item.category==='Ajax та охоронна сигналізація'),
+    list.filter(item=>item.category==='Системи контролю доступу'),
     cables
   ];
   const showcase=[];
@@ -64,7 +63,7 @@ function renderProducts(){
   if(sort.value==='featured'&&!category.value&&!brand.value&&!query) list=defaultShowcase(list);
   document.querySelector('#result-count').textContent=`Знайдено: ${list.length}`;
   const visible=list.slice(0,visibleCount);
-  grid.innerHTML=list.length?visible.map(item=>{const retail=publicPrices[item.id]||item.price;const revealed=revealedPrices.has(item.id);return `<article class="product-card"><div class="product-image"><span class="stock">Є в наявності</span><img src="${item.image}" alt="${clean(item.name)}" loading="lazy"></div><div class="product-copy"><small>${clean(item.category)} · ${clean(item.subcategory)}</small><h3>${clean(item.model||item.name)}</h3><p>${clean(item.description)}</p>${revealed?`<div class="revealed-price"><strong>${retail?money(retail):'Ціна підтверджується менеджером'}</strong><small>Ціна за 1 шт. При замовленні монтажу, комплекту, кількох камер або аксесуарів ціна буде перерахована.</small></div>`:`<button class="price-button" data-reveal-price="${item.id}">Уточнити ціну</button>`}<div class="product-bottom"><span>Гарантія та підбір ALT-CAM</span><button class="add-button" data-add="${item.id}">До кошика</button></div></div></article>`}).join(''):'<div class="no-results">За цими параметрами товарів не знайдено.</div>';
+  grid.innerHTML=list.length?visible.map(item=>{const retail=publicPrices[item.id]||item.price;const revealed=revealedPrices.has(item.id);return `<article class="product-card"><div class="product-image"><span class="stock">Є в наявності</span><img src="${item.image}" alt="${clean(item.name)}" loading="lazy"><span class="product-brand">ALT-CAM</span></div><div class="product-copy"><h3>${clean(item.name)}</h3><p>${clean(item.description)}</p>${revealed?`<div class="revealed-price"><strong>${retail?money(retail):'Ціна підтверджується менеджером'}</strong><small>Ціна за 1 шт. При замовленні монтажу, комплекту, кількох камер або аксесуарів ціна буде перерахована.</small></div>`:`<button class="price-button" data-reveal-price="${item.id}">Уточнити ціну</button>`}<div class="product-bottom"><span>Гарантія та підбір ALT-CAM</span><button class="add-button" data-add="${item.id}">До кошика</button></div></div></article>`}).join(''):'<div class="no-results">За цими параметрами товарів не знайдено.</div>';
   loadMore.hidden=visible.length>=list.length;
 }
 
