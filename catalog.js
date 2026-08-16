@@ -36,12 +36,20 @@ function money(value){return new Intl.NumberFormat('uk-UA').format(value)+' ₴'
 function track(event,data={}){fetch(API+'/api/analytics',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({event,session_id:sessionId,page:location.pathname,data}),keepalive:true}).catch(()=>{})}
 function defaultShowcase(list){
   const isKit=item=>/комплект|набір/i.test(`${item.name} ${item.model}`);
+  const cablePriority=item=>{
+    const text=`${item.name} ${item.model}`.toLowerCase();
+    if(/вита пара|звита пара|\butp\b|\bftp\b/.test(text)) return 0;
+    if(/сигнальн|сигналіза/.test(text)) return 1;
+    if(/коаксіальн|коаксиальн|\brg[- ]?\d|\bквк\b/.test(text)) return 2;
+    return 3;
+  };
+  const cables=list.filter(item=>item.category==='Кабель та конектори').sort((a,b)=>cablePriority(a)-cablePriority(b));
   const buckets=[
     list.filter(item=>item.category==='Відеоспостереження'&&isKit(item)),
     list.filter(item=>item.subcategory==='Домофони'&&isKit(item)),
     list.filter(item=>item.category==='Охоронні системи'),
     list.filter(item=>item.subcategory==='Контроль доступу'),
-    list.filter(item=>item.category==='Кабель та конектори')
+    cables
   ];
   const showcase=[];
   for(let index=0;index<10;index+=1) buckets.forEach(bucket=>{if(bucket[index])showcase.push(bucket[index])});
