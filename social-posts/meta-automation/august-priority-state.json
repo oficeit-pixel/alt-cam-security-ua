@@ -1385,6 +1385,123 @@
           }
         }
       }
+    },
+    "meta-priority-altcam-product-2026-08-13-02-product": {
+      "instagram": {
+        "published_at": "2026-08-17T11:13:07.948433+00:00",
+        "result": {
+          "container": {
+            "id": "18081169409418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18081169409418944"
+          },
+          "published": {
+            "id": "18144898948556348"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-08-17T11:13:16.840971+00:00",
+        "result": {
+          "container": {
+            "id": "18081026000424516"
+          },
+          "published": {
+            "id": "18376344430226896"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-08-17T11:13:18.704407+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 64,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1786965198,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADQGqC7M7taf5jVQ1orLgpBArtQLDAAALCD2sbxFkcUGA65KBXwh4TAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADwg9rG8RZHFB4",
+                  "file_size": 1643,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADQGqC7M7taf5jVQ1orLgpBArtQLDAAALCD2sbxFkcUGA65KBXwh4TAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADwg9rG8RZHFBy",
+                  "file_size": 18579,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADQGqC7M7taf5jVQ1orLgpBArtQLDAAALCD2sbxFkcUGA65KBXwh4TAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADwg9rG8RZHFB9",
+                  "file_size": 65272,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADQGqC7M7taf5jVQ1orLgpBArtQLDAAALCD2sbxFkcUGA65KBXwh4TAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADwg9rG8RZHFB-",
+                  "file_size": 134898,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADQGqC7M7taf5jVQ1orLgpBArtQLDAAALCD2sbxFkcUGA65KBXwh4TAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADwg9rG8RZHFB8",
+                  "file_size": 158389,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Нічна картинка має бути кольоровою, якщо вам важливо впізнати деталі.\n\nТовар: Hikvision DS-2CD1047G3H-LIUF ColorVu 4МП\nДля кого: двір / фасад / вхід / магазин\n\n• ColorVu 3.0\n• Smart Hybrid Light до 30 м\n• 4МП\n• вдалий варіант для входу, двору й фасаду\n\nВартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.\n\nНатисніть кнопку або напишіть «COLORVU» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 69,
+                  "type": "bold"
+                },
+                {
+                  "offset": 71,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 119,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 253,
+                  "length": 99,
+                  "type": "code"
+                },
+                {
+                  "offset": 426,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
