@@ -1252,6 +1252,121 @@
           "id": "122133451755226993",
           "post_id": "962902993572061_122133451779226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-08-17T07:37:08.175981+00:00",
+        "result": {
+          "container": {
+            "id": "18081119333418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18081119333418944"
+          },
+          "published": {
+            "id": "18082167602288471"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-08-17T07:37:15.355123+00:00",
+        "result": {
+          "container": {
+            "id": "18080980337424516"
+          },
+          "published": {
+            "id": "17999682797794331"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-08-17T07:37:16.973178+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 63,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1786952236,
+              "photo": [
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADP2qCuizh0s_zYufOgOjNfxrocIWCAAIZEGsbLPAUUK4HJGcoIL0pAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADGRBrGyzwFFB4",
+                  "file_size": 1516,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADP2qCuizh0s_zYufOgOjNfxrocIWCAAIZEGsbLPAUUK4HJGcoIL0pAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADGRBrGyzwFFBy",
+                  "file_size": 20023,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADP2qCuizh0s_zYufOgOjNfxrocIWCAAIZEGsbLPAUUK4HJGcoIL0pAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADGRBrGyzwFFB9",
+                  "file_size": 78943,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADP2qCuizh0s_zYufOgOjNfxrocIWCAAIZEGsbLPAUUK4HJGcoIL0pAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADGRBrGyzwFFB-",
+                  "file_size": 161017,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgQAAyEGAAMBAYhzkgADP2qCuizh0s_zYufOgOjNfxrocIWCAAIZEGsbLPAUUK4HJGcoIL0pAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADGRBrGyzwFFB8",
+                  "file_size": 183644,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Для серйозного об’єкта потрібна не “просто камера”, а аналітика.\n\nТовар: Dahua WizMind Triple‑Sight DH-IPC-MFW5241T2-E3-ASE\nДля кого: периметр / склад / логістика / бізнес\n\n• 3×2МП\n• AI-розпізнавання сценаріїв\n• захист IP67\n• контроль широкої зони з однієї точки\n\nВартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.\n\nНатисніть кнопку або напишіть «WIZMIND» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 64,
+                  "type": "bold"
+                },
+                {
+                  "offset": 66,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 124,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 264,
+                  "length": 99,
+                  "type": "code"
+                },
+                {
+                  "offset": 437,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
       }
     }
   }
