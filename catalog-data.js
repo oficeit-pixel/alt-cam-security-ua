@@ -32462,22 +32462,6 @@ window.ALTCAM_CATALOG = [
     "price": 69.0
   },
   {
-    "id": "viatec-17894",
-    "sku": "99-00024097",
-    "category": "Резервне живлення",
-    "subcategory": "",
-    "brand": "2E",
-    "name": "Джерело безперебійного живлення",
-    "model": "2E DD650",
-    "description": "● Тип &nbsp; &nbsp; Лінійно-інтерактивний;● Максимальна вихідна потужність, ВА&nbsp; &nbsp; &nbsp;650;● Ефективна вихідна потужність, Вт 360;● Розетки 2xSchuko;● Вбудована батарея 12В/ 7A&bull;год x1;● Додатково функція \"рестарт\" / автоматична стабілізація напруги AVR / функція \"холодний старт\";● Розміри, мм 140x100x290;● Вага, кг 4.3",
-    "features": [
-      "360 Вт"
-    ],
-    "image": "https://viatec.ua/upload/2/DD850.webp",
-    "available": true,
-    "price": 2398.0
-  },
-  {
     "id": "viatec-20813",
     "sku": "99-10035855",
     "category": "Резервне живлення",
@@ -32575,6 +32559,23 @@ window.ALTCAM_CATALOG = [
     "image": "https://viatec.ua/upload/2/flexible-solar-panel-100w-aits.webp",
     "available": true,
     "price": 2641.0
+  },
+  {
+    "id": "viatec-21671",
+    "sku": "99-10038072",
+    "category": "Резервне живлення",
+    "subcategory": "",
+    "brand": "Atis",
+    "name": "Сонячна панель",
+    "model": "ATIS 150 Вт гнучка монокристалічна",
+    "description": "● Номінальна потужність: 150 Вт;● Тип елементів: монокристалічні, гнучкі;● Робоча напруга (Vmp): 18,6 В;● Робочий струм (Imp): 8,06 А;● Напруга холостого ходу (Voc): 21,8 В;● Струм короткого замикання (Isc): 8,43 А;● Діапазон робочих температур: &ndash;40 &deg;C -+85 &deg;C;● Рекомендована система: 12 В через контролер заряду;● Тип роз'ємів: MC4, вологозахищені;● Довжина кабелю: близько 0,8&ndash;1 м;● Матеріал поверхні: PET, стійка до УФ і вологи;● Розміри: 806,3 &times; 947,5 &times; 2,5 мм;● Вага: 1,4 кг",
+    "features": [
+      "2,5 мм",
+      "150 Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/flexible-solar-panel-150w-aits.webp",
+    "available": true,
+    "price": 3521.0
   },
   {
     "id": "viatec-18096",
@@ -32858,23 +32859,6 @@ window.ALTCAM_CATALOG = [
     "image": "https://viatec.ua/upload/2/battery-dyness-s51100.webp",
     "available": true,
     "price": 40275.0
-  },
-  {
-    "id": "viatec-17296",
-    "sku": "99-10024521",
-    "category": "Резервне живлення",
-    "subcategory": "",
-    "brand": "Dyness",
-    "name": "Літієва акумуляторна батарея",
-    "model": "Dyness DL5.0C 51.2В 5.12 кВт•год 100А з підігрівом та Wi-Fi модулем",
-    "description": "● Тип акумулятора: LiFePo4 &ndash; літій-залізо-фосфат;● Вихідна напруга: 51,2 В;● Місткість: 100 А●г;● Максимальний струм заряду: 75 А, максимальний струм розряду: 100 А;● Інтерфейси: CAN/RS485/RS232;● Підігрів;● Розміри: 558 х 545 х 150 мм;● Вага: 54 кг",
-    "features": [
-      "Wi-Fi",
-      "150 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-07/dl5-0c.webp",
-    "available": true,
-    "price": 40050.0
   },
   {
     "id": "viatec-21298",
@@ -35737,22 +35721,6 @@ window.ALTCAM_CATALOG = [
     "image": "https://viatec.ua/upload/images/prod/2024-10/IMG_3805.webp",
     "available": true,
     "price": 707.0
-  },
-  {
-    "id": "viatec-14253",
-    "sku": "99-00019804",
-    "category": "Резервне живлення",
-    "subcategory": "",
-    "brand": "Powercom",
-    "name": "Стабілізатор",
-    "model": "Powercom TCA-2000 Schuko",
-    "description": "● Кількість фаз: 1;● Повна потужність, ВА: 2000;● Номінальна потужність, Вт: 1000;● Форма вихідної напруги: апроксимована синусоїда;● Кількість розеток: 4 Schuko;● Довжина мережевого кабелю, м: 1,2;● Габарити, мм: 123 x 136 x 102;● Вага продукту, кг: 1.8",
-    "features": [
-      "1000 Вт"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-07/TCA-1200.webp",
-    "available": true,
-    "price": 1710.0
   },
   {
     "id": "viatec-13965",
@@ -40035,22 +40003,6 @@ window.ALTCAM_CATALOG = [
     "image": "https://viatec.ua/upload/images/prod/2023-04/EM-Marin_SEVEN_R-70_bl.webp",
     "available": true,
     "price": 13.0
-  },
-  {
-    "id": "viatec-15066",
-    "sku": "99-00022508",
-    "category": "Системи контролю доступу",
-    "subcategory": "",
-    "brand": "Seven",
-    "name": "Біометричний замок",
-    "model": "SEVEN LOCK SL-7775BF black",
-    "description": "● Відбитком пальця (200 шт.);● ПІН-кодом (150 шт.);● Картками / брелками MIFARE (200 шт.);● Bluetooth (через безкоштовний мобільний додаток);● Брелком Bluetooth SEVEN LOCK SR-7716B smart (купується окремо);● Wi-Fi (опціонально, за допомогою шлюзу SL-7734);●&nbsp;З домофону (опціонально за допомогою Модуля інтеграції SEVEN LOCK m-7718bi);● Піднесенням телефону до замка (за допомогою NFC мітки SEVEN R-90);● При інтеграції з розумним будинком GOOGLE HOME можна керувати замками за допомогою голосу чи смарт сценаріїв.",
-    "features": [
-      "Wi-Fi"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-10/SL-7775BF.webp",
-    "available": true,
-    "price": 13546.0
   },
   {
     "id": "viatec-17730",
