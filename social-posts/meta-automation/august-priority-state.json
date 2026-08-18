@@ -1777,6 +1777,95 @@
             "id": "18337664305285444"
           }
         }
+      },
+      "telegram": {
+        "published_at": "2026-08-18T13:14:36.345936+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 67,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1787058876,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADQ2qEWrxz8yIVXp2VTn75IIr8yMZJAAJzGGsbn2QhSOb4BKU--J5RAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADcxhrG59kIUh4",
+                  "file_size": 1361,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADQ2qEWrxz8yIVXp2VTn75IIr8yMZJAAJzGGsbn2QhSOb4BKU--J5RAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADcxhrG59kIUhy",
+                  "file_size": 18696,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADQ2qEWrxz8yIVXp2VTn75IIr8yMZJAAJzGGsbn2QhSOb4BKU--J5RAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADcxhrG59kIUh9",
+                  "file_size": 73515,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADQ2qEWrxz8yIVXp2VTn75IIr8yMZJAAJzGGsbn2QhSOb4BKU--J5RAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADcxhrG59kIUh-",
+                  "file_size": 142817,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADQ2qEWrxz8yIVXp2VTn75IIr8yMZJAAJzGGsbn2QhSOb4BKU--J5RAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADcxhrG59kIUh8",
+                  "file_size": 167286,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Коли камер багато, слабкий реєстратор стає вузьким місцем усієї системи.\n\nТовар: Dahua DHI-NVR58128H-XI 128-канальний WizMind\nДля кого: склад / виробництво / великий бізнес / мережа об’єктів\n\n• 128 каналів\n• 8 HDD\n• AI-аналітика\n• рішення для великих систем відеонагляду\n\nЦіна: орієнтир: 94 520 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nНатисніть кнопку або напишіть «NVR» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 72,
+                  "type": "bold"
+                },
+                {
+                  "offset": 74,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 126,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 272,
+                  "length": 101,
+                  "type": "code"
+                },
+                {
+                  "offset": 443,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
       }
     },
     "meta-priority-altcam-product-2026-08-14-03-product": {
