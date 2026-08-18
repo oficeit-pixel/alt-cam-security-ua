@@ -1,4 +1,5 @@
 import argparse
+from io import BytesIO
 import json
 import os
 import sys
@@ -360,10 +361,8 @@ def publish_telegram(post: dict) -> dict:
     is_video = post.get("media_type") == "video"
     media_method = "sendVideo" if is_video else "sendPhoto"
     media_key = "video" if is_video else "photo"
-    media_payload = {
-        "chat_id": chat_id,
-        media_key: post["video_url"] if is_video else post["image_url"],
-    }
+    media_url = post["video_url"] if is_video else post["image_url"]
+    media_payload = {"chat_id": chat_id}
     followup = None
     if len(caption) <= 1024:
         media_payload["caption"] = caption
@@ -373,10 +372,25 @@ def publish_telegram(post: dict) -> dict:
         media_payload["caption"] = caption[:1000].rstrip() + "…"
         followup = caption
 
+    source_response = requests.get(media_url, timeout=60)
+    source_response.raise_for_status()
+    content_type = source_response.headers.get("Content-Type", "").split(";", 1)[0].strip().lower()
+    expected_prefix = "video/" if is_video else "image/"
+    if not content_type.startswith(expected_prefix):
+        raise RuntimeError(
+            f"Telegram source media has invalid Content-Type: {content_type or 'missing'}"
+        )
+    max_size = 50 * 1024 * 1024 if is_video else 10 * 1024 * 1024
+    if len(source_response.content) > max_size:
+        raise RuntimeError(f"Telegram source media is too large: {len(source_response.content)} bytes")
+    suffix = Path(media_url.split("?", 1)[0]).suffix or (".mp4" if is_video else ".jpg")
+    upload = BytesIO(source_response.content)
+    upload.name = f"altcam{suffix}"
     media_response = requests.post(
         f"{api_base}/{media_method}",
         data=media_payload,
-        timeout=60,
+        files={media_key: (upload.name, upload, content_type)},
+        timeout=120,
     )
     try:
         media_body = media_response.json()
