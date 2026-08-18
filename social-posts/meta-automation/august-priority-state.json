@@ -2245,6 +2245,95 @@
             "id": "18098613659579443"
           }
         }
+      },
+      "telegram": {
+        "published_at": "2026-08-18T22:37:31.983040+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 71,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1787092651,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADR2qE3qtgBIuSpO4_behS5rTFnn_nAAJ9F2sbn2QpSHJzEjDuwMdoAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADfRdrG59kKUh4",
+                  "file_size": 1457,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADR2qE3qtgBIuSpO4_behS5rTFnn_nAAJ9F2sbn2QpSHJzEjDuwMdoAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADfRdrG59kKUhy",
+                  "file_size": 18598,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADR2qE3qtgBIuSpO4_behS5rTFnn_nAAJ9F2sbn2QpSHJzEjDuwMdoAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADfRdrG59kKUh9",
+                  "file_size": 73560,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADR2qE3qtgBIuSpO4_behS5rTFnn_nAAJ9F2sbn2QpSHJzEjDuwMdoAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADfRdrG59kKUh-",
+                  "file_size": 140315,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADR2qE3qtgBIuSpO4_behS5rTFnn_nAAJ9F2sbn2QpSHJzEjDuwMdoAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADfRdrG59kKUh8",
+                  "file_size": 168388,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Відкривати двері потрібно тільки тому, кого ви бачите.\n\nТовар: IP виклична панель для хвіртки або входу\nДля кого: приватний будинок / офіс / ЖК / ворота\n\n• відеовиклик\n• зв’язок зі смартфоном\n• сценарій для хвіртки або входу\n• можна інтегрувати з електрозамком\n\nВартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.\n\nНатисніть кнопку або напишіть «ПАНЕЛЬ» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 54,
+                  "type": "bold"
+                },
+                {
+                  "offset": 56,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 104,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 262,
+                  "length": 99,
+                  "type": "code"
+                },
+                {
+                  "offset": 434,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
       }
     },
     "meta-priority-altcam-product-2026-08-16-01-product": {
