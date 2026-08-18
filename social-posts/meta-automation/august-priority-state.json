@@ -1806,6 +1806,34 @@
           }
         }
       }
+    },
+    "meta-priority-altcam-product-2026-08-15-01-product": {
+      "instagram": {
+        "published_at": "2026-08-18T11:12:25.193276+00:00",
+        "result": {
+          "container": {
+            "id": "18081480398418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18081480398418944"
+          },
+          "published": {
+            "id": "18126166438776547"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-08-18T11:12:33.431369+00:00",
+        "result": {
+          "container": {
+            "id": "18081322283424516"
+          },
+          "published": {
+            "id": "18122730733889149"
+          }
+        }
+      }
     }
   }
 }
