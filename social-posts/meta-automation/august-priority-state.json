@@ -2128,6 +2128,95 @@
             "id": "18011910623940498"
           }
         }
+      },
+      "telegram": {
+        "published_at": "2026-08-18T20:01:40.413386+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 70,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1787083300,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADRmqEuiSUsBi7P6304X65DIYNGataAAJxFmsbn2QpSBPDUOWpguwyAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADcRZrG59kKUh4",
+                  "file_size": 1306,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADRmqEuiSUsBi7P6304X65DIYNGataAAJxFmsbn2QpSBPDUOWpguwyAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADcRZrG59kKUhy",
+                  "file_size": 16650,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADRmqEuiSUsBi7P6304X65DIYNGataAAJxFmsbn2QpSBPDUOWpguwyAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADcRZrG59kKUh9",
+                  "file_size": 67135,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADRmqEuiSUsBi7P6304X65DIYNGataAAJxFmsbn2QpSBPDUOWpguwyAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADcRZrG59kKUh-",
+                  "file_size": 132185,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADRmqEuiSUsBi7P6304X65DIYNGataAAJxFmsbn2QpSBPDUOWpguwyAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADcRZrG59kKUh8",
+                  "file_size": 156711,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Світло зникло — а відеонагляд і інтернет мають працювати далі.\n\nТовар: UPS / резервне живлення для камер, роутера та NVR\nДля кого: будинок / офіс / магазин / склад\n\n• резерв для камер\n• живлення роутера/NVR\n• менше простоїв\n• підбір під час автономної роботи\n\nВартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.\n\nНатисніть кнопку або напишіть «РЕЗЕРВ» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 62,
+                  "type": "bold"
+                },
+                {
+                  "offset": 64,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 121,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 260,
+                  "length": 99,
+                  "type": "code"
+                },
+                {
+                  "offset": 432,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
       }
     },
     "meta-priority-altcam-product-2026-08-15-03-product": {
