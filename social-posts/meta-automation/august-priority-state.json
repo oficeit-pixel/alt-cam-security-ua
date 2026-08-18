@@ -1660,6 +1660,95 @@
             "id": "18104697608616031"
           }
         }
+      },
+      "telegram": {
+        "published_at": "2026-08-18T10:41:55.929389+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 66,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1787049715,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADQmqENvOeA7r0JQ1Rsv1a6nGSgtqYAALRF2sbn2QhSDHUak11cFYlAQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD0RdrG59kIUh4",
+                  "file_size": 1504,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADQmqENvOeA7r0JQ1Rsv1a6nGSgtqYAALRF2sbn2QhSDHUak11cFYlAQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD0RdrG59kIUhy",
+                  "file_size": 17049,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADQmqENvOeA7r0JQ1Rsv1a6nGSgtqYAALRF2sbn2QhSDHUak11cFYlAQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD0RdrG59kIUh9",
+                  "file_size": 64655,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADQmqENvOeA7r0JQ1Rsv1a6nGSgtqYAALRF2sbn2QhSDHUak11cFYlAQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD0RdrG59kIUh-",
+                  "file_size": 126167,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADQmqENvOeA7r0JQ1Rsv1a6nGSgtqYAALRF2sbn2QhSDHUak11cFYlAQADAgADdwADPQQ",
+                  "file_unique_id": "AQAD0RdrG59kIUh8",
+                  "file_size": 149018,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Камера для приміщення, яка не псує інтер’єр і дає нормальну деталізацію.\n\nТовар: Hikvision DS-2CD2443G2-I Black 4МП\nДля кого: квартира / офіс / ресепшн / касова зона\n\n• 4МП\n• компактний формат\n• для офісу або квартири\n• зручно контролювати з телефону\n\nЦіна: орієнтир: 5 921 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nНатисніть кнопку або напишіть «ОФІС» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 72,
+                  "type": "bold"
+                },
+                {
+                  "offset": 74,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 116,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 252,
+                  "length": 100,
+                  "type": "code"
+                },
+                {
+                  "offset": 423,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
       }
     },
     "meta-priority-altcam-product-2026-08-14-02-product": {
