@@ -2011,6 +2011,95 @@
             "id": "18122730733889149"
           }
         }
+      },
+      "telegram": {
+        "published_at": "2026-08-18T17:38:32.772188+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 69,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1787074712,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADRWqEmJj4lWnObrNRnfoqtmPkmz08AALVGWsbn2QhSCOBdoj4wDTqAQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD1RlrG59kIUh4",
+                  "file_size": 1467,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADRWqEmJj4lWnObrNRnfoqtmPkmz08AALVGWsbn2QhSCOBdoj4wDTqAQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD1RlrG59kIUhy",
+                  "file_size": 22295,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADRWqEmJj4lWnObrNRnfoqtmPkmz08AALVGWsbn2QhSCOBdoj4wDTqAQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD1RlrG59kIUh9",
+                  "file_size": 87098,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADRWqEmJj4lWnObrNRnfoqtmPkmz08AALVGWsbn2QhSCOBdoj4wDTqAQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD1RlrG59kIUh-",
+                  "file_size": 167489,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADRWqEmJj4lWnObrNRnfoqtmPkmz08AALVGWsbn2QhSCOBdoj4wDTqAQADAgADdwADPQQ",
+                  "file_unique_id": "AQAD1RlrG59kIUh8",
+                  "file_size": 194225,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Акуратна мережа — це коли камери працюють стабільно, а не “як пощастить”.\n\nТовар: PoE-комутатор + мережева шафа для IP-камер\nДля кого: офіс / магазин / склад / приватний будинок\n\n• живлення камер по кабелю\n• порядок у шафі\n• зручне обслуговування\n• менше випадкових відключень\n\nВартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.\n\nНатисніть кнопку або напишіть «PoE» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 73,
+                  "type": "bold"
+                },
+                {
+                  "offset": 75,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 125,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 278,
+                  "length": 99,
+                  "type": "code"
+                },
+                {
+                  "offset": 447,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
       }
     },
     "meta-priority-altcam-product-2026-08-15-02-backup": {
