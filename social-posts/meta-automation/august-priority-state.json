@@ -1894,6 +1894,95 @@
             "id": "18107308553278800"
           }
         }
+      },
+      "telegram": {
+        "published_at": "2026-08-18T15:18:18.116379+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 68,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1787066298,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADRGqEd7mDZgjl0_qjRupqzsZ1_tD6AAI4GWsbn2QhSHi3jQkom9aEAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADOBlrG59kIUh4",
+                  "file_size": 1426,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADRGqEd7mDZgjl0_qjRupqzsZ1_tD6AAI4GWsbn2QhSHi3jQkom9aEAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADOBlrG59kIUhy",
+                  "file_size": 17305,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADRGqEd7mDZgjl0_qjRupqzsZ1_tD6AAI4GWsbn2QhSHi3jQkom9aEAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADOBlrG59kIUh9",
+                  "file_size": 67855,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADRGqEd7mDZgjl0_qjRupqzsZ1_tD6AAI4GWsbn2QhSHi3jQkom9aEAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADOBlrG59kIUh-",
+                  "file_size": 133699,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADRGqEd7mDZgjl0_qjRupqzsZ1_tD6AAI4GWsbn2QhSHi3jQkom9aEAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADOBlrG59kIUh8",
+                  "file_size": 160174,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Доступ без хаосу: QR, картка або брелок — і зрозуміло, хто заходив.\n\nТовар: U-PROX SE QR slim\nДля кого: офіс / бізнес-центр / склад / сервісна зона\n\n• QR-доступ\n• RFID-сценарії\n• тонкий корпус\n• зручно для офісів і комерції\n\nЦіна: орієнтир: 6 071 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nНатисніть кнопку або напишіть «СКУД» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 67,
+                  "type": "bold"
+                },
+                {
+                  "offset": 69,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 94,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 225,
+                  "length": 100,
+                  "type": "code"
+                },
+                {
+                  "offset": 396,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
       }
     },
     "meta-priority-altcam-product-2026-08-15-01-product": {
