@@ -10,6 +10,8 @@ const $=selector=>document.querySelector(selector);
 const grid=$('#product-grid'),search=$('#catalog-search'),category=$('#category-filter'),brand=$('#brand-filter'),sort=$('#sort-filter');
 const resolution=$('#resolution-filter'),connection=$('#connection-filter'),placement=$('#placement-filter'),price=$('#price-filter'),loadMore=$('#load-more');
 const clean=value=>String(value||'').replace(/<[^>]+>|&(?:nbsp|amp|quot|lt|gt);/gi,' ').replace(/\s+/g,' ').trim();
+function inferFeatures(item){const text=clean(`${item.name} ${item.description}`),patterns=[/\b\d+(?:[.,]\d+)?\s*(?:Мп|MP)\b/ig,/\b(?:ІЧ|IR)\s*(?:до\s*)?\d+\s*м\b/ig,/\bIP\d{2}\b/ig,/\b(?:PoE|Wi[‑-]?Fi|HDCVI|HD[‑-]?TVI|AHD|ONVIF|ColorVu|AcuSense)\b/ig];return [...new Set(patterns.flatMap(pattern=>text.match(pattern)||[]))].slice(0,4);}
+products.forEach(item=>{if(!Array.isArray(item.features)||!item.features.length)item.features=inferFeatures(item);});
 const money=value=>new Intl.NumberFormat('uk-UA',{maximumFractionDigits:0}).format(value)+' ₴';
 const textOf=item=>clean([item.name,item.model,item.brand,item.description,...(item.features||[])].join(' ')).toLowerCase();
 const unique=key=>[...new Set(products.map(item=>item[key]).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'uk'));
