@@ -1543,6 +1543,95 @@
             "id": "18147454291531049"
           }
         }
+      },
+      "telegram": {
+        "published_at": "2026-08-18T08:28:04.813926+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 65,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1787041684,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADQWqEF5QPPq6SuGbT1358GstcazVDAAJGF2sbn2QhSL5-9rDwpWOpAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADRhdrG59kIUh4",
+                  "file_size": 1572,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADQWqEF5QPPq6SuGbT1358GstcazVDAAJGF2sbn2QhSL5-9rDwpWOpAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADRhdrG59kIUhy",
+                  "file_size": 18311,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADQWqEF5QPPq6SuGbT1358GstcazVDAAJGF2sbn2QhSL5-9rDwpWOpAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADRhdrG59kIUh9",
+                  "file_size": 69893,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADQWqEF5QPPq6SuGbT1358GstcazVDAAJGF2sbn2QhSL5-9rDwpWOpAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADRhdrG59kIUh-",
+                  "file_size": 138205,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADQWqEF5QPPq6SuGbT1358GstcazVDAAJGF2sbn2QhSL5-9rDwpWOpAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADRhdrG59kIUh8",
+                  "file_size": 160842,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Коли вночі потрібно бачити колір, а не сіру пляму.\n\nТовар: Hikvision DS-2CD1047G3H-LIUF ColorVu 4МП\nДля кого: двір / фасад / вхід / магазин\n\n• ColorVu 3.0\n• 4МП деталізація\n• Smart Hybrid Light до 30 м\n• мікрофон для контролю ситуації\n\nЦіна: орієнтир: 7 319 ₴. Перед публікацією фінальну ціну підтверджуємо по наявності та комплектації.\n\nНатисніть кнопку або напишіть «COLORVU» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 50,
+                  "type": "bold"
+                },
+                {
+                  "offset": 52,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 100,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 236,
+                  "length": 100,
+                  "type": "code"
+                },
+                {
+                  "offset": 410,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
       }
     },
     "meta-priority-altcam-product-2026-08-14-01-product": {
