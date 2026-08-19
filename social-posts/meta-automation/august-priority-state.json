@@ -3154,6 +3154,123 @@
           }
         }
       }
+    },
+    "meta-priority-altcam-product-2026-08-18-02-product": {
+      "instagram": {
+        "published_at": "2026-08-19T18:58:21.607787+00:00",
+        "result": {
+          "container": {
+            "id": "18082018724418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18082018724418944"
+          },
+          "published": {
+            "id": "18104071970462658"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-08-19T18:58:28.735427+00:00",
+        "result": {
+          "container": {
+            "id": "18081865976424516"
+          },
+          "published": {
+            "id": "18085963472659386"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-08-19T18:58:30.373067+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 79,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1787165910,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADT2qF_Na9GJcZTG9Er-PZ-xjk_6FlAALiGGsb_sAxSGCEnDZGb-5UAQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD4hhrG_7AMUh4",
+                  "file_size": 1783,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADT2qF_Na9GJcZTG9Er-PZ-xjk_6FlAALiGGsb_sAxSGCEnDZGb-5UAQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD4hhrG_7AMUhy",
+                  "file_size": 20618,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADT2qF_Na9GJcZTG9Er-PZ-xjk_6FlAALiGGsb_sAxSGCEnDZGb-5UAQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD4hhrG_7AMUh9",
+                  "file_size": 76733,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADT2qF_Na9GJcZTG9Er-PZ-xjk_6FlAALiGGsb_sAxSGCEnDZGb-5UAQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD4hhrG_7AMUh-",
+                  "file_size": 144961,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADT2qF_Na9GJcZTG9Er-PZ-xjk_6FlAALiGGsb_sAxSGCEnDZGb-5UAQADAgADdwADPQQ",
+                  "file_unique_id": "AQAD4hhrG_7AMUh8",
+                  "file_size": 166300,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Кронштейн — це не дрібниця. Це кут огляду, стабільність і доказова картинка.\n\nТовар: Кронштейн і монтажна пластина для камери\nДля кого: стіна / фасад / вхід / склад\n\n• правильний кут камери\n• надійна фіксація\n• чистий монтаж\n• підбір під корпус і місце встановлення\n\nВартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.\n\nНатисніть кнопку або напишіть «КРОНШТЕЙН» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 76,
+                  "type": "bold"
+                },
+                {
+                  "offset": 78,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 126,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 267,
+                  "length": 99,
+                  "type": "code"
+                },
+                {
+                  "offset": 442,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
