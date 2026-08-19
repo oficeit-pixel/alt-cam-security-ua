@@ -2479,6 +2479,95 @@
             "id": "17943513849289750"
           }
         }
+      },
+      "telegram": {
+        "published_at": "2026-08-19T04:20:24.740410+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 73,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1787113224,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADSWqFLwjLbgJvWg_Mg_KFPb4D0VCXAAK8F2sbn2QpSMO368ATHrXqAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADvBdrG59kKUh4",
+                  "file_size": 1521,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADSWqFLwjLbgJvWg_Mg_KFPb4D0VCXAAK8F2sbn2QpSMO368ATHrXqAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADvBdrG59kKUhy",
+                  "file_size": 18788,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADSWqFLwjLbgJvWg_Mg_KFPb4D0VCXAAK8F2sbn2QpSMO368ATHrXqAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADvBdrG59kKUh9",
+                  "file_size": 76911,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADSWqFLwjLbgJvWg_Mg_KFPb4D0VCXAAK8F2sbn2QpSMO368ATHrXqAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADvBdrG59kKUh-",
+                  "file_size": 151449,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADSWqFLwjLbgJvWg_Mg_KFPb4D0VCXAAK8F2sbn2QpSMO368ATHrXqAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADvBdrG59kKUh8",
+                  "file_size": 180555,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Сигналізація має попереджати раніше, ніж проблема стане збитками.\n\nТовар: Ajax комплект для дому або бізнесу\nДля кого: квартира / будинок / офіс / магазин\n\n• датчики руху\n• датчики відкриття\n• сирена\n• керування через застосунок\n\nВартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.\n\nНатисніть кнопку або напишіть «AJAX» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 65,
+                  "type": "bold"
+                },
+                {
+                  "offset": 67,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 109,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 230,
+                  "length": 99,
+                  "type": "code"
+                },
+                {
+                  "offset": 400,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
       }
     }
   }
