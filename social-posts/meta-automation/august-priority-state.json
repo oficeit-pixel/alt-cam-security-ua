@@ -2686,6 +2686,123 @@
           }
         }
       }
+    },
+    "meta-priority-altcam-product-2026-08-17-01-cable": {
+      "instagram": {
+        "published_at": "2026-08-19T09:27:14.367048+00:00",
+        "result": {
+          "container": {
+            "id": "18081805724418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18081805724418944"
+          },
+          "published": {
+            "id": "18128685631776470"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-08-19T09:27:21.950959+00:00",
+        "result": {
+          "container": {
+            "id": "18081660743424516"
+          },
+          "published": {
+            "id": "17984951199053096"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-08-19T09:27:23.822013+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 75,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1787131643,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADS2qFdvvr4ozN21gD0UmeUJknGEptAAITGWsbn2QpSGyks8mO69PRAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADExlrG59kKUh4",
+                  "file_size": 1736,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADS2qFdvvr4ozN21gD0UmeUJknGEptAAITGWsbn2QpSGyks8mO69PRAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADExlrG59kKUhy",
+                  "file_size": 21774,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADS2qFdvvr4ozN21gD0UmeUJknGEptAAITGWsbn2QpSGyks8mO69PRAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADExlrG59kKUh9",
+                  "file_size": 79142,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADS2qFdvvr4ozN21gD0UmeUJknGEptAAITGWsbn2QpSGyks8mO69PRAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADExlrG59kKUh-",
+                  "file_size": 153257,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADS2qFdvvr4ozN21gD0UmeUJknGEptAAITGWsbn2QpSGyks8mO69PRAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADExlrG59kKUh8",
+                  "file_size": 176754,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Хороша камера починається не з камери. Вона починається з нормального кабелю.\n\nТовар: UTP / FTP кабель для IP-камер та PoE\nДля кого: IP-камери / PoE / офіс / будинок / склад\n\n• стабільна лінія для IP-камер\n• менше обривів і просідань\n• підбір під довжину траси\n• акуратна прокладка без хаосу\n\nВартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.\n\nНатисніть кнопку або напишіть «КАБЕЛЬ» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 77,
+                  "type": "bold"
+                },
+                {
+                  "offset": 79,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 123,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 293,
+                  "length": 99,
+                  "type": "code"
+                },
+                {
+                  "offset": 465,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
