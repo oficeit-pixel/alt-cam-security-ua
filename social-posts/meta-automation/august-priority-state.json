@@ -2569,6 +2569,123 @@
           }
         }
       }
+    },
+    "meta-priority-altcam-product-2026-08-16-03-product": {
+      "instagram": {
+        "published_at": "2026-08-19T07:12:43.026042+00:00",
+        "result": {
+          "container": {
+            "id": "18081770249418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18081770249418944"
+          },
+          "published": {
+            "id": "18112160455970367"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-08-19T07:12:51.521102+00:00",
+        "result": {
+          "container": {
+            "id": "18081603626424516"
+          },
+          "published": {
+            "id": "18367305568213101"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-08-19T07:12:53.063235+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 74,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1787123572,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADSmqFV3RwwdQTXUB88IepY8gVi5jQAAJyGGsbn2QpSCDcL1LS0vO6AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADchhrG59kKUh4",
+                  "file_size": 1406,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADSmqFV3RwwdQTXUB88IepY8gVi5jQAAJyGGsbn2QpSCDcL1LS0vO6AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADchhrG59kKUhy",
+                  "file_size": 18244,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADSmqFV3RwwdQTXUB88IepY8gVi5jQAAJyGGsbn2QpSCDcL1LS0vO6AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADchhrG59kKUh9",
+                  "file_size": 71523,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADSmqFV3RwwdQTXUB88IepY8gVi5jQAAJyGGsbn2QpSCDcL1LS0vO6AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADchhrG59kKUh-",
+                  "file_size": 137921,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADSmqFV3RwwdQTXUB88IepY8gVi5jQAAJyGGsbn2QpSCDcL1LS0vO6AQADAgADdwADPQQ",
+                  "file_unique_id": "AQADchhrG59kKUh8",
+                  "file_size": 163466,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Обладнання важливе. Але правильний монтаж вирішує, чи буде система працювати.\n\nТовар: Підбір, монтаж і налаштування систем безпеки ALT-CAM\nДля кого: дім / офіс / склад / магазин / ЖК\n\n• виїзд і оцінка задачі\n• підбір обладнання\n• акуратний монтаж\n• налаштування доступу зі смартфона\n\nВартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.\n\nНатисніть кнопку або напишіть «ПІДБІР» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 77,
+                  "type": "bold"
+                },
+                {
+                  "offset": 79,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 139,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 284,
+                  "length": 99,
+                  "type": "code"
+                },
+                {
+                  "offset": 456,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
