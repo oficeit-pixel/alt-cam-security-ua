@@ -3037,6 +3037,123 @@
           }
         }
       }
+    },
+    "meta-priority-altcam-product-2026-08-18-01-product": {
+      "instagram": {
+        "published_at": "2026-08-19T16:43:36.511835+00:00",
+        "result": {
+          "container": {
+            "id": "18081970013418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18081970013418944"
+          },
+          "published": {
+            "id": "18159374371491383"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-08-19T16:43:45.306852+00:00",
+        "result": {
+          "container": {
+            "id": "18081824459424516"
+          },
+          "published": {
+            "id": "18139969060577432"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-08-19T16:43:46.490732+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 78,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1787157826,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADTmqF3ULuMy_3uhgWdTSoayjBNZHWAAIaGGsb_sAxSGq_aAsKp8-wAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADGhhrG_7AMUh4",
+                  "file_size": 1503,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADTmqF3ULuMy_3uhgWdTSoayjBNZHWAAIaGGsb_sAxSGq_aAsKp8-wAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADGhhrG_7AMUhy",
+                  "file_size": 20293,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADTmqF3ULuMy_3uhgWdTSoayjBNZHWAAIaGGsb_sAxSGq_aAsKp8-wAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADGhhrG_7AMUh9",
+                  "file_size": 77331,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADTmqF3ULuMy_3uhgWdTSoayjBNZHWAAIaGGsb_sAxSGq_aAsKp8-wAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADGhhrG_7AMUh-",
+                  "file_size": 148670,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADTmqF3ULuMy_3uhgWdTSoayjBNZHWAAIaGGsb_sAxSGq_aAsKp8-wAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADGhhrG_7AMUh8",
+                  "file_size": 172940,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "З’єднання під камерою не має висіти “як вийшло”.\n\nТовар: Монтажна коробка для камери\nДля кого: вуличні камери / фасад / ворота / склад\n\n• захист з’єднань\n• акуратний вигляд\n• легше обслуговувати\n• менше шансів на проблеми від вологи\n\nВартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.\n\nНатисніть кнопку або напишіть «КОРОБКА» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 48,
+                  "type": "bold"
+                },
+                {
+                  "offset": 50,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 85,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 234,
+                  "length": 99,
+                  "type": "code"
+                },
+                {
+                  "offset": 407,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
