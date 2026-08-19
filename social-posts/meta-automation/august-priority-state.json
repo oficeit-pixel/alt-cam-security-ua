@@ -2362,6 +2362,95 @@
             "id": "18336435421284096"
           }
         }
+      },
+      "telegram": {
+        "published_at": "2026-08-19T01:49:37.984382+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 72,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1787104177,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADSGqFC7EjBi2WtI3YkxirAr14ZZKKAAKfF2sbn2QpSGv9Zjx9JDEqAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADnxdrG59kKUh4",
+                  "file_size": 1752,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADSGqFC7EjBi2WtI3YkxirAr14ZZKKAAKfF2sbn2QpSGv9Zjx9JDEqAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADnxdrG59kKUhy",
+                  "file_size": 23602,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADSGqFC7EjBi2WtI3YkxirAr14ZZKKAAKfF2sbn2QpSGv9Zjx9JDEqAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADnxdrG59kKUh9",
+                  "file_size": 86813,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADSGqFC7EjBi2WtI3YkxirAr14ZZKKAAKfF2sbn2QpSGv9Zjx9JDEqAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADnxdrG59kKUh-",
+                  "file_size": 165999,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADSGqFC7EjBi2WtI3YkxirAr14ZZKKAAKfF2sbn2QpSGv9Zjx9JDEqAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADnxdrG59kKUh8",
+                  "file_size": 195777,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Якщо об’єкт великий, периметр треба бачити навіть у темряві й тумані.\n\nТовар: Тепловізійна камера для периметра\nДля кого: склад / промисловий об’єкт / периметр / поле огляду без світла\n\n• контроль периметра\n• робота в складному освітленні\n• менше сліпих зон\n• підбір під реальну відстань\n\nВартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.\n\nНатисніть кнопку або напишіть «ПЕРИМЕТР» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 69,
+                  "type": "bold"
+                },
+                {
+                  "offset": 71,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 112,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 289,
+                  "length": 99,
+                  "type": "code"
+                },
+                {
+                  "offset": 463,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
       }
     },
     "meta-priority-altcam-product-2026-08-16-02-product": {
