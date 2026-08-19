@@ -2920,6 +2920,123 @@
           }
         }
       }
+    },
+    "meta-priority-altcam-product-2026-08-17-03-product": {
+      "instagram": {
+        "published_at": "2026-08-19T14:02:26.004795+00:00",
+        "result": {
+          "container": {
+            "id": "18081904355418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18081904355418944"
+          },
+          "published": {
+            "id": "18069615284754919"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-08-19T14:02:32.031722+00:00",
+        "result": {
+          "container": {
+            "id": "18081762914424516"
+          },
+          "published": {
+            "id": "18032224085654218"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-08-19T14:02:33.383292+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 77,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1787148153,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADTWqFt3mZaUT7QNwQh3vvMkdB_O8MAAI0HWsbn2QxSOTxGli-IWgbAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADNB1rG59kMUh4",
+                  "file_size": 1676,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADTWqFt3mZaUT7QNwQh3vvMkdB_O8MAAI0HWsbn2QxSOTxGli-IWgbAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADNB1rG59kMUhy",
+                  "file_size": 20841,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADTWqFt3mZaUT7QNwQh3vvMkdB_O8MAAI0HWsbn2QxSOTxGli-IWgbAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADNB1rG59kMUh9",
+                  "file_size": 77573,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADTWqFt3mZaUT7QNwQh3vvMkdB_O8MAAI0HWsbn2QxSOTxGli-IWgbAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADNB1rG59kMUh-",
+                  "file_size": 148206,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADTWqFt3mZaUT7QNwQh3vvMkdB_O8MAAI0HWsbn2QxSOTxGli-IWgbAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADNB1rG59kMUh8",
+                  "file_size": 170226,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Не кожен об’єкт треба переробляти з нуля — іноді розумніше оновити правильно.\n\nТовар: BNC + DC комплект для аналогових / HDCVI камер\nДля кого: модернізація старої системи / HDCVI / аналог\n\n• швидке підключення камер\n• зручно для модернізації\n• менше зайвих робіт\n• перевірка сигналу перед здачею\n\nВартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.\n\nНатисніть кнопку або напишіть «BNC» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 77,
+                  "type": "bold"
+                },
+                {
+                  "offset": 79,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 133,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 297,
+                  "length": 99,
+                  "type": "code"
+                },
+                {
+                  "offset": 466,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
