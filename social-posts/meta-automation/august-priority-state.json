@@ -3271,6 +3271,123 @@
           }
         }
       }
+    },
+    "meta-priority-altcam-product-2026-08-18-03-product": {
+      "instagram": {
+        "published_at": "2026-08-20T07:02:51.215455+00:00",
+        "result": {
+          "container": {
+            "id": "18082128896418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18082128896418944"
+          },
+          "published": {
+            "id": "18077263190401572"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-08-20T07:02:57.690451+00:00",
+        "result": {
+          "container": {
+            "id": "18081984293424516"
+          },
+          "published": {
+            "id": "18125300347785765"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-08-20T07:02:58.611850+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 80,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1787209378,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADUGqGpqKuB5OuQUn4SvxO5BZ7Qk85AAKHGmsb_sA5SP9C5KN1u_CsAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADhxprG_7AOUh4",
+                  "file_size": 1747,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADUGqGpqKuB5OuQUn4SvxO5BZ7Qk85AAKHGmsb_sA5SP9C5KN1u_CsAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADhxprG_7AOUhy",
+                  "file_size": 18300,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADUGqGpqKuB5OuQUn4SvxO5BZ7Qk85AAKHGmsb_sA5SP9C5KN1u_CsAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADhxprG_7AOUh9",
+                  "file_size": 68828,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADUGqGpqKuB5OuQUn4SvxO5BZ7Qk85AAKHGmsb_sA5SP9C5KN1u_CsAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADhxprG_7AOUh-",
+                  "file_size": 132806,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADUGqGpqKuB5OuQUn4SvxO5BZ7Qk85AAKHGmsb_sA5SP9C5KN1u_CsAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADhxprG_7AOUh8",
+                  "file_size": 152209,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Камеру можна поставити на стовп красиво — без саморобних рішень.\n\nТовар: Кріплення камери на стовп\nДля кого: парковка / ворота / периметр / двір\n\n• надійна фіксація хомутами\n• підходить для периметра\n• менше вібрацій\n• правильна висота й напрямок огляду\n\nВартість підбираємо під об’єкт, комплектацію та монтаж. Перед публікацією можемо додати точну ціну.\n\nНатисніть кнопку або напишіть «СТОВП» — підберемо варіант під об’єкт.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 64,
+                  "type": "bold"
+                },
+                {
+                  "offset": 66,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 99,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 255,
+                  "length": 99,
+                  "type": "code"
+                },
+                {
+                  "offset": 426,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
