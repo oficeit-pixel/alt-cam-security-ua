@@ -3559,6 +3559,112 @@
           }
         }
       }
+    },
+    "approved-2026-08-21-sep30-2026-08-22-telegram": {
+      "telegram": {
+        "published_at": "2026-08-22T08:12:58.881976+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 82,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1787386378,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADUmqJWgroueSBSnt8H5ke7xjvM8WdAAJ2H2sbszJISB5kkod8og7NAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADdh9rG7MySEh4",
+                  "file_size": 1256,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADUmqJWgroueSBSnt8H5ke7xjvM8WdAAJ2H2sbszJISB5kkod8og7NAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADdh9rG7MySEhy",
+                  "file_size": 14709,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADUmqJWgroueSBSnt8H5ke7xjvM8WdAAJ2H2sbszJISB5kkod8og7NAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADdh9rG7MySEh9",
+                  "file_size": 57472,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADUmqJWgroueSBSnt8H5ke7xjvM8WdAAJ2H2sbszJISB5kkod8og7NAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADdh9rG7MySEh-",
+                  "file_size": 112104,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADUmqJWgroueSBSnt8H5ke7xjvM8WdAAJ2H2sbszJISB5kkod8og7NAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADdh9rG7MySEh8",
+                  "file_size": 131040,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Резерв безпеки\n\nТри комплектації для камер, роутера й Ajax під різний час автономності.\n\nПідберемо сумісне рішення під конкретний об’єкт. Напишіть нам: https://t.me/altcam_security_ua\n\n#ajaxsystems #охороннасигналізація #розумнийдім #безпекакиїв #вишгород #київськаобласть #altcam",
+              "caption_entities": [
+                {
+                  "offset": 152,
+                  "length": 31,
+                  "type": "url"
+                },
+                {
+                  "offset": 185,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 198,
+                  "length": 21,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 220,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 233,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 246,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 256,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 273,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
