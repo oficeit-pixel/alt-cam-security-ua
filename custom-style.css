@@ -685,6 +685,110 @@ select:focus,
   box-shadow: 0 0 0 4px rgba(255, 204, 0, 0.1);
 }
 
+/* Customer reviews */
+.reviews-section .section-head h2 {
+  color: #fff;
+}
+
+.reviews-section .section-head > p {
+  color: var(--premium-muted, #a7a7ad);
+}
+
+.reviews-grid {
+  align-items: stretch;
+  gap: 20px;
+}
+
+.review-card {
+  display: flex;
+  min-height: 350px;
+  flex-direction: column;
+  padding: 30px;
+  border-color: rgba(255, 255, 255, 0.11);
+  border-radius: 14px;
+  background:
+    radial-gradient(circle at 100% 0, rgba(255, 204, 0, 0.075), transparent 34%),
+    #1b1b1f;
+}
+
+.review-card::before {
+  content: "“";
+  position: absolute;
+  top: 47px;
+  right: 25px;
+  color: rgba(255, 204, 0, 0.13);
+  font-family: Georgia, serif;
+  font-size: 82px;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.review-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 204, 0, 0.3);
+  box-shadow: 0 24px 65px rgba(0, 0, 0, 0.28);
+}
+
+.review-label {
+  top: 20px;
+  right: 20px;
+  border: 1px solid rgba(255, 204, 0, 0.25);
+  color: #ffdc4d;
+  background: rgba(255, 204, 0, 0.08);
+  font-size: 8px;
+}
+
+.review-card .stars {
+  margin-bottom: 22px;
+  color: #ffcc00;
+  font-size: 14px;
+}
+
+.review-card > p {
+  position: relative;
+  z-index: 1;
+  min-height: 0;
+  margin: 0 0 28px;
+  color: #d0d0d5;
+  font-size: 13px;
+  line-height: 1.72;
+}
+
+.review-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.review-avatar {
+  display: grid;
+  flex: 0 0 42px;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(255, 204, 0, 0.32);
+  border-radius: 50%;
+  color: #121212;
+  background: #ffcc00;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.review-card .review-author b {
+  margin-bottom: 4px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.review-card .review-author small {
+  color: #96969e;
+  font-size: 10px;
+  line-height: 1.4;
+}
+
 /* 10. Mobile refinements */
 @media (max-width: 780px) {
   .section {
@@ -698,6 +802,10 @@ select:focus,
   .request-form,
   .quiz-card {
     border-radius: 16px;
+  }
+
+  .review-card {
+    min-height: 0;
   }
 }
 
