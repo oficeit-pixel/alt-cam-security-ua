@@ -1,9 +1,16 @@
 {
   "language": "uk",
   "currency": "UAH",
-  "viatec_feed_url": "https://viatec.ua/files/product_info_a_uk.xml",
+  "viatec_feeds": [
+    {"key": "videonagliad", "url": "https://viatec.ua/files/product_info_videonagliad_uk.xml"},
+    {"key": "energosistemi", "url": "https://viatec.ua/files/product_info_energosistemi_uk.xml"},
+    {"key": "video-intercoms", "url": "https://viatec.ua/files/product_info_video-intercoms_uk.xml"},
+    {"key": "network", "url": "https://viatec.ua/files/product_info_network_uk.xml"},
+    {"key": "alarms", "url": "https://viatec.ua/files/product_info_alarms_uk.xml"},
+    {"key": "vse-dlia-montazhu", "url": "https://viatec.ua/files/product_info_vse-dlia-montazhu_uk.xml"},
+    {"key": "elektrika-ta-instrument", "url": "https://viatec.ua/files/product_info_elektrika-ta-instrument_uk.xml"}
+  ],
   "yugtorg_api_base": "https://b2b.yugtorg.com/apiservices/export",
-  "included_root_category_ids": [186, 2, 5, 185, 188],
   "google_drive": {
     "root_folder_id": "1mfgyJ0tNJ8zX2dntMy7c2NfvfaFs5Sm3",
     "raw_folder_id": "1KuBRIFy_T1_DbzcRBUcpsXMqssm9cqg1",

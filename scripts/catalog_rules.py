@@ -17,6 +17,8 @@ GROUPS = {
     "cables_connectors": "Кабель для систем безпеки",
     "installation_consumables": "Монтажні матеріали",
     "accessories": "Аксесуари для систем безпеки",
+    "network_equipment": "Мережеве обладнання",
+    "electrical_tools": "Електрика та інструмент",
 }
 
 # Only supplier categories that belong to the ALT-CAM assortment are public.
@@ -32,6 +34,8 @@ ALLOWED_CATEGORY_IDS = {
     "cables_connectors": {45, 239},
     "installation_consumables": {43, 44, 48, 194, 240},
     "accessories": {24, 42, 46, 71, 217},
+    "network_equipment": {49, 50, 51, 52, 58, 70, 77, 140, 159, 227, 270},
+    "electrical_tools": {141, 171, 172, 190, 193, 196, 197, 219, 224},
 }
 
 
@@ -73,6 +77,23 @@ def public_description(value: object) -> str:
 
 
 def key_features(product: dict) -> list[str]:
+    properties = product.get("properties") or {}
+    priority = (
+        "розділь", "матриц", "фокус", "об'єктив", "об’єктив", "підсвіч", "живлен", "потужн",
+        "напруг", "струм", "ємність", "ємніст", "канал", "швидкіст", "стандарт", "довжин", "матеріал",
+    )
+    found: list[str] = []
+    if isinstance(properties, dict):
+        for needle in priority:
+            for key, raw_value in properties.items():
+                if needle not in clean(key, 120).casefold():
+                    continue
+                value = clean(raw_value, 120)
+                feature = f"{clean(key, 60)}: {value}"
+                if value and feature.casefold() not in {item.casefold() for item in found}:
+                    found.append(feature)
+                if len(found) == 6:
+                    return found
     text = clean(
         " ".join(
             str(product.get(key) or "")
@@ -88,13 +109,12 @@ def key_features(product: dict) -> list[str]:
         r"\b\d+(?:[.,]\d+)?\s*мм\b",
         r"\b\d+\s*(?:А·год|Аг|Ah|Вт|W)\b",
     )
-    found: list[str] = []
     for pattern in patterns:
         for match in re.findall(pattern, text, flags=re.IGNORECASE):
             value = clean(match, 32)
             if value and value.casefold() not in {item.casefold() for item in found}:
                 found.append(value)
-            if len(found) == 4:
+            if len(found) == 6:
                 return found
     return found
 

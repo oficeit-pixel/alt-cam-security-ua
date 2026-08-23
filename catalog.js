@@ -2,13 +2,15 @@ const fallbackServices=[{id:'service-survey',title:'Обстеження та п
 const services=Array.isArray(window.ALTCAM_SERVICES)?window.ALTCAM_SERVICES:fallbackServices;
 const allProducts=(Array.isArray(window.ALTCAM_CATALOG)?window.ALTCAM_CATALOG:[]).filter(item=>!/^(?:viatec|югторг|yugtorg|nadzor)$/i.test(item.brand||''));
 const RECOMMENDED_PRODUCT_IDS=['viatec-6975','viatec-6973','viatec-6974','viatec-2979','viatec-5239','viatec-10624','viatec-11351','viatec-19095','viatec-10170','viatec-4169','viatec-12721','viatec-10255','viatec-12726','viatec-12725','viatec-15423','viatec-16787','viatec-11806','viatec-8110','viatec-11228','viatec-20734','viatec-2367','viatec-2371','viatec-2324','viatec-2369','viatec-2392','viatec-2330','viatec-2331','viatec-11735','viatec-18470','viatec-18474','viatec-21283','viatec-8447','viatec-4453','viatec-12718','viatec-9154','viatec-20816','viatec-17360','viatec-3742','viatec-7867','viatec-7868','viatec-18321','viatec-3055','viatec-1797','viatec-1742','viatec-1781','viatec-3990','viatec-1764','viatec-13636','viatec-13709','viatec-5166','viatec-7255','viatec-18496','viatec-19255','viatec-21187'];
-const byId=new Map(allProducts.map(item=>[String(item.id),item]));
+const CATEGORY_LABELS=['Комплекти відеоспостереження','Камери відеоспостереження','Відеореєстратори та накопичувачі','Комплекти домофонії','Домофони та викличні панелі','Системи контролю доступу','Ajax та охоронна сигналізація','Резервне живлення','Мережеве обладнання','Кабель для систем безпеки','Кронштейни та монтажні коробки','Монтажні матеріали','Електрика та інструмент','Аксесуари для систем безпеки'];
+const recommendedRank=new Map(RECOMMENDED_PRODUCT_IDS.map((id,index)=>[id,index]));
+const rankedProducts=[...allProducts].sort((a,b)=>(recommendedRank.get(String(a.id))??99999)-(recommendedRank.get(String(b.id))??99999)||String(a.name).localeCompare(String(b.name),'uk'));
 const identity=item=>String(item.sku||item.id||item.slug||`${item.brand}|${item.model||item.name}`).trim().toLowerCase();
 const recommendedProducts=[];const seen=new Set();
-for(const id of RECOMMENDED_PRODUCT_IDS){const item=byId.get(id),key=item&&identity(item);if(item&&key&&!seen.has(key)){seen.add(key);recommendedProducts.push(item);}}
+for(const label of CATEGORY_LABELS){for(const item of rankedProducts.filter(product=>product.category===label).slice(0,5)){const key=identity(item);if(key&&!seen.has(key)){seen.add(key);recommendedProducts.push(item);}}}
+for(const item of rankedProducts){if(recommendedProducts.length>=60)break;const key=identity(item);if(key&&!seen.has(key)){seen.add(key);recommendedProducts.push(item);}}
 const products=recommendedProducts.slice(0,60);
-const CATEGORY_LABELS=['Відеоспостереження','Відеодомофони','Ajax та охоронні системи','Резервне живлення','Датчики, сирени та клавіатури','Кабель та аксесуари'];
-function publicCategory(item){const c=item.category||'',t=`${item.name||''} ${item.model||''}`.toLowerCase();if(/кабель|кронштейн|коробк|монтажн|аксесуар/.test(c.toLowerCase()))return'Кабель та аксесуари';if(c==='Резервне живлення')return'Резервне живлення';if(/домоф|викличн/.test(c.toLowerCase()))return'Відеодомофони';if(c==='Ajax та охоронна сигналізація'&&/(датчик|сповіщувач|сирен|клавіатур|doorprotect|motionprotect|leaksprotect|glassprotect|fireprotect)/.test(t))return'Датчики, сирени та клавіатури';if(c==='Ajax та охоронна сигналізація'||c==='Системи контролю доступу'||c==='Аксесуари для систем безпеки')return'Ajax та охоронні системи';return'Відеоспостереження';}
+function publicCategory(item){return CATEGORY_LABELS.includes(item.category)?item.category:'Аксесуари для систем безпеки';}
 products.forEach((item,index)=>{item.publicCategory=publicCategory(item);item.recommendationOrder=index;});
 const API='https://alt-cam-manager-bot.onrender.com',TELEGRAM='https://t.me/altcam_security_ua';
 const sessionId=localStorage.getItem('altcam-session')||(crypto.randomUUID?crypto.randomUUID():String(Date.now()));localStorage.setItem('altcam-session',sessionId);
@@ -19,7 +21,7 @@ function inferFeatures(item){const text=clean(`${item.model||''} ${item.name} ${
 products.forEach(item=>{if(!Array.isArray(item.features)||!item.features.length)item.features=inferFeatures(item);});
 const money=value=>new Intl.NumberFormat('uk-UA',{maximumFractionDigits:0}).format(value)+' ₴';
 const textOf=item=>clean([item.name,item.model,item.brand,item.description,...(item.features||[])].join(' ')).toLowerCase();
-CATEGORY_LABELS.forEach(value=>category.add(new Option(value,value)));
+CATEGORY_LABELS.filter(value=>products.some(item=>item.publicCategory===value)).forEach(value=>category.add(new Option(value,value)));
 [...new Set(products.map(item=>item.brand).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'uk')).forEach(value=>brand.add(new Option(value,value)));
 function track(event,data={}){fetch(API+'/api/analytics',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({event,session_id:sessionId,page:location.pathname,data}),keepalive:true}).catch(()=>{});}
 function matchesAdvanced(item){const text=textOf(item),amount=Number(publicPrices[item.id]||item.price||0);if(resolution.value&&!new RegExp(`\\b${resolution.value}\\s*(мп|mp)\\b`,'i').test(text))return false;if(connection.value==='poe'&&!/\bpoe\b/i.test(text))return false;if(connection.value==='wifi'&&!/wi[‑-]?fi/i.test(text))return false;if(connection.value==='analog'&&!/(hdcvi|hdtvi|hd-tvi|ahd|аналог)/i.test(text))return false;if(placement.value==='outdoor'&&!/(вулич|зовніш|ip6[5-9]|outdoor)/i.test(text))return false;if(placement.value==='indoor'&&!/(внутріш|приміщ|indoor)/i.test(text))return false;if(price.value&&(!amount||amount>Number(price.value)))return false;return true;}

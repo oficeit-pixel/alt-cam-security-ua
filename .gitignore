@@ -1,0 +1,5 @@
+catalog-sync/source-feeds/
+catalog-sync/output/
+scripts/__pycache__/
+tmp/
+output/
