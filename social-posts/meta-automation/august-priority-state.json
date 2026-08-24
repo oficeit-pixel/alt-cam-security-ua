@@ -3875,6 +3875,112 @@
           }
         }
       }
+    },
+    "approved-2026-08-21-sep30-2026-08-24-telegram": {
+      "telegram": {
+        "published_at": "2026-08-24T08:08:29.012065+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 84,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1787558908,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADVGqL-_xGe90cxESlXAwXKGPoMk5KAAIRHmsbP1xhSKoufbpuOz6HAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADER5rGz9cYUh4",
+                  "file_size": 1578,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADVGqL-_xGe90cxESlXAwXKGPoMk5KAAIRHmsbP1xhSKoufbpuOz6HAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADER5rGz9cYUhy",
+                  "file_size": 20156,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADVGqL-_xGe90cxESlXAwXKGPoMk5KAAIRHmsbP1xhSKoufbpuOz6HAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADER5rGz9cYUh9",
+                  "file_size": 75558,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADVGqL-_xGe90cxESlXAwXKGPoMk5KAAIRHmsbP1xhSKoufbpuOz6HAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADER5rGz9cYUh-",
+                  "file_size": 142669,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADVGqL-_xGe90cxESlXAwXKGPoMk5KAAIRHmsbP1xhSKoufbpuOz6HAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADER5rGz9cYUh8",
+                  "file_size": 164577,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Безпечний мобільний доступ\n\nHik-Connect, DMSS та Imou Life: як надати доступ без передачі пароля.\n\nПідберемо сумісне рішення під конкретний об’єкт. Напишіть нам: https://t.me/altcam_security_ua\n\n#скуд #контрольдоступу #безпекаофісу #безпекакиїв #вишгород #київськаобласть #altcam",
+              "caption_entities": [
+                {
+                  "offset": 162,
+                  "length": 31,
+                  "type": "url"
+                },
+                {
+                  "offset": 195,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 201,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 218,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 232,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 245,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 255,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 272,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
