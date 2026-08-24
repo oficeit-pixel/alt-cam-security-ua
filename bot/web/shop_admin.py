@@ -2,6 +2,7 @@ import base64
 import hashlib
 import hmac
 import json
+import os
 import time
 from datetime import datetime, timedelta, timezone
 from decimal import Decimal
@@ -13,9 +14,10 @@ from sqlalchemy import desc, func, select
 
 from bot.config import get_settings
 from bot.db.base import SessionLocal
-from bot.db.models import AnalyticsEvent, PriceOverride, WebOrder
+from bot.db.models import AdminAuditLog, AdminUser, AnalyticsEvent, PriceOverride, WebOrder
 
 ORDER_STATUSES = {"new", "confirmed", "awaiting_payment", "packing", "shipped", "completed", "canceled"}
+ROLES = {"chief", "admin"}
 
 
 def _secret() -> bytes:
@@ -23,39 +25,63 @@ def _secret() -> bytes:
     return (settings.admin_session_secret or settings.bot_token).encode()
 
 
-def create_admin_token(email: str, ttl: int = 8 * 3600) -> str:
-    payload = base64.urlsafe_b64encode(json.dumps({"email": email, "exp": int(time.time()) + ttl}, separators=(",", ":")).encode()).decode().rstrip("=")
-    signature = hmac.new(_secret(), payload.encode(), hashlib.sha256).hexdigest()
-    return f"{payload}.{signature}"
+def hash_password(password: str, salt: bytes | None = None) -> str:
+    salt = salt or os.urandom(16)
+    digest = hashlib.pbkdf2_hmac("sha256", password.encode(), salt, 310_000)
+    return f"pbkdf2_sha256$310000${base64.urlsafe_b64encode(salt).decode()}${base64.urlsafe_b64encode(digest).decode()}"
 
 
-def verify_admin_token(token: str) -> bool:
+def verify_password(password: str, encoded: str) -> bool:
     try:
-        payload, signature = token.split(".", 1)
-        expected = hmac.new(_secret(), payload.encode(), hashlib.sha256).hexdigest()
-        if not compare_digest(signature, expected):
+        algorithm, rounds, salt, expected = encoded.split("$", 3)
+        if algorithm != "pbkdf2_sha256":
             return False
-        data = json.loads(base64.urlsafe_b64decode(payload + "=" * (-len(payload) % 4)))
-        settings = get_settings()
-        return data.get("email", "").casefold() == settings.admin_web_email.casefold() and int(data.get("exp", 0)) > time.time()
+        actual = hashlib.pbkdf2_hmac("sha256", password.encode(), base64.urlsafe_b64decode(salt), int(rounds))
+        return compare_digest(base64.urlsafe_b64encode(actual).decode(), expected)
     except Exception:
         return False
 
 
-def require_admin(request: web.Request) -> None:
+def create_admin_token(user: AdminUser, ttl: int = 8 * 3600) -> str:
+    body = {"uid": user.id, "email": user.email, "role": user.role, "exp": int(time.time()) + ttl}
+    payload = base64.urlsafe_b64encode(json.dumps(body, separators=(",", ":")).encode()).decode().rstrip("=")
+    signature = hmac.new(_secret(), payload.encode(), hashlib.sha256).hexdigest()
+    return f"{payload}.{signature}"
+
+
+def decode_admin_token(token: str) -> dict[str, Any] | None:
+    try:
+        payload, signature = token.split(".", 1)
+        expected = hmac.new(_secret(), payload.encode(), hashlib.sha256).hexdigest()
+        if not compare_digest(signature, expected):
+            return None
+        data = json.loads(base64.urlsafe_b64decode(payload + "=" * (-len(payload) % 4)))
+        return data if int(data.get("exp", 0)) > time.time() else None
+    except Exception:
+        return None
+
+
+async def current_admin(request: web.Request, chief_only: bool = False) -> AdminUser:
     header = request.headers.get("Authorization", "")
-    if not header.startswith("Bearer ") or not verify_admin_token(header[7:]):
+    data = decode_admin_token(header[7:]) if header.startswith("Bearer ") else None
+    if not data:
         raise web.HTTPUnauthorized(text=json.dumps({"ok": False, "error": "unauthorized"}), content_type="application/json")
+    async with SessionLocal() as session:
+        user = await session.get(AdminUser, int(data.get("uid", 0)))
+        if not user or not user.active or user.email.casefold() != str(data.get("email", "")).casefold():
+            raise web.HTTPUnauthorized(text=json.dumps({"ok": False, "error": "unauthorized"}), content_type="application/json")
+        if chief_only and user.role != "chief":
+            raise web.HTTPForbidden(text=json.dumps({"ok": False, "error": "chief_required"}), content_type="application/json")
+        session.expunge(user)
+        return user
+
+
+async def audit(session, user: AdminUser, request: web.Request, action: str, entity_type: str | None = None, entity_id: str | None = None, details: dict | None = None) -> None:
+    session.add(AdminAuditLog(admin_id=user.id, admin_email=user.email, action=action, entity_type=entity_type, entity_id=entity_id, details=details or {}, ip_address=request.remote))
 
 
 def serialize_order(order: WebOrder) -> dict[str, Any]:
-    return {
-        "id": order.id, "order_number": order.order_number, "customer": order.customer,
-        "delivery": order.delivery, "items": order.items, "subtotal": float(order.subtotal or 0),
-        "status": order.status, "manager_note": order.manager_note,
-        "created_at": order.created_at.isoformat() if order.created_at else None,
-        "updated_at": order.updated_at.isoformat() if order.updated_at else None,
-    }
+    return {"id": order.id, "order_number": order.order_number, "customer": order.customer, "delivery": order.delivery, "items": order.items, "subtotal": float(order.subtotal or 0), "status": order.status, "manager_note": order.manager_note, "created_at": order.created_at.isoformat() if order.created_at else None, "updated_at": order.updated_at.isoformat() if order.updated_at else None}
 
 
 async def admin_login(request: web.Request) -> web.Response:
@@ -66,15 +92,24 @@ async def admin_login(request: web.Request) -> web.Response:
         return web.json_response({"ok": False, "error": "rate_limited"}, status=429)
     attempts.append(now)
     request.app["rate_limits"][key] = attempts
-    settings = get_settings()
     payload = await request.json()
-    email = str(payload.get("email", "")).strip().casefold()
-    password = str(payload.get("password", ""))
-    configured = settings.admin_web_password or ""
-    if not configured or not compare_digest(email, settings.admin_web_email.casefold()) or not compare_digest(password, configured):
-        await asyncio_sleep()
-        return web.json_response({"ok": False, "error": "invalid_credentials"}, status=401)
-    return web.json_response({"ok": True, "token": create_admin_token(settings.admin_web_email), "email": settings.admin_web_email})
+    email, password = str(payload.get("email", "")).strip().casefold(), str(payload.get("password", ""))
+    settings = get_settings()
+    async with SessionLocal() as session:
+        user = await session.scalar(select(AdminUser).where(func.lower(AdminUser.email) == email))
+        if user is None and email == settings.admin_web_email.casefold() and settings.admin_web_password:
+            user = AdminUser(email=settings.admin_web_email.casefold(), name="Головний адміністратор", password_hash=hash_password(settings.admin_web_password), role="chief", active=True)
+            session.add(user)
+            await session.flush()
+        if not user or not user.active or not verify_password(password, user.password_hash):
+            await asyncio_sleep()
+            return web.json_response({"ok": False, "error": "invalid_credentials"}, status=401)
+        user.last_login_at = datetime.now(timezone.utc)
+        await audit(session, user, request, "login")
+        await session.commit()
+        await session.refresh(user)
+        token = create_admin_token(user)
+    return web.json_response({"ok": True, "token": token, "user": {"email": user.email, "name": user.name, "role": user.role}})
 
 
 async def asyncio_sleep() -> None:
@@ -83,28 +118,24 @@ async def asyncio_sleep() -> None:
 
 
 async def admin_me(request: web.Request) -> web.Response:
-    require_admin(request)
-    return web.json_response({"ok": True, "email": get_settings().admin_web_email})
+    user = await current_admin(request)
+    return web.json_response({"ok": True, "user": {"id": user.id, "email": user.email, "name": user.name, "role": user.role}})
 
 
 async def dashboard(request: web.Request) -> web.Response:
-    require_admin(request)
+    await current_admin(request)
     since = datetime.now(timezone.utc) - timedelta(days=30)
     async with SessionLocal() as session:
         order_count = await session.scalar(select(func.count()).select_from(WebOrder)) or 0
         new_count = await session.scalar(select(func.count()).select_from(WebOrder).where(WebOrder.status == "new")) or 0
         revenue = await session.scalar(select(func.coalesce(func.sum(WebOrder.subtotal), 0)).where(WebOrder.status != "canceled")) or 0
         events = await session.scalar(select(func.count()).select_from(AnalyticsEvent).where(AnalyticsEvent.created_at >= since)) or 0
-        popular = (await session.execute(
-            select(AnalyticsEvent.data["id"].astext.label("product_id"), func.count().label("views"))
-            .where(AnalyticsEvent.event.in_(["product_view", "price_request_started", "add_to_cart"]), AnalyticsEvent.data.has_key("id"))
-            .group_by("product_id").order_by(desc("views")).limit(12)
-        )).all()
+        popular = (await session.execute(select(AnalyticsEvent.data["id"].astext.label("product_id"), func.count().label("views")).where(AnalyticsEvent.event.in_(["product_view", "price_request_started", "add_to_cart"]), AnalyticsEvent.data.has_key("id")).group_by("product_id").order_by(desc("views")).limit(12))).all()
     return web.json_response({"orders": order_count, "new_orders": new_count, "revenue": float(revenue), "events_30d": events, "popular": [{"product_id": row.product_id, "views": row.views} for row in popular]})
 
 
 async def list_orders(request: web.Request) -> web.Response:
-    require_admin(request)
+    await current_admin(request)
     status = request.query.get("status")
     async with SessionLocal() as session:
         query = select(WebOrder).order_by(WebOrder.created_at.desc()).limit(250)
@@ -115,12 +146,13 @@ async def list_orders(request: web.Request) -> web.Response:
 
 
 async def update_order(request: web.Request) -> web.Response:
-    require_admin(request)
+    user = await current_admin(request)
     payload = await request.json()
     async with SessionLocal() as session:
         order = await session.get(WebOrder, int(request.match_info["order_id"]))
         if not order:
             raise web.HTTPNotFound()
+        before = {"status": order.status, "manager_note": order.manager_note}
         status = payload.get("status")
         if status is not None:
             if status not in ORDER_STATUSES:
@@ -128,20 +160,21 @@ async def update_order(request: web.Request) -> web.Response:
             order.status = status
         if "manager_note" in payload:
             order.manager_note = str(payload.get("manager_note") or "")[:2000]
+        await audit(session, user, request, "order_updated", "order", order.order_number, {"before": before, "after": {"status": order.status, "manager_note": order.manager_note}})
         await session.commit()
         await session.refresh(order)
     return web.json_response({"ok": True, "order": serialize_order(order)})
 
 
 async def list_prices(request: web.Request) -> web.Response:
-    require_admin(request)
+    await current_admin(request)
     async with SessionLocal() as session:
         rows = (await session.scalars(select(PriceOverride).order_by(PriceOverride.product_id))).all()
     return web.json_response({"prices": [{"product_id": row.product_id, "price": float(row.price_uah), "enabled": row.enabled} for row in rows]})
 
 
 async def save_price(request: web.Request) -> web.Response:
-    require_admin(request)
+    user = await current_admin(request)
     payload = await request.json()
     product_id = str(payload.get("product_id", ""))[:96]
     try:
@@ -152,29 +185,78 @@ async def save_price(request: web.Request) -> web.Response:
         return web.json_response({"ok": False, "error": "invalid_price"}, status=422)
     async with SessionLocal() as session:
         row = await session.get(PriceOverride, product_id)
+        old_price = float(row.price_uah) if row else None
         if row is None:
             row = PriceOverride(product_id=product_id, price_uah=price)
             session.add(row)
         else:
             row.price_uah = price
         row.enabled = bool(payload.get("enabled", True))
+        await audit(session, user, request, "price_updated", "product", product_id, {"old_price": old_price, "new_price": float(price), "enabled": row.enabled})
         await session.commit()
     return web.json_response({"ok": True})
 
 
-async def public_prices(_: web.Request) -> web.Response:
+async def list_admins(request: web.Request) -> web.Response:
+    await current_admin(request, chief_only=True)
     async with SessionLocal() as session:
-        rows = (await session.scalars(select(PriceOverride).where(PriceOverride.enabled.is_(True)))).all()
-    return web.json_response({row.product_id: float(row.price_uah) for row in rows})
+        rows = (await session.scalars(select(AdminUser).order_by(AdminUser.created_at))).all()
+    return web.json_response({"admins": [{"id": row.id, "email": row.email, "name": row.name, "role": row.role, "active": row.active, "created_at": row.created_at.isoformat(), "last_login_at": row.last_login_at.isoformat() if row.last_login_at else None} for row in rows]})
+
+
+async def create_admin(request: web.Request) -> web.Response:
+    chief = await current_admin(request, chief_only=True)
+    payload = await request.json()
+    email = str(payload.get("email", "")).strip().casefold()[:180]
+    name, password = str(payload.get("name", "")).strip()[:120], str(payload.get("password", ""))
+    if "@" not in email or not name or len(password) < 10:
+        return web.json_response({"ok": False, "error": "invalid_admin"}, status=422)
+    async with SessionLocal() as session:
+        count = await session.scalar(select(func.count()).select_from(AdminUser).where(AdminUser.active.is_(True))) or 0
+        if count >= 4:
+            return web.json_response({"ok": False, "error": "admin_limit"}, status=409)
+        if await session.scalar(select(AdminUser).where(func.lower(AdminUser.email) == email)):
+            return web.json_response({"ok": False, "error": "email_exists"}, status=409)
+        user = AdminUser(email=email, name=name, password_hash=hash_password(password), role="admin", active=True)
+        session.add(user)
+        await session.flush()
+        await audit(session, chief, request, "admin_created", "admin", str(user.id), {"email": email, "name": name})
+        await session.commit()
+    return web.json_response({"ok": True}, status=201)
+
+
+async def update_admin(request: web.Request) -> web.Response:
+    chief = await current_admin(request, chief_only=True)
+    payload = await request.json()
+    target_id = int(request.match_info["admin_id"])
+    async with SessionLocal() as session:
+        target = await session.get(AdminUser, target_id)
+        if not target:
+            raise web.HTTPNotFound()
+        if target.role == "chief" or target.id == chief.id:
+            return web.json_response({"ok": False, "error": "chief_protected"}, status=409)
+        target.active = bool(payload.get("active", target.active))
+        if payload.get("password"):
+            if len(str(payload["password"])) < 10:
+                return web.json_response({"ok": False, "error": "weak_password"}, status=422)
+            target.password_hash = hash_password(str(payload["password"]))
+        await audit(session, chief, request, "admin_updated", "admin", str(target.id), {"email": target.email, "active": target.active, "password_reset": bool(payload.get("password"))})
+        await session.commit()
+    return web.json_response({"ok": True})
+
+
+async def list_audit(request: web.Request) -> web.Response:
+    await current_admin(request, chief_only=True)
+    async with SessionLocal() as session:
+        rows = (await session.scalars(select(AdminAuditLog).order_by(AdminAuditLog.created_at.desc()).limit(500))).all()
+    return web.json_response({"events": [{"id": row.id, "admin_email": row.admin_email, "action": row.action, "entity_type": row.entity_type, "entity_id": row.entity_id, "details": row.details, "ip_address": row.ip_address, "created_at": row.created_at.isoformat()} for row in rows]})
 
 
 async def nova_poshta(request: web.Request) -> web.Response:
     settings = get_settings()
     if not settings.nova_poshta_api_key:
         return web.json_response({"ok": False, "error": "not_configured"}, status=503)
-    kind = request.match_info["kind"]
-    query = request.query.get("q", "").strip()[:120]
-    city_ref = request.query.get("city_ref", "")[:64]
+    kind, query, city_ref = request.match_info["kind"], request.query.get("q", "").strip()[:120], request.query.get("city_ref", "")[:64]
     if kind == "cities":
         model, method, props = "Address", "searchSettlements", {"CityName": query, "Limit": "30", "Page": "1"}
     elif kind == "warehouses" and city_ref:
@@ -196,4 +278,8 @@ def register_shop_admin_routes(app: web.Application) -> None:
     app.router.add_patch("/api/admin/orders/{order_id}", update_order)
     app.router.add_get("/api/admin/prices", list_prices)
     app.router.add_put("/api/admin/prices", save_price)
+    app.router.add_get("/api/admin/users", list_admins)
+    app.router.add_post("/api/admin/users", create_admin)
+    app.router.add_patch("/api/admin/users/{admin_id}", update_admin)
+    app.router.add_get("/api/admin/audit", list_audit)
     app.router.add_get("/api/nova-poshta/{kind}", nova_poshta)
