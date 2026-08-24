@@ -6,6 +6,11 @@ from typing import Any
 
 from aiohttp import web
 from aiogram import Bot
+from sqlalchemy import select
+
+from bot.db.base import SessionLocal
+from bot.db.models import AnalyticsEvent, PriceOverride, WebOrder
+from bot.web.shop_admin import register_shop_admin_routes
 
 from bot.config import get_settings
 
@@ -14,8 +19,8 @@ def _cors_headers() -> dict[str, str]:
     settings = get_settings()
     return {
         "Access-Control-Allow-Origin": settings.site_public_origin,
-        "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
-        "Access-Control-Allow-Headers": "Content-Type",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, OPTIONS",
+        "Access-Control-Allow-Headers": "Content-Type, Authorization",
         "Access-Control-Max-Age": "86400",
     }
 
@@ -115,17 +120,25 @@ async def api_options(_: web.Request) -> web.Response:
 
 
 async def catalog_prices(_: web.Request) -> web.Response:
-    # Public prices are embedded in the signed-off catalog feed. This endpoint
-    # remains stable for future manager overrides without exposing purchase data.
-    return web.json_response({}, headers=_cors_headers())
+    async with SessionLocal() as session:
+        rows = (await session.scalars(select(PriceOverride).where(PriceOverride.enabled.is_(True)))).all()
+    return web.json_response({row.product_id: float(row.price_uah) for row in rows}, headers=_cors_headers())
 
 
 async def analytics(request: web.Request) -> web.Response:
+    if _rate_limited(request, limit=120, window=60):
+        return web.json_response({"ok": False, "error": "rate_limited"}, status=429, headers=_cors_headers())
     try:
         payload = await request.json()
     except Exception:
         return web.json_response({"ok": False, "error": "invalid_json"}, status=400, headers=_cors_headers())
     event = _clean(payload.get("event"), "unknown")[:64]
+    data = payload.get("data") if isinstance(payload.get("data"), dict) else {}
+    if len(str(data)) > 4096:
+        data = {}
+    async with SessionLocal() as session:
+        session.add(AnalyticsEvent(event=event, session_id=_clean(payload.get("session_id"), "")[:128] or None, page=_clean(payload.get("page"), "")[:255] or None, data=data))
+        await session.commit()
     request.app["logger"].info("catalog_event event=%s", event)
     return web.json_response({"ok": True}, headers=_cors_headers())
 
@@ -137,24 +150,50 @@ async def create_order(request: web.Request) -> web.Response:
         payload = await request.json()
     except Exception:
         return web.json_response({"ok": False, "error": "invalid_json"}, status=400, headers=_cors_headers())
-    customer = payload.get("customer") if isinstance(payload.get("customer"), dict) else {}
+    raw_customer = payload.get("customer") if isinstance(payload.get("customer"), dict) else {}
     items = payload.get("items") if isinstance(payload.get("items"), list) else []
-    name = _clean(customer.get("name"), "")[:120]
-    phone = _clean(customer.get("phone"), "")[:40]
+    name = _clean(raw_customer.get("name"), "")[:120]
+    phone = _clean(raw_customer.get("phone"), "")[:40]
     if not name or not phone or not items or len(items) > 100:
         return web.json_response({"ok": False, "error": "invalid_order"}, status=422, headers=_cors_headers())
 
+    raw_delivery = payload.get("delivery") if isinstance(payload.get("delivery"), dict) else {}
+    customer = {"name": name, "phone": phone, "email": _clean(raw_customer.get("email"), "")[:180]}
+    delivery = {key: _clean(raw_delivery.get(key), "")[:500] for key in ("type", "label", "city", "city_ref", "place", "place_ref", "comment")}
+    delivery_type = str(delivery.get("type", ""))
+    if delivery_type not in {"branch", "locker", "courier", "pickup"}:
+        return web.json_response({"ok": False, "error": "invalid_delivery"}, status=422, headers=_cors_headers())
     order_number = f"WEB-{datetime.now(timezone.utc):%Y%m%d}-{token_hex(3).upper()}"
+    normalized_items = []
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        try:
+            item_price = max(0, min(float(item.get("price") or 0), 10_000_000))
+            item_quantity = max(1, min(int(item.get("quantity") or 1), 100))
+        except (TypeError, ValueError, OverflowError):
+            continue
+        normalized_items.append({
+            "id": _clean(item.get("id"), "")[:96], "type": _clean(item.get("type"), "product")[:24],
+            "name": _clean(item.get("name"), "")[:240], "price": item_price, "quantity": item_quantity,
+        })
+    if not normalized_items:
+        return web.json_response({"ok": False, "error": "invalid_order"}, status=422, headers=_cors_headers())
+    subtotal = sum(item["price"] * item["quantity"] for item in normalized_items)
+    async with SessionLocal() as session:
+        session.add(WebOrder(order_number=order_number, customer=customer, delivery=delivery, items=normalized_items, subtotal=subtotal, status="new"))
+        await session.commit()
     lines = [
         f"<b>Нове замовлення {escape(order_number)}</b>", "",
         f"Клієнт: <b>{escape(name)}</b>",
         f"Телефон: <code>{escape(phone)}</code>",
-        f"Місто: {escape(_clean(customer.get('city')))}", "", "<b>Позиції</b>",
+        f"Email: {escape(_clean(customer.get('email')))}",
+        f"Доставка: {escape(_clean(delivery.get('label') or delivery_type))}", "", "<b>Позиції</b>",
     ]
-    for index, item in enumerate(items[:100], 1):
+    for index, item in enumerate(normalized_items, 1):
         if not isinstance(item, dict):
             continue
-        lines.append(f"{index}. {escape(_clean(item.get('name'))[:240])}")
+        lines.append(f"{index}. {escape(_clean(item.get('name'))[:220])} × {max(1, int(item.get('quantity') or 1))}")
     text = "\n".join(lines)[:4096]
     settings = get_settings()
     targets = [settings.admin_chat_id]
@@ -170,9 +209,18 @@ async def health(_: web.Request) -> web.Response:
     return web.json_response({"ok": True, "service": "alt-cam-bot"})
 
 
+@web.middleware
+async def cors_middleware(request: web.Request, handler):
+    response = await handler(request)
+    if request.path.startswith("/api/") or request.path == "/site-lead":
+        for key, value in _cors_headers().items():
+            response.headers[key] = value
+    return response
+
+
 async def start_site_lead_server(bot: Bot) -> web.AppRunner:
     settings = get_settings()
-    app = web.Application()
+    app = web.Application(middlewares=[cors_middleware])
     app["bot"] = bot
     app["rate_limits"] = {}
     import logging
@@ -185,6 +233,7 @@ async def start_site_lead_server(bot: Bot) -> web.AppRunner:
     app.router.add_get("/api/catalog/prices", catalog_prices)
     app.router.add_post("/api/analytics", analytics)
     app.router.add_post("/api/orders", create_order)
+    register_shop_admin_routes(app)
 
     runner = web.AppRunner(app)
     await runner.setup()

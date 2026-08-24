@@ -12,6 +12,7 @@ from sqlalchemy import (
     Integer,
     String,
     Text,
+    Numeric,
     func,
 )
 from sqlalchemy.dialects.postgresql import JSONB
@@ -119,3 +120,38 @@ class OrderBid(Base):
 
     order: Mapped["Order"] = relationship(back_populates="bids")
     installer: Mapped["User"] = relationship(back_populates="bids")
+
+
+class WebOrder(Base):
+    __tablename__ = "web_orders"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    order_number: Mapped[str] = mapped_column(String(32), unique=True, index=True)
+    customer: Mapped[dict] = mapped_column(JSONB, default=dict)
+    delivery: Mapped[dict] = mapped_column(JSONB, default=dict)
+    items: Mapped[list[dict]] = mapped_column(JSONB, default=list)
+    subtotal: Mapped[float] = mapped_column(Numeric(12, 2), default=0)
+    status: Mapped[str] = mapped_column(String(32), default="new", index=True)
+    manager_note: Mapped[str | None] = mapped_column(Text)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), index=True)
+    updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
+
+
+class AnalyticsEvent(Base):
+    __tablename__ = "analytics_events"
+
+    id: Mapped[int] = mapped_column(BigInteger, Identity(), primary_key=True)
+    event: Mapped[str] = mapped_column(String(64), index=True)
+    session_id: Mapped[str | None] = mapped_column(String(128), index=True)
+    page: Mapped[str | None] = mapped_column(String(255))
+    data: Mapped[dict] = mapped_column(JSONB, default=dict)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), index=True)
+
+
+class PriceOverride(Base):
+    __tablename__ = "price_overrides"
+
+    product_id: Mapped[str] = mapped_column(String(96), primary_key=True)
+    price_uah: Mapped[float] = mapped_column(Numeric(12, 2))
+    enabled: Mapped[bool] = mapped_column(Boolean, default=True)
+    updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())

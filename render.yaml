@@ -28,3 +28,13 @@ services:
         value: AltCamSecurityUaBot
       - key: CHANNEL_ID
         value: "@altcam_security_ua"
+      - key: ADMIN_WEB_EMAIL
+        value: altcam777@gmail.com
+      - key: ADMIN_WEB_PASSWORD
+        sync: false
+      - key: ADMIN_SESSION_SECRET
+        generateValue: true
+      - key: NOVA_POSHTA_API_KEY
+        sync: false
+      - key: AUTO_CREATE_DB
+        value: "true"

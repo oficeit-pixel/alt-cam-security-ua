@@ -43,7 +43,11 @@ class Settings(BaseSettings):
     )
     google_drive_folder_id: str | None = Field(None, alias="GOOGLE_DRIVE_FOLDER_ID")
     media_retention_days: int = Field(14, alias="MEDIA_RETENTION_DAYS")
-    auto_create_db: bool = Field(False, alias="AUTO_CREATE_DB")
+    auto_create_db: bool = Field(True, alias="AUTO_CREATE_DB")
+    admin_web_email: str = Field("altcam777@gmail.com", alias="ADMIN_WEB_EMAIL")
+    admin_web_password: str | None = Field(None, alias="ADMIN_WEB_PASSWORD")
+    admin_session_secret: str | None = Field(None, alias="ADMIN_SESSION_SECRET")
+    nova_poshta_api_key: str | None = Field(None, alias="NOVA_POSHTA_API_KEY")
 
     model_config = SettingsConfigDict(
         env_file=".env",
