@@ -4033,6 +4033,112 @@
           }
         }
       }
+    },
+    "approved-2026-08-21-sep30-2026-08-25-telegram": {
+      "telegram": {
+        "published_at": "2026-08-25T08:55:32.194968+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 85,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1787648132,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADVWqNWIPtXKMC6CfxmmuH5UqwHiceAALIHWsbP1xpSA6gJ_lgmbYkAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADyB1rGz9caUh4",
+                  "file_size": 1392,
+                  "width": 51,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADVWqNWIPtXKMC6CfxmmuH5UqwHiceAALIHWsbP1xpSA6gJ_lgmbYkAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADyB1rGz9caUhy",
+                  "file_size": 15908,
+                  "width": 180,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADVWqNWIPtXKMC6CfxmmuH5UqwHiceAALIHWsbP1xpSA6gJ_lgmbYkAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADyB1rGz9caUh9",
+                  "file_size": 68798,
+                  "width": 450,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADVWqNWIPtXKMC6CfxmmuH5UqwHiceAALIHWsbP1xpSA6gJ_lgmbYkAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADyB1rGz9caUh-",
+                  "file_size": 152533,
+                  "width": 720,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADVWqNWIPtXKMC6CfxmmuH5UqwHiceAALIHWsbP1xpSA6gJ_lgmbYkAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADyB1rGz9caUh8",
+                  "file_size": 233822,
+                  "width": 941,
+                  "height": 1672
+                }
+              ],
+              "caption": "Виклична панель біля хвіртки\n\nЗовнішня частина домофонної системи: правильна висота, захист від опадів і зручний підхід гостя.\n\nПідберемо сумісне рішення під конкретний об’єкт. Напишіть нам: https://t.me/altcam_security_ua\n\n#домофон #відеодомофон #контрольдоступу #безпекакиїв #вишгород #київськаобласть #altcam",
+              "caption_entities": [
+                {
+                  "offset": 191,
+                  "length": 31,
+                  "type": "url"
+                },
+                {
+                  "offset": 224,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 233,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 247,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 264,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 277,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 287,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 304,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
