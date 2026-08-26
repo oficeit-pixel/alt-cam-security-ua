@@ -189,7 +189,7 @@ function buildQuoteMessage(state, client = null) {
    webhook — URL Google Apps Script/CRM, который принимает JSON-заявки
    и отправляет их в Google Sheets, Telegram и Email. */
 const INTEGRATIONS = {
-  crmWebhook: "https://alt-cam-manager-bot.onrender.com/site-lead",
+  crmWebhook: "https://alt-cam-crm-api.onrender.com/site-lead",
   ga4Id: "",
   metaPixelId: "",
   clarityId: ""

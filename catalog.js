@@ -12,7 +12,7 @@ for(const item of rankedProducts){if(recommendedProducts.length>=60)break;const 
 const products=recommendedProducts.slice(0,60);
 function publicCategory(item){return CATEGORY_LABELS.includes(item.category)?item.category:'Аксесуари для систем безпеки';}
 products.forEach((item,index)=>{item.publicCategory=publicCategory(item);item.recommendationOrder=index;});
-const API='https://alt-cam-manager-bot.onrender.com',TELEGRAM='https://t.me/altcam_security_ua';
+const API='https://alt-cam-crm-api.onrender.com',TELEGRAM='https://t.me/altcam_security_ua';
 const sessionId=localStorage.getItem('altcam-session')||(crypto.randomUUID?crypto.randomUUID():String(Date.now()));localStorage.setItem('altcam-session',sessionId);
 let publicPrices={},cart=JSON.parse(localStorage.getItem('altcam-cart')||'[]'),visibleCount=12;
 const $=selector=>document.querySelector(selector),grid=$('#product-grid'),search=$('#catalog-search'),category=$('#category-filter'),brand=$('#brand-filter'),sort=$('#sort-filter'),resolution=$('#resolution-filter'),connection=$('#connection-filter'),placement=$('#placement-filter'),price=$('#price-filter'),loadMore=$('#load-more');

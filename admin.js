@@ -1,4 +1,4 @@
-const API='https://alt-cam-manager-bot.onrender.com',tokenKey='altcam-admin-token';
+const API='https://alt-cam-crm-api.onrender.com',tokenKey='altcam-admin-token';
 let token=sessionStorage.getItem(tokenKey)||'',currentUser=null;
 const $=s=>document.querySelector(s),headers=()=>({'Content-Type':'application/json','Authorization':`Bearer ${token}`}),money=n=>new Intl.NumberFormat('uk-UA').format(n||0)+' ₴',esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 async function api(path,options={}){const response=await fetch(API+path,{...options,headers:{...headers(),...(options.headers||{})}});if(response.status===401){logout();throw new Error('unauthorized')}if(!response.ok)throw new Error(await response.text());return response.json()}
