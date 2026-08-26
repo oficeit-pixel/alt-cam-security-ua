@@ -1,5 +1,32 @@
 services:
   - type: web
+    name: alt-cam-crm-api
+    runtime: python
+    region: frankfurt
+    plan: free
+    buildCommand: pip install -r bot/requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+      - key: DATABASE_URL
+        sync: false
+      - key: SITE_PUBLIC_ORIGIN
+        value: https://oficeit-pixel.github.io
+      - key: BOT_USERNAME
+        value: AltCamSecurityUaBot
+      - key: CHANNEL_ID
+        value: "@altcam_security_ua"
+      - key: ADMIN_WEB_EMAIL
+        value: altcam777@gmail.com
+      - key: ADMIN_WEB_PASSWORD
+        sync: false
+      - key: ADMIN_SESSION_SECRET
+        generateValue: true
+      - key: AUTO_CREATE_DB
+        value: "true"
+
+  - type: web
     name: alt-cam-manager-bot
     runtime: python
     plan: free
