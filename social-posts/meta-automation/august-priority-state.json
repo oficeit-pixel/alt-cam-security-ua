@@ -4191,6 +4191,112 @@
           }
         }
       }
+    },
+    "approved-2026-08-21-sep30-2026-08-26-telegram": {
+      "telegram": {
+        "published_at": "2026-08-26T08:21:46.219862+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 86,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1787732506,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADVmqOohmQQl3oazcKiVDQdcChYszWAAJjH2sbenR5SBj62HDvrYUyAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADYx9rG3p0eUh4",
+                  "file_size": 1339,
+                  "width": 51,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADVmqOohmQQl3oazcKiVDQdcChYszWAAJjH2sbenR5SBj62HDvrYUyAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADYx9rG3p0eUhy",
+                  "file_size": 14705,
+                  "width": 180,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADVmqOohmQQl3oazcKiVDQdcChYszWAAJjH2sbenR5SBj62HDvrYUyAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADYx9rG3p0eUh9",
+                  "file_size": 57872,
+                  "width": 450,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADVmqOohmQQl3oazcKiVDQdcChYszWAAJjH2sbenR5SBj62HDvrYUyAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADYx9rG3p0eUh-",
+                  "file_size": 119757,
+                  "width": 720,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADVmqOohmQQl3oazcKiVDQdcChYszWAAJjH2sbenR5SBj62HDvrYUyAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADYx9rG3p0eUh8",
+                  "file_size": 178688,
+                  "width": 941,
+                  "height": 1672
+                }
+              ],
+              "caption": "Аудит системи безпеки\n\nЩо перевіряємо до кошторису та як знаходимо зайві витрати.\n\nПідберемо сумісне рішення під конкретний об’єкт. Напишіть нам: https://t.me/altcam_security_ua\n\n#відеоспостереження #камеривідеоспостереження #монтажкамер #безпекакиїв #вишгород #київськаобласть #altcam",
+              "caption_entities": [
+                {
+                  "offset": 146,
+                  "length": 31,
+                  "type": "url"
+                },
+                {
+                  "offset": 179,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 199,
+                  "length": 25,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 225,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 238,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 251,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 261,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 278,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
