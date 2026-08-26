@@ -6,11 +6,11 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    bot_token: str = Field(..., alias="BOT_TOKEN")
+    bot_token: str | None = Field(None, alias="BOT_TOKEN")
     bot_username: str = Field("AltCamSecurityUaBot", alias="BOT_USERNAME")
     database_url: str = Field(..., alias="DATABASE_URL")
-    admin_chat_id: int = Field(..., alias="ADMIN_CHAT_ID")
-    installer_group_id: int = Field(..., alias="INSTALLER_GROUP_ID")
+    admin_chat_id: int | None = Field(None, alias="ADMIN_CHAT_ID")
+    installer_group_id: int | None = Field(None, alias="INSTALLER_GROUP_ID")
     client_group_id: int | None = Field(None, alias="CLIENT_GROUP_ID")
     client_group_url: str | None = Field(None, alias="CLIENT_GROUP_URL")
     channel_id: int | str | None = Field(None, alias="CHANNEL_ID")
@@ -67,7 +67,13 @@ class Settings(BaseSettings):
             return value
         return [int(item.strip()) for item in value.split(",") if item.strip()]
 
-    @field_validator("client_group_id", "site_lead_group_id", mode="before")
+    @field_validator(
+        "admin_chat_id",
+        "installer_group_id",
+        "client_group_id",
+        "site_lead_group_id",
+        mode="before",
+    )
     @classmethod
     def parse_optional_int(cls, value: Any) -> int | None:
         if value is None or value == "":

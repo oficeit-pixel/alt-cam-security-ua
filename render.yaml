@@ -6,21 +6,7 @@ services:
     buildCommand: pip install -r bot/requirements.txt
     startCommand: python main.py
     envVars:
-      - key: BOT_TOKEN
-        sync: false
       - key: DATABASE_URL
-        sync: false
-      - key: ADMIN_CHAT_ID
-        sync: false
-      - key: ADMIN_IDS
-        sync: false
-      - key: INSTALLER_GROUP_ID
-        sync: false
-      - key: CLIENT_GROUP_ID
-        sync: false
-      - key: CLIENT_GROUP_URL
-        sync: false
-      - key: SITE_LEAD_GROUP_ID
         sync: false
       - key: SITE_PUBLIC_ORIGIN
         value: https://oficeit-pixel.github.io
@@ -34,7 +20,5 @@ services:
         sync: false
       - key: ADMIN_SESSION_SECRET
         generateValue: true
-      - key: NOVA_POSHTA_API_KEY
-        sync: false
       - key: AUTO_CREATE_DB
         value: "true"

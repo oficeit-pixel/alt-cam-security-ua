@@ -94,7 +94,7 @@ async def site_lead(request: web.Request) -> web.Response:
     if _rate_limited(request):
         return web.json_response({"ok": False, "error": "rate_limited"}, status=429, headers=_cors_headers())
     settings = get_settings()
-    bot: Bot = request.app["bot"]
+    bot: Bot | None = request.app["bot"]
     try:
         payload = await request.json()
     except Exception:
@@ -105,12 +105,13 @@ async def site_lead(request: web.Request) -> web.Response:
         )
 
     text = _lead_text(payload)
-    targets = [settings.admin_chat_id]
+    targets = [settings.admin_chat_id] if settings.admin_chat_id else []
     if settings.site_lead_group_id and settings.site_lead_group_id not in targets:
         targets.append(settings.site_lead_group_id)
 
     for chat_id in targets:
-        await bot.send_message(chat_id, text[:4096])
+        if bot:
+            await bot.send_message(chat_id, text[:4096])
 
     return web.json_response({"ok": True}, headers=_cors_headers())
 
@@ -196,12 +197,13 @@ async def create_order(request: web.Request) -> web.Response:
         lines.append(f"{index}. {escape(_clean(item.get('name'))[:220])} × {max(1, int(item.get('quantity') or 1))}")
     text = "\n".join(lines)[:4096]
     settings = get_settings()
-    targets = [settings.admin_chat_id]
+    targets = [settings.admin_chat_id] if settings.admin_chat_id else []
     if settings.site_lead_group_id and settings.site_lead_group_id not in targets:
         targets.append(settings.site_lead_group_id)
-    bot: Bot = request.app["bot"]
+    bot: Bot | None = request.app["bot"]
     for chat_id in targets:
-        await bot.send_message(chat_id, text)
+        if bot:
+            await bot.send_message(chat_id, text)
     return web.json_response({"ok": True, "order_number": order_number}, headers=_cors_headers())
 
 
@@ -218,7 +220,7 @@ async def cors_middleware(request: web.Request, handler):
     return response
 
 
-async def start_site_lead_server(bot: Bot) -> web.AppRunner:
+async def start_site_lead_server(bot: Bot | None) -> web.AppRunner:
     settings = get_settings()
     app = web.Application(middlewares=[cors_middleware])
     app["bot"] = bot

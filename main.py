@@ -21,16 +21,30 @@ async def main() -> None:
         format="%(asctime)s %(levelname)s %(name)s: %(message)s",
     )
     settings = get_settings()
-    bot = Bot(
-        token=settings.bot_token,
-        default=DefaultBotProperties(parse_mode=ParseMode.HTML),
-    )
-    dp = Dispatcher(storage=MemoryStorage())
-
     if settings.auto_create_db:
         await create_db_schema()
     scheduler = setup_cleanup_scheduler()
+    bot = None
+    site_lead_runner = None
+
+    if settings.bot_token:
+        bot = Bot(
+            token=settings.bot_token,
+            default=DefaultBotProperties(parse_mode=ParseMode.HTML),
+        )
     site_lead_runner = await start_site_lead_server(bot)
+
+    if bot is None:
+        logging.info("Telegram is not configured; web CRM is running without the bot")
+        try:
+            await asyncio.Event().wait()
+        finally:
+            scheduler.shutdown(wait=False)
+            await site_lead_runner.cleanup()
+            await engine.dispose()
+        return
+
+    dp = Dispatcher(storage=MemoryStorage())
 
     dp.message.middleware(TermsMiddleware())
     dp.callback_query.middleware(TermsMiddleware())
