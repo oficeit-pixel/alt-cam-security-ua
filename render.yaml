@@ -6,6 +6,8 @@ services:
     buildCommand: pip install -r bot/requirements.txt
     startCommand: python main.py
     envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
       - key: DATABASE_URL
         sync: false
       - key: SITE_PUBLIC_ORIGIN
