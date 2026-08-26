@@ -159,6 +159,7 @@ async def create_order(request: web.Request) -> web.Response:
         return web.json_response({"ok": False, "error": "invalid_order"}, status=422, headers=_cors_headers())
 
     raw_delivery = payload.get("delivery") if isinstance(payload.get("delivery"), dict) else {}
+    telegram_username = _clean(raw_customer.get("telegram"), "").lstrip("@")[:64]
     customer = {"name": name, "phone": phone, "email": _clean(raw_customer.get("email"), "")[:180]}
     delivery = {key: _clean(raw_delivery.get(key), "")[:500] for key in ("type", "label", "city", "city_ref", "place", "place_ref", "comment")}
     delivery_type = str(delivery.get("type", ""))
@@ -182,7 +183,7 @@ async def create_order(request: web.Request) -> web.Response:
         return web.json_response({"ok": False, "error": "invalid_order"}, status=422, headers=_cors_headers())
     subtotal = sum(item["price"] * item["quantity"] for item in normalized_items)
     async with SessionLocal() as session:
-        session.add(WebOrder(order_number=order_number, customer=customer, delivery=delivery, items=normalized_items, subtotal=subtotal, status="new"))
+        session.add(WebOrder(order_number=order_number, customer=customer, delivery=delivery, items=normalized_items, subtotal=subtotal, status="new", telegram_username=telegram_username or None))
         await session.commit()
     lines = [
         f"<b>Нове замовлення {escape(order_number)}</b>", "",

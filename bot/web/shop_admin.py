@@ -10,14 +10,20 @@ from secrets import compare_digest
 from typing import Any
 
 from aiohttp import ClientSession, web
-from sqlalchemy import desc, func, select
+from sqlalchemy import String, cast, desc, func, or_, select
 
 from bot.config import get_settings
 from bot.db.base import SessionLocal
 from bot.db.models import AdminAuditLog, AdminUser, AnalyticsEvent, PriceOverride, WebOrder
 
-ORDER_STATUSES = {"new", "confirmed", "awaiting_payment", "packing", "shipped", "completed", "canceled"}
-ROLES = {"chief", "admin"}
+ORDER_STATUSES = {
+    "new", "clarification", "ordered_from_supplier", "waiting_tracking",
+    "shipped", "in_transit", "arrived", "received", "completed",
+    "problem", "canceled",
+}
+ATTENTION_STATUSES = {"new", "arrived", "problem"}
+TRACKING_PROVIDERS = {"nova_poshta", "ukrposhta", "other"}
+ROLES = {"chief", "manager"}
 
 
 def _secret() -> bytes:
@@ -81,7 +87,26 @@ async def audit(session, user: AdminUser, request: web.Request, action: str, ent
 
 
 def serialize_order(order: WebOrder) -> dict[str, Any]:
-    return {"id": order.id, "order_number": order.order_number, "customer": order.customer, "delivery": order.delivery, "items": order.items, "subtotal": float(order.subtotal or 0), "status": order.status, "manager_note": order.manager_note, "created_at": order.created_at.isoformat() if order.created_at else None, "updated_at": order.updated_at.isoformat() if order.updated_at else None}
+    return {
+        "id": order.id,
+        "order_number": order.order_number,
+        "customer": order.customer or {},
+        "delivery": order.delivery or {},
+        "items": order.items or [],
+        "subtotal": float(order.subtotal or 0),
+        "status": order.status,
+        "manager_note": order.manager_note,
+        "tracking_number": order.tracking_number,
+        "tracking_provider": order.tracking_provider,
+        "telegram_username": order.telegram_username,
+        "drive_folder_url": order.drive_folder_url,
+        "supplier_order_number": order.supplier_order_number,
+        "problem_note": order.problem_note,
+        "assigned_admin_id": order.assigned_admin_id,
+        "status_history": order.status_history or [],
+        "created_at": order.created_at.isoformat() if order.created_at else None,
+        "updated_at": order.updated_at.isoformat() if order.updated_at else None,
+    }
 
 
 async def admin_login(request: web.Request) -> web.Response:
@@ -137,12 +162,43 @@ async def dashboard(request: web.Request) -> web.Response:
 async def list_orders(request: web.Request) -> web.Response:
     await current_admin(request)
     status = request.query.get("status")
+    search = request.query.get("q", "").strip().casefold()[:120]
+    attention = request.query.get("attention") == "1"
+    try:
+        limit = min(max(int(request.query.get("limit", "100")), 1), 250)
+        offset = max(int(request.query.get("offset", "0")), 0)
+    except ValueError:
+        return web.json_response({"ok": False, "error": "invalid_pagination"}, status=422)
     async with SessionLocal() as session:
-        query = select(WebOrder).order_by(WebOrder.created_at.desc()).limit(250)
+        query = select(WebOrder)
         if status in ORDER_STATUSES:
             query = query.where(WebOrder.status == status)
-        orders = (await session.scalars(query)).all()
-    return web.json_response({"orders": [serialize_order(order) for order in orders]})
+        if attention:
+            query = query.where(WebOrder.status.in_(ATTENTION_STATUSES))
+        if search:
+            pattern = f"%{search}%"
+            query = query.where(or_(
+                func.lower(WebOrder.order_number).like(pattern),
+                func.lower(func.coalesce(WebOrder.customer["name"].astext, "")).like(pattern),
+                func.lower(func.coalesce(WebOrder.customer["phone"].astext, "")).like(pattern),
+                func.lower(func.coalesce(WebOrder.telegram_username, "")).like(pattern),
+                func.lower(func.coalesce(WebOrder.tracking_number, "")).like(pattern),
+                func.lower(func.coalesce(WebOrder.supplier_order_number, "")).like(pattern),
+                func.lower(cast(WebOrder.delivery, String)).like(pattern),
+            ))
+        count_query = select(func.count()).select_from(query.order_by(None).subquery())
+        total = await session.scalar(count_query) or 0
+        orders = (await session.scalars(query.order_by(WebOrder.created_at.desc()).offset(offset).limit(limit))).all()
+    return web.json_response({"orders": [serialize_order(order) for order in orders], "total": total, "limit": limit, "offset": offset})
+
+
+async def get_order(request: web.Request) -> web.Response:
+    await current_admin(request)
+    async with SessionLocal() as session:
+        order = await session.get(WebOrder, int(request.match_info["order_id"]))
+        if not order:
+            raise web.HTTPNotFound()
+    return web.json_response({"order": serialize_order(order)})
 
 
 async def update_order(request: web.Request) -> web.Response:
@@ -152,15 +208,48 @@ async def update_order(request: web.Request) -> web.Response:
         order = await session.get(WebOrder, int(request.match_info["order_id"]))
         if not order:
             raise web.HTTPNotFound()
-        before = {"status": order.status, "manager_note": order.manager_note}
+        editable = {
+            "manager_note": 4000,
+            "tracking_number": 120,
+            "telegram_username": 64,
+            "drive_folder_url": 500,
+            "supplier_order_number": 120,
+            "problem_note": 4000,
+        }
+        before = {key: getattr(order, key) for key in ("status", *editable, "tracking_provider", "assigned_admin_id")}
         status = payload.get("status")
         if status is not None:
             if status not in ORDER_STATUSES:
                 return web.json_response({"ok": False, "error": "invalid_status"}, status=422)
             order.status = status
-        if "manager_note" in payload:
-            order.manager_note = str(payload.get("manager_note") or "")[:2000]
-        await audit(session, user, request, "order_updated", "order", order.order_number, {"before": before, "after": {"status": order.status, "manager_note": order.manager_note}})
+        for field, max_length in editable.items():
+            if field in payload:
+                value = str(payload.get(field) or "").strip()[:max_length]
+                if field == "telegram_username":
+                    value = value.lstrip("@")
+                if field == "drive_folder_url" and value and not value.startswith("https://"):
+                    return web.json_response({"ok": False, "error": "invalid_drive_url"}, status=422)
+                setattr(order, field, value or None)
+        if "tracking_provider" in payload:
+            provider = str(payload.get("tracking_provider") or "")
+            if provider and provider not in TRACKING_PROVIDERS:
+                return web.json_response({"ok": False, "error": "invalid_tracking_provider"}, status=422)
+            order.tracking_provider = provider or None
+        if "assigned_admin_id" in payload:
+            assigned = payload.get("assigned_admin_id")
+            order.assigned_admin_id = int(assigned) if assigned else None
+        after = {key: getattr(order, key) for key in before}
+        changes = {key: {"before": before[key], "after": after[key]} for key in before if before[key] != after[key]}
+        if changes:
+            history = list(order.status_history or [])
+            history.append({
+                "at": datetime.now(timezone.utc).isoformat(),
+                "admin_id": user.id,
+                "admin_email": user.email,
+                "changes": changes,
+            })
+            order.status_history = history[-200:]
+            await audit(session, user, request, "order_updated", "order", order.order_number, {"changes": changes})
         await session.commit()
         await session.refresh(order)
     return web.json_response({"ok": True, "order": serialize_order(order)})
@@ -275,6 +364,7 @@ def register_shop_admin_routes(app: web.Application) -> None:
     app.router.add_get("/api/admin/me", admin_me)
     app.router.add_get("/api/admin/dashboard", dashboard)
     app.router.add_get("/api/admin/orders", list_orders)
+    app.router.add_get("/api/admin/orders/{order_id}", get_order)
     app.router.add_patch("/api/admin/orders/{order_id}", update_order)
     app.router.add_get("/api/admin/prices", list_prices)
     app.router.add_put("/api/admin/prices", save_price)
