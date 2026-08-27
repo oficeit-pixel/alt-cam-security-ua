@@ -202,15 +202,15 @@ async def admin_captcha(_: web.Request) -> web.Response:
 async def admin_register(request: web.Request) -> web.Response:
     if _rate_limit_auth(request, "register", 5, 3600):
         return web.json_response({"ok": False, "error": "rate_limited"}, status=429)
-    settings = get_settings()
-    if not settings.smtp_password:
-        return web.json_response({"ok": False, "error": "email_not_configured"}, status=503)
     payload = await request.json()
     email = str(payload.get("email", "")).strip().casefold()[:180]
     name = str(payload.get("name", "")).strip()[:120]
     password = str(payload.get("password", ""))
     if not _verify_captcha(str(payload.get("captcha_token", "")), str(payload.get("captcha_answer", ""))):
         return web.json_response({"ok": False, "error": "invalid_captcha"}, status=422)
+    settings = get_settings()
+    if not settings.smtp_password:
+        return web.json_response({"ok": False, "error": "email_not_configured"}, status=503)
     if "@" not in email or not name or not _valid_password(password):
         return web.json_response({"ok": False, "error": "invalid_registration"}, status=422)
     async with SessionLocal() as session:
