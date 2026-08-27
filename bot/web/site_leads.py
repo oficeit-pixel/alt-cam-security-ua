@@ -15,13 +15,25 @@ from bot.web.shop_admin import register_shop_admin_routes
 from bot.config import get_settings
 
 
-def _cors_headers() -> dict[str, str]:
+def _cors_headers(request: web.Request | None = None) -> dict[str, str]:
     settings = get_settings()
+    configured_origin = settings.site_public_origin.rstrip("/")
+    allowed_origins = {
+        configured_origin,
+        "https://oficeit-pixel.github.io",
+        "http://alt-cam.net.ua",
+        "https://alt-cam.net.ua",
+        "http://www.alt-cam.net.ua",
+        "https://www.alt-cam.net.ua",
+    }
+    request_origin = (request.headers.get("Origin") if request else None) or ""
+    response_origin = request_origin.rstrip("/") if request_origin.rstrip("/") in allowed_origins else configured_origin
     return {
-        "Access-Control-Allow-Origin": settings.site_public_origin,
+        "Access-Control-Allow-Origin": response_origin,
         "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, OPTIONS",
         "Access-Control-Allow-Headers": "Content-Type, Authorization",
         "Access-Control-Max-Age": "86400",
+        "Vary": "Origin",
     }
 
 
@@ -216,7 +228,7 @@ async def health(_: web.Request) -> web.Response:
 async def cors_middleware(request: web.Request, handler):
     response = await handler(request)
     if request.path.startswith("/api/") or request.path == "/site-lead":
-        for key, value in _cors_headers().items():
+        for key, value in _cors_headers(request).items():
             response.headers[key] = value
     return response
 
