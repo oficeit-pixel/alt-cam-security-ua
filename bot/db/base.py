@@ -32,8 +32,9 @@ async def get_session() -> AsyncGenerator[AsyncSession, None]:
 
 
 async def create_db_schema() -> None:
-    from bot.db.migrations import migrate_web_orders
+    from bot.db.migrations import migrate_admin_auth, migrate_web_orders
 
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
         await migrate_web_orders(conn)
+        await migrate_admin_auth(conn)

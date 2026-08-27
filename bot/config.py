@@ -47,6 +47,12 @@ class Settings(BaseSettings):
     admin_web_email: str = Field("altcam777@gmail.com", alias="ADMIN_WEB_EMAIL")
     admin_web_password: str | None = Field(None, alias="ADMIN_WEB_PASSWORD")
     admin_session_secret: str | None = Field(None, alias="ADMIN_SESSION_SECRET")
+    admin_site_url: str = Field("https://alt-cam.net.ua/admin/", alias="ADMIN_SITE_URL")
+    smtp_host: str = Field("smtp.gmail.com", alias="SMTP_HOST")
+    smtp_port: int = Field(587, alias="SMTP_PORT")
+    smtp_user: str = Field("altcam.ua@gmail.com", alias="SMTP_USER")
+    smtp_password: str | None = Field(None, alias="SMTP_PASSWORD")
+    smtp_from: str = Field("ALT-CAM Security UA <altcam.ua@gmail.com>", alias="SMTP_FROM")
     nova_poshta_api_key: str | None = Field(None, alias="NOVA_POSHTA_API_KEY")
 
     model_config = SettingsConfigDict(

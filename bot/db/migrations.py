@@ -22,3 +22,13 @@ async def migrate_web_orders(conn: AsyncConnection) -> None:
     )
     for statement in statements:
         await conn.execute(text(statement))
+
+
+async def migrate_admin_auth(conn: AsyncConnection) -> None:
+    statements = (
+        "ALTER TABLE admin_users ADD COLUMN IF NOT EXISTS email_verified_at TIMESTAMPTZ",
+        "ALTER TABLE admin_users ADD COLUMN IF NOT EXISTS password_changed_at TIMESTAMPTZ",
+        "UPDATE admin_users SET email_verified_at = COALESCE(email_verified_at, created_at, NOW()) WHERE active = TRUE",
+    )
+    for statement in statements:
+        await conn.execute(text(statement))
