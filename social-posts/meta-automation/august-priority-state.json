@@ -4464,6 +4464,36 @@
           "post_id": "962902993572061_122134524975226993"
         }
       }
+    },
+    "approved-2026-08-21-sep30-2026-08-27-instagram": {
+      "instagram": {
+        "published_at": "2026-08-27T23:59:45.230104+00:00",
+        "result": {
+          "container": {
+            "id": "18083866991418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18083866991418944"
+          },
+          "published": {
+            "id": "18390538999205150"
+          }
+        }
+      }
+    },
+    "approved-2026-08-21-sep30-2026-08-27-threads-summary": {
+      "threads": {
+        "published_at": "2026-08-27T23:59:52.307035+00:00",
+        "result": {
+          "container": {
+            "id": "18083721227424516"
+          },
+          "published": {
+            "id": "18113168842956757"
+          }
+        }
+      }
     }
   }
 }
