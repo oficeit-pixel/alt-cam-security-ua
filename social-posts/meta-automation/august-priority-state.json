@@ -4494,6 +4494,125 @@
           }
         }
       }
+    },
+    "approved-2026-08-21-sep30-2026-08-28-threads-question": {
+      "threads": {
+        "published_at": "2026-08-28T11:17:22.447999+00:00",
+        "result": {
+          "container": {
+            "id": "18083832452424516"
+          },
+          "published": {
+            "id": "17905461078551052"
+          }
+        }
+      }
+    },
+    "approved-2026-08-21-sep30-2026-08-28-telegram": {
+      "telegram": {
+        "published_at": "2026-08-28T11:17:23.774830+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 88,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1787915843,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADWGqRbkMVOkO4FWLoYAABlY3M4it9mQACZx1rGwjuiUhxHPlxwCvl8gEAAwIAA3MAAz0E",
+                  "file_unique_id": "AQADZx1rGwjuiUh4",
+                  "file_size": 1572,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADWGqRbkMVOkO4FWLoYAABlY3M4it9mQACZx1rGwjuiUhxHPlxwCvl8gEAAwIAA20AAz0E",
+                  "file_unique_id": "AQADZx1rGwjuiUhy",
+                  "file_size": 18311,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADWGqRbkMVOkO4FWLoYAABlY3M4it9mQACZx1rGwjuiUhxHPlxwCvl8gEAAwIAA3gAAz0E",
+                  "file_unique_id": "AQADZx1rGwjuiUh9",
+                  "file_size": 69893,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADWGqRbkMVOkO4FWLoYAABlY3M4it9mQACZx1rGwjuiUhxHPlxwCvl8gEAAwIAA3kAAz0E",
+                  "file_unique_id": "AQADZx1rGwjuiUh-",
+                  "file_size": 138205,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADWGqRbkMVOkO4FWLoYAABlY3M4it9mQACZx1rGwjuiUhxHPlxwCvl8gEAAwIAA3cAAz0E",
+                  "file_unique_id": "AQADZx1rGwjuiUh8",
+                  "file_size": 160842,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "ColorVu, AcuSense і SMD\n\nПояснюємо різницю технологій простою мовою та за реальними сценаріями.\n\nПідберемо сумісне рішення під конкретний об’єкт. Напишіть нам: https://t.me/altcam_security_ua\n\n#відеоспостереження #камеривідеоспостереження #монтажкамер #безпекакиїв #вишгород #київськаобласть #altcam",
+              "caption_entities": [
+                {
+                  "offset": 160,
+                  "length": 31,
+                  "type": "url"
+                },
+                {
+                  "offset": 193,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 213,
+                  "length": 25,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 239,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 252,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 265,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 275,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 292,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
