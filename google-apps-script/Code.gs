@@ -20,7 +20,7 @@ const STATUS_COLORS = {
 };
 
 function setupAltCamSheet() {
-  const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+  const spreadsheet = getSpreadsheet_();
   const sheet = spreadsheet.getSheetByName(SHEET_NAME) || spreadsheet.insertSheet(SHEET_NAME);
 
   sheet.getRange(1, 1, 1, HEADERS.length).setValues([HEADERS]);
@@ -125,12 +125,23 @@ function doGet() {
 }
 
 function getRequestSheet_() {
-  const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+  const spreadsheet = getSpreadsheet_();
   const sheet = spreadsheet.getSheetByName(SHEET_NAME);
   if (!sheet) {
     throw new Error(`Лист «${SHEET_NAME}» не знайдено. Запустіть setupAltCamSheet().`);
   }
   return sheet;
+}
+
+function getSpreadsheet_() {
+  const active = SpreadsheetApp.getActiveSpreadsheet();
+  if (active) return active;
+
+  const spreadsheetId = PropertiesService.getScriptProperties().getProperty('ALT_CAM_SHEET_ID');
+  if (!spreadsheetId) {
+    throw new Error('Не задано властивість скрипта ALT_CAM_SHEET_ID');
+  }
+  return SpreadsheetApp.openById(spreadsheetId);
 }
 
 function parsePayload_(e) {

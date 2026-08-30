@@ -20,6 +20,7 @@
 Перед розгортанням відкрийте **Налаштування проєкту → Властивості скрипта** та додайте:
 
 ```text
+ALT_CAM_SHEET_ID=1RX1hDhaTDqTE1Oc8GTpoLsXYMK0w1UtFRuYeF9zGLqE
 ALT_CAM_MAIL_RELAY_SECRET=<випадковий секрет щонайменше 32 байти>
 ```
 
