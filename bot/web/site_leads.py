@@ -1,5 +1,5 @@
 from html import escape
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from secrets import token_hex
 from time import monotonic
 from typing import Any
@@ -9,7 +9,7 @@ from aiogram import Bot
 from sqlalchemy import select
 
 from bot.db.base import SessionLocal
-from bot.db.models import AnalyticsEvent, PriceOverride, WebOrder
+from bot.db.models import AdminAuditLog, AnalyticsEvent, PriceOverride, WebOrder
 from bot.web.shop_admin import register_shop_admin_routes
 
 from bot.config import get_settings
@@ -56,20 +56,20 @@ def _rate_limited(request: web.Request, limit: int = 10, window: int = 60) -> bo
 
 
 async def _post_order_notifications(
-    request: web.Request,
+    app: web.Application,
     *,
     order_number: str,
     customer: dict[str, str],
     delivery: dict[str, str],
     items: list[dict[str, Any]],
     subtotal: float,
-) -> None:
+) -> bool:
     settings = get_settings()
     if not settings.email_relay_url or not settings.email_relay_secret:
-        request.app["logger"].warning(
+        app["logger"].warning(
             "order_notifications_not_configured order=%s", order_number
         )
-        return
+        return False
 
     item_lines = [
         f"{index}. {item['name']} × {item['quantity']} — "
@@ -116,6 +116,7 @@ async def _post_order_notifications(
     ]
 
     timeout = ClientTimeout(total=20)
+    sent = True
     async with ClientSession(timeout=timeout) as client:
         for index, payload in enumerate(payloads):
             channel = "sheets" if index == 0 else "email"
@@ -127,18 +128,64 @@ async def _post_order_notifications(
                             f"relay_status={response.status} result={result.get('status')}"
                         )
             except Exception as exc:
-                request.app["logger"].exception(
+                sent = False
+                app["logger"].exception(
                     "order_notification_failed order=%s channel=%s error=%s",
                     order_number,
                     channel,
                     exc,
                 )
             else:
-                request.app["logger"].info(
+                app["logger"].info(
                     "order_notification_sent order=%s channel=%s",
                     order_number,
                     channel,
                 )
+    return sent
+
+
+async def _backfill_latest_order_notification(app: web.Application) -> None:
+    cutoff = datetime.now(timezone.utc) - timedelta(days=2)
+    async with SessionLocal() as session:
+        order = await session.scalar(
+            select(WebOrder)
+            .where(WebOrder.created_at >= cutoff)
+            .order_by(WebOrder.created_at.desc())
+            .limit(1)
+        )
+        if order is None:
+            return
+        already_sent = await session.scalar(
+            select(AdminAuditLog.id).where(
+                AdminAuditLog.action == "order_notification_backfill",
+                AdminAuditLog.entity_type == "web_order",
+                AdminAuditLog.entity_id == order.order_number,
+            )
+        )
+        if already_sent:
+            return
+
+        sent = await _post_order_notifications(
+            app,
+            order_number=order.order_number,
+            customer=order.customer or {},
+            delivery=order.delivery or {},
+            items=order.items or [],
+            subtotal=float(order.subtotal or 0),
+        )
+        if not sent:
+            return
+        session.add(
+            AdminAuditLog(
+                admin_email="system@alt-cam.net.ua",
+                action="order_notification_backfill",
+                entity_type="web_order",
+                entity_id=order.order_number,
+                details={"channels": ["sheets", "email"]},
+            )
+        )
+        await session.commit()
+        app["logger"].info("order_notification_backfilled order=%s", order.order_number)
 
 
 def _lead_text(payload: dict[str, Any]) -> str:
@@ -304,7 +351,7 @@ async def create_order(request: web.Request) -> web.Response:
         if bot:
             await bot.send_message(chat_id, text)
     await _post_order_notifications(
-        request,
+        request.app,
         order_number=order_number,
         customer=customer,
         delivery=delivery,
@@ -348,4 +395,5 @@ async def start_site_lead_server(bot: Bot | None) -> web.AppRunner:
     await runner.setup()
     site = web.TCPSite(runner, settings.http_host, settings.http_port)
     await site.start()
+    await _backfill_latest_order_notification(app)
     return runner
