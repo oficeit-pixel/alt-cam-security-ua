@@ -4,7 +4,7 @@ from secrets import token_hex
 from time import monotonic
 from typing import Any
 
-from aiohttp import web
+from aiohttp import ClientSession, ClientTimeout, web
 from aiogram import Bot
 from sqlalchemy import select
 
@@ -53,6 +53,92 @@ def _rate_limited(request: web.Request, limit: int = 10, window: int = 60) -> bo
         return True
     attempts.append(now)
     return False
+
+
+async def _post_order_notifications(
+    request: web.Request,
+    *,
+    order_number: str,
+    customer: dict[str, str],
+    delivery: dict[str, str],
+    items: list[dict[str, Any]],
+    subtotal: float,
+) -> None:
+    settings = get_settings()
+    if not settings.email_relay_url or not settings.email_relay_secret:
+        request.app["logger"].warning(
+            "order_notifications_not_configured order=%s", order_number
+        )
+        return
+
+    item_lines = [
+        f"{index}. {item['name']} × {item['quantity']} — "
+        f"{item['price'] * item['quantity']:.2f} ₴"
+        for index, item in enumerate(items, 1)
+    ]
+    delivery_label = _clean(delivery.get("label") or delivery.get("type"), "Не вказано")
+    city = _clean(delivery.get("city"), "Не вказано")
+    place = _clean(delivery.get("place"), "")
+    order_details = "\n".join(item_lines)
+    email_text = "\n".join([
+        f"Нове замовлення {order_number}",
+        "",
+        f"Клієнт: {customer['name']}",
+        f"Телефон: {customer['phone']}",
+        f"Email: {_clean(customer.get('email'), 'Не вказано')}",
+        f"Місто: {city}",
+        f"Доставка: {delivery_label}",
+        f"Відділення / адреса: {place}",
+        "",
+        "Позиції:",
+        order_details,
+        "",
+        f"Сума: {subtotal:.2f} ₴",
+    ])
+    payloads = [
+        {
+            "name": customer["name"],
+            "phone": customer["phone"],
+            "city": city,
+            "type": "Замовлення з сайту",
+            "object": order_number,
+            "cameras": str(sum(int(item["quantity"]) for item in items)),
+            "comment": email_text,
+            "source": "Сайт / кошик",
+        },
+        {
+            "kind": "email",
+            "secret": settings.email_relay_secret,
+            "recipient": settings.admin_web_email,
+            "subject": f"Нове замовлення ALT-CAM {order_number}",
+            "text": email_text,
+        },
+    ]
+
+    timeout = ClientTimeout(total=20)
+    async with ClientSession(timeout=timeout) as client:
+        for index, payload in enumerate(payloads):
+            channel = "sheets" if index == 0 else "email"
+            try:
+                async with client.post(settings.email_relay_url, json=payload) as response:
+                    result = await response.json(content_type=None)
+                    if response.status >= 400 or result.get("status") != "success":
+                        raise RuntimeError(
+                            f"relay_status={response.status} result={result.get('status')}"
+                        )
+            except Exception as exc:
+                request.app["logger"].exception(
+                    "order_notification_failed order=%s channel=%s error=%s",
+                    order_number,
+                    channel,
+                    exc,
+                )
+            else:
+                request.app["logger"].info(
+                    "order_notification_sent order=%s channel=%s",
+                    order_number,
+                    channel,
+                )
 
 
 def _lead_text(payload: dict[str, Any]) -> str:
@@ -217,6 +303,14 @@ async def create_order(request: web.Request) -> web.Response:
     for chat_id in targets:
         if bot:
             await bot.send_message(chat_id, text)
+    await _post_order_notifications(
+        request,
+        order_number=order_number,
+        customer=customer,
+        delivery=delivery,
+        items=normalized_items,
+        subtotal=subtotal,
+    )
     return web.json_response({"ok": True, "order_number": order_number}, headers=_cors_headers())
 
 
