@@ -4823,6 +4823,112 @@
           }
         }
       }
+    },
+    "approved-2026-08-21-sep30-2026-08-30-telegram": {
+      "telegram": {
+        "published_at": "2026-08-30T13:15:42.348341+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 90,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1788095742,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADWmqULP4-PpkYcdJ8itviZ6XDbeyCAAK7HWsb_qyhSGwVEPa7yqKwAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADux1rG_6soUh4",
+                  "file_size": 1361,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADWmqULP4-PpkYcdJ8itviZ6XDbeyCAAK7HWsb_qyhSGwVEPa7yqKwAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADux1rG_6soUhy",
+                  "file_size": 18696,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADWmqULP4-PpkYcdJ8itviZ6XDbeyCAAK7HWsb_qyhSGwVEPa7yqKwAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADux1rG_6soUh9",
+                  "file_size": 73515,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADWmqULP4-PpkYcdJ8itviZ6XDbeyCAAK7HWsb_qyhSGwVEPa7yqKwAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADux1rG_6soUh-",
+                  "file_size": 142817,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADWmqULP4-PpkYcdJ8itviZ6XDbeyCAAK7HWsb_qyhSGwVEPa7yqKwAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADux1rG_6soUh8",
+                  "file_size": 167286,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "WizMind NVR для 4–8 камер\n\nМожливості реєстратора, сумісність, архів і сценарії застосування без підміни моделі.\n\nПідберемо сумісне рішення під конкретний об’єкт. Напишіть нам: https://t.me/altcam_security_ua\n\n#відеореєстратор #nvr #відеоархів #безпекакиїв #вишгород #київськаобласть #altcam",
+              "caption_entities": [
+                {
+                  "offset": 177,
+                  "length": 31,
+                  "type": "url"
+                },
+                {
+                  "offset": 210,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 227,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 232,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 244,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 257,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 267,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 284,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
