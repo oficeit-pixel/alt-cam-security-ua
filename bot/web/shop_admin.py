@@ -2,6 +2,7 @@ import base64
 import hashlib
 import hmac
 import json
+import logging
 import os
 import smtplib
 import time
@@ -27,6 +28,7 @@ ORDER_STATUSES = {
 ATTENTION_STATUSES = {"new", "arrived", "problem"}
 TRACKING_PROVIDERS = {"nova_poshta", "ukrposhta", "other"}
 ROLES = {"chief", "manager"}
+logger = logging.getLogger("altcam.admin.email")
 
 
 def _secret() -> bytes:
@@ -146,7 +148,39 @@ def _send_email_sync(recipient: str, subject: str, text: str) -> None:
         client.send_message(message)
 
 
+def _email_configured(settings: Any) -> bool:
+    return bool(
+        (settings.email_relay_url and settings.email_relay_secret)
+        or settings.smtp_password
+    )
+
+
 async def _send_email(recipient: str, subject: str, text: str) -> None:
+    settings = get_settings()
+    if settings.email_relay_url and settings.email_relay_secret:
+        payload = {
+            "kind": "email",
+            "secret": settings.email_relay_secret,
+            "recipient": recipient,
+            "subject": subject,
+            "text": text,
+        }
+        async with ClientSession() as client:
+            async with client.post(
+                settings.email_relay_url,
+                json=payload,
+                timeout=20,
+            ) as response:
+                response_text = await response.text()
+                if response.status >= 400:
+                    raise RuntimeError(f"email_relay_http_{response.status}")
+                try:
+                    result = json.loads(response_text)
+                except json.JSONDecodeError as exc:
+                    raise RuntimeError("email_relay_invalid_response") from exc
+                if result.get("status") != "success":
+                    raise RuntimeError("email_relay_rejected")
+        return
     await to_thread(_send_email_sync, recipient, subject, text)
 
 
@@ -209,7 +243,7 @@ async def admin_register(request: web.Request) -> web.Response:
     if not _verify_captcha(str(payload.get("captcha_token", "")), str(payload.get("captcha_answer", ""))):
         return web.json_response({"ok": False, "error": "invalid_captcha"}, status=422)
     settings = get_settings()
-    if not settings.smtp_password:
+    if not _email_configured(settings):
         return web.json_response({"ok": False, "error": "email_not_configured"}, status=503)
     if "@" not in email or not name or not _valid_password(password):
         return web.json_response({"ok": False, "error": "invalid_registration"}, status=422)
@@ -235,6 +269,7 @@ async def admin_register(request: web.Request) -> web.Response:
     try:
         await _send_email(email, "Підтвердження реєстрації ALT-CAM", f"Вітаємо, {name}!\n\nПідтвердьте email адміністратора протягом 60 хвилин:\n{verification_url}\n\nЯкщо ви не реєструвалися, проігноруйте лист.")
     except Exception:
+        logger.exception("registration_email_failed recipient=%s", email)
         return web.json_response({"ok": False, "error": "email_delivery_failed"}, status=503)
     return web.json_response({"ok": True, "message": "verification_sent"}, status=201)
 
@@ -266,7 +301,7 @@ async def admin_request_reset(request: web.Request) -> web.Response:
     email = str(payload.get("email", "")).strip().casefold()[:180]
     async with SessionLocal() as session:
         user = await session.scalar(select(AdminUser).where(func.lower(AdminUser.email) == email, AdminUser.email_verified_at.is_not(None)))
-        if not user or not user.active or not settings.smtp_password:
+        if not user or not user.active or not _email_configured(settings):
             return web.json_response({"ok": True})
         raw_token = await _issue_auth_token(session, user.id, "reset_password", 30)
         await session.commit()
@@ -274,7 +309,7 @@ async def admin_request_reset(request: web.Request) -> web.Response:
     try:
         await _send_email(email, "Відновлення пароля ALT-CAM", f"Для створення нового пароля відкрийте посилання протягом 30 хвилин:\n{reset_url}\n\nЯкщо ви не запитували відновлення, проігноруйте лист.")
     except Exception:
-        pass
+        logger.exception("password_reset_email_failed recipient=%s", email)
     return web.json_response({"ok": True})
 
 

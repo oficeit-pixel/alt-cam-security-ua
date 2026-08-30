@@ -53,6 +53,8 @@ class Settings(BaseSettings):
     smtp_user: str = Field("altcam.ua@gmail.com", alias="SMTP_USER")
     smtp_password: str | None = Field(None, alias="SMTP_PASSWORD")
     smtp_from: str = Field("ALT-CAM Security UA <altcam.ua@gmail.com>", alias="SMTP_FROM")
+    email_relay_url: str | None = Field(None, alias="EMAIL_RELAY_URL")
+    email_relay_secret: str | None = Field(None, alias="EMAIL_RELAY_SECRET")
     nova_poshta_api_key: str | None = Field(None, alias="NOVA_POSHTA_API_KEY")
 
     model_config = SettingsConfigDict(

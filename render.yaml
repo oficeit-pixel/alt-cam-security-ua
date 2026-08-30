@@ -29,6 +29,10 @@ services:
         value: altcam.ua@gmail.com
       - key: SMTP_PASSWORD
         sync: false
+      - key: EMAIL_RELAY_URL
+        sync: false
+      - key: EMAIL_RELAY_SECRET
+        sync: false
       - key: AUTO_CREATE_DB
         value: "true"
 
@@ -60,6 +64,10 @@ services:
       - key: SMTP_USER
         value: altcam.ua@gmail.com
       - key: SMTP_PASSWORD
+        sync: false
+      - key: EMAIL_RELAY_URL
+        sync: false
+      - key: EMAIL_RELAY_SECRET
         sync: false
       - key: AUTO_CREATE_DB
         value: "true"
