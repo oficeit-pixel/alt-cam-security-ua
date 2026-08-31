@@ -6,20 +6,7 @@
    ========================================================= */
 const SITE_URL = "https://oficeit-pixel.github.io/alt-cam-security-ua/";
 
-const CONTACTS = {
-  telegram: "OficeITHelp",
-  telegramChannel: "altcam_security_ua",
-  whatsapp: "",
-  phone: "",
-  phoneLabel: "",
-  email: "altcam.ua@gmail.com",
-  facebook: "https://www.facebook.com/profile.php?id=61586809808794",
-  instagram: "https://www.instagram.com/alt_cam_security_ua/",
-  threads: "https://www.threads.com/@alt_cam_security_ua",
-  tiktok: "",
-  messenger: "",
-  viber: ""
-};
+const CONTACTS = window.ALTCAM_CONTACTS || {};
 
 const PRICE_POLICY = {
   baseDiscount: 0.05,
@@ -214,6 +201,8 @@ async function sendLeadToCrm(payload) {
 }
 
 function trackEvent(name, parameters = {}) {
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({ event: name, ...parameters });
   if (typeof window.gtag === "function") window.gtag("event", name, parameters);
   if (typeof window.fbq === "function") window.fbq("trackCustom", name, parameters);
 }
@@ -254,6 +243,27 @@ function initAnalytics() {
 }
 
 initAnalytics();
+
+document.querySelectorAll("img[data-approved-asset]").forEach((image) => {
+  image.addEventListener("error", () => {
+    image.closest(".package-media, .hero-visual")?.classList.add("asset-awaiting-approval");
+    image.hidden = true;
+  }, { once: true });
+});
+
+document.querySelectorAll("[data-track]").forEach((element) => {
+  element.addEventListener("click", () => trackEvent(element.dataset.track, {
+    location: element.dataset.trackLocation || "page",
+    package: element.dataset.package || undefined
+  }));
+});
+
+document.querySelectorAll("[data-package]").forEach((link) => {
+  link.addEventListener("click", () => {
+    sessionStorage.setItem("altcam-selected-package", link.dataset.package);
+    document.dispatchEvent(new CustomEvent("altcam:package", { detail: link.dataset.package }));
+  });
+});
 
 const header = document.querySelector(".header");
 const menuButton = document.querySelector(".menu-toggle");
@@ -469,7 +479,7 @@ leadForm.addEventListener("submit", async (event) => {
     comment: data.get("comment") || "",
     diagnostics
   });
-  trackEvent("generate_lead", { form: "contact_form", channel: selectedChannel });
+  trackEvent("submit_lead", { form: "contact_form", channel: selectedChannel });
   if (sentToTelegram) {
     alert("Заявку передано менеджеру ALT-CAM у Telegram.");
   } else {
@@ -595,7 +605,7 @@ quoteForm?.addEventListener("submit", async (event) => {
     diagnostics: client.diagnostics,
     nextStep: "Після підтвердження дати перевірити фото, сформувати картку монтажника, надіслати клієнту email із розрахунком і сумою завдатку на обладнання."
   });
-  trackEvent("quote_confirm", { type: activeQuoteState.quote.type, total: activeQuoteState.quote.total });
+  trackEvent("submit_calculator", { type: activeQuoteState.quote.type, total: activeQuoteState.quote.total });
   quoteForm.reset();
   closeQuoteModal();
   if (sentToTelegram) {
@@ -1312,6 +1322,28 @@ const quizPercent = document.querySelector("#quiz-percent");
 const quizProgressBar = document.querySelector("#quiz-progress-bar");
 let currentQuizStep = 0;
 
+const packageSelection = sessionStorage.getItem("altcam-selected-package");
+const packagePresets = {
+  "kit-2cam": { cameras: "1–2 камери", note: "Цікавить комплект відеоспостереження на 2 камери." },
+  "kit-4cam": { cameras: "3–4 камери", note: "Цікавить комплект відеоспостереження на 4 камери." },
+  "kit-8cam": { cameras: "5–8 камер", note: "Цікавить комплект відеоспостереження на 8 камер." },
+  "kit-doorphone": { cameras: "Не знаю — потрібна консультація", note: "Цікавить комплект відеодомофона з контролем доступу." },
+  "kit-ajax": { cameras: "Не знаю — потрібна консультація", note: "Цікавить комплект охоронної системи Ajax." },
+  "kit-ups": { cameras: "Не знаю — потрібна консультація", note: "Потрібне резервне живлення для системи безпеки." }
+};
+function applyPackagePreset(packageId) {
+  const preset = packagePresets[packageId];
+  if (!preset) return;
+  const cameras = quiz.querySelector(`input[name="quizCameras"][value="${preset.cameras}"]`);
+  if (cameras) cameras.checked = true;
+  quiz.elements.quizTech.value = preset.note;
+}
+document.addEventListener("altcam:package", (event) => applyPackagePreset(event.detail));
+if (packagePresets[packageSelection]) {
+  applyPackagePreset(packageSelection);
+  sessionStorage.removeItem("altcam-selected-package");
+}
+
 function renderQuizStep() {
   quizSteps.forEach((step, index) => step.classList.toggle("active", index === currentQuizStep));
   const progress = Math.round((currentQuizStep + 1) / quizSteps.length * 100);
@@ -1380,7 +1412,7 @@ quizNext.addEventListener("click", () => {
     technicalNote: data.get("quizTech") || "",
     photoReady: data.get("quizPhotoReady") === "on"
   });
-  trackEvent("generate_lead", { form: "quiz", channel: "telegram" });
+  trackEvent("submit_quiz", { form: "quiz", channel: "telegram" });
   window.open(telegramUrl(message), "_blank", "noopener,noreferrer");
 });
 

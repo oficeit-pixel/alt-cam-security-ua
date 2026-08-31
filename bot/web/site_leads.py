@@ -1,3 +1,4 @@
+import asyncio
 from html import escape
 from datetime import datetime, timedelta, timezone
 from secrets import token_hex
@@ -10,6 +11,7 @@ from sqlalchemy import select
 
 from bot.db.base import SessionLocal
 from bot.db.models import AdminAuditLog, AnalyticsEvent, PriceOverride, WebOrder
+from bot.integrations.order_fulfillment import auto_create_order_drive_folder
 from bot.web.shop_admin import register_shop_admin_routes
 
 from bot.config import get_settings
@@ -328,8 +330,13 @@ async def create_order(request: web.Request) -> web.Response:
         return web.json_response({"ok": False, "error": "invalid_order"}, status=422, headers=_cors_headers())
     subtotal = sum(item["price"] * item["quantity"] for item in normalized_items)
     async with SessionLocal() as session:
-        session.add(WebOrder(order_number=order_number, customer=customer, delivery=delivery, items=normalized_items, subtotal=subtotal, status="new", telegram_username=telegram_username or None))
+        order = WebOrder(order_number=order_number, customer=customer, delivery=delivery, items=normalized_items, subtotal=subtotal, status="new", telegram_username=telegram_username or None)
+        session.add(order)
         await session.commit()
+        await session.refresh(order)
+        order_id = order.id
+    drive_task = asyncio.create_task(auto_create_order_drive_folder(order_id))
+    drive_task.add_done_callback(lambda task: request.app["logger"].error("drive_folder_auto_create_failed order=%s error=%s", order_number, task.exception()) if not task.cancelled() and task.exception() else None)
     lines = [
         f"<b>Нове замовлення {escape(order_number)}</b>", "",
         f"Клієнт: <b>{escape(name)}</b>",

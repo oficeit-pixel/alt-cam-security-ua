@@ -12,7 +12,7 @@ services:
       - key: DATABASE_URL
         sync: false
       - key: SITE_PUBLIC_ORIGIN
-        value: https://oficeit-pixel.github.io
+        value: https://alt-cam.net.ua
       - key: BOT_USERNAME
         value: AltCamSecurityUaBot
       - key: CHANNEL_ID
@@ -32,6 +32,18 @@ services:
       - key: EMAIL_RELAY_URL
         sync: false
       - key: EMAIL_RELAY_SECRET
+        sync: false
+      - key: GOOGLE_SERVICE_ACCOUNT_JSON
+        sync: false
+      - key: GOOGLE_DRIVE_FOLDER_ID
+        sync: false
+      - key: UKRPOSHTA_TRACKING_TOKEN
+        sync: false
+      - key: IMAP_USER
+        sync: false
+      - key: IMAP_PASSWORD
+        sync: false
+      - key: SUPPLIER_EMAIL_SENDERS
         sync: false
       - key: AUTO_CREATE_DB
         value: "true"
@@ -48,7 +60,7 @@ services:
       - key: DATABASE_URL
         sync: false
       - key: SITE_PUBLIC_ORIGIN
-        value: https://oficeit-pixel.github.io
+        value: https://alt-cam.net.ua
       - key: BOT_USERNAME
         value: AltCamSecurityUaBot
       - key: CHANNEL_ID
@@ -68,6 +80,18 @@ services:
       - key: EMAIL_RELAY_URL
         sync: false
       - key: EMAIL_RELAY_SECRET
+        sync: false
+      - key: GOOGLE_SERVICE_ACCOUNT_JSON
+        sync: false
+      - key: GOOGLE_DRIVE_FOLDER_ID
+        sync: false
+      - key: UKRPOSHTA_TRACKING_TOKEN
+        sync: false
+      - key: IMAP_USER
+        sync: false
+      - key: IMAP_PASSWORD
+        sync: false
+      - key: SUPPLIER_EMAIL_SENDERS
         sync: false
       - key: AUTO_CREATE_DB
         value: "true"

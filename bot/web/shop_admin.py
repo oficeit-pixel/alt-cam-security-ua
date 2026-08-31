@@ -19,6 +19,13 @@ from sqlalchemy import String, cast, desc, func, or_, select, update
 from bot.config import get_settings
 from bot.db.base import SessionLocal
 from bot.db.models import AdminAuditLog, AdminAuthToken, AdminUser, AnalyticsEvent, PriceOverride, WebOrder
+from bot.integrations.order_fulfillment import (
+    IntegrationNotConfigured,
+    delete_drive_folder,
+    ensure_order_drive_folder,
+    fetch_supplier_tracking_messages,
+    fetch_ukrposhta_tracking,
+)
 
 ORDER_STATUSES = {
     "new", "clarification", "ordered_from_supplier", "waiting_tracking",
@@ -407,7 +414,9 @@ async def dashboard(request: web.Request) -> web.Response:
         revenue = await session.scalar(select(func.coalesce(func.sum(WebOrder.subtotal), 0)).where(WebOrder.status != "canceled")) or 0
         events = await session.scalar(select(func.count()).select_from(AnalyticsEvent).where(AnalyticsEvent.created_at >= since)) or 0
         popular = (await session.execute(select(AnalyticsEvent.data["id"].astext.label("product_id"), func.count().label("views")).where(AnalyticsEvent.event.in_(["product_view", "price_request_started", "add_to_cart"]), AnalyticsEvent.data.has_key("id")).group_by("product_id").order_by(desc("views")).limit(12))).all()
-    return web.json_response({"orders": order_count, "new_orders": new_count, "revenue": float(revenue), "events_30d": events, "popular": [{"product_id": row.product_id, "views": row.views} for row in popular]})
+        attention_orders = (await session.scalars(select(WebOrder).where(WebOrder.status.in_(ATTENTION_STATUSES)).order_by(WebOrder.updated_at.desc()).limit(7))).all()
+        recent_orders = (await session.scalars(select(WebOrder).order_by(WebOrder.created_at.desc()).limit(7))).all()
+    return web.json_response({"orders": order_count, "new_orders": new_count, "revenue": float(revenue), "events_30d": events, "popular": [{"product_id": row.product_id, "views": row.views} for row in popular], "attention_orders": [serialize_order(order) for order in attention_orders], "recent_orders": [serialize_order(order) for order in recent_orders]})
 
 
 async def list_orders(request: web.Request) -> web.Response:
@@ -452,6 +461,13 @@ async def get_order(request: web.Request) -> web.Response:
     return web.json_response({"order": serialize_order(order)})
 
 
+async def list_assignees(request: web.Request) -> web.Response:
+    await current_admin(request)
+    async with SessionLocal() as session:
+        rows = (await session.scalars(select(AdminUser).where(AdminUser.active.is_(True)).order_by(AdminUser.name))).all()
+    return web.json_response({"admins": [{"id": row.id, "name": row.name, "email": row.email, "role": row.role} for row in rows]})
+
+
 async def update_order(request: web.Request) -> web.Response:
     user = await current_admin(request)
     payload = await request.json()
@@ -488,7 +504,13 @@ async def update_order(request: web.Request) -> web.Response:
             order.tracking_provider = provider or None
         if "assigned_admin_id" in payload:
             assigned = payload.get("assigned_admin_id")
-            order.assigned_admin_id = int(assigned) if assigned else None
+            if assigned:
+                target_admin = await session.get(AdminUser, int(assigned))
+                if not target_admin or not target_admin.active:
+                    return web.json_response({"ok": False, "error": "invalid_assignee"}, status=422)
+                order.assigned_admin_id = target_admin.id
+            else:
+                order.assigned_admin_id = None
         after = {key: getattr(order, key) for key in before}
         changes = {key: {"before": before[key], "after": after[key]} for key in before if before[key] != after[key]}
         if changes:
@@ -506,6 +528,120 @@ async def update_order(request: web.Request) -> web.Response:
     return web.json_response({"ok": True, "order": serialize_order(order)})
 
 
+async def refresh_tracking(request: web.Request) -> web.Response:
+    user = await current_admin(request)
+    async with SessionLocal() as session:
+        order = await session.get(WebOrder, int(request.match_info["order_id"]))
+        if not order:
+            raise web.HTTPNotFound()
+        if order.tracking_provider != "ukrposhta" or not order.tracking_number:
+            return web.json_response({"ok": False, "error": "ukrposhta_tracking_required"}, status=422)
+        try:
+            tracking = await fetch_ukrposhta_tracking(order.tracking_number)
+        except IntegrationNotConfigured as exc:
+            return web.json_response({"ok": False, "error": str(exc)}, status=503)
+        except Exception as exc:
+            logger.exception("ukrposhta_tracking_failed order=%s", order.order_number)
+            return web.json_response({"ok": False, "error": str(exc)}, status=502)
+        mapped = tracking.get("mapped_status")
+        before = order.status
+        if mapped and order.status not in {"completed", "canceled"} and mapped != order.status:
+            order.status = mapped
+            changes = {"status": {"before": before, "after": mapped}, "ukrposhta_status": {"before": None, "after": tracking.get("raw_status")}}
+            history = list(order.status_history or [])
+            history.append({"at": datetime.now(timezone.utc).isoformat(), "admin_id": user.id, "admin_email": user.email, "changes": changes})
+            order.status_history = history[-200:]
+            await audit(session, user, request, "tracking_refreshed", "order", order.order_number, {"provider": "ukrposhta", "raw_status": tracking.get("raw_status"), "mapped_status": mapped})
+            await session.commit()
+            await session.refresh(order)
+    return web.json_response({"ok": True, "raw_status": tracking.get("raw_status"), "mapped_status": mapped, "order": serialize_order(order)})
+
+
+async def create_drive_folder(request: web.Request) -> web.Response:
+    user = await current_admin(request)
+    async with SessionLocal() as session:
+        order = await session.get(WebOrder, int(request.match_info["order_id"]))
+        if not order:
+            raise web.HTTPNotFound()
+        if order.drive_folder_url:
+            return web.json_response({"ok": True, "url": order.drive_folder_url, "order": serialize_order(order)})
+        try:
+            folder_url = await ensure_order_drive_folder(order)
+        except IntegrationNotConfigured as exc:
+            return web.json_response({"ok": False, "error": str(exc)}, status=503)
+        except Exception:
+            logger.exception("drive_folder_failed order=%s", order.order_number)
+            return web.json_response({"ok": False, "error": "drive_folder_failed"}, status=502)
+        order.drive_folder_url = folder_url
+        history = list(order.status_history or [])
+        history.append({"at": datetime.now(timezone.utc).isoformat(), "admin_id": user.id, "admin_email": user.email, "changes": {"drive_folder_url": {"before": None, "after": folder_url}}})
+        order.status_history = history[-200:]
+        await audit(session, user, request, "drive_folder_created", "order", order.order_number, {"url": folder_url})
+        await session.commit()
+        await session.refresh(order)
+    return web.json_response({"ok": True, "url": folder_url, "order": serialize_order(order)})
+
+
+async def sync_supplier_email(request: web.Request) -> web.Response:
+    user = await current_admin(request, chief_only=True)
+    try:
+        messages = await to_thread(fetch_supplier_tracking_messages)
+    except IntegrationNotConfigured as exc:
+        return web.json_response({"ok": False, "error": str(exc)}, status=503)
+    except Exception:
+        logger.exception("supplier_email_sync_failed")
+        return web.json_response({"ok": False, "error": "supplier_email_sync_failed"}, status=502)
+    updated = 0
+    async with SessionLocal() as session:
+        for message in messages:
+            order = await session.scalar(select(WebOrder).where(WebOrder.order_number == message["order_number"]))
+            if not order or order.tracking_number == message["tracking_number"]:
+                continue
+            before = {"tracking_number": order.tracking_number, "tracking_provider": order.tracking_provider, "status": order.status}
+            order.tracking_number = message["tracking_number"]
+            order.tracking_provider = message["provider"]
+            if order.status in {"ordered_from_supplier", "waiting_tracking"}:
+                order.status = "shipped"
+            after = {"tracking_number": order.tracking_number, "tracking_provider": order.tracking_provider, "status": order.status}
+            changes = {key: {"before": before[key], "after": after[key]} for key in before if before[key] != after[key]}
+            history = list(order.status_history or [])
+            history.append({"at": datetime.now(timezone.utc).isoformat(), "admin_id": user.id, "admin_email": user.email, "changes": changes})
+            order.status_history = history[-200:]
+            await audit(session, user, request, "supplier_email_synced", "order", order.order_number, {"sender": message["sender"], "changes": changes})
+            updated += 1
+        await session.commit()
+    return web.json_response({"ok": True, "messages_found": len(messages), "orders_updated": updated})
+
+
+async def delete_customer_data(request: web.Request) -> web.Response:
+    user = await current_admin(request, chief_only=True)
+    async with SessionLocal() as session:
+        order = await session.get(WebOrder, int(request.match_info["order_id"]))
+        if not order:
+            raise web.HTTPNotFound()
+        if order.drive_folder_url:
+            try:
+                await delete_drive_folder(order.drive_folder_url)
+            except IntegrationNotConfigured as exc:
+                return web.json_response({"ok": False, "error": str(exc)}, status=503)
+            except Exception:
+                logger.exception("drive_folder_delete_failed order=%s", order.order_number)
+                return web.json_response({"ok": False, "error": "drive_folder_delete_failed"}, status=502)
+        delivery_type = str((order.delivery or {}).get("type", ""))[:24]
+        order.customer = {}
+        order.delivery = {"type": delivery_type} if delivery_type else {}
+        order.telegram_username = None
+        order.tracking_number = None
+        order.drive_folder_url = None
+        order.manager_note = None
+        order.problem_note = None
+        order.status_history = []
+        await audit(session, user, request, "customer_data_deleted", "order", order.order_number, {"retained": ["order_number", "items", "subtotal", "status"]})
+        await session.commit()
+        await session.refresh(order)
+    return web.json_response({"ok": True, "order": serialize_order(order)})
+
+
 async def list_prices(request: web.Request) -> web.Response:
     await current_admin(request)
     async with SessionLocal() as session:
@@ -514,7 +650,7 @@ async def list_prices(request: web.Request) -> web.Response:
 
 
 async def save_price(request: web.Request) -> web.Response:
-    user = await current_admin(request)
+    user = await current_admin(request, chief_only=True)
     payload = await request.json()
     product_id = str(payload.get("product_id", ""))[:96]
     try:
@@ -533,6 +669,20 @@ async def save_price(request: web.Request) -> web.Response:
             row.price_uah = price
         row.enabled = bool(payload.get("enabled", True))
         await audit(session, user, request, "price_updated", "product", product_id, {"old_price": old_price, "new_price": float(price), "enabled": row.enabled})
+        await session.commit()
+    return web.json_response({"ok": True})
+
+
+async def delete_price(request: web.Request) -> web.Response:
+    user = await current_admin(request, chief_only=True)
+    product_id = str(request.match_info["product_id"])[:96]
+    async with SessionLocal() as session:
+        row = await session.get(PriceOverride, product_id)
+        if not row:
+            raise web.HTTPNotFound()
+        old_price = float(row.price_uah)
+        await session.delete(row)
+        await audit(session, user, request, "price_deleted", "product", product_id, {"old_price": old_price})
         await session.commit()
     return web.json_response({"ok": True})
 
@@ -623,8 +773,14 @@ def register_shop_admin_routes(app: web.Application) -> None:
     app.router.add_get("/api/admin/orders", list_orders)
     app.router.add_get("/api/admin/orders/{order_id}", get_order)
     app.router.add_patch("/api/admin/orders/{order_id}", update_order)
+    app.router.add_post("/api/admin/orders/{order_id}/tracking/refresh", refresh_tracking)
+    app.router.add_post("/api/admin/orders/{order_id}/drive-folder", create_drive_folder)
+    app.router.add_delete("/api/admin/orders/{order_id}/customer-data", delete_customer_data)
+    app.router.add_post("/api/admin/integrations/email/sync", sync_supplier_email)
+    app.router.add_get("/api/admin/assignees", list_assignees)
     app.router.add_get("/api/admin/prices", list_prices)
     app.router.add_put("/api/admin/prices", save_price)
+    app.router.add_delete("/api/admin/prices/{product_id}", delete_price)
     app.router.add_get("/api/admin/users", list_admins)
     app.router.add_post("/api/admin/users", create_admin)
     app.router.add_patch("/api/admin/users/{admin_id}", update_admin)
