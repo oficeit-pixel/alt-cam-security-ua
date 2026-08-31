@@ -4981,6 +4981,112 @@
           }
         }
       }
+    },
+    "approved-2026-08-21-sep30-2026-08-31-telegram": {
+      "telegram": {
+        "published_at": "2026-08-31T15:02:32.552862+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 91,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1788188552,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADW2qVl4jhL7H5d1kfcgSakfRokI2HAAJjIWsb_qyxSJ5bWhdL1MfrAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADYyFrG_6ssUh4",
+                  "file_size": 1656,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADW2qVl4jhL7H5d1kfcgSakfRokI2HAAJjIWsb_qyxSJ5bWhdL1MfrAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADYyFrG_6ssUhy",
+                  "file_size": 19697,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADW2qVl4jhL7H5d1kfcgSakfRokI2HAAJjIWsb_qyxSJ5bWhdL1MfrAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADYyFrG_6ssUh9",
+                  "file_size": 73474,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADW2qVl4jhL7H5d1kfcgSakfRokI2HAAJjIWsb_qyxSJ5bWhdL1MfrAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADYyFrG_6ssUh-",
+                  "file_size": 140794,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADW2qVl4jhL7H5d1kfcgSakfRokI2HAAJjIWsb_qyxSJ5bWhdL1MfrAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADYyFrG_6ssUh8",
+                  "file_size": 163076,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Нічний тест камер\n\nПорівнюємо ІЧ-підсвічування з повноколірним нічним зображенням.\n\nПідберемо сумісне рішення під конкретний об’єкт. Напишіть нам: https://t.me/altcam_security_ua\n\n#відеоспостереження #камеривідеоспостереження #монтажкамер #безпекакиїв #вишгород #київськаобласть #altcam",
+              "caption_entities": [
+                {
+                  "offset": 147,
+                  "length": 31,
+                  "type": "url"
+                },
+                {
+                  "offset": 180,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 200,
+                  "length": 25,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 226,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 239,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 252,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 262,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 279,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
