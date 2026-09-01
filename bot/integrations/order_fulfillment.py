@@ -1,6 +1,7 @@
 import imaplib
 import json
 import re
+from pathlib import Path
 from datetime import datetime, timezone
 from email import message_from_bytes
 from email.header import decode_header, make_header
@@ -25,6 +26,33 @@ TRACK_PATTERNS = (
     re.compile(r"\b[A-Z]{2}\d{9}UA\b", re.I),
     re.compile(r"\b\d{12,18}\b"),
 )
+
+
+def _load_google_service_account(settings: Any) -> dict[str, Any]:
+    raw = settings.google_service_account_json
+    if not raw:
+        secret_file = Path(settings.google_service_account_file)
+        if secret_file.is_file():
+            raw = secret_file.read_text(encoding="utf-8")
+    if not raw:
+        raise IntegrationNotConfigured("google_drive_not_configured")
+    try:
+        payload = json.loads(raw)
+    except (json.JSONDecodeError, OSError) as exc:
+        raise RuntimeError("invalid_google_service_account_json") from exc
+    if payload.get("type") != "service_account" or not payload.get("private_key"):
+        raise RuntimeError("invalid_google_service_account_json")
+    return payload
+
+
+def _google_drive_is_configured(settings: Any) -> bool:
+    return bool(
+        settings.google_drive_folder_id
+        and (
+            settings.google_service_account_json
+            or Path(settings.google_service_account_file).is_file()
+        )
+    )
 
 
 def _safe_folder_name(value: str, fallback: str) -> str:
@@ -65,12 +93,9 @@ async def _drive_folder(aiogoogle: Aiogoogle, drive: Any, parent_id: str, name: 
 
 async def ensure_order_drive_folder(order: Any) -> str:
     settings = get_settings()
-    if not settings.google_service_account_json or not settings.google_drive_folder_id:
+    if not settings.google_drive_folder_id:
         raise IntegrationNotConfigured("google_drive_not_configured")
-    try:
-        service_account = json.loads(settings.google_service_account_json)
-    except json.JSONDecodeError as exc:
-        raise RuntimeError("invalid_google_service_account_json") from exc
+    service_account = _load_google_service_account(settings)
     credentials = ServiceAccountCreds(
         scopes=["https://www.googleapis.com/auth/drive"],
         **service_account,
@@ -99,15 +124,10 @@ async def delete_drive_folder(folder_url: str) -> None:
     settings = get_settings()
     if not folder_url:
         return
-    if not settings.google_service_account_json:
-        raise IntegrationNotConfigured("google_drive_not_configured")
     match = re.search(r"/folders/([A-Za-z0-9_-]+)", folder_url)
     if not match:
         raise RuntimeError("invalid_drive_folder_url")
-    try:
-        service_account = json.loads(settings.google_service_account_json)
-    except json.JSONDecodeError as exc:
-        raise RuntimeError("invalid_google_service_account_json") from exc
+    service_account = _load_google_service_account(settings)
     credentials = ServiceAccountCreds(scopes=["https://www.googleapis.com/auth/drive"], **service_account)
     async with Aiogoogle(service_account_creds=credentials) as aiogoogle:
         drive = await aiogoogle.discover("drive", "v3")
@@ -230,7 +250,7 @@ def fetch_supplier_tracking_messages() -> list[dict[str, str]]:
 
 async def auto_create_order_drive_folder(order_id: int) -> None:
     settings = get_settings()
-    if not settings.google_service_account_json or not settings.google_drive_folder_id:
+    if not _google_drive_is_configured(settings):
         return
     async with SessionLocal() as session:
         order = await session.get(WebOrder, order_id)

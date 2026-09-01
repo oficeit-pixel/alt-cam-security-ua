@@ -41,6 +41,10 @@ class Settings(BaseSettings):
     google_service_account_json: str | None = Field(
         None, alias="GOOGLE_SERVICE_ACCOUNT_JSON"
     )
+    google_service_account_file: str = Field(
+        "/etc/secrets/google-service-account.json",
+        alias="GOOGLE_SERVICE_ACCOUNT_FILE",
+    )
     google_drive_folder_id: str | None = Field(None, alias="GOOGLE_DRIVE_FOLDER_ID")
     ukrposhta_api_url: str = Field("https://www.ukrposhta.ua/ecom/0.0.1", alias="UKRPOSHTA_API_URL")
     ukrposhta_tracking_token: str | None = Field(None, alias="UKRPOSHTA_TRACKING_TOKEN")
