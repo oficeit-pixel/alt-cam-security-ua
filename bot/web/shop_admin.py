@@ -25,6 +25,7 @@ from bot.integrations.order_fulfillment import (
     ensure_order_drive_folder,
     fetch_supplier_tracking_messages,
     fetch_ukrposhta_tracking,
+    load_supplier_directory,
 )
 
 ORDER_STATUSES = {
@@ -584,8 +585,22 @@ async def create_drive_folder(request: web.Request) -> web.Response:
 
 async def sync_supplier_email(request: web.Request) -> web.Response:
     user = await current_admin(request, chief_only=True)
+    directory_senders: set[str] = set()
     try:
-        messages = await to_thread(fetch_supplier_tracking_messages)
+        directory = await load_supplier_directory()
+        for supplier in directory["suppliers"]:
+            directory_senders.update(
+                email
+                for email in (supplier["order_email"], supplier["tracking_email"])
+                if email
+            )
+    except IntegrationNotConfigured:
+        pass
+    except Exception:
+        logger.exception("supplier_directory_read_failed")
+        return web.json_response({"ok": False, "error": "supplier_directory_read_failed"}, status=502)
+    try:
+        messages = await to_thread(fetch_supplier_tracking_messages, directory_senders)
     except IntegrationNotConfigured as exc:
         return web.json_response({"ok": False, "error": str(exc)}, status=503)
     except Exception:
@@ -611,6 +626,23 @@ async def sync_supplier_email(request: web.Request) -> web.Response:
             updated += 1
         await session.commit()
     return web.json_response({"ok": True, "messages_found": len(messages), "orders_updated": updated})
+
+
+async def supplier_directory_status(request: web.Request) -> web.Response:
+    await current_admin(request, chief_only=True)
+    try:
+        directory = await load_supplier_directory()
+    except IntegrationNotConfigured as exc:
+        return web.json_response({"ok": False, "error": str(exc)}, status=503)
+    except Exception:
+        logger.exception("supplier_directory_read_failed")
+        return web.json_response({"ok": False, "error": "supplier_directory_read_failed"}, status=502)
+    return web.json_response({
+        "ok": True,
+        "suppliers": len(directory["suppliers"]),
+        "managers": len(directory["managers"]),
+        "routes": len(directory["routes"]),
+    })
 
 
 async def delete_customer_data(request: web.Request) -> web.Response:
@@ -777,6 +809,7 @@ def register_shop_admin_routes(app: web.Application) -> None:
     app.router.add_post("/api/admin/orders/{order_id}/drive-folder", create_drive_folder)
     app.router.add_delete("/api/admin/orders/{order_id}/customer-data", delete_customer_data)
     app.router.add_post("/api/admin/integrations/email/sync", sync_supplier_email)
+    app.router.add_get("/api/admin/integrations/directory", supplier_directory_status)
     app.router.add_get("/api/admin/assignees", list_assignees)
     app.router.add_get("/api/admin/prices", list_prices)
     app.router.add_put("/api/admin/prices", save_price)

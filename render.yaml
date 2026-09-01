@@ -37,6 +37,8 @@ services:
         value: /etc/secrets/google-service-account.json
       - key: GOOGLE_DRIVE_FOLDER_ID
         sync: false
+      - key: GOOGLE_CONTACTS_SPREADSHEET_ID
+        value: 1xWC-Ma6iUOKvAaMFnnT_CtHsVpG0gez79jQA-HVEQnc
       - key: UKRPOSHTA_TRACKING_TOKEN
         sync: false
       - key: IMAP_USER
@@ -85,6 +87,8 @@ services:
         value: /etc/secrets/google-service-account.json
       - key: GOOGLE_DRIVE_FOLDER_ID
         sync: false
+      - key: GOOGLE_CONTACTS_SPREADSHEET_ID
+        value: 1xWC-Ma6iUOKvAaMFnnT_CtHsVpG0gez79jQA-HVEQnc
       - key: UKRPOSHTA_TRACKING_TOKEN
         sync: false
       - key: IMAP_USER

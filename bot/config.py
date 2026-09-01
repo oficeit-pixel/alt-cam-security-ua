@@ -46,6 +46,9 @@ class Settings(BaseSettings):
         alias="GOOGLE_SERVICE_ACCOUNT_FILE",
     )
     google_drive_folder_id: str | None = Field(None, alias="GOOGLE_DRIVE_FOLDER_ID")
+    google_contacts_spreadsheet_id: str | None = Field(
+        None, alias="GOOGLE_CONTACTS_SPREADSHEET_ID"
+    )
     ukrposhta_api_url: str = Field("https://www.ukrposhta.ua/ecom/0.0.1", alias="UKRPOSHTA_API_URL")
     ukrposhta_tracking_token: str | None = Field(None, alias="UKRPOSHTA_TRACKING_TOKEN")
     imap_host: str = Field("imap.gmail.com", alias="IMAP_HOST")

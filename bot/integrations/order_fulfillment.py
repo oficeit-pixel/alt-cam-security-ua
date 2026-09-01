@@ -64,6 +64,97 @@ def _drive_query_value(value: str) -> str:
     return value.replace("\\", "\\\\").replace("'", "\\'")
 
 
+def _active(value: Any) -> bool:
+    return str(value or "").strip().casefold() in {"так", "yes", "true", "1"}
+
+
+def _row_value(row: list[Any], index: int) -> str:
+    return str(row[index] if index < len(row) else "").strip()
+
+
+async def load_supplier_directory() -> dict[str, list[dict[str, Any]]]:
+    settings = get_settings()
+    if not settings.google_contacts_spreadsheet_id:
+        raise IntegrationNotConfigured("supplier_directory_not_configured")
+    credentials = ServiceAccountCreds(
+        scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"],
+        **_load_google_service_account(settings),
+    )
+    ranges = {
+        "suppliers": "Постачальники!A3:O300",
+        "managers": "Менеджери!A3:L300",
+        "routes": "Маршрутизація!A3:L300",
+    }
+    values: dict[str, list[list[Any]]] = {}
+    async with Aiogoogle(service_account_creds=credentials) as aiogoogle:
+        sheets = await aiogoogle.discover("sheets", "v4")
+        for key, range_name in ranges.items():
+            response = await aiogoogle.as_service_account(
+                sheets.spreadsheets.values.get(
+                    spreadsheetId=settings.google_contacts_spreadsheet_id,
+                    range=range_name,
+                    majorDimension="ROWS",
+                )
+            )
+            values[key] = response.get("values", []) if isinstance(response, dict) else []
+
+    suppliers = [
+        {
+            "code": _row_value(row, 1),
+            "name": _row_value(row, 2),
+            "website": _row_value(row, 3),
+            "feed_url": _row_value(row, 4),
+            "order_email": _row_value(row, 5).casefold(),
+            "tracking_email": _row_value(row, 6).casefold(),
+            "telegram": _row_value(row, 7),
+            "manager_name": _row_value(row, 8),
+            "phone": _row_value(row, 9),
+            "order_channel": _row_value(row, 10),
+            "tracking_channel": _row_value(row, 11),
+            "delivery_service": _row_value(row, 12),
+            "priority": _row_value(row, 13),
+            "note": _row_value(row, 14),
+        }
+        for row in values["suppliers"]
+        if _active(_row_value(row, 0)) and _row_value(row, 1)
+    ]
+    managers = [
+        {
+            "id": _row_value(row, 1),
+            "name": _row_value(row, 2),
+            "role": _row_value(row, 3),
+            "supplier_code": _row_value(row, 4),
+            "email": _row_value(row, 5).casefold(),
+            "telegram": _row_value(row, 6),
+            "phone": _row_value(row, 7),
+            "schedule": _row_value(row, 8),
+            "region": _row_value(row, 9),
+            "priority": _row_value(row, 10),
+            "note": _row_value(row, 11),
+        }
+        for row in values["managers"]
+        if _active(_row_value(row, 0)) and _row_value(row, 1)
+    ]
+    routes = [
+        {
+            "event": _row_value(row, 1),
+            "supplier_code": _row_value(row, 2),
+            "channel": _row_value(row, 3),
+            "recipient": _row_value(row, 4),
+            "copy": _row_value(row, 5),
+            "order_status": _row_value(row, 6),
+            "template": _row_value(row, 7),
+            "priority": _row_value(row, 8),
+            "time_from": _row_value(row, 9),
+            "time_to": _row_value(row, 10),
+            "note": _row_value(row, 11),
+        }
+        for row in values["routes"]
+        if _active(_row_value(row, 0)) and _row_value(row, 1)
+    ]
+    return {"suppliers": suppliers, "managers": managers, "routes": routes}
+
+
 async def _drive_folder(aiogoogle: Aiogoogle, drive: Any, parent_id: str, name: str) -> dict[str, Any]:
     query = (
         f"'{_drive_query_value(parent_id)}' in parents and "
@@ -215,11 +306,18 @@ def _provider_for_track(track: str) -> str:
     return "other"
 
 
-def fetch_supplier_tracking_messages() -> list[dict[str, str]]:
+def fetch_supplier_tracking_messages(
+    directory_senders: set[str] | None = None,
+) -> list[dict[str, str]]:
     settings = get_settings()
     if not settings.imap_user or not settings.imap_password:
         raise IntegrationNotConfigured("imap_not_configured")
-    allowed = {item.strip().casefold() for item in (settings.supplier_email_senders or "").split(",") if item.strip()}
+    allowed = {
+        item.strip().casefold()
+        for item in (settings.supplier_email_senders or "").split(",")
+        if item.strip()
+    }
+    allowed.update(directory_senders or set())
     if not allowed:
         raise IntegrationNotConfigured("supplier_email_senders_not_configured")
     results: list[dict[str, str]] = []
