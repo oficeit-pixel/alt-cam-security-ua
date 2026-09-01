@@ -399,10 +399,18 @@ def main() -> None:
         feed_files.append(("videonagliad", args.viatec_file.resolve(), "local-override"))
     else:
         for feed in config["viatec_feeds"]:
-            target = raw_dir / f"viatec-{feed['key']}.xml"
-            download(feed["url"], target)
+            local_file = str(feed.get("local_file", "")).strip()
+            if local_file:
+                target = Path(local_file).resolve()
+                if not target.is_file():
+                    raise FileNotFoundError(target)
+            else:
+                target = raw_dir / f"viatec-{feed['key']}.xml"
+                download(feed["url"], target)
             feed_files.append((feed["key"], target, feed["url"]))
     report = parse_viatec_feeds(feed_files, output)
+    if int(report.get("stats", {}).get("selected_products", 0)) < 20:
+        raise RuntimeError("Catalog safety check failed: fewer than 20 relevant products")
     save_yugtorg_probe(output, config["yugtorg_api_base"])
     print(json.dumps(report, ensure_ascii=False))
 

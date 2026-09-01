@@ -3,7 +3,7 @@ name: ALT-CAM catalog sync
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 */4 * * *"
+    - cron: "17 3 */3 * *"
 
 permissions:
   contents: write
@@ -13,15 +13,28 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON }}
+      GOOGLE_CONTACTS_SPREADSHEET_ID: 1xWC-Ma6iUOKvAaMFnnT_CtHsVpG0gez79jQA-HVEQnc
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Install Google catalog clients
+        if: env.GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON != ''
+        run: pip install google-api-python-client google-auth
+      - name: Load supplier feeds from Google Sheets
+        if: env.GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON != ''
+        run: >-
+          python scripts/load_catalog_sources.py
+          --base-config catalog-sync/config.json
+          --output catalog-sync/runtime-config.json
+          --download-dir catalog-sync/input
       - name: Build normalized catalog
         env:
           YUGTORG_API_KEY: ${{ secrets.YUGTORG_API_KEY }}
-        run: python scripts/sync_product_catalog.py
+        run: >-
+          python scripts/sync_product_catalog.py
+          --config ${{ env.GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON != '' && 'catalog-sync/runtime-config.json' || 'catalog-sync/config.json' }}
       - name: Build public site catalog and Meta feed
         run: |
           python scripts/build_site_catalog.py
@@ -32,9 +45,6 @@ jobs:
           name: altcam-catalog
           path: catalog-sync/output
           retention-days: 14
-      - name: Install Google Drive client
-        if: env.GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON != ''
-        run: pip install google-api-python-client google-auth
       - name: Upload reports and normalized catalog to Google Drive
         if: env.GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON != ''
         run: python scripts/upload_catalog_to_drive.py
