@@ -11,6 +11,20 @@
     {"key": "elektrika-ta-instrument", "url": "https://viatec.ua/files/product_info_elektrika-ta-instrument_uk.xml"}
   ],
   "yugtorg_api_base": "https://b2b.yugtorg.com/apiservices/export",
+  "yugtorg_draft_categories": {
+    "alternative_energy": 11131,
+    "lithium_batteries": 37930,
+    "batteries": 14,
+    "battery_accessories": 37959,
+    "emergency_power": 19169,
+    "electrical": 28453,
+    "security": 11995,
+    "cable_products": 12,
+    "network_equipment": 10468,
+    "tools": 18108,
+    "installation_accessories": 14944,
+    "power_adapters": 1105
+  },
   "google_drive": {
     "root_folder_id": "1mfgyJ0tNJ8zX2dntMy7c2NfvfaFs5Sm3",
     "raw_folder_id": "1KuBRIFy_T1_DbzcRBUcpsXMqssm9cqg1",

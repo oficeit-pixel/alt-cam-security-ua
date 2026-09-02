@@ -369,22 +369,37 @@ def parse_viatec_feeds(feed_files: list[tuple[str, Path, str]], output: Path) ->
     return report
 
 
-def save_yugtorg_probe(output: Path, api_base: str) -> None:
+def download_yugtorg_json(api_base: str, market: str, params: dict[str, object], target: Path) -> object:
+    query = urllib.parse.urlencode(params)
+    download(f"{api_base}/{market}&{query}", target)
+    try:
+        payload = json.loads(target.read_text(encoding="utf-8-sig"))
+    except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+        target.unlink(missing_ok=True)
+        raise RuntimeError(f"Yugtorg {market} endpoint returned non-JSON data") from exc
+    if not isinstance(payload, (dict, list)):
+        target.unlink(missing_ok=True)
+        raise RuntimeError(f"Yugtorg {market} endpoint returned an unsupported JSON structure")
+    return payload
+
+
+def save_yugtorg_probe(output: Path, api_base: str, draft_categories: dict[str, int]) -> None:
     api_key = os.getenv("YUGTORG_API_KEY", "").strip()
     status = {"configured": bool(api_key), "downloaded": False}
     if api_key:
-        params = urllib.parse.urlencode({"apikey": api_key, "level": 5, "lang": "ua"})
         target = output / "raw" / "yugtorg-categories.json"
         target.parent.mkdir(parents=True, exist_ok=True)
-        download(f"{api_base}/categories&{params}", target)
-        try:
-            payload = json.loads(target.read_text(encoding="utf-8-sig"))
-        except (UnicodeDecodeError, json.JSONDecodeError) as exc:
-            target.unlink(missing_ok=True)
-            raise RuntimeError("Yugtorg categories endpoint returned non-JSON data") from exc
-        if not isinstance(payload, (dict, list)):
-            target.unlink(missing_ok=True)
-            raise RuntimeError("Yugtorg categories endpoint returned an unsupported JSON structure")
+        download_yugtorg_json(api_base, "categories", {"apikey": api_key, "level": 5, "lang": "ua"}, target)
+        first_category_id = next(iter(draft_categories.values()), None)
+        if first_category_id:
+            probe_target = output / "raw" / "yugtorg-products-probe.json"
+            download_yugtorg_json(
+                api_base,
+                "products",
+                {"apikey": api_key, "category": first_category_id, "noresize": 1, "limit": 2, "lang": "ua"},
+                probe_target,
+            )
+            status["products_probe_bytes"] = probe_target.stat().st_size
         status["downloaded"] = True
         status["bytes"] = target.stat().st_size
     (output / "yugtorg-status.json").write_text(json.dumps(status, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -425,7 +440,7 @@ def main() -> None:
     report = parse_viatec_feeds(feed_files, output)
     if int(report.get("stats", {}).get("selected_products", 0)) < 20:
         raise RuntimeError("Catalog safety check failed: fewer than 20 relevant products")
-    save_yugtorg_probe(output, config["yugtorg_api_base"])
+    save_yugtorg_probe(output, config["yugtorg_api_base"], config.get("yugtorg_draft_categories", {}))
     print(json.dumps(report, ensure_ascii=False))
 
 
