@@ -5297,6 +5297,112 @@
           }
         }
       }
+    },
+    "approved-2026-08-21-sep30-2026-09-02-telegram": {
+      "telegram": {
+        "published_at": "2026-09-02T11:15:26.812944+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 93,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1788347726,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADXWqYBU6qMzNkdMrf2cIjp8wK5NC2AALGHGsbU5vBSInHJdVonQ0UAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADxhxrG1ObwUh4",
+                  "file_size": 1574,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADXWqYBU6qMzNkdMrf2cIjp8wK5NC2AALGHGsbU5vBSInHJdVonQ0UAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADxhxrG1ObwUhy",
+                  "file_size": 20025,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADXWqYBU6qMzNkdMrf2cIjp8wK5NC2AALGHGsbU5vBSInHJdVonQ0UAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADxhxrG1ObwUh9",
+                  "file_size": 73492,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADXWqYBU6qMzNkdMrf2cIjp8wK5NC2AALGHGsbU5vBSInHJdVonQ0UAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADxhxrG1ObwUh-",
+                  "file_size": 141268,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADXWqYBU6qMzNkdMrf2cIjp8wK5NC2AALGHGsbU5vBSInHJdVonQ0UAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADxhxrG1ObwUh8",
+                  "file_size": 163031,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Акуратна монтажна шафа\n\nЖивлення, PoE, NVR і маркування кабелів до та після впорядкування.\n\nПідберемо сумісне рішення під конкретний об’єкт. Напишіть нам: https://t.me/altcam_security_ua\n\n#кабель #poe #монтажкамер #безпекакиїв #вишгород #київськаобласть #altcam",
+              "caption_entities": [
+                {
+                  "offset": 155,
+                  "length": 31,
+                  "type": "url"
+                },
+                {
+                  "offset": 188,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 196,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 201,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 214,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 227,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 237,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 254,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
