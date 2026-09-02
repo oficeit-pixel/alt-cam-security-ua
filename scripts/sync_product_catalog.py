@@ -2,10 +2,13 @@ from __future__ import annotations
 
 import argparse
 import csv
+import html
 import json
 import os
+import re
 import shutil
 import tempfile
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -371,7 +374,11 @@ def parse_viatec_feeds(feed_files: list[tuple[str, Path, str]], output: Path) ->
 
 def download_yugtorg_json(api_base: str, market: str, params: dict[str, object], target: Path) -> object:
     query = urllib.parse.urlencode(params)
-    download(f"{api_base}/{market}&{query}", target)
+    try:
+        download(f"{api_base}/{market}&{query}", target)
+    except urllib.error.URLError as exc:
+        target.unlink(missing_ok=True)
+        raise RuntimeError(f"Yugtorg {market} request failed") from exc
     try:
         payload = json.loads(target.read_text(encoding="utf-8-sig"))
     except (UnicodeDecodeError, json.JSONDecodeError) as exc:
@@ -383,23 +390,141 @@ def download_yugtorg_json(api_base: str, market: str, params: dict[str, object],
     return payload
 
 
-def save_yugtorg_probe(output: Path, api_base: str, draft_categories: dict[str, int]) -> None:
+def normalized_identity(vendor: object, model: object) -> str:
+    value = re.sub(r"[^a-zа-яіїєґ0-9]+", "", f"{vendor or ''}{model or ''}".casefold())
+    return value if len(value) >= 5 else ""
+
+
+def yugtorg_in_stock(value: object) -> bool:
+    stock = str(value or "").strip().casefold()
+    return stock not in {"", "0", "-", "--", "---", "no", "none", "немає", "нет", "відсутній"}
+
+
+def load_viatec_identities(output: Path) -> set[str]:
+    identities: set[str] = set()
+    for path in (output / "normalized").glob("*.json"):
+        for product in json.loads(path.read_text(encoding="utf-8")):
+            identity = normalized_identity(product.get("brand"), product.get("model"))
+            if identity:
+                identities.add(identity)
+    return identities
+
+
+def save_yugtorg_draft(output: Path, api_base: str, draft_categories: dict[str, int]) -> None:
     api_key = os.getenv("YUGTORG_API_KEY", "").strip()
     status = {"configured": bool(api_key), "downloaded": False}
     if api_key:
         target = output / "raw" / "yugtorg-categories.json"
         target.parent.mkdir(parents=True, exist_ok=True)
         download_yugtorg_json(api_base, "categories", {"apikey": api_key, "level": 5, "lang": "ua"}, target)
-        first_category_id = next(iter(draft_categories.values()), None)
-        if first_category_id:
-            probe_target = output / "raw" / "yugtorg-products-probe.json"
-            download_yugtorg_json(
-                api_base,
-                "products",
-                {"apikey": api_key, "category": first_category_id, "noresize": 1, "limit": 2, "lang": "ua"},
-                probe_target,
-            )
-            status["products_probe_bytes"] = probe_target.stat().st_size
+        draft_dir = output / "yugtorg-draft"
+        if draft_dir.exists():
+            shutil.rmtree(draft_dir)
+        draft_dir.mkdir()
+        viatec_identities = load_viatec_identities(output)
+        all_products: list[dict] = []
+        report_rows: list[dict] = []
+        seen_ids: set[str] = set()
+        page_limit = 500
+        with tempfile.TemporaryDirectory(prefix="altcam-yugtorg-") as temp_name:
+            temp_dir = Path(temp_name)
+            for group, category_id in draft_categories.items():
+                category_products: list[dict] = []
+                counters = Counter()
+                after_id = ""
+                for page_number in range(1, 201):
+                    page_target = temp_dir / f"{group}-{page_number}.json"
+                    params: dict[str, object] = {
+                        "apikey": api_key,
+                        "category": category_id,
+                        "noresize": 1,
+                        "limit": page_limit,
+                        "lang": "ua",
+                    }
+                    if after_id:
+                        params["after_id"] = after_id
+                    payload = download_yugtorg_json(api_base, "products", params, page_target)
+                    rows = payload.get("products", []) if isinstance(payload, dict) else payload
+                    if not isinstance(rows, list):
+                        raise RuntimeError("Yugtorg products response has no product list")
+                    if not rows:
+                        break
+                    last_id = str(rows[-1].get("id") or "") if isinstance(rows[-1], dict) else ""
+                    if not last_id or last_id == after_id:
+                        raise RuntimeError(f"Yugtorg pagination stopped advancing for category {category_id}")
+                    for item in rows:
+                        if not isinstance(item, dict):
+                            continue
+                        supplier_id = str(item.get("id") or "").strip()
+                        if not supplier_id:
+                            counters["missing_id"] += 1
+                            continue
+                        if supplier_id in seen_ids:
+                            counters["duplicate_supplier_id"] += 1
+                            continue
+                        seen_ids.add(supplier_id)
+                        model = str(item.get("model") or "").strip()
+                        vendor = str(item.get("vendor") or "").strip()
+                        identity = normalized_identity(vendor, model)
+                        rrp = as_float(str(item.get("rrp") or ""))
+                        image = str(item.get("image") or "").strip()
+                        product = {
+                            "catalog_id": f"yugtorg-{supplier_id}",
+                            "supplier": "yugtorg",
+                            "supplier_id": supplier_id,
+                            "sku": model or supplier_id,
+                            "group": group,
+                            "root_category_id": int(category_id),
+                            "categories_id": str(item.get("categories_id") or ""),
+                            "brand": vendor,
+                            "model": model,
+                            "name_uk": html.unescape(str(item.get("name") or "").strip()),
+                            "description_uk": html.unescape(str(item.get("description") or "").strip()),
+                            "image_url": image,
+                            "images": [str(value).strip() for value in item.get("images", []) if str(value).strip()],
+                            "in_stock": yugtorg_in_stock(item.get("count")),
+                            "stock_raw": str(item.get("count") or ""),
+                            "retail_price_uah": rrp,
+                            "supplier_price": as_float(str(item.get("price") or "")),
+                            "supplier_currency": str(item.get("currency") or ""),
+                            "warranty_months": str(item.get("warranty") or ""),
+                            "unit": str(item.get("unit") or ""),
+                            "duplicate_of_viatec": bool(identity and identity in viatec_identities),
+                            "publishable": False,
+                        }
+                        category_products.append(product)
+                        all_products.append(product)
+                        counters["products"] += 1
+                        counters["in_stock" if product["in_stock"] else "out_of_stock"] += 1
+                        counters["with_image" if image else "without_image"] += 1
+                        counters["with_rrp" if rrp and rrp > 0 else "without_rrp"] += 1
+                        counters["duplicate_of_viatec" if product["duplicate_of_viatec"] else "unique_vs_viatec"] += 1
+                    after_id = last_id
+                    if len(rows) < page_limit:
+                        break
+                (draft_dir / f"{group}.json").write_text(
+                    json.dumps(category_products, ensure_ascii=False, indent=2), encoding="utf-8"
+                )
+                report_rows.append({"group": group, "category_id": category_id, **dict(counters)})
+        (draft_dir / "products.json").write_text(json.dumps(all_products, ensure_ascii=False, indent=2), encoding="utf-8")
+        with (draft_dir / "report.csv").open("w", encoding="utf-8-sig", newline="") as handle:
+            fields = [
+                "group", "category_id", "products", "in_stock", "out_of_stock", "with_image",
+                "without_image", "with_rrp", "without_rrp", "duplicate_of_viatec", "unique_vs_viatec",
+                "duplicate_supplier_id", "missing_id",
+            ]
+            writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore")
+            writer.writeheader()
+            writer.writerows(report_rows)
+        summary = {
+            "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            "publication_status": "draft_not_for_site_or_meta",
+            "categories": report_rows,
+            "total_products": len(all_products),
+        }
+        (draft_dir / "report.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
+        status["draft_products"] = len(all_products)
+        status["draft_categories"] = len(report_rows)
         status["downloaded"] = True
         status["bytes"] = target.stat().st_size
     (output / "yugtorg-status.json").write_text(json.dumps(status, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -440,7 +565,7 @@ def main() -> None:
     report = parse_viatec_feeds(feed_files, output)
     if int(report.get("stats", {}).get("selected_products", 0)) < 20:
         raise RuntimeError("Catalog safety check failed: fewer than 20 relevant products")
-    save_yugtorg_probe(output, config["yugtorg_api_base"], config.get("yugtorg_draft_categories", {}))
+    save_yugtorg_draft(output, config["yugtorg_api_base"], config.get("yugtorg_draft_categories", {}))
     print(json.dumps(report, ensure_ascii=False))
 
 
