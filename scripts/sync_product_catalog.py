@@ -54,13 +54,13 @@ def altcam_group(category_id: int, categories: dict[int, dict], title: str) -> s
     if category_id == 15 or any(x in haystack for x in ("кронштейн", "розподільч", "бокс монтаж")):
         return "brackets_junction_boxes"
     if category_id == 45 or any(x in haystack for x in ("кабель", "конектор", "роз'єм", "роз’єм")):
-        return "cables_connectors"
+        return "cable_products"
     if any(x in haystack for x in ("інструмент", "тестер", "монтажний комплект", "монтаж оптики")):
         return "installation_consumables"
     if any(x in haystack for x in ("аксесуар", "адаптер", "перехідник")):
         return "accessories"
     if 185 in chain or any(x in haystack for x in ("дбж", "акумулятор", "живлення", "стабілізатор", "bess")):
-        return "backup_power"
+        return "emergency_power"
     if 5 in chain or "ajax" in haystack or "сигналіза" in haystack:
         return "ajax_security"
     if any(x in haystack for x in ("контроль доступ", "контролер", "зчитувач", "замок", "турнікет", "шлагбаум")):
@@ -84,7 +84,7 @@ def altcam_group_v2(category_id: int, categories: dict[int, dict], title: str) -
     if any(item in chain for item in (45, 239)) or any(
         value in haystack for value in ("кабель", "конектор", "роз'єм", "роз’єм", "рознім")
     ):
-        return "cables_connectors"
+        return "cable_products"
     if any(item in chain for item in (43, 44, 48)) or any(
         value in haystack for value in ("інструмент", "тестер", "монтажний комплект", "монтаж оптики", "витратні матеріали")
     ):
@@ -92,7 +92,7 @@ def altcam_group_v2(category_id: int, categories: dict[int, dict], title: str) -
     if 24 in chain or any(value in haystack for value in ("аксесуар", "адаптер", "перехідник")):
         return "accessories"
     if 185 in chain or any(value in haystack for value in ("дбж", "акумулятор", "живлення", "стабілізатор", "bess")):
-        return "backup_power"
+        return "emergency_power"
     if 5 in chain or "ajax" in haystack or "сигналіза" in haystack:
         return "ajax_security"
     if any(item in chain for item in (25, 26, 27, 28, 29, 30, 31, 32, 64, 71, 268)) or (
@@ -118,25 +118,31 @@ FEED_CATEGORY_GROUPS: dict[str, dict[int, str]] = {
         **{item: "accessories" for item in (16, 18, 19, 53, 67, 72)},
     },
     "energosistemi": {
-        **{item: "backup_power" for item in (46, 47, 87, 88, 138, 139, 163, 192, 204, 216, 217, 218, 233, 237, 263)},
-        194: "accessories",
-        200: "brackets_junction_boxes",
-        239: "cables_connectors",
+        **{item: "alternative_energy" for item in (163, 192, 200, 204, 218, 263)},
+        237: "lithium_batteries",
+        **{item: "chargers" for item in (138, 217)},
+        194: "energy_accessories",
+        **{item: "batteries" for item in (47, 216)},
+        **{item: "emergency_power" for item in (87, 88, 233)},
+        **{item: "power_adapters" for item in (46, 139)},
+        239: "cable_products",
     },
     "video-intercoms": {
         **{item: "intercoms" for item in (20, 21, 22, 23, 24)},
         **{item: "access_control" for item in (25, 26, 27, 28, 29, 30, 31, 32, 64, 71, 268)},
     },
-    "network": {item: "network_equipment" for item in (49, 50, 51, 52, 58, 70, 77, 140, 159, 227, 270)},
+    "network": {item: "network_equipment" for item in (49, 50, 51, 52, 58, 70, 77, 140, 159, 270)},
     "alarms": {item: "ajax_security" for item in (38, 39, 40, 41, 42, 79, 82, 84, 158, 173)},
     "vse-dlia-montazhu": {
         **{item: "brackets_junction_boxes" for item in (15, 57, 210, 266)},
-        45: "cables_connectors",
+        45: "cable_products",
         **{item: "installation_consumables" for item in (43, 44, 48, 240)},
         72: "accessories",
     },
     "elektrika-ta-instrument": {
-        **{item: "electrical_tools" for item in (141, 171, 172, 190, 193, 196, 197, 219, 224)},
+        **{item: "electrical" for item in (141, 171, 172, 193)},
+        **{item: "tools" for item in (190, 196, 197)},
+        **{item: "installation_consumables" for item in (219, 224)},
     },
 }
 
@@ -367,10 +373,18 @@ def save_yugtorg_probe(output: Path, api_base: str) -> None:
     api_key = os.getenv("YUGTORG_API_KEY", "").strip()
     status = {"configured": bool(api_key), "downloaded": False}
     if api_key:
-        params = urllib.parse.urlencode({"apiKey": api_key, "level": 5, "lang": "ua"})
+        params = urllib.parse.urlencode({"apikey": api_key, "level": 5, "lang": "ua"})
         target = output / "raw" / "yugtorg-categories.json"
         target.parent.mkdir(parents=True, exist_ok=True)
-        download(f"{api_base}/categories?{params}", target)
+        download(f"{api_base}/categories&{params}", target)
+        try:
+            payload = json.loads(target.read_text(encoding="utf-8-sig"))
+        except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+            target.unlink(missing_ok=True)
+            raise RuntimeError("Yugtorg categories endpoint returned non-JSON data") from exc
+        if not isinstance(payload, (dict, list)):
+            target.unlink(missing_ok=True)
+            raise RuntimeError("Yugtorg categories endpoint returned an unsupported JSON structure")
         status["downloaded"] = True
         status["bytes"] = target.stat().st_size
     (output / "yugtorg-status.json").write_text(json.dumps(status, ensure_ascii=False, indent=2), encoding="utf-8")
