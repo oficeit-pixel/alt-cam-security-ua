@@ -5613,6 +5613,112 @@
           }
         }
       }
+    },
+    "approved-2026-08-21-sep30-2026-09-04-telegram": {
+      "telegram": {
+        "published_at": "2026-09-04T11:29:19.697913+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 95,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1788521359,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADX2qaq4_uyiA9Gu0MnoLMARREFMQrAAKJHGsb-anYSBekIrKKOBjcAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADiRxrG_mp2Eh4",
+                  "file_size": 1390,
+                  "width": 51,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADX2qaq4_uyiA9Gu0MnoLMARREFMQrAAKJHGsb-anYSBekIrKKOBjcAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADiRxrG_mp2Ehy",
+                  "file_size": 15639,
+                  "width": 180,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADX2qaq4_uyiA9Gu0MnoLMARREFMQrAAKJHGsb-anYSBekIrKKOBjcAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADiRxrG_mp2Eh9",
+                  "file_size": 60408,
+                  "width": 450,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADX2qaq4_uyiA9Gu0MnoLMARREFMQrAAKJHGsb-anYSBekIrKKOBjcAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADiRxrG_mp2Eh-",
+                  "file_size": 123143,
+                  "width": 720,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADX2qaq4_uyiA9Gu0MnoLMARREFMQrAAKJHGsb-anYSBekIrKKOBjcAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADiRxrG_mp2Eh8",
+                  "file_size": 183658,
+                  "width": 941,
+                  "height": 1672
+                }
+              ],
+              "caption": "Хто має доступ до камер?\n\nМонтажник, колишній працівник чи сусід — перевіряємо права доступу.\n\nПідберемо сумісне рішення під конкретний об’єкт. Напишіть нам: https://t.me/altcam_security_ua\n\n#скуд #контрольдоступу #безпекаофісу #безпекакиїв #вишгород #київськаобласть #altcam",
+              "caption_entities": [
+                {
+                  "offset": 158,
+                  "length": 31,
+                  "type": "url"
+                },
+                {
+                  "offset": 191,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 197,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 214,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 228,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 241,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 251,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 268,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
