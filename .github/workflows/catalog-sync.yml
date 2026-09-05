@@ -37,6 +37,7 @@ jobs:
           --config ${{ env.GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON != '' && 'catalog-sync/runtime-config.json' || 'catalog-sync/config.json' }}
       - name: Build public site catalog and Meta feed
         run: |
+          python scripts/build_storefront_approval.py
           python scripts/build_site_catalog.py
           python scripts/generate_meta_catalog.py
       - name: Upload catalog build artifact
