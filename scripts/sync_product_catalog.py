@@ -448,7 +448,7 @@ def yugtorg_relevant_product(group: str, name: str) -> bool:
 def yugtorg_usd_rate(payload: object) -> float | None:
     if isinstance(payload, dict):
         for key, value in payload.items():
-            if str(key).casefold() in {"usd", "usd_rate", "dollar", "долар", "курс"}:
+            if str(key).casefold() in {"usd", "usd_rate", "dollar", "долар", "курс", "rates"}:
                 rate = as_float(str(value))
                 if rate and 20 < rate < 100:
                     return rate

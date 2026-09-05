@@ -45,7 +45,7 @@ def main() -> None:
     for path in sorted((output / "normalized").glob("*.json")):
         upsert(service, path, config["normalized_folder_id"])
     for path in sorted((output / "raw").glob("*")):
-        if path.is_file() and path.name != "yugtorg-products-probe.json":
+        if path.is_file() and path.name not in {"yugtorg-products-probe.json", "yugtorg-currency-rates.json"}:
             upsert(service, path, config["raw_folder_id"])
     meta_feed = ROOT / "feeds" / "meta-catalog.csv"
     if meta_feed.exists():
