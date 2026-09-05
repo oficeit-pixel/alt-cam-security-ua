@@ -320,7 +320,7 @@ def parse_viatec_feeds(feed_files: list[tuple[str, Path, str]], output: Path) ->
                 "name_uk": text(elem, "title"),
                 "description_uk": text(elem, "descr"),
                 "image_url": image_urls[0] if image_urls else text(elem, "image"),
-                "images": image_urls[:3],
+                "images": image_urls,
                 "supplier_url": text(elem, "url"),
                 "in_stock": stock_raw not in {"", "no", "0", "false", "out"} or available_raw in {"1", "yes", "true"},
                 "source_price_uah": source_price,
