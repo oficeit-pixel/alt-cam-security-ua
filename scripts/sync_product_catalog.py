@@ -299,6 +299,12 @@ def parse_viatec_feeds(feed_files: list[tuple[str, Path, str]], output: Path) ->
             stock_raw = text(elem, "stock").lower()
             available_raw = text(elem, "available").lower()
             source_price = as_float(text(elem, "price_uah"))
+            image_urls: list[str] = []
+            for node in elem.iter():
+                if node.tag.lower().split("}")[-1].startswith("image"):
+                    value = (node.text or node.get("url") or node.get("src") or "").strip()
+                    if value and value not in image_urls:
+                        image_urls.append(value)
             product = {
                 "catalog_id": catalog_id,
                 "supplier": "viatec",
@@ -313,7 +319,8 @@ def parse_viatec_feeds(feed_files: list[tuple[str, Path, str]], output: Path) ->
                 "model": text(elem, "model"),
                 "name_uk": text(elem, "title"),
                 "description_uk": text(elem, "descr"),
-                "image_url": text(elem, "image"),
+                "image_url": image_urls[0] if image_urls else text(elem, "image"),
+                "images": image_urls[:3],
                 "supplier_url": text(elem, "url"),
                 "in_stock": stock_raw not in {"", "no", "0", "false", "out"} or available_raw in {"1", "yes", "true"},
                 "source_price_uah": source_price,
@@ -490,8 +497,18 @@ def save_yugtorg_draft(output: Path, api_base: str, draft_categories: dict[str, 
                             "warranty_months": str(item.get("warranty") or ""),
                             "unit": str(item.get("unit") or ""),
                             "duplicate_of_viatec": bool(identity and identity in viatec_identities),
+                            "quality_eligible": False,
+                            "approval_status": "pending",
                             "publishable": False,
                         }
+                        product["quality_eligible"] = bool(
+                            product["in_stock"]
+                            and product["image_url"]
+                            and product["retail_price_uah"]
+                            and product["retail_price_uah"] > 0
+                            and product["name_uk"]
+                            and not product["duplicate_of_viatec"]
+                        )
                         category_products.append(product)
                         all_products.append(product)
                         counters["products"] += 1
@@ -499,6 +516,7 @@ def save_yugtorg_draft(output: Path, api_base: str, draft_categories: dict[str, 
                         counters["with_image" if image else "without_image"] += 1
                         counters["with_rrp" if rrp and rrp > 0 else "without_rrp"] += 1
                         counters["duplicate_of_viatec" if product["duplicate_of_viatec"] else "unique_vs_viatec"] += 1
+                        counters["quality_eligible" if product["quality_eligible"] else "needs_review"] += 1
                     after_id = last_id
                     if len(rows) < page_limit:
                         break
@@ -511,7 +529,7 @@ def save_yugtorg_draft(output: Path, api_base: str, draft_categories: dict[str, 
             fields = [
                 "group", "category_id", "products", "in_stock", "out_of_stock", "with_image",
                 "without_image", "with_rrp", "without_rrp", "duplicate_of_viatec", "unique_vs_viatec",
-                "duplicate_supplier_id", "missing_id",
+                "quality_eligible", "needs_review", "duplicate_supplier_id", "missing_id",
             ]
             writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore")
             writer.writeheader()
@@ -521,6 +539,8 @@ def save_yugtorg_draft(output: Path, api_base: str, draft_categories: dict[str, 
             "publication_status": "draft_not_for_site_or_meta",
             "categories": report_rows,
             "total_products": len(all_products),
+            "quality_eligible": sum(1 for product in all_products if product["quality_eligible"]),
+            "needs_review": sum(1 for product in all_products if not product["quality_eligible"]),
         }
         (draft_dir / "report.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
         status["draft_products"] = len(all_products)

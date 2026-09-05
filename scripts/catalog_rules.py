@@ -175,6 +175,11 @@ def load_public_products(source: Path) -> list[dict]:
                     "description": public_description(item.get("description_uk")) or "Характеристики уточнюються.",
                     "features": key_features(item),
                     "image": normalize_image_url(item["image_url"]),
+                    "images": list(dict.fromkeys(
+                        normalize_image_url(value)
+                        for value in ([item["image_url"]] + list(item.get("images") or []))
+                        if normalize_image_url(value)
+                    ))[:3],
                     "available": True,
                     "price": round(float(item["source_price_uah"]), 2),
                 }
