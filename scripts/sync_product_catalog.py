@@ -407,6 +407,44 @@ def yugtorg_in_stock(value: object) -> bool:
     return stock not in {"", "0", "-", "--", "---", "no", "none", "немає", "нет", "відсутній"}
 
 
+def decode_html(value: object) -> str:
+    result = str(value or "").strip()
+    for _ in range(3):
+        decoded = html.unescape(result)
+        if decoded == result:
+            break
+        result = decoded
+    return result
+
+
+def yugtorg_package_quantity(name: str) -> int:
+    match = re.search(r"упаков(?:ка|ці)\s*(\d+)\s*шт.*ціна\s*(?:вказана\s*)?за\s*шт", name, re.IGNORECASE)
+    return int(match.group(1)) if match else 1
+
+
+def yugtorg_relevant_product(group: str, name: str) -> bool:
+    excluded = re.compile(
+        r"модульна\s+вставка|вугільн\w*\s+щітк|щіткотримач|зажим\s+тестер|"
+        r"крокодил|штекер.*(?:літак|дрон)|для\s+(?:літак|дрон)|патрон\s+електрич|"
+        r"цоколь\s+е\d+|ламп(?:а|ов|оч)|люстр|світильник|гірлянд|"
+        r"акумуляторна\s+батарея.*\b4\s*v\s*0[,.]35\s*ah",
+        re.IGNORECASE,
+    )
+    if excluded.search(name):
+        return False
+    required = {
+        "security": r"камер|відео|реєстратор|домофон|викличн|ajax|охорон|сигналіз|датчик|контрол|зчитувач|замок|сирен",
+        "cable_products": r"кабель|провід|вит(?:а|ої)\s+пар|коаксі|сигнальн|патч[- ]?корд",
+        "network_equipment": r"роутер|маршрутиз|комутатор|switch|poe|мереж|wi[- ]?fi|точка\s+доступ|конектор|rj[- ]?45|патч[- ]?панел|sfp|медіаконвертер",
+        "emergency_power": r"дбж|ups|інвертор|стабілізатор|резервн|генератор|зарядн|акумулятор|батаре|живлен",
+        "lithium_batteries": r"lifepo4|літі|акумулятор|батаре",
+        "alternative_energy": r"соняч|панел|інвертор|контролер\s+заряд|електростанц|генератор|енерг",
+        "power_adapters": r"блок\s+живлен|адаптер|перетворювач|dc|зарядн",
+    }
+    pattern = required.get(group)
+    return not pattern or bool(re.search(pattern, name, re.IGNORECASE))
+
+
 def load_viatec_identities(output: Path) -> set[str]:
     identities: set[str] = set()
     for path in (output / "normalized").glob("*.json"):
@@ -461,11 +499,12 @@ def build_yugtorg_shortlist(products: list[dict], draft_dir: Path) -> list[dict]
             f'<article><img src="{image}" alt="{title}" loading="lazy">'
             f'<div><small>{html.escape(item["group"])}</small><h2>{title}</h2>'
             f'<p>{brand} · {html.escape(item["model"])}</p><strong>{price} ₴</strong>'
-            f'<code>{html.escape(item["catalog_id"])}</code></div></article>'
+            f'{"<em>Упаковка " + str(item["package_quantity"]) + " шт.</em>" if item["package_quantity"] > 1 else ""}'
+            f'</div></article>'
         )
     approval_html = """<!doctype html><html lang="uk"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>ALT-CAM · Yugtorg — погодження</title>
-<style>:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#121212;color:#f5f5f7;font:15px Arial,sans-serif}main{width:min(1280px,calc(100% - 32px));margin:auto;padding:40px 0}h1{font-size:clamp(30px,5vw,56px);margin:0 0 8px}header p{color:#999}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:28px}article{overflow:hidden;border:1px solid #34343a;border-radius:14px;background:#1b1b1f}article>img{display:block;width:100%;height:220px;padding:14px;background:#fff;object-fit:contain}article>div{padding:16px}small{color:#ffcc00}h2{min-height:58px;font-size:17px;line-height:1.3}p{min-height:36px;color:#aaa}strong,code{display:block;margin-top:10px}code{color:#888;font-size:11px}@media(max-width:950px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){.grid{grid-template-columns:1fr}}</style></head><body><main><header><h1>60 товарів на погодження</h1><p>Чернетка. На сайт і в Meta не опубліковано.</p></header><section class="grid">""" + "".join(cards) + "</section></main></body></html>"
+<style>:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#121212;color:#f5f5f7;font:15px Arial,sans-serif}main{width:min(1280px,calc(100% - 32px));margin:auto;padding:40px 0}h1{font-size:clamp(30px,5vw,56px);margin:0 0 8px}header p{color:#999}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:28px}article{overflow:hidden;border:1px solid #34343a;border-radius:14px;background:#1b1b1f}article>img{display:block;width:100%;height:220px;padding:14px;background:#fff;object-fit:contain}article>div{padding:16px}small{color:#ffcc00}h2{min-height:58px;font-size:17px;line-height:1.3}p{min-height:36px;color:#aaa}strong,em{display:block;margin-top:10px}em{color:#aaa;font-size:12px}@media(max-width:950px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){.grid{grid-template-columns:1fr}}</style></head><body><main><header><h1>60 товарів на погодження</h1><p>Чернетка. На сайт і в Meta не опубліковано.</p></header><section class="grid">""" + "".join(cards) + "</section></main></body></html>"
     (draft_dir / "approval.html").write_text(approval_html, encoding="utf-8")
     return shortlist
 
@@ -526,7 +565,10 @@ def save_yugtorg_draft(output: Path, api_base: str, draft_categories: dict[str, 
                         model = str(item.get("model") or "").strip()
                         vendor = str(item.get("vendor") or "").strip()
                         identity = normalized_identity(vendor, model)
-                        rrp = as_float(str(item.get("rrp") or ""))
+                        supplier_name = decode_html(item.get("name"))
+                        package_quantity = yugtorg_package_quantity(supplier_name)
+                        unit_rrp = as_float(str(item.get("rrp") or ""))
+                        rrp = round(unit_rrp * package_quantity, 2) if unit_rrp else None
                         image = str(item.get("image") or "").strip()
                         product = {
                             "catalog_id": f"yugtorg-{supplier_id}",
@@ -538,13 +580,16 @@ def save_yugtorg_draft(output: Path, api_base: str, draft_categories: dict[str, 
                             "categories_id": str(item.get("categories_id") or ""),
                             "brand": vendor,
                             "model": model,
-                            "name_uk": html.unescape(str(item.get("name") or "").strip()),
-                            "description_uk": html.unescape(str(item.get("description") or "").strip()),
+                            "name_uk": supplier_name,
+                            "description_uk": decode_html(item.get("description")),
                             "image_url": image,
                             "images": [str(value).strip() for value in item.get("images", []) if str(value).strip()],
                             "in_stock": yugtorg_in_stock(item.get("count")),
                             "stock_raw": str(item.get("count") or ""),
                             "retail_price_uah": rrp,
+                            "unit_retail_price_uah": unit_rrp,
+                            "package_quantity": package_quantity,
+                            "price_basis": "package" if package_quantity > 1 else "unit",
                             "supplier_price": as_float(str(item.get("price") or "")),
                             "supplier_currency": str(item.get("currency") or ""),
                             "warranty_months": str(item.get("warranty") or ""),
@@ -560,6 +605,7 @@ def save_yugtorg_draft(output: Path, api_base: str, draft_categories: dict[str, 
                             and product["retail_price_uah"]
                             and product["retail_price_uah"] > 0
                             and product["name_uk"]
+                            and yugtorg_relevant_product(group, product["name_uk"])
                             and not product["duplicate_of_viatec"]
                         )
                         category_products.append(product)
