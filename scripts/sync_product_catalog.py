@@ -417,6 +417,59 @@ def load_viatec_identities(output: Path) -> set[str]:
     return identities
 
 
+YUGTORG_SHORTLIST_QUOTAS = {
+    "security": 10,
+    "cable_products": 8,
+    "network_equipment": 6,
+    "emergency_power": 6,
+    "lithium_batteries": 5,
+    "alternative_energy": 5,
+    "batteries": 4,
+    "battery_accessories": 3,
+    "electrical": 3,
+    "tools": 3,
+    "installation_accessories": 4,
+    "power_adapters": 3,
+}
+
+
+def build_yugtorg_shortlist(products: list[dict], draft_dir: Path) -> list[dict]:
+    shortlist: list[dict] = []
+    for group, quota in YUGTORG_SHORTLIST_QUOTAS.items():
+        candidates = [item for item in products if item["group"] == group and item["quality_eligible"]]
+        candidates.sort(
+            key=lambda item: (
+                not bool(item["description_uk"]),
+                not bool(item["brand"]),
+                float(item["retail_price_uah"] or 0),
+                item["name_uk"].casefold(),
+            )
+        )
+        shortlist.extend(candidates[:quota])
+    for index, product in enumerate(shortlist, 1):
+        product["shortlist_order"] = index
+    (draft_dir / "shortlist.json").write_text(
+        json.dumps(shortlist, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    cards = []
+    for item in shortlist:
+        title = html.escape(item["name_uk"] or item["model"])
+        brand = html.escape(item["brand"] or "Без бренду")
+        image = html.escape(item["image_url"], quote=True)
+        price = f"{float(item['retail_price_uah']):,.0f}".replace(",", " ")
+        cards.append(
+            f'<article><img src="{image}" alt="{title}" loading="lazy">'
+            f'<div><small>{html.escape(item["group"])}</small><h2>{title}</h2>'
+            f'<p>{brand} · {html.escape(item["model"])}</p><strong>{price} ₴</strong>'
+            f'<code>{html.escape(item["catalog_id"])}</code></div></article>'
+        )
+    approval_html = """<!doctype html><html lang="uk"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>ALT-CAM · Yugtorg — погодження</title>
+<style>:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#121212;color:#f5f5f7;font:15px Arial,sans-serif}main{width:min(1280px,calc(100% - 32px));margin:auto;padding:40px 0}h1{font-size:clamp(30px,5vw,56px);margin:0 0 8px}header p{color:#999}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:28px}article{overflow:hidden;border:1px solid #34343a;border-radius:14px;background:#1b1b1f}article>img{display:block;width:100%;height:220px;padding:14px;background:#fff;object-fit:contain}article>div{padding:16px}small{color:#ffcc00}h2{min-height:58px;font-size:17px;line-height:1.3}p{min-height:36px;color:#aaa}strong,code{display:block;margin-top:10px}code{color:#888;font-size:11px}@media(max-width:950px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){.grid{grid-template-columns:1fr}}</style></head><body><main><header><h1>60 товарів на погодження</h1><p>Чернетка. На сайт і в Meta не опубліковано.</p></header><section class="grid">""" + "".join(cards) + "</section></main></body></html>"
+    (draft_dir / "approval.html").write_text(approval_html, encoding="utf-8")
+    return shortlist
+
+
 def save_yugtorg_draft(output: Path, api_base: str, draft_categories: dict[str, int]) -> None:
     api_key = os.getenv("YUGTORG_API_KEY", "").strip()
     status = {"configured": bool(api_key), "downloaded": False}
@@ -534,6 +587,7 @@ def save_yugtorg_draft(output: Path, api_base: str, draft_categories: dict[str, 
             writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore")
             writer.writeheader()
             writer.writerows(report_rows)
+        shortlist = build_yugtorg_shortlist(all_products, draft_dir)
         summary = {
             "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
             "publication_status": "draft_not_for_site_or_meta",
@@ -541,6 +595,7 @@ def save_yugtorg_draft(output: Path, api_base: str, draft_categories: dict[str, 
             "total_products": len(all_products),
             "quality_eligible": sum(1 for product in all_products if product["quality_eligible"]),
             "needs_review": sum(1 for product in all_products if not product["quality_eligible"]),
+            "shortlist_products": len(shortlist),
         }
         (draft_dir / "report.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
         status["draft_products"] = len(all_products)
