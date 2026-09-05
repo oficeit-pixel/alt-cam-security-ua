@@ -115,6 +115,14 @@ def balanced_selection(viatec: list[dict], yugtorg: list[dict]) -> list[dict]:
                 seen.add(key)
             if sum(row["category"] == category for row in selected) >= quota:
                 break
+    remaining = [item for pair in zip(yugtorg, viatec) for item in pair] + yugtorg[len(viatec):] + viatec[len(yugtorg):]
+    for item in remaining:
+        key = identity(item)
+        if key and key not in seen:
+            selected.append(item)
+            seen.add(key)
+        if len(selected) == 60:
+            break
     return selected[:60]
 
 
