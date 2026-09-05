@@ -445,6 +445,31 @@ def yugtorg_relevant_product(group: str, name: str) -> bool:
     return not pattern or bool(re.search(pattern, name, re.IGNORECASE))
 
 
+def yugtorg_usd_rate(payload: object) -> float | None:
+    if isinstance(payload, dict):
+        for key, value in payload.items():
+            if str(key).casefold() in {"usd", "usd_rate", "dollar", "долар", "курс"}:
+                rate = as_float(str(value))
+                if rate and 20 < rate < 100:
+                    return rate
+        currency = str(payload.get("currency") or payload.get("code") or payload.get("name") or "").casefold()
+        if currency in {"usd", "у.е.", "у.е", "долар", "доллар"}:
+            for key in ("rate", "value", "course", "exchange_rate"):
+                rate = as_float(str(payload.get(key) or ""))
+                if rate and 20 < rate < 100:
+                    return rate
+        for value in payload.values():
+            rate = yugtorg_usd_rate(value)
+            if rate:
+                return rate
+    elif isinstance(payload, list):
+        for value in payload:
+            rate = yugtorg_usd_rate(value)
+            if rate:
+                return rate
+    return None
+
+
 def load_viatec_identities(output: Path) -> set[str]:
     identities: set[str] = set()
     for path in (output / "normalized").glob("*.json"):
@@ -516,6 +541,9 @@ def save_yugtorg_draft(output: Path, api_base: str, draft_categories: dict[str, 
         target = output / "raw" / "yugtorg-categories.json"
         target.parent.mkdir(parents=True, exist_ok=True)
         download_yugtorg_json(api_base, "categories", {"apikey": api_key, "level": 5, "lang": "ua"}, target)
+        rates_target = output / "raw" / "yugtorg-currency-rates.json"
+        rates_payload = download_yugtorg_json(api_base, "currencyRates", {"apikey": api_key}, rates_target)
+        usd_rate = yugtorg_usd_rate(rates_payload)
         draft_dir = output / "yugtorg-draft"
         if draft_dir.exists():
             shutil.rmtree(draft_dir)
@@ -567,7 +595,16 @@ def save_yugtorg_draft(output: Path, api_base: str, draft_categories: dict[str, 
                         identity = normalized_identity(vendor, model)
                         supplier_name = decode_html(item.get("name"))
                         package_quantity = yugtorg_package_quantity(supplier_name)
-                        unit_rrp = as_float(str(item.get("rrp") or ""))
+                        source_rrp = as_float(str(item.get("rrp") or ""))
+                        supplier_price = as_float(str(item.get("price") or ""))
+                        supplier_currency = str(item.get("currency") or "").strip()
+                        if supplier_currency.casefold() in {"грн", "uah", "₴"}:
+                            unit_rrp = source_rrp
+                        elif supplier_currency.casefold() in {"у.е.", "у.е", "usd", "$"} and supplier_price and usd_rate:
+                            converted = round(supplier_price * usd_rate, 2)
+                            unit_rrp = source_rrp if source_rrp and converted * 0.8 <= source_rrp <= converted * 2 else None
+                        else:
+                            unit_rrp = None
                         rrp = round(unit_rrp * package_quantity, 2) if unit_rrp else None
                         image = str(item.get("image") or "").strip()
                         product = {
@@ -590,8 +627,9 @@ def save_yugtorg_draft(output: Path, api_base: str, draft_categories: dict[str, 
                             "unit_retail_price_uah": unit_rrp,
                             "package_quantity": package_quantity,
                             "price_basis": "package" if package_quantity > 1 else "unit",
-                            "supplier_price": as_float(str(item.get("price") or "")),
-                            "supplier_currency": str(item.get("currency") or ""),
+                            "supplier_price": supplier_price,
+                            "supplier_currency": supplier_currency,
+                            "usd_rate_uah": usd_rate if supplier_currency.casefold() in {"у.е.", "у.е", "usd", "$"} else None,
                             "warranty_months": str(item.get("warranty") or ""),
                             "unit": str(item.get("unit") or ""),
                             "duplicate_of_viatec": bool(identity and identity in viatec_identities),
@@ -646,6 +684,7 @@ def save_yugtorg_draft(output: Path, api_base: str, draft_categories: dict[str, 
         (draft_dir / "report.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
         status["draft_products"] = len(all_products)
         status["draft_categories"] = len(report_rows)
+        status["usd_rate_loaded"] = bool(usd_rate)
         status["downloaded"] = True
         status["bytes"] = target.stat().st_size
     (output / "yugtorg-status.json").write_text(json.dumps(status, ensure_ascii=False, indent=2), encoding="utf-8")
