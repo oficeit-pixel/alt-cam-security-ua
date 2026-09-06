@@ -5916,6 +5916,125 @@
           }
         }
       }
+    },
+    "approved-2026-08-21-sep30-2026-09-06-threads-question": {
+      "threads": {
+        "published_at": "2026-09-06T08:52:13.860337+00:00",
+        "result": {
+          "container": {
+            "id": "18085754960424516"
+          },
+          "published": {
+            "id": "17883706722684066"
+          }
+        }
+      }
+    },
+    "approved-2026-08-21-sep30-2026-09-06-telegram": {
+      "telegram": {
+        "published_at": "2026-09-06T08:52:14.836364+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 97,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1788684734,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADYWqdKb6xxdOUrZGYXE0QqbixgEl5AALIHmsbJFDpSCnYWJmL6flFAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADyB5rGyRQ6Uh4",
+                  "file_size": 1640,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADYWqdKb6xxdOUrZGYXE0QqbixgEl5AALIHmsbJFDpSCnYWJmL6flFAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADyB5rGyRQ6Uhy",
+                  "file_size": 20890,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADYWqdKb6xxdOUrZGYXE0QqbixgEl5AALIHmsbJFDpSCnYWJmL6flFAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADyB5rGyRQ6Uh9",
+                  "file_size": 77939,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADYWqdKb6xxdOUrZGYXE0QqbixgEl5AALIHmsbJFDpSCnYWJmL6flFAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADyB5rGyRQ6Uh-",
+                  "file_size": 147568,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADYWqdKb6xxdOUrZGYXE0QqbixgEl5AALIHmsbJFDpSCnYWJmL6flFAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADyB5rGyRQ6Uh8",
+                  "file_size": 173723,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Камери для приватного будинку\n\nДвір, вхід і гараж без сліпих зон та зайвого дублювання.\n\nПідберемо сумісне рішення під конкретний об’єкт. Напишіть нам: https://t.me/altcam_security_ua\n\n#відеоспостереження #камеривідеоспостереження #монтажкамер #безпекакиїв #вишгород #київськаобласть #altcam",
+              "caption_entities": [
+                {
+                  "offset": 152,
+                  "length": 31,
+                  "type": "url"
+                },
+                {
+                  "offset": 185,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 205,
+                  "length": 25,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 231,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 244,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 257,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 267,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 284,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
