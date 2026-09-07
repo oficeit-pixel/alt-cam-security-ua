@@ -37,6 +37,8 @@ def yugtorg_category(item: dict) -> str:
     group = item["group"]
     title = f"{item.get('name_uk', '')} {item.get('model', '')}".casefold()
     if group == "security":
+        if re.search(r"кронштейн|монтажн(?:а|і) короб|розподільч(?:а|і) короб|бокс монтаж", title):
+            return "Кронштейни та монтажні коробки"
         if re.search(r"реєстратор|nvr|dvr|xvr|накопичувач", title):
             return "Відеореєстратори та накопичувачі"
         if re.search(r"домофон|викличн|відеопанел", title):
