@@ -10,29 +10,6 @@ from catalog_rules import clean, key_features, load_public_products, normalize_i
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "catalog-sync" / "output"
-QUOTAS = {
-    "Камери відеоспостереження": 7,
-    "Відеореєстратори та накопичувачі": 4,
-    "Домофони та викличні панелі": 4,
-    "Системи контролю доступу": 3,
-    "Ajax та охоронна сигналізація": 5,
-    "Альтернативна енергетика": 3,
-    "Літієві акумулятори": 3,
-    "Зарядні пристрої": 2,
-    "Аксесуари для енергосистем": 2,
-    "Акумулятори та елементи живлення": 3,
-    "Аварійне електроживлення": 4,
-    "Адаптери та блоки живлення": 3,
-    "Мережеве обладнання": 4,
-    "Кабельна продукція": 5,
-    "Кронштейни та монтажні коробки": 2,
-    "Аксесуари та витратні матеріали для монтажу": 2,
-    "Електрика": 1,
-    "Інструменти": 1,
-    "Аксесуари для систем безпеки": 2,
-}
-
-
 def yugtorg_category(item: dict) -> str:
     group = item["group"]
     title = f"{item.get('name_uk', '')} {item.get('model', '')}".casefold()
@@ -70,8 +47,11 @@ def public_name(value: object) -> str:
 
 
 def load_yugtorg() -> list[dict]:
-    path = OUTPUT / "yugtorg-draft" / "shortlist.json"
-    rows = json.loads(path.read_text(encoding="utf-8"))
+    path = OUTPUT / "yugtorg-draft" / "products.json"
+    rows = [
+        item for item in json.loads(path.read_text(encoding="utf-8"))
+        if item.get("quality_eligible")
+    ]
     products = []
     for item in rows:
         images = list(dict.fromkeys(
@@ -102,34 +82,30 @@ def identity(item: dict) -> str:
     return re.sub(r"[^a-zа-яіїєґ0-9]+", "", f"{item.get('brand', '')}{item.get('model', '')}".casefold())
 
 
-def balanced_selection(viatec: list[dict], yugtorg: list[dict]) -> list[dict]:
+def market_selection(viatec: list[dict], yugtorg: list[dict]) -> list[dict]:
     for item in viatec:
         item["source_supplier"] = "viatec"
-    selected, seen = [], set()
-    for category, quota in QUOTAS.items():
-        left = [item for item in yugtorg if item["category"] == category]
-        right = [item for item in viatec if item["category"] == category]
-        pool = [item for pair in zip(left, right) for item in pair] + left[len(right):] + right[len(left):]
-        for item in pool:
-            key = identity(item)
-            if key and key not in seen:
-                selected.append(item)
-                seen.add(key)
-            if sum(row["category"] == category for row in selected) >= quota:
-                break
-    remaining = [item for pair in zip(yugtorg, viatec) for item in pair] + yugtorg[len(viatec):] + viatec[len(yugtorg):]
-    for item in remaining:
+    selected: list[dict] = []
+    seen: set[str] = set()
+    pool = sorted(
+        [*viatec, *yugtorg],
+        key=lambda item: (
+            item["category"],
+            item.get("brand", "").casefold(),
+            item.get("name", "").casefold(),
+            item["id"],
+        ),
+    )
+    for item in pool:
         key = identity(item)
         if key and key not in seen:
             selected.append(item)
             seen.add(key)
-        if len(selected) == 60:
-            break
-    return selected[:60]
+    return selected
 
 
 def main() -> None:
-    products = balanced_selection(load_public_products(OUTPUT / "normalized"), load_yugtorg())
+    products = market_selection(load_public_products(OUTPUT / "normalized"), load_yugtorg())
     target = OUTPUT / "storefront-approval.json"
     target.write_text(json.dumps(products, ensure_ascii=False, indent=2), encoding="utf-8")
     cards = []

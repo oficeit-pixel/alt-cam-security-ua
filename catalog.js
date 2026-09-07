@@ -7,10 +7,8 @@ const CATEGORY_GROUPS={video:['Комплекти відеоспостереже
 const recommendedRank=new Map(RECOMMENDED_PRODUCT_IDS.map((id,index)=>[id,index]));
 const rankedProducts=[...allProducts].sort((a,b)=>(recommendedRank.get(String(a.id))??99999)-(recommendedRank.get(String(b.id))??99999)||String(a.name).localeCompare(String(b.name),'uk'));
 const identity=item=>String(item.sku||item.id||item.slug||`${item.brand}|${item.model||item.name}`).trim().toLowerCase();
-const recommendedProducts=[];const seen=new Set();
-for(const label of CATEGORY_LABELS){for(const item of rankedProducts.filter(product=>product.category===label).slice(0,5)){const key=identity(item);if(key&&!seen.has(key)){seen.add(key);recommendedProducts.push(item);}}}
-for(const item of rankedProducts){if(recommendedProducts.length>=60)break;const key=identity(item);if(key&&!seen.has(key)){seen.add(key);recommendedProducts.push(item);}}
-const products=recommendedProducts.slice(0,60);
+const products=[];const seen=new Set();
+for(const item of rankedProducts){const key=identity(item);if(key&&!seen.has(key)){seen.add(key);products.push(item);}}
 function publicCategory(item){return CATEGORY_LABELS.includes(item.category)?item.category:'Аксесуари для систем безпеки';}
 products.forEach((item,index)=>{item.publicCategory=publicCategory(item);item.recommendationOrder=index;});
 const API='https://alt-cam-crm-api.onrender.com',TELEGRAM='https://t.me/altcam_security_ua';
