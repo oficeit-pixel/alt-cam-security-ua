@@ -3783,6 +3783,25 @@ window.ALTCAM_CATALOG = [
     "price": 2569.0
   },
   {
+    "id": "viatec-4871",
+    "sku": "99-00005550",
+    "category": "Ajax та охоронна сигналізація",
+    "subcategory": "",
+    "brand": "Tiras",
+    "name": "Клавіатура Тірас",
+    "model": "Tiras K-LED8",
+    "description": "Кількість транзисторних виходів: 1; Напруга живлення (входи &laquo;12V&raquo;, &laquo;GND&raquo;): 10,8 &ndash; 13,8 В; Струм споживання без додаткових навантажень на виходах: 40 мА; Струм, що комутується транзисторним виходом: 50 мА; Габаритні розміри: 126х93х34 мм; Маса: 0,2 кг",
+    "features": [
+      "Живлення: 10.8 – 13.8 В (входы «12В», «GND»)"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/K-LED_8_front_open_light.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/K-LED_8_front_open_light.webp"
+    ],
+    "available": true,
+    "price": 2785.0
+  },
+  {
     "id": "viatec-7716",
     "sku": "99-00010048",
     "category": "Ajax та охоронна сигналізація",
@@ -3819,6 +3838,27 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 3385.0
+  },
+  {
+    "id": "viatec-4877",
+    "sku": "99-00005507",
+    "category": "Ajax та охоронна сигналізація",
+    "subcategory": "",
+    "brand": "Tiras",
+    "name": "ППК Тірас",
+    "model": "Tiras Orion NOVA L",
+    "description": "16 базових зон сигналізації з можливістю розширення до 128 (провідні + безпровідні); 128 груп; 128 користувачів; Напруга в ШС: 8 - 12 В. 2 шини зв&rsquo;язку: RS-485 (до 15 пристроїв розширення); Максимальна довжина кожної шини зв&rsquo;язку: 1000 м 2 релейні виходи; 2 сигнальних транзисторних виходи; 2 силових транзисторних виходи; можливість розширення до 128 виходів в системі Канали зв&rsquo;язку &ndash; GPRS, Ethernet / Wi-Fi; Протоколи роботи (режими роботи)- протокол &laquo;NOVA&raquo; та &laquo;SUR-GARD&raquo;; Вбудований GSM(GPRS)-модуль",
+    "features": [
+      "Живлення: 220 В",
+      "Потужність споживання: 850 мA",
+      "Wi-Fi"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/Nova_XS_Front(1).webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/Nova_XS_Front(1).webp"
+    ],
+    "available": true,
+    "price": 11328.0
   },
   {
     "id": "viatec-4880",
@@ -3863,6 +3903,27 @@ window.ALTCAM_CATALOG = [
     "price": 5604.0
   },
   {
+    "id": "viatec-14514",
+    "sku": "99-00021064",
+    "category": "Ajax та охоронна сигналізація",
+    "subcategory": "",
+    "brand": "Tiras",
+    "name": "Прилад приймально-контрольний",
+    "model": "Tiras Orion NOVA L (LTE)",
+    "description": "● Кількість зон 8/250;● Кількість керованих виходів 6/128;● Кількість груп в системі 128;● Кількість користувачів в системі 128;● Кількість клавіатур (інтерфейс RS-485) 12;● Протоколи роботи ППК з ПЦС &laquo;NOVA&raquo;, &laquo;Sur-Gard&raquo; (Contact ID);● Канали зв'язку 2G (GSM900/DCS1800 (B3/B8)), LTE (FDD B1/B3/B5/B7/B8/B20)",
+    "features": [
+      "Живлення: 187-242 В",
+      "Wi-Fi",
+      "85 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-08/NOVLTE.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-08/NOVLTE.webp"
+    ],
+    "available": true,
+    "price": 11652.0
+  },
+  {
     "id": "viatec-14685",
     "sku": "99-00021068",
     "category": "Ajax та охоронна сигналізація",
@@ -3883,6 +3944,28 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 8568.0
+  },
+  {
+    "id": "viatec-14686",
+    "sku": "99-00021069",
+    "category": "Ajax та охоронна сигналізація",
+    "subcategory": "",
+    "brand": "Tiras",
+    "name": "Прилад приймально-контрольний",
+    "model": "Tiras \"Orion NOVA M (LTE)\"",
+    "description": "● 8 дротові зони в базі, До 64 зон в системі (дротові + бездротові);● 32 груп/64 користувача/3 виходи/8 сценаріїв;● Силовий транзисторний вихід, Сигнальний транзисторний вихід;● Канали зв'язку 4G та 2G (GSM), 4G (LTE), 2SIM;● Основне живлення: 220 В, 50 Гц;● Резервне живлення: Свинцево-кислотна АКБ або LiFePO4 АКБ на 7/9 А&bull;год",
+    "features": [
+      "Живлення: 187-242 В",
+      "Wi-Fi",
+      "WiFi",
+      "57 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-08/nova-lte.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-08/nova-lte.webp"
+    ],
+    "available": true,
+    "price": 9312.0
   },
   {
     "id": "viatec-21605",
@@ -9253,26 +9336,6 @@ window.ALTCAM_CATALOG = [
     "price": 1835.0
   },
   {
-    "id": "viatec-10896",
-    "sku": "99-00015369",
-    "category": "Інструменти",
-    "subcategory": "",
-    "brand": "Metabo",
-    "name": "Торцювальна пилка з тяговою функцією",
-    "model": "Metabo KGS 216 M (619260000)",
-    "description": "Торцювальна пилка та пилка для різання під кутом мобільного класу M з функцією протягання &mdash; легка, точна, зручна в користуванні. Висока продуктивність різання завдяки функції протягання для широких заготовок. Компактний та легкий прилад, який зручно переносити в одній руці. Надійна конструкція з алюмінієвого лиття під тиском для найважчих умов. Просте транспортування завдяки ергономічним ручкам для перенесення та блокуванню пиляльної голови. Ефективне відведення стружки завдяки інтегрованому подовженню каналу всмоктування. Швидке та прецизійне налаштування завдяки точкам фіксації кутів. Лазер для точної індикації лінії різання (живлення від мережі, батарейки не потрібні). Розширення стола з можливістю висування, які також можна знімати для підкладання надзвичайно довгих заготовок. Яскравий світлодіод для освітлення місця пиляння (від мережі, батарейки не потрібні). Високі упори, що можуть зсуватися вбік, для безпечного пиляння. Швидкозатискна струбцина для надійної фіксації заготовки зверху або спереду. Обмежувач глибини для простоти виконання пазів. Пиляльна голова нахиляється ліворуч, з додатковою кутовою зоною для заднього розпилу. Всі шкали та елементи управління добре видимі та інтуїтивно зрозумілі для використання. Проста заміна пиляльного диску з блокуванням шпинделя; не потрібний демонтаж пересувного захисного кожуха.",
-    "features": [
-      "Потужність: 1200 Вт",
-      "1200 Вт"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2023-08/kgs-216-m-1926000s_51.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2023-08/kgs-216-m-1926000s_51.webp"
-    ],
-    "available": true,
-    "price": 11218.0
-  },
-  {
     "id": "viatec-10879",
     "sku": "99-00015352",
     "category": "Інструменти",
@@ -9927,30 +9990,6 @@ window.ALTCAM_CATALOG = [
     "image": "https://viatec.ua/upload/images/prod/2023-02/SD-2301.webp",
     "images": [
       "https://viatec.ua/upload/images/prod/2023-02/SD-2301.webp"
-    ],
-    "available": true,
-    "price": 684.0
-  },
-  {
-    "id": "viatec-9537",
-    "sku": "99-00013355",
-    "category": "Інструменти",
-    "subcategory": "",
-    "brand": "Pro'sKit",
-    "name": "Набір викруток",
-    "model": "Pro'sKit SD-9857M",
-    "description": "24 шт. 1/4&quot; електричні біти для електроніки та електричного поля, підходять для дому, офісу, ПК, велосипеда тощо. 30 прецизійних біт 4 мм для ремонту мобільних телефонів, ігрових консолей, переносних пристроїв, ноутбуків, настільних ПК, планшетів, малої побутової техніки та багато іншого. Регульований подовжувач на 3 довжини до 115 мм. Перехідник від 1/4 дюйма до 4,0 мм. Швидкознімний патрон.",
-    "features": [
-      "Матеріал: хром-ванадієва сталь (Cr-V)",
-      "4 мм",
-      "115 мм",
-      "4,0 мм",
-      "35 мм",
-      "4.0 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2023-04/SD-9857M.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2023-04/SD-9857M.webp"
     ],
     "available": true,
     "price": 684.0
@@ -11590,6 +11629,51 @@ window.ALTCAM_CATALOG = [
     "price": 5568.0
   },
   {
+    "id": "viatec-5405",
+    "sku": "99-00007267",
+    "category": "Аварійне електроживлення",
+    "subcategory": "",
+    "brand": "Tiras",
+    "name": "Блок безперебійного живлення",
+    "model": "Тірас 2415 24В 1.5А",
+    "description": "Напруга живлення від мережі: 187 В &ndash; 242 В; Потужність, що споживається від мережі: 70 ВА; Струм, що споживається від мережі: 0,38 А; Вихідна напруга: 21 В&ndash;30 В; Резервне живлення/ Тип / ємність: 2 свинцево-кислотних акумулятора 7 А∙год, 12 В або 9 А∙год, 12 В; Пульсація вихідної напруги, не більше: 100 мВ; Номінальний струм навантаження: 1,5 А; Струм заряджання акумуляторної батареї: до 0,5 А; Діапазон робочих температур: -5 &deg;С +40 &deg;С; Габаритні розміри: 220х345х85 мм",
+    "features": [
+      "Вхідна напруга: 187 В – 242 В",
+      "Вихідна напруга: 21 В–30 В",
+      "Сила струму на виході: 1.5 А"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/%D0%91%D0%96_2415_Front.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/%D0%91%D0%96_2415_Front.webp"
+    ],
+    "available": true,
+    "price": 8568.0
+  },
+  {
+    "id": "viatec-17329",
+    "sku": "99-10025293",
+    "category": "Аварійне електроживлення",
+    "subcategory": "",
+    "brand": "Trinix",
+    "name": "Джерело безперебійного живлення",
+    "model": "Trinix TRX-MUPS-3648PoE",
+    "description": "● Вбудовані 4 LiFePo4 акумуляторні батареї ємністю 5000 мА&bull;г (загальна ємність 20000 мА&bull;г);● Вихідні інтерфейси USB, DC *3, PoE, вихідна напруга 5 В (USB/DC1) + 9 В (DC2) + 12 В (DC3) + 24/48 В &ndash; перемикається (PoE). Вихідна напруга та струм кожного виходу: USB/DC1: 5В/3А, DC2: 9В/3А, DC3: 12В/3А, PoE: 24В/1А, 48В/0.5А;● Максимальна вихідна потужність 36 Вт;● Вхідна напруга AC 100-240 В/50-60 Гц;● Система захисту від перезарядження, перерозрядження, короткого замикання;● Індикатор рівня заряду батареї та статусу роботи пристрою;● Компактний і легкий пристрій з розмірами 210 / 130 / 40 мм та вагою 730 г",
+    "features": [
+      "Вихідна потужність: 36 Вт",
+      "Вихідна напруга: 5 В, 9 В, 12 В, 24 В, 48 В",
+      "PoE",
+      "40 мм",
+      "36 Вт",
+      "5 Ah"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2025-05/TRX-MUPS-3648P.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-05/TRX-MUPS-3648P.webp"
+    ],
+    "available": true,
+    "price": 4629.0
+  },
+  {
     "id": "viatec-21712",
     "sku": "99-10037015",
     "category": "Аварійне електроживлення",
@@ -12546,6 +12630,45 @@ window.ALTCAM_CATALOG = [
     "price": 179.0
   },
   {
+    "id": "viatec-15104",
+    "sku": "99-00022606",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Cablexpert",
+    "name": "Кабель",
+    "model": "Cablexpert CC-USB2B-CM8PM-1.5MSB USB-C/Lightning 1.5 м",
+    "description": "● Конектори: USB type-C/Lightning;● Провідник: багатожильна мідь;● Передача даних: до 480 Mб/с;● Струм зарядки до 2.1А (в залежності від пристрою);● Довжина: 1.5 м",
+    "features": [
+      "Потужність: 2.1А"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-10/CC-USB2B-CM8PM.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-10/CC-USB2B-CM8PM.webp"
+    ],
+    "available": true,
+    "price": 349.0
+  },
+  {
+    "id": "viatec-15106",
+    "sku": "99-00022608",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Cablexpert",
+    "name": "Кабель",
+    "model": "Cablexpert CC-USB2B-CMCM60-1.5M USB-C/USB-C 1.5 м 60 Вт",
+    "description": "● Конектори: USB type-C/USB type-C;● Провідник: багатожильна мідь;● Передача даних: до 480 Mб/с;● Потужність 60 Вт;● Довжина: 1.5 м",
+    "features": [
+      "Потужність: 60 Вт",
+      "60 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-10/CC-USB2B-CMCM100.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-10/CC-USB2B-CMCM100.webp"
+    ],
+    "available": true,
+    "price": 250.0
+  },
+  {
     "id": "viatec-15107",
     "sku": "99-00022609",
     "category": "Адаптери та блоки живлення",
@@ -12563,6 +12686,76 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 244.0
+  },
+  {
+    "id": "viatec-16111",
+    "sku": "99-00024179",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Cablexpert",
+    "name": "Кабель Cablexpert",
+    "model": "CC-USB2S-AM8PM-1.5M-G 1.5 м",
+    "description": "● Інтерфейс: USB 2.0;● Сторона 1: USB Type-A (тато);● Сторона 2: 8-контактний (тато);● Швидкість передачі даних: 480 Мбіт/с;● Потужність заряджання: 2.1 А;● Альтернативний режим DisplayPort: не підтримується;● Оболонка: силікон;● Тип конектора: литий;● Довжина кабелю: 1.5 м",
+    "features": [],
+    "image": "https://viatec.ua/upload/images/prod/2025-01/CC-USB2S-AM8PMg.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-01/CC-USB2S-AM8PMg.webp"
+    ],
+    "available": true,
+    "price": 179.0
+  },
+  {
+    "id": "viatec-16112",
+    "sku": "99-00024180",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Cablexpert",
+    "name": "Кабель Cablexpert",
+    "model": "CC-USB2S-AM8PM-1.5M-P 1.5 м",
+    "description": "● Інтерфейс: USB 2.0;● Сторона 1: USB Type-A (тато);● Сторона 2: 8-контактний (тато);● Швидкість передачі даних: 480 Мбіт/с;● Потужність заряджання: 2.1 А;● Альтернативний режим DisplayPort: не підтримується;● Оболонка: силікон;● Тип конектора: литий;● Довжина кабелю: 1.5 м",
+    "features": [],
+    "image": "https://viatec.ua/upload/images/prod/2025-01/USB2S-AM8PMp.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-01/USB2S-AM8PMp.webp"
+    ],
+    "available": true,
+    "price": 179.0
+  },
+  {
+    "id": "viatec-16113",
+    "sku": "99-00024181",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Cablexpert",
+    "name": "Кабель Cablexpert",
+    "model": "CC-USB2S-AM8PM-1.5M-W 1.5 м",
+    "description": "● Інтерфейс: USB 2.0;● Сторона 1: USB Type-A (тато);● Сторона 2: 8-контактний (тато);● Швидкість передачі даних: 480 Мбіт/с;● Потужність заряджання: 2.1 А;● Альтернативний режим DisplayPort: не підтримується;● Оболонка: силікон;● Тип конектора: литий;● Довжина кабелю: 1.5 м",
+    "features": [],
+    "image": "https://viatec.ua/upload/images/prod/2025-01/USB2S-AM8PMw.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-01/USB2S-AM8PMw.webp"
+    ],
+    "available": true,
+    "price": 179.0
+  },
+  {
+    "id": "viatec-16129",
+    "sku": "99-00024190",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Cablexpert",
+    "name": "Кабель Cablexpert",
+    "model": "CC-USB2S-CMCM-1.5M-BK 1.5 м",
+    "description": "● Інтерфейс: USB 2.0;● Сторона 1: USB Type-C (тато);● Сторона 2: USB Type-C (тато);● Швидкість передачі даних: 480 Мбіт/с;● Потужність заряджання: 3А/60 Вт;● Альтернативний режим DisplayPort: не підтримується;● Оболонка: силікон;● Тип конектора: литий;● Довжина кабелю: 1.5 м",
+    "features": [
+      "60 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2025-01/USB2S-CMCM-bk.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-01/USB2S-CMCM-bk.webp"
+    ],
+    "available": true,
+    "price": 199.0
   },
   {
     "id": "viatec-13899",
@@ -12734,6 +12927,52 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 3599.0
+  },
+  {
+    "id": "viatec-21311",
+    "sku": "99-10035253",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Блок живлення",
+    "model": "Ewind EW-DP120W-52",
+    "description": "● Напруга постійного струму 52 В 2,3 А;● Вхідна напруга: змінний струм 90~264 В;● Підтримка захисту від короткого замикання/перевантаження струмом/перенапругою;● Широкий діапазон робочих температур довкілля (-20℃~65℃);● 100% випробування на старіння при повному навантаженні",
+    "features": [
+      "Потужність: 120 Вт",
+      "Вихідна напруга: 51.2 В",
+      "Сила струму на виході: 2.3A",
+      "Довжина кабеля: 1.5 м",
+      "120 Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/EW-DP120W-52.webp",
+    "images": [
+      "https://viatec.ua/upload/2/EW-DP120W-52.webp"
+    ],
+    "available": true,
+    "price": 1079.0
+  },
+  {
+    "id": "viatec-21312",
+    "sku": "99-10035252",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Блок живлення",
+    "model": "Ewind EW-DP60W-52",
+    "description": "● Напруга постійного струму 52 В 1,15 А;● Вхідна напруга: змінний струм 90~264 В;● Підтримка захисту від короткого замикання/перевантаження струмом/перенапругою;● Широкий діапазон робочих температур довкілля (-20℃~65℃);● 100% випробування на старіння при повному навантаженні",
+    "features": [
+      "Потужність: 60 Вт",
+      "Вихідна напруга: 51.2 В",
+      "Сила струму на виході: 1.15A",
+      "Довжина кабеля: 1.5 м",
+      "60 Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/dp60w.webp",
+    "images": [
+      "https://viatec.ua/upload/2/dp60w.webp"
+    ],
+    "available": true,
+    "price": 579.0
   },
   {
     "id": "viatec-10798",
@@ -13287,6 +13526,69 @@ window.ALTCAM_CATALOG = [
     "price": 551.0
   },
   {
+    "id": "viatec-19070",
+    "sku": "99-10028533",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Gembird",
+    "name": "Зарядний пристрій",
+    "model": "Gembird TA-UC-PDQC100LCD-01-BK PD 100W",
+    "description": "● Швидкий зарядний пристрій USB з 4 портами потужністю 100 Вт: підтримує специфікації QC 3.0 і PowerDelivery (PD);● Технологія GaN: компактна конструкція та підвищена енергоефективність;● Порти Type-C підтримують PD 100 Вт, порти Type-A підтримують QC 3.0 потужністю 30 Вт;● Практичний LCD-дисплей відображає стан заряджання;● Інтелектуальний захист від перевантаження за струмом, перенапруги, короткого замикання і перегріву",
+    "features": [
+      "Потужність: USB-C1/C2/C3: 5.0 В/3.0 А, 9.0 В/3.0 А, 12.0 В/3.0 А, 15.0 В/3.0 А, 20.0 В/5.0 А (макс. 100 Вт)",
+      "100W",
+      "100 Вт",
+      "30 Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/PDQC100LCD-01-BK.webp",
+    "images": [
+      "https://viatec.ua/upload/2/PDQC100LCD-01-BK.webp"
+    ],
+    "available": true,
+    "price": 1149.0
+  },
+  {
+    "id": "viatec-15082",
+    "sku": "99-00022564",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Gembird",
+    "name": "Мережевий зарядний пристрій",
+    "model": "Gembird TA-UC-2AC12-01-BK (USB Type A + USB Type C)",
+    "description": "● Вихідний струм 2.4 A;● Вихідний роз'єм USB-A, USB-C;● Вихід USB-A1/C: 5 В 2.4 А (макс. 12 Вт);● Вихід USB-A1 + C: 5 В 2.4 А (макс. 12 Вт)",
+    "features": [
+      "Потужність: 12 Вт",
+      "12 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-10/TA-UC-2AC12-01-BK.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-10/TA-UC-2AC12-01-BK.webp"
+    ],
+    "available": true,
+    "price": 150.0
+  },
+  {
+    "id": "viatec-15083",
+    "sku": "99-00022567",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Gembird",
+    "name": "Мережевий зарядний пристрій",
+    "model": "Gembird TA-UC-PDQC20-01-BK (USB Type A + USB Type C)",
+    "description": "● Вихідний струм 3.4 A;● Вихідний роз'єм USB-A, USB-C;● USB Type-A QC3.0 output: DC 5В/3.4A, 9ВВ/2A, 12В/1.5A 20 Вт;● Type-C PD output: DC 5В/3.4A, 9В/2.22A, 12В/1.66A 20 Вт;● A+C : DC 5В/3.4A 15 Вт",
+    "features": [
+      "Потужність: 20 Вт",
+      "20 Вт",
+      "15 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-10/TA-UC-PDQC20-01-BK.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-10/TA-UC-PDQC20-01-BK.webp"
+    ],
+    "available": true,
+    "price": 219.0
+  },
+  {
     "id": "viatec-15084",
     "sku": "99-00022586",
     "category": "Адаптери та блоки живлення",
@@ -13307,6 +13609,73 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 219.0
+  },
+  {
+    "id": "viatec-15085",
+    "sku": "99-00022569",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Gembird",
+    "name": "Мережевий зарядний пристрій",
+    "model": "Gembird TA-UC-PDQC20L-W-01 1 USB-A + 1 Type-C (PD20Вт + QC3.0 18Вт)",
+    "description": "● Вихідний струм 3.4 A;● Вихідний роз'єм USB-A, USB-C;● USB Type-A QC3.0 output: DC 5В/3A, 9ВВ/2A, 12В/1.5A 18 Вт;● Type-C PD output: DC 5В/3A, 9В/2.22A, 12В/1.66A 20 Вт;● A+C : DC 5В/3.4A 17 Вт",
+    "features": [
+      "Потужність: 20 Вт",
+      "18Вт",
+      "18 Вт",
+      "20 Вт",
+      "17 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-10/TA-UC-PDQC20L-W-01.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-10/TA-UC-PDQC20L-W-01.webp"
+    ],
+    "available": true,
+    "price": 239.0
+  },
+  {
+    "id": "viatec-15086",
+    "sku": "99-00022570",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Gembird",
+    "name": "Мережевий зарядний пристрій",
+    "model": "Gembird TA-UC-PDQC30LCD-BK-02 2хUSB-A (QC3.0 18W) + 1хType-C (PD20W)",
+    "description": "● Вихідний струм 3 A;● Вихідний роз'єм USB-A, USB-C;● USB Type-A1/A2: DC 5В/3A, 9ВВ/2A, 12В/1.5A 18 Вт;● USB Type-C: DC 5В/3A, 9В/3A, 12В/2.5A 30 Вт;● A+C: DC 5В/3A 15 Вт",
+    "features": [
+      "Потужність: 30 Вт",
+      "18W",
+      "18 Вт",
+      "30 Вт",
+      "15 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-10/TA-UC-PDQC30LCD-BK-02.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-10/TA-UC-PDQC30LCD-BK-02.webp"
+    ],
+    "available": true,
+    "price": 548.0
+  },
+  {
+    "id": "viatec-15088",
+    "sku": "99-00022572",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Gembird",
+    "name": "Мережевий зарядний пристрій",
+    "model": "Gembird TA-UC-PDQC65-01-BK (USB Type A + USB Type C)",
+    "description": "● Вихідний струм 5 A;● Вихідний роз'єм USB-A, USB-C;● USB Type-A: DC 5В/3A, 9В/3A, 12В/2.25A;● USB Type-C1/С2: DC 5В/3A, 9В/3A, 12В/3A, 20В/3.25А 65 Вт;● A+C: DC 5В/3A 63 Вт",
+    "features": [
+      "Потужність: 65 Вт",
+      "65 Вт",
+      "63 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-10/TA-UC-PDQC65-01-BK.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-10/TA-UC-PDQC65-01-BK.webp"
+    ],
+    "available": true,
+    "price": 720.0
   },
   {
     "id": "viatec-15091",
@@ -13820,6 +14189,30 @@ window.ALTCAM_CATALOG = [
     "price": 94.0
   },
   {
+    "id": "viatec-17305",
+    "sku": "99-10025288",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Mustang Energy",
+    "name": "Блок живлення",
+    "model": "Mustang Energy PS-1203",
+    "description": "● Тип блоку живлення Імпульсний;● Вихідна напруга 12 В;● Вихідний струм 3 А;● Вхідна напруга AC 155-265&nbsp;В;● Кількість каналів навантаження 1",
+    "features": [
+      "Потужність: 36 Вт",
+      "Вхідна напруга: AC 155-265 В",
+      "Вихідна напруга: 12В",
+      "Сила струму на виході: 3 А",
+      "Кількість каналів навантаження: 1",
+      "36 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2025-05/PS-1203.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-05/PS-1203.webp"
+    ],
+    "available": true,
+    "price": 367.0
+  },
+  {
     "id": "viatec-17306",
     "sku": "99-10025287",
     "category": "Адаптери та блоки живлення",
@@ -13866,6 +14259,54 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 513.0
+  },
+  {
+    "id": "viatec-17310",
+    "sku": "99-10025289",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Mustang Energy",
+    "name": "Блок живлення",
+    "model": "Mustang Energy PS-1210PB",
+    "description": "● Тип блоку живлення Імпульсний;● Вихідна напруга 12 В;● Вихідний струм 10&nbsp; А;● Вхідна напруга AC 155-265&nbsp;В;● Кількість каналів навантаження 2",
+    "features": [
+      "Потужність: 60 Вт",
+      "Вхідна напруга: AC 155-265 В",
+      "Вихідна напруга: 12В",
+      "Сила струму на виході: 10 А",
+      "Кількість каналів навантаження: 2",
+      "43 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2025-05/1210PB.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-05/1210PB.webp"
+    ],
+    "available": true,
+    "price": 730.0
+  },
+  {
+    "id": "viatec-17312",
+    "sku": "99-10025291",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Mustang Energy",
+    "name": "Блок живлення",
+    "model": "Mustang Energy PS-1220PB",
+    "description": "● Тип блоку живлення Імпульсний;● Вихідна напруга 12 В;● Вихідний струм 20 А;● Вхідна напруга AC 155-265&nbsp;В;● Кількість каналів навантаження 2",
+    "features": [
+      "Потужність: 240 Вт",
+      "Вхідна напруга: AC 155-265 В",
+      "Вихідна напруга: 12В",
+      "Сила струму на виході: 20 А",
+      "Кількість каналів навантаження: 2",
+      "50 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2025-05/1220PB.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-05/1220PB.webp"
+    ],
+    "available": true,
+    "price": 1263.0
   },
   {
     "id": "viatec-18947",
@@ -15602,6 +16043,27 @@ window.ALTCAM_CATALOG = [
     "price": 250.0
   },
   {
+    "id": "viatec-17144",
+    "sku": "99-10024993",
+    "category": "Аксесуари для енергосистем",
+    "subcategory": "",
+    "brand": "Voltronic",
+    "name": "Конектор Voltronic",
+    "model": "MC4 DC 1000V 30A IP67",
+    "description": "● Тип конектора: MC4;● Номінальний струм, не більше: 30 А;● Номінальна напруга, не більше: 1000 В;● Перетин кабелю, що підключається 2.5 - 6 мм 2;● Максимальна допустима напруга змінного струму 6 кВ (50 Гц протягом 1 хвилини)● Матеріал: мідь, вкрита сріблом;● Сила зусилля при з'єднанні з відповідним роз'ємом: не більше 50 Н;● Система блокування під час з'єднання: засувка;● Клас захисту: IP68;● Клас горючості: UL94-V0;● Температура експлуатації: -40&deg;С - + 125&deg;С",
+    "features": [
+      "IP67",
+      "IP68",
+      "6 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2025-04/mc4-connectt.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-04/mc4-connectt.webp"
+    ],
+    "available": true,
+    "price": 43.0
+  },
+  {
     "id": "viatec-17142",
     "sku": "99-10024995",
     "category": "Аксесуари для енергосистем",
@@ -15621,25 +16083,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 1614.0
-  },
-  {
-    "id": "viatec-16306",
-    "sku": "99-00024250",
-    "category": "Аксесуари для енергосистем",
-    "subcategory": "",
-    "brand": "Voltronic",
-    "name": "Розгалужувач Voltronic MC4-4T",
-    "model": "для монтажу сонячних систем 30A 1000В",
-    "description": "● Максимальний струм: 30 A;● Максимальна напруга: 1000 В;● Матеріал корпусу: Стійкий до УФ-випромінювання пластик;● Тип підключення: MC4 (сумісний з більшістю сонячних панелей);● Захист від вологи: IP67;● Діапазон температур експлуатації: від -40&deg;C до +85&deg;C;●&nbsp;З`єднання: 4-в-1 (підключення 4 панелей до одного інвертора)",
-    "features": [
-      "IP67"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2025-02/YT-MC4-4T.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2025-02/YT-MC4-4T.webp"
-    ],
-    "available": true,
-    "price": 591.0
   },
   {
     "id": "viatec-21264",
@@ -17972,6 +18415,25 @@ window.ALTCAM_CATALOG = [
     "price": 574.0
   },
   {
+    "id": "viatec-12248",
+    "sku": "99-00016847",
+    "category": "Аксесуари та витратні матеріали для монтажу",
+    "subcategory": "",
+    "brand": "Crosver",
+    "name": "Розподільчий оптичний бокс",
+    "model": "Crosver FOB-02-04",
+    "description": "● Можливість установки 4 оптичних адаптерів SC або LC;● Можливість виведення до 4 абонентських відводів;● Стабілізований до впливу ультрафіолету пластик корпусу;● Захищений від потрапляння всередину боксу пилу і вологи;● Невеликі розміри та вага - 210 &times; 140 &times; 40 мм/270 г.",
+    "features": [
+      "40 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-02/Crosver%20FOB-02-04.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-02/Crosver%20FOB-02-04.webp"
+    ],
+    "available": true,
+    "price": 279.0
+  },
+  {
     "id": "viatec-3173",
     "sku": "99-00001504",
     "category": "Аксесуари та витратні матеріали для монтажу",
@@ -18049,6 +18511,23 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 1620.0
+  },
+  {
+    "id": "viatec-9108",
+    "sku": "99-00012488",
+    "category": "Аксесуари та витратні матеріали для монтажу",
+    "subcategory": "",
+    "brand": "Dtech",
+    "name": "Подовжувач USB - RJ45",
+    "model": "DTECH DT-5015",
+    "description": "Комплект мережевого подовжувача USB - RJ45 із використанням прямого кабелю cat5, cat5e або cat6 для підключення на відстані до 60 метрів. Цей набір подовжувачів USB дозволяє без проблем переміщати комп&#39;ютер і підключати USB-пристрій до комп&#39;ютера на віддаленій відстані за допомогою кабелю Ethernet. Роз&#39;єм відправника: USB тип A, розетка RJ45 для приймача: USB тип A, розетка RJ45.",
+    "features": [],
+    "image": "https://viatec.ua/upload/images/prod/2023-03/DTECH_DT-5015.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-03/DTECH_DT-5015.webp"
+    ],
+    "available": true,
+    "price": 653.0
   },
   {
     "id": "viatec-12169",
@@ -23205,6 +23684,25 @@ window.ALTCAM_CATALOG = [
     "price": 1450.0
   },
   {
+    "id": "viatec-10652",
+    "sku": "99-00015017",
+    "category": "Аксесуари та витратні матеріали для монтажу",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Анкерний затискач",
+    "model": "Н26",
+    "description": "Натяжні затискачі анкерного типу Н26 призначені для закріплення та утримання в натягнутому стані самонесучих кабелів круглого перерізу діаметром від 6,5 до 9 мм при побудові ліній зв'язку зі стовпів освітлення та електропередач. Збільшена довжина корпусу затиску та клинів забезпечує велику площу зіткнення з оболонкою кабелю та дозволяє кріпити кабель на прольотах до 120 метрів.",
+    "features": [
+      "9 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-08/h26.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-08/h26.webp"
+    ],
+    "available": true,
+    "price": 47.0
+  },
+  {
     "id": "viatec-19337",
     "sku": "99-10029754",
     "category": "Аксесуари та витратні матеріали для монтажу",
@@ -23257,6 +23755,28 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 3.0
+  },
+  {
+    "id": "viatec-13929",
+    "sku": "99-00019113",
+    "category": "Аксесуари та витратні матеріали для монтажу",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Гак",
+    "model": "КОц-8с",
+    "description": "● Максимальне навантаження 2,0 кН;● Діаметр прутка 8,0 мм;● Товщина сталевої основи 2,0 мм;● Діаметр отвору під дюбель 5 мм;● Габаритні розміри 65&times;54&times;60 мм",
+    "features": [
+      "8,0 мм",
+      "2,0 мм",
+      "5 мм",
+      "60 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-07/krepleniya-47734.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-07/krepleniya-47734.webp"
+    ],
+    "available": true,
+    "price": 33.0
   },
   {
     "id": "viatec-19338",
@@ -24981,6 +25501,23 @@ window.ALTCAM_CATALOG = [
     "price": 74.0
   },
   {
+    "id": "viatec-9718",
+    "sku": "99-00013520",
+    "category": "Аксесуари та витратні матеріали для монтажу",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Натягувач стрічки бандажної",
+    "model": "BTТ-03",
+    "description": "Натягувач для бандажної стрічки з поворотною рукояткою Crosver BTT-03 служить для натягування, загинання і обрізки сталевої стрічки типу Crosver BT.",
+    "features": [],
+    "image": "https://viatec.ua/upload/images/prod/2023-05/Crosver_BTT-03.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-05/Crosver_BTT-03.webp"
+    ],
+    "available": true,
+    "price": 2695.0
+  },
+  {
     "id": "viatec-9719",
     "sku": "99-00013519",
     "category": "Аксесуари та витратні матеріали для монтажу",
@@ -25017,6 +25554,25 @@ window.ALTCAM_CATALOG = [
     "price": 21.0
   },
   {
+    "id": "viatec-10653",
+    "sku": "99-00015018",
+    "category": "Аксесуари та витратні матеріали для монтажу",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Натяжний анкерний затискач",
+    "model": "Н28",
+    "description": "Натяжний затиск Н28 призначений для швидкого закріплення самонесучих оптичних кабелів типу &laquo;8&raquo; з винесеним силовим елементом &mdash; сталевим дротом, металевим (сталевим або алюмінієвим) тросом, діелектричним тросом або вуглепластиковим стрижнем. Також може використовуватися для круглого кабелю діаметром від 2 до 5,5 мм. Забезпечують затиснення і закріплення кабелів, без необхідності оголювати або ж відокремлювати несучий трос. Робоче навантаження 2 кН. Максимально допустимі прольоти між опорами 120 метрів. Габаритні розміри корпусу затиску без петлі 110х50х40 мм.",
+    "features": [
+      "5,5 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-08/n28_2_big.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-08/n28_2_big.webp"
+    ],
+    "available": true,
+    "price": 47.0
+  },
+  {
     "id": "viatec-19569",
     "sku": "99-10030069",
     "category": "Аксесуари та витратні матеріали для монтажу",
@@ -25032,6 +25588,26 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 820.0
+  },
+  {
+    "id": "viatec-12244",
+    "sku": "99-00014506",
+    "category": "Аксесуари та витратні матеріали для монтажу",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Оптична розетка",
+    "model": "Crosver FOR-02",
+    "description": "● Кількість вводів кабелю&nbsp; 1;● Максимальний діаметр кабелю, мм 6;● Тип кабелю &nbsp; &Oslash;3 мм (патчкордовий), 2&times;3 мм (FTTH), до &Oslash; 6мм (кабель круглого перерізу);● Кількість встановлюваних адаптерів зазвичай 1,максимум 2 (при заведенні кабелю через задню кришку);● Максимальна кількість зварок &nbsp;&nbsp; &nbsp;2;● Габаритні розміри, мм &nbsp;&nbsp; &nbsp;86&times;86&times;22",
+    "features": [
+      "3 мм",
+      "6мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-02/full_802_4.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-02/full_802_4.webp"
+    ],
+    "available": true,
+    "price": 29.0
   },
   {
     "id": "viatec-17915",
@@ -25629,6 +26205,66 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 105.0
+  },
+  {
+    "id": "viatec-19501",
+    "sku": "99-00023909",
+    "category": "Аксесуари та витратні матеріали для монтажу",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Скрепа 100шт",
+    "model": "BC-10",
+    "description": "Скрепа Crosver BC з нержавіючої сталі призначена для фіксації елементів кріплення на опорах. Скріпи Crosver BC-10 використовуються разом з бандажною стрічкою Crosver BT-10 x 07, скріпи Crosver BC-20 - з бандажною стрічкою Crosver BT-20 x 07.",
+    "features": [
+      "Довжина: 10 мм",
+      "10 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/Crosver_BC.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/Crosver_BC.webp"
+    ],
+    "available": true,
+    "price": 586.0
+  },
+  {
+    "id": "viatec-8147",
+    "sku": "99-00011063",
+    "category": "Аксесуари та витратні матеріали для монтажу",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Скрепа 100шт",
+    "model": "BC-20",
+    "description": "Скрепа Crosver BC з нержавіючої сталі призначена для фіксації елементів кріплення на опорах. Скріпи Crosver BC-10 використовуються разом з бандажною стрічкою Crosver BT-10 x 07, скріпи Crosver BC-20 - з бандажною стрічкою Crosver BT-20 x 07.",
+    "features": [
+      "Довжина: 20 мм",
+      "20 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/Crosver_BC.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/Crosver_BC.webp"
+    ],
+    "available": true,
+    "price": 736.0
+  },
+  {
+    "id": "viatec-8151",
+    "sku": "99-00011067",
+    "category": "Аксесуари та витратні матеріали для монтажу",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Стрічка бандажна",
+    "model": "BTS-20x07 50м",
+    "description": "Бандажна стрічка Crosver BTS з нержавіючої сталі для фіксації елементів кріплення на опорах. Нержавіюча сталь марки 201. В рулоні 50 м, фіксується скріпою НД-20",
+    "features": [
+      "Довжина: 50 м",
+      "0,7 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/Crosver_BTS.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/Crosver_BTS.webp"
+    ],
+    "available": true,
+    "price": 1372.0
   },
   {
     "id": "viatec-19386",
@@ -27825,6 +28461,25 @@ window.ALTCAM_CATALOG = [
     "price": 170.0
   },
   {
+    "id": "viatec-6994",
+    "sku": "99-00009616",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Varta",
+    "name": "Батарейка AAA",
+    "model": "VARTA LONGLIFE BLI 4 ALKALINE",
+    "description": "Електрохімічна система Alkaline; Напруга, В 1,5; Типорозмір AAA, Micro",
+    "features": [
+      "Вихідна напруга: 1,5В"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/VARTA_LONGLIFE_AAA_BLI_4.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/VARTA_LONGLIFE_AAA_BLI_4.webp"
+    ],
+    "available": true,
+    "price": 131.0
+  },
+  {
     "id": "viatec-7494",
     "sku": "99-00010039",
     "category": "Акумулятори та елементи живлення",
@@ -28673,30 +29328,6 @@ window.ALTCAM_CATALOG = [
     "price": 82.0
   },
   {
-    "id": "viatec-21648",
-    "sku": "99-10038036",
-    "category": "Альтернативна енергетика",
-    "subcategory": "",
-    "brand": "MUST",
-    "name": "Інвертор",
-    "model": "MUST PH19-6048EXP 6000Вт 48В 1-60А однофазний чиста синусоїда",
-    "description": "● Форма сигналу чиста синусоїда;● Номінальна потужність, Вт 6000;● Пікова потужність, Вт (протягом 5 сек) 12 000;● Характеристики зарядно-розрядного пристрою : Номінальна напруга,В 48, Максимальний струм заряду,А (мережа + сонце) 100, Максимальний струм заряду від мережі,А 60;● Кількість МРРТ 1;● Номінальна потужність МРРТ, Вт 6000;● Інтерфейс USB/RS-485;● 490 &times; 300 &times; 150 мм;● 9 кг",
-    "features": [
-      "Вихідна потужність, Вт: 6 000",
-      "Потужність сонячних панелей, Вт: 6000",
-      "Напруга батареї, В: 48",
-      "Напруга сонячних панелей, В: 450",
-      "Струм зарядки батареї, А: 1-60",
-      "Струм сонячних панелей, А: 80"
-    ],
-    "image": "https://viatec.ua/upload/2/MUSTPH19-6048EXP.webp",
-    "images": [
-      "https://viatec.ua/upload/2/MUSTPH19-6048EXP.webp"
-    ],
-    "available": true,
-    "price": 26000.0
-  },
-  {
     "id": "viatec-20011",
     "sku": "99-10034524",
     "category": "Альтернативна енергетика",
@@ -28900,30 +29531,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 20720.0
-  },
-  {
-    "id": "viatec-14001",
-    "sku": "99-00020906",
-    "category": "Альтернативна енергетика",
-    "subcategory": "",
-    "brand": "Victron Energy",
-    "name": "Інвертор",
-    "model": "Victron Energy EasySolar-II GX 48/3000/35-32 MPPT 250/70 сонячний однофазний чиста синусоїда",
-    "description": "● Макс. потужність панелей 4 кВт 250В;● Максимальний вхід змінного струму 32 А;● Діапазон вхідної напруги постійного струму 38&ndash;66 В;● Вихід 230 В змінного струму;● Вихідна потужність при 25&deg;C 3000 ВА;● Вхід змінного струму 187&ndash;265 В;● Макс. струм заряду батареї 35А;● Діапазон робочих температур від -20 до +45&deg; С",
-    "features": [
-      "Вихідна потужність, Вт: 2 400",
-      "Потужність сонячних панелей, Вт: 4 000",
-      "Напруга батареї, В: 38 – 66",
-      "Напруга сонячних панелей, В: 250",
-      "Струм зарядки батареї, А: 35",
-      "Струм сонячних панелей, А: 70"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-07/EasySolar-IIGX48V3000VA.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-07/EasySolar-IIGX48V3000VA.webp"
-    ],
-    "available": true,
-    "price": 58500.0
   },
   {
     "id": "viatec-14013",
@@ -30423,6 +31030,30 @@ window.ALTCAM_CATALOG = [
     "price": 4725.0
   },
   {
+    "id": "viatec-19431",
+    "sku": "99-10029630",
+    "category": "Відеореєстратори та накопичувачі",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "Відеореєстратор Dahua",
+    "model": "DH-XVR4104HS-I/T 4-канальний 1080N/720p 1U 1HDD WizSense",
+    "description": "● 4+1 (4 BNC-портів/5 віртуальних IP канали);● AI Coding/H.265+/H.265/H.264+/H.264;● HDCVI/AHD/TVI/CVBS;● CVI: 1080p 25 к/с; 720p 25/50 к/с;● Кодування (всі канали): 1080N/720p/960H/D1/CIF 25 к/с;● Вхідний потік: 32 Мбіт/с;● Аналітика: SMD plus 4 канали (аналог);● 1 HDD до 16ТБ максимум",
+    "features": [
+      "Роздільна здатність відеовиходу: 1920 × 1080, 1280 × 1024, 1280 × 720",
+      "Живлення: DC 12В/1.5A",
+      "Потужність споживання: 4 Вт",
+      "2 Мп",
+      "HDCVI",
+      "AHD"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/1_0_01_01_14946_1154865367.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/1_0_01_01_14946_1154865367.webp"
+    ],
+    "available": true,
+    "price": 3645.0
+  },
+  {
     "id": "viatec-20042",
     "sku": "99-10029628",
     "category": "Відеореєстратори та накопичувачі",
@@ -31752,6 +32383,54 @@ window.ALTCAM_CATALOG = [
     "price": 6705.0
   },
   {
+    "id": "viatec-21307",
+    "sku": "99-10036585",
+    "category": "Відеореєстратори та накопичувачі",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Відеореєстратор Hikvision",
+    "model": "DS-7732NXI-K4/VPro 32-канальний 1.5U AcuSeek",
+    "description": "32 каналиH.265/H.265+/H.264+/H.264Декодування: макс 12 каналів х 1080рВхідний потік 256 Мбіт/сАналітика за рахунок NVR: &nbsp;розпізнавання облич, захист периметра, виявлення руху 2.0, AcuSearch, AcuSeekАналітика за рахунок камери: розпізнавання обличчя, захист периметра, детектор руху 2.0, ANPR, VCA4 HDD до 16Тб",
+    "features": [
+      "Роздільна здатність відеовиходу: HDMI: 3840 × 2160; VGA: 1920 × 1080",
+      "Підтримка роздільної здатності: 12 MP/8 MP/6 MP/5 MP/4 MP/3 MP/1080P/UXGA/720P/VGA/4CIF",
+      "Живлення: 100 - 240В AС",
+      "Потужність споживання: 50 Вт",
+      "12 MP",
+      "8 MP"
+    ],
+    "image": "https://viatec.ua/upload/2/DS-7732NXI-K4_VPro.webp",
+    "images": [
+      "https://viatec.ua/upload/2/DS-7732NXI-K4_VPro.webp"
+    ],
+    "available": true,
+    "price": 41715.0
+  },
+  {
+    "id": "viatec-21308",
+    "sku": "99-10036584",
+    "category": "Відеореєстратори та накопичувачі",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Відеореєстратор Hikvision",
+    "model": "DS-7608NXI-K1/VPro 8-канальний 1U AcuSeek",
+    "description": "8 каналівH.265/H.265+/H.264+/H.264Декодування: макс 12 каналів х 1080рВхідний потік 80 Мбіт/сАналітика за рахунок NVR: &nbsp;розпізнавання облич, захист периметра, виявлення руху 2.0, AcuSearch, AcuSeekАналітика за рахунок камери: розпізнавання обличчя, захист периметра, детектор руху 2.0, ANPR, VCA1 HDD до 16Тб",
+    "features": [
+      "Роздільна здатність відеовиходу: HDMI: 3840 × 2160; VGA: 1920 × 1080",
+      "Підтримка роздільної здатності: 12 MP/8 MP/6 MP/5 MP/4 MP/3 MP/1080P/UXGA/720P/VGA/4CIF",
+      "Живлення: 12 В DC, 1.5 A",
+      "Потужність споживання: 15 Вт",
+      "12 MP",
+      "8 MP"
+    ],
+    "image": "https://viatec.ua/upload/2/DS-7608NXI-K1_VPro1.webp",
+    "images": [
+      "https://viatec.ua/upload/2/DS-7608NXI-K1_VPro1.webp"
+    ],
+    "available": true,
+    "price": 14130.0
+  },
+  {
     "id": "viatec-14684",
     "sku": "99-00021710",
     "category": "Відеореєстратори та накопичувачі",
@@ -32299,26 +32978,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 16650.0
-  },
-  {
-    "id": "viatec-15902",
-    "sku": "99-10036134",
-    "category": "Відеореєстратори та накопичувачі",
-    "subcategory": "",
-    "brand": "Seagate",
-    "name": "Жорсткий диск внутрішній",
-    "model": "Seagate SkyHawk ST1000VX013 1Тб",
-    "description": "● Місткість накопичувача 1 ТБ;● Тип жорсткого диска внутрішній;● Інтерфейс підключення SATAIII;● Форм-фактор 3.5\";● Швидкість обертання шпинделя 5400 об/хв",
-    "features": [
-      "Ємність: 1 Тб",
-      "Швидкість обертання (об / хв): 5400"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2025-01/st100vx013.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2025-01/st100vx013.webp"
-    ],
-    "available": true,
-    "price": 7923.0
   },
   {
     "id": "viatec-20543",
@@ -33090,6 +33749,30 @@ window.ALTCAM_CATALOG = [
     "price": 5620.0
   },
   {
+    "id": "viatec-21305",
+    "sku": "99-10037086",
+    "category": "Домофони та викличні панелі",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "7\" IP монітор з Wi-Fi",
+    "model": "DHI-VTH2621G-WP",
+    "description": "7-дюймовий сенсорний дисплей 1024&times;600; Wi-Fi 2.4 ГГц; тривога 6 вх/1 вих; 1 аудіо вхід, вбудований динамік - двостороннє аудіо; вихід живлення 12/200 mA; дод. підключення: 9 будинків, 4 квартири; підключення дзвінка через вхід тривоги; мережа 10/100 мбіт/с; живлення 12 ВDC 1A, PoE, 2-6Вт; накладний монтаж; -10 &deg; C - +55 &deg; C; 190&times;135&times;2 мм",
+    "features": [
+      "Роздільна здатність дисплея: 1024 × 600",
+      "Живлення: 12 В DC 1A",
+      "Потужність споживання: 2-6 Вт",
+      "Wi-Fi",
+      "PoE",
+      "2 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/vth2612gw-wp.webp",
+    "images": [
+      "https://viatec.ua/upload/2/vth2612gw-wp.webp"
+    ],
+    "available": true,
+    "price": 7200.0
+  },
+  {
     "id": "viatec-20623",
     "sku": "99-10032965",
     "category": "Домофони та викличні панелі",
@@ -33112,6 +33795,30 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 18585.0
+  },
+  {
+    "id": "viatec-13459",
+    "sku": "99-00019690",
+    "category": "Домофони та викличні панелі",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "Виклична панель Dahua",
+    "model": "DHI-VTO6222E-P IP IK08",
+    "description": "● прихований монтаж; поверхневий монтаж (кронштейн докуповується окремо);● багатоабонентська;● кардрідер для карт Mifare;● IP65, IK08;● 48 VDC, 0.4 A, PoE (802.3af/at); ● Вихід живлення 12 VDC, 600 mA",
+    "features": [
+      "Роздільна здатність: Основний потік: 720p, WVGA, D1, CIF; Додатковий потік: 1080p, WVGA, D1, QVGA, CIF",
+      "Тип підсвічування: Додаткове освітлення білим світлом",
+      "Живлення: 48В DC, 0.4 A",
+      "Потужність споживання: 6 Вт",
+      "2 MP",
+      "IP65"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-05/DHI-VTO6222E-P.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-05/DHI-VTO6222E-P.webp"
+    ],
+    "available": true,
+    "price": 16830.0
   },
   {
     "id": "viatec-13996",
@@ -33138,6 +33845,30 @@ window.ALTCAM_CATALOG = [
     "price": 7065.0
   },
   {
+    "id": "viatec-13997",
+    "sku": "99-00020144",
+    "category": "Домофони та викличні панелі",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "Виклична панель Dahua",
+    "model": "DHI-VTO2211G-WP-S2 Mifare IP65",
+    "description": "● одноабонентська;● накладний монтаж;● кардрідер для карт Mifare (пам'ять на 10 000 карт);● автономна робота без домофону &ndash; можлива;● IP65;● 12V DC 1A, PoE",
+    "features": [
+      "Роздільна здатність: 720p, WVGA, D1, CIF",
+      "Тип підсвічування: ІЧ",
+      "Живлення: 12В DC 1A",
+      "Потужність споживання: 5 Вт",
+      "2 MP",
+      "IP65"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-07/1_0_01_15_12433_533119495_crop1.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-07/1_0_01_15_12433_533119495_crop1.webp"
+    ],
+    "available": true,
+    "price": 7920.0
+  },
+  {
     "id": "viatec-6571",
     "sku": "99-00008869",
     "category": "Домофони та викличні панелі",
@@ -33160,6 +33891,30 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 11070.0
+  },
+  {
+    "id": "viatec-6572",
+    "sku": "99-00008868",
+    "category": "Домофони та викличні панелі",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "Виклична панель Dahua",
+    "model": "DHI-VTO2311R-WP Wi-Fi IP65",
+    "description": "DHI-VT02311R-WP &mdash; зручна ультратонка панель виклику Dahua. Може встановлюватися на вулиці та в приміщеннях для контролю входу. Має автоматичний доступ та можливість зв'язатися з внутрішнім монітором. Надійна та стильна накладна панель оснащена відеокамерою, кнопкою для дзвінка, чутливим мікрофоном, динаміком та зчитувачем. Маючи ключ-брелок, двері можна відчинити на місці, або зателефонувати на пульт. Відвідувачів можна роздивитися навіть уночі завдяки ІЧ-підсвічуванню з WDR на камері. Також доступний двосторонній голосовий зв'язок. Розблокування здійснюється дистанційно, у підключеному додатку. Живлення DHI-VTO2311R-WP здійснюється через Ethernet, а з'єднання та керування встановлюється по Wi-Fi, що спрощує роботу на відстані.",
+    "features": [
+      "Роздільна здатність: 2Мп",
+      "Живлення: 12–33 В DC, 1 A",
+      "Потужність споживання: 6 Вт",
+      "2Мп",
+      "IP65",
+      "Wi-Fi"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/VTO2311R-WP1.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/VTO2311R-WP1.webp"
+    ],
+    "available": true,
+    "price": 8415.0
   },
   {
     "id": "viatec-21436",
@@ -34134,6 +34889,30 @@ window.ALTCAM_CATALOG = [
     "price": 8010.0
   },
   {
+    "id": "viatec-19181",
+    "sku": "99-10036571",
+    "category": "Домофони та викличні панелі",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Виклична панель Hikvision",
+    "model": "DS-KD8003-IME1(B)",
+    "description": "● головний блок модульної панелі 2 MP HD;● пам'ять на 6 000 карток;● тривога вхід: 4 (за замовчуванням 2 кнопки виходу та 2 дверні контакти); керування замком 2 (2 реле, макс. до 30 В, 2 А);● IP65;● 12В DC, 500 мА, IEEE 802.3af, PoE",
+    "features": [
+      "Роздільна здатність: 1080p",
+      "Тип підсвічування: ІЧ",
+      "Живлення: DC 12В 500 mA",
+      "Потужність споживання: 5 Вт",
+      "2 MP",
+      "2МП"
+    ],
+    "image": "https://viatec.ua/upload/2/DS-KD8003-IME1Bnnw.webp",
+    "images": [
+      "https://viatec.ua/upload/2/DS-KD8003-IME1Bnnw.webp"
+    ],
+    "available": true,
+    "price": 6705.0
+  },
+  {
     "id": "viatec-7770",
     "sku": "99-00010070",
     "category": "Домофони та викличні панелі",
@@ -34642,6 +35421,30 @@ window.ALTCAM_CATALOG = [
     "price": 6511.0
   },
   {
+    "id": "viatec-17282",
+    "sku": "99-10025314",
+    "category": "Домофони та викличні панелі",
+    "subcategory": "",
+    "brand": "Light Vision",
+    "name": "Виклична панель",
+    "model": "Light Vision RIO FHD GREY",
+    "description": "● Роздільна здатність камери 2 Мп;● Вбудоване реле NO/NC ;● Кути огляду камери 110&deg; ;● Тип підсвічування ІЧ ;● Підключення Аналогове (4-дротове) ;● Монтаж Накладний ;● Клас захисту IP66 ;● Робоча температура -40&deg;C ~ +60&deg;C;● Розміри 133 х 48 х 21 мм",
+    "features": [
+      "Роздільна здатність: AHD 1080P",
+      "Тип підсвічування: ІЧ-підсвічування (120°) до 5 м",
+      "Живлення: 12В",
+      "Потужність споживання: 200 мА",
+      "2 Мп",
+      "IP66"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2025-05/fhd-grey-light-vision.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-05/fhd-grey-light-vision.webp"
+    ],
+    "available": true,
+    "price": 2393.0
+  },
+  {
     "id": "viatec-17283",
     "sku": "99-10025313",
     "category": "Домофони та викличні панелі",
@@ -34666,6 +35469,30 @@ window.ALTCAM_CATALOG = [
     "price": 2393.0
   },
   {
+    "id": "viatec-17284",
+    "sku": "99-10025320",
+    "category": "Домофони та викличні панелі",
+    "subcategory": "",
+    "brand": "Light Vision",
+    "name": "Виклична панель",
+    "model": "Light Vision RIO FHD(KEY) SILVER",
+    "description": "● Роздільна здатність камери 2 Мп;● Вбудоване реле NO/NC ;● Зчитувач Mifare;● Кути огляду камери 148&deg; ;● Тип підсвічування ІЧ ;● Підключення Аналогове (4-дротове) ;● Монтаж Накладний ;● Клас захисту IP65 ;● Робоча температура -40&deg;C ~ +50&deg;C;● Розміри 138 х 68.5 х 37.5 мм",
+    "features": [
+      "Роздільна здатність: 600TVL/1000TVL; AHD720P/960P/1080P",
+      "Тип підсвічування: ІЧ-підсвічування",
+      "Живлення: 12В",
+      "2 Мп",
+      "IP65",
+      "37.5 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2025-05/fhd-key-silver-zi-z.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-05/fhd-key-silver-zi-z.webp"
+    ],
+    "available": true,
+    "price": 3350.0
+  },
+  {
     "id": "viatec-17529",
     "sku": "99-10025319",
     "category": "Домофони та викличні панелі",
@@ -34683,6 +35510,28 @@ window.ALTCAM_CATALOG = [
     "image": "https://viatec.ua/upload/2/amsterdam-fhd-black-light-vision.webp",
     "images": [
       "https://viatec.ua/upload/2/amsterdam-fhd-black-light-vision.webp"
+    ],
+    "available": true,
+    "price": 4568.0
+  },
+  {
+    "id": "viatec-17530",
+    "sku": "99-10025316",
+    "category": "Домофони та викличні панелі",
+    "subcategory": "",
+    "brand": "Light Vision",
+    "name": "Відеодомофон",
+    "model": "Light Vision AMSTERDAM FHD GRAY",
+    "description": "● Дисплей IPS 7\" 1024x600;● Інтерком на 6 відеодомофонів;● Підтримка панелей виклику / камер 2 панелі виклику + 2 відеокамери;● Роздільна здатність запису 1080P/720P/960H;● Карта пам'яті MicroSD карта до 128 ГБ;● Відчинення воріт;● Тип відеосигналу AHD/TVI/CVI/CVBS;● Гучний зв'язок;● Запис за детекцією руху з 4 каналів;● Тип керування механічні кнопки, сенсорні кнопки;● Живлення DC 12 В / AC 220 В;● Особливості моделі MP3 мелодії, фоторамка, автовідповідач, режим &laquo;не турбувати&raquo;;● Підключення Аналогове (4-дротове);● Монтаж накладний;● Робоча температура 0 &deg;C ~ +50 &deg;C;● Розміри 175 / 115 / 20 мм",
+    "features": [
+      "Роздільна здатність дисплея: 1024x600",
+      "Живлення: DC 12 В / AC 220 В",
+      "AHD",
+      "20 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/videodomofon-amsterdam-fhd-gray-light-vision.webp",
+    "images": [
+      "https://viatec.ua/upload/2/videodomofon-amsterdam-fhd-gray-light-vision.webp"
     ],
     "available": true,
     "price": 4568.0
@@ -38721,6 +39570,23 @@ window.ALTCAM_CATALOG = [
     "price": 50.0
   },
   {
+    "id": "viatec-7132",
+    "sku": "99-00009744",
+    "category": "Електрика",
+    "subcategory": "",
+    "brand": "ERKA",
+    "name": "Колодка одинарна з заглушкою 1*16 (каучук)",
+    "model": "ERKA 6001",
+    "description": "Колодка одинарна ERKA 6001 з заглушкою 1 х 16 А (каучук). Кількість роз&#39;ємів: 1. Номінальний струм: 16 А. Напруга: 220-240 В.",
+    "features": [],
+    "image": "https://viatec.ua/upload/images/prod/ERKA_6001.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/ERKA_6001.webp"
+    ],
+    "available": true,
+    "price": 110.0
+  },
+  {
     "id": "viatec-7133",
     "sku": "99-00009745",
     "category": "Електрика",
@@ -39480,26 +40346,6 @@ window.ALTCAM_CATALOG = [
     "price": 450.0
   },
   {
-    "id": "viatec-16978",
-    "sku": "99-10024752",
-    "category": "Електрика",
-    "subcategory": "",
-    "brand": "Emos",
-    "name": "Мережевий подовжувач",
-    "model": "EMOS P1623R 6 розетки 3 м",
-    "description": "● Кількість розеток 6;● Довжина кабелю 3 м;● Вимикач;● Живлення: максимально 250 В;● Максимальне навантаження: 3680 Вт;● Тип і перетин кабелю: H05VV-F3G 1,5 мм2;● Дитяча захист - так;● Тип ізоляції: PVC (-15 / + 66 &deg; c) не горить на повітрі;● Матеріал колодки: - негорючий пластик",
-    "features": [
-      "Довжина кабеля, м: 3",
-      "3680 Вт"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2025-04/P1625R.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2025-04/P1625R.webp"
-    ],
-    "available": true,
-    "price": 465.0
-  },
-  {
     "id": "viatec-14607",
     "sku": "99-00021477",
     "category": "Електрика",
@@ -40054,6 +40900,26 @@ window.ALTCAM_CATALOG = [
     "price": 4810.0
   },
   {
+    "id": "viatec-11543",
+    "sku": "99-00016384",
+    "category": "Електрика",
+    "subcategory": "",
+    "brand": "Hager",
+    "name": "Автоматичний вимикач 1P 6kA C-10A 1M",
+    "model": "Hager MCN110",
+    "description": "Підключення: 1 - фазаКількість полюсів: 1Характеристика відключення: CНомінальний струм А: 10Максимальний струм короткого замикання: 6 kAТип монтажу: DIN-рейка",
+    "features": [
+      "Розрахункова напруга, Un: 230, 400В",
+      "Номінальний струм, А: 10"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-12/MCN110.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-12/MCN110.webp"
+    ],
+    "available": true,
+    "price": 239.0
+  },
+  {
     "id": "viatec-11545",
     "sku": "99-00016385",
     "category": "Електрика",
@@ -40132,6 +40998,106 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 331.0
+  },
+  {
+    "id": "viatec-11519",
+    "sku": "99-00016362",
+    "category": "Електрика",
+    "subcategory": "",
+    "brand": "Hager",
+    "name": "Автоматичний вимикач 2P 6kA C-10A 2M",
+    "model": "Hager MCN210",
+    "description": "Підключення: 2PКількість полюсів: 2Характеристика відключення: CНомінальний струм А: 10Максимальний струм короткого замикання: 6 kAТип монтажу: DIN-рейка",
+    "features": [
+      "Розрахункова напруга, Un: 230, 400В",
+      "Номінальний струм, А: 10"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-12/Hager_MCN210.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-12/Hager_MCN210.webp"
+    ],
+    "available": true,
+    "price": 618.0
+  },
+  {
+    "id": "viatec-11520",
+    "sku": "99-00016363",
+    "category": "Електрика",
+    "subcategory": "",
+    "brand": "Hager",
+    "name": "Автоматичний вимикач 2P 6kA C-16A 2M",
+    "model": "Hager MCN216",
+    "description": "Підключення: 2PКількість полюсів: 2Характеристика відключення: CНомінальний струм А: 16Максимальний струм короткого замикання: 6 kAТип монтажу: DIN-рейка",
+    "features": [
+      "Розрахункова напруга, Un: 230, 400В",
+      "Номінальний струм, А: 16"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-12/MCN216.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-12/MCN216.webp"
+    ],
+    "available": true,
+    "price": 553.0
+  },
+  {
+    "id": "viatec-11522",
+    "sku": "99-00016365",
+    "category": "Електрика",
+    "subcategory": "",
+    "brand": "Hager",
+    "name": "Автоматичний вимикач 2P 6kA C-25A 2M",
+    "model": "Hager MCN225",
+    "description": "Підключення: 2PКількість полюсів: 2Характеристика відключення: CНомінальний струм А: 25Максимальний струм короткого замикання: 6 kAТип монтажу: DIN-рейка",
+    "features": [
+      "Розрахункова напруга, Un: 230, 400В",
+      "Номінальний струм, А: 25"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-12/MCN225.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-12/MCN225.webp"
+    ],
+    "available": true,
+    "price": 647.0
+  },
+  {
+    "id": "viatec-11523",
+    "sku": "99-00016366",
+    "category": "Електрика",
+    "subcategory": "",
+    "brand": "Hager",
+    "name": "Автоматичний вимикач 2P 6kA C-32A 2M",
+    "model": "Hager MCN232",
+    "description": "Підключення: 2PКількість полюсів: 2Характеристика відключення: CНомінальний струм А: 32Максимальний струм короткого замикання: 6 kAТип монтажу: DIN-рейка",
+    "features": [
+      "Розрахункова напруга, Un: 230, 400В",
+      "Номінальний струм, А: 32"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-12/MCN232.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-12/MCN232.webp"
+    ],
+    "available": true,
+    "price": 711.0
+  },
+  {
+    "id": "viatec-11524",
+    "sku": "99-00016367",
+    "category": "Електрика",
+    "subcategory": "",
+    "brand": "Hager",
+    "name": "Автоматичний вимикач 2P 6kA C-40A 2M",
+    "model": "Hager MCN240",
+    "description": "Підключення: 2PКількість полюсів: 2Характеристика відключення: CНомінальний струм А: 40Максимальний струм короткого замикання: 6 kAТип монтажу: DIN-рейка",
+    "features": [
+      "Розрахункова напруга, Un: 230, 400В",
+      "Номінальний струм, А: 40"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-12/MCN240.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-12/MCN240.webp"
+    ],
+    "available": true,
+    "price": 756.0
   },
   {
     "id": "viatec-11526",
@@ -40314,6 +41280,69 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 1744.0
+  },
+  {
+    "id": "viatec-20109",
+    "sku": "99-10034833",
+    "category": "Електрика",
+    "subcategory": "",
+    "brand": "Hager",
+    "name": "Перемикач",
+    "model": "Hager SFT232 I-0-II с 2-пол. 32А/230В",
+    "description": "Кількість полюсів: 2 P; Номінальна напруга ізоляції: 440 V; Стійкість по відношенню до номінальної імпульсної напруги: 4000 V; Номінальний струм: 32A",
+    "features": [
+      "Розрахункова напруга, Un: 230В",
+      "Номінальний струм, А: 32",
+      "Стандарти: IEC 60947-3"
+    ],
+    "image": "https://viatec.ua/upload/2/SFT232.webp",
+    "images": [
+      "https://viatec.ua/upload/2/SFT232.webp"
+    ],
+    "available": true,
+    "price": 893.0
+  },
+  {
+    "id": "viatec-21003",
+    "sku": "99-10028855",
+    "category": "Електрика",
+    "subcategory": "",
+    "brand": "Hager",
+    "name": "Перемикач",
+    "model": "Hager SFT140 I-0-II з загальним виходом зверху, 1-пол., 40А/230В",
+    "description": "Кількість полюсів: 1 P; Номінальна робоча напруга змінного струму: 230 V; Номінальна напруга ізоляції: 440 V; Номінальний струм: 40A",
+    "features": [
+      "Розрахункова напруга, Un: 230 В",
+      "Номінальний струм, А: 40",
+      "Стандарти: IEC 60947-3"
+    ],
+    "image": "https://viatec.ua/upload/2/SFT140-hager.webp",
+    "images": [
+      "https://viatec.ua/upload/2/SFT140-hager.webp"
+    ],
+    "available": true,
+    "price": 701.0
+  },
+  {
+    "id": "viatec-10541",
+    "sku": "99-00015029",
+    "category": "Електрика",
+    "subcategory": "",
+    "brand": "Hager",
+    "name": "Перемикач I-0-II з загальним виходом зверху, 4-пол., 40А/400В",
+    "model": "Hager SFT440",
+    "description": "Кількість полюсів: 4 P; Номінальна робоча напруга змінного струму: 400 V; Номінальний струм: 40 A",
+    "features": [
+      "Розрахункова напруга, Un: 440В",
+      "Номінальний струм, А: 40",
+      "Стандарти: IEC 60947-3"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-08/SFT440.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-08/SFT440.webp"
+    ],
+    "available": true,
+    "price": 2517.0
   },
   {
     "id": "viatec-15553",
@@ -42348,6 +43377,54 @@ window.ALTCAM_CATALOG = [
     "price": 43.0
   },
   {
+    "id": "viatec-21679",
+    "sku": "99-10038088",
+    "category": "Зарядні пристрої",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Портативний зарядний пристрій",
+    "model": "Pecron E1500LFP 1536/2200Wh MPPT VOC 32-95 В",
+    "description": "● Місткість: 1536 Вт&middot;год;● Номінальна потужність: 1500 Вт;● Виходи AC: 2&times;220 В;● Виходи DC: 12В/30А, автомобільний порт 12В/10А;● USB-порти: 4&times;Type-A 18 Вт, 1&times;Type-C 100 Вт (PD), 1&times;Type-C 18 Вт;● Габарити: 377&times;237&times;305 мм;● Вага: 18.2 кг",
+    "features": [
+      "Номінальна потужність, Вт: 1500",
+      "Ємність, Вт·г: 1536",
+      "305 мм",
+      "1536 Вт",
+      "1500 Вт",
+      "18 Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/PecronE1500LFP.webp",
+    "images": [
+      "https://viatec.ua/upload/2/PecronE1500LFP.webp"
+    ],
+    "available": true,
+    "price": 42000.0
+  },
+  {
+    "id": "viatec-21917",
+    "sku": "99-10038434",
+    "category": "Зарядні пристрої",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Портативний зарядний пристрій",
+    "model": "Pecron E1000LF 1800W/1024Wh LiFePO4 MPPT VOC 11-60V/600W",
+    "description": "● Місткість: 1024 Вт&middot;год;● Номінальна потужність: 1800 Вт;● Керування Wi-Fi, Bluetooth, мобільний застосунок;● Виходи AC: 2&times;220 В; (чиста синусоїда);● Виходи DC: 12В/30А, автомобільний порт 12В/10А;● Входи AC: до 1000 Вт, сонячний (XT60): 11&ndash;60 В, до 600 Вт, 20 А, автомобільний: 12&ndash;18 В, до 100 Вт;● USB-C PD до 100 Вт - USB-A - DC 12 В;● Автомобільний вихід 12 В - XT60 20 А (12 В);● Габарити: &nbsp;378 &times; 239 &times; 254 мм,13,5 кг;● Вага: 18.2 кг",
+    "features": [
+      "Номінальна потужність, Вт: 1800",
+      "Ємність, Вт·г: 1024",
+      "Wi-Fi",
+      "254 мм",
+      "1800W",
+      "600W"
+    ],
+    "image": "https://viatec.ua/upload/2/PecronE1000LF.webp",
+    "images": [
+      "https://viatec.ua/upload/2/PecronE1000LF.webp"
+    ],
+    "available": true,
+    "price": 29895.0
+  },
+  {
     "id": "viatec-18888",
     "sku": "99-10028224",
     "category": "Кабельна продукція",
@@ -42534,6 +43611,177 @@ window.ALTCAM_CATALOG = [
     "price": 13681.0
   },
   {
+    "id": "viatec-21313",
+    "sku": "99-10036675",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Оптичний патч-корд",
+    "model": "Ewind EW-FBLS82-10 (LC-LC）1м LSZH 2.0mm",
+    "description": "● Довжина 1м;● Вставний сердечник (LC-LC）;● Зовнішній діаметр оптичного кабелю 2.0;● Робоча температура -20&deg;C- 85&deg;C",
+    "features": [
+      "Довжина кабеля: 1 м"
+    ],
+    "image": "https://viatec.ua/upload/2/EW-FBLS82-100.webp",
+    "images": [
+      "https://viatec.ua/upload/2/EW-FBLS82-100.webp"
+    ],
+    "available": true,
+    "price": 209.0
+  },
+  {
+    "id": "viatec-21314",
+    "sku": "99-10036676",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Оптичний патч-корд",
+    "model": "Ewind EW-FBLS82-15 LC-LC 1.5м LSZH 2.0mm",
+    "description": "● Довжина 1.5м;● Вставний сердечник LC-LC;● Зовнішній діаметр оптичного кабелю 2.0;● Робоча температура -20&deg;C- 85&deg;C",
+    "features": [
+      "Довжина кабеля: 1.5м"
+    ],
+    "image": "https://viatec.ua/upload/2/EW-FBLS82-100.webp",
+    "images": [
+      "https://viatec.ua/upload/2/EW-FBLS82-100.webp"
+    ],
+    "available": true,
+    "price": 219.0
+  },
+  {
+    "id": "viatec-21315",
+    "sku": "99-10036677",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Оптичний патч-корд",
+    "model": "Ewind EW-FBLS82-30 LC-LC 3м LSZH 2.0mm",
+    "description": "● Довжина 3м;● Вставний сердечник LC-LC;● Зовнішній діаметр оптичного кабелю 2.0;● Робоча температура -20&deg;C- 85&deg;C",
+    "features": [
+      "Довжина кабеля: 3м"
+    ],
+    "image": "https://viatec.ua/upload/2/EW-FBLS82-100.webp",
+    "images": [
+      "https://viatec.ua/upload/2/EW-FBLS82-100.webp"
+    ],
+    "available": true,
+    "price": 249.0
+  },
+  {
+    "id": "viatec-21662",
+    "sku": "99-10037567",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Оптичний патч-корд",
+    "model": "Ewind EW-FBLS82-10 (LC-SC）1м LSZH 2.0mm",
+    "description": "● Довжина 1м;● Вставний сердечник (LC-SC）;● Зовнішній діаметр оптичного кабелю 2.0;● Робоча температура -20&deg;C- 85&deg;C",
+    "features": [
+      "Довжина кабеля: 1 м"
+    ],
+    "image": "https://viatec.ua/upload/2/EW-FBLS82-100.webp",
+    "images": [
+      "https://viatec.ua/upload/2/EW-FBLS82-100.webp"
+    ],
+    "available": true,
+    "price": 209.0
+  },
+  {
+    "id": "viatec-21663",
+    "sku": "99-10037568",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Оптичний патч-корд",
+    "model": "Ewind EW-FBLS82-10 (SC-SC）1м LSZH 2.0mm",
+    "description": "● Довжина 1м;● Вставний сердечник (SC-SC);● Зовнішній діаметр оптичного кабелю 2.0;● Робоча температура -20&deg;C- 85&deg;C",
+    "features": [
+      "Довжина кабеля: 1 м"
+    ],
+    "image": "https://viatec.ua/upload/2/EW-FBLS82-100.webp",
+    "images": [
+      "https://viatec.ua/upload/2/EW-FBLS82-100.webp"
+    ],
+    "available": true,
+    "price": 209.0
+  },
+  {
+    "id": "viatec-21664",
+    "sku": "99-10037570",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Оптичний патч-корд",
+    "model": "Ewind EW-FBLS82-15 LC-SC 1.5м LSZH 2.0mm",
+    "description": "● Довжина 1.5м;● Вставний сердечник LC-SC;● Зовнішній діаметр оптичного кабелю 2.0;● Робоча температура -20&deg;C- 85&deg;C",
+    "features": [
+      "Довжина кабеля: 1.5м"
+    ],
+    "image": "https://viatec.ua/upload/2/EW-FBLS82-100.webp",
+    "images": [
+      "https://viatec.ua/upload/2/EW-FBLS82-100.webp"
+    ],
+    "available": true,
+    "price": 219.0
+  },
+  {
+    "id": "viatec-21665",
+    "sku": "99-10037569",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Оптичний патч-корд",
+    "model": "Ewind EW-FBLS82-15 SC-SC 1.5м LSZH 2.0mm",
+    "description": "● Довжина 1.5м;● Вставний сердечник SC-SC;● Зовнішній діаметр оптичного кабелю 2.0;● Робоча температура -20&deg;C- 85&deg;C",
+    "features": [
+      "Довжина кабеля: 1.5м"
+    ],
+    "image": "https://viatec.ua/upload/2/EW-FBLS82-100.webp",
+    "images": [
+      "https://viatec.ua/upload/2/EW-FBLS82-100.webp"
+    ],
+    "available": true,
+    "price": 219.0
+  },
+  {
+    "id": "viatec-21666",
+    "sku": "99-10037572",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Оптичний патч-корд",
+    "model": "Ewind EW-FBLS82-30 SC-SC 3м LSZH 2.0mm",
+    "description": "● Довжина 3м;● Вставний сердечник SC-SC;● Зовнішній діаметр оптичного кабелю 2.0;● Робоча температура -20&deg;C- 85&deg;C",
+    "features": [
+      "Довжина кабеля: 3м"
+    ],
+    "image": "https://viatec.ua/upload/2/EW-FBLS82-100.webp",
+    "images": [
+      "https://viatec.ua/upload/2/EW-FBLS82-100.webp"
+    ],
+    "available": true,
+    "price": 249.0
+  },
+  {
+    "id": "viatec-21667",
+    "sku": "99-10037571",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Оптичний патч-корд",
+    "model": "Ewind EW-FBLS82-30 LC-SC 3м LSZH 2.0mm",
+    "description": "● Довжина 3м;● Вставний сердечник LC-SC;● Зовнішній діаметр оптичного кабелю 2.0;● Робоча температура -20&deg;C- 85&deg;C",
+    "features": [
+      "Довжина кабеля: 3м"
+    ],
+    "image": "https://viatec.ua/upload/2/EW-FBLS82-100.webp",
+    "images": [
+      "https://viatec.ua/upload/2/EW-FBLS82-100.webp"
+    ],
+    "available": true,
+    "price": 249.0
+  },
+  {
     "id": "viatec-16999",
     "sku": "99-10024809",
     "category": "Кабельна продукція",
@@ -42591,6 +43839,29 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 3375.0
+  },
+  {
+    "id": "viatec-3742",
+    "sku": "99-00002858",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Кабель вита пара (для зовнішньої прокладки) UTP CAT 5E",
+    "model": "DS-1LN5EO-UU/E",
+    "description": "Підключення провідних систем відеоспостереження, в більшості випадків, здійснюється за допомогою кабелю стандарту &laquo;вита пара&raquo;. Hikvision пропонує для цього DS-1LN5EO-UU. Це високоякісний мідний кабель, що відповідає нормам та добре ізольований. Призначений для зовнішньої прокладки. Провідником виступає очищена мідь, що забезпечує безперебійний та чистий сигнал. Монтаж на обладнанні успішно проводиться навіть недосвідченими людьми завдяки кольоровому маркуванню кожного внутрішнього дроту. Загальна довжина становить 305 метрів, яких вистачає навіть за далекого розташування точки. DS-1LN5EO-UU підходить для камер спостереження, мережевих точок доступу, відеореєстраторів та інших пристроїв, що використовують для передачі Ethernet сигнал.",
+    "features": [
+      "Опір постійного струму: макс. 9.5Ом / 100м",
+      "Незбалансований опір постійного струму: макс. 2%",
+      "Стандарти: ANSI / TIA-568-C.2",
+      "0.3мм",
+      "0.03мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2025-05/DS-1LN5EO-UU_E_image_1.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-05/DS-1LN5EO-UU_E_image_1.webp"
+    ],
+    "available": true,
+    "price": 8820.0
   },
   {
     "id": "viatec-3055",
@@ -42691,6 +43962,26 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 1991.0
+  },
+  {
+    "id": "viatec-17356",
+    "sku": "99-10025329",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "Trinix",
+    "name": "Кабель",
+    "model": "TRINIX UTP CAT5E CU 0.51 mm LDPE Outdoor (305м)",
+    "description": "● Діаметр жили 0.51 мм ;● Довжина 305 м ;● Тип кабелю вита пара;● Прокладання зовнішнє ;● Матеріал жили Мідь (Cu);● Оболонка LDPE (поліетилен) ;● Кількість пар 4 ;● Кількість жил 8 ;● Опір кабелю 27-28 Ом;● Тип витої пари UTP",
+    "features": [
+      "Довжина кабеля: 305 м",
+      "0.51 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2025-05/para-utp-cat5e-cca-0-51mm.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-05/para-utp-cat5e-cca-0-51mm.webp"
+    ],
+    "available": true,
+    "price": 7735.0
   },
   {
     "id": "viatec-17362",
@@ -42863,7 +44154,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/image.psd(14).jpg"
     ],
     "available": true,
-    "price": 13843.0
+    "price": 14523.0
   },
   {
     "id": "viatec-11992",
@@ -43574,6 +44865,25 @@ window.ALTCAM_CATALOG = [
     "price": 3135.0
   },
   {
+    "id": "viatec-5881",
+    "sku": "99-00008558",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "ЗЗКМ",
+    "name": "Дріт ЗЗКМ",
+    "model": "ПВС 2х1,5 (бухта 100м.)",
+    "description": "Температура експлуатації кабелю від -40 &deg; С до +40 &deg; С; Довго допустима температура нагріву жил кабелів при експлуатації 70 &deg;С; Термін служби для проводів, що застосовуються у стаціонарних електроприладах 10 років; Термін служби для інших проводів 6 років; Гарантійний термін експлуатації 2 роки; Температура прокладання кабелю не нижче &ndash;5 &deg;С; Кількість жил 2; Площа перерізу жили 1.5 мм2",
+    "features": [
+      "Довжина кабеля: 100 м"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/Provod_PVS_2h1-5_b886.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/Provod_PVS_2h1-5_b886.webp"
+    ],
+    "available": true,
+    "price": 4269.0
+  },
+  {
     "id": "viatec-5882",
     "sku": "99-00008559",
     "category": "Кабельна продукція",
@@ -44000,6 +45310,25 @@ window.ALTCAM_CATALOG = [
     "price": 5888.0
   },
   {
+    "id": "viatec-5887",
+    "sku": "99-00008564",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "ЗЗКМ",
+    "name": "кабель ЗЗКМ",
+    "model": "ВВГ-П нгд 3х2,5 (бухта 100м.)",
+    "description": "Температура прокладання кабелю не нижче -5 &deg;С; Температура експлуатації кабелю від -50 &deg;С до +50 &deg;С; Тривало допустима температура нагріву жил кабелів при експлуатації +70 &deg;С; Термін служби 30 років; Гарантійний термін експлуатації 5 років; Кількість жил 3; Площа перерізу жили 2.5 мм2",
+    "features": [
+      "Довжина кабеля: 100 м"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/Kabel_VVG-Pngd_3h_2-5_ZZTSM_b28694.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/Kabel_VVG-Pngd_3h_2-5_ZZTSM_b28694.webp"
+    ],
+    "available": true,
+    "price": 9233.0
+  },
+  {
     "id": "viatec-7856",
     "sku": "99-00007838",
     "category": "Кабельна продукція",
@@ -44151,7 +45480,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/99-00004788.jpg"
     ],
     "available": true,
-    "price": 7833.0
+    "price": 8430.0
   },
   {
     "id": "viatec-4426",
@@ -44170,7 +45499,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/99-00004788.jpg"
     ],
     "available": true,
-    "price": 8705.0
+    "price": 9242.0
   },
   {
     "id": "viatec-15418",
@@ -44247,7 +45576,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/2/kpv-vp-250-42051-u.webp"
     ],
     "available": true,
-    "price": 8713.0
+    "price": 9557.0
   },
   {
     "id": "viatec-17600",
@@ -44267,7 +45596,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/2/kpv-vp-250-42051-u.webp"
     ],
     "available": true,
-    "price": 9689.0
+    "price": 10391.0
   },
   {
     "id": "viatec-20830",
@@ -44287,7 +45616,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/2/kppvng55.webp"
     ],
     "available": true,
-    "price": 11529.0
+    "price": 12386.0
   },
   {
     "id": "viatec-21616",
@@ -44327,7 +45656,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/2024-01/2/07241-583x500.webp"
     ],
     "available": true,
-    "price": 2174.0
+    "price": 2385.0
   },
   {
     "id": "viatec-21923",
@@ -44369,7 +45698,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/UTP-cat.5E_LSOH.jpg"
     ],
     "available": true,
-    "price": 8776.0
+    "price": 9384.0
   },
   {
     "id": "viatec-10347",
@@ -44389,7 +45718,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/2023-07/UUTP-cat5E-SL.webp"
     ],
     "available": true,
-    "price": 2799.0
+    "price": 3047.0
   },
   {
     "id": "viatec-13678",
@@ -44410,7 +45739,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/2024-06/FUTP-cat5ECU.webp"
     ],
     "available": true,
-    "price": 3168.0
+    "price": 3452.0
   },
   {
     "id": "viatec-10351",
@@ -44429,7 +45758,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/2023-07/UUTP-cat5E-SL.webp"
     ],
     "available": true,
-    "price": 3392.0
+    "price": 3586.0
   },
   {
     "id": "viatec-18940",
@@ -44449,7 +45778,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/2023-07/UUTP-cat5E-SL.webp"
     ],
     "available": true,
-    "price": 8952.0
+    "price": 9564.0
   },
   {
     "id": "viatec-4424",
@@ -44490,7 +45819,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/2023-07/UUTP-cat5E-SL.webp"
     ],
     "available": true,
-    "price": 1985.0
+    "price": 2178.0
   },
   {
     "id": "viatec-10346",
@@ -44510,7 +45839,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/2023-07/UUTP-cat5E-SL.webp"
     ],
     "available": true,
-    "price": 2516.0
+    "price": 2729.0
   },
   {
     "id": "viatec-10348",
@@ -44529,7 +45858,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/2023-07/utp-sl.webp"
     ],
     "available": true,
-    "price": 2241.0
+    "price": 2407.0
   },
   {
     "id": "viatec-10350",
@@ -44548,7 +45877,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/2023-07/utp-sl.webp"
     ],
     "available": true,
-    "price": 2854.0
+    "price": 3030.0
   },
   {
     "id": "viatec-13308",
@@ -44568,7 +45897,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/2024-05/UTP-cat5%D0%95-SL.webp"
     ],
     "available": true,
-    "price": 6833.0
+    "price": 7340.0
   },
   {
     "id": "viatec-18941",
@@ -44587,7 +45916,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/12-241/kabel-vita-para-49555___rs_660_660.webp"
     ],
     "available": true,
-    "price": 2286.0
+    "price": 2515.0
   },
   {
     "id": "viatec-11967",
@@ -44606,7 +45935,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/12-241/kabel-vita-para-49555___rs_660_660.webp"
     ],
     "available": true,
-    "price": 6969.0
+    "price": 7668.0
   },
   {
     "id": "viatec-11959",
@@ -44626,7 +45955,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/12-241/kabel-odeskabel-ok-net-kppt-vp-100-utp-kat-5e-utp-med-naruzhnyy-s-trosom-bukhta-500-m-123055.webp"
     ],
     "available": true,
-    "price": 19606.0
+    "price": 20547.0
   },
   {
     "id": "viatec-11964",
@@ -44646,7 +45975,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/12-241/UUTP-cat5%D0%95-SL.webp"
     ],
     "available": true,
-    "price": 6055.0
+    "price": 6640.0
   },
   {
     "id": "viatec-5736",
@@ -44668,7 +45997,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/utp_in_2__2.webp"
     ],
     "available": true,
-    "price": 7519.0
+    "price": 8154.0
   },
   {
     "id": "viatec-18562",
@@ -44687,7 +46016,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/image.psd(14).jpg"
     ],
     "available": true,
-    "price": 22694.0
+    "price": 23808.0
   },
   {
     "id": "viatec-11962",
@@ -44706,7 +46035,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/12-241/kpp-vp-250-4-2-0-57-u-utp-cat-6___rs_442_442.webp"
     ],
     "available": true,
-    "price": 11560.0
+    "price": 12449.0
   },
   {
     "id": "viatec-16024",
@@ -44725,7 +46054,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/2025-01/kpvong-hf-vp-250.webp"
     ],
     "available": true,
-    "price": 10838.0
+    "price": 11591.0
   },
   {
     "id": "viatec-16026",
@@ -44744,7 +46073,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/2025-01/kpv-vp-250-4-2.webp"
     ],
     "available": true,
-    "price": 9824.0
+    "price": 10812.0
   },
   {
     "id": "viatec-11493",
@@ -44764,7 +46093,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/2023-12/OK-Net_utp5ecombo.webp"
     ],
     "available": true,
-    "price": 17113.0
+    "price": 18395.0
   },
   {
     "id": "viatec-14727",
@@ -47365,6 +48694,54 @@ window.ALTCAM_CATALOG = [
     "price": 9720.0
   },
   {
+    "id": "viatec-21157",
+    "sku": "99-10036596",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "IP відеокамера",
+    "model": "Dahua DH-T5A-IL Wi-Fi 5МП IP67",
+    "description": "● Роздільна здатність 5МП, 1/2.8\" CMOS - матриця;● Фокус 2.8мм (кут огляду 103&deg;);● Максимальна роздільна здатність відео 5 МП (2880 &times; 1620) - 25 к\\с;● Кодеки H.264B; H.264; H.264H; H.265;● ІЧ+видиме світло (до 30м);● Функції зображення: DWDR;● Аналітика та аларми: визначення об&rsquo;єкту людина/авто;● Micro SD (максимум 256ГБ);● 12 VDC;● IP67;● Колір корпусу &ndash; білий",
+    "features": [
+      "Матриця: 1/2.7\" CMOS",
+      "Фокусна відстань: 2.8 ммм",
+      "Тип підсвічування: ІЧ + Тепле світло",
+      "Дальність підсвічування: 30 м",
+      "Живлення: 12 В DC",
+      "Потужність споживання: Базове: 1.9 Вт (12 В DC);Макс.: 4.9 Вт (12 В DC) (H.265 + тепле світло увімкнено)"
+    ],
+    "image": "https://viatec.ua/upload/2/T3A-IL1.webp",
+    "images": [
+      "https://viatec.ua/upload/2/T3A-IL1.webp"
+    ],
+    "available": true,
+    "price": 2835.0
+  },
+  {
+    "id": "viatec-21158",
+    "sku": "99-10036597",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "IP відеокамера",
+    "model": "Dahua Hero H5JS 5МП Wi-Fi Pan & Tilt",
+    "description": "● Роздільна здатність 5МП 1/3.2\" CMOS;● Кут огляду 95&deg;;● Максимальна роздільна здатність відео 5 МП (2880x 1620) - 15 к\\с;● Кодеки H.265; H.264;● ІЧ+видиме світло (до 10м);● Аналітика та аларми: виявлення людини за допомогою штучного інтелекту, домашніх тварин, встановлений патруль, автоматичне стеження, звукова сигналізація про ненормальний звук;● Micro SD (максимум 256ГБ);● 5 VDC;● Колір корпусу &ndash; білий",
+    "features": [
+      "Матриця: 1/3.2\" CMOS",
+      "Фокусна відстань: 2.8 мм",
+      "Тип підсвічування: ІЧ + тепле світло",
+      "Дальність підсвічування: До 10 м (ІЧ LED), до 10 м (Тепле світло)",
+      "Живлення: 5 В постійного струму",
+      "Потужність споживання: Базова: 1.6 Вт (5 В постійного струму), Макс.: 6.3 Вт (5 В постійного струму)"
+    ],
+    "image": "https://viatec.ua/upload/2/h5js.webp",
+    "images": [
+      "https://viatec.ua/upload/2/h5js.webp"
+    ],
+    "available": true,
+    "price": 2160.0
+  },
+  {
     "id": "viatec-21159",
     "sku": "99-10036598",
     "category": "Камери відеоспостереження",
@@ -47917,6 +49294,30 @@ window.ALTCAM_CATALOG = [
     "price": 4275.0
   },
   {
+    "id": "viatec-15152",
+    "sku": "99-00021811",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "IP відеокамера Dahua",
+    "model": "DH-IPC-HDBW2849E-S-IL 8МП (2.8мм) з мікрофоном",
+    "description": "● Роздільна здатність 8МП, 1/2.7\" CMOS - матриця;● Фокус 2.8мм (кут огляду 110&deg;);● Максимальна роздільна здатність відео 8 МП (3840 &times; 2160) - 20 к\\с, и поддержка (2688 &times; 1520) - 25 к\\с;● Кодеки H.265; H.264; H.264H; H.264B; MJPEG, Smart H.265 +; Smart H.264+;● ІЧ+видиме світло (30м);● Функції зображення: поворот зображення, WDR, 3D DNR, HLC, BLC, водяний знак;● Аналітика та аларми: Вторгнення, прохід (дві функції підтримують класифікація та точне виявлення транспортних засобів та осіб), SMD Plus, Розумний пошук;● Micro SD (максимум 256ГБ);● 12 VDC/PoE;● IP67; IK10;● Колір корпусу &ndash; білий",
+    "features": [
+      "Роздільна здатність відео: 8M (3840 × 2160); 6M (3072 × 2048); 5M (3072 × 1728/2880 × 1620); 4M (2688 × 1520); 3M (2048 × 1536/2304 × 1296); 1080p ",
+      "Матриця: 1/2.7\" CMOS",
+      "Фокусна відстань: 2.8 мм",
+      "Тип підсвічування: ІЧ+видиме світло",
+      "Дальність підсвічування: 30 м",
+      "Живлення: 12 В DC"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-07/HDBW2449E-S-IL.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-07/HDBW2449E-S-IL.webp"
+    ],
+    "available": true,
+    "price": 7470.0
+  },
+  {
     "id": "viatec-15290",
     "sku": "99-00022546",
     "category": "Камери відеоспостереження",
@@ -48056,6 +49457,30 @@ window.ALTCAM_CATALOG = [
     "image": "https://viatec.ua/upload/images/prod/HDW2449T-S-IL_(1).webp",
     "images": [
       "https://viatec.ua/upload/images/prod/HDW2449T-S-IL_(1).webp"
+    ],
+    "available": true,
+    "price": 4275.0
+  },
+  {
+    "id": "viatec-15356",
+    "sku": "99-00021805",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "IP відеокамера Dahua",
+    "model": "DH-IPC-HFW2249S-S-IL 2МП (3.6мм)",
+    "description": "● Роздільна здатність 2МП, 1/2.8\" CMOS - матриця;● Фокус 3.6мм (кут огляду 88&deg;);● Максимальна роздільна здатність відео 2 МП (1920 &times; 1080) - 25 к\\с;● Кодеки H.265; H.264; H.264H; H.264B; MJPEG, Smart H.265 +; Smart H.264+;● ІЧ+видиме світло (до 30м);● Функції зображення: поворот зображення, WDR, 3D DNR, HLC, BLC, водяний знак;● Аналітика та аларми: Вторгнення в зону, перетин лінії (дві функції підтримують класифікацію та точне виявлення автомобіля та людини), відсутність SD-карти; SD-карта заповнена; помилка SD-картки; відключення мережі; конфлікт IP; незаконний доступ; виявлення руху; підробка відео; вторгнення; SMD; виявлення недостатньої напруги;● Micro SD (максимум 256ГБ);● 12 VDC/PoE;● IP67;● Колір корпусу &ndash; білий",
+    "features": [
+      "Роздільна здатність відео: 1080p (1920 × 1080); 1.3M (1280 × 960); 720p (1280 × 720); D1 (704 × 576/704 × 480); VGA (640 × 480); CIF (352 × 288/352",
+      "Матриця: 1/2.8\" CMOS",
+      "Фокусна відстань: 3.6 мм",
+      "Тип підсвічування: ІЧ + LED тепле світло",
+      "Дальність підсвічування: 30 м",
+      "Живлення: 12 В DC"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-10/IPC-HFW2249S-S-IL.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-10/IPC-HFW2249S-S-IL.webp"
     ],
     "available": true,
     "price": 4275.0
@@ -48373,6 +49798,30 @@ window.ALTCAM_CATALOG = [
     "price": 3690.0
   },
   {
+    "id": "viatec-17885",
+    "sku": "99-10025676",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "IP відеокамера Dahua",
+    "model": "DH-T5A-PV 5МП Wi-Fi (2.8мм)",
+    "description": "● Роздільна здатність 5МП, 1/2.7\" CMOS - матриця;● Фокус 2.8мм (кут огляду 108&deg;);● Максимальна роздільна здатність відео 2880 &times; 1620 25 к\\с;&nbsp;● H.264B; H.264; H.264H; H.265;● ІЧ+видиме світло (до 30м);● Аналітика та аларми: виявлення людей/транспортних засобів;● Двосторонній звук;● Звукова та світлова сигналізація;● DC12V;● IP67",
+    "features": [
+      "Матриця: 1/2.7\" CMOS",
+      "Фокусна відстань: 2.8 мм",
+      "Тип підсвічування: ІЧ+видиме світло",
+      "Дальність підсвічування: 30 м",
+      "Живлення: 12 VDC",
+      "Потужність споживання: 2.1 - 7.1 Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/T5A-PV.webp",
+    "images": [
+      "https://viatec.ua/upload/2/T5A-PV.webp"
+    ],
+    "available": true,
+    "price": 3600.0
+  },
+  {
     "id": "viatec-17965",
     "sku": "99-10026332",
     "category": "Камери відеоспостереження",
@@ -48515,6 +49964,30 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 6435.0
+  },
+  {
+    "id": "viatec-18621",
+    "sku": "99-10027636",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "IP відеокамера Dahua",
+    "model": "DH-IPC-PT1239H-PV 2МП (2.8мм)",
+    "description": "● Роздільна здатність 2МП, 1/2.8\" CMOS - матриця;● Фокус 2.8мм (кут огляду 103&deg;);● Максимальна роздільна здатність відео 2 МП (1920 &times; 1080) - 25 к\\с;● Кодеки Smart H.265+;H.265;SmartH.264+;H.264B;H.264M;H.264H;● ІЧ+видиме світло (до 30м);● Функції зображення: defog, WDR, 3D DNR, HLC, BLC;● Аналітика та аларми: виявлення людини/транспортного засобу; IVS; сигналізація аномального звуку;● 12 VDC/PoE;● IP66;● Колір корпусу &ndash; білий",
+    "features": [
+      "Матриця: 1/2.8\" CMOS",
+      "Фокусна відстань: 2.8 мм",
+      "Тип підсвічування: ІЧ+видиме світло",
+      "Дальність підсвічування: 30 м",
+      "Живлення: 12 В DC",
+      "Потужність споживання: 3 - 12 Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/PT1239H-PV.webp",
+    "images": [
+      "https://viatec.ua/upload/2/PT1239H-PV.webp"
+    ],
+    "available": true,
+    "price": 3870.0
   },
   {
     "id": "viatec-19117",
@@ -49717,6 +51190,54 @@ window.ALTCAM_CATALOG = [
     "price": 17055.0
   },
   {
+    "id": "viatec-21198",
+    "sku": "99-10036607",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "PTZ відеокамера Dahua",
+    "model": "DH-SD4E225MB-HNR-A-PV1 (4.8-120мм) 2МП",
+    "description": "● 1/2.8\" CMOS;● 4.8-120мм (25х) 58 &deg; -2 &deg;;● 2МП 50к/с;● Smart H.265+; H.264H; Smart H.264+; H.265; H.264B; H.264;● прохід; вторгнення; виявлення перетину огорожі; виявлення байдикування; покинутий/відсутній об'єкт; швидкий рух; виявлення паркування; скупчення людей; відстеження зв'язків, визначення облич, інтелектуальне відстеження, SMD 4.0, AcuPick, автоматичний патруль;● MicroSD 512 Гб;● 12 VDC, PoE+ (802.3at);● IP67;● 2.6 кг",
+    "features": [
+      "Матриця: 1/2.8\" CMOS",
+      "Фокусна відстань: 4.8-120 мм",
+      "Тип підсвічування: ІЧ+видиме світло",
+      "Дальність підсвічування: 100+50м",
+      "Пам'ять при відключенні живлення: Підтримує",
+      "Живлення: 12В DC"
+    ],
+    "image": "https://viatec.ua/upload/2/SD4E225MB-HNR-A-PV1.webp",
+    "images": [
+      "https://viatec.ua/upload/2/SD4E225MB-HNR-A-PV1.webp"
+    ],
+    "available": true,
+    "price": 26325.0
+  },
+  {
+    "id": "viatec-21199",
+    "sku": "99-10036608",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "PTZ відеокамера Dahua",
+    "model": "DH-SD4E425MB-HNR-A-PV1 (5-125мм) 4МП",
+    "description": "● 1/2.8\" CMOS;● 5-125мм (25х) 51 &deg; - 3 &deg;;● 4МП 25 к/с;● Smart H.265+; H.264H; Smart H.264+; H.265; H.264B; H.264;● прохід; вторгнення; виявлення перетину огорожі; виявлення байдикування; покинутий/відсутній об'єкт; швидкий рух; виявлення паркування; скупчення людей; відстеження зв'язків, визначення облич, інтелектуальне відстеження, SMD 4.0, AcuPick, автоматичний патруль;● MicroSD 512 Гб;● 12 VDC, PoE+ (802.3at);● IP67;● 2.6 кг",
+    "features": [
+      "Матриця: 1/2.8\" CMOS",
+      "Фокусна відстань: 5-125 мм",
+      "Тип підсвічування: ІЧ+видиме світло",
+      "Дальність підсвічування: 100+50м",
+      "Пам'ять при відключенні живлення: Підтримує",
+      "Живлення: 12В DC"
+    ],
+    "image": "https://viatec.ua/upload/2/SD4E225MB-HNR-A-PV1.webp",
+    "images": [
+      "https://viatec.ua/upload/2/SD4E225MB-HNR-A-PV1.webp"
+    ],
+    "available": true,
+    "price": 31005.0
+  },
+  {
     "id": "viatec-8670",
     "sku": "99-00012001",
     "category": "Камери відеоспостереження",
@@ -49787,6 +51308,54 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 9810.0
+  },
+  {
+    "id": "viatec-11552",
+    "sku": "99-00016114",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Ezviz",
+    "name": "IP відеокамера",
+    "model": "Ezviz H4 (3WKFL,2.8мм cs-h4) 4МП (2.8мм)",
+    "description": "● Роздільна здатність 4МП, 1/2.7\" CMOS - матриця;● Фокус 2.8мм (кут огляду 106&deg;);● Максимальна роздільна здатність відео 4 МП (2304 &times; 1296) - 25 к\\с;● Кодеки H.265/H.264;● ч/б 30, колір 15м;● Аналітика та аларми: виявлення руху, форми людини на основі штучного інтелекту / виявлення форми автомобіля;● Micro SD (максимум 512ГБ);● DC 12V/1A;● IP67",
+    "features": [
+      "Матриця: 1/2.7” Progressive Scan CMOS",
+      "Фокусна відстань: 2.8 мм",
+      "Дальність підсвічування: ч/б 30, колір 15м;",
+      "Живлення: DC 12В / 1A",
+      "Потужність споживання: 8 Вт",
+      "4МП"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-02/CS-H451.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-02/CS-H451.webp"
+    ],
+    "available": true,
+    "price": 3150.0
+  },
+  {
+    "id": "viatec-15698",
+    "sku": "99-00021575",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Ezviz",
+    "name": "IP відеокамера",
+    "model": "Ezviz CS-EB3 (2K,4GA)",
+    "description": "● Роздільна здатність 3МП, 1/2.8\" CMOS - матриця;● Кут огляду 108&deg;;● Максимальна роздільна здатність відео 3 МП (2304 x 1296) - 15 к\\с;● Кодеки H.265/H.264;● ІЧ світло/кольорове нічне бачення (до 15м);● Аналітика та аларми: виявлення руху;● Micro SD (максимум 512ГБ);● 5 VDC, 5200 мА&bull;год;● IP65",
+    "features": [
+      "Матриця: 1/2.8” Progressive Scan SMOS",
+      "Тип підсвічування: ІЧ",
+      "Дальність підсвічування: 15м",
+      "Живлення: DC 5В/2A; батарея 5200 мА•г",
+      "Потужність споживання: 10 Вт",
+      "3МП"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-12/CS-EB3-2k4g.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-12/CS-EB3-2k4g.webp"
+    ],
+    "available": true,
+    "price": 5670.0
   },
   {
     "id": "viatec-16277",
@@ -49957,6 +51526,30 @@ window.ALTCAM_CATALOG = [
     "price": 3220.0
   },
   {
+    "id": "viatec-14707",
+    "sku": "99-00020514",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Ezviz",
+    "name": "IP відеокамера Ezviz",
+    "model": "H8c Pro (3K) (cs-h8c)",
+    "description": "● Роздільна здатність 5МП, 1/2.7\" CMOS - матриця;● Фокус 4мм (кут огляду 91&deg;);● Максимальна роздільна здатність відео 5 МП (2880 х 1620) - 25 к\\с;● Кодеки H.265, H.264;● Видимий світло (до 30м);● Функції зображення: DWDR, 3D DNR, анти-мерехтіння, двопотоковий режим, Heart Beat, захист паролем, водяний знак ;● Аналітика та аларми: виявлення руху, автотрекінг;● Micro SD (максимум 512ГБ);● 12 VDC;● Всепогодний дизайн;● Колір корпусу &ndash; білий",
+    "features": [
+      "Матриця: 1/2.7\" Progressive Scan CMOS",
+      "Фокусна відстань: 4мм",
+      "Тип підсвічування: видиме світло",
+      "Дальність підсвічування: 30м",
+      "Живлення: DC 12В / 1A",
+      "Потужність споживання: 12 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-02/Ezviz-CS-H8C1.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-02/Ezviz-CS-H8C1.webp"
+    ],
+    "available": true,
+    "price": 4275.0
+  },
+  {
     "id": "viatec-15181",
     "sku": "99-00021574",
     "category": "Камери відеоспостереження",
@@ -50075,6 +51668,30 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 15188.0
+  },
+  {
+    "id": "viatec-19819",
+    "sku": "99-10033952",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Ezviz",
+    "name": "Комплект Ezviz",
+    "model": "H8c Pro (3K) (cs-h8c)",
+    "description": "● Роздільна здатність 5МП, 1/2.7\" CMOS - матриця;● Фокус 4мм (кут огляду 91&deg;);● Максимальна роздільна здатність відео 5 МП (2880 х 1620) - 25 к\\с;● Кодеки H.265, H.264;● Видимий світло (до 30м);● Функції зображення: DWDR, 3D DNR, анти-мерехтіння, двопотоковий режим, Heart Beat, захист паролем, водяний знак ;● Аналітика та аларми: виявлення руху, автотрекінг;● Micro SD (максимум 512ГБ);● 12 VDC;● Всепогодний дизайн;● Колір корпусу &ndash; білий",
+    "features": [
+      "Матриця: 1/2.7\" Progressive Scan CMOS",
+      "Фокусна відстань: 4мм",
+      "Тип підсвічування: видиме світло",
+      "Дальність підсвічування: 30м",
+      "Живлення: DC 12В / 1A",
+      "Потужність споживання: 12 Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/lstkit1.webp",
+    "images": [
+      "https://viatec.ua/upload/2/lstkit1.webp"
+    ],
+    "available": true,
+    "price": 42750.0
   },
   {
     "id": "viatec-9411",
@@ -50339,6 +51956,30 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 2295.0
+  },
+  {
+    "id": "viatec-3642",
+    "sku": "99-00002786",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "HDTVI відеокамера Hikvision",
+    "model": "DS-2CE56D0T-IRPF (C) 2МП (2.8мм)",
+    "description": "● Роздільна здатність 2МП 25к/с;● Фокус 2.8мм (кут огляду 106&deg;);● ІЧ підсвічування (до 20м);● CVI/CVBS/AHD/TVI;● 12V DC;● Колір корпусу &ndash; білий",
+    "features": [
+      "Роздільна здатність відео: 1080P",
+      "Матриця: 2МП CMOS",
+      "Фокусна відстань: 2.8 мм",
+      "Тип підсвічування: ІЧ",
+      "Дальність підсвічування: 20м",
+      "Живлення: 12В DC"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/DS-2CE56D0T-IRPF-(C).jpg",
+    "images": [
+      "https://viatec.ua/upload/images/prod/DS-2CE56D0T-IRPF-(C).jpg"
+    ],
+    "available": true,
+    "price": 1179.0
   },
   {
     "id": "viatec-4071",
@@ -51277,6 +52918,30 @@ window.ALTCAM_CATALOG = [
     "price": 2835.0
   },
   {
+    "id": "viatec-13879",
+    "sku": "99-00019938",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "IP відеокамера Hikvision",
+    "model": "DS-2CD1141G0-I 4МП (2.8мм)",
+    "description": "● Роздільна здатність 4МП, 1/2.8\" CMOS - матриця;● Фокус 2.8мм (кут огляду 104&deg;);● Максимальна роздільна здатність відео 4 МП (2560 &times; 1440) - 20 к\\с;● Кодеки H.265+/H.265/H.264+/H.264;● ІЧ світло (до 20м);● Функції зображення: DWDR, 3D DNR, BLC, HLC;● Виявлення руху, виключення;● 12 VDC/PoE;● Колір корпусу &ndash; білий",
+    "features": [
+      "Роздільна здатність відео: 2560 × 1440, 1920 × 1080, 1280 × 720, 640 × 480, 640 × 360",
+      "Матриця: 1/2.8\" Progressive Scan CMOS",
+      "Фокусна відстань: 2.8мм",
+      "Тип підсвічування: ІЧ",
+      "Дальність підсвічування: 20м",
+      "Живлення: 12В DC"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-06/2CD1121G0.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-06/2CD1121G0.webp"
+    ],
+    "available": true,
+    "price": 4185.0
+  },
+  {
     "id": "viatec-13880",
     "sku": "99-00019940",
     "category": "Камери відеоспостереження",
@@ -51323,6 +52988,30 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 4005.0
+  },
+  {
+    "id": "viatec-14094",
+    "sku": "99-00020924",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "IP відеокамера Hikvision",
+    "model": "DS-2CV2041G2-IDW W 4МП (2.8мм)",
+    "description": "Без WEB интерфейсуРоздільна здатність 4МП, 1/3\" CMOS-матриця;● Фокус 2.8мм (кут огляду 97&deg;);● Максимальна роздільна здатність відео 4 МП (2560 &times; 1440) - 20 к\\с;● Кодеки H.265+/H.265/H.264+/H.264;● ІЧ світло (до 30м);● Функції зображення: WDR, 3D DNR, BLC;● Виявлення руху, виключення;● 12 VDC;● IP66;● Колір корпусу &ndash; білий",
+    "features": [
+      "Роздільна здатність відео: 2560 × 1440, 1920 × 1080, 1280 × 720, 768 x 432, 512 × 288",
+      "Матриця: 1/3\" Progressive Scan CMOS",
+      "Фокусна відстань: 2.8 мм",
+      "Тип підсвічування: ІЧ",
+      "Дальність підсвічування: 30 м",
+      "Живлення: 12 В DC, 0.5 A"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-07/2CV2041G2-IDWW.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-07/2CV2041G2-IDWW.webp"
+    ],
+    "available": true,
+    "price": 3367.0
   },
   {
     "id": "viatec-14119",
@@ -52905,6 +54594,30 @@ window.ALTCAM_CATALOG = [
     "price": 6516.0
   },
   {
+    "id": "viatec-9931",
+    "sku": "99-00013919",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "IP відеокамера Hikvision",
+    "model": "DS-2CD1P43G2-IUF 4МП (2.8мм)",
+    "description": "● Роздільна здатність 4МП, 1/3\" CMOS - матриця;● Фокус 2.8мм (кут огляду 99&deg;);● Максимальна роздільна здатність відео 4 МП (2560&times; 1440) - 20 к\\с, та підтримка (1920&times;1080) - 25 к\\с;● Кодеки H.265+/H.265/H.264+/H.264;● ІЧ світло (до 30м);● Функції зображення: поворот зображення, насиченість, яскравість, контрастність, різкість, WDR, 3D DNR, HLC, BLC, водяний знак;● Аналітика та аларми: виявлення руху (підтримка спрацьовування сигналізації за вказаними типами цілей (людина та транспортний засіб)), відеосигналізація саботажу, виключення;● Micro SD (максимум 256ГБ);● 12 VDC/PoE;● IP66;● Колір корпусу &ndash; білий",
+    "features": [
+      "Матриця: 1/3\" Progressive Scan CMOS",
+      "Фокусна відстань: 2.8 мм",
+      "Тип підсвічування: ІЧ",
+      "Дальність підсвічування: 30 м",
+      "Живлення: 12В DC",
+      "Потужність споживання: 12 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-06/2CD1P43G2-I.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-06/2CD1P43G2-I.webp"
+    ],
+    "available": true,
+    "price": 4140.0
+  },
+  {
     "id": "viatec-14012",
     "sku": "99-00020641",
     "category": "Камери відеоспостереження",
@@ -52927,6 +54640,30 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 4644.0
+  },
+  {
+    "id": "viatec-14679",
+    "sku": "99-00021716",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "PT відеокамера Hikvision",
+    "model": "DS-2DE2C400MWG-E 4МП (2.8мм)",
+    "description": "● 1/3\" CMOS;● 2.8мм 94&deg;;● 4МП 20 к/с;● H.265, H.264, MJPEG;● виявлення руху;● MicroSD 512 Гб;● 12 VDC, PoE (802.3af);● IP66;● 600 г",
+    "features": [
+      "Матриця: 1/3″",
+      "Фокусна відстань: 2.8 мм",
+      "Тип підсвічування: ІЧ+LED",
+      "Дальність підсвічування: 30 м",
+      "Живлення: 12 В DC, 0.75 А",
+      "Потужність споживання: 9 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-08/2DE2C400MWG-E.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-08/2DE2C400MWG-E.webp"
+    ],
+    "available": true,
+    "price": 7200.0
   },
   {
     "id": "viatec-13755",
@@ -53023,6 +54760,54 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 5063.0
+  },
+  {
+    "id": "viatec-20617",
+    "sku": "99-10035776",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "PTZ відеокамера Hikvision",
+    "model": "DS-2DE5425IWG1-E 25х 4МП (4.8-120мм)",
+    "description": "● 1/2.8\" CMOS● 4.8-120мм (16х) 55&deg;&ndash;2.4&deg;● 4МП 25 к/с● H.265+/H.265/H.264+/H.264● Виявляє до 5 облич одночасно. Підтримує виявлення, захоплення, оцінку, вибір облич у русі та виведення найкращого зображення обличчя, перетину лінії, вторгнення, входу в зону, виходу із зони, безхазяйного багажу, видалення об'єкта, виявлення звукових винятків, руху, сигналізація про несанкціонований доступ до відео, виняток, введення та виведення сигналів тривоги● MicroSD 512 Гб● 36 V DC, PoE (802.3at)● IP67●&nbsp;3 кг",
+    "features": [
+      "Матриця: 1/2.8″ Progressive Scan CMOS",
+      "Фокусна відстань: 4.8 - 120 мм",
+      "Тип підсвічування: ІЧ",
+      "Дальність підсвічування: 150 м",
+      "Пам'ять при відключенні живлення: Підтримує",
+      "Живлення: 36В DC"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/4225_(1).webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/4225_(1).webp"
+    ],
+    "available": true,
+    "price": 35100.0
+  },
+  {
+    "id": "viatec-21284",
+    "sku": "99-10036861",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "PTZ відеокамера Hikvision",
+    "model": "DS-2DE7A432IWG1-E 4МП (5.5-176мм) 32х",
+    "description": "● 1/2.5\" CMOS● 5.5-176мм (32х) 60&deg;&ndash;2.2&deg;● 4МП 25 к/с● H.265+/H.265/H.264+/H.264● ручне відстеження, автоматичне відстеження, розпізнавання облич, підрахунок людей у ​​певній галузі, виявлення руху, сигналізація про несанкціонований доступ до відео, виключення, вхід та вихід сигналізації, виявлення перетину лінії, вторгнення, входу в зону, виходу із зони виявлення● MicroSD 512 Гб● 36 VDC, Hi-PoE● IP67, IK10●&nbsp;5 кг",
+    "features": [
+      "Матриця: 1/2.5\" Progressive Scan CMOS",
+      "Фокусна відстань: 5.5 - 176 мм",
+      "Тип підсвічування: ІЧ",
+      "Дальність підсвічування: 200 м",
+      "Пам'ять при відключенні живлення: Підтримує",
+      "Живлення: 36В DC"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2DE7A432IW-AEB.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2DE7A432IW-AEB.webp"
+    ],
+    "available": true,
+    "price": 51345.0
   },
   {
     "id": "viatec-21292",
@@ -54184,6 +55969,30 @@ window.ALTCAM_CATALOG = [
     "price": 4455.0
   },
   {
+    "id": "viatec-20302",
+    "sku": "99-10035191",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "IMOU",
+    "name": "IP відеокамера Imou",
+    "model": "Cruiser Dual 2C 4G (IPC-S7XCP-6M1TED-EU) 3+3МП (3.6мм)",
+    "description": "● Роздільна здатність 3МП+3МП, CMOS - матриця;● Фокус 3.6мм+3.6мм (кут огляду 80+80&deg;);● Максимальна роздільна здатність відео 3 МП (2304x1296) - 15 к\\с;● Кодеки H.265/H.264;● ІЧ+видиме світло (до 30м);● Аналітика та аларми: аудіовізуальна сигналізація, розпізнавання типів об'єктів, виявлення вторгнення,перетину лінії (людина/транспортний засіб);● Micro SD (максимум 512ГБ);● 12В 1.5А;● -30&deg;C~+50&deg;C;● Колір корпусу &ndash; білий",
+    "features": [
+      "Матриця: 3+3МП",
+      "Фокусна відстань: 3.6+3.6мм",
+      "Тип підсвічування: ІЧ+видиме світло",
+      "Дальність підсвічування: 30м",
+      "Живлення: DC 12В 1.5A",
+      "Потужність споживання: 17 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2025-02/Cruiserual2.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-02/Cruiserual2.webp"
+    ],
+    "available": true,
+    "price": 5850.0
+  },
+  {
     "id": "viatec-20306",
     "sku": "99-10035188",
     "category": "Камери відеоспостереження",
@@ -54843,28 +56652,28 @@ window.ALTCAM_CATALOG = [
     "price": 9410.0
   },
   {
-    "id": "viatec-21291",
-    "sku": "99-10036575",
+    "id": "viatec-19048",
+    "sku": "99-10028450",
     "category": "Комплекти домофонії",
     "subcategory": "",
     "brand": "Hikvision",
-    "name": "Комплект IP-відеодомофона",
-    "model": "Hikvsion DS-KIS610-P",
-    "description": "● Роздільна здатність 4 МП з кутом огляду 150&deg;;● Керування 2 замками;● Кілька способів розблокування: картка, Bluetooth, Hik-Connect, внутрішня станція;● Запис та відтворення відео через внутрішню станцію або дверну станцію;● Стандартне живлення PoE",
+    "name": "Комплект відеодомофона",
+    "model": "Hikvision DS-KIS313-P(B)",
+    "description": "● Дверна станція: роздільна здатність потоку 1280 х 720 60 к/с, Г: 117&deg;, В: 70&deg;, Д: 141&deg;; керування замком; 12 В DC; IP65, IK08;● Внутрішня станція: 1024 &times; 600, 7-дюймовий сенсорний ємнісний екран, Wi-Fi 802.11 b/g/n, вхід тривоги 2, підтримка TF-карти до 128 Гб",
     "features": [
-      "Роздільна здатність: 2688x1520P",
-      "Тип підсвічування: ІЧ до 3м",
-      "Живлення монітора: 12В DC, 1 A,IEEE802.3af, Standard PoE",
-      "4 МП",
-      "ІЧ до 3м",
-      "IP65"
+      "Роздільна здатність дисплея: 1024 × 600",
+      "Тип підсвічування: ІЧ 3м",
+      "Живлення: 12 VDC",
+      "Потужність споживання: 4 Вт",
+      "Потужність споживання монітора: 5 Вт",
+      "1 МП"
     ],
-    "image": "https://viatec.ua/upload/2/DS-KIS610-P_image_1.webp",
+    "image": "https://viatec.ua/upload/images/prod/2024-12/DS-KIS313-P_image_1.webp",
     "images": [
-      "https://viatec.ua/upload/2/DS-KIS610-P_image_1.webp"
+      "https://viatec.ua/upload/images/prod/2024-12/DS-KIS313-P_image_1.webp"
     ],
     "available": true,
-    "price": 14895.0
+    "price": 7650.0
   },
   {
     "id": "viatec-10322",
@@ -55989,6 +57798,23 @@ window.ALTCAM_CATALOG = [
     "price": 360.0
   },
   {
+    "id": "viatec-9476",
+    "sku": "99-00013329",
+    "category": "Кронштейни та монтажні коробки",
+    "subcategory": "",
+    "brand": "ERKA",
+    "name": "Щит з монтажною панеллю, опалові дверцята, IP 65",
+    "model": "ERKA 025",
+    "description": "Розмір Ш-В-Г - 500x600x230. Матеріал корпусу - ABC Пластик. Матеріал монтажної панелі - метал. Температурний діапазон - 35 &deg; C -+ 65 &deg; C. Вид установки - накладний",
+    "features": [],
+    "image": "https://viatec.ua/upload/images/prod/2023-04/ERKA_024.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-04/ERKA_024.webp"
+    ],
+    "available": true,
+    "price": 4984.0
+  },
+  {
     "id": "viatec-7142",
     "sku": "99-00009737",
     "category": "Кронштейни та монтажні коробки",
@@ -56007,6 +57833,25 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 1113.0
+  },
+  {
+    "id": "viatec-7143",
+    "sku": "99-00009738",
+    "category": "Кронштейни та монтажні коробки",
+    "subcategory": "",
+    "brand": "ERKA",
+    "name": "Щит з монтажною панеллю,опалові двері IP 65",
+    "model": "ERKA 023",
+    "description": "Розмір Ш-В-Г -300-400-180. Матеріал корпусу - ABC Пластик. Матеріал монтажної панелі -метал. Температурний діапазон -35 &deg; C -+ 65 &deg; C. Вид установки - накладний",
+    "features": [
+      "IP65"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/ERKA_023_(1).webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/ERKA_023_(1).webp"
+    ],
+    "available": true,
+    "price": 1869.0
   },
   {
     "id": "viatec-11213",
@@ -56125,6 +57970,47 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 827.0
+  },
+  {
+    "id": "viatec-21272",
+    "sku": "99-10036866",
+    "category": "Кронштейни та монтажні коробки",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Кронштейн",
+    "model": "Hikvision DS-1280ZJ-PT6-Y(BLACK)",
+    "description": "● Матеріал: метал;● Розміри: 162,5 &times; 137 &times; 42 мм;● Максимальна вантажопідйомність: 3 кг",
+    "features": [
+      "Матеріал: метал",
+      "42 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/DS-1280ZJ-PT6-YBlack_image_1.webp",
+    "images": [
+      "https://viatec.ua/upload/2/DS-1280ZJ-PT6-YBlack_image_1.webp"
+    ],
+    "available": true,
+    "price": 1091.0
+  },
+  {
+    "id": "viatec-21273",
+    "sku": "99-10036865",
+    "category": "Кронштейни та монтажні коробки",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Кронштейн",
+    "model": "Hikvision DS-1280ZJ-DM21(Black)",
+    "description": "● Матеріал: алюмінієвий сплав;● Розміри: &Oslash; 137 мм &times; 42 мм;● Вага: 280 г;● Максимальне навантаження : 4,5 кг",
+    "features": [
+      "Матеріал: алюміній",
+      "137 мм",
+      "42 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/DS-1280ZJ-DM21Blac_image_1.webp",
+    "images": [
+      "https://viatec.ua/upload/2/DS-1280ZJ-DM21Blac_image_1.webp"
+    ],
+    "available": true,
+    "price": 765.0
   },
   {
     "id": "viatec-9919",
@@ -57310,6 +59196,26 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 92.0
+  },
+  {
+    "id": "viatec-4728",
+    "sku": "99-00005388",
+    "category": "Кронштейни та монтажні коробки",
+    "subcategory": "",
+    "brand": "OBO Bettermann",
+    "name": "Коробка розгалудження",
+    "model": "Т60 114х114х57 ІР 66 OBO",
+    "description": "розмір 114х114х57 мм; внутрішній простір 100х100х48 мм; 7х М25 входів; ізоляція 500 В, опір полум'я VDE 0471 / DIN 695 Part 2-1 650 &deg; C; клас захисту IP66, IK07; -5,00 - 60,00 &deg; C",
+    "features": [
+      "Матеріал: поліпропілен",
+      "IP66"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2007061_PG1.jpg",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2007061_PG1.jpg"
+    ],
+    "available": true,
+    "price": 195.0
   },
   {
     "id": "viatec-4729",
@@ -58580,27 +60486,6 @@ window.ALTCAM_CATALOG = [
     "price": 837.0
   },
   {
-    "id": "viatec-17367",
-    "sku": "99-10025465",
-    "category": "Літієві акумулятори",
-    "subcategory": "",
-    "brand": "Deye",
-    "name": "BMS",
-    "model": "DEYE BOS-G PRO 200-1000Vdc 120A (BOS-G-PDU-2)",
-    "description": "● Робоча напруга 200 ~ 1000 В пост. струму;● Номінальний струм заряду/розряду 100 А;● Макс. струм заряду/розряду 120 А;● Номінальний вхідний постійний струм 12&plusmn;2% В/4,15 А;● Діапазон робочих температур -20 ~ 65 &deg;C;● Захист від проникнення IP20;● Розміри (Ш&times;Г&times;В) 440&times;570&times;150 мм;● Приблизна вага 19 кг",
-    "features": [
-      "Вихідна напруга: Робоча напруга 200 ~ 1000 пост. струму",
-      "IP20",
-      "150 мм"
-    ],
-    "image": "https://viatec.ua/upload/2/bms-bos-g-pro.webp",
-    "images": [
-      "https://viatec.ua/upload/2/bms-bos-g-pro.webp"
-    ],
-    "available": true,
-    "price": 40316.0
-  },
-  {
     "id": "viatec-20414",
     "sku": "99-10029998",
     "category": "Літієві акумулятори",
@@ -58620,48 +60505,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 52097.0
-  },
-  {
-    "id": "viatec-20413",
-    "sku": "99-10029996",
-    "category": "Літієві акумулятори",
-    "subcategory": "",
-    "brand": "Deye",
-    "name": "Літієва акумуляторна батарея",
-    "model": "BOS-A-Pack7.68",
-    "description": "● Вихідна напруга: 38,4 В;● Місткість: 200 А&bull;г;● Максимальний струм заряду/розряду: 160 А;● Розміри: 576&times;632&times;135.2 мм;● Вага: 66 кг",
-    "features": [
-      "Вихідна напруга: 38.4В",
-      "Ємність: 200 А•г",
-      "135.2 мм"
-    ],
-    "image": "https://viatec.ua/upload/2/BOS-A-07.webp",
-    "images": [
-      "https://viatec.ua/upload/2/BOS-A-07.webp"
-    ],
-    "available": true,
-    "price": 64674.0
-  },
-  {
-    "id": "viatec-17761",
-    "sku": "99-10025413",
-    "category": "Літієві акумулятори",
-    "subcategory": "",
-    "brand": "Deye",
-    "name": "Модульна літієва акумуляторна батарея",
-    "model": "Deye BOS-G-Pack 5.1 51.2В 100 А•г 125А",
-    "description": "● Тип акумулятора: LiFePo4 &ndash; літій-залізо-фосфат;● Вихідна напруга: 51,2 В;● Місткість: 100 А&bull;г;● Максимальний струм заряду/розряду: 120 А;● Розміри: 440 х 133 х 585 мм;● Вага: 46 кгВАЖЛИВО! У разі необхідності збільшення ємності високовольтної системи, будь ласка, дотримуйтесь інструкцій виробника або зверніться до технічної підтримки. Зверніть увагу: недотримання інструкцій щодо збільшення ємності високовольтних акумуляторів призведе до втрати гарантійного обслуговування на них.",
-    "features": [
-      "Вихідна напруга: 51.2В",
-      "Ємність: 100 А•г",
-      "585 мм"
-    ],
-    "image": "https://viatec.ua/upload/2/gpack51.webp",
-    "images": [
-      "https://viatec.ua/upload/2/gpack51.webp"
-    ],
-    "available": true,
-    "price": 41450.0
   },
   {
     "id": "viatec-15180",
@@ -59078,6 +60921,63 @@ window.ALTCAM_CATALOG = [
     "price": 747.0
   },
   {
+    "id": "viatec-20053",
+    "sku": "99-10034644",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Alistar",
+    "name": "Кабель",
+    "model": "Alistar DAC SFP+ 10G 1м",
+    "description": "● Тип роз'єму SFP+ до SFP+;● Макс. швидкість 10Gbps;● Вигляд з'єднання Active;● Напруга живлення 3.3V;● Довжина кабелю 1м;● Опір кабелю 100 &Omega;;● Тип кабелю Twinax;● Стандарт 30AWG;● Мінімальний радіус вигину 25 мм;● Матеріал оболонки PVC(OFNR)",
+    "features": [
+      "25 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/dac1.webp",
+    "images": [
+      "https://viatec.ua/upload/2/dac1.webp"
+    ],
+    "available": true,
+    "price": 546.0
+  },
+  {
+    "id": "viatec-20054",
+    "sku": "99-10034643",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Alistar",
+    "name": "Кабель",
+    "model": "Alistar DAC SFP+ 10G 0.5м",
+    "description": "● Тип роз'єму SFP+ до SFP+;● Макс. швидкість 10Gbps;● Вигляд з'єднання Active;● Напруга живлення 3.3V;● Довжина кабелю 0.5м;● Опір кабелю 100 &Omega;;● Тип кабелю Twinax;● Стандарт 30AWG;● Мінімальний радіус вигину 25 мм;● Матеріал оболонки PVC(OFNR)",
+    "features": [
+      "25 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/dac1.webp",
+    "images": [
+      "https://viatec.ua/upload/2/dac1.webp"
+    ],
+    "available": true,
+    "price": 517.0
+  },
+  {
+    "id": "viatec-14083",
+    "sku": "99-10027929",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Alistar",
+    "name": "Медіаконвертор",
+    "model": "ALISTAR X5S 100M 10/100BASE-T RJ-45 - 100BASE-FX 1SM WDM SC 20KM TX1550/RX1310nm LFP",
+    "description": "● Тип Роз'єму &nbsp; &nbsp; SC;● Макс. швидкість передачі даних &nbsp; &nbsp; 100М;● Тип перетворення &nbsp; &nbsp; SFP to JR45;● Напруга живлення &nbsp; &nbsp; DC5В;● Дальність передачі &nbsp; &nbsp; 20км;● Убудований трансивер; ● Довжина хвилі Tx &nbsp; &nbsp; 1550 nm;● Довжина хвилі Rx &nbsp; &nbsp; 1310 nm;● Протокол &nbsp; &nbsp; IEEE802.3 10base-T, IEEE802.3u 100 base-TX/FX, IEEE802.3z, IEEE802.1a&nbsp;",
+    "features": [
+      "Живлення: DC5V"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-07/ALISTARX3S100M.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-07/ALISTARX3S100M.webp"
+    ],
+    "available": true,
+    "price": 419.0
+  },
+  {
     "id": "viatec-18688",
     "sku": "99-10027927",
     "category": "Мережеве обладнання",
@@ -59137,6 +61037,86 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 689.0
+  },
+  {
+    "id": "viatec-20059",
+    "sku": "99-10034638",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Alistar",
+    "name": "Медіаконвертор mini",
+    "model": "100BASE-FX 1SM WDM SC 20KM TX1550/RX1310nm",
+    "description": "● Передача (Tx): 1550 нм;● Прийом (Rx): 1310 нм;● Роз'єм: SC;● Дистанція: до 20 км ;● Тип перетворення SFP to JR45 ;● Напруга живлення&nbsp; DC5-12В;● Споживана потужність 5Вт",
+    "features": [
+      "Потужність споживання: DC5-12В 5Вт",
+      "Довжина хвилі: 1550 nm - 1310 nm",
+      "5Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/mediakonverter-mini-10100balxlx.webp",
+    "images": [
+      "https://viatec.ua/upload/2/mediakonverter-mini-10100balxlx.webp"
+    ],
+    "available": true,
+    "price": 345.0
+  },
+  {
+    "id": "viatec-20060",
+    "sku": "99-10034637",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Alistar",
+    "name": "Медіаконвертор mini",
+    "model": "100BASE-FX 1SM WDM SC 20KM TX1310/RX1550nm",
+    "description": "● Передача (Tx): 1310 нм;● Прийом (Rx): 1550 нм;● Роз'єм: SC;● Дистанція: до 20 км ;● Тип перетворення SFP to JR45 ;● Напруга живлення&nbsp; DC5-12В;● Споживана потужність 5Вт",
+    "features": [
+      "Потужність споживання: DC5-12В 5Вт",
+      "Довжина хвилі: 1310 nm - 1550 nm",
+      "5Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/mediakonverter-mini-10100balxlx.webp",
+    "images": [
+      "https://viatec.ua/upload/2/mediakonverter-mini-10100balxlx.webp"
+    ],
+    "available": true,
+    "price": 345.0
+  },
+  {
+    "id": "viatec-13970",
+    "sku": "99-00020841",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Alistar",
+    "name": "Модуль",
+    "model": "ALISTAR SFP-1G-BX-D-S03 SFP 1G 1SM WDM SC 3KM TX1550/RX1310nm DDM",
+    "description": "● Тип Роз'єму 1xSC;● Макс. Швидкість Передачі даних &nbsp; &nbsp; 1.25G;● Довжина хвилі &nbsp; &nbsp; Tx1550nm/Rx1310nm;● Напруга живлення &nbsp; &nbsp; 3.3В;● Тип підключення Оптичний кабель;● Підтримка DDM Yes;● Дальність передавання даних &nbsp; &nbsp; 3 км;● Протоколи &nbsp; &nbsp; Fast Ethernet, Gigabit Fibre Channel, MSA",
+    "features": [
+      "Довжина хвилі: Tx1550nm/Rx1310nm"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-07/sfp-1000base-1sm.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-07/sfp-1000base-1sm.webp"
+    ],
+    "available": true,
+    "price": 254.0
+  },
+  {
+    "id": "viatec-13971",
+    "sku": "99-00020842",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Alistar",
+    "name": "Модуль",
+    "model": "ALISTAR SFP-1G-BX-U-S03 SFP 1G 1SM WDM SC 3KM TX1310/RX1550nm DDM",
+    "description": "● Тип Роз'єму 1xSC;● Макс. Швидкість Передачі даних&nbsp; 1.25G;● Довжина хвилі &nbsp;Tx1310nm/Rx1550nm;● Напруга живлення 3.3В;● Тип підключення Оптичний кабель;● Підтримка DDM Yes;● Дальність передавання даних&nbsp; 3 км;● Протоколи &nbsp; &nbsp; Fast Ethernet, Gigabit Fibre Channel, MSA",
+    "features": [
+      "Довжина хвилі: Tx1310nm/Rx1550nm"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-07/sfp-1000base-1sm-1310-1550.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-07/sfp-1000base-1sm-1310-1550.webp"
+    ],
+    "available": true,
+    "price": 254.0
   },
   {
     "id": "viatec-13974",
@@ -59858,6 +61838,30 @@ window.ALTCAM_CATALOG = [
     "price": 19845.0
   },
   {
+    "id": "viatec-21360",
+    "sku": "99-10037085",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "Комутатор 26 портів керований",
+    "model": "Dahua DH-CS4228-24GT-375 PoE",
+    "description": "Downlink порти: 24x RJ45 (10/100/1000M) с поддержкою PoE;Uplink порти: 2x RJ45+2xSFP (10/100/1000M);Протокол PoE: IEEE802.3af (PoE), IEEE802.3at (PoE+), Hi-PoE; IEEE802.3bt / бюджет 375 Вт;Живлення: 100-240 VDC, 7 AРобоча температура: -10&ordm; - + 55&ordm;C;440x229x44 мм",
+    "features": [
+      "Споживана потужність PoE: 5-24 порт 30Вт, 1-4 порти 90Вт (бюджет 375 Вт)",
+      "Швидкість пересилання пакетів: 41.66 мп/с",
+      "Мережеві стандарти: IEEE802.3; IEEE802.3u; IEEE802.3x; IEEE802.3ab; IEEE802.3z",
+      "41.66 мп",
+      "PoE",
+      "44 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/CS4228-24GT-375.webp",
+    "images": [
+      "https://viatec.ua/upload/2/CS4228-24GT-375.webp"
+    ],
+    "available": true,
+    "price": 23175.0
+  },
+  {
     "id": "viatec-11573",
     "sku": "99-00016231",
     "category": "Мережеве обладнання",
@@ -59904,6 +61908,27 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 4320.0
+  },
+  {
+    "id": "viatec-3716",
+    "sku": "99-00002558",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "Комутатор 5 портів некерований",
+    "model": "Dahua DH-PFS3005-5GT-L L2",
+    "description": "Порти: 5x RJ45 (1000M);Живлення: DC 5В;Робоча температура: -10&ordm; - + 55&ordm;C;125x65x22 мм",
+    "features": [
+      "Живлення: DC 5В / 1A",
+      "Швидкість пересилання пакетів: 7.44 Mpps",
+      "Мережеві стандарти: IEEE 802.3, IEEE 802.3u, IEEE 802.3x, IEEE 802.3ab"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/DH-PFS3005-5GT-L.jpg",
+    "images": [
+      "https://viatec.ua/upload/images/prod/DH-PFS3005-5GT-L.jpg"
+    ],
+    "available": true,
+    "price": 990.0
   },
   {
     "id": "viatec-11568",
@@ -60164,6 +62189,30 @@ window.ALTCAM_CATALOG = [
     "price": 1350.0
   },
   {
+    "id": "viatec-18240",
+    "sku": "99-10026678",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "Комутатор 9 портів керований",
+    "model": "Dahua DH-CHS4110-8ET-90-F PoE",
+    "description": "● Downlink порти: 4x RJ45 (10/100M) з підтримкою PoE;● Uplink порти: 1x RJ45 (10/100/1000M), 1x Combo1000M;● Протокол PoE: IEEE 802.3af; IEEE 802.3at; Hi-PoE; IEEE 802.3bt / бюджет 90 Вт;● Живлення: 48&ndash;57В DC, 2&ndash;1.69A;● Робоча температура: -30&ordm; - + 65&ordm;C;● 154.3 &times; 110.4 &times; 30 мм",
+    "features": [
+      "Живлення: 48–57В DC, 2–1.69A",
+      "Споживана потужність PoE: 1 порт 90 Вт, 2-8 порти 30Вт (бюджет 90 Вт)",
+      "Потужність споживання: 3-95 Вт",
+      "Швидкість пересилання пакетів: 4.17 мп/с",
+      "Мережеві стандарти: IEEE 802.3; IEEE 802.3u; IEEE 802.3x; IEEE 802.3ab; IEEE 802.3z",
+      "4.17 мп"
+    ],
+    "image": "https://viatec.ua/upload/2/CHS4110-8ET-90-F1(1).webp",
+    "images": [
+      "https://viatec.ua/upload/2/CHS4110-8ET-90-F1(1).webp"
+    ],
+    "available": true,
+    "price": 8415.0
+  },
+  {
     "id": "viatec-2082",
     "sku": "00-00000313",
     "category": "Мережеве обладнання",
@@ -60259,6 +62308,78 @@ window.ALTCAM_CATALOG = [
     "price": 360.0
   },
   {
+    "id": "viatec-21316",
+    "sku": "99-10035255",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "POE сплітер",
+    "model": "Ewind EW-PD101G-AT-12 100M 25.5W",
+    "description": "● 1* 8-контактний вхідний порт RJ45 (мама) + 1* вихідний порт RJ45 (тато) + 1* вихідний порт DC (5,5*2,1 мм) (тато);● Номінальна вихідна потужність 25,5 Вт; ● Смуга пропускання 10/100 Мбіт/с● Вхідна напруга PoE 44-57 В; ● Вихідна напруга 12 В постійного струму",
+    "features": [
+      "Споживана потужність PoE: DC12В 25.5Вт",
+      "POE",
+      "2,1 мм",
+      "5W",
+      "5 Вт",
+      "5Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/EW-PD101G-AF-12.webp",
+    "images": [
+      "https://viatec.ua/upload/2/EW-PD101G-AF-12.webp"
+    ],
+    "available": true,
+    "price": 679.0
+  },
+  {
+    "id": "viatec-21319",
+    "sku": "99-10035254",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "POE сплітер",
+    "model": "Ewind EW-PD101G-AF-12 1000M 15.4W",
+    "description": "● 1* 8-контактний вхідний порт RJ45 (мама) + 1* вихідний порт RJ45 (тато) + 1* вихідний порт DC (5,5*2,1 мм) (тато);● Номінальна вихідна потужність 15,4 Вт;● Смуга пропускання 10/100/1000 Мбіт/с● Вхідна напруга PoE 44-57 В; ● Вихідна напруга 12 В постійного струму",
+    "features": [
+      "Споживана потужність PoE: DC12В 15.4Вт",
+      "POE",
+      "2,1 мм",
+      "4W",
+      "4 Вт",
+      "4Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/EW-PD101G-AF-12.webp",
+    "images": [
+      "https://viatec.ua/upload/2/EW-PD101G-AF-12.webp"
+    ],
+    "available": true,
+    "price": 519.0
+  },
+  {
+    "id": "viatec-21320",
+    "sku": "99-10036661",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "PoE розширювач",
+    "model": "Ewind EW-PSE-PW6602G IP66 10/100/1000M",
+    "description": "● Вхід: 1 порт RJ45 з PoE 1000 Мбіт/с; Вихід: 1 порт RJ45 з PoE 1000 Мбіт/с;● Кат.5 або вище UTP (&le;100 метрів);● 15,4 Вт/30 Вт (IEEE802.3af/at);● Від -20 до 55&deg;C, IP66",
+    "features": [
+      "Споживана потужність PoE: 15.4W/30W(IEEE802.3af/at)",
+      "IP66",
+      "PoE",
+      "22 мм",
+      "4 Вт",
+      "30 Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/EW-PSE-PW6602G.webp",
+    "images": [
+      "https://viatec.ua/upload/2/EW-PSE-PW6602G.webp"
+    ],
+    "available": true,
+    "price": 699.0
+  },
+  {
     "id": "viatec-14867",
     "sku": "99-00022221",
     "category": "Мережеве обладнання",
@@ -60301,6 +62422,50 @@ window.ALTCAM_CATALOG = [
     "price": 920.0
   },
   {
+    "id": "viatec-21317",
+    "sku": "99-10035257",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Інжектор",
+    "model": "Ewind EW-PSE101F-AC-AT 30W 100M",
+    "description": "● 2 кабельні роз'єми RJ45, 1 вхідний роз'єм змінного струму;● 100BASE-TX: UTP 5Cat і більше (&le;100 метрів);● IEEE 802.3af/at 30 Вт",
+    "features": [
+      "Споживана потужність PoE: IEEE 802.3af/at 30 Вт",
+      "PoE",
+      "30W",
+      "30 Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/PSE101F-AC-AT.webp",
+    "images": [
+      "https://viatec.ua/upload/2/PSE101F-AC-AT.webp"
+    ],
+    "available": true,
+    "price": 799.0
+  },
+  {
+    "id": "viatec-21318",
+    "sku": "99-10035256",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Інжектор",
+    "model": "Ewind EW-PSE101G-AC-AT 30W 1000M",
+    "description": "● 2 кабельні роз'єми RJ45, 1 вхідний роз'єм змінного струму;● 1000BASE-TX: UTP 5Cat і більше (&le;100 метрів);● IEEE 802.3af/at 30 Вт",
+    "features": [
+      "Споживана потужність PoE: IEEE 802.3af/at 30 Вт",
+      "PoE",
+      "30W",
+      "30 Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/EW-PSE101G-AC-AT.webp",
+    "images": [
+      "https://viatec.ua/upload/2/EW-PSE101G-AC-AT.webp"
+    ],
+    "available": true,
+    "price": 939.0
+  },
+  {
     "id": "viatec-19580",
     "sku": "99-10030205",
     "category": "Мережеве обладнання",
@@ -60321,6 +62486,102 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 920.0
+  },
+  {
+    "id": "viatec-21578",
+    "sku": "99-10036674",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Комутатор 10 портів керований",
+    "model": "Ewind EW-S2910SM-DP PoE",
+    "description": "● Downlink порти: 8x RJ45 (10/100/1000M) з PoE;● Uplink порти: 2x SFP (100M/1000M/2500M);● Живлення: DC 52В/2.3A 120Вт;● IGMP, SNMP, VLAN, DHCP, STP, RSTP, ERPS, LLDP, SNTP, QOS, Port Trunk, Port Mirror.;● PoE бюджет 240 Вт;● 200 х 98 х 28 мм",
+    "features": [
+      "Живлення: DC 52В/2.3A",
+      "Споживана потужність PoE: 240 Вт",
+      "Потужність споживання: 240Вт",
+      "Швидкість пересилання пакетів: 19.34 мп/с",
+      "19.34 мп",
+      "PoE"
+    ],
+    "image": "https://viatec.ua/upload/2/EW-S2910SM-DP.webp",
+    "images": [
+      "https://viatec.ua/upload/2/EW-S2910SM-DP.webp"
+    ],
+    "available": true,
+    "price": 4739.0
+  },
+  {
+    "id": "viatec-21330",
+    "sku": "99-10036669",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Комутатор 10 портів керований хмарно",
+    "model": "Ewind EW-ES3010FGSH-AP AI PoE",
+    "description": "● Downlink порти: 8x RJ45 (10/100/1000M) з PoE;● Uplink порти: 2x SFP (100M/1000M);● Живлення: AC100~240V 120Вт;● Підтримка PoE Watchog/VLAN/до 300 метрів через DIP-перемикач, віддалене керування хмарною платформою EWIND та з мобільним додатком, виявлення пристроїв з використанням протоколу ONVIF;● порт 1-8 IEEE802.3af/at; порт 7-8 IEEE802.3af/at/BT (макс. 90 Вт/порт);● 218 х 145 х 44 мм",
+    "features": [
+      "Живлення: AC100~240В",
+      "Споживана потужність PoE: порт 1-8 IEEE802.3af/at; порт 7-8 IEEE802.3af/at/BT (макс. 90 Вт/порт)",
+      "Потужність споживання: 120Вт",
+      "Швидкість пересилання пакетів: 14.88 мп/с",
+      "14.88 мп",
+      "PoE"
+    ],
+    "image": "https://viatec.ua/upload/2/ES3010FGSH-AP.webp",
+    "images": [
+      "https://viatec.ua/upload/2/ES3010FGSH-AP.webp"
+    ],
+    "available": true,
+    "price": 4399.0
+  },
+  {
+    "id": "viatec-21331",
+    "sku": "99-10036672",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Комутатор 10 портів керований хмарно",
+    "model": "Ewind EW-EPIS3910SH-8GE AI PoE",
+    "description": "● Downlink порти: 8x RJ45 (10/100/1000M) з PoE(3-8);● Uplink порти: 1x RJ45 (1000/1000M), 1x SFP (1000M);● Живлення: AC100~240V 120/200Вт;● Підтримка PoE Watchog/VLAN/до 300 метрів через DIP-перемикач, віддалене керування хмарною платформою EWIND та з мобільним додатком, виявлення пристроїв з використанням протоколу ONVIF;● порт 1-2 12/24В 9.6-19.2 Вт; порт 3-6 IEEE802.3af/at 48В 30Вт, порт 7-8 (IEEE802.3bt 90 Вт);● 137 х 117 х 42 мм",
+    "features": [
+      "Живлення: DC 9-57В",
+      "Споживана потужність PoE: порт 1-2 12/24В 9.6-19.2 Вт; порт 3-6 IEEE802.3af/at 48В 30Вт, порт 7-8 (IEEE802.3bt 90 Вт)",
+      "Потужність споживання: 120/200 Вт",
+      "Швидкість пересилання пакетів: 14.88 мп/с",
+      "14.88 мп",
+      "PoE"
+    ],
+    "image": "https://viatec.ua/upload/2/EW-EPIS3910SH-8GE.webp",
+    "images": [
+      "https://viatec.ua/upload/2/EW-EPIS3910SH-8GE.webp"
+    ],
+    "available": true,
+    "price": 7579.0
+  },
+  {
+    "id": "viatec-13147",
+    "sku": "99-00018260",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Комутатор 10 портів некерований",
+    "model": "Ewind EW-S1910CF-AP PoE",
+    "description": "● Downlink порти: 8x RJ45 (10/100M) з підтримкою PoE;● Uplink порти: 2x RJ45 (10/100M);● Протокол PoE: IEEE802.3af/at бюджет 120 Вт;● Живлення: AC100~240V;● Робоча температура: -20&ordm; - + 55&ordm;C;● Підтримка AI Watchdog, самовідновлення портів, VLAN, збільшення відстані до 300 метрів, автоматична зміна швидкості, пріоритетний порт та скорочення витрат after-resale;● 195x130x40 мм",
+    "features": [
+      "Живлення: Вбудований адаптер живлення AC100~240 В",
+      "Споживана потужність PoE: 1-8 порт 30Вт (бюджет 120 Вт)",
+      "Потужність споживання: 4-120 Вт",
+      "Швидкість пересилання пакетів: 1.49 мп/с",
+      "Мережеві стандарти: IEEE802.3 10BASE-T; IEEE802.3i 10Base-T; IEEE802.3u 100Base-TX; IEEE802.3x.",
+      "1.49 мп"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-04/EW-S1910CF-AP4.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-04/EW-S1910CF-AP4.webp"
+    ],
+    "available": true,
+    "price": 2249.0
   },
   {
     "id": "viatec-13150",
@@ -60371,6 +62632,54 @@ window.ALTCAM_CATALOG = [
     "price": 3170.0
   },
   {
+    "id": "viatec-13153",
+    "sku": "99-00018262",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Комутатор 19 портів некерований",
+    "model": "Ewind EW-S1919CF-AP PoE",
+    "description": "● Downlink порти: 16x RJ45 (10/100M) з підтримкою PoE;● Uplink порти: 2x RJ45 (10/100/1000M), 1x SFP (100/1000M);● Протокол PoE: IEEE802.3af/at бюджет 300 Вт;● Живлення: AC100~240V вбудований адаптер;● Робоча температура: -20&ordm; - + 55&ordm;C;● Підтримка AI Watchdog, самовідновлення портів, VLAN, збільшення відстані до 300 метрів, автоматична зміна швидкості, пріоритетний порт та скорочення витрат after-resale;● 330x220x45 мм",
+    "features": [
+      "Живлення: AC100~240V встроенный адаптер",
+      "Споживана потужність PoE: 1-16 порт 30Вт (бюджет 300 Вт)",
+      "Потужність споживання: 5-300 Вт",
+      "Швидкість пересилання пакетів: 6.48 мп/с",
+      "Мережеві стандарти: IEEE802.3 10BASE-T; IEEE802.3i 10Base-T; IEEE802.3u 100Base-TX; IEEE802.3ab 1000Base-T; IEEE802.3z 1000base-X; IEEE802.3",
+      "6.48 мп"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-04/EW-S1919CF-AP4.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-04/EW-S1919CF-AP4.webp"
+    ],
+    "available": true,
+    "price": 7312.0
+  },
+  {
+    "id": "viatec-21576",
+    "sku": "99-10037435",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Комутатор 20 портів некерований",
+    "model": "Ewind EW-ES3020CG-AP",
+    "description": "● Downlink порти: 16x RJ45 (10/100M/1000M) з підтримкою PoE;● Uplink порти: 2x SFP (10/100/1000M), 2x RJ45 (10/100/1000M);● Протокол PoE: IEEE802.3af/at бюджет 300 Вт;● Живлення: AC100~240V;● Робоча температура: -20&ordm; - + 55&ordm;C;● Підтримує віддалене керування хмарною платформою EWIND та роботу мобільної програми, пропонуючи різні оповіщення в реальному часі, виявлення несправностей та перезапуск порту тощо;● 440x190x44 мм",
+    "features": [
+      "Живлення: AC100~240V",
+      "Споживана потужність PoE: порт 30Вт (бюджет 300 Вт)",
+      "Потужність споживання: 2-300 Вт",
+      "Швидкість пересилання пакетів: 29.76 мп/с",
+      "Мережеві стандарти: IEEE 802.3, IEEE 802.3u, IEEE 802.3ab, IEEE 802.3z IEEE 802.3x",
+      "29.76 мп"
+    ],
+    "image": "https://viatec.ua/upload/2/ewindd14.webp",
+    "images": [
+      "https://viatec.ua/upload/2/ewindd14.webp"
+    ],
+    "available": true,
+    "price": 10949.0
+  },
+  {
     "id": "viatec-14889",
     "sku": "99-00022234",
     "category": "Мережеве обладнання",
@@ -60393,6 +62702,78 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 5092.0
+  },
+  {
+    "id": "viatec-13157",
+    "sku": "99-00018263",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Комутатор 27 портів некерований",
+    "model": "Ewind EW-S1927CF-AP PoE",
+    "description": "● Downlink порти: 24x RJ45 (10/100) з підтримкою PoE;● Uplink порти: 2x RJ45 (10/100/1000M), 1x SFP (100/1000M);● Протокол PoE: IEEE802.3af/at бюджет 300 Вт;● Живлення: AC100~240V вбудований адаптер;● Робоча температура: -20&ordm; - + 55&ordm;C;● 330x220x45 мм&nbsp;",
+    "features": [
+      "Живлення: AC100~240V вбудований адаптер",
+      "Споживана потужність PoE: 1-24 порт 30Вт (бюджет 300 Вт)",
+      "Потужність споживання: 5-300 Вт",
+      "Швидкість пересилання пакетів: 8.05 мп/с",
+      "Мережеві стандарти: IEEE802.3 10BASE-T; IEEE802.3i 10Base-T; IEEE802.3u 100Base-TX/FX; IEEE802.3ab 1000Base-T; IEEE802.3z 1000base-X; IEEE80",
+      "8.05 мп"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-04/S1927CF-AP5.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-04/S1927CF-AP5.webp"
+    ],
+    "available": true,
+    "price": 8590.0
+  },
+  {
+    "id": "viatec-21329",
+    "sku": "99-10036667",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Комутатор 6 портів керований хмарно",
+    "model": "Ewind EW-ES3006FGSH-AP AI PoE",
+    "description": "● Downlink порти: 4x RJ45 (10/100/1000M) з PoE;● Uplink порти: 2x SFP (100M/1000M);● Живлення: AC100~240V 65Вт;● Підтримка PoE Watchog/VLAN/до 300 метрів через DIP-перемикач, віддалене керування хмарною платформою EWIND та з мобільним додатком, виявлення пристроїв з використанням протоколу ONVIF;● порт 1-4 IEEE802.3af/at; порт 4 IEEE802.3af/at/BT (макс. 60 Вт/порт);● 218 х 145 х 44 мм",
+    "features": [
+      "Живлення: AC100~240В",
+      "Споживана потужність PoE: порт 1-4 IEEE802.3af/at; порт 4 IEEE802.3af/at/BT (макс. 60 Вт/порт)",
+      "Потужність споживання: 65Вт",
+      "Швидкість пересилання пакетів: 8.928 мп/с",
+      "8.928 мп",
+      "PoE"
+    ],
+    "image": "https://viatec.ua/upload/2/ES3006FGSH-AP.webp",
+    "images": [
+      "https://viatec.ua/upload/2/ES3006FGSH-AP.webp"
+    ],
+    "available": true,
+    "price": 2879.0
+  },
+  {
+    "id": "viatec-13145",
+    "sku": "99-00018259",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Комутатор 6 портів некерований",
+    "model": "Ewind EW-S1906CF-AP POE",
+    "description": "● Downlink порти: 4x RJ45 (10/100M) з підтримкою PoE;● Uplink порти: 2x RJ45 (10/100M);● Протокол PoE: IEEE802.3af/at бюджет 65 Вт;● Живлення: AC100~240V;● Робоча температура: -20&ordm; - + 55&ordm;C;● Підтримка AI Watchdog, самовідновлення портів, VLAN, збільшення відстані до 300 метрів, автоматична зміна швидкості, пріоритетний порт та скорочення витрат after-resale;● 195x130x40 мм",
+    "features": [
+      "Живлення: Вбудований адаптер живлення AC100~240 В",
+      "Споживана потужність PoE: 1-4 порт 30Вт (бюджет 65 Вт)",
+      "Потужність споживання: 2-60 Вт",
+      "Мережеві стандарти: IEEE802.3 10BASE-T; IEEE802.3i 10Base-T; IEEE802.3u 100Base-TX; IEEE802.3x.",
+      "POE",
+      "40 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-04/EW-S1906CF-AP2.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-04/EW-S1906CF-AP2.webp"
+    ],
+    "available": true,
+    "price": 1533.0
   },
   {
     "id": "viatec-14861",
@@ -60514,6 +62895,40 @@ window.ALTCAM_CATALOG = [
     "price": 3067.0
   },
   {
+    "id": "viatec-21310",
+    "sku": "99-10036659",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Конвертер 10/100/1000M",
+    "model": "Ewind EW-810GM",
+    "description": "● Роз'єм Dual Fiber SC;● Швидкість передачі даних 1000M;● Дуплексний режим: повний дуплекс;● Відстань: 2 км;● Кабель: Cat5, Cat6;● Роз'єм RJ45;● Швидкість передачі даних 10/100/1000M;● Тип адаптера: DC5V",
+    "features": [],
+    "image": "https://viatec.ua/upload/2/ew-610sfp-fe1.webp",
+    "images": [
+      "https://viatec.ua/upload/2/ew-610sfp-fe1.webp"
+    ],
+    "available": true,
+    "price": 679.0
+  },
+  {
+    "id": "viatec-21309",
+    "sku": "99-10036660",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Конвертер Fiber - Rj45",
+    "model": "Ewind EW-610SFP-FE",
+    "description": "● Роз'єм SFP;● Швидкість передачі даних 100 Мбіт/с;● Дуплексний режим: повний дуплекс;● Відстань: 20 км;● Кабель: Cat5, Cat6;● Роз'єм RJ45;● Швидкість передачі даних 100 Мбіт/с;● Тип адаптера: DC5V",
+    "features": [],
+    "image": "https://viatec.ua/upload/2/EW-610SFP-FE.webp",
+    "images": [
+      "https://viatec.ua/upload/2/EW-610SFP-FE.webp"
+    ],
+    "available": true,
+    "price": 639.0
+  },
+  {
     "id": "viatec-14869",
     "sku": "99-00022218",
     "category": "Мережеве обладнання",
@@ -60569,6 +62984,54 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 1329.0
+  },
+  {
+    "id": "viatec-19578",
+    "sku": "99-10030207",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Подовжувач PoE 2-портовий",
+    "model": "Ewind EW-PSE-PW6603F IP66 водонепроникний 10/100M",
+    "description": "● 1 вхідний порт RJ45 PoE; 2 вихідні порти RJ45 PoE;● характеристики PoE: IEEE802.3 15,4 Вт/30 Вт (IEEE802.3af/at);● кабель UTP Cat5 або більше (&le;100 метрів)",
+    "features": [
+      "Живлення: Mid-span (4/5+, 7/8- ), end-span (1/2+, 3/6-)",
+      "Споживана потужність PoE: 15.4Вт/30Вт",
+      "IP66",
+      "PoE",
+      "29 мм",
+      "4 Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/EW-PSE-PW6603F.webp",
+    "images": [
+      "https://viatec.ua/upload/2/EW-PSE-PW6603F.webp"
+    ],
+    "available": true,
+    "price": 695.0
+  },
+  {
+    "id": "viatec-19579",
+    "sku": "99-10030206",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ewind",
+    "name": "Подовжувач PoE 2-портовий",
+    "model": "Ewind EW-PSE-PW6602F IP66 водонепроникний 10/100M",
+    "description": "● 1 вхідний порт RJ45 PoE; 1 вихідні порти RJ45 PoE;● характеристики PoE: IEEE802.3 15,4 Вт/30 Вт (IEEE802.3af/at);● кабель UTP Cat5 або більше (&le;100 метрів)",
+    "features": [
+      "Живлення: Mid-span (4/5+, 7/8- ), end-span (1/2+, 3/6-)",
+      "Споживана потужність PoE: 15.4Вт/30Вт",
+      "IP66",
+      "PoE",
+      "22 мм",
+      "4 Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/PSE-PW6602F.webp",
+    "images": [
+      "https://viatec.ua/upload/2/PSE-PW6602F.webp"
+    ],
+    "available": true,
+    "price": 562.0
   },
   {
     "id": "viatec-21540",
@@ -63424,6 +65887,29 @@ window.ALTCAM_CATALOG = [
     "price": 528.0
   },
   {
+    "id": "viatec-15928",
+    "sku": "99-00023782",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ruijie",
+    "name": "PoE інжектор",
+    "model": "Ruijie RG-POE-AF15",
+    "description": "● Вихідна напруга 52 В постійного струму при 0,3 А;● Гігабітний порт LAN 1G;● PoE стандартний пасивний PoE, 52 В, 15,6 Вт;● Вхідний струм 0,5 А;● 2-парні контакти живлення 4, 5 (+) і контакти 7, 8 (-)",
+    "features": [
+      "Живлення: 100~240В",
+      "Споживана потужність PoE: 52В DC 0.3 A; 15.6 Вт",
+      "PoE",
+      "29.5 мм",
+      "6 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2025-01/RG-POE-AF15.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-01/RG-POE-AF15.webp"
+    ],
+    "available": true,
+    "price": 759.0
+  },
+  {
     "id": "viatec-15929",
     "sku": "99-00023783",
     "category": "Мережеве обладнання",
@@ -63645,6 +66131,28 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 6849.0
+  },
+  {
+    "id": "viatec-9605",
+    "sku": "99-00012842",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ruijie",
+    "name": "Wi-Fi роутер",
+    "model": "Ruijie Reyee RG-EG105GW-X Wi-Fi 6 AX3000",
+    "description": "Професійний та високопродуктивний бездротовий маршрутизатор Wi-Fi 6 для малого бізнесу. Завдяки революційному поєднанню OFDMA і 1024QAM, новітнього стандарту 802.11ax та діапазону 160 МГц швидкість бездротової агрегації RG-EG105GW-X досягає 2,976 Гбіт/с. Легко налаштувати всю мережу з універсальним бездротовим маршрутизатором за допомогою мобільного додатка. Віддалений моніторинг та обслуговування. Аутентифікація хмарного порталу.",
+    "features": [
+      "Живлення: 100~240В AC 20 Вт",
+      "Wi-Fi",
+      "46 мм",
+      "20 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-04/EG105GW-X.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-04/EG105GW-X.webp"
+    ],
+    "available": true,
+    "price": 11199.0
   },
   {
     "id": "viatec-15933",
@@ -63944,6 +66452,29 @@ window.ALTCAM_CATALOG = [
     "price": 12099.0
   },
   {
+    "id": "viatec-16955",
+    "sku": "99-00025068",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ruijie",
+    "name": "Комутатор 10 портів керований",
+    "model": "Ruijie RG-NBS3300-8MG2XS-P PoE",
+    "description": "● Downlink порти: 8x RJ45 (10/100/1000/2500М) за допомогою PoE;● Uplink порти: 2x SFP+ (10 000M);● Протокол PoE: 8хPoE/PoE+, &nbsp;бюджет 240 Вт;● Живлення: AC 100 - 240В;● Робоча температура: 0&ordm; - + 50&ordm;C;● 300x233x44 мм",
+    "features": [
+      "Споживана потужність PoE: PoE/PoE+ (бюджет 240 Вт)",
+      "Швидкість пересилання пакетів: 58.72 мп/с",
+      "58.72 мп",
+      "PoE",
+      "240 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2025-04/NBS3300-8MG2XS-P.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-04/NBS3300-8MG2XS-P.webp"
+    ],
+    "available": true,
+    "price": 28199.0
+  },
+  {
     "id": "viatec-13367",
     "sku": "99-00018545",
     "category": "Мережеве обладнання",
@@ -64016,6 +66547,54 @@ window.ALTCAM_CATALOG = [
     "price": 7849.0
   },
   {
+    "id": "viatec-13368",
+    "sku": "99-00018540",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ruijie",
+    "name": "Комутатор 16 портів некерований",
+    "model": "Ruijie Reyee RG-ES116G-L",
+    "description": "● Downlink порти: 16x RJ45 (10/100/1000M);● Комутаційна здатність 32 Гбіт/с;● Швидкість пересилання 23.8 мп/с;● Живлення: 110-240В AC;● Робоча температура: 0&ordm; - + 45&ordm;C;● 280x125х43.6мм",
+    "features": [
+      "Живлення: 100-240В AC",
+      "Потужність споживання: 11 Вт",
+      "Швидкість пересилання пакетів: 23.8 мп/с",
+      "23.8 мп",
+      "6мм",
+      "6 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-05/ES116G-L.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-05/ES116G-L.webp"
+    ],
+    "available": true,
+    "price": 4199.0
+  },
+  {
+    "id": "viatec-13358",
+    "sku": "99-00018550",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ruijie",
+    "name": "Комутатор 20 портів керований",
+    "model": "Ruijie Reyee RG-ES220GS-P POE",
+    "description": "● Downlink порти: 16x RJ45 (10/100/1000M) з підтримкою PoE;● Uplink порти: 2x RJ45 (1000M), 2x SFP (1000M);● Протокол PoE: IEEE802.3af/at бюджет 250 Вт;● Живлення: 100 - 240В AC, 4.5А;● Робоча температура: 0&ordm; - + 40&ordm;C;● 330x223x43.6 мм",
+    "features": [
+      "Живлення: 100 - 240В AC, 4.5A",
+      "Споживана потужність PoE: бюждет 250 Вт",
+      "Потужність споживання: 269 Вт",
+      "Швидкість пересилання пакетів: 29.76 мп/с",
+      "29.76 мп",
+      "POE"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-05/ES220GS-P.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-05/ES220GS-P.webp"
+    ],
+    "available": true,
+    "price": 17579.0
+  },
+  {
     "id": "viatec-16954",
     "sku": "99-00025071",
     "category": "Мережеве обладнання",
@@ -64040,6 +66619,30 @@ window.ALTCAM_CATALOG = [
     "price": 38799.0
   },
   {
+    "id": "viatec-18869",
+    "sku": "99-10028131",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ruijie",
+    "name": "Комутатор 20 портів керований",
+    "model": "Ruijie Reyee RG-ES220GS-LP",
+    "description": "● Downlink порти: 18x RJ45 (10/100/1000M) с поддержкою PoE(16);● Uplink порти: 2x 1GE SFP;● Протокол PoE: PoE/PoE+ (IEEE 802.3af/at);● Живлення: 100-240В АС;● Робоча температура: 0&ordm; - + 40&ordm;C;● 300x223x44 мм",
+    "features": [
+      "Живлення: 100-240В АС 6А",
+      "Споживана потужність PoE: 130 Вт",
+      "Потужність споживання: 15-157 Вт",
+      "Швидкість пересилання пакетів: 29.76 мп/с",
+      "29.76 мп",
+      "PoE"
+    ],
+    "image": "https://viatec.ua/upload/2/RG-ES220GS-LP.webp",
+    "images": [
+      "https://viatec.ua/upload/2/RG-ES220GS-LP.webp"
+    ],
+    "available": true,
+    "price": 13049.0
+  },
+  {
     "id": "viatec-13799",
     "sku": "99-00018551",
     "category": "Мережеве обладнання",
@@ -64062,6 +66665,30 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 10149.0
+  },
+  {
+    "id": "viatec-21683",
+    "sku": "99-10036811",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ruijie",
+    "name": "Комутатор 24 порти керований",
+    "model": "Ruijie Reyee RG-NBS5200-24GT4XS-P-V2 L3 POE",
+    "description": "Downlink порти: 24x RJ45 (1000M) з підтримкою PoE;Uplink порти: 4x SFP+ (10 000M);Протокол PoE: IEEE802.3af (PoE), IEEE802.3at (PoE+)/ бюджет 370 Вт;Живлення: AC 100 - 240В;Робоча температура: 0&ordm; - + 50&ordm;C;440x222.6x44 мм",
+    "features": [
+      "Живлення: 100 - 240В AC, 6A",
+      "Споживана потужність PoE: бюджет 370 Вт",
+      "Потужність споживання: 30 - 430 Вт",
+      "Швидкість пересилання пакетів: 96 мп/с",
+      "96 мп",
+      "POE"
+    ],
+    "image": "https://viatec.ua/upload/2/Frame1.webp",
+    "images": [
+      "https://viatec.ua/upload/2/Frame1.webp"
+    ],
+    "available": true,
+    "price": 45549.0
   },
   {
     "id": "viatec-5843",
@@ -64227,6 +66854,54 @@ window.ALTCAM_CATALOG = [
     "price": 24849.0
   },
   {
+    "id": "viatec-18879",
+    "sku": "99-10028132",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ruijie",
+    "name": "Комутатор 28 портів керований",
+    "model": "Ruijie Reyee RG-ES228GS-LP",
+    "description": "● Downlink порти: 26x RJ45 (10/100/1000M) з підтримкою PoE(24);● Uplink порти: 2x 1GE SFP;● Протокол PoE: PoE/PoE+ (IEEE 802.3af/at);● Живлення: 100-240В АС;● Робоча температура: 0&ordm; - + 40&ordm;C;● 440x215x43 мм",
+    "features": [
+      "Живлення: 100-240В АС 6А",
+      "Споживана потужність PoE: 250 Вт",
+      "Потужність споживання: 21-294 Вт",
+      "Швидкість пересилання пакетів: 41.66 мп/с",
+      "41.66 мп",
+      "PoE"
+    ],
+    "image": "https://viatec.ua/upload/2/RG-ES228GS-LP.webp",
+    "images": [
+      "https://viatec.ua/upload/2/RG-ES228GS-LP.webp"
+    ],
+    "available": true,
+    "price": 17799.0
+  },
+  {
+    "id": "viatec-21694",
+    "sku": "99-10036810",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ruijie",
+    "name": "Комутатор 48 портів керований",
+    "model": "Ruijie Reyee RG-NBS3200-48GT4XS-P-V2 L2+ POE",
+    "description": "Downlink порти: 48x RJ45 (1000M) з підтримкою PoE;Uplink порти: 4x SFP+ (10 000M);Протокол PoE: IEEE802.3af (PoE), IEEE802.3at (PoE+)/ бюджет 370 Вт;Живлення: AC 100 - 240В;Робоча температура: 0&ordm; - + 50&ordm;C;440x358x44 мм",
+    "features": [
+      "Живлення: 100 - 240В AC, 2A",
+      "Споживана потужність PoE: бюджет 370 Вт",
+      "Потужність споживання: 46 - 450 Вт",
+      "Швидкість пересилання пакетів: 131 мп/с",
+      "131 мп",
+      "POE"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-04/RG-NBS3200-48GT4XS-P.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-04/RG-NBS3200-48GT4XS-P.webp"
+    ],
+    "available": true,
+    "price": 51999.0
+  },
+  {
     "id": "viatec-9598",
     "sku": "99-00012835",
     "category": "Мережеве обладнання",
@@ -64323,6 +66998,30 @@ window.ALTCAM_CATALOG = [
     "price": 1999.0
   },
   {
+    "id": "viatec-13362",
+    "sku": "99-00018538",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ruijie",
+    "name": "Комутатор 5 портів некерований",
+    "model": "Ruijie Reyee RG-ES05G-L 1000M",
+    "description": "● Downlink порти: 5x RJ45 (10/100/1000M);● Комутаційна здатність 10 Гбіт/с;● Швидкість пересилання 7.44 мп/с;● Живлення: 5В DC, 1А;● Робоча температура: 0&ordm; - + 40&ordm;C;● 85x52х23.5мм",
+    "features": [
+      "Живлення: 5В DC, 1А",
+      "Потужність споживання: 2.1 Вт",
+      "Швидкість пересилання пакетів: 7.44 мп/с",
+      "7.44 мп",
+      "5мм",
+      "1 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-05/ES05G-L.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-05/ES05G-L.webp"
+    ],
+    "available": true,
+    "price": 749.0
+  },
+  {
     "id": "viatec-9589",
     "sku": "99-00012829",
     "category": "Мережеве обладнання",
@@ -64369,6 +67068,30 @@ window.ALTCAM_CATALOG = [
     "price": 9749.0
   },
   {
+    "id": "viatec-18866",
+    "sku": "99-10028129",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ruijie",
+    "name": "Комутатор 6 портів керований",
+    "model": "Ruijie Reyee RG-ES206MG-P",
+    "description": "● Downlink порти: 5x RJ45 (2500M) с поддержкою PoE(4);● Uplink порти: 1x 10GE SFP+;● Протокол PoE: PoE/PoE+ (IEEE 802.3af/at);● Живлення: 100-240В АС;● Робоча температура: 0&ordm; - + 40&ordm;C;● 172x91x28 мм",
+    "features": [
+      "Живлення: 100-240В АС 1.5А",
+      "Споживана потужність PoE: 70 Вт",
+      "Потужність споживання: 75.5 Вт",
+      "Швидкість пересилання пакетів: 33.75 мп/с",
+      "33.75 мп",
+      "PoE"
+    ],
+    "image": "https://viatec.ua/upload/2/RG-ES206MG-P2.webp",
+    "images": [
+      "https://viatec.ua/upload/2/RG-ES206MG-P2.webp"
+    ],
+    "available": true,
+    "price": 6899.0
+  },
+  {
     "id": "viatec-13378",
     "sku": "99-00018542",
     "category": "Мережеве обладнання",
@@ -64391,6 +67114,30 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 2399.0
+  },
+  {
+    "id": "viatec-11898",
+    "sku": "99-00016926",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ruijie",
+    "name": "Комутатор 8 портів керований",
+    "model": "Ruijie Reyee RG-NBS5300-8MG2XS-UP",
+    "description": "● Порти: 8х 10/100/1000/2500Base-T, 2х SFP+;● PoE: 8х PoE/PoE+/PoE++ (бюджет 370 Вт);● Layer 3;● Комутаційна здатність: 80 Гбіт/с;● VLAN: 4094",
+    "features": [
+      "Живлення: 100 - 240В AC, 10A",
+      "Споживана потужність PoE: бюджет 370 Вт",
+      "Потужність споживання: 42-432 Вт",
+      "Швидкість пересилання пакетів: 58.72 мп/с",
+      "58.72 мп",
+      "PoE"
+    ],
+    "image": "https://viatec.ua/upload/images/1-241/RG-NBS5300-8MG2XS-UP.webp",
+    "images": [
+      "https://viatec.ua/upload/images/1-241/RG-NBS5300-8MG2XS-UP.webp"
+    ],
+    "available": true,
+    "price": 42249.0
   },
   {
     "id": "viatec-5842",
@@ -64437,6 +67184,30 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 1239.0
+  },
+  {
+    "id": "viatec-18868",
+    "sku": "99-10028130",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ruijie",
+    "name": "Комутатор 9 портів керований",
+    "model": "Ruijie Reyee RG-ES209MG-P",
+    "description": "● Downlink порти: 8x RJ45 (2500M) с поддержкою PoE;● Uplink порти: 1x 10GE SFP+;● Протокол PoE: PoE/PoE+ (IEEE 802.3af/at);● Живлення: 100-240В АС;● Робоча температура: 0&ordm; - + 40&ordm;C;● 202x108x28 мм",
+    "features": [
+      "Живлення: 100-240В АС 2.5А",
+      "Споживана потужність PoE: 130 Вт",
+      "Потужність споживання: 75.5 Вт",
+      "Швидкість пересилання пакетів: 45 мп/с",
+      "45 мп",
+      "PoE"
+    ],
+    "image": "https://viatec.ua/upload/2/ES209MG.webp",
+    "images": [
+      "https://viatec.ua/upload/2/ES209MG.webp"
+    ],
+    "available": true,
+    "price": 9849.0
   },
   {
     "id": "viatec-5836",
@@ -64592,26 +67363,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 12549.0
-  },
-  {
-    "id": "viatec-8394",
-    "sku": "99-00011590",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "Ruijie",
-    "name": "Маршрутизатор",
-    "model": "Ruijie Reyee RG-EG310GH-P-E 10-портовий PoE з хмарним керуванням",
-    "description": "Високопродуктивний VPN-маршрутизатор зі швидкістю 1,5 Гбіт/с для офісної мережі. Надайте потужний VPN для відділень і віддалених працівників. Забезпечте моніторинг візуалізації трафіку, все в одному місці. Новий ефективний спосіб керування смугою пропускання на основі програми та користувача. Незламна мережа WAN, інтелектуальне балансування навантаження",
-    "features": [
-      "Живлення: DC 54В/2.4A",
-      "PoE"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/EG310GH-E.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/EG310GH-E.webp"
-    ],
-    "available": true,
-    "price": 15179.0
   },
   {
     "id": "viatec-8395",
@@ -64886,6 +67637,30 @@ window.ALTCAM_CATALOG = [
     "price": 9799.0
   },
   {
+    "id": "viatec-14193",
+    "sku": "99-00020879",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ruijie",
+    "name": "Точка доступу",
+    "model": "Ruijie Reyee RG-RAP62-OD Wi-Fi 6 AX3000 дводіапазонна зовнішня",
+    "description": "● Wi-Fi 4: IEEE 802.11a/b/g/n, Wi-Fi 5: IEEE 802.11ac Wave 2, Wi-Fi 6: IEEE 802.11ax;● Порти: 1 x 10/100/1000 Base-T 802.3at PoE;● Макс. швидкість 2974 Мбіт/с;● 24|48 V passive PoE 802.3af|802.3at",
+    "features": [
+      "Живлення: 24|48 V passive PoE 802.3af|802.3at",
+      "Потужність споживання: 16 Вт",
+      "IP65",
+      "Wi-Fi",
+      "PoE",
+      "35 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-07/RG-RAP62-OD.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-07/RG-RAP62-OD.webp"
+    ],
+    "available": true,
+    "price": 10679.0
+  },
+  {
     "id": "viatec-14858",
     "sku": "99-00022209",
     "category": "Мережеве обладнання",
@@ -65145,6 +67920,29 @@ window.ALTCAM_CATALOG = [
     "price": 3219.0
   },
   {
+    "id": "viatec-5444",
+    "sku": "99-00007411",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ruijie",
+    "name": "Точка доступу",
+    "model": "Ruijie Reyee RG-RAP1200(P) настінна",
+    "description": "Внутрішня бездротова дводіапазонна гігабітна точка доступу для кріплення в стіну, Зручне налаштування через веб-Ruijie Cloud, або мобільний додаток; Протокол одночасний 802.11ac wave2, wave1, 802.11a/b/g/n; Робочі діапазони 802.11b / g / n ： 2,4 ГГц ~ 2,4835 ГГц, 802.11a / n / ac ： 5G 5,150 ～ 5,350 ГГц ， 5,725 ～ 5,850 ГГц; вбудована антена; Просторові потоки 2,4 ГБ 2x2MIMO 5G 2x2MIMO; Макс. пропускна здатність 2,4 Гбіт/с: до 400 Мбіт/с, 5G: до 867 Мбіт/с; Швидкість доступу на точку доступу: 1,267 Гбіт/с; Сервісні порти Передній: 4 порти 10/100/1000Base-T Порт LAN1 підтримує вихід IEEE.802.3af PoE, Задній: 1 порт 10/100/1000Base-T;&nbsp; живлення Підтримка PoE (802.3af/at); до 110 одночасних користувачів, Підтримка безшовного роумінгу Wi-Fi",
+    "features": [
+      "Живлення: 802.3af/at",
+      "Потужність споживання: 8 - 24 Вт",
+      "PoE",
+      "Wi-Fi",
+      "24 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/1200p.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/1200p.webp"
+    ],
+    "available": true,
+    "price": 5199.0
+  },
+  {
     "id": "viatec-5852",
     "sku": "99-00008416",
     "category": "Мережеве обладнання",
@@ -65209,6 +68007,46 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 253.0
+  },
+  {
+    "id": "viatec-7337",
+    "sku": "99-00010200",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Telstream",
+    "name": "Медіаконвектор (1310TX&1550RX, 10/100/1000, 20км SC)",
+    "model": "TelStream MC-218/320SC",
+    "description": "Медіаконвертори Telstream MC-218 /хх20SC застосовуються для перетворення інтерфейсів Ethernet 10/100/1000 Base-TX (вита пара) і Gigabit Ethernet 1000Base-FX (волоконно-оптичний кабель). Дуплексна передача ведеться по одному волокну, на довжинах хвиль 1310 і 1550нм на відстань до 20 км, що забезпечує більшу гнучкість і нижчу собівартість, тому що використовується тільки одне оптичне волокно замість двох.",
+    "features": [
+      "Мережеві стандарти: IEEE 802.3x",
+      "Довжина хвилі: 1310 і 1550нм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/elstream_MC-218.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/elstream_MC-218.webp"
+    ],
+    "available": true,
+    "price": 992.0
+  },
+  {
+    "id": "viatec-7336",
+    "sku": "99-00010201",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Telstream",
+    "name": "Медіаконвектор (1550TX&1310RX, 10/100/1000, 20км SC)",
+    "model": "TelStream MC-218/520SC",
+    "description": "Медіаконвертори Telstream MC-218 /хх20SC застосовуються для перетворення інтерфейсів Ethernet 10/100/1000 Base-TX (вита пара) і Gigabit Ethernet 1000Base-FX (волоконно-оптичний кабель). Дуплексна передача ведеться по одному волокну, на довжинах хвиль 1310 і 1550нм на відстань до 20 км, що забезпечує більшу гнучкість і нижчу собівартість, тому що використовується тільки одне оптичне волокно замість двох.",
+    "features": [
+      "Мережеві стандарти: IEEE 802.3x",
+      "Довжина хвилі: 1310 і 1550нм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/elstream_MC-218.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/elstream_MC-218.webp"
+    ],
+    "available": true,
+    "price": 992.0
   },
   {
     "id": "viatec-18016",
@@ -65853,27 +68691,6 @@ window.ALTCAM_CATALOG = [
     "price": 1160.0
   },
   {
-    "id": "viatec-14664",
-    "sku": "99-00021698",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "Tp-link",
-    "name": "Wi-Fi роутер",
-    "model": "TP-LINK TLWR 841N Wi-Fi 4",
-    "description": "● Wi-Fi 4 IEEE 802.11n/b/g 2.4 ГГц;● N300 2.4 ГГц: 300 Мбіт/с (802.11n);● 1&times;100М порт WAN, 4&times;100М порту LAN;● Живлення 9 В 0.6 А",
-    "features": [
-      "Живлення: 9ВDC/0.6A",
-      "Wi-Fi",
-      "33 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-08/WR841N.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-08/WR841N.webp"
-    ],
-    "available": true,
-    "price": 770.0
-  },
-  {
     "id": "viatec-14971",
     "sku": "99-00022245",
     "category": "Мережеве обладнання",
@@ -66005,6 +68822,25 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 950.0
+  },
+  {
+    "id": "viatec-17314",
+    "sku": "99-10025353",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Trinix",
+    "name": "Блок розеток",
+    "model": "Trinix TRX-PDU/8M-16А Black",
+    "description": "● Форм-фактор 1U 19\";● Номінальна напруга AC 220 В, 16 А;● Кількість портів 8 ;● Кабель має довжину 1.8 м;● Розміри 482 х 43 х 43 мм",
+    "features": [
+      "43 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2025-05/trx-pdu-8m-16a-bla.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-05/trx-pdu-8m-16a-bla.webp"
+    ],
+    "available": true,
+    "price": 1134.0
   },
   {
     "id": "viatec-17563",
@@ -66176,6 +69012,27 @@ window.ALTCAM_CATALOG = [
     "price": 788.0
   },
   {
+    "id": "viatec-20770",
+    "sku": "99-10035803",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ubiquiti",
+    "name": "Інжектор",
+    "model": "Ubiquiti PoE Adapter (15W) (U-PoE)",
+    "description": "● Вихідна постійна напруга 48 В, струм 0,32 А● Порти: 2 &times; 1 Гбіт/с LAN● Стандарт: POE 4, 5 (+)&nbsp; 7, 8 (-)",
+    "features": [
+      "Споживана потужність PoE: 48В DC 0.32A",
+      "PoE",
+      "15W"
+    ],
+    "image": "https://viatec.ua/upload/2/u-poe-af.webp",
+    "images": [
+      "https://viatec.ua/upload/2/u-poe-af.webp"
+    ],
+    "available": true,
+    "price": 473.0
+  },
+  {
     "id": "viatec-18264",
     "sku": "99-10026946",
     "category": "Мережеве обладнання",
@@ -66220,6 +69077,30 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 29599.0
+  },
+  {
+    "id": "viatec-18250",
+    "sku": "99-10026935",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ubiquiti",
+    "name": "Точка доступу",
+    "model": "Ubiquiti U7 Lite (U7-Lite) Wi-Fi 7",
+    "description": "● Кількість LAN-портів (RJ-45) 1;● Швидкість LAN портів 2,5 Гбіт/с;● Призначення внутрішні стандарт Wi-Fi 802.11be;● Конструкція антен внутрішні ;● Частота роботи Wi-Fi 5 ГГц + 2.4 ГГц (двохдіапазонний) ;● Підтримка PoE-in",
+    "features": [
+      "Живлення: PoE",
+      "Потужність споживання: 13 Вт",
+      "Wi-Fi",
+      "PoE",
+      "WiFi",
+      "33 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/ubiquiti-u7-lite.webp",
+    "images": [
+      "https://viatec.ua/upload/2/ubiquiti-u7-lite.webp"
+    ],
+    "available": true,
+    "price": 5895.0
   },
   {
     "id": "viatec-18251",
@@ -66447,6 +69328,27 @@ window.ALTCAM_CATALOG = [
     "price": 1489.0
   },
   {
+    "id": "viatec-17344",
+    "sku": "99-10025354",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Замок для серверних шаф та боксів",
+    "model": "Fighter L-103B",
+    "description": "● Сумісність: комутаційні шафи Trinix, NVC;● Матеріал: сталь, колір корпусу срібний;● Діаметр за різьбленням: 18.6 мм;● Довжина: 30.66 мм;● В комплекті два ключі та набір ригелів (4 шт.) довжиною від 35.5 до 44.7 мм. Ключі індивідуальні, підходять лише для замка з комплекту.",
+    "features": [
+      "18.6 мм",
+      "30.66 мм",
+      "44.7 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2025-05/L-103B3.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-05/L-103B3.webp"
+    ],
+    "available": true,
+    "price": 131.0
+  },
+  {
     "id": "viatec-18770",
     "sku": "99-00025211",
     "category": "Мережеве обладнання",
@@ -66506,6 +69408,69 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 363.0
+  },
+  {
+    "id": "viatec-17540",
+    "sku": "99-10025343",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Комутаційна шафа",
+    "model": "Trinix TRX-4U/600x450x280 Black",
+    "description": "● Повністю зварна конструкція зі сталі, міцна та надійна;● Доступ до кабелів зверху, знизу і ззаду для зручного прокладання кабелів на місці;● Вбудована бічна панель, монтаж і демонтаж без інструментів, можна використовувати без замка;● Передні дверцята можна швидко демонтувати і змінити з правого на лівий бік без інструментів, кут відчинення дверцят 180&deg;, зручно для встановлення та обслуговування обладнання;● Максимальне статичне навантаження 55 кг;● Габаритні розміри: ширина 600 мм, глибина 450 мм, висота 4U &ndash; 280 мм",
+    "features": [
+      "600 мм",
+      "450 мм",
+      "280 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/trinix-trx-4u-600x450x28.webp",
+    "images": [
+      "https://viatec.ua/upload/2/trinix-trx-4u-600x450x28.webp"
+    ],
+    "available": true,
+    "price": 3906.0
+  },
+  {
+    "id": "viatec-17541",
+    "sku": "99-10025344",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Комутаційна шафа",
+    "model": "Trinix TRX-6U/600x450x370 Black",
+    "description": "● Повністю зварна конструкція зі сталі, міцна та надійна;● Доступ до кабелів зверху, знизу і ззаду для зручного прокладання кабелів на місці;● Вбудована бічна панель, монтаж і демонтаж без інструментів, можна використовувати без замка;● Передні дверцята можна швидко демонтувати і змінити з правого на лівий бік без інструментів, кут відчинення дверцят 180&deg;, зручно для встановлення та обслуговування обладнання;● Максимальне статичне навантаження 55 кг;● Габаритні розміри: ширина 600 мм, глибина 450 мм, висота 6U &ndash; 370 мм",
+    "features": [
+      "600 мм",
+      "450 мм",
+      "370 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/trinix-trx-4u-600x450x28.webp",
+    "images": [
+      "https://viatec.ua/upload/2/trinix-trx-4u-600x450x28.webp"
+    ],
+    "available": true,
+    "price": 4475.0
+  },
+  {
+    "id": "viatec-17542",
+    "sku": "99-10025348",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Комутаційна шафа",
+    "model": "Trinix TRX-9U/600x450x503 Black",
+    "description": "● Повністю зварна конструкція зі сталі, міцна та надійна;● Доступ до кабелів зверху, знизу і ззаду для зручного прокладання кабелів на місці;● Вбудована бічна панель, монтаж і демонтаж без інструментів, можна використовувати без замка;● Передні дверцята можна швидко демонтувати і змінити з правого на лівий бік без інструментів, кут відчинення дверцят 180&deg;, зручно для встановлення та обслуговування обладнання;● Максимальне статичне навантаження 55 кг;● Габаритні розміри: ширина 600 мм, глибина 450 мм, висота 9U &ndash; 503 мм",
+    "features": [
+      "600 мм",
+      "450 мм",
+      "503 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/trinix-trx-9u-600.webp",
+    "images": [
+      "https://viatec.ua/upload/2/trinix-trx-9u-600.webp"
+    ],
+    "available": true,
+    "price": 4682.0
   },
   {
     "id": "viatec-8256",
@@ -67054,26 +70019,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 7821.0
-  },
-  {
-    "id": "viatec-18754",
-    "sku": "99-10027992",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "Інший виробник",
-    "name": "Шафа",
-    "model": "EServer 18U 600х500х907 скло, чорна",
-    "description": "● Висота, U 18;● Глибина 500 мм;● Ширина 600 мм;● Конструкція 19\";● Робоча глибина, мм 435",
-    "features": [
-      "500 мм",
-      "600 мм"
-    ],
-    "image": "https://viatec.ua/upload/2/shafa-18u-eserver-600h500h907-sh-g-v-sklo-chor.webp",
-    "images": [
-      "https://viatec.ua/upload/2/shafa-18u-eserver-600h500h907-sh-g-v-sklo-chor.webp"
-    ],
-    "available": true,
-    "price": 8782.0
   },
   {
     "id": "viatec-18952",
@@ -70286,6 +73231,30 @@ window.ALTCAM_CATALOG = [
     "price": 1690.0
   },
   {
+    "id": "viatec-2233",
+    "sku": "10000000950",
+    "category": "Системи контролю доступу",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Контролер для 2-х дверей",
+    "model": "DS-K2802",
+    "description": "● Мережевий контролер на 2 двері;● Підключення 4 картрідера Wiegand;● Входи датчиків: 2x &ndash; кнопки виходу, 2х &ndash; геркона, 2х &ndash; тривожних;● Виходи: 2-релейні виходи, 2х - тривожних;● Функції: тривога перевищення часу закриття дверей, сигналізація, тривога саботажу;● Інтерфейси: TCP/IP",
+    "features": [
+      "Живлення: DC 12V",
+      "Потужність споживання: ≤100W",
+      "285мм",
+      "237мм",
+      "69мм",
+      "100W"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/DS-K28041.png.thumb.1280.1280.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/DS-K28041.png.thumb.1280.1280.webp"
+    ],
+    "available": true,
+    "price": 6800.0
+  },
+  {
     "id": "viatec-4305",
     "sku": "99-00003561",
     "category": "Системи контролю доступу",
@@ -70536,6 +73505,30 @@ window.ALTCAM_CATALOG = [
     "price": 5760.0
   },
   {
+    "id": "viatec-16401",
+    "sku": "99-00023996",
+    "category": "Системи контролю доступу",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Термінал розпізнавання облич Hikvision",
+    "model": "DS-K1T344MX-E1",
+    "description": "● 4.5 - дюйми, сенсорний 480 &times; 854;● Подвійна камера 2МП;● Розблокування по обличчю, карті, PIN-коду та QR-коду;● Картки доступу Mifare;● 3000 користувачів\\3000осіб\\150 000 подій;● Wiegand, RS485;● Функція \"Антиспуфінг\";● IP65",
+    "features": [
+      "Живлення: 12 VDC, 1 A, PoE",
+      "Вихід живлення: підтримує живлення пристрою та дверного замку",
+      "2МП",
+      "IP65",
+      "PoE",
+      "25 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/DS-K1T344MX-E166.webp",
+    "images": [
+      "https://viatec.ua/upload/2/DS-K1T344MX-E166.webp"
+    ],
+    "available": true,
+    "price": 13172.0
+  },
+  {
     "id": "viatec-20615",
     "sku": "99-10035778",
     "category": "Системи контролю доступу",
@@ -70693,6 +73686,26 @@ window.ALTCAM_CATALOG = [
     "price": 26145.0
   },
   {
+    "id": "viatec-8682",
+    "sku": "99-00009714",
+    "category": "Системи контролю доступу",
+    "subcategory": "",
+    "brand": "Kraft",
+    "name": "Електромагнітний замок",
+    "model": "Kraft KRF-300 LED",
+    "description": "Kraft KRF-300LED &ndash; надійна конструкція виконання. Замок електромагнітного класу зі світлодіодною індикацією під монтаж усередині приміщень. Замок дає змогу без проблем забезпечити силу утримання до 300 кілограмів. Важливою перевагою моделі є відсутність рухомих деталей, що у значною мірою збільшує термін служби замка. Монтаж провадиться накладним чином. Допустиме використання при монтажі куточка K-300L. Живлення дорівнює 12 Вольт. Споживання струму: 500 мА.",
+    "features": [
+      "Живлення: 12В DC 500 mA",
+      "30 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2022-12/Kraft_KRF-300_LED.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2022-12/Kraft_KRF-300_LED.webp"
+    ],
+    "available": true,
+    "price": 1037.0
+  },
+  {
     "id": "viatec-13644",
     "sku": "99-00016290",
     "category": "Системи контролю доступу",
@@ -70768,6 +73781,26 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 2598.0
+  },
+  {
+    "id": "viatec-13467",
+    "sku": "99-00019203",
+    "category": "Системи контролю доступу",
+    "subcategory": "",
+    "brand": "Ryobi",
+    "name": "Дотягувач",
+    "model": "RYOBI 2000 DS-2055V GREY_ANTHRACITE BC STD_HO_ARM EN_3/4/5",
+    "description": "● Дотягувач дверей RYOBI&reg; серії 2000 модель DS-2055 STD_HO (Японія) накладного типу &ndash; призначений для керування зовнішніми та внутрішніми дверима;● Повністю контролює весь цикл зачинення дверей з роздільно регульованими швидкістями початкового та кінцевого зачинення (прихлопу);● Має регульовану функцію BackCheck (вітрове гальмо), яка затримує відчинення дверей після кута 70-80&deg;, що дозволяє уникнути пошкодження дверей, фурнітури, стін;● У комплекті тяга із фіксацією відчіненого положення дверей. При відкритті дверей до встановленого кута дотягувач працює як завжди, автоматично зачиняючи двері. При відкритті ширше, двері фіксуються у відкритому положенні;● Корпус виготовлений за технологією лиття алюмінію під високим тиском;● Декоративна пластикова кришка у комплекті;● Внутрішній механізм - шестерно-рейкового типу (Rack&amp;Pinion), встановлений на якісних шарикопідшипниках;● Колір обробки - фарба сірий антрацит;● Клас 3/4/5, згідно EN1154, при встановленні із стандартною тягою, в залежності від місця монтажу;● Регулювання початкової та кінцевої швидкостей зачинення;● Ресурс експлуатації 1 000 000 циклів.",
+    "features": [
+      "1250 мм",
+      "49 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-06/5/03.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-06/5/03.webp"
+    ],
+    "available": true,
+    "price": 4014.0
   },
   {
     "id": "viatec-13468",
@@ -70908,6 +73941,66 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 1339.0
+  },
+  {
+    "id": "viatec-9257",
+    "sku": "99-00012852",
+    "category": "Системи контролю доступу",
+    "subcategory": "",
+    "brand": "Ryobi",
+    "name": "Дотягувач",
+    "model": "RYOBI *9900 9903 BLACK",
+    "description": "Дотягувач дверей RYOBI&reg; 9903 STD (Японія) накладного типу &ndash; призначений для керування внутрішніми та легкими зовнішніми дверима. Повністю контролює весь цикл зачинення дверей з роздільно регульованими швидкістями початкового та кінцевого зачинення (прихлопу). Корпус виготовлений за технологією лиття алюмінію під високим тиском. Внутрішній механізм - шестерно-рейкового типу (Rack&amp;Pinion). У разі монтажу доводчика по 3 класу, двері максимально відчиняються на 120&deg;. Максимальна вага дверей 65кг. Максимальна ширина дверей 965мм.",
+    "features": [
+      "965мм",
+      "965 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-03/ryobi-9900-9903-black.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-03/ryobi-9900-9903-black.webp"
+    ],
+    "available": true,
+    "price": 1339.0
+  },
+  {
+    "id": "viatec-9258",
+    "sku": "99-00012853",
+    "category": "Системи контролю доступу",
+    "subcategory": "",
+    "brand": "Ryobi",
+    "name": "Дотягувач",
+    "model": "RYOBI *9900 9903 GREY_ANTHRACITE",
+    "description": "Дотягувач дверей RYOBI&reg; 9903 STD (Японія) накладного типу &ndash; призначений для керування внутрішніми та легкими зовнішніми дверима. Повністю контролює весь цикл зачинення дверей з роздільно регульованими швидкістями початкового та кінцевого зачинення (прихлопу). Корпус виготовлений за технологією лиття алюмінію під високим тиском. Внутрішній механізм - шестерно-рейкового типу (Rack&amp;Pinion). У разі монтажу доводчика по 3 класу, двері максимально відчиняються на 120&deg;. Максимальна вага дверей 65кг. Максимальна ширина дверей 965мм.",
+    "features": [
+      "965мм",
+      "965 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-03/GREY_ANTHRACITE.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-03/GREY_ANTHRACITE.webp"
+    ],
+    "available": true,
+    "price": 1339.0
+  },
+  {
+    "id": "viatec-9259",
+    "sku": "99-00012854",
+    "category": "Системи контролю доступу",
+    "subcategory": "",
+    "brand": "Ryobi",
+    "name": "Дотягувач",
+    "model": "RYOBI 1200 D-1200 SILVER",
+    "description": "Дотягувач дверей RYOBI&reg; серії 1200 модель D-1200 STD (Японія) накладного типу зі стандартною тягою &ndash; призначений для керування зовнішніми та внутрішніми дверима. Плаский дизайн європейского типу. Повністю контролює весь цикл зачинення дверей з роздільно регульованими швидкістями початкового та кінцевого зачинення (прихлопу). Корпус виготовлений за технологією лиття алюмінію під високим тиском. Клас 2/3/4, згідно EN1154, в залежності від місця монтажу. Можливість застосовувати у протипожежних дверях з межею вогнестійкості 60хв. Максимальна вага дверей до 80кг, Максимальна ширина дверей 1100мм.",
+    "features": [
+      "1100мм",
+      "1100 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-03/D-1200%C2%A0SILVER.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-03/D-1200%C2%A0SILVER.webp"
+    ],
+    "available": true,
+    "price": 2023.0
   },
   {
     "id": "viatec-9261",
@@ -71110,6 +74203,26 @@ window.ALTCAM_CATALOG = [
     "price": 3051.0
   },
   {
+    "id": "viatec-9280",
+    "sku": "99-00012876",
+    "category": "Системи контролю доступу",
+    "subcategory": "",
+    "brand": "Ryobi",
+    "name": "Дотягувач",
+    "model": "RYOBI 2000 D-2055V GREY_ANTHRACITE",
+    "description": "Дотягувач дверей RYOBI&reg; серії 2000 модель D-2055 STD (Японія) накладного типу &ndash; призначений для керування зовнішніми та внутрішніми дверима. Повністю контролює весь цикл зачинення дверей з роздільно регульованими швидкістями початкового та кінцевого зачинення (прихлопу). Має регульовану функцію BackCheck (вітрове гальмо), яка затримує відчинення дверей після кута 70-80&deg;, що дозволяє уникнути пошкодження дверей, фурнітури, стін. Клас 3/4/5, згідно EN1154, при встановленні із стандартною тягою, в залежності від місця монтажу. Можливість застосовувати у протипожежних дверях з межею вогнестійкості 60хв. Максимальна вага дверей до 100кг, Максимальна ширина дверей 1250мм.",
+    "features": [
+      "1250мм",
+      "1250 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-03/2055V_GREY_ANTHRACITE.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-03/2055V_GREY_ANTHRACITE.webp"
+    ],
+    "available": true,
+    "price": 3051.0
+  },
+  {
     "id": "viatec-9281",
     "sku": "99-00012877",
     "category": "Системи контролю доступу",
@@ -71190,6 +74303,26 @@ window.ALTCAM_CATALOG = [
     "price": 3487.0
   },
   {
+    "id": "viatec-9298",
+    "sku": "99-00012888",
+    "category": "Системи контролю доступу",
+    "subcategory": "",
+    "brand": "Ryobi",
+    "name": "Дотягувач",
+    "model": "RYOBI D-2055V GREY_ANTHRACITE BC UNIV_ARM",
+    "description": "Дотягувач дверей RYOBI&reg; серії 2000 модель D-2055 UNIV (Японія) накладного типу &ndash; призначений для керування зовнішніми та внутрішніми дверима. Повністю контролює весь цикл зачинення дверей з роздільно регульованими швидкістями початкового та кінцевого зачинення (прихлопу). Можліве встановлення зі сторони зачинення дверей на дверну стулку з використанням кронштейну паралельної тяги (4 клас). Має регульовану функцію BackCheck (вітрове гальмо), яка затримує відчинення дверей після кута 70-80&deg;, що дозволяє уникнути пошкодження дверей, фурнітури, стін. Клас 3/4/5, згідно EN1154, при встановленні із стандартною тягою, в залежності від місця монтажу. При встановленні з паралелною тягою відповідає 4 класу. Можливість застосовувати у протипожежних дверях з межею вогнестійкості 60хв. Максимальна вага дверей до 100кг, Максимальна ширина дверей 1250мм.",
+    "features": [
+      "1250мм",
+      "1250 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-03/D-2055V_GREY_ANTHRACITE_BC_UNIV_ARM.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-03/D-2055V_GREY_ANTHRACITE_BC_UNIV_ARM.webp"
+    ],
+    "available": true,
+    "price": 3231.0
+  },
+  {
     "id": "viatec-9299",
     "sku": "99-00012889",
     "category": "Системи контролю доступу",
@@ -71208,6 +74341,26 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 3231.0
+  },
+  {
+    "id": "viatec-9615",
+    "sku": "99-00013423",
+    "category": "Системи контролю доступу",
+    "subcategory": "",
+    "brand": "Ryobi",
+    "name": "Дотягувач",
+    "model": "RYOBI D-1554 DARK BRONZE STD_ARM EN_2/3/4 до_80кг 1100мм",
+    "description": "Дотягувач дверей RYOBI&reg; серії 1500 модель D-1554 STD (Японія) накладного типу &ndash; призначений для керування зовнішніми та внутрішніми дверима. Повністю контролює весь цикл зачинення дверей з роздільно регульованими швидкістями початкового та кінцевого зачинення (прихлопу). Можливість застосовувати у протипожежних дверях з межею вогнестійкості 60хв. Максимальна вага дверей до 80кг, Максимальна ширина дверей 1100мм.",
+    "features": [
+      "1100мм",
+      "1100 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-04/RYOBI_D-1554_DARK_BRONZE.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-04/RYOBI_D-1554_DARK_BRONZE.webp"
+    ],
+    "available": true,
+    "price": 2598.0
   },
   {
     "id": "viatec-10249",
@@ -71781,6 +74934,62 @@ window.ALTCAM_CATALOG = [
     "price": 39.0
   },
   {
+    "id": "viatec-4898",
+    "sku": "99-00005488",
+    "category": "Системи контролю доступу",
+    "subcategory": "",
+    "brand": "Trinix",
+    "name": "Магнітний замок",
+    "model": "TML-200",
+    "description": "Сила утримання на відрив 200кг; Спосіб установки Накладний; Живлення 12В; Споживання струму 300мА; Габаритні розміри 170х38х20 мм",
+    "features": [
+      "Живлення: 12В"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/TML-200_Trinix.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/TML-200_Trinix.webp"
+    ],
+    "available": true,
+    "price": 914.0
+  },
+  {
+    "id": "viatec-4899",
+    "sku": "99-00005487",
+    "category": "Системи контролю доступу",
+    "subcategory": "",
+    "brand": "Trinix",
+    "name": "Магнітний замок",
+    "model": "TML-300LED",
+    "description": "Сила утримання на відрив 300кг; Спосіб установки Накладний; Індикація Є; Таймер затримки Є; Живлення: 12В; Споживання струму: 500мА; Габаритні розміри: 240 х 55 х 30мм; Особливість: Таймер затримки 0-30 сек",
+    "features": [
+      "Живлення: 12В",
+      "30мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/TML-300_LED.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/TML-300_LED.webp"
+    ],
+    "available": true,
+    "price": 1163.0
+  },
+  {
+    "id": "viatec-4900",
+    "sku": "99-00005489",
+    "category": "Системи контролю доступу",
+    "subcategory": "",
+    "brand": "Trinix",
+    "name": "Монтажний куток",
+    "model": "K-200L",
+    "description": "Монтажний куток представляє собою L-подібний кронштейн, використовується для закріплення відповідної планки електромагнітного замка. Встановлюється на металеві, дерев'яні або металопластикові двері; Куточок підходить для електромагнітних замків з силою в 200 кг.",
+    "features": [],
+    "image": "https://viatec.ua/upload/2/kutok-200l.webp",
+    "images": [
+      "https://viatec.ua/upload/2/kutok-200l.webp"
+    ],
+    "available": true,
+    "price": 276.0
+  },
+  {
     "id": "viatec-16284",
     "sku": "99-00024491",
     "category": "Системи контролю доступу",
@@ -72131,6 +75340,25 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 13320.0
+  },
+  {
+    "id": "viatec-21925",
+    "sku": "99-10038462",
+    "category": "Системи контролю доступу",
+    "subcategory": "",
+    "brand": "U-Prox",
+    "name": "Контролер для двох дверей",
+    "model": "U-Prox IP400 IP OSDP",
+    "description": "● Прилад доступу з підтримкою ПЗ &nbsp;U-PROX IP/WEB або U-PROX ACS Cloud, робота в &nbsp;IP мережах: Ethernet 100Mbit(RJ45), Wi-Fi IEEE802.11 b/g/n, 2.4 ГГц. &nbsp;2 порта &nbsp;Wiegand, порт RS485(OSDP). 4 реле (NO, NC, COM), 8 програмованих шлейфів із контролем по струму: кнопка \"вихід\", дверний контакт, пожежа, напад та інші охоронні шлейфи; тампер, контроль заряду акумулятора, контроль мережі живлення. ● Точки проходу: одна двостороння, або дві односторонні. Пам'ять 31768 постійних ідентифікаторів + 1000 тимчасових, 47290 подій. 250 тижневих розкладів, 250 тайм-зон, 250 вихідних, \"плаваючі\" розклади, годинник реального часу. &nbsp;● Первинні налаштування з мобільного додатку U-Prox Mobile Config через інтерфейс Bluetooth або порт USB Type C.&nbsp;&nbsp;",
+    "features": [
+      "Wi-Fi"
+    ],
+    "image": "https://viatec.ua/upload/2/u-prox-ip400-4311.webp",
+    "images": [
+      "https://viatec.ua/upload/2/u-prox-ip400-4311.webp"
+    ],
+    "available": true,
+    "price": 10125.0
   },
   {
     "id": "viatec-11402",
