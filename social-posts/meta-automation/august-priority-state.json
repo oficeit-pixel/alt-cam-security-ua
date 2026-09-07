@@ -6096,6 +6096,112 @@
           "post_id": "962902993572061_122135561385226993"
         }
       }
+    },
+    "approved-2026-08-21-sep30-2026-09-07-telegram": {
+      "telegram": {
+        "published_at": "2026-09-07T12:47:02.571969+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 98,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1788785222,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADYmqeskbh5MIRQP-FMsp6tZrFkOlmAAJTIWsb7QL5SHbUak6IiC-fAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADUyFrG-0C-Uh4",
+                  "file_size": 1504,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADYmqeskbh5MIRQP-FMsp6tZrFkOlmAAJTIWsb7QL5SHbUak6IiC-fAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADUyFrG-0C-Uhy",
+                  "file_size": 17049,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADYmqeskbh5MIRQP-FMsp6tZrFkOlmAAJTIWsb7QL5SHbUak6IiC-fAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADUyFrG-0C-Uh9",
+                  "file_size": 64655,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADYmqeskbh5MIRQP-FMsp6tZrFkOlmAAJTIWsb7QL5SHbUak6IiC-fAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADUyFrG-0C-Uh-",
+                  "file_size": 126167,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADYmqeskbh5MIRQP-FMsp6tZrFkOlmAAJTIWsb7QL5SHbUak6IiC-fAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADUyFrG-0C-Uh8",
+                  "file_size": 149018,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Hikvision 4 Мп для приміщення\n\nТочна модель, перевірені характеристики й сценарій використання.\n\nПідберемо сумісне рішення під конкретний об’єкт. Напишіть нам: https://t.me/altcam_security_ua\n\n#відеоспостереження #камеривідеоспостереження #монтажкамер #безпекакиїв #вишгород #київськаобласть #altcam",
+              "caption_entities": [
+                {
+                  "offset": 160,
+                  "length": 31,
+                  "type": "url"
+                },
+                {
+                  "offset": 193,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 213,
+                  "length": 25,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 239,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 252,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 265,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 275,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 292,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
