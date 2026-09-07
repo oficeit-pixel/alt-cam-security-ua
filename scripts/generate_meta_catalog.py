@@ -5,18 +5,15 @@ import json
 from pathlib import Path
 from urllib.parse import quote
 
-from catalog_rules import load_public_products
-
-
 ROOT = Path(__file__).resolve().parents[1]
-NORMALIZED = ROOT / "catalog-sync" / "output" / "normalized"
+STOREFRONT = ROOT / "catalog-sync" / "output" / "storefront-approval.json"
 OUTPUT = ROOT / "feeds" / "meta-catalog.csv"
 SITE = "https://alt-cam.net.ua/catalog.html"
 
 
 def main() -> None:
     rows = []
-    for product in load_public_products(NORMALIZED):
+    for product in json.loads(STOREFRONT.read_text(encoding="utf-8")):
         rows.append(
             {
                 "id": product["id"],
