@@ -6245,6 +6245,112 @@
           }
         }
       }
+    },
+    "approved-2026-08-21-sep30-2026-09-08-telegram": {
+      "telegram": {
+        "published_at": "2026-09-08T11:43:01.203516+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 99,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1788867781,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADY2qf9MQumcNEoh33FaKyRFfa_58oAAKvHmsbMAYBSVqBstkNjH4yAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADrx5rGzAGAUl4",
+                  "file_size": 1902,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADY2qf9MQumcNEoh33FaKyRFfa_58oAAKvHmsbMAYBSVqBstkNjH4yAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADrx5rGzAGAUly",
+                  "file_size": 28478,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADY2qf9MQumcNEoh33FaKyRFfa_58oAAKvHmsbMAYBSVqBstkNjH4yAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADrx5rGzAGAUl9",
+                  "file_size": 107783,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADY2qf9MQumcNEoh33FaKyRFfa_58oAAKvHmsbMAYBSVqBstkNjH4yAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADrx5rGzAGAUl-",
+                  "file_size": 208456,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADY2qf9MQumcNEoh33FaKyRFfa_58oAAKvHmsbMAYBSVqBstkNjH4yAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADrx5rGzAGAUl8",
+                  "file_size": 238074,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Кабель поруч із силовою лінією\n\nЗвідки беруться збої, перешкоди та нестабільне PoE.\n\nПідберемо сумісне рішення під конкретний об’єкт. Напишіть нам: https://t.me/altcam_security_ua\n\n#кабель #poe #монтажкамер #безпекакиїв #вишгород #київськаобласть #altcam",
+              "caption_entities": [
+                {
+                  "offset": 148,
+                  "length": 31,
+                  "type": "url"
+                },
+                {
+                  "offset": 181,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 189,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 194,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 207,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 220,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 230,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 247,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
