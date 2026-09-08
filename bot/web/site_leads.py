@@ -1,5 +1,6 @@
 import asyncio
 import csv
+import re
 from functools import lru_cache
 from html import escape
 from datetime import datetime, timedelta, timezone
@@ -32,6 +33,9 @@ SERVICE_CATALOG = {
     "service-power": ("Резервне живлення систем безпеки", 950.0),
     "service-support": ("Діагностика та технічний супровід", 760.0),
 }
+
+PHONE_PATTERN = re.compile(r"^\+?[0-9()\s-]{7,24}$")
+EMAIL_PATTERN = re.compile(r"^[^\s@]+@[^\s@]+\.[^\s@]+$")
 
 
 @lru_cache(maxsize=1)
@@ -336,15 +340,25 @@ async def create_order(request: web.Request) -> web.Response:
     items = payload.get("items") if isinstance(payload.get("items"), list) else []
     name = _clean(raw_customer.get("name"), "")[:120]
     phone = _clean(raw_customer.get("phone"), "")[:40]
-    if not name or not phone or not items or len(items) > 100:
+    email = _clean(raw_customer.get("email"), "")[:180]
+    if (
+        len(name) < 2
+        or not PHONE_PATTERN.fullmatch(phone)
+        or len(re.sub(r"\D", "", phone)) < 7
+        or (email and not EMAIL_PATTERN.fullmatch(email))
+        or not items
+        or len(items) > 100
+    ):
         return web.json_response({"ok": False, "error": "invalid_order"}, status=422, headers=_cors_headers())
 
     raw_delivery = payload.get("delivery") if isinstance(payload.get("delivery"), dict) else {}
     telegram_username = _clean(raw_customer.get("telegram"), "").lstrip("@")[:64]
-    customer = {"name": name, "phone": phone, "email": _clean(raw_customer.get("email"), "")[:180]}
+    customer = {"name": name, "phone": phone, "email": email}
     delivery = {key: _clean(raw_delivery.get(key), "")[:500] for key in ("type", "label", "city", "city_ref", "place", "place_ref", "comment")}
     delivery_type = str(delivery.get("type", ""))
     if delivery_type not in {"branch", "locker", "courier", "pickup"}:
+        return web.json_response({"ok": False, "error": "invalid_delivery"}, status=422, headers=_cors_headers())
+    if delivery_type != "pickup" and (not delivery["city"] or not delivery["place"]):
         return web.json_response({"ok": False, "error": "invalid_delivery"}, status=422, headers=_cors_headers())
     order_number = f"WEB-{datetime.now(timezone.utc):%Y%m%d}-{token_hex(3).upper()}"
     normalized_items = []
