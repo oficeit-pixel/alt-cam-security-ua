@@ -1,6 +1,9 @@
 import asyncio
+import csv
+from functools import lru_cache
 from html import escape
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from secrets import token_hex
 from time import monotonic
 from typing import Any
@@ -15,6 +18,37 @@ from bot.integrations.order_fulfillment import auto_create_order_drive_folder
 from bot.web.shop_admin import register_shop_admin_routes
 
 from bot.config import get_settings
+
+
+SERVICE_CATALOG = {
+    "service-survey": ("Обстеження та проєктування", 0.0),
+    "service-video": ("Монтаж системи відеоспостереження", 1045.0),
+    "service-intercom-analog": ("Аналоговий відеодомофон", 1365.0),
+    "service-intercom-ip": ("IP-домофон зі смартфоном", 2375.0),
+    "service-access": ("Контроль доступу на двері або ворота", 2375.0),
+    "service-ajax": ("Монтаж Ajax під ключ", 1425.0),
+    "service-cabling": ("Прокладання кабелю та комутація", 44.0),
+    "service-network": ("Мережа, Wi‑Fi міст і серверна шафа", 475.0),
+    "service-power": ("Резервне живлення систем безпеки", 950.0),
+    "service-support": ("Діагностика та технічний супровід", 760.0),
+}
+
+
+@lru_cache(maxsize=1)
+def _feed_catalog() -> dict[str, tuple[str, float]]:
+    feed_path = Path(__file__).resolve().parents[2] / "feeds" / "meta-catalog.csv"
+    result: dict[str, tuple[str, float]] = {}
+    with feed_path.open("r", encoding="utf-8-sig", newline="") as handle:
+        for row in csv.DictReader(handle):
+            product_id = str(row.get("id") or "").strip()
+            price_text = str(row.get("price") or "0").split()[0].replace(",", ".")
+            try:
+                price = float(price_text)
+            except ValueError:
+                continue
+            if product_id and price >= 0:
+                result[product_id] = (_clean(row.get("title"), product_id)[:240], price)
+    return result
 
 
 def _cors_headers(request: web.Request | None = None) -> dict[str, str]:
@@ -314,17 +348,47 @@ async def create_order(request: web.Request) -> web.Response:
         return web.json_response({"ok": False, "error": "invalid_delivery"}, status=422, headers=_cors_headers())
     order_number = f"WEB-{datetime.now(timezone.utc):%Y%m%d}-{token_hex(3).upper()}"
     normalized_items = []
+    product_ids = [
+        _clean(item.get("id"), "")[:96]
+        for item in items
+        if isinstance(item, dict) and _clean(item.get("type"), "product") != "service"
+    ]
+    async with SessionLocal() as session:
+        overrides = {
+            row.product_id: float(row.price_uah)
+            for row in (await session.scalars(
+                select(PriceOverride).where(
+                    PriceOverride.enabled.is_(True),
+                    PriceOverride.product_id.in_(product_ids),
+                )
+            )).all()
+        } if product_ids else {}
+    feed_catalog = _feed_catalog()
     for item in items:
         if not isinstance(item, dict):
             continue
         try:
-            item_price = max(0, min(float(item.get("price") or 0), 10_000_000))
             item_quantity = max(1, min(int(item.get("quantity") or 1), 100))
         except (TypeError, ValueError, OverflowError):
             continue
+        item_id = _clean(item.get("id"), "")[:96]
+        item_type = _clean(item.get("type"), "product")[:24]
+        if item_type == "service":
+            authoritative = SERVICE_CATALOG.get(item_id)
+        else:
+            authoritative = feed_catalog.get(item_id)
+            if authoritative and item_id in overrides:
+                authoritative = (authoritative[0], overrides[item_id])
+        if not authoritative:
+            return web.json_response(
+                {"ok": False, "error": "unknown_catalog_item"},
+                status=422,
+                headers=_cors_headers(request),
+            )
+        item_name, item_price = authoritative
         normalized_items.append({
-            "id": _clean(item.get("id"), "")[:96], "type": _clean(item.get("type"), "product")[:24],
-            "name": _clean(item.get("name"), "")[:240], "price": item_price, "quantity": item_quantity,
+            "id": item_id, "type": item_type,
+            "name": item_name, "price": item_price, "quantity": item_quantity,
         })
     if not normalized_items:
         return web.json_response({"ok": False, "error": "invalid_order"}, status=422, headers=_cors_headers())
@@ -374,16 +438,28 @@ async def health(_: web.Request) -> web.Response:
 
 @web.middleware
 async def cors_middleware(request: web.Request, handler):
-    response = await handler(request)
+    try:
+        response = await handler(request)
+    except web.HTTPException as error:
+        response = error
     if request.path.startswith("/api/") or request.path == "/site-lead":
         for key, value in _cors_headers(request).items():
             response.headers[key] = value
+    response.headers["X-Content-Type-Options"] = "nosniff"
+    response.headers["X-Frame-Options"] = "DENY"
+    response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
+    response.headers["Permissions-Policy"] = "camera=(), microphone=(), geolocation=()"
+    response.headers["Cross-Origin-Opener-Policy"] = "same-origin"
+    if request.secure or request.headers.get("X-Forwarded-Proto") == "https":
+        response.headers["Strict-Transport-Security"] = "max-age=31536000; includeSubDomains"
+    if request.path.startswith("/api/admin/"):
+        response.headers["Cache-Control"] = "no-store"
     return response
 
 
 async def start_site_lead_server(bot: Bot | None) -> web.AppRunner:
     settings = get_settings()
-    app = web.Application(middlewares=[cors_middleware])
+    app = web.Application(middlewares=[cors_middleware], client_max_size=256 * 1024)
     app["bot"] = bot
     app["rate_limits"] = {}
     import logging

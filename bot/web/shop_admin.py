@@ -10,7 +10,7 @@ from asyncio import to_thread
 from datetime import datetime, timedelta, timezone
 from decimal import Decimal
 from email.message import EmailMessage
-from secrets import compare_digest, randbelow, token_urlsafe
+from secrets import compare_digest, token_urlsafe
 from typing import Any
 
 from aiohttp import ClientSession, web
@@ -105,7 +105,16 @@ def _valid_password(password: str) -> bool:
 
 def _verify_captcha(token: str, answer: str) -> bool:
     data = _decode_signed_payload(token)
-    return bool(data and data.get("kind") == "captcha" and compare_digest(str(data.get("answer")), str(answer).strip()))
+    if not data or data.get("kind") != "captcha":
+        return False
+    nonce = str(data.get("nonce", ""))
+    left, right = _captcha_operands(nonce)
+    return bool(nonce and compare_digest(str(left + right), str(answer).strip()))
+
+
+def _captcha_operands(nonce: str) -> tuple[int, int]:
+    digest = hmac.new(_secret(), f"captcha:{nonce}".encode(), hashlib.sha256).digest()
+    return digest[0] % 8 + 2, digest[1] % 8 + 2
 
 
 def _token_hash(raw_token: str) -> str:
@@ -236,8 +245,9 @@ def serialize_order(order: WebOrder) -> dict[str, Any]:
 
 
 async def admin_captcha(_: web.Request) -> web.Response:
-    left, right = randbelow(8) + 2, randbelow(8) + 2
-    token = _signed_payload({"kind": "captcha", "answer": str(left + right), "exp": int(time.time()) + 600, "nonce": token_urlsafe(8)})
+    nonce = token_urlsafe(16)
+    left, right = _captcha_operands(nonce)
+    token = _signed_payload({"kind": "captcha", "exp": int(time.time()) + 600, "nonce": nonce})
     return web.json_response({"ok": True, "question": f"{left} + {right} = ?", "token": token})
 
 
@@ -294,11 +304,11 @@ async def admin_verify_email(request: web.Request) -> web.Response:
             return web.json_response({"ok": False, "error": "admin_limit"}, status=409)
         now = datetime.now(timezone.utc)
         user.email_verified_at = now
-        user.active = True
+        user.active = False
         token_row.used_at = now
         session.add(AdminAuditLog(admin_id=user.id, admin_email=user.email, action="email_verified", entity_type="admin", entity_id=str(user.id), details={}, ip_address=request.remote))
         await session.commit()
-    return web.json_response({"ok": True})
+    return web.json_response({"ok": True, "approval_required": True})
 
 
 async def admin_request_reset(request: web.Request) -> web.Response:
