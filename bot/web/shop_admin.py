@@ -786,16 +786,16 @@ async def list_audit(request: web.Request) -> web.Response:
 
 async def nova_poshta(request: web.Request) -> web.Response:
     settings = get_settings()
-    if not settings.nova_poshta_api_key:
-        return web.json_response({"ok": False, "error": "not_configured"}, status=503)
+    if _rate_limit_auth(request, "nova-poshta", 120, 60):
+        return web.json_response({"ok": False, "error": "rate_limited"}, status=429)
     kind, query, city_ref = request.match_info["kind"], request.query.get("q", "").strip()[:120], request.query.get("city_ref", "")[:64]
-    if kind == "cities":
+    if kind == "cities" and len(query) >= 2:
         model, method, props = "Address", "searchSettlements", {"CityName": query, "Limit": "30", "Page": "1"}
     elif kind == "warehouses" and city_ref:
         model, method, props = "Address", "getWarehouses", {"SettlementRef": city_ref, "FindByString": query, "Limit": "100"}
     else:
         return web.json_response({"ok": False, "error": "invalid_request"}, status=422)
-    body = {"apiKey": settings.nova_poshta_api_key, "modelName": model, "calledMethod": method, "methodProperties": props}
+    body = {"apiKey": settings.nova_poshta_api_key or "", "modelName": model, "calledMethod": method, "methodProperties": props}
     async with ClientSession() as client:
         async with client.post("https://api.novaposhta.ua/v2.0/json/", json=body, timeout=12) as response:
             data = await response.json()
