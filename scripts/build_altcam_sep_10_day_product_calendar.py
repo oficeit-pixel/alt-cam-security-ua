@@ -15,6 +15,7 @@ except Exception:  # pragma: no cover - fallback is handled at runtime
 
 
 ROOT = Path(__file__).resolve().parents[1]
+LOCAL_ASSET_ROOT = Path(r"C:\Users\Net_w\Documents\New project")
 PLAN_ID = "2026-09-10-10-day-product-presentation"
 OUT = ROOT / "social-posts" / "content-plans" / PLAN_ID
 CALENDAR_HTML = ROOT / "social-posts" / "calendar" / "sep-10-day-product-posts.html"
@@ -31,6 +32,14 @@ REFERENCE_IMAGES = [
     Path(r"C:\Users\Net_w\Downloads\Сгенерированное изображение 4.png"),
     Path(r"C:\Users\Net_w\Downloads\Сгенерированное изображение 2 (3).png"),
     Path(r"D:\Тут та зараз\ChatGPT Image 4 июл. 2026 г., 08_53_36.png"),
+]
+
+PERSON_IMAGES = [
+    Path(r"C:\Users\Net_w\Downloads\Сгенерированное изображение 4.png"),
+    Path(r"C:\Users\Net_w\Downloads\Сгенерированное изображение 2 (3).png"),
+    Path(r"C:\Users\Net_w\Downloads\Сгенерированное изображение 1 (1).png"),
+    Path(r"C:\Users\Net_w\Documents\New project\social-posts\brand-assets\grok-video-source\11-installer-uniform-reference.png"),
+    Path(r"C:\Users\Net_w\Documents\New project\social-posts\brand-assets\grok-video-source\12-installer-installation-scene-reference.png"),
 ]
 
 
@@ -433,13 +442,27 @@ def draw_wrapped(draw, xy, text, max_width, font_obj, fill, line_spacing=8, max_
 
 def pick_asset(item: dict, idx: int) -> Path | None:
     pool = ASSET_POOLS.get(item["topic"], [])
-    available = [ROOT / entry for entry in pool if (ROOT / entry).exists()]
+    available = []
+    for entry in pool:
+        repo_candidate = ROOT / entry
+        local_candidate = LOCAL_ASSET_ROOT / entry
+        if repo_candidate.exists():
+            available.append(repo_candidate)
+        elif local_candidate.exists():
+            available.append(local_candidate)
     if not available:
         return None
     return available[idx % len(available)]
 
 
-def paste_cover(base, source, box, radius: int = 28, dim: float = 0.28) -> None:
+def pick_person(idx: int) -> Path | None:
+    available = [entry for entry in PERSON_IMAGES if entry.exists()]
+    if not available:
+        return None
+    return available[idx % len(available)]
+
+
+def paste_cover(base, source, box, radius: int = 28, dim: float = 0.28, focus_y: float = 0.5) -> None:
     if Image is None:
         return
     x1, y1, x2, y2 = box
@@ -448,7 +471,7 @@ def paste_cover(base, source, box, radius: int = 28, dim: float = 0.28) -> None:
     ratio = max(bw / src.width, bh / src.height)
     src = src.resize((int(src.width * ratio), int(src.height * ratio)))
     left = (src.width - bw) // 2
-    top = (src.height - bh) // 2
+    top = int(max(0, src.height - bh) * max(0, min(1, focus_y)))
     src = src.crop((left, top, left + bw, top + bh))
     overlay = Image.new("RGBA", (bw, bh), (0, 0, 0, int(255 * dim)))
     src.alpha_composite(overlay)
@@ -506,24 +529,32 @@ def card_image(item: dict, path: Path, idx: int, format_9x16: bool = False) -> N
     y += 22
     y = draw_wrapped(draw, (margin, y), f"{item['brand']} {item['product']}", w - 2 * margin, font(38, True), gold, line_spacing=8, max_lines=2)
 
-    # Product/person visual panel.
+    # Product/person visual panel. Person is intentionally large enough for face + torso/body visibility.
     hero_top = 555 if not format_9x16 else 660
     draw.rounded_rectangle((margin, hero_top, w - margin, hero_top + 310), radius=32, fill=panel, outline=line, width=2)
     asset = pick_asset(item, idx)
-    visual_box = (w - 470, hero_top + 26, w - margin - 24, hero_top + 286)
-    if asset:
+    person = pick_person(idx)
+    visual_box = (w - 520, hero_top + 18, w - margin - 18, hero_top + 292)
+    if person:
+        paste_cover(img, person, visual_box, radius=30, dim=0.03, focus_y=0.08)
+        draw.rounded_rectangle(visual_box, radius=30, outline=gold, width=3)
+        if asset and "marketing-scenes" not in asset.as_posix() and "grok-video-source" not in asset.as_posix():
+            product_box = (visual_box[0] + 238, visual_box[1] + 148, visual_box[2] - 12, visual_box[3] - 12)
+            draw.rounded_rectangle(product_box, radius=22, fill="#f6f6f6", outline=gold, width=2)
+            paste_contain(img, asset, product_box, pad=16)
+    elif asset:
         if "marketing-scenes" in asset.as_posix() or "grok-video-source" in asset.as_posix():
-            paste_cover(img, asset, visual_box, radius=28, dim=0.15)
+            paste_cover(img, asset, visual_box, radius=30, dim=0.08)
         else:
-            draw.rounded_rectangle(visual_box, radius=28, fill="#f6f6f6", outline=gold, width=2)
+            draw.rounded_rectangle(visual_box, radius=30, fill="#f6f6f6", outline=gold, width=2)
             paste_contain(img, asset, visual_box, pad=24)
     else:
-        draw.rounded_rectangle(visual_box, radius=28, fill="#242424", outline=gold, width=3)
+        draw.rounded_rectangle(visual_box, radius=30, fill="#242424", outline=gold, width=3)
         draw.text((visual_box[0] + 42, visual_box[1] + 98), item["keyword"], font=font(36, True), fill=gold)
-    draw.text((margin + 32, hero_top + 28), "ГОТОВИЙ ПОСТ", font=font(28, True), fill=gold)
-    draw_wrapped(draw, (margin + 32, hero_top + 78), item["visual"], visual_box[0] - margin - 70, font(31, False), white, line_spacing=8, max_lines=5)
-    draw.rounded_rectangle((visual_box[0] + 20, visual_box[3] - 58, visual_box[2] - 20, visual_box[3] - 14), radius=18, fill=(0, 0, 0))
-    draw.text((visual_box[0] + 42, visual_box[3] - 50), item["keyword"], font=font(26, True), fill=gold)
+    draw.text((margin + 32, hero_top + 28), "ПЕРСОНАЖ + ТОВАР", font=font(28, True), fill=gold)
+    draw_wrapped(draw, (margin + 32, hero_top + 78), item["visual"], visual_box[0] - margin - 62, font(29, False), white, line_spacing=7, max_lines=5)
+    draw.rounded_rectangle((visual_box[0] + 26, visual_box[3] - 45, visual_box[2] - 26, visual_box[3] - 12), radius=15, fill=(0, 0, 0))
+    draw.text((visual_box[0] + 48, visual_box[3] - 40), item["keyword"], font=font(21, True), fill=gold)
 
     specs_top = hero_top + 360
     spec_h = 118
