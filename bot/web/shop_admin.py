@@ -792,7 +792,7 @@ async def nova_poshta(request: web.Request) -> web.Response:
     if kind == "cities" and len(query) >= 2:
         model, method, props = "Address", "searchSettlements", {"CityName": query, "Limit": "30", "Page": "1"}
     elif kind == "warehouses" and city_ref:
-        model, method, props = "Address", "getWarehouses", {"SettlementRef": city_ref, "FindByString": query, "Limit": "100"}
+        model, method, props = "Address", "getWarehouses", {"CityRef": city_ref, "FindByString": query, "Limit": "100"}
     else:
         return web.json_response({"ok": False, "error": "invalid_request"}, status=422)
     body = {"apiKey": settings.nova_poshta_api_key or "", "modelName": model, "calledMethod": method, "methodProperties": props}
