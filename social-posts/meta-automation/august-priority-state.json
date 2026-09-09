@@ -6403,6 +6403,112 @@
           }
         }
       }
+    },
+    "approved-2026-08-21-sep30-2026-09-09-telegram": {
+      "telegram": {
+        "published_at": "2026-09-09T11:59:05.720665+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 100,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1788955145,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADZGqhSgkfC8DAxrWjfSVDXX5hdZLtAAJ5HmsbMAYJSfKge2qRqUo0AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADeR5rGzAGCUl4",
+                  "file_size": 1736,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADZGqhSgkfC8DAxrWjfSVDXX5hdZLtAAJ5HmsbMAYJSfKge2qRqUo0AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADeR5rGzAGCUly",
+                  "file_size": 21774,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADZGqhSgkfC8DAxrWjfSVDXX5hdZLtAAJ5HmsbMAYJSfKge2qRqUo0AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADeR5rGzAGCUl9",
+                  "file_size": 79142,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADZGqhSgkfC8DAxrWjfSVDXX5hdZLtAAJ5HmsbMAYJSfKge2qRqUo0AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADeR5rGzAGCUl-",
+                  "file_size": 153257,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADZGqhSgkfC8DAxrWjfSVDXX5hdZLtAAJ5HmsbMAYJSfKge2qRqUo0AQADAgADdwADPQQ",
+                  "file_unique_id": "AQADeR5rGzAGCUl8",
+                  "file_size": 176754,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "UTP мідь чи CCA\n\nЧому матеріал провідника критичний для довгої PoE-траси.\n\nПідберемо сумісне рішення під конкретний об’єкт. Напишіть нам: https://t.me/altcam_security_ua\n\n#кабель #poe #монтажкамер #безпекакиїв #вишгород #київськаобласть #altcam",
+              "caption_entities": [
+                {
+                  "offset": 138,
+                  "length": 31,
+                  "type": "url"
+                },
+                {
+                  "offset": 171,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 179,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 184,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 197,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 210,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 220,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 237,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
