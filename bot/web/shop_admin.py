@@ -799,7 +799,28 @@ async def nova_poshta(request: web.Request) -> web.Response:
     async with ClientSession() as client:
         async with client.post("https://api.novaposhta.ua/v2.0/json/", json=body, timeout=12) as response:
             data = await response.json()
-    return web.json_response(data)
+    if not data.get("success"):
+        return web.json_response({"success": False, "data": [], "errors": data.get("errors", [])}, status=502)
+    if kind == "cities":
+        addresses = [
+            {
+                "Present": row.get("Present", ""),
+                "Ref": row.get("Ref", ""),
+                "DeliveryCity": row.get("DeliveryCity", ""),
+            }
+            for group in data.get("data", [])
+            for row in group.get("Addresses", [])
+        ][:30]
+        return web.json_response({"success": True, "data": [{"Addresses": addresses}]})
+    warehouses = [
+        {
+            "Ref": row.get("Ref", ""),
+            "Description": row.get("Description", ""),
+            "Number": row.get("Number", ""),
+        }
+        for row in data.get("data", [])
+    ][:100]
+    return web.json_response({"success": True, "data": warehouses})
 
 
 def register_shop_admin_routes(app: web.Application) -> None:
