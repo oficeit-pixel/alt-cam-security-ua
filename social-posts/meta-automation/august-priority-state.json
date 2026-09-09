@@ -6518,6 +6518,36 @@
           "post_id": "962902993572061_122135783931226993"
         }
       }
+    },
+    "approved-2026-08-21-sep30-2026-09-09-instagram": {
+      "instagram": {
+        "published_at": "2026-09-09T16:33:58.272090+00:00",
+        "result": {
+          "container": {
+            "id": "18086583086418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18086583086418944"
+          },
+          "published": {
+            "id": "18135704251619099"
+          }
+        }
+      }
+    },
+    "approved-2026-08-21-sep30-2026-09-09-threads-summary": {
+      "threads": {
+        "published_at": "2026-09-09T16:34:07.845021+00:00",
+        "result": {
+          "container": {
+            "id": "18086450969424516"
+          },
+          "published": {
+            "id": "18107939057272917"
+          }
+        }
+      }
     }
   }
 }
