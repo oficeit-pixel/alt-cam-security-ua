@@ -51,7 +51,7 @@ jobs:
       SOCIAL_STATE_FILE: social-posts/meta-automation/august-priority-state.json
       MAX_POSTS_PER_RUN: "3"
       MIN_SUCCESS_INTERVAL_MINUTES: "120"
-      ALT_CAM_TELEGRAM_GROUP_URL: https://t.me/altcam_security_ua
+      ALT_CAM_TELEGRAM_GROUP_URL: ""
       DRY_RUN: "false"
       FAIL_ON_PUBLISH_ERROR: "true"
       PUBLISHING_PAUSED: "false"
