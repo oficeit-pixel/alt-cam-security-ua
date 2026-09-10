@@ -6784,6 +6784,17 @@
           "id": "122135887653226993",
           "post_id": "962902993572061_122135887689226993"
         }
+      },
+      "threads": {
+        "published_at": "2026-09-10T20:06:42.594851+00:00",
+        "result": {
+          "container": {
+            "id": "18086680193424516"
+          },
+          "published": {
+            "id": "17908091202502538"
+          }
+        }
       }
     },
     "approved-2026-08-21-sep30-2026-09-10-facebook": {
@@ -6817,6 +6828,100 @@
           "id": "122135902479226993",
           "post_id": "962902993572061_122135902503226993"
         }
+      },
+      "telegram": {
+        "published_at": "2026-09-10T20:06:46.085456+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 103,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1789070806,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADZ2qjDdV3sJaSvK7sUDCmYMBGyJaNAAIuI2sbhc8ZSTZzBhaUBBJ3AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADLiNrG4XPGUl4",
+                  "file_size": 1835,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADZ2qjDdV3sJaSvK7sUDCmYMBGyJaNAAIuI2sbhc8ZSTZzBhaUBBJ3AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADLiNrG4XPGUly",
+                  "file_size": 22159,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADZ2qjDdV3sJaSvK7sUDCmYMBGyJaNAAIuI2sbhc8ZSTZzBhaUBBJ3AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADLiNrG4XPGUl9",
+                  "file_size": 82321,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADZ2qjDdV3sJaSvK7sUDCmYMBGyJaNAAIuI2sbhc8ZSTZzBhaUBBJ3AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADLiNrG4XPGUl-",
+                  "file_size": 156390,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADZ2qjDdV3sJaSvK7sUDCmYMBGyJaNAAIuI2sbhc8ZSTZzBhaUBBJ3AQADAgADdwADPQQ",
+                  "file_unique_id": "AQADLiNrG4XPGUl8",
+                  "file_size": 156511,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "Стрибки напруги тихо вбивають техніку — поки не стає пізно.\n\nПроблема: Реєстратор, роутер або блок живлення можуть перезавантажуватись без видимої причини.\n\nРішення ALT-CAM: Стабілізатор вирівнює напругу і дає обладнанню працювати стабільно.\n\nKEBO IVR-550VA 2xShuko\n• 550 Вт\n• вхід 90–310 В AC\n• вихід 220/230 В ±2%\n• 2 розетки Shuko\n\nЦіну та комплектацію підбираємо під об’єкт, монтаж і сценарій роботи.\n\nНапишіть «НАПРУГА» — підберемо рішення.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 59,
+                  "type": "bold"
+                },
+                {
+                  "offset": 61,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 157,
+                  "length": 16,
+                  "type": "bold"
+                },
+                {
+                  "offset": 243,
+                  "length": 22,
+                  "type": "bold"
+                },
+                {
+                  "offset": 335,
+                  "length": 69,
+                  "type": "code"
+                },
+                {
+                  "offset": 446,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
       }
     },
     "approved-2026-08-21-sep30-2026-09-10-instagram": {
@@ -6845,6 +6950,23 @@
           },
           "published": {
             "id": "18338468437284638"
+          }
+        }
+      }
+    },
+    "meta-sep10d-01-03": {
+      "instagram": {
+        "published_at": "2026-09-10T20:06:58.394255+00:00",
+        "result": {
+          "container": {
+            "id": "18086822528418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18086822528418944"
+          },
+          "published": {
+            "id": "18120432778702243"
           }
         }
       }
