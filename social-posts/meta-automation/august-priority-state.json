@@ -6683,6 +6683,100 @@
             "id": "18558469657079840"
           }
         }
+      },
+      "telegram": {
+        "published_at": "2026-09-10T13:53:47.220165+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 102,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1789048427,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADZmqitmrVQYhypm2gB_PAdOMBGYvQAAKxIGsbhc8ZSZfI6M7x-SrcAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADsSBrG4XPGUl4",
+                  "file_size": 2212,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADZmqitmrVQYhypm2gB_PAdOMBGYvQAAKxIGsbhc8ZSZfI6M7x-SrcAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADsSBrG4XPGUly",
+                  "file_size": 33611,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADZmqitmrVQYhypm2gB_PAdOMBGYvQAAKxIGsbhc8ZSZfI6M7x-SrcAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADsSBrG4XPGUl9",
+                  "file_size": 129478,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADZmqitmrVQYhypm2gB_PAdOMBGYvQAAKxIGsbhc8ZSZfI6M7x-SrcAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADsSBrG4XPGUl-",
+                  "file_size": 256703,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADZmqitmrVQYhypm2gB_PAdOMBGYvQAAKxIGsbhc8ZSZfI6M7x-SrcAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADsSBrG4XPGUl8",
+                  "file_size": 283904,
+                  "width": 1122,
+                  "height": 1402
+                }
+              ],
+              "caption": "Коли світло зникає — система безпеки має працювати далі.\n\nПроблема: Камери, домофон і роутер часто вимикаються саме тоді, коли потрібен запис.\n\nРішення ALT-CAM: Інвертор із чистою синусоїдою тримає критичне обладнання без ризику для електроніки.\n\nVictron Energy MultiPlus-II 48/5000/70-50\n• 48 В\n• до 4000 Вт при 25°C\n• зарядний пристрій 70 А\n• чиста синусоїда 230 В\n\nЦіну та комплектацію підбираємо під об’єкт, монтаж і сценарій роботи.\n\nНапишіть «РЕЗЕРВ» — підберемо рішення.\nhttps://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 0,
+                  "length": 56,
+                  "type": "bold"
+                },
+                {
+                  "offset": 58,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 144,
+                  "length": 16,
+                  "type": "bold"
+                },
+                {
+                  "offset": 247,
+                  "length": 41,
+                  "type": "bold"
+                },
+                {
+                  "offset": 368,
+                  "length": 69,
+                  "type": "code"
+                },
+                {
+                  "offset": 478,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
       }
     },
     "approved-2026-08-21-sep30-2026-09-10-facebook": {
@@ -6691,6 +6785,23 @@
         "result": {
           "id": "122135869941226993",
           "post_id": "962902993572061_122135869965226993"
+        }
+      }
+    },
+    "meta-sep10d-01-02": {
+      "instagram": {
+        "published_at": "2026-09-10T13:53:57.785032+00:00",
+        "result": {
+          "container": {
+            "id": "18086758835418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18086758835418944"
+          },
+          "published": {
+            "id": "17945822178307971"
+          }
         }
       }
     }
