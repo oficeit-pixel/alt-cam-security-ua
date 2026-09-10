@@ -1,8 +1,6 @@
 name: ALT-CAM Discussion Publisher
 
 on:
-  schedule:
-    - cron: "11,26,41,56 * * * *"
   workflow_dispatch:
     inputs:
       force_post_id:
@@ -41,6 +39,7 @@ jobs:
       MIN_SUCCESS_INTERVAL_MINUTES: "120"
       DRY_RUN: "false"
       FAIL_ON_PUBLISH_ERROR: "false"
+      PUBLISHING_PAUSED: "true"
       DISABLED_PLATFORMS: ""
       WORKFLOW_FORCE_POST_ID: ${{ inputs.force_post_id || '' }}
       WORKFLOW_FORCE_PLATFORM: ${{ inputs.force_platform || '' }}
@@ -60,6 +59,7 @@ jobs:
         run: python -m pip install -r social-posts/meta-automation/requirements.txt
 
       - name: Publish due discussion item
+        if: env.PUBLISHING_PAUSED != 'true'
         shell: bash
         run: |
           args=()

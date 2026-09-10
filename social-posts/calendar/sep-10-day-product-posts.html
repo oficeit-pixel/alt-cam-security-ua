@@ -11,6 +11,8 @@
     header{display:grid;grid-template-columns:1fr auto;gap:22px;align-items:end;margin-bottom:22px} h1{font-size:clamp(32px,5vw,58px);line-height:.96;margin:0 0 10px;letter-spacing:-.045em} p{color:var(--muted);line-height:1.55;margin:0}
     .badge,.chip,a.chip{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:8px 12px;color:var(--text);text-decoration:none;display:inline-flex;gap:6px;align-items:center;font-size:13px}
     .toolbar,.ref-grid{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}.ref-grid img{width:140px;height:180px;object-fit:cover;border-radius:18px;border:1px solid var(--line)}
+    .alert{display:none;margin:18px 0;padding:16px 18px;border:1px solid rgba(255,204,0,.45);border-radius:18px;background:rgba(255,204,0,.12);color:var(--text)}
+    .alert strong{color:var(--gold)}
     .grid{display:grid;gap:18px}.day{border:1px solid var(--line);border-radius:24px;overflow:hidden;background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.025))}
     .day-head{padding:18px 20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;background:rgba(255,255,255,.035)} h2{font-size:20px;margin:0}
     .post{display:grid;grid-template-columns:86px 210px 1fr;gap:18px;padding:18px 20px;border-bottom:1px solid var(--line)}.post:last-child{border-bottom:0}.time{color:var(--gold);font-weight:900;font-size:18px}
@@ -35,6 +37,7 @@
     <a class="chip" href="../content-plans/2026-09-10-10-day-product-presentation/publishing-posts.json">publishing-posts.json</a>
     <a class="chip" href="../content-plans/2026-09-10-10-day-product-presentation/image-prompts/">промти для медіа</a>
   </nav>
+  <section id="status-alert" class="alert"></section>
   <section id="refs" class="ref-grid"></section>
   <section id="calendar" class="grid"></section>
 </main>
@@ -43,10 +46,15 @@
 const data = window.ALT_CAM_SEP_10_DAY_PRODUCT_POSTS;
 const calendar = document.getElementById('calendar');
 const refs = document.getElementById('refs');
+const statusAlert = document.getElementById('status-alert');
 const fmtDate = new Intl.DateTimeFormat('uk-UA',{weekday:'long',day:'numeric',month:'long',timeZone:'Europe/Kyiv'});
 const fmtTime = new Intl.DateTimeFormat('uk-UA',{hour:'2-digit',minute:'2-digit',timeZone:'Europe/Kyiv'});
 function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));}
 function block(label,text){return `<details><summary>${esc(label)}</summary><pre>${esc(text)}</pre></details>`}
+if(data.publication_status === 'canceled'){
+  statusAlert.style.display = 'block';
+  statusAlert.innerHTML = `<strong>Публікації скасовано.</strong> ${esc(data.cancellation_notice || 'Автопублікацію для цього календаря вимкнено.')}`;
+}
 refs.innerHTML = data.references.map(r=>`<img src="../content-plans/${data.plan_id}/${r.path}" alt="${esc(r.label)}">`).join('');
 const days = new Map();
 for(const post of data.posts){const key=post.scheduled_at.slice(0,10); if(!days.has(key)) days.set(key,[]); days.get(key).push(post);}

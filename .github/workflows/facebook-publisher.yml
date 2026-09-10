@@ -1,8 +1,6 @@
 name: ALT-CAM Facebook Publisher
 
 on:
-  schedule:
-    - cron: "17,47 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -25,6 +23,7 @@ jobs:
       MIN_SUCCESS_INTERVAL_MINUTES: "120"
       DRY_RUN: "false"
       FAIL_ON_PUBLISH_ERROR: "true"
+      PUBLISHING_PAUSED: "true"
       DISABLED_PLATFORMS: "facebook_story,instagram,instagram_story,threads,telegram,tiktok"
 
     steps:
@@ -38,6 +37,7 @@ jobs:
       - name: Require permanent Facebook System User token
         run: test -n "$FACEBOOK_PAGE_ACCESS_TOKEN"
       - name: Publish next Facebook item
+        if: env.PUBLISHING_PAUSED != 'true'
         run: python social-posts/meta-automation/publish_due.py --platform facebook --platform facebook_story
       - name: Save publication state
         if: always()
