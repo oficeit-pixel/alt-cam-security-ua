@@ -6548,6 +6548,142 @@
           }
         }
       }
+    },
+    "approved-2026-08-21-sep30-2026-09-10-threads-question": {
+      "threads": {
+        "published_at": "2026-09-10T09:37:57.446130+00:00",
+        "result": {
+          "container": {
+            "id": "18086580122424516"
+          },
+          "published": {
+            "id": "17898908094376101"
+          }
+        }
+      }
+    },
+    "approved-2026-08-21-sep30-2026-09-10-telegram": {
+      "telegram": {
+        "published_at": "2026-09-10T09:37:59.117156+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 101,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1789033079,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADZWqienbBkkH5PpyL85uaMIgVwk5UAALgHmsbhc8ZSeTH2ydNBzNkAQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD4B5rG4XPGUl4",
+                  "file_size": 1503,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADZWqienbBkkH5PpyL85uaMIgVwk5UAALgHmsbhc8ZSeTH2ydNBzNkAQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD4B5rG4XPGUly",
+                  "file_size": 20293,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADZWqienbBkkH5PpyL85uaMIgVwk5UAALgHmsbhc8ZSeTH2ydNBzNkAQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD4B5rG4XPGUl9",
+                  "file_size": 77331,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADZWqienbBkkH5PpyL85uaMIgVwk5UAALgHmsbhc8ZSeTH2ydNBzNkAQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD4B5rG4XPGUl-",
+                  "file_size": 148670,
+                  "width": 1280,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADZWqienbBkkH5PpyL85uaMIgVwk5UAALgHmsbhc8ZSeTH2ydNBzNkAQADAgADdwADPQQ",
+                  "file_unique_id": "AQAD4B5rG4XPGUl8",
+                  "file_size": 172940,
+                  "width": 1408,
+                  "height": 1408
+                }
+              ],
+              "caption": "Правильне кріплення камери\n\nМонтажна коробка, гермоввід і технологічний запас кабелю.\n\nПідберемо сумісне рішення під конкретний об’єкт. Напишіть нам: https://t.me/altcam_security_ua\n\n#кабель #poe #монтажкамер #безпекакиїв #вишгород #київськаобласть #altcam",
+              "caption_entities": [
+                {
+                  "offset": 150,
+                  "length": 31,
+                  "type": "url"
+                },
+                {
+                  "offset": 183,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 191,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 196,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 209,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 222,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 232,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 249,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "meta-sep10d-01-01": {
+      "instagram": {
+        "published_at": "2026-09-10T09:38:11.931181+00:00",
+        "result": {
+          "container": {
+            "id": "18086713772418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18086713772418944"
+          },
+          "published": {
+            "id": "18558469657079840"
+          }
+        }
+      }
     }
   }
 }
