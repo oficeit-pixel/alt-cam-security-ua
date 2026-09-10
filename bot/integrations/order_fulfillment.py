@@ -202,13 +202,29 @@ async def ensure_order_drive_folder(order: Any) -> str:
         _safe_folder_name(order.order_number, "Замовлення"),
     ]
     parent_id = settings.google_drive_folder_id
-    async with Aiogoogle(service_account_creds=credentials) as aiogoogle:
-        drive = await aiogoogle.discover("drive", "v3")
-        folder: dict[str, Any] = {}
-        for name in path:
-            folder = await _drive_folder(aiogoogle, drive, parent_id, name)
-            parent_id = folder["id"]
-    return folder.get("webViewLink") or f"https://drive.google.com/drive/folders/{parent_id}"
+    try:
+        async with Aiogoogle(service_account_creds=credentials) as aiogoogle:
+            drive = await aiogoogle.discover("drive", "v3")
+            folder: dict[str, Any] = {}
+            for name in path:
+                folder = await _drive_folder(aiogoogle, drive, parent_id, name)
+                parent_id = folder["id"]
+        return folder.get("webViewLink") or f"https://drive.google.com/drive/folders/{parent_id}"
+    except Exception:
+        if not settings.email_relay_url or not settings.email_relay_secret:
+            raise
+        payload = {
+            "kind": "drive_folder",
+            "secret": settings.email_relay_secret,
+            "root_folder_id": settings.google_drive_folder_id,
+            "path": path,
+        }
+        async with ClientSession() as client:
+            async with client.post(settings.email_relay_url, json=payload, timeout=30) as response:
+                result = await response.json(content_type=None)
+                if response.status >= 400 or result.get("status") != "success" or not result.get("url"):
+                    raise RuntimeError("drive_folder_relay_failed")
+        return str(result["url"])
 
 
 async def delete_drive_folder(folder_url: str) -> None:

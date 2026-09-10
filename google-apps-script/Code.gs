@@ -63,6 +63,9 @@ function doPost(e) {
     if (data.kind === 'email') {
       return sendEmail_(data);
     }
+    if (data.kind === 'drive_folder') {
+      return createDriveFolder_(data);
+    }
 
     const sheet = getRequestSheet_();
     const id = Utilities.getUuid().substring(0, 8).toUpperCase();
@@ -87,6 +90,26 @@ function doPost(e) {
   } finally {
     lock.releaseLock();
   }
+}
+
+function createDriveFolder_(data) {
+  const expected = PropertiesService.getScriptProperties().getProperty('ALT_CAM_MAIL_RELAY_SECRET');
+  if (!expected || !data.secret || !secureEquals_(String(data.secret), expected)) {
+    return jsonResponse_({ status: 'error', message: 'unauthorized' });
+  }
+  const rootId = String(data.root_folder_id || '').trim();
+  const path = Array.isArray(data.path) ? data.path.slice(0, 8) : [];
+  if (!/^[A-Za-z0-9_-]{10,}$/.test(rootId) || !path.length) {
+    return jsonResponse_({ status: 'error', message: 'invalid_drive_path' });
+  }
+  let folder = DriveApp.getFolderById(rootId);
+  path.forEach((part) => {
+    const name = String(part || '').replace(/[\\/:*?"<>|\u0000-\u001f]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 120);
+    if (!name) throw new Error('invalid_drive_folder_name');
+    const existing = folder.getFoldersByName(name);
+    folder = existing.hasNext() ? existing.next() : folder.createFolder(name);
+  });
+  return jsonResponse_({ status: 'success', url: folder.getUrl() });
 }
 
 function sendEmail_(data) {
