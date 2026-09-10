@@ -6811,6 +6811,36 @@
           }
         }
       }
+    },
+    "approved-2026-08-21-sep30-2026-09-10-instagram": {
+      "instagram": {
+        "published_at": "2026-09-10T17:39:56.888650+00:00",
+        "result": {
+          "container": {
+            "id": "18086801378418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18086801378418944"
+          },
+          "published": {
+            "id": "18009350693980055"
+          }
+        }
+      }
+    },
+    "approved-2026-08-21-sep30-2026-09-10-threads-summary": {
+      "threads": {
+        "published_at": "2026-09-10T17:40:04.760262+00:00",
+        "result": {
+          "container": {
+            "id": "18086660747424516"
+          },
+          "published": {
+            "id": "18338468437284638"
+          }
+        }
+      }
     }
   }
 }
