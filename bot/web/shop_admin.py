@@ -15,7 +15,7 @@ from typing import Any
 from urllib.parse import quote
 
 from aiohttp import ClientSession, web
-from sqlalchemy import String, cast, desc, func, or_, select, update
+from sqlalchemy import String, and_, cast, desc, func, or_, select, update
 
 from bot.config import get_settings
 from bot.db.base import SessionLocal
@@ -34,7 +34,7 @@ ORDER_STATUSES = {
     "shipped", "in_transit", "arrived", "received", "completed",
     "problem", "canceled",
 }
-ATTENTION_STATUSES = {"new", "arrived", "problem"}
+ATTENTION_STATUSES = {"new", "clarification", "arrived", "problem"}
 TRACKING_PROVIDERS = {"nova_poshta", "ukrposhta", "other"}
 ROLES = {"chief", "manager"}
 logger = logging.getLogger("altcam.admin.email")
@@ -243,7 +243,37 @@ def serialize_order(order: WebOrder) -> dict[str, Any]:
         "status_history": order.status_history or [],
         "created_at": order.created_at.isoformat() if order.created_at else None,
         "updated_at": order.updated_at.isoformat() if order.updated_at else None,
+        "needs_attention": _order_needs_attention(order),
     }
+
+
+def _order_needs_attention(order: WebOrder) -> bool:
+    if order.status in ATTENTION_STATUSES:
+        return True
+    if order.status in {"ordered_from_supplier", "waiting_tracking"}:
+        return not (
+            order.assigned_admin_id
+            and str(order.drive_folder_url or "").strip()
+            and (order.status != "ordered_from_supplier" or str(order.supplier_order_number or "").strip())
+        )
+    return False
+
+
+def _attention_clause():
+    missing_assignee = WebOrder.assigned_admin_id.is_(None)
+    missing_drive = func.coalesce(WebOrder.drive_folder_url, "") == ""
+    missing_supplier_number = func.coalesce(WebOrder.supplier_order_number, "") == ""
+    return or_(
+        WebOrder.status.in_(ATTENTION_STATUSES),
+        and_(
+            WebOrder.status == "ordered_from_supplier",
+            or_(missing_assignee, missing_drive, missing_supplier_number),
+        ),
+        and_(
+            WebOrder.status == "waiting_tracking",
+            or_(missing_assignee, missing_drive),
+        ),
+    )
 
 
 async def admin_captcha(_: web.Request) -> web.Response:
@@ -427,7 +457,7 @@ async def dashboard(request: web.Request) -> web.Response:
         revenue = await session.scalar(select(func.coalesce(func.sum(WebOrder.subtotal), 0)).where(WebOrder.status != "canceled")) or 0
         events = await session.scalar(select(func.count()).select_from(AnalyticsEvent).where(AnalyticsEvent.created_at >= since)) or 0
         popular = (await session.execute(select(AnalyticsEvent.data["id"].astext.label("product_id"), func.count().label("views")).where(AnalyticsEvent.event.in_(["product_view", "price_request_started", "add_to_cart"]), AnalyticsEvent.data.has_key("id")).group_by("product_id").order_by(desc("views")).limit(12))).all()
-        attention_orders = (await session.scalars(select(WebOrder).where(WebOrder.status.in_(ATTENTION_STATUSES)).order_by(WebOrder.updated_at.desc()).limit(7))).all()
+        attention_orders = (await session.scalars(select(WebOrder).where(_attention_clause()).order_by(WebOrder.updated_at.desc()).limit(7))).all()
         recent_orders = (await session.scalars(select(WebOrder).order_by(WebOrder.created_at.desc()).limit(7))).all()
     return web.json_response({"orders": order_count, "new_orders": new_count, "revenue": float(revenue), "events_30d": events, "popular": [{"product_id": row.product_id, "views": row.views} for row in popular], "attention_orders": [serialize_order(order) for order in attention_orders], "recent_orders": [serialize_order(order) for order in recent_orders]})
 
@@ -447,7 +477,7 @@ async def list_orders(request: web.Request) -> web.Response:
         if status in ORDER_STATUSES:
             query = query.where(WebOrder.status == status)
         if attention:
-            query = query.where(WebOrder.status.in_(ATTENTION_STATUSES))
+            query = query.where(_attention_clause())
         if search:
             pattern = f"%{search}%"
             query = query.where(or_(
