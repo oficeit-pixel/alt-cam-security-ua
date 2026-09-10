@@ -12,6 +12,7 @@ from decimal import Decimal
 from email.message import EmailMessage
 from secrets import compare_digest, token_urlsafe
 from typing import Any
+from urllib.parse import quote
 
 from aiohttp import ClientSession, web
 from sqlalchemy import String, cast, desc, func, or_, select, update
@@ -37,6 +38,7 @@ ATTENTION_STATUSES = {"new", "arrived", "problem"}
 TRACKING_PROVIDERS = {"nova_poshta", "ukrposhta", "other"}
 ROLES = {"chief", "manager"}
 logger = logging.getLogger("altcam.admin.email")
+SUPPLIER_MESSAGE_EVENTS = {"order_to_supplier", "request_tracking"}
 
 
 def _secret() -> bytes:
@@ -655,6 +657,91 @@ async def supplier_directory_status(request: web.Request) -> web.Response:
     })
 
 
+def _order_supplier_codes(order: WebOrder) -> set[str]:
+    codes: set[str] = set()
+    for item in order.items or []:
+        product_id = str(item.get("id", "")) if isinstance(item, dict) else ""
+        supplier_code = product_id.partition("-")[0].casefold()
+        if supplier_code in {"viatec", "yugtorg"}:
+            codes.add(supplier_code)
+    return codes
+
+
+def _supplier_message(order: WebOrder, supplier_code: str, event: str) -> str:
+    if event == "request_tracking":
+        return (
+            f"Добрий день! Підкажіть, будь ласка, трек-номер за замовленням "
+            f"{order.order_number}. Номер постачальника: {order.supplier_order_number or 'не вказано'}."
+        )
+    supplier_items = [
+        item for item in order.items or []
+        if isinstance(item, dict) and str(item.get("id", "")).casefold().startswith(f"{supplier_code}-")
+    ]
+    lines = [f"Добрий день! Замовлення {order.order_number}:"]
+    for index, item in enumerate(supplier_items, 1):
+        try:
+            quantity = max(1, int(item.get("quantity") or 1))
+        except (TypeError, ValueError):
+            quantity = 1
+        lines.append(f"{index}. {str(item.get('name', '')).strip()} — {quantity} шт.")
+    delivery = order.delivery or {}
+    customer = order.customer or {}
+    lines.extend([
+        "",
+        f"Отримувач: {str(customer.get('name', '')).strip()}",
+        f"Телефон: {str(customer.get('phone', '')).strip()}",
+        f"Доставка: {str(delivery.get('label') or delivery.get('place') or delivery.get('type') or '').strip()}",
+    ])
+    return "\n".join(lines)[:3500]
+
+
+async def approve_supplier_message(request: web.Request) -> web.Response:
+    user = await current_admin(request)
+    try:
+        payload = await request.json()
+    except Exception:
+        return web.json_response({"ok": False, "error": "invalid_json"}, status=400)
+    supplier_code = str(payload.get("supplier_code", "")).strip().casefold()[:32]
+    event = str(payload.get("event", "order_to_supplier")).strip()[:40]
+    if event not in SUPPLIER_MESSAGE_EVENTS:
+        return web.json_response({"ok": False, "error": "invalid_supplier_event"}, status=422)
+
+    async with SessionLocal() as session:
+        order = await session.get(WebOrder, int(request.match_info["order_id"]))
+        if not order:
+            raise web.HTTPNotFound()
+        if supplier_code not in _order_supplier_codes(order):
+            return web.json_response({"ok": False, "error": "supplier_not_in_order"}, status=422)
+        try:
+            directory = await load_supplier_directory()
+        except IntegrationNotConfigured as exc:
+            return web.json_response({"ok": False, "error": str(exc)}, status=503)
+        except Exception:
+            logger.exception("supplier_directory_read_failed")
+            return web.json_response({"ok": False, "error": "supplier_directory_read_failed"}, status=502)
+
+        route = next((
+            row for row in directory["routes"]
+            if row["supplier_code"].casefold() == supplier_code
+            and row["event"] == event
+            and row["channel"].casefold() == "telegram"
+        ), None)
+        supplier = next((row for row in directory["suppliers"] if row["code"].casefold() == supplier_code), None)
+        recipient = str((route or {}).get("recipient") or (supplier or {}).get("telegram") or "").strip().lstrip("@")
+        if not recipient or not re.fullmatch(r"[A-Za-z0-9_]{5,32}", recipient):
+            return web.json_response({"ok": False, "error": "supplier_telegram_not_configured"}, status=503)
+
+        text = _supplier_message(order, supplier_code, event)
+        telegram_url = f"https://t.me/{recipient}?text={quote(text, safe='')}"
+        await audit(session, user, request, "supplier_message_approved", "order", order.order_number, {
+            "supplier_code": supplier_code,
+            "event": event,
+            "recipient": f"@{recipient}",
+        })
+        await session.commit()
+    return web.json_response({"ok": True, "telegram_url": telegram_url, "recipient": f"@{recipient}"})
+
+
 async def delete_customer_data(request: web.Request) -> web.Response:
     user = await current_admin(request, chief_only=True)
     async with SessionLocal() as session:
@@ -841,6 +928,7 @@ def register_shop_admin_routes(app: web.Application) -> None:
     app.router.add_delete("/api/admin/orders/{order_id}/customer-data", delete_customer_data)
     app.router.add_post("/api/admin/integrations/email/sync", sync_supplier_email)
     app.router.add_get("/api/admin/integrations/directory", supplier_directory_status)
+    app.router.add_post("/api/admin/orders/{order_id}/supplier-message/approve", approve_supplier_message)
     app.router.add_get("/api/admin/assignees", list_assignees)
     app.router.add_get("/api/admin/prices", list_prices)
     app.router.add_put("/api/admin/prices", save_price)
