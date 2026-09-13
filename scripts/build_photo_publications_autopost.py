@@ -2,10 +2,11 @@ from __future__ import annotations
 
 import json
 import re
-import shutil
 import unicodedata
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+from PIL import Image, ImageDraw, ImageFilter, ImageOps
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -77,6 +78,7 @@ EXTRA_IMAGES = [
 SLOTS = ["10:00", "17:30"]
 START_DATE = datetime.fromisoformat("2026-09-14T00:00:00+03:00")
 TOTAL_DAYS = 90
+TARGET_SIZE = (1080, 1350)
 
 
 def split_blocks(text: str) -> list[str]:
@@ -135,6 +137,53 @@ def trim_text(text: str, limit: int) -> str:
     if boundary > limit * 0.55:
         cut = cut[:boundary]
     return cut.rstrip(" .,\n") + "…"
+
+
+def make_safe_social_image(source: Path, dest: Path) -> None:
+    """Create a 4:5 social-safe image without cropping the main artwork.
+
+    Many source cards are 9:16. Instagram feed accepts 4:5, so direct upload can
+    crop the face/body/product area. This places the full source on a premium
+    blurred background, preserving the whole character and the rest of the card.
+    """
+    with Image.open(source) as original:
+        original = ImageOps.exif_transpose(original).convert("RGB")
+
+    target_w, target_h = TARGET_SIZE
+    cover = ImageOps.fit(original, TARGET_SIZE, method=Image.Resampling.LANCZOS, centering=(0.5, 0.5))
+    cover = cover.filter(ImageFilter.GaussianBlur(24))
+    overlay = Image.new("RGB", TARGET_SIZE, (7, 7, 8))
+    background = Image.blend(cover, overlay, 0.38)
+
+    contained = ImageOps.contain(
+        original,
+        (int(target_w * 0.94), int(target_h * 0.94)),
+        method=Image.Resampling.LANCZOS,
+    )
+    x = (target_w - contained.width) // 2
+    y = (target_h - contained.height) // 2
+
+    shadow = Image.new("RGBA", TARGET_SIZE, (0, 0, 0, 0))
+    shadow_draw = ImageDraw.Draw(shadow)
+    shadow_draw.rounded_rectangle(
+        (x - 10, y - 10, x + contained.width + 10, y + contained.height + 10),
+        radius=28,
+        fill=(0, 0, 0, 120),
+    )
+    shadow = shadow.filter(ImageFilter.GaussianBlur(18))
+
+    result = background.convert("RGBA")
+    result.alpha_composite(shadow)
+    result.paste(contained.convert("RGBA"), (x, y))
+
+    border = ImageDraw.Draw(result)
+    border.rounded_rectangle(
+        (x - 2, y - 2, x + contained.width + 2, y + contained.height + 2),
+        radius=22,
+        outline=(255, 204, 0, 130),
+        width=2,
+    )
+    result.convert("RGB").save(dest, "PNG", optimize=True)
 
 
 def platform_captions(full_text: str, title: str) -> dict[str, str]:
@@ -216,7 +265,7 @@ def main() -> None:
     for index, (title, block, image_path) in enumerate(entries):
         slug = f"{index + 1:02d}-{slugify(image_path.stem)}"
         dest = MEDIA_DIR / f"{slug}{image_path.suffix.lower()}"
-        shutil.copy2(image_path, dest)
+        make_safe_social_image(image_path, dest)
         rel_media = f"social-posts/content-plans/{PLAN_ID}/media/{dest.name}"
         image_url = f"{PUBLIC_BASE}/{rel_media}"
         captions = platform_captions(block, title)
