@@ -74,7 +74,7 @@ EXTRA_IMAGES = [
     "ChatGPT Image 12 сент. 2026 г., 17_19_23 (2).png",
 ]
 
-SLOTS = ["09:10", "14:20", "19:30"]
+SLOTS = ["10:00", "17:30"]
 START_DATE = datetime.fromisoformat("2026-09-14T00:00:00+03:00")
 TOTAL_DAYS = 90
 
@@ -351,7 +351,7 @@ def main() -> None:
 <body>
 <main>
   <h1>ALT-CAM: автоочередь публикаций из папки фото</h1>
-  <p>48 базовых материалов разложены в 270 публикаций на 90 дней: Facebook, Instagram, Threads, Telegram и TikTok photo. Повторы идут в ротации, старые отменённые публикации не восстановлены.</p>
+  <p>48 базовых материалов разложены в 180 публикаций на 90 дней: Facebook, Instagram, Threads, Telegram и TikTok photo. Каждый день — один постинг в первой половине дня и один во второй. Повторы идут в ротации, старые отменённые публикации не восстановлены.</p>
   <nav class="toolbar">
     <a class="chip" href="../content-plans/2026-09-14-photo-publications/publishing-posts.json">publishing-posts.json</a>
     <a class="chip" href="../content-plans/2026-09-14-photo-publications/READY_POSTS.md">READY_POSTS.md</a>
