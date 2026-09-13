@@ -6970,6 +6970,194 @@
           }
         }
       }
+    },
+    "photo-pub-2026-09-001": {
+      "instagram": {
+        "published_at": "2026-09-13T17:31:22.479913+00:00",
+        "result": {
+          "container": {
+            "id": "18087433964418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18087433964418944"
+          },
+          "published": {
+            "id": "18578272069068494"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-09-13T17:31:32.432782+00:00",
+        "result": {
+          "container": {
+            "id": "18087276752424516"
+          },
+          "published": {
+            "id": "18077821976374993"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-09-13T17:31:35.507151+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 104,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1789320694,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADaGqm3fbmGpCMd-gm1V6RDk_dD4CyAAL6JWsbAU45Sd8ZGWn_6632AQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD-iVrGwFOOUl4",
+                  "file_size": 1850,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADaGqm3fbmGpCMd-gm1V6RDk_dD4CyAAL6JWsbAU45Sd8ZGWn_6632AQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD-iVrGwFOOUly",
+                  "file_size": 26240,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADaGqm3fbmGpCMd-gm1V6RDk_dD4CyAAL6JWsbAU45Sd8ZGWn_6632AQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD-iVrGwFOOUl9",
+                  "file_size": 111421,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADaGqm3fbmGpCMd-gm1V6RDk_dD4CyAAL6JWsbAU45Sd8ZGWn_6632AQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD-iVrGwFOOUl-",
+                  "file_size": 226728,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADaGqm3fbmGpCMd-gm1V6RDk_dD4CyAAL6JWsbAU45Sd8ZGWn_6632AQADAgADdwADPQQ",
+                  "file_unique_id": "AQAD-iVrGwFOOUl8",
+                  "file_size": 239327,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🎥 Хочете контролювати будинок або бізнес, навіть коли вас немає поруч?\n\nDahua IP-2M-2OUT-Pro — готовий провідний комплект IP-відеоспостереження для контролю входу, двору, території та периметра.\n\nУ комплект входять 2 IP-камери Dahua 2 МП з роздільною здатністю 1920×1080, об’єктивом 2,8 мм і технологією WizSense SMD Plus, 4-канальний відеореєстратор Dahua з 4 PoE, жорсткий диск 1 ТБ, два монтажні бокси та два зовнішні патч-корди по 20 метрів.\n\nСистема може працювати як автономне локальне відеоспостереження. Після підключення до Інтернету ви отримуєте можливість переглядати камери в реальному часі та перевіряти архів записів зі смартфона, планшета або комп’ютера.\n\n🎁 При купівлі комплекту — подарунковий сертифікат номіналом 1700 грн на придбання продукції на сайті ALT-CAM Security UA.\n\nЧому варто звернути увагу:\n\n✅ 2 камери Dahua 2 МП\n✅ Full HD 1920×1080\n✅ WizSense SMD Plus\n✅ 4-канальний NVR з PoE\n✅ HDD 1 ТБ для архіву\n✅ Віддалений доступ до відеоспостереження\n✅ Готовий комплект основного…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 105,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1789320695,
+              "text": "🎥 Хочете контролювати будинок або бізнес, навіть коли вас немає поруч?\n\nDahua IP-2M-2OUT-Pro — готовий провідний комплект IP-відеоспостереження для контролю входу, двору, території та периметра.\n\nУ комплект входять 2 IP-камери Dahua 2 МП з роздільною здатністю 1920×1080, об’єктивом 2,8 мм і технологією WizSense SMD Plus, 4-канальний відеореєстратор Dahua з 4 PoE, жорсткий диск 1 ТБ, два монтажні бокси та два зовнішні патч-корди по 20 метрів.\n\nСистема може працювати як автономне локальне відеоспостереження. Після підключення до Інтернету ви отримуєте можливість переглядати камери в реальному часі та перевіряти архів записів зі смартфона, планшета або комп’ютера.\n\n🎁 При купівлі комплекту — подарунковий сертифікат номіналом 1700 грн на придбання продукції на сайті ALT-CAM Security UA.\n\nЧому варто звернути увагу:\n\n✅ 2 камери Dahua 2 МП\n✅ Full HD 1920×1080\n✅ WizSense SMD Plus\n✅ 4-канальний NVR з PoE\n✅ HDD 1 ТБ для архіву\n✅ Віддалений доступ до відеоспостереження\n✅ Готовий комплект основного обладнання для встановлення\n\nНе знаєте, який комплект підійде саме для вашого об’єкта?\n\nНапишіть слово «КАМЕРА» у повідомлення ALT-CAM Security UA — допоможемо підібрати оптимальне рішення.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #Dahua #Відеоспостереження #Відеонагляд #IPКамера #КамериВідеоспостереження #БезпекаДому #БезпекаБізнесу #СистемаБезпеки\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1197,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1221,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1229,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1247,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1254,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1274,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1287,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1297,
+                  "length": 25,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1323,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1336,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1352,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1372,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      },
+      "tiktok": {
+        "published_at": "2026-09-13T17:31:36.230549+00:00",
+        "result": {
+          "data": {
+            "publish_id": "p_inbox_url~v2.7685066836073383952"
+          },
+          "error": {
+            "code": "ok",
+            "message": "",
+            "log_id": "20260914013135D55945F9AEFA925ECE74"
+          }
+        }
+      }
     }
   }
 }
