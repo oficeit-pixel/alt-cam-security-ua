@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "17,47 * * * *"
   workflow_dispatch:
+    inputs:
+      force_post_id:
+        description: "Optional post ID to process now"
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -27,6 +32,7 @@ jobs:
       FAIL_ON_PUBLISH_ERROR: "true"
       PUBLISHING_PAUSED: "false"
       DISABLED_PLATFORMS: "facebook_story,instagram,instagram_story,threads,telegram,tiktok"
+      WORKFLOW_FORCE_POST_ID: ${{ inputs.force_post_id || '' }}
 
     steps:
       - uses: actions/checkout@v4
@@ -40,7 +46,13 @@ jobs:
         run: test -n "$FACEBOOK_PAGE_ACCESS_TOKEN"
       - name: Publish next Facebook item
         if: env.PUBLISHING_PAUSED != 'true'
-        run: python social-posts/meta-automation/publish_due.py --platform facebook --platform facebook_story
+        shell: bash
+        run: |
+          args=(--platform facebook --platform facebook_story)
+          if [ -n "$WORKFLOW_FORCE_POST_ID" ]; then
+            args+=(--force --post-id "$WORKFLOW_FORCE_POST_ID")
+          fi
+          python social-posts/meta-automation/publish_due.py "${args[@]}"
       - name: Save publication state
         if: always()
         run: |
