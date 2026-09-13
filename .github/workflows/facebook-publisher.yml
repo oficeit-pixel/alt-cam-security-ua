@@ -1,6 +1,8 @@
 name: ALT-CAM Facebook Publisher
 
 on:
+  schedule:
+    - cron: "17,47 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -23,7 +25,7 @@ jobs:
       MIN_SUCCESS_INTERVAL_MINUTES: "120"
       DRY_RUN: "false"
       FAIL_ON_PUBLISH_ERROR: "true"
-      PUBLISHING_PAUSED: "true"
+      PUBLISHING_PAUSED: "false"
       DISABLED_PLATFORMS: "facebook_story,instagram,instagram_story,threads,telegram,tiktok"
 
     steps:

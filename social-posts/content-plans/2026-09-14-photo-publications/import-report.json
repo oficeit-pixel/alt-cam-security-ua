@@ -1,0 +1,2434 @@
+{
+  "rows": [
+    {
+      "id": "photo-pub-2026-09-001",
+      "scheduled_at": "2026-09-14T09:10:00+03:00",
+      "title": "Хочете контролювати будинок або бізнес, навіть коли вас немає поруч?",
+      "source_image": "Dahua IP-2M-2OUT-Pro.png",
+      "media": "01-dahua-ip-2m-2out-pro.png",
+      "base_post_number": 1,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-002",
+      "scheduled_at": "2026-09-14T14:20:00+03:00",
+      "title": "Потрібен стабільний Wi-Fi просто неба?",
+      "source_image": "Потрібен стабільний Wi-Fi просто неба.png",
+      "media": "18-wi-fi.png",
+      "base_post_number": 18,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-003",
+      "scheduled_at": "2026-09-14T19:30:00+03:00",
+      "title": "Відеоспостереження у ліфтах — більше безпеки для всього будинку",
+      "source_image": "Відеоспостереження у ліфтах.png",
+      "media": "35-altcam-photo.png",
+      "base_post_number": 35,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-004",
+      "scheduled_at": "2026-09-15T09:10:00+03:00",
+      "title": "Потрібно передати інтернет між двома будівлями без прокладання кабелю?",
+      "source_image": "MikroTik SXTsq Lite5 (RBSXTsq5nD).png",
+      "media": "04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png",
+      "base_post_number": 4,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-005",
+      "scheduled_at": "2026-09-15T14:20:00+03:00",
+      "title": "Стабільна мережа починається з правильного кабелю",
+      "source_image": "Кабелі «Одескабель».png",
+      "media": "21-altcam-photo.png",
+      "base_post_number": 21,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-006",
+      "scheduled_at": "2026-09-15T19:30:00+03:00",
+      "title": "Контроль доступу та облік робочого часу на складі",
+      "source_image": "Контроль доступу та облік робочого часу на складі.png",
+      "media": "38-altcam-photo.png",
+      "base_post_number": 38,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-007",
+      "scheduled_at": "2026-09-16T09:10:00+03:00",
+      "title": "Потрібно передати Ethernet по оптоволокну на відстань до 20 км?",
+      "source_image": "ALISTAR mini 100BASE-FX 1SM WDM SC.png",
+      "media": "07-alistar-mini-100base-fx-1sm-wdm-sc.png",
+      "base_post_number": 7,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-008",
+      "scheduled_at": "2026-09-16T14:20:00+03:00",
+      "title": "Оптична лінія починається з правильного кабелю",
+      "source_image": "Оптична лінія.png",
+      "media": "24-altcam-photo.png",
+      "base_post_number": 24,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-009",
+      "scheduled_at": "2026-09-16T19:30:00+03:00",
+      "title": "Прокладання, зварювання та тестування оптичних ліній",
+      "source_image": "Прокладання, зварювання та тестування оптичних ліній.png",
+      "media": "41-altcam-photo.png",
+      "base_post_number": 41,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-010",
+      "scheduled_at": "2026-09-17T09:10:00+03:00",
+      "title": "Сонце, мережа чи акумулятор — COVAX готовий до будь-якого сценарію",
+      "source_image": "COVAX CV-PS-3200-24V.png",
+      "media": "10-covax-cv-ps-3200-24v.png",
+      "base_post_number": 10,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-011",
+      "scheduled_at": "2026-09-17T14:20:00+03:00",
+      "title": "Якісний монтаж починається з правильних дрібниць",
+      "source_image": "Якісний монтаж.png",
+      "media": "27-altcam-photo.png",
+      "base_post_number": 27,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-012",
+      "scheduled_at": "2026-09-17T19:30:00+03:00",
+      "title": "Сонячні панелі та резервне живлення — енергія, яка працює на вас",
+      "source_image": "Сонячні панелі та резервне живлення.png",
+      "media": "44-altcam-photo.png",
+      "base_post_number": 44,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-013",
+      "scheduled_at": "2026-09-18T09:10:00+03:00",
+      "title": "Потрібна камера, яка дозволяє точно налаштувати зону контролю?",
+      "source_image": "варіофокальні IP-камери Ajax HLVF.png",
+      "media": "13-ip-ajax-hlvf.png",
+      "base_post_number": 13,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-014",
+      "scheduled_at": "2026-09-18T14:20:00+03:00",
+      "title": "Надійна мережа починається не лише з кабелю",
+      "source_image": "Надійна мережа.png",
+      "media": "30-altcam-photo.png",
+      "base_post_number": 30,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-015",
+      "scheduled_at": "2026-09-18T19:30:00+03:00",
+      "title": "ALT-CAM Security UA — обладнання для безпеки, мереж та резервного живлення",
+      "source_image": "ALT-CAM Security UA — обладнання для безпеки, мереж та резервного живлення.png",
+      "media": "47-alt-cam-security-ua.png",
+      "base_post_number": 47,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-016",
+      "scheduled_at": "2026-09-19T09:10:00+03:00",
+      "title": "Енергія під контролем — від будинку до бізнесу",
+      "source_image": "Енергія під контролем.png",
+      "media": "16-altcam-photo.png",
+      "base_post_number": 16,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-017",
+      "scheduled_at": "2026-09-19T14:20:00+03:00",
+      "title": "Комплексний захист будинку з Ajax під ключ",
+      "source_image": "Комплексний захист будинку з Ajax під ключ.png",
+      "media": "33-ajax.png",
+      "base_post_number": 33,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-018",
+      "scheduled_at": "2026-09-19T19:30:00+03:00",
+      "title": "Один вхід — до 9 999 абонентів",
+      "source_image": "NeoLight NL-HPC 03.png",
+      "media": "02-neolight-nl-hpc-03.png",
+      "base_post_number": 2,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-019",
+      "scheduled_at": "2026-09-20T09:10:00+03:00",
+      "title": "Коли основне живлення зникає — резерв має підключитися автоматично",
+      "source_image": "Автомат введення резерву (АВР).png",
+      "media": "19-altcam-photo.png",
+      "base_post_number": 19,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-020",
+      "scheduled_at": "2026-09-20T14:20:00+03:00",
+      "title": "Відеоспостереження для СТО — контроль сервісу, персоналу та автомобілів 24/7",
+      "source_image": "Відеоспостереження для СТО.png",
+      "media": "36-altcam-photo.png",
+      "base_post_number": 36,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-021",
+      "scheduled_at": "2026-09-20T19:30:00+03:00",
+      "title": "Мережеве обладнання «живе» на полицях і заважає порядку?",
+      "source_image": "IPCOM 6U 600×450.png",
+      "media": "05-ipcom-6u-600450.png",
+      "base_post_number": 5,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-022",
+      "scheduled_at": "2026-09-21T09:10:00+03:00",
+      "title": "Надійне підключення починається з якісного кабелю",
+      "source_image": "Електричний кабель «Одескабель» ШВВПн.png",
+      "media": "22-altcam-photo.png",
+      "base_post_number": 22,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-023",
+      "scheduled_at": "2026-09-21T14:20:00+03:00",
+      "title": "Бездротовий інтернет для віддалених об’єктів — стабільний зв’язок там, де немає кабелю",
+      "source_image": "Бездротовий інтернет для віддалених об’єктів.png",
+      "media": "39-altcam-photo.png",
+      "base_post_number": 39,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-024",
+      "scheduled_at": "2026-09-21T19:30:00+03:00",
+      "title": "Набридли звичайні ключі? Перейдіть на сучасний контроль доступу",
+      "source_image": "SEVEN LOCK SL-7708F.png",
+      "media": "08-seven-lock-sl-7708f.png",
+      "base_post_number": 8,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-025",
+      "scheduled_at": "2026-09-22T09:10:00+03:00",
+      "title": "Кабель — це основа стабільної роботи всієї системи",
+      "source_image": "Кабель — це основа.png",
+      "media": "25-altcam-photo.png",
+      "base_post_number": 25,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-026",
+      "scheduled_at": "2026-09-22T14:20:00+03:00",
+      "title": "Резервне живлення для квартири — світло, інтернет і комфорт навіть під час відключень",
+      "source_image": "Резервне живлення для квартири.png",
+      "media": "42-altcam-photo.png",
+      "base_post_number": 42,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-027",
+      "scheduled_at": "2026-09-22T19:30:00+03:00",
+      "title": "Відео та зв’язок у ліфті — без зайвого кабелю",
+      "source_image": "Hikvision DS-3WF0EC-2NT.png",
+      "media": "11-hikvision-ds-3wf0ec-2nt.png",
+      "base_post_number": 11,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-028",
+      "scheduled_at": "2026-09-23T09:10:00+03:00",
+      "title": "Надійне з’єднання починається з правильної ізоляції",
+      "source_image": "Надійне з’єднання.png",
+      "media": "28-altcam-photo.png",
+      "base_post_number": 28,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-029",
+      "scheduled_at": "2026-09-23T14:20:00+03:00",
+      "title": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем",
+      "source_image": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем.png",
+      "media": "45-alt-cam-security-ua.png",
+      "base_post_number": 45,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-030",
+      "scheduled_at": "2026-09-23T19:30:00+03:00",
+      "title": "Світло зникло — інтернет має залишатися",
+      "source_image": "MINI UPS.png",
+      "media": "14-mini-ups.png",
+      "base_post_number": 14,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-031",
+      "scheduled_at": "2026-09-24T09:10:00+03:00",
+      "title": "Відеодомофон під ключ — безпека та контроль доступу для вашого дому",
+      "source_image": "Відеодомофон під ключ.png",
+      "media": "31-altcam-photo.png",
+      "base_post_number": 31,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-032",
+      "scheduled_at": "2026-09-24T14:20:00+03:00",
+      "title": "ALT-CAM Security UA — комплексні рішення під ваш об’єкт",
+      "source_image": "ChatGPT Image 12 сент. 2026 г., 17_19_23 (2).png",
+      "media": "48-chatgpt-image-12-2026-17-19-23-2.png",
+      "base_post_number": 48,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-033",
+      "scheduled_at": "2026-09-24T19:30:00+03:00",
+      "title": "Надійний захист для обладнання — у приміщенні та на вулиці",
+      "source_image": "Ударостійкі бокси з ABS-пластику IP65.png",
+      "media": "17-abs-ip65.png",
+      "base_post_number": 17,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-034",
+      "scheduled_at": "2026-09-25T09:10:00+03:00",
+      "title": "Відеоспостереження для квартири — спокій, навіть коли вас немає вдома",
+      "source_image": "Відеоспостереження для квартири.png",
+      "media": "34-altcam-photo.png",
+      "base_post_number": 34,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-035",
+      "scheduled_at": "2026-09-25T14:20:00+03:00",
+      "title": "Відкривайте двері та контролюйте вхід навіть коли вас немає вдома",
+      "source_image": "Комплект NeoLight Kappa+ HD WF + Solo FHD + microSD 128 ГБ + Atis Lock SS.png",
+      "media": "03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png",
+      "base_post_number": 3,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-036",
+      "scheduled_at": "2026-09-25T19:30:00+03:00",
+      "title": "Загоряння може початися за секунди. Захист має спрацювати ще швидше.",
+      "source_image": "Загоряння може початися за секунди..png",
+      "media": "20-altcam-photo.png",
+      "base_post_number": 20,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-037",
+      "scheduled_at": "2026-09-26T09:10:00+03:00",
+      "title": "Відеоспостереження для малого бізнесу — усе важливе під контролем",
+      "source_image": "Відеоспостереження для малого бізнесу.png",
+      "media": "37-altcam-photo.png",
+      "base_post_number": 37,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-038",
+      "scheduled_at": "2026-09-26T14:20:00+03:00",
+      "title": "Потрібно підключити мережеве обладнання через оптоволокно?",
+      "source_image": "MikroTik S-35LC20D S-3553LC20D.png",
+      "media": "06-mikrotik-s-35lc20d-s-3553lc20d.png",
+      "base_post_number": 6,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-039",
+      "scheduled_at": "2026-09-26T19:30:00+03:00",
+      "title": "Надійний кабель для електромонтажу — Одескабель ПВСм",
+      "source_image": "Одескабель ПВСм.png",
+      "media": "23-altcam-photo.png",
+      "base_post_number": 23,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-040",
+      "scheduled_at": "2026-09-27T09:10:00+03:00",
+      "title": "Кабельна інфраструктура для офісу та кол-центру під ключ",
+      "source_image": "Кабельна інфраструктура для офісу.png",
+      "media": "40-altcam-photo.png",
+      "base_post_number": 40,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-041",
+      "scheduled_at": "2026-09-27T14:20:00+03:00",
+      "title": "Немає Wi-Fi? Немає розетки? Відеоспостереження все одно можливе",
+      "source_image": "Dahua APOLLO BP3EW-4G.png",
+      "media": "09-dahua-apollo-bp3ew-4g.png",
+      "base_post_number": 9,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-042",
+      "scheduled_at": "2026-09-27T19:30:00+03:00",
+      "title": "Оптичні аксесуари — усе необхідне для якісного зварювання, підключення та обслуговування ВОЛЗ",
+      "source_image": "Оптичні аксесуари.png",
+      "media": "26-altcam-photo.png",
+      "base_post_number": 26,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-043",
+      "scheduled_at": "2026-09-28T09:10:00+03:00",
+      "title": "Резервне живлення для офісів, магазинів і складів — бізнес працює навіть під час відключень",
+      "source_image": "Резервне живлення для офісів, магазинів і складів.png",
+      "media": "43-altcam-photo.png",
+      "base_post_number": 43,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-044",
+      "scheduled_at": "2026-09-28T14:20:00+03:00",
+      "title": "Світло зникло? Зв’язок і заряд мають залишатися",
+      "source_image": "Повербанки.png",
+      "media": "12-altcam-photo.png",
+      "base_post_number": 12,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-045",
+      "scheduled_at": "2026-09-28T19:30:00+03:00",
+      "title": "Безпека об’єкта починається з правильно підібраної системи",
+      "source_image": "ALT-CAM Security UA.png",
+      "media": "29-alt-cam-security-ua.png",
+      "base_post_number": 29,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-046",
+      "scheduled_at": "2026-09-29T09:10:00+03:00",
+      "title": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем",
+      "source_image": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем Алиса.png",
+      "media": "46-alt-cam-security-ua.png",
+      "base_post_number": 46,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-047",
+      "scheduled_at": "2026-09-29T14:20:00+03:00",
+      "title": "Контроль доступу нового рівня — без зайвих ключів і складних рішень",
+      "source_image": "Контроль доступу нового рівня.png",
+      "media": "15-altcam-photo.png",
+      "base_post_number": 15,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-048",
+      "scheduled_at": "2026-09-29T19:30:00+03:00",
+      "title": "Контроль доступу до двору під ключ — порядок, безпека та зручність для мешканців",
+      "source_image": "Контроль доступу до двору під ключ.png",
+      "media": "32-altcam-photo.png",
+      "base_post_number": 32,
+      "repeat_round": 1
+    },
+    {
+      "id": "photo-pub-2026-09-049",
+      "scheduled_at": "2026-09-30T09:10:00+03:00",
+      "title": "Набридли звичайні ключі? Перейдіть на сучасний контроль доступу",
+      "source_image": "SEVEN LOCK SL-7708F.png",
+      "media": "08-seven-lock-sl-7708f.png",
+      "base_post_number": 8,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-050",
+      "scheduled_at": "2026-09-30T14:20:00+03:00",
+      "title": "Кабель — це основа стабільної роботи всієї системи",
+      "source_image": "Кабель — це основа.png",
+      "media": "25-altcam-photo.png",
+      "base_post_number": 25,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-051",
+      "scheduled_at": "2026-09-30T19:30:00+03:00",
+      "title": "Резервне живлення для квартири — світло, інтернет і комфорт навіть під час відключень",
+      "source_image": "Резервне живлення для квартири.png",
+      "media": "42-altcam-photo.png",
+      "base_post_number": 42,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-052",
+      "scheduled_at": "2026-10-01T09:10:00+03:00",
+      "title": "Відео та зв’язок у ліфті — без зайвого кабелю",
+      "source_image": "Hikvision DS-3WF0EC-2NT.png",
+      "media": "11-hikvision-ds-3wf0ec-2nt.png",
+      "base_post_number": 11,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-053",
+      "scheduled_at": "2026-10-01T14:20:00+03:00",
+      "title": "Надійне з’єднання починається з правильної ізоляції",
+      "source_image": "Надійне з’єднання.png",
+      "media": "28-altcam-photo.png",
+      "base_post_number": 28,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-054",
+      "scheduled_at": "2026-10-01T19:30:00+03:00",
+      "title": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем",
+      "source_image": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем.png",
+      "media": "45-alt-cam-security-ua.png",
+      "base_post_number": 45,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-055",
+      "scheduled_at": "2026-10-02T09:10:00+03:00",
+      "title": "Світло зникло — інтернет має залишатися",
+      "source_image": "MINI UPS.png",
+      "media": "14-mini-ups.png",
+      "base_post_number": 14,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-056",
+      "scheduled_at": "2026-10-02T14:20:00+03:00",
+      "title": "Відеодомофон під ключ — безпека та контроль доступу для вашого дому",
+      "source_image": "Відеодомофон під ключ.png",
+      "media": "31-altcam-photo.png",
+      "base_post_number": 31,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-057",
+      "scheduled_at": "2026-10-02T19:30:00+03:00",
+      "title": "ALT-CAM Security UA — комплексні рішення під ваш об’єкт",
+      "source_image": "ChatGPT Image 12 сент. 2026 г., 17_19_23 (2).png",
+      "media": "48-chatgpt-image-12-2026-17-19-23-2.png",
+      "base_post_number": 48,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-058",
+      "scheduled_at": "2026-10-03T09:10:00+03:00",
+      "title": "Надійний захист для обладнання — у приміщенні та на вулиці",
+      "source_image": "Ударостійкі бокси з ABS-пластику IP65.png",
+      "media": "17-abs-ip65.png",
+      "base_post_number": 17,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-059",
+      "scheduled_at": "2026-10-03T14:20:00+03:00",
+      "title": "Відеоспостереження для квартири — спокій, навіть коли вас немає вдома",
+      "source_image": "Відеоспостереження для квартири.png",
+      "media": "34-altcam-photo.png",
+      "base_post_number": 34,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-060",
+      "scheduled_at": "2026-10-03T19:30:00+03:00",
+      "title": "Відкривайте двері та контролюйте вхід навіть коли вас немає вдома",
+      "source_image": "Комплект NeoLight Kappa+ HD WF + Solo FHD + microSD 128 ГБ + Atis Lock SS.png",
+      "media": "03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png",
+      "base_post_number": 3,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-061",
+      "scheduled_at": "2026-10-04T09:10:00+03:00",
+      "title": "Загоряння може початися за секунди. Захист має спрацювати ще швидше.",
+      "source_image": "Загоряння може початися за секунди..png",
+      "media": "20-altcam-photo.png",
+      "base_post_number": 20,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-062",
+      "scheduled_at": "2026-10-04T14:20:00+03:00",
+      "title": "Відеоспостереження для малого бізнесу — усе важливе під контролем",
+      "source_image": "Відеоспостереження для малого бізнесу.png",
+      "media": "37-altcam-photo.png",
+      "base_post_number": 37,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-063",
+      "scheduled_at": "2026-10-04T19:30:00+03:00",
+      "title": "Потрібно підключити мережеве обладнання через оптоволокно?",
+      "source_image": "MikroTik S-35LC20D S-3553LC20D.png",
+      "media": "06-mikrotik-s-35lc20d-s-3553lc20d.png",
+      "base_post_number": 6,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-064",
+      "scheduled_at": "2026-10-05T09:10:00+03:00",
+      "title": "Надійний кабель для електромонтажу — Одескабель ПВСм",
+      "source_image": "Одескабель ПВСм.png",
+      "media": "23-altcam-photo.png",
+      "base_post_number": 23,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-065",
+      "scheduled_at": "2026-10-05T14:20:00+03:00",
+      "title": "Кабельна інфраструктура для офісу та кол-центру під ключ",
+      "source_image": "Кабельна інфраструктура для офісу.png",
+      "media": "40-altcam-photo.png",
+      "base_post_number": 40,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-066",
+      "scheduled_at": "2026-10-05T19:30:00+03:00",
+      "title": "Немає Wi-Fi? Немає розетки? Відеоспостереження все одно можливе",
+      "source_image": "Dahua APOLLO BP3EW-4G.png",
+      "media": "09-dahua-apollo-bp3ew-4g.png",
+      "base_post_number": 9,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-067",
+      "scheduled_at": "2026-10-06T09:10:00+03:00",
+      "title": "Оптичні аксесуари — усе необхідне для якісного зварювання, підключення та обслуговування ВОЛЗ",
+      "source_image": "Оптичні аксесуари.png",
+      "media": "26-altcam-photo.png",
+      "base_post_number": 26,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-068",
+      "scheduled_at": "2026-10-06T14:20:00+03:00",
+      "title": "Резервне живлення для офісів, магазинів і складів — бізнес працює навіть під час відключень",
+      "source_image": "Резервне живлення для офісів, магазинів і складів.png",
+      "media": "43-altcam-photo.png",
+      "base_post_number": 43,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-069",
+      "scheduled_at": "2026-10-06T19:30:00+03:00",
+      "title": "Світло зникло? Зв’язок і заряд мають залишатися",
+      "source_image": "Повербанки.png",
+      "media": "12-altcam-photo.png",
+      "base_post_number": 12,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-070",
+      "scheduled_at": "2026-10-07T09:10:00+03:00",
+      "title": "Безпека об’єкта починається з правильно підібраної системи",
+      "source_image": "ALT-CAM Security UA.png",
+      "media": "29-alt-cam-security-ua.png",
+      "base_post_number": 29,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-071",
+      "scheduled_at": "2026-10-07T14:20:00+03:00",
+      "title": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем",
+      "source_image": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем Алиса.png",
+      "media": "46-alt-cam-security-ua.png",
+      "base_post_number": 46,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-072",
+      "scheduled_at": "2026-10-07T19:30:00+03:00",
+      "title": "Контроль доступу нового рівня — без зайвих ключів і складних рішень",
+      "source_image": "Контроль доступу нового рівня.png",
+      "media": "15-altcam-photo.png",
+      "base_post_number": 15,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-073",
+      "scheduled_at": "2026-10-08T09:10:00+03:00",
+      "title": "Контроль доступу до двору під ключ — порядок, безпека та зручність для мешканців",
+      "source_image": "Контроль доступу до двору під ключ.png",
+      "media": "32-altcam-photo.png",
+      "base_post_number": 32,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-074",
+      "scheduled_at": "2026-10-08T14:20:00+03:00",
+      "title": "Хочете контролювати будинок або бізнес, навіть коли вас немає поруч?",
+      "source_image": "Dahua IP-2M-2OUT-Pro.png",
+      "media": "01-dahua-ip-2m-2out-pro.png",
+      "base_post_number": 1,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-075",
+      "scheduled_at": "2026-10-08T19:30:00+03:00",
+      "title": "Потрібен стабільний Wi-Fi просто неба?",
+      "source_image": "Потрібен стабільний Wi-Fi просто неба.png",
+      "media": "18-wi-fi.png",
+      "base_post_number": 18,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-076",
+      "scheduled_at": "2026-10-09T09:10:00+03:00",
+      "title": "Відеоспостереження у ліфтах — більше безпеки для всього будинку",
+      "source_image": "Відеоспостереження у ліфтах.png",
+      "media": "35-altcam-photo.png",
+      "base_post_number": 35,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-077",
+      "scheduled_at": "2026-10-09T14:20:00+03:00",
+      "title": "Потрібно передати інтернет між двома будівлями без прокладання кабелю?",
+      "source_image": "MikroTik SXTsq Lite5 (RBSXTsq5nD).png",
+      "media": "04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png",
+      "base_post_number": 4,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-078",
+      "scheduled_at": "2026-10-09T19:30:00+03:00",
+      "title": "Стабільна мережа починається з правильного кабелю",
+      "source_image": "Кабелі «Одескабель».png",
+      "media": "21-altcam-photo.png",
+      "base_post_number": 21,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-079",
+      "scheduled_at": "2026-10-10T09:10:00+03:00",
+      "title": "Контроль доступу та облік робочого часу на складі",
+      "source_image": "Контроль доступу та облік робочого часу на складі.png",
+      "media": "38-altcam-photo.png",
+      "base_post_number": 38,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-080",
+      "scheduled_at": "2026-10-10T14:20:00+03:00",
+      "title": "Потрібно передати Ethernet по оптоволокну на відстань до 20 км?",
+      "source_image": "ALISTAR mini 100BASE-FX 1SM WDM SC.png",
+      "media": "07-alistar-mini-100base-fx-1sm-wdm-sc.png",
+      "base_post_number": 7,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-081",
+      "scheduled_at": "2026-10-10T19:30:00+03:00",
+      "title": "Оптична лінія починається з правильного кабелю",
+      "source_image": "Оптична лінія.png",
+      "media": "24-altcam-photo.png",
+      "base_post_number": 24,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-082",
+      "scheduled_at": "2026-10-11T09:10:00+03:00",
+      "title": "Прокладання, зварювання та тестування оптичних ліній",
+      "source_image": "Прокладання, зварювання та тестування оптичних ліній.png",
+      "media": "41-altcam-photo.png",
+      "base_post_number": 41,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-083",
+      "scheduled_at": "2026-10-11T14:20:00+03:00",
+      "title": "Сонце, мережа чи акумулятор — COVAX готовий до будь-якого сценарію",
+      "source_image": "COVAX CV-PS-3200-24V.png",
+      "media": "10-covax-cv-ps-3200-24v.png",
+      "base_post_number": 10,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-084",
+      "scheduled_at": "2026-10-11T19:30:00+03:00",
+      "title": "Якісний монтаж починається з правильних дрібниць",
+      "source_image": "Якісний монтаж.png",
+      "media": "27-altcam-photo.png",
+      "base_post_number": 27,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-085",
+      "scheduled_at": "2026-10-12T09:10:00+03:00",
+      "title": "Сонячні панелі та резервне живлення — енергія, яка працює на вас",
+      "source_image": "Сонячні панелі та резервне живлення.png",
+      "media": "44-altcam-photo.png",
+      "base_post_number": 44,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-086",
+      "scheduled_at": "2026-10-12T14:20:00+03:00",
+      "title": "Потрібна камера, яка дозволяє точно налаштувати зону контролю?",
+      "source_image": "варіофокальні IP-камери Ajax HLVF.png",
+      "media": "13-ip-ajax-hlvf.png",
+      "base_post_number": 13,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-087",
+      "scheduled_at": "2026-10-12T19:30:00+03:00",
+      "title": "Надійна мережа починається не лише з кабелю",
+      "source_image": "Надійна мережа.png",
+      "media": "30-altcam-photo.png",
+      "base_post_number": 30,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-088",
+      "scheduled_at": "2026-10-13T09:10:00+03:00",
+      "title": "ALT-CAM Security UA — обладнання для безпеки, мереж та резервного живлення",
+      "source_image": "ALT-CAM Security UA — обладнання для безпеки, мереж та резервного живлення.png",
+      "media": "47-alt-cam-security-ua.png",
+      "base_post_number": 47,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-089",
+      "scheduled_at": "2026-10-13T14:20:00+03:00",
+      "title": "Енергія під контролем — від будинку до бізнесу",
+      "source_image": "Енергія під контролем.png",
+      "media": "16-altcam-photo.png",
+      "base_post_number": 16,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-090",
+      "scheduled_at": "2026-10-13T19:30:00+03:00",
+      "title": "Комплексний захист будинку з Ajax під ключ",
+      "source_image": "Комплексний захист будинку з Ajax під ключ.png",
+      "media": "33-ajax.png",
+      "base_post_number": 33,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-091",
+      "scheduled_at": "2026-10-14T09:10:00+03:00",
+      "title": "Один вхід — до 9 999 абонентів",
+      "source_image": "NeoLight NL-HPC 03.png",
+      "media": "02-neolight-nl-hpc-03.png",
+      "base_post_number": 2,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-092",
+      "scheduled_at": "2026-10-14T14:20:00+03:00",
+      "title": "Коли основне живлення зникає — резерв має підключитися автоматично",
+      "source_image": "Автомат введення резерву (АВР).png",
+      "media": "19-altcam-photo.png",
+      "base_post_number": 19,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-093",
+      "scheduled_at": "2026-10-14T19:30:00+03:00",
+      "title": "Відеоспостереження для СТО — контроль сервісу, персоналу та автомобілів 24/7",
+      "source_image": "Відеоспостереження для СТО.png",
+      "media": "36-altcam-photo.png",
+      "base_post_number": 36,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-094",
+      "scheduled_at": "2026-10-15T09:10:00+03:00",
+      "title": "Мережеве обладнання «живе» на полицях і заважає порядку?",
+      "source_image": "IPCOM 6U 600×450.png",
+      "media": "05-ipcom-6u-600450.png",
+      "base_post_number": 5,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-095",
+      "scheduled_at": "2026-10-15T14:20:00+03:00",
+      "title": "Надійне підключення починається з якісного кабелю",
+      "source_image": "Електричний кабель «Одескабель» ШВВПн.png",
+      "media": "22-altcam-photo.png",
+      "base_post_number": 22,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-096",
+      "scheduled_at": "2026-10-15T19:30:00+03:00",
+      "title": "Бездротовий інтернет для віддалених об’єктів — стабільний зв’язок там, де немає кабелю",
+      "source_image": "Бездротовий інтернет для віддалених об’єктів.png",
+      "media": "39-altcam-photo.png",
+      "base_post_number": 39,
+      "repeat_round": 2
+    },
+    {
+      "id": "photo-pub-2026-09-097",
+      "scheduled_at": "2026-10-16T09:10:00+03:00",
+      "title": "Контроль доступу нового рівня — без зайвих ключів і складних рішень",
+      "source_image": "Контроль доступу нового рівня.png",
+      "media": "15-altcam-photo.png",
+      "base_post_number": 15,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-098",
+      "scheduled_at": "2026-10-16T14:20:00+03:00",
+      "title": "Контроль доступу до двору під ключ — порядок, безпека та зручність для мешканців",
+      "source_image": "Контроль доступу до двору під ключ.png",
+      "media": "32-altcam-photo.png",
+      "base_post_number": 32,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-099",
+      "scheduled_at": "2026-10-16T19:30:00+03:00",
+      "title": "Хочете контролювати будинок або бізнес, навіть коли вас немає поруч?",
+      "source_image": "Dahua IP-2M-2OUT-Pro.png",
+      "media": "01-dahua-ip-2m-2out-pro.png",
+      "base_post_number": 1,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-100",
+      "scheduled_at": "2026-10-17T09:10:00+03:00",
+      "title": "Потрібен стабільний Wi-Fi просто неба?",
+      "source_image": "Потрібен стабільний Wi-Fi просто неба.png",
+      "media": "18-wi-fi.png",
+      "base_post_number": 18,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-101",
+      "scheduled_at": "2026-10-17T14:20:00+03:00",
+      "title": "Відеоспостереження у ліфтах — більше безпеки для всього будинку",
+      "source_image": "Відеоспостереження у ліфтах.png",
+      "media": "35-altcam-photo.png",
+      "base_post_number": 35,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-102",
+      "scheduled_at": "2026-10-17T19:30:00+03:00",
+      "title": "Потрібно передати інтернет між двома будівлями без прокладання кабелю?",
+      "source_image": "MikroTik SXTsq Lite5 (RBSXTsq5nD).png",
+      "media": "04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png",
+      "base_post_number": 4,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-103",
+      "scheduled_at": "2026-10-18T09:10:00+03:00",
+      "title": "Стабільна мережа починається з правильного кабелю",
+      "source_image": "Кабелі «Одескабель».png",
+      "media": "21-altcam-photo.png",
+      "base_post_number": 21,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-104",
+      "scheduled_at": "2026-10-18T14:20:00+03:00",
+      "title": "Контроль доступу та облік робочого часу на складі",
+      "source_image": "Контроль доступу та облік робочого часу на складі.png",
+      "media": "38-altcam-photo.png",
+      "base_post_number": 38,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-105",
+      "scheduled_at": "2026-10-18T19:30:00+03:00",
+      "title": "Потрібно передати Ethernet по оптоволокну на відстань до 20 км?",
+      "source_image": "ALISTAR mini 100BASE-FX 1SM WDM SC.png",
+      "media": "07-alistar-mini-100base-fx-1sm-wdm-sc.png",
+      "base_post_number": 7,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-106",
+      "scheduled_at": "2026-10-19T09:10:00+03:00",
+      "title": "Оптична лінія починається з правильного кабелю",
+      "source_image": "Оптична лінія.png",
+      "media": "24-altcam-photo.png",
+      "base_post_number": 24,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-107",
+      "scheduled_at": "2026-10-19T14:20:00+03:00",
+      "title": "Прокладання, зварювання та тестування оптичних ліній",
+      "source_image": "Прокладання, зварювання та тестування оптичних ліній.png",
+      "media": "41-altcam-photo.png",
+      "base_post_number": 41,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-108",
+      "scheduled_at": "2026-10-19T19:30:00+03:00",
+      "title": "Сонце, мережа чи акумулятор — COVAX готовий до будь-якого сценарію",
+      "source_image": "COVAX CV-PS-3200-24V.png",
+      "media": "10-covax-cv-ps-3200-24v.png",
+      "base_post_number": 10,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-109",
+      "scheduled_at": "2026-10-20T09:10:00+03:00",
+      "title": "Якісний монтаж починається з правильних дрібниць",
+      "source_image": "Якісний монтаж.png",
+      "media": "27-altcam-photo.png",
+      "base_post_number": 27,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-110",
+      "scheduled_at": "2026-10-20T14:20:00+03:00",
+      "title": "Сонячні панелі та резервне живлення — енергія, яка працює на вас",
+      "source_image": "Сонячні панелі та резервне живлення.png",
+      "media": "44-altcam-photo.png",
+      "base_post_number": 44,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-111",
+      "scheduled_at": "2026-10-20T19:30:00+03:00",
+      "title": "Потрібна камера, яка дозволяє точно налаштувати зону контролю?",
+      "source_image": "варіофокальні IP-камери Ajax HLVF.png",
+      "media": "13-ip-ajax-hlvf.png",
+      "base_post_number": 13,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-112",
+      "scheduled_at": "2026-10-21T09:10:00+03:00",
+      "title": "Надійна мережа починається не лише з кабелю",
+      "source_image": "Надійна мережа.png",
+      "media": "30-altcam-photo.png",
+      "base_post_number": 30,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-113",
+      "scheduled_at": "2026-10-21T14:20:00+03:00",
+      "title": "ALT-CAM Security UA — обладнання для безпеки, мереж та резервного живлення",
+      "source_image": "ALT-CAM Security UA — обладнання для безпеки, мереж та резервного живлення.png",
+      "media": "47-alt-cam-security-ua.png",
+      "base_post_number": 47,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-114",
+      "scheduled_at": "2026-10-21T19:30:00+03:00",
+      "title": "Енергія під контролем — від будинку до бізнесу",
+      "source_image": "Енергія під контролем.png",
+      "media": "16-altcam-photo.png",
+      "base_post_number": 16,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-115",
+      "scheduled_at": "2026-10-22T09:10:00+03:00",
+      "title": "Комплексний захист будинку з Ajax під ключ",
+      "source_image": "Комплексний захист будинку з Ajax під ключ.png",
+      "media": "33-ajax.png",
+      "base_post_number": 33,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-116",
+      "scheduled_at": "2026-10-22T14:20:00+03:00",
+      "title": "Один вхід — до 9 999 абонентів",
+      "source_image": "NeoLight NL-HPC 03.png",
+      "media": "02-neolight-nl-hpc-03.png",
+      "base_post_number": 2,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-117",
+      "scheduled_at": "2026-10-22T19:30:00+03:00",
+      "title": "Коли основне живлення зникає — резерв має підключитися автоматично",
+      "source_image": "Автомат введення резерву (АВР).png",
+      "media": "19-altcam-photo.png",
+      "base_post_number": 19,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-118",
+      "scheduled_at": "2026-10-23T09:10:00+03:00",
+      "title": "Відеоспостереження для СТО — контроль сервісу, персоналу та автомобілів 24/7",
+      "source_image": "Відеоспостереження для СТО.png",
+      "media": "36-altcam-photo.png",
+      "base_post_number": 36,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-119",
+      "scheduled_at": "2026-10-23T14:20:00+03:00",
+      "title": "Мережеве обладнання «живе» на полицях і заважає порядку?",
+      "source_image": "IPCOM 6U 600×450.png",
+      "media": "05-ipcom-6u-600450.png",
+      "base_post_number": 5,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-120",
+      "scheduled_at": "2026-10-23T19:30:00+03:00",
+      "title": "Надійне підключення починається з якісного кабелю",
+      "source_image": "Електричний кабель «Одескабель» ШВВПн.png",
+      "media": "22-altcam-photo.png",
+      "base_post_number": 22,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-121",
+      "scheduled_at": "2026-10-24T09:10:00+03:00",
+      "title": "Бездротовий інтернет для віддалених об’єктів — стабільний зв’язок там, де немає кабелю",
+      "source_image": "Бездротовий інтернет для віддалених об’єктів.png",
+      "media": "39-altcam-photo.png",
+      "base_post_number": 39,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-122",
+      "scheduled_at": "2026-10-24T14:20:00+03:00",
+      "title": "Набридли звичайні ключі? Перейдіть на сучасний контроль доступу",
+      "source_image": "SEVEN LOCK SL-7708F.png",
+      "media": "08-seven-lock-sl-7708f.png",
+      "base_post_number": 8,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-123",
+      "scheduled_at": "2026-10-24T19:30:00+03:00",
+      "title": "Кабель — це основа стабільної роботи всієї системи",
+      "source_image": "Кабель — це основа.png",
+      "media": "25-altcam-photo.png",
+      "base_post_number": 25,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-124",
+      "scheduled_at": "2026-10-25T09:10:00+03:00",
+      "title": "Резервне живлення для квартири — світло, інтернет і комфорт навіть під час відключень",
+      "source_image": "Резервне живлення для квартири.png",
+      "media": "42-altcam-photo.png",
+      "base_post_number": 42,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-125",
+      "scheduled_at": "2026-10-25T14:20:00+03:00",
+      "title": "Відео та зв’язок у ліфті — без зайвого кабелю",
+      "source_image": "Hikvision DS-3WF0EC-2NT.png",
+      "media": "11-hikvision-ds-3wf0ec-2nt.png",
+      "base_post_number": 11,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-126",
+      "scheduled_at": "2026-10-25T19:30:00+03:00",
+      "title": "Надійне з’єднання починається з правильної ізоляції",
+      "source_image": "Надійне з’єднання.png",
+      "media": "28-altcam-photo.png",
+      "base_post_number": 28,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-127",
+      "scheduled_at": "2026-10-26T09:10:00+03:00",
+      "title": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем",
+      "source_image": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем.png",
+      "media": "45-alt-cam-security-ua.png",
+      "base_post_number": 45,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-128",
+      "scheduled_at": "2026-10-26T14:20:00+03:00",
+      "title": "Світло зникло — інтернет має залишатися",
+      "source_image": "MINI UPS.png",
+      "media": "14-mini-ups.png",
+      "base_post_number": 14,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-129",
+      "scheduled_at": "2026-10-26T19:30:00+03:00",
+      "title": "Відеодомофон під ключ — безпека та контроль доступу для вашого дому",
+      "source_image": "Відеодомофон під ключ.png",
+      "media": "31-altcam-photo.png",
+      "base_post_number": 31,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-130",
+      "scheduled_at": "2026-10-27T09:10:00+03:00",
+      "title": "ALT-CAM Security UA — комплексні рішення під ваш об’єкт",
+      "source_image": "ChatGPT Image 12 сент. 2026 г., 17_19_23 (2).png",
+      "media": "48-chatgpt-image-12-2026-17-19-23-2.png",
+      "base_post_number": 48,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-131",
+      "scheduled_at": "2026-10-27T14:20:00+03:00",
+      "title": "Надійний захист для обладнання — у приміщенні та на вулиці",
+      "source_image": "Ударостійкі бокси з ABS-пластику IP65.png",
+      "media": "17-abs-ip65.png",
+      "base_post_number": 17,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-132",
+      "scheduled_at": "2026-10-27T19:30:00+03:00",
+      "title": "Відеоспостереження для квартири — спокій, навіть коли вас немає вдома",
+      "source_image": "Відеоспостереження для квартири.png",
+      "media": "34-altcam-photo.png",
+      "base_post_number": 34,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-133",
+      "scheduled_at": "2026-10-28T09:10:00+03:00",
+      "title": "Відкривайте двері та контролюйте вхід навіть коли вас немає вдома",
+      "source_image": "Комплект NeoLight Kappa+ HD WF + Solo FHD + microSD 128 ГБ + Atis Lock SS.png",
+      "media": "03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png",
+      "base_post_number": 3,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-134",
+      "scheduled_at": "2026-10-28T14:20:00+03:00",
+      "title": "Загоряння може початися за секунди. Захист має спрацювати ще швидше.",
+      "source_image": "Загоряння може початися за секунди..png",
+      "media": "20-altcam-photo.png",
+      "base_post_number": 20,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-135",
+      "scheduled_at": "2026-10-28T19:30:00+03:00",
+      "title": "Відеоспостереження для малого бізнесу — усе важливе під контролем",
+      "source_image": "Відеоспостереження для малого бізнесу.png",
+      "media": "37-altcam-photo.png",
+      "base_post_number": 37,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-136",
+      "scheduled_at": "2026-10-29T09:10:00+03:00",
+      "title": "Потрібно підключити мережеве обладнання через оптоволокно?",
+      "source_image": "MikroTik S-35LC20D S-3553LC20D.png",
+      "media": "06-mikrotik-s-35lc20d-s-3553lc20d.png",
+      "base_post_number": 6,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-137",
+      "scheduled_at": "2026-10-29T14:20:00+03:00",
+      "title": "Надійний кабель для електромонтажу — Одескабель ПВСм",
+      "source_image": "Одескабель ПВСм.png",
+      "media": "23-altcam-photo.png",
+      "base_post_number": 23,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-138",
+      "scheduled_at": "2026-10-29T19:30:00+03:00",
+      "title": "Кабельна інфраструктура для офісу та кол-центру під ключ",
+      "source_image": "Кабельна інфраструктура для офісу.png",
+      "media": "40-altcam-photo.png",
+      "base_post_number": 40,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-139",
+      "scheduled_at": "2026-10-30T09:10:00+03:00",
+      "title": "Немає Wi-Fi? Немає розетки? Відеоспостереження все одно можливе",
+      "source_image": "Dahua APOLLO BP3EW-4G.png",
+      "media": "09-dahua-apollo-bp3ew-4g.png",
+      "base_post_number": 9,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-140",
+      "scheduled_at": "2026-10-30T14:20:00+03:00",
+      "title": "Оптичні аксесуари — усе необхідне для якісного зварювання, підключення та обслуговування ВОЛЗ",
+      "source_image": "Оптичні аксесуари.png",
+      "media": "26-altcam-photo.png",
+      "base_post_number": 26,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-141",
+      "scheduled_at": "2026-10-30T19:30:00+03:00",
+      "title": "Резервне живлення для офісів, магазинів і складів — бізнес працює навіть під час відключень",
+      "source_image": "Резервне живлення для офісів, магазинів і складів.png",
+      "media": "43-altcam-photo.png",
+      "base_post_number": 43,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-142",
+      "scheduled_at": "2026-10-31T09:10:00+03:00",
+      "title": "Світло зникло? Зв’язок і заряд мають залишатися",
+      "source_image": "Повербанки.png",
+      "media": "12-altcam-photo.png",
+      "base_post_number": 12,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-143",
+      "scheduled_at": "2026-10-31T14:20:00+03:00",
+      "title": "Безпека об’єкта починається з правильно підібраної системи",
+      "source_image": "ALT-CAM Security UA.png",
+      "media": "29-alt-cam-security-ua.png",
+      "base_post_number": 29,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-144",
+      "scheduled_at": "2026-10-31T19:30:00+03:00",
+      "title": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем",
+      "source_image": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем Алиса.png",
+      "media": "46-alt-cam-security-ua.png",
+      "base_post_number": 46,
+      "repeat_round": 3
+    },
+    {
+      "id": "photo-pub-2026-09-145",
+      "scheduled_at": "2026-11-01T09:10:00+03:00",
+      "title": "Надійне підключення починається з якісного кабелю",
+      "source_image": "Електричний кабель «Одескабель» ШВВПн.png",
+      "media": "22-altcam-photo.png",
+      "base_post_number": 22,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-146",
+      "scheduled_at": "2026-11-01T14:20:00+03:00",
+      "title": "Бездротовий інтернет для віддалених об’єктів — стабільний зв’язок там, де немає кабелю",
+      "source_image": "Бездротовий інтернет для віддалених об’єктів.png",
+      "media": "39-altcam-photo.png",
+      "base_post_number": 39,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-147",
+      "scheduled_at": "2026-11-01T19:30:00+03:00",
+      "title": "Набридли звичайні ключі? Перейдіть на сучасний контроль доступу",
+      "source_image": "SEVEN LOCK SL-7708F.png",
+      "media": "08-seven-lock-sl-7708f.png",
+      "base_post_number": 8,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-148",
+      "scheduled_at": "2026-11-02T09:10:00+03:00",
+      "title": "Кабель — це основа стабільної роботи всієї системи",
+      "source_image": "Кабель — це основа.png",
+      "media": "25-altcam-photo.png",
+      "base_post_number": 25,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-149",
+      "scheduled_at": "2026-11-02T14:20:00+03:00",
+      "title": "Резервне живлення для квартири — світло, інтернет і комфорт навіть під час відключень",
+      "source_image": "Резервне живлення для квартири.png",
+      "media": "42-altcam-photo.png",
+      "base_post_number": 42,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-150",
+      "scheduled_at": "2026-11-02T19:30:00+03:00",
+      "title": "Відео та зв’язок у ліфті — без зайвого кабелю",
+      "source_image": "Hikvision DS-3WF0EC-2NT.png",
+      "media": "11-hikvision-ds-3wf0ec-2nt.png",
+      "base_post_number": 11,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-151",
+      "scheduled_at": "2026-11-03T09:10:00+03:00",
+      "title": "Надійне з’єднання починається з правильної ізоляції",
+      "source_image": "Надійне з’єднання.png",
+      "media": "28-altcam-photo.png",
+      "base_post_number": 28,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-152",
+      "scheduled_at": "2026-11-03T14:20:00+03:00",
+      "title": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем",
+      "source_image": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем.png",
+      "media": "45-alt-cam-security-ua.png",
+      "base_post_number": 45,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-153",
+      "scheduled_at": "2026-11-03T19:30:00+03:00",
+      "title": "Світло зникло — інтернет має залишатися",
+      "source_image": "MINI UPS.png",
+      "media": "14-mini-ups.png",
+      "base_post_number": 14,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-154",
+      "scheduled_at": "2026-11-04T09:10:00+03:00",
+      "title": "Відеодомофон під ключ — безпека та контроль доступу для вашого дому",
+      "source_image": "Відеодомофон під ключ.png",
+      "media": "31-altcam-photo.png",
+      "base_post_number": 31,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-155",
+      "scheduled_at": "2026-11-04T14:20:00+03:00",
+      "title": "ALT-CAM Security UA — комплексні рішення під ваш об’єкт",
+      "source_image": "ChatGPT Image 12 сент. 2026 г., 17_19_23 (2).png",
+      "media": "48-chatgpt-image-12-2026-17-19-23-2.png",
+      "base_post_number": 48,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-156",
+      "scheduled_at": "2026-11-04T19:30:00+03:00",
+      "title": "Надійний захист для обладнання — у приміщенні та на вулиці",
+      "source_image": "Ударостійкі бокси з ABS-пластику IP65.png",
+      "media": "17-abs-ip65.png",
+      "base_post_number": 17,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-157",
+      "scheduled_at": "2026-11-05T09:10:00+03:00",
+      "title": "Відеоспостереження для квартири — спокій, навіть коли вас немає вдома",
+      "source_image": "Відеоспостереження для квартири.png",
+      "media": "34-altcam-photo.png",
+      "base_post_number": 34,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-158",
+      "scheduled_at": "2026-11-05T14:20:00+03:00",
+      "title": "Відкривайте двері та контролюйте вхід навіть коли вас немає вдома",
+      "source_image": "Комплект NeoLight Kappa+ HD WF + Solo FHD + microSD 128 ГБ + Atis Lock SS.png",
+      "media": "03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png",
+      "base_post_number": 3,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-159",
+      "scheduled_at": "2026-11-05T19:30:00+03:00",
+      "title": "Загоряння може початися за секунди. Захист має спрацювати ще швидше.",
+      "source_image": "Загоряння може початися за секунди..png",
+      "media": "20-altcam-photo.png",
+      "base_post_number": 20,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-160",
+      "scheduled_at": "2026-11-06T09:10:00+03:00",
+      "title": "Відеоспостереження для малого бізнесу — усе важливе під контролем",
+      "source_image": "Відеоспостереження для малого бізнесу.png",
+      "media": "37-altcam-photo.png",
+      "base_post_number": 37,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-161",
+      "scheduled_at": "2026-11-06T14:20:00+03:00",
+      "title": "Потрібно підключити мережеве обладнання через оптоволокно?",
+      "source_image": "MikroTik S-35LC20D S-3553LC20D.png",
+      "media": "06-mikrotik-s-35lc20d-s-3553lc20d.png",
+      "base_post_number": 6,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-162",
+      "scheduled_at": "2026-11-06T19:30:00+03:00",
+      "title": "Надійний кабель для електромонтажу — Одескабель ПВСм",
+      "source_image": "Одескабель ПВСм.png",
+      "media": "23-altcam-photo.png",
+      "base_post_number": 23,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-163",
+      "scheduled_at": "2026-11-07T09:10:00+03:00",
+      "title": "Кабельна інфраструктура для офісу та кол-центру під ключ",
+      "source_image": "Кабельна інфраструктура для офісу.png",
+      "media": "40-altcam-photo.png",
+      "base_post_number": 40,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-164",
+      "scheduled_at": "2026-11-07T14:20:00+03:00",
+      "title": "Немає Wi-Fi? Немає розетки? Відеоспостереження все одно можливе",
+      "source_image": "Dahua APOLLO BP3EW-4G.png",
+      "media": "09-dahua-apollo-bp3ew-4g.png",
+      "base_post_number": 9,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-165",
+      "scheduled_at": "2026-11-07T19:30:00+03:00",
+      "title": "Оптичні аксесуари — усе необхідне для якісного зварювання, підключення та обслуговування ВОЛЗ",
+      "source_image": "Оптичні аксесуари.png",
+      "media": "26-altcam-photo.png",
+      "base_post_number": 26,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-166",
+      "scheduled_at": "2026-11-08T09:10:00+03:00",
+      "title": "Резервне живлення для офісів, магазинів і складів — бізнес працює навіть під час відключень",
+      "source_image": "Резервне живлення для офісів, магазинів і складів.png",
+      "media": "43-altcam-photo.png",
+      "base_post_number": 43,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-167",
+      "scheduled_at": "2026-11-08T14:20:00+03:00",
+      "title": "Світло зникло? Зв’язок і заряд мають залишатися",
+      "source_image": "Повербанки.png",
+      "media": "12-altcam-photo.png",
+      "base_post_number": 12,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-168",
+      "scheduled_at": "2026-11-08T19:30:00+03:00",
+      "title": "Безпека об’єкта починається з правильно підібраної системи",
+      "source_image": "ALT-CAM Security UA.png",
+      "media": "29-alt-cam-security-ua.png",
+      "base_post_number": 29,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-169",
+      "scheduled_at": "2026-11-09T09:10:00+03:00",
+      "title": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем",
+      "source_image": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем Алиса.png",
+      "media": "46-alt-cam-security-ua.png",
+      "base_post_number": 46,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-170",
+      "scheduled_at": "2026-11-09T14:20:00+03:00",
+      "title": "Контроль доступу нового рівня — без зайвих ключів і складних рішень",
+      "source_image": "Контроль доступу нового рівня.png",
+      "media": "15-altcam-photo.png",
+      "base_post_number": 15,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-171",
+      "scheduled_at": "2026-11-09T19:30:00+03:00",
+      "title": "Контроль доступу до двору під ключ — порядок, безпека та зручність для мешканців",
+      "source_image": "Контроль доступу до двору під ключ.png",
+      "media": "32-altcam-photo.png",
+      "base_post_number": 32,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-172",
+      "scheduled_at": "2026-11-10T09:10:00+03:00",
+      "title": "Хочете контролювати будинок або бізнес, навіть коли вас немає поруч?",
+      "source_image": "Dahua IP-2M-2OUT-Pro.png",
+      "media": "01-dahua-ip-2m-2out-pro.png",
+      "base_post_number": 1,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-173",
+      "scheduled_at": "2026-11-10T14:20:00+03:00",
+      "title": "Потрібен стабільний Wi-Fi просто неба?",
+      "source_image": "Потрібен стабільний Wi-Fi просто неба.png",
+      "media": "18-wi-fi.png",
+      "base_post_number": 18,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-174",
+      "scheduled_at": "2026-11-10T19:30:00+03:00",
+      "title": "Відеоспостереження у ліфтах — більше безпеки для всього будинку",
+      "source_image": "Відеоспостереження у ліфтах.png",
+      "media": "35-altcam-photo.png",
+      "base_post_number": 35,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-175",
+      "scheduled_at": "2026-11-11T09:10:00+03:00",
+      "title": "Потрібно передати інтернет між двома будівлями без прокладання кабелю?",
+      "source_image": "MikroTik SXTsq Lite5 (RBSXTsq5nD).png",
+      "media": "04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png",
+      "base_post_number": 4,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-176",
+      "scheduled_at": "2026-11-11T14:20:00+03:00",
+      "title": "Стабільна мережа починається з правильного кабелю",
+      "source_image": "Кабелі «Одескабель».png",
+      "media": "21-altcam-photo.png",
+      "base_post_number": 21,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-177",
+      "scheduled_at": "2026-11-11T19:30:00+03:00",
+      "title": "Контроль доступу та облік робочого часу на складі",
+      "source_image": "Контроль доступу та облік робочого часу на складі.png",
+      "media": "38-altcam-photo.png",
+      "base_post_number": 38,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-178",
+      "scheduled_at": "2026-11-12T09:10:00+03:00",
+      "title": "Потрібно передати Ethernet по оптоволокну на відстань до 20 км?",
+      "source_image": "ALISTAR mini 100BASE-FX 1SM WDM SC.png",
+      "media": "07-alistar-mini-100base-fx-1sm-wdm-sc.png",
+      "base_post_number": 7,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-179",
+      "scheduled_at": "2026-11-12T14:20:00+03:00",
+      "title": "Оптична лінія починається з правильного кабелю",
+      "source_image": "Оптична лінія.png",
+      "media": "24-altcam-photo.png",
+      "base_post_number": 24,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-180",
+      "scheduled_at": "2026-11-12T19:30:00+03:00",
+      "title": "Прокладання, зварювання та тестування оптичних ліній",
+      "source_image": "Прокладання, зварювання та тестування оптичних ліній.png",
+      "media": "41-altcam-photo.png",
+      "base_post_number": 41,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-181",
+      "scheduled_at": "2026-11-13T09:10:00+03:00",
+      "title": "Сонце, мережа чи акумулятор — COVAX готовий до будь-якого сценарію",
+      "source_image": "COVAX CV-PS-3200-24V.png",
+      "media": "10-covax-cv-ps-3200-24v.png",
+      "base_post_number": 10,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-182",
+      "scheduled_at": "2026-11-13T14:20:00+03:00",
+      "title": "Якісний монтаж починається з правильних дрібниць",
+      "source_image": "Якісний монтаж.png",
+      "media": "27-altcam-photo.png",
+      "base_post_number": 27,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-183",
+      "scheduled_at": "2026-11-13T19:30:00+03:00",
+      "title": "Сонячні панелі та резервне живлення — енергія, яка працює на вас",
+      "source_image": "Сонячні панелі та резервне живлення.png",
+      "media": "44-altcam-photo.png",
+      "base_post_number": 44,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-184",
+      "scheduled_at": "2026-11-14T09:10:00+03:00",
+      "title": "Потрібна камера, яка дозволяє точно налаштувати зону контролю?",
+      "source_image": "варіофокальні IP-камери Ajax HLVF.png",
+      "media": "13-ip-ajax-hlvf.png",
+      "base_post_number": 13,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-185",
+      "scheduled_at": "2026-11-14T14:20:00+03:00",
+      "title": "Надійна мережа починається не лише з кабелю",
+      "source_image": "Надійна мережа.png",
+      "media": "30-altcam-photo.png",
+      "base_post_number": 30,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-186",
+      "scheduled_at": "2026-11-14T19:30:00+03:00",
+      "title": "ALT-CAM Security UA — обладнання для безпеки, мереж та резервного живлення",
+      "source_image": "ALT-CAM Security UA — обладнання для безпеки, мереж та резервного живлення.png",
+      "media": "47-alt-cam-security-ua.png",
+      "base_post_number": 47,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-187",
+      "scheduled_at": "2026-11-15T09:10:00+03:00",
+      "title": "Енергія під контролем — від будинку до бізнесу",
+      "source_image": "Енергія під контролем.png",
+      "media": "16-altcam-photo.png",
+      "base_post_number": 16,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-188",
+      "scheduled_at": "2026-11-15T14:20:00+03:00",
+      "title": "Комплексний захист будинку з Ajax під ключ",
+      "source_image": "Комплексний захист будинку з Ajax під ключ.png",
+      "media": "33-ajax.png",
+      "base_post_number": 33,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-189",
+      "scheduled_at": "2026-11-15T19:30:00+03:00",
+      "title": "Один вхід — до 9 999 абонентів",
+      "source_image": "NeoLight NL-HPC 03.png",
+      "media": "02-neolight-nl-hpc-03.png",
+      "base_post_number": 2,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-190",
+      "scheduled_at": "2026-11-16T09:10:00+03:00",
+      "title": "Коли основне живлення зникає — резерв має підключитися автоматично",
+      "source_image": "Автомат введення резерву (АВР).png",
+      "media": "19-altcam-photo.png",
+      "base_post_number": 19,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-191",
+      "scheduled_at": "2026-11-16T14:20:00+03:00",
+      "title": "Відеоспостереження для СТО — контроль сервісу, персоналу та автомобілів 24/7",
+      "source_image": "Відеоспостереження для СТО.png",
+      "media": "36-altcam-photo.png",
+      "base_post_number": 36,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-192",
+      "scheduled_at": "2026-11-16T19:30:00+03:00",
+      "title": "Мережеве обладнання «живе» на полицях і заважає порядку?",
+      "source_image": "IPCOM 6U 600×450.png",
+      "media": "05-ipcom-6u-600450.png",
+      "base_post_number": 5,
+      "repeat_round": 4
+    },
+    {
+      "id": "photo-pub-2026-09-193",
+      "scheduled_at": "2026-11-17T09:10:00+03:00",
+      "title": "Безпека об’єкта починається з правильно підібраної системи",
+      "source_image": "ALT-CAM Security UA.png",
+      "media": "29-alt-cam-security-ua.png",
+      "base_post_number": 29,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-194",
+      "scheduled_at": "2026-11-17T14:20:00+03:00",
+      "title": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем",
+      "source_image": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем Алиса.png",
+      "media": "46-alt-cam-security-ua.png",
+      "base_post_number": 46,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-195",
+      "scheduled_at": "2026-11-17T19:30:00+03:00",
+      "title": "Контроль доступу нового рівня — без зайвих ключів і складних рішень",
+      "source_image": "Контроль доступу нового рівня.png",
+      "media": "15-altcam-photo.png",
+      "base_post_number": 15,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-196",
+      "scheduled_at": "2026-11-18T09:10:00+03:00",
+      "title": "Контроль доступу до двору під ключ — порядок, безпека та зручність для мешканців",
+      "source_image": "Контроль доступу до двору під ключ.png",
+      "media": "32-altcam-photo.png",
+      "base_post_number": 32,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-197",
+      "scheduled_at": "2026-11-18T14:20:00+03:00",
+      "title": "Хочете контролювати будинок або бізнес, навіть коли вас немає поруч?",
+      "source_image": "Dahua IP-2M-2OUT-Pro.png",
+      "media": "01-dahua-ip-2m-2out-pro.png",
+      "base_post_number": 1,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-198",
+      "scheduled_at": "2026-11-18T19:30:00+03:00",
+      "title": "Потрібен стабільний Wi-Fi просто неба?",
+      "source_image": "Потрібен стабільний Wi-Fi просто неба.png",
+      "media": "18-wi-fi.png",
+      "base_post_number": 18,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-199",
+      "scheduled_at": "2026-11-19T09:10:00+03:00",
+      "title": "Відеоспостереження у ліфтах — більше безпеки для всього будинку",
+      "source_image": "Відеоспостереження у ліфтах.png",
+      "media": "35-altcam-photo.png",
+      "base_post_number": 35,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-200",
+      "scheduled_at": "2026-11-19T14:20:00+03:00",
+      "title": "Потрібно передати інтернет між двома будівлями без прокладання кабелю?",
+      "source_image": "MikroTik SXTsq Lite5 (RBSXTsq5nD).png",
+      "media": "04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png",
+      "base_post_number": 4,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-201",
+      "scheduled_at": "2026-11-19T19:30:00+03:00",
+      "title": "Стабільна мережа починається з правильного кабелю",
+      "source_image": "Кабелі «Одескабель».png",
+      "media": "21-altcam-photo.png",
+      "base_post_number": 21,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-202",
+      "scheduled_at": "2026-11-20T09:10:00+03:00",
+      "title": "Контроль доступу та облік робочого часу на складі",
+      "source_image": "Контроль доступу та облік робочого часу на складі.png",
+      "media": "38-altcam-photo.png",
+      "base_post_number": 38,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-203",
+      "scheduled_at": "2026-11-20T14:20:00+03:00",
+      "title": "Потрібно передати Ethernet по оптоволокну на відстань до 20 км?",
+      "source_image": "ALISTAR mini 100BASE-FX 1SM WDM SC.png",
+      "media": "07-alistar-mini-100base-fx-1sm-wdm-sc.png",
+      "base_post_number": 7,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-204",
+      "scheduled_at": "2026-11-20T19:30:00+03:00",
+      "title": "Оптична лінія починається з правильного кабелю",
+      "source_image": "Оптична лінія.png",
+      "media": "24-altcam-photo.png",
+      "base_post_number": 24,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-205",
+      "scheduled_at": "2026-11-21T09:10:00+03:00",
+      "title": "Прокладання, зварювання та тестування оптичних ліній",
+      "source_image": "Прокладання, зварювання та тестування оптичних ліній.png",
+      "media": "41-altcam-photo.png",
+      "base_post_number": 41,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-206",
+      "scheduled_at": "2026-11-21T14:20:00+03:00",
+      "title": "Сонце, мережа чи акумулятор — COVAX готовий до будь-якого сценарію",
+      "source_image": "COVAX CV-PS-3200-24V.png",
+      "media": "10-covax-cv-ps-3200-24v.png",
+      "base_post_number": 10,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-207",
+      "scheduled_at": "2026-11-21T19:30:00+03:00",
+      "title": "Якісний монтаж починається з правильних дрібниць",
+      "source_image": "Якісний монтаж.png",
+      "media": "27-altcam-photo.png",
+      "base_post_number": 27,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-208",
+      "scheduled_at": "2026-11-22T09:10:00+03:00",
+      "title": "Сонячні панелі та резервне живлення — енергія, яка працює на вас",
+      "source_image": "Сонячні панелі та резервне живлення.png",
+      "media": "44-altcam-photo.png",
+      "base_post_number": 44,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-209",
+      "scheduled_at": "2026-11-22T14:20:00+03:00",
+      "title": "Потрібна камера, яка дозволяє точно налаштувати зону контролю?",
+      "source_image": "варіофокальні IP-камери Ajax HLVF.png",
+      "media": "13-ip-ajax-hlvf.png",
+      "base_post_number": 13,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-210",
+      "scheduled_at": "2026-11-22T19:30:00+03:00",
+      "title": "Надійна мережа починається не лише з кабелю",
+      "source_image": "Надійна мережа.png",
+      "media": "30-altcam-photo.png",
+      "base_post_number": 30,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-211",
+      "scheduled_at": "2026-11-23T09:10:00+03:00",
+      "title": "ALT-CAM Security UA — обладнання для безпеки, мереж та резервного живлення",
+      "source_image": "ALT-CAM Security UA — обладнання для безпеки, мереж та резервного живлення.png",
+      "media": "47-alt-cam-security-ua.png",
+      "base_post_number": 47,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-212",
+      "scheduled_at": "2026-11-23T14:20:00+03:00",
+      "title": "Енергія під контролем — від будинку до бізнесу",
+      "source_image": "Енергія під контролем.png",
+      "media": "16-altcam-photo.png",
+      "base_post_number": 16,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-213",
+      "scheduled_at": "2026-11-23T19:30:00+03:00",
+      "title": "Комплексний захист будинку з Ajax під ключ",
+      "source_image": "Комплексний захист будинку з Ajax під ключ.png",
+      "media": "33-ajax.png",
+      "base_post_number": 33,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-214",
+      "scheduled_at": "2026-11-24T09:10:00+03:00",
+      "title": "Один вхід — до 9 999 абонентів",
+      "source_image": "NeoLight NL-HPC 03.png",
+      "media": "02-neolight-nl-hpc-03.png",
+      "base_post_number": 2,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-215",
+      "scheduled_at": "2026-11-24T14:20:00+03:00",
+      "title": "Коли основне живлення зникає — резерв має підключитися автоматично",
+      "source_image": "Автомат введення резерву (АВР).png",
+      "media": "19-altcam-photo.png",
+      "base_post_number": 19,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-216",
+      "scheduled_at": "2026-11-24T19:30:00+03:00",
+      "title": "Відеоспостереження для СТО — контроль сервісу, персоналу та автомобілів 24/7",
+      "source_image": "Відеоспостереження для СТО.png",
+      "media": "36-altcam-photo.png",
+      "base_post_number": 36,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-217",
+      "scheduled_at": "2026-11-25T09:10:00+03:00",
+      "title": "Мережеве обладнання «живе» на полицях і заважає порядку?",
+      "source_image": "IPCOM 6U 600×450.png",
+      "media": "05-ipcom-6u-600450.png",
+      "base_post_number": 5,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-218",
+      "scheduled_at": "2026-11-25T14:20:00+03:00",
+      "title": "Надійне підключення починається з якісного кабелю",
+      "source_image": "Електричний кабель «Одескабель» ШВВПн.png",
+      "media": "22-altcam-photo.png",
+      "base_post_number": 22,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-219",
+      "scheduled_at": "2026-11-25T19:30:00+03:00",
+      "title": "Бездротовий інтернет для віддалених об’єктів — стабільний зв’язок там, де немає кабелю",
+      "source_image": "Бездротовий інтернет для віддалених об’єктів.png",
+      "media": "39-altcam-photo.png",
+      "base_post_number": 39,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-220",
+      "scheduled_at": "2026-11-26T09:10:00+03:00",
+      "title": "Набридли звичайні ключі? Перейдіть на сучасний контроль доступу",
+      "source_image": "SEVEN LOCK SL-7708F.png",
+      "media": "08-seven-lock-sl-7708f.png",
+      "base_post_number": 8,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-221",
+      "scheduled_at": "2026-11-26T14:20:00+03:00",
+      "title": "Кабель — це основа стабільної роботи всієї системи",
+      "source_image": "Кабель — це основа.png",
+      "media": "25-altcam-photo.png",
+      "base_post_number": 25,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-222",
+      "scheduled_at": "2026-11-26T19:30:00+03:00",
+      "title": "Резервне живлення для квартири — світло, інтернет і комфорт навіть під час відключень",
+      "source_image": "Резервне живлення для квартири.png",
+      "media": "42-altcam-photo.png",
+      "base_post_number": 42,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-223",
+      "scheduled_at": "2026-11-27T09:10:00+03:00",
+      "title": "Відео та зв’язок у ліфті — без зайвого кабелю",
+      "source_image": "Hikvision DS-3WF0EC-2NT.png",
+      "media": "11-hikvision-ds-3wf0ec-2nt.png",
+      "base_post_number": 11,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-224",
+      "scheduled_at": "2026-11-27T14:20:00+03:00",
+      "title": "Надійне з’єднання починається з правильної ізоляції",
+      "source_image": "Надійне з’єднання.png",
+      "media": "28-altcam-photo.png",
+      "base_post_number": 28,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-225",
+      "scheduled_at": "2026-11-27T19:30:00+03:00",
+      "title": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем",
+      "source_image": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем.png",
+      "media": "45-alt-cam-security-ua.png",
+      "base_post_number": 45,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-226",
+      "scheduled_at": "2026-11-28T09:10:00+03:00",
+      "title": "Світло зникло — інтернет має залишатися",
+      "source_image": "MINI UPS.png",
+      "media": "14-mini-ups.png",
+      "base_post_number": 14,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-227",
+      "scheduled_at": "2026-11-28T14:20:00+03:00",
+      "title": "Відеодомофон під ключ — безпека та контроль доступу для вашого дому",
+      "source_image": "Відеодомофон під ключ.png",
+      "media": "31-altcam-photo.png",
+      "base_post_number": 31,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-228",
+      "scheduled_at": "2026-11-28T19:30:00+03:00",
+      "title": "ALT-CAM Security UA — комплексні рішення під ваш об’єкт",
+      "source_image": "ChatGPT Image 12 сент. 2026 г., 17_19_23 (2).png",
+      "media": "48-chatgpt-image-12-2026-17-19-23-2.png",
+      "base_post_number": 48,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-229",
+      "scheduled_at": "2026-11-29T09:10:00+03:00",
+      "title": "Надійний захист для обладнання — у приміщенні та на вулиці",
+      "source_image": "Ударостійкі бокси з ABS-пластику IP65.png",
+      "media": "17-abs-ip65.png",
+      "base_post_number": 17,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-230",
+      "scheduled_at": "2026-11-29T14:20:00+03:00",
+      "title": "Відеоспостереження для квартири — спокій, навіть коли вас немає вдома",
+      "source_image": "Відеоспостереження для квартири.png",
+      "media": "34-altcam-photo.png",
+      "base_post_number": 34,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-231",
+      "scheduled_at": "2026-11-29T19:30:00+03:00",
+      "title": "Відкривайте двері та контролюйте вхід навіть коли вас немає вдома",
+      "source_image": "Комплект NeoLight Kappa+ HD WF + Solo FHD + microSD 128 ГБ + Atis Lock SS.png",
+      "media": "03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png",
+      "base_post_number": 3,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-232",
+      "scheduled_at": "2026-11-30T09:10:00+03:00",
+      "title": "Загоряння може початися за секунди. Захист має спрацювати ще швидше.",
+      "source_image": "Загоряння може початися за секунди..png",
+      "media": "20-altcam-photo.png",
+      "base_post_number": 20,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-233",
+      "scheduled_at": "2026-11-30T14:20:00+03:00",
+      "title": "Відеоспостереження для малого бізнесу — усе важливе під контролем",
+      "source_image": "Відеоспостереження для малого бізнесу.png",
+      "media": "37-altcam-photo.png",
+      "base_post_number": 37,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-234",
+      "scheduled_at": "2026-11-30T19:30:00+03:00",
+      "title": "Потрібно підключити мережеве обладнання через оптоволокно?",
+      "source_image": "MikroTik S-35LC20D S-3553LC20D.png",
+      "media": "06-mikrotik-s-35lc20d-s-3553lc20d.png",
+      "base_post_number": 6,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-235",
+      "scheduled_at": "2026-12-01T09:10:00+03:00",
+      "title": "Надійний кабель для електромонтажу — Одескабель ПВСм",
+      "source_image": "Одескабель ПВСм.png",
+      "media": "23-altcam-photo.png",
+      "base_post_number": 23,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-236",
+      "scheduled_at": "2026-12-01T14:20:00+03:00",
+      "title": "Кабельна інфраструктура для офісу та кол-центру під ключ",
+      "source_image": "Кабельна інфраструктура для офісу.png",
+      "media": "40-altcam-photo.png",
+      "base_post_number": 40,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-237",
+      "scheduled_at": "2026-12-01T19:30:00+03:00",
+      "title": "Немає Wi-Fi? Немає розетки? Відеоспостереження все одно можливе",
+      "source_image": "Dahua APOLLO BP3EW-4G.png",
+      "media": "09-dahua-apollo-bp3ew-4g.png",
+      "base_post_number": 9,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-238",
+      "scheduled_at": "2026-12-02T09:10:00+03:00",
+      "title": "Оптичні аксесуари — усе необхідне для якісного зварювання, підключення та обслуговування ВОЛЗ",
+      "source_image": "Оптичні аксесуари.png",
+      "media": "26-altcam-photo.png",
+      "base_post_number": 26,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-239",
+      "scheduled_at": "2026-12-02T14:20:00+03:00",
+      "title": "Резервне живлення для офісів, магазинів і складів — бізнес працює навіть під час відключень",
+      "source_image": "Резервне живлення для офісів, магазинів і складів.png",
+      "media": "43-altcam-photo.png",
+      "base_post_number": 43,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-240",
+      "scheduled_at": "2026-12-02T19:30:00+03:00",
+      "title": "Світло зникло? Зв’язок і заряд мають залишатися",
+      "source_image": "Повербанки.png",
+      "media": "12-altcam-photo.png",
+      "base_post_number": 12,
+      "repeat_round": 5
+    },
+    {
+      "id": "photo-pub-2026-09-241",
+      "scheduled_at": "2026-12-03T09:10:00+03:00",
+      "title": "Відеоспостереження для СТО — контроль сервісу, персоналу та автомобілів 24/7",
+      "source_image": "Відеоспостереження для СТО.png",
+      "media": "36-altcam-photo.png",
+      "base_post_number": 36,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-242",
+      "scheduled_at": "2026-12-03T14:20:00+03:00",
+      "title": "Мережеве обладнання «живе» на полицях і заважає порядку?",
+      "source_image": "IPCOM 6U 600×450.png",
+      "media": "05-ipcom-6u-600450.png",
+      "base_post_number": 5,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-243",
+      "scheduled_at": "2026-12-03T19:30:00+03:00",
+      "title": "Надійне підключення починається з якісного кабелю",
+      "source_image": "Електричний кабель «Одескабель» ШВВПн.png",
+      "media": "22-altcam-photo.png",
+      "base_post_number": 22,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-244",
+      "scheduled_at": "2026-12-04T09:10:00+03:00",
+      "title": "Бездротовий інтернет для віддалених об’єктів — стабільний зв’язок там, де немає кабелю",
+      "source_image": "Бездротовий інтернет для віддалених об’єктів.png",
+      "media": "39-altcam-photo.png",
+      "base_post_number": 39,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-245",
+      "scheduled_at": "2026-12-04T14:20:00+03:00",
+      "title": "Набридли звичайні ключі? Перейдіть на сучасний контроль доступу",
+      "source_image": "SEVEN LOCK SL-7708F.png",
+      "media": "08-seven-lock-sl-7708f.png",
+      "base_post_number": 8,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-246",
+      "scheduled_at": "2026-12-04T19:30:00+03:00",
+      "title": "Кабель — це основа стабільної роботи всієї системи",
+      "source_image": "Кабель — це основа.png",
+      "media": "25-altcam-photo.png",
+      "base_post_number": 25,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-247",
+      "scheduled_at": "2026-12-05T09:10:00+03:00",
+      "title": "Резервне живлення для квартири — світло, інтернет і комфорт навіть під час відключень",
+      "source_image": "Резервне живлення для квартири.png",
+      "media": "42-altcam-photo.png",
+      "base_post_number": 42,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-248",
+      "scheduled_at": "2026-12-05T14:20:00+03:00",
+      "title": "Відео та зв’язок у ліфті — без зайвого кабелю",
+      "source_image": "Hikvision DS-3WF0EC-2NT.png",
+      "media": "11-hikvision-ds-3wf0ec-2nt.png",
+      "base_post_number": 11,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-249",
+      "scheduled_at": "2026-12-05T19:30:00+03:00",
+      "title": "Надійне з’єднання починається з правильної ізоляції",
+      "source_image": "Надійне з’єднання.png",
+      "media": "28-altcam-photo.png",
+      "base_post_number": 28,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-250",
+      "scheduled_at": "2026-12-06T09:10:00+03:00",
+      "title": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем",
+      "source_image": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем.png",
+      "media": "45-alt-cam-security-ua.png",
+      "base_post_number": 45,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-251",
+      "scheduled_at": "2026-12-06T14:20:00+03:00",
+      "title": "Світло зникло — інтернет має залишатися",
+      "source_image": "MINI UPS.png",
+      "media": "14-mini-ups.png",
+      "base_post_number": 14,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-252",
+      "scheduled_at": "2026-12-06T19:30:00+03:00",
+      "title": "Відеодомофон під ключ — безпека та контроль доступу для вашого дому",
+      "source_image": "Відеодомофон під ключ.png",
+      "media": "31-altcam-photo.png",
+      "base_post_number": 31,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-253",
+      "scheduled_at": "2026-12-07T09:10:00+03:00",
+      "title": "ALT-CAM Security UA — комплексні рішення під ваш об’єкт",
+      "source_image": "ChatGPT Image 12 сент. 2026 г., 17_19_23 (2).png",
+      "media": "48-chatgpt-image-12-2026-17-19-23-2.png",
+      "base_post_number": 48,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-254",
+      "scheduled_at": "2026-12-07T14:20:00+03:00",
+      "title": "Надійний захист для обладнання — у приміщенні та на вулиці",
+      "source_image": "Ударостійкі бокси з ABS-пластику IP65.png",
+      "media": "17-abs-ip65.png",
+      "base_post_number": 17,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-255",
+      "scheduled_at": "2026-12-07T19:30:00+03:00",
+      "title": "Відеоспостереження для квартири — спокій, навіть коли вас немає вдома",
+      "source_image": "Відеоспостереження для квартири.png",
+      "media": "34-altcam-photo.png",
+      "base_post_number": 34,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-256",
+      "scheduled_at": "2026-12-08T09:10:00+03:00",
+      "title": "Відкривайте двері та контролюйте вхід навіть коли вас немає вдома",
+      "source_image": "Комплект NeoLight Kappa+ HD WF + Solo FHD + microSD 128 ГБ + Atis Lock SS.png",
+      "media": "03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png",
+      "base_post_number": 3,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-257",
+      "scheduled_at": "2026-12-08T14:20:00+03:00",
+      "title": "Загоряння може початися за секунди. Захист має спрацювати ще швидше.",
+      "source_image": "Загоряння може початися за секунди..png",
+      "media": "20-altcam-photo.png",
+      "base_post_number": 20,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-258",
+      "scheduled_at": "2026-12-08T19:30:00+03:00",
+      "title": "Відеоспостереження для малого бізнесу — усе важливе під контролем",
+      "source_image": "Відеоспостереження для малого бізнесу.png",
+      "media": "37-altcam-photo.png",
+      "base_post_number": 37,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-259",
+      "scheduled_at": "2026-12-09T09:10:00+03:00",
+      "title": "Потрібно підключити мережеве обладнання через оптоволокно?",
+      "source_image": "MikroTik S-35LC20D S-3553LC20D.png",
+      "media": "06-mikrotik-s-35lc20d-s-3553lc20d.png",
+      "base_post_number": 6,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-260",
+      "scheduled_at": "2026-12-09T14:20:00+03:00",
+      "title": "Надійний кабель для електромонтажу — Одескабель ПВСм",
+      "source_image": "Одескабель ПВСм.png",
+      "media": "23-altcam-photo.png",
+      "base_post_number": 23,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-261",
+      "scheduled_at": "2026-12-09T19:30:00+03:00",
+      "title": "Кабельна інфраструктура для офісу та кол-центру під ключ",
+      "source_image": "Кабельна інфраструктура для офісу.png",
+      "media": "40-altcam-photo.png",
+      "base_post_number": 40,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-262",
+      "scheduled_at": "2026-12-10T09:10:00+03:00",
+      "title": "Немає Wi-Fi? Немає розетки? Відеоспостереження все одно можливе",
+      "source_image": "Dahua APOLLO BP3EW-4G.png",
+      "media": "09-dahua-apollo-bp3ew-4g.png",
+      "base_post_number": 9,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-263",
+      "scheduled_at": "2026-12-10T14:20:00+03:00",
+      "title": "Оптичні аксесуари — усе необхідне для якісного зварювання, підключення та обслуговування ВОЛЗ",
+      "source_image": "Оптичні аксесуари.png",
+      "media": "26-altcam-photo.png",
+      "base_post_number": 26,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-264",
+      "scheduled_at": "2026-12-10T19:30:00+03:00",
+      "title": "Резервне живлення для офісів, магазинів і складів — бізнес працює навіть під час відключень",
+      "source_image": "Резервне живлення для офісів, магазинів і складів.png",
+      "media": "43-altcam-photo.png",
+      "base_post_number": 43,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-265",
+      "scheduled_at": "2026-12-11T09:10:00+03:00",
+      "title": "Світло зникло? Зв’язок і заряд мають залишатися",
+      "source_image": "Повербанки.png",
+      "media": "12-altcam-photo.png",
+      "base_post_number": 12,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-266",
+      "scheduled_at": "2026-12-11T14:20:00+03:00",
+      "title": "Безпека об’єкта починається з правильно підібраної системи",
+      "source_image": "ALT-CAM Security UA.png",
+      "media": "29-alt-cam-security-ua.png",
+      "base_post_number": 29,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-267",
+      "scheduled_at": "2026-12-11T19:30:00+03:00",
+      "title": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем",
+      "source_image": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем Алиса.png",
+      "media": "46-alt-cam-security-ua.png",
+      "base_post_number": 46,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-268",
+      "scheduled_at": "2026-12-12T09:10:00+03:00",
+      "title": "Контроль доступу нового рівня — без зайвих ключів і складних рішень",
+      "source_image": "Контроль доступу нового рівня.png",
+      "media": "15-altcam-photo.png",
+      "base_post_number": 15,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-269",
+      "scheduled_at": "2026-12-12T14:20:00+03:00",
+      "title": "Контроль доступу до двору під ключ — порядок, безпека та зручність для мешканців",
+      "source_image": "Контроль доступу до двору під ключ.png",
+      "media": "32-altcam-photo.png",
+      "base_post_number": 32,
+      "repeat_round": 6
+    },
+    {
+      "id": "photo-pub-2026-09-270",
+      "scheduled_at": "2026-12-12T19:30:00+03:00",
+      "title": "Хочете контролювати будинок або бізнес, навіть коли вас немає поруч?",
+      "source_image": "Dahua IP-2M-2OUT-Pro.png",
+      "media": "01-dahua-ip-2m-2out-pro.png",
+      "base_post_number": 1,
+      "repeat_round": 6
+    }
+  ]
+}
