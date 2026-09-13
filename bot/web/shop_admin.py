@@ -21,6 +21,7 @@ from bot.config import get_settings
 from bot.db.base import SessionLocal
 from bot.db.models import AdminAuditLog, AdminAuthToken, AdminUser, AnalyticsEvent, PriceOverride, WebOrder
 from bot.integrations.order_fulfillment import (
+    DriveRelayError,
     IntegrationNotConfigured,
     delete_drive_folder,
     ensure_order_drive_folder,
@@ -612,6 +613,9 @@ async def create_drive_folder(request: web.Request) -> web.Response:
             folder_url = await ensure_order_drive_folder(order)
         except IntegrationNotConfigured as exc:
             return web.json_response({"ok": False, "error": str(exc)}, status=503)
+        except DriveRelayError as exc:
+            logger.warning("drive_folder_relay_failed order=%s error=%s", order.order_number, exc)
+            return web.json_response({"ok": False, "error": str(exc)}, status=502)
         except Exception:
             logger.exception("drive_folder_failed order=%s", order.order_number)
             return web.json_response({"ok": False, "error": "drive_folder_failed"}, status=502)

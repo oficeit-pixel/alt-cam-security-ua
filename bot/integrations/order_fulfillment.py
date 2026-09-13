@@ -21,6 +21,10 @@ class IntegrationNotConfigured(RuntimeError):
     pass
 
 
+class DriveRelayError(RuntimeError):
+    pass
+
+
 ORDER_PATTERN = re.compile(r"\bWEB-\d{8}-[A-F0-9]{6}\b", re.I)
 DRIVE_FOLDER_RELAY_URL = (
     "https://script.google.com/macros/s/"
@@ -226,8 +230,15 @@ async def ensure_order_drive_folder(order: Any) -> str:
         async with ClientSession() as client:
             async with client.post(DRIVE_FOLDER_RELAY_URL, json=payload, timeout=30) as response:
                 result = await response.json(content_type=None)
-                if response.status >= 400 or result.get("status") != "success" or not result.get("url"):
-                    raise RuntimeError("drive_folder_relay_failed")
+                if response.status >= 400:
+                    raise DriveRelayError("drive_relay_http_error")
+                if result.get("status") != "success" or not result.get("url"):
+                    message = str(result.get("message") or "")
+                    if message == "unauthorized":
+                        raise DriveRelayError("drive_relay_unauthorized")
+                    if message == "invalid_drive_path":
+                        raise DriveRelayError("drive_relay_invalid_path")
+                    raise DriveRelayError("drive_relay_access_error")
         return str(result["url"])
 
 
