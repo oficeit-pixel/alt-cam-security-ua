@@ -30,6 +30,7 @@ DRIVE_FOLDER_RELAY_URL = (
     "https://script.google.com/macros/s/"
     "AKfycbxHsr5r57pmw6qlEDP7r-9KndLyxTL0lgAPnUNCQw3cXPp0gXW0skwf10MLz_zuKeNJ/exec"
 )
+ALT_CAM_DRIVE_ROOT_ID = "1ji_xMy1Jtq1Zg3wgXkhkdpP0eTnR8XTc"
 TRACK_PATTERNS = (
     re.compile(r"\b[A-Z]{2}\d{9}UA\b", re.I),
     re.compile(r"\b\d{12,18}\b"),
@@ -209,7 +210,7 @@ async def ensure_order_drive_folder(order: Any) -> str:
         _safe_folder_name(f"{client_name}-{client_phone}", "Клієнт"),
         _safe_folder_name(order.order_number, "Замовлення"),
     ]
-    parent_id = settings.google_drive_folder_id
+    parent_id = ALT_CAM_DRIVE_ROOT_ID
     try:
         async with Aiogoogle(service_account_creds=credentials) as aiogoogle:
             drive = await aiogoogle.discover("drive", "v3")
@@ -224,7 +225,7 @@ async def ensure_order_drive_folder(order: Any) -> str:
         payload = {
             "kind": "drive_folder",
             "secret": settings.email_relay_secret,
-            "root_folder_id": settings.google_drive_folder_id,
+            "root_folder_id": ALT_CAM_DRIVE_ROOT_ID,
             "path": path,
         }
         async with ClientSession() as client:
