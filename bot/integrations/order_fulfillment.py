@@ -2,6 +2,8 @@ import imaplib
 import json
 import logging
 import re
+import tempfile
+from html import escape
 from pathlib import Path
 from datetime import datetime, timezone
 from email import message_from_bytes
@@ -195,6 +197,64 @@ async def _drive_folder(aiogoogle: Aiogoogle, drive: Any, parent_id: str, name: 
     )
 
 
+def _order_documents(order: Any) -> dict[str, str]:
+    number = str(order.order_number or "Замовлення")[:64]
+    customer = order.customer or {}
+    delivery = order.delivery or {}
+    items = order.items or []
+    rows = "".join(
+        "<tr><td>{}</td><td>{}</td><td>{:,.2f}</td><td>{:,.2f}</td></tr>".format(
+            escape(str(item.get("name") or "")),
+            max(1, int(item.get("quantity") or 1)),
+            float(item.get("price") or 0),
+            float(item.get("price") or 0) * max(1, int(item.get("quantity") or 1)),
+        )
+        for item in items[:100]
+    )
+    style = "<style>body{font:14px Arial,sans-serif;color:#17171a;max-width:900px;margin:32px auto}h1{border-bottom:4px solid #ffcc00;padding-bottom:12px}table{width:100%;border-collapse:collapse;margin-top:20px}th,td{border:1px solid #ddd;padding:10px;text-align:left}th{background:#17171a;color:#ffcc00}.total{font-size:20px;font-weight:700;text-align:right;margin-top:18px}</style>"
+    details = (
+        f"<p><b>Клієнт:</b> {escape(str(customer.get('name') or ''))}</p>"
+        f"<p><b>Телефон:</b> {escape(str(customer.get('phone') or ''))}</p>"
+        f"<p><b>Email:</b> {escape(str(customer.get('email') or ''))}</p>"
+        f"<p><b>Доставка:</b> {escape(str(delivery.get('label') or delivery.get('type') or ''))}; "
+        f"{escape(str(delivery.get('city') or ''))}; {escape(str(delivery.get('place') or ''))}</p>"
+    )
+    table = f"<table><thead><tr><th>Найменування</th><th>Кількість</th><th>Ціна</th><th>Сума</th></tr></thead><tbody>{rows}</tbody></table>"
+    total = f"<p class=\"total\">Разом: {float(order.subtotal or 0):,.2f} грн</p>"
+    prefix = '<!doctype html><meta charset="utf-8">'
+    return {
+        f"Картка замовлення {number}.html": f"{prefix}{style}<h1>Картка замовлення {escape(number)}</h1>{details}{table}{total}",
+        f"Рахунок {number}.html": f"{prefix}{style}<h1>Рахунок {escape(number)}</h1><p>ALT-CAM Security UA</p>{details}{table}{total}<p>Остаточна сума та реквізити підтверджуються менеджером перед оплатою.</p>",
+    }
+
+
+async def _drive_upsert_html(aiogoogle: Aiogoogle, drive: Any, folder_id: str, name: str, content: str) -> None:
+    query = (
+        f"'{_drive_query_value(folder_id)}' in parents and "
+        f"name = '{_drive_query_value(name)}' and trashed = false"
+    )
+    found = await aiogoogle.as_service_account(
+        drive.files.list(q=query, fields="files(id)", pageSize=1, supportsAllDrives=True, includeItemsFromAllDrives=True)
+    )
+    files = found.get("files", []) if isinstance(found, dict) else []
+    with tempfile.NamedTemporaryFile("w", suffix=".html", encoding="utf-8", delete=False) as stream:
+        stream.write(content)
+        path = stream.name
+    try:
+        if files:
+            request = drive.files.update(fileId=files[0]["id"], upload_file=path, supportsAllDrives=True)
+        else:
+            request = drive.files.create(
+                json={"name": name, "mimeType": "text/html", "parents": [folder_id]},
+                upload_file=path,
+                fields="id",
+                supportsAllDrives=True,
+            )
+        await aiogoogle.as_service_account(request)
+    finally:
+        Path(path).unlink(missing_ok=True)
+
+
 async def ensure_order_drive_folder(order: Any) -> str:
     settings = get_settings()
     if not settings.google_drive_folder_id:
@@ -258,6 +318,8 @@ async def ensure_order_drive_folder(order: Any) -> str:
         for name in path:
             folder = await _drive_folder(aiogoogle, drive, parent_id, name)
             parent_id = folder["id"]
+        for name, content in _order_documents(order).items():
+            await _drive_upsert_html(aiogoogle, drive, parent_id, name, content)
     return folder.get("webViewLink") or f"https://drive.google.com/drive/folders/{parent_id}"
 
 
