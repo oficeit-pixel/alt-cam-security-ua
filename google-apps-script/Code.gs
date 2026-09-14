@@ -109,7 +109,42 @@ function createDriveFolder_(data) {
     const existing = folder.getFoldersByName(name);
     folder = existing.hasNext() ? existing.next() : folder.createFolder(name);
   });
+  if (data.order && typeof data.order === 'object') {
+    writeOrderFiles_(folder, data.order);
+  }
   return jsonResponse_({ status: 'success', url: folder.getUrl() });
+}
+
+function writeOrderFiles_(folder, order) {
+  const number = String(order.number || 'Замовлення').slice(0, 64);
+  const customer = order.customer || {};
+  const delivery = order.delivery || {};
+  const items = Array.isArray(order.items) ? order.items.slice(0, 100) : [];
+  const rows = items.map((item) => {
+    const quantity = Math.max(1, Number(item.quantity) || 1);
+    const price = Number(item.price) || 0;
+    return `<tr><td>${html_(item.name)}</td><td>${quantity}</td><td>${money_(price)}</td><td>${money_(price * quantity)}</td></tr>`;
+  }).join('');
+  const style = '<style>body{font:14px Arial,sans-serif;color:#17171a;max-width:900px;margin:32px auto}h1{border-bottom:4px solid #ffcc00;padding-bottom:12px}table{width:100%;border-collapse:collapse;margin-top:20px}th,td{border:1px solid #ddd;padding:10px;text-align:left}th{background:#17171a;color:#ffcc00}.total{font-size:20px;font-weight:700;text-align:right;margin-top:18px}</style>';
+  const details = `<p><b>Клієнт:</b> ${html_(customer.name)}</p><p><b>Телефон:</b> ${html_(customer.phone)}</p><p><b>Email:</b> ${html_(customer.email)}</p><p><b>Доставка:</b> ${html_(delivery.label || delivery.type)}; ${html_(delivery.city)}; ${html_(delivery.place)}</p>`;
+  const table = `<table><thead><tr><th>Найменування</th><th>Кількість</th><th>Ціна</th><th>Сума</th></tr></thead><tbody>${rows}</tbody></table>`;
+  const total = `<p class="total">Разом: ${money_(order.subtotal)} грн</p>`;
+  upsertHtml_(folder, `Картка замовлення ${number}.html`, `<!doctype html><meta charset="utf-8">${style}<h1>Картка замовлення ${html_(number)}</h1>${details}${table}${total}`);
+  upsertHtml_(folder, `Рахунок ${number}.html`, `<!doctype html><meta charset="utf-8">${style}<h1>Рахунок ${html_(number)}</h1><p>ALT-CAM Security UA</p>${details}${table}${total}<p>Остаточна сума та реквізити підтверджуються менеджером перед оплатою.</p>`);
+}
+
+function upsertHtml_(folder, name, content) {
+  const files = folder.getFilesByName(name);
+  while (files.hasNext()) files.next().setTrashed(true);
+  folder.createFile(name, content, MimeType.HTML);
+}
+
+function html_(value) {
+  return String(value == null ? '' : value).replace(/[&<>"']/g, (char) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+}
+
+function money_(value) {
+  return (Number(value) || 0).toFixed(2).replace('.', ',');
 }
 
 function sendEmail_(data) {

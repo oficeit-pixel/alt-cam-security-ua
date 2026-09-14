@@ -607,8 +607,7 @@ async def create_drive_folder(request: web.Request) -> web.Response:
         order = await session.get(WebOrder, int(request.match_info["order_id"]))
         if not order:
             raise web.HTTPNotFound()
-        if order.drive_folder_url:
-            return web.json_response({"ok": True, "url": order.drive_folder_url, "order": serialize_order(order)})
+        previous_url = order.drive_folder_url
         try:
             folder_url = await ensure_order_drive_folder(order)
         except IntegrationNotConfigured as exc:
@@ -621,9 +620,9 @@ async def create_drive_folder(request: web.Request) -> web.Response:
             return web.json_response({"ok": False, "error": "drive_folder_failed"}, status=502)
         order.drive_folder_url = folder_url
         history = list(order.status_history or [])
-        history.append({"at": datetime.now(timezone.utc).isoformat(), "admin_id": user.id, "admin_email": user.email, "changes": {"drive_folder_url": {"before": None, "after": folder_url}}})
+        history.append({"at": datetime.now(timezone.utc).isoformat(), "admin_id": user.id, "admin_email": user.email, "changes": {"drive_folder_url": {"before": previous_url, "after": folder_url}}})
         order.status_history = history[-200:]
-        await audit(session, user, request, "drive_folder_created", "order", order.order_number, {"url": folder_url})
+        await audit(session, user, request, "drive_folder_synced", "order", order.order_number, {"url": folder_url})
         await session.commit()
         await session.refresh(order)
     return web.json_response({"ok": True, "url": folder_url, "order": serialize_order(order)})

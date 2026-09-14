@@ -195,11 +195,6 @@ async def ensure_order_drive_folder(order: Any) -> str:
     settings = get_settings()
     if not settings.google_drive_folder_id:
         raise IntegrationNotConfigured("google_drive_not_configured")
-    service_account = _load_google_service_account(settings)
-    credentials = ServiceAccountCreds(
-        scopes=["https://www.googleapis.com/auth/drive"],
-        **service_account,
-    )
     created_at = order.created_at or datetime.now(timezone.utc)
     customer = order.customer or {}
     client_name = _safe_folder_name(str(customer.get("name", "")), "Клієнт")
@@ -210,37 +205,51 @@ async def ensure_order_drive_folder(order: Any) -> str:
         _safe_folder_name(f"{client_name}-{client_phone}", "Клієнт"),
         _safe_folder_name(order.order_number, "Замовлення"),
     ]
+    payload = {
+        "kind": "drive_folder",
+        "secret": settings.email_relay_secret,
+        "root_folder_id": ALT_CAM_DRIVE_ROOT_ID,
+        "path": path,
+        "order": {
+            "number": order.order_number,
+            "created_at": created_at.isoformat(),
+            "customer": order.customer or {},
+            "delivery": order.delivery or {},
+            "items": order.items or [],
+            "subtotal": float(order.subtotal or 0),
+        },
+    }
+    if settings.email_relay_secret:
+        try:
+            async with ClientSession() as client:
+                async with client.post(DRIVE_FOLDER_RELAY_URL, json=payload, timeout=30) as response:
+                    result = await response.json(content_type=None)
+                    if response.status >= 400:
+                        raise DriveRelayError("drive_relay_http_error")
+                    if result.get("status") != "success" or not result.get("url"):
+                        message = str(result.get("message") or "")
+                        if message == "unauthorized":
+                            raise DriveRelayError("drive_relay_unauthorized")
+                        if message == "invalid_drive_path":
+                            raise DriveRelayError("drive_relay_invalid_path")
+                        raise DriveRelayError("drive_relay_access_error")
+            return str(result["url"])
+        except Exception:
+            logger.exception("drive_folder_relay_failed order=%s", order.order_number)
+
+    service_account = _load_google_service_account(settings)
+    credentials = ServiceAccountCreds(
+        scopes=["https://www.googleapis.com/auth/drive"],
+        **service_account,
+    )
     parent_id = ALT_CAM_DRIVE_ROOT_ID
-    try:
-        async with Aiogoogle(service_account_creds=credentials) as aiogoogle:
-            drive = await aiogoogle.discover("drive", "v3")
-            folder: dict[str, Any] = {}
-            for name in path:
-                folder = await _drive_folder(aiogoogle, drive, parent_id, name)
-                parent_id = folder["id"]
-        return folder.get("webViewLink") or f"https://drive.google.com/drive/folders/{parent_id}"
-    except Exception:
-        if not settings.email_relay_secret:
-            raise
-        payload = {
-            "kind": "drive_folder",
-            "secret": settings.email_relay_secret,
-            "root_folder_id": ALT_CAM_DRIVE_ROOT_ID,
-            "path": path,
-        }
-        async with ClientSession() as client:
-            async with client.post(DRIVE_FOLDER_RELAY_URL, json=payload, timeout=30) as response:
-                result = await response.json(content_type=None)
-                if response.status >= 400:
-                    raise DriveRelayError("drive_relay_http_error")
-                if result.get("status") != "success" or not result.get("url"):
-                    message = str(result.get("message") or "")
-                    if message == "unauthorized":
-                        raise DriveRelayError("drive_relay_unauthorized")
-                    if message == "invalid_drive_path":
-                        raise DriveRelayError("drive_relay_invalid_path")
-                    raise DriveRelayError("drive_relay_access_error")
-        return str(result["url"])
+    async with Aiogoogle(service_account_creds=credentials) as aiogoogle:
+        drive = await aiogoogle.discover("drive", "v3")
+        folder: dict[str, Any] = {}
+        for name in path:
+            folder = await _drive_folder(aiogoogle, drive, parent_id, name)
+            parent_id = folder["id"]
+    return folder.get("webViewLink") or f"https://drive.google.com/drive/folders/{parent_id}"
 
 
 async def delete_drive_folder(folder_url: str) -> None:
