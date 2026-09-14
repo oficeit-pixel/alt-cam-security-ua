@@ -232,6 +232,11 @@ async def ensure_order_drive_folder(order: Any) -> str:
                         raise DriveRelayError("drive_relay_http_error")
                     if result.get("status") != "success" or not result.get("url"):
                         message = str(result.get("message") or "")
+                        logger.warning(
+                            "drive_relay_rejected order=%s message=%s",
+                            order.order_number,
+                            re.sub(r"[^A-Za-z0-9А-Яа-яІіЇїЄє_ .:()-]", "?", message)[:300],
+                        )
                         if message == "unauthorized":
                             raise DriveRelayError("drive_relay_unauthorized")
                         if message == "invalid_drive_path":
