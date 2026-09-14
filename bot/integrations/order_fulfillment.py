@@ -1,5 +1,6 @@
 import imaplib
 import json
+import logging
 import re
 from pathlib import Path
 from datetime import datetime, timezone
@@ -15,6 +16,9 @@ from aiogoogle.auth.creds import ServiceAccountCreds
 from bot.config import get_settings
 from bot.db.base import SessionLocal
 from bot.db.models import AdminAuditLog, WebOrder
+
+
+logger = logging.getLogger(__name__)
 
 
 class IntegrationNotConfigured(RuntimeError):
