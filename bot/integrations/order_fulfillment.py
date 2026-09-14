@@ -302,7 +302,7 @@ async def ensure_order_drive_folder(order: Any) -> str:
                         if message == "invalid_drive_path":
                             raise DriveRelayError("drive_relay_invalid_path")
                         raise DriveRelayError("drive_relay_access_error")
-            return str(result["url"])
+            logger.info("drive_folder_relay_succeeded order=%s", order.order_number)
         except Exception:
             logger.exception("drive_folder_relay_failed order=%s", order.order_number)
 
