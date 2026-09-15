@@ -328,7 +328,7 @@ async def ensure_order_drive_folder(order: Any) -> str:
     if settings.email_relay_secret:
         try:
             async with ClientSession() as client:
-                async with client.post(DRIVE_FOLDER_RELAY_URL, json=payload, timeout=30) as response:
+                async with client.post(DRIVE_FOLDER_RELAY_URL, json=payload, timeout=120) as response:
                     result = await response.json(content_type=None)
                     if response.status >= 400:
                         raise DriveRelayError("drive_relay_http_error")
