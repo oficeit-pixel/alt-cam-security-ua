@@ -34,7 +34,7 @@ class DriveRelayError(RuntimeError):
 ORDER_PATTERN = re.compile(r"\bWEB-\d{8}-[A-F0-9]{6}\b", re.I)
 DRIVE_FOLDER_RELAY_URL = (
     "https://script.google.com/macros/s/"
-    "AKfycbxHsr5r57pmw6qlEDP7r-9KndLyxTL0lgAPnUNCQw3cXPp0gXW0skwf10MLz_zuKeNJ/exec"
+    "AKfycbzoTpvXK2Ho3vAceIklOXYRYc3bEkagwq_eofb6_gjb3CG4NZIEZBa4p-1DDQjjSn75/exec"
 )
 ALT_CAM_DRIVE_ROOT_ID = "1ji_xMy1Jtq1Zg3wgXkhkdpP0eTnR8XTc"
 TRACK_PATTERNS = (
