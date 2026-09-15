@@ -288,6 +288,15 @@ async def _drive_upsert_html(aiogoogle: Aiogoogle, drive: Any, folder_id: str, n
         Path(path).unlink(missing_ok=True)
 
 
+async def _upload_order_documents_to_folder(order: Any, folder_id: str, settings: Any) -> None:
+    service_account = _load_google_service_account(settings)
+    credentials = ServiceAccountCreds(scopes=["https://www.googleapis.com/auth/drive"], **service_account)
+    async with Aiogoogle(service_account_creds=credentials) as aiogoogle:
+        drive = await aiogoogle.discover("drive", "v3")
+        for name, content in _order_documents(order).items():
+            await _drive_upsert_html(aiogoogle, drive, folder_id, name, content)
+
+
 async def ensure_order_drive_folder(order: Any) -> str:
     settings = get_settings()
     if not settings.google_drive_folder_id:
@@ -335,8 +344,13 @@ async def ensure_order_drive_folder(order: Any) -> str:
                         if message == "invalid_drive_path":
                             raise DriveRelayError("drive_relay_invalid_path")
                         raise DriveRelayError("drive_relay_access_error")
+            folder_url = str(result["url"])
+            folder_match = re.search(r"/folders/([A-Za-z0-9_-]+)", folder_url)
+            if not folder_match:
+                raise DriveRelayError("drive_relay_invalid_folder_url")
+            await _upload_order_documents_to_folder(order, folder_match.group(1), settings)
             logger.info("drive_folder_relay_succeeded order=%s", order.order_number)
-            return str(result["url"])
+            return folder_url
         except Exception:
             logger.exception("drive_folder_relay_failed order=%s", order.order_number)
 
