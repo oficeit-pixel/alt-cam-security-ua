@@ -7518,6 +7518,175 @@
           "post_id": "962902993572061_122136367095226993"
         }
       }
+    },
+    "photo-pub-2026-09-004": {
+      "telegram": {
+        "published_at": "2026-09-15T15:05:25.275224+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 110,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1789484724,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADbmqpXrTXafvYWrmqnO4Xg_mooV6UAAItIGsb-vdQSRYP_TM6z07JAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADLSBrG_r3UEl4",
+                  "file_size": 1717,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADbmqpXrTXafvYWrmqnO4Xg_mooV6UAAItIGsb-vdQSRYP_TM6z07JAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADLSBrG_r3UEly",
+                  "file_size": 25137,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADbmqpXrTXafvYWrmqnO4Xg_mooV6UAAItIGsb-vdQSRYP_TM6z07JAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADLSBrG_r3UEl9",
+                  "file_size": 106894,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADbmqpXrTXafvYWrmqnO4Xg_mooV6UAAItIGsb-vdQSRYP_TM6z07JAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADLSBrG_r3UEl-",
+                  "file_size": 217524,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADbmqpXrTXafvYWrmqnO4Xg_mooV6UAAItIGsb-vdQSRYP_TM6z07JAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADLSBrG_r3UEl8",
+                  "file_size": 228696,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "📡 Потрібно передати інтернет між двома будівлями без прокладання кабелю?\n\nКоли прокласти кабель складно, дорого або просто неможливо, можна організувати бездротовий мережевий міст на частоті 5 ГГц.\n\nMikroTik SXTsq Lite5 (RBSXTsq5nD) — зовнішня Wi-Fi точка доступу з направленою антеною 16 dBi, створена для стабільного бездротового з’єднання між об’єктами.\n\nОсновні характеристики:\n\n📡 Wi-Fi 5 ГГц, 802.11 a/n\n📶 антена 16 dBi, кут 23°\n⚙️ RouterOS L3\n🧠 процесор 600 МГц\n💾 оперативна пам’ять 64 МБ\n🔌 1 × RJ45 100 Мбіт/с\n⚡ живлення Passive PoE / DC 10–30 В\n🌡 робоча температура від -40°C до +70°C\n📐 компактний корпус 129 × 129 × 34 мм\n\n⚠️ Важливо: для створення бездротового мосту потрібно 2 пристрої MikroTik SXTsq Lite5. Кожна точка продається окремо.\n\nПотрібно з’єднати мережею будинок, офіс, склад, гараж або інший віддалений об’єкт без прокладання кабелю?\n\nНапишіть «МІСТ» у повідомлення ALT-CAM Security UA — допоможемо підібрати обладнання та конфігурацію під ваше завдання.\n\n🌐 https://alt-cam.net…",
+              "caption_entities": [
+                {
+                  "offset": 990,
+                  "length": 19,
+                  "type": "url"
+                }
+              ]
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 111,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1789484725,
+              "text": "📡 Потрібно передати інтернет між двома будівлями без прокладання кабелю?\n\nКоли прокласти кабель складно, дорого або просто неможливо, можна організувати бездротовий мережевий міст на частоті 5 ГГц.\n\nMikroTik SXTsq Lite5 (RBSXTsq5nD) — зовнішня Wi-Fi точка доступу з направленою антеною 16 dBi, створена для стабільного бездротового з’єднання між об’єктами.\n\nОсновні характеристики:\n\n📡 Wi-Fi 5 ГГц, 802.11 a/n\n📶 антена 16 dBi, кут 23°\n⚙️ RouterOS L3\n🧠 процесор 600 МГц\n💾 оперативна пам’ять 64 МБ\n🔌 1 × RJ45 100 Мбіт/с\n⚡ живлення Passive PoE / DC 10–30 В\n🌡 робоча температура від -40°C до +70°C\n📐 компактний корпус 129 × 129 × 34 мм\n\n⚠️ Важливо: для створення бездротового мосту потрібно 2 пристрої MikroTik SXTsq Lite5. Кожна точка продається окремо.\n\nПотрібно з’єднати мережею будинок, офіс, склад, гараж або інший віддалений об’єкт без прокладання кабелю?\n\nНапишіть «МІСТ» у повідомлення ALT-CAM Security UA — допоможемо підібрати обладнання та конфігурацію під ваше завдання.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #MikroTik #SXTsqLite5 #WiFi5GHz #БездротовийМіст #ТочкаДоступу #МережевеОбладнання #Інтернет #МережеваІнфраструктура\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 990,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1014,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1022,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1040,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1050,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1062,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1072,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1089,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1103,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1123,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1133,
+                  "length": 23,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1161,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      },
+      "tiktok": {
+        "published_at": "2026-09-15T15:05:26.350128+00:00",
+        "result": {
+          "data": {
+            "publish_id": "p_inbox_url~v2.7685778194284726293"
+          },
+          "error": {
+            "code": "ok",
+            "message": "",
+            "log_id": "202609152305259EC7F2419C851261F445"
+          }
+        }
+      }
     }
   }
 }
