@@ -26,6 +26,7 @@ button:disabled{cursor:wait;opacity:.65}
 .captcha-label b{font-size:18px;color:var(--accent)}
 nav{display:flex;gap:8px;margin:24px 0}
 nav button{color:#ddd;background:#29292e}
+nav .nav-link{padding:11px 15px;border-radius:7px;background:#29292e;color:#ddd;font-weight:900;text-decoration:none}
 nav button.active{color:#111;background:var(--accent)}
 .metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
 .metric,.panel,.order,.security-form{padding:20px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
