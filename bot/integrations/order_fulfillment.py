@@ -10,6 +10,7 @@ from email import message_from_bytes
 from email.header import decode_header, make_header
 from email.utils import parseaddr
 from typing import Any
+from zoneinfo import ZoneInfo
 
 from aiohttp import ClientSession
 from aiogoogle import Aiogoogle
@@ -198,33 +199,65 @@ async def _drive_folder(aiogoogle: Aiogoogle, drive: Any, parent_id: str, name: 
 
 
 def _order_documents(order: Any) -> dict[str, str]:
+    def money(value: Any) -> str:
+        return f"{float(value or 0):,.2f}".replace(",", " ").replace(".", ",")
+
     number = str(order.order_number or "Замовлення")[:64]
     customer = order.customer or {}
     delivery = order.delivery or {}
     items = order.items or []
     rows = "".join(
-        "<tr><td>{}</td><td>{}</td><td>{:,.2f}</td><td>{:,.2f}</td></tr>".format(
+        "<tr><td class=\"num\">{}</td><td>{}</td><td class=\"num\">{}</td><td class=\"money\">{}</td><td class=\"money\">{}</td></tr>".format(
+            index,
             escape(str(item.get("name") or "")),
             max(1, int(item.get("quantity") or 1)),
-            float(item.get("price") or 0),
-            float(item.get("price") or 0) * max(1, int(item.get("quantity") or 1)),
+            money(item.get("price")),
+            money(float(item.get("price") or 0) * max(1, int(item.get("quantity") or 1))),
         )
-        for item in items[:100]
+        for index, item in enumerate(items[:100], 1)
     )
-    style = "<style>body{font:14px Arial,sans-serif;color:#17171a;max-width:900px;margin:32px auto}h1{border-bottom:4px solid #ffcc00;padding-bottom:12px}table{width:100%;border-collapse:collapse;margin-top:20px}th,td{border:1px solid #ddd;padding:10px;text-align:left}th{background:#17171a;color:#ffcc00}.total{font-size:20px;font-weight:700;text-align:right;margin-top:18px}</style>"
-    details = (
-        f"<p><b>Клієнт:</b> {escape(str(customer.get('name') or ''))}</p>"
-        f"<p><b>Телефон:</b> {escape(str(customer.get('phone') or ''))}</p>"
-        f"<p><b>Email:</b> {escape(str(customer.get('email') or ''))}</p>"
-        f"<p><b>Доставка:</b> {escape(str(delivery.get('label') or delivery.get('type') or ''))}; "
-        f"{escape(str(delivery.get('city') or ''))}; {escape(str(delivery.get('place') or ''))}</p>"
+    created_at = order.created_at or datetime.now(timezone.utc)
+    created_kyiv = created_at.astimezone(ZoneInfo("Europe/Kyiv"))
+    created = created_kyiv.strftime("%d.%m.%Y %H:%M")
+    style = """<style>
+@page{size:A4;margin:9mm}*{box-sizing:border-box}body{font:12px Arial,sans-serif;color:#17171a;max-width:190mm;margin:0 auto;background:#fff}.sheet{min-height:277mm;display:flex;flex-direction:column}.brand{display:flex;align-items:center;justify-content:space-between;border-bottom:4px solid #ffcc00;padding:0 0 8px}.logo{font-size:24px;font-weight:900;letter-spacing:.8px}.logo b{color:#d99f00}.contact{text-align:right;font-size:10px;line-height:1.45;color:#444}h1{font-size:20px;margin:12px 0 3px}h2{font-size:12px;margin:10px 0 5px;text-transform:uppercase;letter-spacing:.5px}.meta{color:#555;font-size:10px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:5px 14px;margin-top:9px}.field{border-bottom:1px solid #d7d7d7;padding:4px 0;min-height:25px}.field b{display:block;font-size:9px;text-transform:uppercase;color:#666;margin-bottom:2px}table{width:100%;border-collapse:collapse;margin-top:7px;table-layout:fixed}th,td{border:1px solid #d9d9d9;padding:5px 6px;vertical-align:middle;overflow-wrap:anywhere}th{background:#17171a;color:#ffcc00;font-size:9px;text-transform:uppercase}th:nth-child(1),td:nth-child(1){width:7%}th:nth-child(3),td:nth-child(3){width:11%}th:nth-child(4),td:nth-child(4),th:nth-child(5),td:nth-child(5){width:16%}.num{text-align:center}.money{text-align:right;white-space:nowrap}.total{font-size:17px;font-weight:800;text-align:right;margin:8px 0}.note{font-size:10px;line-height:1.4;margin:5px 0}.warning{border-left:4px solid #ffcc00;padding:5px 8px;background:#fff9df}.footer{margin-top:auto;border-top:1px solid #d9d9d9;padding-top:6px;font-size:9px;color:#555;display:flex;justify-content:space-between}.sign{margin-top:12px;display:grid;grid-template-columns:1fr 1fr;gap:30px}.sign div{border-top:1px solid #777;padding-top:3px;font-size:9px;color:#666}@media print{body{print-color-adjust:exact;-webkit-print-color-adjust:exact}.sheet{page-break-after:avoid}}
+</style>"""
+    header = "<header class=\"brand\"><div class=\"logo\">ALT-CAM <b>SECURITY UA</b></div><div class=\"contact\">alt-cam.net.ua<br>altcam.ua@gmail.com<br>Київ · Вишгород · Київська область</div></header>"
+    client_details = (
+        f"<div class=\"field\"><b>Клієнт</b>{escape(str(customer.get('name') or 'Не зазначено'))}</div>"
+        f"<div class=\"field\"><b>Телефон</b>{escape(str(customer.get('phone') or 'Не зазначено'))}</div>"
+        f"<div class=\"field\"><b>Email</b>{escape(str(customer.get('email') or 'Не зазначено'))}</div>"
+        f"<div class=\"field\"><b>Доставка</b>{escape(str(delivery.get('label') or delivery.get('type') or 'Не зазначено'))}; {escape(str(delivery.get('city') or ''))}; {escape(str(delivery.get('place') or ''))}</div>"
     )
-    table = f"<table><thead><tr><th>Найменування</th><th>Кількість</th><th>Ціна</th><th>Сума</th></tr></thead><tbody>{rows}</tbody></table>"
-    total = f"<p class=\"total\">Разом: {float(order.subtotal or 0):,.2f} грн</p>"
-    prefix = '<!doctype html><meta charset="utf-8">'
+    table = f"<table><thead><tr><th>№</th><th>Товар або послуга</th><th>К-сть</th><th>Ціна, грн</th><th>Сума, грн</th></tr></thead><tbody>{rows}</tbody></table>"
+    total = f"<p class=\"total\">Разом: {money(order.subtotal)} грн</p>"
+    prefix = '<!doctype html><html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>ALT-CAM</title>'
+    suffix = '</div></body></html>'
+    comment = escape(str(delivery.get("comment") or "Не зазначено"))
+    card = (
+        f"{prefix}{style}</head><body><div class=\"sheet\">{header}<h1>Картка замовлення № {escape(number)}</h1>"
+        f"<div class=\"meta\">Створено: {created} · Джерело: сайт ALT-CAM</div><div class=\"grid\">{client_details}</div>"
+        f"<h2>Склад замовлення</h2>{table}{total}<h2>Коментар клієнта</h2><p class=\"note\">{comment}</p>"
+        "<div class=\"grid\"><div class=\"field\"><b>Статус</b>Нове</div><div class=\"field\"><b>Відповідальний менеджер</b>Не призначено</div>"
+        "<div class=\"field\"><b>Постачальник і номер</b>Заповнює менеджер</div><div class=\"field\"><b>Трек-номер</b>Заповнює менеджер</div></div>"
+        "<p class=\"note warning\"><b>Внутрішній документ.</b> Перед передаванням постачальнику перевірити сумісність, наявність, остаточну ціну, спосіб оплати та дані одержувача.</p>"
+        "<div class=\"sign\"><div>Менеджер / підпис / дата</div><div>Перевірка комплектації / дата</div></div>"
+        f"<footer class=\"footer\"><span>ALT-CAM Security UA</span><span>Замовлення {escape(number)}</span></footer>{suffix}"
+    )
+    invoice = (
+        f"{prefix}{style}</head><body><div class=\"sheet\">{header}<h1>Рахунок на оплату № {escape(number)}</h1>"
+        f"<div class=\"meta\">Дата: {created_kyiv.strftime('%d.%m.%Y')} · Дійсний після підтвердження менеджером</div>"
+        "<div class=\"grid\"><div class=\"field\"><b>Постачальник</b>ALT-CAM Security UA</div>"
+        "<div class=\"field\"><b>Реквізити постачальника</b>Надаються менеджером у підтвердженому рахунку</div>"
+        f"{client_details}</div><h2>Товари та послуги</h2>{table}{total}"
+        "<p class=\"note warning\"><b>Проєкт рахунку.</b> Не сплачуйте до підтвердження менеджером. Підтверджений рахунок має містити повне найменування або ПІБ постачальника, код ЄДРПОУ/РНОКПП, IBAN, банк, податковий статус та погоджену суму.</p>"
+        "<p class=\"note\"><b>Умови:</b> наявність, сумісність, строк відправлення, вартість доставки та гарантія уточнюються до оплати. Факт оплати підтверджується банківським документом; передання товару — видатковим документом перевізника або продавця.</p>"
+        "<div class=\"sign\"><div>Менеджер / підпис / дата</div><div>Погоджено клієнтом / дата</div></div>"
+        f"<footer class=\"footer\"><span>alt-cam.net.ua · altcam.ua@gmail.com</span><span>Рахунок {escape(number)}</span></footer>{suffix}"
+    )
     return {
-        f"Картка замовлення {number}.html": f"{prefix}{style}<h1>Картка замовлення {escape(number)}</h1>{details}{table}{total}",
-        f"Рахунок {number}.html": f"{prefix}{style}<h1>Рахунок {escape(number)}</h1><p>ALT-CAM Security UA</p>{details}{table}{total}<p>Остаточна сума та реквізити підтверджуються менеджером перед оплатою.</p>",
+        f"Картка замовлення {number}.html": card,
+        f"Рахунок {number}.html": invoice,
     }
 
 
