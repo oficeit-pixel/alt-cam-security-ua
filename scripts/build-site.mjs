@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { buildSeoPages } from './build-seo-pages.mjs';
 
 const root = process.cwd();
 const out = path.join(root, '_site');
@@ -32,6 +33,7 @@ const source = await fs.readFile('catalog-data.js', 'utf8');
 const match = source.match(/^\s*window\.ALTCAM_CATALOG\s*=\s*([\s\S]*?);?\s*$/);
 if (!match) throw new Error('Unexpected catalog format');
 const data = JSON.parse(match[1].replace(/;\s*$/, ''));
+await buildSeoPages(out, data);
 const compact = `window.ALTCAM_CATALOG=${JSON.stringify(data)};`;
 await fs.writeFile(path.join(out, 'catalog-data.js'), compact);
 await fs.mkdir(path.join(out, 'admin'), { recursive: true });
