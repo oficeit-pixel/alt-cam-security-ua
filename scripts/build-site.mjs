@@ -10,8 +10,17 @@ const files = ['index.html', 'catalog.html', 'admin.html', 'privacy-policy.html'
   'tiktok-oauth-callback.html', 'tiktokoVpj7mZL347GV0n5bjaavAO1ZLPlsG1V.txt',
   'robots.txt', 'sitemap.xml', '.nojekyll', 'styles.css', 'custom-style.css',
   'catalog.css', 'admin.css', 'service-prices.css', 'script.js', 'catalog.js',
-  'admin.js', 'contacts.js', 'service-rates-draft.js'];
+  'admin.js', 'analytics.js', 'contacts.js', 'service-rates-draft.js'];
 for (const name of files) await fs.copyFile(path.join(root, name), path.join(out, name));
+for (const name of files.filter(name => name.endsWith('.html') && !name.startsWith('admin') && !name.startsWith('tiktok'))) {
+  const file=path.join(out,name);
+  let html=(await fs.readFile(file,'utf8')).replaceAll('https://oficeit-pixel.github.io/alt-cam-security-ua/','https://alt-cam.net.ua/');
+  html=html.replace(/<body([^>]*)>/i,'<body$1><script src="/analytics.js"></script>');
+  await fs.writeFile(file,html);
+}
+for (const name of ['sitemap.xml','robots.txt']) {
+  const file=path.join(out,name);await fs.writeFile(file,(await fs.readFile(file,'utf8')).replaceAll('https://oficeit-pixel.github.io/alt-cam-security-ua/','https://alt-cam.net.ua/'));
+}
 for (const name of ['assets', 'blanks']) await fs.cp(path.join(root, name), path.join(out, name), { recursive: true });
 await fs.mkdir(path.join(out, 'feeds'), { recursive: true });
 await fs.copyFile('feeds/meta-catalog.csv', path.join(out, 'feeds/meta-catalog.csv'));
