@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { buildSeoPages } from './build-seo-pages.mjs';
 import { buildProductPages } from './build-product-pages.mjs';
+import { buildLocalPages } from './build-local-pages.mjs';
 
 const root = process.cwd();
 const out = path.join(root, '_site');
@@ -35,6 +36,7 @@ const match = source.match(/^\s*window\.ALTCAM_CATALOG\s*=\s*([\s\S]*?);?\s*$/);
 if (!match) throw new Error('Unexpected catalog format');
 const data = JSON.parse(match[1].replace(/;\s*$/, ''));
 await buildSeoPages(out, data);
+await buildLocalPages(out);
 await buildProductPages(out, data);
 const catalogScript=await fs.readFile(path.join(out,'catalog.js'),'utf8');
 await fs.writeFile(path.join(out,'catalog.js'),catalogScript.replace('<button class="product-more" data-details="${item.id}">Докладніше</button>','<a class="product-more" href="${item.page_url}">Докладніше</a>'));
