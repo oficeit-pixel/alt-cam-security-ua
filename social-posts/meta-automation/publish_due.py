@@ -342,6 +342,7 @@ def publish_threads(post: dict) -> dict:
     creation_id = container.get("id")
     if not creation_id:
         raise RuntimeError(f"Threads did not return creation container id: {container}")
+    wait_for_threads_container(creation_id, token)
     published = post_graph(
         f"{threads_user_id}/threads_publish",
         token,
@@ -349,6 +350,20 @@ def publish_threads(post: dict) -> dict:
         base="threads",
     )
     return {"container": container, "published": published}
+
+
+def wait_for_threads_container(creation_id: str, token: str) -> None:
+    """Publish only after Threads has downloaded and processed the media."""
+    for attempt in range(5):
+        result = get_graph(creation_id, token, {"fields": "id,status,error_message"}, base="threads")
+        status = result.get("status")
+        if status == "FINISHED":
+            return
+        if status in {"ERROR", "EXPIRED", "PUBLISHED"}:
+            raise RuntimeError(f"Threads container cannot be published: {status}")
+        if attempt < 4:
+            time.sleep(60)
+    raise RuntimeError("Threads media processing timed out; not publishing an unready container")
 
 
 def publish_telegram(post: dict) -> dict:
