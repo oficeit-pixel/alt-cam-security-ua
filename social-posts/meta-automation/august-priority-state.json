@@ -7901,6 +7901,85 @@
           "post_id": "962902993572061_122137365627226993"
         }
       }
+    },
+    "organic-site-2026-09-28": {
+      "instagram": {
+        "published_at": "2026-09-23T21:52:30.040725+00:00",
+        "result": {
+          "container": {
+            "id": "18089543687418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18089543687418944"
+          },
+          "published": {
+            "id": "18128553421823370"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-09-23T21:52:36.485086+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 113,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1790200356,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADcWq0SiSs_9Ni-4EZgCsu9pDsYa2aAAJ4J2sbsbmhSenJe07xoGmSAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADeCdrG7G5oUl4",
+                  "file_size": 1686,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADcWq0SiSs_9Ni-4EZgCsu9pDsYa2aAAJ4J2sbsbmhSenJe07xoGmSAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADeCdrG7G5oUly",
+                  "file_size": 24407,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADcWq0SiSs_9Ni-4EZgCsu9pDsYa2aAAJ4J2sbsbmhSenJe07xoGmSAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADeCdrG7G5oUl9",
+                  "file_size": 95630,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADcWq0SiSs_9Ni-4EZgCsu9pDsYa2aAAJ4J2sbsbmhSenJe07xoGmSAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADeCdrG7G5oUl-",
+                  "file_size": 159223,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Світло зникло. А камери ще записують? ⚡\n\nКамера може залишатися увімкненою, а запис — уже зупинитися. Для резервного живлення потрібно врахувати весь ланцюжок: камери, реєстратор і мережеве обладнання.\n\nПеревірте свою систему: чи є живлення у реєстратора? Чи працює комутатор? Чи доступний інтернет для віддаленого перегляду?\n\nALT-CAM підбере сумісне рішення під ваше обладнання та потрібний час роботи. Фактична автономність залежить від навантаження й акумулятора.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПерегляньте рішення на сайті та залиште заявку на підбір:\nhttps://alt-cam.net.ua/rezervne-zhyvlennia/?utm_source=telegram&utm_medium=social&utm_campaign=attention_sep26&utm_content=backup\n\nЗбережіть або перешліть тому, кому це актуально.\n\nВізуал — ШІ-ілюстрація, не фото виконаного об’єкта.",
+              "caption_entities": [
+                {
+                  "offset": 586,
+                  "length": 129,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
