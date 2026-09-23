@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { localContactBlock } from './local-contact-block.mjs';
 
 const pages = [
   {
@@ -38,9 +39,11 @@ export async function buildLocalPages(out) {
       provider:{'@type':'Organization',name:'ALT-CAM Security UA',url:'https://alt-cam.net.ua/'}};
     const html = `<!doctype html><html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escape(page.title)} | ALT-CAM</title><meta name="description" content="${escape(page.description)}"><link rel="canonical" href="${url}"><style>body{margin:0;background:#17171a;color:#eee;font:17px/1.7 Arial}main{max-width:960px;margin:auto;padding:32px 20px}a{color:#fc0}nav{display:flex;gap:20px;flex-wrap:wrap}h1{font-size:clamp(28px,5vw,46px);line-height:1.2}section{margin:28px 0;padding:20px;background:#242428;border-radius:12px}h2{line-height:1.3}.cta{display:inline-block;background:#fc0;color:#111;padding:12px 20px;border-radius:8px;font-weight:bold}footer{margin-top:32px}</style><script type="application/ld+json">${JSON.stringify(schema).replace(/</g,'\\u003c')}</script></head><body><script src="/analytics.js"></script><main><nav><a href="/">ALT-CAM</a><a href="/catalog.html">Обладнання</a><a href="/#works">Приклади робіт</a></nav><h1>${escape(page.title)}</h1><p>${escape(page.description)}</p><a class="cta" href="/#request">Обговорити монтаж з виїздом</a>${page.sections.map(([title,text])=>`<section><h2>${escape(title)}</h2><p>${escape(text)}</p></section>`).join('')}<h2>Обладнання з доставкою по Україні</h2><p>Монтаж виконуємо у Києві та області. Для інших регіонів пропонуємо підбір і доставлення обладнання та дистанційну підтримку. Умови доставки й повернення наведені окремо.</p><nav><a href="/videodomofony/">Відеодомофони</a><a href="/rezervne-zhyvlennia/">Резервне живлення</a><a href="/catalog.html">Каталог</a></nav><h2>Територія виїзду</h2><nav>${links}</nav><footer><a href="/delivery-and-returns.html">Доставка та повернення</a> · <a href="/privacy-policy.html">Конфіденційність</a></footer></main></body></html>`;
     await fs.mkdir(path.join(out,page.slug),{recursive:true});
-    await fs.writeFile(path.join(out,page.slug,'index.html'),html);
+    await fs.writeFile(path.join(out,page.slug,'index.html'),html.replace('<h2>Територія виїзду</h2>', localContactBlock + '<h2>Територія виїзду</h2>'));
   }
   const home = path.join(out,'index.html');
+  const homeHtml = await fs.readFile(home,'utf8');
+  await fs.writeFile(home, homeHtml.replace('<section class="section request-section"', localContactBlock + '<section class="section request-section"'));
   await fs.writeFile(home,(await fs.readFile(home,'utf8')).replace('<footer class="footer"',`<nav class="container" aria-label="Монтаж з виїздом" style="display:flex;gap:24px;flex-wrap:wrap;padding:24px">${links}</nav><footer class="footer"`));
   const sitemap = path.join(out,'sitemap.xml');
   await fs.writeFile(sitemap,(await fs.readFile(sitemap,'utf8')).replace('</urlset>',pages.map(p=>`<url><loc>https://alt-cam.net.ua/${p.slug}/</loc></url>`).join('')+'</urlset>'));

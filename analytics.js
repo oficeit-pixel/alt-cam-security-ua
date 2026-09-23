@@ -36,6 +36,18 @@
     if(value==='yes')start();
     else if(enabled){window.gtag('consent','update',{analytics_storage:'denied'});enabled=false;location.reload();}
   }
+  document.addEventListener('click', event => {
+    const anchor = event.target.closest?.('a[href]');
+    if (!enabled || !anchor) return;
+    let url;
+    try { url = new URL(anchor.href); } catch { return; }
+    if (url.hostname !== 't.me' || url.pathname.replace(/\/$/, '') !== '/altcam_security_ua') return;
+    window.gtag('event', 'telegram_channel_click', {
+      page_location: location.origin + location.pathname,
+      link_placement: anchor.dataset.channelCta === 'local_block' ? 'local_block' : 'other',
+      transport_type: 'beacon'
+    });
+  });
   const style=document.createElement('style');style.textContent='.ga-consent{position:fixed;bottom:16px;left:16px;max-width:420px;background:#202024;color:#fff;padding:18px;border:1px solid #fc0;border-radius:10px;z-index:9999;font:14px/1.5 Arial}.ga-consent[hidden]{display:none}.ga-consent button{margin:8px 8px 0 0;padding:9px;border:1px solid #fc0;background:#fc0;color:#111;cursor:pointer}.ga-consent a{color:#fc0}.ga-settings{position:fixed;bottom:4px;left:4px;z-index:9998;font:11px Arial}';document.head.append(style);
   const panel=document.createElement('section');panel.className='ga-consent';panel.setAttribute('aria-label','Налаштування аналітики');
   panel.innerHTML='<p>Дозволити Google Analytics вимірювати відвідування та перегляди товарів? Це необов’язково. <a href="/privacy-policy.html">Конфіденційність</a></p><button type="button" data-yes>Дозволити</button><button type="button" data-no>Відхилити</button>';
