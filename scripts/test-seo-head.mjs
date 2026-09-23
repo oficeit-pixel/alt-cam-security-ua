@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import {enhanceHead} from './finalize-seo.mjs';
+const html = '<html><head><title>Камера | ALT-CAM</title><meta name="description" content="Опис"><link rel="canonical" href="https://alt-cam.net.ua/test/"><link rel="icon" href="old.png"></head></html>';
+const result = enhanceHead(html);
+assert.equal((result.match(/rel="icon"/g)||[]).length, 1);
+assert(result.includes('sizes="96x96"'));
+assert(result.includes('property="og:title" content="Камера | ALT-CAM"'));
+assert(result.includes('property="og:url" content="https://alt-cam.net.ua/test/"'));
+assert.equal((enhanceHead(result).match(/property="og:title"/g)||[]).length, 1);
+console.log('SEO head tests passed');

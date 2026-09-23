@@ -11,7 +11,13 @@
     window.gtag = function () { window.dataLayer.push(arguments); };
     window.gtag('consent', 'default', {analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
     window.gtag('js', new Date());
-    window.gtag('config', id, {send_page_view:false,allow_google_signals:false,allow_ad_personalization_signals:false});
+    const campaign = {};
+    const query = new URLSearchParams(location.search);
+    for (const [utm, field] of [['utm_source','campaign_source'],['utm_medium','campaign_medium'],['utm_campaign','campaign_name'],['utm_content','campaign_content']]) {
+      const value = query.get(utm);
+      if (value && /^[a-zA-Z0-9_-]{1,100}$/.test(value)) campaign[field] = value;
+    }
+    window.gtag('config', id, {send_page_view:false,allow_google_signals:false,allow_ad_personalization_signals:false,...campaign});
     window.gtag('event','page_view',{page_location:location.origin+location.pathname,page_title:document.title,page_referrer:document.referrer?new URL(document.referrer).origin:''});
     const script=document.createElement('script');script.async=true;
     script.src='https://www.googletagmanager.com/gtag/js?id='+id;document.head.append(script);

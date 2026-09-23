@@ -3,6 +3,7 @@ import path from 'node:path';
 import { buildSeoPages } from './build-seo-pages.mjs';
 import { buildProductPages } from './build-product-pages.mjs';
 import { buildLocalPages } from './build-local-pages.mjs';
+import { finalizeSeo } from './finalize-seo.mjs';
 
 const root = process.cwd();
 const out = path.join(root, '_site');
@@ -45,4 +46,5 @@ await fs.writeFile(path.join(out, 'catalog-data.js'), compact);
 await fs.mkdir(path.join(out, 'admin'), { recursive: true });
 const admin = await fs.readFile('admin.html', 'utf8');
 await fs.writeFile(path.join(out, 'admin/index.html'), admin.replace('<head>', '<head><base href="../">'));
+await finalizeSeo(out);
 console.log(`Catalog: ${Buffer.byteLength(source)} → ${Buffer.byteLength(compact)} bytes; ${data.length} products preserved`);
