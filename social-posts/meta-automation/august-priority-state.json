@@ -7820,6 +7820,80 @@
           "post_id": "962902993572061_122137309653226993"
         }
       }
+    },
+    "organic-ukraine-launch-2026-09-23": {
+      "telegram": {
+        "published_at": "2026-09-23T04:47:37.217832+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 112,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1790138857,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADcGqzWekrQ8iMn7jOkDq7NL0Tib1GAALBHGsbqNOgSaA95jPcJCdrAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADwRxrG6jToEl4",
+                  "file_size": 2012,
+                  "width": 75,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADcGqzWekrQ8iMn7jOkDq7NL0Tib1GAALBHGsbqNOgSaA95jPcJCdrAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADwRxrG6jToEly",
+                  "file_size": 18166,
+                  "width": 266,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADcGqzWekrQ8iMn7jOkDq7NL0Tib1GAALBHGsbqNOgSaA95jPcJCdrAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADwRxrG6jToEl9",
+                  "file_size": 58495,
+                  "width": 666,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADcGqzWekrQ8iMn7jOkDq7NL0Tib1GAALBHGsbqNOgSaA95jPcJCdrAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADwRxrG6jToEl-",
+                  "file_size": 67194,
+                  "width": 766,
+                  "height": 920
+                }
+              ],
+              "caption": "Камери, домофони та резервне живлення — під ваш об’єкт 🇺🇦\n\nALT-CAM Security UA: підбір обладнання для квартири, будинку, магазину чи під’їзду. Монтаж з виїздом — Київ, Вишгород та Київська область. Доставка обладнання — по Україні.\n\nНапишіть тип об’єкта, населений пункт і потрібні зони огляду — погодимо комплектацію та кошторис до робіт.\n\n📞 +380 63 060 70 88\n🌐 https://alt-cam.net.ua/montazh-videosposterezhennia-kyiv/?utm_source=telegram&utm_medium=social&utm_campaign=organic_ukraine_launch\n💬 Консультація: https://t.me/OficeITHelp\n📲 Канал: https://t.me/altcam_security_ua\n\nПерешліть цей допис тим, хто планує встановлення камер. Дякуємо за рекомендації!",
+              "caption_entities": [
+                {
+                  "offset": 367,
+                  "length": 131,
+                  "type": "url"
+                },
+                {
+                  "offset": 516,
+                  "length": 24,
+                  "type": "url"
+                },
+                {
+                  "offset": 551,
+                  "length": 31,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
