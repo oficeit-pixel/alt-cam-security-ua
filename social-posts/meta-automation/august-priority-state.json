@@ -7998,6 +7998,96 @@
           }
         }
       }
+    },
+    "attention-daily-2026-09-24": {
+      "instagram": {
+        "published_at": "2026-09-24T10:05:13.075879+00:00",
+        "result": {
+          "container": {
+            "id": "18089639240418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18089639240418944"
+          },
+          "published": {
+            "id": "18214125316348739"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-09-24T10:06:23.753193+00:00",
+        "result": {
+          "container": {
+            "id": "18089493875424516"
+          },
+          "published": {
+            "id": "18083014808320195"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-09-24T10:06:24.926468+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 114,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1790244384,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADcmq09iDRL6OVgRZ2WvUFfp5QTvSEAAKCHGsbsbmpSYE-ojO1Jhm_AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADghxrG7G5qUl4",
+                  "file_size": 1928,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADcmq09iDRL6OVgRZ2WvUFfp5QTvSEAAKCHGsbsbmpSYE-ojO1Jhm_AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADghxrG7G5qUly",
+                  "file_size": 27892,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADcmq09iDRL6OVgRZ2WvUFfp5QTvSEAAKCHGsbsbmpSYE-ojO1Jhm_AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADghxrG7G5qUl9",
+                  "file_size": 117477,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADcmq09iDRL6OVgRZ2WvUFfp5QTvSEAAKCHGsbsbmpSYE-ojO1Jhm_AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADghxrG7G5qUl-",
+                  "file_size": 195116,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Чи знайдете ви потрібний момент у записі?\n\nКамера показує картинку — але чи зберігається архів? Перевірте дату й час, відкрийте вчорашній запис та спробуйте знайти конкретну подію. Це корисніше, ніж дізнатися про проблему після інциденту.\n\nALT-CAM допоможе перевірити запис і налаштувати систему під ваші задачі.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/montazh-videosposterezhennia-kyiv/?utm_source=telegram&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20260924\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+              "caption_entities": [
+                {
+                  "offset": 400,
+                  "length": 151,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
