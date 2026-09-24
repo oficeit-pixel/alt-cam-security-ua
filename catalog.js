@@ -36,7 +36,7 @@ const products=[];const seen=new Set();
 for(const item of rankedProducts){const key=identity(item);if(key&&!seen.has(key)){seen.add(key);products.push(item);}}
 function publicCategory(item){return CATEGORY_LABELS.includes(item.category)?item.category:'Аксесуари для систем безпеки';}
 products.forEach((item,index)=>{item.publicCategory=publicCategory(item);item.recommendationOrder=index;});
-const API='https://alt-cam-crm-api.onrender.com',TELEGRAM='https://t.me/altcam_security_ua';
+const API='https://alt-cam-crm-api.onrender.com',TELEGRAM='https://t.me/OficeITHelp';
 const CONTACTS=window.ALTCAM_CONTACTS||{};
 const catalogPhone=document.querySelector('.js-catalog-phone');
 const catalogTelegram=document.querySelector('.js-catalog-telegram');
@@ -110,7 +110,18 @@ const SOLUTIONS=[
 {id:'solution-complete',badge:'Максимальний захист',title:'ALT-CAM Complete',description:'Комплексна система безпеки для будинку або бізнесу.',items:['Камери','Ajax','Домофон і доступ','Резервне живлення'],price:54900}
 ];
 function renderSolutions(){$('#solutions-grid').innerHTML=SOLUTIONS.map(item=>`<article class="solution-card"><span class="solution-badge">${item.badge}</span><h3>${item.title}</h3><p>${item.description}</p><ul>${item.items.map(value=>`<li>${value}</li>`).join('')}</ul><strong class="solution-price">Обладнання від ${money(item.price)}</strong><button data-solution="${item.id}" data-title="${item.title}">Отримати точний розрахунок</button></article>`).join('');}
-function renderServices(){$('#service-grid').innerHTML=services.map((item,index)=>`<article class="service-item"><span class="service-number">${String(index+1).padStart(2,'0')} · ${item.group||'Послуга'}</span><h3>${item.title}</h3><p>${item.description}</p><ul>${(item.includes||[]).map(value=>`<li>${value}</li>`).join('')}</ul>${item.priceFrom?`<strong>від ${money(item.priceFrom)} <small>${item.unit||''}</small></strong>`:''}<button data-service="${item.id}">Додати до заявки</button></article>`).join('');}
+function renderServices() {
+  $('#service-grid').innerHTML=services.map((item,index)=>`<article class="service-item">
+    <span class="service-number">${String(index+1).padStart(2,'0')} · ${clean(item.group||'Послуга')}</span>
+    <h3>${clean(item.title)}</h3><p>${clean(item.description)}</p>
+    <ul>${(item.includes||[]).map(value=>`<li>${clean(value)}</li>`).join('')}</ul>
+    ${item.priceFrom?`<strong>від ${money(item.priceFrom)} <small>${clean(item.unit||'')}</small></strong>`:''}
+    ${item.note?`<p class="service-price-note">${clean(item.note)}</p>`:''}
+    ${(item.options||[]).length?`<details><summary>Варіанти робіт і ціни</summary><ul>${item.options.map(([name,value])=>`<li>${clean(name)} — ${clean(value)}</li>`).join('')}</ul></details>`:''}
+    <p class="service-price-note">Остаточну вартість погоджуємо до початку робіт.</p>
+    <button data-service="${clean(item.id)}">Додати до заявки</button>
+  </article>`).join('');
+}
 function saveCart(){localStorage.setItem('altcam-cart',JSON.stringify(cart));renderCart();}
 function add(id,type='product',name=''){const existing=cart.find(item=>item.id===id&&item.type===type);if(existing)existing.quantity=(existing.quantity||1)+1;else cart.push({id,type,name,quantity:1});saveCart();track('add_to_cart',{id,type});}
 function findCartItem(entry){return entry.type==='service'?services.find(x=>x.id===entry.id):allProducts.find(x=>String(x.id)===String(entry.id));}
