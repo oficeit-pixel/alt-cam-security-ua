@@ -5743,7 +5743,7 @@
       "id": "photo-pub-2026-09-003",
       "campaign": "altcam-photo-publications-sep-2026",
       "scheduled_at": "2026-10-05T07:00:00.000Z",
-      "status": "approved",
+      "status": "archived",
       "platforms": [
         "facebook",
         "instagram",
@@ -11834,6 +11834,182 @@
       },
       "caption": "Wi-Fi є. Але не в кожній кімнаті? 📶\n\nВідеодзвінок обривається, а камера втрачає зв’язок? Не поспішайте купувати «потужніший» роутер. На покриття впливають стіни, місце встановлення та сусідні мережі.\n\nПеревірте зв’язок біля роутера й у проблемній кімнаті на одному пристрої. Це допоможе описати проблему спеціалісту.\n\nALT-CAM допоможе перевірити мережу та підібрати розміщення обладнання під ваше приміщення. Монтаж і налаштування — з виїздом.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nЗалиште заявку на сайті та опишіть свою задачу:\nhttps://alt-cam.net.ua/?utm_source=facebook&utm_medium=social&utm_campaign=attention_sep26&utm_content=wifi\n\nВізуал — ШІ-ілюстрація, не фото виконаного об’єкта.",
       "approval_note": "User requested creation and publication of similar campaign posts for 10 days; 2026-09-24. No TikTok or Stories."
+    },
+    {
+      "id": "attention-daily-2026-09-24",
+      "campaign": "attention_sep26",
+      "scheduled_at": "2026-09-24T07:00:00Z",
+      "status": "approved",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram"
+      ],
+      "media_type": "image",
+      "image_url": "https://raw.githubusercontent.com/oficeit-pixel/alt-cam-security-ua/main/social-posts/content-plans/2026-09-23-attention/camera.jpg",
+      "captions": {
+        "facebook": "Чи знайдете ви потрібний момент у записі?\n\nКамера показує картинку — але чи зберігається архів? Перевірте дату й час, відкрийте вчорашній запис та спробуйте знайти конкретну подію. Це корисніше, ніж дізнатися про проблему після інциденту.\n\nALT-CAM допоможе перевірити запис і налаштувати систему під ваші задачі.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/montazh-videosposterezhennia-kyiv/?utm_source=facebook&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20260924\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "telegram": "Чи знайдете ви потрібний момент у записі?\n\nКамера показує картинку — але чи зберігається архів? Перевірте дату й час, відкрийте вчорашній запис та спробуйте знайти конкретну подію. Це корисніше, ніж дізнатися про проблему після інциденту.\n\nALT-CAM допоможе перевірити запис і налаштувати систему під ваші задачі.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/montazh-videosposterezhennia-kyiv/?utm_source=telegram&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20260924\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "instagram": "Чи знайдете ви потрібний момент у записі?\n\nКамера показує картинку — але чи зберігається архів? Перевірте дату й час, відкрийте вчорашній запис та спробуйте знайти конкретну подію. Це корисніше, ніж дізнатися про проблему після інциденту.\n\nALT-CAM допоможе перевірити запис і налаштувати систему під ваші задачі.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nВідкрийте alt-cam.net.ua у браузері або напишіть у Direct.\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "threads": "Чи знайдете ви потрібний момент у записі?\n\nПідбір і налаштування з ALT-CAM. Київ, Вишгород, область. Опишіть задачу на сайті:\nhttps://alt-cam.net.ua/montazh-videosposterezhennia-kyiv/?utm_source=threads&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20260924\n\nШІ-ілюстрація, не фото виконаного об’єкта."
+      },
+      "caption": "Чи знайдете ви потрібний момент у записі?\n\nКамера показує картинку — але чи зберігається архів? Перевірте дату й час, відкрийте вчорашній запис та спробуйте знайти конкретну подію. Це корисніше, ніж дізнатися про проблему після інциденту.\n\nALT-CAM допоможе перевірити запис і налаштувати систему під ваші задачі.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/montazh-videosposterezhennia-kyiv/?utm_source=facebook&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20260924\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+      "approval_note": "User explicitly approved daily posts through October 5 inclusive. Existing approved illustrative campaign assets reused; no Stories or TikTok."
+    },
+    {
+      "id": "attention-daily-2026-09-26",
+      "campaign": "attention_sep26",
+      "scheduled_at": "2026-09-26T07:00:00Z",
+      "status": "approved",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram"
+      ],
+      "media_type": "image",
+      "image_url": "https://raw.githubusercontent.com/oficeit-pixel/alt-cam-security-ua/main/social-posts/content-plans/2026-09-23-attention/backup.jpg",
+      "captions": {
+        "facebook": "Резерв живлення: що ви забули підключити?\n\nКамери, реєстратор, комутатор та роутер можуть живитися окремо. Якщо резерв є лише в одного пристрою, цього може бути недостатньо для запису й віддаленого перегляду.\n\nСкладіть список обладнання та його споживання. Допоможемо підібрати сумісне рішення без обіцянок автономності навмання.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/rezervne-zhyvlennia/?utm_source=facebook&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20260926\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "telegram": "Резерв живлення: що ви забули підключити?\n\nКамери, реєстратор, комутатор та роутер можуть живитися окремо. Якщо резерв є лише в одного пристрою, цього може бути недостатньо для запису й віддаленого перегляду.\n\nСкладіть список обладнання та його споживання. Допоможемо підібрати сумісне рішення без обіцянок автономності навмання.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/rezervne-zhyvlennia/?utm_source=telegram&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20260926\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "instagram": "Резерв живлення: що ви забули підключити?\n\nКамери, реєстратор, комутатор та роутер можуть живитися окремо. Якщо резерв є лише в одного пристрою, цього може бути недостатньо для запису й віддаленого перегляду.\n\nСкладіть список обладнання та його споживання. Допоможемо підібрати сумісне рішення без обіцянок автономності навмання.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nВідкрийте alt-cam.net.ua у браузері або напишіть у Direct.\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "threads": "Резерв живлення: що ви забули підключити?\n\nПідбір і налаштування з ALT-CAM. Київ, Вишгород, область. Опишіть задачу на сайті:\nhttps://alt-cam.net.ua/rezervne-zhyvlennia/?utm_source=threads&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20260926\n\nШІ-ілюстрація, не фото виконаного об’єкта."
+      },
+      "caption": "Резерв живлення: що ви забули підключити?\n\nКамери, реєстратор, комутатор та роутер можуть живитися окремо. Якщо резерв є лише в одного пристрою, цього може бути недостатньо для запису й віддаленого перегляду.\n\nСкладіть список обладнання та його споживання. Допоможемо підібрати сумісне рішення без обіцянок автономності навмання.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/rezervne-zhyvlennia/?utm_source=facebook&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20260926\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+      "approval_note": "User explicitly approved daily posts through October 5 inclusive. Existing approved illustrative campaign assets reused; no Stories or TikTok."
+    },
+    {
+      "id": "attention-daily-2026-09-27",
+      "campaign": "attention_sep26",
+      "scheduled_at": "2026-09-27T07:00:00Z",
+      "status": "approved",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram"
+      ],
+      "media_type": "image",
+      "image_url": "https://raw.githubusercontent.com/oficeit-pixel/alt-cam-security-ua/main/social-posts/content-plans/2026-09-23-attention/entrance.jpg",
+      "captions": {
+        "facebook": "Загубили ключ від під’їзду — що далі?\n\nДля електронного доступу важливо заздалегідь визначити, хто може заблокувати загублений ідентифікатор і видати новий. Обговоріть це з відповідальною особою вашого будинку.\n\nALT-CAM підбирає та встановлює контроль доступу. Починаємо з входів, кількості користувачів і правил керування доступом.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/videosposterezhennia-vyshhorod/?utm_source=facebook&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20260927\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "telegram": "Загубили ключ від під’їзду — що далі?\n\nДля електронного доступу важливо заздалегідь визначити, хто може заблокувати загублений ідентифікатор і видати новий. Обговоріть це з відповідальною особою вашого будинку.\n\nALT-CAM підбирає та встановлює контроль доступу. Починаємо з входів, кількості користувачів і правил керування доступом.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/videosposterezhennia-vyshhorod/?utm_source=telegram&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20260927\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "instagram": "Загубили ключ від під’їзду — що далі?\n\nДля електронного доступу важливо заздалегідь визначити, хто може заблокувати загублений ідентифікатор і видати новий. Обговоріть це з відповідальною особою вашого будинку.\n\nALT-CAM підбирає та встановлює контроль доступу. Починаємо з входів, кількості користувачів і правил керування доступом.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nВідкрийте alt-cam.net.ua у браузері або напишіть у Direct.\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "threads": "Загубили ключ від під’їзду — що далі?\n\nПідбір і налаштування з ALT-CAM. Київ, Вишгород, область. Опишіть задачу на сайті:\nhttps://alt-cam.net.ua/videosposterezhennia-vyshhorod/?utm_source=threads&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20260927\n\nШІ-ілюстрація, не фото виконаного об’єкта."
+      },
+      "caption": "Загубили ключ від під’їзду — що далі?\n\nДля електронного доступу важливо заздалегідь визначити, хто може заблокувати загублений ідентифікатор і видати новий. Обговоріть це з відповідальною особою вашого будинку.\n\nALT-CAM підбирає та встановлює контроль доступу. Починаємо з входів, кількості користувачів і правил керування доступом.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/videosposterezhennia-vyshhorod/?utm_source=facebook&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20260927\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+      "approval_note": "User explicitly approved daily posts through October 5 inclusive. Existing approved illustrative campaign assets reused; no Stories or TikTok."
+    },
+    {
+      "id": "attention-daily-2026-09-29",
+      "campaign": "attention_sep26",
+      "scheduled_at": "2026-09-29T07:00:00Z",
+      "status": "approved",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram"
+      ],
+      "media_type": "image",
+      "image_url": "https://raw.githubusercontent.com/oficeit-pixel/alt-cam-security-ua/main/social-posts/content-plans/2026-09-23-attention/camera.jpg",
+      "captions": {
+        "facebook": "Вдень усе видно. А ввечері?\n\nПерегляньте запис після заходу сонця: чи видно потрібну зону, чи не засліплює камеру ліхтар, чи немає відблисків? Не кожну проблему вирішує більша кількість мегапікселів.\n\nДопоможемо підібрати ракурс і обладнання під конкретну задачу. Монтаж — Київ, Вишгород та область.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/montazh-videosposterezhennia-kyiv/?utm_source=facebook&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20260929\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "telegram": "Вдень усе видно. А ввечері?\n\nПерегляньте запис після заходу сонця: чи видно потрібну зону, чи не засліплює камеру ліхтар, чи немає відблисків? Не кожну проблему вирішує більша кількість мегапікселів.\n\nДопоможемо підібрати ракурс і обладнання під конкретну задачу. Монтаж — Київ, Вишгород та область.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/montazh-videosposterezhennia-kyiv/?utm_source=telegram&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20260929\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "instagram": "Вдень усе видно. А ввечері?\n\nПерегляньте запис після заходу сонця: чи видно потрібну зону, чи не засліплює камеру ліхтар, чи немає відблисків? Не кожну проблему вирішує більша кількість мегапікселів.\n\nДопоможемо підібрати ракурс і обладнання під конкретну задачу. Монтаж — Київ, Вишгород та область.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nВідкрийте alt-cam.net.ua у браузері або напишіть у Direct.\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "threads": "Вдень усе видно. А ввечері?\n\nПідбір і налаштування з ALT-CAM. Київ, Вишгород, область. Опишіть задачу на сайті:\nhttps://alt-cam.net.ua/montazh-videosposterezhennia-kyiv/?utm_source=threads&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20260929\n\nШІ-ілюстрація, не фото виконаного об’єкта."
+      },
+      "caption": "Вдень усе видно. А ввечері?\n\nПерегляньте запис після заходу сонця: чи видно потрібну зону, чи не засліплює камеру ліхтар, чи немає відблисків? Не кожну проблему вирішує більша кількість мегапікселів.\n\nДопоможемо підібрати ракурс і обладнання під конкретну задачу. Монтаж — Київ, Вишгород та область.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/montazh-videosposterezhennia-kyiv/?utm_source=facebook&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20260929\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+      "approval_note": "User explicitly approved daily posts through October 5 inclusive. Existing approved illustrative campaign assets reused; no Stories or TikTok."
+    },
+    {
+      "id": "attention-daily-2026-10-01",
+      "campaign": "attention_sep26",
+      "scheduled_at": "2026-10-01T07:00:00Z",
+      "status": "approved",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram"
+      ],
+      "media_type": "image",
+      "image_url": "https://raw.githubusercontent.com/oficeit-pixel/alt-cam-security-ua/main/social-posts/content-plans/2026-09-23-attention/router.jpg",
+      "captions": {
+        "facebook": "Перед купівлею mini UPS — перевірте ці три речі\n\nНапруга живлення, сумісність роз’єму та потрібна потужність мають відповідати вашому обладнанню. Для оптичного інтернету перевірте також живлення термінала й резервування мережі провайдера.\n\nНадішліть модель обладнання через форму на сайті — обговоримо підбір. Не підключайте несумісне живлення.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/rezervne-zhyvlennia/?utm_source=facebook&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261001\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "telegram": "Перед купівлею mini UPS — перевірте ці три речі\n\nНапруга живлення, сумісність роз’єму та потрібна потужність мають відповідати вашому обладнанню. Для оптичного інтернету перевірте також живлення термінала й резервування мережі провайдера.\n\nНадішліть модель обладнання через форму на сайті — обговоримо підбір. Не підключайте несумісне живлення.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/rezervne-zhyvlennia/?utm_source=telegram&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261001\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "instagram": "Перед купівлею mini UPS — перевірте ці три речі\n\nНапруга живлення, сумісність роз’єму та потрібна потужність мають відповідати вашому обладнанню. Для оптичного інтернету перевірте також живлення термінала й резервування мережі провайдера.\n\nНадішліть модель обладнання через форму на сайті — обговоримо підбір. Не підключайте несумісне живлення.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nВідкрийте alt-cam.net.ua у браузері або напишіть у Direct.\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "threads": "Перед купівлею mini UPS — перевірте ці три речі\n\nПідбір і налаштування з ALT-CAM. Київ, Вишгород, область. Опишіть задачу на сайті:\nhttps://alt-cam.net.ua/rezervne-zhyvlennia/?utm_source=threads&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261001\n\nШІ-ілюстрація, не фото виконаного об’єкта."
+      },
+      "caption": "Перед купівлею mini UPS — перевірте ці три речі\n\nНапруга живлення, сумісність роз’єму та потрібна потужність мають відповідати вашому обладнанню. Для оптичного інтернету перевірте також живлення термінала й резервування мережі провайдера.\n\nНадішліть модель обладнання через форму на сайті — обговоримо підбір. Не підключайте несумісне живлення.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/rezervne-zhyvlennia/?utm_source=facebook&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261001\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+      "approval_note": "User explicitly approved daily posts through October 5 inclusive. Existing approved illustrative campaign assets reused; no Stories or TikTok."
+    },
+    {
+      "id": "attention-daily-2026-10-03",
+      "campaign": "attention_sep26",
+      "scheduled_at": "2026-10-03T07:00:00Z",
+      "status": "approved",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram"
+      ],
+      "media_type": "image",
+      "image_url": "https://raw.githubusercontent.com/oficeit-pixel/alt-cam-security-ua/main/social-posts/content-plans/2026-09-23-attention/wifi.jpg",
+      "captions": {
+        "facebook": "Камера втрачає зв’язок? Почніть із мережі\n\nНестабільний Wi-Fi може заважати віддаленому перегляду. Перевірте, чи повторюється проблема поруч із роутером та чи стабільно працюють інші пристрої. Причину потрібно встановити до заміни камери.\n\nALT-CAM допоможе з діагностикою, налаштуванням мережі та підбором обладнання.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/?utm_source=facebook&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261003\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "telegram": "Камера втрачає зв’язок? Почніть із мережі\n\nНестабільний Wi-Fi може заважати віддаленому перегляду. Перевірте, чи повторюється проблема поруч із роутером та чи стабільно працюють інші пристрої. Причину потрібно встановити до заміни камери.\n\nALT-CAM допоможе з діагностикою, налаштуванням мережі та підбором обладнання.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/?utm_source=telegram&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261003\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "instagram": "Камера втрачає зв’язок? Почніть із мережі\n\nНестабільний Wi-Fi може заважати віддаленому перегляду. Перевірте, чи повторюється проблема поруч із роутером та чи стабільно працюють інші пристрої. Причину потрібно встановити до заміни камери.\n\nALT-CAM допоможе з діагностикою, налаштуванням мережі та підбором обладнання.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nВідкрийте alt-cam.net.ua у браузері або напишіть у Direct.\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "threads": "Камера втрачає зв’язок? Почніть із мережі\n\nПідбір і налаштування з ALT-CAM. Київ, Вишгород, область. Опишіть задачу на сайті:\nhttps://alt-cam.net.ua/?utm_source=threads&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261003\n\nШІ-ілюстрація, не фото виконаного об’єкта."
+      },
+      "caption": "Камера втрачає зв’язок? Почніть із мережі\n\nНестабільний Wi-Fi може заважати віддаленому перегляду. Перевірте, чи повторюється проблема поруч із роутером та чи стабільно працюють інші пристрої. Причину потрібно встановити до заміни камери.\n\nALT-CAM допоможе з діагностикою, налаштуванням мережі та підбором обладнання.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/?utm_source=facebook&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261003\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+      "approval_note": "User explicitly approved daily posts through October 5 inclusive. Existing approved illustrative campaign assets reused; no Stories or TikTok."
+    },
+    {
+      "id": "attention-daily-2026-10-04",
+      "campaign": "attention_sep26",
+      "scheduled_at": "2026-10-04T07:00:00Z",
+      "status": "approved",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram"
+      ],
+      "media_type": "image",
+      "image_url": "https://raw.githubusercontent.com/oficeit-pixel/alt-cam-security-ua/main/social-posts/content-plans/2026-09-23-attention/entrance.jpg",
+      "captions": {
+        "facebook": "Камери в будинку: хто матиме доступ до записів?\n\nДо монтажу варто погодити зони огляду, відповідальних осіб і правила доступу до архіву. Камера — не лише обладнання, а й питання організації роботи системи.\n\nОбговоримо рішення для вашого під’їзду: контроль доступу, камери та налаштування. Київ, Вишгород, область.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/videosposterezhennia-vyshhorod/?utm_source=facebook&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261004\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "telegram": "Камери в будинку: хто матиме доступ до записів?\n\nДо монтажу варто погодити зони огляду, відповідальних осіб і правила доступу до архіву. Камера — не лише обладнання, а й питання організації роботи системи.\n\nОбговоримо рішення для вашого під’їзду: контроль доступу, камери та налаштування. Київ, Вишгород, область.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/videosposterezhennia-vyshhorod/?utm_source=telegram&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261004\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "instagram": "Камери в будинку: хто матиме доступ до записів?\n\nДо монтажу варто погодити зони огляду, відповідальних осіб і правила доступу до архіву. Камера — не лише обладнання, а й питання організації роботи системи.\n\nОбговоримо рішення для вашого під’їзду: контроль доступу, камери та налаштування. Київ, Вишгород, область.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nВідкрийте alt-cam.net.ua у браузері або напишіть у Direct.\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "threads": "Камери в будинку: хто матиме доступ до записів?\n\nПідбір і налаштування з ALT-CAM. Київ, Вишгород, область. Опишіть задачу на сайті:\nhttps://alt-cam.net.ua/videosposterezhennia-vyshhorod/?utm_source=threads&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261004\n\nШІ-ілюстрація, не фото виконаного об’єкта."
+      },
+      "caption": "Камери в будинку: хто матиме доступ до записів?\n\nДо монтажу варто погодити зони огляду, відповідальних осіб і правила доступу до архіву. Камера — не лише обладнання, а й питання організації роботи системи.\n\nОбговоримо рішення для вашого під’їзду: контроль доступу, камери та налаштування. Київ, Вишгород, область.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/videosposterezhennia-vyshhorod/?utm_source=facebook&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261004\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+      "approval_note": "User explicitly approved daily posts through October 5 inclusive. Existing approved illustrative campaign assets reused; no Stories or TikTok."
+    },
+    {
+      "id": "attention-daily-2026-10-05",
+      "campaign": "attention_sep26",
+      "scheduled_at": "2026-10-05T07:00:00Z",
+      "status": "approved",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "telegram"
+      ],
+      "media_type": "image",
+      "image_url": "https://raw.githubusercontent.com/oficeit-pixel/alt-cam-security-ua/main/social-posts/content-plans/2026-09-23-attention/camera.jpg",
+      "captions": {
+        "facebook": "Плануєте камери? Почніть не з їх кількості\n\nЩо потрібно бачити: вхід, касу, подвір’я чи під’їзд? Які деталі важливі та де потрібен запис у темряві? Відповіді допомагають підібрати систему під задачу, а не купувати випадковий комплект.\n\nЗалиште заявку на сайті ALT-CAM. Підбір, монтаж і налаштування з виїздом у Києві, Вишгороді та області.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/montazh-videosposterezhennia-kyiv/?utm_source=facebook&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261005\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "telegram": "Плануєте камери? Почніть не з їх кількості\n\nЩо потрібно бачити: вхід, касу, подвір’я чи під’їзд? Які деталі важливі та де потрібен запис у темряві? Відповіді допомагають підібрати систему під задачу, а не купувати випадковий комплект.\n\nЗалиште заявку на сайті ALT-CAM. Підбір, монтаж і налаштування з виїздом у Києві, Вишгороді та області.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/montazh-videosposterezhennia-kyiv/?utm_source=telegram&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261005\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "instagram": "Плануєте камери? Почніть не з їх кількості\n\nЩо потрібно бачити: вхід, касу, подвір’я чи під’їзд? Які деталі важливі та де потрібен запис у темряві? Відповіді допомагають підібрати систему під задачу, а не купувати випадковий комплект.\n\nЗалиште заявку на сайті ALT-CAM. Підбір, монтаж і налаштування з виїздом у Києві, Вишгороді та області.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nВідкрийте alt-cam.net.ua у браузері або напишіть у Direct.\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+        "threads": "Плануєте камери? Почніть не з їх кількості\n\nПідбір і налаштування з ALT-CAM. Київ, Вишгород, область. Опишіть задачу на сайті:\nhttps://alt-cam.net.ua/montazh-videosposterezhennia-kyiv/?utm_source=threads&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261005\n\nШІ-ілюстрація, не фото виконаного об’єкта."
+      },
+      "caption": "Плануєте камери? Почніть не з їх кількості\n\nЩо потрібно бачити: вхід, касу, подвір’я чи під’їзд? Які деталі важливі та де потрібен запис у темряві? Відповіді допомагають підібрати систему під задачу, а не купувати випадковий комплект.\n\nЗалиште заявку на сайті ALT-CAM. Підбір, монтаж і налаштування з виїздом у Києві, Вишгороді та області.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/montazh-videosposterezhennia-kyiv/?utm_source=facebook&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261005\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+      "approval_note": "User explicitly approved daily posts through October 5 inclusive. Existing approved illustrative campaign assets reused; no Stories or TikTok."
     }
   ]
 }
