@@ -2,12 +2,14 @@ const { chromium } = require('playwright');
 const { pathToFileURL } = require('url');
 const path = require('path');
 const assert = require('assert/strict');
+const target = process.env.QA_URL || pathToFileURL(path.resolve('index.html')).href;
+const network = route => new URL(route.request().url()).hostname === 'alt-cam.net.ua' ? route.continue() : route.abort();
 (async () => {
   const browser = await chromium.launch({ channel: 'msedge', headless: true });
   try {
     const page = await browser.newPage();
-    await page.route(/^https?:/, route => route.abort());
-    await page.goto(pathToFileURL(path.resolve('index.html')).href);
+    await page.route(/^https?:/, network);
+    await page.goto(target);
     for (const width of [320,390,768,1024,1150,1160,1280,1366,1440,1920]) {
       await page.setViewportSize({ width, height: 900 });
       const layout = await page.evaluate(() => {
@@ -43,8 +45,8 @@ const assert = require('assert/strict');
     assert.equal(await page.locator('#header-contact-panel').isVisible(),true);
     console.log('PASS hover and contact links');
     const touch = await browser.newPage({viewport:{width:390,height:844},hasTouch:true,isMobile:true});
-    await touch.route(/^https?:/, route=>route.abort());
-    await touch.goto(pathToFileURL(path.resolve('index.html')).href);
+    await touch.route(/^https?:/, network);
+    await touch.goto(target);
     await touch.locator('.contact-toggle').tap();
     assert.equal(await touch.locator('#header-contact-panel').isVisible(),true);
     await touch.locator('.contact-toggle').tap();
