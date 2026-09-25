@@ -970,6 +970,34 @@ select:focus,
   line-height: 1.4;
 }
 
+/* Header: never break navigation labels to fit a crowded row. */
+.header .nav { gap: 18px; }
+.header .logo, .header-actions, .menu-toggle { flex-shrink: 0; }
+.header .logo, .header .nav-links a, .header .header-cta { white-space: nowrap; overflow-wrap: normal; }
+.header .nav-links { gap: 18px; }
+.header .nav-links a { flex-shrink: 0; font-size: 13px; }
+.header-contact { position: relative; }
+.header .contact-toggle { width: 44px; height: 44px; cursor: pointer; background: transparent; }
+.header .contact-toggle svg { fill: none; stroke: currentColor; stroke-width: 1.8; }
+.header-contact-panel { position: absolute; top: 100%; right: 0; width: 242px; max-width: calc(100vw - 28px); padding: 10px; background: #1b1b1f; border: 1px solid #555; border-radius: 12px; box-shadow: 0 16px 40px #0008; z-index: 20; }
+.header-contact-panel[hidden] { display: none; }
+.header-contact-panel a { display: block; padding: 12px; color: #fff; border-radius: 7px; font-size: 14px; white-space: nowrap; }
+.header-contact-panel small { display: block; color: #aaaab2; margin-top: 4px; font-size: 11px; }
+.header-contact-panel a:hover, .header-contact-panel a:focus-visible { background: #333; color: #ffcc00; }
+.contact-toggle:focus-visible { outline: 2px solid #ffcc00; outline-offset: 3px; }
+@media (max-width: 1150px) {
+  .header .nav { height: 70px; gap: 12px; }
+  .header .header-actions { margin-left: auto; }
+  .header .header-cta { display: none; }
+  .header .menu-toggle { display: block; }
+  .header .nav-links { position: fixed; inset: 70px 0 auto; flex-direction: column; align-items: stretch; gap: 0; padding: 16px 24px; margin: 0; background: #121212; transform: translateY(-120%); opacity: 0; pointer-events: none; max-height: calc(100dvh - 70px); overflow-y: auto; }
+  .header .nav-links.open { transform: none; opacity: 1; pointer-events: auto; }
+  .header .nav-links a { padding: 12px 0; font-size: 15px; }
+  .header .menu-toggle.active span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+  .header .menu-toggle.active span:nth-child(2) { opacity: 0; }
+  .header .menu-toggle.active span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+}
+
 /* 10. Mobile refinements */
 @media (max-width: 780px) {
   .section {

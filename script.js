@@ -268,6 +268,31 @@ document.querySelectorAll("[data-package]").forEach((link) => {
 const header = document.querySelector(".header");
 const menuButton = document.querySelector(".menu-toggle");
 const menu = document.querySelector(".nav-links");
+const contact = document.querySelector('.header-contact');
+if (contact) {
+  const toggle = contact.querySelector('.contact-toggle');
+  const panel = contact.querySelector('.header-contact-panel');
+  const setOpen = open => {
+    panel.hidden = !open;
+    toggle.setAttribute('aria-expanded', String(open));
+  };
+  toggle.addEventListener('click', event => setOpen(event.pointerType === 'mouse' ? true : panel.hidden));
+  contact.addEventListener('pointerenter', event => {
+    if (event.pointerType === 'mouse') setOpen(true);
+  });
+  contact.addEventListener('pointerleave', () => {
+    if (!contact.contains(document.activeElement)) setOpen(false);
+  });
+  contact.addEventListener('focusout', event => {
+    if (!contact.contains(event.relatedTarget)) setOpen(false);
+  });
+  document.addEventListener('click', event => {
+    if (!contact.contains(event.target)) setOpen(false);
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && !panel.hidden) { setOpen(false); toggle.focus(); }
+  });
+}
 
 function updateHeader() {
   header.classList.toggle("scrolled", window.scrollY > 20);

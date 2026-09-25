@@ -20,7 +20,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="custom-style.css?v=responsive-20260925">
+  <link rel="stylesheet" href="custom-style.css?v=header-20260925">
   <!-- SITE_URL: https://oficeit-pixel.github.io/alt-cam-security-ua/ -->
   <!-- TODO: вставити реальні контактні дані перед запуском -->
   <script type="application/ld+json">
@@ -82,9 +82,14 @@
         <a href="#contacts">Контакти</a>
       </nav>
       <div class="header-actions">
-        <a class="header-contact-link js-phone is-hidden" href="#" data-track="click_phone" data-track-location="header">Телефон</a>
-        <a class="header-icon-link js-telegram" href="#" target="_blank" rel="noopener" aria-label="Написати в Telegram" data-track="click_telegram" data-track-location="header"><svg><use href="#i-social-telegram"/></svg></a>
-        <a class="header-icon-link js-viber is-hidden" href="#" aria-label="Написати у Viber" data-track="click_viber" data-track-location="header">V</a>
+        <div class="header-contact">
+          <button class="header-icon-link contact-toggle" type="button" aria-label="Зв’язатися з ALT-CAM" aria-expanded="false" aria-controls="header-contact-panel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg></button>
+          <div class="header-contact-panel" id="header-contact-panel" hidden>
+            <a class="js-phone" href="tel:+380630607088" data-track="click_phone" data-track-location="header">+380 63 060 70 88</a>
+            <a href="https://wa.me/380630607088" target="_blank" rel="noopener noreferrer" data-track="click_whatsapp" data-track-location="header">WhatsApp <small>Відкрити чат</small></a>
+            <a class="js-telegram" href="https://t.me/OficeITHelp" target="_blank" rel="noopener noreferrer" data-track="click_telegram" data-track-location="header">Telegram <small>Відкрити чат</small></a>
+          </div>
+        </div>
         <a class="btn btn-small btn-outline header-cta" href="#calculator" data-track="click_calculate" data-track-location="header">Розрахувати вартість</a>
       </div>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Відкрити меню">
