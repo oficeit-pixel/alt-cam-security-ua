@@ -6,11 +6,12 @@ from sqlalchemy import pool
 from sqlalchemy.ext.asyncio import async_engine_from_config
 
 from bot.config import get_settings
-from bot.db.base import Base
+from bot.db.base import Base, normalize_database_url, database_connect_args
 from bot.db import models  # noqa: F401
 
 config = context.config
-config.set_main_option("sqlalchemy.url", get_settings().database_url)
+database_url = normalize_database_url(get_settings().database_url)
+config.set_main_option("sqlalchemy.url", database_url.replace("%", "%%"))
 
 if config.config_file_name is not None:
     fileConfig(config.config_file_name)
@@ -39,6 +40,7 @@ async def run_async_migrations() -> None:
         config.get_section(config.config_ini_section, {}),
         prefix="sqlalchemy.",
         poolclass=pool.NullPool,
+        connect_args=database_connect_args(database_url),
     )
     async with connectable.connect() as connection:
         await connection.run_sync(do_run_migrations)

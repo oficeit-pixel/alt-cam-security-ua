@@ -1,11 +1,22 @@
+# Legacy blueprint: prefer the repository-root render.yaml.
 services:
   - type: web
     name: alt-cam-manager-bot
+    buildFilter:
+      paths:
+        - main.py
+        - bot/**
+        - alembic/**
+        - alembic.ini
+        - render.yaml
+        - feeds/meta-catalog.csv
     runtime: python
     plan: free
     buildCommand: pip install -r bot/requirements.txt
     startCommand: python main.py
     envVars:
+      - key: ENABLE_BOT_POLLING
+        value: "false"
       - key: BOT_TOKEN
         sync: false
       - key: DATABASE_URL
