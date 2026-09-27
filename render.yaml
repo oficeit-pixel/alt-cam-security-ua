@@ -1,12 +1,22 @@
 services:
   - type: web
     name: alt-cam-crm-api
+    buildFilter:
+      paths:
+        - main.py
+        - bot/**
+        - alembic/**
+        - alembic.ini
+        - render.yaml
+        - feeds/meta-catalog.csv
     runtime: python
     region: frankfurt
     plan: free
     buildCommand: pip install -r bot/requirements.txt
     startCommand: python main.py
     envVars:
+      - key: ENABLE_BOT_POLLING
+        value: "true"
       - key: PYTHON_VERSION
         value: 3.12.8
       - key: DATABASE_URL
@@ -52,11 +62,21 @@ services:
 
   - type: web
     name: alt-cam-manager-bot
+    buildFilter:
+      paths:
+        - main.py
+        - bot/**
+        - alembic/**
+        - alembic.ini
+        - render.yaml
+        - feeds/meta-catalog.csv
     runtime: python
     plan: free
     buildCommand: pip install -r bot/requirements.txt
     startCommand: python main.py
     envVars:
+      - key: ENABLE_BOT_POLLING
+        value: "false"
       - key: PYTHON_VERSION
         value: 3.12.8
       - key: DATABASE_URL

@@ -106,7 +106,7 @@ jobs:
               git add -f social-posts/tiktok-automation/cloud-token.enc.json
             fi
             if ! git diff --cached --quiet; then
-              git commit -m "Update social publisher state [skip ci]"
+              git commit -m "Update social publisher state [skip ci] [skip render]"
               git push
             fi
           fi
