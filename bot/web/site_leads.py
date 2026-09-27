@@ -11,9 +11,9 @@ from typing import Any
 
 from aiohttp import ClientSession, ClientTimeout, web
 from aiogram import Bot
-from sqlalchemy import select
+from sqlalchemy import select, text
 
-from bot.db.base import SessionLocal
+from bot.db.base import SessionLocal, engine
 from bot.db.models import AdminAuditLog, AnalyticsEvent, PriceOverride, WebOrder
 from bot.integrations.order_fulfillment import auto_create_order_drive_folder
 from bot.web.shop_admin import register_shop_admin_routes
@@ -447,7 +447,15 @@ async def create_order(request: web.Request) -> web.Response:
 
 
 async def health(_: web.Request) -> web.Response:
-    return web.json_response({"ok": True, "service": "alt-cam-bot"})
+    async def probe():
+        async with engine.connect() as conn:
+            await conn.execute(text("SELECT 1"))
+    try:
+        await asyncio.wait_for(probe(), timeout=5)
+        db = True
+    except Exception:
+        db = False
+    return web.json_response({"ok": True, "db": db})
 
 
 @web.middleware
@@ -492,5 +500,8 @@ async def start_site_lead_server(bot: Bot | None) -> web.AppRunner:
     await runner.setup()
     site = web.TCPSite(runner, settings.http_host, settings.http_port)
     await site.start()
-    await _backfill_latest_order_notification(app)
+    try:
+        await asyncio.wait_for(_backfill_latest_order_notification(app), timeout=10)
+    except Exception as exc:
+        app["logger"].warning("Order backfill unavailable (%s); web server remains running", type(exc).__name__)
     return runner
