@@ -5,4 +5,7 @@ scripts/__pycache__/
 tmp/
 output/
 _site/
+.venv-neon/
+.pytest_cache/
+*.dump
 tmp-responsive/
