@@ -8289,6 +8289,96 @@
           "post_id": "962902993572061_122137829535226993"
         }
       }
+    },
+    "attention-daily-2026-09-27": {
+      "instagram": {
+        "published_at": "2026-09-27T07:07:39.156173+00:00",
+        "result": {
+          "container": {
+            "id": "18090279488418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18090279488418944"
+          },
+          "published": {
+            "id": "18110014010172878"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-09-27T07:08:51.784853+00:00",
+        "result": {
+          "container": {
+            "id": "18090112733424516"
+          },
+          "published": {
+            "id": "17954376231081863"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-09-27T07:08:54.096075+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 117,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1790492933,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADdWq4wQUpp4wUeWlUreWZItQAAfdkRAACWRxrGxbKyEkXpXTNxSHSNAEAAwIAA3MAAz0E",
+                  "file_unique_id": "AQADWRxrGxbKyEl4",
+                  "file_size": 2072,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADdWq4wQUpp4wUeWlUreWZItQAAfdkRAACWRxrGxbKyEkXpXTNxSHSNAEAAwIAA20AAz0E",
+                  "file_unique_id": "AQADWRxrGxbKyEly",
+                  "file_size": 29061,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADdWq4wQUpp4wUeWlUreWZItQAAfdkRAACWRxrGxbKyEkXpXTNxSHSNAEAAwIAA3gAAz0E",
+                  "file_unique_id": "AQADWRxrGxbKyEl9",
+                  "file_size": 120714,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADdWq4wQUpp4wUeWlUreWZItQAAfdkRAACWRxrGxbKyEkXpXTNxSHSNAEAAwIAA3kAAz0E",
+                  "file_unique_id": "AQADWRxrGxbKyEl-",
+                  "file_size": 206396,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Загубили ключ від під’їзду — що далі?\n\nДля електронного доступу важливо заздалегідь визначити, хто може заблокувати загублений ідентифікатор і видати новий. Обговоріть це з відповідальною особою вашого будинку.\n\nALT-CAM підбирає та встановлює контроль доступу. Починаємо з входів, кількості користувачів і правил керування доступом.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/videosposterezhennia-vyshhorod/?utm_source=telegram&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20260927\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+              "caption_entities": [
+                {
+                  "offset": 420,
+                  "length": 148,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
