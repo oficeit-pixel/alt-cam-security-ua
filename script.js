@@ -184,13 +184,22 @@ const INTEGRATIONS = {
 
 async function sendLeadToCrm(payload) {
   if (!INTEGRATIONS.crmWebhook) return false;
+  const lead = window.AltcamLead.buildLeadPayload(payload.type, {
+    ...(payload.client || payload),
+    message: payload.message,
+    details: payload.details || {object:payload.object, cameras:payload.cameras,
+      nightVision:payload.nightVision, phoneView:payload.phoneView,
+      technicalNote:payload.technicalNote, diagnostics:payload.diagnostics,
+      quote:payload.quote}
+  });
   try {
     const response = await fetch(INTEGRATIONS.crmWebhook, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
       ...payload,
-      source: SITE_URL,
+      ...lead,
+      client: {...(payload.client || {}), ...lead.client},
       createdAt: new Date().toISOString()
     })
     });
@@ -1428,6 +1437,7 @@ quizNext.addEventListener("click", () => {
   ].join("\n");
   sendLeadToCrm({
     type: "quiz",
+    message,
     object: data.get("quizObject"),
     cameras: data.get("quizCameras"),
     nightVision: data.get("quizNight"),
