@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {pathToFileURL} from 'node:url';
+import {contacts} from './contacts.mjs';
 
 const forbidden = ['[ЗАПОВНИТИ', '[ПІДТВЕРДИТИ', '[ВСТАВИТИ',
   'oficeit-pixel.github.io', 'firetron.com', 'TODO: вставити'];
@@ -15,6 +16,13 @@ export async function checkBuild(root = '_site') {
       if (entry.isDirectory()) { await walk(file); continue; }
       if (!/\.(html|js|xml|json)$/i.test(entry.name)) continue;
       const body = await fs.readFile(file, 'utf8');
+      if(entry.name.endsWith('.html')) {
+        for(const match of body.matchAll(/href="tel:([^"]+)"/g)) {
+          if(match[1]!==contacts.phone)errors.push(`${path.relative(root,file)}: inconsistent phone`);
+        }
+        if(body.includes('altcam777@gmail.com'))errors.push(`${path.relative(root,file)}: non-public email`);
+        if(!contacts.whatsapp && /href="https:\/\/wa.me\//.test(body))errors.push(`${path.relative(root,file)}: unconfigured WhatsApp`);
+      }
       for (const marker of forbidden) {
         if (body.includes(marker)) errors.push(`${path.relative(root,file)}: ${marker}`);
       }

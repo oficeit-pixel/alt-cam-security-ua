@@ -5,6 +5,7 @@ import { buildProductPages } from './build-product-pages.mjs';
 import { buildLocalPages } from './build-local-pages.mjs';
 import { finalizeSeo } from './finalize-seo.mjs';
 import { localizeCatalog } from './localize-catalog.mjs';
+import { renderContacts } from './contacts.mjs';
 
 const root = process.cwd();
 const out = path.join(root, '_site');
@@ -48,4 +49,16 @@ await fs.mkdir(path.join(out, 'admin'), { recursive: true });
 const admin = await fs.readFile('admin.html', 'utf8');
 await fs.writeFile(path.join(out, 'admin/index.html'), admin.replace('<head>', '<head><base href="../">'));
 await finalizeSeo(out);
+async function finalizeContacts(directory) {
+  for(const entry of await fs.readdir(directory,{withFileTypes:true})){
+    const file=path.join(directory,entry.name);
+    if(entry.isDirectory())await finalizeContacts(file);
+    else if(entry.name.endsWith('.html')){
+      const html=await fs.readFile(file,'utf8');
+      const updated=renderContacts(html);
+      if(updated!==html)await fs.writeFile(file,updated);
+    }
+  }
+}
+await finalizeContacts(out);
 console.log(`Catalog: ${Buffer.byteLength(source)} → ${Buffer.byteLength(compact)} bytes; ${data.length} products preserved`);

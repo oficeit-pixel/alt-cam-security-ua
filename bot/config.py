@@ -17,26 +17,26 @@ class Settings(BaseSettings):
     channel_id: int | str | None = Field(None, alias="CHANNEL_ID")
     site_lead_group_id: int | None = Field(None, alias="SITE_LEAD_GROUP_ID")
     site_public_origin: str = Field(
-        "https://oficeit-pixel.github.io",
+        "https://alt-cam.net.ua",
         alias="SITE_PUBLIC_ORIGIN",
     )
     http_host: str = Field("0.0.0.0", alias="HTTP_HOST")
     http_port: int = Field(8000, alias="PORT")
     site_url: str = Field(
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/#top",
+        "https://alt-cam.net.ua/#top",
         alias="SITE_URL",
     )
     calculator_url: str = Field(
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/#calculator",
+        "https://alt-cam.net.ua/#calculator",
         alias="CALCULATOR_URL",
     )
     admin_ids: List[int] = Field(default_factory=list, alias="ADMIN_IDS")
     terms_url: str = Field(
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/terms-of-service.html",
+        "https://alt-cam.net.ua/terms-of-service.html",
         alias="TERMS_URL",
     )
     privacy_url: str = Field(
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/privacy-policy.html",
+        "https://alt-cam.net.ua/privacy-policy.html",
         alias="PRIVACY_URL",
     )
     google_service_account_json: str | None = Field(
