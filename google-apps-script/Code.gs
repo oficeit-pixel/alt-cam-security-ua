@@ -67,6 +67,15 @@ function doPost(e) {
       return createDriveFolder_(data);
     }
 
+    if (data.kind === 'lead_backup') {
+      const client = data.client || data.customer || {};
+      data.name = client.name || data.name;
+      data.phone = client.phone || data.phone;
+      data.comment = data.message || JSON.stringify({items:data.items, delivery:data.delivery, details:data.details});
+      data.source = data.source || data.page || 'Резервна заявка сайту';
+      if (!data.phone && !client.email && !client.telegram) throw new Error('Некоректні контакти');
+    }
+
     const sheet = getRequestSheet_();
     const id = Utilities.getUuid().substring(0, 8).toUpperCase();
 
@@ -86,7 +95,7 @@ function doPost(e) {
 
     return jsonResponse_({ status: 'success', id });
   } catch (error) {
-    return jsonResponse_({ status: 'error', message: String(error) });
+    return jsonResponse_({ status: 'error' });
   } finally {
     lock.releaseLock();
   }
@@ -215,6 +224,7 @@ function parsePayload_(e) {
     throw new Error('Порожній запит');
   }
   const data = JSON.parse(e.postData.contents);
+  if (e.postData.contents.length > 32768) throw new Error('Завеликий запит');
   if (!data || typeof data !== 'object' || Array.isArray(data)) {
     throw new Error('Некоректний JSON');
   }

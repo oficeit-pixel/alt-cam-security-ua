@@ -1,4 +1,7 @@
 window.ALTCAM_CONTACTS = Object.freeze({
+  apiBase: "https://alt-cam-crm-api.onrender.com",
+  responseTime: "",
+  backupWebhook: "",
   telegram: "OficeITHelp",
   telegramChannel: "altcam_security_ua",
   whatsapp: "",

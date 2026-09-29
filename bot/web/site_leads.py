@@ -19,6 +19,7 @@ from bot.integrations.order_fulfillment import auto_create_order_drive_folder
 from bot.web.shop_admin import register_shop_admin_routes
 
 from bot.config import get_settings
+from bot.web.lead_store import normalize_lead, save_lead, deliver_lead, pending_lead_ids
 
 
 SERVICE_CATALOG = {
@@ -230,9 +231,10 @@ async def _backfill_latest_order_notification(app: web.Application) -> None:
 
 def _lead_text(payload: dict[str, Any]) -> str:
     lead_type = _clean(payload.get("type"))
-    client = payload.get("client") if isinstance(payload.get("client"), dict) else {}
+    nested = payload.get("client") if isinstance(payload.get("client"), dict) else {}
+    client = {key: nested.get(key, payload.get(key)) for key in ("name", "phone", "email", "date", "comment", "telegram")}
     quote = payload.get("quote") if isinstance(payload.get("quote"), dict) else {}
-    message = _clean(payload.get("message"))
+    message = _clean(payload.get("message") or "\n".join(f"{key}: {payload[key]}" for key in ("object", "cameras", "nightVision", "phoneView", "technicalNote") if payload.get(key) is not None))
     source = _clean(payload.get("source"))
 
     lines = [
@@ -250,6 +252,7 @@ def _lead_text(payload: dict[str, Any]) -> str:
                 f"Ім'я: <b>{escape(_clean(client.get('name')))}</b>",
                 f"Телефон: <code>{escape(_clean(client.get('phone')))}</code>",
                 f"Email: {escape(_clean(client.get('email')))}",
+                f"Telegram: {escape(_clean(client.get('telegram')))}",
                 f"Бажана дата: {escape(_clean(client.get('date')))}",
                 f"Коментар: {escape(_clean(client.get('comment')))}",
             ]
@@ -278,8 +281,6 @@ async def site_lead_options(_: web.Request) -> web.Response:
 async def site_lead(request: web.Request) -> web.Response:
     if _rate_limited(request):
         return web.json_response({"ok": False, "error": "rate_limited"}, status=429, headers=_cors_headers())
-    settings = get_settings()
-    bot: Bot | None = request.app["bot"]
     try:
         payload = await request.json()
     except Exception:
@@ -289,16 +290,51 @@ async def site_lead(request: web.Request) -> web.Response:
             headers=_cors_headers(),
         )
 
-    text = _lead_text(payload)
+    try:
+        payload = normalize_lead(payload)
+    except ValueError as exc:
+        return web.json_response({"ok": False, "error": str(exc)}, status=400, headers=_cors_headers(request))
+    try:
+        lead_id = await asyncio.wait_for(save_lead(payload, request.remote), timeout=10)
+    except Exception as exc:
+        request.app["logger"].warning("Lead save failed (%s)", type(exc).__name__)
+        return web.json_response({"ok": False, "error": "temporarily_unavailable"}, status=503, headers=_cors_headers(request))
+    try:
+        await asyncio.wait_for(_deliver_saved_lead(request.app, lead_id), timeout=25)
+    except Exception as exc:
+        request.app["logger"].warning("Lead notification pending id=%s (%s)", lead_id, type(exc).__name__)
+    return web.json_response({"ok": True, "id": lead_id}, headers=_cors_headers(request))
+
+
+async def _deliver_saved_lead(app, lead_id):
+    from html import unescape
+    settings = get_settings()
     targets = [settings.admin_chat_id] if settings.admin_chat_id else []
     if settings.site_lead_group_id and settings.site_lead_group_id not in targets:
         targets.append(settings.site_lead_group_id)
+    def render(payload):
+        text = unescape(re.sub(r"</?(?:b|code|pre)>", "", _lead_text(payload)))
+        return (f"Заявка №{lead_id}\n" + text)[:4000]
+    await deliver_lead(lead_id, app["bot"], targets, render)
 
-    for chat_id in targets:
-        if bot:
-            await bot.send_message(chat_id, text[:4096])
 
-    return web.json_response({"ok": True}, headers=_cors_headers())
+async def _lead_retry_context(app):
+    async def retry():
+        while True:
+            try:
+                ids = await asyncio.wait_for(pending_lead_ids(), timeout=10)
+                for lead_id in ids:
+                    await asyncio.wait_for(_deliver_saved_lead(app, lead_id), timeout=30)
+            except Exception as exc:
+                app["logger"].warning("Lead retry deferred (%s)", type(exc).__name__)
+            await asyncio.sleep(300)
+    task = asyncio.create_task(retry())
+    yield
+    task.cancel()
+    try:
+        await task
+    except asyncio.CancelledError:
+        pass
 
 
 async def api_options(_: web.Request) -> web.Response:
@@ -486,6 +522,7 @@ async def start_site_lead_server(bot: Bot | None) -> web.AppRunner:
     app["rate_limits"] = {}
     import logging
     app["logger"] = logging.getLogger("altcam.catalog")
+    app.cleanup_ctx.append(_lead_retry_context)
     app.router.add_get("/", health)
     app.router.add_get("/health", health)
     app.router.add_options("/site-lead", site_lead_options)

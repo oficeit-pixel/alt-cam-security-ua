@@ -1,4 +1,17 @@
 const API='https://alt-cam-crm-api.onrender.com',tokenKey='altcam-admin-token';
+const leadTab=document.createElement('button');
+leadTab.type='button';leadTab.dataset.view='site-leads';leadTab.textContent='Заявки з сайту';
+document.querySelector('nav [data-view="orders"]').after(leadTab);
+async function siteLeads(){
+  const list=document.querySelector('#site-leads-list');
+  list.textContent='Завантаження…';
+  try{
+    const data=await api('/api/admin/leads');
+    list.innerHTML=data.leads.map(lead=>`<article class="panel"><h2>№${Number(lead.id)} · ${esc(lead.type)}</h2><p>${esc(formatDate(lead.created_at))} · ${lead.telegram_sent?'Доставлено в Telegram':'Очікує доставки в Telegram'}</p><p>${esc(lead.name)} · ${esc(lead.phone)} · ${esc(lead.email)} · ${esc(lead.telegram)}</p><p style="white-space:pre-wrap;overflow-wrap:anywhere">${esc(lead.message)}</p></article>`).join('')||'<p>Заявок поки немає.</p>';
+  }catch{list.textContent='Не вдалося завантажити заявки. Спробуйте ще раз.'}
+}
+leadTab.addEventListener('click',siteLeads);
+document.querySelector('#refresh-site-leads').addEventListener('click',siteLeads);
 let token=sessionStorage.getItem(tokenKey)||'',currentUser=null,assignees=[];
 const catalogProducts=Array.isArray(window.ALTCAM_CATALOG)?window.ALTCAM_CATALOG:[],catalogById=new Map(catalogProducts.map(item=>[String(item.id),item]));
 const $=s=>document.querySelector(s),headers=()=>({'Content-Type':'application/json','Authorization':`Bearer ${token}`}),money=n=>new Intl.NumberFormat('uk-UA').format(n||0)+' ₴',esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));

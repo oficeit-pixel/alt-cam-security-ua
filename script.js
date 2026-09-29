@@ -1,10 +1,9 @@
 /* =========================================================
-   SITE_URL: https://oficeit-pixel.github.io/alt-cam-security-ua/
-   TODO: вставити реальні контактні дані перед запуском.
+   SITE_URL: https://alt-cam.net.ua/
    Telegram: ім'я користувача без символу @
    WhatsApp/телефон: тільки цифри у міжнародному форматі
    ========================================================= */
-const SITE_URL = "https://oficeit-pixel.github.io/alt-cam-security-ua/";
+const SITE_URL = "https://alt-cam.net.ua/";
 
 const CONTACTS = window.ALTCAM_CONTACTS || {};
 
@@ -176,7 +175,7 @@ function buildQuoteMessage(state, client = null) {
    webhook — URL Google Apps Script/CRM, который принимает JSON-заявки
    и отправляет их в Google Sheets, Telegram и Email. */
 const INTEGRATIONS = {
-  crmWebhook: "https://alt-cam-crm-api.onrender.com/site-lead",
+  crmWebhook: `${CONTACTS.apiBase || 'https://alt-cam-crm-api.onrender.com'}/site-lead`,
   ga4Id: "",
   metaPixelId: "",
   clarityId: ""
@@ -184,17 +183,22 @@ const INTEGRATIONS = {
 
 async function sendLeadToCrm(payload) {
   if (!INTEGRATIONS.crmWebhook) return false;
+  const lead = window.AltcamLead.buildLeadPayload(payload.type, {
+    ...(payload.client || payload),
+    message: payload.message,
+    details: payload.details || {object:payload.object, cameras:payload.cameras,
+      nightVision:payload.nightVision, phoneView:payload.phoneView,
+      technicalNote:payload.technicalNote, diagnostics:payload.diagnostics,
+      quote:payload.quote}
+  });
   try {
-    const response = await fetch(INTEGRATIONS.crmWebhook, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
+    await window.AltcamLead.post('/site-lead', {
       ...payload,
-      source: SITE_URL,
+      ...lead,
+      client: {...(payload.client || {}), ...lead.client},
       createdAt: new Date().toISOString()
-    })
     });
-    return response.ok;
+    return true;
   } catch {
     return false;
   }
@@ -491,11 +495,7 @@ leadForm.addEventListener("submit", async (event) => {
     "Наступний крок: попросити клієнта прикріпити 2–3 фото в чаті, якщо фото ще не надіслані."
   ].join("\n");
 
-  const url = selectedChannel === "whatsapp"
-    ? `https://wa.me/${CONTACTS.whatsapp ? CONTACTS.whatsapp : ""}?text=${encodeURIComponent(message)}`
-    : telegramUrl(message);
-
-  const sentToTelegram = await sendLeadToCrm({
+  const sentToTelegram = await window.AltcamLead.submit(leadForm, event.submitter, message, () => sendLeadToCrm({
     type: "contact_form",
     message,
     name: data.get("name"),
@@ -503,13 +503,8 @@ leadForm.addEventListener("submit", async (event) => {
     object: data.get("object"),
     comment: data.get("comment") || "",
     diagnostics
-  });
-  trackEvent("submit_lead", { form: "contact_form", channel: selectedChannel });
-  if (sentToTelegram) {
-    alert("Заявку передано менеджеру ALT-CAM у Telegram.");
-  } else {
-    window.open(url, "_blank", "noopener,noreferrer");
-  }
+  }));
+  if (sentToTelegram) trackEvent("submit_lead", { form: "contact_form", channel: selectedChannel });
 });
 
 document.querySelectorAll(".js-phone").forEach((phoneLink) => {
@@ -622,22 +617,16 @@ quoteForm?.addEventListener("submit", async (event) => {
     diagnostics: collectSiteDiagnostics(data, "quote")
   };
   const message = buildQuoteMessage(activeQuoteState, client);
-  const sentToTelegram = await sendLeadToCrm({
+  const sentToTelegram = await window.AltcamLead.submit(quoteForm, event.submitter, message, () => sendLeadToCrm({
     type: "quote_confirmation",
     quote: activeQuoteState.quote,
     message,
     client,
     diagnostics: client.diagnostics,
     nextStep: "Після підтвердження дати перевірити фото, сформувати картку монтажника, надіслати клієнту email із розрахунком і сумою завдатку на обладнання."
-  });
-  trackEvent("submit_calculator", { type: activeQuoteState.quote.type, total: activeQuoteState.quote.total });
-  quoteForm.reset();
-  closeQuoteModal();
+  }));
   if (sentToTelegram) {
-    alert("Розрахунок передано менеджеру ALT-CAM у Telegram. Менеджер перевірить дату та підготує уточнення.");
-  } else {
-    window.open(telegramUrl(message), "_blank", "noopener,noreferrer");
-    alert("Backend тимчасово недоступний, тому відкрито Telegram із готовим текстом заявки.");
+    trackEvent("submit_calculator", { type: activeQuoteState.quote.type, total: activeQuoteState.quote.total });
   }
 });
 
@@ -1401,7 +1390,8 @@ function validateQuizStep() {
   return true;
 }
 
-quizNext.addEventListener("click", () => {
+quizNext.addEventListener("click", async () => {
+  window.AltcamLead.warmup();
   if (!validateQuizStep()) return;
   if (currentQuizStep < quizSteps.length - 1) {
     currentQuizStep += 1;
@@ -1426,8 +1416,9 @@ quizNext.addEventListener("click", () => {
     "Перед виїздом уточнити: ремонт, матеріал стін, висоту монтажу, кабельні траси, інтернет і 220 В.",
     "Прошу підготувати попередній розрахунок."
   ].join("\n");
-  sendLeadToCrm({
+  const sent = await window.AltcamLead.submit(quiz, quizNext, message, () => sendLeadToCrm({
     type: "quiz",
+    message,
     object: data.get("quizObject"),
     cameras: data.get("quizCameras"),
     nightVision: data.get("quizNight"),
@@ -1436,9 +1427,8 @@ quizNext.addEventListener("click", () => {
     phone: data.get("quizContact"),
     technicalNote: data.get("quizTech") || "",
     photoReady: data.get("quizPhotoReady") === "on"
-  });
-  trackEvent("submit_quiz", { form: "quiz", channel: "telegram" });
-  window.open(telegramUrl(message), "_blank", "noopener,noreferrer");
+  }));
+  if (sent) trackEvent("submit_quiz", { form: "quiz", channel: "telegram" });
 });
 
 quizBack.addEventListener("click", () => {

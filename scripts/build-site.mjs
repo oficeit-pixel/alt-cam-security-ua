@@ -4,6 +4,7 @@ import { buildSeoPages } from './build-seo-pages.mjs';
 import { buildProductPages } from './build-product-pages.mjs';
 import { buildLocalPages } from './build-local-pages.mjs';
 import { finalizeSeo } from './finalize-seo.mjs';
+import { localizeCatalog } from './localize-catalog.mjs';
 
 const root = process.cwd();
 const out = path.join(root, '_site');
@@ -14,7 +15,7 @@ const files = ['index.html', 'catalog.html', 'admin.html', 'privacy-policy.html'
   'tiktok-oauth-callback.html', 'tiktokoVpj7mZL347GV0n5bjaavAO1ZLPlsG1V.txt',
   'robots.txt', 'sitemap.xml', '.nojekyll', 'styles.css', 'custom-style.css',
   'catalog.css', 'admin.css', 'service-prices.css', 'script.js', 'catalog.js',
-  'admin.js', 'analytics.js', 'contacts.js', 'service-rates-draft.js'];
+  'admin.js', 'analytics.js', 'contacts.js', 'lead-payload.js', 'service-rates-draft.js'];
 for (const name of files) await fs.copyFile(path.join(root, name), path.join(out, name));
 for (const name of files.filter(name => name.endsWith('.html') && !name.startsWith('admin') && !name.startsWith('tiktok'))) {
   const file=path.join(out,name);
@@ -35,7 +36,7 @@ await fs.cp('social-posts', path.join(out, 'social-posts'), {
 const source = await fs.readFile('catalog-data.js', 'utf8');
 const match = source.match(/^\s*window\.ALTCAM_CATALOG\s*=\s*([\s\S]*?);?\s*$/);
 if (!match) throw new Error('Unexpected catalog format');
-const data = JSON.parse(match[1].replace(/;\s*$/, ''));
+const data = localizeCatalog(JSON.parse(match[1].replace(/;\s*$/, '')));
 await buildSeoPages(out, data);
 await buildLocalPages(out);
 await buildProductPages(out, data);

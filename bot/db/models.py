@@ -21,6 +21,24 @@ from sqlalchemy.orm import Mapped, mapped_column, relationship
 from bot.db.base import Base
 
 
+class SiteLead(Base):
+    __tablename__ = "site_leads"
+
+    id: Mapped[int] = mapped_column(BigInteger, Identity(), primary_key=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), index=True)
+    type: Mapped[str] = mapped_column(String(100))
+    name: Mapped[str] = mapped_column(String(255))
+    phone: Mapped[str] = mapped_column(String(32))
+    email: Mapped[str] = mapped_column(String(255))
+    message: Mapped[str] = mapped_column(Text)
+    payload: Mapped[dict] = mapped_column(JSONB)
+    page: Mapped[str] = mapped_column(String(1000))
+    ip_hash: Mapped[str | None] = mapped_column(String(64))
+    telegram_sent: Mapped[bool] = mapped_column(Boolean, default=False, server_default="false", index=True)
+    telegram_error: Mapped[str | None] = mapped_column(Text)
+    telegram_delivered: Mapped[list] = mapped_column(JSONB, default=list, server_default="[]")
+
+
 class UserRole(str, enum.Enum):
     client = "client"
     installer = "installer"

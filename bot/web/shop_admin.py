@@ -463,6 +463,18 @@ async def dashboard(request: web.Request) -> web.Response:
     return web.json_response({"orders": order_count, "new_orders": new_count, "revenue": float(revenue), "events_30d": events, "popular": [{"product_id": row.product_id, "views": row.views} for row in popular], "attention_orders": [serialize_order(order) for order in attention_orders], "recent_orders": [serialize_order(order) for order in recent_orders]})
 
 
+async def list_site_leads(request: web.Request) -> web.Response:
+    await current_admin(request)
+    from bot.db.models import SiteLead
+    async with SessionLocal() as session:
+        rows = (await session.scalars(select(SiteLead).order_by(SiteLead.id.desc()).limit(100))).all()
+        data = [{"id": row.id, "created_at": row.created_at.isoformat(), "type": row.type,
+                 "name": row.name, "phone": row.phone, "email": row.email,
+                 "telegram": (row.payload.get("client") or {}).get("telegram", ""),
+                 "message": row.message, "telegram_sent": row.telegram_sent} for row in rows]
+    return web.json_response({"leads": data}, headers={"Cache-Control": "no-store"})
+
+
 async def list_orders(request: web.Request) -> web.Response:
     await current_admin(request)
     status = request.query.get("status")
@@ -954,6 +966,7 @@ def register_shop_admin_routes(app: web.Application) -> None:
     app.router.add_post("/api/admin/change-password", admin_change_password)
     app.router.add_get("/api/admin/dashboard", dashboard)
     app.router.add_get("/api/admin/orders", list_orders)
+    app.router.add_get("/api/admin/leads", list_site_leads)
     app.router.add_get("/api/admin/orders/{order_id}", get_order)
     app.router.add_patch("/api/admin/orders/{order_id}", update_order)
     app.router.add_post("/api/admin/orders/{order_id}/tracking/refresh", refresh_tracking)

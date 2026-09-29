@@ -22,7 +22,6 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="custom-style.css?v=header-20260925">
   <!-- SITE_URL: https://oficeit-pixel.github.io/alt-cam-security-ua/ -->
-  <!-- TODO: вставити реальні контактні дані перед запуском -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -124,7 +123,7 @@
         </div>
 
         <div class="hero-visual reveal" aria-label="Візуалізація системи відеоспостереження">
-          <img class="hero-photo" src="https://firetron.com/wp-content/uploads/3611-William-D-Tate-Ave-2.webp" alt="Шафа системи відеоспостереження з мережевим обладнанням і монітором камер" decoding="async" fetchpriority="high" data-approved-asset="hero">
+          <video class="hero-photo" src="assets/online-camera-demo.mp4" poster="assets/works/warehouse-security.webp" muted playsinline controls preload="none" aria-label="Демонстрація перегляду камер ALT-CAM" data-approved-asset="hero"></video>
           <div class="visual-glow"></div>
           <div class="camera-rig">
             <div class="camera-bracket"></div>
@@ -669,8 +668,8 @@
           <fieldset class="quiz-step" data-quiz-step="5">
             <legend>Куди надіслати попередній розрахунок?</legend>
             <div class="quiz-contact-fields">
-              <label>Ваше ім’я<input type="text" name="quizName" placeholder="Як до вас звертатися?"></label>
-              <label>Номер телефону<input type="tel" name="quizContact" placeholder="+380 __ ___ __ __"></label>
+              <label>Ваше ім’я<input type="text" autocomplete="name" name="quizName" placeholder="Як до вас звертатися?"></label>
+              <label>Номер телефону<input type="tel" autocomplete="tel" inputmode="tel" name="quizContact" placeholder="+380 __ ___ __ __"></label>
               <label>Що вже відомо про монтаж?<textarea name="quizTech" rows="3" placeholder="Стадія ремонту, висота, траси, інтернет/220 В, особливі вузли"></textarea></label>
               <label class="calc-check"><input type="checkbox" name="quizPhotoReady"><span><b>Підготую фото об’єкта</b><small>Загальний план, роутер/щиток і складний вузол для точнішого кошторису.</small></span></label>
             </div>
@@ -700,10 +699,10 @@
         </div>
         <form class="request-form reveal" id="lead-form">
           <div class="form-head"><h3>Отримати консультацію</h3><span>Відповімо у робочий час</span></div>
-          <label>Ваше ім’я<input type="text" name="name" placeholder="Як до вас звертатися?" required></label>
-          <label>Номер телефону<input type="tel" name="phone" placeholder="+380 __ ___ __ __" required></label>
+          <label>Ваше ім’я<input type="text" autocomplete="name" name="name" placeholder="Як до вас звертатися?" required></label>
+          <label>Номер телефону<input type="tel" autocomplete="tel" inputmode="tel" name="phone" placeholder="+380 __ ___ __ __" required></label>
           <label>Тип об’єкта
-            <select name="object" required>
+            <select name="object">
               <option value="" selected disabled>Оберіть варіант</option>
               <option>Приватний будинок</option><option>Квартира</option><option>Офіс Open Space</option>
               <option>Магазин</option><option>Кафе</option><option>СТО</option><option>Склад</option>
@@ -762,8 +761,8 @@
               </label>
             </div>
             <label class="calc-check photo-ready-check">
-              <input type="checkbox" name="photoReady" required>
-              <span><b>Підготую 2–3 фото для діагностики</b><small>Загальний план, місце роутера/шафи та складний вузол: фасад, двері, щиток або стовп.</small></span>
+              <input type="checkbox" name="photoReady">
+              <span><b>Можу надіслати 2–3 фото об’єкта (необов’язково)</b><small>Загальний план, місце роутера/шафи та складний вузол: фасад, двері, щиток або стовп.</small></span>
             </label>
           </details>
           <label>Коментар<textarea name="comment" rows="3" placeholder="Що потрібно захистити?"></textarea></label>
@@ -865,29 +864,29 @@
       </div>
       <form class="quote-confirm-form" id="quote-confirm-form">
         <label>Ваше ім’я
-          <input type="text" name="quoteName" placeholder="Як до вас звертатися?" required>
+          <input type="text" autocomplete="name" name="quoteName" placeholder="Як до вас звертатися?" required>
         </label>
         <label>Телефон
-          <input type="tel" name="quotePhone" placeholder="+380 __ ___ __ __" required>
+          <input type="tel" autocomplete="tel" inputmode="tel" name="quotePhone" placeholder="+380 __ ___ __ __" required>
         </label>
         <label>Email для розрахунку
-          <input type="email" name="quoteEmail" placeholder="name@example.com" required>
+          <input type="email" name="quoteEmail" placeholder="name@example.com">
         </label>
         <label>Бажана дата робіт
-          <input type="date" name="quoteDate" required>
+          <input type="date" name="quoteDate">
         </label>
-        <div class="quote-tech-block">
-          <h3>Технічний контур об’єкта</h3>
+        <details class="quote-tech-block">
+          <summary>Додаткові деталі (необов’язково)</summary>
           <div class="quote-tech-grid">
             <label>Тип об’єкта
-              <select name="quoteObjectType" required>
+              <select name="quoteObjectType">
                 <option value="" selected disabled>Оберіть варіант</option>
                 <option>Приватний будинок</option><option>Квартира</option><option>Офіс Open Space</option>
                 <option>Склад</option><option>СТО</option><option>Магазин</option><option>Відкритий майданчик</option>
               </select>
             </label>
             <label>Стадія ремонту
-              <select name="quoteRepairStage" required>
+              <select name="quoteRepairStage">
                 <option>Чистовий ремонт</option>
                 <option>Чорновий / після будівельників</option>
                 <option>Об’єкт працює, монтаж без зупинки</option>
@@ -895,41 +894,41 @@
               </select>
             </label>
             <label>Матеріал стін / стелі
-              <select name="quoteWallMaterial" required>
+              <select name="quoteWallMaterial">
                 <option>Бетон / моноліт</option><option>Цегла</option><option>Газоблок</option>
                 <option>Дерево</option><option>Сендвіч-панелі</option><option>Різні матеріали / не знаю</option>
               </select>
             </label>
             <label>Висота монтажу
-              <select name="quoteMountHeight" required>
+              <select name="quoteMountHeight">
                 <option>До 3 м — стандартна драбина</option>
                 <option>3–5 м — висока драбина / тура</option>
                 <option>Понад 5 м — потрібне спецобладнання</option>
               </select>
             </label>
             <label>Тип прокладання
-              <select name="quoteCableRoute" required>
+              <select name="quoteCableRoute">
                 <option>Відкритий кабель</option><option>Гофротруба</option><option>Пластиковий кабель-канал</option>
                 <option>Закладання в штрабу</option><option>Підвісний трос між будівлями</option>
                 <option>Прокладання під землею в ПНД-трубі</option><option>Потрібна порада</option>
               </select>
             </label>
             <label>Найдовша траса, м
-              <input type="number" name="quoteRouteLength" min="0" max="1000" step="5" placeholder="Наприклад: 60" required>
+              <input type="number" name="quoteRouteLength" min="0" max="1000" step="5" placeholder="Наприклад: 60">
             </label>
           </div>
           <label>Інтернет, живлення та доступ
-            <textarea name="quoteNetworkPower" rows="2" placeholder="Чи є роутер, вільна розетка 220 В, доступ до щитка / шафи?" required></textarea>
+            <textarea name="quoteNetworkPower" rows="2" placeholder="Чи є роутер, вільна розетка 220 В, доступ до щитка / шафи?"></textarea>
           </label>
           <label>Деталі за напрямком
             <textarea name="quoteDirectionDetails" rows="3" placeholder="Наприклад: потрібен архів 14 днів, фіксація номерів авто, замок уже встановлений, є тварини до 10 кг"></textarea>
           </label>
-        </div>
+        </details>
         <div class="quote-photo-block">
           <h3>Фото-діагностика перед виїздом</h3>
-          <label class="calc-check"><input type="checkbox" name="quotePhotoGeneral" required><span><b>Загальний план об’єкта</b><small>Стеля, стіни, фасад або зона прокладання траси.</small></span></label>
-          <label class="calc-check"><input type="checkbox" name="quotePhotoNode" required><span><b>Центральний вузол</b><small>Роутер, електрощиток, місце під шафу або реєстратор.</small></span></label>
-          <label class="calc-check"><input type="checkbox" name="quotePhotoComplex" required><span><b>Складний вузол</b><small>Дверний профіль, лутка, стовп, фасад, кабельний короб або місце замка.</small></span></label>
+          <label class="calc-check"><input type="checkbox" name="quotePhotoGeneral"><span><b>Загальний план об’єкта</b><small>Стеля, стіни, фасад або зона прокладання траси.</small></span></label>
+          <label class="calc-check"><input type="checkbox" name="quotePhotoNode"><span><b>Центральний вузол</b><small>Роутер, електрощиток, місце під шафу або реєстратор.</small></span></label>
+          <label class="calc-check"><input type="checkbox" name="quotePhotoComplex"><span><b>Складний вузол</b><small>Дверний профіль, лутка, стовп, фасад, кабельний короб або місце замка.</small></span></label>
           <p class="form-note">Після відправлення заявки прикріпіть ці фото у відкритому чаті Telegram. Так майстер підготує інструмент, кріплення та точні витратні матеріали.</p>
         </div>
         <label>Коментар
@@ -957,6 +956,7 @@
   </footer>
 
   <script src="contacts.js?v=1"></script>
+  <script src="lead-payload.js"></script>
   <script src="script.js?v=header-20260925"></script>
 </body>
 </html>

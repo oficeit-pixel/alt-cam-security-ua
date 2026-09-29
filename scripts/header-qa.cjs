@@ -1,11 +1,9 @@
 const { chromium } = require('playwright');
-const { pathToFileURL } = require('url');
-const path = require('path');
 const assert = require('assert/strict');
-const target = process.env.QA_URL || pathToFileURL(path.resolve('index.html')).href;
-const network = route => new URL(route.request().url()).hostname === 'alt-cam.net.ua' ? route.continue() : route.abort();
+const target = new URL('index.html', (process.env.QA_BASE_URL || 'http://localhost:4173').replace(/\/$/, '') + '/').href;
+const network = route => new URL(route.request().url()).origin === new URL(target).origin ? route.continue() : route.abort();
 (async () => {
-  const browser = await chromium.launch({ channel: 'msedge', headless: true });
+  const browser = await chromium.launch({ ...(process.env.PW_CHANNEL ? {channel: process.env.PW_CHANNEL} : {}), headless: true });
   try {
     const page = await browser.newPage();
     await page.route(/^https?:/, network);
