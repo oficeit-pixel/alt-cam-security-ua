@@ -3,7 +3,8 @@
     "lint:uk": "node scripts/check-ukrainian-text.mjs",
     "build": "node scripts/build-site.mjs",
     "test:unit": "node scripts/test-seo-head.mjs && node scripts/test-local-pages.mjs && node --test tests/build-guards.test.mjs tests/lead-payload.test.cjs && node scripts/test-build-guards.mjs",
-    "test:e2e": "node scripts/layout-qa.cjs && node scripts/header-qa.cjs",
+    "test:e2e": "node scripts/layout-qa.cjs && node scripts/header-qa.cjs && node scripts/lead-qa.cjs",
+    "test:leads": "node --test tests/lead-payload.test.cjs tests/lead-transport.test.cjs && node scripts/lead-qa.cjs",
     "test": "npm run lint:uk && npm run test:unit"
   },
   "private": true,
