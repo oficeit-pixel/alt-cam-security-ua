@@ -9,10 +9,13 @@ const root=path.resolve(__dirname,'..');
     for(const pageName of ['index.html','catalog.html']){
       for(const success of [false,true]){
         const page=await browser.newPage();
-        let posted=0,popups=0;
+        let posted=0,popups=0,health=0;
         page.on('popup',()=>popups++);
         await page.route('**/*',async route=>{
           const url=new URL(route.request().url());
+          if(url.hostname==='alt-cam-crm-api.onrender.com'&&url.pathname==='/health'){
+            health++;return route.fulfill({json:{ok:true},headers:{'Access-Control-Allow-Origin':'*'}});
+          }
           if(url.hostname==='alt-cam-crm-api.onrender.com'&&url.pathname==='/site-lead'){
             posted++;
             if(success)return route.fulfill({json:{ok:true,id:1},headers:{'Access-Control-Allow-Origin':'*'}});
@@ -25,8 +28,10 @@ const root=path.resolve(__dirname,'..');
         });
         await page.goto('http://localhost:4173/'+pageName,{waitUntil:'domcontentloaded'});
         const form=page.locator(pageName==='index.html'?'#lead-form':'#consult-form');
+        assert.equal(health,0);
         await form.locator('[name="name"]').fill('Тест QA');
         await form.locator('[name="phone"]').fill('0630607088');
+        assert.equal(health,1);
         if(pageName==='index.html')await form.locator('[name="object"]').selectOption({label:'Квартира'});
         for(const checkbox of await form.locator('input[type="checkbox"][required]').all())await checkbox.check();
         // Submit through the actual handler; preserve validation on the main form.

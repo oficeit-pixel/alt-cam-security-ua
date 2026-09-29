@@ -1,10 +1,9 @@
 /* =========================================================
-   SITE_URL: https://oficeit-pixel.github.io/alt-cam-security-ua/
-   TODO: вставити реальні контактні дані перед запуском.
+   SITE_URL: https://alt-cam.net.ua/
    Telegram: ім'я користувача без символу @
    WhatsApp/телефон: тільки цифри у міжнародному форматі
    ========================================================= */
-const SITE_URL = "https://oficeit-pixel.github.io/alt-cam-security-ua/";
+const SITE_URL = "https://alt-cam.net.ua/";
 
 const CONTACTS = window.ALTCAM_CONTACTS || {};
 
@@ -1392,6 +1391,7 @@ function validateQuizStep() {
 }
 
 quizNext.addEventListener("click", async () => {
+  window.AltcamLead.warmup();
   if (!validateQuizStep()) return;
   if (currentQuizStep < quizSteps.length - 1) {
     currentQuizStep += 1;

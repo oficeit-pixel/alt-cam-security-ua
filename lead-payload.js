@@ -15,7 +15,27 @@
       source: location.origin + location.pathname,
     };
   }
+  let warmed = false;
+  function warmup() {
+    if (warmed) return;
+    warmed = true;
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 12000);
+    const base = (root.ALTCAM_CONTACTS?.apiBase || 'https://alt-cam-crm-api.onrender.com').replace(/\/$/, '');
+    root.fetch(base + '/health', {mode:'cors', cache:'no-store', signal:controller.signal})
+      .catch(() => {}).finally(() => clearTimeout(timer));
+  }
+  if (root.document) {
+    for (const event of ['focusin', 'input']) root.document.addEventListener(event, e => {
+      if (e.target.closest?.('form')) warmup();
+    });
+  }
   async function post(path, payload) {
+    const backup = root.ALTCAM_CONTACTS?.backupWebhook;
+    if (backup) {
+      try { root.navigator.sendBeacon(backup, JSON.stringify({kind:'lead_backup', ...payload})); }
+      catch { /* A backup attempt never implies successful primary delivery. */ }
+    }
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), 12000);
     try {
@@ -89,6 +109,6 @@
       if (button) { button.disabled = false; button.innerHTML = label; }
     }
   }
-  root.AltcamLead = {normalizePhone, buildLeadPayload, post, showResult, submit};
+  root.AltcamLead = {normalizePhone, buildLeadPayload, post, showResult, submit, warmup};
   if (typeof module !== 'undefined' && module.exports) module.exports = root.AltcamLead;
 })(typeof window !== 'undefined' ? window : globalThis);
