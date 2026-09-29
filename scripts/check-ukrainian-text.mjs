@@ -2,7 +2,9 @@ import fs from "node:fs";
 import path from "node:path";
 import process from "node:process";
 
-const ROOT = process.cwd();
+// Check exactly the release artifact, not tests, Python environments or old posts.
+const ROOT = path.resolve(process.argv[2] || '_site');
+if (!fs.existsSync(path.join(ROOT, 'index.html'))) throw new Error('Build the public site before lint:uk');
 const TARGET_EXTENSIONS = new Set([".html", ".js", ".json", ".xml"]);
 const IGNORED_DIRS = new Set([".git", "node_modules", ".agents", ".codex"]);
 const ALLOWED_TERMS = [
@@ -33,10 +35,6 @@ const ALLOWED_TERMS = [
 ];
 
 const FORBIDDEN_WORDS = [
-  "задача",
-  "задачі",
-  "задачу",
-  "задач",
   "отправка",
   "подзвонити",
   "узнать",

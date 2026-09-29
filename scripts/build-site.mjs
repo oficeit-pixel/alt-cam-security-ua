@@ -4,6 +4,7 @@ import { buildSeoPages } from './build-seo-pages.mjs';
 import { buildProductPages } from './build-product-pages.mjs';
 import { buildLocalPages } from './build-local-pages.mjs';
 import { finalizeSeo } from './finalize-seo.mjs';
+import { localizeCatalog } from './localize-catalog.mjs';
 
 const root = process.cwd();
 const out = path.join(root, '_site');
@@ -35,7 +36,7 @@ await fs.cp('social-posts', path.join(out, 'social-posts'), {
 const source = await fs.readFile('catalog-data.js', 'utf8');
 const match = source.match(/^\s*window\.ALTCAM_CATALOG\s*=\s*([\s\S]*?);?\s*$/);
 if (!match) throw new Error('Unexpected catalog format');
-const data = JSON.parse(match[1].replace(/;\s*$/, ''));
+const data = localizeCatalog(JSON.parse(match[1].replace(/;\s*$/, '')));
 await buildSeoPages(out, data);
 await buildLocalPages(out);
 await buildProductPages(out, data);
