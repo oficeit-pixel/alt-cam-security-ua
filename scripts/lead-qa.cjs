@@ -32,8 +32,11 @@ const root=path.resolve(__dirname,'..');
         await form.locator('[name="name"]').fill('Тест QA');
         await form.locator('[name="phone"]').fill('0630607088');
         assert.equal(health,1);
-        if(pageName==='index.html')await form.locator('[name="object"]').selectOption({label:'Квартира'});
-        for(const checkbox of await form.locator('input[type="checkbox"][required]').all())await checkbox.check();
+        await form.locator('[name="phone"]').fill('123');
+        await form.evaluate(form=>form.requestSubmit(form.querySelector('button[type="submit"],button:not([type])')));
+        assert.equal(posted,0);
+        assert.match(await form.locator('[data-phone-error]').innerText(),/Перевірте телефон/);
+        await form.locator('[name="phone"]').fill('0630607088');
         // Submit through the actual handler; preserve validation on the main form.
         await form.evaluate(form=>form.requestSubmit(form.querySelector('button[type="submit"],button:not([type])')));
         await form.locator('[data-lead-result]').waitFor();

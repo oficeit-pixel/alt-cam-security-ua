@@ -95,6 +95,20 @@
   }
   async function submit(form, button, message, send) {
     if (form.dataset.leadBusy === 'true') return false;
+    const phone = form.querySelector('[name="phone"], [name="quotePhone"], [name="quizContact"]');
+    if (phone) {
+      let error = form.querySelector('[data-phone-error]');
+      if (!error) {
+        error = form.ownerDocument.createElement('p'); error.dataset.phoneError = '';
+        error.id = `${form.id}-phone-error`; error.setAttribute('role','alert');
+        phone.after(error); phone.setAttribute('aria-describedby',error.id);
+      }
+      if (!/^\+380\d{9}$/.test(normalizePhone(phone.value))) {
+        error.textContent = 'Перевірте телефон: наприклад, +380 63 060 70 88.';
+        phone.setAttribute('aria-invalid','true'); phone.focus(); return false;
+      }
+      error.textContent = ''; phone.removeAttribute('aria-invalid');
+    }
     form.dataset.leadBusy = 'true';
     const label = button?.innerHTML;
     if (button) { button.disabled = true; button.textContent = 'Надсилаємо…'; }
