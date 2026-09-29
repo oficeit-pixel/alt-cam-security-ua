@@ -8491,6 +8491,94 @@
           "id": "122138176233226993",
           "post_id": "962902993572061_122138176257226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-09-29T13:55:46.013227+00:00",
+        "result": {
+          "container": {
+            "id": "18090757274418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18090757274418944"
+          },
+          "published": {
+            "id": "18111597605113919"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-09-29T13:56:58.262616+00:00",
+        "result": {
+          "container": {
+            "id": "18090588896424516"
+          },
+          "published": {
+            "id": "18057532670554400"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-09-29T13:56:59.485802+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 119,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1790690219,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADd2q7w6uUWIHTTrHgtpWFlUCsbiXgAAIvJmsb6VbhSWAXXiP1RaSOAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADLyZrG-lW4Ul4",
+                  "file_size": 1928,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADd2q7w6uUWIHTTrHgtpWFlUCsbiXgAAIvJmsb6VbhSWAXXiP1RaSOAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADLyZrG-lW4Uly",
+                  "file_size": 27892,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADd2q7w6uUWIHTTrHgtpWFlUCsbiXgAAIvJmsb6VbhSWAXXiP1RaSOAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADLyZrG-lW4Ul9",
+                  "file_size": 117477,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADd2q7w6uUWIHTTrHgtpWFlUCsbiXgAAIvJmsb6VbhSWAXXiP1RaSOAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADLyZrG-lW4Ul-",
+                  "file_size": 195116,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Вдень усе видно. А ввечері?\n\nПерегляньте запис після заходу сонця: чи видно потрібну зону, чи не засліплює камеру ліхтар, чи немає відблисків? Не кожну проблему вирішує більша кількість мегапікселів.\n\nДопоможемо підібрати ракурс і обладнання під конкретну задачу. Монтаж — Київ, Вишгород та область.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/montazh-videosposterezhennia-kyiv/?utm_source=telegram&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20260929\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+              "caption_entities": [
+                {
+                  "offset": 387,
+                  "length": 151,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
       }
     }
   }
