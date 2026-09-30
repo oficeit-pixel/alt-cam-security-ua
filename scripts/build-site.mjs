@@ -16,8 +16,13 @@ const files = ['index.html', 'catalog.html', 'admin.html', 'privacy-policy.html'
   'tiktok-oauth-callback.html', 'tiktokoVpj7mZL347GV0n5bjaavAO1ZLPlsG1V.txt',
   'robots.txt', 'sitemap.xml', '.nojekyll', 'styles.css', 'custom-style.css',
   'catalog.css', 'admin.css', 'service-prices.css', 'script.js', 'catalog.js',
-  'admin.js', 'analytics.js', 'contacts.js', 'lead-payload.js', 'service-rates-draft.js'];
+  'admin.js', 'analytics.js', 'contacts.js', 'lead-payload.js'];
 for (const name of files) await fs.copyFile(path.join(root, name), path.join(out, name));
+await fs.mkdir(path.join(out, 'data'), { recursive: true });
+for (const name of ['service-rates.js', 'services.js']) {
+  await fs.copyFile(path.join(root, 'data', name), path.join(out, 'data', name));
+}
+await fs.rm(path.join(out, 'service-rates-draft.js'), { force: true });
 for (const name of files.filter(name => name.endsWith('.html') && !name.startsWith('admin') && !name.startsWith('tiktok'))) {
   const file=path.join(out,name);
   let html=(await fs.readFile(file,'utf8')).replaceAll('https://oficeit-pixel.github.io/alt-cam-security-ua/','https://alt-cam.net.ua/');

@@ -102,14 +102,14 @@ function renderProducts(){
   loadMore.hidden=visible.length>=list.length;observeProducts();
 }
 const SOLUTIONS=[
-{id:'solution-home-video',badge:'Популярне',title:'Відеоспостереження для приватного будинку — 4 камери',description:'Для будинку, двору, входу та периметра.',items:['4 камери','Реєстратор і HDD','Живлення та аксесуари','Налаштування доступу'],price:25290},
-{id:'solution-business-video',badge:'Для бізнесу',title:'Відеоспостереження для магазину / офісу',description:'Контроль торгового залу, входу, касової зони або офісних приміщень.',items:['Камери','Реєстратор','Накопичувач','Базове обладнання'],price:28238},
-{id:'solution-ajax',badge:'Під ключ',title:'Ajax охорона для квартири / будинку',description:'Захист від проникнення, відкриття дверей, руху та інших загроз.',items:['Hub Ajax','Датчики руху','Датчики відкриття','Сирена і застосунок'],price:14990},
-{id:'solution-intercom',badge:'Готове рішення',title:'Відеодомофон + контроль доступу',description:'Відеодзвінок і дистанційне відкриття дверей або хвіртки.',items:['Відеодомофон','Виклична панель','Електрозамок','Блок живлення'],price:7184},
-{id:'solution-ups',badge:'Робота без світла',title:'Система з резервним живленням UPS',description:'Відеоспостереження або охорона працюють під час відключення електроенергії.',items:['UPS','Акумулятор','Захист живлення','Розрахунок автономності'],price:3240},
-{id:'solution-complete',badge:'Максимальний захист',title:'ALT-CAM Complete',description:'Комплексна система безпеки для будинку або бізнесу.',items:['Камери','Ajax','Домофон і доступ','Резервне живлення'],price:54900}
+{id:'solution-home-video',badge:'Популярне',title:'Відеоспостереження для приватного будинку — 4 камери',description:'Для будинку, двору, входу та периметра.',items:['4 камери','Реєстратор і HDD','Живлення та аксесуари','Налаштування доступу']},
+{id:'solution-business-video',badge:'Для бізнесу',title:'Відеоспостереження для магазину / офісу',description:'Контроль торгового залу, входу, касової зони або офісних приміщень.',items:['Камери','Реєстратор','Накопичувач','Базове обладнання']},
+{id:'solution-ajax',badge:'Під ключ',title:'Ajax охорона для квартири / будинку',description:'Захист від проникнення, відкриття дверей, руху та інших загроз.',items:['Hub Ajax','Датчики руху','Датчики відкриття','Сирена і застосунок']},
+{id:'solution-intercom',badge:'Готове рішення',title:'Відеодомофон + контроль доступу',description:'Відеодзвінок і дистанційне відкриття дверей або хвіртки.',items:['Відеодомофон','Виклична панель','Електрозамок','Блок живлення']},
+{id:'solution-ups',badge:'Робота без світла',title:'Система з резервним живленням UPS',description:'Відеоспостереження або охорона працюють під час відключення електроенергії.',items:['UPS','Акумулятор','Захист живлення','Розрахунок автономності']},
+{id:'solution-complete',badge:'Максимальний захист',title:'ALT-CAM Complete',description:'Комплексна система безпеки для будинку або бізнесу.',items:['Камери','Ajax','Домофон і доступ','Резервне живлення']}
 ];
-function renderSolutions(){$('#solutions-grid').innerHTML=SOLUTIONS.map(item=>`<article class="solution-card"><span class="solution-badge">${item.badge}</span><h3>${item.title}</h3><p>${item.description}</p><ul>${item.items.map(value=>`<li>${value}</li>`).join('')}</ul><strong class="solution-price">Обладнання від ${money(item.price)}</strong><button data-solution="${item.id}" data-title="${item.title}">Отримати точний розрахунок</button></article>`).join('');}
+function renderSolutions(){$('#solutions-grid').innerHTML=SOLUTIONS.map(item=>`<article class="solution-card"><span class="solution-badge">${item.badge}</span><h3>${item.title}</h3><p>${item.description}</p><ul>${item.items.map(value=>`<li>${value}</li>`).join('')}</ul><strong class="solution-price">Обладнання — за розрахунком</strong><button data-solution="${item.id}" data-title="${item.title}">Отримати точний розрахунок</button></article>`).join('');}
 function renderServices() {
   $('#service-grid').innerHTML=services.map((item,index)=>`<article class="service-item">
     <span class="service-number">${String(index+1).padStart(2,'0')} · ${clean(item.group||'Послуга')}</span>
