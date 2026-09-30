@@ -19,7 +19,7 @@ const files = ['index.html', 'catalog.html', 'admin.html', 'privacy-policy.html'
   'admin.js', 'analytics.js', 'contacts.js', 'lead-payload.js'];
 for (const name of files) await fs.copyFile(path.join(root, name), path.join(out, name));
 await fs.mkdir(path.join(out, 'data'), { recursive: true });
-for (const name of ['service-rates.js', 'services.js']) {
+for (const name of ['service-rates.js', 'services.js', 'price-calculator.js', 'package-configs.js']) {
   await fs.copyFile(path.join(root, 'data', name), path.join(out, 'data', name));
 }
 await fs.rm(path.join(out, 'service-rates-draft.js'), { force: true });

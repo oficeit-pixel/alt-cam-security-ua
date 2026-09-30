@@ -6,6 +6,20 @@ const context={window:{}};
 vm.runInNewContext(fs.readFileSync('data/service-rates.js','utf8'),context);
 vm.runInNewContext(fs.readFileSync('data/services.js','utf8'),context);
 const rates=context.window.ALTCAM_RATES;
+vm.runInNewContext(fs.readFileSync('data/price-calculator.js','utf8'),context);
+vm.runInNewContext(fs.readFileSync('data/package-configs.js','utf8'),context);
+test('all camera package estimates use the calculator configuration and remain finite',()=>{
+ for(const config of Object.values(context.window.ALTCAM_PACKAGES)) {
+  const estimate=context.window.ALTCAM_PRICING.calculateVideo(new Map(Object.entries(config)));
+  assert.ok(Number.isFinite(estimate.policy.total) && estimate.policy.total>0);
+  assert.equal(estimate.cameras,config.videoIndoor+config.videoOutdoor);
+  assert.ok(estimate.nvrChannels>=estimate.cameras);
+  assert.equal(estimate.policy.total,context.window.ALTCAM_PRICING.applyPricePolicy(estimate.cameraPrice+estimate.centralPrice,estimate.installation,estimate.materials).total);
+  const withoutInstall=context.window.ALTCAM_PRICING.calculateVideo(new Map(Object.entries({...config,videoInstall:''})));
+  assert.equal(withoutInstall.installation,0);
+  assert.ok(withoutInstall.policy.total<estimate.policy.total);
+ }
+});
 test('original calculator rates preserved; mixed camera work = 4350',()=>{
  assert.equal(rates.video.indoorCamera.one,1100);
  assert.equal(2*rates.video.indoorCamera.two+2*rates.video.outdoorCamera.two+rates.video.recorderSetup+rates.video.mobileAppSetup,4350);
