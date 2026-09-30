@@ -5,7 +5,7 @@ import { buildProductPages } from './build-product-pages.mjs';
 import { buildLocalPages } from './build-local-pages.mjs';
 import { finalizeSeo } from './finalize-seo.mjs';
 import { localizeCatalog } from './localize-catalog.mjs';
-import { renderContacts, contacts } from './contacts.mjs';
+import { renderContacts, renderBusinessDetails, contacts } from './contacts.mjs';
 import { renderReviews } from './reviews.mjs';
 
 const root = process.cwd();
@@ -64,7 +64,9 @@ async function finalizeContacts(directory) {
     if(entry.isDirectory())await finalizeContacts(file);
     else if(entry.name.endsWith('.html')){
       const html=await fs.readFile(file,'utf8');
-      const updated=renderContacts(html);
+      const relative=path.relative(out,file).replaceAll('\\','/');
+      const internal=/^(admin(?:\/|\.html)|blanks\/|tiktok-oauth-callback\.html)/.test(relative);
+      const updated=renderContacts(internal?html:renderBusinessDetails(html));
       if(updated!==html)await fs.writeFile(file,updated);
     }
   }

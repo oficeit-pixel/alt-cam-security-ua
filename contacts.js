@@ -10,6 +10,7 @@ window.ALTCAM_CONTACTS = Object.freeze({
   gbpReviewUrl: "",
   warrantyWorks: "",
   warrantyEquipment: "",
+  yearsExperience: "",
   apiBase: "https://alt-cam-crm-api.onrender.com",
   responseTime: "",
   backupWebhook: "",
