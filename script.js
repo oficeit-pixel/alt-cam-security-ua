@@ -7,12 +7,7 @@ const SITE_URL = "https://alt-cam.net.ua/";
 
 const CONTACTS = window.ALTCAM_CONTACTS || {};
 
-const PRICE_POLICY = {
-  baseDiscount: 0.05,
-  highTotalThreshold: 50000,
-  highTotalDiscount: 0.05,
-  equipmentDepositRate: 0.3
-};
+const { PRICE_POLICY, roundMoney, priced, applyPricePolicy, videoCameraInstallRate } = window.ALTCAM_PRICING;
 
 const PDF_RATES = window.ALTCAM_RATES;
 
@@ -25,35 +20,6 @@ function setHidden(element, shouldHide) {
   } else {
     element.removeAttribute("tabindex");
   }
-}
-
-function roundMoney(value) {
-  return Math.round(value / 10) * 10;
-}
-
-function priced(value) {
-  return roundMoney(value * (1 - PRICE_POLICY.baseDiscount));
-}
-
-function applyPricePolicy(equipment, work, materials = 0) {
-  const original = roundMoney(equipment + work + materials);
-  const afterBaseDiscount = roundMoney(original * (1 - PRICE_POLICY.baseDiscount));
-  const highTotalDiscount = afterBaseDiscount > PRICE_POLICY.highTotalThreshold
-    ? roundMoney(afterBaseDiscount * PRICE_POLICY.highTotalDiscount)
-    : 0;
-  const total = roundMoney(afterBaseDiscount - highTotalDiscount);
-  const discount = original - total;
-  const deposit = roundMoney(Math.max(0, equipment) * PRICE_POLICY.equipmentDepositRate);
-  return { original, afterBaseDiscount, highTotalDiscount, total, discount, deposit };
-}
-
-function videoCameraInstallRate(count, isOutdoor) {
-  if (count <= 0) return 0;
-  const table = isOutdoor ? PDF_RATES.video.outdoorCamera : PDF_RATES.video.indoorCamera;
-  if (count === 1) return table.one;
-  if (count === 2) return table.two;
-  if (count <= 8) return table.threeToEight;
-  return table.overEight;
 }
 
 function formText(data, name, fallback = "Не вказано") {
@@ -213,7 +179,31 @@ document.querySelectorAll("[data-track]").forEach((element) => {
 });
 
 document.querySelectorAll("[data-package]").forEach((link) => {
+  const config = window.ALTCAM_PACKAGES?.[link.dataset.package];
+  if (config) {
+    const estimate = window.ALTCAM_PRICING.calculateVideo(new Map(Object.entries(config)));
+    const price = link.closest('.package-card')?.querySelector('.package-price');
+    if (price) {
+      price.textContent = `Орієнтовно ${money(estimate.policy.total)}`;
+      const scope = document.createElement('p');
+      scope.className = 'service-price-note';
+      scope.textContent = `${config.videoIndoor} внутрішні + ${config.videoOutdoor} зовнішні камери, NVR ${config.videoNvr} каналів, HDD ${config.videoHdd} ТБ. Обладнання + монтаж + базові матеріали. Попередня оцінка калькулятора, не фіксована пропозиція.`;
+      price.after(scope);
+    }
+    link.href = '#calculator';
+    link.textContent = 'Переглянути розрахунок';
+  }
   link.addEventListener("click", () => {
+    if (config) {
+      const form = document.querySelector('#security-calculator');
+      for (const [key, value] of Object.entries({videoBrand:'auto',videoNightMode:'auto',...config})) {
+        const field = form.elements.namedItem(key);
+        if (!field) continue;
+        if (field.type === 'checkbox') field.checked = value === 'on';
+        else field.value = String(value);
+      }
+      form.dispatchEvent(new Event('change', {bubbles:true}));
+    }
     sessionStorage.setItem("altcam-selected-package", link.dataset.package);
     document.dispatchEvent(new CustomEvent("altcam:package", { detail: link.dataset.package }));
   });
@@ -692,56 +682,7 @@ function calculateSecuritySystem() {
 
 function calculateSecuritySystemExact() {
   const data = new FormData(calculator);
-  const indoor = Math.max(0, Number(data.get("videoIndoor")) || 0);
-  const outdoor = Math.max(0, Number(data.get("videoOutdoor")) || 0);
-  const ptz = Math.max(0, Number(data.get("videoPtz")) || 0);
-  const videoBrand = data.get("videoBrand") || "auto";
-  const videoResolution = data.get("videoResolution") || "auto";
-  const videoNightMode = data.get("videoNightMode") || "auto";
-  const nvrChannels = Number(data.get("videoNvr"));
-  const hddTb = Number(data.get("videoHdd"));
-  const includeInstall = data.get("videoInstall") === "on";
-  const nvrPrices = { 4: 1800, 8: 3200, 16: 5400 };
-  const hddPrices = { 1: 2400, 2: 3500, 4: 5200 };
-  const brandProfiles = {
-    auto: { label: "Без бренду — підбір за завданням та бюджетом", cameraFactor: 1, nvrFactor: 1 },
-    hikvision: { label: "Hikvision — AcuSense / ColorVu", cameraFactor: 1.18, nvrFactor: 1.12 },
-    dahua: { label: "Dahua — WizSense / TiOC", cameraFactor: 1.15, nvrFactor: 1.1 },
-    uniview: { label: "Uniview — LightHunter / ColorHunter", cameraFactor: 1.08, nvrFactor: 1.06 },
-    imou: { label: "IMOU — дім / малий офіс", cameraFactor: 0.92, nvrFactor: 0.95 }
-  };
-  const resolutionProfiles = {
-    auto: { label: "Роздільна здатність підбирається після огляду зон", factor: 1 },
-    "2mp": { label: "2 Мп — базовий огляд", factor: 0.88 },
-    "4mp": { label: "4 Мп — оптимальна деталізація", factor: 1 },
-    "8mp": { label: "8 Мп / 4K — висока деталізація", factor: 1.45 }
-  };
-  const nightProfiles = {
-    auto: { label: "Нічний режим підбирається по освітленню", factor: 1 },
-    ir: { label: "ІЧ-підсвітка", factor: 1 },
-    color: { label: "Кольорове нічне бачення", factor: 1.18 },
-    ai: { label: "AI-детекція людей / авто", factor: 1.22 }
-  };
-  const brandProfile = brandProfiles[videoBrand] || brandProfiles.auto;
-  const resolutionProfile = resolutionProfiles[videoResolution] || resolutionProfiles.auto;
-  const nightProfile = nightProfiles[videoNightMode] || nightProfiles.auto;
-  const cameras = indoor + outdoor + ptz;
-  const cameraBasePrice = indoor * 1450 + outdoor * 1950 + ptz * 4200;
-  const cameraPrice = Math.round(cameraBasePrice * brandProfile.cameraFactor * resolutionProfile.factor * nightProfile.factor);
-  const centralPrice = Math.round(nvrPrices[nvrChannels] * brandProfile.nvrFactor + hddPrices[hddTb]);
-  const cableMeters = indoor * 12 + outdoor * 18 + ptz * 22 + 10;
-  const materials =
-    cableMeters * PDF_RATES.video.cableIndoorPerMeter +
-    outdoor * (PDF_RATES.video.junctionBox + PDF_RATES.video.bracket) +
-    ptz * (PDF_RATES.video.junctionBox + PDF_RATES.video.bracket) +
-    indoor * PDF_RATES.video.bracket;
-  const installation = includeInstall
-    ? indoor * videoCameraInstallRate(indoor, false) +
-      outdoor * videoCameraInstallRate(outdoor, true) +
-      ptz * PDF_RATES.video.speedDomeMin +
-      (cameras ? PDF_RATES.video.recorderSetup + PDF_RATES.video.mobileAppSetup : 0)
-    : 0;
-  const policy = applyPricePolicy(cameraPrice + centralPrice, installation, materials);
+  const { indoor, outdoor, ptz, videoBrand, videoResolution, videoNightMode, nvrChannels, hddTb, includeInstall, brandProfile, resolutionProfile, nightProfile, cameras, cameraPrice, centralPrice, cableMeters, materials, installation, policy } = window.ALTCAM_PRICING.calculateVideo(data);
   const channelWarning = cameras > nvrChannels
     ? ` Увага: обраний NVR має ${nvrChannels} каналів для ${cameras} камер.`
     : "";

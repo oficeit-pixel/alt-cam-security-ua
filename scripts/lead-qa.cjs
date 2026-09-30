@@ -27,6 +27,17 @@ const root=path.resolve(__dirname,'..');
           try{return await route.fulfill({path:name});}catch{return route.abort();}
         });
         await page.goto('http://localhost:4173/'+pageName,{waitUntil:'domcontentloaded'});
+        if(pageName==='index.html') {
+          for(const id of ['kit-2cam','kit-4cam','kit-8cam']) {
+            const link=page.locator(`[data-package="${id}"]`);
+            const price=await link.locator('..').locator('.package-price').innerText();
+            await link.click();
+            const total=await page.locator('#calc-total').innerText();
+            assert.equal(price.replace(/\D/g,''),total.replace(/\D/g,''),`${id}: card/calculator mismatch`);
+            assert.equal(await page.locator('[name="videoInstall"]').isChecked(),true);
+          }
+          console.log('Camera packages: card/calculator equality PASS');
+        }
         const form=page.locator(pageName==='index.html'?'#lead-form':'#consult-form');
         assert.equal(health,0);
         await form.locator('[name="name"]').fill('Тест QA');
