@@ -5,7 +5,8 @@
     "Added 270 approved repeated photo publication posts from D:\\фото публикации on 2026-09-13.",
     "Added 180 approved repeated photo publication posts from D:\\фото публикации on 2026-09-13.",
     "2026-09-23: Unpublished deliveries rescheduled to Monday/Wednesday/Friday 07:00 UTC with UTM links. Published platform results preserved.",
-    "2026-09-23: Three new organic campaign posts added; unpublished deliveries rescheduled to Monday/Wednesday/Friday 07:00 UTC with UTM links. Published platform results preserved."
+    "2026-09-23: Three new organic campaign posts added; unpublished deliveries rescheduled to Monday/Wednesday/Friday 07:00 UTC with UTM links. Published platform results preserved.",
+    "2026-09-30: Owner approved nine October local posts; Facebook Oct 7–26 and Telegram Oct 7 only. Existing scheduled posts and publication history preserved."
   ],
   "generated_at": "2026-09-09T21:06:36.999002+00:00",
   "source": "social-posts/content-plans/2026-09-10-10-day-product-presentation/publishing-posts.json",
@@ -12010,6 +12011,134 @@
       },
       "caption": "Плануєте камери? Почніть не з їх кількості\n\nЩо потрібно бачити: вхід, касу, подвір’я чи під’їзд? Які деталі важливі та де потрібен запис у темряві? Відповіді допомагають підібрати систему під задачу, а не купувати випадковий комплект.\n\nЗалиште заявку на сайті ALT-CAM. Підбір, монтаж і налаштування з виїздом у Києві, Вишгороді та області.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/montazh-videosposterezhennia-kyiv/?utm_source=facebook&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261005\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
       "approval_note": "User explicitly approved daily posts through October 5 inclusive. Existing approved illustrative campaign assets reused; no Stories or TikTok."
+    },
+    {
+      "id": "october-local-2026-10-07",
+      "status": "approved",
+      "scheduled_at": "2026-10-07T07:00:00Z",
+      "platforms": [
+        "facebook",
+        "telegram"
+      ],
+      "image_url": "https://raw.githubusercontent.com/oficeit-pixel/alt-cam-security-ua/main/social-posts/content-plans/2026-09-23-attention/entrance.jpg",
+      "captions": {
+        "facebook": "Камера є. А хто заходить у під’їзд?\n\nВідеоспостереження та контроль доступу вирішують різні завдання. Для ОСББ важливо продумати входи, ліфти, права доступу й резервне живлення. Напишіть, скільки у вас входів та ліфтів — обговоримо конфігурацію без зайвого обладнання. Дізнайтеся про наші послуги на сайті.\n\nALT-CAM: монтаж з виїздом — Київ, Вишгород, Київська область.\nКонсультація: +380630607088\nhttps://alt-cam.net.ua/?utm_source=facebook&utm_medium=social&utm_campaign=october_local26&utm_content=2026-10-07",
+        "telegram": "Камера є. А хто заходить у під’їзд?\n\nВідеоспостереження та контроль доступу вирішують різні завдання. Для ОСББ важливо продумати входи, ліфти, права доступу й резервне живлення. Напишіть, скільки у вас входів та ліфтів — обговоримо конфігурацію без зайвого обладнання. Дізнайтеся про наші послуги на сайті.\n\nALT-CAM: монтаж з виїздом — Київ, Вишгород, Київська область.\nКонсультація: +380630607088\nhttps://alt-cam.net.ua/?utm_source=telegram&utm_medium=social&utm_campaign=october_local26&utm_content=2026-10-07"
+      },
+      "media_type": "image",
+      "campaign": "october_local26"
+    },
+    {
+      "id": "october-local-2026-10-09",
+      "status": "approved",
+      "scheduled_at": "2026-10-09T07:00:00Z",
+      "platforms": [
+        "facebook"
+      ],
+      "image_url": "https://raw.githubusercontent.com/oficeit-pixel/alt-cam-security-ua/main/social-posts/content-plans/2026-09-23-attention/router.jpg",
+      "captions": {
+        "facebook": "Світло зникло — чи залишиться зв’язок?\n\nРезервне живлення роутера допоможе лише тоді, коли працює й обладнання провайдера. Перед підбором перевіряємо напругу, роз’єми, споживання роутера та ONU. Надішліть фото їхніх етикеток — почнемо з перевірки сумісності. Звертайтеся через сайт.\n\nALT-CAM: монтаж з виїздом — Київ, Вишгород, Київська область.\nКонсультація: +380630607088\nhttps://alt-cam.net.ua/?utm_source=facebook&utm_medium=social&utm_campaign=october_local26&utm_content=2026-10-09"
+      },
+      "media_type": "image",
+      "campaign": "october_local26"
+    },
+    {
+      "id": "october-local-2026-10-12",
+      "status": "approved",
+      "scheduled_at": "2026-10-12T07:00:00Z",
+      "platforms": [
+        "facebook"
+      ],
+      "image_url": "https://raw.githubusercontent.com/oficeit-pixel/alt-cam-security-ua/main/social-posts/content-plans/2026-09-23-attention/entrance.jpg",
+      "captions": {
+        "facebook": "Більше камер — не завжди кращий огляд.\n\nВажливі місця встановлення, освітлення та завдання кожної камери. До монтажу варто визначити, де потрібно бачити загальну картину, а де — деталі. Опишіть свій об’єкт через сайт: допоможемо спланувати систему.\n\nALT-CAM: монтаж з виїздом — Київ, Вишгород, Київська область.\nКонсультація: +380630607088\nhttps://alt-cam.net.ua/?utm_source=facebook&utm_medium=social&utm_campaign=october_local26&utm_content=2026-10-12"
+      },
+      "media_type": "image",
+      "campaign": "october_local26"
+    },
+    {
+      "id": "october-local-2026-10-14",
+      "status": "approved",
+      "scheduled_at": "2026-10-14T07:00:00Z",
+      "platforms": [
+        "facebook"
+      ],
+      "image_url": "https://raw.githubusercontent.com/oficeit-pixel/alt-cam-security-ua/main/social-posts/content-plans/2026-09-23-attention/router.jpg",
+      "captions": {
+        "facebook": "UPS купили. Час роботи перевірили?\n\nАвтономність залежить від навантаження, ємності та стану акумулятора. Не обіцяємо однакову кількість годин для всіх систем: спочатку з’ясовуємо, що саме треба живити. Перелік обладнання можна надіслати через сайт.\n\nALT-CAM: монтаж з виїздом — Київ, Вишгород, Київська область.\nКонсультація: +380630607088\nhttps://alt-cam.net.ua/?utm_source=facebook&utm_medium=social&utm_campaign=october_local26&utm_content=2026-10-14"
+      },
+      "media_type": "image",
+      "campaign": "october_local26"
+    },
+    {
+      "id": "october-local-2026-10-16",
+      "status": "approved",
+      "scheduled_at": "2026-10-16T07:00:00Z",
+      "platforms": [
+        "facebook"
+      ],
+      "image_url": "https://raw.githubusercontent.com/oficeit-pixel/alt-cam-security-ua/main/social-posts/content-plans/2026-09-23-attention/entrance.jpg",
+      "captions": {
+        "facebook": "Хто матиме доступ до записів камер?\n\nЦе питання варто вирішити до монтажу. Окремі облікові записи, обмеження прав та актуальні оновлення допомагають захистити систему. Замовте консультацію на сайті — обговоримо не тільки камери, а й керування доступом.\n\nALT-CAM: монтаж з виїздом — Київ, Вишгород, Київська область.\nКонсультація: +380630607088\nhttps://alt-cam.net.ua/?utm_source=facebook&utm_medium=social&utm_campaign=october_local26&utm_content=2026-10-16"
+      },
+      "media_type": "image",
+      "campaign": "october_local26"
+    },
+    {
+      "id": "october-local-2026-10-19",
+      "status": "approved",
+      "scheduled_at": "2026-10-19T07:00:00Z",
+      "platforms": [
+        "facebook"
+      ],
+      "image_url": "https://raw.githubusercontent.com/oficeit-pixel/alt-cam-security-ua/main/social-posts/content-plans/2026-09-23-attention/router.jpg",
+      "captions": {
+        "facebook": "Резерв потрібен не всім пристроям одразу.\n\nСпочатку визначаємо критичне: зв’язок, відеореєстратор, камери або контроль доступу. Потім підбираємо живлення під реальне навантаження. Розкажіть про свою систему на сайті — обговоримо пріоритети.\n\nALT-CAM: монтаж з виїздом — Київ, Вишгород, Київська область.\nКонсультація: +380630607088\nhttps://alt-cam.net.ua/?utm_source=facebook&utm_medium=social&utm_campaign=october_local26&utm_content=2026-10-19"
+      },
+      "media_type": "image",
+      "campaign": "october_local26"
+    },
+    {
+      "id": "october-local-2026-10-21",
+      "status": "approved",
+      "scheduled_at": "2026-10-21T07:00:00Z",
+      "platforms": [
+        "facebook"
+      ],
+      "image_url": "https://raw.githubusercontent.com/oficeit-pixel/alt-cam-security-ua/main/social-posts/content-plans/2026-09-23-attention/entrance.jpg",
+      "captions": {
+        "facebook": "Камера дивиться на вхід. А обличчя видно?\n\nКонтрове світло, висота монтажу та кут огляду впливають на корисність запису. Перевіряти результат варто і вдень, і ввечері. Плануєте нову систему або оновлення? Залиште звернення на сайті.\n\nALT-CAM: монтаж з виїздом — Київ, Вишгород, Київська область.\nКонсультація: +380630607088\nhttps://alt-cam.net.ua/?utm_source=facebook&utm_medium=social&utm_campaign=october_local26&utm_content=2026-10-21"
+      },
+      "media_type": "image",
+      "campaign": "october_local26"
+    },
+    {
+      "id": "october-local-2026-10-23",
+      "status": "approved",
+      "scheduled_at": "2026-10-23T07:00:00Z",
+      "platforms": [
+        "facebook"
+      ],
+      "image_url": "https://raw.githubusercontent.com/oficeit-pixel/alt-cam-security-ua/main/social-posts/content-plans/2026-09-23-attention/router.jpg",
+      "captions": {
+        "facebook": "Не під’єднуйте резервне живлення навмання.\n\nОднаковий роз’єм не гарантує однакову напругу чи полярність. Перед підключенням звіряємо характеристики обладнання та блока живлення. Потрібна допомога з підбором? Контакти та послуги — на сайті.\n\nALT-CAM: монтаж з виїздом — Київ, Вишгород, Київська область.\nКонсультація: +380630607088\nhttps://alt-cam.net.ua/?utm_source=facebook&utm_medium=social&utm_campaign=october_local26&utm_content=2026-10-23"
+      },
+      "media_type": "image",
+      "campaign": "october_local26"
+    },
+    {
+      "id": "october-local-2026-10-26",
+      "status": "approved",
+      "scheduled_at": "2026-10-26T07:00:00Z",
+      "platforms": [
+        "facebook"
+      ],
+      "image_url": "https://raw.githubusercontent.com/oficeit-pixel/alt-cam-security-ua/main/social-posts/content-plans/2026-09-23-attention/entrance.jpg",
+      "captions": {
+        "facebook": "Монтаж завершено. А користуватися системою зручно?\n\nВажливо перевірити перегляд, пошук записів та доступи користувачів. Під час узгодження робіт обговоріть налаштування й передачу системи. ALT-CAM допоможе підібрати та налаштувати рішення під ваш об’єкт — звертайтеся через сайт.\n\nALT-CAM: монтаж з виїздом — Київ, Вишгород, Київська область.\nКонсультація: +380630607088\nhttps://alt-cam.net.ua/?utm_source=facebook&utm_medium=social&utm_campaign=october_local26&utm_content=2026-10-26"
+      },
+      "media_type": "image",
+      "campaign": "october_local26"
     }
   ]
 }
