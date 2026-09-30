@@ -9,6 +9,8 @@ const root=path.resolve(__dirname,'..');
     for(const pageName of ['index.html','catalog.html']){
       for(const success of [false,true]){
         const page=await browser.newPage();
+        const browserErrors=[];
+        page.on('pageerror',error=>browserErrors.push(error.message));
         let posted=0,popups=0,health=0;
         page.on('popup',()=>popups++);
         await page.route('**/*',async route=>{
@@ -27,11 +29,38 @@ const root=path.resolve(__dirname,'..');
           try{return await route.fulfill({path:name});}catch{return route.abort();}
         });
         await page.goto('http://localhost:4173/'+pageName,{waitUntil:'domcontentloaded'});
+        assert.equal(health,0, 'No warmup before interaction');
         if(pageName==='index.html') {
           assert.equal(await page.locator('#works .real .work-card').count(),5);
           assert.doesNotMatch(await page.locator('#works .real').innerText(),/Візуалізація|Харків|Дніпро/);
           assert.equal(await page.locator('#solution-examples .work-visualization').count(),4);
           assert.equal(await page.locator('.review-card').count(),0);
+          await page.evaluate(()=>{
+            const form=document.querySelector('#security-calculator');
+            for(const name of ['videoIndoor','videoOutdoor','videoPtz'])form.elements[name].value='0';
+            form.dispatchEvent(new Event('input',{bubbles:true}));
+          });
+          assert.equal(await page.locator('#calc-total').innerText(),'—');
+          assert.match(await page.locator('#calc-note').innerText(),/Додайте хоча б одну камеру/);
+          assert.equal(await page.locator('#send-calculation').isDisabled(),true);
+          assert.equal(await page.locator('#download-proposal').isDisabled(),true);
+          await page.evaluate(()=>{
+            const form=document.querySelector('#security-calculator');
+            form.elements.videoIndoor.value='999';
+            form.dispatchEvent(new Event('input',{bubbles:true}));
+          });
+          assert.equal(await page.locator('[name="videoIndoor"]').inputValue(),'64');
+          assert.equal(await page.locator('#send-calculation').isDisabled(),false);
+          await page.evaluate(()=>{
+            const field=document.querySelector('[name="powerLoad"]');
+            field.value='0';field.dispatchEvent(new Event('input',{bubbles:true}));
+            const count=document.querySelector('[name="ajaxMotion"]');
+            count.value='999';count.dispatchEvent(new Event('input',{bubbles:true}));
+          });
+          assert.equal(await page.locator('[name="powerLoad"]').inputValue(),'10');
+          assert.equal(await page.locator('#power-load').innerText(),'10 Вт');
+          assert.equal(await page.locator('[name="ajaxMotion"]').inputValue(),'100');
+          console.log('Calculator boundaries and disabled zero-camera actions PASS');
           for(const id of ['kit-2cam','kit-4cam','kit-8cam']) {
             const link=page.locator(`[data-package="${id}"]`);
             const price=await link.locator('..').locator('.package-price').innerText();
@@ -43,7 +72,7 @@ const root=path.resolve(__dirname,'..');
           console.log('Camera packages: card/calculator equality PASS');
         }
         const form=page.locator(pageName==='index.html'?'#lead-form':'#consult-form');
-        assert.equal(health,0);
+        assert.equal(health,pageName==='index.html'?1:0);
         await form.locator('[name="name"]').fill('Тест QA');
         await form.locator('[name="phone"]').fill('0630607088');
         assert.equal(health,1);
@@ -65,6 +94,7 @@ const root=path.resolve(__dirname,'..');
           assert.equal(await form.locator('[name="name"]').inputValue(),'Тест QA');
         }
         assert.equal(posted,1);assert.equal(popups,0);
+        assert.deepEqual(browserErrors,[], 'No browser JavaScript exceptions');
         await page.close();
         console.log(`${pageName}: ${success?'success':'fallback'} PASS`);
       }

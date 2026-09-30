@@ -38,14 +38,15 @@ function videoCameraInstallRate(count, isOutdoor) {
 
 
 function calculateVideo(data) {
-  const indoor = Math.max(0, Number(data.get("videoIndoor")) || 0);
-  const outdoor = Math.max(0, Number(data.get("videoOutdoor")) || 0);
-  const ptz = Math.max(0, Number(data.get("videoPtz")) || 0);
+  const clamp = window.ALTCAM_CALC_CORE.clampNumber;
+  const indoor = clamp(data.get("videoIndoor"), 0, 64, true);
+  const outdoor = clamp(data.get("videoOutdoor"), 0, 64, true);
+  const ptz = clamp(data.get("videoPtz"), 0, 16, true);
   const videoBrand = data.get("videoBrand") || "auto";
   const videoResolution = data.get("videoResolution") || "auto";
   const videoNightMode = data.get("videoNightMode") || "auto";
-  const nvrChannels = Number(data.get("videoNvr"));
-  const hddTb = Number(data.get("videoHdd"));
+  const nvrChannels = [4,8,16].includes(Number(data.get("videoNvr"))) ? Number(data.get("videoNvr")) : 4;
+  const hddTb = [1,2,4].includes(Number(data.get("videoHdd"))) ? Number(data.get("videoHdd")) : 1;
   const includeInstall = data.get("videoInstall") === "on";
   const nvrPrices = { 4: 1800, 8: 3200, 16: 5400 };
   const hddPrices = { 1: 2400, 2: 3500, 4: 5200 };
@@ -74,8 +75,8 @@ function calculateVideo(data) {
   const cameras = indoor + outdoor + ptz;
   const cameraBasePrice = indoor * 1450 + outdoor * 1950 + ptz * 4200;
   const cameraPrice = Math.round(cameraBasePrice * brandProfile.cameraFactor * resolutionProfile.factor * nightProfile.factor);
-  const centralPrice = Math.round(nvrPrices[nvrChannels] * brandProfile.nvrFactor + hddPrices[hddTb]);
-  const cableMeters = indoor * 12 + outdoor * 18 + ptz * 22 + 10;
+  const centralPrice = cameras ? Math.round(nvrPrices[nvrChannels] * brandProfile.nvrFactor + hddPrices[hddTb]) : 0;
+  const cableMeters = cameras ? indoor * 12 + outdoor * 18 + ptz * 22 + 10 : 0;
   const materials =
     cableMeters * PDF_RATES.video.cableIndoorPerMeter +
     outdoor * (PDF_RATES.video.junctionBox + PDF_RATES.video.bracket) +

@@ -593,96 +593,21 @@ function nextDiskSize(requiredTb) {
 
 function calculateSecuritySystem() {
   return calculateSecuritySystemExact();
-  /* Попередня площинна модель залишена нижче для історії версій. */
-  const data = new FormData(calculator);
-  const type = data.get("calcType");
-  const length = Math.max(3, Number(data.get("calcLength")) || 3);
-  const width = Math.max(3, Number(data.get("calcWidth")) || 3);
-  const height = Number(data.get("calcHeight"));
-  const quality = data.get("calcQuality");
-  const archiveDays = Number(data.get("calcArchive"));
-  const includeUps = data.get("calcUps") === "on";
-
-  const area = Math.round(length * width);
-  const perimeter = (length + width) * 2;
-  const coverage = {
-    building: { "2mp": 55, "4mp": 45, "8mp": 36 },
-    yard: { "2mp": 90, "4mp": 72, "8mp": 58 },
-    commerce: { "2mp": 48, "4mp": 40, "8mp": 32 },
-    warehouse: { "2mp": 75, "4mp": 62, "8mp": 48 }
-  }[type][quality];
-  const perimeterStep = type === "yard" ? 22 : type === "warehouse" ? 28 : 25;
-  const minimum = type === "commerce" ? 3 : 2;
-  const cameras = Math.min(64, Math.max(minimum, Math.ceil(area / coverage), Math.ceil(perimeter / perimeterStep)));
-  const recorderChannels = nextRecorderSize(cameras);
-  const cableFactor = type === "yard" ? 1.55 : type === "warehouse" ? 1.35 : 1.2;
-  const cable = Math.ceil((perimeter * cableFactor + cameras * height + 15) / 5) * 5;
-  const bitrate = { "2mp": 2.1, "4mp": 4.2, "8mp": 7.5 }[quality];
-  const requiredTb = bitrate * cameras * 86400 * archiveDays / 8 / 1024 / 1024 * 0.72;
-  const storageTb = nextDiskSize(requiredTb);
-  const cameraPrice = { "2mp": 2200, "4mp": 3400, "8mp": 5900 }[quality];
-  const recorderPrice = 3200 + recorderChannels * 410;
-  const diskPrice = storageTb * 1250 + 1100;
-  const upsPrice = includeUps ? 4800 + Math.max(0, cameras - 4) * 280 : 0;
-  const equipment = Math.round(cameras * cameraPrice + recorderPrice + diskPrice + cable * 19 + cameras * 720 + upsPrice);
-  const heightFactor = height <= 3.5 ? 1 : height <= 5 ? 1.18 : height <= 8 ? 1.42 : 1.75;
-  const work = Math.round((cameras * 1750 + cable * 20 + 2600) * heightFactor);
-  const total = equipment + work;
-  const low = Math.round(total * 0.9 / 500) * 500;
-  const high = Math.round(total * 1.12 / 500) * 500;
-
-  calcState.message = [
-    "Попередній розрахунок Alt-Cam Security UA",
-    "",
-    `Об’єкт: ${calculator.elements.calcType.options[calculator.elements.calcType.selectedIndex].text}`,
-    `План: ${length} × ${width} м (${area} м²)`,
-    `Висота монтажу: ${height.toFixed(1)} м`,
-    `Якість: ${calculator.elements.calcQuality.options[calculator.elements.calcQuality.selectedIndex].text}`,
-    `Архів: ${archiveDays} днів`,
-    "",
-    `Камери: ${cameras} шт.`,
-    `Реєстратор: ${recorderChannels} каналів`,
-    `Кабель: близько ${cable} м`,
-    `Жорсткий диск: ${storageTb} ТБ`,
-    `Резервне живлення: ${includeUps ? "так" : "ні"}`,
-    `Обладнання: близько ${money(equipment)}`,
-    `Монтаж і налаштування: близько ${money(work)}`,
-    `Загальний діапазон: ${money(low)} — ${money(high)}`,
-    "",
-    "Хочу уточнити цей розрахунок."
-  ].join("\n");
-  calcState.quote = {
-    object: calculator.elements.calcType.options[calculator.elements.calcType.selectedIndex].text,
-    dimensions: `${length} × ${width} м`,
-    area,
-    height: `${height.toFixed(1)} м`,
-    quality: calculator.elements.calcQuality.options[calculator.elements.calcQuality.selectedIndex].text,
-    archiveDays,
-    cameras,
-    recorderChannels,
-    cable,
-    storageTb,
-    includeUps,
-    equipment,
-    work,
-    low,
-    high
-  };
-
-  document.querySelector("#height-output").textContent = `${height.toFixed(1).replace(".", ",")} м`;
-  document.querySelector("#calc-area").textContent = area;
-  document.querySelector("#calc-total").textContent = `${money(low)} — ${money(high)}`;
-  document.querySelector("#calc-cameras").textContent = `${cameras} шт.`;
-  document.querySelector("#calc-recorder").textContent = `${recorderChannels} каналів`;
-  document.querySelector("#calc-cable").textContent = `≈ ${cable} м`;
-  document.querySelector("#calc-storage").textContent = `${storageTb} ТБ`;
-  document.querySelector("#calc-equipment").textContent = `≈ ${money(equipment)}`;
-  document.querySelector("#calc-work").textContent = `≈ ${money(work)}`;
 }
 
 function calculateSecuritySystemExact() {
+  window.ALTCAM_CALC_CORE.clampForm(calculator);
   const data = new FormData(calculator);
   const { indoor, outdoor, ptz, videoBrand, videoResolution, videoNightMode, nvrChannels, hddTb, includeInstall, brandProfile, resolutionProfile, nightProfile, cameras, cameraPrice, centralPrice, cableMeters, materials, installation, policy } = window.ALTCAM_PRICING.calculateVideo(data);
+  for (const id of ['send-calculation','download-proposal']) document.getElementById(id).disabled = cameras === 0;
+  if (!cameras) {
+    calcState.quote = null;
+    calcState.message = '';
+    for (const id of ['calc-total','calc-cameras-price','calc-central-price','calc-materials-price','calc-install-price','calc-discount','calc-deposit']) document.getElementById(id).textContent = '—';
+    document.getElementById('calc-camera-count').textContent = '0';
+    document.getElementById('calc-note').textContent = 'Додайте хоча б одну камеру';
+    return;
+  }
   const channelWarning = cameras > nvrChannels
     ? ` Увага: обраний NVR має ${nvrChannels} каналів для ${cameras} камер.`
     : "";
@@ -750,11 +675,13 @@ function calculateSecuritySystemExact() {
 calculator.addEventListener("input", calculateSecuritySystem);
 calculator.addEventListener("change", calculateSecuritySystem);
 document.querySelector("#send-calculation").addEventListener("click", () => {
+  if (!calcState.quote) return;
   trackEvent("calculator_confirm_open", { mode: "video", total: calcState.quote.total });
   openQuoteModal(calcState);
 });
 
 document.querySelector("#download-proposal").addEventListener("click", () => {
+  if (!calcState.quote) return;
   const quote = calcState.quote;
   const proposalWindow = window.open("", "_blank");
   if (!proposalWindow) return;
@@ -828,81 +755,12 @@ function nextBatterySize(requiredKwh) {
 
 function calculateBackupPower() {
   return calculateBackupPowerExact();
-  /* Попередня модель підбору комплекту залишена нижче для історії версій. */
-  const data = new FormData(powerCalculator);
-  const type = data.get("powerType");
-  const area = Math.max(20, Number(data.get("powerArea")) || 20);
-  const hours = Number(data.get("powerHours"));
-  const hasLights = data.get("powerLights") === "on";
-  const hasRouter = data.get("powerRouter") === "on";
-  const hasFridge = data.get("powerFridge") === "on";
-  const hasHeating = data.get("powerHeating") === "on";
-  const hasCctv = data.get("powerCctv") === "on";
-  const hasWorkplace = data.get("powerWorkplace") === "on";
-
-  const typeFactor = { apartment: 0.85, house: 1, office: 1.35 }[type];
-  const lighting = hasLights ? Math.min(900, area * 4.5) : 0;
-  const router = hasRouter ? 35 : 0;
-  const fridge = hasFridge ? 140 : 0;
-  const heating = hasHeating ? 160 : 0;
-  const cctv = hasCctv ? (type === "office" ? 180 : 100) : 0;
-  const workplace = hasWorkplace ? (type === "office" ? 450 : 180) : 0;
-  const continuousLoad = Math.max(80, Math.round((lighting + router + fridge + heating + cctv + workplace) * typeFactor));
-  const surgeLoad = continuousLoad + (hasFridge ? 650 : 0) + (hasHeating ? 250 : 0);
-  const inverterKw = nextPowerSize(Math.max(continuousLoad * 1.35, surgeLoad) / 1000);
-  const requiredKwh = continuousLoad * hours / 1000 / 0.85;
-  const batteryKwh = nextBatterySize(requiredKwh);
-  const realRuntime = batteryKwh * 0.85 * 1000 / continuousLoad;
-  const inverterPrice = 8500 + inverterKw * 6200;
-  const batteryPrice = batteryKwh * 11800;
-  const protectionPrice = 6200 + inverterKw * 550;
-  const equipment = Math.round(inverterPrice + batteryPrice + protectionPrice);
-  const work = Math.round(5200 + inverterKw * 950 + (type === "office" ? 2800 : 0));
-  const total = equipment + work;
-  const low = Math.round(total * 0.92 / 500) * 500;
-  const high = Math.round(total * 1.12 / 500) * 500;
-
-  powerState.message = [
-    "Попередній розрахунок резервного живлення Alt-Cam",
-    "",
-    `Об’єкт: ${powerCalculator.elements.powerType.options[powerCalculator.elements.powerType.selectedIndex].text}`,
-    `Площа: ${area} м²`,
-    `Потрібна автономність: ${hours} год`,
-    `Розрахункове навантаження: ${continuousLoad} Вт`,
-    "",
-    `Інвертор: ${inverterKw} кВт, чиста синусоїда`,
-    `Акумулятор LiFePO₄: ${batteryKwh.toFixed(2)} кВт·год`,
-    `Очікувана автономність: близько ${realRuntime.toFixed(1)} год`,
-    `Обладнання: близько ${money(equipment)}`,
-    `Монтаж і запуск: близько ${money(work)}`,
-    `Загальний діапазон: ${money(low)} — ${money(high)}`,
-    "",
-    "Потрібна консультація та точний розрахунок."
-  ].join("\n");
-
-  document.querySelector("#power-hours-output").textContent = `${hours} год`;
-  document.querySelector("#power-total").textContent = `${money(low)} — ${money(high)}`;
-  document.querySelector("#power-load").textContent = `${continuousLoad} Вт`;
-  document.querySelector("#power-inverter").textContent = `${inverterKw} кВт, чистий синус`;
-  document.querySelector("#power-battery").textContent = `${batteryKwh.toFixed(2)} кВт·год`;
-  document.querySelector("#power-runtime").textContent = `≈ ${realRuntime.toFixed(1)} год`;
-  document.querySelector("#power-equipment").textContent = `≈ ${money(equipment)}`;
-  document.querySelector("#power-work").textContent = `≈ ${money(work)}`;
-}
-
-function formatRuntime(hoursValue) {
-  let hours = Math.floor(hoursValue);
-  let minutes = Math.round((hoursValue - hours) * 60);
-  if (minutes === 60) {
-    hours += 1;
-    minutes = 0;
-  }
-  return `${hours} год. ${String(minutes).padStart(2, "0")} хв.`;
 }
 
 function calculateBackupPowerExact() {
+  window.ALTCAM_CALC_CORE.clampForm(powerCalculator);
   const data = new FormData(powerCalculator);
-  const load = Math.max(1, Number(data.get("powerLoad")) || 1);
+  const load = window.ALTCAM_CALC_CORE.clampNumber(data.get("powerLoad"), 10, 30000);
   const powerProfileKey = data.get("powerProfile") || "auto";
   const powerBrandKey = data.get("powerBrand") || "auto";
   const reserveFactor = Number(data.get("powerReserve")) || 1.15;
@@ -928,8 +786,7 @@ function calculateBackupPowerExact() {
   const powerBrand = powerBrands[powerBrandKey] || powerBrands.auto;
   const recommendedPower = Math.ceil(load * reserveFactor);
   const totalCapacityKwh = capacityAh * voltage * batteryCount / 1000;
-  const effectiveWh = capacityAh * voltage * batteryCount * dod * efficiency;
-  const runtimeHours = effectiveWh / load;
+  const {effectiveWh, runtimeHours} = window.ALTCAM_CALC_CORE.powerRuntime({load, capacityAh, batteryCount, voltage, dod, efficiency});
   const runtimeText = formatRuntime(runtimeHours);
   const batteryLabel = powerCalculator.elements.powerBatteryType.options[
     powerCalculator.elements.powerBatteryType.selectedIndex
@@ -1000,6 +857,13 @@ function calculateBackupPowerExact() {
   document.querySelector("#power-discount").textContent = `− ${money(policy.discount)}`;
 }
 
+function formatRuntime(hoursValue) {
+  let hours = Math.floor(hoursValue);
+  let minutes = Math.round((hoursValue - hours) * 60);
+  if (minutes === 60) { hours += 1; minutes = 0; }
+  return `${hours} год. ${String(minutes).padStart(2, "0")} хв.`;
+}
+
 powerCalculator.addEventListener("input", calculateBackupPower);
 powerCalculator.addEventListener("change", calculateBackupPower);
 document.querySelector("#send-power-calculation").addEventListener("click", () => {
@@ -1013,74 +877,10 @@ const ajaxState = {};
 
 function calculateAjaxSystem() {
   return calculateAjaxAccessExact();
-  /* Попередня площинна модель залишена нижче для історії версій. */
-  const data = new FormData(ajaxCalculator);
-  const type = data.get("ajaxType");
-  const area = Math.max(20, Number(data.get("ajaxArea")) || 20);
-  const floors = Math.max(1, Number(data.get("ajaxFloors")) || 1);
-  const doors = Math.max(1, Number(data.get("ajaxDoors")) || 1);
-  const windows = Math.max(0, Number(data.get("ajaxWindows")) || 0);
-  const includeFire = data.get("ajaxFire") === "on";
-  const includeLeaks = data.get("ajaxLeaks") === "on";
-  const includeKeypad = data.get("ajaxKeypad") === "on";
-  const includeSiren = data.get("ajaxSiren") === "on";
-
-  const coverage = { apartment: 45, house: 55, office: 50, warehouse: 75 }[type];
-  const motion = Math.max(floors, Math.ceil(area / coverage));
-  const opening = doors + windows;
-  const fire = includeFire ? Math.max(floors, Math.ceil(area / 80)) : 0;
-  const leaks = includeLeaks ? Math.max(1, type === "house" ? floors + 1 : Math.ceil(area / 120)) : 0;
-  const totalDevices = 1 + motion + opening + fire + leaks + (includeKeypad ? 1 : 0) + (includeSiren ? 1 : 0);
-  const hubName = totalDevices > 28 || type === "warehouse" ? "Hub 2 Plus" : "Hub 2";
-  const hubPrice = hubName === "Hub 2 Plus" ? 10500 : 7200;
-  const equipment = Math.round(
-    hubPrice +
-    motion * 1950 +
-    opening * 1250 +
-    fire * 3850 +
-    leaks * 1550 +
-    (includeKeypad ? 3700 : 0) +
-    (includeSiren ? 2450 : 0)
-  );
-  const work = Math.round(2800 + (totalDevices - 1) * 520 + floors * 450);
-  const total = equipment + work;
-  const low = Math.round(total * 0.94 / 500) * 500;
-  const high = Math.round(total * 1.1 / 500) * 500;
-
-  ajaxState.message = [
-    "Попередній розрахунок системи Ajax — Alt-Cam",
-    "",
-    `Об’єкт: ${ajaxCalculator.elements.ajaxType.options[ajaxCalculator.elements.ajaxType.selectedIndex].text}`,
-    `Площа: ${area} м², поверхів: ${floors}`,
-    `Двері: ${doors}, вікна: ${windows}`,
-    "",
-    `Централь: Ajax ${hubName}`,
-    `Датчики руху: ${motion} шт.`,
-    `Датчики відкриття: ${opening} шт.`,
-    `Пожежні датчики: ${fire} шт.`,
-    `Датчики протікання: ${leaks} шт.`,
-    `Клавіатура: ${includeKeypad ? "так" : "ні"}`,
-    `Сирена: ${includeSiren ? "так" : "ні"}`,
-    `Усього пристроїв: ${totalDevices}`,
-    "",
-    `Обладнання: близько ${money(equipment)}`,
-    `Монтаж і налаштування: близько ${money(work)}`,
-    `Загальний діапазон: ${money(low)} — ${money(high)}`,
-    "",
-    "Хочу уточнити склад системи."
-  ].join("\n");
-
-  document.querySelector("#ajax-total").textContent = `${money(low)} — ${money(high)}`;
-  document.querySelector("#ajax-devices").textContent = totalDevices;
-  document.querySelector("#ajax-hub").textContent = hubName;
-  document.querySelector("#ajax-motion").textContent = `${motion} шт.`;
-  document.querySelector("#ajax-opening").textContent = `${opening} шт.`;
-  document.querySelector("#ajax-safety").textContent = `${fire} / ${leaks} шт.`;
-  document.querySelector("#ajax-equipment").textContent = `≈ ${money(equipment)}`;
-  document.querySelector("#ajax-work").textContent = `≈ ${money(work)}`;
 }
 
 function calculateAjaxAccessExact() {
+  window.ALTCAM_CALC_CORE.clampForm(ajaxCalculator);
   const data = new FormData(ajaxCalculator);
   const ajaxLineKey = data.get("ajaxLine") || "auto";
   const intercomBrandKey = data.get("intercomBrand") || "auto";
