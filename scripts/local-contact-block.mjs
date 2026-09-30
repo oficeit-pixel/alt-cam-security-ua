@@ -6,5 +6,5 @@ export const localContactBlock = `<section aria-labelledby="local-contact-title"
 <a style="color:#fc0" href="/videosposterezhennia-vyshhorod/">Камери й контроль доступу у Вишгороді</a>
 <a style="color:#fc0" href="tel:+380630607088">+380 63 060 70 88</a></nav>
 <h3>ALT-CAM у Telegram</h3><p>Матеріали про камери, домофони та резервне живлення — у нашому каналі. Для розрахунку монтажу напишіть менеджеру населений пункт і що потрібно захистити.</p>
-<div style="display:flex;gap:16px;flex-wrap:wrap"><a data-channel-cta="local_block" href="https://t.me/altcam_security_ua" target="_blank" rel="noopener" style="background:#fc0;color:#111;padding:12px 18px;border-radius:8px;font-weight:700">Перейти до Telegram-каналу</a>
+<div style="display:flex;gap:16px;flex-wrap:wrap"><a data-contact="telegramChannel" data-channel-cta="local_block" target="_blank" rel="noopener" style="background:#fc0;color:#111;padding:12px 18px;border-radius:8px;font-weight:700">Канал з новинами</a>
 <a href="/#request" style="color:#fc0;padding:12px">Отримати розрахунок монтажу</a></div></section>`;

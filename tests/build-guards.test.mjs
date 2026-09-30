@@ -13,6 +13,13 @@ async function fixture(t) {
   return root;
 }
 test('valid output passes',async t=>assert.deepEqual(await checkBuild(await fixture(t)),[]));
+test('rejects inconsistent phone and unconfigured messenger',async t=>{
+  const root=await fixture(t);
+  await fs.writeFile(path.join(root,'contacts.html'),'<a href="tel:+111">Call</a><a href="https://wa.me/111">WA</a>');
+  const errors=await checkBuild(root);
+  assert(errors.some(e=>e.includes('inconsistent phone')));
+  assert(errors.some(e=>e.includes('unconfigured WhatsApp')));
+});
 for (const marker of ['[ЗАПОВНИТИ: x]','[ПІДТВЕРДИТИ: x]','[ВСТАВИТИ: x]',
   'oficeit-pixel.github.io','firetron.com','TODO: вставити']) {
   test(`rejects ${marker}`,async t=>{
