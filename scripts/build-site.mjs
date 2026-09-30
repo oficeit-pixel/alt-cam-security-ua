@@ -23,7 +23,7 @@ const homePath = path.join(out, 'index.html');
 await fs.writeFile(homePath, renderReviews(await fs.readFile(homePath, 'utf8'), contacts,
   JSON.parse(await fs.readFile(path.join(root, 'data/reviews.json'), 'utf8'))));
 await fs.mkdir(path.join(out, 'data'), { recursive: true });
-for (const name of ['service-rates.js', 'services.js', 'price-calculator.js', 'package-configs.js']) {
+for (const name of ['service-rates.js', 'services.js', 'calc-core.js', 'price-calculator.js', 'package-configs.js']) {
   await fs.copyFile(path.join(root, 'data', name), path.join(out, 'data', name));
 }
 await fs.rm(path.join(out, 'service-rates-draft.js'), { force: true });

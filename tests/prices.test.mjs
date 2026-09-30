@@ -6,6 +6,7 @@ const context={window:{}};
 vm.runInNewContext(fs.readFileSync('data/service-rates.js','utf8'),context);
 vm.runInNewContext(fs.readFileSync('data/services.js','utf8'),context);
 const rates=context.window.ALTCAM_RATES;
+vm.runInNewContext(fs.readFileSync('data/calc-core.js','utf8'),context);
 vm.runInNewContext(fs.readFileSync('data/price-calculator.js','utf8'),context);
 vm.runInNewContext(fs.readFileSync('data/package-configs.js','utf8'),context);
 test('all camera package estimates use the calculator configuration and remain finite',()=>{
