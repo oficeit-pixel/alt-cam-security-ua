@@ -28,6 +28,10 @@ const root=path.resolve(__dirname,'..');
         });
         await page.goto('http://localhost:4173/'+pageName,{waitUntil:'domcontentloaded'});
         if(pageName==='index.html') {
+          assert.equal(await page.locator('#works .real .work-card').count(),5);
+          assert.doesNotMatch(await page.locator('#works .real').innerText(),/Візуалізація|Харків|Дніпро/);
+          assert.equal(await page.locator('#solution-examples .work-visualization').count(),4);
+          assert.equal(await page.locator('.review-card').count(),0);
           for(const id of ['kit-2cam','kit-4cam','kit-8cam']) {
             const link=page.locator(`[data-package="${id}"]`);
             const price=await link.locator('..').locator('.package-price').innerText();

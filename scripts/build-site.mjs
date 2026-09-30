@@ -5,7 +5,8 @@ import { buildProductPages } from './build-product-pages.mjs';
 import { buildLocalPages } from './build-local-pages.mjs';
 import { finalizeSeo } from './finalize-seo.mjs';
 import { localizeCatalog } from './localize-catalog.mjs';
-import { renderContacts } from './contacts.mjs';
+import { renderContacts, contacts } from './contacts.mjs';
+import { renderReviews } from './reviews.mjs';
 
 const root = process.cwd();
 const out = path.join(root, '_site');
@@ -18,6 +19,9 @@ const files = ['index.html', 'catalog.html', 'admin.html', 'privacy-policy.html'
   'catalog.css', 'admin.css', 'service-prices.css', 'script.js', 'catalog.js',
   'admin.js', 'analytics.js', 'contacts.js', 'lead-payload.js'];
 for (const name of files) await fs.copyFile(path.join(root, name), path.join(out, name));
+const homePath = path.join(out, 'index.html');
+await fs.writeFile(homePath, renderReviews(await fs.readFile(homePath, 'utf8'), contacts,
+  JSON.parse(await fs.readFile(path.join(root, 'data/reviews.json'), 'utf8'))));
 await fs.mkdir(path.join(out, 'data'), { recursive: true });
 for (const name of ['service-rates.js', 'services.js', 'price-calculator.js', 'package-configs.js']) {
   await fs.copyFile(path.join(root, 'data', name), path.join(out, 'data', name));
