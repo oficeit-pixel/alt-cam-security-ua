@@ -10,3 +10,4 @@ _site/
 *.dump
 tmp-responsive/
 node_modules/
+build-placeholders.txt

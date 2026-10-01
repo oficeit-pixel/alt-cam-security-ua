@@ -24,8 +24,15 @@ const origin = 'https://alt-cam.net.ua';
 const xml = value => value.replace(/&/g, '&amp;').replace(/</g, '&lt;');
 export async function finalizeSeo(directory) {
   const maps = {pages: [], products: []}, dates = new Map();
+  const landingSources = new Map();
+  for (const name of await fs.readdir(new URL('../content/',import.meta.url)).catch(()=>[])) {
+    if (!/^landing-.*\.md$/.test(name)) continue;
+    const source = await fs.readFile(new URL('../content/'+name,import.meta.url),'utf8');
+    const slug = source.match(/^slug:\s*([a-z0-9-]+)\s*$/m)?.[1];
+    if (slug) landingSources.set(slug+'/index.html','content/'+name);
+  }
   function modified(relative) {
-    const source = relative.startsWith('products/') ? 'catalog-data.js' : /^(videosposterezhennia|videodomofony|rezervne-zhyvlennia)\//.test(relative) ? 'scripts/build-seo-pages.mjs' : relative.includes('/') ? 'scripts/build-local-pages.mjs' : relative;
+    const source = landingSources.get(relative) || (relative.startsWith('products/') ? 'catalog-data.js' : /^(videosposterezhennia|videodomofony|rezervne-zhyvlennia)\//.test(relative) ? 'scripts/build-seo-pages.mjs' : relative.includes('/') ? 'scripts/build-local-pages.mjs' : relative);
     if (!dates.has(source)) {
       let date = '';
       try { date = execFileSync('git', ['log', '-1', '--format=%cI', '--', source], {encoding:'utf8', stdio:['ignore','pipe','ignore']}).trim(); } catch {}
