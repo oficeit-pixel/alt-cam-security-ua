@@ -45,6 +45,4 @@ export async function buildLocalPages(out) {
   const homeHtml = await fs.readFile(home,'utf8');
   await fs.writeFile(home, homeHtml.replace('<section class="section request-section"', localContactBlock + '<section class="section request-section"'));
   await fs.writeFile(home,(await fs.readFile(home,'utf8')).replace('<footer class="footer"',`<nav class="container" aria-label="Монтаж з виїздом" style="display:flex;gap:24px;flex-wrap:wrap;padding:24px">${links}</nav><footer class="footer"`));
-  const sitemap = path.join(out,'sitemap.xml');
-  await fs.writeFile(sitemap,(await fs.readFile(sitemap,'utf8')).replace('</urlset>',pages.map(p=>`<url><loc>https://alt-cam.net.ua/${p.slug}/</loc></url>`).join('')+'</urlset>'));
 }

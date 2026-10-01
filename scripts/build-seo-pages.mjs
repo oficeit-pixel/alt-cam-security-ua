@@ -20,5 +20,4 @@ export async function buildSeoPages(out, products) {
   await fs.mkdir(path.join(out,slug),{recursive:true});await fs.writeFile(path.join(out,slug,'index.html'),html);
  }
  const home=path.join(out,'index.html');await fs.writeFile(home,(await fs.readFile(home,'utf8')).replace('<footer class="footer"',`<nav class="container" aria-label="Напрями обладнання" style="display:flex;gap:24px;flex-wrap:wrap;padding:24px">${links.join('')}</nav><footer class="footer"`));
- const sitemap=path.join(out,'sitemap.xml');await fs.writeFile(sitemap,(await fs.readFile(sitemap,'utf8')).replace(/<url>\s*<loc>https:\/\/alt-cam\.net\.ua\/videospheterezhennia\/<\/loc>[\s\S]*?<\/url>/g,'').replace('</urlset>',groups.map(([slug])=>`<url><loc>https://alt-cam.net.ua/${slug}/</loc></url>`).join('')+'</urlset>'));
 }
