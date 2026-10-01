@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import {execFileSync} from 'node:child_process';
 
 export function enhanceHead(html) {
   if (!/<head\b/i.test(html)) return html;
@@ -19,14 +20,54 @@ export function enhanceHead(html) {
   return html.replace(/<\/head>/i, additions.join('\n') + '\n</head>');
 }
 
+const origin = 'https://alt-cam.net.ua';
+const xml = value => value.replace(/&/g, '&amp;').replace(/</g, '&lt;');
 export async function finalizeSeo(directory) {
-  for (const entry of await fs.readdir(directory, {withFileTypes:true})) {
-    const file = path.join(directory, entry.name);
-    if (entry.isDirectory()) {
-      if (!['assets','social-posts'].includes(entry.name)) await finalizeSeo(file);
-    } else if (entry.name.endsWith('.html')) {
-      const html = await fs.readFile(file, 'utf8');
-      await fs.writeFile(file, enhanceHead(html));
+  const maps = {pages: [], products: []}, dates = new Map();
+  function modified(relative) {
+    const source = relative.startsWith('products/') ? 'catalog-data.js' : /^(videosposterezhennia|videodomofony|rezervne-zhyvlennia)\//.test(relative) ? 'scripts/build-seo-pages.mjs' : relative.includes('/') ? 'scripts/build-local-pages.mjs' : relative;
+    if (!dates.has(source)) {
+      let date = '';
+      try { date = execFileSync('git', ['log', '-1', '--format=%cI', '--', source], {encoding:'utf8', stdio:['ignore','pipe','ignore']}).trim(); } catch {}
+      dates.set(source, date || new Date().toISOString());
+    }
+    return dates.get(source);
+  }
+  async function walk(folder) {
+    for (const entry of await fs.readdir(folder, {withFileTypes:true})) {
+      const file = path.join(folder, entry.name);
+      if (entry.isDirectory()) {
+        if (!['assets','social-posts'].includes(entry.name)) await walk(file);
+      } else if (entry.name.endsWith('.html')) {
+        const relative = path.relative(directory, file).replaceAll('\\', '/');
+        const route = '/' + relative.replace(/(^|\/)index\.html$/, '$1');
+        const url = origin + route;
+        let html = await fs.readFile(file, 'utf8');
+        const privatePage = /^(admin(?:\/|\.html$)|blanks\/|.*oauth.*\.html$)/i.test(relative);
+        const redirect = /http-equiv=["']refresh["']/i.test(html);
+        if (privatePage) {
+          html = html.replace(/<meta\b[^>]*name=["']robots["'][^>]*>/gi, '');
+          html = html.replace(/<\/head>/i, '<meta name="robots" content="noindex,nofollow"></head>');
+        }
+        if (!redirect) {
+          html = html.replace(/<link\b[^>]*rel=["']canonical["'][^>]*>/gi, '');
+          html = html.replace(/<\/head>/i, `<link rel="canonical" href="${url}"></head>`);
+        }
+        html = html.replace(/href=(["'])(?:\.\/)?index\.html#/g, 'href=$1/#');
+        html = enhanceHead(html);
+        await fs.writeFile(file, html);
+        if (!privatePage && !redirect && !/<meta[^>]+content=["'][^"']*noindex/i.test(html)) {
+          if (!/<title>[^<]+<\/title>/i.test(html) || !/<meta[^>]+name="description"[^>]+content="[^"]+"/i.test(html)) throw new Error(`Missing SEO metadata: ${relative}`);
+          maps[relative.startsWith('products/') ? 'products' : 'pages'].push({url, date:modified(relative)});
+        }
+      }
     }
   }
+  await walk(directory);
+  for (const [name, entries] of Object.entries(maps)) {
+    entries.sort((a,b) => a.url.localeCompare(b.url));
+    await fs.writeFile(path.join(directory, `sitemap-${name}.xml`), '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + entries.map(({url,date})=>`<url><loc>${xml(url)}</loc><lastmod>${date}</lastmod></url>`).join('') + '</urlset>');
+  }
+  await fs.writeFile(path.join(directory, 'sitemap.xml'), '<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + Object.keys(maps).map(name=>`<sitemap><loc>${origin}/sitemap-${name}.xml</loc></sitemap>`).join('') + '</sitemapindex>');
+  console.log(`Sitemap: ${maps.pages.length} pages, ${maps.products.length} products`);
 }

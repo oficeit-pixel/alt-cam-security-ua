@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /admin.html
+Disallow: /blanks/
+Disallow: /feeds/
+Disallow: /tiktok-oauth-callback.html
 
-Sitemap: https://oficeit-pixel.github.io/alt-cam-security-ua/sitemap.xml
+Sitemap: https://alt-cam.net.ua/sitemap.xml
