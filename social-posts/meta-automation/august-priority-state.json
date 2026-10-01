@@ -8677,6 +8677,96 @@
           "post_id": "962902993572061_122138294247226993"
         }
       }
+    },
+    "attention-daily-2026-10-01": {
+      "instagram": {
+        "published_at": "2026-10-01T09:20:20.556350+00:00",
+        "result": {
+          "container": {
+            "id": "18091125698418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18091125698418944"
+          },
+          "published": {
+            "id": "18183200899425152"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-01T09:21:29.587002+00:00",
+        "result": {
+          "container": {
+            "id": "18090956600424516"
+          },
+          "published": {
+            "id": "18135072202643570"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-01T09:21:31.065656+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 121,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1790846490,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADeWq-JhqfC6EZdy9hU7EFvPfjdbzMAAL5H2sbnCLwSa6WN7RG2sogAQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD-R9rG5wi8El4",
+                  "file_size": 2014,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADeWq-JhqfC6EZdy9hU7EFvPfjdbzMAAL5H2sbnCLwSa6WN7RG2sogAQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD-R9rG5wi8Ely",
+                  "file_size": 27257,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADeWq-JhqfC6EZdy9hU7EFvPfjdbzMAAL5H2sbnCLwSa6WN7RG2sogAQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD-R9rG5wi8El9",
+                  "file_size": 102924,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADeWq-JhqfC6EZdy9hU7EFvPfjdbzMAAL5H2sbnCLwSa6WN7RG2sogAQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD-R9rG5wi8El-",
+                  "file_size": 169846,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Перед купівлею mini UPS — перевірте ці три речі\n\nНапруга живлення, сумісність роз’єму та потрібна потужність мають відповідати вашому обладнанню. Для оптичного інтернету перевірте також живлення термінала й резервування мережі провайдера.\n\nНадішліть модель обладнання через форму на сайті — обговоримо підбір. Не підключайте несумісне живлення.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/rezervne-zhyvlennia/?utm_source=telegram&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261001\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+              "caption_entities": [
+                {
+                  "offset": 432,
+                  "length": 137,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
