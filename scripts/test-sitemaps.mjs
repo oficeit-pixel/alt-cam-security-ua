@@ -19,6 +19,16 @@ for(const name of ['pages','products']){
  }
 }
 assert(seen.size>10);
+const report=JSON.parse(await fs.readFile(path.join(out,'product-seo-report.json'),'utf8'));
+const productUrls=[...seen].filter(url=>new URL(url).pathname.startsWith('/products/'));
+assert.equal(productUrls.length,report.indexed);
+assert(report.indexed<=300);
+for(const url of productUrls){
+ const html=await fs.readFile(path.join(out,new URL(url).pathname,'index.html'),'utf8');
+ const schema=JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);
+ assert.equal(schema['@type'],'Product');assert(schema.offers.price>0);
+ assert.equal(schema.offers.priceCurrency,'UAH');assert.equal(schema.offers.url,url);
+}
 for(const relative of ['admin.html','admin/index.html','blanks/index.html','tiktok-oauth-callback.html']){
  assert((await fs.readFile(path.join(out,relative),'utf8')).includes('content="noindex,nofollow"'),relative);
 }
