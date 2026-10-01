@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import '../tests/seo-slug.test.mjs';
 import {enhanceHead} from './finalize-seo.mjs';
 const html = '<html><head><title>Камера | ALT-CAM</title><meta name="description" content="Опис"><link rel="canonical" href="https://alt-cam.net.ua/test/"><link rel="icon" href="old.png"></head></html>';
 const result = enhanceHead(html);
