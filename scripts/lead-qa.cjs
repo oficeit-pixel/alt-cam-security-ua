@@ -2,19 +2,26 @@
 const {chromium}=require('playwright');
 const path=require('node:path');
 const assert=require('node:assert/strict');
+const {default:AxeBuilder}=require('@axe-core/playwright');
 const root=path.resolve(__dirname,'..');
 (async()=>{
   const browser=await chromium.launch({headless:true,timeout:20000,...(process.env.PW_CHANNEL?{channel:process.env.PW_CHANNEL}:{})});
   try{
     for(const pageName of ['index.html','catalog.html']){
       for(const success of [false,true]){
-        const page=await browser.newPage();
+        const context=await browser.newContext();
+        const page=await context.newPage();
         const browserErrors=[];
         page.on('pageerror',error=>browserErrors.push(error.message));
-        let posted=0,popups=0,health=0;
+        let posted=0,popups=0,health=0,orders=0;
         page.on('popup',()=>popups++);
         await page.route('**/*',async route=>{
           const url=new URL(route.request().url());
+          if(url.hostname==='alt-cam-crm-api.onrender.com'&&url.pathname==='/api/orders'){
+            orders++;
+            assert.equal(route.request().postDataJSON().customer.phone,'+380630607088');
+            return success?route.fulfill({json:{ok:true,order_number:'QA-TEST'},headers:{'Access-Control-Allow-Origin':'*'}}):route.abort();
+          }
           if(url.hostname==='alt-cam-crm-api.onrender.com'&&url.pathname==='/health'){
             health++;return route.fulfill({json:{ok:true},headers:{'Access-Control-Allow-Origin':'*'}});
           }
@@ -28,7 +35,11 @@ const root=path.resolve(__dirname,'..');
           if(!name.startsWith(root+path.sep)||! /\.(html|js|css|png|jpg|jpeg|svg|webp|ico|woff2)$/i.test(name))return route.abort();
           try{return await route.fulfill({path:name});}catch{return route.abort();}
         });
-        await page.goto('http://localhost:4173/'+pageName,{waitUntil:'domcontentloaded'});
+        await page.goto('http://localhost:4173/'+pageName+'?debug_mode=1',{waitUntil:'domcontentloaded'});
+        await page.addScriptTag({url:'http://localhost:4173/analytics.js'});
+        assert.equal(await page.evaluate(()=>!!window.gtag),false,'Analytics remains off without consent');
+        await page.locator('[data-yes]').click();
+        assert.equal(await page.evaluate(()=>window.dataLayer.some(x=>x[0]==='config'&&x[2]?.debug_mode===true)),true);
         assert.equal(health,0, 'No warmup before interaction');
         if(pageName==='index.html') {
           assert.equal(await page.locator('#works .real .work-card').count(),5);
@@ -71,8 +82,31 @@ const root=path.resolve(__dirname,'..');
           }
           console.log('Camera packages: card/calculator equality PASS');
         }
+        if(pageName==='catalog.html') {
+          await page.locator('[data-add]').first().click();
+          assert.equal(await page.locator('#cart').getAttribute('aria-hidden'),'false');
+          const cartAxe=await new AxeBuilder({page}).withRules(['label','select-name']).analyze();
+          assert.deepEqual(cartAxe.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})),[]);
+          await page.locator('#order-name').fill('Тест QA');
+          await page.locator('[name="delivery"][value="pickup"]').check();
+          await page.locator('#order-phone').fill('123');
+          await page.locator('#cart-order').click();
+          assert.equal(orders,0);
+          assert.equal(await page.locator('#order-phone').getAttribute('aria-invalid'),'true');
+          await page.locator('#order-phone').fill('0630607088');
+          await page.locator('#cart-order').click();
+          await page.waitForFunction(()=>!document.querySelector('#cart-order').disabled);
+          assert.equal(orders,1);
+          assert.equal(await page.locator('#checkout-form a[href="/privacy-policy.html"]').count(),1);
+          const count=await page.evaluate(()=>window.dataLayer.filter(x=>x[0]==='event'&&x[1]==='generate_lead').length);
+          assert.equal(count,success?1:0);
+          await page.locator('#cart-close').click();
+          await page.evaluate(()=>{window.dataLayer.length=0;});
+        }
         const form=page.locator(pageName==='index.html'?'#lead-form':'#consult-form');
-        assert.equal(health,pageName==='index.html'?1:0);
+        const accessibility=await new AxeBuilder({page}).withRules(['label','select-name']).analyze();
+        assert.deepEqual(accessibility.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})),[],'Fields have accessible names');
+        assert.equal(health,1);
         await form.locator('[name="name"]').fill('Тест QA');
         await form.locator('[name="phone"]').fill('0630607088');
         assert.equal(health,1);
@@ -94,8 +128,23 @@ const root=path.resolve(__dirname,'..');
           assert.equal(await form.locator('[name="name"]').inputValue(),'Тест QA');
         }
         assert.equal(posted,1);assert.equal(popups,0);
+        const analytics=await page.evaluate(()=>window.dataLayer.filter(x=>x[0]==='event').map(x=>({name:x[1],params:x[2]})));
+        assert.equal(analytics.filter(x=>x.name==='generate_lead').length,success?1:0);
+        assert.equal(analytics.filter(x=>x.name==='lead_fallback_shown').length,success?0:1);
+        assert.ok(!JSON.stringify(analytics).includes('0630607088'));
+        assert.ok(!JSON.stringify(analytics).includes('Тест QA'));
+        if(pageName==='index.html'&&success){
+          const mapping=await page.evaluate(()=>{
+            window.dataLayer.length=0;
+            for(const name of ['submit_lead','submit_quiz','submit_calculator','checkout_completed','consultation_sent','click_whatsapp','click_viber'])window.altcamAnalytics(name,{phone:'private-phone',name:'private-name',message:'private-text'});
+            return window.dataLayer.filter(x=>x[0]==='event').map(x=>({name:x[1],params:x[2]}));
+          });
+          assert.equal(mapping.filter(x=>x.name==='generate_lead').length,5);
+          assert.deepEqual(mapping.filter(x=>x.name==='contact_click').map(x=>x.params.method),['whatsapp','viber']);
+          assert.ok(!JSON.stringify(mapping).includes('private-'));
+        }
         assert.deepEqual(browserErrors,[], 'No browser JavaScript exceptions');
-        await page.close();
+        await context.close();
         console.log(`${pageName}: ${success?'success':'fallback'} PASS`);
       }
     }
