@@ -1,48 +1,42 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { localContactBlock } from './local-contact-block.mjs';
-
-const pages = [
-  {
-    slug: 'montazh-videosposterezhennia-kyiv',
-    title: 'Монтаж відеоспостереження у Києві та Київській області',
-    description: 'Виїзний монтаж камер, відеодомофонів і резервного живлення у Києві та області. Підбір обладнання, узгоджений кошторис і налаштування перегляду зі смартфона.',
-    area: ['Київ', 'Київська область'],
-    sections: [
-      ['Що враховуємо перед монтажем', 'Для квартири визначаємо зону входу й спосіб прокладання кабелю. У магазині враховуємо касу, торговий зал і склад. Для приватного будинку перевіряємо освітлення двору, відстань до воріт, інтернет і місце встановлення реєстратора. Камери спрямовуємо на потрібні зони, уникаючи зайвого огляду приватного простору сусідів.'],
-      ['Обладнання та роботи в одному кошторисі', 'Погоджуємо кількість камер, об’єктиви, реєстратор, диск для архіву, кабель та монтажні матеріали. Окремо враховуємо довжину трас, висоту робіт і налаштування віддаленого доступу. Остаточну вартість визначаємо після уточнення умов об’єкта — без вигаданої фіксованої ціни за будь-який монтаж.'],
-      ['Коли потрібне резервне живлення', 'Щоб зберігати відео під час відключень, живлення потрібне не лише камерам, а й реєстратору та мережевому обладнанню. Для доступу зі смартфона також потрібен працездатний інтернет. Час автономності розраховуємо за навантаженням і ємністю акумулятора.'],
-      ['Як замовити виїзд', 'Надішліть населений пункт, тип об’єкта, потрібні зони огляду та кілька фото місць монтажу. Уточнимо завдання, попередній склад системи й можливий час виїзду. Приймання клієнтів в офісі не передбачене — працюємо на вашому об’єкті.'],
-    ],
-  },
-  {
-    slug: 'videosposterezhennia-vyshhorod',
-    title: 'Відеоспостереження та контроль доступу у Вишгороді',
-    description: 'Монтаж камер і відеодомофонів у Вишгороді з виїздом. Приклади робіт у під’їздах, квартирах і магазині; контроль доступу U-PROX та камери в ліфтах.',
-    area: ['Вишгород'],
-    sections: [
-      ['Під’їзди та ліфти', 'У портфоліо ALT-CAM є відеоспостереження у під’їздах багатоквартирних будинків у Вишгороді, контроль доступу U-PROX і камери в ліфтах. Для спільних зон заздалегідь погоджуємо місця встановлення та доступ до обладнання з уповноваженим представником будинку.'],
-      ['Квартири та магазини', 'Серед прикладів робіт — відеодомофони у квартирах у Вишгороді та Києві, а також відеоспостереження магазину товарів з Європи у Вишгороді. Внутрішній монітор домофона розміщуємо у квартирі, викличну панель — біля входу. Для магазину підбираємо ракурси під конкретні зони, а не лише кількість камер.'],
-      ['Оновлення наявної системи', 'Якщо камери вже встановлені, спочатку перевіряємо проводку, живлення, стан запису та сумісність обладнання. Придатні компоненти можна залишити, якщо це відповідає завданню. Перелік замін і робіт погоджуємо до початку монтажу.'],
-      ['Підготовка до виїзду', 'Повідомте тип об’єкта, кількість входів, наявність інтернету та потребу в роботі без світла. Для під’їзду або ліфта додатково уточнимо умови доступу до технічних зон. Працюємо з виїздом, дату й кошторис погоджуємо індивідуально.'],
-    ],
-  },
-];
-const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-
-export async function buildLocalPages(out) {
-  const links = pages.map(p => `<a href="/${p.slug}/">${escape(p.title)}</a>`).join('');
-  for (const page of pages) {
-    const url = `https://alt-cam.net.ua/${page.slug}/`;
-    const schema = {'@context':'https://schema.org','@type':'Service',name:page.title,url,
-      serviceType:'Монтаж систем безпеки',areaServed:page.area,
-      provider:{'@type':'Organization',name:'ALT-CAM Security UA',url:'https://alt-cam.net.ua/'}};
-    const html = `<!doctype html><html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escape(page.title)} | ALT-CAM</title><meta name="description" content="${escape(page.description)}"><link rel="canonical" href="${url}"><style>body{margin:0;background:#17171a;color:#eee;font:17px/1.7 Arial}main{max-width:960px;margin:auto;padding:32px 20px}a{color:#fc0}nav{display:flex;gap:20px;flex-wrap:wrap}h1{font-size:clamp(28px,5vw,46px);line-height:1.2}section{margin:28px 0;padding:20px;background:#242428;border-radius:12px}h2{line-height:1.3}.cta{display:inline-block;background:#fc0;color:#111;padding:12px 20px;border-radius:8px;font-weight:bold}footer{margin-top:32px}</style><script type="application/ld+json">${JSON.stringify(schema).replace(/</g,'\\u003c')}</script></head><body><script src="/analytics.js"></script><main><nav><a href="/">ALT-CAM</a><a href="/catalog.html">Обладнання</a><a href="/#works">Приклади робіт</a></nav><h1>${escape(page.title)}</h1><p>${escape(page.description)}</p><a class="cta" href="/#request">Обговорити монтаж з виїздом</a>${page.sections.map(([title,text])=>`<section><h2>${escape(title)}</h2><p>${escape(text)}</p></section>`).join('')}<h2>Обладнання з доставкою по Україні</h2><p>Монтаж виконуємо у Києві та області. Для інших регіонів пропонуємо підбір і доставлення обладнання та дистанційну підтримку. Умови доставки й повернення наведені окремо.</p><nav><a href="/videodomofony/">Відеодомофони</a><a href="/rezervne-zhyvlennia/">Резервне живлення</a><a href="/catalog.html">Каталог</a></nav><h2>Територія виїзду</h2><nav>${links}</nav><footer><a href="/delivery-and-returns.html">Доставка та повернення</a> · <a href="/privacy-policy.html">Конфіденційність</a></footer></main></body></html>`;
-    await fs.mkdir(path.join(out,page.slug),{recursive:true});
-    await fs.writeFile(path.join(out,page.slug,'index.html'),html.replace('<h2>Територія виїзду</h2>', localContactBlock + '<h2>Територія виїзду</h2>'));
+import {contacts} from './contacts.mjs';
+import {localContactBlock} from './local-contact-block.mjs';
+import {loadInstallationRates} from './product-seo.mjs';
+import {parseLanding,markdown,inline,escape,pending,faqEntries} from './lib/landing-md.mjs';
+import {priceTable} from './lib/price-tables.mjs';
+const content=new URL('../content/',import.meta.url),origin='https://alt-cam.net.ua';
+export async function loadLandings(){return Promise.all((await fs.readdir(content)).filter(n=>/^landing-.*\.md$/.test(n)).sort().map(async name=>({...parseLanding(await fs.readFile(new URL(name,content),'utf8')),name})));}
+export function contactButtons(){return `<div class="landing-actions"><a href="tel:${escape(contacts.phone)}">${escape(contacts.phoneLabel)}</a>${contacts.telegram?`<a href="https://t.me/${escape(contacts.telegram)}">Написати в Telegram</a>`:''}<a href="/#calculator">Розрахувати вартість</a></div>`;}
+export async function buildLocalPages(out){
+ const pages=await loadLandings(),rates=await loadInstallationRates(),prices=await fs.readFile(new URL('price-tables.md',content),'utf8'),alts=await fs.readFile(new URL('og-image-and-alt-texts.md',content),'utf8');
+ const report=[],production=process.env.NODE_ENV!=='development';
+ const links=pages.map(p=>`<a href="/${p.meta.slug}/">${escape(p.meta.h1)}</a>`).join('');
+ const photo=d=>[...new Set(d.match(/[a-z-]+\.webp/g)||[])].map(name=>{const alt=alts.split('\n').find(l=>l.startsWith(`| \`${name}\``))?.split('|')[3]?.trim();return !alt||pending.test(alt)?'':`<figure><img src="/assets/works/${name}" alt="${escape(alt)}" loading="lazy" width="960" height="640"><figcaption>${escape(alt)}</figcaption></figure>`;}).join('');
+ for(const {meta,sections,name} of pages){
+  const omitted=[],faq=[],url=`${origin}/${meta.slug}/`,options={production,omitted,table:id=>priceTable(id,prices,rates),photo};let body='';
+  for(const section of sections){
+   let source=section.body.join('\n');
+   if(section.title==='Часті запитання'){faq.push(...faqEntries(section.body,{omitted}));body+=`<section id="faq"><h2>Часті запитання</h2>${faq.map(q=>`<details><summary>${inline(q.question)}</summary><p>${inline(q.answer)}</p></details>`).join('')}</section>`;continue;}
+   if(section.title==='CTA'){
+    const title=source.match(/\*\*Заголовок:\*\*\s*(.*)/)?.[1],description=source.match(/\*\*Текст:\*\*\s*(.*)/)?.[1];if(pending.test(source))omitted.push(source);
+    body+=`<section id="request"><h2>${escape(pending.test(source)?'Обговорімо ваше завдання':title||'Замовити консультацію')}</h2>${!pending.test(source)&&description?`<p>${inline(description)}</p>`:''}${contactButtons()}</section>`;continue;
+   }
+   if(section.title==='Де працюємо')source=source.replace(/\[ПІДТВЕРДИТИ[^\]]*\]/g,'').split('\n').filter(l=>l.trim()).map(l=>'- '+l).join('\n');
+   source=source.replace(/^\*\*Кнопки:\*\*.*$/gm,'');const rendered=markdown(source,options);
+   if(rendered)body+=section.title?`<section><h2>${escape(section.title)}</h2>${rendered}</section>`:rendered+contactButtons();
   }
-  const home = path.join(out,'index.html');
-  const homeHtml = await fs.readFile(home,'utf8');
-  await fs.writeFile(home, homeHtml.replace('<section class="section request-section"', localContactBlock + '<section class="section request-section"'));
-  await fs.writeFile(home,(await fs.readFile(home,'utf8')).replace('<footer class="footer"',`<nav class="container" aria-label="Монтаж з виїздом" style="display:flex;gap:24px;flex-wrap:wrap;padding:24px">${links}</nav><footer class="footer"`));
+  const crumbs=(meta.breadcrumb||[]).map((item,i)=>{const [label,route]=item.split(' → ');if(!/^\/(?!\/)/.test(route||''))throw Error('Unsafe breadcrumb');return {'@type':'ListItem',position:i+1,name:label,item:origin+route};});
+  const schema=[{'@context':'https://schema.org','@type':'Service',name:meta.h1,url,serviceType:meta.h1,areaServed:meta.areaServed,provider:{'@id':origin+'/#business'}},{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:crumbs}];
+  if(faq.length)schema.push({'@context':'https://schema.org','@type':'FAQPage',mainEntity:faq.map(q=>({'@type':'Question',name:q.question,acceptedAnswer:{'@type':'Answer',text:q.answer}}))});
+  const nav=`<nav class="landing-nav" aria-label="Навігація"><a href="/catalog.html">Каталог</a><a href="/#works">Наші роботи</a><a href="/#calculator">Калькулятор</a><a href="tel:${escape(contacts.phone)}">${escape(contacts.phoneLabel)}</a></nav>`;
+  const html=`<!doctype html><html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escape(meta.title)}</title><meta name="description" content="${escape(meta.description)}"><link rel="canonical" href="${url}"><link rel="stylesheet" href="/landing.css"><script type="application/ld+json">${JSON.stringify(schema).replace(/</g,'\\u003c')}</script></head><body class="landing-page"><script src="/analytics.js"></script><header class="landing-header landing-shell"><a class="landing-brand" href="/"><img src="/assets/alt-cam-mark.png" alt="" width="48" height="48">ALT-CAM Security UA</a>${nav}</header><main class="landing-shell"><nav class="landing-breadcrumbs" aria-label="Хлібні крихти">${crumbs.map(c=>`<a href="${escape(c.item)}">${escape(c.name)}</a>`).join(' / ')}</nav><h1>${escape(meta.h1)}</h1>${body}</main><footer class="landing-footer landing-shell"><h2>Послуги ALT-CAM</h2><nav class="landing-related">${links}</nav>${contactButtons()}<nav class="landing-nav"><a href="/privacy-policy.html">Конфіденційність</a><a href="/terms-of-service.html">Умови</a><a href="/delivery-and-returns.html">Доставка та повернення</a></nav></footer></body></html>`;
+  if(production&&/\[(?:ЗАПОВНИТИ|ПІДТВЕРДИТИ|ВСТАВИТИ)/.test(html))throw Error(`Unresolved directive: ${name}`);
+  await fs.mkdir(path.join(out,meta.slug),{recursive:true});await fs.writeFile(path.join(out,meta.slug,'index.html'),html);report.push(...omitted.map(fragment=>`${name}: ${fragment}`));
+ }
+ await fs.writeFile(path.join(out,'..','build-placeholders.txt'),report.join('\n\n'));
+ const home=path.join(out,'index.html');let html=await fs.readFile(home,'utf8');
+ html=html.replace('</head>','<link rel="stylesheet" href="/landing.css"></head>').replace('<section class="section request-section"',localContactBlock+'<section class="section request-section"');
+ html=html.replace(/<div class="footer-links"><h3>Послуги<\/h3>[\s\S]*?<\/div>/,`<div class="footer-links"><h3>Послуги</h3>${links}</div>`);
+ await fs.writeFile(home,html);console.log(`Landings: ${pages.length}; withheld fragments: ${report.length}`);
 }
