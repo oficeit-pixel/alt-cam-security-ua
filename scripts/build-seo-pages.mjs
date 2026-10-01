@@ -3,12 +3,16 @@ import path from 'node:path';
 import { productPath } from './build-product-pages.mjs';
 export async function buildSeoPages(out, products) {
  const groups=[
- ['videosp heterezhennia'.replace(' ',''),'Відеоспостереження для дому та бізнесу','Камери відеоспостереження','video','Для входу важлива деталізація облич, для двору — покриття території та нічне зображення. Роздільна здатність сама по собі не визначає результат: враховуйте об’єктив, відстань до об’єкта та освітлення.','Перед замовленням перевірте сумісність камери й реєстратора, живлення PoE або 12 В, обсяг архіву та захист вуличного корпусу. Для роботи під час відключень потрібне резервне живлення всієї системи, включно з комутатором і маршрутизатором.'],
+ ['videosposterezhennia','Відеоспостереження для дому та бізнесу','Камери відеоспостереження','video','Для входу важлива деталізація облич, для двору — покриття території та нічне зображення. Роздільна здатність сама по собі не визначає результат: враховуйте об’єктив, відстань до об’єкта та освітлення.','Перед замовленням перевірте сумісність камери й реєстратора, живлення PoE або 12 В, обсяг архіву та захист вуличного корпусу. Для роботи під час відключень потрібне резервне живлення всієї системи, включно з комутатором і маршрутизатором.'],
  ['videodomofony','Відеодомофони та викличні панелі','Домофони та викличні панелі','access','Монітор відеодомофона встановлюють усередині приміщення, а викличну панель — біля входу. Для квартири та приватного будинку потрібні різні рішення: враховуйте наявну проводку, відстань до хвіртки та тип замка.','Не всі монітори й панелі сумісні між собою. Перед покупкою уточніть тип системи, спосіб підключення замка та підтримку перегляду зі смартфона. Вартість монтажу залежить від кабельної траси й готовності місця встановлення.'],
  ['rezervne-zhyvlennia','Резервне живлення систем безпеки','Аварійне електроживлення','energy','ДБЖ підбирають за сумарним споживанням камер, реєстратора та мережевого обладнання. Час автономної роботи залежить від навантаження, ємності батареї, втрат перетворення та її стану.','Перевірте напругу виходу, потужність, тип акумулятора й сумісність зарядного пристрою. Не підключайте літієву батарею до зарядного пристрою для іншої хімії без підтвердження сумісності виробником. Для розрахунку підготуйте перелік обладнання та бажаний час автономності.']
  ];
  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const links=[];
+ // Keep the old bookmarked URL available, but exclude it from search indexes.
+ const legacy=path.join(out,'videospheterezhennia');
+ await fs.mkdir(legacy,{recursive:true});
+ await fs.writeFile(path.join(legacy,'index.html'), '<!doctype html><html lang="uk"><head><meta charset="utf-8"><title>Відеоспостереження | ALT-CAM</title><meta name="description" content="Перехід до розділу відеоспостереження ALT-CAM"><meta name="robots" content="noindex,follow"><meta http-equiv="refresh" content="0;url=/videosposterezhennia/"><link rel="canonical" href="https://alt-cam.net.ua/videosposterezhennia/"></head><body><a href="/videosposterezhennia/">Перейти до розділу відеоспостереження</a></body></html>');
  for(const [slug,title,category,group,intro,advice] of groups){
   const url=`https://alt-cam.net.ua/${slug}/`;links.push(`<a href="/${slug}/">${esc(title)}</a>`);
   const items=products.filter(p=>p.category===category).slice(0,12);
@@ -16,5 +20,5 @@ export async function buildSeoPages(out, products) {
   await fs.mkdir(path.join(out,slug),{recursive:true});await fs.writeFile(path.join(out,slug,'index.html'),html);
  }
  const home=path.join(out,'index.html');await fs.writeFile(home,(await fs.readFile(home,'utf8')).replace('<footer class="footer"',`<nav class="container" aria-label="Напрями обладнання" style="display:flex;gap:24px;flex-wrap:wrap;padding:24px">${links.join('')}</nav><footer class="footer"`));
- const sitemap=path.join(out,'sitemap.xml');await fs.writeFile(sitemap,(await fs.readFile(sitemap,'utf8')).replace('</urlset>',groups.map(([slug])=>`<url><loc>https://alt-cam.net.ua/${slug}/</loc></url>`).join('')+'</urlset>'));
+ const sitemap=path.join(out,'sitemap.xml');await fs.writeFile(sitemap,(await fs.readFile(sitemap,'utf8')).replace(/<url>\s*<loc>https:\/\/alt-cam\.net\.ua\/videospheterezhennia\/<\/loc>[\s\S]*?<\/url>/g,'').replace('</urlset>',groups.map(([slug])=>`<url><loc>https://alt-cam.net.ua/${slug}/</loc></url>`).join('')+'</urlset>'));
 }
