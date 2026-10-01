@@ -68,6 +68,7 @@
       : 'Не вдалося надіслати заявку автоматично. Напишіть нам — це займе хвилину:';
     status.append(text);
     if (!success) {
+      root.altcamAnalytics?.('lead_fallback_shown');
       const links = [];
       if (contacts.telegram) links.push(['Telegram', `https://t.me/${encodeURIComponent(contacts.telegram.replace(/^@/, ''))}?text=${encodeURIComponent(message)}`]);
       if (contacts.whatsapp) links.push(['WhatsApp', `https://wa.me/${contacts.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent(message)}`]);

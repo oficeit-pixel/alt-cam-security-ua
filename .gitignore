@@ -9,3 +9,4 @@ _site/
 .pytest_cache/
 *.dump
 tmp-responsive/
+node_modules/

@@ -17,16 +17,17 @@
       const value = query.get(utm);
       if (value && /^[a-zA-Z0-9_-]{1,100}$/.test(value)) campaign[field] = value;
     }
-    window.gtag('config', id, {send_page_view:false,allow_google_signals:false,allow_ad_personalization_signals:false,...campaign});
+    window.gtag('config', id, {send_page_view:false,allow_google_signals:false,allow_ad_personalization_signals:false,...campaign,...(query.get('debug_mode')==='1'?{debug_mode:true}:{})});
     window.gtag('event','page_view',{page_location:location.origin+location.pathname,page_title:document.title,page_referrer:document.referrer?new URL(document.referrer).origin:''});
     const script=document.createElement('script');script.async=true;
     script.src='https://www.googletagmanager.com/gtag/js?id='+id;document.head.append(script);
   }
-  const names = {product_details:'view_item',add_to_cart:'add_to_cart',checkout_completed:'generate_lead',consultation_sent:'generate_lead',click_phone:'contact_click',click_telegram:'contact_click',price_request_started:'price_request'};
+  const names = {product_details:'view_item',add_to_cart:'add_to_cart',submit_lead:'generate_lead',submit_quiz:'generate_lead',submit_calculator:'generate_lead',checkout_completed:'generate_lead',consultation_sent:'generate_lead',lead_fallback_shown:'lead_fallback_shown',click_phone:'contact_click',click_telegram:'contact_click',click_whatsapp:'contact_click',click_viber:'contact_click',price_request_started:'price_request'};
   window.altcamAnalytics = (event, data={}) => {
     if (!enabled || !names[event]) return;
     const params={page_location:location.origin+location.pathname};
-    if (event.startsWith('click_')) params.method=event==='click_phone'?'phone':'telegram';
+    if (event.startsWith('click_')) params.method=event.slice(6);
+    if (names[event]==='generate_lead') params.lead_type=({submit_lead:'contact',submit_quiz:'quiz',submit_calculator:'calculator',checkout_completed:'order',consultation_sent:'consultation'})[event];
     if (/^(?:yugtorg|viatec)-[\w-]+$/.test(String(data.id||''))) params.items=[{item_id:String(data.id)}];
     window.gtag('event',names[event],params);
   };
