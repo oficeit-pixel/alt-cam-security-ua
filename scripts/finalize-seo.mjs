@@ -35,7 +35,8 @@ export async function finalizeSeo(directory) {
     const source = landingSources.get(relative) || (relative.startsWith('products/') ? 'catalog-data.js' : /^(videosposterezhennia|videodomofony|rezervne-zhyvlennia)\//.test(relative) ? 'scripts/build-seo-pages.mjs' : relative.includes('/') ? 'scripts/build-local-pages.mjs' : relative);
     if (!dates.has(source)) {
       let date = '';
-      try { date = execFileSync('git', ['log', '-1', '--format=%cI', '--', source], {encoding:'utf8', stdio:['ignore','pipe','ignore']}).trim(); } catch {}
+      const sources = relative==='index.html' ? ['index.html','content/homepage.md','scripts/build-homepage.mjs','contacts.js','data/service-rates.js'] : [source];
+      try { date = execFileSync('git', ['log', '-1', '--format=%cI', '--', ...sources], {encoding:'utf8', stdio:['ignore','pipe','ignore']}).trim(); } catch {}
       dates.set(source, date || new Date().toISOString());
     }
     return dates.get(source);
