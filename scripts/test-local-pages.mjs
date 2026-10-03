@@ -20,6 +20,15 @@ try{
   assert(!/style=|\[(ЗАПОВНИТИ|ПІДТВЕРДИТИ|ВСТАВИТИ)/.test(html));assert(html.includes('<table>'));
   const schemas=JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);
   assert.equal(schemas[0].provider['@id'],'https://alt-cam.net.ua/#business');assert(schemas.find(s=>s['@type']==='BreadcrumbList'));
+  const service=schemas[0],offers=service.offers;
+  assert.equal(service['@id'],`https://alt-cam.net.ua/${meta.slug}/#service`);
+  assert(service.areaServed.every(a=>a.name&&a['@type']));
+  assert.equal(offers['@type'],'AggregateOffer');assert.equal(offers.priceCurrency,'UAH');
+  assert.equal(offers.offerCount,offers.offers.length);
+  assert.equal(offers.lowPrice,Math.min(...offers.offers.map(o=>o.price)));
+  assert.equal(offers.highPrice,Math.max(...offers.offers.map(o=>o.price)));
+  for(const o of offers.offers){assert(html.includes(o.name));assert(html.includes(o.price.toLocaleString('uk-UA')));}
+  assert(html.includes('"@type":"HomeAndConstructionBusiness"'));
   const faq=schemas.find(s=>s['@type']==='FAQPage').mainEntity;
   assert.equal(faq.length,(html.match(/<details>/g)||[]).length);
   assert.equal(faq.length,faqEntries(sections.find(s=>s.title==='Часті запитання').body).length);
