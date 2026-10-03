@@ -7,6 +7,7 @@ import { finalizeSeo } from './finalize-seo.mjs';
 import { localizeCatalog } from './localize-catalog.mjs';
 import { renderContacts, renderBusinessDetails, contacts } from './contacts.mjs';
 import { renderReviews } from './reviews.mjs';
+import { buildHomepage } from './build-homepage.mjs';
 
 const root = process.cwd();
 const out = path.join(root, '_site');
@@ -16,10 +17,11 @@ const files = ['index.html', 'catalog.html', 'admin.html', 'privacy-policy.html'
   'terms-of-service.html', 'delivery-and-returns.html', 'data-deletion.html',
   'tiktok-oauth-callback.html', 'tiktokoVpj7mZL347GV0n5bjaavAO1ZLPlsG1V.txt',
   'robots.txt', 'sitemap.xml', '.nojekyll', 'styles.css', 'custom-style.css',
-  'catalog.css', 'admin.css', 'landing.css', 'service-prices.css', 'script.js', 'catalog.js',
+  'catalog.css', 'admin.css', 'landing.css', 'homepage.css', 'service-prices.css', 'script.js', 'catalog.js',
   'admin.js', 'analytics.js', 'contacts.js', 'lead-payload.js'];
 for (const name of files) await fs.copyFile(path.join(root, name), path.join(out, name));
 const homePath = path.join(out, 'index.html');
+await fs.writeFile(homePath, await buildHomepage(await fs.readFile(homePath,'utf8')));
 await fs.writeFile(homePath, renderReviews(await fs.readFile(homePath, 'utf8'), contacts,
   JSON.parse(await fs.readFile(path.join(root, 'data/reviews.json'), 'utf8'))));
 await fs.mkdir(path.join(out, 'data'), { recursive: true });

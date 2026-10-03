@@ -5,6 +5,8 @@ const assert=require('node:assert/strict');
 const {default:AxeBuilder}=require('@axe-core/playwright');
 const root=path.resolve(__dirname,'..');
 (async()=>{
+  const {buildHomepage}=await import('./build-homepage.mjs');
+  const homepage=await buildHomepage(await require('node:fs/promises').readFile(path.join(root,'index.html'),'utf8'));
   const browser=await chromium.launch({headless:true,timeout:20000,...(process.env.PW_CHANNEL?{channel:process.env.PW_CHANNEL}:{})});
   try{
     for(const pageName of ['index.html','catalog.html']){
@@ -33,7 +35,7 @@ const root=path.resolve(__dirname,'..');
           if(url.origin!=='http://localhost:4173')return route.abort();
           const name=path.resolve(root,'.'+decodeURIComponent(url.pathname));
           if(!name.startsWith(root+path.sep)||! /\.(html|js|css|png|jpg|jpeg|svg|webp|ico|woff2)$/i.test(name))return route.abort();
-          try{return await route.fulfill({path:name});}catch{return route.abort();}
+          try{if(name===path.join(root,'index.html'))return await route.fulfill({body:homepage,contentType:'text/html'});return await route.fulfill({path:name});}catch{return route.abort();}
         });
         await page.goto('http://localhost:4173/'+pageName+'?debug_mode=1',{waitUntil:'domcontentloaded'});
         await page.addScriptTag({url:'http://localhost:4173/analytics.js'});
