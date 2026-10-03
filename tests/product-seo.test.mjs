@@ -33,7 +33,8 @@ test('rendered price equals Offer; no-price markup absent; sitemap matches selec
   assert(html.includes(good.price.toLocaleString('uk-UA')+' ₴'));
   assert(html.includes(`${(await loadInstallationRates()).video.indoorCamera.one} ₴`));
   const noPrice=await fs.readFile(path.join(out,productPath('no-price'),'index.html'),'utf8');
-  assert(!noPrice.includes('application/ld+json'));assert(noPrice.includes('noindex,follow'));
+  assert(!noPrice.includes('"@type":"Product"'));assert(noPrice.includes('noindex,follow'));
+  assert(noPrice.includes('"@type":"HomeAndConstructionBusiness"'));
   const map=await fs.readFile(path.join(out,'sitemap-products.xml'),'utf8');
   assert.equal((map.match(/<url>/g)||[]).length,1);assert(map.includes(productPath(good.id)));
  }finally{await fs.rm(out,{recursive:true,force:true});}
