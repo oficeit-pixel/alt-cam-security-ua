@@ -17,7 +17,7 @@ const files = ['index.html', 'catalog.html', 'admin.html', 'privacy-policy.html'
   'terms-of-service.html', 'delivery-and-returns.html', 'data-deletion.html',
   'tiktok-oauth-callback.html', 'tiktokoVpj7mZL347GV0n5bjaavAO1ZLPlsG1V.txt',
   'robots.txt', 'sitemap.xml', '.nojekyll', 'styles.css', 'custom-style.css',
-  'catalog.css', 'admin.css', 'landing.css', 'homepage.css', 'service-prices.css', 'script.js', 'catalog.js',
+  'catalog.css', 'admin.css', 'landing.css', 'homepage.css', 'regional-links.css', 'service-prices.css', 'script.js', 'catalog.js',
   'admin.js', 'analytics.js', 'contacts.js', 'lead-payload.js'];
 for (const name of files) await fs.copyFile(path.join(root, name), path.join(out, name));
 const homePath = path.join(out, 'index.html');
