@@ -8879,6 +8879,94 @@
           "id": "122138668653226993",
           "post_id": "962902993572061_122138668677226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-10-03T11:57:22.685273+00:00",
+        "result": {
+          "container": {
+            "id": "18091596593418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18091596593418944"
+          },
+          "published": {
+            "id": "18115716940792638"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-03T11:58:33.282418+00:00",
+        "result": {
+          "container": {
+            "id": "18091409264424516"
+          },
+          "published": {
+            "id": "18160661077438347"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-03T11:58:34.174903+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 123,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1791028714,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADe2rA7enXx938i6FhsyRzTcwDdS5BAALwImsbIRYJSknbXUcAATJqfwEAAwIAA3MAAz0E",
+                  "file_unique_id": "AQAD8CJrGyEWCUp4",
+                  "file_size": 2301,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADe2rA7enXx938i6FhsyRzTcwDdS5BAALwImsbIRYJSknbXUcAATJqfwEAAwIAA20AAz0E",
+                  "file_unique_id": "AQAD8CJrGyEWCUpy",
+                  "file_size": 30789,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADe2rA7enXx938i6FhsyRzTcwDdS5BAALwImsbIRYJSknbXUcAATJqfwEAAwIAA3gAAz0E",
+                  "file_unique_id": "AQAD8CJrGyEWCUp9",
+                  "file_size": 114301,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADe2rA7enXx938i6FhsyRzTcwDdS5BAALwImsbIRYJSknbXUcAATJqfwEAAwIAA3kAAz0E",
+                  "file_unique_id": "AQAD8CJrGyEWCUp-",
+                  "file_size": 183001,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Камера втрачає зв’язок? Почніть із мережі\n\nНестабільний Wi-Fi може заважати віддаленому перегляду. Перевірте, чи повторюється проблема поруч із роутером та чи стабільно працюють інші пристрої. Причину потрібно встановити до заміни камери.\n\nALT-CAM допоможе з діагностикою, налаштуванням мережі та підбором обладнання.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/?utm_source=telegram&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261003\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+              "caption_entities": [
+                {
+                  "offset": 405,
+                  "length": 117,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
       }
     }
   }
