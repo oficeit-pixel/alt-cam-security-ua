@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';
+import {regionalLinks} from './regional-links.mjs';
 
 export function enhanceHead(html) {
   if (!/<head\b/i.test(html)) return html;
@@ -53,6 +54,7 @@ export async function finalizeSeo(directory) {
         let html = await fs.readFile(file, 'utf8');
         const privatePage = /^(admin(?:\/|\.html$)|blanks\/|.*oauth.*\.html$)/i.test(relative);
         const redirect = /http-equiv=["']refresh["']/i.test(html);
+        if (!privatePage && !redirect) html = regionalLinks(html);
         if (privatePage) {
           html = html.replace(/<meta\b[^>]*name=["']robots["'][^>]*>/gi, '');
           html = html.replace(/<\/head>/i, '<meta name="robots" content="noindex,nofollow"></head>');
