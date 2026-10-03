@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import './test-legal-pages.mjs';
 import '../tests/seo-slug.test.mjs';
 import '../tests/sitemaps.test.mjs';
 import '../tests/product-seo.test.mjs';
