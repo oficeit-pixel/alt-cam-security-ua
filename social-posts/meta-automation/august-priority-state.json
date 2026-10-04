@@ -8968,6 +8968,96 @@
           }
         }
       }
+    },
+    "attention-daily-2026-10-04": {
+      "instagram": {
+        "published_at": "2026-10-04T12:47:18.764483+00:00",
+        "result": {
+          "container": {
+            "id": "18091816400418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18091816400418944"
+          },
+          "published": {
+            "id": "18117837517991724"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-04T12:48:29.068822+00:00",
+        "result": {
+          "container": {
+            "id": "18091641317424516"
+          },
+          "published": {
+            "id": "18129438625762249"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-04T12:48:30.966296+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 124,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1791118110,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADfGrCSx50ppte1vWDPyGdl-A5MWHnAAKRKmsbxvAQSl_Wu9he84AaAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADkSprG8bwEEp4",
+                  "file_size": 2072,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADfGrCSx50ppte1vWDPyGdl-A5MWHnAAKRKmsbxvAQSl_Wu9he84AaAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADkSprG8bwEEpy",
+                  "file_size": 29061,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADfGrCSx50ppte1vWDPyGdl-A5MWHnAAKRKmsbxvAQSl_Wu9he84AaAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADkSprG8bwEEp9",
+                  "file_size": 120714,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADfGrCSx50ppte1vWDPyGdl-A5MWHnAAKRKmsbxvAQSl_Wu9he84AaAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADkSprG8bwEEp-",
+                  "file_size": 206396,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Камери в будинку: хто матиме доступ до записів?\n\nДо монтажу варто погодити зони огляду, відповідальних осіб і правила доступу до архіву. Камера — не лише обладнання, а й питання організації роботи системи.\n\nОбговоримо рішення для вашого під’їзду: контроль доступу, камери та налаштування. Київ, Вишгород, область.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/videosposterezhennia-vyshhorod/?utm_source=telegram&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261004\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+              "caption_entities": [
+                {
+                  "offset": 401,
+                  "length": 148,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
