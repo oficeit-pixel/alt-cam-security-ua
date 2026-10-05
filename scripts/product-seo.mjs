@@ -2,22 +2,10 @@ import fs from 'node:fs/promises';
 import vm from 'node:vm';
 export const plainText=value=>String(value??'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
 export const productPrice=item=>typeof item.price==='number'&&Number.isFinite(item.price)&&item.price>0?Math.round(item.price*100)/100:null;
-const categories=new Set(['Камери відеоспостереження','Відеореєстратори та накопичувачі','Домофони та викличні панелі','Ajax та охоронна сигналізація','Аварійне електроживлення']);
-export function selectIndexedProducts(products,limit=300){
- const groups=new Map();
- for(const item of products){
-  const description=plainText(item.description);
-  if(!item.id||!item.name||!categories.has(item.category)||!productPrice(item)||description.length<300||/характеристики уточнюються|\[(?:ЗАПОВНИТИ|ПІДТВЕРДИТИ)/i.test(description))continue;
-  if(!groups.has(item.category))groups.set(item.category,[]);
-  groups.get(item.category).push(item);
- }
- for(const list of groups.values())list.sort((a,b)=>String(a.id).localeCompare(String(b.id),'en'));
- const selected=new Set(), lists=[...groups.entries()].sort(([a],[b])=>a.localeCompare(b,'uk')).map(([,items])=>items);
- // Round-robin keeps smaller eligible categories represented, independent of feed order.
- for(let i=0;selected.size<Math.min(300,Math.max(0,limit))&&lists.some(list=>list[i]);i++)for(const list of lists){
-  if(list[i]&&selected.size<limit&&selected.size<300)selected.add(list[i].id);
- }
- return selected;
+export function selectIndexedProducts(products){
+ // Owner requested the entire public catalog, superseding the initial 300-page rollout.
+ // Eligibility is not a claim that Google has actually indexed these URLs.
+ return new Set(products.filter(item=>item.id&&item.name).map(item=>item.id));
 }
 export function productOffer(item,url){
  const price=productPrice(item);if(!price)return null;
