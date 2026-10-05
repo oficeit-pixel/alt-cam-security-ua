@@ -9,7 +9,7 @@ const pages = [
 ];
 export function prepareLegal(source) {
  let s=source.replace(/\r/g,'').split('\n---\n').slice(1).join('\n---\n');
- s=s.replace(/\[ЗАПОВНИТИ: дата[^\]]*\]/g,'03.10.2026')
+ s=s.replace(/\[ЗАПОВНИТИ: дата[^\]]*\]/g,'05.10.2026')
    .replaceAll('[ПІДТВЕРДИТИ: altcam.ua@gmail.com]',contacts.email)
    .replaceAll('[ПІДТВЕРДИТИ: @контакт для заявок]',`https://t.me/${contacts.telegram}`)
    .replace('знеособлена статистика','статистика з технічними ідентифікаторами')
