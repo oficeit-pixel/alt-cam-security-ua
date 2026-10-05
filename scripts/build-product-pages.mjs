@@ -20,5 +20,5 @@ export async function buildProductPages(out,products){
   const dir=path.join(out,route);await fs.mkdir(dir,{recursive:true});await fs.writeFile(path.join(dir,'index.html'),html);urls.push(url);
  }
  console.log('Product pages:',urls.length,'indexed:',indexed.size);
- await fs.writeFile(path.join(out,'product-seo-report.json'),JSON.stringify({total:urls.length,indexed:indexed.size,limit:300,paths:products.filter(p=>indexed.has(p.id)).map(p=>p.page_url)},null,2));
+ await fs.writeFile(path.join(out,'product-seo-report.json'),JSON.stringify({total:urls.length,indexed:indexed.size,indexable:indexed.size,limit:null,note:'Indexing permitted; Google index status is not measured here.',paths:products.filter(p=>indexed.has(p.id)).map(p=>p.page_url)},null,2));
 }

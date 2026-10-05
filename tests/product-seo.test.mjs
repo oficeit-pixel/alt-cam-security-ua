@@ -7,14 +7,15 @@ import {selectIndexedProducts,productOffer,loadInstallationRates} from '../scrip
 import {buildProductPages,productPath} from '../scripts/build-product-pages.mjs';
 import {finalizeSeo} from '../scripts/finalize-seo.mjs';
 const good={id:'camera',name:'Камера',category:'Камери відеоспостереження',price:1234.5,description:'Докладний опис обладнання. '.repeat(20),available:true};
-test('quality selection is stable, capped and excludes thin/unpriced products',()=>{
+test('all public products are indexable regardless of category, price or description length',()=>{
  const items=Array.from({length:350},(_,i)=>({...good,id:`camera-${i}`}));
  items.push({...good,id:'thin',description:'Характеристики уточнюються.'},{...good,id:'free',price:0},{...good,id:'other',category:'Інструменти'});
- assert.equal(selectIndexedProducts(items).size,300);
+ assert.equal(selectIndexedProducts(items).size,353);
  assert.deepEqual(selectIndexedProducts(items),selectIndexedProducts([...items].reverse()));
- assert(!selectIndexedProducts(items).has('thin'));
- assert(!selectIndexedProducts(items).has('free'));
- assert(!selectIndexedProducts(items).has('other'));
+ assert(selectIndexedProducts(items).has('thin'));
+ assert(selectIndexedProducts(items).has('free'));
+ assert(selectIndexedProducts(items).has('other'));
+ assert.equal(selectIndexedProducts([{id:'missing-name'},{name:'missing-id'}]).size,0);
 });
 test('offers use finite UAH prices and conservative availability',()=>{
  for(const price of [0,-1,NaN,Infinity,null,'123'])assert.equal(productOffer({...good,price},'url'),null);
@@ -33,9 +34,9 @@ test('rendered price equals Offer; no-price markup absent; sitemap matches selec
   assert(html.includes(good.price.toLocaleString('uk-UA')+' ₴'));
   assert(html.includes(`${(await loadInstallationRates()).video.indoorCamera.one} ₴`));
   const noPrice=await fs.readFile(path.join(out,productPath('no-price'),'index.html'),'utf8');
-  assert(!noPrice.includes('"@type":"Product"'));assert(noPrice.includes('noindex,follow'));
+  assert(!noPrice.includes('"@type":"Product"'));assert(!noPrice.includes('noindex,follow'));
   assert(noPrice.includes('"@type":"HomeAndConstructionBusiness"'));
   const map=await fs.readFile(path.join(out,'sitemap-products.xml'),'utf8');
-  assert.equal((map.match(/<url>/g)||[]).length,1);assert(map.includes(productPath(good.id)));
+  assert.equal((map.match(/<url>/g)||[]).length,4);assert(map.includes(productPath(good.id)));
  }finally{await fs.rm(out,{recursive:true,force:true});}
 });

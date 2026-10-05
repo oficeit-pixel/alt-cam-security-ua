@@ -22,7 +22,8 @@ assert(seen.size>10);
 const report=JSON.parse(await fs.readFile(path.join(out,'product-seo-report.json'),'utf8'));
 const productUrls=[...seen].filter(url=>new URL(url).pathname.startsWith('/products/'));
 assert.equal(productUrls.length,report.indexed);
-assert(report.indexed<=300);
+assert.equal(report.indexed,report.total);
+assert.equal(report.limit,null);
 for(const url of productUrls){
  const html=await fs.readFile(path.join(out,new URL(url).pathname,'index.html'),'utf8');
  const schema=JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);
