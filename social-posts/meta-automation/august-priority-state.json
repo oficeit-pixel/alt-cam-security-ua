@@ -9065,6 +9065,96 @@
           "post_id": "962902993572061_122138800977226993"
         }
       }
+    },
+    "attention-daily-2026-10-05": {
+      "instagram": {
+        "published_at": "2026-10-05T07:42:55.184813+00:00",
+        "result": {
+          "container": {
+            "id": "18091996544418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18091996544418944"
+          },
+          "published": {
+            "id": "18069478688752437"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-05T07:44:04.709956+00:00",
+        "result": {
+          "container": {
+            "id": "18091799999424516"
+          },
+          "published": {
+            "id": "18071690249772917"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-05T07:44:07.121981+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 125,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1791186247,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADfWrDVUbi6q17yz6_G5dLEVHf-1sqAAJyI2sbxvAYSqEYcwo4RvyrAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADciNrG8bwGEp4",
+                  "file_size": 1928,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADfWrDVUbi6q17yz6_G5dLEVHf-1sqAAJyI2sbxvAYSqEYcwo4RvyrAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADciNrG8bwGEpy",
+                  "file_size": 27892,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADfWrDVUbi6q17yz6_G5dLEVHf-1sqAAJyI2sbxvAYSqEYcwo4RvyrAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADciNrG8bwGEp9",
+                  "file_size": 117477,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADfWrDVUbi6q17yz6_G5dLEVHf-1sqAAJyI2sbxvAYSqEYcwo4RvyrAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADciNrG8bwGEp-",
+                  "file_size": 195116,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Плануєте камери? Почніть не з їх кількості\n\nЩо потрібно бачити: вхід, касу, подвір’я чи під’їзд? Які деталі важливі та де потрібен запис у темряві? Відповіді допомагають підібрати систему під задачу, а не купувати випадковий комплект.\n\nЗалиште заявку на сайті ALT-CAM. Підбір, монтаж і налаштування з виїздом у Києві, Вишгороді та області.\n\n📍 Київ • Вишгород • Київська область\n📞 +380 63 060 70 88\n\nПідбір рішення та заявка: https://alt-cam.net.ua/montazh-videosposterezhennia-kyiv/?utm_source=telegram&utm_medium=social&utm_campaign=attention_sep26&utm_content=daily_20261005\n\nШІ-ілюстрація, не фото виконаного об’єкта.",
+              "caption_entities": [
+                {
+                  "offset": 427,
+                  "length": 151,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
