@@ -14,7 +14,7 @@ from secrets import compare_digest, token_urlsafe
 from typing import Any
 from urllib.parse import quote
 
-from aiohttp import ClientSession, web
+from aiohttp import ClientError, ClientSession, web
 from sqlalchemy import String, and_, cast, desc, func, or_, select, update
 
 from bot.config import get_settings
@@ -918,6 +918,15 @@ async def list_audit(request: web.Request) -> web.Response:
 
 async def nova_poshta(request: web.Request) -> web.Response:
     settings = get_settings()
+    # CORS alone only hides the response; reject foreign browser requests
+    # before spending the supplier API quota. Origin is not authentication.
+    origin = request.headers.get("Origin")
+    allowed_origins = {
+        settings.site_public_origin.rstrip("/"),
+        "https://alt-cam.net.ua", "https://www.alt-cam.net.ua",
+    }
+    if origin is not None and origin not in allowed_origins:
+        return web.json_response({"ok": False, "error": "origin_not_allowed"}, status=403)
     if _rate_limit_auth(request, "nova-poshta", 120, 60):
         return web.json_response({"ok": False, "error": "rate_limited"}, status=429)
     kind, query, city_ref = request.match_info["kind"], request.query.get("q", "").strip()[:120], request.query.get("city_ref", "")[:64]
@@ -928,11 +937,16 @@ async def nova_poshta(request: web.Request) -> web.Response:
     else:
         return web.json_response({"ok": False, "error": "invalid_request"}, status=422)
     body = {"apiKey": settings.nova_poshta_api_key or "", "modelName": model, "calledMethod": method, "methodProperties": props}
-    async with ClientSession() as client:
-        async with client.post("https://api.novaposhta.ua/v2.0/json/", json=body, timeout=12) as response:
-            data = await response.json()
-    if not data.get("success"):
-        return web.json_response({"success": False, "data": [], "errors": data.get("errors", [])}, status=502)
+    try:
+        async with ClientSession() as client:
+            async with client.post("https://api.novaposhta.ua/v2.0/json/", json=body, timeout=12) as response:
+                response.raise_for_status()
+                data = await response.json()
+    except (ClientError, TimeoutError, ValueError):
+        logger.warning("Nova Poshta lookup unavailable")
+        return web.json_response({"success": False, "data": [], "error": "temporarily_unavailable"}, status=502)
+    if not isinstance(data, dict) or not data.get("success"):
+        return web.json_response({"success": False, "data": [], "error": "temporarily_unavailable"}, status=502)
     if kind == "cities":
         addresses = [
             {
