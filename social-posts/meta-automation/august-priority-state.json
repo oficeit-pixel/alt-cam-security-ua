@@ -7693,6 +7693,21 @@
           "id": "122136385707226993",
           "post_id": "962902993572061_122136385725226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-10-07T13:36:53.174027+00:00",
+        "result": {
+          "container": {
+            "id": "18092447165418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18092447165418944"
+          },
+          "published": {
+            "id": "17984321961073767"
+          }
+        }
       }
     },
     "photo-pub-2026-09-005": {
@@ -9169,6 +9184,73 @@
         "result": {
           "id": "122139167841226993",
           "post_id": "962902993572061_122139167865226993"
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-07T13:36:55.033681+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 126,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1791380214,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADfmrGSvat3aL6lWr1Z0C0H5cCZEHfAAJWH2sbKhk4Su4SOqQJZgI7AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADVh9rGyoZOEp4",
+                  "file_size": 2072,
+                  "width": 90,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADfmrGSvat3aL6lWr1Z0C0H5cCZEHfAAJWH2sbKhk4Su4SOqQJZgI7AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADVh9rGyoZOEpy",
+                  "file_size": 29061,
+                  "width": 320,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADfmrGSvat3aL6lWr1Z0C0H5cCZEHfAAJWH2sbKhk4Su4SOqQJZgI7AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADVh9rGyoZOEp9",
+                  "file_size": 120714,
+                  "width": 800,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADfmrGSvat3aL6lWr1Z0C0H5cCZEHfAAJWH2sbKhk4Su4SOqQJZgI7AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADVh9rGyoZOEp-",
+                  "file_size": 206396,
+                  "width": 1080,
+                  "height": 1080
+                }
+              ],
+              "caption": "Камера є. А хто заходить у під’їзд?\n\nВідеоспостереження та контроль доступу вирішують різні завдання. Для ОСББ важливо продумати входи, ліфти, права доступу й резервне живлення. Напишіть, скільки у вас входів та ліфтів — обговоримо конфігурацію без зайвого обладнання. Дізнайтеся про наші послуги на сайті.\n\nALT-CAM: монтаж з виїздом — Київ, Вишгород, Київська область.\nКонсультація: +380630607088\nhttps://alt-cam.net.ua/?utm_source=telegram&utm_medium=social&utm_campaign=october_local26&utm_content=2026-10-07",
+              "caption_entities": [
+                {
+                  "offset": 384,
+                  "length": 13,
+                  "type": "phone_number"
+                },
+                {
+                  "offset": 398,
+                  "length": 113,
+                  "type": "url"
+                }
+              ]
+            }
+          }
         }
       }
     }
