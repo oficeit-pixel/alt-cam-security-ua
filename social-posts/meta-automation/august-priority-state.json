@@ -7717,6 +7717,186 @@
           "id": "122136455529226993",
           "post_id": "962902993572061_122136455547226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-10-09T09:09:46.968810+00:00",
+        "result": {
+          "container": {
+            "id": "18092799821418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18092799821418944"
+          },
+          "published": {
+            "id": "18070496249499239"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-09T09:09:49.561206+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 127,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1791536989,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADf2rIr1yg0Lb3Z32pp9VlGHCdx5E0AAKBGmsb-ARISmgtjfF2dbPtAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADgRprG_gESEp4",
+                  "file_size": 1903,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADf2rIr1yg0Lb3Z32pp9VlGHCdx5E0AAKBGmsb-ARISmgtjfF2dbPtAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADgRprG_gESEpy",
+                  "file_size": 28648,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADf2rIr1yg0Lb3Z32pp9VlGHCdx5E0AAKBGmsb-ARISmgtjfF2dbPtAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADgRprG_gESEp9",
+                  "file_size": 124585,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADf2rIr1yg0Lb3Z32pp9VlGHCdx5E0AAKBGmsb-ARISmgtjfF2dbPtAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADgRprG_gESEp-",
+                  "file_size": 256877,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADf2rIr1yg0Lb3Z32pp9VlGHCdx5E0AAKBGmsb-ARISmgtjfF2dbPtAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADgRprG_gESEp8",
+                  "file_size": 268515,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🌐 Стабільна мережа починається з правильного кабелю\n\nНавіть найкраще мережеве обладнання не розкриє свій потенціал, якщо кабель не відповідає умовам монтажу та навантаженню.\n\nКабелі «Одескабель» — рішення для побудови інтернет-мереж, систем відеоспостереження, PoE-живлення та професійної мережевої інфраструктури.\n\nУ наявності варіанти для різних задач:\n\nКПП-ВП (100), cat.5E-SL — зовнішній монтаж, 305 м, 4 виті пари, мідь, швидкість до 1000 Мбіт/с;\nКПП-ВП (100), cat.5E — зовнішній кабель 305 м, мідний провідник 0,51 мм, підтримка Ethernet та PoE / PoE+ / PoE++;\nКППт-ВП (100) — зовнішній кабель із тросом 7×0,5 мм, бухта 500 м, для повітряного монтажу;\nКПпВонг-HFО-ВПЭ (500), cat.6A S/FTP — внутрішній екранований кабель, 500 м, провідник 0,56 мм, підтримка 10GBASE-T, PoE та HDBaseT.\n\nДля вулиці, офісу, складу, систем відеоспостереження, серверної чи бізнес-мережі важливо правильно підібрати тип оболонки, категорію, екранування та спосіб монтажу.\n\nНе знаєте, який кабель потрібен саме під ва…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 128,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1791536989,
+              "text": "🌐 Стабільна мережа починається з правильного кабелю\n\nНавіть найкраще мережеве обладнання не розкриє свій потенціал, якщо кабель не відповідає умовам монтажу та навантаженню.\n\nКабелі «Одескабель» — рішення для побудови інтернет-мереж, систем відеоспостереження, PoE-живлення та професійної мережевої інфраструктури.\n\nУ наявності варіанти для різних задач:\n\nКПП-ВП (100), cat.5E-SL — зовнішній монтаж, 305 м, 4 виті пари, мідь, швидкість до 1000 Мбіт/с;\nКПП-ВП (100), cat.5E — зовнішній кабель 305 м, мідний провідник 0,51 мм, підтримка Ethernet та PoE / PoE+ / PoE++;\nКППт-ВП (100) — зовнішній кабель із тросом 7×0,5 мм, бухта 500 м, для повітряного монтажу;\nКПпВонг-HFО-ВПЭ (500), cat.6A S/FTP — внутрішній екранований кабель, 500 м, провідник 0,56 мм, підтримка 10GBASE-T, PoE та HDBaseT.\n\nДля вулиці, офісу, складу, систем відеоспостереження, серверної чи бізнес-мережі важливо правильно підібрати тип оболонки, категорію, екранування та спосіб монтажу.\n\nНе знаєте, який кабель потрібен саме під ваш об’єкт?\nНапишіть «КАБЕЛЬ» у повідомлення ALT-CAM Security UA — допоможемо підібрати варіант під довжину лінії, швидкість, PoE та умови прокладання.\n\n🌐 https://alt-cam.net.ua/catalog.html?utm_source=telegram&utm_medium=social&utm_campaign=organic_3_week&utm_content=photo-pub-2026-09-005\n\n#ALTCAM #ALTCAMSecurityUA #Одескабель #МережевийКабель #ВитаПара #Cat5e #Cat6A #PoE #Відеоспостереження #ЛокальнаМережа #Телекомунікації\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1155,
+                  "length": 135,
+                  "type": "url"
+                },
+                {
+                  "offset": 1292,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1300,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1318,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1330,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1347,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1357,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1364,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1371,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1376,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1396,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1412,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1433,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      },
+      "tiktok": {
+        "published_at": "2026-10-09T09:09:50.110074+00:00",
+        "result": {
+          "data": {
+            "publish_id": "p_inbox_url~v2.7694592539409172501"
+          },
+          "error": {
+            "code": "ok",
+            "message": "",
+            "log_id": "20261009170949E654F073F6CE31C8C74A"
+          }
+        }
       }
     },
     "photo-pub-2026-09-006": {
