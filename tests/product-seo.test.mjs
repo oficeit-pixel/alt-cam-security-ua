@@ -21,7 +21,7 @@ test('offers use finite UAH prices and conservative availability',()=>{
  for(const price of [0,-1,NaN,Infinity,null,'123'])assert.equal(productOffer({...good,price},'url'),null);
  assert.equal(productOffer(good,'url').availability,'https://schema.org/InStock');
  assert.equal(productOffer({...good,available:undefined},'url').availability,'https://schema.org/PreOrder');
- assert.equal(productOffer(good,'url').seller['@id'],'https://alt-cam.net.ua/#business');
+ for(const field of ['seller','shippingDetails','hasMerchantReturnPolicy','aggregateRating','review'])assert.equal(productOffer(good,'url')[field],undefined);
 });
 test('rendered price equals Offer; no-price markup absent; sitemap matches selection',async()=>{
  const out=await fs.mkdtemp(path.join(os.tmpdir(),'altcam-product-'));

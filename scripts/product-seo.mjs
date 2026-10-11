@@ -9,7 +9,9 @@ export function selectIndexedProducts(products){
 }
 export function productOffer(item,url){
  const price=productPrice(item);if(!price)return null;
- return {'@type':'Offer',price,priceCurrency:'UAH',availability:`https://schema.org/${item.available===true?'InStock':'PreOrder'}`,url,seller:{'@type':'Organization','@id':'https://alt-cam.net.ua/#business',name:'ALT-CAM Security UA'}};
+ // The manager selects the actual seller after a request. Do not attribute
+ // every offer or unconfirmed shipping/return policies to the site operator.
+ return {'@type':'Offer',price,priceCurrency:'UAH',availability:`https://schema.org/${item.available===true?'InStock':'PreOrder'}`,url};
 }
 export async function loadInstallationRates(){
  const context={window:{}};
