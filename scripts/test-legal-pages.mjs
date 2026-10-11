@@ -16,8 +16,9 @@ try{
  const privacy=await fs.readFile(path.join(out,'privacy-policy.html'),'utf8');
  assert(privacy.includes('Neon Postgres'));assert(privacy.includes('Ваші права'));
  const terms=await fs.readFile(path.join(out,'terms-of-service.html'),'utf8');
- assert(terms.includes('безпосередньо відповідному партнеру'));
- assert(terms.includes('Винагороду ALT-CAM виплачує партнер'));
+ assert(terms.includes('Менеджер визначає продавця після отримання заявки'));
+ assert(terms.includes('повторне погодження клієнта'));
+ assert(terms.includes('винагороду ALT-CAM виплачує партнер'));
  assert(terms.includes('ALT-CAM координує звернення клієнта'));
  assert(terms.includes('without a separate customer commission'));
  assert(privacy.includes('лише якщо ви погодилися'));assert(!privacy.includes('знеособлена статистика'));
