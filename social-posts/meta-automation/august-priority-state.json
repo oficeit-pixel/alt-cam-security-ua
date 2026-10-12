@@ -7906,6 +7906,191 @@
           "id": "122136478173226993",
           "post_id": "962902993572061_122136478191226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-10-12T21:50:12.277188+00:00",
+        "result": {
+          "container": {
+            "id": "18093564449418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18093564449418944"
+          },
+          "published": {
+            "id": "18087950810292879"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-12T21:50:14.779522+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 131,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1791841814,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADgWrM4CGkZjWiVV3meDWaGfYlX4DmAALUIGsbWuxoStn1QDskehq_AQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD1CBrG1rsaEp4",
+                  "file_size": 1782,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADgWrM4CGkZjWiVV3meDWaGfYlX4DmAALUIGsbWuxoStn1QDskehq_AQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD1CBrG1rsaEpy",
+                  "file_size": 29182,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADgWrM4CGkZjWiVV3meDWaGfYlX4DmAALUIGsbWuxoStn1QDskehq_AQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD1CBrG1rsaEp9",
+                  "file_size": 131054,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADgWrM4CGkZjWiVV3meDWaGfYlX4DmAALUIGsbWuxoStn1QDskehq_AQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD1CBrG1rsaEp-",
+                  "file_size": 270731,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADgWrM4CGkZjWiVV3meDWaGfYlX4DmAALUIGsbWuxoStn1QDskehq_AQADAgADdwADPQQ",
+                  "file_unique_id": "AQAD1CBrG1rsaEp8",
+                  "file_size": 283137,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🏭 Контроль доступу та облік робочого часу на складі\n\nХто зайшов на склад? О котрій почалася зміна? Хто має доступ до службових приміщень? Для складу, логістичного центру чи виробничого об’єкта ці питання напряму впливають на безпеку та дисципліну.\n\nALT-CAM Security UA проєктує та встановлює системи контролю доступу та обліку робочого часу під ключ.\n\nСистема може включати:\n\nтермінали доступу за карткою, брелоком, PIN-кодом або біометрією;\nоблік часу приходу та виходу співробітників;\nрозмежування прав доступу до різних зон;\nтурнікети, електрозамки та контролери;\nконтроль в’їзду та виїзду транспорту;\nформування звітів по робочому часу;\nінтеграцію з відеоспостереженням;\nцентралізоване керування системою.\nЩо отримує власник бізнесу\n\n✅ Контроль персоналу та відвідувачів\n✅ Точний облік робочого часу\n✅ Обмеження доступу до складу, офісу та службових зон\n✅ Менше несанкціонованих проходів\n✅ Звіти для адміністрації та керівництва\n✅ Можливість поєднати доступ із відеоспостереженням\n✅ Професійний м…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 132,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1791841814,
+              "text": "🏭 Контроль доступу та облік робочого часу на складі\n\nХто зайшов на склад? О котрій почалася зміна? Хто має доступ до службових приміщень? Для складу, логістичного центру чи виробничого об’єкта ці питання напряму впливають на безпеку та дисципліну.\n\nALT-CAM Security UA проєктує та встановлює системи контролю доступу та обліку робочого часу під ключ.\n\nСистема може включати:\n\nтермінали доступу за карткою, брелоком, PIN-кодом або біометрією;\nоблік часу приходу та виходу співробітників;\nрозмежування прав доступу до різних зон;\nтурнікети, електрозамки та контролери;\nконтроль в’їзду та виїзду транспорту;\nформування звітів по робочому часу;\nінтеграцію з відеоспостереженням;\nцентралізоване керування системою.\nЩо отримує власник бізнесу\n\n✅ Контроль персоналу та відвідувачів\n✅ Точний облік робочого часу\n✅ Обмеження доступу до складу, офісу та службових зон\n✅ Менше несанкціонованих проходів\n✅ Звіти для адміністрації та керівництва\n✅ Можливість поєднати доступ із відеоспостереженням\n✅ Професійний монтаж, налаштування та підтримку\n\nТаке рішення підходить для складів, логістичних центрів, виробництв, сервісних баз, офісно-складських комплексів та підприємств.\n\nALT-CAM Security UA допоможе підібрати систему під кількість співробітників, точки проходу та необхідні рівні доступу.\n\n📩 Напишіть «ДОСТУП» у повідомлення — підготуємо консультацію та розрахунок під ваш об’єкт.\n\n🌐 https://alt-cam.net.ua/catalog.html?utm_source=telegram&utm_medium=social&utm_campaign=organic_3_week&utm_content=photo-pub-2026-09-006\n📍 Київ • Вишгород • Київська область\n\n#ALTCAM #ALTCAMSecurityUA #КонтрольДоступу #СКУД #ОблікРобочогоЧасу #БезпекаСкладу #Склад #Біометрія #Турнікет #КонтрольПерсоналу #Відеоспостереження #СистемиБезпеки\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1381,
+                  "length": 135,
+                  "type": "url"
+                },
+                {
+                  "offset": 1556,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1564,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1582,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1599,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1605,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1624,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1639,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1646,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1657,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1667,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1686,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1706,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1726,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      },
+      "tiktok": {
+        "published_at": "2026-10-12T21:50:15.390978+00:00",
+        "result": {
+          "data": {
+            "publish_id": "p_inbox_url~v2.7695901777719199750"
+          },
+          "error": {
+            "code": "ok",
+            "message": "",
+            "log_id": "2026101305501594CC410B1C6D1F53B78F"
+          }
+        }
       }
     },
     "photo-pub-2026-09-007": {
