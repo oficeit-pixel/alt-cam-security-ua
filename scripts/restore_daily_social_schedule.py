@@ -12,6 +12,8 @@ AUTOMATION = ROOT / "social-posts/meta-automation"
 PLAN = ROOT / "social-posts/content-plans/2026-09-14-photo-publications"
 CALENDAR = ROOT / "social-posts/calendar"
 PLATFORMS = ["facebook", "instagram", "threads", "telegram", "tiktok"]
+LEGACY_BASE = "https://oficeit-pixel.github.io/alt-cam-security-ua/"
+PUBLIC_BASE = "https://alt-cam.net.ua/"
 
 
 def write_json(path, data):
@@ -32,8 +34,9 @@ def main():
     campaign = f"altcam-daily-{args.start.isoformat()}"
     if any(p.get("campaign") == campaign for p in queue["posts"]):
         raise SystemExit("This daily campaign already exists; refusing to reset publication records.")
-    source = json.loads((PLAN / "publishing-posts.json").read_text(encoding="utf-8"))
-    excluded_media = {p.get("image_url") for p in queue["posts"] if p.get("status") == "canceled"}
+    source = json.loads((PLAN / "publishing-posts.json").read_text(encoding="utf-8").replace(LEGACY_BASE, PUBLIC_BASE))
+    excluded_media = {p.get("image_url", "").replace(LEGACY_BASE, PUBLIC_BASE)
+                      for p in queue["posts"] if p.get("status") == "canceled"}
     templates = {}
     for post in source["posts"]:
         if post.get("image_url") and post["image_url"] not in excluded_media:
@@ -43,7 +46,7 @@ def main():
         times = [entry.get("published_at", "") for entry in
                  state.get("published", {}).get(post["id"], {}).values() if isinstance(entry, dict)]
         if times:
-            image = post.get("image_url")
+            image = post.get("image_url", "").replace(LEGACY_BASE, PUBLIC_BASE)
             last_seen[image] = max(last_seen.get(image, ""), *times)
     bases = sorted(templates.values(), key=lambda p: (last_seen.get(p["image_url"], ""), p["id"]))
     if len(bases) < 4:

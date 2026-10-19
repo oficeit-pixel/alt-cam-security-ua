@@ -31,9 +31,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/19-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/19-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/19-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/19-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/19-altcam-photo.png"
       ],
       "title": "Коли основне живлення зникає — резерв має підключитися автоматично",
       "titles": {
@@ -66,9 +66,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/36-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/36-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/36-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/36-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/36-altcam-photo.png"
       ],
       "title": "Відеоспостереження для СТО — контроль сервісу, персоналу та автомобілів 24/7",
       "titles": {
@@ -101,9 +101,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/05-ipcom-6u-600450.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/05-ipcom-6u-600450.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/05-ipcom-6u-600450.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/05-ipcom-6u-600450.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/05-ipcom-6u-600450.png"
       ],
       "title": "Мережеве обладнання «живе» на полицях і заважає порядку?",
       "titles": {
@@ -136,9 +136,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/22-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/22-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/22-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/22-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/22-altcam-photo.png"
       ],
       "title": "Надійне підключення починається з якісного кабелю",
       "titles": {
@@ -171,9 +171,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/39-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/39-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/39-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/39-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/39-altcam-photo.png"
       ],
       "title": "Бездротовий інтернет для віддалених об’єктів — стабільний зв’язок там, де немає кабелю",
       "titles": {
@@ -206,9 +206,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/08-seven-lock-sl-7708f.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/08-seven-lock-sl-7708f.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/08-seven-lock-sl-7708f.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/08-seven-lock-sl-7708f.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/08-seven-lock-sl-7708f.png"
       ],
       "title": "Набридли звичайні ключі? Перейдіть на сучасний контроль доступу",
       "titles": {
@@ -241,9 +241,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/25-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/25-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/25-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/25-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/25-altcam-photo.png"
       ],
       "title": "Кабель — це основа стабільної роботи всієї системи",
       "titles": {
@@ -276,9 +276,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/42-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/42-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/42-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/42-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/42-altcam-photo.png"
       ],
       "title": "Резервне живлення для квартири — світло, інтернет і комфорт навіть під час відключень",
       "titles": {
@@ -311,9 +311,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/11-hikvision-ds-3wf0ec-2nt.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/11-hikvision-ds-3wf0ec-2nt.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/11-hikvision-ds-3wf0ec-2nt.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/11-hikvision-ds-3wf0ec-2nt.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/11-hikvision-ds-3wf0ec-2nt.png"
       ],
       "title": "Відео та зв’язок у ліфті — без зайвого кабелю",
       "titles": {
@@ -346,9 +346,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/28-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/28-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/28-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/28-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/28-altcam-photo.png"
       ],
       "title": "Надійне з’єднання починається з правильної ізоляції",
       "titles": {
@@ -381,9 +381,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/45-alt-cam-security-ua.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/45-alt-cam-security-ua.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/45-alt-cam-security-ua.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/45-alt-cam-security-ua.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/45-alt-cam-security-ua.png"
       ],
       "title": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем",
       "titles": {
@@ -416,9 +416,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/14-mini-ups.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/14-mini-ups.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/14-mini-ups.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/14-mini-ups.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/14-mini-ups.png"
       ],
       "title": "Світло зникло — інтернет має залишатися",
       "titles": {
@@ -451,9 +451,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/31-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/31-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/31-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/31-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/31-altcam-photo.png"
       ],
       "title": "Відеодомофон під ключ — безпека та контроль доступу для вашого дому",
       "titles": {
@@ -486,9 +486,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/48-chatgpt-image-12-2026-17-19-23-2.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/48-chatgpt-image-12-2026-17-19-23-2.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/48-chatgpt-image-12-2026-17-19-23-2.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/48-chatgpt-image-12-2026-17-19-23-2.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/48-chatgpt-image-12-2026-17-19-23-2.png"
       ],
       "title": "ALT-CAM Security UA — комплексні рішення під ваш об’єкт",
       "titles": {
@@ -521,9 +521,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/17-abs-ip65.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/17-abs-ip65.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/17-abs-ip65.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/17-abs-ip65.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/17-abs-ip65.png"
       ],
       "title": "Надійний захист для обладнання — у приміщенні та на вулиці",
       "titles": {
@@ -556,9 +556,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/34-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/34-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/34-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/34-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/34-altcam-photo.png"
       ],
       "title": "Відеоспостереження для квартири — спокій, навіть коли вас немає вдома",
       "titles": {
@@ -591,9 +591,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png"
       ],
       "title": "Відкривайте двері та контролюйте вхід навіть коли вас немає вдома",
       "titles": {
@@ -626,9 +626,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/20-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/20-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/20-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/20-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/20-altcam-photo.png"
       ],
       "title": "Загоряння може початися за секунди. Захист має спрацювати ще швидше.",
       "titles": {
@@ -661,9 +661,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/37-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/37-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/37-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/37-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/37-altcam-photo.png"
       ],
       "title": "Відеоспостереження для малого бізнесу — усе важливе під контролем",
       "titles": {
@@ -696,9 +696,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/06-mikrotik-s-35lc20d-s-3553lc20d.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/06-mikrotik-s-35lc20d-s-3553lc20d.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/06-mikrotik-s-35lc20d-s-3553lc20d.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/06-mikrotik-s-35lc20d-s-3553lc20d.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/06-mikrotik-s-35lc20d-s-3553lc20d.png"
       ],
       "title": "Потрібно підключити мережеве обладнання через оптоволокно?",
       "titles": {
@@ -731,9 +731,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/23-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/23-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/23-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/23-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/23-altcam-photo.png"
       ],
       "title": "Надійний кабель для електромонтажу — Одескабель ПВСм",
       "titles": {
@@ -766,9 +766,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/40-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/40-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/40-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/40-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/40-altcam-photo.png"
       ],
       "title": "Кабельна інфраструктура для офісу та кол-центру під ключ",
       "titles": {
@@ -801,9 +801,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/09-dahua-apollo-bp3ew-4g.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/09-dahua-apollo-bp3ew-4g.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/09-dahua-apollo-bp3ew-4g.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/09-dahua-apollo-bp3ew-4g.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/09-dahua-apollo-bp3ew-4g.png"
       ],
       "title": "Немає Wi-Fi? Немає розетки? Відеоспостереження все одно можливе",
       "titles": {
@@ -836,9 +836,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/26-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/26-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/26-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/26-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/26-altcam-photo.png"
       ],
       "title": "Оптичні аксесуари — усе необхідне для якісного зварювання, підключення та обслуговування ВОЛЗ",
       "titles": {
@@ -871,9 +871,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/43-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/43-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/43-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/43-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/43-altcam-photo.png"
       ],
       "title": "Резервне живлення для офісів, магазинів і складів — бізнес працює навіть під час відключень",
       "titles": {
@@ -906,9 +906,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/12-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/12-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/12-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/12-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/12-altcam-photo.png"
       ],
       "title": "Світло зникло? Зв’язок і заряд мають залишатися",
       "titles": {
@@ -941,9 +941,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/29-alt-cam-security-ua.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/29-alt-cam-security-ua.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/29-alt-cam-security-ua.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/29-alt-cam-security-ua.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/29-alt-cam-security-ua.png"
       ],
       "title": "Безпека об’єкта починається з правильно підібраної системи",
       "titles": {
@@ -976,9 +976,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/46-alt-cam-security-ua.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/46-alt-cam-security-ua.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/46-alt-cam-security-ua.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/46-alt-cam-security-ua.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/46-alt-cam-security-ua.png"
       ],
       "title": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем",
       "titles": {
@@ -1011,9 +1011,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/15-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/15-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/15-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/15-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/15-altcam-photo.png"
       ],
       "title": "Контроль доступу нового рівня — без зайвих ключів і складних рішень",
       "titles": {
@@ -1046,9 +1046,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/32-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/32-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/32-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/32-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/32-altcam-photo.png"
       ],
       "title": "Контроль доступу до двору під ключ — порядок, безпека та зручність для мешканців",
       "titles": {
@@ -1081,9 +1081,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/01-dahua-ip-2m-2out-pro.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/01-dahua-ip-2m-2out-pro.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/01-dahua-ip-2m-2out-pro.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/01-dahua-ip-2m-2out-pro.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/01-dahua-ip-2m-2out-pro.png"
       ],
       "title": "Хочете контролювати будинок або бізнес, навіть коли вас немає поруч?",
       "titles": {
@@ -1116,9 +1116,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/18-wi-fi.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/18-wi-fi.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/18-wi-fi.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/18-wi-fi.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/18-wi-fi.png"
       ],
       "title": "Потрібен стабільний Wi-Fi просто неба?",
       "titles": {
@@ -1151,9 +1151,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/35-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/35-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/35-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/35-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/35-altcam-photo.png"
       ],
       "title": "Відеоспостереження у ліфтах — більше безпеки для всього будинку",
       "titles": {
@@ -1186,9 +1186,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/07-alistar-mini-100base-fx-1sm-wdm-sc.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/07-alistar-mini-100base-fx-1sm-wdm-sc.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/07-alistar-mini-100base-fx-1sm-wdm-sc.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/07-alistar-mini-100base-fx-1sm-wdm-sc.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/07-alistar-mini-100base-fx-1sm-wdm-sc.png"
       ],
       "title": "Потрібно передати Ethernet по оптоволокну на відстань до 20 км?",
       "titles": {
@@ -1221,9 +1221,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/24-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/24-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/24-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/24-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/24-altcam-photo.png"
       ],
       "title": "Оптична лінія починається з правильного кабелю",
       "titles": {
@@ -1256,9 +1256,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/41-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/41-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/41-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/41-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/41-altcam-photo.png"
       ],
       "title": "Прокладання, зварювання та тестування оптичних ліній",
       "titles": {
@@ -1291,9 +1291,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/10-covax-cv-ps-3200-24v.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/10-covax-cv-ps-3200-24v.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/10-covax-cv-ps-3200-24v.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/10-covax-cv-ps-3200-24v.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/10-covax-cv-ps-3200-24v.png"
       ],
       "title": "Сонце, мережа чи акумулятор — COVAX готовий до будь-якого сценарію",
       "titles": {
@@ -1326,9 +1326,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/27-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/27-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/27-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/27-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/27-altcam-photo.png"
       ],
       "title": "Якісний монтаж починається з правильних дрібниць",
       "titles": {
@@ -1361,9 +1361,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/44-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/44-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/44-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/44-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/44-altcam-photo.png"
       ],
       "title": "Сонячні панелі та резервне живлення — енергія, яка працює на вас",
       "titles": {
@@ -1396,9 +1396,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/13-ip-ajax-hlvf.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/13-ip-ajax-hlvf.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/13-ip-ajax-hlvf.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/13-ip-ajax-hlvf.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/13-ip-ajax-hlvf.png"
       ],
       "title": "Потрібна камера, яка дозволяє точно налаштувати зону контролю?",
       "titles": {
@@ -1431,9 +1431,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/30-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/30-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/30-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/30-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/30-altcam-photo.png"
       ],
       "title": "Надійна мережа починається не лише з кабелю",
       "titles": {
@@ -1466,9 +1466,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/47-alt-cam-security-ua.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/47-alt-cam-security-ua.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/47-alt-cam-security-ua.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/47-alt-cam-security-ua.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/47-alt-cam-security-ua.png"
       ],
       "title": "ALT-CAM Security UA — обладнання для безпеки, мереж та резервного живлення",
       "titles": {
@@ -1501,9 +1501,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/16-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/16-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/16-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/16-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/16-altcam-photo.png"
       ],
       "title": "Енергія під контролем — від будинку до бізнесу",
       "titles": {
@@ -1536,9 +1536,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/33-ajax.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/33-ajax.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/33-ajax.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/33-ajax.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/33-ajax.png"
       ],
       "title": "Комплексний захист будинку з Ajax під ключ",
       "titles": {
@@ -1571,9 +1571,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/02-neolight-nl-hpc-03.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/02-neolight-nl-hpc-03.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/02-neolight-nl-hpc-03.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/02-neolight-nl-hpc-03.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/02-neolight-nl-hpc-03.png"
       ],
       "title": "Один вхід — до 9 999 абонентів",
       "titles": {
@@ -1606,9 +1606,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png"
       ],
       "title": "Потрібно передати інтернет між двома будівлями без прокладання кабелю?",
       "titles": {
@@ -1641,9 +1641,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/21-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/21-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/21-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/21-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/21-altcam-photo.png"
       ],
       "title": "Стабільна мережа починається з правильного кабелю",
       "titles": {
@@ -1676,9 +1676,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/38-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/38-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/38-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/38-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/38-altcam-photo.png"
       ],
       "title": "Контроль доступу та облік робочого часу на складі",
       "titles": {
@@ -1711,9 +1711,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/42-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/42-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/42-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/42-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/42-altcam-photo.png"
       ],
       "title": "Резервне живлення для квартири — світло, інтернет і комфорт навіть під час відключень",
       "titles": {
@@ -1746,9 +1746,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/11-hikvision-ds-3wf0ec-2nt.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/11-hikvision-ds-3wf0ec-2nt.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/11-hikvision-ds-3wf0ec-2nt.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/11-hikvision-ds-3wf0ec-2nt.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/11-hikvision-ds-3wf0ec-2nt.png"
       ],
       "title": "Відео та зв’язок у ліфті — без зайвого кабелю",
       "titles": {
@@ -1781,9 +1781,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/28-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/28-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/28-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/28-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/28-altcam-photo.png"
       ],
       "title": "Надійне з’єднання починається з правильної ізоляції",
       "titles": {
@@ -1816,9 +1816,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/45-alt-cam-security-ua.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/45-alt-cam-security-ua.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/45-alt-cam-security-ua.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/45-alt-cam-security-ua.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/45-alt-cam-security-ua.png"
       ],
       "title": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем",
       "titles": {
@@ -1851,9 +1851,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/14-mini-ups.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/14-mini-ups.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/14-mini-ups.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/14-mini-ups.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/14-mini-ups.png"
       ],
       "title": "Світло зникло — інтернет має залишатися",
       "titles": {
@@ -1886,9 +1886,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/31-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/31-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/31-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/31-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/31-altcam-photo.png"
       ],
       "title": "Відеодомофон під ключ — безпека та контроль доступу для вашого дому",
       "titles": {
@@ -1921,9 +1921,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/48-chatgpt-image-12-2026-17-19-23-2.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/48-chatgpt-image-12-2026-17-19-23-2.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/48-chatgpt-image-12-2026-17-19-23-2.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/48-chatgpt-image-12-2026-17-19-23-2.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/48-chatgpt-image-12-2026-17-19-23-2.png"
       ],
       "title": "ALT-CAM Security UA — комплексні рішення під ваш об’єкт",
       "titles": {
@@ -1956,9 +1956,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/17-abs-ip65.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/17-abs-ip65.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/17-abs-ip65.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/17-abs-ip65.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/17-abs-ip65.png"
       ],
       "title": "Надійний захист для обладнання — у приміщенні та на вулиці",
       "titles": {
@@ -1991,9 +1991,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/34-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/34-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/34-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/34-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/34-altcam-photo.png"
       ],
       "title": "Відеоспостереження для квартири — спокій, навіть коли вас немає вдома",
       "titles": {
@@ -2026,9 +2026,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png"
       ],
       "title": "Відкривайте двері та контролюйте вхід навіть коли вас немає вдома",
       "titles": {
@@ -2061,9 +2061,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/20-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/20-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/20-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/20-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/20-altcam-photo.png"
       ],
       "title": "Загоряння може початися за секунди. Захист має спрацювати ще швидше.",
       "titles": {
@@ -2096,9 +2096,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/37-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/37-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/37-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/37-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/37-altcam-photo.png"
       ],
       "title": "Відеоспостереження для малого бізнесу — усе важливе під контролем",
       "titles": {
@@ -2131,9 +2131,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/06-mikrotik-s-35lc20d-s-3553lc20d.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/06-mikrotik-s-35lc20d-s-3553lc20d.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/06-mikrotik-s-35lc20d-s-3553lc20d.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/06-mikrotik-s-35lc20d-s-3553lc20d.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/06-mikrotik-s-35lc20d-s-3553lc20d.png"
       ],
       "title": "Потрібно підключити мережеве обладнання через оптоволокно?",
       "titles": {
@@ -2166,9 +2166,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/23-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/23-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/23-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/23-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/23-altcam-photo.png"
       ],
       "title": "Надійний кабель для електромонтажу — Одескабель ПВСм",
       "titles": {
@@ -2201,9 +2201,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/40-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/40-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/40-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/40-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/40-altcam-photo.png"
       ],
       "title": "Кабельна інфраструктура для офісу та кол-центру під ключ",
       "titles": {
@@ -2236,9 +2236,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/09-dahua-apollo-bp3ew-4g.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/09-dahua-apollo-bp3ew-4g.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/09-dahua-apollo-bp3ew-4g.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/09-dahua-apollo-bp3ew-4g.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/09-dahua-apollo-bp3ew-4g.png"
       ],
       "title": "Немає Wi-Fi? Немає розетки? Відеоспостереження все одно можливе",
       "titles": {
@@ -2271,9 +2271,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/26-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/26-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/26-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/26-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/26-altcam-photo.png"
       ],
       "title": "Оптичні аксесуари — усе необхідне для якісного зварювання, підключення та обслуговування ВОЛЗ",
       "titles": {
@@ -2306,9 +2306,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/43-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/43-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/43-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/43-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/43-altcam-photo.png"
       ],
       "title": "Резервне живлення для офісів, магазинів і складів — бізнес працює навіть під час відключень",
       "titles": {
@@ -2341,9 +2341,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/12-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/12-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/12-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/12-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/12-altcam-photo.png"
       ],
       "title": "Світло зникло? Зв’язок і заряд мають залишатися",
       "titles": {
@@ -2376,9 +2376,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/29-alt-cam-security-ua.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/29-alt-cam-security-ua.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/29-alt-cam-security-ua.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/29-alt-cam-security-ua.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/29-alt-cam-security-ua.png"
       ],
       "title": "Безпека об’єкта починається з правильно підібраної системи",
       "titles": {
@@ -2411,9 +2411,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/46-alt-cam-security-ua.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/46-alt-cam-security-ua.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/46-alt-cam-security-ua.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/46-alt-cam-security-ua.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/46-alt-cam-security-ua.png"
       ],
       "title": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем",
       "titles": {
@@ -2446,9 +2446,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/15-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/15-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/15-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/15-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/15-altcam-photo.png"
       ],
       "title": "Контроль доступу нового рівня — без зайвих ключів і складних рішень",
       "titles": {
@@ -2481,9 +2481,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/32-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/32-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/32-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/32-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/32-altcam-photo.png"
       ],
       "title": "Контроль доступу до двору під ключ — порядок, безпека та зручність для мешканців",
       "titles": {
@@ -2516,9 +2516,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/01-dahua-ip-2m-2out-pro.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/01-dahua-ip-2m-2out-pro.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/01-dahua-ip-2m-2out-pro.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/01-dahua-ip-2m-2out-pro.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/01-dahua-ip-2m-2out-pro.png"
       ],
       "title": "Хочете контролювати будинок або бізнес, навіть коли вас немає поруч?",
       "titles": {
@@ -2551,9 +2551,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/18-wi-fi.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/18-wi-fi.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/18-wi-fi.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/18-wi-fi.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/18-wi-fi.png"
       ],
       "title": "Потрібен стабільний Wi-Fi просто неба?",
       "titles": {
@@ -2586,9 +2586,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/35-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/35-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/35-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/35-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/35-altcam-photo.png"
       ],
       "title": "Відеоспостереження у ліфтах — більше безпеки для всього будинку",
       "titles": {
@@ -2621,9 +2621,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/07-alistar-mini-100base-fx-1sm-wdm-sc.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/07-alistar-mini-100base-fx-1sm-wdm-sc.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/07-alistar-mini-100base-fx-1sm-wdm-sc.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/07-alistar-mini-100base-fx-1sm-wdm-sc.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/07-alistar-mini-100base-fx-1sm-wdm-sc.png"
       ],
       "title": "Потрібно передати Ethernet по оптоволокну на відстань до 20 км?",
       "titles": {
@@ -2656,9 +2656,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/24-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/24-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/24-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/24-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/24-altcam-photo.png"
       ],
       "title": "Оптична лінія починається з правильного кабелю",
       "titles": {
@@ -2691,9 +2691,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/41-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/41-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/41-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/41-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/41-altcam-photo.png"
       ],
       "title": "Прокладання, зварювання та тестування оптичних ліній",
       "titles": {
@@ -2726,9 +2726,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/10-covax-cv-ps-3200-24v.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/10-covax-cv-ps-3200-24v.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/10-covax-cv-ps-3200-24v.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/10-covax-cv-ps-3200-24v.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/10-covax-cv-ps-3200-24v.png"
       ],
       "title": "Сонце, мережа чи акумулятор — COVAX готовий до будь-якого сценарію",
       "titles": {
@@ -2761,9 +2761,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/27-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/27-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/27-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/27-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/27-altcam-photo.png"
       ],
       "title": "Якісний монтаж починається з правильних дрібниць",
       "titles": {
@@ -2796,9 +2796,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/44-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/44-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/44-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/44-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/44-altcam-photo.png"
       ],
       "title": "Сонячні панелі та резервне живлення — енергія, яка працює на вас",
       "titles": {
@@ -2831,9 +2831,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/13-ip-ajax-hlvf.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/13-ip-ajax-hlvf.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/13-ip-ajax-hlvf.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/13-ip-ajax-hlvf.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/13-ip-ajax-hlvf.png"
       ],
       "title": "Потрібна камера, яка дозволяє точно налаштувати зону контролю?",
       "titles": {
@@ -2866,9 +2866,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/30-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/30-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/30-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/30-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/30-altcam-photo.png"
       ],
       "title": "Надійна мережа починається не лише з кабелю",
       "titles": {
@@ -2901,9 +2901,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/47-alt-cam-security-ua.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/47-alt-cam-security-ua.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/47-alt-cam-security-ua.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/47-alt-cam-security-ua.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/47-alt-cam-security-ua.png"
       ],
       "title": "ALT-CAM Security UA — обладнання для безпеки, мереж та резервного живлення",
       "titles": {
@@ -2936,9 +2936,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/16-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/16-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/16-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/16-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/16-altcam-photo.png"
       ],
       "title": "Енергія під контролем — від будинку до бізнесу",
       "titles": {
@@ -2971,9 +2971,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/33-ajax.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/33-ajax.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/33-ajax.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/33-ajax.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/33-ajax.png"
       ],
       "title": "Комплексний захист будинку з Ajax під ключ",
       "titles": {
@@ -3006,9 +3006,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/02-neolight-nl-hpc-03.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/02-neolight-nl-hpc-03.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/02-neolight-nl-hpc-03.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/02-neolight-nl-hpc-03.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/02-neolight-nl-hpc-03.png"
       ],
       "title": "Один вхід — до 9 999 абонентів",
       "titles": {
@@ -3041,9 +3041,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png"
       ],
       "title": "Потрібно передати інтернет між двома будівлями без прокладання кабелю?",
       "titles": {
@@ -3076,9 +3076,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/21-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/21-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/21-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/21-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/21-altcam-photo.png"
       ],
       "title": "Стабільна мережа починається з правильного кабелю",
       "titles": {
@@ -3111,9 +3111,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/38-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/38-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/38-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/38-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/38-altcam-photo.png"
       ],
       "title": "Контроль доступу та облік робочого часу на складі",
       "titles": {
@@ -3146,9 +3146,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/19-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/19-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/19-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/19-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/19-altcam-photo.png"
       ],
       "title": "Коли основне живлення зникає — резерв має підключитися автоматично",
       "titles": {
@@ -3181,9 +3181,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/36-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/36-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/36-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/36-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/36-altcam-photo.png"
       ],
       "title": "Відеоспостереження для СТО — контроль сервісу, персоналу та автомобілів 24/7",
       "titles": {
@@ -3216,9 +3216,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/05-ipcom-6u-600450.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/05-ipcom-6u-600450.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/05-ipcom-6u-600450.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/05-ipcom-6u-600450.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/05-ipcom-6u-600450.png"
       ],
       "title": "Мережеве обладнання «живе» на полицях і заважає порядку?",
       "titles": {
@@ -3251,9 +3251,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/22-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/22-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/22-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/22-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/22-altcam-photo.png"
       ],
       "title": "Надійне підключення починається з якісного кабелю",
       "titles": {
@@ -3286,9 +3286,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/39-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/39-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/39-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/39-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/39-altcam-photo.png"
       ],
       "title": "Бездротовий інтернет для віддалених об’єктів — стабільний зв’язок там, де немає кабелю",
       "titles": {
@@ -3321,9 +3321,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/08-seven-lock-sl-7708f.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/08-seven-lock-sl-7708f.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/08-seven-lock-sl-7708f.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/08-seven-lock-sl-7708f.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/08-seven-lock-sl-7708f.png"
       ],
       "title": "Набридли звичайні ключі? Перейдіть на сучасний контроль доступу",
       "titles": {
@@ -3356,9 +3356,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/25-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/25-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/25-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/25-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/25-altcam-photo.png"
       ],
       "title": "Кабель — це основа стабільної роботи всієї системи",
       "titles": {
@@ -3391,9 +3391,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/17-abs-ip65.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/17-abs-ip65.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/17-abs-ip65.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/17-abs-ip65.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/17-abs-ip65.png"
       ],
       "title": "Надійний захист для обладнання — у приміщенні та на вулиці",
       "titles": {
@@ -3426,9 +3426,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/34-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/34-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/34-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/34-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/34-altcam-photo.png"
       ],
       "title": "Відеоспостереження для квартири — спокій, навіть коли вас немає вдома",
       "titles": {
@@ -3461,9 +3461,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/03-neolight-kappa-hd-wf-solo-fhd-microsd-128-atis-lock-ss.png"
       ],
       "title": "Відкривайте двері та контролюйте вхід навіть коли вас немає вдома",
       "titles": {
@@ -3496,9 +3496,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/20-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/20-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/20-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/20-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/20-altcam-photo.png"
       ],
       "title": "Загоряння може початися за секунди. Захист має спрацювати ще швидше.",
       "titles": {
@@ -3531,9 +3531,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/37-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/37-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/37-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/37-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/37-altcam-photo.png"
       ],
       "title": "Відеоспостереження для малого бізнесу — усе важливе під контролем",
       "titles": {
@@ -3566,9 +3566,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/06-mikrotik-s-35lc20d-s-3553lc20d.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/06-mikrotik-s-35lc20d-s-3553lc20d.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/06-mikrotik-s-35lc20d-s-3553lc20d.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/06-mikrotik-s-35lc20d-s-3553lc20d.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/06-mikrotik-s-35lc20d-s-3553lc20d.png"
       ],
       "title": "Потрібно підключити мережеве обладнання через оптоволокно?",
       "titles": {
@@ -3601,9 +3601,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/23-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/23-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/23-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/23-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/23-altcam-photo.png"
       ],
       "title": "Надійний кабель для електромонтажу — Одескабель ПВСм",
       "titles": {
@@ -3636,9 +3636,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/40-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/40-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/40-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/40-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/40-altcam-photo.png"
       ],
       "title": "Кабельна інфраструктура для офісу та кол-центру під ключ",
       "titles": {
@@ -3671,9 +3671,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/09-dahua-apollo-bp3ew-4g.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/09-dahua-apollo-bp3ew-4g.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/09-dahua-apollo-bp3ew-4g.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/09-dahua-apollo-bp3ew-4g.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/09-dahua-apollo-bp3ew-4g.png"
       ],
       "title": "Немає Wi-Fi? Немає розетки? Відеоспостереження все одно можливе",
       "titles": {
@@ -3706,9 +3706,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/26-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/26-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/26-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/26-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/26-altcam-photo.png"
       ],
       "title": "Оптичні аксесуари — усе необхідне для якісного зварювання, підключення та обслуговування ВОЛЗ",
       "titles": {
@@ -3741,9 +3741,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/43-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/43-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/43-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/43-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/43-altcam-photo.png"
       ],
       "title": "Резервне живлення для офісів, магазинів і складів — бізнес працює навіть під час відключень",
       "titles": {
@@ -3776,9 +3776,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/12-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/12-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/12-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/12-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/12-altcam-photo.png"
       ],
       "title": "Світло зникло? Зв’язок і заряд мають залишатися",
       "titles": {
@@ -3811,9 +3811,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/29-alt-cam-security-ua.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/29-alt-cam-security-ua.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/29-alt-cam-security-ua.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/29-alt-cam-security-ua.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/29-alt-cam-security-ua.png"
       ],
       "title": "Безпека об’єкта починається з правильно підібраної системи",
       "titles": {
@@ -3846,9 +3846,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/46-alt-cam-security-ua.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/46-alt-cam-security-ua.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/46-alt-cam-security-ua.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/46-alt-cam-security-ua.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/46-alt-cam-security-ua.png"
       ],
       "title": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем",
       "titles": {
@@ -3881,9 +3881,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/15-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/15-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/15-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/15-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/15-altcam-photo.png"
       ],
       "title": "Контроль доступу нового рівня — без зайвих ключів і складних рішень",
       "titles": {
@@ -3916,9 +3916,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/32-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/32-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/32-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/32-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/32-altcam-photo.png"
       ],
       "title": "Контроль доступу до двору під ключ — порядок, безпека та зручність для мешканців",
       "titles": {
@@ -3951,9 +3951,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/01-dahua-ip-2m-2out-pro.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/01-dahua-ip-2m-2out-pro.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/01-dahua-ip-2m-2out-pro.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/01-dahua-ip-2m-2out-pro.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/01-dahua-ip-2m-2out-pro.png"
       ],
       "title": "Хочете контролювати будинок або бізнес, навіть коли вас немає поруч?",
       "titles": {
@@ -3986,9 +3986,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/18-wi-fi.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/18-wi-fi.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/18-wi-fi.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/18-wi-fi.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/18-wi-fi.png"
       ],
       "title": "Потрібен стабільний Wi-Fi просто неба?",
       "titles": {
@@ -4021,9 +4021,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/35-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/35-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/35-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/35-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/35-altcam-photo.png"
       ],
       "title": "Відеоспостереження у ліфтах — більше безпеки для всього будинку",
       "titles": {
@@ -4056,9 +4056,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/07-alistar-mini-100base-fx-1sm-wdm-sc.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/07-alistar-mini-100base-fx-1sm-wdm-sc.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/07-alistar-mini-100base-fx-1sm-wdm-sc.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/07-alistar-mini-100base-fx-1sm-wdm-sc.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/07-alistar-mini-100base-fx-1sm-wdm-sc.png"
       ],
       "title": "Потрібно передати Ethernet по оптоволокну на відстань до 20 км?",
       "titles": {
@@ -4091,9 +4091,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/24-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/24-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/24-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/24-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/24-altcam-photo.png"
       ],
       "title": "Оптична лінія починається з правильного кабелю",
       "titles": {
@@ -4126,9 +4126,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/41-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/41-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/41-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/41-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/41-altcam-photo.png"
       ],
       "title": "Прокладання, зварювання та тестування оптичних ліній",
       "titles": {
@@ -4161,9 +4161,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/10-covax-cv-ps-3200-24v.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/10-covax-cv-ps-3200-24v.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/10-covax-cv-ps-3200-24v.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/10-covax-cv-ps-3200-24v.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/10-covax-cv-ps-3200-24v.png"
       ],
       "title": "Сонце, мережа чи акумулятор — COVAX готовий до будь-якого сценарію",
       "titles": {
@@ -4196,9 +4196,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/27-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/27-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/27-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/27-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/27-altcam-photo.png"
       ],
       "title": "Якісний монтаж починається з правильних дрібниць",
       "titles": {
@@ -4231,9 +4231,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/44-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/44-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/44-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/44-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/44-altcam-photo.png"
       ],
       "title": "Сонячні панелі та резервне живлення — енергія, яка працює на вас",
       "titles": {
@@ -4266,9 +4266,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/13-ip-ajax-hlvf.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/13-ip-ajax-hlvf.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/13-ip-ajax-hlvf.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/13-ip-ajax-hlvf.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/13-ip-ajax-hlvf.png"
       ],
       "title": "Потрібна камера, яка дозволяє точно налаштувати зону контролю?",
       "titles": {
@@ -4301,9 +4301,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/30-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/30-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/30-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/30-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/30-altcam-photo.png"
       ],
       "title": "Надійна мережа починається не лише з кабелю",
       "titles": {
@@ -4336,9 +4336,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/47-alt-cam-security-ua.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/47-alt-cam-security-ua.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/47-alt-cam-security-ua.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/47-alt-cam-security-ua.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/47-alt-cam-security-ua.png"
       ],
       "title": "ALT-CAM Security UA — обладнання для безпеки, мереж та резервного живлення",
       "titles": {
@@ -4371,9 +4371,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/16-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/16-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/16-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/16-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/16-altcam-photo.png"
       ],
       "title": "Енергія під контролем — від будинку до бізнесу",
       "titles": {
@@ -4406,9 +4406,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/33-ajax.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/33-ajax.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/33-ajax.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/33-ajax.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/33-ajax.png"
       ],
       "title": "Комплексний захист будинку з Ajax під ключ",
       "titles": {
@@ -4441,9 +4441,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/02-neolight-nl-hpc-03.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/02-neolight-nl-hpc-03.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/02-neolight-nl-hpc-03.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/02-neolight-nl-hpc-03.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/02-neolight-nl-hpc-03.png"
       ],
       "title": "Один вхід — до 9 999 абонентів",
       "titles": {
@@ -4476,9 +4476,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png"
       ],
       "title": "Потрібно передати інтернет між двома будівлями без прокладання кабелю?",
       "titles": {
@@ -4511,9 +4511,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/21-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/21-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/21-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/21-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/21-altcam-photo.png"
       ],
       "title": "Стабільна мережа починається з правильного кабелю",
       "titles": {
@@ -4546,9 +4546,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/38-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/38-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/38-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/38-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/38-altcam-photo.png"
       ],
       "title": "Контроль доступу та облік робочого часу на складі",
       "titles": {
@@ -4581,9 +4581,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/19-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/19-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/19-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/19-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/19-altcam-photo.png"
       ],
       "title": "Коли основне живлення зникає — резерв має підключитися автоматично",
       "titles": {
@@ -4616,9 +4616,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/36-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/36-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/36-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/36-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/36-altcam-photo.png"
       ],
       "title": "Відеоспостереження для СТО — контроль сервісу, персоналу та автомобілів 24/7",
       "titles": {
@@ -4651,9 +4651,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/05-ipcom-6u-600450.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/05-ipcom-6u-600450.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/05-ipcom-6u-600450.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/05-ipcom-6u-600450.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/05-ipcom-6u-600450.png"
       ],
       "title": "Мережеве обладнання «живе» на полицях і заважає порядку?",
       "titles": {
@@ -4686,9 +4686,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/22-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/22-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/22-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/22-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/22-altcam-photo.png"
       ],
       "title": "Надійне підключення починається з якісного кабелю",
       "titles": {
@@ -4721,9 +4721,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/39-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/39-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/39-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/39-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/39-altcam-photo.png"
       ],
       "title": "Бездротовий інтернет для віддалених об’єктів — стабільний зв’язок там, де немає кабелю",
       "titles": {
@@ -4756,9 +4756,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/08-seven-lock-sl-7708f.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/08-seven-lock-sl-7708f.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/08-seven-lock-sl-7708f.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/08-seven-lock-sl-7708f.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/08-seven-lock-sl-7708f.png"
       ],
       "title": "Набридли звичайні ключі? Перейдіть на сучасний контроль доступу",
       "titles": {
@@ -4791,9 +4791,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/25-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/25-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/25-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/25-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/25-altcam-photo.png"
       ],
       "title": "Кабель — це основа стабільної роботи всієї системи",
       "titles": {
@@ -4826,9 +4826,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/42-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/42-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/42-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/42-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/42-altcam-photo.png"
       ],
       "title": "Резервне живлення для квартири — світло, інтернет і комфорт навіть під час відключень",
       "titles": {
@@ -4861,9 +4861,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/11-hikvision-ds-3wf0ec-2nt.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/11-hikvision-ds-3wf0ec-2nt.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/11-hikvision-ds-3wf0ec-2nt.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/11-hikvision-ds-3wf0ec-2nt.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/11-hikvision-ds-3wf0ec-2nt.png"
       ],
       "title": "Відео та зв’язок у ліфті — без зайвого кабелю",
       "titles": {
@@ -4896,9 +4896,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/28-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/28-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/28-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/28-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/28-altcam-photo.png"
       ],
       "title": "Надійне з’єднання починається з правильної ізоляції",
       "titles": {
@@ -4931,9 +4931,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/45-alt-cam-security-ua.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/45-alt-cam-security-ua.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/45-alt-cam-security-ua.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/45-alt-cam-security-ua.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/45-alt-cam-security-ua.png"
       ],
       "title": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем",
       "titles": {
@@ -4966,9 +4966,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/14-mini-ups.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/14-mini-ups.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/14-mini-ups.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/14-mini-ups.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/14-mini-ups.png"
       ],
       "title": "Світло зникло — інтернет має залишатися",
       "titles": {
@@ -5001,9 +5001,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/31-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/31-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/31-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/31-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/31-altcam-photo.png"
       ],
       "title": "Відеодомофон під ключ — безпека та контроль доступу для вашого дому",
       "titles": {
@@ -5036,9 +5036,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/48-chatgpt-image-12-2026-17-19-23-2.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/48-chatgpt-image-12-2026-17-19-23-2.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/48-chatgpt-image-12-2026-17-19-23-2.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/48-chatgpt-image-12-2026-17-19-23-2.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/48-chatgpt-image-12-2026-17-19-23-2.png"
       ],
       "title": "ALT-CAM Security UA — комплексні рішення під ваш об’єкт",
       "titles": {
@@ -5071,9 +5071,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/40-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/40-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/40-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/40-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/40-altcam-photo.png"
       ],
       "title": "Кабельна інфраструктура для офісу та кол-центру під ключ",
       "titles": {
@@ -5106,9 +5106,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/09-dahua-apollo-bp3ew-4g.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/09-dahua-apollo-bp3ew-4g.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/09-dahua-apollo-bp3ew-4g.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/09-dahua-apollo-bp3ew-4g.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/09-dahua-apollo-bp3ew-4g.png"
       ],
       "title": "Немає Wi-Fi? Немає розетки? Відеоспостереження все одно можливе",
       "titles": {
@@ -5141,9 +5141,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/26-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/26-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/26-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/26-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/26-altcam-photo.png"
       ],
       "title": "Оптичні аксесуари — усе необхідне для якісного зварювання, підключення та обслуговування ВОЛЗ",
       "titles": {
@@ -5176,9 +5176,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/43-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/43-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/43-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/43-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/43-altcam-photo.png"
       ],
       "title": "Резервне живлення для офісів, магазинів і складів — бізнес працює навіть під час відключень",
       "titles": {
@@ -5211,9 +5211,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/12-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/12-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/12-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/12-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/12-altcam-photo.png"
       ],
       "title": "Світло зникло? Зв’язок і заряд мають залишатися",
       "titles": {
@@ -5246,9 +5246,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/29-alt-cam-security-ua.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/29-alt-cam-security-ua.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/29-alt-cam-security-ua.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/29-alt-cam-security-ua.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/29-alt-cam-security-ua.png"
       ],
       "title": "Безпека об’єкта починається з правильно підібраної системи",
       "titles": {
@@ -5281,9 +5281,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/46-alt-cam-security-ua.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/46-alt-cam-security-ua.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/46-alt-cam-security-ua.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/46-alt-cam-security-ua.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/46-alt-cam-security-ua.png"
       ],
       "title": "ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем",
       "titles": {
@@ -5316,9 +5316,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/15-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/15-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/15-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/15-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/15-altcam-photo.png"
       ],
       "title": "Контроль доступу нового рівня — без зайвих ключів і складних рішень",
       "titles": {
@@ -5351,9 +5351,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/32-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/32-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/32-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/32-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/32-altcam-photo.png"
       ],
       "title": "Контроль доступу до двору під ключ — порядок, безпека та зручність для мешканців",
       "titles": {
@@ -5386,9 +5386,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/01-dahua-ip-2m-2out-pro.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/01-dahua-ip-2m-2out-pro.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/01-dahua-ip-2m-2out-pro.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/01-dahua-ip-2m-2out-pro.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/01-dahua-ip-2m-2out-pro.png"
       ],
       "title": "Хочете контролювати будинок або бізнес, навіть коли вас немає поруч?",
       "titles": {
@@ -5421,9 +5421,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/18-wi-fi.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/18-wi-fi.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/18-wi-fi.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/18-wi-fi.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/18-wi-fi.png"
       ],
       "title": "Потрібен стабільний Wi-Fi просто неба?",
       "titles": {
@@ -5456,9 +5456,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/35-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/35-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/35-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/35-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/35-altcam-photo.png"
       ],
       "title": "Відеоспостереження у ліфтах — більше безпеки для всього будинку",
       "titles": {
@@ -5491,9 +5491,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/07-alistar-mini-100base-fx-1sm-wdm-sc.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/07-alistar-mini-100base-fx-1sm-wdm-sc.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/07-alistar-mini-100base-fx-1sm-wdm-sc.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/07-alistar-mini-100base-fx-1sm-wdm-sc.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/07-alistar-mini-100base-fx-1sm-wdm-sc.png"
       ],
       "title": "Потрібно передати Ethernet по оптоволокну на відстань до 20 км?",
       "titles": {
@@ -5526,9 +5526,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/24-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/24-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/24-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/24-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/24-altcam-photo.png"
       ],
       "title": "Оптична лінія починається з правильного кабелю",
       "titles": {
@@ -5561,9 +5561,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/41-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/41-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/41-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/41-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/41-altcam-photo.png"
       ],
       "title": "Прокладання, зварювання та тестування оптичних ліній",
       "titles": {
@@ -5596,9 +5596,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/10-covax-cv-ps-3200-24v.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/10-covax-cv-ps-3200-24v.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/10-covax-cv-ps-3200-24v.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/10-covax-cv-ps-3200-24v.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/10-covax-cv-ps-3200-24v.png"
       ],
       "title": "Сонце, мережа чи акумулятор — COVAX готовий до будь-якого сценарію",
       "titles": {
@@ -5631,9 +5631,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/27-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/27-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/27-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/27-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/27-altcam-photo.png"
       ],
       "title": "Якісний монтаж починається з правильних дрібниць",
       "titles": {
@@ -5666,9 +5666,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/44-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/44-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/44-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/44-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/44-altcam-photo.png"
       ],
       "title": "Сонячні панелі та резервне живлення — енергія, яка працює на вас",
       "titles": {
@@ -5701,9 +5701,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/13-ip-ajax-hlvf.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/13-ip-ajax-hlvf.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/13-ip-ajax-hlvf.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/13-ip-ajax-hlvf.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/13-ip-ajax-hlvf.png"
       ],
       "title": "Потрібна камера, яка дозволяє точно налаштувати зону контролю?",
       "titles": {
@@ -5736,9 +5736,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/30-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/30-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/30-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/30-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/30-altcam-photo.png"
       ],
       "title": "Надійна мережа починається не лише з кабелю",
       "titles": {
@@ -5771,9 +5771,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/47-alt-cam-security-ua.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/47-alt-cam-security-ua.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/47-alt-cam-security-ua.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/47-alt-cam-security-ua.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/47-alt-cam-security-ua.png"
       ],
       "title": "ALT-CAM Security UA — обладнання для безпеки, мереж та резервного живлення",
       "titles": {
@@ -5806,9 +5806,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/16-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/16-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/16-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/16-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/16-altcam-photo.png"
       ],
       "title": "Енергія під контролем — від будинку до бізнесу",
       "titles": {
@@ -5841,9 +5841,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/33-ajax.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/33-ajax.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/33-ajax.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/33-ajax.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/33-ajax.png"
       ],
       "title": "Комплексний захист будинку з Ajax під ключ",
       "titles": {
@@ -5876,9 +5876,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/02-neolight-nl-hpc-03.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/02-neolight-nl-hpc-03.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/02-neolight-nl-hpc-03.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/02-neolight-nl-hpc-03.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/02-neolight-nl-hpc-03.png"
       ],
       "title": "Один вхід — до 9 999 абонентів",
       "titles": {
@@ -5911,9 +5911,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/04-mikrotik-sxtsq-lite5-rbsxtsq5nd.png"
       ],
       "title": "Потрібно передати інтернет між двома будівлями без прокладання кабелю?",
       "titles": {
@@ -5946,9 +5946,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/21-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/21-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/21-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/21-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/21-altcam-photo.png"
       ],
       "title": "Стабільна мережа починається з правильного кабелю",
       "titles": {
@@ -5981,9 +5981,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/38-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/38-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/38-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/38-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/38-altcam-photo.png"
       ],
       "title": "Контроль доступу та облік робочого часу на складі",
       "titles": {
@@ -6016,9 +6016,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/19-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/19-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/19-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/19-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/19-altcam-photo.png"
       ],
       "title": "Коли основне живлення зникає — резерв має підключитися автоматично",
       "titles": {
@@ -6051,9 +6051,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/36-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/36-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/36-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/36-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/36-altcam-photo.png"
       ],
       "title": "Відеоспостереження для СТО — контроль сервісу, персоналу та автомобілів 24/7",
       "titles": {
@@ -6086,9 +6086,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/05-ipcom-6u-600450.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/05-ipcom-6u-600450.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/05-ipcom-6u-600450.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/05-ipcom-6u-600450.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/05-ipcom-6u-600450.png"
       ],
       "title": "Мережеве обладнання «живе» на полицях і заважає порядку?",
       "titles": {
@@ -6121,9 +6121,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/22-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/22-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/22-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/22-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/22-altcam-photo.png"
       ],
       "title": "Надійне підключення починається з якісного кабелю",
       "titles": {
@@ -6156,9 +6156,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/39-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/39-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/39-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/39-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/39-altcam-photo.png"
       ],
       "title": "Бездротовий інтернет для віддалених об’єктів — стабільний зв’язок там, де немає кабелю",
       "titles": {
@@ -6191,9 +6191,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/08-seven-lock-sl-7708f.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/08-seven-lock-sl-7708f.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/08-seven-lock-sl-7708f.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/08-seven-lock-sl-7708f.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/08-seven-lock-sl-7708f.png"
       ],
       "title": "Набридли звичайні ключі? Перейдіть на сучасний контроль доступу",
       "titles": {
@@ -6226,9 +6226,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/25-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/25-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/25-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/25-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/25-altcam-photo.png"
       ],
       "title": "Кабель — це основа стабільної роботи всієї системи",
       "titles": {
@@ -6261,9 +6261,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/42-altcam-photo.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/42-altcam-photo.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/42-altcam-photo.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/42-altcam-photo.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/42-altcam-photo.png"
       ],
       "title": "Резервне живлення для квартири — світло, інтернет і комфорт навіть під час відключень",
       "titles": {
@@ -6296,9 +6296,9 @@ window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST = {
       ],
       "media_type": "image",
       "image_path": "../content-plans/2026-09-14-photo-publications/media/11-hikvision-ds-3wf0ec-2nt.png",
-      "image_url": "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/11-hikvision-ds-3wf0ec-2nt.png",
+      "image_url": "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/11-hikvision-ds-3wf0ec-2nt.png",
       "tiktok_photo_images": [
-        "https://oficeit-pixel.github.io/alt-cam-security-ua/social-posts/content-plans/2026-09-14-photo-publications/media/11-hikvision-ds-3wf0ec-2nt.png"
+        "https://alt-cam.net.ua/social-posts/content-plans/2026-09-14-photo-publications/media/11-hikvision-ds-3wf0ec-2nt.png"
       ],
       "title": "Відео та зв’язок у ліфті — без зайвого кабелю",
       "titles": {
