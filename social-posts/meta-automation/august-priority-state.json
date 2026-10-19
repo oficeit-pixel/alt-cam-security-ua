@@ -9654,6 +9654,194 @@
           "post_id": "962902993572061_122140299867226993"
         }
       }
+    },
+    "daily-2026-10-19-001": {
+      "instagram": {
+        "published_at": "2026-10-19T09:04:19.760494+00:00",
+        "result": {
+          "container": {
+            "id": "18094956809418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18094956809418944"
+          },
+          "published": {
+            "id": "18126105877914028"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-19T09:05:29.305399+00:00",
+        "result": {
+          "container": {
+            "id": "18094771496424516"
+          },
+          "published": {
+            "id": "18117354115822712"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-19T09:05:31.437585+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 133,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792400730,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADhWrV3Vpu6o6Tvn3Sle6XIx2QqsAAA8AcaxsMurFKzNbrvr33BJgBAAMCAANzAAM9BA",
+                  "file_unique_id": "AQADwBxrGwy6sUp4",
+                  "file_size": 1780,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADhWrV3Vpu6o6Tvn3Sle6XIx2QqsAAA8AcaxsMurFKzNbrvr33BJgBAAMCAANtAAM9BA",
+                  "file_unique_id": "AQADwBxrGwy6sUpy",
+                  "file_size": 31202,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADhWrV3Vpu6o6Tvn3Sle6XIx2QqsAAA8AcaxsMurFKzNbrvr33BJgBAAMCAAN4AAM9BA",
+                  "file_unique_id": "AQADwBxrGwy6sUp9",
+                  "file_size": 142926,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADhWrV3Vpu6o6Tvn3Sle6XIx2QqsAAA8AcaxsMurFKzNbrvr33BJgBAAMCAAN5AAM9BA",
+                  "file_unique_id": "AQADwBxrGwy6sUp-",
+                  "file_size": 299194,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADhWrV3Vpu6o6Tvn3Sle6XIx2QqsAAA8AcaxsMurFKzNbrvr33BJgBAAMCAAN3AAM9BA",
+                  "file_unique_id": "AQADwBxrGwy6sUp8",
+                  "file_size": 310231,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "⚡ Коли основне живлення зникає — резерв має підключитися автоматично\n\nАвтомат введення резерву (АВР) — рішення для об’єктів, де важливо не втрачати живлення через відключення мережі.\n\nПри зникненні основного джерела АВР автоматично перемикає навантаження на резервне — генератор, інвертор, ДБЖ або іншу лінію живлення, а після відновлення мережі повертає систему назад.\n\nУ наявності моделі для однофазних і трифазних систем:\n\nYRO YRQ2PC-125PV — 4 полюси, 125 А, 380 В, автоматичний і ручний режими, сухі контакти NO/NC/COM;\nYRO YRQ2PC-125 — 2 полюси, 125 А, компактне виконання для DIN-рейки;\nHDQ3-125E/2P — 2 полюси, 230 В, 125 А;\nCHINT NXZM-125S/3B — 3 полюси, 125 А, 400/415 В, мікропроцесорний контролер;\nGCQ4P100A — 4 полюси, 100 А, LED-індикація та регулювання параметрів перемикання.\n\nАВР підходить для приватних будинків, офісів, магазинів, виробництв, складів, медичних закладів, серверних, систем безпеки та інших об’єктів, де навіть коротка втрата електроживлення може створити проблему.…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 134,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792400731,
+              "text": "⚡ Коли основне живлення зникає — резерв має підключитися автоматично\n\nАвтомат введення резерву (АВР) — рішення для об’єктів, де важливо не втрачати живлення через відключення мережі.\n\nПри зникненні основного джерела АВР автоматично перемикає навантаження на резервне — генератор, інвертор, ДБЖ або іншу лінію живлення, а після відновлення мережі повертає систему назад.\n\nУ наявності моделі для однофазних і трифазних систем:\n\nYRO YRQ2PC-125PV — 4 полюси, 125 А, 380 В, автоматичний і ручний режими, сухі контакти NO/NC/COM;\nYRO YRQ2PC-125 — 2 полюси, 125 А, компактне виконання для DIN-рейки;\nHDQ3-125E/2P — 2 полюси, 230 В, 125 А;\nCHINT NXZM-125S/3B — 3 полюси, 125 А, 400/415 В, мікропроцесорний контролер;\nGCQ4P100A — 4 полюси, 100 А, LED-індикація та регулювання параметрів перемикання.\n\nАВР підходить для приватних будинків, офісів, магазинів, виробництв, складів, медичних закладів, серверних, систем безпеки та інших об’єктів, де навіть коротка втрата електроживлення може створити проблему.\n\n✅ Менше ручних дій. Менше затримок. Більше стабільності.\n\nПотрібно підібрати АВР під генератор, інвертор або вашу схему резервного живлення?\n\nНапишіть «АВР» у повідомлення ALT-CAM Security UA — допоможемо підібрати модель за кількістю фаз, струмом і типом резервного джерела.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #АВР #АвтоматВводуРезерву #РезервнеЖивлення #Генератор #Інвертор #БезперебійнеЖивлення #Електромонтаж #Автоматика\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1280,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1304,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1312,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1330,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1335,
+                  "length": 20,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1356,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1374,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1385,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1395,
+                  "length": 21,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1417,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1432,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1448,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      },
+      "tiktok": {
+        "published_at": "2026-10-19T09:05:32.364945+00:00",
+        "result": {
+          "data": {
+            "publish_id": "p_inbox_url~v2.7698302267283490822"
+          },
+          "error": {
+            "code": "ok",
+            "message": "",
+            "log_id": "2026101917053219D15C65CCD8295B8FF0"
+          }
+        }
+      }
     }
   }
 }
