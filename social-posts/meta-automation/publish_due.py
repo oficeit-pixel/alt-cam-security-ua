@@ -2,6 +2,7 @@ import argparse
 from io import BytesIO
 import json
 import os
+import re
 import sys
 import time
 from datetime import datetime, timedelta, timezone
@@ -526,7 +527,31 @@ PUBLISHERS = {
 
 
 def caption_for(post: dict, platform: str) -> str:
-    return post.get("captions", {}).get(platform) or post["caption"]
+    text = post.get("captions", {}).get(platform) or post["caption"]
+    return threads_caption(text) if platform == "threads" else text
+
+
+def threads_caption(text: str) -> str:
+    """Keep a complete CTA and fit the API limit, including emoji code units."""
+    length = lambda value: len(value.encode("utf-16-le")) // 2
+    if length(text) <= 500:
+        return text
+    # Long tracking parameters were appended after generation. Use the same
+    # destination without tracking before shortening the actual copy.
+    text = re.sub(r"https?://[^\s]+", lambda m: m[0].split("?")[0], text)
+    if length(text) <= 500:
+        return text
+    links = re.findall(r"https?://[^\s]+", text)
+    cta = next((link for link in links if "t.me/" in link),
+               links[-1] if links else "https://alt-cam.net.ua")
+    footer = "\n\nПідбір та консультація: " + cta
+    body = re.sub(r"https?://[^\s]+", "", text).strip()
+    budget = 500 - length(footer) - 1
+    while length(body) > budget:
+        body = body[:-1]
+    if " " in body:
+        body = body.rsplit(" ", 1)[0]
+    return body.rstrip(" ,;:—-") + "…" + footer
 
 
 def tiktok_title_for(post: dict) -> str:
@@ -628,6 +653,7 @@ def main() -> int:
         ready_at = platform_ready_at.get(platform)
         return args.force or ready_at is None or now >= ready_at
     selected = []
+    selected_platforms = set()
     max_posts_per_run = max(1, int(os.getenv("MAX_POSTS_PER_RUN", "1")))
     for post in posts:
         if args.post_id and post["id"] != args.post_id:
@@ -647,7 +673,12 @@ def main() -> int:
         ]
         if not actionable_platforms:
             continue
+        # Repeated failures for one network must not fill every selection slot
+        # and starve newer, actionable posts for the other networks.
+        if not args.force and not set(actionable_platforms) - selected_platforms:
+            continue
         selected.append(post)
+        selected_platforms.update(actionable_platforms)
         if len(selected) >= max_posts_per_run:
             break
 

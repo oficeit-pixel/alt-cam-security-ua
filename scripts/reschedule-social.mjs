@@ -1,4 +1,7 @@
 import fs from 'node:fs/promises';
+// This historical migration stretched 180 posts into more than a year.
+// Fail before changing any files; use the timezone-aware daily scheduler.
+throw new Error('Retired three-posts-per-week migration. Use scripts/restore_daily_social_schedule.py --start YYYY-MM-DD --days 90 instead.');
 const file = 'social-posts/meta-automation/august-priority-posts.json';
 const queue = JSON.parse(await fs.readFile(file, 'utf8'));
 const state = JSON.parse(await fs.readFile('social-posts/meta-automation/august-priority-state.json', 'utf8'));

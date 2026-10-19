@@ -19,7 +19,7 @@
 <body>
 <main>
   <h1>ALT-CAM: автоочередь публикаций из папки фото</h1>
-  <p>48 базовых материалов разложены в 180 публикаций на 90 дней: Facebook, Instagram, Threads, Telegram и TikTok photo. Каждый день — один постинг в первой половине дня и один во второй. Повторы идут в ротации, старые отменённые публикации не восстановлены.</p>
+  <p id="schedule-summary">180 публикаций на 90 дней: ежедневно в 10:00 и 17:30 по Киеву. Facebook, Instagram, Threads, Telegram. TikTok — загрузка во входящие с подтверждением публикации в приложении.</p>
   <nav class="toolbar">
     <a class="chip" href="../content-plans/2026-09-14-photo-publications/publishing-posts.json">publishing-posts.json</a>
     <a class="chip" href="../content-plans/2026-09-14-photo-publications/READY_POSTS.md">READY_POSTS.md</a>
@@ -30,6 +30,7 @@
 <script src="./photo-publications-autopost-data.js"></script>
 <script>
 const data = window.ALT_CAM_PHOTO_PUBLICATIONS_AUTOPOST;
+if(data.schedule) document.getElementById('schedule-summary').textContent = `${data.post_count} публикаций с ${data.posts[0].scheduled_at.slice(0,10)} по ${data.posts.at(-1).scheduled_at.slice(0,10)}. Ежедневно в 10:00 и 17:30 по Киеву: Facebook, Instagram, Threads, Telegram. TikTok — загрузка во входящие, требуется подтверждение в приложении.`;
 const calendar = document.getElementById('calendar');
 const fmtDate = new Intl.DateTimeFormat('uk-UA',{weekday:'long',day:'numeric',month:'long',timeZone:'Europe/Kyiv'});
 const fmtTime = new Intl.DateTimeFormat('uk-UA',{hour:'2-digit',minute:'2-digit',timeZone:'Europe/Kyiv'});

@@ -47,6 +47,15 @@ await fs.cp('social-posts', path.join(out, 'social-posts'), {
   recursive: true,
   filter: async source => (await fs.stat(source)).isDirectory() || /\.(?:webp|png|jpe?g|gif|mp4)$/i.test(source)
 });
+// Only the reviewed photo calendar is public; publisher state stays excluded.
+for (const name of ['photo-publications-autopost.html', 'photo-publications-autopost-data.js']) {
+  await fs.mkdir(path.join(out, 'social-posts/calendar'), { recursive: true });
+  await fs.copyFile(path.join('social-posts/calendar', name), path.join(out, 'social-posts/calendar', name));
+}
+for (const name of ['publishing-posts.json', 'READY_POSTS.md', 'import-report.json']) {
+  const relative = path.join('social-posts/content-plans/2026-09-14-photo-publications', name);
+  await fs.copyFile(relative, path.join(out, relative));
+}
 const source = await fs.readFile('catalog-data.js', 'utf8');
 const match = source.match(/^\s*window\.ALTCAM_CATALOG\s*=\s*([\s\S]*?);?\s*$/);
 if (!match) throw new Error('Unexpected catalog format');

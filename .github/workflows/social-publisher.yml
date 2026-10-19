@@ -82,6 +82,9 @@ jobs:
         continue-on-error: true
         run: python social-posts/meta-automation/check_setup.py
 
+      - name: Check publisher regressions
+        run: python social-posts/meta-automation/test_publisher.py
+
       - name: Publish due posts
         if: env.PUBLISHING_PAUSED != 'true'
         shell: bash
@@ -107,6 +110,7 @@ jobs:
             fi
             if ! git diff --cached --quiet; then
               git commit -m "Update social publisher state [skip ci] [skip render]"
+              git pull --rebase origin main
               git push
             fi
           fi
