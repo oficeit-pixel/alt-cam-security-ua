@@ -9849,6 +9849,191 @@
           "post_id": "962902993572061_122140624941226993"
         }
       }
+    },
+    "daily-2026-10-19-002": {
+      "instagram": {
+        "published_at": "2026-10-19T14:32:35.335297+00:00",
+        "result": {
+          "container": {
+            "id": "18095017169418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18095017169418944"
+          },
+          "published": {
+            "id": "18089500880496004"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-19T14:32:43.733182+00:00",
+        "result": {
+          "container": {
+            "id": "18094832198424516"
+          },
+          "published": {
+            "id": "18097902245440198"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-19T14:32:46.908785+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 135,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792420366,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADh2rWKg4D6lB489lgXzrlJYmS9bptAAIVH2sbDLqxStHnl-qA4PM1AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADFR9rGwy6sUp4",
+                  "file_size": 1628,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADh2rWKg4D6lB489lgXzrlJYmS9bptAAIVH2sbDLqxStHnl-qA4PM1AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADFR9rGwy6sUpy",
+                  "file_size": 24507,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADh2rWKg4D6lB489lgXzrlJYmS9bptAAIVH2sbDLqxStHnl-qA4PM1AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADFR9rGwy6sUp9",
+                  "file_size": 105148,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADh2rWKg4D6lB489lgXzrlJYmS9bptAAIVH2sbDLqxStHnl-qA4PM1AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADFR9rGwy6sUp-",
+                  "file_size": 215605,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADh2rWKg4D6lB489lgXzrlJYmS9bptAAIVH2sbDLqxStHnl-qA4PM1AQADAgADdwADPQQ",
+                  "file_unique_id": "AQADFR9rGwy6sUp8",
+                  "file_size": 227295,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🚗 Відеоспостереження для СТО — контроль сервісу, персоналу та автомобілів 24/7\n\nАвтосервіс — це місце, де одночасно працюють майстри, знаходяться автомобілі клієнтів, інструмент, запчастини та обладнання. Без відеоконтролю складно швидко розібратися у спірній ситуації або перевірити, що відбувалося на об’єкті.\n\nALT-CAM Security UA проєктує та встановлює системи відеоспостереження для СТО, автомайстерень, шиномонтажів, автомийок і сервісних центрів.\n\nСистема може контролювати:\n\nремонтні бокси та робочі місця майстрів;\nв’їзд і виїзд автомобілів;\nпарковку та територію;\nприймальню і клієнтську зону;\nсклад запчастин та інструментів;\nкасову зону;\nпериметр і службові входи;\nархів подій з можливістю перегляду зі смартфона.\nЩо отримує власник СТО\n\n✅ Контроль роботи персоналу\n✅ Відеофіксацію процесу обслуговування автомобіля\n✅ Доказову базу у разі спірних ситуацій\n✅ Контроль в’їзду, парковки та території\n✅ Захист обладнання, інструментів і майна\n✅ Віддалений перегляд камер з телефону\n✅ Запис арх…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 136,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792420366,
+              "text": "🚗 Відеоспостереження для СТО — контроль сервісу, персоналу та автомобілів 24/7\n\nАвтосервіс — це місце, де одночасно працюють майстри, знаходяться автомобілі клієнтів, інструмент, запчастини та обладнання. Без відеоконтролю складно швидко розібратися у спірній ситуації або перевірити, що відбувалося на об’єкті.\n\nALT-CAM Security UA проєктує та встановлює системи відеоспостереження для СТО, автомайстерень, шиномонтажів, автомийок і сервісних центрів.\n\nСистема може контролювати:\n\nремонтні бокси та робочі місця майстрів;\nв’їзд і виїзд автомобілів;\nпарковку та територію;\nприймальню і клієнтську зону;\nсклад запчастин та інструментів;\nкасову зону;\nпериметр і службові входи;\nархів подій з можливістю перегляду зі смартфона.\nЩо отримує власник СТО\n\n✅ Контроль роботи персоналу\n✅ Відеофіксацію процесу обслуговування автомобіля\n✅ Доказову базу у разі спірних ситуацій\n✅ Контроль в’їзду, парковки та території\n✅ Захист обладнання, інструментів і майна\n✅ Віддалений перегляд камер з телефону\n✅ Запис архіву 24/7\n\nМожемо підібрати систему від кількох камер для невеликої майстерні до комплексного відеоспостереження для великого автосервісу з кількома ремонтними зонами.\n\nALT-CAM Security UA — підбір обладнання, монтаж, налаштування та запуск системи під ключ.\n\n📩 Напишіть «СТО» у повідомлення — підготуємо консультацію та розрахунок під ваш об’єкт.\n\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#ALTCAM #ALTCAMSecurityUA #Відеоспостереження #СТО #Автосервіс #Відеонагляд #КамериВідеоспостереження #БезпекаБізнесу #Автомайстерня #Шиномонтаж #МонтажКамер #СистемиБезпеки\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1353,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1415,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1423,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1441,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1461,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1466,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1478,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1491,
+                  "length": 25,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1517,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1533,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1548,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1560,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1573,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1593,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
