@@ -36,7 +36,8 @@ class PublisherRegressionTests(unittest.TestCase):
         with patch.object(publisher, "load_json", side_effect=load), \
              patch.object(publisher, "load_env_file"), \
              patch.object(publisher, "platform_has_credentials", return_value=True), \
-             patch.dict(os.environ, {"MAX_POSTS_PER_RUN": "3", "MIN_SUCCESS_INTERVAL_MINUTES": "0", "DRY_RUN": "true"}), \
+             patch.dict(os.environ, {"MAX_POSTS_PER_RUN": "3", "MIN_SUCCESS_INTERVAL_MINUTES": "0",
+                                     "DRY_RUN": "true", "DISABLED_PLATFORMS": ""}), \
              patch("sys.argv", ["publish_due.py", "--dry-run"]), contextlib.redirect_stdout(output):
             self.assertEqual(publisher.main(), 0)
         self.assertIn("DRY PUBLISH new -> instagram", output.getvalue())
