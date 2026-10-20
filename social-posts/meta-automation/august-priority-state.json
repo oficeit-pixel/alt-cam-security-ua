@@ -10243,6 +10243,151 @@
           "id": "122140750515226993",
           "post_id": "962902993572061_122140750533226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-10-20T17:52:55.257479+00:00",
+        "result": {
+          "container": {
+            "id": "18095280173418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18095280173418944"
+          },
+          "published": {
+            "id": "18113874593612211"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-20T17:54:03.754772+00:00",
+        "result": {
+          "container": {
+            "id": "18095101784424516"
+          },
+          "published": {
+            "id": "17961172365238070"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-20T17:54:05.478808+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 139,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792518845,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADi2rXqr3OphYhkDUWrs6aOHDYbCwOAAJ6HGsbDLrBSgcIcgABzBuYQwEAAwIAA3MAAz0E",
+                  "file_unique_id": "AQADehxrGwy6wUp4",
+                  "file_size": 1830,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADi2rXqr3OphYhkDUWrs6aOHDYbCwOAAJ6HGsbDLrBSgcIcgABzBuYQwEAAwIAA20AAz0E",
+                  "file_unique_id": "AQADehxrGwy6wUpy",
+                  "file_size": 27732,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADi2rXqr3OphYhkDUWrs6aOHDYbCwOAAJ6HGsbDLrBSgcIcgABzBuYQwEAAwIAA3gAAz0E",
+                  "file_unique_id": "AQADehxrGwy6wUp9",
+                  "file_size": 120173,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADi2rXqr3OphYhkDUWrs6aOHDYbCwOAAJ6HGsbDLrBSgcIcgABzBuYQwEAAwIAA3kAAz0E",
+                  "file_unique_id": "AQADehxrGwy6wUp-",
+                  "file_size": 247499,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADi2rXqr3OphYhkDUWrs6aOHDYbCwOAAJ6HGsbDLrBSgcIcgABzBuYQwEAAwIAA3cAAz0E",
+                  "file_unique_id": "AQADehxrGwy6wUp8",
+                  "file_size": 261036,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "⚡ Надійне підключення починається з якісного кабелю\n\nДля освітлення, побутових приладів та електромереж важливо використовувати кабель, який відповідає навантаженню та умовам монтажу.\n\nЕлектричний кабель «Одескабель» ШВВПн — практичне рішення для побутових і монтажних задач із мідними жилами та білою оболонкою.\n\nУ наявності популярні перерізи:\n\n2×0,5\n2×0,75\n2×1,0\n2×1,5\n2×2,5\n2×4,0\n3×0,5\n3×0,75\n3×1,0\n3×1,5\n3×2,5\n3×4,0 мм²\n\nПідходить для різних електромонтажних задач, де потрібен гнучкий кабель із мідними провідниками.\n\nБренд — «Одескабель».\nПридбати та отримати консультацію можна в ALT-CAM Security UA.\n\nНе знаєте, який переріз потрібен саме під ваше навантаження? Напишіть «КАБЕЛЬ» у повідомлення ALT-CAM Security UA — допоможемо підібрати відповідний варіант.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #Одескабель #ЕлектричнийКабель #ШВВПн #Електромонтаж #Кабель #Електрика #МіднийКабель\n\n🤖 https://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 772,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 796,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 804,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 822,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 834,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 853,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 860,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 875,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 883,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 894,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 912,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
       }
     }
   }
