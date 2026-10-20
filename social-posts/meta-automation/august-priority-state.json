@@ -10041,6 +10041,193 @@
           "post_id": "962902993572061_122140665627226993"
         }
       }
+    },
+    "daily-2026-10-19-003": {
+      "instagram": {
+        "published_at": "2026-10-20T07:38:31.042821+00:00",
+        "result": {
+          "container": {
+            "id": "18095169119418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18095169119418944"
+          },
+          "published": {
+            "id": "18483229078109319"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-20T07:38:40.217849+00:00",
+        "result": {
+          "container": {
+            "id": "18094992959424516"
+          },
+          "published": {
+            "id": "17970910431076354"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-20T07:38:43.708050+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 137,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792481923,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADiWrXGoIMizqL3Oq_G_XZ89eimczWAALsGmsbDLq5SvGLNwz_Ri_6AQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD7BprGwy6uUp4",
+                  "file_size": 1845,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADiWrXGoIMizqL3Oq_G_XZ89eimczWAALsGmsbDLq5SvGLNwz_Ri_6AQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD7BprGwy6uUpy",
+                  "file_size": 27355,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADiWrXGoIMizqL3Oq_G_XZ89eimczWAALsGmsbDLq5SvGLNwz_Ri_6AQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD7BprGwy6uUp9",
+                  "file_size": 113129,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADiWrXGoIMizqL3Oq_G_XZ89eimczWAALsGmsbDLq5SvGLNwz_Ri_6AQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD7BprGwy6uUp-",
+                  "file_size": 227859,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADiWrXGoIMizqL3Oq_G_XZ89eimczWAALsGmsbDLq5SvGLNwz_Ri_6AQADAgADdwADPQQ",
+                  "file_unique_id": "AQAD7BprGwy6uUp8",
+                  "file_size": 237489,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🗄 Мережеве обладнання «живе» на полицях і заважає порядку?\n\nОрганізуйте комутатори, патч-панелі, блоки живлення та інше телекомунікаційне обладнання в одному місці.\n\nIPCOM 6U 600×450 — компактна телекомунікаційна шафа для акуратного та зручного розміщення мережевого обладнання в офісі, бізнес-приміщенні або технічній зоні.\n\nОсновні характеристики:\n\nвисота — 6U\nширина — 600 мм\nглибина — 450 мм\nрегулювання монтажних стійок з кроком 20 мм\nдвері відкриваються на 180°\nперфоровані дверцята\nмаксимальне статичне навантаження — 60 кг\nступінь захисту — IP20\nколір — світло-сірий RAL 7035\n\nПерфоровані дверцята сприяють вентиляції обладнання, а можливість регулювання монтажних стійок дозволяє зручніше організувати внутрішній простір шафи.\n\nПотрібно підібрати телекомунікаційну шафу під ваш комутатор, відеореєстратор або інше обладнання?\n\nНапишіть «ШАФА» у повідомлення ALT-CAM Security UA — допоможемо підібрати відповідний варіант під ваш проєкт.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #…",
+              "caption_entities": [
+                {
+                  "offset": 951,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 975,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 983,
+                  "length": 17,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 138,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792481923,
+              "text": "🗄 Мережеве обладнання «живе» на полицях і заважає порядку?\n\nОрганізуйте комутатори, патч-панелі, блоки живлення та інше телекомунікаційне обладнання в одному місці.\n\nIPCOM 6U 600×450 — компактна телекомунікаційна шафа для акуратного та зручного розміщення мережевого обладнання в офісі, бізнес-приміщенні або технічній зоні.\n\nОсновні характеристики:\n\nвисота — 6U\nширина — 600 мм\nглибина — 450 мм\nрегулювання монтажних стійок з кроком 20 мм\nдвері відкриваються на 180°\nперфоровані дверцята\nмаксимальне статичне навантаження — 60 кг\nступінь захисту — IP20\nколір — світло-сірий RAL 7035\n\nПерфоровані дверцята сприяють вентиляції обладнання, а можливість регулювання монтажних стійок дозволяє зручніше організувати внутрішній простір шафи.\n\nПотрібно підібрати телекомунікаційну шафу під ваш комутатор, відеореєстратор або інше обладнання?\n\nНапишіть «ШАФА» у повідомлення ALT-CAM Security UA — допоможемо підібрати відповідний варіант під ваш проєкт.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #IPCOM #ТелекомунікаційнаШафа #МережеваШафа #МережевеОбладнання #СКС #СлаботочніСистеми #МонтажМережі\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 951,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 975,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 983,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1001,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1008,
+                  "length": 22,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1031,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1045,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1065,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1070,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1089,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1107,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
