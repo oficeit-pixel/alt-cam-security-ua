@@ -10581,6 +10581,188 @@
           "post_id": "962902993572061_122140827885226993"
         }
       }
+    },
+    "daily-2026-10-19-006": {
+      "instagram": {
+        "published_at": "2026-10-21T14:35:48.087318+00:00",
+        "result": {
+          "container": {
+            "id": "18095447042418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18095447042418944"
+          },
+          "published": {
+            "id": "18100786721642125"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-21T14:37:00.693105+00:00",
+        "result": {
+          "container": {
+            "id": "18095292794424516"
+          },
+          "published": {
+            "id": "18094219304679192"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-21T14:37:04.079642+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 142,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792593423,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADjmrYzg89IO0hTDcy6g0vqnDdBuISAAKzImsbeBXISq_KJkd1I7DUAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADsyJrG3gVyEp4",
+                  "file_size": 1861,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADjmrYzg89IO0hTDcy6g0vqnDdBuISAAKzImsbeBXISq_KJkd1I7DUAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADsyJrG3gVyEpy",
+                  "file_size": 30726,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADjmrYzg89IO0hTDcy6g0vqnDdBuISAAKzImsbeBXISq_KJkd1I7DUAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADsyJrG3gVyEp9",
+                  "file_size": 126842,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADjmrYzg89IO0hTDcy6g0vqnDdBuISAAKzImsbeBXISq_KJkd1I7DUAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADsyJrG3gVyEp-",
+                  "file_size": 254307,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADjmrYzg89IO0hTDcy6g0vqnDdBuISAAKzImsbeBXISq_KJkd1I7DUAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADsyJrG3gVyEp8",
+                  "file_size": 266914,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🔐 Набридли звичайні ключі? Перейдіть на сучасний контроль доступу\n\nSEVEN LOCK SL-7708F — бездротовий біометричний комплект, який дозволяє відкривати двері кількома зручними способами: відбитком пальця, PIN-кодом або RFID-карткою / брелоком EM-Marine 125 кГц.\n\nСистема підтримує до 100 відбитків пальців і до 900 PIN-кодів або карт доступу. PIN-код може складатися з 4–6 цифр.\n\nТакож передбачено відкриття зсередини через кнопку виходу, магнітний датчик автозакриття замка, світлодіодну індикацію стану та бездротовий зв’язок між компонентами на відстані до 7 метрів.\n\nКорпус контролера виконаний із металу та загартованого скла, монтаж — накладний. Комплект повністю укомплектований і готовий до встановлення.\n\nДодатково можна підключити радіобрелоки SEVEN LOCK SR-7714 з динамічним кодом.\n\nПотрібно організувати зручний доступ без постійного використання звичайних ключів?\nНапишіть «ДОСТУП» у повідомлення ALT-CAM Security UA — допоможемо підібрати рішення під ваш об’єкт.\n\n🌐 https://alt-cam.net.ua…",
+              "caption_entities": [
+                {
+                  "offset": 979,
+                  "length": 22,
+                  "type": "url"
+                }
+              ]
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 143,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792593423,
+              "text": "🔐 Набридли звичайні ключі? Перейдіть на сучасний контроль доступу\n\nSEVEN LOCK SL-7708F — бездротовий біометричний комплект, який дозволяє відкривати двері кількома зручними способами: відбитком пальця, PIN-кодом або RFID-карткою / брелоком EM-Marine 125 кГц.\n\nСистема підтримує до 100 відбитків пальців і до 900 PIN-кодів або карт доступу. PIN-код може складатися з 4–6 цифр.\n\nТакож передбачено відкриття зсередини через кнопку виходу, магнітний датчик автозакриття замка, світлодіодну індикацію стану та бездротовий зв’язок між компонентами на відстані до 7 метрів.\n\nКорпус контролера виконаний із металу та загартованого скла, монтаж — накладний. Комплект повністю укомплектований і готовий до встановлення.\n\nДодатково можна підключити радіобрелоки SEVEN LOCK SR-7714 з динамічним кодом.\n\nПотрібно організувати зручний доступ без постійного використання звичайних ключів?\nНапишіть «ДОСТУП» у повідомлення ALT-CAM Security UA — допоможемо підібрати рішення під ваш об’єкт.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #SevenLock #КонтрольДоступу #Біометрія #ВідбитокПальця #RFID #Електрозамок #СКУД #Безпека\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 979,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1003,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1011,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1029,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1040,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1057,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1068,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1084,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1090,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1104,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1110,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1123,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
