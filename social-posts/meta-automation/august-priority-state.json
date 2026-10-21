@@ -10389,6 +10389,191 @@
           }
         }
       }
+    },
+    "daily-2026-10-19-005": {
+      "instagram": {
+        "published_at": "2026-10-21T09:31:41.125798+00:00",
+        "result": {
+          "container": {
+            "id": "18095393276418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18095393276418944"
+          },
+          "published": {
+            "id": "17920268736242261"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-21T09:32:51.299299+00:00",
+        "result": {
+          "container": {
+            "id": "18095237036424516"
+          },
+          "published": {
+            "id": "17998692309041007"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-21T09:32:53.421583+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 140,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792575172,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADjGrYhsQvDAa-i7-na6Wpb_Wu2rC9AALtH2sbeBXISrRLQfDENVQJAQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD7R9rG3gVyEp4",
+                  "file_size": 1825,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADjGrYhsQvDAa-i7-na6Wpb_Wu2rC9AALtH2sbeBXISrRLQfDENVQJAQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD7R9rG3gVyEpy",
+                  "file_size": 29763,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADjGrYhsQvDAa-i7-na6Wpb_Wu2rC9AALtH2sbeBXISrRLQfDENVQJAQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD7R9rG3gVyEp9",
+                  "file_size": 133732,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADjGrYhsQvDAa-i7-na6Wpb_Wu2rC9AALtH2sbeBXISrRLQfDENVQJAQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD7R9rG3gVyEp-",
+                  "file_size": 276688,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADjGrYhsQvDAa-i7-na6Wpb_Wu2rC9AALtH2sbeBXISrRLQfDENVQJAQADAgADdwADPQQ",
+                  "file_unique_id": "AQAD7R9rG3gVyEp8",
+                  "file_size": 288550,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🌐 Бездротовий інтернет для віддалених об’єктів — стабільний зв’язок там, де немає кабелю\n\nВаш склад, СТО, ферма, офіс, кафе, виробництво чи інший бізнес знаходиться далеко від найближчої лінії зв’язку? Це не означає, що потрібно миритися з повільним або нестабільним інтернетом.\n\nALT-CAM Security UA проєктує та встановлює бездротові радіомости для передачі інтернету на окремо розташовані об’єкти.\n\nРішення підходить для відстаней від 3 км і більше, за умови прямої видимості та правильно підібраного обладнання.\n\nЩо можна організувати:\n\nвисокошвидкісний інтернет для віддаленої будівлі;\nканал зв’язку між двома об’єктами;\nпідключення складу, ферми, СТО, кафе, офісу або виробництва;\nпередачу мережі для IP-відеоспостереження;\nрезервний канал зв’язку;\nоб’єднання кількох будівель в одну локальну мережу.\nПереваги рішення\n\n✅ Зв’язок на відстані від 3 км\n✅ Висока швидкість передачі даних\n✅ Відсутність необхідності прокладати кабель між об’єктами\n✅ Стабільна робота за правильної прямої видимості\n✅ М…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 141,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792575173,
+              "text": "🌐 Бездротовий інтернет для віддалених об’єктів — стабільний зв’язок там, де немає кабелю\n\nВаш склад, СТО, ферма, офіс, кафе, виробництво чи інший бізнес знаходиться далеко від найближчої лінії зв’язку? Це не означає, що потрібно миритися з повільним або нестабільним інтернетом.\n\nALT-CAM Security UA проєктує та встановлює бездротові радіомости для передачі інтернету на окремо розташовані об’єкти.\n\nРішення підходить для відстаней від 3 км і більше, за умови прямої видимості та правильно підібраного обладнання.\n\nЩо можна організувати:\n\nвисокошвидкісний інтернет для віддаленої будівлі;\nканал зв’язку між двома об’єктами;\nпідключення складу, ферми, СТО, кафе, офісу або виробництва;\nпередачу мережі для IP-відеоспостереження;\nрезервний канал зв’язку;\nоб’єднання кількох будівель в одну локальну мережу.\nПереваги рішення\n\n✅ Зв’язок на відстані від 3 км\n✅ Висока швидкість передачі даних\n✅ Відсутність необхідності прокладати кабель між об’єктами\n✅ Стабільна робота за правильної прямої видимості\n✅ Можливість передавати інтернет, відео та мережевий трафік\n✅ Професійний монтаж, юстування та налаштування\n✅ Підбір обладнання під конкретну дистанцію та рельєф\n\nМожливе використання обладнання Ubiquiti, MikroTik, TP-Link, Cambium Networks та інших професійних рішень.\n\nПеред монтажем важливо оцінити відстань, висоту точок встановлення, пряму видимість, зону Френеля та можливі перешкоди. Саме від цього залежить реальна швидкість і стабільність каналу.\n\nПотрібно передати інтернет на віддалений об’єкт?\n\nНапишіть «ІНТЕРНЕТ» у повідомлення ALT-CAM Security UA — допоможемо розрахувати трасу, підібрати обладнання та організувати підключення під ключ.\n\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#ALTCAM #ALTCAMSecurityUA #БездротовийІнтернет #Радіоміст #Ubiquiti #MikroTik #Cambium #ІнтернетДляБізнесу #Телекомунікації #БездротоваМережа #ВіддаленийОбєкт #МонтажМережі\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1655,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1717,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1725,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1743,
+                  "length": 20,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1764,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1775,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1785,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1795,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1804,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1824,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1841,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1859,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1876,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1894,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
