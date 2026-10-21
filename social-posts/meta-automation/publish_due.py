@@ -710,7 +710,7 @@ def main() -> int:
                 skipped_count += 1
                 continue
 
-            if post_state.get(platform) and not args.force:
+            if post_state.get(platform):
                 print(f"SKIP already published: {post['id']} -> {platform}")
                 skipped_count += 1
                 continue
