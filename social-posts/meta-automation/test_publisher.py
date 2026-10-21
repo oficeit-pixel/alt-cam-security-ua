@@ -12,6 +12,27 @@ spec.loader.exec_module(publisher)
 
 
 class PublisherRegressionTests(unittest.TestCase):
+    def test_force_never_republishes_success_or_disabled_platforms(self):
+        post = {"id": "mixed", "platforms": ["instagram", "telegram", "tiktok", "instagram_story"],
+                "caption": "text", "status": "approved", "scheduled_at": "2026-01-01T00:00:00Z"}
+        state = {"published": {"mixed": {"instagram": {"published_at": "2026-01-01T00:00:00Z"}}}}
+        output = io.StringIO()
+        with patch.object(publisher, "load_json", side_effect=lambda path, default: {"posts": [post]} if path == publisher.POSTS_FILE else state), \
+             patch.object(publisher, "load_env_file"), \
+             patch.object(publisher, "platform_has_credentials", return_value=True), \
+             patch.dict(os.environ, {"DRY_RUN": "true", "DISABLED_PLATFORMS": "tiktok,instagram_story", "MIN_SUCCESS_INTERVAL_MINUTES": "0"}), \
+             patch("sys.argv", ["publish_due.py", "--dry-run", "--force"]), contextlib.redirect_stdout(output):
+            self.assertEqual(publisher.main(), 0)
+        self.assertIn("DRY PUBLISH mixed -> telegram", output.getvalue())
+        for platform in ["instagram", "tiktok", "instagram_story"]:
+            self.assertNotIn(f"DRY PUBLISH mixed -> {platform}", output.getvalue())
+
+    def test_cloud_workflow_disables_legacy_routes(self):
+        workflow = (Path(__file__).resolve().parents[2] / ".github/workflows/social-publisher.yml").read_text(encoding="utf-8")
+        self.assertIn('DISABLED_PLATFORMS: "facebook,facebook_story,instagram_story,tiktok"', workflow)
+        self.assertNotIn('          - tiktok', workflow)
+        self.assertNotIn('          - instagram_story', workflow)
+
     def test_threads_keeps_complete_cta_with_long_tracking_link(self):
         text = "Камери для вашого будинку. " * 40 + "\nhttps://t.me/alt_cam_bot\nhttps://alt-cam.net.ua/catalog.html?utm_content=" + "x" * 180
         result = publisher.caption_for({"caption": text}, "threads")
