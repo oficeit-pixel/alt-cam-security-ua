@@ -10778,6 +10778,201 @@
           "id": "122140905615226993",
           "post_id": "962902993572061_122140905633226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-10-22T10:15:24.657756+00:00",
+        "result": {
+          "container": {
+            "id": "18095610761418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18095610761418944"
+          },
+          "published": {
+            "id": "18041934797652954"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-22T10:16:34.522597+00:00",
+        "result": {
+          "container": {
+            "id": "18095457425424516"
+          },
+          "published": {
+            "id": "18647882119055133"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-22T10:16:36.578602+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 144,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792664196,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADkGrZ4oMJnVTeBGdKyqkN33vDZ7EEAAInGmsb6S3RSgOF5HLJdbofAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADJxprG-kt0Up4",
+                  "file_size": 1819,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADkGrZ4oMJnVTeBGdKyqkN33vDZ7EEAAInGmsb6S3RSgOF5HLJdbofAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADJxprG-kt0Upy",
+                  "file_size": 24817,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADkGrZ4oMJnVTeBGdKyqkN33vDZ7EEAAInGmsb6S3RSgOF5HLJdbofAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADJxprG-kt0Up9",
+                  "file_size": 101742,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADkGrZ4oMJnVTeBGdKyqkN33vDZ7EEAAInGmsb6S3RSgOF5HLJdbofAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADJxprG-kt0Up-",
+                  "file_size": 209214,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADkGrZ4oMJnVTeBGdKyqkN33vDZ7EEAAInGmsb6S3RSgOF5HLJdbofAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADJxprG-kt0Up8",
+                  "file_size": 222172,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🔌 Кабель — це основа стабільної роботи всієї системи\n\nСигналізація, пожежна безпека, аудіосистеми, відеоспостереження чи зв’язок — кожна система потребує правильно підібраного кабелю.\n\nУ ALT-CAM Security UA можна підібрати кабель під конкретне завдання:\n\nсигнальні кабелі — для охоронних систем, датчиків, контролерів та автоматики;\nакустичні кабелі — для гучномовців, підсилювачів та аудіосистем;\nрадіочастотні коаксіальні кабелі — для передачі високочастотного сигналу;\nпожежні кабелі — для систем пожежної сигналізації та оповіщення;\nкабелі зв’язку — для передачі даних, телефонії та слабкострумових систем.\n\nПравильний вибір кабелю впливає на якість сигналу, стабільність роботи обладнання, довговічність системи та надійність монтажу.\n\nПотрібно підібрати кабель для будинку, офісу, магазину, складу, підприємства чи системи безпеки?\n\nНапишіть «КАБЕЛЬ» у повідомлення ALT-CAM Security UA — допоможемо підібрати рішення під вашу систему та умови монтажу.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAM…",
+              "caption_entities": [
+                {
+                  "offset": 963,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 987,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 995,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 145,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792664196,
+              "text": "🔌 Кабель — це основа стабільної роботи всієї системи\n\nСигналізація, пожежна безпека, аудіосистеми, відеоспостереження чи зв’язок — кожна система потребує правильно підібраного кабелю.\n\nУ ALT-CAM Security UA можна підібрати кабель під конкретне завдання:\n\nсигнальні кабелі — для охоронних систем, датчиків, контролерів та автоматики;\nакустичні кабелі — для гучномовців, підсилювачів та аудіосистем;\nрадіочастотні коаксіальні кабелі — для передачі високочастотного сигналу;\nпожежні кабелі — для систем пожежної сигналізації та оповіщення;\nкабелі зв’язку — для передачі даних, телефонії та слабкострумових систем.\n\nПравильний вибір кабелю впливає на якість сигналу, стабільність роботи обладнання, довговічність системи та надійність монтажу.\n\nПотрібно підібрати кабель для будинку, офісу, магазину, складу, підприємства чи системи безпеки?\n\nНапишіть «КАБЕЛЬ» у повідомлення ALT-CAM Security UA — допоможемо підібрати рішення під вашу систему та умови монтажу.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #Кабель #СигнальнийКабель #АкустичнийКабель #КоаксіальнийКабель #ПожежнийКабель #КабельЗвязку #СлабкострумовіСистеми #Відеоспостереження #ПожежнаБезпека\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 963,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 987,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 995,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1013,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1021,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1039,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1057,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1077,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1093,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1107,
+                  "length": 22,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1130,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1150,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1170,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
       }
     }
   }
