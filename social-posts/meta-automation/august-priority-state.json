@@ -10974,6 +10974,186 @@
           }
         }
       }
+    },
+    "daily-2026-10-19-008": {
+      "instagram": {
+        "published_at": "2026-10-22T15:19:40.730792+00:00",
+        "result": {
+          "container": {
+            "id": "18095666483418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18095666483418944"
+          },
+          "published": {
+            "id": "18021953018945704"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-22T15:20:50.300437+00:00",
+        "result": {
+          "container": {
+            "id": "18095520641424516"
+          },
+          "published": {
+            "id": "18056900630598027"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-22T15:20:53.202286+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 146,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792682452,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADkmraKdSCRgRe90mLHM-LEu7DCDfYAAKkG2sb6S3RSnmfEeWUwLc5AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADpBtrG-kt0Up4",
+                  "file_size": 1767,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADkmraKdSCRgRe90mLHM-LEu7DCDfYAAKkG2sb6S3RSnmfEeWUwLc5AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADpBtrG-kt0Upy",
+                  "file_size": 28118,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADkmraKdSCRgRe90mLHM-LEu7DCDfYAAKkG2sb6S3RSnmfEeWUwLc5AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADpBtrG-kt0Up9",
+                  "file_size": 122934,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADkmraKdSCRgRe90mLHM-LEu7DCDfYAAKkG2sb6S3RSnmfEeWUwLc5AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADpBtrG-kt0Up-",
+                  "file_size": 256068,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADkmraKdSCRgRe90mLHM-LEu7DCDfYAAKkG2sb6S3RSnmfEeWUwLc5AQADAgADdwADPQQ",
+                  "file_unique_id": "AQADpBtrG-kt0Up8",
+                  "file_size": 268039,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "⚡ Резервне живлення для квартири — світло, інтернет і комфорт навіть під час відключень\n\nКоли зникає електроенергія, важливо, щоб основні системи квартири продовжували працювати. ALT-CAM Security UA підбирає, встановлює та налаштовує системи резервного живлення під конкретне навантаження та потреби квартири.\n\nМожемо організувати резервне живлення для:\n\nосвітлення;\nWi-Fi роутера та інтернет-обладнання;\nхолодильника та необхідної побутової техніки;\nкотла, насосів та автоматики;\nвідеоспостереження, сигналізації та домофона;\nкомп’ютерів, зарядних пристроїв та іншої критично важливої техніки.\nЩо входить у рішення\n\n✅ Розрахунок необхідної потужності\n✅ Підбір інвертора та акумуляторної батареї\n✅ Організація окремих резервних ліній\n✅ Автоматичне перемикання на резервне живлення — якщо це передбачено схемою\n✅ Захисна автоматика та правильне підключення\n✅ Монтаж, налаштування та тестування системи\n✅ Інструктаж користувача\n\nМожна підібрати систему від компактного рішення для інтернету та освітлен…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 147,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792682453,
+              "text": "⚡ Резервне живлення для квартири — світло, інтернет і комфорт навіть під час відключень\n\nКоли зникає електроенергія, важливо, щоб основні системи квартири продовжували працювати. ALT-CAM Security UA підбирає, встановлює та налаштовує системи резервного живлення під конкретне навантаження та потреби квартири.\n\nМожемо організувати резервне живлення для:\n\nосвітлення;\nWi-Fi роутера та інтернет-обладнання;\nхолодильника та необхідної побутової техніки;\nкотла, насосів та автоматики;\nвідеоспостереження, сигналізації та домофона;\nкомп’ютерів, зарядних пристроїв та іншої критично важливої техніки.\nЩо входить у рішення\n\n✅ Розрахунок необхідної потужності\n✅ Підбір інвертора та акумуляторної батареї\n✅ Організація окремих резервних ліній\n✅ Автоматичне перемикання на резервне живлення — якщо це передбачено схемою\n✅ Захисна автоматика та правильне підключення\n✅ Монтаж, налаштування та тестування системи\n✅ Інструктаж користувача\n\nМожна підібрати систему від компактного рішення для інтернету та освітлення до резервного живлення значної частини квартири.\n\nПрацюємо з обладнанням Deye, Victron Energy, Pylontech, EcoFlow, Schneider Electric та іншими рішеннями залежно від завдання.\n\nALT-CAM Security UA — резервне живлення під ключ: розрахунок, монтаж, налаштування та запуск.\n\n📩 Напишіть «ЖИВЛЕННЯ» у повідомлення — підготуємо консультацію та розрахунок під вашу квартиру.\n\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#ALTCAM #ALTCAMSecurityUA #РезервнеЖивлення #Інвертор #Акумулятор #БезперебійнеЖивлення #РезервДляКвартири #Блекаут #Енергонезалежність #МонтажІнвертора #СистемиЖивлення\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1376,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1438,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1446,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1464,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1482,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1492,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1504,
+                  "length": 21,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1526,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1545,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1554,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1574,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1591,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1612,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
