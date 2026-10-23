@@ -11169,6 +11169,179 @@
           "id": "122141024265226993",
           "post_id": "962902993572061_122141024283226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-10-23T10:26:16.360847+00:00",
+        "result": {
+          "container": {
+            "id": "18095822726418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18095822726418944"
+          },
+          "published": {
+            "id": "18112781369167358"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-23T10:26:27.194906+00:00",
+        "result": {
+          "container": {
+            "id": "18095692118424516"
+          },
+          "published": {
+            "id": "18038936228842197"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-23T10:26:30.078524+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 148,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792751189,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADlGrbNlXPdP6T_3jZPDIKYoaWr4eHAAJkH2sb6S3hSkUP_nSS_O36AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADZB9rG-kt4Up4",
+                  "file_size": 1623,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADlGrbNlXPdP6T_3jZPDIKYoaWr4eHAAJkH2sb6S3hSkUP_nSS_O36AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADZB9rG-kt4Upy",
+                  "file_size": 24783,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADlGrbNlXPdP6T_3jZPDIKYoaWr4eHAAJkH2sb6S3hSkUP_nSS_O36AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADZB9rG-kt4Up9",
+                  "file_size": 102708,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADlGrbNlXPdP6T_3jZPDIKYoaWr4eHAAJkH2sb6S3hSkUP_nSS_O36AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADZB9rG-kt4Up-",
+                  "file_size": 211252,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADlGrbNlXPdP6T_3jZPDIKYoaWr4eHAAJkH2sb6S3hSkUP_nSS_O36AQADAgADdwADPQQ",
+                  "file_unique_id": "AQADZB9rG-kt4Up8",
+                  "file_size": 224984,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🛗 Відео та зв’язок у ліфті — без зайвого кабелю\n\nПотрібно передавати відео з IP-камери, голосовий зв’язок або мережеві дані між кабіною ліфта та диспетчерським обладнанням?\n\nБездротові мости Hikvision для ліфтових систем дозволяють організувати стабільний канал зв’язку без прокладання гнучкого мережевого кабелю.\n\nHikvision DS-3WF0EC-2NT працює на частоті 2,4 ГГц, підтримує технологію 2×2 MIMO та передачу даних на відстань до 500 м у режимі PTP. Також у лінійці доступний DS-3WF0EC-5ACT(B) на 5 ГГц — до 500 м.\n\nКлючові можливості DS-3WF0EC-2NT:\n\n📡 2,4 ГГц, IEEE 802.11b/g/n\n📶 антена 7 dBi\n📍 дальність до 500 м\n🔌 2 × RJ45 10/100 Мбіт/с\n⚡ живлення 12–24 В DC або Passive PoE\n🛡 захист корпусу IP55\n🌡 робоча температура від -30°C до +70°C\n🔐 WPA2-PSK та приховування SSID\n⚙️ налаштування через веб-інтерфейс та iVMS-4200\n📱 віддалене керування й діагностика через Hik-Partner Pro\n\nРішення підходить для передачі даних від IP-камер, переговорних систем та іншого мережевого обладнання під час руху кабін…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 149,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792751189,
+              "text": "🛗 Відео та зв’язок у ліфті — без зайвого кабелю\n\nПотрібно передавати відео з IP-камери, голосовий зв’язок або мережеві дані між кабіною ліфта та диспетчерським обладнанням?\n\nБездротові мости Hikvision для ліфтових систем дозволяють організувати стабільний канал зв’язку без прокладання гнучкого мережевого кабелю.\n\nHikvision DS-3WF0EC-2NT працює на частоті 2,4 ГГц, підтримує технологію 2×2 MIMO та передачу даних на відстань до 500 м у режимі PTP. Також у лінійці доступний DS-3WF0EC-5ACT(B) на 5 ГГц — до 500 м.\n\nКлючові можливості DS-3WF0EC-2NT:\n\n📡 2,4 ГГц, IEEE 802.11b/g/n\n📶 антена 7 dBi\n📍 дальність до 500 м\n🔌 2 × RJ45 10/100 Мбіт/с\n⚡ живлення 12–24 В DC або Passive PoE\n🛡 захист корпусу IP55\n🌡 робоча температура від -30°C до +70°C\n🔐 WPA2-PSK та приховування SSID\n⚙️ налаштування через веб-інтерфейс та iVMS-4200\n📱 віддалене керування й діагностика через Hik-Partner Pro\n\nРішення підходить для передачі даних від IP-камер, переговорних систем та іншого мережевого обладнання під час руху кабіни ліфта.\n\nПотрібно організувати стабільний бездротовий канал у ліфті?\nНапишіть «ЛІФТ» у повідомлення ALT-CAM Security UA — допоможемо підібрати та налаштувати обладнання.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #Hikvision #Ліфт #БездротовийМіст #Відеоспостереження #IPКамера #ПереговорнаСистема #МережевеОбладнання #Телекомунікації\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1184,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1208,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1216,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1234,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1245,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1251,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1268,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1288,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1298,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1318,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1338,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1359,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
       }
     }
   }
