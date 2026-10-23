@@ -11351,6 +11351,184 @@
           "id": "122141049567226993",
           "post_id": "962902993572061_122141049585226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-10-23T15:23:54.348926+00:00",
+        "result": {
+          "container": {
+            "id": "18095875874418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18095875874418944"
+          },
+          "published": {
+            "id": "18133174270672673"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-23T15:25:02.685097+00:00",
+        "result": {
+          "container": {
+            "id": "18095752592424516"
+          },
+          "published": {
+            "id": "18014760176961345"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-23T15:25:05.468308+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 150,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792769104,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADlmrbfFAyYj4TqiRi6io6AAHoBh64RQACriBrG-kt4UqiJHzGF68I8AEAAwIAA3MAAz0E",
+                  "file_unique_id": "AQADriBrG-kt4Up4",
+                  "file_size": 1761,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADlmrbfFAyYj4TqiRi6io6AAHoBh64RQACriBrG-kt4UqiJHzGF68I8AEAAwIAA20AAz0E",
+                  "file_unique_id": "AQADriBrG-kt4Upy",
+                  "file_size": 24221,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADlmrbfFAyYj4TqiRi6io6AAHoBh64RQACriBrG-kt4UqiJHzGF68I8AEAAwIAA3gAAz0E",
+                  "file_unique_id": "AQADriBrG-kt4Up9",
+                  "file_size": 100743,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADlmrbfFAyYj4TqiRi6io6AAHoBh64RQACriBrG-kt4UqiJHzGF68I8AEAAwIAA3kAAz0E",
+                  "file_unique_id": "AQADriBrG-kt4Up-",
+                  "file_size": 204915,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADlmrbfFAyYj4TqiRi6io6AAHoBh64RQACriBrG-kt4UqiJHzGF68I8AEAAwIAA3cAAz0E",
+                  "file_unique_id": "AQADriBrG-kt4Up8",
+                  "file_size": 217643,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "⚡ Надійне з’єднання починається з правильної ізоляції\n\nПід час електромонтажу та роботи зі слабкострумовими системами недостатньо просто з’єднати провідники — важливо захистити місце з’єднання від пошкоджень, випадкового контакту та зовнішніх впливів.\n\nУ ALT-CAM Security UA можна підібрати ізоляційні та монтажні матеріали для електрики, відеоспостереження, сигналізації, мереж і автоматики:\n\nізострічка — для ізоляції, маркування та фіксації;\nтермоусадочні трубки різних діаметрів — для захисту місць з’єднання та закінчень кабелю;\nсамовулканізуюча стрічка — для додаткової герметизації та ізоляції;\nз’єднувачі типу Scotchlok — для швидкого з’єднання провідників у слабкострумових системах;\nізолювальні ковпачки та клемні з’єднувачі;\nзахисні трубки, обплетення та оболонки для кабелю;\nінші матеріали для професійного електро- та слабкострумового монтажу.\n\nПравильно підібрана ізоляція допомагає зробити монтаж акуратним, безпечним і зручним для подальшого обслуговування.\n\nПотрібно укомплектувати м…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 151,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792769105,
+              "text": "⚡ Надійне з’єднання починається з правильної ізоляції\n\nПід час електромонтажу та роботи зі слабкострумовими системами недостатньо просто з’єднати провідники — важливо захистити місце з’єднання від пошкоджень, випадкового контакту та зовнішніх впливів.\n\nУ ALT-CAM Security UA можна підібрати ізоляційні та монтажні матеріали для електрики, відеоспостереження, сигналізації, мереж і автоматики:\n\nізострічка — для ізоляції, маркування та фіксації;\nтермоусадочні трубки різних діаметрів — для захисту місць з’єднання та закінчень кабелю;\nсамовулканізуюча стрічка — для додаткової герметизації та ізоляції;\nз’єднувачі типу Scotchlok — для швидкого з’єднання провідників у слабкострумових системах;\nізолювальні ковпачки та клемні з’єднувачі;\nзахисні трубки, обплетення та оболонки для кабелю;\nінші матеріали для професійного електро- та слабкострумового монтажу.\n\nПравильно підібрана ізоляція допомагає зробити монтаж акуратним, безпечним і зручним для подальшого обслуговування.\n\nПотрібно укомплектувати монтаж електрики, відеоспостереження, домофонії, сигналізації або мережевого обладнання?\n\nНапишіть «ІЗОЛЯЦІЯ» у повідомлення ALT-CAM Security UA — допоможемо підібрати необхідні матеріали під вашу задачу.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #Ізоляція #Ізострічка #Термоусадка #Scotchlok #Електромонтаж #СлабкострумовіСистеми #МонтажніМатеріали #Відеоспостереження #СистемиБезпеки\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1208,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1232,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1240,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1258,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1268,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1280,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1293,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1304,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1319,
+                  "length": 22,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1342,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1361,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1381,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1401,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
       }
     }
   }
