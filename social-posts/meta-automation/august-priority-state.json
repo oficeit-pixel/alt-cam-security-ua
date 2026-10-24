@@ -11538,6 +11538,184 @@
           "id": "122141128911226993",
           "post_id": "962902993572061_122141128935226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-10-24T09:45:58.854482+00:00",
+        "result": {
+          "container": {
+            "id": "18096038201418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18096038201418944"
+          },
+          "published": {
+            "id": "17998772603829038"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-24T09:46:10.640844+00:00",
+        "result": {
+          "container": {
+            "id": "18095919041424516"
+          },
+          "published": {
+            "id": "18136912804644301"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-24T09:46:13.771950+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 152,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792835173,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADmGrcfmTse25o4OzxvGkxDjmPBD1FAAJoHmsb4LDoSj9hWu5MejHSAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADaB5rG-Cw6Ep4",
+                  "file_size": 1671,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADmGrcfmTse25o4OzxvGkxDjmPBD1FAAJoHmsb4LDoSj9hWu5MejHSAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADaB5rG-Cw6Epy",
+                  "file_size": 24436,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADmGrcfmTse25o4OzxvGkxDjmPBD1FAAJoHmsb4LDoSj9hWu5MejHSAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADaB5rG-Cw6Ep9",
+                  "file_size": 101224,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADmGrcfmTse25o4OzxvGkxDjmPBD1FAAJoHmsb4LDoSj9hWu5MejHSAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADaB5rG-Cw6Ep-",
+                  "file_size": 202856,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADmGrcfmTse25o4OzxvGkxDjmPBD1FAAJoHmsb4LDoSj9hWu5MejHSAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADaB5rG-Cw6Ep8",
+                  "file_size": 214816,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🛡 ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем\n\nПотрібно захистити квартиру, будинок, офіс, магазин, склад або підприємство?\nALT-CAM Security UA підбирає, монтує та налаштовує обладнання під конкретний об’єкт і завдання.\n\nМи працюємо комплексно:\n\n📹 відеоспостереження;\n🚪 домофонія та відеодомофони;\n🔐 контроль доступу та облік робочого часу;\n🌐 локальні мережі, Wi-Fi та кабельна інфраструктура;\n🔧 прокладання, зварювання та тестування оптичних ліній;\n⚡ резервне живлення, інвертори та акумуляторні системи;\n☀️ сонячні панелі та автономне енергозабезпечення.\n\nВід консультації та проєктування — до професійного монтажу, налаштування, запуску та подальшої підтримки.\n\nПідбираємо рішення без зайвого обладнання — з урахуванням бюджету, особливостей об’єкта та можливості подальшого розширення системи.\n\nALT-CAM Security UA — технології, які працюють на вашу безпеку, стабільність і комфорт.\n\n📩 Напишіть «ПРОЄКТ» у повідомлення — підготуємо консультацію та індивідуальну проп…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 153,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792835173,
+              "text": "🛡 ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем\n\nПотрібно захистити квартиру, будинок, офіс, магазин, склад або підприємство?\nALT-CAM Security UA підбирає, монтує та налаштовує обладнання під конкретний об’єкт і завдання.\n\nМи працюємо комплексно:\n\n📹 відеоспостереження;\n🚪 домофонія та відеодомофони;\n🔐 контроль доступу та облік робочого часу;\n🌐 локальні мережі, Wi-Fi та кабельна інфраструктура;\n🔧 прокладання, зварювання та тестування оптичних ліній;\n⚡ резервне живлення, інвертори та акумуляторні системи;\n☀️ сонячні панелі та автономне енергозабезпечення.\n\nВід консультації та проєктування — до професійного монтажу, налаштування, запуску та подальшої підтримки.\n\nПідбираємо рішення без зайвого обладнання — з урахуванням бюджету, особливостей об’єкта та можливості подальшого розширення системи.\n\nALT-CAM Security UA — технології, які працюють на вашу безпеку, стабільність і комфорт.\n\n📩 Напишіть «ПРОЄКТ» у повідомлення — підготуємо консультацію та індивідуальну пропозицію.\n\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#ALTCAM #ALTCAMSecurityUA #СистемиБезпеки #Відеоспостереження #КонтрольДоступу #Домофонія #ЛокальніМережі #ОптичніЛінії #РезервнеЖивлення #СонячніПанелі #МонтажПідКлюч\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1019,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1081,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1089,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1107,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1123,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1143,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1160,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1171,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1187,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1201,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1219,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1234,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1253,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
       }
     }
   }
