@@ -11725,6 +11725,189 @@
           "id": "122141164173226993",
           "post_id": "962902993572061_122141164191226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-10-24T17:00:38.911145+00:00",
+        "result": {
+          "container": {
+            "id": "18096127142418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18096127142418944"
+          },
+          "published": {
+            "id": "18343337680285927"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-24T17:01:47.522674+00:00",
+        "result": {
+          "container": {
+            "id": "18096013859424516"
+          },
+          "published": {
+            "id": "18118655248969760"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-24T17:01:52.874762+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 154,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792861312,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADmmrc5H9koloE8f9Mh-44k0u0mQTHAAJeIWsb4LDoShofjbc26L41AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADXiFrG-Cw6Ep4",
+                  "file_size": 1843,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADmmrc5H9koloE8f9Mh-44k0u0mQTHAAJeIWsb4LDoShofjbc26L41AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADXiFrG-Cw6Epy",
+                  "file_size": 29622,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADmmrc5H9koloE8f9Mh-44k0u0mQTHAAJeIWsb4LDoShofjbc26L41AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADXiFrG-Cw6Ep9",
+                  "file_size": 124176,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADmmrc5H9koloE8f9Mh-44k0u0mQTHAAJeIWsb4LDoShofjbc26L41AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADXiFrG-Cw6Ep-",
+                  "file_size": 256793,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADmmrc5H9koloE8f9Mh-44k0u0mQTHAAJeIWsb4LDoShofjbc26L41AQADAgADdwADPQQ",
+                  "file_unique_id": "AQADXiFrG-Cw6Ep8",
+                  "file_size": 268158,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "⚡ Світло зникло — інтернет має залишатися\n\nПід час відключення електроенергії роутер, ONU/GPON-термінал або модем вимикаються разом із мережею. MINI UPS допомагає зберегти живлення мережевого обладнання та залишатися онлайн навіть під час блекауту.\n\nПоки електроенергія є, ДБЖ живить підключене обладнання та заряджає акумулятор. Коли напруга зникає, пристрій автоматично переходить на резервне живлення.\n\nДля чого підходить\nWi-Fi роутери\nONU / GPON термінали\nмодеми\nкомутатори\nPoE-обладнання\nIP-камери\nUSB-пристрої\nLED-освітлення\n\nУ наявності різні моделі:\n\nMini UPS POE-432E\n\nємність — 8800 mAh\nвиходи 5V / 9V / 12V\nPoE 15V / 24V\nUSB 5V / 2A\nLED-індикація рівня заряду\n\nUPS-18W DC1018P YT45949\n\nємність — 11600 mAh\nвиходи 5V / 9V / 12V\nзнімні акумулятори 4×2900 mAh\n\nUPS-18W DC1018P YT45453\n\nємність — 11200 mAh\nвиходи 5V / 9V / 12V\nзнімні акумулятори 4×2800 mAh\n\nGreen Wave ECO418Pro-18W\n\nємність — 12000 mAh\nвиходи 5V / 9V / 12V / 15V / 24V\nдля роутерів, комутаторів, PON та PoE-пристроїв\n🔌 Компа…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 155,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1792861312,
+              "text": "⚡ Світло зникло — інтернет має залишатися\n\nПід час відключення електроенергії роутер, ONU/GPON-термінал або модем вимикаються разом із мережею. MINI UPS допомагає зберегти живлення мережевого обладнання та залишатися онлайн навіть під час блекауту.\n\nПоки електроенергія є, ДБЖ живить підключене обладнання та заряджає акумулятор. Коли напруга зникає, пристрій автоматично переходить на резервне живлення.\n\nДля чого підходить\nWi-Fi роутери\nONU / GPON термінали\nмодеми\nкомутатори\nPoE-обладнання\nIP-камери\nUSB-пристрої\nLED-освітлення\n\nУ наявності різні моделі:\n\nMini UPS POE-432E\n\nємність — 8800 mAh\nвиходи 5V / 9V / 12V\nPoE 15V / 24V\nUSB 5V / 2A\nLED-індикація рівня заряду\n\nUPS-18W DC1018P YT45949\n\nємність — 11600 mAh\nвиходи 5V / 9V / 12V\nзнімні акумулятори 4×2900 mAh\n\nUPS-18W DC1018P YT45453\n\nємність — 11200 mAh\nвиходи 5V / 9V / 12V\nзнімні акумулятори 4×2800 mAh\n\nGreen Wave ECO418Pro-18W\n\nємність — 12000 mAh\nвиходи 5V / 9V / 12V / 15V / 24V\nдля роутерів, комутаторів, PON та PoE-пристроїв\n🔌 Компактне рішення для стабільного зв’язку\n\nMINI UPS займає мінімум місця, легко підключається та допомагає підтримувати роботу важливого мережевого обладнання під час перебоїв з електроенергією.\n\nНе знаєте, який UPS підійде саме до вашого роутера або ONU?\nНапишіть «UPS» у повідомлення ALT-CAM Security UA — допоможемо підібрати модель за напругою, роз’ємами та вашим обладнанням.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #MiniUPS #ДБЖ #РезервнеЖивлення #Роутер #WiFi #GPON #ONU #PoE #Блекаут #ІнтернетБезСвітла\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1381,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1405,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1413,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1431,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1440,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1445,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1463,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1471,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1477,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1483,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1488,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1493,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1502,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1525,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
       }
     }
   }
