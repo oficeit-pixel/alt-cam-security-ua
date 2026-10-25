@@ -1817,28 +1817,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "viatec-19157",
-    "sku": "99-10028898",
-    "category": "Ajax та охоронна сигналізація",
-    "subcategory": "",
-    "brand": "Ajax",
-    "name": "Бездротова клавіатура",
-    "model": "Ajax Keypad Outdoor graphite",
-    "description": "● Дальність радіозв'язку до 1700 м;● Функція клавіатури зміна режиму охорони, керування пристроями автоматизації, затримка на вхід (клавіатура запуску затримки);● Способи автентифікації коди доступу, брелоки Tag, карти Pass, смартфон (Bluetooth);● Коди доступу клавіатури, користувачів, незареєстрованих користувачів, примусу;● Батарея 2 &times; CR123A;● 170&times;45&times;31 мм;● IP66, IK08",
-    "features": [
-      "Живлення: 10,5—14 В⎓, до 1 А",
-      "IP66",
-      "31 мм"
-    ],
-    "image": "https://viatec.ua/upload/2/AjaxKeyPadOutdoor4.webp",
-    "images": [
-      "https://viatec.ua/upload/2/AjaxKeyPadOutdoor4.webp"
-    ],
-    "available": true,
-    "price": 6399.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-19418",
     "sku": "99-10030009",
     "category": "Ajax та охоронна сигналізація",
@@ -1858,49 +1836,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 6399.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-19419",
-    "sku": "99-10030010",
-    "category": "Ajax та охоронна сигналізація",
-    "subcategory": "",
-    "brand": "Ajax",
-    "name": "Бездротова клавіатура",
-    "model": "Ajax KeyPad Outdoor Jeweller (8EU) ASP black",
-    "description": "● Дальність радіозв&rsquo;язку до 1700 м;● Функція клавіатури: &nbsp;зміна режиму охорони, керування пристроями автоматизації, затримка на вхід (клавіатура запуску затримки);● Способи автентифікації: &nbsp;коди доступу, брелоки Tag, картки Pass, смартфон (Bluetooth);● Коди доступу: &nbsp;код клавіатури, користувачів, для незареєстрованих користувачів, примусу;● Батарея 2 &times; CR123A;● IP66, IK08;● 170 &times; 45 &times; 31 мм",
-    "features": [
-      "Живлення: 2 × CR123A",
-      "IP66",
-      "31 мм"
-    ],
-    "image": "https://viatec.ua/upload/2/AjaxKeyPadOutdoorJeweller%E2%80%93black.webp",
-    "images": [
-      "https://viatec.ua/upload/2/AjaxKeyPadOutdoorJeweller%E2%80%93black.webp"
-    ],
-    "available": true,
-    "price": 6399.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-4583",
-    "sku": "99-00005102",
-    "category": "Ajax та охоронна сигналізація",
-    "subcategory": "",
-    "brand": "Ajax",
-    "name": "Бездротова клавіатура",
-    "model": "Ajax Keypad Plus black",
-    "description": "Бездротова, сенсорна; Сумісність Hub Plus, Hub 2, Hub 2 Plus, ReX з OS Malevich 2.11 і вище; захист від підбору; код примусу; DESFire&reg; EV1, EV2; батарея АА 1.5 В до 4.5 років; температурний сенсор; зв&#39;язок з централлю до 1.7 км; Захист від підробки, Оповіщення про глушіння, Тампер; 165 &times; 113 &times; 20 мм",
-    "features": [
-      "Живлення: АА 1.5 В",
-      "20 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/ajax-keypadplus-black-main-600x600(1).jpg",
-    "images": [
-      "https://viatec.ua/upload/images/prod/ajax-keypadplus-black-main-600x600(1).jpg"
-    ],
-    "available": true,
-    "price": 4299.0,
     "source_supplier": "viatec"
   },
   {
@@ -2419,27 +2354,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "yugtorg-14527",
-    "sku": "FireProtect black",
-    "category": "Ajax та охоронна сигналізація",
-    "subcategory": "",
-    "brand": "Ajax",
-    "name": "Бездротовий датчик детектування диму Ajax FireProtect black",
-    "model": "FireProtect black",
-    "description": "Пограбування веде до втрати цінностей, але пожежа може знищити все майно повністю. Тому ми рекомендуємо доповнювати систему охоронної сигналізації датчиками диму Ajax Fire Protect. Швидка і безпечна установка, надійний захист від саботажу і просте управління і персоналізувати пристрій. Бездротовий датчик детектування диму Ajax FireProtect black призначений для детектування пожежі в приміщенні, що охороняється. Датчик виявляє дим за допомогою інфрачервоного випромінювача і фотоприймача. Елементи змонтовані в спеціальній димовій камері. При попаданні частинок диму в камеру, фотоприймач виявляє спотворення інфрачервоного променя. Якщо диму стає багато, спотворення променя стає сильним, датчик відправляє бездротові сигнали про пожежну тривогу на розумну централь Ajax Hub і включається сирена. Датчик використовується для виявлення диму в будинку, магазині, готелі, ресторані, офісній будівлі, школі, банку, бібліотеці, складі і т.д. Особливості Детектує як задимлення, так і різке підвищення температури в приміщенні при відсутності диму; Він здатний працювати як автономно з використанням приймачів Ajax ocBridge Plus і Ajax uartBridge, так і з Ajax Hub; Тримає зв`язок з Ajax Hub на відстані до 2000 метрів (за умови прямої видимості); Монтаж датчика за допомогою кріплення SmartBracket без розбору корпусу; Віддалене тестування якості зв`язку та зони виявлення; Витрачає менше енергії, адаптуючи потужність до відстані до хаба; Живлення без зміни батареї - до 3 ле ; Повідомляє про необхідність очищення датчика від пилу; Цілодобовий двосторонній зв`язок з хабом для тестування і налаштування; Управляється за допомогою мобільного додатку для iOS / Android ; Захищений від відкриття корпусу і демонтажу тампером; Працездатність перевіряється пінгомом кожні 5 хвилин. Бренд Ajax Модель FireProtect Тип датчика Датчики диму і газу Тип сенсора диму Фотоелектричний сенсор, Термопара Сенсор чадного газу ні Гучність вбудованої сирени 85 дБ на дистанції 3 м Можливість автономної роботи так Сумісність Hub, Hub 2, Hub 2 Plus, Hub Plus, ocBridge Plus, ReX, uartBridge Діапазон частот радіоканалу 868,0−868,6 МГц Максимальна потужність радіосигналу до 20 мВт Модуляція радіосигналу датчика GFSK Радіопротокол Jeweller Блочне шифрування, засноване на алгоритмі AES, Двосторонній зв`язок між пристроями, Період опитування датчика - 12-300 секунд Віддалена настройка так Антісаботаж Захист від підробки, Оповіщення про глушіння Захист тампером так Поріг тривоги при температурі +59°С ±2°С Спосіб підключення до ППКП Бездротової Колірна індикація так Тип елемента живлення 2 × CR2 (основні батареї), CR2032 (резервна батарея) Термін роботи датчика від одного елемента живлення До 4 років Робоча напруга 3 В Діапазон робочих температур 0 ° C - +65 ° C Робоча вологість Не більше 80% Строк служби 10 років Сертифікація Відповідає вимогам технічного регламенту радіообладнання Клас захисту IP40 Можливість підключення автономного живлення ні Матеріал корпуса Пластик Розміри 132 × 132 × 31 мм Вага 220 г Гарантія 24 міс. Комплектація FireProtect, Кріпильна панель SmartBracket, Елементи живлення CR2 (встановлені) - 2 шт, Елемент живлення CR2032 (встановлено) - 1 шт, Монтажний комплект, Коротка інструкція Живлення 2 батареї CR2; резервна батарея СR2032",
-    "features": [
-      "IP40",
-      "31 мм"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/14527.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/14527.png"
-    ],
-    "available": true,
-    "price": 2649.0,
-    "source_supplier": "yugtorg"
-  },
-  {
     "id": "yugtorg-14528",
     "sku": "FireProtect white",
     "category": "Ajax та охоронна сигналізація",
@@ -2686,6 +2600,24 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 15499.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-41205",
+    "sku": "MotionCam (PhOD) (HDR) bl",
+    "category": "Ajax та охоронна сигналізація",
+    "subcategory": "",
+    "brand": "Ajax",
+    "name": "Бездротовий датчик руху з підтримкою фотоверифікації \"фото позапитом\" MotionCam (PhOD) (HDR) black",
+    "model": "MotionCam (PhOD) (HDR) bl",
+    "description": "Характеристики уточнюються.",
+    "features": [],
+    "image": "https://b2b.yugtorg.com/image/data/41205.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/41205.png"
+    ],
+    "available": true,
+    "price": 5699.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -2961,6 +2893,24 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 7299.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-15018",
+    "sku": "Ajax Transmitter",
+    "category": "Ajax та охоронна сигналізація",
+    "subcategory": "",
+    "brand": "Ajax",
+    "name": "Бездротовий модуль для інтеграції сторонніх датчиків Ajax Transmitter",
+    "model": "Ajax Transmitter",
+    "description": "Призначення Бездротовий модуль Ajax Transmitter дозволяє підключити до системи безпеки Ajax датчики з дротовим виходом. Модуль передає сигнал тривоги та попереджає про спрацювання тампера зовнішнього датчика. Живлення пристрою здійснюється від батарей, вбудований акселерометр захищає від демонтажу. Трансмітер може забезпечити живлення підключеного зовнішнього датчика. Модуль Ajax Transmitter працює тільки з системою безпеки Ajax, підключення до сторонніх охоронних систем через uartBridge або ocBridge Plus не передбачено. Розміщувати модуль Ajax Transmitter слід усередині корпусу проводового датчика. Посадочні розміри для модуля з монтажними стійками: не менше ніж 100x39x29 мм. Якщо розміри не дозволяють встановити Transmitter усередині датчика, слід використовувати прозорий корпус. Особливості модуля Може використовуватися на вулиці та в приміщенні; Працює з провідними та автономними датчиками з провідним виходом; Датчик регулярно передає сигнали тестування центральний блок, період опитування датчиків налаштовується (від 12 до 300 секунд); Показує рівень розряду батареї у мобільному додатку; Інформація, що передається датчиком, захищена від перехоплення, глушіння та спроби підміни; Максимальна відстань між датчиком та центральним блоком становить 1600 м в умовах прямої видимості; Захист від демонтажу акселерометром; Підключення датчика: клеми ALARM та TAMPER (NO / NC)",
+    "features": [],
+    "image": "https://b2b.yugtorg.com/image/data/15018.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/15018.png"
+    ],
+    "available": true,
+    "price": 1779.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -3419,26 +3369,6 @@ window.ALTCAM_CATALOG = [
     "available": true,
     "price": 153.0,
     "source_supplier": "yugtorg"
-  },
-  {
-    "id": "viatec-4579",
-    "sku": "99-00005104",
-    "category": "Ajax та охоронна сигналізація",
-    "subcategory": "",
-    "brand": "Ajax",
-    "name": "Безконтактна картка керування",
-    "model": "Ajax Pass black (10pcs)",
-    "description": "підтримується клавіатурою KeyPad Plus; DESFire; до 13 хабів; 86 &times; 54 &times; 0.8 мм",
-    "features": [
-      "0.8 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/Ajax_Pass_black.jpg",
-    "images": [
-      "https://viatec.ua/upload/images/prod/Ajax_Pass_black.jpg"
-    ],
-    "available": true,
-    "price": 1719.0,
-    "source_supplier": "viatec"
   },
   {
     "id": "viatec-4580",
@@ -4890,27 +4820,72 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "viatec-5307",
-    "sku": "99-00006336",
+    "id": "viatec-5304",
+    "sku": "99-00005439",
     "category": "Ajax та охоронна сигналізація",
     "subcategory": "",
     "brand": "Ajax",
     "name": "Охоронна централь",
-    "model": "Ajax Hub 2 Plus (8EU/ECG) UA white",
-    "description": "Класифікація: Централь системи безпеки з чотирма штатними каналами зовнішньої зв'язку та підтримкою датчиків з фотофіксацією; Тип установки Усередині приміщень; Пристроїв, що підключаються 200; Відеоспостереження 100 камер або відеореєстраторів; Користувачів 200; Кімнат 50; Груп 25; Підключаються ReX 5; Підключаються сирен до 10; Сценаріїв 64; Канали зв'язку 2 SIM-карти; 2G (GSM900 / DCS1800 (B3 / B8)), 3G (WCDMA 850/900/2100 (B1 / B5 / B8)), LTE (FDD B1 / B3 / B5 / B7 / B8 / B20), Wi-Fi (802.11 b / g / n), Ethernet; Харчування 110-240 В з передвстановленим блоком живлення, 6 У з альтернативним блоком живлення 6V PSU, Енергоспоживання від мережі - 10 Вт; резервний акумулятор Li-Ion 3 А &middot; год Забезпечує до 15 годин автономної роботи при використанні тільки SIM-карти",
+    "model": "Ajax Hub (8EU) UA white",
+    "description": "Тип установки Усередіні приміщень; Прістроїв, что підключаються 100; Користувачів 50; Кімнат 50; Груп 9; Мобільні Додатки iOS 11.0 и вищє, Android 4.4 и вищє; Каналі зв'язку Ethernet, GSM (850/900/1800/1900 Мгц); Сигнал тривоги Час доставки: 0,15 с; Типи Повідомлень: СМС, дзвінок, push; Зв'язок з пультом охорони Contact ID, SIA; Процесор ARM; Операційна система OS Malevich; Підтримка SIM-карт Micro SIM 2G; Діапазон робочих температур Від -10 &deg; С до + 40 &deg; С; Антісаботаж: Захист від підробки, Оповіщення про глушіння, Тампер на відкриття і відрив",
     "features": [
-      "Живлення: 110-240 В з передвстановленим блоком живлення 6 У з альтернативним блоком живлення 6V PSU",
+      "Живлення: 110-250 В від мережі або 12 В з 12V PSU для Hub / Hub Plus / ReX",
       "Потужність споживання: 10 Вт",
-      "Wi-Fi",
       "36 мм",
       "10 Вт"
     ],
-    "image": "https://viatec.ua/upload/images/prod/ajax2plus.webp",
+    "image": "https://viatec.ua/upload/images/prod/HUB_W-1x.webp",
     "images": [
-      "https://viatec.ua/upload/images/prod/ajax2plus.webp"
+      "https://viatec.ua/upload/images/prod/HUB_W-1x.webp"
     ],
     "available": true,
-    "price": 13999.0,
+    "price": 6999.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-5305",
+    "sku": "99-00006334",
+    "category": "Ajax та охоронна сигналізація",
+    "subcategory": "",
+    "brand": "Ajax",
+    "name": "Охоронна централь",
+    "model": "Ajax Hub 2 (8EU) UA black",
+    "description": "Класифікація: Інтелектуальна централь системи безпеки з підтримкою датчиків з фотофіксацією; Тип установки Усередині приміщень; Пристроїв, що підключаються 100; Відеоспостереження До 25 камер або відеореєстраторів; Користувачів 50; Кімнат 50; Охоронних груп 9; Підключаються ReX 5; Підключаються сирен до 10; Сценаріїв 32; Підтримка датчиків MotionCam; Канали зв'язку Ethernet, Дві 2G SIM-карти; Операційна система OS Malevich; Вбудований резервний акумулятор Li-Ion 2 А &middot; год Забезпечує до 16 годин автономної роботи при використанні тільки SIM-карти",
+    "features": [
+      "Живлення: 110-240 В з передвстановленим блоком живлення, 12 В з альтернативним блоком живлення 12V PSU, 6 У з альтернативним блоко",
+      "Потужність споживання: 10 Вт",
+      "36 мм",
+      "10 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/hub2.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/hub2.webp"
+    ],
+    "available": true,
+    "price": 8799.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-5306",
+    "sku": "99-00006176",
+    "category": "Ajax та охоронна сигналізація",
+    "subcategory": "",
+    "brand": "Ajax",
+    "name": "Охоронна централь",
+    "model": "Ajax Hub 2 (8EU) UA white",
+    "description": "Класифікація: Інтелектуальна централь системи безпеки з підтримкою датчиків з фотофіксацією; Тип установки Усередині приміщень; Пристроїв, що підключаються 100; Відеоспостереження До 25 камер або відеореєстраторів; Користувачів 50; Кімнат 50; Охоронних груп 9; Підключаються ReX 5; Підключаються сирен до 10; Сценаріїв 32; Підтримка датчиків MotionCam; Канали зв'язку Ethernet, Дві 2G SIM-карти; Операційна система OS Malevich; Вбудований резервний акумулятор Li-Ion 2 А &middot; год Забезпечує до 16 годин автономної роботи при використанні тільки SIM-карти",
+    "features": [
+      "Живлення: 110-240 В з передвстановленим блоком живлення, 12 В з альтернативним блоком живлення 12V PSU, 6 У з альтернативним блоко",
+      "Потужність споживання: 10 Вт",
+      "36 мм",
+      "10 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/_ajax_hub_6__4.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/_ajax_hub_6__4.webp"
+    ],
+    "available": true,
+    "price": 8799.0,
     "source_supplier": "viatec"
   },
   {
@@ -5144,6 +5119,50 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 12999.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-5266",
+    "sku": "99-00006839",
+    "category": "Ajax та охоронна сигналізація",
+    "subcategory": "",
+    "brand": "Ajax",
+    "name": "Ретранслятор сигналу",
+    "model": "Ajax ReX 2 (8EU) black",
+    "description": "Сумісність Hub 2 і Hub 2 Plus з версією OS Malevich 2.12 і вище; Час доставки сигналу тривоги 0,3 секунди; Максимум підключених пристроїв (в системі з одним ретранслятором) Hub 2 - до 99, Hub 2 Plus - до 199; Кількість ретрансляторів, що підключаються до хабу 5; Операційна система OS Malevich; Живлення 110-240 В від мережі або 12 В з 12В ДБЖ для Hub 2 / Hub 2 Plus / ReX 2, Вбудований резервний акумулятор Li-Ion 2 А &middot; год, До 38 годин автономної роботи; Радіопротокол Jeweller Дальність зв&#39;язку з хабом - до 1700 м на відкритому просторі, Дальність зв&#39;язку з датчиками - до 1700 м на відкритому просторі, Робочі частоти 868,0-868,6 МГц, саморегульована потужність радіосигналу - до 25 мВт, блочне шифрування, засноване на алгоритмі AES, Період опитування датчиків - 12-300 с, Частотний хоппінг; Діапазон робочих температур Від -10 &deg; С до + 40 &deg; С; Антісаботаж: Захист від підробки, Оповіщення про глушіння, Тампер на відкриття і відрив; Розміри 163 &times; 163 &times; 36 мм; Спосіб установки усередині приміщень",
+    "features": [
+      "Живлення: 110-240 В від мережі або 12 В з 12В ДБЖ для Hub 2 / Hub 2 Plus / ReX 2",
+      "36 мм",
+      "2 Аг"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/Ajax_rex_black-800x800.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/Ajax_rex_black-800x800.webp"
+    ],
+    "available": true,
+    "price": 5899.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-5433",
+    "sku": "99-00007424",
+    "category": "Ajax та охоронна сигналізація",
+    "subcategory": "",
+    "brand": "Ajax",
+    "name": "Ретранслятор сигналу",
+    "model": "Ajax ReX 2 (8EU) white",
+    "description": "Сумісність Hub 2 і Hub 2 Plus з версією OS Malevich 2.12 і вище; Час доставки сигналу тривоги 0,3 секунди; Максимум підключених пристроїв (в системі з одним ретранслятором) Hub 2 - до 99, Hub 2 Plus - до 199; Кількість ретрансляторів, що підключаються до хабу 5; Операційна система OS Malevich; Живлення 110-240 В від мережі або 12 В з 12В ДБЖ для Hub 2 / Hub 2 Plus / ReX 2, Вбудований резервний акумулятор Li-Ion 2 А &middot; год, До 38 годин автономної роботи; Радіопротокол Jeweller Дальність зв'язку з хабом - до 1700 м на відкритому просторі, Дальність зв'язку з датчиками - до 1700 м на відкритому просторі, Робочі частоти 868,0-868,6 МГц, саморегульована потужність радіосигналу - до 25 мВт, блочне шифрування, засноване на алгоритмі AES, Період опитування датчиків - 12-300 с, Частотний хоппінг; Діапазон робочих температур Від -10 &deg; С до + 40 &deg; С; Антісаботаж: Захист від підробки, Оповіщення про глушіння, Тампер на відкриття і відрив; Розміри 163 &times; 163 &times; 36 мм; Спосіб установки усередині приміщень",
+    "features": [
+      "Живлення: 110-240 В від мережі або 12 В з 12В ДБЖ для Hub 2 / Hub 2 Plus / ReX 2",
+      "36 мм",
+      "2 Аг"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/_ajax_hub_6__4(1).webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/_ajax_hub_6__4(1).webp"
+    ],
+    "available": true,
+    "price": 5899.0,
     "source_supplier": "viatec"
   },
   {
@@ -5786,6 +5805,29 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-7858",
+    "sku": "99-00010311",
+    "category": "Ajax та охоронна сигналізація",
+    "subcategory": "",
+    "brand": "Ajax",
+    "name": "Сповіщувач",
+    "model": "Ajax MotionCam HDR (PhOD) Jeweller white руху з камерою",
+    "description": "MotionCam (PhOD) за секунди покаже реальну обстановку на об'єкті та розвіє сумніви при тривозі. Запросити фото можна лише в один клік у додатку Ajax. Також датчик автоматично зробить серію фото, якщо зафіксував рух чи спрацював пожежний датчик FireProtect чи FireProtect Plus. Встановлення датчика MotionCam у правильному місці, на оптимальній висоті та перпендикулярно до ймовірного маршруту проникнення гарантує інформативну теплову діаграму. І суттєво підвищує точність детектування. Професійне встановлення також робить імунітет датчика до тварин більш ефективним. Налаштування чутливості дозволяє адаптувати датчик до умов конкретного приміщення: можливих теплових перешкод, домашніх тварин. Підвищення чи зниження чутливості впливає маркери, якими фільтруються помилкові тривоги.",
+    "features": [
+      "Живлення: 2 батареї CR123A, 3 В",
+      "Швидкість детекції: від 0,3 до 2,0 м/с",
+      "IP50",
+      "60 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/ajax-motioncam-white-1.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/ajax-motioncam-white-1.webp"
+    ],
+    "available": true,
+    "price": 5699.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-9309",
     "sku": "99-00012917",
     "category": "Ajax та охоронна сигналізація",
@@ -5871,28 +5913,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 4399.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-9316",
-    "sku": "99-00012924",
-    "category": "Ajax та охоронна сигналізація",
-    "subcategory": "",
-    "brand": "Ajax",
-    "name": "Сповіщувач",
-    "model": "Ajax FireProtect 2 SB (Heat/Smoke/CO) (8EU) white диму, температури, чадного газу",
-    "description": "Бездротовий датчик диму, температури та чадного газу. Оснащений вбудованою сиреною для оповіщення про тривоги та події. Може працювати у складі системи безпеки Ajax та автономно без хаба. За детектування небезпечної концентрації чадного газу FireProtect 2 відповідає вбудований хімічний сенсор з терміном роботи від 10 років. За реакцію на підвищення температури відповідають два вбудовані термістори. Термістори знаходяться зовні датчика для швидшого виявлення загроз. FireProtect 2 виявляє дим і не реагує на водяну пару завдяки біспектральному оптичному сенсору з синім та інфрачервоним світлодіодами.",
-    "features": [
-      "Живлення: 2 незмінні літієві батареї",
-      "IP20",
-      "45 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2023-03/Ajax_FireProtect_2w1.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2023-03/Ajax_FireProtect_2w1.webp"
-    ],
-    "available": true,
-    "price": 4799.0,
     "source_supplier": "viatec"
   },
   {
@@ -7033,31 +7053,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "yugtorg-30867",
-    "sku": "DS-2DE7A432IW-AEB(T5)",
-    "category": "Ajax та охоронна сигналізація",
-    "subcategory": "",
-    "brand": "HIKVISION",
-    "name": "4 МП поворотна камера з 32-кратним зумом DarkFighter з сигналізацією DS-2DE7A432IW-AEB(T5)",
-    "model": "DS-2DE7A432IW-AEB(T5)",
-    "description": "DS-2DE7A432IW-AEB – це просунута відеокамера Hikvision з набором потужних інструментів для спостереження, аналітики та сигналізації. Має можливість включення звукової тривоги та миготливих діодів. Розміщується на майданчиках з великою територією, у тому числі на природі, вокзалах та дорогах, на залізничних лініях та у паркових зонах. Дальність моніторингу сягає 2046 метрів. Існує фокусування, а також збільшення двох видів. Завдяки штучному інтелекту, DS-2DE7A432IW-AEB оцінює кадр, захоплює транспорт та людей, виявляючи будь-які підозрілі дії. Є кілька передустановок, виявлення осіб, перетин лінії, і не тільки. Камера шукає зниклі предмети та підвищує рівень безпеки. Корисно використовувати у приміщеннях та на вулицях з великою прохідністю. Матриця 1 / 1.8' мін. чутливість Колір: 0,005 лк (F1.5, AGC вкл.), Ч / Б: 0,001 лк (F1.5, AGC вкл.), 0 лк з ІЧ Швидкість затвора 1 / 3 - 1 / 30000 с Повільна витримка затвора Підтримує BLC Підтримує HLC підтримує WDR 120 дБ Придушення шуму (DNR) 3D Електронна стабілізація зображення (EIS) Підтримує Оптичне збільшення 32x Цифрове збільшення 16× Основні функції обробки 24 програмованих полігональних маски конфіденційності, колір маски або мозаїка, що настроюється. Фокусна відстань 5.9 – 188.8 мм Кути огляду Г: 50,8 ° - 2,6 °, В: 29,4 ° - 1,5 °, Д: 57,4 ° - 3 ° Апертура F1.5 Поворот / нахил / обертання поворот 360 ° / нахил +90 ° - -15 ° Частота кадрів (головний потік) 2560×1440, 1920×1080, 1280×960, 1280×720 25 к / с Частота кадрів (дод. потік) 704×576, 640×480, 352×288 25 к / с Частота кадрів (дод2. потік) 1920 × 1080, 1280 × 960, 1280 × 720, 704 × 576, 640 × 480, 352 × 288 25 к / с Відео компресія H.265+ / H.265 / H.264+ / H.264 ROI 8 зон для кожного потоку Програмне забезпечення iVMS-4200, HikCentral Pro, Hik-Connect Підтримка браузерів IE11, Chrome 57+, Firefox 52+, Safari 11+ Сумісність ONVIF (Version 1ONVIF e (Version 19.12, Profile S, Profile G, Profile T), ISAPI, SDK, ISUP.12, Profile S, Profile G, Profile T), ISAPI, SDK, ISUP Метод зберігання NAS (NFS, SMB / CIFS), ANR, microSD 256 Гб Інтерфейси тривоги 2вх / 1 вих Аудіо інтерфейси 1вх / 1 вих, вбудований динамік 30 м Тип підсвічування ІЧ Дальність підсвічування 200 м Виявлення об`єкта 2046 м Спостереження за об`єктом 812 м Розпізнавання об`єкта 409 м Ідентифікація об`єкта 204 м Швидкість ручного керування поворот: 0.1 ° - 160 ° / с; нахил: 0.1 ° - 120 ° / с Швидкість за попередніми налаштуваннями поворот: 240° / с; нахил: 200 ° / с Кількість передустановок Підтримує Пам`ять під час вимкнення живлення Підтримує Defog Підтримує Ethernet 1 RJ45 10M / 100M Перетин лінії Підтримує Вторгнення в область Підтримує Вхід та вихід з регіону Підтримує Залишені / зниклі предмети Підтримує Виявлення аудіо винятків Підтримує Виявлення осіб Підтримує Цільові типи Підтримує Живлення 24В AC PoE Hi-PoE Потужність споживання 42 Вт Робоча температура -30 ° C - 65 ° C Ступінь захисту IP66, IK10, TVS 6000В Розміри Ø 220 × 363.3 мм Матеріал алюміній Розмір упаковки (Ш х В х Г) 280 x 580 x 330 мм Вага брутто 10.01 кг",
-    "features": [
-      "4 МП",
-      "IP66",
-      "ONVIF",
-      "PoE",
-      "188.8 мм",
-      "363.3 мм"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/30867.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/30867.png"
-    ],
-    "available": true,
-    "price": 57067.0,
-    "source_supplier": "yugtorg"
-  },
-  {
     "id": "viatec-3963",
     "sku": "99-00003537",
     "category": "Ajax та охоронна сигналізація",
@@ -7696,8 +7691,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/43949.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/43949.png",
-      "https://b2b.yugtorg.com/image/data/43949_2.png",
-      "https://b2b.yugtorg.com/image/data/43949_1.png"
+      "https://b2b.yugtorg.com/image/data/43949_1.png",
+      "https://b2b.yugtorg.com/image/data/43949_2.png"
     ],
     "available": true,
     "price": 1499.0,
@@ -8094,26 +8089,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-4871",
-    "sku": "99-00005550",
-    "category": "Ajax та охоронна сигналізація",
-    "subcategory": "",
-    "brand": "Tiras",
-    "name": "Клавіатура Тірас",
-    "model": "Tiras K-LED8",
-    "description": "Кількість транзисторних виходів: 1; Напруга живлення (входи &laquo;12V&raquo;, &laquo;GND&raquo;): 10,8 &ndash; 13,8 В; Струм споживання без додаткових навантажень на виходах: 40 мА; Струм, що комутується транзисторним виходом: 50 мА; Габаритні розміри: 126х93х34 мм; Маса: 0,2 кг",
-    "features": [
-      "Живлення: 10.8 – 13.8 В (входы «12В», «GND»)"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/K-LED_8_front_open_light.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/K-LED_8_front_open_light.webp"
-    ],
-    "available": true,
-    "price": 2857.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-14685",
     "sku": "99-00021068",
     "category": "Ajax та охоронна сигналізація",
@@ -8134,49 +8109,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 8989.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-14686",
-    "sku": "99-00021069",
-    "category": "Ajax та охоронна сигналізація",
-    "subcategory": "",
-    "brand": "Tiras",
-    "name": "Прилад приймально-контрольний",
-    "model": "Tiras \"Orion NOVA M (LTE)\"",
-    "description": "● 8 дротові зони в базі, До 64 зон в системі (дротові + бездротові);● 32 груп/64 користувача/3 виходи/8 сценаріїв;● Силовий транзисторний вихід, Сигнальний транзисторний вихід;● Канали зв'язку 4G та 2G (GSM), 4G (LTE), 2SIM;● Основне живлення: 220 В, 50 Гц;● Резервне живлення: Свинцево-кислотна АКБ або LiFePO4 АКБ на 7/9 А&bull;год",
-    "features": [
-      "Живлення: 187-242 В",
-      "Wi-Fi",
-      "WiFi",
-      "57 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-08/nova-lte.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-08/nova-lte.webp"
-    ],
-    "available": true,
-    "price": 9768.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-21626",
-    "sku": "99-10037977",
-    "category": "Ajax та охоронна сигналізація",
-    "subcategory": "",
-    "brand": "Tiras",
-    "name": "Світлозвуковий оповіщувач внутрішній Тірас",
-    "model": "Tiras ОСЗ \"Джміль-1\" (12/24V)",
-    "description": "Робоча напруга: 9 В - 30 В; Рівень звуку: 80 дБ; Частота звуку: 2,5 кГц ... 4,5 кГц; Діапазон робочих температур: -25 &deg; С ... + 70 &deg; С; Ступінь захисту оболонки: IP 43С; Габаритні розміри: 154х90х41 мм; Маса: 0,22 кг",
-    "features": [
-      "Живлення: 9 В - 30 В"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/%D0%94%D0%B6%D0%BC%D1%96%D0%BB%D1%8C_Front.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/%D0%94%D0%B6%D0%BC%D1%96%D0%BB%D1%8C_Front.webp"
-    ],
-    "available": true,
-    "price": 1608.0,
     "source_supplier": "viatec"
   },
   {
@@ -9496,8 +9428,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/14734.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/14734.png",
-      "https://b2b.yugtorg.com/image/data/14734_1.png",
-      "https://b2b.yugtorg.com/image/data/14734_2.png"
+      "https://b2b.yugtorg.com/image/data/14734_2.png",
+      "https://b2b.yugtorg.com/image/data/14734_1.png"
     ],
     "available": true,
     "price": 180.0,
@@ -9619,9 +9551,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/11487.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/11487.png",
-      "https://b2b.yugtorg.com/image/data/11487_1.png",
       "https://b2b.yugtorg.com/image/data/11487_3.png",
-      "https://b2b.yugtorg.com/image/data/11487_2.png"
+      "https://b2b.yugtorg.com/image/data/11487_2.png",
+      "https://b2b.yugtorg.com/image/data/11487_1.png"
     ],
     "available": true,
     "price": 1053.0,
@@ -9662,8 +9594,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/44333.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/44333.png",
-      "https://b2b.yugtorg.com/image/data/44333_1.png",
-      "https://b2b.yugtorg.com/image/data/44333_2.png"
+      "https://b2b.yugtorg.com/image/data/44333_2.png",
+      "https://b2b.yugtorg.com/image/data/44333_1.png"
     ],
     "available": true,
     "price": 930.0,
@@ -9775,8 +9707,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/14932.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/14932.png",
-      "https://b2b.yugtorg.com/image/data/14932_2.png",
-      "https://b2b.yugtorg.com/image/data/14932_1.png"
+      "https://b2b.yugtorg.com/image/data/14932_1.png",
+      "https://b2b.yugtorg.com/image/data/14932_2.png"
     ],
     "available": true,
     "price": 761.0,
@@ -9899,8 +9831,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47297.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47297.png",
-      "https://b2b.yugtorg.com/image/data/47297_1.png",
-      "https://b2b.yugtorg.com/image/data/47297_2.png"
+      "https://b2b.yugtorg.com/image/data/47297_2.png",
+      "https://b2b.yugtorg.com/image/data/47297_1.png"
     ],
     "available": true,
     "price": 528.0,
@@ -12981,32 +12913,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "yugtorg-35528",
-    "sku": "Ba-2202",
-    "category": "Інструменти",
-    "subcategory": "",
-    "brand": "BAKU",
-    "name": "Мультиметр BAKKU Ba-2202, Вимірювання: V DC / AC, A DC / AC, Ω, C, F, °C / °F, NCV, Продзвонювання, Ліхтарик",
-    "model": "Ba-2202",
-    "description": "Мультиметр BAKKU Ba-2202 - це багатофункціональний вимірювальний прилад для професійного та побутового використання. Пристрій поєднує широкий вибір функцій для проведення електричних вимірювань з простотою управління і компактними розмірами. Мультиметр застосовується для діагностики та ремонту електрообладнання, проведення електромонтажних робіт, обслуговування автомобільної електроніки та побутових приладів. Електрики та електронники використовують його для перевірки ланцюгів, вимірювання параметрів компонентів та пошуку несправностей. Домовласники можуть застосовувати для перевірки розеток, вимикачів та побутової техніки. Пристрій оснащений функцією автоматичного вибору діапазону, що спрощує процес вимірювання для користувачів-початківців. Вбудований безконтактний детектор напруги (NCV) дозволяє безпечно визначати наявність напруги у дротах без прямого контакту. Функція дзвінка ланцюга зі звуковою індикацією полегшує перевірку цілісності з`єднань. Характеристики: • Вимірювані параметри: напруга, струм, опір, ємність, частота, температура • Постійна напруга: до 1000 В • Змінна напруга: до 750 В • Постійний струм: до 10 А • Змінний струм: до 10 А • Опір: до 100 МОм • Місткість: до 100 мФ • Частота: до 1000 Гц • Перевірка діодів: є • Продзвонювання ланцюга: є • Безконтактне визначення напруги (NCV): є • Ліхтарик: є • Живлення: 2 батареї ААА • Дисплей: РК • Розміри: 145×70×57 мм • Вага: 150 г Мультиметр BAKKU Ba-2202 відрізняється надійністю, точністю вимірювань та зручністю використання. Ергономічний корпус із захищеними роз`ємами забезпечує безпеку роботи, а чіткий дисплей із підсвічуванням дозволяє комфортно знімати показання в різних умовах. Комплектація включає вимірювальні щупи та батареї, що робить прилад готовим до роботи одразу після покупки.",
-    "features": [
-      "57 мм"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/35528.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/35528.png",
-      "https://b2b.yugtorg.com/image/data/35528_1.png",
-      "https://b2b.yugtorg.com/image/data/35528_2.png",
-      "https://b2b.yugtorg.com/image/data/35528_3.png",
-      "https://b2b.yugtorg.com/image/data/35528_4.png",
-      "https://b2b.yugtorg.com/image/data/35528_5.png",
-      "https://b2b.yugtorg.com/image/data/35528_6.png"
-    ],
-    "available": true,
-    "price": 1498.0,
-    "source_supplier": "yugtorg"
-  },
-  {
     "id": "yugtorg-12837",
     "sku": "BA-28",
     "category": "Інструменти",
@@ -13120,8 +13026,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/11247.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/11247.png",
-      "https://b2b.yugtorg.com/image/data/11247_1.png",
-      "https://b2b.yugtorg.com/image/data/11247_2.png"
+      "https://b2b.yugtorg.com/image/data/11247_2.png",
+      "https://b2b.yugtorg.com/image/data/11247_1.png"
     ],
     "available": true,
     "price": 350.0,
@@ -13634,6 +13540,28 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-12607",
+    "sku": "99-00018112",
+    "category": "Інструменти",
+    "subcategory": "",
+    "brand": "Bosch",
+    "name": "Зарядний пристрій + 2 акумулятора",
+    "model": "Bosch GAL 18V-40 + GBA 18 В 4.0 Ah (1600A019S0)",
+    "description": "● Напруга акумулятора 10.8, 12, 14.4, 18 В;● Акумулятор Li-Ion 4 Аг",
+    "features": [
+      "Живлення: 10.8, 12, 14.4, 18 В",
+      "0 Ah",
+      "4 Аг"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-03/1600A019S0.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-03/1600A019S0.webp"
+    ],
+    "available": true,
+    "price": 9379.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-10372",
     "sku": "99-00014638",
     "category": "Інструменти",
@@ -13982,24 +13910,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 1142.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-15607",
-    "sku": "99-00023353",
-    "category": "Інструменти",
-    "subcategory": "",
-    "brand": "Bosch",
-    "name": "Набір ручних інструментів з сумкою",
-    "model": "Bosch GWT 20 (1600A02H5B)",
-    "description": "● Сумка: макс. навантаження: 23 кг;● Розмір шестигранних ключів в наборі: 1,5, 2, 2,5, 3, 4, 5, 6, 8, 10 mm;● Розмір викруток в наборі: SL 6.5x125; PH2x125; SL3.5x75;● Довжина водяного рівню в наборі: 25 см",
-    "features": [],
-    "image": "https://viatec.ua/upload/images/prod/2024-11/1600A02H5B.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-11/1600A02H5B.webp"
-    ],
-    "available": true,
-    "price": 11421.0,
     "source_supplier": "viatec"
   },
   {
@@ -14454,10 +14364,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/24126.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/24126.png",
-      "https://b2b.yugtorg.com/image/data/24126_1.png",
       "https://b2b.yugtorg.com/image/data/24126_2.png",
-      "https://b2b.yugtorg.com/image/data/24126_3.png",
-      "https://b2b.yugtorg.com/image/data/24126_4.png"
+      "https://b2b.yugtorg.com/image/data/24126_1.png",
+      "https://b2b.yugtorg.com/image/data/24126_4.png",
+      "https://b2b.yugtorg.com/image/data/24126_3.png"
     ],
     "available": true,
     "price": 965.0,
@@ -14476,10 +14386,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/26521.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/26521.png",
-      "https://b2b.yugtorg.com/image/data/26521_1.png",
-      "https://b2b.yugtorg.com/image/data/26521_3.png",
+      "https://b2b.yugtorg.com/image/data/26521_4.png",
       "https://b2b.yugtorg.com/image/data/26521_2.png",
-      "https://b2b.yugtorg.com/image/data/26521_4.png"
+      "https://b2b.yugtorg.com/image/data/26521_1.png",
+      "https://b2b.yugtorg.com/image/data/26521_3.png"
     ],
     "available": true,
     "price": 1190.0,
@@ -14543,8 +14453,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/41264.png",
       "https://b2b.yugtorg.com/image/data/41264_2.png",
-      "https://b2b.yugtorg.com/image/data/41264_1.png",
-      "https://b2b.yugtorg.com/image/data/41264_3.png"
+      "https://b2b.yugtorg.com/image/data/41264_3.png",
+      "https://b2b.yugtorg.com/image/data/41264_1.png"
     ],
     "available": true,
     "price": 590.0,
@@ -14563,9 +14473,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/41319.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/41319.png",
-      "https://b2b.yugtorg.com/image/data/41319_2.png",
       "https://b2b.yugtorg.com/image/data/41319_3.png",
-      "https://b2b.yugtorg.com/image/data/41319_1.png"
+      "https://b2b.yugtorg.com/image/data/41319_1.png",
+      "https://b2b.yugtorg.com/image/data/41319_2.png"
     ],
     "available": true,
     "price": 420.0,
@@ -14586,12 +14496,12 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47446.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47446.png",
+      "https://b2b.yugtorg.com/image/data/47446_5.png",
       "https://b2b.yugtorg.com/image/data/47446_1.png",
       "https://b2b.yugtorg.com/image/data/47446_2.png",
-      "https://b2b.yugtorg.com/image/data/47446_4.png",
+      "https://b2b.yugtorg.com/image/data/47446_6.png",
       "https://b2b.yugtorg.com/image/data/47446_3.png",
-      "https://b2b.yugtorg.com/image/data/47446_5.png",
-      "https://b2b.yugtorg.com/image/data/47446_6.png"
+      "https://b2b.yugtorg.com/image/data/47446_4.png"
     ],
     "available": true,
     "price": 599.0,
@@ -14612,11 +14522,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47447.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47447.png",
-      "https://b2b.yugtorg.com/image/data/47447_2.png",
-      "https://b2b.yugtorg.com/image/data/47447_1.png",
       "https://b2b.yugtorg.com/image/data/47447_5.png",
       "https://b2b.yugtorg.com/image/data/47447_3.png",
-      "https://b2b.yugtorg.com/image/data/47447_4.png"
+      "https://b2b.yugtorg.com/image/data/47447_4.png",
+      "https://b2b.yugtorg.com/image/data/47447_2.png",
+      "https://b2b.yugtorg.com/image/data/47447_1.png"
     ],
     "available": true,
     "price": 350.0,
@@ -14637,12 +14547,12 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47448.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47448.png",
-      "https://b2b.yugtorg.com/image/data/47448_1.png",
-      "https://b2b.yugtorg.com/image/data/47448_2.png",
       "https://b2b.yugtorg.com/image/data/47448_3.png",
+      "https://b2b.yugtorg.com/image/data/47448_1.png",
       "https://b2b.yugtorg.com/image/data/47448_4.png",
+      "https://b2b.yugtorg.com/image/data/47448_6.png",
       "https://b2b.yugtorg.com/image/data/47448_5.png",
-      "https://b2b.yugtorg.com/image/data/47448_6.png"
+      "https://b2b.yugtorg.com/image/data/47448_2.png"
     ],
     "available": true,
     "price": 499.0,
@@ -14661,10 +14571,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/14246.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/14246.png",
-      "https://b2b.yugtorg.com/image/data/14246_4.png",
-      "https://b2b.yugtorg.com/image/data/14246_2.png",
       "https://b2b.yugtorg.com/image/data/14246_1.png",
-      "https://b2b.yugtorg.com/image/data/14246_3.png"
+      "https://b2b.yugtorg.com/image/data/14246_4.png",
+      "https://b2b.yugtorg.com/image/data/14246_3.png",
+      "https://b2b.yugtorg.com/image/data/14246_2.png"
     ],
     "available": true,
     "price": 850.0,
@@ -15017,46 +14927,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-18949",
-    "sku": "99-10028308",
-    "category": "Інструменти",
-    "subcategory": "",
-    "brand": "Krause",
-    "name": "Універсальна 3-секційна драбина 3х6 ст",
-    "model": "KRAUSE Corda",
-    "description": "Універсальні 3-секційні сходи можуть використовуватися як звичайні приставні або висувні сходи, або як драбини. Відмінно підійде для побутового використання на дачах, приватних котеджах і для різноманітних робіт на висоті в офісах, магазинах, ресторанах.",
-    "features": [
-      "Матеріал: алюміній"
-    ],
-    "image": "https://viatec.ua/upload/2/corda3x6-500x500.webp",
-    "images": [
-      "https://viatec.ua/upload/2/corda3x6-500x500.webp"
-    ],
-    "available": true,
-    "price": 6750.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-9837",
-    "sku": "99-00013678",
-    "category": "Інструменти",
-    "subcategory": "",
-    "brand": "Krause",
-    "name": "Універсальні 3-секційні сходи 3х10 сх",
-    "model": "KRAUSE Tribilo",
-    "description": "Професійні універсальні сходи KRAUSE Tribilo 3х10 можуть застосовуватися як приставні сходи і в положенні драбини. Відмінно підійде для домашнього використання у приватних будинках та для професійної діяльності. Модель відповідає європейським нормам безпеки, легко витримує 150 кг навантаження.",
-    "features": [
-      "Матеріал: алюміній"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2023-05/KRAUSE_Tribilo310.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2023-05/KRAUSE_Tribilo310.webp"
-    ],
-    "available": true,
-    "price": 14940.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "yugtorg-32375",
     "sku": "HT-812A",
     "category": "Інструменти",
@@ -15194,10 +15064,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02089.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02089.png",
-      "https://b2b.yugtorg.com/image/data/02089_4.png",
-      "https://b2b.yugtorg.com/image/data/02089_2.png",
       "https://b2b.yugtorg.com/image/data/02089_3.png",
-      "https://b2b.yugtorg.com/image/data/02089_1.png"
+      "https://b2b.yugtorg.com/image/data/02089_2.png",
+      "https://b2b.yugtorg.com/image/data/02089_1.png",
+      "https://b2b.yugtorg.com/image/data/02089_4.png"
     ],
     "available": true,
     "price": 425.0,
@@ -16141,9 +16011,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/15329.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/15329.png",
-      "https://b2b.yugtorg.com/image/data/15329_2.png",
       "https://b2b.yugtorg.com/image/data/15329_1.png",
-      "https://b2b.yugtorg.com/image/data/15329_3.png"
+      "https://b2b.yugtorg.com/image/data/15329_3.png",
+      "https://b2b.yugtorg.com/image/data/15329_2.png"
     ],
     "available": true,
     "price": 470.0,
@@ -16202,8 +16072,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/00201.png",
       "https://b2b.yugtorg.com/image/data/00201_3.png",
-      "https://b2b.yugtorg.com/image/data/00201_2.png",
-      "https://b2b.yugtorg.com/image/data/00201_1.png"
+      "https://b2b.yugtorg.com/image/data/00201_1.png",
+      "https://b2b.yugtorg.com/image/data/00201_2.png"
     ],
     "available": true,
     "price": 175.0,
@@ -16222,8 +16092,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/08131.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/08131.png",
-      "https://b2b.yugtorg.com/image/data/08131_1.png",
-      "https://b2b.yugtorg.com/image/data/08131_2.png"
+      "https://b2b.yugtorg.com/image/data/08131_2.png",
+      "https://b2b.yugtorg.com/image/data/08131_1.png"
     ],
     "available": true,
     "price": 226.0,
@@ -16242,9 +16112,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/01301.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/01301.png",
+      "https://b2b.yugtorg.com/image/data/01301_3.png",
       "https://b2b.yugtorg.com/image/data/01301_1.png",
-      "https://b2b.yugtorg.com/image/data/01301_2.png",
-      "https://b2b.yugtorg.com/image/data/01301_3.png"
+      "https://b2b.yugtorg.com/image/data/01301_2.png"
     ],
     "available": true,
     "price": 296.0,
@@ -16269,27 +16139,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "yugtorg-4661",
-    "sku": "YT-ST-248BNC",
-    "category": "Інструменти",
-    "subcategory": "",
-    "brand": "MERLION",
-    "name": "Кабельний тестер Merlion ST-248BNC, RJ-45 + BNC",
-    "model": "YT-ST-248BNC",
-    "description": "Кабельний тестер Merlion ST-248BNC – важливий прилад для діагностики 'здоров`я' кабелю! Перед тим як створювати та монтувати кабельну мережу, необхідно перевірити кабелі на повну працездатність, щоб згодом усе ідеально працювало. Особливості: • перевірка на коротке замикання, тестування на урвище, тестування полярності пар, тестування правильності розведення • індикація заряду батареї • індикація прямого або кросового з`єднання Характеристики: • для кабелю – RJ-45, BNC; • складається з активної та пасивної частини; • вбудований BNC термінатор – 25 / 50 Ом, • максимальна довжина кабелю, що тестується, - 100 метрів. • типи кабелів, що тестуються: - кручена пара EIA / TIA 568A / 568B RJ45 - коаксіальний кабель Ethernet BNC (10Base-T) - кручена пара FastNet 100Base-TX - 1000Base-TX - коаксіальний кабель Token Ring, AT&T 258A • роз`єми / контакти, що підтримуються - LAN, BNC",
-    "features": [],
-    "image": "https://b2b.yugtorg.com/image/data/04661.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/04661.png",
-      "https://b2b.yugtorg.com/image/data/04661_3.png",
-      "https://b2b.yugtorg.com/image/data/04661_2.png",
-      "https://b2b.yugtorg.com/image/data/04661_1.png"
-    ],
-    "available": true,
-    "price": 274.0,
-    "source_supplier": "yugtorg"
-  },
-  {
     "id": "yugtorg-4939",
     "sku": "YT-TL-468",
     "category": "Інструменти",
@@ -16302,9 +16151,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/04939.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/04939.png",
+      "https://b2b.yugtorg.com/image/data/04939_1.png",
       "https://b2b.yugtorg.com/image/data/04939_3.png",
-      "https://b2b.yugtorg.com/image/data/04939_2.png",
-      "https://b2b.yugtorg.com/image/data/04939_1.png"
+      "https://b2b.yugtorg.com/image/data/04939_2.png"
     ],
     "available": true,
     "price": 120.0,
@@ -16324,9 +16173,9 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/12017.png",
       "https://b2b.yugtorg.com/image/data/12017_1.png",
-      "https://b2b.yugtorg.com/image/data/12017_4.png",
       "https://b2b.yugtorg.com/image/data/12017_3.png",
-      "https://b2b.yugtorg.com/image/data/12017_2.png"
+      "https://b2b.yugtorg.com/image/data/12017_2.png",
+      "https://b2b.yugtorg.com/image/data/12017_4.png"
     ],
     "available": true,
     "price": 1040.0,
@@ -16417,8 +16266,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/01102.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/01102.png",
-      "https://b2b.yugtorg.com/image/data/01102_1.png",
-      "https://b2b.yugtorg.com/image/data/01102_2.png"
+      "https://b2b.yugtorg.com/image/data/01102_2.png",
+      "https://b2b.yugtorg.com/image/data/01102_1.png"
     ],
     "available": true,
     "price": 396.0,
@@ -16456,10 +16305,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/14210.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/14210.png",
-      "https://b2b.yugtorg.com/image/data/14210_1.png",
       "https://b2b.yugtorg.com/image/data/14210_3.png",
+      "https://b2b.yugtorg.com/image/data/14210_4.png",
       "https://b2b.yugtorg.com/image/data/14210_2.png",
-      "https://b2b.yugtorg.com/image/data/14210_4.png"
+      "https://b2b.yugtorg.com/image/data/14210_1.png"
     ],
     "available": true,
     "price": 190.0,
@@ -17344,31 +17193,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-10948",
-    "sku": "99-00015412",
-    "category": "Інструменти",
-    "subcategory": "",
-    "brand": "Metabo",
-    "name": "Набір приладдя",
-    "model": "Metabo «SP» (626719000)",
-    "description": "Складається з: насадки S 2. L = 25 мм (32 шт.): PH 1 x 1, PH 2 x 2, PH 3 x 1, PZ 1 x 1, PZ 2 x 2, PZ 3 x 1, SL 3 x 1,SL 4 x 1, SL 5 x 1, SL 6 x 1, H 3 x 1, H 4 x 1, H 5 x 1, H6 x 1, T 10 x 1, T 15 x 1, T 20 x 2, T 25 x 1, T 27 x 1, T 30 x 1, T 40 x 1, для гвинтів Torx-Tamper: T 10 x 1; T 15 x 1; T 20 x 2; T 25 x 1; T 27 x 1; T 30 x 1; T 40 x 1. L = 70 мм (6 шт.): PH 2 x 1, PZ 2 x 1, SL 6 x 1, T15 x 1, T20 x 1, T25 x1. Торцеві ключі з магнітом (3 шт.) 1 x 8,0 мм, 1 x 10,0 мм, 1 x 13,0 мм. 1 магнітний швидкозмінний тримач інструментальних насадок, 1 тримач інструментальних насадок з напрямною трубкою (загальна довжина 80 мм). 1 x шаблон, 1 x ніж для шпалер, 1 x магнітний тримач інструментальних насадок, 1 x зенкер, 1 x перехідник для торцевих ключів. Високоякісний міцний футляр спеціального дизайну Metabo.",
-    "features": [
-      "25 мм",
-      "70 мм",
-      "8,0 мм",
-      "10,0 мм",
-      "13,0 мм",
-      "80 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2023-08/2671900s_50.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2023-08/2671900s_50.webp"
-    ],
-    "available": true,
-    "price": 938.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-10971",
     "sku": "99-00015430",
     "category": "Інструменти",
@@ -17670,6 +17494,27 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 301.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-8848",
+    "sku": "99-00012282",
+    "category": "Інструменти",
+    "subcategory": "",
+    "brand": "Pro'sKit",
+    "name": "Бокорізи",
+    "model": "Pro'sKit 1PK-101-E",
+    "description": "Зручні нековзаючі ручки. Матеріал - сталь SK7. Довжина - 130 мм",
+    "features": [
+      "Матеріал: сталь SK7",
+      "130 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-02/1PK-101-E-big.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-02/1PK-101-E-big.webp"
+    ],
+    "available": true,
+    "price": 331.0,
     "source_supplier": "viatec"
   },
   {
@@ -18613,11 +18458,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/03560.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/03560.png",
-      "https://b2b.yugtorg.com/image/data/03560_4.png",
+      "https://b2b.yugtorg.com/image/data/03560_3.png",
       "https://b2b.yugtorg.com/image/data/03560_5.png",
       "https://b2b.yugtorg.com/image/data/03560_1.png",
       "https://b2b.yugtorg.com/image/data/03560_2.png",
-      "https://b2b.yugtorg.com/image/data/03560_3.png"
+      "https://b2b.yugtorg.com/image/data/03560_4.png"
     ],
     "available": true,
     "price": 1060.0,
@@ -18683,10 +18528,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02065.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02065.png",
-      "https://b2b.yugtorg.com/image/data/02065_1.png",
       "https://b2b.yugtorg.com/image/data/02065_3.png",
+      "https://b2b.yugtorg.com/image/data/02065_4.png",
       "https://b2b.yugtorg.com/image/data/02065_2.png",
-      "https://b2b.yugtorg.com/image/data/02065_4.png"
+      "https://b2b.yugtorg.com/image/data/02065_1.png"
     ],
     "available": true,
     "price": 1692.0,
@@ -18731,10 +18576,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02070.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02070.png",
-      "https://b2b.yugtorg.com/image/data/02070_3.png",
+      "https://b2b.yugtorg.com/image/data/02070_1.png",
       "https://b2b.yugtorg.com/image/data/02070_2.png",
-      "https://b2b.yugtorg.com/image/data/02070_4.png",
-      "https://b2b.yugtorg.com/image/data/02070_1.png"
+      "https://b2b.yugtorg.com/image/data/02070_3.png",
+      "https://b2b.yugtorg.com/image/data/02070_4.png"
     ],
     "available": true,
     "price": 2031.0,
@@ -18778,8 +18623,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/08154.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/08154.png",
-      "https://b2b.yugtorg.com/image/data/08154_3.png",
       "https://b2b.yugtorg.com/image/data/08154_4.png",
+      "https://b2b.yugtorg.com/image/data/08154_3.png",
       "https://b2b.yugtorg.com/image/data/08154_2.png",
       "https://b2b.yugtorg.com/image/data/08154_1.png"
     ],
@@ -18827,10 +18672,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/21824.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/21824.png",
-      "https://b2b.yugtorg.com/image/data/21824_3.png",
       "https://b2b.yugtorg.com/image/data/21824_2.png",
-      "https://b2b.yugtorg.com/image/data/21824_1.png",
-      "https://b2b.yugtorg.com/image/data/21824_4.png"
+      "https://b2b.yugtorg.com/image/data/21824_3.png",
+      "https://b2b.yugtorg.com/image/data/21824_4.png",
+      "https://b2b.yugtorg.com/image/data/21824_1.png"
     ],
     "available": true,
     "price": 1188.0,
@@ -18853,9 +18698,9 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/21825.png",
       "https://b2b.yugtorg.com/image/data/21825_4.png",
+      "https://b2b.yugtorg.com/image/data/21825_3.png",
       "https://b2b.yugtorg.com/image/data/21825_1.png",
-      "https://b2b.yugtorg.com/image/data/21825_2.png",
-      "https://b2b.yugtorg.com/image/data/21825_3.png"
+      "https://b2b.yugtorg.com/image/data/21825_2.png"
     ],
     "available": true,
     "price": 908.0,
@@ -18874,10 +18719,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/21826.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/21826.png",
-      "https://b2b.yugtorg.com/image/data/21826_1.png",
       "https://b2b.yugtorg.com/image/data/21826_4.png",
       "https://b2b.yugtorg.com/image/data/21826_3.png",
-      "https://b2b.yugtorg.com/image/data/21826_2.png"
+      "https://b2b.yugtorg.com/image/data/21826_2.png",
+      "https://b2b.yugtorg.com/image/data/21826_1.png"
     ],
     "available": true,
     "price": 1584.0,
@@ -18900,8 +18745,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/21827.png",
       "https://b2b.yugtorg.com/image/data/21827_1.png",
-      "https://b2b.yugtorg.com/image/data/21827_2.png",
-      "https://b2b.yugtorg.com/image/data/21827_3.png"
+      "https://b2b.yugtorg.com/image/data/21827_3.png",
+      "https://b2b.yugtorg.com/image/data/21827_2.png"
     ],
     "available": true,
     "price": 1217.0,
@@ -18920,10 +18765,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02042.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02042.png",
-      "https://b2b.yugtorg.com/image/data/02042_1.png",
-      "https://b2b.yugtorg.com/image/data/02042_4.png",
+      "https://b2b.yugtorg.com/image/data/02042_3.png",
       "https://b2b.yugtorg.com/image/data/02042_2.png",
-      "https://b2b.yugtorg.com/image/data/02042_3.png"
+      "https://b2b.yugtorg.com/image/data/02042_4.png",
+      "https://b2b.yugtorg.com/image/data/02042_1.png"
     ],
     "available": true,
     "price": 1440.0,
@@ -18946,8 +18791,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/02038.png",
       "https://b2b.yugtorg.com/image/data/02038_3.png",
-      "https://b2b.yugtorg.com/image/data/02038_4.png",
       "https://b2b.yugtorg.com/image/data/02038_2.png",
+      "https://b2b.yugtorg.com/image/data/02038_4.png",
       "https://b2b.yugtorg.com/image/data/02038_1.png"
     ],
     "available": true,
@@ -18973,8 +18818,8 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/08148.png",
       "https://b2b.yugtorg.com/image/data/08148_2.png",
       "https://b2b.yugtorg.com/image/data/08148_4.png",
-      "https://b2b.yugtorg.com/image/data/08148_1.png",
-      "https://b2b.yugtorg.com/image/data/08148_3.png"
+      "https://b2b.yugtorg.com/image/data/08148_3.png",
+      "https://b2b.yugtorg.com/image/data/08148_1.png"
     ],
     "available": true,
     "price": 2484.0,
@@ -18996,10 +18841,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/08149.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/08149.png",
-      "https://b2b.yugtorg.com/image/data/08149_1.png",
-      "https://b2b.yugtorg.com/image/data/08149_4.png",
       "https://b2b.yugtorg.com/image/data/08149_3.png",
-      "https://b2b.yugtorg.com/image/data/08149_2.png"
+      "https://b2b.yugtorg.com/image/data/08149_4.png",
+      "https://b2b.yugtorg.com/image/data/08149_2.png",
+      "https://b2b.yugtorg.com/image/data/08149_1.png"
     ],
     "available": true,
     "price": 3060.0,
@@ -19021,10 +18866,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/19580.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/19580.png",
-      "https://b2b.yugtorg.com/image/data/19580_2.png",
-      "https://b2b.yugtorg.com/image/data/19580_1.png",
       "https://b2b.yugtorg.com/image/data/19580_3.png",
-      "https://b2b.yugtorg.com/image/data/19580_4.png"
+      "https://b2b.yugtorg.com/image/data/19580_4.png",
+      "https://b2b.yugtorg.com/image/data/19580_2.png",
+      "https://b2b.yugtorg.com/image/data/19580_1.png"
     ],
     "available": true,
     "price": 3161.0,
@@ -19070,9 +18915,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02054.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02054.png",
-      "https://b2b.yugtorg.com/image/data/02054_4.png",
       "https://b2b.yugtorg.com/image/data/02054_2.png",
       "https://b2b.yugtorg.com/image/data/02054_3.png",
+      "https://b2b.yugtorg.com/image/data/02054_4.png",
       "https://b2b.yugtorg.com/image/data/02054_1.png"
     ],
     "available": true,
@@ -19147,9 +18992,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/08157.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/08157.png",
+      "https://b2b.yugtorg.com/image/data/08157_3.png",
       "https://b2b.yugtorg.com/image/data/08157_2.png",
-      "https://b2b.yugtorg.com/image/data/08157_1.png",
-      "https://b2b.yugtorg.com/image/data/08157_3.png"
+      "https://b2b.yugtorg.com/image/data/08157_1.png"
     ],
     "available": true,
     "price": 2810.0,
@@ -19219,10 +19064,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/26099.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/26099.png",
-      "https://b2b.yugtorg.com/image/data/26099_1.png",
+      "https://b2b.yugtorg.com/image/data/26099_2.png",
       "https://b2b.yugtorg.com/image/data/26099_3.png",
       "https://b2b.yugtorg.com/image/data/26099_4.png",
-      "https://b2b.yugtorg.com/image/data/26099_2.png"
+      "https://b2b.yugtorg.com/image/data/26099_1.png"
     ],
     "available": true,
     "price": 1980.0,
@@ -19245,10 +19090,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/08151.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/08151.png",
+      "https://b2b.yugtorg.com/image/data/08151_3.png",
       "https://b2b.yugtorg.com/image/data/08151_4.png",
-      "https://b2b.yugtorg.com/image/data/08151_2.png",
       "https://b2b.yugtorg.com/image/data/08151_1.png",
-      "https://b2b.yugtorg.com/image/data/08151_3.png"
+      "https://b2b.yugtorg.com/image/data/08151_2.png"
     ],
     "available": true,
     "price": 1354.0,
@@ -19270,14 +19115,14 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/07953.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/07953.png",
-      "https://b2b.yugtorg.com/image/data/07953_5.png",
       "https://b2b.yugtorg.com/image/data/07953_1.png",
-      "https://b2b.yugtorg.com/image/data/07953_3.png",
+      "https://b2b.yugtorg.com/image/data/07953_5.png",
+      "https://b2b.yugtorg.com/image/data/07953_2.png",
       "https://b2b.yugtorg.com/image/data/07953_4.png",
-      "https://b2b.yugtorg.com/image/data/07953_2.png"
+      "https://b2b.yugtorg.com/image/data/07953_3.png"
     ],
     "available": true,
-    "price": 764.0,
+    "price": 850.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -19293,9 +19138,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46582.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46582.png",
-      "https://b2b.yugtorg.com/image/data/46582_2.png",
       "https://b2b.yugtorg.com/image/data/46582_3.png",
-      "https://b2b.yugtorg.com/image/data/46582_1.png"
+      "https://b2b.yugtorg.com/image/data/46582_1.png",
+      "https://b2b.yugtorg.com/image/data/46582_2.png"
     ],
     "available": true,
     "price": 1073.0,
@@ -19318,8 +19163,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/43463.png",
       "https://b2b.yugtorg.com/image/data/43463_2.png",
-      "https://b2b.yugtorg.com/image/data/43463_3.png",
-      "https://b2b.yugtorg.com/image/data/43463_1.png"
+      "https://b2b.yugtorg.com/image/data/43463_1.png",
+      "https://b2b.yugtorg.com/image/data/43463_3.png"
     ],
     "available": true,
     "price": 1354.0,
@@ -19340,8 +19185,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02072.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02072.png",
-      "https://b2b.yugtorg.com/image/data/02072_1.png",
-      "https://b2b.yugtorg.com/image/data/02072_2.png"
+      "https://b2b.yugtorg.com/image/data/02072_2.png",
+      "https://b2b.yugtorg.com/image/data/02072_1.png"
     ],
     "available": true,
     "price": 1750.0,
@@ -19360,8 +19205,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02071.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02071.png",
-      "https://b2b.yugtorg.com/image/data/02071_1.png",
-      "https://b2b.yugtorg.com/image/data/02071_2.png"
+      "https://b2b.yugtorg.com/image/data/02071_2.png",
+      "https://b2b.yugtorg.com/image/data/02071_1.png"
     ],
     "available": true,
     "price": 1923.0,
@@ -19382,9 +19227,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02064.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02064.png",
+      "https://b2b.yugtorg.com/image/data/02064_1.png",
       "https://b2b.yugtorg.com/image/data/02064_2.png",
-      "https://b2b.yugtorg.com/image/data/02064_3.png",
-      "https://b2b.yugtorg.com/image/data/02064_1.png"
+      "https://b2b.yugtorg.com/image/data/02064_3.png"
     ],
     "available": true,
     "price": 2600.0,
@@ -19406,9 +19251,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02069.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02069.png",
-      "https://b2b.yugtorg.com/image/data/02069_1.png",
       "https://b2b.yugtorg.com/image/data/02069_2.png",
-      "https://b2b.yugtorg.com/image/data/02069_3.png"
+      "https://b2b.yugtorg.com/image/data/02069_3.png",
+      "https://b2b.yugtorg.com/image/data/02069_1.png"
     ],
     "available": true,
     "price": 2750.0,
@@ -19450,10 +19295,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02049.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02049.png",
-      "https://b2b.yugtorg.com/image/data/02049_1.png",
       "https://b2b.yugtorg.com/image/data/02049_3.png",
       "https://b2b.yugtorg.com/image/data/02049_2.png",
-      "https://b2b.yugtorg.com/image/data/02049_4.png"
+      "https://b2b.yugtorg.com/image/data/02049_4.png",
+      "https://b2b.yugtorg.com/image/data/02049_1.png"
     ],
     "available": true,
     "price": 2175.0,
@@ -19475,8 +19320,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/21830.png",
       "https://b2b.yugtorg.com/image/data/21830_1.png",
-      "https://b2b.yugtorg.com/image/data/21830_2.png",
       "https://b2b.yugtorg.com/image/data/21830_3.png",
+      "https://b2b.yugtorg.com/image/data/21830_2.png",
       "https://b2b.yugtorg.com/image/data/21830_4.png"
     ],
     "available": true,
@@ -19496,9 +19341,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/21831.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/21831.png",
-      "https://b2b.yugtorg.com/image/data/21831_2.png",
-      "https://b2b.yugtorg.com/image/data/21831_3.png",
       "https://b2b.yugtorg.com/image/data/21831_4.png",
+      "https://b2b.yugtorg.com/image/data/21831_3.png",
+      "https://b2b.yugtorg.com/image/data/21831_2.png",
       "https://b2b.yugtorg.com/image/data/21831_1.png"
     ],
     "available": true,
@@ -19542,9 +19387,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02068.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02068.png",
-      "https://b2b.yugtorg.com/image/data/02068_1.png",
+      "https://b2b.yugtorg.com/image/data/02068_3.png",
       "https://b2b.yugtorg.com/image/data/02068_2.png",
-      "https://b2b.yugtorg.com/image/data/02068_3.png"
+      "https://b2b.yugtorg.com/image/data/02068_1.png"
     ],
     "available": true,
     "price": 3190.0,
@@ -19563,9 +19408,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46275.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46275.png",
-      "https://b2b.yugtorg.com/image/data/46275_3.png",
+      "https://b2b.yugtorg.com/image/data/46275_1.png",
       "https://b2b.yugtorg.com/image/data/46275_2.png",
-      "https://b2b.yugtorg.com/image/data/46275_1.png"
+      "https://b2b.yugtorg.com/image/data/46275_3.png"
     ],
     "available": true,
     "price": 2490.0,
@@ -19586,9 +19431,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46276.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46276.png",
+      "https://b2b.yugtorg.com/image/data/46276_1.png",
       "https://b2b.yugtorg.com/image/data/46276_2.png",
-      "https://b2b.yugtorg.com/image/data/46276_3.png",
-      "https://b2b.yugtorg.com/image/data/46276_1.png"
+      "https://b2b.yugtorg.com/image/data/46276_3.png"
     ],
     "available": true,
     "price": 2980.0,
@@ -19610,9 +19455,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02045.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02045.png",
-      "https://b2b.yugtorg.com/image/data/02045_2.png",
+      "https://b2b.yugtorg.com/image/data/02045_1.png",
       "https://b2b.yugtorg.com/image/data/02045_3.png",
-      "https://b2b.yugtorg.com/image/data/02045_1.png"
+      "https://b2b.yugtorg.com/image/data/02045_2.png"
     ],
     "available": true,
     "price": 2369.0,
@@ -19658,8 +19503,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/02057.png",
       "https://b2b.yugtorg.com/image/data/02057_3.png",
-      "https://b2b.yugtorg.com/image/data/02057_2.png",
-      "https://b2b.yugtorg.com/image/data/02057_1.png"
+      "https://b2b.yugtorg.com/image/data/02057_1.png",
+      "https://b2b.yugtorg.com/image/data/02057_2.png"
     ],
     "available": true,
     "price": 4119.0,
@@ -19701,8 +19546,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/21832.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/21832.png",
-      "https://b2b.yugtorg.com/image/data/21832_1.png",
-      "https://b2b.yugtorg.com/image/data/21832_2.png"
+      "https://b2b.yugtorg.com/image/data/21832_2.png",
+      "https://b2b.yugtorg.com/image/data/21832_1.png"
     ],
     "available": true,
     "price": 9425.0,
@@ -19721,11 +19566,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46958.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46958.png",
-      "https://b2b.yugtorg.com/image/data/46958_3.png",
       "https://b2b.yugtorg.com/image/data/46958_1.png",
-      "https://b2b.yugtorg.com/image/data/46958_4.png",
       "https://b2b.yugtorg.com/image/data/46958_5.png",
-      "https://b2b.yugtorg.com/image/data/46958_2.png"
+      "https://b2b.yugtorg.com/image/data/46958_2.png",
+      "https://b2b.yugtorg.com/image/data/46958_3.png",
+      "https://b2b.yugtorg.com/image/data/46958_4.png"
     ],
     "available": true,
     "price": 11283.0,
@@ -19744,11 +19589,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46960.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46960.png",
-      "https://b2b.yugtorg.com/image/data/46960_1.png",
+      "https://b2b.yugtorg.com/image/data/46960_3.png",
+      "https://b2b.yugtorg.com/image/data/46960_4.png",
       "https://b2b.yugtorg.com/image/data/46960_2.png",
       "https://b2b.yugtorg.com/image/data/46960_5.png",
-      "https://b2b.yugtorg.com/image/data/46960_4.png",
-      "https://b2b.yugtorg.com/image/data/46960_3.png"
+      "https://b2b.yugtorg.com/image/data/46960_1.png"
     ],
     "available": true,
     "price": 13256.0,
@@ -19767,11 +19612,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46959.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46959.png",
-      "https://b2b.yugtorg.com/image/data/46959_4.png",
+      "https://b2b.yugtorg.com/image/data/46959_3.png",
       "https://b2b.yugtorg.com/image/data/46959_1.png",
-      "https://b2b.yugtorg.com/image/data/46959_2.png",
+      "https://b2b.yugtorg.com/image/data/46959_4.png",
       "https://b2b.yugtorg.com/image/data/46959_5.png",
-      "https://b2b.yugtorg.com/image/data/46959_3.png"
+      "https://b2b.yugtorg.com/image/data/46959_2.png"
     ],
     "available": true,
     "price": 15516.0,
@@ -19793,11 +19638,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/21833.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/21833.png",
+      "https://b2b.yugtorg.com/image/data/21833_2.png",
       "https://b2b.yugtorg.com/image/data/21833_1.png",
       "https://b2b.yugtorg.com/image/data/21833_4.png",
-      "https://b2b.yugtorg.com/image/data/21833_3.png",
       "https://b2b.yugtorg.com/image/data/21833_5.png",
-      "https://b2b.yugtorg.com/image/data/21833_2.png"
+      "https://b2b.yugtorg.com/image/data/21833_3.png"
     ],
     "available": true,
     "price": 16090.0,
@@ -19819,11 +19664,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/03664.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/03664.png",
-      "https://b2b.yugtorg.com/image/data/03664_5.png",
       "https://b2b.yugtorg.com/image/data/03664_4.png",
       "https://b2b.yugtorg.com/image/data/03664_1.png",
+      "https://b2b.yugtorg.com/image/data/03664_3.png",
       "https://b2b.yugtorg.com/image/data/03664_2.png",
-      "https://b2b.yugtorg.com/image/data/03664_3.png"
+      "https://b2b.yugtorg.com/image/data/03664_5.png"
     ],
     "available": true,
     "price": 15905.0,
@@ -19842,11 +19687,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02073.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02073.png",
-      "https://b2b.yugtorg.com/image/data/02073_5.png",
       "https://b2b.yugtorg.com/image/data/02073_3.png",
       "https://b2b.yugtorg.com/image/data/02073_1.png",
+      "https://b2b.yugtorg.com/image/data/02073_4.png",
       "https://b2b.yugtorg.com/image/data/02073_2.png",
-      "https://b2b.yugtorg.com/image/data/02073_4.png"
+      "https://b2b.yugtorg.com/image/data/02073_5.png"
     ],
     "available": true,
     "price": 16920.0,
@@ -19868,8 +19713,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/21834.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/21834.png",
-      "https://b2b.yugtorg.com/image/data/21834_1.png",
       "https://b2b.yugtorg.com/image/data/21834_2.png",
+      "https://b2b.yugtorg.com/image/data/21834_1.png",
       "https://b2b.yugtorg.com/image/data/21834_3.png"
     ],
     "available": true,
@@ -20018,8 +19863,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/43635.png",
       "https://b2b.yugtorg.com/image/data/43635_3.png",
-      "https://b2b.yugtorg.com/image/data/43635_1.png",
-      "https://b2b.yugtorg.com/image/data/43635_2.png"
+      "https://b2b.yugtorg.com/image/data/43635_2.png",
+      "https://b2b.yugtorg.com/image/data/43635_1.png"
     ],
     "available": true,
     "price": 660.0,
@@ -20224,8 +20069,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/46918.png",
       "https://b2b.yugtorg.com/image/data/46918_2.png",
-      "https://b2b.yugtorg.com/image/data/46918_3.png",
-      "https://b2b.yugtorg.com/image/data/46918_1.png"
+      "https://b2b.yugtorg.com/image/data/46918_1.png",
+      "https://b2b.yugtorg.com/image/data/46918_3.png"
     ],
     "available": true,
     "price": 130.0,
@@ -20265,9 +20110,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/43478.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/43478.png",
-      "https://b2b.yugtorg.com/image/data/43478_3.png",
+      "https://b2b.yugtorg.com/image/data/43478_1.png",
       "https://b2b.yugtorg.com/image/data/43478_2.png",
-      "https://b2b.yugtorg.com/image/data/43478_1.png"
+      "https://b2b.yugtorg.com/image/data/43478_3.png"
     ],
     "available": true,
     "price": 339.0,
@@ -20407,11 +20252,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/01162.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/01162.png",
-      "https://b2b.yugtorg.com/image/data/01162_5.png",
       "https://b2b.yugtorg.com/image/data/01162_6.png",
-      "https://b2b.yugtorg.com/image/data/01162_3.png",
-      "https://b2b.yugtorg.com/image/data/01162_2.png",
       "https://b2b.yugtorg.com/image/data/01162_1.png",
+      "https://b2b.yugtorg.com/image/data/01162_2.png",
+      "https://b2b.yugtorg.com/image/data/01162_5.png",
+      "https://b2b.yugtorg.com/image/data/01162_3.png",
       "https://b2b.yugtorg.com/image/data/01162_4.png"
     ],
     "available": true,
@@ -20452,8 +20297,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/17278.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/17278.png",
-      "https://b2b.yugtorg.com/image/data/17278_1.png",
-      "https://b2b.yugtorg.com/image/data/17278_2.png"
+      "https://b2b.yugtorg.com/image/data/17278_2.png",
+      "https://b2b.yugtorg.com/image/data/17278_1.png"
     ],
     "available": true,
     "price": 144.0,
@@ -20472,8 +20317,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/23726.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/23726.png",
-      "https://b2b.yugtorg.com/image/data/23726_1.png",
-      "https://b2b.yugtorg.com/image/data/23726_2.png"
+      "https://b2b.yugtorg.com/image/data/23726_2.png",
+      "https://b2b.yugtorg.com/image/data/23726_1.png"
     ],
     "available": true,
     "price": 790.0,
@@ -20495,10 +20340,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18151.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18151.png",
-      "https://b2b.yugtorg.com/image/data/18151_3.png",
-      "https://b2b.yugtorg.com/image/data/18151_4.png",
+      "https://b2b.yugtorg.com/image/data/18151_2.png",
       "https://b2b.yugtorg.com/image/data/18151_1.png",
-      "https://b2b.yugtorg.com/image/data/18151_2.png"
+      "https://b2b.yugtorg.com/image/data/18151_4.png",
+      "https://b2b.yugtorg.com/image/data/18151_3.png"
     ],
     "available": true,
     "price": 1527.0,
@@ -20542,11 +20387,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02093.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02093.png",
-      "https://b2b.yugtorg.com/image/data/02093_5.png",
-      "https://b2b.yugtorg.com/image/data/02093_4.png",
+      "https://b2b.yugtorg.com/image/data/02093_2.png",
       "https://b2b.yugtorg.com/image/data/02093_3.png",
+      "https://b2b.yugtorg.com/image/data/02093_5.png",
       "https://b2b.yugtorg.com/image/data/02093_1.png",
-      "https://b2b.yugtorg.com/image/data/02093_2.png"
+      "https://b2b.yugtorg.com/image/data/02093_4.png"
     ],
     "available": true,
     "price": 1170.0,
@@ -20646,9 +20491,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/01682.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/01682.png",
-      "https://b2b.yugtorg.com/image/data/01682_2.png",
-      "https://b2b.yugtorg.com/image/data/01682_1.png",
       "https://b2b.yugtorg.com/image/data/01682_3.png",
+      "https://b2b.yugtorg.com/image/data/01682_1.png",
+      "https://b2b.yugtorg.com/image/data/01682_2.png",
       "https://b2b.yugtorg.com/image/data/01682_4.png"
     ],
     "available": true,
@@ -20735,8 +20580,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/01687.png",
       "https://b2b.yugtorg.com/image/data/01687_1.png",
-      "https://b2b.yugtorg.com/image/data/01687_2.png",
-      "https://b2b.yugtorg.com/image/data/01687_3.png"
+      "https://b2b.yugtorg.com/image/data/01687_3.png",
+      "https://b2b.yugtorg.com/image/data/01687_2.png"
     ],
     "available": true,
     "price": 260.0,
@@ -20792,8 +20637,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/06544.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/06544.png",
-      "https://b2b.yugtorg.com/image/data/06544_2.png",
       "https://b2b.yugtorg.com/image/data/06544_3.png",
+      "https://b2b.yugtorg.com/image/data/06544_2.png",
       "https://b2b.yugtorg.com/image/data/06544_1.png"
     ],
     "available": true,
@@ -20854,9 +20699,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/01693.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/01693.png",
-      "https://b2b.yugtorg.com/image/data/01693_2.png",
       "https://b2b.yugtorg.com/image/data/01693_1.png",
-      "https://b2b.yugtorg.com/image/data/01693_3.png"
+      "https://b2b.yugtorg.com/image/data/01693_3.png",
+      "https://b2b.yugtorg.com/image/data/01693_2.png"
     ],
     "available": true,
     "price": 339.0,
@@ -20875,9 +20720,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/01694.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/01694.png",
+      "https://b2b.yugtorg.com/image/data/01694_2.png",
       "https://b2b.yugtorg.com/image/data/01694_1.png",
-      "https://b2b.yugtorg.com/image/data/01694_3.png",
-      "https://b2b.yugtorg.com/image/data/01694_2.png"
+      "https://b2b.yugtorg.com/image/data/01694_3.png"
     ],
     "available": true,
     "price": 270.0,
@@ -20896,8 +20741,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/01455.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/01455.png",
-      "https://b2b.yugtorg.com/image/data/01455_3.png",
       "https://b2b.yugtorg.com/image/data/01455_2.png",
+      "https://b2b.yugtorg.com/image/data/01455_3.png",
       "https://b2b.yugtorg.com/image/data/01455_1.png"
     ],
     "available": true,
@@ -20917,9 +20762,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/01695.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/01695.png",
+      "https://b2b.yugtorg.com/image/data/01695_2.png",
       "https://b2b.yugtorg.com/image/data/01695_3.png",
-      "https://b2b.yugtorg.com/image/data/01695_1.png",
-      "https://b2b.yugtorg.com/image/data/01695_2.png"
+      "https://b2b.yugtorg.com/image/data/01695_1.png"
     ],
     "available": true,
     "price": 550.0,
@@ -20938,9 +20783,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02619.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02619.png",
-      "https://b2b.yugtorg.com/image/data/02619_1.png",
       "https://b2b.yugtorg.com/image/data/02619_2.png",
-      "https://b2b.yugtorg.com/image/data/02619_3.png"
+      "https://b2b.yugtorg.com/image/data/02619_3.png",
+      "https://b2b.yugtorg.com/image/data/02619_1.png"
     ],
     "available": true,
     "price": 400.0,
@@ -20959,10 +20804,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/26500.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/26500.png",
-      "https://b2b.yugtorg.com/image/data/26500_3.png",
       "https://b2b.yugtorg.com/image/data/26500_2.png",
       "https://b2b.yugtorg.com/image/data/26500_1.png",
-      "https://b2b.yugtorg.com/image/data/26500_4.png"
+      "https://b2b.yugtorg.com/image/data/26500_4.png",
+      "https://b2b.yugtorg.com/image/data/26500_3.png"
     ],
     "available": true,
     "price": 1160.0,
@@ -21089,9 +20934,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02622.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02622.png",
-      "https://b2b.yugtorg.com/image/data/02622_3.png",
+      "https://b2b.yugtorg.com/image/data/02622_1.png",
       "https://b2b.yugtorg.com/image/data/02622_2.png",
-      "https://b2b.yugtorg.com/image/data/02622_1.png"
+      "https://b2b.yugtorg.com/image/data/02622_3.png"
     ],
     "available": true,
     "price": 656.0,
@@ -21153,10 +20998,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02092.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02092.png",
-      "https://b2b.yugtorg.com/image/data/02092_3.png",
-      "https://b2b.yugtorg.com/image/data/02092_2.png",
       "https://b2b.yugtorg.com/image/data/02092_1.png",
-      "https://b2b.yugtorg.com/image/data/02092_4.png"
+      "https://b2b.yugtorg.com/image/data/02092_4.png",
+      "https://b2b.yugtorg.com/image/data/02092_2.png",
+      "https://b2b.yugtorg.com/image/data/02092_3.png"
     ],
     "available": true,
     "price": 512.0,
@@ -21178,10 +21023,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/01684.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/01684.png",
-      "https://b2b.yugtorg.com/image/data/01684_4.png",
-      "https://b2b.yugtorg.com/image/data/01684_1.png",
+      "https://b2b.yugtorg.com/image/data/01684_2.png",
       "https://b2b.yugtorg.com/image/data/01684_3.png",
-      "https://b2b.yugtorg.com/image/data/01684_2.png"
+      "https://b2b.yugtorg.com/image/data/01684_4.png",
+      "https://b2b.yugtorg.com/image/data/01684_1.png"
     ],
     "available": true,
     "price": 339.0,
@@ -21246,11 +21091,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46758.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46758.png",
-      "https://b2b.yugtorg.com/image/data/46758_1.png",
-      "https://b2b.yugtorg.com/image/data/46758_2.png",
-      "https://b2b.yugtorg.com/image/data/46758_3.png",
+      "https://b2b.yugtorg.com/image/data/46758_5.png",
       "https://b2b.yugtorg.com/image/data/46758_4.png",
-      "https://b2b.yugtorg.com/image/data/46758_5.png"
+      "https://b2b.yugtorg.com/image/data/46758_2.png",
+      "https://b2b.yugtorg.com/image/data/46758_1.png",
+      "https://b2b.yugtorg.com/image/data/46758_3.png"
     ],
     "available": true,
     "price": 2599.0,
@@ -21370,9 +21215,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/01375.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/01375.png",
-      "https://b2b.yugtorg.com/image/data/01375_2.png",
+      "https://b2b.yugtorg.com/image/data/01375_1.png",
       "https://b2b.yugtorg.com/image/data/01375_3.png",
-      "https://b2b.yugtorg.com/image/data/01375_1.png"
+      "https://b2b.yugtorg.com/image/data/01375_2.png"
     ],
     "available": true,
     "price": 702.0,
@@ -21598,8 +21443,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/10085.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/10085.png",
-      "https://b2b.yugtorg.com/image/data/10085_2.png",
-      "https://b2b.yugtorg.com/image/data/10085_1.png"
+      "https://b2b.yugtorg.com/image/data/10085_1.png",
+      "https://b2b.yugtorg.com/image/data/10085_2.png"
     ],
     "available": true,
     "price": 100.0,
@@ -21640,8 +21485,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/10097.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/10097.png",
-      "https://b2b.yugtorg.com/image/data/10097_3.png",
       "https://b2b.yugtorg.com/image/data/10097_1.png",
+      "https://b2b.yugtorg.com/image/data/10097_3.png",
       "https://b2b.yugtorg.com/image/data/10097_2.png"
     ],
     "available": true,
@@ -21681,8 +21526,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/21002.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/21002.png",
-      "https://b2b.yugtorg.com/image/data/21002_1.png",
-      "https://b2b.yugtorg.com/image/data/21002_2.png"
+      "https://b2b.yugtorg.com/image/data/21002_2.png",
+      "https://b2b.yugtorg.com/image/data/21002_1.png"
     ],
     "available": true,
     "price": 117.0,
@@ -21804,8 +21649,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/05210.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/05210.png",
-      "https://b2b.yugtorg.com/image/data/05210_1.png",
-      "https://b2b.yugtorg.com/image/data/05210_2.png"
+      "https://b2b.yugtorg.com/image/data/05210_2.png",
+      "https://b2b.yugtorg.com/image/data/05210_1.png"
     ],
     "available": true,
     "price": 100.0,
@@ -21881,9 +21726,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/10505.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/10505.png",
-      "https://b2b.yugtorg.com/image/data/10505_3.png",
+      "https://b2b.yugtorg.com/image/data/10505_1.png",
       "https://b2b.yugtorg.com/image/data/10505_2.png",
-      "https://b2b.yugtorg.com/image/data/10505_1.png"
+      "https://b2b.yugtorg.com/image/data/10505_3.png"
     ],
     "available": true,
     "price": 1050.0,
@@ -21902,9 +21747,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/11520.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/11520.png",
-      "https://b2b.yugtorg.com/image/data/11520_3.png",
       "https://b2b.yugtorg.com/image/data/11520_2.png",
-      "https://b2b.yugtorg.com/image/data/11520_1.png"
+      "https://b2b.yugtorg.com/image/data/11520_1.png",
+      "https://b2b.yugtorg.com/image/data/11520_3.png"
     ],
     "available": true,
     "price": 440.0,
@@ -21923,10 +21768,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/21717.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/21717.png",
-      "https://b2b.yugtorg.com/image/data/21717_4.png",
-      "https://b2b.yugtorg.com/image/data/21717_1.png",
       "https://b2b.yugtorg.com/image/data/21717_2.png",
-      "https://b2b.yugtorg.com/image/data/21717_3.png"
+      "https://b2b.yugtorg.com/image/data/21717_1.png",
+      "https://b2b.yugtorg.com/image/data/21717_3.png",
+      "https://b2b.yugtorg.com/image/data/21717_4.png"
     ],
     "available": true,
     "price": 250.0,
@@ -21948,8 +21793,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/28326.png",
       "https://b2b.yugtorg.com/image/data/28326_3.png",
-      "https://b2b.yugtorg.com/image/data/28326_2.png",
-      "https://b2b.yugtorg.com/image/data/28326_1.png"
+      "https://b2b.yugtorg.com/image/data/28326_1.png",
+      "https://b2b.yugtorg.com/image/data/28326_2.png"
     ],
     "available": true,
     "price": 730.0,
@@ -21992,10 +21837,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48054.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48054.png",
-      "https://b2b.yugtorg.com/image/data/48054_4.png",
       "https://b2b.yugtorg.com/image/data/48054_3.png",
       "https://b2b.yugtorg.com/image/data/48054_1.png",
-      "https://b2b.yugtorg.com/image/data/48054_2.png"
+      "https://b2b.yugtorg.com/image/data/48054_2.png",
+      "https://b2b.yugtorg.com/image/data/48054_4.png"
     ],
     "available": true,
     "price": 26000.0,
@@ -22020,10 +21865,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48055.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48055.png",
+      "https://b2b.yugtorg.com/image/data/48055_5.png",
+      "https://b2b.yugtorg.com/image/data/48055_4.png",
       "https://b2b.yugtorg.com/image/data/48055_1.png",
       "https://b2b.yugtorg.com/image/data/48055_3.png",
-      "https://b2b.yugtorg.com/image/data/48055_4.png",
-      "https://b2b.yugtorg.com/image/data/48055_5.png",
       "https://b2b.yugtorg.com/image/data/48055_2.png"
     ],
     "available": true,
@@ -22050,9 +21895,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47987.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47987.png",
-      "https://b2b.yugtorg.com/image/data/47987_1.png",
-      "https://b2b.yugtorg.com/image/data/47987_4.png",
       "https://b2b.yugtorg.com/image/data/47987_3.png",
+      "https://b2b.yugtorg.com/image/data/47987_4.png",
+      "https://b2b.yugtorg.com/image/data/47987_1.png",
       "https://b2b.yugtorg.com/image/data/47987_2.png"
     ],
     "available": true,
@@ -22076,8 +21921,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/13219.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/13219.png",
-      "https://b2b.yugtorg.com/image/data/13219_3.png",
       "https://b2b.yugtorg.com/image/data/13219_2.png",
+      "https://b2b.yugtorg.com/image/data/13219_3.png",
       "https://b2b.yugtorg.com/image/data/13219_1.png"
     ],
     "available": true,
@@ -22294,26 +22139,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "yugtorg-45938",
-    "sku": "GJY75",
-    "category": "Аварійне електроживлення",
-    "subcategory": "",
-    "brand": "BOSCH",
-    "name": "Дизельний генератор Gucbir GJY75 з двигуном YANG DONG YD4EZLD, 75 кВА / 60 кВт, генератор Maranello M80, витрата палива при 75% навантаження - 9,9 літрів / год, 230 / 400 В, 50 Гц (AVR SX460+ATS), IP23 / H, 2750x1100x186",
-    "model": "GJY75",
-    "description": "Характеристики уточнюються.",
-    "features": [
-      "IP23"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/45938.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/45938.png"
-    ],
-    "available": true,
-    "price": 721440.0,
-    "source_supplier": "yugtorg"
-  },
-  {
     "id": "yugtorg-6812",
     "sku": "BRSW-LFP-1000-12",
     "category": "Аварійне електроживлення",
@@ -22376,8 +22201,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45885.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45885.png",
-      "https://b2b.yugtorg.com/image/data/45885_3.png",
       "https://b2b.yugtorg.com/image/data/45885_2.png",
+      "https://b2b.yugtorg.com/image/data/45885_3.png",
       "https://b2b.yugtorg.com/image/data/45885_1.png"
     ],
     "available": true,
@@ -22404,11 +22229,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45877.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45877.png",
-      "https://b2b.yugtorg.com/image/data/45877_4.png",
+      "https://b2b.yugtorg.com/image/data/45877_3.png",
       "https://b2b.yugtorg.com/image/data/45877_1.png",
       "https://b2b.yugtorg.com/image/data/45877_5.png",
-      "https://b2b.yugtorg.com/image/data/45877_3.png",
-      "https://b2b.yugtorg.com/image/data/45877_2.png"
+      "https://b2b.yugtorg.com/image/data/45877_2.png",
+      "https://b2b.yugtorg.com/image/data/45877_4.png"
     ],
     "available": true,
     "price": 49637.0,
@@ -22434,14 +22259,14 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/46129.png",
       "https://b2b.yugtorg.com/image/data/46129_4.png",
-      "https://b2b.yugtorg.com/image/data/46129_9.png",
-      "https://b2b.yugtorg.com/image/data/46129_8.png",
-      "https://b2b.yugtorg.com/image/data/46129_7.png",
-      "https://b2b.yugtorg.com/image/data/46129_1.png",
-      "https://b2b.yugtorg.com/image/data/46129_2.png",
       "https://b2b.yugtorg.com/image/data/46129_3.png",
       "https://b2b.yugtorg.com/image/data/46129_6.png",
-      "https://b2b.yugtorg.com/image/data/46129_5.png"
+      "https://b2b.yugtorg.com/image/data/46129_7.png",
+      "https://b2b.yugtorg.com/image/data/46129_5.png",
+      "https://b2b.yugtorg.com/image/data/46129_8.png",
+      "https://b2b.yugtorg.com/image/data/46129_1.png",
+      "https://b2b.yugtorg.com/image/data/46129_9.png",
+      "https://b2b.yugtorg.com/image/data/46129_2.png"
     ],
     "available": true,
     "price": 81785.0,
@@ -22467,8 +22292,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45628.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45628.png",
-      "https://b2b.yugtorg.com/image/data/45628_1.png",
-      "https://b2b.yugtorg.com/image/data/45628_2.png"
+      "https://b2b.yugtorg.com/image/data/45628_2.png",
+      "https://b2b.yugtorg.com/image/data/45628_1.png"
     ],
     "available": true,
     "price": 17000.0,
@@ -22597,25 +22422,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "yugtorg-45635",
-    "sku": "MSER-30KVA / 24KW- 400V-V2",
-    "category": "Аварійне електроживлення",
-    "subcategory": "",
-    "brand": "Conter",
-    "name": "Стабілізатор напруги Conter MSER-30KVA / 24KW- 400V-V2 трифазний, сервопривід, монтажу підлоги, LED дисплей, діапазон 225-450V, AC400±3%, колодка, 302x542x415 mm, 58kg",
-    "model": "MSER-30KVA / 24KW- 400V-V2",
-    "description": "Характеристики уточнюються.",
-    "features": [],
-    "image": "https://b2b.yugtorg.com/image/data/45635.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/45635.png",
-      "https://b2b.yugtorg.com/image/data/45635_1.png"
-    ],
-    "available": true,
-    "price": 63173.0,
-    "source_supplier": "yugtorg"
-  },
-  {
     "id": "yugtorg-45633",
     "sku": "MSER 2000 VA-V2B",
     "category": "Аварійне електроживлення",
@@ -22635,8 +22441,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45633.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45633.png",
-      "https://b2b.yugtorg.com/image/data/45633_2.png",
-      "https://b2b.yugtorg.com/image/data/45633_1.png"
+      "https://b2b.yugtorg.com/image/data/45633_1.png",
+      "https://b2b.yugtorg.com/image/data/45633_2.png"
     ],
     "available": true,
     "price": 7200.0,
@@ -22724,9 +22530,9 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/45511.png",
       "https://b2b.yugtorg.com/image/data/45511_4.png",
-      "https://b2b.yugtorg.com/image/data/45511_1.png",
+      "https://b2b.yugtorg.com/image/data/45511_3.png",
       "https://b2b.yugtorg.com/image/data/45511_2.png",
-      "https://b2b.yugtorg.com/image/data/45511_3.png"
+      "https://b2b.yugtorg.com/image/data/45511_1.png"
     ],
     "available": true,
     "price": 2800.0,
@@ -22792,10 +22598,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/13955.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/13955.png",
-      "https://b2b.yugtorg.com/image/data/13955_2.png",
       "https://b2b.yugtorg.com/image/data/13955_1.png",
-      "https://b2b.yugtorg.com/image/data/13955_4.png",
-      "https://b2b.yugtorg.com/image/data/13955_3.png"
+      "https://b2b.yugtorg.com/image/data/13955_2.png",
+      "https://b2b.yugtorg.com/image/data/13955_3.png",
+      "https://b2b.yugtorg.com/image/data/13955_4.png"
     ],
     "available": true,
     "price": 2500.0,
@@ -22816,10 +22622,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45596.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45596.png",
-      "https://b2b.yugtorg.com/image/data/45596_1.png",
       "https://b2b.yugtorg.com/image/data/45596_4.png",
-      "https://b2b.yugtorg.com/image/data/45596_2.png",
-      "https://b2b.yugtorg.com/image/data/45596_3.png"
+      "https://b2b.yugtorg.com/image/data/45596_3.png",
+      "https://b2b.yugtorg.com/image/data/45596_1.png",
+      "https://b2b.yugtorg.com/image/data/45596_2.png"
     ],
     "available": true,
     "price": 53460.0,
@@ -22840,9 +22646,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45597.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45597.png",
-      "https://b2b.yugtorg.com/image/data/45597_4.png",
       "https://b2b.yugtorg.com/image/data/45597_3.png",
       "https://b2b.yugtorg.com/image/data/45597_1.png",
+      "https://b2b.yugtorg.com/image/data/45597_4.png",
       "https://b2b.yugtorg.com/image/data/45597_2.png"
     ],
     "available": true,
@@ -22885,9 +22691,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45588.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45588.png",
+      "https://b2b.yugtorg.com/image/data/45588_3.png",
       "https://b2b.yugtorg.com/image/data/45588_4.png",
       "https://b2b.yugtorg.com/image/data/45588_2.png",
-      "https://b2b.yugtorg.com/image/data/45588_3.png",
       "https://b2b.yugtorg.com/image/data/45588_1.png"
     ],
     "available": true,
@@ -22910,10 +22716,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45589.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45589.png",
-      "https://b2b.yugtorg.com/image/data/45589_1.png",
       "https://b2b.yugtorg.com/image/data/45589_2.png",
-      "https://b2b.yugtorg.com/image/data/45589_3.png",
-      "https://b2b.yugtorg.com/image/data/45589_4.png"
+      "https://b2b.yugtorg.com/image/data/45589_4.png",
+      "https://b2b.yugtorg.com/image/data/45589_1.png",
+      "https://b2b.yugtorg.com/image/data/45589_3.png"
     ],
     "available": true,
     "price": 51637.0,
@@ -22933,9 +22739,9 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/45590.png",
       "https://b2b.yugtorg.com/image/data/45590_2.png",
-      "https://b2b.yugtorg.com/image/data/45590_3.png",
+      "https://b2b.yugtorg.com/image/data/45590_1.png",
       "https://b2b.yugtorg.com/image/data/45590_4.png",
-      "https://b2b.yugtorg.com/image/data/45590_1.png"
+      "https://b2b.yugtorg.com/image/data/45590_3.png"
     ],
     "available": true,
     "price": 52850.0,
@@ -22954,10 +22760,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45591.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45591.png",
-      "https://b2b.yugtorg.com/image/data/45591_1.png",
       "https://b2b.yugtorg.com/image/data/45591_2.png",
       "https://b2b.yugtorg.com/image/data/45591_3.png",
-      "https://b2b.yugtorg.com/image/data/45591_4.png"
+      "https://b2b.yugtorg.com/image/data/45591_4.png",
+      "https://b2b.yugtorg.com/image/data/45591_1.png"
     ],
     "available": true,
     "price": 54088.0,
@@ -22976,10 +22782,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45592.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45592.png",
+      "https://b2b.yugtorg.com/image/data/45592_1.png",
       "https://b2b.yugtorg.com/image/data/45592_4.png",
       "https://b2b.yugtorg.com/image/data/45592_3.png",
-      "https://b2b.yugtorg.com/image/data/45592_2.png",
-      "https://b2b.yugtorg.com/image/data/45592_1.png"
+      "https://b2b.yugtorg.com/image/data/45592_2.png"
     ],
     "available": true,
     "price": 54088.0,
@@ -22998,10 +22804,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45594.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45594.png",
+      "https://b2b.yugtorg.com/image/data/45594_1.png",
       "https://b2b.yugtorg.com/image/data/45594_4.png",
-      "https://b2b.yugtorg.com/image/data/45594_3.png",
       "https://b2b.yugtorg.com/image/data/45594_2.png",
-      "https://b2b.yugtorg.com/image/data/45594_1.png"
+      "https://b2b.yugtorg.com/image/data/45594_3.png"
     ],
     "available": true,
     "price": 51030.0,
@@ -23020,8 +22826,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45593.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45593.png",
-      "https://b2b.yugtorg.com/image/data/45593_3.png",
       "https://b2b.yugtorg.com/image/data/45593_4.png",
+      "https://b2b.yugtorg.com/image/data/45593_3.png",
       "https://b2b.yugtorg.com/image/data/45593_2.png",
       "https://b2b.yugtorg.com/image/data/45593_1.png"
     ],
@@ -23043,9 +22849,9 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/45595.png",
       "https://b2b.yugtorg.com/image/data/45595_2.png",
-      "https://b2b.yugtorg.com/image/data/45595_3.png",
       "https://b2b.yugtorg.com/image/data/45595_1.png",
-      "https://b2b.yugtorg.com/image/data/45595_4.png"
+      "https://b2b.yugtorg.com/image/data/45595_4.png",
+      "https://b2b.yugtorg.com/image/data/45595_3.png"
     ],
     "available": true,
     "price": 63787.0,
@@ -23064,10 +22870,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45599.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45599.png",
-      "https://b2b.yugtorg.com/image/data/45599_2.png",
       "https://b2b.yugtorg.com/image/data/45599_3.png",
-      "https://b2b.yugtorg.com/image/data/45599_4.png",
-      "https://b2b.yugtorg.com/image/data/45599_1.png"
+      "https://b2b.yugtorg.com/image/data/45599_2.png",
+      "https://b2b.yugtorg.com/image/data/45599_1.png",
+      "https://b2b.yugtorg.com/image/data/45599_4.png"
     ],
     "available": true,
     "price": 41310.0,
@@ -23086,10 +22892,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48338.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48338.png",
+      "https://b2b.yugtorg.com/image/data/48338_3.png",
       "https://b2b.yugtorg.com/image/data/48338_4.png",
       "https://b2b.yugtorg.com/image/data/48338_2.png",
-      "https://b2b.yugtorg.com/image/data/48338_1.png",
-      "https://b2b.yugtorg.com/image/data/48338_3.png"
+      "https://b2b.yugtorg.com/image/data/48338_1.png"
     ],
     "available": true,
     "price": 79999.0,
@@ -23109,8 +22915,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/48352.png",
       "https://b2b.yugtorg.com/image/data/48352_3.png",
-      "https://b2b.yugtorg.com/image/data/48352_1.png",
-      "https://b2b.yugtorg.com/image/data/48352_2.png"
+      "https://b2b.yugtorg.com/image/data/48352_2.png",
+      "https://b2b.yugtorg.com/image/data/48352_1.png"
     ],
     "available": true,
     "price": 69999.0,
@@ -23129,11 +22935,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45580.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45580.png",
-      "https://b2b.yugtorg.com/image/data/45580_3.png",
+      "https://b2b.yugtorg.com/image/data/45580_2.png",
       "https://b2b.yugtorg.com/image/data/45580_5.png",
       "https://b2b.yugtorg.com/image/data/45580_1.png",
-      "https://b2b.yugtorg.com/image/data/45580_2.png",
-      "https://b2b.yugtorg.com/image/data/45580_4.png"
+      "https://b2b.yugtorg.com/image/data/45580_4.png",
+      "https://b2b.yugtorg.com/image/data/45580_3.png"
     ],
     "available": true,
     "price": 66825.0,
@@ -23152,11 +22958,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45582.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45582.png",
-      "https://b2b.yugtorg.com/image/data/45582_5.png",
-      "https://b2b.yugtorg.com/image/data/45582_1.png",
+      "https://b2b.yugtorg.com/image/data/45582_2.png",
       "https://b2b.yugtorg.com/image/data/45582_4.png",
       "https://b2b.yugtorg.com/image/data/45582_3.png",
-      "https://b2b.yugtorg.com/image/data/45582_2.png"
+      "https://b2b.yugtorg.com/image/data/45582_5.png",
+      "https://b2b.yugtorg.com/image/data/45582_1.png"
     ],
     "available": true,
     "price": 75938.0,
@@ -23175,11 +22981,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45578.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45578.png",
+      "https://b2b.yugtorg.com/image/data/45578_1.png",
       "https://b2b.yugtorg.com/image/data/45578_5.png",
       "https://b2b.yugtorg.com/image/data/45578_2.png",
-      "https://b2b.yugtorg.com/image/data/45578_1.png",
-      "https://b2b.yugtorg.com/image/data/45578_3.png",
-      "https://b2b.yugtorg.com/image/data/45578_4.png"
+      "https://b2b.yugtorg.com/image/data/45578_4.png",
+      "https://b2b.yugtorg.com/image/data/45578_3.png"
     ],
     "available": true,
     "price": 69888.0,
@@ -23198,11 +23004,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45579.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45579.png",
-      "https://b2b.yugtorg.com/image/data/45579_3.png",
-      "https://b2b.yugtorg.com/image/data/45579_5.png",
       "https://b2b.yugtorg.com/image/data/45579_1.png",
+      "https://b2b.yugtorg.com/image/data/45579_2.png",
+      "https://b2b.yugtorg.com/image/data/45579_5.png",
       "https://b2b.yugtorg.com/image/data/45579_4.png",
-      "https://b2b.yugtorg.com/image/data/45579_2.png"
+      "https://b2b.yugtorg.com/image/data/45579_3.png"
     ],
     "available": true,
     "price": 69888.0,
@@ -23221,12 +23027,12 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45586.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45586.png",
-      "https://b2b.yugtorg.com/image/data/45586_4.png",
+      "https://b2b.yugtorg.com/image/data/45586_5.png",
       "https://b2b.yugtorg.com/image/data/45586_6.png",
-      "https://b2b.yugtorg.com/image/data/45586_1.png",
-      "https://b2b.yugtorg.com/image/data/45586_2.png",
       "https://b2b.yugtorg.com/image/data/45586_3.png",
-      "https://b2b.yugtorg.com/image/data/45586_5.png"
+      "https://b2b.yugtorg.com/image/data/45586_4.png",
+      "https://b2b.yugtorg.com/image/data/45586_2.png",
+      "https://b2b.yugtorg.com/image/data/45586_1.png"
     ],
     "available": true,
     "price": 139888.0,
@@ -23246,10 +23052,10 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/45574.png",
       "https://b2b.yugtorg.com/image/data/45574_5.png",
-      "https://b2b.yugtorg.com/image/data/45574_2.png",
-      "https://b2b.yugtorg.com/image/data/45574_3.png",
       "https://b2b.yugtorg.com/image/data/45574_4.png",
-      "https://b2b.yugtorg.com/image/data/45574_1.png"
+      "https://b2b.yugtorg.com/image/data/45574_3.png",
+      "https://b2b.yugtorg.com/image/data/45574_1.png",
+      "https://b2b.yugtorg.com/image/data/45574_2.png"
     ],
     "available": true,
     "price": 16380.0,
@@ -23270,8 +23076,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45576.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45576.png",
-      "https://b2b.yugtorg.com/image/data/45576_3.png",
       "https://b2b.yugtorg.com/image/data/45576_1.png",
+      "https://b2b.yugtorg.com/image/data/45576_3.png",
       "https://b2b.yugtorg.com/image/data/45576_4.png",
       "https://b2b.yugtorg.com/image/data/45576_2.png"
     ],
@@ -23388,8 +23194,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46304.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46304.png",
-      "https://b2b.yugtorg.com/image/data/46304_1.png",
-      "https://b2b.yugtorg.com/image/data/46304_2.png"
+      "https://b2b.yugtorg.com/image/data/46304_2.png",
+      "https://b2b.yugtorg.com/image/data/46304_1.png"
     ],
     "available": true,
     "price": 48600.0,
@@ -23852,49 +23658,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "yugtorg-39301",
-    "sku": "EP-MPS-1500 / 12",
-    "category": "Аварійне електроживлення",
-    "subcategory": "",
-    "brand": "EUROPOWER",
-    "name": "ДБЖ з правильною синусоїдою Europower EP-MPS-1500 / 12 (1050 Вт) 5 / 10 / 15 / 20 / 30А, під зовнішню АКБ 12В (AGM / GEL / LFP) (390*245*275)",
-    "model": "EP-MPS-1500 / 12",
-    "description": "ДБЖ з чистою синусоїдою Europower EP-MPS-1500 / 12 — це багатофункціональний пристрій, що поєднує функції інвертора, зарядного пристрою і джерела безперебійного живлення. Модель потужністю 1050 Вт працює із зовнішньою 12-вольтовою акумуляторною батареєю та забезпечує стабільне живлення побутової та офісної техніки при відключеннях мережі. Завдяки тороїдальному трансформатору C.R.G.O та 32-бітному процесору управління, пристрій відрізняється низькими втратами енергії та високою точністю роботи. Цей ДБЖ призначений для резервного та автономного електропостачання приватних будинків, дач, офісів, систем безпеки та опалювального обладнання. Він вирішує ключові завдання: захищає підключену техніку від стрибків напруги, забезпечує безперебійну роботу під час зникнення мережі, автоматично заряджає зовнішній акумулятор та стабілізує напругу в режимі AVR. Пристрій ідеально підходить для домовласників, власників малого бізнесу та всіх, кому потрібне надійне резервне харчування. - Чиста синусоїда на виході з низьким коефіцієнтом гармонійних спотворень (≤3%) для безпечної роботи будь-якої техніки. - Вбудований інтелектуальний триступеневий заряд із вибором типу АКБ та налаштуванням струму заряду. - Тороїдальний трансформатор C.R.G.O з низькими статичними втратами для економії електроенергії. - Функція AVR (автоматична стабілізація напруги) для роботи у режимі стабілізатора. - Сумісність із генераторами завдяки технології автоматичного відстеження частоти. - Швидке перемикання на батарею (≤4 мс) для захисту чутливого обладнання. - Підтримка різних типів акумуляторів: кислотні (AGM, GEL) та літієві (LiFePO4). - Світлодіодна індикація режимів роботи, навантаження та стану батареї. - Компактний корпус із примусовим охолодженням. - Можливість роботи із зовнішньою АКБ 12 Ст. Технічні характеристики: - Модель: Europower EP-MPS-1500 / 12 (MPS-1500 12V) - Тип пристрою: інтерактивний ДБЖ із вбудованим зарядним пристроєм та AVR - Номінальна потужність: 1500 ВА / 1050 Вт - Трансформатор: C.R.G.O (тороїдальний) - Інтерфейс: світлодіодна індикація (LED graphic) - Відображення: робота, навантаження, стан батареї - Вхідна напруга: 140 – 275 В змінного струму - Вхідна частота: 45 – 65 Гц - Вихідна напруга: 220 ±3% (режим інвертора); 190 - 245 В (режим AVR) - Вихідна частота: 50 / 60 Гц ±0.3 Гц (синхронізація з мережею) - Форма вихідного сигналу: чиста синусоїда - Коефіцієнт гармонійних спотворень: ≤3% - Напруга акумулятора: 12 В постійного струму - Напруга заряду: 13.9 – 14.5 (циклічний режим) / 13.3 – 13.9 (буферний режим) - Струм заряду: 5А / 10А / 15А / 20А / 30А (настроюється) - поріг низької напруги АКБ: 10.5 – 11.5 В (для кислотних) / 10.9 – 11.5 В (для LiFePO4) - Точка захисту від глибокого розряду: 9.8 – 11 В (кислотні) / 10.6 – 11 В (LiFePO4) - Час перемикання: ≤4 мс - Захисту: перевантаження, перегрів, висока / низька вихідна напруга, низька напруга батареї, коротке замикання, перезаряд, глибокий розряд - Охолодження: примусове (вентилятор) - Робоча температура: 0°C – +40°C - Вологість: 10% - 90% (без конденсації) - Температура зберігання: від -15 ° C до +45 ° C",
-    "features": [
-      "1050 Вт"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/39301.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/39301.png",
-      "https://b2b.yugtorg.com/image/data/39301_1.png"
-    ],
-    "available": true,
-    "price": 11283.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-39302",
-    "sku": "EP-MPS-2000 / 12",
-    "category": "Аварійне електроживлення",
-    "subcategory": "",
-    "brand": "EUROPOWER",
-    "name": "ДБЖ з правильною синусоїдою Europower EP-MPS-2000 / 12 (1200 Вт) 5 / 10 / 15 / 20 / 30А, під зовнішню АКБ 12В (AGM / GEL / LFP) (390*245*275)",
-    "model": "EP-MPS-2000 / 12",
-    "description": "ДБЖ з правильною синусоїдою Europower EP-MPS-2000 / 12 — це інтелектуальне джерело безперебійного живлення та інвертор потужністю 1200 Вт, призначений для роботи із зовнішньою акумуляторною батареєю напругою 12 В. Пристрій поєднує функції інвертора з напругою (AVR), забезпечуючи надійне резервне та автономне електропостачання для побутової техніки, офісного обладнання та систем безпеки. Цей ДБЖ призначений для захисту та живлення широкого спектру споживачів: опалювальних котлів, циркуляційних насосів, холодильників, телевізорів, комп`ютерів, систем відеоспостереження та іншого обладнання. Він вирішує ключові завдання нестабільного електропостачання у будинках, квартирах, на дачах та в офісах: стабілізує вхідну напругу, забезпечує миттєвий перехід на живлення від акумулятора при відключенні мережі та формує на виході чисту синусоїду, необхідну для коректної роботи чутливої електроніки та двигунів. Пристрій підходить для домовласників, власників котеджів, офісних працівників та всіх, хто хоче убезпечити свою техніку від наслідків перебоїв у мережі. - Чиста синусоїдальна форма вихідної напруги з низьким коефіцієнтом спотворень (THD ≤ 3%) для сумісності з будь-яким навантаженням, включаючи індуктивну (двигуни, компресори, насоси). - Тороїдальний трансформатор C.R.G.O для зниження статичних втрат та підвищення енергоефективності. - 32-бітове високошвидкісне керування на базі CPU з точною детекцією параметрів. - Інтелектуальний 3-ступінчастий зарядний пристрій з можливістю налаштування типу батареї, напруги та струму заряду. - Вбудована функція AVR (автоматична стабілізація напруги) для роботи в разі відхилення мережі без переходу на батарею. - Інтегрована технологія автоматичного відстеження частоти для сумісності із генератором. - Швидкий час перемикання на батарею (≤ 4 мс) для забезпечення безперервності живлення. - Інформативний світлодіодний (LED) дисплей для контролю режимів роботи, навантаження та стану батареї. - Повний комплекс захисту: від перевантаження, перегріву, високої / низкої вихідної напруги, низької напруги батареї, короткого замикання, перезаряду та перерозряду. - Підтримка різних типів акумуляторів: кислотні (Acid), AGM, GEL, LiFePO4 (LFP). Технічні характеристики: • Модель: Europower EP-MPS-2000 / 12 (на базі MPS-2000 12V) • Тип пристрою: інтерактивний ДБЖ із чистою синусоїдою • Номінальна потужність: 1200 Вт (2000 ВА) • Номінальна напруга акумулятора: 12 В DC • Вхідна напруга: 140 – 275 В AC • Вхідна частота: 45 – 65 Гц • Вихідна напруга: 220 В AC ±3% (режим інвертора); 190-245 В (режим AVR) • Вихідна частота: 50 / 60 Гц ± 0.3 Гц (синхронізація з мережею) • Форма вихідного сигналу: чиста синусоїда • Коефіцієнт спотворень (THD): ≤ 3% • Напруга заряду АКБ: 13.9–14.5 (циклічний режим) / 13.3–13.9 (буферний режим) • Настроюваний струм заряду: 5А / 10А / 15А / 20А / 30А • Поріг низької напруги АКБ: - Для кислотних (Acid): 10.5–11.5 (попередження) / 9.8–11 (відключення) - Для LiFePO4 (LFP): 10.9–11.5 (попередження) / 10.6–11 (відключення) • Час перемикання на батарею: ≤ 4 мс • Захисту: від перевантаження, перегріву, високої / низкої вихідної напруги, низької напруги АКБ, короткого замикання, перезаряду, перерозряду • Охолодження: активне (вентилятор) • Робоча температура: від 0°C до +40°C • Відносна вологість: 10% – 90% (без конденсації) • Температура зберігання: від -15°C до +45°C • Габаритні розміри упаковки (Ш x Г x В): 390 x 245 x 275 мм • Кількість в упаковці: 1 шт ДБЖ з правильною синусоїдою Europower EP-MPS-2000 / 12 – це надійне та функціональне рішення для захисту вашого будинку чи офісу від проблем з електроживленням. Поєднання чистої синусоїди, широкого діапазону стабілізації, інтелектуальної зарядки та підтримки різних типів акумуляторів робить його універсальним вибором для забезпечення безперебійної роботи критично важливої техніки.",
-    "features": [
-      "275 мм",
-      "1200 Вт"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/39302.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/39302.png",
-      "https://b2b.yugtorg.com/image/data/39302_1.png"
-    ],
-    "available": true,
-    "price": 12413.0,
-    "source_supplier": "yugtorg"
-  },
-  {
     "id": "yugtorg-39307",
     "sku": "EPWM-MPS-2500 / 24",
     "category": "Аварійне електроживлення",
@@ -23977,8 +23740,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/09845.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/09845.png",
-      "https://b2b.yugtorg.com/image/data/09845_1.png",
-      "https://b2b.yugtorg.com/image/data/09845_2.png"
+      "https://b2b.yugtorg.com/image/data/09845_2.png",
+      "https://b2b.yugtorg.com/image/data/09845_1.png"
     ],
     "available": true,
     "price": 10080.0,
@@ -24000,8 +23763,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02135.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02135.png",
-      "https://b2b.yugtorg.com/image/data/02135_1.png",
       "https://b2b.yugtorg.com/image/data/02135_2.png",
+      "https://b2b.yugtorg.com/image/data/02135_1.png",
       "https://b2b.yugtorg.com/image/data/02135_3.png"
     ],
     "available": true,
@@ -24023,8 +23786,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02133.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02133.png",
-      "https://b2b.yugtorg.com/image/data/02133_1.png",
-      "https://b2b.yugtorg.com/image/data/02133_2.png"
+      "https://b2b.yugtorg.com/image/data/02133_2.png",
+      "https://b2b.yugtorg.com/image/data/02133_1.png"
     ],
     "available": true,
     "price": 29250.0,
@@ -24113,8 +23876,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/07817.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/07817.png",
-      "https://b2b.yugtorg.com/image/data/07817_2.png",
-      "https://b2b.yugtorg.com/image/data/07817_1.png"
+      "https://b2b.yugtorg.com/image/data/07817_1.png",
+      "https://b2b.yugtorg.com/image/data/07817_2.png"
     ],
     "available": true,
     "price": 11610.0,
@@ -24187,6 +23950,29 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-20400",
+    "sku": "99-10035181",
+    "category": "Аварійне електроживлення",
+    "subcategory": "",
+    "brand": "EUROPOWER",
+    "name": "Джерело безперебійного живлення",
+    "model": "Europower EP-MPS-1500/12 (1050 Вт) з правильною синусоїдою",
+    "description": "● Номінальна потужність: 1500ВА / 1050Вт;● Перемикач струму заряду на 5/10/15/20/30 А;● Зовнішня батарея: 12В AGM, GEL, LiFePO₄;● Ємність батареї, що рекомендується: 40 - 200А&bull;г;● Кількість розеток Schuko: 2;● Захист від короткого замикання, аварійне відключення (захист від перевантаження), захист від повного розряду батареї",
+    "features": [
+      "Номінальна потужність: 1500ВА / 1050Вт",
+      "Діапазон вхідної напруги: 145 ~ 275В AC",
+      "1050 Вт",
+      "1050Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/Europower-EP-MPS-1500.webp",
+    "images": [
+      "https://viatec.ua/upload/2/Europower-EP-MPS-1500.webp"
+    ],
+    "available": true,
+    "price": 11283.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "yugtorg-46078",
     "sku": "ESCR-20KW LCD",
     "category": "Аварійне електроживлення",
@@ -24202,9 +23988,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46078.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46078.png",
-      "https://b2b.yugtorg.com/image/data/46078_3.png",
       "https://b2b.yugtorg.com/image/data/46078_1.png",
-      "https://b2b.yugtorg.com/image/data/46078_2.png"
+      "https://b2b.yugtorg.com/image/data/46078_2.png",
+      "https://b2b.yugtorg.com/image/data/46078_3.png"
     ],
     "available": true,
     "price": 28203.0,
@@ -24225,9 +24011,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46075.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46075.png",
-      "https://b2b.yugtorg.com/image/data/46075_2.png",
-      "https://b2b.yugtorg.com/image/data/46075_4.png",
       "https://b2b.yugtorg.com/image/data/46075_3.png",
+      "https://b2b.yugtorg.com/image/data/46075_4.png",
+      "https://b2b.yugtorg.com/image/data/46075_2.png",
       "https://b2b.yugtorg.com/image/data/46075_1.png"
     ],
     "available": true,
@@ -24250,8 +24036,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/00509.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/00509.png",
-      "https://b2b.yugtorg.com/image/data/00509_2.png",
-      "https://b2b.yugtorg.com/image/data/00509_1.png"
+      "https://b2b.yugtorg.com/image/data/00509_1.png",
+      "https://b2b.yugtorg.com/image/data/00509_2.png"
     ],
     "available": true,
     "price": 994.0,
@@ -24272,33 +24058,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/00510.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/00510.png",
-      "https://b2b.yugtorg.com/image/data/00510_1.png",
-      "https://b2b.yugtorg.com/image/data/00510_2.png"
+      "https://b2b.yugtorg.com/image/data/00510_2.png",
+      "https://b2b.yugtorg.com/image/data/00510_1.png"
     ],
     "available": true,
     "price": 1073.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-452",
-    "sku": "EPX-604",
-    "category": "Аварійне електроживлення",
-    "subcategory": "",
-    "brand": "EUROPOWER",
-    "name": "Стабілізатор напруги релейний Europower EPX-604 600VA 300W, input:184~276V, output:220V±10%, 4 SHUKO",
-    "model": "EPX-604",
-    "description": "Опис: Стабілізатор напруги релейний Europower EPX-604 600VA 300W призначений для стабілізації напруги електромережі. Він має чотири вихідні розетки типу SHUKO та забезпечує захист від короткого замикання. Характеристики: - Модель: Europower EPX-604 - Потужність: 600VA, 300W - Вхідна напруга: 184~276V - Вихідна напруга: 220V±10% - Розетки: 4 SHUKO - Захист: коротке замикання",
-    "features": [
-      "300W"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/00452.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/00452.png",
-      "https://b2b.yugtorg.com/image/data/00452_2.png",
-      "https://b2b.yugtorg.com/image/data/00452_1.png"
-    ],
-    "available": true,
-    "price": 879.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -24316,11 +24080,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/01516.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/01516.png",
+      "https://b2b.yugtorg.com/image/data/01516_4.png",
+      "https://b2b.yugtorg.com/image/data/01516_5.png",
       "https://b2b.yugtorg.com/image/data/01516_2.png",
       "https://b2b.yugtorg.com/image/data/01516_3.png",
-      "https://b2b.yugtorg.com/image/data/01516_1.png",
-      "https://b2b.yugtorg.com/image/data/01516_4.png",
-      "https://b2b.yugtorg.com/image/data/01516_5.png"
+      "https://b2b.yugtorg.com/image/data/01516_1.png"
     ],
     "available": true,
     "price": 965.0,
@@ -24412,8 +24176,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/10570.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/10570.png",
-      "https://b2b.yugtorg.com/image/data/10570_1.png",
-      "https://b2b.yugtorg.com/image/data/10570_2.png"
+      "https://b2b.yugtorg.com/image/data/10570_2.png",
+      "https://b2b.yugtorg.com/image/data/10570_1.png"
     ],
     "available": true,
     "price": 2823.0,
@@ -24434,8 +24198,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/01164.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/01164.png",
-      "https://b2b.yugtorg.com/image/data/01164_2.png",
-      "https://b2b.yugtorg.com/image/data/01164_1.png"
+      "https://b2b.yugtorg.com/image/data/01164_1.png",
+      "https://b2b.yugtorg.com/image/data/01164_2.png"
     ],
     "available": true,
     "price": 4515.0,
@@ -24476,9 +24240,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46076.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46076.png",
-      "https://b2b.yugtorg.com/image/data/46076_2.png",
       "https://b2b.yugtorg.com/image/data/46076_4.png",
       "https://b2b.yugtorg.com/image/data/46076_3.png",
+      "https://b2b.yugtorg.com/image/data/46076_2.png",
       "https://b2b.yugtorg.com/image/data/46076_1.png"
     ],
     "available": true,
@@ -24500,9 +24264,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46077.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46077.png",
+      "https://b2b.yugtorg.com/image/data/46077_1.png",
       "https://b2b.yugtorg.com/image/data/46077_4.png",
       "https://b2b.yugtorg.com/image/data/46077_2.png",
-      "https://b2b.yugtorg.com/image/data/46077_1.png",
       "https://b2b.yugtorg.com/image/data/46077_3.png"
     ],
     "available": true,
@@ -24654,10 +24418,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47902.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47902.png",
-      "https://b2b.yugtorg.com/image/data/47902_3.png",
-      "https://b2b.yugtorg.com/image/data/47902_4.png",
       "https://b2b.yugtorg.com/image/data/47902_1.png",
-      "https://b2b.yugtorg.com/image/data/47902_2.png"
+      "https://b2b.yugtorg.com/image/data/47902_2.png",
+      "https://b2b.yugtorg.com/image/data/47902_3.png",
+      "https://b2b.yugtorg.com/image/data/47902_4.png"
     ],
     "available": true,
     "price": 29895.0,
@@ -24683,13 +24447,13 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/44917.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/44917.png",
-      "https://b2b.yugtorg.com/image/data/44917_7.png",
-      "https://b2b.yugtorg.com/image/data/44917_2.png",
-      "https://b2b.yugtorg.com/image/data/44917_4.png",
       "https://b2b.yugtorg.com/image/data/44917_1.png",
-      "https://b2b.yugtorg.com/image/data/44917_5.png",
+      "https://b2b.yugtorg.com/image/data/44917_7.png",
       "https://b2b.yugtorg.com/image/data/44917_6.png",
-      "https://b2b.yugtorg.com/image/data/44917_3.png"
+      "https://b2b.yugtorg.com/image/data/44917_5.png",
+      "https://b2b.yugtorg.com/image/data/44917_2.png",
+      "https://b2b.yugtorg.com/image/data/44917_3.png",
+      "https://b2b.yugtorg.com/image/data/44917_4.png"
     ],
     "available": true,
     "price": 48000.0,
@@ -24740,14 +24504,14 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/44932.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/44932.png",
-      "https://b2b.yugtorg.com/image/data/44932_4.png",
-      "https://b2b.yugtorg.com/image/data/44932_6.png",
+      "https://b2b.yugtorg.com/image/data/44932_2.png",
       "https://b2b.yugtorg.com/image/data/44932_3.png",
+      "https://b2b.yugtorg.com/image/data/44932_1.png",
+      "https://b2b.yugtorg.com/image/data/44932_4.png",
+      "https://b2b.yugtorg.com/image/data/44932_5.png",
       "https://b2b.yugtorg.com/image/data/44932_7.png",
       "https://b2b.yugtorg.com/image/data/44932_8.png",
-      "https://b2b.yugtorg.com/image/data/44932_1.png",
-      "https://b2b.yugtorg.com/image/data/44932_2.png",
-      "https://b2b.yugtorg.com/image/data/44932_5.png"
+      "https://b2b.yugtorg.com/image/data/44932_6.png"
     ],
     "available": true,
     "price": 95883.0,
@@ -24773,10 +24537,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/44934.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/44934.png",
-      "https://b2b.yugtorg.com/image/data/44934_1.png",
-      "https://b2b.yugtorg.com/image/data/44934_5.png",
       "https://b2b.yugtorg.com/image/data/44934_4.png",
       "https://b2b.yugtorg.com/image/data/44934_3.png",
+      "https://b2b.yugtorg.com/image/data/44934_5.png",
+      "https://b2b.yugtorg.com/image/data/44934_1.png",
       "https://b2b.yugtorg.com/image/data/44934_2.png",
       "https://b2b.yugtorg.com/image/data/44934_6.png"
     ],
@@ -24830,10 +24594,10 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/45765.png",
       "https://b2b.yugtorg.com/image/data/45765_2.png",
-      "https://b2b.yugtorg.com/image/data/45765_3.png",
       "https://b2b.yugtorg.com/image/data/45765_1.png",
-      "https://b2b.yugtorg.com/image/data/45765_5.png",
-      "https://b2b.yugtorg.com/image/data/45765_4.png"
+      "https://b2b.yugtorg.com/image/data/45765_3.png",
+      "https://b2b.yugtorg.com/image/data/45765_4.png",
+      "https://b2b.yugtorg.com/image/data/45765_5.png"
     ],
     "available": true,
     "price": 48000.0,
@@ -24968,9 +24732,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/28159.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/28159.png",
+      "https://b2b.yugtorg.com/image/data/28159_3.png",
       "https://b2b.yugtorg.com/image/data/28159_2.png",
-      "https://b2b.yugtorg.com/image/data/28159_1.png",
-      "https://b2b.yugtorg.com/image/data/28159_3.png"
+      "https://b2b.yugtorg.com/image/data/28159_1.png"
     ],
     "available": true,
     "price": 50760.0,
@@ -24989,9 +24753,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/27091.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/27091.png",
-      "https://b2b.yugtorg.com/image/data/27091_1.png",
-      "https://b2b.yugtorg.com/image/data/27091_3.png",
       "https://b2b.yugtorg.com/image/data/27091_4.png",
+      "https://b2b.yugtorg.com/image/data/27091_3.png",
+      "https://b2b.yugtorg.com/image/data/27091_1.png",
       "https://b2b.yugtorg.com/image/data/27091_2.png"
     ],
     "available": true,
@@ -25011,9 +24775,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/25942.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/25942.png",
-      "https://b2b.yugtorg.com/image/data/25942_1.png",
+      "https://b2b.yugtorg.com/image/data/25942_2.png",
       "https://b2b.yugtorg.com/image/data/25942_3.png",
-      "https://b2b.yugtorg.com/image/data/25942_2.png"
+      "https://b2b.yugtorg.com/image/data/25942_1.png"
     ],
     "available": true,
     "price": 56124.0,
@@ -25156,26 +24920,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 253800.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-38338",
-    "sku": "FDL16500SC3",
-    "category": "Аварійне електроживлення",
-    "subcategory": "",
-    "brand": "FULL",
-    "name": "Генератор дизельний FULL FDL16500SC3, 3-фазний 230 / 400V, 50Hz, 16.5kVA / 12kW, бак 50 л, витрата 4 л / год, пуск: стартер (без АКБ), 1145x750x975 мм, 297 кг",
-    "model": "FDL16500SC3",
-    "description": "Дизельний генератор FULL FDL16500SC3 - це професійне трифазне рішення для безперебійного електропостачання промислових об`єктів, комерційних приміщень та великих заміських будинків. З номінальною потужністю 15 кВА та максимальним навантаженням 16.25 кВА установка забезпечує стабільне живлення енергоємного обладнання та побутових приладів одночасно. Трифазний генератор з вихідною напругою 230 / 400V та частотою 50Hz призначений для роботи зі стандартним промисловим та побутовим електрообладнанням. Оснащений двоциліндровим дизельним двигуном повітряного охолодження потужністю 22 к.с. із збільшеним моторесурсом. Паливний бак об`ємом 50 літрів забезпечує тривалу автономну роботу при витраті палива близько 4 л / год. Установка призначена для основного чи резервного енергопостачання виробничих цехів, будівельних майданчиків, фермерських господарств та комерційних об`єктів. Вирішує завдання електропостачання за відсутності централізованих мереж чи частих відключення електроенергії. Особливості та переваги: - Трифазна напруга 230 / 400V для універсального застосування - Електричний стартер для комфортного запуску - Цифрова панель контролю параметрів роботи - Збільшений моторесурс дизельного двигуна - Економічне споживання дизельного палива - Міцна конструкція для промислової експлуатації - Великий паливний бак для тривалої автономної роботи Характеристики: • Тип генератора: дизельний трифазний • Максимальна потужність: 16.25 кВА • Номінальна потужність: 15 кВА • Вихідна напруга: 230 / 400 В • Частота струму: 50 Гц • Кількість фаз: 3 • Номінальний струм: 52 А • Тип двигуна: двоциліндровий повітряного охолодження • Потужність двигуна: 22 к.с. • Робочий об`єм: 1064 см³ • Система запуску: електростарт (акумулятор в комплект не входить)ер (акумулятор в комплект не входить) • Об`єм паливного бака: 50 л • Витрата палива: 4 л / год. • Місткість масляної системи: 3 л • Олія, що рекомендується: 15W40 • Рівень шуму: 85 дБА (на відстані 7 м) • Габарити: 1145×750×975 мм • Вага: 297 кг Генератор FULL FDL16500SC3 поєднує промислову надійність, паливну економічність і універсальність трифазного підключення, що робить його оптимальним вибором для професійного застосування в умовах підвищених навантажень.",
-    "features": [
-      "975 мм"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/38338.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/38338.png"
-    ],
-    "available": true,
-    "price": 270720.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -25776,31 +25520,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "viatec-5689",
-    "sku": "99-00004374",
-    "category": "Аварійне електроживлення",
-    "subcategory": "",
-    "brand": "Full Energy",
-    "name": "Блок безперебійного живлення Full Energy",
-    "model": "BBG-125 12В 5А",
-    "description": "Безперебійний блок живлення імпульсний, вихід: +12...14.2В/5А, клемник; вхід: ~100...240В, клемник; металевий корпус з кришкою та замком; стабілізація напруги; захист від глибокого розряду. Можливе встановлення акумулятора 1,2Ah, 2.2Ah, 4Ah, 7Ah. Розміри: 225х195х80мм",
-    "features": [
-      "Вхідна напруга: ~100 - 240В",
-      "Вихідна напруга: +12 - 14.2В/5A",
-      "80 мм",
-      "2Ah",
-      "4Ah",
-      "7Ah"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/Full_Energy_BBG-125.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/Full_Energy_BBG-125.webp"
-    ],
-    "available": true,
-    "price": 1485.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-7262",
     "sku": "99-00008299",
     "category": "Аварійне електроживлення",
@@ -25968,9 +25687,9 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/45491.png",
       "https://b2b.yugtorg.com/image/data/45491_4.png",
+      "https://b2b.yugtorg.com/image/data/45491_1.png",
       "https://b2b.yugtorg.com/image/data/45491_3.png",
-      "https://b2b.yugtorg.com/image/data/45491_2.png",
-      "https://b2b.yugtorg.com/image/data/45491_1.png"
+      "https://b2b.yugtorg.com/image/data/45491_2.png"
     ],
     "available": true,
     "price": 102125.0,
@@ -25991,9 +25710,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45618.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45618.png",
+      "https://b2b.yugtorg.com/image/data/45618_2.png",
       "https://b2b.yugtorg.com/image/data/45618_3.png",
-      "https://b2b.yugtorg.com/image/data/45618_1.png",
-      "https://b2b.yugtorg.com/image/data/45618_2.png"
+      "https://b2b.yugtorg.com/image/data/45618_1.png"
     ],
     "available": true,
     "price": 30363.0,
@@ -26014,10 +25733,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45485.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45485.png",
-      "https://b2b.yugtorg.com/image/data/45485_1.png",
-      "https://b2b.yugtorg.com/image/data/45485_2.png",
       "https://b2b.yugtorg.com/image/data/45485_3.png",
-      "https://b2b.yugtorg.com/image/data/45485_4.png"
+      "https://b2b.yugtorg.com/image/data/45485_1.png",
+      "https://b2b.yugtorg.com/image/data/45485_4.png",
+      "https://b2b.yugtorg.com/image/data/45485_2.png"
     ],
     "available": true,
     "price": 27051.0,
@@ -26038,9 +25757,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45486.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45486.png",
-      "https://b2b.yugtorg.com/image/data/45486_3.png",
       "https://b2b.yugtorg.com/image/data/45486_2.png",
       "https://b2b.yugtorg.com/image/data/45486_4.png",
+      "https://b2b.yugtorg.com/image/data/45486_3.png",
       "https://b2b.yugtorg.com/image/data/45486_1.png"
     ],
     "available": true,
@@ -26062,10 +25781,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45487.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45487.png",
-      "https://b2b.yugtorg.com/image/data/45487_1.png",
       "https://b2b.yugtorg.com/image/data/45487_2.png",
-      "https://b2b.yugtorg.com/image/data/45487_3.png",
-      "https://b2b.yugtorg.com/image/data/45487_4.png"
+      "https://b2b.yugtorg.com/image/data/45487_1.png",
+      "https://b2b.yugtorg.com/image/data/45487_4.png",
+      "https://b2b.yugtorg.com/image/data/45487_3.png"
     ],
     "available": true,
     "price": 32019.0,
@@ -26086,10 +25805,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45488.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45488.png",
-      "https://b2b.yugtorg.com/image/data/45488_2.png",
-      "https://b2b.yugtorg.com/image/data/45488_3.png",
+      "https://b2b.yugtorg.com/image/data/45488_1.png",
       "https://b2b.yugtorg.com/image/data/45488_4.png",
-      "https://b2b.yugtorg.com/image/data/45488_1.png"
+      "https://b2b.yugtorg.com/image/data/45488_3.png",
+      "https://b2b.yugtorg.com/image/data/45488_2.png"
     ],
     "available": true,
     "price": 37541.0,
@@ -26110,10 +25829,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45497.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45497.png",
-      "https://b2b.yugtorg.com/image/data/45497_3.png",
+      "https://b2b.yugtorg.com/image/data/45497_4.png",
       "https://b2b.yugtorg.com/image/data/45497_2.png",
       "https://b2b.yugtorg.com/image/data/45497_1.png",
-      "https://b2b.yugtorg.com/image/data/45497_4.png"
+      "https://b2b.yugtorg.com/image/data/45497_3.png"
     ],
     "available": true,
     "price": 60725.0,
@@ -26437,11 +26156,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/44999.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/44999.png",
-      "https://b2b.yugtorg.com/image/data/44999_2.png",
-      "https://b2b.yugtorg.com/image/data/44999_1.png",
       "https://b2b.yugtorg.com/image/data/44999_4.png",
-      "https://b2b.yugtorg.com/image/data/44999_6.png",
       "https://b2b.yugtorg.com/image/data/44999_5.png",
+      "https://b2b.yugtorg.com/image/data/44999_1.png",
+      "https://b2b.yugtorg.com/image/data/44999_2.png",
+      "https://b2b.yugtorg.com/image/data/44999_6.png",
       "https://b2b.yugtorg.com/image/data/44999_3.png"
     ],
     "available": true,
@@ -26461,11 +26180,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45568.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45568.png",
-      "https://b2b.yugtorg.com/image/data/45568_1.png",
+      "https://b2b.yugtorg.com/image/data/45568_5.png",
+      "https://b2b.yugtorg.com/image/data/45568_4.png",
       "https://b2b.yugtorg.com/image/data/45568_3.png",
       "https://b2b.yugtorg.com/image/data/45568_2.png",
-      "https://b2b.yugtorg.com/image/data/45568_4.png",
-      "https://b2b.yugtorg.com/image/data/45568_5.png"
+      "https://b2b.yugtorg.com/image/data/45568_1.png"
     ],
     "available": true,
     "price": 3199.0,
@@ -26560,9 +26279,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/44971.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/44971.png",
+      "https://b2b.yugtorg.com/image/data/44971_2.png",
       "https://b2b.yugtorg.com/image/data/44971_1.png",
-      "https://b2b.yugtorg.com/image/data/44971_3.png",
-      "https://b2b.yugtorg.com/image/data/44971_2.png"
+      "https://b2b.yugtorg.com/image/data/44971_3.png"
     ],
     "available": true,
     "price": 1950.0,
@@ -26589,11 +26308,11 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/45830.png",
       "https://b2b.yugtorg.com/image/data/45830_6.png",
-      "https://b2b.yugtorg.com/image/data/45830_1.png",
-      "https://b2b.yugtorg.com/image/data/45830_2.png",
-      "https://b2b.yugtorg.com/image/data/45830_3.png",
+      "https://b2b.yugtorg.com/image/data/45830_5.png",
       "https://b2b.yugtorg.com/image/data/45830_4.png",
-      "https://b2b.yugtorg.com/image/data/45830_5.png"
+      "https://b2b.yugtorg.com/image/data/45830_2.png",
+      "https://b2b.yugtorg.com/image/data/45830_1.png",
+      "https://b2b.yugtorg.com/image/data/45830_3.png"
     ],
     "available": true,
     "price": 49000.0,
@@ -26619,12 +26338,12 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48081.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48081.png",
-      "https://b2b.yugtorg.com/image/data/48081_4.png",
       "https://b2b.yugtorg.com/image/data/48081_5.png",
-      "https://b2b.yugtorg.com/image/data/48081_3.png",
-      "https://b2b.yugtorg.com/image/data/48081_1.png",
+      "https://b2b.yugtorg.com/image/data/48081_6.png",
+      "https://b2b.yugtorg.com/image/data/48081_4.png",
       "https://b2b.yugtorg.com/image/data/48081_2.png",
-      "https://b2b.yugtorg.com/image/data/48081_6.png"
+      "https://b2b.yugtorg.com/image/data/48081_1.png",
+      "https://b2b.yugtorg.com/image/data/48081_3.png"
     ],
     "available": true,
     "price": 36999.0,
@@ -26650,10 +26369,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48082.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48082.png",
-      "https://b2b.yugtorg.com/image/data/48082_2.png",
+      "https://b2b.yugtorg.com/image/data/48082_3.png",
       "https://b2b.yugtorg.com/image/data/48082_1.png",
-      "https://b2b.yugtorg.com/image/data/48082_4.png",
-      "https://b2b.yugtorg.com/image/data/48082_3.png"
+      "https://b2b.yugtorg.com/image/data/48082_2.png",
+      "https://b2b.yugtorg.com/image/data/48082_4.png"
     ],
     "available": true,
     "price": 49999.0,
@@ -26677,10 +26396,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48068.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48068.png",
-      "https://b2b.yugtorg.com/image/data/48068_2.png",
+      "https://b2b.yugtorg.com/image/data/48068_3.png",
       "https://b2b.yugtorg.com/image/data/48068_4.png",
-      "https://b2b.yugtorg.com/image/data/48068_1.png",
-      "https://b2b.yugtorg.com/image/data/48068_3.png"
+      "https://b2b.yugtorg.com/image/data/48068_2.png",
+      "https://b2b.yugtorg.com/image/data/48068_1.png"
     ],
     "available": true,
     "price": 35000.0,
@@ -26701,9 +26420,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48070.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48070.png",
-      "https://b2b.yugtorg.com/image/data/48070_4.png",
-      "https://b2b.yugtorg.com/image/data/48070_3.png",
       "https://b2b.yugtorg.com/image/data/48070_2.png",
+      "https://b2b.yugtorg.com/image/data/48070_3.png",
+      "https://b2b.yugtorg.com/image/data/48070_4.png",
       "https://b2b.yugtorg.com/image/data/48070_1.png"
     ],
     "available": true,
@@ -26878,8 +26597,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46119.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46119.png",
-      "https://b2b.yugtorg.com/image/data/46119_4.png",
       "https://b2b.yugtorg.com/image/data/46119_3.png",
+      "https://b2b.yugtorg.com/image/data/46119_4.png",
       "https://b2b.yugtorg.com/image/data/46119_1.png",
       "https://b2b.yugtorg.com/image/data/46119_2.png"
     ],
@@ -27101,11 +26820,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48531.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48531.png",
-      "https://b2b.yugtorg.com/image/data/48531_5.png",
+      "https://b2b.yugtorg.com/image/data/48531_4.png",
       "https://b2b.yugtorg.com/image/data/48531_2.png",
-      "https://b2b.yugtorg.com/image/data/48531_1.png",
       "https://b2b.yugtorg.com/image/data/48531_3.png",
-      "https://b2b.yugtorg.com/image/data/48531_4.png"
+      "https://b2b.yugtorg.com/image/data/48531_1.png",
+      "https://b2b.yugtorg.com/image/data/48531_5.png"
     ],
     "available": true,
     "price": 56999.0,
@@ -27124,10 +26843,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48532.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48532.png",
-      "https://b2b.yugtorg.com/image/data/48532_4.png",
-      "https://b2b.yugtorg.com/image/data/48532_3.png",
       "https://b2b.yugtorg.com/image/data/48532_2.png",
-      "https://b2b.yugtorg.com/image/data/48532_1.png"
+      "https://b2b.yugtorg.com/image/data/48532_1.png",
+      "https://b2b.yugtorg.com/image/data/48532_4.png",
+      "https://b2b.yugtorg.com/image/data/48532_3.png"
     ],
     "available": true,
     "price": 57799.0,
@@ -27146,11 +26865,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48530.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48530.png",
+      "https://b2b.yugtorg.com/image/data/48530_5.png",
       "https://b2b.yugtorg.com/image/data/48530_4.png",
-      "https://b2b.yugtorg.com/image/data/48530_3.png",
-      "https://b2b.yugtorg.com/image/data/48530_2.png",
       "https://b2b.yugtorg.com/image/data/48530_1.png",
-      "https://b2b.yugtorg.com/image/data/48530_5.png"
+      "https://b2b.yugtorg.com/image/data/48530_2.png",
+      "https://b2b.yugtorg.com/image/data/48530_3.png"
     ],
     "available": true,
     "price": 53099.0,
@@ -27191,9 +26910,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48535.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48535.png",
+      "https://b2b.yugtorg.com/image/data/48535_3.png",
       "https://b2b.yugtorg.com/image/data/48535_1.png",
-      "https://b2b.yugtorg.com/image/data/48535_2.png",
-      "https://b2b.yugtorg.com/image/data/48535_3.png"
+      "https://b2b.yugtorg.com/image/data/48535_2.png"
     ],
     "available": true,
     "price": 97499.0,
@@ -27212,10 +26931,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48533.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48533.png",
-      "https://b2b.yugtorg.com/image/data/48533_1.png",
       "https://b2b.yugtorg.com/image/data/48533_4.png",
+      "https://b2b.yugtorg.com/image/data/48533_2.png",
       "https://b2b.yugtorg.com/image/data/48533_3.png",
-      "https://b2b.yugtorg.com/image/data/48533_2.png"
+      "https://b2b.yugtorg.com/image/data/48533_1.png"
     ],
     "available": true,
     "price": 57799.0,
@@ -27236,10 +26955,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48536.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48536.png",
+      "https://b2b.yugtorg.com/image/data/48536_4.png",
       "https://b2b.yugtorg.com/image/data/48536_2.png",
       "https://b2b.yugtorg.com/image/data/48536_1.png",
-      "https://b2b.yugtorg.com/image/data/48536_3.png",
-      "https://b2b.yugtorg.com/image/data/48536_4.png"
+      "https://b2b.yugtorg.com/image/data/48536_3.png"
     ],
     "available": true,
     "price": 98599.0,
@@ -27260,13 +26979,13 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48529.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48529.png",
-      "https://b2b.yugtorg.com/image/data/48529_1.png",
-      "https://b2b.yugtorg.com/image/data/48529_7.png",
-      "https://b2b.yugtorg.com/image/data/48529_6.png",
-      "https://b2b.yugtorg.com/image/data/48529_5.png",
       "https://b2b.yugtorg.com/image/data/48529_4.png",
+      "https://b2b.yugtorg.com/image/data/48529_1.png",
       "https://b2b.yugtorg.com/image/data/48529_3.png",
-      "https://b2b.yugtorg.com/image/data/48529_2.png"
+      "https://b2b.yugtorg.com/image/data/48529_5.png",
+      "https://b2b.yugtorg.com/image/data/48529_2.png",
+      "https://b2b.yugtorg.com/image/data/48529_6.png",
+      "https://b2b.yugtorg.com/image/data/48529_7.png"
     ],
     "available": true,
     "price": 26799.0,
@@ -27307,11 +27026,11 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/47602.png",
       "https://b2b.yugtorg.com/image/data/47602_5.png",
       "https://b2b.yugtorg.com/image/data/47602_2.png",
-      "https://b2b.yugtorg.com/image/data/47602_3.png",
-      "https://b2b.yugtorg.com/image/data/47602_4.png",
       "https://b2b.yugtorg.com/image/data/47602_6.png",
       "https://b2b.yugtorg.com/image/data/47602_1.png",
-      "https://b2b.yugtorg.com/image/data/47602_7.png"
+      "https://b2b.yugtorg.com/image/data/47602_7.png",
+      "https://b2b.yugtorg.com/image/data/47602_4.png",
+      "https://b2b.yugtorg.com/image/data/47602_3.png"
     ],
     "available": true,
     "price": 74999.0,
@@ -27331,10 +27050,10 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/48841.png",
       "https://b2b.yugtorg.com/image/data/48841_5.png",
-      "https://b2b.yugtorg.com/image/data/48841_4.png",
-      "https://b2b.yugtorg.com/image/data/48841_3.png",
       "https://b2b.yugtorg.com/image/data/48841_1.png",
-      "https://b2b.yugtorg.com/image/data/48841_2.png"
+      "https://b2b.yugtorg.com/image/data/48841_4.png",
+      "https://b2b.yugtorg.com/image/data/48841_2.png",
+      "https://b2b.yugtorg.com/image/data/48841_3.png"
     ],
     "available": true,
     "price": 111499.0,
@@ -27526,10 +27245,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/20453.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/20453.png",
-      "https://b2b.yugtorg.com/image/data/20453_4.png",
+      "https://b2b.yugtorg.com/image/data/20453_2.png",
       "https://b2b.yugtorg.com/image/data/20453_1.png",
-      "https://b2b.yugtorg.com/image/data/20453_3.png",
-      "https://b2b.yugtorg.com/image/data/20453_2.png"
+      "https://b2b.yugtorg.com/image/data/20453_4.png",
+      "https://b2b.yugtorg.com/image/data/20453_3.png"
     ],
     "available": true,
     "price": 7800.0,
@@ -27548,9 +27267,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/20454.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/20454.png",
+      "https://b2b.yugtorg.com/image/data/20454_2.png",
       "https://b2b.yugtorg.com/image/data/20454_3.png",
-      "https://b2b.yugtorg.com/image/data/20454_1.png",
-      "https://b2b.yugtorg.com/image/data/20454_2.png"
+      "https://b2b.yugtorg.com/image/data/20454_1.png"
     ],
     "available": true,
     "price": 38025.0,
@@ -27626,9 +27345,9 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/45700.png",
       "https://b2b.yugtorg.com/image/data/45700_4.png",
-      "https://b2b.yugtorg.com/image/data/45700_3.png",
+      "https://b2b.yugtorg.com/image/data/45700_2.png",
       "https://b2b.yugtorg.com/image/data/45700_1.png",
-      "https://b2b.yugtorg.com/image/data/45700_2.png"
+      "https://b2b.yugtorg.com/image/data/45700_3.png"
     ],
     "available": true,
     "price": 29000.0,
@@ -27647,10 +27366,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45703.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45703.png",
-      "https://b2b.yugtorg.com/image/data/45703_4.png",
       "https://b2b.yugtorg.com/image/data/45703_3.png",
+      "https://b2b.yugtorg.com/image/data/45703_1.png",
       "https://b2b.yugtorg.com/image/data/45703_2.png",
-      "https://b2b.yugtorg.com/image/data/45703_1.png"
+      "https://b2b.yugtorg.com/image/data/45703_4.png"
     ],
     "available": true,
     "price": 31000.0,
@@ -27673,8 +27392,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/19496.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/19496.png",
-      "https://b2b.yugtorg.com/image/data/19496_1.png",
-      "https://b2b.yugtorg.com/image/data/19496_2.png"
+      "https://b2b.yugtorg.com/image/data/19496_2.png",
+      "https://b2b.yugtorg.com/image/data/19496_1.png"
     ],
     "available": true,
     "price": 3827.68,
@@ -27747,8 +27466,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/29060.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/29060.png",
-      "https://b2b.yugtorg.com/image/data/29060_1.png",
-      "https://b2b.yugtorg.com/image/data/29060_2.png"
+      "https://b2b.yugtorg.com/image/data/29060_2.png",
+      "https://b2b.yugtorg.com/image/data/29060_1.png"
     ],
     "available": true,
     "price": 19000.0,
@@ -27771,8 +27490,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02349.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02349.png",
-      "https://b2b.yugtorg.com/image/data/02349_1.png",
-      "https://b2b.yugtorg.com/image/data/02349_2.png"
+      "https://b2b.yugtorg.com/image/data/02349_2.png",
+      "https://b2b.yugtorg.com/image/data/02349_1.png"
     ],
     "available": true,
     "price": 1463.0,
@@ -28217,62 +27936,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "yugtorg-33465",
-    "sku": "MXRATS",
-    "category": "Аварійне електроживлення",
-    "subcategory": "",
-    "brand": "MXR",
-    "name": "Блок автоматичного введення резерву MXR ATS 4 / 25 сумісний з моделями генераторів MXR6000, MXR6000",
-    "model": "MXRATS",
-    "description": "Блок автоматичного введення резерву (ABP) MaXpeedingRods ATS 4 / 25 автоматично запускає генератор та перемикає навантаження на нього при відключенні основного джерела живлення і автоматично зупиняє роботу генератора при відновленні центрального електропостачання. Підходить для бензинових генераторів інверторного типу, оснащених 7-піновим роз`ємом для підключення блоку автоматичного введення резерву (вхід для АВР). Сумісний з моделями MXR6000 та MXR9000. Блок АВР може працювати як в автоматичному, так і в ручному режимах. Має кнопку аварійної зупинки генератора. - Автоматичний / ручний режим керування - Кнопка аварійної зупинки генератора - Підтримує акумулятор у зарядженому стані - 7-ти піновий роз`єм кабелю управління Характеристики: Матеріал - Сталь Температурний режим, °C - -50 - +50 Потужність 230В, кВт - 5.75 (MXR6000); ((11.5) MXR9000) Сила струму (макс) 230В, А – 25 (MXR6000); ((50) MXR9000) Довжина 7-ми пінового кабелю, м. - 5 IP клас - IP41 Розмір (ШхВхГ), мм – 250х320х140",
-    "features": [
-      "IP41"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/33465.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/33465.png"
-    ],
-    "available": true,
-    "price": 10500.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-47749",
-    "sku": "mxr3500i",
-    "category": "Аварійне електроживлення",
-    "subcategory": "",
-    "brand": "MXR",
-    "name": "Генератор инверторный БЕНЗИНОВЫЙ MXR3500i LED дисплей (3 кВт), однофазний, 220В, 50Гц, об'єм бака 4л, ручний запуск",
-    "model": "mxr3500i",
-    "description": "Інверторний генератор MXR3500i – це оновлена версія однієї з найпопулярніших моделей бренду MXR. Ми зберегли все, за що покупці цінують MXR3500: надійність, економічність, тиху роботу та стабільну чисту синусоїду. Головне оновлення - сучасний багатофункціональний LCD-дисплей, який робить експлуатацію генератора ще простіше та зручніше. Новий дисплей дозволяє в режимі реального часу контролювати: -Вихідна напруга; -Частоту струму; -Кількість відпрацьованих мотогодин. Завдяки цьому ви завжди знаєте, в якому режимі працює генератор, можете своєчасно проводити технічне обслуговування та контролювати параметри живлення без використання додаткових приладів. Характеристики: Об`єм паливного бака, л 4.0 Час автономної роботи, година 9 Система пуску Ручний стартер Номінальна напруга, 230 Частота, Гц 50 К-ство фаз 1 Рівень шуму, дБ. 57 Двигун DK164F / P, 4-тактний двигун з верхнім розташуванням клапанів. Об`єм двигуна, куб. 145 Потужність, л / с 5.0 Тип альтернатора асинхронний Розетка 2x16А (230 В), 1x12В, 2-USB Габарити 48x29x43 Вага 21 Тип установки портативна Система охолодження повітряна Робоча температура -15С – +40С Виробник MaXpeedingRods Країна виробник Україна (Китай) Режим роботи резервний Клас захисту IP23M",
-    "features": [],
-    "image": "https://b2b.yugtorg.com/image/data/47749.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/47749.png"
-    ],
-    "available": true,
-    "price": 30500.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-48823",
-    "sku": "MXR-СY5000i D",
-    "category": "Аварійне електроживлення",
-    "subcategory": "",
-    "brand": "MXR",
-    "name": "Генератор инверторный ДИЗЕЛЬНЫЙ MXR-SY5000i (4.5kW), однофазний, 220V, 50Hz, об'єм бака 21л, електростартер",
-    "model": "MXR-СY5000i D",
-    "description": "Характеристики Номінальна потужність, кВт 4,5 Максимальна потужність, кВт 5,0 К-сть фаз 1 Вид палива Дизельне пальне Двигун -дизельний одноциліндровий, -вертикальний, -4-тактний із системою прямого вприскування палива та повітряним охолодженням Об`єм двигуна, куб.см 407 Система охолодження повітряна Система пуску Електричний старт / ATS / Ручний стартер Витрати палива, л / г 0,48 Час автономної роботи, год 35 Потужність, к / с 8,2 Матеріал обмотки мідь Номінальна напруга, В 230 Частота, Гц 50 Рівень шуму, дб 72 Об``єм паливного баку, л 21.0 Вага 80 Розетки 1 x CEE 230 V 32 A, 2 x Schuko 230 V Тип установки портативна Робоча температура -15С - +40С Клас захисту IP23M Габарити, мм 620х560х650 Режим роботи резервний Виробник MaXpeedingRods Країна виробник Китай Гарантійний термін, міс. 12",
-    "features": [],
-    "image": "https://b2b.yugtorg.com/image/data/48823.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/48823.png"
-    ],
-    "available": true,
-    "price": 63999.0,
-    "source_supplier": "yugtorg"
-  },
-  {
     "id": "yugtorg-33385",
     "sku": "mxr3500S",
     "category": "Аварійне електроживлення",
@@ -28313,10 +27976,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/01501.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/01501.png",
-      "https://b2b.yugtorg.com/image/data/01501_3.png",
+      "https://b2b.yugtorg.com/image/data/01501_1.png",
       "https://b2b.yugtorg.com/image/data/01501_4.png",
       "https://b2b.yugtorg.com/image/data/01501_5.png",
-      "https://b2b.yugtorg.com/image/data/01501_1.png",
+      "https://b2b.yugtorg.com/image/data/01501_3.png",
       "https://b2b.yugtorg.com/image/data/01501_2.png"
     ],
     "available": true,
@@ -28410,13 +28073,13 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/45769.png",
       "https://b2b.yugtorg.com/image/data/45769_5.png",
-      "https://b2b.yugtorg.com/image/data/45769_3.png",
       "https://b2b.yugtorg.com/image/data/45769_4.png",
+      "https://b2b.yugtorg.com/image/data/45769_1.png",
       "https://b2b.yugtorg.com/image/data/45769_2.png",
-      "https://b2b.yugtorg.com/image/data/45769_1.png"
+      "https://b2b.yugtorg.com/image/data/45769_3.png"
     ],
     "available": true,
-    "price": 34560.0,
+    "price": 32000.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -28464,7 +28127,7 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/42279_4.png"
     ],
     "available": true,
-    "price": 37224.0,
+    "price": 35000.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -28486,25 +28149,7 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/33487_4.png"
     ],
     "available": true,
-    "price": 19200.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-48648",
-    "sku": "mxr4800i",
-    "category": "Аварійне електроживлення",
-    "subcategory": "",
-    "brand": "MXR",
-    "name": "Генератор інверторний БЕНЗИНОВИЙ MXR4800i (3.8кВт), однофазний, 220В, 50Гц, об'єм бака 7.5л, ручний запуск",
-    "model": "mxr4800i",
-    "description": "Інверторний генератор MaxpeedingRods MXR4800i – компактне та продуктивне джерело автономного електроживлення з номінальною потужністю 3,5 кВт та максимальною потужністю 3,8 кВт. Модель підійде для резервного харчування приватного будинку, квартири, дачі, невеликого офісу, майстерні, а також для використання під час виїзних робіт, подорожей та кемпінгу. Стабільне харчування завдяки інверторній технології MXR4800i використовує інверторну технологію для формування стабільної вихідної напруги та чистого синусоїда. Завдяки цьому до генератора можна підключати не тільки звичайні електроприлади та інструменти, але й обладнання, чутливе до якості електроживлення. ноутбуки, телевізори, зарядні пристрої, смартфони, роутери, системи опалення та іншу електроніку. Генератор видає 230 В / 50 Гц, а робочий струм становить 15,2 А. Характеристики Характеристики Максимальна потужність, квт 3.8 Номінальна потужність, квт 3.5 Витрата палива, л / год 0,45 Матеріал обмотки мідь Вид палива Бензин Об`єм паливного бака, л 7.5 Час автономної роботи, ч. 9 Система пуску Ручний стартер Номінальна напруга, 230 Частота, Гц 50 Кількість фаз 1 Рівень шуму, дб 72 Двигун DK223F / P-1, 4-тактний двигун з верхнім розташуванням клапанів. Об`єм двигуна, куб.см 223 Потужність, к / с 7,5 Тип альтернатора асинхронний Розетки 2x16А (230 В), 2x5 В 0,9А Габарити 43.5x38x47 Вага 27 Тип установки портативна Система охолодження повітряна Робоча температура -15С - +40С Виробник MaXpeedingRods Країна виробник Китай Режим роботи резервний Гарантійний термін, міс. 12 Клас захисту IP23M",
-    "features": [],
-    "image": "https://b2b.yugtorg.com/image/data/48648.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/48648.png"
-    ],
-    "available": true,
-    "price": 21499.0,
+    "price": 18000.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -28548,7 +28193,7 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/33387_4.png"
     ],
     "available": true,
-    "price": 108000.0,
+    "price": 100000.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -28747,9 +28392,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48047.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48047.png",
-      "https://b2b.yugtorg.com/image/data/48047_1.png",
       "https://b2b.yugtorg.com/image/data/48047_3.png",
       "https://b2b.yugtorg.com/image/data/48047_2.png",
+      "https://b2b.yugtorg.com/image/data/48047_1.png",
       "https://b2b.yugtorg.com/image/data/48047_4.png"
     ],
     "available": true,
@@ -28776,9 +28421,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45772.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45772.png",
+      "https://b2b.yugtorg.com/image/data/45772_1.png",
       "https://b2b.yugtorg.com/image/data/45772_2.png",
-      "https://b2b.yugtorg.com/image/data/45772_3.png",
-      "https://b2b.yugtorg.com/image/data/45772_1.png"
+      "https://b2b.yugtorg.com/image/data/45772_3.png"
     ],
     "available": true,
     "price": 58045.0,
@@ -28797,8 +28442,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47686.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47686.png",
-      "https://b2b.yugtorg.com/image/data/47686_1.png",
-      "https://b2b.yugtorg.com/image/data/47686_2.png"
+      "https://b2b.yugtorg.com/image/data/47686_2.png",
+      "https://b2b.yugtorg.com/image/data/47686_1.png"
     ],
     "available": true,
     "price": 1156205.0,
@@ -28817,11 +28462,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45565.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45565.png",
-      "https://b2b.yugtorg.com/image/data/45565_3.png",
       "https://b2b.yugtorg.com/image/data/45565_2.png",
-      "https://b2b.yugtorg.com/image/data/45565_5.png",
+      "https://b2b.yugtorg.com/image/data/45565_1.png",
+      "https://b2b.yugtorg.com/image/data/45565_3.png",
       "https://b2b.yugtorg.com/image/data/45565_4.png",
-      "https://b2b.yugtorg.com/image/data/45565_1.png"
+      "https://b2b.yugtorg.com/image/data/45565_5.png"
     ],
     "available": true,
     "price": 648605.0,
@@ -28894,8 +28539,8 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/45544_1.png",
       "https://b2b.yugtorg.com/image/data/45544_2.png",
       "https://b2b.yugtorg.com/image/data/45544_3.png",
-      "https://b2b.yugtorg.com/image/data/45544_4.png",
-      "https://b2b.yugtorg.com/image/data/45544_5.png"
+      "https://b2b.yugtorg.com/image/data/45544_5.png",
+      "https://b2b.yugtorg.com/image/data/45544_4.png"
     ],
     "available": true,
     "price": 761400.0,
@@ -28916,13 +28561,13 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45545.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45545.png",
-      "https://b2b.yugtorg.com/image/data/45545_3.png",
-      "https://b2b.yugtorg.com/image/data/45545_1.png",
       "https://b2b.yugtorg.com/image/data/45545_2.png",
-      "https://b2b.yugtorg.com/image/data/45545_4.png",
       "https://b2b.yugtorg.com/image/data/45545_7.png",
       "https://b2b.yugtorg.com/image/data/45545_6.png",
-      "https://b2b.yugtorg.com/image/data/45545_5.png"
+      "https://b2b.yugtorg.com/image/data/45545_5.png",
+      "https://b2b.yugtorg.com/image/data/45545_4.png",
+      "https://b2b.yugtorg.com/image/data/45545_3.png",
+      "https://b2b.yugtorg.com/image/data/45545_1.png"
     ],
     "available": true,
     "price": 806523.0,
@@ -28943,12 +28588,12 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46062.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46062.png",
-      "https://b2b.yugtorg.com/image/data/46062_2.png",
+      "https://b2b.yugtorg.com/image/data/46062_5.png",
       "https://b2b.yugtorg.com/image/data/46062_6.png",
       "https://b2b.yugtorg.com/image/data/46062_1.png",
-      "https://b2b.yugtorg.com/image/data/46062_4.png",
+      "https://b2b.yugtorg.com/image/data/46062_2.png",
       "https://b2b.yugtorg.com/image/data/46062_3.png",
-      "https://b2b.yugtorg.com/image/data/46062_5.png"
+      "https://b2b.yugtorg.com/image/data/46062_4.png"
     ],
     "available": true,
     "price": 485043.0,
@@ -28969,12 +28614,12 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45540.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45540.png",
+      "https://b2b.yugtorg.com/image/data/45540_5.png",
+      "https://b2b.yugtorg.com/image/data/45540_4.png",
       "https://b2b.yugtorg.com/image/data/45540_1.png",
-      "https://b2b.yugtorg.com/image/data/45540_6.png",
       "https://b2b.yugtorg.com/image/data/45540_2.png",
       "https://b2b.yugtorg.com/image/data/45540_3.png",
-      "https://b2b.yugtorg.com/image/data/45540_5.png",
-      "https://b2b.yugtorg.com/image/data/45540_4.png"
+      "https://b2b.yugtorg.com/image/data/45540_6.png"
     ],
     "available": true,
     "price": 518883.0,
@@ -28993,13 +28638,13 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46153.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46153.png",
-      "https://b2b.yugtorg.com/image/data/46153_2.png",
       "https://b2b.yugtorg.com/image/data/46153_1.png",
-      "https://b2b.yugtorg.com/image/data/46153_4.png",
-      "https://b2b.yugtorg.com/image/data/46153_5.png",
-      "https://b2b.yugtorg.com/image/data/46153_6.png",
       "https://b2b.yugtorg.com/image/data/46153_7.png",
-      "https://b2b.yugtorg.com/image/data/46153_3.png"
+      "https://b2b.yugtorg.com/image/data/46153_6.png",
+      "https://b2b.yugtorg.com/image/data/46153_5.png",
+      "https://b2b.yugtorg.com/image/data/46153_4.png",
+      "https://b2b.yugtorg.com/image/data/46153_3.png",
+      "https://b2b.yugtorg.com/image/data/46153_2.png"
     ],
     "available": true,
     "price": 583200.0,
@@ -29021,12 +28666,12 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45542.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45542.png",
-      "https://b2b.yugtorg.com/image/data/45542_6.png",
-      "https://b2b.yugtorg.com/image/data/45542_1.png",
       "https://b2b.yugtorg.com/image/data/45542_4.png",
-      "https://b2b.yugtorg.com/image/data/45542_3.png",
+      "https://b2b.yugtorg.com/image/data/45542_6.png",
+      "https://b2b.yugtorg.com/image/data/45542_2.png",
       "https://b2b.yugtorg.com/image/data/45542_5.png",
-      "https://b2b.yugtorg.com/image/data/45542_2.png"
+      "https://b2b.yugtorg.com/image/data/45542_3.png",
+      "https://b2b.yugtorg.com/image/data/45542_1.png"
     ],
     "available": true,
     "price": 648605.0,
@@ -29047,13 +28692,13 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45543.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45543.png",
-      "https://b2b.yugtorg.com/image/data/45543_3.png",
-      "https://b2b.yugtorg.com/image/data/45543_4.png",
-      "https://b2b.yugtorg.com/image/data/45543_5.png",
-      "https://b2b.yugtorg.com/image/data/45543_7.png",
       "https://b2b.yugtorg.com/image/data/45543_6.png",
+      "https://b2b.yugtorg.com/image/data/45543_5.png",
+      "https://b2b.yugtorg.com/image/data/45543_1.png",
       "https://b2b.yugtorg.com/image/data/45543_2.png",
-      "https://b2b.yugtorg.com/image/data/45543_1.png"
+      "https://b2b.yugtorg.com/image/data/45543_7.png",
+      "https://b2b.yugtorg.com/image/data/45543_4.png",
+      "https://b2b.yugtorg.com/image/data/45543_3.png"
     ],
     "available": true,
     "price": 688083.0,
@@ -29247,8 +28892,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30501.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30501.png",
-      "https://b2b.yugtorg.com/image/data/30501_1.png",
-      "https://b2b.yugtorg.com/image/data/30501_2.png"
+      "https://b2b.yugtorg.com/image/data/30501_2.png",
+      "https://b2b.yugtorg.com/image/data/30501_1.png"
     ],
     "available": true,
     "price": 3452.0,
@@ -29269,20 +28914,20 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18041.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18041.png",
+      "https://b2b.yugtorg.com/image/data/18041_1.png",
+      "https://b2b.yugtorg.com/image/data/18041_14.png",
+      "https://b2b.yugtorg.com/image/data/18041_13.png",
+      "https://b2b.yugtorg.com/image/data/18041_12.png",
+      "https://b2b.yugtorg.com/image/data/18041_11.png",
       "https://b2b.yugtorg.com/image/data/18041_10.png",
       "https://b2b.yugtorg.com/image/data/18041_9.png",
       "https://b2b.yugtorg.com/image/data/18041_8.png",
-      "https://b2b.yugtorg.com/image/data/18041_6.png",
-      "https://b2b.yugtorg.com/image/data/18041_11.png",
-      "https://b2b.yugtorg.com/image/data/18041_13.png",
-      "https://b2b.yugtorg.com/image/data/18041_1.png",
-      "https://b2b.yugtorg.com/image/data/18041_7.png",
-      "https://b2b.yugtorg.com/image/data/18041_5.png",
-      "https://b2b.yugtorg.com/image/data/18041_4.png",
-      "https://b2b.yugtorg.com/image/data/18041_12.png",
-      "https://b2b.yugtorg.com/image/data/18041_3.png",
       "https://b2b.yugtorg.com/image/data/18041_2.png",
-      "https://b2b.yugtorg.com/image/data/18041_14.png"
+      "https://b2b.yugtorg.com/image/data/18041_3.png",
+      "https://b2b.yugtorg.com/image/data/18041_4.png",
+      "https://b2b.yugtorg.com/image/data/18041_5.png",
+      "https://b2b.yugtorg.com/image/data/18041_6.png",
+      "https://b2b.yugtorg.com/image/data/18041_7.png"
     ],
     "available": true,
     "price": 154970.0,
@@ -29307,8 +28952,8 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/45253.png",
       "https://b2b.yugtorg.com/image/data/45253_3.png",
       "https://b2b.yugtorg.com/image/data/45253_2.png",
-      "https://b2b.yugtorg.com/image/data/45253_4.png",
-      "https://b2b.yugtorg.com/image/data/45253_1.png"
+      "https://b2b.yugtorg.com/image/data/45253_1.png",
+      "https://b2b.yugtorg.com/image/data/45253_4.png"
     ],
     "available": true,
     "price": 17489.0,
@@ -29331,10 +28976,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45254.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45254.png",
-      "https://b2b.yugtorg.com/image/data/45254_1.png",
-      "https://b2b.yugtorg.com/image/data/45254_3.png",
       "https://b2b.yugtorg.com/image/data/45254_4.png",
-      "https://b2b.yugtorg.com/image/data/45254_2.png"
+      "https://b2b.yugtorg.com/image/data/45254_2.png",
+      "https://b2b.yugtorg.com/image/data/45254_1.png",
+      "https://b2b.yugtorg.com/image/data/45254_3.png"
     ],
     "available": true,
     "price": 26511.0,
@@ -29383,9 +29028,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45256.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45256.png",
-      "https://b2b.yugtorg.com/image/data/45256_2.png",
       "https://b2b.yugtorg.com/image/data/45256_3.png",
-      "https://b2b.yugtorg.com/image/data/45256_1.png"
+      "https://b2b.yugtorg.com/image/data/45256_1.png",
+      "https://b2b.yugtorg.com/image/data/45256_2.png"
     ],
     "available": true,
     "price": 16359.0,
@@ -29408,8 +29053,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/45257.png",
       "https://b2b.yugtorg.com/image/data/45257_3.png",
-      "https://b2b.yugtorg.com/image/data/45257_2.png",
-      "https://b2b.yugtorg.com/image/data/45257_1.png"
+      "https://b2b.yugtorg.com/image/data/45257_1.png",
+      "https://b2b.yugtorg.com/image/data/45257_2.png"
     ],
     "available": true,
     "price": 25949.0,
@@ -29431,9 +29076,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45258.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45258.png",
+      "https://b2b.yugtorg.com/image/data/45258_3.png",
       "https://b2b.yugtorg.com/image/data/45258_1.png",
-      "https://b2b.yugtorg.com/image/data/45258_2.png",
-      "https://b2b.yugtorg.com/image/data/45258_3.png"
+      "https://b2b.yugtorg.com/image/data/45258_2.png"
     ],
     "available": true,
     "price": 34971.0,
@@ -29454,16 +29099,16 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18048.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18048.png",
-      "https://b2b.yugtorg.com/image/data/18048_3.png",
-      "https://b2b.yugtorg.com/image/data/18048_6.png",
-      "https://b2b.yugtorg.com/image/data/18048_7.png",
-      "https://b2b.yugtorg.com/image/data/18048_8.png",
-      "https://b2b.yugtorg.com/image/data/18048_9.png",
-      "https://b2b.yugtorg.com/image/data/18048_10.png",
-      "https://b2b.yugtorg.com/image/data/18048_1.png",
-      "https://b2b.yugtorg.com/image/data/18048_2.png",
       "https://b2b.yugtorg.com/image/data/18048_4.png",
-      "https://b2b.yugtorg.com/image/data/18048_5.png"
+      "https://b2b.yugtorg.com/image/data/18048_10.png",
+      "https://b2b.yugtorg.com/image/data/18048_9.png",
+      "https://b2b.yugtorg.com/image/data/18048_8.png",
+      "https://b2b.yugtorg.com/image/data/18048_1.png",
+      "https://b2b.yugtorg.com/image/data/18048_7.png",
+      "https://b2b.yugtorg.com/image/data/18048_6.png",
+      "https://b2b.yugtorg.com/image/data/18048_5.png",
+      "https://b2b.yugtorg.com/image/data/18048_3.png",
+      "https://b2b.yugtorg.com/image/data/18048_2.png"
     ],
     "available": true,
     "price": 518883.0,
@@ -29484,23 +29129,23 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18046.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18046.png",
-      "https://b2b.yugtorg.com/image/data/18046_16.png",
-      "https://b2b.yugtorg.com/image/data/18046_11.png",
-      "https://b2b.yugtorg.com/image/data/18046_2.png",
       "https://b2b.yugtorg.com/image/data/18046_12.png",
-      "https://b2b.yugtorg.com/image/data/18046_17.png",
-      "https://b2b.yugtorg.com/image/data/18046_14.png",
-      "https://b2b.yugtorg.com/image/data/18046_10.png",
-      "https://b2b.yugtorg.com/image/data/18046_9.png",
-      "https://b2b.yugtorg.com/image/data/18046_13.png",
-      "https://b2b.yugtorg.com/image/data/18046_1.png",
+      "https://b2b.yugtorg.com/image/data/18046_11.png",
       "https://b2b.yugtorg.com/image/data/18046_3.png",
       "https://b2b.yugtorg.com/image/data/18046_4.png",
+      "https://b2b.yugtorg.com/image/data/18046_17.png",
       "https://b2b.yugtorg.com/image/data/18046_5.png",
       "https://b2b.yugtorg.com/image/data/18046_6.png",
       "https://b2b.yugtorg.com/image/data/18046_7.png",
       "https://b2b.yugtorg.com/image/data/18046_8.png",
-      "https://b2b.yugtorg.com/image/data/18046_15.png"
+      "https://b2b.yugtorg.com/image/data/18046_9.png",
+      "https://b2b.yugtorg.com/image/data/18046_10.png",
+      "https://b2b.yugtorg.com/image/data/18046_2.png",
+      "https://b2b.yugtorg.com/image/data/18046_13.png",
+      "https://b2b.yugtorg.com/image/data/18046_14.png",
+      "https://b2b.yugtorg.com/image/data/18046_15.png",
+      "https://b2b.yugtorg.com/image/data/18046_16.png",
+      "https://b2b.yugtorg.com/image/data/18046_1.png"
     ],
     "available": true,
     "price": 334690.0,
@@ -29520,21 +29165,21 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/27096.png",
       "https://b2b.yugtorg.com/image/data/27096_16.png",
-      "https://b2b.yugtorg.com/image/data/27096_13.png",
-      "https://b2b.yugtorg.com/image/data/27096_12.png",
       "https://b2b.yugtorg.com/image/data/27096_5.png",
       "https://b2b.yugtorg.com/image/data/27096_14.png",
+      "https://b2b.yugtorg.com/image/data/27096_13.png",
+      "https://b2b.yugtorg.com/image/data/27096_12.png",
+      "https://b2b.yugtorg.com/image/data/27096_11.png",
       "https://b2b.yugtorg.com/image/data/27096_15.png",
-      "https://b2b.yugtorg.com/image/data/27096_4.png",
-      "https://b2b.yugtorg.com/image/data/27096_2.png",
-      "https://b2b.yugtorg.com/image/data/27096_3.png",
-      "https://b2b.yugtorg.com/image/data/27096_17.png",
+      "https://b2b.yugtorg.com/image/data/27096_1.png",
       "https://b2b.yugtorg.com/image/data/27096_7.png",
+      "https://b2b.yugtorg.com/image/data/27096_4.png",
       "https://b2b.yugtorg.com/image/data/27096_8.png",
+      "https://b2b.yugtorg.com/image/data/27096_17.png",
+      "https://b2b.yugtorg.com/image/data/27096_3.png",
+      "https://b2b.yugtorg.com/image/data/27096_2.png",
       "https://b2b.yugtorg.com/image/data/27096_9.png",
       "https://b2b.yugtorg.com/image/data/27096_10.png",
-      "https://b2b.yugtorg.com/image/data/27096_1.png",
-      "https://b2b.yugtorg.com/image/data/27096_11.png",
       "https://b2b.yugtorg.com/image/data/27096_6.png"
     ],
     "available": true,
@@ -29556,23 +29201,23 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/27097.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/27097.png",
-      "https://b2b.yugtorg.com/image/data/27097_15.png",
       "https://b2b.yugtorg.com/image/data/27097_3.png",
-      "https://b2b.yugtorg.com/image/data/27097_16.png",
-      "https://b2b.yugtorg.com/image/data/27097_17.png",
       "https://b2b.yugtorg.com/image/data/27097_1.png",
-      "https://b2b.yugtorg.com/image/data/27097_4.png",
-      "https://b2b.yugtorg.com/image/data/27097_2.png",
-      "https://b2b.yugtorg.com/image/data/27097_6.png",
-      "https://b2b.yugtorg.com/image/data/27097_9.png",
       "https://b2b.yugtorg.com/image/data/27097_8.png",
-      "https://b2b.yugtorg.com/image/data/27097_10.png",
+      "https://b2b.yugtorg.com/image/data/27097_17.png",
+      "https://b2b.yugtorg.com/image/data/27097_16.png",
+      "https://b2b.yugtorg.com/image/data/27097_15.png",
+      "https://b2b.yugtorg.com/image/data/27097_2.png",
       "https://b2b.yugtorg.com/image/data/27097_11.png",
       "https://b2b.yugtorg.com/image/data/27097_12.png",
+      "https://b2b.yugtorg.com/image/data/27097_6.png",
+      "https://b2b.yugtorg.com/image/data/27097_9.png",
+      "https://b2b.yugtorg.com/image/data/27097_10.png",
       "https://b2b.yugtorg.com/image/data/27097_13.png",
       "https://b2b.yugtorg.com/image/data/27097_14.png",
-      "https://b2b.yugtorg.com/image/data/27097_5.png",
-      "https://b2b.yugtorg.com/image/data/27097_7.png"
+      "https://b2b.yugtorg.com/image/data/27097_7.png",
+      "https://b2b.yugtorg.com/image/data/27097_4.png",
+      "https://b2b.yugtorg.com/image/data/27097_5.png"
     ],
     "available": true,
     "price": 180000.0,
@@ -29591,17 +29236,17 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/27098.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/27098.png",
+      "https://b2b.yugtorg.com/image/data/27098_10.png",
       "https://b2b.yugtorg.com/image/data/27098_6.png",
-      "https://b2b.yugtorg.com/image/data/27098_2.png",
+      "https://b2b.yugtorg.com/image/data/27098_7.png",
+      "https://b2b.yugtorg.com/image/data/27098_3.png",
       "https://b2b.yugtorg.com/image/data/27098_13.png",
       "https://b2b.yugtorg.com/image/data/27098_12.png",
-      "https://b2b.yugtorg.com/image/data/27098_7.png",
-      "https://b2b.yugtorg.com/image/data/27098_11.png",
       "https://b2b.yugtorg.com/image/data/27098_8.png",
       "https://b2b.yugtorg.com/image/data/27098_9.png",
-      "https://b2b.yugtorg.com/image/data/27098_10.png",
+      "https://b2b.yugtorg.com/image/data/27098_11.png",
+      "https://b2b.yugtorg.com/image/data/27098_2.png",
       "https://b2b.yugtorg.com/image/data/27098_1.png",
-      "https://b2b.yugtorg.com/image/data/27098_3.png",
       "https://b2b.yugtorg.com/image/data/27098_4.png",
       "https://b2b.yugtorg.com/image/data/27098_5.png"
     ],
@@ -29624,17 +29269,17 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18044.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18044.png",
-      "https://b2b.yugtorg.com/image/data/18044_8.png",
+      "https://b2b.yugtorg.com/image/data/18044_1.png",
+      "https://b2b.yugtorg.com/image/data/18044_10.png",
       "https://b2b.yugtorg.com/image/data/18044_9.png",
-      "https://b2b.yugtorg.com/image/data/18044_4.png",
+      "https://b2b.yugtorg.com/image/data/18044_8.png",
+      "https://b2b.yugtorg.com/image/data/18044_5.png",
       "https://b2b.yugtorg.com/image/data/18044_7.png",
       "https://b2b.yugtorg.com/image/data/18044_6.png",
-      "https://b2b.yugtorg.com/image/data/18044_5.png",
+      "https://b2b.yugtorg.com/image/data/18044_4.png",
       "https://b2b.yugtorg.com/image/data/18044_3.png",
       "https://b2b.yugtorg.com/image/data/18044_2.png",
-      "https://b2b.yugtorg.com/image/data/18044_1.png",
-      "https://b2b.yugtorg.com/image/data/18044_11.png",
-      "https://b2b.yugtorg.com/image/data/18044_10.png"
+      "https://b2b.yugtorg.com/image/data/18044_11.png"
     ],
     "available": true,
     "price": 216280.0,
@@ -29655,17 +29300,17 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18045.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18045.png",
-      "https://b2b.yugtorg.com/image/data/18045_3.png",
+      "https://b2b.yugtorg.com/image/data/18045_9.png",
       "https://b2b.yugtorg.com/image/data/18045_1.png",
-      "https://b2b.yugtorg.com/image/data/18045_11.png",
-      "https://b2b.yugtorg.com/image/data/18045_10.png",
+      "https://b2b.yugtorg.com/image/data/18045_2.png",
+      "https://b2b.yugtorg.com/image/data/18045_5.png",
+      "https://b2b.yugtorg.com/image/data/18045_6.png",
+      "https://b2b.yugtorg.com/image/data/18045_3.png",
       "https://b2b.yugtorg.com/image/data/18045_7.png",
       "https://b2b.yugtorg.com/image/data/18045_8.png",
-      "https://b2b.yugtorg.com/image/data/18045_6.png",
-      "https://b2b.yugtorg.com/image/data/18045_5.png",
-      "https://b2b.yugtorg.com/image/data/18045_9.png",
-      "https://b2b.yugtorg.com/image/data/18045_4.png",
-      "https://b2b.yugtorg.com/image/data/18045_2.png"
+      "https://b2b.yugtorg.com/image/data/18045_10.png",
+      "https://b2b.yugtorg.com/image/data/18045_11.png",
+      "https://b2b.yugtorg.com/image/data/18045_4.png"
     ],
     "available": true,
     "price": 246090.0,
@@ -29862,8 +29507,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/09815.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/09815.png",
-      "https://b2b.yugtorg.com/image/data/09815_1.png",
-      "https://b2b.yugtorg.com/image/data/09815_2.png"
+      "https://b2b.yugtorg.com/image/data/09815_2.png",
+      "https://b2b.yugtorg.com/image/data/09815_1.png"
     ],
     "available": true,
     "price": 2542.0,
@@ -29951,8 +29596,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/09816.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/09816.png",
-      "https://b2b.yugtorg.com/image/data/09816_2.png",
-      "https://b2b.yugtorg.com/image/data/09816_1.png"
+      "https://b2b.yugtorg.com/image/data/09816_1.png",
+      "https://b2b.yugtorg.com/image/data/09816_2.png"
     ],
     "available": true,
     "price": 2600.0,
@@ -29974,8 +29619,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/09818.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/09818.png",
-      "https://b2b.yugtorg.com/image/data/09818_2.png",
-      "https://b2b.yugtorg.com/image/data/09818_1.png"
+      "https://b2b.yugtorg.com/image/data/09818_1.png",
+      "https://b2b.yugtorg.com/image/data/09818_2.png"
     ],
     "available": true,
     "price": 2823.0,
@@ -30722,13 +30367,13 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02142.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02142.png",
-      "https://b2b.yugtorg.com/image/data/02142_7.png",
-      "https://b2b.yugtorg.com/image/data/02142_3.png",
       "https://b2b.yugtorg.com/image/data/02142_4.png",
-      "https://b2b.yugtorg.com/image/data/02142_5.png",
+      "https://b2b.yugtorg.com/image/data/02142_7.png",
       "https://b2b.yugtorg.com/image/data/02142_2.png",
       "https://b2b.yugtorg.com/image/data/02142_1.png",
-      "https://b2b.yugtorg.com/image/data/02142_6.png"
+      "https://b2b.yugtorg.com/image/data/02142_6.png",
+      "https://b2b.yugtorg.com/image/data/02142_5.png",
+      "https://b2b.yugtorg.com/image/data/02142_3.png"
     ],
     "available": true,
     "price": 55580.0,
@@ -30825,13 +30470,13 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/01613.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/01613.png",
-      "https://b2b.yugtorg.com/image/data/01613_2.png",
-      "https://b2b.yugtorg.com/image/data/01613_3.png",
-      "https://b2b.yugtorg.com/image/data/01613_4.png",
-      "https://b2b.yugtorg.com/image/data/01613_5.png",
       "https://b2b.yugtorg.com/image/data/01613_6.png",
+      "https://b2b.yugtorg.com/image/data/01613_5.png",
+      "https://b2b.yugtorg.com/image/data/01613_7.png",
+      "https://b2b.yugtorg.com/image/data/01613_3.png",
+      "https://b2b.yugtorg.com/image/data/01613_2.png",
       "https://b2b.yugtorg.com/image/data/01613_1.png",
-      "https://b2b.yugtorg.com/image/data/01613_7.png"
+      "https://b2b.yugtorg.com/image/data/01613_4.png"
     ],
     "available": true,
     "price": 41177.0,
@@ -31087,33 +30732,33 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/09356.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/09356.png",
-      "https://b2b.yugtorg.com/image/data/09356_1.png",
-      "https://b2b.yugtorg.com/image/data/09356_2.png"
+      "https://b2b.yugtorg.com/image/data/09356_2.png",
+      "https://b2b.yugtorg.com/image/data/09356_1.png"
     ],
     "available": true,
     "price": 6590.0,
     "source_supplier": "yugtorg"
   },
   {
-    "id": "viatec-6999",
-    "sku": "99-00009710",
+    "id": "viatec-7001",
+    "sku": "99-00009712",
     "category": "Аварійне електроживлення",
     "subcategory": "",
     "brand": "RITAR",
-    "name": "ДБЖ з правильною синусоїдою під зовнішній АКБ",
-    "model": "RITAR RTSW-1500 LCD 1500ВА 12В",
-    "description": "ДБЖ Ritar RTSW-1500 LCD з правильною синусоїдою забезпечує високопродуктивний захист комп&#39;ютерних систем для бізнесу та офісу. Він забезпечує батарейну підтримку, що дозволяє продовжити роботу при відключеннях енергопостачання середньої та великої тривалості.",
+    "name": "ДБЖ з правильною синусоїдою під зовнішній АКБ з перемикачем струму 10 і 20A",
+    "model": "RITAR RTSWrl-600 600ВА 12В",
+    "description": "ДБЖ відмінно підходить для автономної системи опалення в приватному будинку або офісі і для іншого обладнання, що потребує резервного живлення. Він запобігає перегріву опалювальної системи або поломки техніки при раптовому відключенні електрики. Для безперебійного блоку потрібен акумулятор типу AGM, який підключається до зовнішніх клем.",
     "features": [
-      "Номінальна потужність: 1500",
+      "Номінальна потужність: 600",
       "Вхідна напруга: 145В-270В",
-      "Сила струму на виході: 5А -10А"
+      "Сила струму на виході: 10A/20A на вибір"
     ],
-    "image": "https://viatec.ua/upload/images/prod/RITAR_RTSW-1500.webp",
+    "image": "https://viatec.ua/upload/images/prod/RITAR_RTSWrl-600.webp",
     "images": [
-      "https://viatec.ua/upload/images/prod/RITAR_RTSW-1500.webp"
+      "https://viatec.ua/upload/images/prod/RITAR_RTSWrl-600.webp"
     ],
     "available": true,
-    "price": 8320.0,
+    "price": 5940.0,
     "source_supplier": "viatec"
   },
   {
@@ -31138,30 +30783,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "viatec-17133",
-    "sku": "99-10024663",
-    "category": "Аварійне електроживлення",
-    "subcategory": "",
-    "brand": "RITAR",
-    "name": "Джерело безперебійного живлення",
-    "model": "Ritar RTP1500 Proxima-D 1500ВA",
-    "description": "● Номінальна потужність: 1500VA / 900Вт;● Герметична батарея: 12В 2х9А●г;● Кількість розеток SCHUKO: 4;● Коефіцієнт потужності: 0,6;● Тип вихідного сигналу: апроксимована (модифікована) синусоїда;● Вхідна напруга: 145 ~ 290V AC;● Час перемикання: 2 &le; 6мс;● Час роботи від батареї при завантаженні 200Вт: 27хв;● Захист від короткого замикання та повного розряду батареї;● Аварійне вимкнення при перевантаженні",
-    "features": [
-      "Номінальна потужність: 1500VA / 900Вт",
-      "Діапазон вхідної напруги: 145 - 290В AC",
-      "160 мм",
-      "900Вт",
-      "200Вт"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-12/RTP1200.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-12/RTP1200.webp"
-    ],
-    "available": true,
-    "price": 6553.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-19756",
     "sku": "99-10033108",
     "category": "Аварійне електроживлення",
@@ -31182,50 +30803,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 4420.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-9969",
-    "sku": "99-00013815",
-    "category": "Аварійне електроживлення",
-    "subcategory": "",
-    "brand": "RITAR",
-    "name": "Джерело безперебійного живлення",
-    "model": "Ritar RTSWbt-500 500ВА правильна синусоїда",
-    "description": "Номінальна потужність: 500VA / 300Вт. Тип вихідного сигналу: правильна синусоїда. Час перемикання: 2 &le; 6ms. Максимальний ток заряда до 5А. Захист від короткого замикання. Аварійне відключення (захист від перевантаження). Холодний старт. Наскрізний нуль. Конструкція моделі передбачає навісне встановлення. Розміри вказані з урахуванням кріплення. Крім того є можливість підключення виносного акумулятора ємністю до 100 А * год. Але при підключенні виносного акумулятора - вбудований перестає бути активним.",
-    "features": [
-      "Номінальна потужність: 500",
-      "Діапазон вхідної напруги: 220V: 175 ~ 275V AC",
-      "300Вт"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2023-06/RITAR_RTSWbt-500.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2023-06/RITAR_RTSWbt-500.webp"
-    ],
-    "available": true,
-    "price": 5350.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-15897",
-    "sku": "99-00023298",
-    "category": "Аварійне електроживлення",
-    "subcategory": "",
-    "brand": "RITAR",
-    "name": "Джерело безперебійного живлення під акумулятор",
-    "model": "Ritar RTSW-600 LCD 600ВA 12В правильна синусоїда",
-    "description": "● Номінальна потужність: 600VA/360Вт;● Тип вихідного сигналу: правильна синусоїда;● Час перемикання: 2 &le; 6ms;● Струм заряду 5-7А;● Стабілізація (AVR): 3 ступеня (мікропроцесорне керування, крок 22,5V);● Захист від короткого замикання, захист від перевантаження, захист від повного розряду батареї, захист від повного розряду батареї, RS-232;● Зовнішня батарея: 12 В;● Ємність батареї, що рекомендується: 20 &ndash; 65 А&bull;год;● Кількість розеток Schuko: 1;● 260 х 85 х 140 мм",
-    "features": [
-      "Номінальна потужність: 600VA/360Вт",
-      "140 мм",
-      "360Вт"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2025-01/RTSW-600D12.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2025-01/RTSW-600D12.webp"
-    ],
-    "available": true,
-    "price": 4000.0,
     "source_supplier": "viatec"
   },
   {
@@ -31661,11 +31238,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45071.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45071.png",
-      "https://b2b.yugtorg.com/image/data/45071_3.png",
       "https://b2b.yugtorg.com/image/data/45071_1.png",
-      "https://b2b.yugtorg.com/image/data/45071_5.png",
       "https://b2b.yugtorg.com/image/data/45071_2.png",
-      "https://b2b.yugtorg.com/image/data/45071_4.png"
+      "https://b2b.yugtorg.com/image/data/45071_3.png",
+      "https://b2b.yugtorg.com/image/data/45071_4.png",
+      "https://b2b.yugtorg.com/image/data/45071_5.png"
     ],
     "available": true,
     "price": 39485.0,
@@ -32300,13 +31877,44 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/45943.png",
       "https://b2b.yugtorg.com/image/data/45943_1.png",
-      "https://b2b.yugtorg.com/image/data/45943_4.png",
-      "https://b2b.yugtorg.com/image/data/45943_5.png",
       "https://b2b.yugtorg.com/image/data/45943_2.png",
-      "https://b2b.yugtorg.com/image/data/45943_3.png"
+      "https://b2b.yugtorg.com/image/data/45943_3.png",
+      "https://b2b.yugtorg.com/image/data/45943_4.png",
+      "https://b2b.yugtorg.com/image/data/45943_5.png"
     ],
     "available": true,
     "price": 64800.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-38061",
+    "sku": "VT-606",
+    "category": "Аварійне електроживлення",
+    "subcategory": "",
+    "brand": "V-TAC",
+    "name": "Портативне джерело живлення V-TAC VT-606, 500W, ( 26.2Ah / 21.6V 568Wh)(275x170x200) 5.4kg",
+    "model": "VT-606",
+    "description": "Портативне джерело живлення V-TAC VT-606 – це автономна енергетична станція для живлення електронного обладнання в умовах відсутності стаціонарної мережі. Пристрій номінальною потужністю 500 Вт поєднує високу ємність 568 Вт·ч з надійною літій-залізо-фосфатною (LiFePO4) батареєю, забезпечуючи стабільне електроживлення для широкого спектру побутових та професійних приладів. Дане джерело живлення призначене для організації тимчасового або резервного електропостачання цифрових пристроїв, малопотужного інструменту та освітлювальної техніки. Він ефективно вирішує завдання енергозабезпечення у польових умовах, при аварійних відключеннях електрики та під час виїзних заходів. Модель особливо потрібна для живлення ноутбуків, фототехніки, портативних холодильників та медичної апаратури. - Високоємна батарея LiFePO4 із збільшеним циклічним ресурсом - Стабільна синусоїда вихідної напруги для чутливої електроніки - Компактні габарити при значній енергоємності - Захист від перевантаження, перегріву та глибокого розряду - Універсальні порти для підключення різних пристроїв Основні характеристики: • Модель: V-TAC VT-606 • Номінальна потужність: 500 Вт • Місткість батареї: 26.2 А·год / 568 Вт·год • Технологія акумулятора: LiFePO4 • Напруга батареї: 21.6 В • Габаритні розміри: 275×170×200 мм • Вага: 5.4 кг Джерело живлення призначене для фотографів, відеооператорів, туристів, дачників та власників мобільних робочих місць. Пристрій є оптимальним для використання в кемпінгах, польових офісах, майстернях та житлових приміщеннях при тимчасовому відключенні електроенергії. Збалансоване поєднання потужності, ємності та мобільності робить його універсальним рішенням для професійної та побутової експлуатації.",
+    "features": [
+      "200 мм",
+      "500W",
+      "2Ah",
+      "500 Вт",
+      "568 Вт",
+      "2 А·год"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/38061.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/38061.png",
+      "https://b2b.yugtorg.com/image/data/38061_1.png",
+      "https://b2b.yugtorg.com/image/data/38061_2.png",
+      "https://b2b.yugtorg.com/image/data/38061_3.png",
+      "https://b2b.yugtorg.com/image/data/38061_4.png",
+      "https://b2b.yugtorg.com/image/data/38061_5.png",
+      "https://b2b.yugtorg.com/image/data/38061_6.png"
+    ],
+    "available": true,
+    "price": 15200.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -33392,33 +33000,13 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48144.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48144.png",
-      "https://b2b.yugtorg.com/image/data/48144_2.png",
       "https://b2b.yugtorg.com/image/data/48144_4.png",
       "https://b2b.yugtorg.com/image/data/48144_3.png",
+      "https://b2b.yugtorg.com/image/data/48144_2.png",
       "https://b2b.yugtorg.com/image/data/48144_1.png"
     ],
     "available": true,
     "price": 27641.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-44393",
-    "sku": "GDG 12000E",
-    "category": "Аварійне електроживлення",
-    "subcategory": "",
-    "brand": "Voltronic",
-    "name": "Генератор дизельний GENPOWER GDG 12000E, 1-фазний 230V, 50Hz, 12kVA / 9.6kW, бак 30 л, витрата 0,28 л / кВтЧ, пуск: стартер (без АКБ) / AVR (без АКБ), 770х820х530 мм, 141 кг",
-    "model": "GDG 12000E",
-    "description": "Дизельний генератор GENPOWER GDG 12000E — однофазне джерело електроживлення 230 В із заявленою потужністю 12 кВА / 9,6 кВт. Підходить для резервного електропостачання приватного будинку, дачі, магазину, майстерні або робочої ділянки без доступу до електромережі. Генератор дає змогу організувати живлення освітлення, побутових приладів, електроінструменту та сумісного обладнання. Під час підбору навантаження потрібно враховувати загальну споживану потужність і пускові струми підключених пристроїв. Дизельний генератор для дому та бізнесу допомагає підтримувати необхідні робочі процеси під час відключень електроенергії. Особливості: - Однофазне живлення 230 В, 50 Гц — для підключення обладнання з відповідними електричними параметрами. - Потужність 12 кВА / 9,6 кВт — для організації резервного або автономного електропостачання в межах допустимого навантаження. - Паливний бак 30 л — запас дизельного палива для роботи генератора; час між заправленнями залежить від навантаження. - Електричний стартер — запуск двигуна за допомогою стартера. Акумуляторна батарея до комплекту не входить. - AVR — автоматичне регулювання вихідної напруги. - Питома витрата палива 0,28 л / кВт·год — показник витрати на одиницю виробленої електроенергії. Технічні характеристики: • Бренд: GENPOWER. • Модель: GDG 12000E. • Тип: дизельний генератор. • Паливо: дизель. • Кількість фаз: 1. • Вихідна напруга: 230 В. • Частота: 50 Гц. • Заявлена повна потужність: 12 кВА. • Заявлена активна потужність: 9,6 кВт. • Об’єм паливного бака: 30 л. • Питома витрата палива: 0,28 л / кВт·год. • Система запуску: електричний стартер. • Регулювання напруги: AVR. • Комплектація акумуляторною батареєю: без АКБ. • Габарити: 770 × 820 × 530 мм. • Маса: 141 кг. GENPOWER GDG 12000E підходить власникам будинків, підприємцям і фахівцям, яким потрібен однофазний дизельний генератор з електростартером та AVR для живлення обладнання за відсутності мережевої електроенергії.",
-    "features": [
-      "530 мм"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/44393.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/44393.png"
-    ],
-    "available": true,
-    "price": 101520.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -33538,13 +33126,37 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45103.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45103.png",
-      "https://b2b.yugtorg.com/image/data/45103_4.png",
       "https://b2b.yugtorg.com/image/data/45103_1.png",
+      "https://b2b.yugtorg.com/image/data/45103_4.png",
       "https://b2b.yugtorg.com/image/data/45103_2.png",
       "https://b2b.yugtorg.com/image/data/45103_3.png"
     ],
     "available": true,
     "price": 1990.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-45454",
+    "sku": "YT45454",
+    "category": "Аварійне електроживлення",
+    "subcategory": "",
+    "brand": "Voltronic",
+    "name": "ДБЖ UPS-18W DC1018P YT45454 для роутерів / комутаторів / PON / POE-430, 5 / / 9 / 12V, 1A, 12800MAh(знімні 4*3200MAh), Black, BOX",
+    "model": "YT45454",
+    "description": "Характеристики уточнюються.",
+    "features": [
+      "POE",
+      "18W"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/45454.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/45454.png",
+      "https://b2b.yugtorg.com/image/data/45454_2.png",
+      "https://b2b.yugtorg.com/image/data/45454_1.png",
+      "https://b2b.yugtorg.com/image/data/45454_3.png"
+    ],
+    "available": true,
+    "price": 2599.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -33563,11 +33175,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45949.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45949.png",
-      "https://b2b.yugtorg.com/image/data/45949_2.png",
+      "https://b2b.yugtorg.com/image/data/45949_4.png",
       "https://b2b.yugtorg.com/image/data/45949_5.png",
-      "https://b2b.yugtorg.com/image/data/45949_3.png",
       "https://b2b.yugtorg.com/image/data/45949_1.png",
-      "https://b2b.yugtorg.com/image/data/45949_4.png"
+      "https://b2b.yugtorg.com/image/data/45949_2.png",
+      "https://b2b.yugtorg.com/image/data/45949_3.png"
     ],
     "available": true,
     "price": 2699.0,
@@ -33590,11 +33202,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/29976.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/29976.png",
-      "https://b2b.yugtorg.com/image/data/29976_5.png",
-      "https://b2b.yugtorg.com/image/data/29976_4.png",
       "https://b2b.yugtorg.com/image/data/29976_3.png",
+      "https://b2b.yugtorg.com/image/data/29976_4.png",
       "https://b2b.yugtorg.com/image/data/29976_2.png",
-      "https://b2b.yugtorg.com/image/data/29976_1.png"
+      "https://b2b.yugtorg.com/image/data/29976_1.png",
+      "https://b2b.yugtorg.com/image/data/29976_5.png"
     ],
     "available": true,
     "price": 2299.0,
@@ -33663,8 +33275,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/04512.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/04512.png",
-      "https://b2b.yugtorg.com/image/data/04512_1.png",
-      "https://b2b.yugtorg.com/image/data/04512_2.png"
+      "https://b2b.yugtorg.com/image/data/04512_2.png",
+      "https://b2b.yugtorg.com/image/data/04512_1.png"
     ],
     "available": true,
     "price": 1660.0,
@@ -34153,8 +33765,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/12471.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/12471.png",
-      "https://b2b.yugtorg.com/image/data/12471_1.png",
-      "https://b2b.yugtorg.com/image/data/12471_2.png"
+      "https://b2b.yugtorg.com/image/data/12471_2.png",
+      "https://b2b.yugtorg.com/image/data/12471_1.png"
     ],
     "available": true,
     "price": 100.0,
@@ -34405,8 +34017,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/28085.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/28085.png",
-      "https://b2b.yugtorg.com/image/data/28085_3.png",
       "https://b2b.yugtorg.com/image/data/28085_4.png",
+      "https://b2b.yugtorg.com/image/data/28085_3.png",
       "https://b2b.yugtorg.com/image/data/28085_1.png",
       "https://b2b.yugtorg.com/image/data/28085_2.png"
     ],
@@ -34555,8 +34167,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/14248.png",
       "https://b2b.yugtorg.com/image/data/14248_2.png",
-      "https://b2b.yugtorg.com/image/data/14248_3.png",
-      "https://b2b.yugtorg.com/image/data/14248_1.png"
+      "https://b2b.yugtorg.com/image/data/14248_1.png",
+      "https://b2b.yugtorg.com/image/data/14248_3.png"
     ],
     "available": true,
     "price": 100.0,
@@ -34782,9 +34394,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/28508.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/28508.png",
-      "https://b2b.yugtorg.com/image/data/28508_2.png",
       "https://b2b.yugtorg.com/image/data/28508_3.png",
-      "https://b2b.yugtorg.com/image/data/28508_1.png"
+      "https://b2b.yugtorg.com/image/data/28508_1.png",
+      "https://b2b.yugtorg.com/image/data/28508_2.png"
     ],
     "available": true,
     "price": 12380.0,
@@ -34921,6 +34533,34 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 4390.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-44678",
+    "sku": "DE-Jump1500X-1",
+    "category": "Аварійне електроживлення",
+    "subcategory": "",
+    "brand": "VTOMAN",
+    "name": "Портативна зарядна станція VTOMAN 1500X, 1500 (макс. 3000) Вт, LiFePO4 828 Вт·год (макс. 2376 Вт·год), 230 В, вихід 3x230 В / 1500 Вт, 2x12 В / 10 A-10 A, 2xPDTB, прикурювач 12 В / 10 A, 36x27x28 см; 20 кг",
+    "model": "DE-Jump1500X-1",
+    "description": "Портативна електростанція VTOMAN Jump 1500X має власну систему захисту SuperSafe LIFEBMS, розроблену VTOMAN. Вона пропонує до 10 функцій захисту від акумулятора, наприклад захист від перезаряду, захист від перерозряду, захист від перенапруги, захист від перевантаження струму, захист від короткого замикання та захист від високих температур. Завдяки вбудованому акумулятору LiFePO4 електростанція VTOMAN більш термостійка і набагато безпечніша порівняно з акумуляторною електростанцією NCM. Потужність, що розширюється, до 2376 Втч: сонячний генератор VTOMAN Jump 1500X має потужність 828 Втч. Додаткова батарея Jump 1500 (продається окремо) сумісна з Jump 1500X. Це дозволяє збільшити ємність силової станції Jump 1500X до 2376Wh, тому ви можете живити свої пристрої довше. Вбудований акумулятор LiFePO4 зберігає 80% своєї початкової ємності після 3000 циклів. Це робить його надзвичайно міцним для довгострокових потреб в електроенергії. Потужність 1500 Вт: Електростанція VTOMAN Jump 1500X має 3 виходи змінного струму з номінальною вихідною потужністю 1500 Вт (піковий струм 3000 Вт). На відміну від інших електростанцій, електростанція Jump 1500X не відключається під час роботи пристроїв потужністю понад 1500 Вт. Натомість він забезпечує постійну потужність 1500 Вт. Це надає вам надійне аварійне рішення, коли потрібно керувати високопродуктивними приладами, такими як водонагрівачі, обігрівачі або духовки. Стартер 12 В для автомобільних акумуляторів: сонячна електростанція VTOMAN Jump 1500X має перехідне кабельне з`єднання, яке дозволяє безпечно запустити порожню батарею за лічені секунди, не скорочуючи термін служби електростанції. Він призначений для бензинових двигунів об`ємом до 8 літрів та дизельних двигунів об`ємом до 6 літрів. (Кабель перемички необхідно придбати окремо.) Вихід PD 100 Вт Type-C: електростанція VTOMAN Jump 1500X має кілька USB-виходів, включаючи 4 порти USB-A та 2 виходи Type-C. Порт Type-C може забезпечити швидке заряджання електричних пристроїв потужністю 100 Вт, що ідеально підходить для офісних працівників ноутбуків. Порти USB-A оснащені портом швидкого заряджання QC 3.0 максимальною потужністю 18 Вт, що ідеально підходить для живлення смартфонів, планшетів і т.д. Заряджання до 12 пристроїв одночасно: портативна електростанція Jump 1500X має повний вихід, включаючи розетку змінного струму 3 x 230 В / 1500 Вт, вихід 2 x 12 В / 10 DC5521, автомобільний порт 1 x 12 В / 10 А, вихід 4 x USB-A. Він може заряджати до 12 пристроїв одночасно під час заряджання (підтримує наскрізну зарядку) та заощаджує місце на стіні. Ідеально підходить для кемпінгу, мандрівок, автобудинків, аварійних ситуацій, відключень електроенергії. Регульований вихід постійного струму 12 В: аварійний генератор VTOMAN 1500X має 2 вихідні порти DC5521 (12 В / 10 А, всього 120 Вт макс.) та 1 з`єднання прикурювача (12 В / 10 А, 120 Вт макс.). Всі вони мають регульований вихід 12В з максимальною вихідною потужністю 120 Вт. Роз`єми постійного струму підходять для живлення пристроїв, що підтримують вхід постійного струму напругою 12, наприклад. Автомобільні холодильники, пристрої CPAP, портативні накачувачі шин тощо. Багато різних методів заряджання: сонячна електростанція VTOMAN Jump 1500X має вхідний порт DC5521 (5,5 мм x 2,1 мм), який підтримує максимальну вхідну потужність 200 Вт. Його можна заряджати трьома способами: 1) Заряджання за допомогою настінного зарядного пристрою (входить до комплекту): прибл. 4-5 годин до повного; 2) Заряджання через автомобільну розетку 12 В (включаючи автомобільний зарядний пристрій): прибл. 6-7 годин до повного; 3) Заряджання сонячною панеллю потужністю 110 Вт / 220 Вт: прибл. 6-10 годин до повного. Комплектація: 1 портативна електростанція VTOMAN Jump 1500X, 1 кабель живлення та зарядки, 1 автомобільний кабель для зарядки, 1 кабель типу C-типу C, 1 кабель USB-A-Type-C, 1 посібник з виробництва продукції. 36 х 27 х 28 см; 20 кг Ємність акумулятора 828Втч Місткість після розширення 2376 Вт·ч Вихідна потужність 1500 Вт Тип батареї LiFePO4 (3000+ циклів) Вихід змінного струму 3*230 В / 1500 Вт (пікова потужність 3000 Вт) USB-вихід 4* порту USB-A Вихід USB-C 2*PD 100 Вт макс. Вихід постійного струму 2* DC+1* автомобільна розетка Вхід постійного струму 12-30 В (макс. 200 Вт) Сонячна енергія 12-30 В (макс. 200 Вт) Другий акумулятор Jump 1500 Додатковий (ОПЦІОНАЛЬНО)",
+    "features": [
+      "5,5 мм",
+      "2,1 мм",
+      "828 Вт",
+      "2376 Вт",
+      "1500 Вт",
+      "3000 Вт"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/44678.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/44678.png",
+      "https://b2b.yugtorg.com/image/data/44678_1.png",
+      "https://b2b.yugtorg.com/image/data/44678_2.png",
+      "https://b2b.yugtorg.com/image/data/44678_3.png"
+    ],
+    "available": true,
+    "price": 29000.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -35065,8 +34705,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45517.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45517.png",
-      "https://b2b.yugtorg.com/image/data/45517_1.png",
-      "https://b2b.yugtorg.com/image/data/45517_2.png"
+      "https://b2b.yugtorg.com/image/data/45517_2.png",
+      "https://b2b.yugtorg.com/image/data/45517_1.png"
     ],
     "available": true,
     "price": 13160.0,
@@ -35160,8 +34800,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48434.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48434.png",
-      "https://b2b.yugtorg.com/image/data/48434_2.png",
-      "https://b2b.yugtorg.com/image/data/48434_1.png"
+      "https://b2b.yugtorg.com/image/data/48434_1.png",
+      "https://b2b.yugtorg.com/image/data/48434_2.png"
     ],
     "available": true,
     "price": 10606.0,
@@ -35186,9 +34826,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45519.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45519.png",
-      "https://b2b.yugtorg.com/image/data/45519_1.png",
       "https://b2b.yugtorg.com/image/data/45519_2.png",
-      "https://b2b.yugtorg.com/image/data/45519_3.png"
+      "https://b2b.yugtorg.com/image/data/45519_3.png",
+      "https://b2b.yugtorg.com/image/data/45519_1.png"
     ],
     "available": true,
     "price": 14630.0,
@@ -35210,35 +34850,12 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48433.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48433.png",
-      "https://b2b.yugtorg.com/image/data/48433_2.png",
-      "https://b2b.yugtorg.com/image/data/48433_1.png"
+      "https://b2b.yugtorg.com/image/data/48433_1.png",
+      "https://b2b.yugtorg.com/image/data/48433_2.png"
     ],
     "available": true,
     "price": 8691.0,
     "source_supplier": "yugtorg"
-  },
-  {
-    "id": "viatec-20006",
-    "sku": "99-10034388",
-    "category": "Аварійне електроживлення",
-    "subcategory": "",
-    "brand": "Westech",
-    "name": "Стабілізатор напруги",
-    "model": "Westech MSER 2000 VA-V2/1600Вт однофазний сервопривід",
-    "description": "● Полная мощность: 2000 ВА;● Номинальная мощность: 1600 Вт;● Режим збереження: з серводвигуном",
-    "features": [
-      "Номінальна потужність: 2000ВА / 1600Вт",
-      "Діапазон вхідної напруги: 130-260В AC",
-      "1600Вт",
-      "1600 Вт"
-    ],
-    "image": "https://viatec.ua/upload/2/MSER2000VA-V22.webp",
-    "images": [
-      "https://viatec.ua/upload/2/MSER2000VA-V22.webp"
-    ],
-    "available": true,
-    "price": 7020.0,
-    "source_supplier": "viatec"
   },
   {
     "id": "yugtorg-48539",
@@ -35253,8 +34870,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48539.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48539.png",
-      "https://b2b.yugtorg.com/image/data/48539_2.png",
-      "https://b2b.yugtorg.com/image/data/48539_1.png"
+      "https://b2b.yugtorg.com/image/data/48539_1.png",
+      "https://b2b.yugtorg.com/image/data/48539_2.png"
     ],
     "available": true,
     "price": 34971.0,
@@ -35319,10 +34936,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46398.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46398.png",
-      "https://b2b.yugtorg.com/image/data/46398_1.png",
-      "https://b2b.yugtorg.com/image/data/46398_4.png",
+      "https://b2b.yugtorg.com/image/data/46398_2.png",
       "https://b2b.yugtorg.com/image/data/46398_3.png",
-      "https://b2b.yugtorg.com/image/data/46398_2.png"
+      "https://b2b.yugtorg.com/image/data/46398_4.png",
+      "https://b2b.yugtorg.com/image/data/46398_1.png"
     ],
     "available": true,
     "price": 1412.0,
@@ -35502,8 +35119,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48328.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48328.png",
-      "https://b2b.yugtorg.com/image/data/48328_1.png",
-      "https://b2b.yugtorg.com/image/data/48328_2.png"
+      "https://b2b.yugtorg.com/image/data/48328_2.png",
+      "https://b2b.yugtorg.com/image/data/48328_1.png"
     ],
     "available": true,
     "price": 245.7,
@@ -35674,11 +35291,33 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/19385.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/19385.png",
-      "https://b2b.yugtorg.com/image/data/19385_1.png",
-      "https://b2b.yugtorg.com/image/data/19385_2.png"
+      "https://b2b.yugtorg.com/image/data/19385_2.png",
+      "https://b2b.yugtorg.com/image/data/19385_1.png"
     ],
     "available": true,
     "price": 24200.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-19414",
+    "sku": "У16-1 / 100 v3.0",
+    "category": "Аварійне електроживлення",
+    "subcategory": "",
+    "brand": "ЭЛЕКС Engineering",
+    "name": "Стабілізатор напруги сімісторний Елекс Герц стандартний У 16-1 / 100 v3.0 (22000 Вт)",
+    "model": "У16-1 / 100 v3.0",
+    "description": "Тип ключа: Тиристор Номин. входной ток: 100А Номин. мощность: 22,0 кВА / кВт Время реакции: 20 мс Габариты, ВхШхГ: 1015х365х170 мм Диапазон стабилизации:150-260В Диапазон работы: 100-280В Погрешность в диапазоне стабилизации: ± 2,3% Наличие байпаса: да Гарантия: 6 мес",
+    "features": [
+      "22000 Вт"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/19414.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/19414.png",
+      "https://b2b.yugtorg.com/image/data/19414_2.png",
+      "https://b2b.yugtorg.com/image/data/19414_1.png"
+    ],
+    "available": true,
+    "price": 60600.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -35696,8 +35335,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/19408.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/19408.png",
-      "https://b2b.yugtorg.com/image/data/19408_1.png",
-      "https://b2b.yugtorg.com/image/data/19408_2.png"
+      "https://b2b.yugtorg.com/image/data/19408_2.png",
+      "https://b2b.yugtorg.com/image/data/19408_1.png"
     ],
     "available": true,
     "price": 22300.0,
@@ -35762,33 +35401,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/19411.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/19411.png",
-      "https://b2b.yugtorg.com/image/data/19411_2.png",
-      "https://b2b.yugtorg.com/image/data/19411_1.png"
+      "https://b2b.yugtorg.com/image/data/19411_1.png",
+      "https://b2b.yugtorg.com/image/data/19411_2.png"
     ],
     "available": true,
     "price": 33900.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-19352",
-    "sku": "У 7-1 / 25 v2.0",
-    "category": "Аварійне електроживлення",
-    "subcategory": "",
-    "brand": "ЭЛЕКС Engineering",
-    "name": "Стабілізатор напруги сімісторний, дубльований з електромагнітним реле Елекс Гібрид У 7-1 / 25 v2.0 (5500Вт)",
-    "model": "У 7-1 / 25 v2.0",
-    "description": "Тип ключа: Симистор, дублированный с электромагнитным реле Номин. входной ток: 25А Номин. мощность: 5,5 кВА / кВт Время реакции: 100 мс Габариты, ВхШхГ: 460х275х175 мм Диапазон стабилизации:135-275В Диапазон работы: 120-295В Погрешность в диапазоне стабилизации: ± 7,5% Наличие байпаса: нет Гарантия: 6 мес",
-    "features": [
-      "5500Вт"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/19352.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/19352.png",
-      "https://b2b.yugtorg.com/image/data/19352_1.png",
-      "https://b2b.yugtorg.com/image/data/19352_2.png"
-    ],
-    "available": true,
-    "price": 12300.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -35806,8 +35423,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/19353.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/19353.png",
-      "https://b2b.yugtorg.com/image/data/19353_2.png",
-      "https://b2b.yugtorg.com/image/data/19353_1.png"
+      "https://b2b.yugtorg.com/image/data/19353_1.png",
+      "https://b2b.yugtorg.com/image/data/19353_2.png"
     ],
     "available": true,
     "price": 13500.0,
@@ -35828,33 +35445,34 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/19354.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/19354.png",
-      "https://b2b.yugtorg.com/image/data/19354_1.png",
-      "https://b2b.yugtorg.com/image/data/19354_2.png"
+      "https://b2b.yugtorg.com/image/data/19354_2.png",
+      "https://b2b.yugtorg.com/image/data/19354_1.png"
     ],
     "available": true,
     "price": 14700.0,
     "source_supplier": "yugtorg"
   },
   {
-    "id": "yugtorg-19357",
-    "sku": "У9-1 / 25 v2.0",
+    "id": "yugtorg-19374",
+    "sku": "У12-1 / 50 v2.1",
     "category": "Аварійне електроживлення",
     "subcategory": "",
     "brand": "ЭЛЕКС Engineering",
-    "name": "Стабілізатор напруги сімісторний, дубльований з електромагнітним реле Елекс Гібрид У 9-1 / 25 v2.0 (5500Вт)",
-    "model": "У9-1 / 25 v2.0",
-    "description": "Тип ключа: Симистор, дублированный с электромагнитным реле Номин. входной ток: 25А Номин. мощность: 5,5 кВА / кВт Время реакции: 100 мс Габариты, ВхШхГ: 460х275х175 мм Диапазон стабилизации:135-315В Диапазон работы: 110-325В Погрешность в диапазоне стабилизации: ± 7,5% Наличие байпаса: да Гарантия: 6 мес",
+    "name": "Стабілізатор напруги тиристорний Елекс Ампер стандартний У 12-1 / 50 v2.1 (11000 Вт)",
+    "model": "У12-1 / 50 v2.1",
+    "description": "Тип ключа: Тиристор Номин. входной ток: 50А Номин. мощность: 11,0 кВА / кВт Время реакции: 20 мс Габариты, ВхШхГ: 530х295х175 мм Диапазон стабилизации:145-275В Диапазон работы: 100-295В Погрешность в диапазоне стабилизации: ± 3,5% Наличие байпаса: да Гарантия: 6 мес",
     "features": [
-      "5500Вт"
+      "11000 Вт"
     ],
-    "image": "https://b2b.yugtorg.com/image/data/19357.png",
+    "image": "https://b2b.yugtorg.com/image/data/19374.png",
     "images": [
-      "https://b2b.yugtorg.com/image/data/19357.png",
-      "https://b2b.yugtorg.com/image/data/19357_1.png",
-      "https://b2b.yugtorg.com/image/data/19357_2.png"
+      "https://b2b.yugtorg.com/image/data/19374.png",
+      "https://b2b.yugtorg.com/image/data/19374_2.png",
+      "https://b2b.yugtorg.com/image/data/19374_3.png",
+      "https://b2b.yugtorg.com/image/data/19374_1.png"
     ],
     "available": true,
-    "price": 13800.0,
+    "price": 27900.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -35872,12 +35490,35 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/19375.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/19375.png",
-      "https://b2b.yugtorg.com/image/data/19375_1.png",
       "https://b2b.yugtorg.com/image/data/19375_2.png",
-      "https://b2b.yugtorg.com/image/data/19375_3.png"
+      "https://b2b.yugtorg.com/image/data/19375_3.png",
+      "https://b2b.yugtorg.com/image/data/19375_1.png"
     ],
     "available": true,
     "price": 33800.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-19376",
+    "sku": "У12-1 / 80 v2.1",
+    "category": "Аварійне електроживлення",
+    "subcategory": "",
+    "brand": "ЭЛЕКС Engineering",
+    "name": "Стабілізатор напруги тиристорний Елекс Ампер стандартний У 12-1 / 80 v2.1 (17600 Вт)",
+    "model": "У12-1 / 80 v2.1",
+    "description": "Тип ключа: Тиристор Номин. входной ток: 80А Номин. мощность: 18,0 кВА / кВт Время реакции: 20 мс Габариты, ВхШхГ: 530х295х175 мм Диапазон стабилизации:145-275В Диапазон работы: 100-295В Погрешность в диапазоне стабилизации: ± 3,5% Наличие байпаса: да Гарантия: 6 мес",
+    "features": [
+      "17600 Вт"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/19376.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/19376.png",
+      "https://b2b.yugtorg.com/image/data/19376_2.png",
+      "https://b2b.yugtorg.com/image/data/19376_3.png",
+      "https://b2b.yugtorg.com/image/data/19376_1.png"
+    ],
+    "available": true,
+    "price": 40600.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -35895,9 +35536,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/19366.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/19366.png",
-      "https://b2b.yugtorg.com/image/data/19366_1.png",
+      "https://b2b.yugtorg.com/image/data/19366_3.png",
       "https://b2b.yugtorg.com/image/data/19366_2.png",
-      "https://b2b.yugtorg.com/image/data/19366_3.png"
+      "https://b2b.yugtorg.com/image/data/19366_1.png"
     ],
     "available": true,
     "price": 25400.0,
@@ -35985,28 +35626,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 25470.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-22367",
-    "sku": "99-10039232",
-    "category": "Аварійне електроживлення",
-    "subcategory": "",
-    "brand": "Інший виробник",
-    "name": "ДБЖ",
-    "model": "WGP 302 Optima UPS 13500 mAh",
-    "description": "● Ємність батареї: 13 500 mAh;● Тип акумулятора: літій-іонні елементи 21700;● Енергія батареї: приблизно 50 Вт&bull;год;● Номінальна вихідна потужність: до 27 Вт;● Виходи: 5 В, 9 В, 12 В (у тому числі два виходи 12 В);● Підтримка одночасного живлення декількох пристроїв;● Час резервного живлення: до &asymp;12 годин (залежно від навантаження);● Захисти: від перезаряду, глибокого розряду, короткого замикання, перевантаження;● Вага: 293 г",
-    "features": [
-      "Номінальна потужність: 27 Вт",
-      "50 Вт",
-      "27 Вт"
-    ],
-    "image": "https://viatec.ua/upload/2/wpgupc302.webp",
-    "images": [
-      "https://viatec.ua/upload/2/wpgupc302.webp"
-    ],
-    "available": true,
-    "price": 1999.0,
     "source_supplier": "viatec"
   },
   {
@@ -36370,26 +35989,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-15104",
-    "sku": "99-00022606",
-    "category": "Адаптери та блоки живлення",
-    "subcategory": "",
-    "brand": "Cablexpert",
-    "name": "Кабель",
-    "model": "Cablexpert CC-USB2B-CM8PM-1.5MSB USB-C/Lightning 1.5 м",
-    "description": "● Конектори: USB type-C/Lightning;● Провідник: багатожильна мідь;● Передача даних: до 480 Mб/с;● Струм зарядки до 2.1А (в залежності від пристрою);● Довжина: 1.5 м",
-    "features": [
-      "Потужність: 2.1А"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-10/CC-USB2B-CM8PM.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-10/CC-USB2B-CM8PM.webp"
-    ],
-    "available": true,
-    "price": 349.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-15107",
     "sku": "99-00022609",
     "category": "Адаптери та блоки живлення",
@@ -36410,42 +36009,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-16111",
-    "sku": "99-00024179",
-    "category": "Адаптери та блоки живлення",
-    "subcategory": "",
-    "brand": "Cablexpert",
-    "name": "Кабель Cablexpert",
-    "model": "CC-USB2S-AM8PM-1.5M-G 1.5 м",
-    "description": "● Інтерфейс: USB 2.0;● Сторона 1: USB Type-A (тато);● Сторона 2: 8-контактний (тато);● Швидкість передачі даних: 480 Мбіт/с;● Потужність заряджання: 2.1 А;● Альтернативний режим DisplayPort: не підтримується;● Оболонка: силікон;● Тип конектора: литий;● Довжина кабелю: 1.5 м",
-    "features": [],
-    "image": "https://viatec.ua/upload/images/prod/2025-01/CC-USB2S-AM8PMg.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2025-01/CC-USB2S-AM8PMg.webp"
-    ],
-    "available": true,
-    "price": 179.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-16112",
-    "sku": "99-00024180",
-    "category": "Адаптери та блоки живлення",
-    "subcategory": "",
-    "brand": "Cablexpert",
-    "name": "Кабель Cablexpert",
-    "model": "CC-USB2S-AM8PM-1.5M-P 1.5 м",
-    "description": "● Інтерфейс: USB 2.0;● Сторона 1: USB Type-A (тато);● Сторона 2: 8-контактний (тато);● Швидкість передачі даних: 480 Мбіт/с;● Потужність заряджання: 2.1 А;● Альтернативний режим DisplayPort: не підтримується;● Оболонка: силікон;● Тип конектора: литий;● Довжина кабелю: 1.5 м",
-    "features": [],
-    "image": "https://viatec.ua/upload/images/prod/2025-01/USB2S-AM8PMp.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2025-01/USB2S-AM8PMp.webp"
-    ],
-    "available": true,
-    "price": 179.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-13899",
     "sku": "99-00020248",
     "category": "Адаптери та блоки живлення",
@@ -36463,27 +36026,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 470.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-17271",
-    "sku": "99-10025231",
-    "category": "Адаптери та блоки живлення",
-    "subcategory": "",
-    "brand": "Choetech",
-    "name": "Адаптер",
-    "model": "Choetech PD5010 mini White PD20W GAN USB-C",
-    "description": "● Вхідна напруга: 100-240 В 50/60 Гц 0.5 А макс;● Вихід USB Type-C: 5В/3А, 9В/2.22А, 12В/1.67А (20 Вт макс.);● Підтримка протоколу швидкого заряджання PD3.0 з максимальною потужністю 20 Вт дозволить зарядити гаджети до 60% заряду за 30 хвилин;● Вбудована система захисту: від надмірного струму, перенапруги, перегріву, короткого замикання, перезаряджання.",
-    "features": [
-      "Потужність: 20 Вт",
-      "20 Вт"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2025-05/choetech-pd5010.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2025-05/choetech-pd5010.webp"
-    ],
-    "available": true,
-    "price": 332.0,
     "source_supplier": "viatec"
   },
   {
@@ -36553,30 +36095,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 1475.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-22361",
-    "sku": "99-10039131",
-    "category": "Адаптери та блоки живлення",
-    "subcategory": "",
-    "brand": "Choetech",
-    "name": "Повербанк",
-    "model": "Choetech B832-LBE 10000 mAh PD 35 Вт",
-    "description": "● Ємність акумулятора: 10000 мА&middot;год;● Інтерфейси: USB-C порт, вбудований USB-C кабель;● Вхід (USB-C порт / вбудований USB-C кабель): 5 В 3 А, 9 В 2.22 А, 12 В 1.67 А;● Вихід (вбудований USB-C кабель): 5 В 3 А, 9 В 3 А, 12 В 2.5 А, 15 В 2.33 А, PPS 3.3-11 В 3.2 А (до 35 Вт);● Максимальна вихідна потужність:&nbsp; &nbsp; USB-C порт / USB-C кабель: 35 Вт&nbsp; &nbsp; USB-C порт + USB-C кабель: 15 Вт;● Розміри: 76 х 63 х 26 мм;● Вага: 177 г",
-    "features": [
-      "Потужність: Power Delivery (PD) 35 Вт",
-      "Ємність: 10000 мА•г",
-      "26 мм",
-      "35 Вт",
-      "15 Вт"
-    ],
-    "image": "https://viatec.ua/upload/2/ChoetechB832-LBE.webp",
-    "images": [
-      "https://viatec.ua/upload/2/ChoetechB832-LBE.webp"
-    ],
-    "available": true,
-    "price": 999.0,
     "source_supplier": "viatec"
   },
   {
@@ -36838,8 +36356,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40155.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40155.png",
-      "https://b2b.yugtorg.com/image/data/40155_3.png",
       "https://b2b.yugtorg.com/image/data/40155_2.png",
+      "https://b2b.yugtorg.com/image/data/40155_3.png",
       "https://b2b.yugtorg.com/image/data/40155_1.png"
     ],
     "available": true,
@@ -37239,6 +36757,31 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-22357",
+    "sku": "99-10039046",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Full Energy",
+    "name": "Блок живлення",
+    "model": "Full Energy BGP-121UW 12В 10А",
+    "description": "● Вихід: 12 В / 1 А, роз'єм живлення● Вхід: AC 220-240 В, мережевий шнур з вилкою в розетку● Номінальна потужність: 12 Вт● Споживана потужність у режимі очікування: &lt; 0.075 Вт● Захист: коротке замикання, перевантаження, перенапруга● Довжина кабелю: 0.4 м (від БЖ до роз'єму) + 0.38 м (від БЖ до вилки)● Клас захисту: IP67● Діапазон робочих температур: від -20 до +50&deg;C● Розміри: 47.5 &times; 47.5 &times; 25 мм",
+    "features": [
+      "Потужність: 120 Вт",
+      "Вхідна напруга: AC 100-240 В",
+      "Вихідна напруга: 12В",
+      "Сила струму на виході: 10А",
+      "Довжина кабеля: Довжина кабелю: 0.4 м (від БЖ до роз'єму) + 0.38 м (від БЖ до вилки)",
+      "IP67"
+    ],
+    "image": "https://viatec.ua/upload/2/BGP-121UW12.webp",
+    "images": [
+      "https://viatec.ua/upload/2/BGP-121UW12.webp"
+    ],
+    "available": true,
+    "price": 270.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-3967",
     "sku": "99-00003081",
     "category": "Адаптери та блоки живлення",
@@ -37402,6 +36945,29 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 335.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-5710",
+    "sku": "99-00008088",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Full Energy",
+    "name": "Блок живлення",
+    "model": "Full Energy BGP-125Lite 12В 5А",
+    "description": "Блок живлення імпульсний, вихід: +12 В/5 А, роз'єм живлення; вхід: ~220 В, мережевий шнур із вилкою в розетку. Розміри 118 x 53 x 33 мм",
+    "features": [
+      "Вхідна напруга: 220 В",
+      "Вихідна напруга: 12 В",
+      "Сила струму на виході: 5 А",
+      "33 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/bgp123.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/bgp123.webp"
+    ],
+    "available": true,
+    "price": 397.0,
     "source_supplier": "viatec"
   },
   {
@@ -37713,8 +37279,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/43829.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/43829.png",
-      "https://b2b.yugtorg.com/image/data/43829_1.png",
-      "https://b2b.yugtorg.com/image/data/43829_2.png"
+      "https://b2b.yugtorg.com/image/data/43829_2.png",
+      "https://b2b.yugtorg.com/image/data/43829_1.png"
     ],
     "available": true,
     "price": 692.0,
@@ -38133,30 +37699,6 @@ window.ALTCAM_CATALOG = [
     "available": true,
     "price": 510.0,
     "source_supplier": "viatec"
-  },
-  {
-    "id": "yugtorg-32331",
-    "sku": "EPRP-400-12",
-    "category": "Адаптери та блоки живлення",
-    "subcategory": "",
-    "brand": "Mean Well",
-    "name": "Імпульсний блок живлення Mean Well EPRF-400-12 12В 33.33А (400Вт) IP67",
-    "model": "EPRP-400-12",
-    "description": "Імпульсний блок живлення Mean Well EPRF-400-12 призначений для забезпечення електроживлення різних електронних пристроїв. його основні характеристики: - Напруга: 12 Вольт - Струм: 33.33 Ампера - Потужність: 400 Ватт - Ступінь захисту: IP67 Ступінь захисту IP67 забезпечує високий рівень захисту від пилу та вологи, роблячи блок живлення надійним в експлуатації в різних умовах, включаючи вологі та запорошені середовища. Цей блок живлення може використовуватися в широкому спектрі додатків, таких як освітлення, промислове обладнання, автоматизація процесів тощо, де потрібне стабільне та надійне електроживлення.",
-    "features": [
-      "IP67",
-      "400Вт"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/32331.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/32331.png",
-      "https://b2b.yugtorg.com/image/data/32331_1.png",
-      "https://b2b.yugtorg.com/image/data/32331_2.png",
-      "https://b2b.yugtorg.com/image/data/32331_3.png"
-    ],
-    "available": true,
-    "price": 2457.0,
-    "source_supplier": "yugtorg"
   },
   {
     "id": "yugtorg-32317",
@@ -38638,31 +38180,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-17308",
-    "sku": "99-10025285",
-    "category": "Адаптери та блоки живлення",
-    "subcategory": "",
-    "brand": "Mustang Energy",
-    "name": "Блок живлення",
-    "model": "Mustang Energy PS-1205PB",
-    "description": "● Тип блоку живлення Імпульсний;● Вихідна напруга 12 В;● Вихідний струм 5 А;● Вхідна напруга AC 155-265&nbsp;В;● Кількість каналів навантаження 1",
-    "features": [
-      "Потужність: 60 Вт",
-      "Вхідна напруга: AC 155-265 В",
-      "Вихідна напруга: 12В",
-      "Сила струму на виході: 5 А",
-      "Кількість каналів навантаження: 1",
-      "43 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2025-05/1205PB.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2025-05/1205PB.webp"
-    ],
-    "available": true,
-    "price": 513.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-18947",
     "sku": "99-00021323",
     "category": "Адаптери та блоки живлення",
@@ -38703,8 +38220,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/12743.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/12743.png",
-      "https://b2b.yugtorg.com/image/data/12743_2.png",
-      "https://b2b.yugtorg.com/image/data/12743_1.png"
+      "https://b2b.yugtorg.com/image/data/12743_1.png",
+      "https://b2b.yugtorg.com/image/data/12743_2.png"
     ],
     "available": true,
     "price": 461.0,
@@ -39214,8 +38731,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/12757.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/12757.png",
-      "https://b2b.yugtorg.com/image/data/12757_1.png",
-      "https://b2b.yugtorg.com/image/data/12757_2.png"
+      "https://b2b.yugtorg.com/image/data/12757_2.png",
+      "https://b2b.yugtorg.com/image/data/12757_1.png"
     ],
     "available": true,
     "price": 300.0,
@@ -39237,8 +38754,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/12766.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/12766.png",
-      "https://b2b.yugtorg.com/image/data/12766_1.png",
-      "https://b2b.yugtorg.com/image/data/12766_2.png"
+      "https://b2b.yugtorg.com/image/data/12766_2.png",
+      "https://b2b.yugtorg.com/image/data/12766_1.png"
     ],
     "available": true,
     "price": 1362.0,
@@ -39260,8 +38777,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/12758.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/12758.png",
-      "https://b2b.yugtorg.com/image/data/12758_2.png",
-      "https://b2b.yugtorg.com/image/data/12758_1.png"
+      "https://b2b.yugtorg.com/image/data/12758_1.png",
+      "https://b2b.yugtorg.com/image/data/12758_2.png"
     ],
     "available": true,
     "price": 396.0,
@@ -40318,31 +39835,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-21069",
-    "sku": "99-10035518",
-    "category": "Адаптери та блоки живлення",
-    "subcategory": "",
-    "brand": "VIA Energy",
-    "name": "Блок живлення на DIN рейку",
-    "model": "DR12024-01 12V/2A",
-    "description": "● ВХІД: Діапазон напруги 190&ndash;265 В змінного струму, Діапазон частот 50&ndash;60 Гц, ККД (тип.) &gt;88%;● ВИХІД: Регульована напруга 12&ndash;14 В, Номінальний струм 2 А,● Номінальна потужність (макс.) 28 Вт;● Канал 1;● ЗАХИСТ: Від перевантаження, перенапруги, короткого замикання;● 27 x 92 x 56 мм",
-    "features": [
-      "Потужність: 28 Вт",
-      "Вихідна напруга: 12В",
-      "Вхідна напруга: 190 - 265",
-      "Сила струму на виході: 2А",
-      "Кількість каналів навантаження: 1",
-      "56 мм"
-    ],
-    "image": "https://viatec.ua/upload/2/swch2a-12.webp",
-    "images": [
-      "https://viatec.ua/upload/2/swch2a-12.webp"
-    ],
-    "available": true,
-    "price": 476.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-21071",
     "sku": "99-10035519",
     "category": "Адаптери та блоки живлення",
@@ -40625,9 +40117,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40252.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40252.png",
-      "https://b2b.yugtorg.com/image/data/40252_3.png",
       "https://b2b.yugtorg.com/image/data/40252_1.png",
-      "https://b2b.yugtorg.com/image/data/40252_2.png"
+      "https://b2b.yugtorg.com/image/data/40252_2.png",
+      "https://b2b.yugtorg.com/image/data/40252_3.png"
     ],
     "available": true,
     "price": 350.0,
@@ -40686,9 +40178,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/42491.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/42491.png",
-      "https://b2b.yugtorg.com/image/data/42491_1.png",
+      "https://b2b.yugtorg.com/image/data/42491_3.png",
       "https://b2b.yugtorg.com/image/data/42491_2.png",
-      "https://b2b.yugtorg.com/image/data/42491_3.png"
+      "https://b2b.yugtorg.com/image/data/42491_1.png"
     ],
     "available": true,
     "price": 224.0,
@@ -40731,8 +40223,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/01580.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/01580.png",
-      "https://b2b.yugtorg.com/image/data/01580_1.png",
-      "https://b2b.yugtorg.com/image/data/01580_2.png"
+      "https://b2b.yugtorg.com/image/data/01580_2.png",
+      "https://b2b.yugtorg.com/image/data/01580_1.png"
     ],
     "available": true,
     "price": 260.0,
@@ -41544,8 +41036,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48344.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48344.png",
-      "https://b2b.yugtorg.com/image/data/48344_1.png",
-      "https://b2b.yugtorg.com/image/data/48344_2.png"
+      "https://b2b.yugtorg.com/image/data/48344_2.png",
+      "https://b2b.yugtorg.com/image/data/48344_1.png"
     ],
     "available": true,
     "price": 1150.0,
@@ -42162,8 +41654,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/24134.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/24134.png",
-      "https://b2b.yugtorg.com/image/data/24134_1.png",
-      "https://b2b.yugtorg.com/image/data/24134_2.png"
+      "https://b2b.yugtorg.com/image/data/24134_2.png",
+      "https://b2b.yugtorg.com/image/data/24134_1.png"
     ],
     "available": true,
     "price": 231.0,
@@ -42185,8 +41677,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/20623.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/20623.png",
-      "https://b2b.yugtorg.com/image/data/20623_1.png",
-      "https://b2b.yugtorg.com/image/data/20623_2.png"
+      "https://b2b.yugtorg.com/image/data/20623_2.png",
+      "https://b2b.yugtorg.com/image/data/20623_1.png"
     ],
     "available": true,
     "price": 144.0,
@@ -42541,8 +42033,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/03826.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/03826.png",
-      "https://b2b.yugtorg.com/image/data/03826_2.png",
-      "https://b2b.yugtorg.com/image/data/03826_1.png"
+      "https://b2b.yugtorg.com/image/data/03826_1.png",
+      "https://b2b.yugtorg.com/image/data/03826_2.png"
     ],
     "available": true,
     "price": 346.0,
@@ -42585,8 +42077,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/16567.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/16567.png",
-      "https://b2b.yugtorg.com/image/data/16567_1.png",
-      "https://b2b.yugtorg.com/image/data/16567_2.png"
+      "https://b2b.yugtorg.com/image/data/16567_2.png",
+      "https://b2b.yugtorg.com/image/data/16567_1.png"
     ],
     "available": true,
     "price": 332.0,
@@ -42608,8 +42100,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/24349.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/24349.png",
-      "https://b2b.yugtorg.com/image/data/24349_1.png",
-      "https://b2b.yugtorg.com/image/data/24349_2.png"
+      "https://b2b.yugtorg.com/image/data/24349_2.png",
+      "https://b2b.yugtorg.com/image/data/24349_1.png"
     ],
     "available": true,
     "price": 447.0,
@@ -42652,8 +42144,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/31659.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/31659.png",
-      "https://b2b.yugtorg.com/image/data/31659_2.png",
-      "https://b2b.yugtorg.com/image/data/31659_1.png"
+      "https://b2b.yugtorg.com/image/data/31659_1.png",
+      "https://b2b.yugtorg.com/image/data/31659_2.png"
     ],
     "available": true,
     "price": 129.0,
@@ -42716,8 +42208,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36746.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36746.png",
-      "https://b2b.yugtorg.com/image/data/36746_1.png",
-      "https://b2b.yugtorg.com/image/data/36746_2.png"
+      "https://b2b.yugtorg.com/image/data/36746_2.png",
+      "https://b2b.yugtorg.com/image/data/36746_1.png"
     ],
     "available": true,
     "price": 512.0,
@@ -42782,8 +42274,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/42097.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/42097.png",
-      "https://b2b.yugtorg.com/image/data/42097_1.png",
-      "https://b2b.yugtorg.com/image/data/42097_2.png"
+      "https://b2b.yugtorg.com/image/data/42097_2.png",
+      "https://b2b.yugtorg.com/image/data/42097_1.png"
     ],
     "available": true,
     "price": 296.0,
@@ -42804,8 +42296,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/13931.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/13931.png",
-      "https://b2b.yugtorg.com/image/data/13931_1.png",
       "https://b2b.yugtorg.com/image/data/13931_3.png",
+      "https://b2b.yugtorg.com/image/data/13931_1.png",
       "https://b2b.yugtorg.com/image/data/13931_2.png"
     ],
     "available": true,
@@ -42851,8 +42343,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/13933.png",
       "https://b2b.yugtorg.com/image/data/13933_3.png",
-      "https://b2b.yugtorg.com/image/data/13933_1.png",
-      "https://b2b.yugtorg.com/image/data/13933_2.png"
+      "https://b2b.yugtorg.com/image/data/13933_2.png",
+      "https://b2b.yugtorg.com/image/data/13933_1.png"
     ],
     "available": true,
     "price": 1230.0,
@@ -43027,8 +42519,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/01327.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/01327.png",
-      "https://b2b.yugtorg.com/image/data/01327_2.png",
-      "https://b2b.yugtorg.com/image/data/01327_1.png"
+      "https://b2b.yugtorg.com/image/data/01327_1.png",
+      "https://b2b.yugtorg.com/image/data/01327_2.png"
     ],
     "available": true,
     "price": 100.0,
@@ -43352,8 +42844,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/24345.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/24345.png",
-      "https://b2b.yugtorg.com/image/data/24345_1.png",
-      "https://b2b.yugtorg.com/image/data/24345_2.png"
+      "https://b2b.yugtorg.com/image/data/24345_2.png",
+      "https://b2b.yugtorg.com/image/data/24345_1.png"
     ],
     "available": true,
     "price": 274.0,
@@ -43396,8 +42888,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/24343.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/24343.png",
-      "https://b2b.yugtorg.com/image/data/24343_1.png",
-      "https://b2b.yugtorg.com/image/data/24343_2.png"
+      "https://b2b.yugtorg.com/image/data/24343_2.png",
+      "https://b2b.yugtorg.com/image/data/24343_1.png"
     ],
     "available": true,
     "price": 440.0,
@@ -43761,9 +43253,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/08776.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/08776.png",
+      "https://b2b.yugtorg.com/image/data/08776_3.png",
       "https://b2b.yugtorg.com/image/data/08776_1.png",
-      "https://b2b.yugtorg.com/image/data/08776_2.png",
-      "https://b2b.yugtorg.com/image/data/08776_3.png"
+      "https://b2b.yugtorg.com/image/data/08776_2.png"
     ],
     "available": true,
     "price": 610.0,
@@ -44365,8 +43857,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/16793.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/16793.png",
-      "https://b2b.yugtorg.com/image/data/16793_2.png",
-      "https://b2b.yugtorg.com/image/data/16793_1.png"
+      "https://b2b.yugtorg.com/image/data/16793_1.png",
+      "https://b2b.yugtorg.com/image/data/16793_2.png"
     ],
     "available": true,
     "price": 372.0,
@@ -44567,8 +44059,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/12468.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/12468.png",
-      "https://b2b.yugtorg.com/image/data/12468_1.png",
-      "https://b2b.yugtorg.com/image/data/12468_2.png"
+      "https://b2b.yugtorg.com/image/data/12468_2.png",
+      "https://b2b.yugtorg.com/image/data/12468_1.png"
     ],
     "available": true,
     "price": 730.0,
@@ -45877,8 +45369,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/42228.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/42228.png",
-      "https://b2b.yugtorg.com/image/data/42228_2.png",
-      "https://b2b.yugtorg.com/image/data/42228_1.png"
+      "https://b2b.yugtorg.com/image/data/42228_1.png",
+      "https://b2b.yugtorg.com/image/data/42228_2.png"
     ],
     "available": true,
     "price": 530.0,
@@ -45897,8 +45389,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/42230.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/42230.png",
-      "https://b2b.yugtorg.com/image/data/42230_1.png",
-      "https://b2b.yugtorg.com/image/data/42230_2.png"
+      "https://b2b.yugtorg.com/image/data/42230_2.png",
+      "https://b2b.yugtorg.com/image/data/42230_1.png"
     ],
     "available": true,
     "price": 569.0,
@@ -45926,28 +45418,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "yugtorg-3920",
-    "sku": "ZH120200DC",
-    "category": "Адаптери та блоки живлення",
-    "subcategory": "",
-    "brand": "YOSO",
-    "name": "Імпульсний адаптер живлення 12В 2А (24Вт) YOSO ZH120200DC штекер 5.5 / 2.5 довжина 0,9 м",
-    "model": "ZH120200DC",
-    "description": "Імпульсний блок живлення YOSO - подасть енергію і стабілізує напругу в світлодіодних стрічках, системах відеоспостереження, освітлення та ін. Важливо зробити правильний вибір адаптера, який збільшить продуктивність і термін експлуатації пристроїв! Адаптер YOSO - твій правильний вибір! Характеристики: • Вхідна напруга: 100 ~ 240В • Вихідна напруга: 12 В • Вихідний струм: 2 А • Потужність: 24 Вт • Штекер: 5.5 / 2.5 • Довжина шнура живлення: 0,9 м • Робоча температура: 0 - 45 ° С • Тип корпусу: ABS, колір чорний • Рівень захисту IP 40 • Кількість в упаковці: - блок живлення - 1 шт.",
-    "features": [
-      "24Вт",
-      "24 Вт"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/03920.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/03920.png",
-      "https://b2b.yugtorg.com/image/data/03920_1.png"
-    ],
-    "available": true,
-    "price": 116.0,
-    "source_supplier": "yugtorg"
-  },
-  {
     "id": "yugtorg-24204",
     "sku": "K1301T",
     "category": "Адаптери та блоки живлення",
@@ -45964,8 +45434,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/24204.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/24204.png",
-      "https://b2b.yugtorg.com/image/data/24204_1.png",
       "https://b2b.yugtorg.com/image/data/24204_3.png",
+      "https://b2b.yugtorg.com/image/data/24204_1.png",
       "https://b2b.yugtorg.com/image/data/24204_2.png"
     ],
     "available": true,
@@ -46439,8 +45909,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/06654.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/06654.png",
-      "https://b2b.yugtorg.com/image/data/06654_2.png",
-      "https://b2b.yugtorg.com/image/data/06654_1.png"
+      "https://b2b.yugtorg.com/image/data/06654_1.png",
+      "https://b2b.yugtorg.com/image/data/06654_2.png"
     ],
     "available": true,
     "price": 1068.0,
@@ -46652,24 +46122,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-22307",
-    "sku": "99-10039213",
-    "category": "Адаптери та блоки живлення",
-    "subcategory": "",
-    "brand": "Інший виробник",
-    "name": "Адаптер мережевий",
-    "model": "ColorWay CW-AD-CRG USB-A/USB-С 3.0 - RJ45 Gigabit Ethernet",
-    "description": "● Порт RJ45 Gigabit Ethernet до 1000 Мбіт/с;● Plug &amp; Play &mdash; не потребує встановлення драйверів;● Сумісність із Windows, MacOS, Linux, Chrome OS та Android (з OTG);● Вхідний порт: USB Type-C + USB-A;● Вихідний порт: 1 x RJ45 (10/100/1000 Мбіт/с);● Довжина кабелю: 18 см;● Матеріал: алюмінієвий сплав.",
-    "features": [],
-    "image": "https://viatec.ua/upload/2/CW-AD-CRG_02.webp",
-    "images": [
-      "https://viatec.ua/upload/2/CW-AD-CRG_02.webp"
-    ],
-    "available": true,
-    "price": 599.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-16016",
     "sku": "99-00021052",
     "category": "Адаптери та блоки живлення",
@@ -46785,6 +46237,132 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 260.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22415",
+    "sku": "99-10039322",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Кабель",
+    "model": "Colorway Type-C - Type-C 60W 1м",
+    "description": "● Роз'єми: Type-C - Type-C;● Максимальна сила струму: 3A;● Довжина кабеля: 1 м;● Швидка зарядка Power Delivery до 60W (3A);● Міцна оболонка з текстурованого PVC",
+    "features": [
+      "Потужність: 60W (3A)",
+      "60W"
+    ],
+    "image": "https://viatec.ua/upload/2/CW-CBPDCC094-BK41.webp",
+    "images": [
+      "https://viatec.ua/upload/2/CW-CBPDCC094-BK41.webp"
+    ],
+    "available": true,
+    "price": 149.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22416",
+    "sku": "99-10039323",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Кабель",
+    "model": "Colorway Type-C - Type-C 60W 2м",
+    "description": "● Роз'єми: Type-C - Type-C;● Максимальна сила струму: 3A;● Довжина кабеля: 2м;● Швидка зарядка Power Delivery до 60W (3A);● Міцна оболонка з текстурованого PVC",
+    "features": [
+      "Потужність: 60W (3A)",
+      "60W"
+    ],
+    "image": "https://viatec.ua/upload/2/CW-CBPDCC094-BK41.webp",
+    "images": [
+      "https://viatec.ua/upload/2/CW-CBPDCC094-BK41.webp"
+    ],
+    "available": true,
+    "price": 179.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22417",
+    "sku": "99-10039324",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Кабель",
+    "model": "Colorway Type-C - Type-C 100W 1м",
+    "description": "● Роз'єми: Type-C - Type-C;● Максимальна сила струму: 5A;● Довжина кабеля: 1 м;● Швидка зарядка Power Delivery до 100W (5A);● Посилене нейлонове обплетення 48 ниток",
+    "features": [
+      "Потужність: 100W (5A)",
+      "100W"
+    ],
+    "image": "https://viatec.ua/upload/2/CW-CBPDCC098-WT_03.webp",
+    "images": [
+      "https://viatec.ua/upload/2/CW-CBPDCC098-WT_03.webp"
+    ],
+    "available": true,
+    "price": 259.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22418",
+    "sku": "99-10039325",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Кабель",
+    "model": "Colorway Type-C - Type-C 100W 1м чорний",
+    "description": "● Роз'єми: Type-C - Type-C;● Максимальна сила струму: 5A;● Довжина кабеля: 1 м;● Швидка зарядка Power Delivery до 100W (5A);● Посилене нейлонове обплетення 48 ниток",
+    "features": [
+      "Потужність: 100W (5A)",
+      "100W"
+    ],
+    "image": "https://viatec.ua/upload/2/CW-CBPDCC098-BK_03.webp",
+    "images": [
+      "https://viatec.ua/upload/2/CW-CBPDCC098-BK_03.webp"
+    ],
+    "available": true,
+    "price": 259.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22419",
+    "sku": "99-10039326",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Кабель",
+    "model": "Colorway Type-C - Type-C 100W 2м",
+    "description": "● Роз'єми: Type-C - Type-C;● Максимальна сила струму: 5A;● Довжина кабеля: 2м;● Швидка зарядка Power Delivery до 100W (5A);● Посилене нейлонове обплетення 48 ниток",
+    "features": [
+      "Потужність: 100W (5A)",
+      "100W"
+    ],
+    "image": "https://viatec.ua/upload/2/CW-CBPDCC098-WT_03.webp",
+    "images": [
+      "https://viatec.ua/upload/2/CW-CBPDCC098-WT_03.webp"
+    ],
+    "available": true,
+    "price": 319.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22420",
+    "sku": "99-10039327",
+    "category": "Адаптери та блоки живлення",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Кабель",
+    "model": "Colorway Type-C - Type-C 100W 2м чорний",
+    "description": "● Роз'єми: Type-C - Type-C;● Максимальна сила струму: 5A;● Довжина кабеля: 2м;● Швидка зарядка Power Delivery до 100W (5A);● Посилене нейлонове обплетення 48 ниток",
+    "features": [
+      "Потужність: 100W (5A)",
+      "100W"
+    ],
+    "image": "https://viatec.ua/upload/2/CW-CBPDCC098-BK_03.webp",
+    "images": [
+      "https://viatec.ua/upload/2/CW-CBPDCC098-BK_03.webp"
+    ],
+    "available": true,
+    "price": 319.0,
     "source_supplier": "viatec"
   },
   {
@@ -49353,27 +48931,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-18937",
-    "sku": "99-10028177",
-    "category": "Аксесуари для енергосистем",
-    "subcategory": "",
-    "brand": "Інший виробник",
-    "name": "Конектор для монтажу сонячних систем",
-    "model": "МС4 1000V30A-IP67",
-    "description": "● Номінальна напруга, не більше: 1000 В;● Номінальний струм, не більше: 30 А;● Перетин кабелю, що підключається, 2.5 - 6 мм;● Клас захисту: IP67;● Клас горючості: UL94-V0;",
-    "features": [
-      "IP67",
-      "6 мм"
-    ],
-    "image": "https://viatec.ua/upload/2/mc41000.webp",
-    "images": [
-      "https://viatec.ua/upload/2/mc41000.webp"
-    ],
-    "available": true,
-    "price": 51.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-20901",
     "sku": "99-10035600",
     "category": "Аксесуари для енергосистем",
@@ -49587,8 +49144,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/30986.png",
       "https://b2b.yugtorg.com/image/data/30986_1.png",
-      "https://b2b.yugtorg.com/image/data/30986_3.png",
-      "https://b2b.yugtorg.com/image/data/30986_2.png"
+      "https://b2b.yugtorg.com/image/data/30986_2.png",
+      "https://b2b.yugtorg.com/image/data/30986_3.png"
     ],
     "available": true,
     "price": 715.0,
@@ -49609,9 +49166,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30996.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30996.png",
-      "https://b2b.yugtorg.com/image/data/30996_2.png",
       "https://b2b.yugtorg.com/image/data/30996_3.png",
-      "https://b2b.yugtorg.com/image/data/30996_1.png"
+      "https://b2b.yugtorg.com/image/data/30996_1.png",
+      "https://b2b.yugtorg.com/image/data/30996_2.png"
     ],
     "available": true,
     "price": 860.0,
@@ -49632,8 +49189,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30987.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30987.png",
-      "https://b2b.yugtorg.com/image/data/30987_3.png",
       "https://b2b.yugtorg.com/image/data/30987_2.png",
+      "https://b2b.yugtorg.com/image/data/30987_3.png",
       "https://b2b.yugtorg.com/image/data/30987_1.png"
     ],
     "available": true,
@@ -49655,9 +49212,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30997.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30997.png",
+      "https://b2b.yugtorg.com/image/data/30997_3.png",
       "https://b2b.yugtorg.com/image/data/30997_1.png",
-      "https://b2b.yugtorg.com/image/data/30997_2.png",
-      "https://b2b.yugtorg.com/image/data/30997_3.png"
+      "https://b2b.yugtorg.com/image/data/30997_2.png"
     ],
     "available": true,
     "price": 1230.0,
@@ -49678,8 +49235,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30988.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30988.png",
-      "https://b2b.yugtorg.com/image/data/30988_1.png",
       "https://b2b.yugtorg.com/image/data/30988_2.png",
+      "https://b2b.yugtorg.com/image/data/30988_1.png",
       "https://b2b.yugtorg.com/image/data/30988_3.png"
     ],
     "available": true,
@@ -49701,9 +49258,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30998.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30998.png",
-      "https://b2b.yugtorg.com/image/data/30998_1.png",
+      "https://b2b.yugtorg.com/image/data/30998_3.png",
       "https://b2b.yugtorg.com/image/data/30998_2.png",
-      "https://b2b.yugtorg.com/image/data/30998_3.png"
+      "https://b2b.yugtorg.com/image/data/30998_1.png"
     ],
     "available": true,
     "price": 1660.0,
@@ -49725,8 +49282,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/30989.png",
       "https://b2b.yugtorg.com/image/data/30989_2.png",
-      "https://b2b.yugtorg.com/image/data/30989_1.png",
-      "https://b2b.yugtorg.com/image/data/30989_3.png"
+      "https://b2b.yugtorg.com/image/data/30989_3.png",
+      "https://b2b.yugtorg.com/image/data/30989_1.png"
     ],
     "available": true,
     "price": 1790.0,
@@ -49747,9 +49304,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30999.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30999.png",
-      "https://b2b.yugtorg.com/image/data/30999_1.png",
+      "https://b2b.yugtorg.com/image/data/30999_3.png",
       "https://b2b.yugtorg.com/image/data/30999_2.png",
-      "https://b2b.yugtorg.com/image/data/30999_3.png"
+      "https://b2b.yugtorg.com/image/data/30999_1.png"
     ],
     "available": true,
     "price": 1840.0,
@@ -49770,8 +49327,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30990.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30990.png",
-      "https://b2b.yugtorg.com/image/data/30990_1.png",
       "https://b2b.yugtorg.com/image/data/30990_3.png",
+      "https://b2b.yugtorg.com/image/data/30990_1.png",
       "https://b2b.yugtorg.com/image/data/30990_2.png"
     ],
     "available": true,
@@ -49813,9 +49370,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30991.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30991.png",
-      "https://b2b.yugtorg.com/image/data/30991_1.png",
+      "https://b2b.yugtorg.com/image/data/30991_2.png",
       "https://b2b.yugtorg.com/image/data/30991_3.png",
-      "https://b2b.yugtorg.com/image/data/30991_2.png"
+      "https://b2b.yugtorg.com/image/data/30991_1.png"
     ],
     "available": true,
     "price": 2070.0,
@@ -49837,8 +49394,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/31001.png",
       "https://b2b.yugtorg.com/image/data/31001_1.png",
-      "https://b2b.yugtorg.com/image/data/31001_3.png",
-      "https://b2b.yugtorg.com/image/data/31001_2.png"
+      "https://b2b.yugtorg.com/image/data/31001_2.png",
+      "https://b2b.yugtorg.com/image/data/31001_3.png"
     ],
     "available": true,
     "price": 2600.0,
@@ -49879,9 +49436,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30992.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30992.png",
-      "https://b2b.yugtorg.com/image/data/30992_1.png",
       "https://b2b.yugtorg.com/image/data/30992_3.png",
-      "https://b2b.yugtorg.com/image/data/30992_2.png"
+      "https://b2b.yugtorg.com/image/data/30992_2.png",
+      "https://b2b.yugtorg.com/image/data/30992_1.png"
     ],
     "available": true,
     "price": 2500.0,
@@ -49902,9 +49459,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/31002.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/31002.png",
-      "https://b2b.yugtorg.com/image/data/31002_3.png",
+      "https://b2b.yugtorg.com/image/data/31002_2.png",
       "https://b2b.yugtorg.com/image/data/31002_1.png",
-      "https://b2b.yugtorg.com/image/data/31002_2.png"
+      "https://b2b.yugtorg.com/image/data/31002_3.png"
     ],
     "available": true,
     "price": 3100.0,
@@ -49925,9 +49482,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30993.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30993.png",
-      "https://b2b.yugtorg.com/image/data/30993_3.png",
       "https://b2b.yugtorg.com/image/data/30993_2.png",
-      "https://b2b.yugtorg.com/image/data/30993_1.png"
+      "https://b2b.yugtorg.com/image/data/30993_1.png",
+      "https://b2b.yugtorg.com/image/data/30993_3.png"
     ],
     "available": true,
     "price": 4200.0,
@@ -51641,6 +51198,24 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
+    "id": "viatec-18082",
+    "sku": "99-10026417",
+    "category": "Аксесуари та витратні матеріали для монтажу",
+    "subcategory": "",
+    "brand": "Atis",
+    "name": "Конектор",
+    "model": "ATIS RG-45C Cat.8",
+    "description": "● Категорія: Cat.8;● Інтерфейси: Ethernet (RJ45);● Сумісні пристрої: мережні UTP кабелі &laquo;вита пара&raquo;;● Матеріал: метал",
+    "features": [],
+    "image": "https://viatec.ua/upload/2/ATIS-RG-45C.webp",
+    "images": [
+      "https://viatec.ua/upload/2/ATIS-RG-45C.webp"
+    ],
+    "available": true,
+    "price": 220.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "yugtorg-525",
     "sku": "Т100 151x117x67 IP66 OBO",
     "category": "Аксесуари та витратні матеріали для монтажу",
@@ -51819,9 +51394,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40555.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40555.png",
+      "https://b2b.yugtorg.com/image/data/40555_2.png",
       "https://b2b.yugtorg.com/image/data/40555_3.png",
-      "https://b2b.yugtorg.com/image/data/40555_1.png",
-      "https://b2b.yugtorg.com/image/data/40555_2.png"
+      "https://b2b.yugtorg.com/image/data/40555_1.png"
     ],
     "available": true,
     "price": 570.0,
@@ -51867,8 +51442,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/40560.png",
       "https://b2b.yugtorg.com/image/data/40560_3.png",
-      "https://b2b.yugtorg.com/image/data/40560_1.png",
-      "https://b2b.yugtorg.com/image/data/40560_2.png"
+      "https://b2b.yugtorg.com/image/data/40560_2.png",
+      "https://b2b.yugtorg.com/image/data/40560_1.png"
     ],
     "available": true,
     "price": 560.0,
@@ -51889,9 +51464,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40561.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40561.png",
-      "https://b2b.yugtorg.com/image/data/40561_3.png",
       "https://b2b.yugtorg.com/image/data/40561_2.png",
-      "https://b2b.yugtorg.com/image/data/40561_1.png"
+      "https://b2b.yugtorg.com/image/data/40561_1.png",
+      "https://b2b.yugtorg.com/image/data/40561_3.png"
     ],
     "available": true,
     "price": 570.0,
@@ -51938,10 +51513,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40527.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40527.png",
+      "https://b2b.yugtorg.com/image/data/40527_1.png",
       "https://b2b.yugtorg.com/image/data/40527_4.png",
       "https://b2b.yugtorg.com/image/data/40527_3.png",
-      "https://b2b.yugtorg.com/image/data/40527_2.png",
-      "https://b2b.yugtorg.com/image/data/40527_1.png"
+      "https://b2b.yugtorg.com/image/data/40527_2.png"
     ],
     "available": true,
     "price": 220.0,
@@ -52470,26 +52045,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-16959",
-    "sku": "99-10024733",
-    "category": "Аксесуари та витратні матеріали для монтажу",
-    "subcategory": "",
-    "brand": "Emos",
-    "name": "Мультиметр цифровий",
-    "model": "EMOS M2092",
-    "description": "● вибір діапазону-ручний;● напруга змінного струму 2-600 В;● змінний струм 2 мА - 10 А;● напруга постійного струму 200 мВ - 600 В;● постійний струм 2 мА - 10 А;● електричний опір 200 Ом - 20 МОм;● безперервність ланцюга- так;● тест діодів-так;● тест транзисторів-так;● екран дисплея 3.5 розрядний;● розміри 32 х 85 х 165 мм",
-    "features": [
-      "165 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2025-04/emos-m2092.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2025-04/emos-m2092.webp"
-    ],
-    "available": true,
-    "price": 1000.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-16976",
     "sku": "99-10024750",
     "category": "Аксесуари та витратні матеріали для монтажу",
@@ -52882,9 +52437,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/31596.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/31596.png",
-      "https://b2b.yugtorg.com/image/data/31596_3.png",
+      "https://b2b.yugtorg.com/image/data/31596_1.png",
       "https://b2b.yugtorg.com/image/data/31596_2.png",
-      "https://b2b.yugtorg.com/image/data/31596_1.png"
+      "https://b2b.yugtorg.com/image/data/31596_3.png"
     ],
     "available": true,
     "price": 1220.0,
@@ -52905,8 +52460,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/31632.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/31632.png",
-      "https://b2b.yugtorg.com/image/data/31632_3.png",
       "https://b2b.yugtorg.com/image/data/31632_2.png",
+      "https://b2b.yugtorg.com/image/data/31632_3.png",
       "https://b2b.yugtorg.com/image/data/31632_1.png"
     ],
     "available": true,
@@ -52932,27 +52487,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 336.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-15461",
-    "sku": "99-00023197",
-    "category": "Аксесуари та витратні матеріали для монтажу",
-    "subcategory": "",
-    "brand": "HPX",
-    "name": "Стрічка армована одностороння",
-    "model": "HPX DC5025 Universal 48мм х 25м",
-    "description": "● Довжина 25м;● Ширина 48мм;● Високої липкості та середньої міцності - для тимчасових з'єднань;● Легко рветься вручну;● Стійка до вологи, використовується для сантехнічних робіт (сантехнічний скотч);● Застосовується всередині та зовні приміщень;● Відмінно приклеюється до тканин, пластику, плівок, кераміці, металу, дереву&nbsp;",
-    "features": [
-      "48мм",
-      "25мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-11/hpx-duct-tap4825.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-11/hpx-duct-tap4825.webp"
-    ],
-    "available": true,
-    "price": 186.0,
     "source_supplier": "viatec"
   },
   {
@@ -53079,71 +52613,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 369.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-15442",
-    "sku": "99-00023181",
-    "category": "Аксесуари та витратні матеріали для монтажу",
-    "subcategory": "",
-    "brand": "HPX",
-    "name": "Стрічка двохстороння",
-    "model": "HPX MTT1905 MULTI TACK 19мм х 5м",
-    "description": "● Довжина 5 м;● Ширина 19 мм;● Моментально схоплюється, ДУЖЕ липка, отримане з'єднання розірвати практично неможливо (!);● Замінює саморізи, цвяхи, шурупи, заклепки;● Ефективна як на гладких, так та грубих та жорстких поверхнях● Відмінно приклеюється до металів, пластиків, скла, кераміки, обробленого дерева, текстилю;● Тільки для внутрішніх робіт;● Стійка до вологи, придатна для використання в приміщеннях з підвищеною вологістю;● Для постійних з'єднань. Стійка до старіння.",
-    "features": [
-      "19мм",
-      "19 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-11/multitack-19mm.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-11/multitack-19mm.webp"
-    ],
-    "available": true,
-    "price": 466.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-15443",
-    "sku": "99-00023182",
-    "category": "Аксесуари та витратні матеріали для монтажу",
-    "subcategory": "",
-    "brand": "HPX",
-    "name": "Стрічка двохстороння",
-    "model": "HPX UM0610 ULTRA MOUNT 6мм х 10м",
-    "description": "● Довжина 10 м;● Ширина 6 мм;● Ультра-тонка прозора двостороння монтажна стрічка (скотч) промислового класу для з'єднань з максимальним приляганням (без зазору);● Дуже липка, приклеюється моментально та забезпечує максимально міцне з'єднання, яке дуже складно зруйнувати.● ТІЛЬКИ для ідеально гладких поверхонь. Відмінно приклеюється до металів, скла, та пластику, у т. ч АБС, поліестру, поліетилену, поліпропілену, EPDM;● Може використовуватися як усередині, так і зовні приміщення;● Стійка до вологи, ультрафіолетових променів та високих температур;● Для довгострокових сполук.",
-    "features": [
-      "6мм",
-      "6 мм",
-      "0.2 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-11/ultra-mount-6mm.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-11/ultra-mount-6mm.webp"
-    ],
-    "available": true,
-    "price": 113.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-15445",
-    "sku": "99-00023184",
-    "category": "Аксесуари та витратні матеріали для монтажу",
-    "subcategory": "",
-    "brand": "HPX",
-    "name": "Стрічка двохстороння",
-    "model": "HPX UM0905 ULTRA MOUNT 9мм х 5м",
-    "description": "● Довжина 5 м;● Ширина 9 мм;● Ультра-тонка прозора двостороння монтажна стрічка (скотч) промислового класу для з'єднань з максимальним приляганням (без зазору);● Дуже липка, приклеюється моментально та забезпечує максимально міцне з'єднання, яке дуже складно зруйнувати.● ТІЛЬКИ для ідеально гладких поверхонь. Відмінно приклеюється до металів, скла, та пластику, у т. ч АБС, поліестру, поліетилену, поліпропілену, EPDM;● Може використовуватися як усередині, так і зовні приміщення;● Стійка до вологи, ультрафіолетових променів та високих температур;● Для довгострокових сполук.",
-    "features": [
-      "9мм",
-      "9 мм",
-      "0.2 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-11/ultra-mount-9m5.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-11/ultra-mount-9m5.webp"
-    ],
-    "available": true,
-    "price": 96.0,
     "source_supplier": "viatec"
   },
   {
@@ -53853,6 +53322,30 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 185.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22401",
+    "sku": "99-10039068",
+    "category": "Аксесуари та витратні матеріали для монтажу",
+    "subcategory": "",
+    "brand": "Kingda",
+    "name": "Конектор безінструментальний",
+    "model": "Kingda RJ45 STP кат. 6A",
+    "description": "● Перевірено продуктивність каналу категорії 6A;● Перетин кабелю: Soild and Stranded 22AWG/23AWG/24AWG;● Зовнішній діаметр кабелю: 6,0-8,5 мм;● Підходить для PoE plus (IEEE802.3at);● Матеріал контактів RJ-45: фосфориста бронза з напиленням золотом поверх нікелювання;● Матеріал IDC-контактів: мідно-титановий сплав із покриттям сплавом олова;● Діаметр провідників, що підключаються: 0,5...0,65 мм;● Діаметр провідника, що підключається, в ізоляції: 1,68 мм (макс.)",
+    "features": [
+      "Живлення: PoE plus (IEEE802.3at)",
+      "PoE",
+      "8,5 мм",
+      "0,65 мм",
+      "1,68 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/kd-pgs8053a-c6a.webp",
+    "images": [
+      "https://viatec.ua/upload/2/kd-pgs8053a-c6a.webp"
+    ],
+    "available": true,
+    "price": 324.0,
     "source_supplier": "viatec"
   },
   {
@@ -54786,8 +54279,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/44113.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/44113.png",
-      "https://b2b.yugtorg.com/image/data/44113_2.png",
-      "https://b2b.yugtorg.com/image/data/44113_1.png"
+      "https://b2b.yugtorg.com/image/data/44113_1.png",
+      "https://b2b.yugtorg.com/image/data/44113_2.png"
     ],
     "available": true,
     "price": 112.0,
@@ -54830,8 +54323,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/44117.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/44117.png",
-      "https://b2b.yugtorg.com/image/data/44117_1.png",
-      "https://b2b.yugtorg.com/image/data/44117_2.png"
+      "https://b2b.yugtorg.com/image/data/44117_2.png",
+      "https://b2b.yugtorg.com/image/data/44117_1.png"
     ],
     "available": true,
     "price": 180.0,
@@ -55121,6 +54614,24 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 7986.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-20935",
+    "sku": "99-10035445",
+    "category": "Аксесуари та витратні матеріали для монтажу",
+    "subcategory": "",
+    "brand": "NOYAFA",
+    "name": "Кабельний тестер",
+    "model": "NOYAFA NF-8209S",
+    "description": "Типи кабелів: CAT5, CAT6Тестування несправностей: Нормальний стан, коротке замикання, розрив, перехрещенняДальність та швидкість: 600 м, 8P, відгук до 1 с, мінімальне розпізнавання 10 смВизначення PSE: Нестандартний, IEE802.3at/afПеревірка напруги: 5-60 В постійного струму",
+    "features": [],
+    "image": "https://viatec.ua/upload/2/NOYAFA8209.webp",
+    "images": [
+      "https://viatec.ua/upload/2/NOYAFA8209.webp"
+    ],
+    "available": true,
+    "price": 3319.0,
     "source_supplier": "viatec"
   },
   {
@@ -55491,8 +55002,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38011.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38011.png",
-      "https://b2b.yugtorg.com/image/data/38011_1.png",
-      "https://b2b.yugtorg.com/image/data/38011_2.png"
+      "https://b2b.yugtorg.com/image/data/38011_2.png",
+      "https://b2b.yugtorg.com/image/data/38011_1.png"
     ],
     "available": true,
     "price": 108.0,
@@ -55541,8 +55052,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38014.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38014.png",
-      "https://b2b.yugtorg.com/image/data/38014_2.png",
-      "https://b2b.yugtorg.com/image/data/38014_1.png"
+      "https://b2b.yugtorg.com/image/data/38014_1.png",
+      "https://b2b.yugtorg.com/image/data/38014_2.png"
     ],
     "available": true,
     "price": 108.0,
@@ -55827,24 +55338,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-10475",
-    "sku": "99-00014757",
-    "category": "Аксесуари та витратні матеріали для монтажу",
-    "subcategory": "",
-    "brand": "Pro'sKit",
-    "name": "Тестер для багатожильного кабеля",
-    "model": "Pro'sKit MT-7051N",
-    "description": "Тестер для багатожильного кабелю Pro'sKit MT-7051N призначений для кабелів RJ45 TIA568A/B (AT &amp; T 258A ), 10 Base-T , маркерного кільця (Token ring), RJ- 11/RJ-12 USOC і коаксіального кабелю BNC.",
-    "features": [],
-    "image": "https://viatec.ua/upload/images/prod/2023-07/MT-7051N.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2023-07/MT-7051N.webp"
-    ],
-    "available": true,
-    "price": 541.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-10477",
     "sku": "99-00014759",
     "category": "Аксесуари та витратні матеріали для монтажу",
@@ -56040,6 +55533,24 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-22011",
+    "sku": "99-00023978",
+    "category": "Аксесуари та витратні матеріали для монтажу",
+    "subcategory": "",
+    "brand": "RITAR",
+    "name": "Конектор",
+    "model": "RITAR RJ-45 8P8C UTP Cat-5 (100 шт)",
+    "description": "Конектор RITAR&nbsp;RJ-45 8P8C UTP Cat-5&nbsp;",
+    "features": [],
+    "image": "https://viatec.ua/upload/images/prod/2024-04/MicrosoftTeams-image(2)(1).webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-04/MicrosoftTeams-image(2)(1).webp"
+    ],
+    "available": true,
+    "price": 118.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-12883",
     "sku": "99-00016282",
     "category": "Аксесуари та витратні матеріали для монтажу",
@@ -56055,6 +55566,42 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 194.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22051",
+    "sku": "99-10037007",
+    "category": "Аксесуари та витратні матеріали для монтажу",
+    "subcategory": "",
+    "brand": "RITAR",
+    "name": "Конектор (позолочені контакти)",
+    "model": "RITAR PREMIUM PLUS RJ-45 8P8C Cat-5 (100 шт)",
+    "description": "Конектор RITAR PREMIUM PLUS RJ-45 8P8C Cat-5 (100 шт)",
+    "features": [],
+    "image": "https://viatec.ua/upload/images/prod/2024-04/MicrosoftTeams-image(2)(1).webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-04/MicrosoftTeams-image(2)(1).webp"
+    ],
+    "available": true,
+    "price": 188.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22007",
+    "sku": "99-10034009",
+    "category": "Аксесуари та витратні матеріали для монтажу",
+    "subcategory": "",
+    "brand": "RITAR",
+    "name": "Конектор екранований",
+    "model": "RITAR RJ-45 8P8C FTP Cat-5 (100шт)",
+    "description": "● Інтерфейс: RJ-45;● Категорія: Cat-5;● Екран: FTP;● Пропускна здатність: 1 Гбіт/c;● Тип матеріалу: полікарбонат (пластик);● Кількість слотів: 8;● Кількість контактів: 8;● Тип контакту: латунь",
+    "features": [],
+    "image": "https://viatec.ua/upload/2/RITARRJ-458P8CFTPCat-5.webp",
+    "images": [
+      "https://viatec.ua/upload/2/RITARRJ-458P8CFTPCat-5.webp"
+    ],
+    "available": true,
+    "price": 274.0,
     "source_supplier": "viatec"
   },
   {
@@ -57714,7 +57261,7 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/30837.png"
     ],
     "available": true,
-    "price": 3510.0,
+    "price": 3666.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -57736,7 +57283,7 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/30838_1.png"
     ],
     "available": true,
-    "price": 29640.0,
+    "price": 3620.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -58103,8 +57650,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/24812.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/24812.png",
-      "https://b2b.yugtorg.com/image/data/24812_2.png",
-      "https://b2b.yugtorg.com/image/data/24812_1.png"
+      "https://b2b.yugtorg.com/image/data/24812_1.png",
+      "https://b2b.yugtorg.com/image/data/24812_2.png"
     ],
     "available": true,
     "price": 159.0,
@@ -58476,8 +58023,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/44128.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/44128.png",
-      "https://b2b.yugtorg.com/image/data/44128_3.png",
       "https://b2b.yugtorg.com/image/data/44128_2.png",
+      "https://b2b.yugtorg.com/image/data/44128_3.png",
       "https://b2b.yugtorg.com/image/data/44128_1.png"
     ],
     "available": true,
@@ -59932,8 +59479,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/13345.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/13345.png",
-      "https://b2b.yugtorg.com/image/data/13345_2.png",
-      "https://b2b.yugtorg.com/image/data/13345_1.png"
+      "https://b2b.yugtorg.com/image/data/13345_1.png",
+      "https://b2b.yugtorg.com/image/data/13345_2.png"
     ],
     "available": true,
     "price": 100.0,
@@ -59972,8 +59519,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/13343.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/13343.png",
-      "https://b2b.yugtorg.com/image/data/13343_2.png",
-      "https://b2b.yugtorg.com/image/data/13343_1.png"
+      "https://b2b.yugtorg.com/image/data/13343_1.png",
+      "https://b2b.yugtorg.com/image/data/13343_2.png"
     ],
     "available": true,
     "price": 100.0,
@@ -60967,27 +60514,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 278.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-16174",
-    "sku": "99-00024275",
-    "category": "Аксесуари та витратні матеріали для монтажу",
-    "subcategory": "",
-    "brand": "Voltronic",
-    "name": "Подовжувач живлення",
-    "model": "DC-F => DC-M (D 5,5x2,5мм) 5м",
-    "description": "● Тип - подовжувач живлення;● Роз`єм - DC-F=&gt;DC-M;● Довжина кабелю &ndash; 5 м;● Колір кабелю &ndash; чорний;● Колір роз`єму &ndash; червоний",
-    "features": [
-      "Довжина: 5 м",
-      "5мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2025-02/YT-DC-DC-M-500.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2025-02/YT-DC-DC-M-500.webp"
-    ],
-    "available": true,
-    "price": 77.0,
     "source_supplier": "viatec"
   },
   {
@@ -63301,8 +62827,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/14105.png",
       "https://b2b.yugtorg.com/image/data/14105_3.png",
-      "https://b2b.yugtorg.com/image/data/14105_1.png",
-      "https://b2b.yugtorg.com/image/data/14105_2.png"
+      "https://b2b.yugtorg.com/image/data/14105_2.png",
+      "https://b2b.yugtorg.com/image/data/14105_1.png"
     ],
     "available": true,
     "price": 100.0,
@@ -63411,9 +62937,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/15247.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/15247.png",
-      "https://b2b.yugtorg.com/image/data/15247_3.png",
       "https://b2b.yugtorg.com/image/data/15247_2.png",
-      "https://b2b.yugtorg.com/image/data/15247_1.png"
+      "https://b2b.yugtorg.com/image/data/15247_1.png",
+      "https://b2b.yugtorg.com/image/data/15247_3.png"
     ],
     "available": true,
     "price": 51.0,
@@ -64106,8 +63632,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40197.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40197.png",
-      "https://b2b.yugtorg.com/image/data/40197_2.png",
-      "https://b2b.yugtorg.com/image/data/40197_1.png"
+      "https://b2b.yugtorg.com/image/data/40197_1.png",
+      "https://b2b.yugtorg.com/image/data/40197_2.png"
     ],
     "available": true,
     "price": 100.0,
@@ -64152,8 +63678,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/21331.png",
       "https://b2b.yugtorg.com/image/data/21331_1.png",
-      "https://b2b.yugtorg.com/image/data/21331_2.png",
-      "https://b2b.yugtorg.com/image/data/21331_3.png"
+      "https://b2b.yugtorg.com/image/data/21331_3.png",
+      "https://b2b.yugtorg.com/image/data/21331_2.png"
     ],
     "available": true,
     "price": 36.0,
@@ -64221,9 +63747,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/21330.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/21330.png",
-      "https://b2b.yugtorg.com/image/data/21330_3.png",
+      "https://b2b.yugtorg.com/image/data/21330_2.png",
       "https://b2b.yugtorg.com/image/data/21330_1.png",
-      "https://b2b.yugtorg.com/image/data/21330_2.png"
+      "https://b2b.yugtorg.com/image/data/21330_3.png"
     ],
     "available": true,
     "price": 44.0,
@@ -64675,28 +64201,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/2023-08/h26.webp"
     ],
     "available": true,
-    "price": 40.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-20982",
-    "sku": "99-10035552",
-    "category": "Аксесуари та витратні матеріали для монтажу",
-    "subcategory": "",
-    "brand": "Інший виробник",
-    "name": "Бокс герметичний",
-    "model": "SteelNet SN-БГ-330-п-2 /1.2 IP54",
-    "description": "● Тип замку &nbsp; &nbsp;поворотно-притискний;● Тип установки &nbsp; &nbsp; настінна, вулична;● Матеріал&nbsp; сталь;● Розміри, мм 330 x 300 x 120;● Висота, мм 330;● Ширина, мм &nbsp; &nbsp;300;● Глибина, мм &nbsp; &nbsp;120",
-    "features": [
-      "IP54",
-      "120 мм"
-    ],
-    "image": "https://viatec.ua/upload/2/SteelNet-sn-bg-330.webp",
-    "images": [
-      "https://viatec.ua/upload/2/SteelNet-sn-bg-330.webp"
-    ],
-    "available": true,
-    "price": 1821.0,
+    "price": 41.0,
     "source_supplier": "viatec"
   },
   {
@@ -64720,7 +64225,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/2/kruk-univers.webp"
     ],
     "available": true,
-    "price": 140.0,
+    "price": 151.0,
     "source_supplier": "viatec"
   },
   {
@@ -64962,7 +64467,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/2/zazhim-anker.webp"
     ],
     "available": true,
-    "price": 39.0,
+    "price": 44.0,
     "source_supplier": "viatec"
   },
   {
@@ -64983,7 +64488,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/2/natjazhnoj-za-32-4x3.webp"
     ],
     "available": true,
-    "price": 64.0,
+    "price": 72.0,
     "source_supplier": "viatec"
   },
   {
@@ -66041,6 +65546,27 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-18424",
+    "sku": "99-10027310",
+    "category": "Аксесуари та витратні матеріали для монтажу",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Металорукав ізольований оцинкований",
+    "model": "PRO-UEA 14мм з протяжкою (50м)",
+    "description": "● Матеріал оцинкована сталь ;● Внутрішній діаметр, мм 14;● З протяжкою",
+    "features": [
+      "Довжина: 50 м",
+      "14мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2025-04/otsinkovannyi-s-protiazhkoi-b.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-04/otsinkovannyi-s-protiazhkoi-b.webp"
+    ],
+    "available": true,
+    "price": 1576.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-21387",
     "sku": "99-10037101",
     "category": "Аксесуари та витратні матеріали для монтажу",
@@ -66831,6 +66357,27 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-16876",
+    "sku": "99-10024437",
+    "category": "Аксесуари та витратні матеріали для монтажу",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Скоба оцинкована однолапкова",
+    "model": "СMM-15 d19-21мм (пак 50шт)",
+    "description": "● Діаметр внутрішній, мм: 19-21;● Колір оболонки: сталь",
+    "features": [
+      "21мм",
+      "21 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-06/smm-21-22.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-06/smm-21-22.webp"
+    ],
+    "available": true,
+    "price": 109.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-16877",
     "sku": "99-10024438",
     "category": "Аксесуари та витратні матеріали для монтажу",
@@ -66936,6 +66483,27 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-19385",
+    "sku": "99-10029747",
+    "category": "Аксесуари та витратні матеріали для монтажу",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Скріпа для бандажної стрічки",
+    "model": "19мм (100 шт) з нержавіючої сталі",
+    "description": "● Матеріал сталь нержавіюча SS201;● 42.5 х 25 х 1.4 мм",
+    "features": [
+      "19мм",
+      "1.4 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/skripa-bandazh.webp",
+    "images": [
+      "https://viatec.ua/upload/2/skripa-bandazh.webp"
+    ],
+    "available": true,
+    "price": 668.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-19386",
     "sku": "99-10029743",
     "category": "Аксесуари та витратні матеріали для монтажу",
@@ -66954,7 +66522,29 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/2/takel-strch.webp"
     ],
     "available": true,
-    "price": 990.0,
+    "price": 1001.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-19387",
+    "sku": "99-10029741",
+    "category": "Аксесуари та витратні матеріали для монтажу",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Стрічка бандажна з нержавіючої сталі",
+    "model": "19х0,7мм (бухта 50м)",
+    "description": "● Матеріал&nbsp; сталь нержавіюча SS201;● 19 x 0.7 мм бухта 50м",
+    "features": [
+      "Довжина: 50 м",
+      "7мм",
+      "0.7 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/takel-strch.webp",
+    "images": [
+      "https://viatec.ua/upload/2/takel-strch.webp"
+    ],
+    "available": true,
+    "price": 1534.0,
     "source_supplier": "viatec"
   },
   {
@@ -66976,7 +66566,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/2/lw-strichka30.webp"
     ],
     "available": true,
-    "price": 1659.0,
+    "price": 1667.0,
     "source_supplier": "viatec"
   },
   {
@@ -66998,7 +66588,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/2/lw-strichka30.webp"
     ],
     "available": true,
-    "price": 2500.0,
+    "price": 2501.0,
     "source_supplier": "viatec"
   },
   {
@@ -67044,7 +66634,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/2/mont-perfo-str.webp"
     ],
     "available": true,
-    "price": 374.0,
+    "price": 375.0,
     "source_supplier": "viatec"
   },
   {
@@ -67108,7 +66698,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/2/stiazhka-nerzh.webp"
     ],
     "available": true,
-    "price": 176.0,
+    "price": 163.0,
     "source_supplier": "viatec"
   },
   {
@@ -67152,7 +66742,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/2/stiazhka-nerzh.webp"
     ],
     "available": true,
-    "price": 216.0,
+    "price": 201.0,
     "source_supplier": "viatec"
   },
   {
@@ -67174,7 +66764,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/2/stiazhka-nerzh.webp"
     ],
     "available": true,
-    "price": 146.0,
+    "price": 136.0,
     "source_supplier": "viatec"
   },
   {
@@ -68064,26 +67654,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "yugtorg-31040",
-    "sku": "HRL1225WF2FR",
-    "category": "Акумулятори та елементи живлення",
-    "subcategory": "",
-    "brand": "CSB",
-    "name": "Аккумуляторная батарея CSB HRL1225WF2, 12V 5.8Ah (90х70х106мм)",
-    "model": "HRL1225WF2FR",
-    "description": "Шукаєте високоефективне та надійне джерело енергії для ваших пристроїв? Представляємо акумуляторну батарею CSB HRL1225WF2, спеціально розроблену для роботи в умовах високих навантажень та тривалого терміну служби. Ця батарея ідеально підходить для широкого спектру застосувань, забезпечуючи стабільне та довговічне живлення. Основні характеристики: • Напруга: 12 В • Місткість: 5,8 Ач • Розміри: 90х70х106 мм • Вага: 1,95 кг • Матеріал корпусу: ABS (акрило-бутадієн-стирол) • Висновки: F2-Faston Tab 250 • Напруга заряду при циклічному режимі: 14,4 - 15,0 при 25°C • Напруга підзаряду: 13,5 - 13,8 при 25°C • Максимальний струм заряду: 2,5 А (при заряді постійного струму) • Діапазон робочих температур:** - Розряд: від -15 ° C до +50 ° C - Заряд: від -15 ° C до +40 ° C - Зберігання: від -15 ° C до +40 ° C • Внутрішній опір: 19,0 мОм • Максимальний струм розряду: 130A (5 сек.) • Саморозрядження: низький, акумулятор може зберігатися без підзаряду при 25°C більше 6 місяців Переваги та можливості використання: 1. Висока продуктивність: Завдяки спеціальній кристалічній решітці електродів, ця батарея забезпечує на 20% більше потужності, що віддається, в порівнянні з аналогами, що дозволяє використовувати її в режимах високих струмів розряду. 2. Довговічність: Термін служби батареї становить до 8 років у буферному режимі та більше 260 циклів заряду-розряду при 100% розряді, що робить її ідеальним вибором для тривалого використання. 3. Надійність за різних температур: Широкий діапазон робочих температур дозволяє використовувати батарею в різних кліматичних умовах, забезпечуючи стабільну роботу ваших пристроїв. 4. Компактність: Зручні розміри та легка вага дозволяють легко інтегрувати батарею у різні системи та пристрої. 5. Простота експлуатації: Низький саморозряд дозволяє зберігати батарею без підзаряду тривалий час, що знижує необхідність частого обслуговування. Застосування: - Системи безперебійного живлення (ДБЖ) - Системи охорони та сигналізації - Медичне обладнання - Телекомунікаційні пристрої - Електричні транспортні засоби - Промислові та побутові системи резервного харчування Акумуляторна батарея CSB HRL1225WF2 – це надійне та ефективне рішення для забезпечення стабільного живлення ваших пристроїв. Завдяки високій якості та тривалому терміну служби, ця батарея стане надійним джерелом енергії для ваших потреб.",
-    "features": [
-      "8Ah"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/31040.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/31040.png"
-    ],
-    "available": true,
-    "price": 1600.0,
-    "source_supplier": "yugtorg"
-  },
-  {
     "id": "viatec-18096",
     "sku": "99-10025990",
     "category": "Акумулятори та елементи живлення",
@@ -68123,27 +67693,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 940.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-21347",
-    "sku": "99-10036947",
-    "category": "Акумулятори та елементи живлення",
-    "subcategory": "",
-    "brand": "CSB",
-    "name": "Акумуляторна батарея",
-    "model": "CSB HR1234WF2 12В 9А•г",
-    "description": "● Кількість осередків: 6;● Напруга: 12 В;● Місткість: 9 А&bull;год;● Вага: приблизно 2.6 кг;● Максимальний струм розряду: 130 А (5 секунд);● Внутрішній опір: приблизно 19м&Omega;● Рекомендований максимальний струм заряду: 4.5 А",
-    "features": [
-      "Вихідна напруга: 12 В",
-      "Ємність: 9 А•г"
-    ],
-    "image": "https://viatec.ua/upload/2/HR1234WF2.webp",
-    "images": [
-      "https://viatec.ua/upload/2/HR1234WF2.webp"
-    ],
-    "available": true,
-    "price": 1440.0,
     "source_supplier": "viatec"
   },
   {
@@ -68897,27 +68446,6 @@ window.ALTCAM_CATALOG = [
     "available": true,
     "price": 24190.0,
     "source_supplier": "yugtorg"
-  },
-  {
-    "id": "viatec-15494",
-    "sku": "99-00023264",
-    "category": "Акумулятори та елементи живлення",
-    "subcategory": "",
-    "brand": "CSB",
-    "name": "Свинцево-кислотна акумуляторна батарея",
-    "model": "CSB UPS12460F2 9А•г 12В",
-    "description": "● Вихідна напруга:&nbsp; 12 В;● Ємність акумулятора: 9 А&bull;г;● Розміри: 151х65х94 мм;● Вага: 2.6 кг",
-    "features": [
-      "Вихідна напруга: 12В",
-      "Ємність: 9 А•г"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-11/UPS12460F2.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-11/UPS12460F2.webp"
-    ],
-    "available": true,
-    "price": 1549.0,
-    "source_supplier": "viatec"
   },
   {
     "id": "yugtorg-37842",
@@ -72319,7 +71847,7 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/32837.png"
     ],
     "available": true,
-    "price": 10606.0,
+    "price": 9310.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -72485,27 +72013,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 909.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-15730",
-    "sku": "99-00023575",
-    "category": "Акумулятори та елементи живлення",
-    "subcategory": "",
-    "brand": "Merlion",
-    "name": "Свинцево-кислотна акумуляторна батарея",
-    "model": "MERLION GL121000M8 100А•г 12В",
-    "description": "● Тип акумулятора: &nbsp; &nbsp; GEL;● Вихідна напруга: &nbsp; &nbsp; 12 В;● Ємність акумулятора: 100 А&bull;г;● Розміри: 329х172x218&nbsp;мм;● Вага: 29 кг",
-    "features": [
-      "Вихідна напруга: 12В",
-      "Ємність: 100 А•г"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-12/GL121000M8.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-12/GL121000M8.webp"
-    ],
-    "available": true,
-    "price": 9800.0,
     "source_supplier": "viatec"
   },
   {
@@ -72779,8 +72286,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/29293.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/29293.png",
-      "https://b2b.yugtorg.com/image/data/29293_1.png",
-      "https://b2b.yugtorg.com/image/data/29293_2.png"
+      "https://b2b.yugtorg.com/image/data/29293_2.png",
+      "https://b2b.yugtorg.com/image/data/29293_1.png"
     ],
     "available": true,
     "price": 2633.0,
@@ -73011,6 +72518,29 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 14060.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-28636",
+    "sku": "CG12100",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "ORBUS",
+    "name": "Акумуляторна батарея ORBUS CG12100 GEL 12V 100 Ah (330 x 171 x 214) / 48",
+    "model": "CG12100",
+    "description": "Характеристика: • Номінальна напруга: 12В • Номінальна ємність: 100 Ач • Місткість: - при 10-годинному розряді (10,5 В / елемент, 25 C / 77 F): 100 Ач - при 5-годинному розряді (10,2 В / елемент, 25 C / 77 F): 78 А·час - при 1 годинному розряді (9,6 В / елемент, 25 C / 77 F): 58,2 Ah • Тип клеми: T9 • Максимальний зарядний струм: 20А • Максимальний струм розряду: 800А (5 сек.) • Напруга заряду при 25 C (77 F): - циклічний режим: 14,10 – 14,40 В. Температурна компенсація: -30 мВ / С - буферний режим: 13,50 - 13,80 В Температурна компенсація: -18 мВ / С • Саморозряд (25 C): - 3 місяці: залишкова ємність 94% - 6 місяців: залишкова ємність 88% - 12 місяців: залишкова ємність 75% • Матеріал корпусу: ABS • Розміри (ДхШхВ): 330 x 171 x 214 мм • Вага: 30,0 кг",
+    "features": [
+      "214 мм",
+      "100 Ah",
+      "2 Ah"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/28636.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/28636.png",
+      "https://b2b.yugtorg.com/image/data/28636_1.png"
+    ],
+    "available": true,
+    "price": 11580.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -73325,6 +72855,27 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
+    "id": "yugtorg-7606",
+    "sku": "DC12-200",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Акумуляторна батарея AGM RITAR DC12-200, Gray Case, 12V 200Ah (522 х 240 х 219 (224)) / 18",
+    "model": "DC12-200",
+    "description": "Акумуляторна батарея AGM RITAR DC12-200 – надійний електричний компаньйон для ваших пристроїв. Має герметичний міцний корпус, який прослужить довго. особливості: • акб серії 'DC' призначені для частих циклічних зарядів та розрядів. • акб серії 'DC' становлять на 30% більше циклічних навантажень, ніж резервна серія. Застосування: • джерела безперебійного живлення • у телекомунікаціях та промообладнанні; • у системах резервного освітлення • у складі систем відеоспостереження, сигналізації, контролю доступу • у мережах пожежно-охоронних автоматизованих комплексів Характеристики: • кількість елементів – 6 • тип клем - F12 (М8) • тип батареї – AGM • напруга – 12 V • ємність – 200 Ah • напруга заряду в циклічному режимі – 14,6 В ~ 14,8 В при 25 °С • напруга заряду в буферному режимі – 13,7 В ~ 13,9 В при 25 °С • максимальний струм розряду – 2000 А • максимальний зарядний струм – 20 A • Діапазон робочих температур: - розряд: -20°C ~ 60°C - заряд: 0 ° C ~ 50 ° C - зберігання: -20 ° C ~ 60 ° C - нормальний діапазон робочих температур: 25±5°C • розміри пристрою (ДхШхВ) – 222х240x219 мм • вага – 60 кг (Допуск ± 5,0%) Зверніть увагу! Недотримання напруги та струмів заряду-розряду може призвести до пошкодження акумулятора та втрати гарантії.",
+    "features": [
+      "200Ah",
+      "200 Ah"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/07606.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/07606.png"
+    ],
+    "available": true,
+    "price": 18940.0,
+    "source_supplier": "yugtorg"
+  },
+  {
     "id": "yugtorg-7605",
     "sku": "DC12-65",
     "category": "Акумулятори та елементи живлення",
@@ -73343,6 +72894,30 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 6768.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-7390",
+    "sku": "DC12-80",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Акумуляторна батарея AGM RITAR DC12-80, Gray Case, 12V 80Ah ( 350 x 167 x 182 )",
+    "model": "DC12-80",
+    "description": "Акумуляторні батареї серії DC (глибокий цикл) спеціально призначені для частих циклічних зарядів і розрядів. Акумулятори серії DC складають на 30% більше циклічних навантажень, ніж резервна серія. Акумуляторні батареї серії DC призначені для сонячної та вітроенергетики, медичного обладнання, телекомунікаційного обладнання і систем UPS та інших. Кількість повних циклів- 300 Технічні характеристики: Кількість елементів: 6 Напруга: 12 В Номінальна ємність: 80 A / ч при 20 годинному розряді до 1,8 В на елемент при 25 ° C Вага: 22,9 кг (Допуск ± 5,0%) Внутрішній опір: 5,5 мОм Тип клем: F11 (M6) / Максимальний струм розряду: 800 А (5 секунд) Струм короткого замикання: - A Термін придатності: 12 років Максимальний зарядний струм: 8 A Контрольна ємність: C3 62,4 AH C5 70,5 AH C10 80,0 AH C20 84,2 AH Напруга заряду в буферному режимі: 13,6 В ~ 13,8 В при 25 ° С Температурна компенсація: -3 мВ / ° C / елемент Напруга заряду в циклічному режимі: 14,6 В ~ 14,8 В при 25 ° С Температурна компенсація: -4 мВ / ° C / елемент Діапазон робочих температур: розряд: -20 ° C ~ 60 ° C заряд: 0 ° C ~ 50 ° C зберігання: -20 ° C ~ 60 ° C Нормальний діапазон робочих температур: 25 ± 5 ° C Матеріал корпусу: A.В.S. UL94-HB, UL94-V0 Cаморозряд: Акумуляторні батареї RITAR з регульованою свинцевою кислотою (VRLA) можуть зберігатися до 6 місяців при температурі 25 ° C, а потім рекомендується підзарядка. Щомісячний коефіцієнт саморозряду становить менше 3% при 25 ° C. Будь ласка, зарядіть батареї перед використанням. Зверніть увагу! Недотримання напруги та струмів заряду-розряду може призвести до пошкодження акумулятора та втрати гарантії.",
+    "features": [
+      "80Ah",
+      "4 AH",
+      "5 AH",
+      "0 AH",
+      "2 AH"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/07390.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/07390.png"
+    ],
+    "available": true,
+    "price": 8550.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -73474,6 +73049,28 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
+    "id": "yugtorg-1709",
+    "sku": "HR1228W",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Акумуляторна батарея AGM RITAR HR1228W, Gray Case, 12V 7.0Ah ( 151 х 65 х 94 (100 ) 2.17kg",
+    "model": "HR1228W",
+    "description": "Акумуляторна батарея (VRLA) серії HR призначена для великого навантаження, має високу потужність і довгий термін служби у Float (буферному) режимі. Акумуляторна батарея серії HR має на 30% більше потужності, ніж стандартні серії і використовується в системах резервного живлення з ДБЖ. Технічні характеристики: Кількість елементів: 6 Напруга: 12 В Номінальна ємність: 7 A / год при 20 годинному розряді до 1,75 В на елемент при 25°C Вага: 2,17 кг (Допуск ± 5,0%) Внутрішній опір: 22 мОм Тип клем: F2 Максимальний струм розряду: 70 А (5 секунд) Струм короткого замикання: 390 A Термін придатності: 10 років Максимальний зарядний струм: 0,7 A Контрольна ємність: C10 6,5 AH C20 7,0 AH Напруга заряду в буферному режимі: 13,7 В ~ 13,9 В при 25 ° С Температурна компенсація: -3 мВ / °C / елемент Напруга заряду в циклічному режимі: 14,6 В ~ 14,8 В при 25 ° С Температурна компенсація: -4 мВ / °C / елемент Діапазон робочих температур: розряд: -20°C ~ 60°C заряд: 0 ° C ~ 50 ° C зберігання: -20 ° C ~ 60 ° C Нормальний діапазон робочих температур: 25±5°C Матеріал корпусу: A.В.S. UL94-HB, UL94-V0 Саморозряд: Акумулятори RITAR з регульованою свинцевою кислотою (VRLA) можуть зберігатися до 6 місяців при температурі 25 ° C, а потім рекомендується підзарядка. Щомісячний коефіцієнт саморозряду становить менше 3% за 25 ° C. Будь ласка, зарядіть батареї перед використанням. Зверніть увагу! Недотримання напруги та струмів заряду-розряду може призвести до пошкодження акумулятора та втрати гарантії.",
+    "features": [
+      "0Ah",
+      "5 AH",
+      "0 AH"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/01709.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/01709.png"
+    ],
+    "available": true,
+    "price": 821.0,
+    "source_supplier": "yugtorg"
+  },
+  {
     "id": "yugtorg-12675",
     "sku": "HR1232W",
     "category": "Акумулятори та елементи живлення",
@@ -73513,6 +73110,30 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 10044.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-1710",
+    "sku": "HR1236W",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Акумуляторна батарея AGM RITAR HR1236W, Gray Case, 12V 9.0Ah ( 151 х 65 х 94 (100 ) 2.60kg",
+    "model": "HR1236W",
+    "description": "Акумуляторна батарея (VRLA) серії HR призначена для великого навантаження, має високу потужність і довгий термін служби у Float (буферному) режимі. Акумуляторна батарея серії HR має на 30% більше потужності, ніж стандартні серії і використовується в системах резервного живлення з ДБЖ. Технічні характеристики: Кількість елементів: 6 Напруга: 12 В Номінальна ємність: 9 A / год. при 20 годинному розряді до 1,75 В на елемент при 25 °C Вага: 2,55 кг (Допуск ± 5,0%) Внутрішній опір: 20 мОм Тип клем: F2 Максимальний струм розряду: 90 А (5 секунд) Струм короткого замикання 450 A Термін придатності: 10 років Максимальний зарядний струм: 0,9 A Контрольна ємність: C3 6,98 AH C5 7,89 AH C10 8,46 AH C20 9,06 AH Напруга заряду в буферному режимі: 13,7 В ~ 13,9 В при 25 ° С Температурна компенсація: -3 мВ / °C / елемент Напруга заряду в циклічному режимі: 14,6 В ~ 14,8 В при 25 ° С Температурна компенсація: -4 мВ / °C / елемент Діапазон робочих температур: розряд: -20°C ~ 60°C заряд: 0 ° C ~ 50 ° C зберігання: -20 ° C ~ 60 ° C Нормальний діапазон робочих температур: 25±5°C Матеріал корпусу: A.В.S. UL94-HB, UL94-V0 Саморозряд: Акумулятори RITAR з регульованою свинцевою кислотою (VRLA) можуть зберігатися до 6 місяців при температурі 25 ° C, а потім рекомендується підзарядка. Щомісячний коефіцієнт саморозряду становить менше 3% за 25 ° C. Будь ласка, зарядіть батареї перед використанням. Зверніть увагу! Недотримання напруги та струмів заряду-розряду може призвести до пошкодження акумулятора та втрати гарантії.",
+    "features": [
+      "0Ah",
+      "98 AH",
+      "89 AH",
+      "46 AH",
+      "06 AH"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/01710.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/01710.png"
+    ],
+    "available": true,
+    "price": 920.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -73897,6 +73518,92 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
+    "id": "yugtorg-2978",
+    "sku": "RT12100",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Акумуляторна батарея AGM RITAR RT12100, Gray Case, 12V 10.0Ah ( 151 х 65 х 111 (117 ) )",
+    "model": "RT12100",
+    "description": "Акумулятори призначені для систем резервного живлення у джерелах безперебійного живлення, використовуються в телекомунікаційних системах промислових, офісних та інших установах. Технічні характеристики: Кількість елементів: 6 Напруга: 12 В Номінальна ємність: 10 A / год. при 20 годинному розряді до 1,75 В на елемент при 25 °C Вага: 3,10 кг (Допуск ± 5,0%) Внутрішній опір: 20 мОм Тип клем: F2 Максимальний струм розряду: 100 А (5 секунд) Струм короткого замикання: 475 A Термін придатності: 6-8 років Максимальний зарядний струм: 1 A Контрольна ємність: C3 7,76 AH C5 8,76 AH C10 9,39 AH C20 10,1 AH Напруга заряду в буферному режимі: 13,7 В ~ 13,9 В при 25 ° С Температурна компенсація: -3 мВ / °C / елемент Напруга заряду в циклічному режимі: 14,6 В ~ 14,8 В при 25 ° С Температурна компенсація: -4 мВ / °C / елемент Діапазон робочих температур: розряд: -20°C ~ 60°C заряд: 0 ° C ~ 50 ° C зберігання: -20 ° C ~ 60 ° C Нормальний діапазон робочих температур: 25±5°C Матеріал корпусу: A.В.S. UL94-HB, UL94-V0 Саморозряд: Акумулятори RITAR з регульованою свинцевою кислотою (VRLA) можуть зберігатися до 6 місяців при температурі 25 ° C, а потім рекомендується підзарядка. Щомісячний коефіцієнт саморозряду становить менше 3% за 25 ° C. Будь ласка, зарядіть батареї перед використанням. Розмір з упаковкою (154*68*120), мм Розмір пристрою (151*65*117), мм НІТО, кг: 3,10000 БРУТТО, кг: 3,72000 Зверніть увагу! Недотримання напруги та струмів заряду-розряду може призвести до пошкодження акумулятора та втрати гарантії.",
+    "features": [
+      "0Ah",
+      "76 AH",
+      "39 AH",
+      "1 AH"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/02978.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/02978.png"
+    ],
+    "available": true,
+    "price": 1040.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-24412",
+    "sku": "RT12100S",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Акумуляторна батарея AGM RITAR RT12100S, Gray Case, 12V 10.0Ah ( 151 х 98 х 95 (101 ) )",
+    "model": "RT12100S",
+    "description": "Акумуляторна батарея AGM RITAR RT1272B – використовується в пристроях з невеликим споживанням енергії. Тому необхідно подбати про якісний акумулятор для забезпечення надійної, довгострокової роботи пристроїв. RITAR RT1272B – твій вибір! Застосування: • джерела безперебійного живлення • у телекомунікаціях та промообладнанні; • у системах резервного освітлення • у складі систем відеоспостереження, сигналізації, контролю доступу • у мережах пожежно-охоронних автоматизованих комплексів Характеристики: • кількість елементів – 6 • тип клем - F2 • тип батареї – AGM • напруга – 12 V • ємність – 10 Ah • напруга заряду в циклічному режимі – 14,6 В ~ 14,8 В при 25 °С • напруга заряду в буферному режимі – 13,7 В ~ 13,9 В при 25 °С • максимальний струм розряду – 100 А • максимальний зарядний струм – 1 A • Діапазон робочих температур: - розряд: -20°C ~ 60°C - заряд: 0 ° C ~ 50 ° C - зберігання: -20 ° C ~ 60 ° C - нормальний діапазон робочих температур: 25±5°C • розміри пристрою (ДхШхВ) – 151х98x101 мм • вага – 3,5 кг (Допуск ± 5,0%) • термін придатності: 6-8 років Зверніть увагу! Недотримання напруги та струмів заряду-розряду може призвести до пошкодження акумулятора та втрати гарантії.",
+    "features": [
+      "0Ah",
+      "10 Ah"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/24412.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/24412.png"
+    ],
+    "available": true,
+    "price": 1040.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-3224",
+    "sku": "RT12120",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Акумуляторна батарея AGM RITAR RT12120, Gray Case, 12V 12.0Ah (151х98х 95 (101) )",
+    "model": "RT12120",
+    "description": "Акумуляторна батарея AGM RITAR RT12120 – надійний електричний компаньйон для ваших пристроїв. Має герметичний міцний корпус, який прослужить довго. Застосування: • джерела безперебійного живлення • у телекомунікаціях та промообладнанні; • у системах резервного освітлення • у складі систем відеоспостереження, сигналізації, контролю доступу • у мережах пожежно-охоронних автоматизованих комплексів Характеристики: • кількість елементів – 6 • тип клем - F2 • тип батареї – AGM • напруга – 12 V • внутрішній опір – 16,5 мОм • ємність - 12 Ah • максимальний струм розряду – 120 А • максимальний зарядний струм – 1,2 A • напруга заряду в циклічному режимі – 14,6 В ~ 14,8 В при 25 °С • напруга заряду в буферному режимі – 13,7 В ~ 13,9 В при 25 °С • Діапазон робочих температур: - розряд: -20°C ~ 60°C - заряд: 0 ° C ~ 50 ° C - зберігання: -20°C ~ 60°C - нормальний діапазон робочих температур: 25±5°C • розміри пристрою (ДхШхВ) – 151х98x101 мм • вага – 3,25 кг (Допуск ± 5,0%) Зверніть увагу! Недотримання напруги та струмів заряду-розряду може призвести до пошкодження акумулятора та втрати гарантії.",
+    "features": [
+      "0Ah",
+      "12 Ah"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/03224.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/03224.png"
+    ],
+    "available": true,
+    "price": 1230.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-2983",
+    "sku": "RT12120B",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Акумуляторна батарея AGM RITAR RT12120B, Black Case, 12V 12.0Ah (151х98х 95 (101) )",
+    "model": "RT12120B",
+    "description": "Акумуляторна батарея AGM RITAR RT12120B – правильна батарея для твоїх пристроїв. Міцний корпус, довгий термін служби, широкий спектр застосування – це про акб RITAR! Застосування: • джерела безперебійного живлення • у телекомунікаціях та промообладнанні; • у системах резервного освітлення • у складі систем відеоспостереження, сигналізації, контролю доступу • у мережах пожежно-охоронних автоматизованих комплексів Характеристики: • кількість елементів – 6 • тип клем - F2 • тип батареї – AGM • напруга – 12 V • внутрішній опір – 16,5 мОм • ємність - 12 Ah • максимальний струм розряду – 120 А • максимальний зарядний струм – 1,2 A • напруга заряду в циклічному режимі – 14,6 В ~ 14,8 В при 25 °С • напруга заряду в буферному режимі – 13,7 В ~ 13,9 В при 25 °С • Діапазон робочих температур: - розряд: -20°C ~ 60°C - заряд: 0 ° C ~ 50 ° C - зберігання: -20°C ~ 60°C - нормальний діапазон робочих температур: 25±5°C • розміри пристрою (ДхШхВ) – 151х98x101 мм • вага – 3,3 кг (Допуск ± 5,0%) Зверніть увагу! Недотримання напруги та струмів заряду-розряду може призвести до пошкодження акумулятора та втрати гарантії.",
+    "features": [
+      "0Ah",
+      "12 Ah"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/02983.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/02983.png"
+    ],
+    "available": true,
+    "price": 1230.0,
+    "source_supplier": "yugtorg"
+  },
+  {
     "id": "yugtorg-9091",
     "sku": "RT1213",
     "category": "Акумулятори та елементи живлення",
@@ -74264,6 +73971,30 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
+    "id": "yugtorg-8215",
+    "sku": "RT1255",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Акумуляторна батарея AGM RITAR RT1255, Gray Case, 12V 5.5Ah ( 90 х 70 х 101 (107) )",
+    "model": "RT1255",
+    "description": "Акумулятори призначені для систем резервного живлення в джерелах безперебійного живлення, використовуються в телекомунікайний системах промислових, офісних та інших установах Технічні характеристики: Кількість елементів: 6 Напруга: 12 В Номінальна ємність: 5,5 A / год при 20 годинному розряді до 1,75 В на елемент при 25 ° C Вага: 1,39 кг (Допуск ± 5,0%) Внутрішній опір: 35 мОм Тип клем: F2 Максимальний струм розряду: 55 А (5 секунд) Струм короткого замикання: 275 A Термін придатності: 6-8 років Максимальний зарядний струм: 0,55 A Контрольна ємність: C3 4,27 AH C5 4,82 AH C10 5,17 AH C20 5,54 AH Напруга заряду в буферному режимі: 13,7 В ~ 13,9 В при 25 ° С Температурна компенсація: -3 мВ / ° C / елемент Напруга заряду в циклічному режимі: 14,6 В ~ 14,8 В при 25 ° С Температурна компенсація: -4 мВ / ° C / елемент Діапазон робочих температур: розряд: -20 ° C ~ 60 ° C заряд: 0 ° C ~ 50 ° C зберігання: -20 ° C ~ 60 ° C Нормальний діапазон робочих температур: 25 ± 5 ° C Матеріал корпусу: A.В.S. UL94-HB, UL94-V0 Cаморозряд: Акумуляторні батареї RITAR з регульованою свинцевою кислотою (VRLA) можуть зберігатися до 6 місяців при температурі 25 ° C, а потім рекомендується підзарядка. Щомісячний коефіцієнт саморозряду становить менше 3% при 25 ° C. Будь ласка, зарядіть батареї перед використанням. Розмір з упаковкою (93*73*110), мм Розмір пристрою (90*70*107), мм НЕТТО, кг: 1,70000 БРУТТО, кг: 2,04000 Зверніть увагу! Недотримання напруги та струмів заряду-розряду може призвести до пошкодження акумулятора та втрати гарантії.",
+    "features": [
+      "5Ah",
+      "27 AH",
+      "82 AH",
+      "17 AH",
+      "54 AH"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/08215.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/08215.png"
+    ],
+    "available": true,
+    "price": 560.0,
+    "source_supplier": "yugtorg"
+  },
+  {
     "id": "yugtorg-2974",
     "sku": "RT1270",
     "category": "Акумулятори та елементи живлення",
@@ -74352,6 +74083,30 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 627.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-4231",
+    "sku": "RT1275",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Акумуляторна батарея AGM RITAR RT1275, Gray Case, 12V 7.5Ah ( 151 х 65 х 94 (100) )",
+    "model": "RT1275",
+    "description": "Акумулятори призначені для систем резервного живлення у джерелах безперебійного живлення, використовуються в телекомунікаційних системах промислових, офісних та інших установах. Технічні характеристики: Кількість елементів: 6 Напруга: 12 В Номінальна ємність: 7,5 A / год. при 20 годинному розряді до 1,75 В на елемент при 25 °C Вага: 2,25 кг (Допуск ± 5,0%) Внутрішній опір: 25 мОм Тип клем: F2 Максимальний струм розряду: 75 А (5 секунд) Струм короткого замикання 260 A Термін придатності: 6-8 років Максимальний зарядний струм: 0,75 A Контрольна ємність: C3 5,78 AH C5 6,52 AH C10 6,76 AH C20 7,50 AH Напруга заряду в буферному режимі: 13,7 В ~ 13,9 В при 25 ° С Температурна компенсація: -3 мВ / °C / елемент Напруга заряду в циклічному режимі: 14,6 В ~ 14,8 В при 25 ° С Температурна компенсація: -4 мВ / °C / елемент Діапазон робочих температур: розряд: -20°C ~ 60°C заряд: -20 ° C ~ 50 ° C зберігання: -20 ° C ~ 60 ° C Нормальний діапазон робочих температур: 25±5°C Матеріал корпусу: A.В.S. UL94-HB, UL94-V0 Саморозряд: Акумулятори RITAR з регульованою свинцевою кислотою (VRLA) можуть зберігатися до 6 місяців при температурі 25 ° C, а потім рекомендується підзарядка. Щомісячний коефіцієнт саморозряду становить менше 3% за 25 ° C. Будь ласка, зарядіть батареї перед використанням. Розмір з упаковкою (154*68*103), мм Розмір пристрою (151*65*100), мм Зверніть увагу! Недотримання напруги та струмів заряду-розряду може призвести до пошкодження акумулятора та втрати гарантії.",
+    "features": [
+      "5Ah",
+      "78 AH",
+      "52 AH",
+      "76 AH",
+      "50 AH"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/04231.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/04231.png"
+    ],
+    "available": true,
+    "price": 690.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -74530,6 +74285,30 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
+    "id": "yugtorg-2969",
+    "sku": "RT6120A",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Акумуляторна батарея AGM RITAR RT6120A, Black Case, 6V 12Ah ( 150 х 50 х 93 (99) )",
+    "model": "RT6120A",
+    "description": "Акумулятори призначені для систем резервного живлення в джерелах безперебійного живлення, використовуються в телекомунікайний системах промислових, офісних та інших установах Технічні характеристики: Кількість елементів: 3 Напруга: 6 В Номінальна ємність: 12 A / ч при 20 годинному розряді до 1,75 В на елемент при 25 ° C Вага: 1,66 кг (Допуск ± 5,0%) Внутрішній опір: 10 мОм Тип клем: F2 Максимальний струм розряду: 120 А (5 секунд) Струм короткого замикання: 580 A Термін придатності: 6-8 років Максимальний зарядний струм: 1,2 A Контрольна ємність: C3 9,32 AH C5 10,5 AH C10 11,3 AH C20 12,0 AH Напруга заряду в буферному режимі: 6,85 В ~ 6,95 В при 25 ° С Температурна компенсація: -3 мВ / ° C / елемент Напруга заряду в циклічному режимі: 7,30 В ~ 7,40 В при 25 ° С Температурна компенсація: -4 мВ / ° C / елемент Діапазон робочих температур: розряд: -20 ° C ~ 60 ° C заряд: 0 ° C ~ 50 ° C зберігання: -20 ° C ~ 60 ° C Нормальний діапазон робочих температур: 25 ± 5 ° C Матеріал корпусу: A.В.S. UL94-HB, UL94-V0 Cаморозряд: Акумуляторні батареї RITAR з регульованою свинцевою кислотою (VRLA) можуть зберігатися до 6 місяців при температурі 25 ° C, а потім рекомендується підзарядка. Щомісячний коефіцієнт саморозряду становить менше 3% при 25 ° C. Будь ласка, зарядіть батареї перед використанням. Розмір з упаковкою (153*53*102), мм Розмір пристрою (150*50*99), мм НЕТТО, кг: 1,66000 БРУТТО, кг: 1,99200 Зверніть увагу! Недотримання напруги та струмів заряду-розряду може призвести до пошкодження акумулятора та втрати гарантії.",
+    "features": [
+      "12Ah",
+      "32 AH",
+      "5 AH",
+      "3 AH",
+      "0 AH"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/02969.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/02969.png"
+    ],
+    "available": true,
+    "price": 650.0,
+    "source_supplier": "yugtorg"
+  },
+  {
     "id": "yugtorg-40972",
     "sku": "RT613B",
     "category": "Акумулятори та елементи живлення",
@@ -74659,6 +74438,26 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
+    "id": "yugtorg-38982",
+    "sku": "RT650",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Акумуляторна батарея AGM RITAR RT650, Gray Case, 6V 5Ah (70х47х99 (107))",
+    "model": "RT650",
+    "description": "Характеристики уточнюються.",
+    "features": [
+      "5Ah"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/38982.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/38982.png"
+    ],
+    "available": true,
+    "price": 290.0,
+    "source_supplier": "yugtorg"
+  },
+  {
     "id": "yugtorg-8210",
     "sku": "RT655",
     "category": "Акумулятори та елементи живлення",
@@ -74767,6 +74566,27 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 12220.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-11599",
+    "sku": "DC12-200C",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Акумуляторна батарея CARBON RITAR DC12-200C, Black Case, 12V 200.0Ah, 2000-5000 циклів, до 15 років термін служби (522*219*224)",
+    "model": "DC12-200C",
+    "description": "Акумуляторна батарея CARBON RITAR DC12-200C – надійний електричний компаньйон для ваших пристроїв. Має герметичний міцний корпус, який прослужить довго. особливості: • для роботи у постійному циклічному режимі • 2000-5000 циклів Застосування: • для систем сонячної енергетики Характеристики: • кількість елементів – 6 • тип клем - F12 (M8) • тип батареї – карбоновий • напруга – 12 V • внутрішній опір – 4 мОм • ємність – 200 Ah • максимальний струм розряду – 2000 А • максимальний зарядний струм – 60 A • напруга заряду у циклічному режимі: 13,8 В при 25°С • Діапазон робочих температур: - розряд: -20°C ~ 60°C - заряд: 0 ° C ~ 50 ° C - зберігання: -20 ° C ~ 60 ° C - нормальний діапазон робочих температур: 25±5°C • термін служби – до 15 років • розміри пристрою (ДхШхВ) – 522х219x224 мм • вага – 62,9 кг (Допуск ± 5,0%) УВАГА! КАРБОНОВІ АКУМУЛЯТОРИ неприпустимо ВИКОРИСТОВУВАТИ З ДБЖ, ЯКІ ПРАЦЮЮТЬ У буферному режимі (FLOAT). ГАРАНТІЯ НА ТАКУ ЕКСПЛУАТАЦІЮ акумуляторів ПРИПИНЯЄТЬСЯ !!!",
+    "features": [
+      "0Ah",
+      "200 Ah"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/11599.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/11599.png"
+    ],
+    "available": true,
+    "price": 19690.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -75054,6 +74874,26 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
+    "id": "yugtorg-26387",
+    "sku": "EV12-22",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Тягова акумуляторна батарея RITAR EV12-22,12V 22Ah, M5 ( 181 х 77 х 170 )",
+    "model": "EV12-22",
+    "description": "Характеристики: Номінальна ємність, Ач - 22 Номінальна напруга, В - 12 Номінальний струм заряду, А - 2 Пусковий струм, А - 200 Тип клеми - Т6 (під болт М5) Матеріал корпусу - пластик Довжина, мм - 181 Ширина, мм - 77 Висота, мм - 170 Висота з клемами, мм - 170 Гарантія, місяців - 12 Вага, кг - 6,0",
+    "features": [
+      "22Ah"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/26387.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/26387.png"
+    ],
+    "available": true,
+    "price": 2310.0,
+    "source_supplier": "yugtorg"
+  },
+  {
     "id": "yugtorg-29491",
     "sku": "EV12-200",
     "category": "Акумулятори та елементи живлення",
@@ -75091,6 +74931,26 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 3660.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-29488",
+    "sku": "EV12-45",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Тяговий акумулятор RITAR EV12-45,12V 45Ah, M5 (198 х 166 х 169)",
+    "model": "EV12-45",
+    "description": "Шукаєте надійне та довговічне рішення для своїх енергетичних потреб? Тяговий акумулятор RITAR EV12-45 є ідеальним вибором! Він має низку ключових характеристик, які роблять його ідеальним для різних сфер застосування. Характеристики: • Тип - AGM свинцево-кислотний • Номінальна ємність, Ah – 45 • Номінальна напруга, V – 12 • Макс. струм заряду, A - 13,5 • Макс. струм розряду – 450А (5 сек) • Внутрішній опір - ≤7 мОм • Тип клеми - M5 • Матеріал корпусу – пластик • Довжина, мм – 198 • Ширина, мм – 166 • Висота, мм – 169 • Висота з клемами, мм – 169 • Гарантія, міс - 12 • Вага, кг – 14 (допуск ±5%) Тип акумулятора - AGM свинцево-кислотний, що забезпечує високу продуктивність та надійність у різних умовах роботи. Номінальна ємність складає 45 Аh, що означає, що він може підтримувати обладнання протягом значного періоду часу. При номінальній напрузі 12V цей акумулятор може забезпечити стабільну та безперервну подачу енергії. Тип клеми - M5, забезпечує міцне та надійне з`єднання. Тягові акумулятори розроблені спеціально для забезпечення великої кількості енергії протягом тривалого часу. Вони ідеально підходять для електрокарів, електросамокатів, інвалідних візків, електробайків та іншого електротранспорту, а також для застосування у системах безперервного електроживлення та телекомунікаційних системах.",
+    "features": [
+      "45Ah"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/29488.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/29488.png"
+    ],
+    "available": true,
+    "price": 5530.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -75199,26 +75059,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 801.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-6990",
-    "sku": "99-00009612",
-    "category": "Акумулятори та елементи живлення",
-    "subcategory": "",
-    "brand": "Varta",
-    "name": "Батарейка",
-    "model": "CR123A VARTA BLI 1 LITHIUM",
-    "description": "Електрохімічна система Primary lithium; Напруга, В 3; Типорозмір CR 123A&nbsp;",
-    "features": [
-      "Вихідна напруга: 3В"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/VARTA_CR_123A.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/VARTA_CR_123A.webp"
-    ],
-    "available": true,
-    "price": 166.0,
     "source_supplier": "viatec"
   },
   {
@@ -75591,27 +75431,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 388.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-1859",
-    "sku": "KMW1220D",
-    "category": "Акумулятори та елементи живлення",
-    "subcategory": "",
-    "brand": "Voltronic",
-    "name": "Автоматичний ЗП для акумулятора KMW 12V,100-260V,1.2 -20А,LCD,клеми (AGM / Gel / Lead)",
-    "model": "KMW1220D",
-    "description": "Автоматичний зарядний пристрій KMW призначений для заряджання акумуляторів напругою 12V та ємністю від 120 до 200Ah. Сумісно з різними типами акумуляторів, включаючи MF, WET, AGM та GEL. Пристрій оснащений РК-дисплеєм для зручного моніторингу заряджання, а в комплекті постачаються крокодили для легкого підключення до акумулятора. Характеристики: • Вхідна напруга: 100-260V • Вихідна напруга: 14.8V • Струм заряду: 20А • Тип акумуляторів, що заряджаються: MF, WET, AGM, GEL • Підключення: крокодили • Габарити: 105*58*15 мм",
-    "features": [
-      "15 мм",
-      "200Ah"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/01859.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/01859.png"
-    ],
-    "available": true,
-    "price": 850.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -76893,6 +76712,186 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-22405",
+    "sku": "99-10039312",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Батарейки",
+    "model": "СolorWay Alkaline Power лужні 9V/6LR61 (1шт) blister",
+    "description": "● Типорозмір: 6LR61;● Кількість в упаковці: 1;● Напруга: 9B",
+    "features": [
+      "Вихідна напруга: 9V"
+    ],
+    "image": "https://viatec.ua/upload/2/CW-BA6LR61-1BL03.webp",
+    "images": [
+      "https://viatec.ua/upload/2/CW-BA6LR61-1BL03.webp"
+    ],
+    "available": true,
+    "price": 100.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22406",
+    "sku": "99-10039313",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Батарейки",
+    "model": "СolorWay Alkaline Power лужні AA (24шт) plastic box",
+    "description": "● Типорозмір: AA;● Кількість в упаковці: 24;● Напруга: 1.5В",
+    "features": [
+      "Вихідна напруга: 1.5В"
+    ],
+    "image": "https://viatec.ua/upload/2/CW-BALR06-24PB515.webp",
+    "images": [
+      "https://viatec.ua/upload/2/CW-BALR06-24PB515.webp"
+    ],
+    "available": true,
+    "price": 400.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22407",
+    "sku": "99-10039314",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Батарейки",
+    "model": "СolorWay Alkaline Power лужні AA (2шт) blister",
+    "description": "● Типорозмір: AA;● Кількість в упаковці: 2;● Напруга: 1.5В",
+    "features": [
+      "Вихідна напруга: 1.5В"
+    ],
+    "image": "https://viatec.ua/upload/2/CW-BALR06-251BL.webp",
+    "images": [
+      "https://viatec.ua/upload/2/CW-BALR06-251BL.webp"
+    ],
+    "available": true,
+    "price": 60.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22408",
+    "sku": "99-10039315",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Батарейки",
+    "model": "СolorWay Alkaline Power лужні AA (4 шт) blister",
+    "description": "● Типорозмір: AA;● Кількість в упаковці: 4;● Напруга: 1.5В",
+    "features": [
+      "Вихідна напруга: 1.5В"
+    ],
+    "image": "https://viatec.ua/upload/2/CW-BALR06-4BL515.webp",
+    "images": [
+      "https://viatec.ua/upload/2/CW-BALR06-4BL515.webp"
+    ],
+    "available": true,
+    "price": 120.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22409",
+    "sku": "99-10039316",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Батарейки",
+    "model": "СolorWay Alkaline Power лужні AA (8 шт) blister",
+    "description": "● Типорозмір: AA;● Кількість в упаковці: 8;● Напруга: 1.5В",
+    "features": [
+      "Вихідна напруга: 1.5В"
+    ],
+    "image": "https://viatec.ua/upload/2/CW-BALR06-8BL121.webp",
+    "images": [
+      "https://viatec.ua/upload/2/CW-BALR06-8BL121.webp"
+    ],
+    "available": true,
+    "price": 149.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22410",
+    "sku": "99-10039317",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Батарейки",
+    "model": "СolorWay Alkaline Power лужні AAA (24шт) plastic box",
+    "description": "● Типорозмір: AAA;● Кількість в упаковці: 24;● Напруга: 1.5В",
+    "features": [
+      "Вихідна напруга: 1.5В"
+    ],
+    "image": "https://viatec.ua/upload/2/clrw24aaa.webp",
+    "images": [
+      "https://viatec.ua/upload/2/clrw24aaa.webp"
+    ],
+    "available": true,
+    "price": 120.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22411",
+    "sku": "99-10039318",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Батарейки",
+    "model": "СolorWay Alkaline Power лужні AAA (4 шт) blister",
+    "description": "● Типорозмір: AAA;● Кількість в упаковці: 4;● Напруга: 1.5В",
+    "features": [
+      "Вихідна напруга: 1.5В"
+    ],
+    "image": "https://viatec.ua/upload/2/CW-BALR03-4BL5155.webp",
+    "images": [
+      "https://viatec.ua/upload/2/CW-BALR03-4BL5155.webp"
+    ],
+    "available": true,
+    "price": 400.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22413",
+    "sku": "99-10039320",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Батарейки",
+    "model": "СolorWay Alkaline Power лужні AAA (8шт) blister",
+    "description": "● Типорозмір: AAA;● Кількість в упаковці: 8;● Напруга: 1.5В",
+    "features": [
+      "Вихідна напруга: 1.5В"
+    ],
+    "image": "https://viatec.ua/upload/2/CW-BALR03-8BL51.webp",
+    "images": [
+      "https://viatec.ua/upload/2/CW-BALR03-8BL51.webp"
+    ],
+    "available": true,
+    "price": 149.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22414",
+    "sku": "99-10039321",
+    "category": "Акумулятори та елементи живлення",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Батарейки",
+    "model": "СolorWay Lithium Power літієві CR2032 (5шт) blister",
+    "description": "● Типорозмір: CR2032;● Кількість в упаковці: 5;● Напруга: 3В",
+    "features": [
+      "Вихідна напруга: 3В"
+    ],
+    "image": "https://viatec.ua/upload/2/CW-BACR2032-5BL41.webp",
+    "images": [
+      "https://viatec.ua/upload/2/CW-BACR2032-5BL41.webp"
+    ],
+    "available": true,
+    "price": 159.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-20813",
     "sku": "99-10035855",
     "category": "Альтернативна енергетика",
@@ -77051,7 +77050,7 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/28481_1.png"
     ],
     "available": true,
-    "price": 9591.0,
+    "price": 9310.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -77071,8 +77070,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45570.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45570.png",
-      "https://b2b.yugtorg.com/image/data/45570_1.png",
-      "https://b2b.yugtorg.com/image/data/45570_2.png"
+      "https://b2b.yugtorg.com/image/data/45570_2.png",
+      "https://b2b.yugtorg.com/image/data/45570_1.png"
     ],
     "available": true,
     "price": 13536.0,
@@ -77216,14 +77215,14 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36486.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36486.png",
+      "https://b2b.yugtorg.com/image/data/36486_3.png",
+      "https://b2b.yugtorg.com/image/data/36486_6.png",
+      "https://b2b.yugtorg.com/image/data/36486_7.png",
+      "https://b2b.yugtorg.com/image/data/36486_5.png",
       "https://b2b.yugtorg.com/image/data/36486_8.png",
       "https://b2b.yugtorg.com/image/data/36486_1.png",
-      "https://b2b.yugtorg.com/image/data/36486_6.png",
-      "https://b2b.yugtorg.com/image/data/36486_5.png",
-      "https://b2b.yugtorg.com/image/data/36486_7.png",
-      "https://b2b.yugtorg.com/image/data/36486_4.png",
-      "https://b2b.yugtorg.com/image/data/36486_3.png",
-      "https://b2b.yugtorg.com/image/data/36486_2.png"
+      "https://b2b.yugtorg.com/image/data/36486_2.png",
+      "https://b2b.yugtorg.com/image/data/36486_4.png"
     ],
     "available": true,
     "price": 92000.0,
@@ -77251,35 +77250,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 101520.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-30212",
-    "sku": "SUN-12K-SG04LP3-EU",
-    "category": "Альтернативна енергетика",
-    "subcategory": "",
-    "brand": "Deye",
-    "name": "Гібридний інвертор (hybrid) Deye SUN-12K-SG04LP3-EU, WI-FI,12кВт, трифазний (MPPT 160-650 / 240A / DC48В)Parallel",
-    "model": "SUN-12K-SG04LP3-EU",
-    "description": "Що дійсно відрізняє гібридний інвертор, то це функція 'підмішування'. Ця функція дозволяє плавно поєднувати енергію із різних джерел. Наприклад, він може отримувати енергію від сонячних батарей, мережі та акумуляторів, залежно від того, який з них найефективніший на даний момент. Така здатність жонглювати джерелами енергії, забезпечуючи при цьому оптимальне енергоспоживання та зниження витрат є свідченням передової конструкції гібридного інвертора нового покоління. ХАРАКТЕРИСТИКИ: Виробник Deye Модель SUN-12K-SG04LP3 Країна походження Китай Тип ДБЖ гібридний Кількість фаз 3 Робота на паралелі так Тип зарядного пристрою від СП MPPT Кількість МРРТ 2(2+1) ККД% 97 Інтерфейс RS232 USB RS485 wi-fi CAN Вхідні характеристики змінного струму Форма вхідного сигналу синусоїда Номінальна напруга, 380 Номінальна потужність,Вт 12000 Вихідні характеристики Номінальна потужність,Вт 12000 Пікова потужність, Вт (протягом 5 сек) 13200 Вихідний струм,А 32 Вихідна напруга,В 380 Форма вихідного сигналу синусоїда Частота вихідного сигналу, Гц 50 / 60 Характеристики зарядно-розрядного пристрою Діапазон вхідної напруги, 40-63 Номінальна напруга, 48 Максимальний струм заряду,А (мережа + сонце) 240 Максимальний струм заряду від мережі, А 240 Максимальний струм розряду АКБ, А 240 Тип підтримуваних акумуляторів GEL / AGM / LiFePO4 / Li-ion Тип охолодження активний Вхідні характеристики МРРТ(PWM) Номінальна потужність,Вт 12000 Максимальна потужність,Вт 15600 Діапазон робочої напруги,В 160-650 Діапазон вхідної напруги, 160-800 Макс.напруження холостого ходу,В 800 Вхідний струм ,А 26(+13) Габарити, мм 658 / 422 / 281 Маса, кг 37 Характеристики робочого середовища Робоча температура, З 0- +50 Температура зберігання, З 0 - +50 Клас захисту IP65",
-    "features": [
-      "IP65",
-      "WI-FI"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/30212.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/30212.png",
-      "https://b2b.yugtorg.com/image/data/30212_5.png",
-      "https://b2b.yugtorg.com/image/data/30212_4.png",
-      "https://b2b.yugtorg.com/image/data/30212_3.png",
-      "https://b2b.yugtorg.com/image/data/30212_6.png",
-      "https://b2b.yugtorg.com/image/data/30212_2.png",
-      "https://b2b.yugtorg.com/image/data/30212_1.png",
-      "https://b2b.yugtorg.com/image/data/30212_7.png",
-      "https://b2b.yugtorg.com/image/data/30212_8.png"
-    ],
-    "available": true,
-    "price": 106920.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -77323,9 +77293,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37966.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37966.png",
-      "https://b2b.yugtorg.com/image/data/37966_3.png",
-      "https://b2b.yugtorg.com/image/data/37966_2.png",
       "https://b2b.yugtorg.com/image/data/37966_1.png",
+      "https://b2b.yugtorg.com/image/data/37966_2.png",
+      "https://b2b.yugtorg.com/image/data/37966_3.png",
       "https://b2b.yugtorg.com/image/data/37966_4.png"
     ],
     "available": true,
@@ -77369,9 +77339,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37950.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37950.png",
-      "https://b2b.yugtorg.com/image/data/37950_1.png",
       "https://b2b.yugtorg.com/image/data/37950_2.png",
-      "https://b2b.yugtorg.com/image/data/37950_3.png"
+      "https://b2b.yugtorg.com/image/data/37950_3.png",
+      "https://b2b.yugtorg.com/image/data/37950_1.png"
     ],
     "available": true,
     "price": 146643.0,
@@ -77422,35 +77392,53 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "yugtorg-42141",
-    "sku": "SUN-5K-SG05LP1-EU-AM2",
+    "id": "yugtorg-48847",
+    "sku": "SUN-5K-SG06LP1-EU-BM2",
     "category": "Альтернативна енергетика",
     "subcategory": "",
     "brand": "Deye",
-    "name": "Гібридний інвертор (hybrid) Deye SUN-5K-SG05LP1-EU WI-FI, 5кВт, однофазний, (MPPT 150-425В / 120А / DC40-60В), Parallel, IP65, 330×580×232мм, 24,9кг",
-    "model": "SUN-5K-SG05LP1-EU-AM2",
-    "description": "Гібридний інвертор Deye SUN-5K-SG05LP1-EU є однофазним інвертором потужністю 5 кВт для сонячних електростанцій з акумуляторними батареями. Модель поєднує функції мережного та автономного інвертора, дозволяючи використовувати сонячну енергію, забезпечувати резервне живлення та накопичувати електроенергію в акумуляторах. Інвертор підтримує свинцево-кислотні та літій-іонні акумулятори з напругою 40–60 В та максимальним струмом заряду / розряду 120 А. Два MPPT-трекери з діапазоном 150–425 В забезпечують ефективну роботу сонячних панелей, а підтримка паралельного підключення електроенергії. Кольоровий LCD-дисплей, вбудований Wi-Fi та інтерфейси RS485 / CAN забезпечують зручний моніторинг та налаштування обладнання. Корпус із ступенем захисту IP65 та інтелектуальна система повітряного охолодження дозволяють використовувати інвертор у різних умовах експлуатації. Особливості: - Номінальна потужність 5 кВт - Однофазне виконання - підтримка свинцево-кислотних та літій-іонних акумуляторів - напруга акумуляторної батареї 40-60 В - максимальний струм заряду / розряду 120 А - два MPPT-трекери з діапазоном 150-425 В - максимальна потужність підключення сонячних панелей 10000 Вт - максимальна потужність PV-входу 8000 Вт - Підтримка паралельної роботи до 16 інверторів - Кольоровий LCD-дисплей - вбудований Wi-Fi, RS485 та CAN - Підтримка зарядки від дизельного генератора - 6 періодів зарядки та розрядки акумулятора, що настроюються. - захист від перевантаження, короткого замикання, перегріву, зворотної полярності DC та перенапруги - вбудований DC-вимикач - ступінь захисту корпусу IP65 - інтелектуальне повітряне охолодження Характеристики: • Тип: гібридний інвертор • Бренд: Deye • Модель: SUN-5K-SG05LP1-EU • Потужність: 5000 Вт • Тип мережі: однофазна • Тип акумуляторів: свинцево-кислотні, літій-іонні • Напруга акумулятора: 40–60 В • Максимальний струм заряду / розряду: 120 А • Максимальна потужність підключення PV: 10000 Вт • Максимальна потужність PV-входу: 8000 Вт • Максимальна напруга PV: 500 В • Пускова напруга PV: 125 В • Діапазон MPPT: 150–425 В • Кількість MPPT: 2 • Конфігурація стрінгів: 2 / 1+1 • Максимальний ККД: 97,6% • ККД MPPT: більше 99% • Інтерфейси: Wi-Fi, RS485, CAN • Дисплей: LCD • Паралельна робота: до 16 пристроїв • Робоча температура: від -40 до +60 °C • Ступінь захисту: IP65 • Рівень шуму: менше 45 дБ • Охолодження: інтелектуальне повітряне • Габарити: 330×580×232 мм • Вага: 24,9 кг Deye SUN-5K-SG05LP1-EU підійде для приватних будинків, комерційних об`єктів та сонячних електростанцій, де потрібне ефективне використання сонячної енергії, резервне харчування та можливість подальшого розширення системи.",
+    "name": "Гібридний інвертор (hybrid) Deye SUN-5K-SG06LP1-EU-BM2 WI-FI, 5кВт, однофазний (2MPPT 150-425В / 120А), Parallel, IP65, 310×460×218мм, 15.6кг",
+    "model": "SUN-5K-SG06LP1-EU-BM2",
+    "description": "Deye SUN-5K-SG06LP1-EU-BM2 – однофазний гібридний інвертор для сонячних електростанцій, резервного живлення та систем накопичення енергії. Модель працює із сонячними панелями, акумуляторною батареєю, електромережею та навантаженням, дозволяючи використовувати енергію СЕС для живлення об`єкта та зарядки АКБ. Інвертор підтримує роботу з двома MPP-трекерами, Wi-Fi-моніторингом, паралельним підключенням до 16 пристроїв, AC-coupling для модернізації існуючої СЕС і накопиченням енергії від дизель-генератора. Особливості Deye SUN-5K-SG06LP1-EU-BM2: - однофазний гібридний інвертор для СЕС та резервного живлення - працює з сонячними панелями, АКБ, мережею та навантаженням - Підтримує самоадаптацію заряду Li-ion АКБ до BMS - підтримує паралельне підключення до 16 пристроїв - підходить для модернізації існуючої сонячної системи через AC-coupling - підтримує 6 часових періодів для зарядки та розрядки АКБ - Підтримує накопичення енергії від дизель-генератора - оснащений кольоровим сенсорним LCD-дисплеєм Характеристики: • Тип товару: гібридний інвертор • Бренд: Deye • Модель: SUN-5K-SG06LP1-EU-BM2 • Тип інвертора: hybrid • Фазність: однофазний • Номінальна потужність AC: 5000 W • Максимальна повна потужність AC: 5500 VA • Номінальний струм AC вхід / вихід: 22,8 / 21,8 A • Максимальний струм AC вхід / вихід: 25,0 / 24,0 A • Максимальний тривалий транзит AC: 50 A • Пікова потужність off-grid: 2× номінальна потужність, 10 с • Номінальна вхідна / вихідна напруга AC: 220 / 230 V • Діапазон напруги AC: 0,85Un–1,1Un • Підключення AC: L+N+PE • Частота мережі: 50 / 60 Hz • Діапазон частоти: 45-55 Hz / 55-65 Hz • Діапазон регулювання cos φ: 0,8 випереджальний – 0,8 відстає • THDi: менше 3% від номінальної потужності • Струм інжекції постійної складової: менше 0,5% In • Тип АКБ: свинцево-кислотні або літій-іонні • Діапазон напруги АКБ: 40-60 V • Максимальний струм заряду / розряду АКБ: 120 A • Кількість входів АКБ: 1 • Максимальна допустима потужність PV: 10000 W • Максимальна вхідна потужність PV: 8000 W • Максимальна вхідна напруга PV: 500 V • Напруга запуску PV: 125 V • Діапазон напруги MPPT: 150-425 V • Номінальна вхідна напруга PV: 370 V • Максимальний робочий вхідний струм PV: 18+18 A • Максимальний струм КЗ на вході PV: 27+27 A • Кількість MPP-трекерів / рядків на трекер: 2 / 1+1 • Максимальний ККД: 97,6% • Європейський ККД: 96,5% • ККД MPPT: більше 99% • Рівень захисту від імпульсних перенапруг: Type II DC / Type II AC • Вбудований захист: переполюсування DC, перевантаження по струму AC, тепловий захист, перенапруга AC, коротке замикання AC, контроль DC-складової, захист від острівного режиму, DC-вимикач, контроль опору ізоляції, контроль струму витоку • Дисплей: LCD • Інтерфейси зв`язку: Wi-Fi, RS485, CAN • Робоча температура: від -40 °C до +60 °C, зниження потужності вище 45 °C • Допустима вологість: 0–100% • Допустима висота установки: до 3000 м • Рівень шуму: менше 45 dB • Ступінь захисту: IP65 • Топологія: без гальванічної розв`язки PV, з гальванічною розв`язкою АКБ • Категорія перенапруги: OVC II DC / OVC III AC • Тип охолодження: природне охолодження • Габаритні розміри: 310×460×218 мм, без роз`ємів та кронштейнів • Маса: 15,6 кг",
     "features": [
       "IP65",
       "WI-FI",
-      "232мм",
-      "232 мм",
-      "10000 Вт",
-      "8000 Вт"
+      "218мм",
+      "218 мм",
+      "5000 W",
+      "10000 W"
     ],
-    "image": "https://b2b.yugtorg.com/image/data/42141.png",
+    "image": "https://b2b.yugtorg.com/image/data/48847.png",
     "images": [
-      "https://b2b.yugtorg.com/image/data/42141.png",
-      "https://b2b.yugtorg.com/image/data/42141_4.png",
-      "https://b2b.yugtorg.com/image/data/42141_6.png",
-      "https://b2b.yugtorg.com/image/data/42141_3.png",
-      "https://b2b.yugtorg.com/image/data/42141_2.png",
-      "https://b2b.yugtorg.com/image/data/42141_7.png",
-      "https://b2b.yugtorg.com/image/data/42141_1.png",
-      "https://b2b.yugtorg.com/image/data/42141_5.png"
+      "https://b2b.yugtorg.com/image/data/48847.png"
     ],
     "available": true,
     "price": 56405.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-48141",
+    "sku": "SUN-6K-SG06LP1-EU-BM2",
+    "category": "Альтернативна енергетика",
+    "subcategory": "",
+    "brand": "Deye",
+    "name": "Гібридний інвертор (hybrid) Deye SUN-6K-SG06LP1-EU-BM2 WI-FI, 6кВт, однофазний, (MPPT 150-425В / 135А / DC48В), Parallel, IP65, 310×460×218мм, 15,6кг",
+    "model": "SUN-6K-SG06LP1-EU-BM2",
+    "description": "Deye SUN-6K-SG06LP1-EU-BM2 — це однофазний гібридний інвертор потужністю 6 кВт для сонячних електростанцій, резервного живлення та систем з акумуляторними батареями 48 В. Модель об`єднує функції мережевого інвертора, автономного інвертора, сонячного зарядного пристрою енергопостачання будинку, офісу, комерційного об`єкта чи невеликої сонячної станції. Інвертор Deye SUN-6K-SG06LP1-EU-BM2 підходить для роботи із сонячними панелями, акумулятором, мережею, резервним навантаженням та генератором. Він допомагає організувати власне споживання сонячної енергії, живлення навантаження при відключенні електромережі, заряд акумуляторів від сонячних панелей, мережі або генератора, а також передачу надлишків енергії в мережу при налаштуванні системи. Модель підтримує програмовані режими роботи On grid, Off grid та UPS, налаштування пріоритету живлення від батареї або мережі, а також вибір пріоритету заряджання від AC, сонячних панелей або генератора через LCD-меню. Наявність Wi-Fi дозволяє виконувати віддалений моніторинг роботи інвертора, а підтримка паралельного підключення робить пристрій зручним для побудови потужніших систем на базі кількох інверторів. Гібридний інвертор оснащений двома MPP-трекерами, працює з PV-входом до 500 В та діапазоном MPPT 150-425 В. Для фотоелектричної частини передбачено 2 MPPT із конфігурацією рядків 1+1, що зручно при підключенні сонячних панелей з різною орієнтацією чи розміщенням. Інвертор також підтримує Smart Load, Time of Use, функцію обмеження експорту енергії до мережі та інтелектуальну триступінчасту стратегію заряджання акумулятора. Особливості Deye SUN-6K-SG06LP1-EU-BM2: - гібридний інвертор для сонячних електростанцій, резервного живлення та систем з АКБ - однофазне виконання для побутових та комерційних об`єктів - Номінальна активна потужність 6000 Вт - підходить для акумуляторних систем 48 В - підтримує роботу з літій-іонними та свинцево-кислотними акумуляторами - поєднує функції інвертора, сонячного зарядного пристрою та зарядного пристрою для батареї - підтримує режими On grid, Off grid та UPS - дозволяє налаштовувати пріоритет живлення від батареї чи мережі - підтримує налаштування пріоритету заряджання від мережі, сонячних панелей або генератора - сумісний з електромережею та генератором - підтримує власне споживання та передачу енергії в мережу - має функцію обмеження експорту енергії до мережі - оснащений вбудованим Wi-Fi-модулем для віддаленого моніторингу - підтримує Smart Load для керування виділеним навантаженням - підтримує Time of Use для налаштування роботи за часом - оснащений двома MPP-трекерами для підключення сонячних панелей - підтримує паралельну роботу через Parallel port - має LCD-дисплей та кнопки керування для налаштування параметрів - оснащений портами BMS 485 / CAN, Meter, Modbus, Parallel, DRM та Function Port - передбачені входи для батареї, PV, мережі, навантаження та генератора - має вбудований DC Switch - підтримує захист від перевантаження, перегріву та короткого замикання - передбачено захист від зворотної полярності DC - підтримує контроль залишкового струму та контроль DC-компоненти - корпус із рівнем захисту IP65 підходить для зовнішнього застосування при дотриманні умов монтажу - природне охолодження знижує рівень шуму під час роботи - підходить для живлення побутового та офісного навантаження, включаючи пристрої з електродвигунами Характеристики: • Тип товару: гібридний інвертор • Бренд: Deye • Модель: SUN-6K-SG06LP1-EU-BM2 • Серія: SG06LP1-EU-BM2 • Тип інвертора: hybrid / гібридний • Фазність: однофазний • Номінальна потужність AC: 6000 Вт • Пікова потужність в автономному режимі: 12000 Вт • Номінальна напруга батареї: DC 48 В • Тип акумуляторів: Lead-acid або Lithium-ion • Діапазон напруги батареї: 40-60 В • Максимальний струм заряду: 135 А • Максимальний струм розряду: 135 А • Кількість входів батареї: 1 • Максимальна потужність PV-входу: 8000 Вт • Максимальна напруга PV-входу: 500 В • Стартова напруга PV: 125 В • Діапазон напруги MPPT: 150-425 В • Діапазон напруги MPPT при повному навантаженні: 300-425 В • Максимальний робочий струм PV-входу: 18+18 А • Максимальний струм короткого замикання PV-входу: 27+27 А • Кількість MPPT / рядків на MPPT: 2 / 1+1 • Максимальна PV-потужність, що підключається: 8000 Вт • Номінальна напруга AC: 220 / 230 В • Діапазон напруги AC: 0.85Un-1.1Un • Тип підключення AC: L+N+PE • Номінальна частота мережі: 50 / 60 Гц • Діапазон частоти мережі: 45-55 Гц / 55-65 Гц • Діапазон регулювання коефіцієнта потужності: 0.8 leading - 0.8 lagging • THDi: менше 3% від номінальної потужності • Максимальна ефективність: 97,6% • Європейська ефективність: 96,5% • Ефективність MPPT: понад 99% • Захист від перенапруги AC-виходу: є • Захист від короткого замикання AC-виходу: є • Захист від перевантаження AC-виходу: є • Захист від зворотної полярності DC: є • Тепловий захист: є • Контроль опору ізоляції: є • Контроль залишкового струму: є • Контроль DC-компонентів: є • DC Switch: є • Рівень захисту від перенапруги: Type II DC /",
+    "features": [
+      "IP65",
+      "WI-FI",
+      "218мм",
+      "218 мм",
+      "6000 Вт",
+      "12000 Вт"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/48141.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/48141.png"
+    ],
+    "available": true,
+    "price": 59220.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -77469,9 +77457,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38428.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38428.png",
-      "https://b2b.yugtorg.com/image/data/38428_1.png",
       "https://b2b.yugtorg.com/image/data/38428_2.png",
-      "https://b2b.yugtorg.com/image/data/38428_3.png"
+      "https://b2b.yugtorg.com/image/data/38428_3.png",
+      "https://b2b.yugtorg.com/image/data/38428_1.png"
     ],
     "available": true,
     "price": 310000.0,
@@ -77519,8 +77507,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/38424.png",
       "https://b2b.yugtorg.com/image/data/38424_1.png",
-      "https://b2b.yugtorg.com/image/data/38424_3.png",
-      "https://b2b.yugtorg.com/image/data/38424_2.png"
+      "https://b2b.yugtorg.com/image/data/38424_2.png",
+      "https://b2b.yugtorg.com/image/data/38424_3.png"
     ],
     "available": true,
     "price": 121500.0,
@@ -77543,8 +77531,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/37947.png",
       "https://b2b.yugtorg.com/image/data/37947_3.png",
-      "https://b2b.yugtorg.com/image/data/37947_1.png",
-      "https://b2b.yugtorg.com/image/data/37947_2.png"
+      "https://b2b.yugtorg.com/image/data/37947_2.png",
+      "https://b2b.yugtorg.com/image/data/37947_1.png"
     ],
     "available": true,
     "price": 118800.0,
@@ -77590,8 +77578,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38426.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38426.png",
-      "https://b2b.yugtorg.com/image/data/38426_2.png",
       "https://b2b.yugtorg.com/image/data/38426_3.png",
+      "https://b2b.yugtorg.com/image/data/38426_2.png",
       "https://b2b.yugtorg.com/image/data/38426_1.png"
     ],
     "available": true,
@@ -77666,8 +77654,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38658.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38658.png",
-      "https://b2b.yugtorg.com/image/data/38658_2.png",
       "https://b2b.yugtorg.com/image/data/38658_3.png",
+      "https://b2b.yugtorg.com/image/data/38658_2.png",
       "https://b2b.yugtorg.com/image/data/38658_1.png"
     ],
     "available": true,
@@ -77722,6 +77710,31 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 221500.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-41355",
+    "sku": "SUN-15K-G06",
+    "category": "Альтернативна енергетика",
+    "subcategory": "",
+    "brand": "Deye",
+    "name": "Мережевий сонячний інвертор трифазний (on-grid) Deye SUN-15K-G06,15 кВт, 2 МРРT(120-1000V), WiFi, RS485 / RS232, IP65, (283×525×188mm), 12 кг",
+    "model": "SUN-15K-G06",
+    "description": "Інвертор Deye SUN-15K-G06 - це сучасне і високоефективне рішення для мережевих сонячних електростанцій, розрахованих на підключення до трифазної мережі 220 / 380В або 230 / 400В. Два незалежні MPPT-контролери та широкий діапазон вхідної напруги дозволяють ефективно використовувати фотоелектричні панелі при різних конфігураціях та орієнтації. Завдяки компактному корпусу, високому рівню захисту (IP65) та пасивному охолодженню інвертор легко встановлюється на вулиці або в технічних приміщеннях. Підтримка Wi-Fi, RS485 та RS232 забезпечує повну інтеграцію в систему моніторингу та управління. Області застосування: - Трифазні сонячні електростанції на житлових, комерційних та промислових об`єктах - Системи з функцією нульового експорту - Об`єкти з різноорієнтованими панелями та складними умовами монтажу - Установки, що потребують дистанційного моніторингу, управління та оновлення Переваги: - Робота з масивами до 22,5 кВт по входу - 2 MPPT-контролери з діапазоном від 120 до 1000В - Підтримка сучасних протоколів зв`язку: Wi-Fi, Bluetooth, RS485, RS232 - Максимальний ККД – 98,5%, європейський – 98% - Високий рівень захисту: IP65, вбудовані засоби безпеки - Пасивне охолодження – безшумна експлуатація - Захист від перегріву, КЗ, перенапруги, замикання на землю - Компактні габарити та мала вага – всього 12кг - Відповідність міжнародним стандартам безпеки та підключення Технічні характеристики: • Модель: Deye SUN-15K-G06 • Тип: мережевий, трифазний (3L / N / PE) • Номінальна потужність AC: 15000Вт • Максимальна активна потужність: 16500Вт • Максимальна вхідна потужність PV: 22500Вт • Номінальна вихідна напруга: 220 / 380В, 230 / 400В • Номінальний / максимальний вихідний струм: 22,8А / 25А • Частота мережі: 50 / 60 Гц • Максимальний ККД: 98,5% • Європейський ККД: 98% • Коефіцієнт потужності: від 0,8 (випереджаючий до відстаючого) • THDi: 99% • Інтерфейси зв`язку: RS485 / RS232 / Wi-Fi / Bluetooth / 4G / LAN (опціонально) • Рівень шуму: 45°C), вологість 0–100% • Максимальна висота без дерейтингу: 4000м • Клас захисту: IP65 • Розміри (Ш×В×Г): 283×525×188мм • Вага: 12кг Вбудований захист: - Захист від зворотної полярності DC - Захист від короткого замикання, перевантаження та перенапруги AC - Контроль опору ізоляції та витоку струму - Захист від перегріву - Моніторинг замикань на землю - AFCI (опція) - Захист від перенапруги - тип II (DC та AC) - Підтримка нульового експорту та VSG-додатків",
+    "features": [
+      "IP65",
+      "WiFi",
+      "Wi-Fi",
+      "188мм",
+      "15000Вт",
+      "16500Вт"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/41355.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/41355.png"
+    ],
+    "available": true,
+    "price": 42000.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -77815,10 +77828,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40033.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40033.png",
-      "https://b2b.yugtorg.com/image/data/40033_4.png",
       "https://b2b.yugtorg.com/image/data/40033_3.png",
       "https://b2b.yugtorg.com/image/data/40033_2.png",
-      "https://b2b.yugtorg.com/image/data/40033_1.png"
+      "https://b2b.yugtorg.com/image/data/40033_1.png",
+      "https://b2b.yugtorg.com/image/data/40033_4.png"
     ],
     "available": true,
     "price": 108000.0,
@@ -77892,8 +77905,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47557.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47557.png",
-      "https://b2b.yugtorg.com/image/data/47557_2.png",
-      "https://b2b.yugtorg.com/image/data/47557_1.png"
+      "https://b2b.yugtorg.com/image/data/47557_1.png",
+      "https://b2b.yugtorg.com/image/data/47557_2.png"
     ],
     "available": true,
     "price": 2261.0,
@@ -77918,6 +77931,31 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-17249",
+    "sku": "99-00024438",
+    "category": "Альтернативна енергетика",
+    "subcategory": "",
+    "brand": "Deye",
+    "name": "Інвертор",
+    "model": "Deye SUN-20K-SG01HP3-EU-AM2 високовольтний трифазний чиста синусоїда",
+    "description": "● Діапазон напруги батареї (B) 160-700;● Макс. зарядний струм (А) 37;● Макс. вхідна потужність фотоелектричних модулів (Вт) 26000;● Діапазон напруги MPPT (B) 150&ndash;850;● Номінальна вхідна/вихідна потужність змінного струму (Вт) 20000;● Інтерфейс зв'язку CAN;● IP 65",
+    "features": [
+      "Вихідна потужність, Вт: 20 000",
+      "Потужність сонячних панелей, Вт: 26 000",
+      "Напруга батареї, В: 160-700",
+      "Напруга сонячних панелей, В: 150-850",
+      "Струм зарядки батареї, А: 37",
+      "Струм сонячних панелей, А: 26+26"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-10/sun-5-25k-sg01hp3-eu3.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-10/sun-5-25k-sg01hp3-eu3.webp"
+    ],
+    "available": true,
+    "price": 87942.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "yugtorg-47233",
     "sku": "LS4G-4-C",
     "category": "Альтернативна енергетика",
@@ -77934,9 +77972,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47233.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47233.png",
-      "https://b2b.yugtorg.com/image/data/47233_3.png",
       "https://b2b.yugtorg.com/image/data/47233_2.png",
-      "https://b2b.yugtorg.com/image/data/47233_1.png"
+      "https://b2b.yugtorg.com/image/data/47233_1.png",
+      "https://b2b.yugtorg.com/image/data/47233_3.png"
     ],
     "available": true,
     "price": 8460.0,
@@ -77960,9 +77998,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47651.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47651.png",
-      "https://b2b.yugtorg.com/image/data/47651_2.png",
       "https://b2b.yugtorg.com/image/data/47651_1.png",
-      "https://b2b.yugtorg.com/image/data/47651_3.png"
+      "https://b2b.yugtorg.com/image/data/47651_3.png",
+      "https://b2b.yugtorg.com/image/data/47651_2.png"
     ],
     "available": true,
     "price": 3660.0,
@@ -77983,8 +78021,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46216.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46216.png",
-      "https://b2b.yugtorg.com/image/data/46216_1.png",
-      "https://b2b.yugtorg.com/image/data/46216_2.png"
+      "https://b2b.yugtorg.com/image/data/46216_2.png",
+      "https://b2b.yugtorg.com/image/data/46216_1.png"
     ],
     "available": true,
     "price": 2888.0,
@@ -78146,11 +78184,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37173.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37173.png",
+      "https://b2b.yugtorg.com/image/data/37173_2.png",
       "https://b2b.yugtorg.com/image/data/37173_3.png",
-      "https://b2b.yugtorg.com/image/data/37173_1.png",
-      "https://b2b.yugtorg.com/image/data/37173_5.png",
       "https://b2b.yugtorg.com/image/data/37173_4.png",
-      "https://b2b.yugtorg.com/image/data/37173_2.png"
+      "https://b2b.yugtorg.com/image/data/37173_5.png",
+      "https://b2b.yugtorg.com/image/data/37173_1.png"
     ],
     "available": true,
     "price": 49950.0,
@@ -78229,8 +78267,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/45561.png",
       "https://b2b.yugtorg.com/image/data/45561_2.png",
-      "https://b2b.yugtorg.com/image/data/45561_3.png",
-      "https://b2b.yugtorg.com/image/data/45561_1.png"
+      "https://b2b.yugtorg.com/image/data/45561_1.png",
+      "https://b2b.yugtorg.com/image/data/45561_3.png"
     ],
     "available": true,
     "price": 23127.0,
@@ -78255,8 +78293,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/45560.png",
       "https://b2b.yugtorg.com/image/data/45560_3.png",
-      "https://b2b.yugtorg.com/image/data/45560_1.png",
-      "https://b2b.yugtorg.com/image/data/45560_2.png"
+      "https://b2b.yugtorg.com/image/data/45560_2.png",
+      "https://b2b.yugtorg.com/image/data/45560_1.png"
     ],
     "available": true,
     "price": 29895.0,
@@ -78301,16 +78339,40 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45461.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45461.png",
-      "https://b2b.yugtorg.com/image/data/45461_4.png",
-      "https://b2b.yugtorg.com/image/data/45461_7.png",
-      "https://b2b.yugtorg.com/image/data/45461_6.png",
-      "https://b2b.yugtorg.com/image/data/45461_1.png",
       "https://b2b.yugtorg.com/image/data/45461_5.png",
+      "https://b2b.yugtorg.com/image/data/45461_4.png",
       "https://b2b.yugtorg.com/image/data/45461_3.png",
-      "https://b2b.yugtorg.com/image/data/45461_2.png"
+      "https://b2b.yugtorg.com/image/data/45461_7.png",
+      "https://b2b.yugtorg.com/image/data/45461_1.png",
+      "https://b2b.yugtorg.com/image/data/45461_2.png",
+      "https://b2b.yugtorg.com/image/data/45461_6.png"
     ],
     "available": true,
     "price": 141005.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-48107",
+    "sku": "IVGM25KHP3G3",
+    "category": "Альтернативна енергетика",
+    "subcategory": "",
+    "brand": "FelicityESS",
+    "name": "Гібридний інвертор Felicity IVGM25KHP3G3 трифазний низьковольтний 25kW(160-800V) MPPT(150-850V) 36A / 2 HY(Parallel), 940x585x340mm, 87kg",
+    "model": "IVGM25KHP3G3",
+    "description": "Характеристики уточнюються.",
+    "features": [],
+    "image": "https://b2b.yugtorg.com/image/data/48107.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/48107.png",
+      "https://b2b.yugtorg.com/image/data/48107_1.png",
+      "https://b2b.yugtorg.com/image/data/48107_3.png",
+      "https://b2b.yugtorg.com/image/data/48107_4.png",
+      "https://b2b.yugtorg.com/image/data/48107_5.png",
+      "https://b2b.yugtorg.com/image/data/48107_6.png",
+      "https://b2b.yugtorg.com/image/data/48107_2.png"
+    ],
+    "available": true,
+    "price": 109980.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -78326,14 +78388,14 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45783.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45783.png",
-      "https://b2b.yugtorg.com/image/data/45783_5.png",
-      "https://b2b.yugtorg.com/image/data/45783_1.png",
-      "https://b2b.yugtorg.com/image/data/45783_3.png",
       "https://b2b.yugtorg.com/image/data/45783_7.png",
-      "https://b2b.yugtorg.com/image/data/45783_6.png",
-      "https://b2b.yugtorg.com/image/data/45783_2.png",
+      "https://b2b.yugtorg.com/image/data/45783_8.png",
       "https://b2b.yugtorg.com/image/data/45783_4.png",
-      "https://b2b.yugtorg.com/image/data/45783_8.png"
+      "https://b2b.yugtorg.com/image/data/45783_6.png",
+      "https://b2b.yugtorg.com/image/data/45783_1.png",
+      "https://b2b.yugtorg.com/image/data/45783_2.png",
+      "https://b2b.yugtorg.com/image/data/45783_3.png",
+      "https://b2b.yugtorg.com/image/data/45783_5.png"
     ],
     "available": true,
     "price": 169200.0,
@@ -78359,11 +78421,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47728.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47728.png",
-      "https://b2b.yugtorg.com/image/data/47728_5.png",
       "https://b2b.yugtorg.com/image/data/47728_4.png",
-      "https://b2b.yugtorg.com/image/data/47728_3.png",
+      "https://b2b.yugtorg.com/image/data/47728_5.png",
       "https://b2b.yugtorg.com/image/data/47728_2.png",
-      "https://b2b.yugtorg.com/image/data/47728_1.png"
+      "https://b2b.yugtorg.com/image/data/47728_1.png",
+      "https://b2b.yugtorg.com/image/data/47728_3.png"
     ],
     "available": true,
     "price": 70503.0,
@@ -78389,9 +78451,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37995.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37995.png",
-      "https://b2b.yugtorg.com/image/data/37995_1.png",
+      "https://b2b.yugtorg.com/image/data/37995_3.png",
       "https://b2b.yugtorg.com/image/data/37995_2.png",
-      "https://b2b.yugtorg.com/image/data/37995_3.png"
+      "https://b2b.yugtorg.com/image/data/37995_1.png"
     ],
     "available": true,
     "price": 80000.0,
@@ -78418,9 +78480,9 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/45767.png",
       "https://b2b.yugtorg.com/image/data/45767_4.png",
+      "https://b2b.yugtorg.com/image/data/45767_5.png",
       "https://b2b.yugtorg.com/image/data/45767_1.png",
       "https://b2b.yugtorg.com/image/data/45767_2.png",
-      "https://b2b.yugtorg.com/image/data/45767_5.png",
       "https://b2b.yugtorg.com/image/data/45767_3.png"
     ],
     "available": true,
@@ -78440,15 +78502,15 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46805.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46805.png",
-      "https://b2b.yugtorg.com/image/data/46805_8.png",
-      "https://b2b.yugtorg.com/image/data/46805_7.png",
-      "https://b2b.yugtorg.com/image/data/46805_6.png",
       "https://b2b.yugtorg.com/image/data/46805_5.png",
-      "https://b2b.yugtorg.com/image/data/46805_4.png",
+      "https://b2b.yugtorg.com/image/data/46805_7.png",
+      "https://b2b.yugtorg.com/image/data/46805_3.png",
       "https://b2b.yugtorg.com/image/data/46805_1.png",
+      "https://b2b.yugtorg.com/image/data/46805_4.png",
       "https://b2b.yugtorg.com/image/data/46805_2.png",
+      "https://b2b.yugtorg.com/image/data/46805_8.png",
       "https://b2b.yugtorg.com/image/data/46805_9.png",
-      "https://b2b.yugtorg.com/image/data/46805_3.png"
+      "https://b2b.yugtorg.com/image/data/46805_6.png"
     ],
     "available": true,
     "price": 219960.0,
@@ -78704,6 +78766,31 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-20565",
+    "sku": "99-10035640",
+    "category": "Альтернативна енергетика",
+    "subcategory": "",
+    "brand": "JA Solar",
+    "name": "Сонячна панель",
+    "model": "Ja Solar JAM54D41-460/LR",
+    "description": "● Потужність, Pmax 460 Вт;● Тип модуля Mono N-Type;● ККД модуля 23%● Кількість осередків 108 (6х18) шт;● Напруга холостого ходу, Voc (STC) 40.60В;● Струм короткого замикання, Isc (STC) 14,43 А;● Габаритні розміри 1762 x 1134 x 30 мм",
+    "features": [
+      "Номінальна потужність, Вт(Pmpp): 460",
+      "Номінальна напруга, В(Vmpp): 33.68",
+      "Напруга холостого ходу, В (Voc): 40.60",
+      "Номінальний струм, А (Impp): 13.66",
+      "Струм короткого замикання, A (Isc): 14.43",
+      "Розмір (довжина), мм: 1762"
+    ],
+    "image": "https://viatec.ua/upload/2/csm_JAM_54_D41_LB.webp",
+    "images": [
+      "https://viatec.ua/upload/2/csm_JAM_54_D41_LB.webp"
+    ],
+    "available": true,
+    "price": 4454.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-21226",
     "sku": "99-10036795",
     "category": "Альтернативна енергетика",
@@ -78801,6 +78888,31 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 4576.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22067",
+    "sku": "99-10038530",
+    "category": "Альтернативна енергетика",
+    "subcategory": "",
+    "brand": "JA Solar",
+    "name": "Сонячна панель",
+    "model": "JA Solar JAM54D40-465/LR Black Frame",
+    "description": "● Потужність, Pmax 465 Вт;● Тип модуля Монокристал MONO;● Технології MBB Half-cell;● ККД модуля 23,3%;● Кількість осередків 108 (6х18) шт;● Напруга холостого ходу, Voc (STC) 40,20 В;● Струм короткого замикання, Isc (STC) 14,65 А;● Габаритні розміри 1762&plusmn;2мм x 1134&plusmn;2мм x 30&plusmn;1мм",
+    "features": [
+      "Номінальна потужність, Вт(Pmpp): 465",
+      "Номінальна напруга, В(Vmpp): 33.50",
+      "Напруга холостого ходу, В (Voc): 40.20",
+      "Номінальний струм, А (Impp): 13.88",
+      "Струм короткого замикання, A (Isc): 14.65",
+      "Розмір (довжина), мм: 1762"
+    ],
+    "image": "https://viatec.ua/upload/2/jam54d40-lb-460wen.webp",
+    "images": [
+      "https://viatec.ua/upload/2/jam54d40-lb-460wen.webp"
+    ],
+    "available": true,
+    "price": 4641.0,
     "source_supplier": "viatec"
   },
   {
@@ -79562,11 +79674,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37040.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37040.png",
-      "https://b2b.yugtorg.com/image/data/37040_2.png",
       "https://b2b.yugtorg.com/image/data/37040_6.png",
-      "https://b2b.yugtorg.com/image/data/37040_3.png",
+      "https://b2b.yugtorg.com/image/data/37040_1.png",
       "https://b2b.yugtorg.com/image/data/37040_5.png",
-      "https://b2b.yugtorg.com/image/data/37040_1.png"
+      "https://b2b.yugtorg.com/image/data/37040_3.png",
+      "https://b2b.yugtorg.com/image/data/37040_2.png"
     ],
     "available": true,
     "price": 27000.0,
@@ -79591,9 +79703,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45551.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45551.png",
-      "https://b2b.yugtorg.com/image/data/45551_2.png",
       "https://b2b.yugtorg.com/image/data/45551_3.png",
-      "https://b2b.yugtorg.com/image/data/45551_1.png"
+      "https://b2b.yugtorg.com/image/data/45551_1.png",
+      "https://b2b.yugtorg.com/image/data/45551_2.png"
     ],
     "available": true,
     "price": 28000.0,
@@ -79706,8 +79818,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/46121.png",
       "https://b2b.yugtorg.com/image/data/46121_2.png",
-      "https://b2b.yugtorg.com/image/data/46121_1.png",
-      "https://b2b.yugtorg.com/image/data/46121_3.png"
+      "https://b2b.yugtorg.com/image/data/46121_3.png",
+      "https://b2b.yugtorg.com/image/data/46121_1.png"
     ],
     "available": true,
     "price": 13061.0,
@@ -79730,8 +79842,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/28906.png",
       "https://b2b.yugtorg.com/image/data/28906_2.png",
-      "https://b2b.yugtorg.com/image/data/28906_1.png",
-      "https://b2b.yugtorg.com/image/data/28906_3.png"
+      "https://b2b.yugtorg.com/image/data/28906_3.png",
+      "https://b2b.yugtorg.com/image/data/28906_1.png"
     ],
     "available": true,
     "price": 12090.0,
@@ -79758,8 +79870,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/46146.png",
       "https://b2b.yugtorg.com/image/data/46146_2.png",
-      "https://b2b.yugtorg.com/image/data/46146_3.png",
-      "https://b2b.yugtorg.com/image/data/46146_1.png"
+      "https://b2b.yugtorg.com/image/data/46146_1.png",
+      "https://b2b.yugtorg.com/image/data/46146_3.png"
     ],
     "available": true,
     "price": 12000.0,
@@ -79780,9 +79892,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37155.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37155.png",
+      "https://b2b.yugtorg.com/image/data/37155_2.png",
       "https://b2b.yugtorg.com/image/data/37155_4.png",
       "https://b2b.yugtorg.com/image/data/37155_1.png",
-      "https://b2b.yugtorg.com/image/data/37155_2.png",
       "https://b2b.yugtorg.com/image/data/37155_3.png"
     ],
     "available": true,
@@ -79809,9 +79921,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48110.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48110.png",
-      "https://b2b.yugtorg.com/image/data/48110_2.png",
+      "https://b2b.yugtorg.com/image/data/48110_1.png",
       "https://b2b.yugtorg.com/image/data/48110_3.png",
-      "https://b2b.yugtorg.com/image/data/48110_1.png"
+      "https://b2b.yugtorg.com/image/data/48110_2.png"
     ],
     "available": true,
     "price": 14667.0,
@@ -79837,9 +79949,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46120.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46120.png",
-      "https://b2b.yugtorg.com/image/data/46120_2.png",
       "https://b2b.yugtorg.com/image/data/46120_1.png",
-      "https://b2b.yugtorg.com/image/data/46120_3.png"
+      "https://b2b.yugtorg.com/image/data/46120_3.png",
+      "https://b2b.yugtorg.com/image/data/46120_2.png"
     ],
     "available": true,
     "price": 19000.0,
@@ -79864,9 +79976,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37156.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37156.png",
+      "https://b2b.yugtorg.com/image/data/37156_3.png",
       "https://b2b.yugtorg.com/image/data/37156_4.png",
       "https://b2b.yugtorg.com/image/data/37156_1.png",
-      "https://b2b.yugtorg.com/image/data/37156_3.png",
       "https://b2b.yugtorg.com/image/data/37156_2.png"
     ],
     "available": true,
@@ -79916,8 +80028,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/44595.png",
       "https://b2b.yugtorg.com/image/data/44595_3.png",
-      "https://b2b.yugtorg.com/image/data/44595_1.png",
-      "https://b2b.yugtorg.com/image/data/44595_2.png"
+      "https://b2b.yugtorg.com/image/data/44595_2.png",
+      "https://b2b.yugtorg.com/image/data/44595_1.png"
     ],
     "available": true,
     "price": 23088.0,
@@ -79971,28 +80083,28 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "viatec-19871",
-    "sku": "99-10034226",
+    "id": "viatec-19422",
+    "sku": "99-10029612",
     "category": "Альтернативна енергетика",
     "subcategory": "",
     "brand": "MUST",
     "name": "Інвертор",
-    "model": "MUST PV18-4024ECO 4000Вт 24В 60A однофазний чиста синусоїда",
-    "description": "● Форма сигналу чиста синусоїда;● Номінальна потужність, Вт 4000;● Пікова потужність, Вт (протягом 5 сек) 7 000;● Характеристики зарядно-розрядного пристрою : Номінальна напруга,В 24, Максимальний струм заряду,А (мережа + сонце) 100, Максимальний струм заряду від мережі,А 60;● Кількість МРРТ 1;● Номінальна потужність МРРТ, Вт 4000;● Інтерфейс USB/WiFi/RS-485/CAN;● 318 &times; 454 &times; 122.5 мм;● 8 кг",
+    "model": "Must PV18-3224 VPM II гібридний однофазний чиста синусоїда",
+    "description": "● Вихідна потужність при 3200ВA/3200Вт;● Максимальний струм зарядки 120 А;● Діапазон вхідної напруги сонячних панелей 30&ndash;128 В;● Потужність сонячних панелей до 1600Вт;● Вихід 230 В змінного струму;● Напруга батареї 24В;● Діапазон робочих температур від 0 до +50 &deg; С;● 254 x 367 x 103 мм;● 5.5 кг",
     "features": [
-      "Вихідна потужність, Вт: 4 000",
-      "Потужність сонячних панелей, Вт: 4000",
+      "Вихідна потужність, Вт: 3 200",
+      "Потужність сонячних панелей, Вт: 1600",
       "Напруга батареї, В: 24",
-      "Напруга сонячних панелей, В: 450",
-      "Струм зарядки батареї, А: 60",
-      "Струм сонячних панелей, А: 18"
+      "Напруга сонячних панелей, В: 30-128",
+      "Струм зарядки батареї, А: 120",
+      "Струм сонячних панелей, А: 60"
     ],
-    "image": "https://viatec.ua/upload/images/prod/2024-11/PV1800-1612.webp",
+    "image": "https://viatec.ua/upload/images/prod/2025-01/vpm2-1012-.webp",
     "images": [
-      "https://viatec.ua/upload/images/prod/2024-11/PV1800-1612.webp"
+      "https://viatec.ua/upload/images/prod/2025-01/vpm2-1012-.webp"
     ],
     "available": true,
-    "price": 23089.0,
+    "price": 21209.0,
     "source_supplier": "viatec"
   },
   {
@@ -80013,9 +80125,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45505.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45505.png",
+      "https://b2b.yugtorg.com/image/data/45505_1.png",
       "https://b2b.yugtorg.com/image/data/45505_3.png",
-      "https://b2b.yugtorg.com/image/data/45505_2.png",
-      "https://b2b.yugtorg.com/image/data/45505_1.png"
+      "https://b2b.yugtorg.com/image/data/45505_2.png"
     ],
     "available": true,
     "price": 14580.0,
@@ -80058,9 +80170,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/28891.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/28891.png",
-      "https://b2b.yugtorg.com/image/data/28891_1.png",
       "https://b2b.yugtorg.com/image/data/28891_2.png",
-      "https://b2b.yugtorg.com/image/data/28891_3.png"
+      "https://b2b.yugtorg.com/image/data/28891_3.png",
+      "https://b2b.yugtorg.com/image/data/28891_1.png"
     ],
     "available": true,
     "price": 14580.0,
@@ -80085,8 +80197,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45506.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45506.png",
-      "https://b2b.yugtorg.com/image/data/45506_1.png",
-      "https://b2b.yugtorg.com/image/data/45506_2.png"
+      "https://b2b.yugtorg.com/image/data/45506_2.png",
+      "https://b2b.yugtorg.com/image/data/45506_1.png"
     ],
     "available": true,
     "price": 16380.0,
@@ -80108,8 +80220,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/28641.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/28641.png",
-      "https://b2b.yugtorg.com/image/data/28641_2.png",
-      "https://b2b.yugtorg.com/image/data/28641_1.png"
+      "https://b2b.yugtorg.com/image/data/28641_1.png",
+      "https://b2b.yugtorg.com/image/data/28641_2.png"
     ],
     "available": true,
     "price": 17000.0,
@@ -80349,12 +80461,12 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/28486.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/28486.png",
-      "https://b2b.yugtorg.com/image/data/28486_5.png",
       "https://b2b.yugtorg.com/image/data/28486_4.png",
+      "https://b2b.yugtorg.com/image/data/28486_6.png",
+      "https://b2b.yugtorg.com/image/data/28486_5.png",
       "https://b2b.yugtorg.com/image/data/28486_3.png",
       "https://b2b.yugtorg.com/image/data/28486_2.png",
-      "https://b2b.yugtorg.com/image/data/28486_1.png",
-      "https://b2b.yugtorg.com/image/data/28486_6.png"
+      "https://b2b.yugtorg.com/image/data/28486_1.png"
     ],
     "available": true,
     "price": 45000.0,
@@ -80398,10 +80510,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/10329.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/10329.png",
-      "https://b2b.yugtorg.com/image/data/10329_1.png",
+      "https://b2b.yugtorg.com/image/data/10329_3.png",
       "https://b2b.yugtorg.com/image/data/10329_2.png",
-      "https://b2b.yugtorg.com/image/data/10329_4.png",
-      "https://b2b.yugtorg.com/image/data/10329_3.png"
+      "https://b2b.yugtorg.com/image/data/10329_1.png",
+      "https://b2b.yugtorg.com/image/data/10329_4.png"
     ],
     "available": true,
     "price": 21940.0,
@@ -80445,12 +80557,12 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/28485.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/28485.png",
-      "https://b2b.yugtorg.com/image/data/28485_5.png",
+      "https://b2b.yugtorg.com/image/data/28485_6.png",
       "https://b2b.yugtorg.com/image/data/28485_4.png",
+      "https://b2b.yugtorg.com/image/data/28485_5.png",
       "https://b2b.yugtorg.com/image/data/28485_3.png",
-      "https://b2b.yugtorg.com/image/data/28485_1.png",
       "https://b2b.yugtorg.com/image/data/28485_2.png",
-      "https://b2b.yugtorg.com/image/data/28485_6.png"
+      "https://b2b.yugtorg.com/image/data/28485_1.png"
     ],
     "available": true,
     "price": 40000.0,
@@ -80519,8 +80631,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48100.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48100.png",
-      "https://b2b.yugtorg.com/image/data/48100_2.png",
-      "https://b2b.yugtorg.com/image/data/48100_1.png"
+      "https://b2b.yugtorg.com/image/data/48100_1.png",
+      "https://b2b.yugtorg.com/image/data/48100_2.png"
     ],
     "available": true,
     "price": 9513.0,
@@ -80734,9 +80846,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/33395.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/33395.png",
+      "https://b2b.yugtorg.com/image/data/33395_3.png",
       "https://b2b.yugtorg.com/image/data/33395_2.png",
-      "https://b2b.yugtorg.com/image/data/33395_1.png",
-      "https://b2b.yugtorg.com/image/data/33395_3.png"
+      "https://b2b.yugtorg.com/image/data/33395_1.png"
     ],
     "available": true,
     "price": 33605.0,
@@ -80759,8 +80871,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/29798.png",
       "https://b2b.yugtorg.com/image/data/29798_1.png",
-      "https://b2b.yugtorg.com/image/data/29798_2.png",
-      "https://b2b.yugtorg.com/image/data/29798_3.png"
+      "https://b2b.yugtorg.com/image/data/29798_3.png",
+      "https://b2b.yugtorg.com/image/data/29798_2.png"
     ],
     "available": true,
     "price": 57000.0,
@@ -80852,10 +80964,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37519.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37519.png",
+      "https://b2b.yugtorg.com/image/data/37519_1.png",
       "https://b2b.yugtorg.com/image/data/37519_2.png",
-      "https://b2b.yugtorg.com/image/data/37519_4.png",
       "https://b2b.yugtorg.com/image/data/37519_3.png",
-      "https://b2b.yugtorg.com/image/data/37519_1.png"
+      "https://b2b.yugtorg.com/image/data/37519_4.png"
     ],
     "available": true,
     "price": 52000.0,
@@ -80947,6 +81059,31 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 1264.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-16486",
+    "sku": "99-00024524",
+    "category": "Альтернативна енергетика",
+    "subcategory": "",
+    "brand": "Victron Energy",
+    "name": "Контролер заряду",
+    "model": "Victron Energy SmartSolar MPPT 150/45",
+    "description": "● Напруга акумулятора 12/24/48 В;● Номінальний струм заряду 45 А;● Номінальна потужність 650/1300/2600 Вт;● Напруга сонячних панелей 150 В;● Передача даних VE.Direct та Bluetooth;● 16 мм&sup2;/AWG6",
+    "features": [
+      "Потужність сонячних панелей, Вт: 650/1300/2600",
+      "Напруга сонячних панелей, В: 150",
+      "Сила струму зарядки, А: 45",
+      "Сила струму сонячних панелей, А: 50",
+      "16 мм",
+      "2600 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2025-03/SmartSolar-MPPT-150-45.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-03/SmartSolar-MPPT-150-45.webp"
+    ],
+    "available": true,
+    "price": 12582.0,
     "source_supplier": "viatec"
   },
   {
@@ -81125,8 +81262,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37827.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37827.png",
-      "https://b2b.yugtorg.com/image/data/37827_2.png",
-      "https://b2b.yugtorg.com/image/data/37827_1.png"
+      "https://b2b.yugtorg.com/image/data/37827_1.png",
+      "https://b2b.yugtorg.com/image/data/37827_2.png"
     ],
     "available": true,
     "price": 590.0,
@@ -81169,8 +81306,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37831.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37831.png",
-      "https://b2b.yugtorg.com/image/data/37831_1.png",
-      "https://b2b.yugtorg.com/image/data/37831_2.png"
+      "https://b2b.yugtorg.com/image/data/37831_2.png",
+      "https://b2b.yugtorg.com/image/data/37831_1.png"
     ],
     "available": true,
     "price": 940.0,
@@ -81229,9 +81366,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/31722.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/31722.png",
+      "https://b2b.yugtorg.com/image/data/31722_3.png",
       "https://b2b.yugtorg.com/image/data/31722_1.png",
-      "https://b2b.yugtorg.com/image/data/31722_2.png",
-      "https://b2b.yugtorg.com/image/data/31722_3.png"
+      "https://b2b.yugtorg.com/image/data/31722_2.png"
     ],
     "available": true,
     "price": 640.0,
@@ -81250,9 +81387,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/31723.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/31723.png",
+      "https://b2b.yugtorg.com/image/data/31723_3.png",
       "https://b2b.yugtorg.com/image/data/31723_1.png",
-      "https://b2b.yugtorg.com/image/data/31723_2.png",
-      "https://b2b.yugtorg.com/image/data/31723_3.png"
+      "https://b2b.yugtorg.com/image/data/31723_2.png"
     ],
     "available": true,
     "price": 700.0,
@@ -81273,9 +81410,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/31686.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/31686.png",
+      "https://b2b.yugtorg.com/image/data/31686_2.png",
       "https://b2b.yugtorg.com/image/data/31686_1.png",
-      "https://b2b.yugtorg.com/image/data/31686_3.png",
-      "https://b2b.yugtorg.com/image/data/31686_2.png"
+      "https://b2b.yugtorg.com/image/data/31686_3.png"
     ],
     "available": true,
     "price": 290.0,
@@ -81294,8 +81431,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36632.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36632.png",
-      "https://b2b.yugtorg.com/image/data/36632_1.png",
-      "https://b2b.yugtorg.com/image/data/36632_2.png"
+      "https://b2b.yugtorg.com/image/data/36632_2.png",
+      "https://b2b.yugtorg.com/image/data/36632_1.png"
     ],
     "available": true,
     "price": 1870.0,
@@ -81316,8 +81453,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36630.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36630.png",
-      "https://b2b.yugtorg.com/image/data/36630_2.png",
-      "https://b2b.yugtorg.com/image/data/36630_1.png"
+      "https://b2b.yugtorg.com/image/data/36630_1.png",
+      "https://b2b.yugtorg.com/image/data/36630_2.png"
     ],
     "available": true,
     "price": 1400.0,
@@ -81338,8 +81475,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/39158.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/39158.png",
-      "https://b2b.yugtorg.com/image/data/39158_1.png",
-      "https://b2b.yugtorg.com/image/data/39158_2.png"
+      "https://b2b.yugtorg.com/image/data/39158_2.png",
+      "https://b2b.yugtorg.com/image/data/39158_1.png"
     ],
     "available": true,
     "price": 3219.0,
@@ -81360,8 +81497,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/39159.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/39159.png",
-      "https://b2b.yugtorg.com/image/data/39159_2.png",
-      "https://b2b.yugtorg.com/image/data/39159_1.png"
+      "https://b2b.yugtorg.com/image/data/39159_1.png",
+      "https://b2b.yugtorg.com/image/data/39159_2.png"
     ],
     "available": true,
     "price": 2146.0,
@@ -81425,9 +81562,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/41234.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/41234.png",
+      "https://b2b.yugtorg.com/image/data/41234_1.png",
       "https://b2b.yugtorg.com/image/data/41234_2.png",
-      "https://b2b.yugtorg.com/image/data/41234_3.png",
-      "https://b2b.yugtorg.com/image/data/41234_1.png"
+      "https://b2b.yugtorg.com/image/data/41234_3.png"
     ],
     "available": true,
     "price": 2225.0,
@@ -81466,8 +81603,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48337.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48337.png",
-      "https://b2b.yugtorg.com/image/data/48337_1.png",
-      "https://b2b.yugtorg.com/image/data/48337_2.png"
+      "https://b2b.yugtorg.com/image/data/48337_2.png",
+      "https://b2b.yugtorg.com/image/data/48337_1.png"
     ],
     "available": true,
     "price": 200.0,
@@ -81492,10 +81629,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37571.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37571.png",
-      "https://b2b.yugtorg.com/image/data/37571_2.png",
-      "https://b2b.yugtorg.com/image/data/37571_4.png",
       "https://b2b.yugtorg.com/image/data/37571_3.png",
-      "https://b2b.yugtorg.com/image/data/37571_1.png"
+      "https://b2b.yugtorg.com/image/data/37571_1.png",
+      "https://b2b.yugtorg.com/image/data/37571_2.png",
+      "https://b2b.yugtorg.com/image/data/37571_4.png"
     ],
     "available": true,
     "price": 44330.0,
@@ -81730,27 +81867,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-21164",
-    "sku": "99-10036720",
-    "category": "Альтернативна енергетика",
-    "subcategory": "",
-    "brand": "Інший виробник",
-    "name": "Притиск кінцевий",
-    "model": "30мм",
-    "description": "Притиск кінцевий 30мм",
-    "features": [
-      "30мм",
-      "30 мм"
-    ],
-    "image": "https://viatec.ua/upload/2/product_popup1500.webp",
-    "images": [
-      "https://viatec.ua/upload/2/product_popup1500.webp"
-    ],
-    "available": true,
-    "price": 29.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-21165",
     "sku": "99-10036721",
     "category": "Альтернативна енергетика",
@@ -81789,51 +81905,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-21245",
-    "sku": "99-10037059",
-    "category": "Альтернативна енергетика",
-    "subcategory": "",
-    "brand": "Інший виробник",
-    "name": "Рейка",
-    "model": "YL АД31 Т5, L=295mm, АН15 (Y50)",
-    "description": "L=295mm",
-    "features": [
-      "295 мм"
-    ],
-    "image": "https://viatec.ua/upload/2/reika-yl11.webp",
-    "images": [
-      "https://viatec.ua/upload/2/reika-yl11.webp"
-    ],
-    "available": true,
-    "price": 185.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-22128",
-    "sku": "99-10038107",
-    "category": "Альтернативна енергетика",
-    "subcategory": "",
-    "brand": "Інший виробник",
-    "name": "Система резервного живлення (інвертор та батарея)",
-    "model": "Marstek Venus E 3.0. 2500kW 5120Wh",
-    "description": "● Потужність 2.5 кВт;● Тип акумулятора LiFePo4;● Ємність 5120 Вт● год;● Час перемикання на акумуляторні батареї 10 мс;● Кількість циклів 6000;● Bluetooth, Ethernet, RS485, WiFi;● Клас захисту IP65;● 480 / 153 / 624 мм, 60 кг",
-    "features": [
-      "Номінальна потужність, Вт: 2 500",
-      "Номінальна ємність, кВт•год: 5.12",
-      "IP65",
-      "WiFi",
-      "624 мм",
-      "5120 Вт"
-    ],
-    "image": "https://viatec.ua/upload/2/marstek-venus-e-3-0.webp",
-    "images": [
-      "https://viatec.ua/upload/2/marstek-venus-e-3-0.webp"
-    ],
-    "available": true,
-    "price": 69999.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-21172",
     "sku": "99-10036727",
     "category": "Альтернативна енергетика",
@@ -81849,6 +81920,26 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 12.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-10456",
+    "sku": "99-00014687",
+    "category": "Відеореєстратори та накопичувачі",
+    "subcategory": "",
+    "brand": "Ajax",
+    "name": "Відеореєстратор",
+    "model": "Ajax NVR (16ch) (8EU) black",
+    "description": "Інтегруйте сторонні камери в систему Ajax без зайвого клопоту. NVR забезпечує повну синхронізацію камери з охоронними пристроями. Зручна навігація: всі події відображаються в журналі і прив&rsquo;язані до часових маркерів у відеоархіві. Налаштуйте сценарій, і камери автоматично починатимуть запис за тривогою датчиків. Одночасна підтримка 8 або 16 каналів відеопотоку з роздільною здатністю до 4K. Підтримка накопичувача до 16 ТБ. NVR має програмний розпізнавач руху, що безперервно аналізує зображення. Зона виявлення налаштовується в застосунках Ajax. Можна перемикатися між вбудованим у NVR розпізнавачем руху і стандартним розпізнавачем.",
+    "features": [
+      "Живлення: 220В АС"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-07/nvr_b.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-07/nvr_b.webp"
+    ],
+    "available": true,
+    "price": 11499.0,
     "source_supplier": "viatec"
   },
   {
@@ -83439,6 +83530,31 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-10165",
+    "sku": "99-00013760",
+    "category": "Відеореєстратори та накопичувачі",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "Відеореєстратор Dahua",
+    "model": "DHI-NVR5864-EI 64-канальний 2U 8HDD WizSense",
+    "description": "● 64 канали;● Smart H.265+; H.265; Smart H.264+; H.264; MJPEG;● Декодування: макс 32 канали х 1080р;● Вхідний потік 384 Мбіт/с;● Аналітика за рахунок NVR: виявлення облич (2кан); розпізнавання облич (2кан); охорона периметра (4кан); SMD Plus (8кан);● Аналітика за рахунок камери: виявлення облич (16кан); розпізнавання облич (16кан); охорона периметра (16кан); SMD Plus (16кан); відеометадані (людина, автотранспортні засоби та не автотранспортні засоби); стереоаналіз; розподіл натовпу; підрахунок людей; ANPR; щільність транспортного потоку; теплова картка;●&nbsp;8 HDD до 16Тб",
+    "features": [
+      "Роздільна здатність відеовиходу: HDMI 4K",
+      "Підтримка роздільної здатності: 32 MP; 24 MP; 16 MP; 12 MP; 8 MP; 5 MP; 4 MP; 1080p; 720p; D1; CIF; QCIF",
+      "Живлення: 220В АС",
+      "Потужність споживання: 13 Вт",
+      "32 MP",
+      "24 MP"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-06/DHI-NVR5864-EI1.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-06/DHI-NVR5864-EI1.webp"
+    ],
+    "available": true,
+    "price": 64125.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-14588",
     "sku": "99-00018160",
     "category": "Відеореєстратори та накопичувачі",
@@ -83538,6 +83654,31 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-18306",
+    "sku": "99-10027005",
+    "category": "Відеореєстратори та накопичувачі",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "Відеореєстратор Dahua",
+    "model": "DHI-NVR5432-EI2 32-канальний 1.5U 4HDD WizSense",
+    "description": "● 32 канали;● Smart H.265+; H.265; Smart H.264+; H.264; MJPEG;● Декодування: макс 32 канали х 1080р;● Вхідний потік 200 Мбіт/с;● Аналітика за рахунок NVR: підтримує 4-канальне розпізнавання та виявлення облич, до 20 баз даних облич та 30 000 зображень облич; 4-каналів відео метадані; 8-канальний захист периметра; 16-канальний SMD Plus; 4-канальний AcuPick;● Аналітика за рахунок камери: розпізнавання та виявлення облич, захист периметра, SMD, метадані, AcuPick, ANPR, стереоаналіз, теплова карта, підрахунок людей, виявлення засобів індивідуального захисту, інтелектуальне виявлення об'єктів та звуку;● 4 HDD до 20Тб",
+    "features": [
+      "Роздільна здатність відеовиходу: HDMI: 7680×4320, 3840 × 2160; VGA: 1920 × 1080, 1280 × 1024",
+      "Підтримка роздільної здатності: 32 MP;24 MP;16 MP;12 MP;8 MP;6 MP;5 MP;4 MP;3 MP;1080p;720p;960p;D1;CIF;QCIF",
+      "Живлення: 220В АС",
+      "Потужність споживання: 13 Вт",
+      "32 MP",
+      "24 MP"
+    ],
+    "image": "https://viatec.ua/upload/2/NVR5432-EI2.webp",
+    "images": [
+      "https://viatec.ua/upload/2/NVR5432-EI2.webp"
+    ],
+    "available": true,
+    "price": 40950.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-18602",
     "sku": "99-10027629",
     "category": "Відеореєстратори та накопичувачі",
@@ -83585,31 +83726,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 7650.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-18604",
-    "sku": "99-10027631",
-    "category": "Відеореєстратори та накопичувачі",
-    "subcategory": "",
-    "brand": "Dahua",
-    "name": "Відеореєстратор Dahua",
-    "model": "DHI-NVR5208-EI2 8-канальний 1U 2HDD WizSense",
-    "description": "● 8 каналів;● Smart H.265+; H.265; Smart H.264+; H.264; MJPEG;● Декодування: макс 8 каналів х 8МП;● Вхідний потік 200 Мбіт/с;● Аналітика за рахунок NVR: виявлення облич (2кан); розпізнавання облич (2кан); охорона периметру (8 кан); SMD Plus (8кан), ANPR, AcuPick;● Аналітика за рахунок камери: виявлення облич (8кан); розпізнавання облич (8кан); охорона периметру (8кан); SMD Plus (16кан); ANPR (8кан); стереоаналіз; розподіл натовпу; підрахунок людей; щільність транспортних засобів; теплова карта; виявлення ЗІЗ; інтелектуальне виявлення об'єкті/звуку; AcuPick;● 2 HDD до 20Тб",
-    "features": [
-      "Роздільна здатність відеовиходу: HDMI 7680×4320; VGA1920 × 1080",
-      "Живлення: 12 В DC, 4 A",
-      "Потужність споживання: 10 Вт",
-      "8МП",
-      "32 Мп",
-      "24 Мп"
-    ],
-    "image": "https://viatec.ua/upload/2/NVR5208-EI2.webp",
-    "images": [
-      "https://viatec.ua/upload/2/NVR5208-EI2.webp"
-    ],
-    "available": true,
-    "price": 20700.0,
     "source_supplier": "viatec"
   },
   {
@@ -84536,6 +84652,31 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
+    "id": "yugtorg-39965",
+    "sku": "DS-7632NI-M2",
+    "category": "Відеореєстратори та накопичувачі",
+    "subcategory": "",
+    "brand": "HIKVISION",
+    "name": "32-канальний мережевий реєстратор Hikvision DS-7632NI-M2",
+    "model": "DS-7632NI-M2",
+    "description": "IP камери 32 (32 МП) Вхідний потік 320 Мбіт / с Аудіо інтерфейси 1вх / 1вих (RCA) Двостороння розмова Підтримує Інтерфейси відео виходу 1 HDMI, 1 VGA Роздільна здатність відеовиходу HDMI: 8K (7680 × 4320), 4K (3840 × 2160), 4K (3840 × 2160), 2K (2560 × 1440), 1920 × 1080, 1600 × 1200 Відео компресія H.265+ / H.265 / H.264+ / H.264 Підтримка дозволів 32 MP / 24 MP / 12 MP / 8 MP / 6 MP / 5 MP / 4 MP / 3 MP / 1080p / UXGA / 720p / VGA / 4CIF / DCIF / 2CIF / CIF / QCIF Частота кадрів (головний потік) 2-кан 32 MP / 2-кан 24 MP / 4-кан 12 MP / 8-кан 8 MP / 16-кан 4MP / 32-кан 1080p 25 к / с Ethernet 2х 10 / 100 / 1000 Мбіт / с RJ-45 Внутрішні HDD 2 SATA до 14Тб USB 1х USB 2.0; 1х USB 3.0 Живлення 12В DC, 3.33 A Потужність споживання 15 Вт Робоча температура –10 °C - +55 °C Розміри 385×315×52 мм Вага 3 кг Розмір упаковки (Ш х В х Г) 130 x 390 x 440 мм Вага брутто 2.86 кг",
+    "features": [
+      "32 МП",
+      "32 MP",
+      "24 MP",
+      "12 MP",
+      "8 MP",
+      "6 MP"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/39965.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/39965.png"
+    ],
+    "available": true,
+    "price": 30150.0,
+    "source_supplier": "yugtorg"
+  },
+  {
     "id": "yugtorg-44013",
     "sku": "DS-7104NI-Q1 / 4P(STD)(D) / U",
     "category": "Відеореєстратори та накопичувачі",
@@ -84923,6 +85064,31 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 5175.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-10172",
+    "sku": "99-00014086",
+    "category": "Відеореєстратори та накопичувачі",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Відеореєстратор Hikvision",
+    "model": "DS-7632NI-M2 32-канальний 2 SATA Smart & POS",
+    "description": "● 32 канали;● H.265+/H.265/H.264+/H.264;● Декодування: макс 32 канали х 1080р;● Вхідний потік 320 Мбіт/с;● Аналітика за рахунок камери: VCA-виявлення (рух, перетин лінії, вторгнення тощо), теплова карта, ANPR та підрахунок людей, POS;● 2 HDD до 14Тб",
+    "features": [
+      "Роздільна здатність відеовиходу: HDMI: 8K (7680 × 4320); VGA: 1920 × 1080",
+      "Живлення: 12В DC, 3.33 A",
+      "Потужність споживання: 15 Вт",
+      "32 MP",
+      "24 MP",
+      "12 MP"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-06/DS-7632NI-M2.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-06/DS-7632NI-M2.webp"
+    ],
+    "available": true,
+    "price": 30150.0,
     "source_supplier": "viatec"
   },
   {
@@ -85451,6 +85617,31 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-17171",
+    "sku": "99-10024815",
+    "category": "Відеореєстратори та накопичувачі",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Відеореєстратор Hikvision",
+    "model": "DS-7608NXI-I2/S(E) 8-канальний AcuSense",
+    "description": "● 8 каналів;● H.265+/H.265/H.264+/H.264;● Декодування: макс 20 каналів х 1080р;● Вхідний потік 80 Мбіт/с;● Аналітика за рахунок NVR: розпізнавання облич, захист периметра, виявлення руху 2.0;● Аналітика за рахунок камери: AcuSearch, розпізнавання облич, захист периметра, структурування відео, виявлення руху 2.0, ANPR, підрахунок людей, VCA;● 2 HDD до 16Тб",
+    "features": [
+      "Роздільна здатність відеовиходу: HDMI: 3840x2160; VGA: 1920x1080; CVBS: 704x576",
+      "Живлення: 220В АС",
+      "Потужність споживання: 30 Вт без HDD",
+      "AcuSense",
+      "52 мм",
+      "30 Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/DS-7608NXI-I2S(C).jpg",
+    "images": [
+      "https://viatec.ua/upload/images/prod/DS-7608NXI-I2S(C).jpg"
+    ],
+    "available": true,
+    "price": 18045.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-17853",
     "sku": "99-10025517",
     "category": "Відеореєстратори та накопичувачі",
@@ -85473,31 +85664,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 11475.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-18227",
-    "sku": "99-10026793",
-    "category": "Відеореєстратори та накопичувачі",
-    "subcategory": "",
-    "brand": "Hikvision",
-    "name": "Відеореєстратор Hikvision",
-    "model": "iDS-7208HQHI-M2/XT 8-канальний 1080p 1U AcuSense",
-    "description": "● 8+4 (8 BNC-портів/12 віртуальних IP канали);● H.265 Pro+/H.265 Pro/H.265/H.264+/H.264;● HDTVI/AHD/CVI/CVB/IP;● TVI: 3K, 5MP 20 к/с; 4 MP, 1080p, 720p 25 к/с;● Кодування: 4 MP lite, 1080p 15к/с; 720p/WD1/4CIF/VGA/CIF 25 к/с;● Аналітика: виявлення руху 2.0 для аналогових каналів, захист периметра (4 каналів), розпізнавання облич;● 2 HDD до 10ТБ максимум",
-    "features": [
-      "Роздільна здатність відеовиходу: HDMI: 4K, 2K; VGA: 1920x1080; CVBS: 704x576",
-      "Живлення: 12В DC, 3.3 A",
-      "Потужність споживання: 30 Вт",
-      "5MP",
-      "4 MP",
-      "AcuSense"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-06/iDS-7216HQHI-M1XT12.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-06/iDS-7216HQHI-M1XT12.webp"
-    ],
-    "available": true,
-    "price": 6075.0,
     "source_supplier": "viatec"
   },
   {
@@ -85748,6 +85914,31 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-21306",
+    "sku": "99-10036583",
+    "category": "Відеореєстратори та накопичувачі",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Відеореєстратор Hikvision",
+    "model": "DS-7616NXI-K2/VPro 16-канальний 1U AcuSeek",
+    "description": "16 каналівH.265/H.265+/H.264+/H.264Декодування: макс 12 каналів х 1080рВхідний потік 160 Мбіт/сАналітика за рахунок NVR: &nbsp;розпізнавання облич, захист периметра, виявлення руху 2.0, AcuSearch, AcuSeekАналітика за рахунок камери: розпізнавання обличчя, захист периметра, детектор руху 2.0, ANPR, VCA2 HDD до 16Тб",
+    "features": [
+      "Роздільна здатність відеовиходу: HDMI: 3840 × 2160; VGA: 1920 × 1080",
+      "Підтримка роздільної здатності: 12 MP/8 MP/6 MP/5 MP/4 MP/3 MP/1080P/UXGA/720P/VGA/4CIF",
+      "Живлення: 12 В DC, 3.3 A",
+      "Потужність споживання: 15 Вт",
+      "12 MP",
+      "8 MP"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-06/7616NXI-K2.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-06/7616NXI-K2.webp"
+    ],
+    "available": true,
+    "price": 20925.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-21308",
     "sku": "99-10036584",
     "category": "Відеореєстратори та накопичувачі",
@@ -85870,6 +86061,48 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 7650.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-14682",
+    "sku": "99-00021708",
+    "category": "Відеореєстратори та накопичувачі",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Жорсткий диск внутрішній",
+    "model": "Hikvision DS40HKVS-VX1",
+    "description": "● Ємність 4 ТБ;● Швидкість обертання 5400 об/хв;● Розмір буфера 128 Мб;● Максимальна швидкість передачі даних 176,4 МБ/с",
+    "features": [
+      "Ємність: 4 Тб",
+      "Швидкість обертання (об / хв): 5400"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-08/DS20HKVS-VX1.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-08/DS20HKVS-VX1.webp"
+    ],
+    "available": true,
+    "price": 14895.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-14683",
+    "sku": "99-00021709",
+    "category": "Відеореєстратори та накопичувачі",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Жорсткий диск внутрішній",
+    "model": "Hikvision DS60HKVS-VX1",
+    "description": "● Ємність 6 ТБ;● Швидкість обертання 5400 об/хв;● Розмір буфера 256 Мб;● Максимальна швидкість передачі даних 176,4 МБ/с",
+    "features": [
+      "Ємність: 6 Тб",
+      "Швидкість обертання (об / хв): 5400"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-08/DS20HKVS-VX1.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-08/DS20HKVS-VX1.webp"
+    ],
+    "available": true,
+    "price": 20520.0,
     "source_supplier": "viatec"
   },
   {
@@ -86130,7 +86363,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/2/micro64-select.webp"
     ],
     "available": true,
-    "price": 875.0,
+    "price": 1011.0,
     "source_supplier": "viatec"
   },
   {
@@ -86197,8 +86430,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/01440.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/01440.png",
-      "https://b2b.yugtorg.com/image/data/01440_2.png",
-      "https://b2b.yugtorg.com/image/data/01440_1.png"
+      "https://b2b.yugtorg.com/image/data/01440_1.png",
+      "https://b2b.yugtorg.com/image/data/01440_2.png"
     ],
     "available": true,
     "price": 5675.0,
@@ -86696,28 +86929,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/2/sd-cardsfxx.webp"
     ],
     "available": true,
-    "price": 2169.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-18831",
-    "sku": "99-10028161",
-    "category": "Відеореєстратори та накопичувачі",
-    "subcategory": "",
-    "brand": "SanDisk",
-    "name": "Карта пам'яті",
-    "model": "Kingston microSD 256GB C10 UHS-I A1 V10 R150MB/s + SD",
-    "description": "● Об'єм пам'яті: 256 ГБ;● Швидкість читання: до 10 до 150 МБ/с;● Тип картки пам'яті: microSDXC;● Клас карти: UHS-I (U1);● Перехідник: SD",
-    "features": [
-      "Ємність: 256 Гб",
-      "Макс. швидкість тривалої передачі: 150 - 10 МБ/с"
-    ],
-    "image": "https://viatec.ua/upload/2/mory-cards-kingston-1494.webp",
-    "images": [
-      "https://viatec.ua/upload/2/mory-cards-kingston-1494.webp"
-    ],
-    "available": true,
-    "price": 2210.0,
+    "price": 2498.0,
     "source_supplier": "viatec"
   },
   {
@@ -86738,7 +86950,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/2023-09/U0468134_big.webp"
     ],
     "available": true,
-    "price": 1144.0,
+    "price": 1365.0,
     "source_supplier": "viatec"
   },
   {
@@ -86759,12 +86971,12 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/2/seagate-x241.webp"
     ],
     "available": true,
-    "price": 51570.0,
+    "price": 51571.0,
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-20408",
-    "sku": "99-10035258",
+    "id": "viatec-19074",
+    "sku": "99-10026932",
     "category": "Відеореєстратори та накопичувачі",
     "subcategory": "",
     "brand": "Seagate",
@@ -86780,7 +86992,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/2023-04/ST8000VE001.webp"
     ],
     "available": true,
-    "price": 29218.0,
+    "price": 27990.0,
     "source_supplier": "viatec"
   },
   {
@@ -86846,8 +87058,8 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-22328",
-    "sku": "99-00023799",
+    "id": "viatec-15902",
+    "sku": "99-10036134",
     "category": "Відеореєстратори та накопичувачі",
     "subcategory": "",
     "brand": "Seagate",
@@ -86863,7 +87075,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/2025-01/st100vx013.webp"
     ],
     "available": true,
-    "price": 8100.0,
+    "price": 8190.0,
     "source_supplier": "viatec"
   },
   {
@@ -87406,9 +87618,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46371.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46371.png",
-      "https://b2b.yugtorg.com/image/data/46371_1.png",
       "https://b2b.yugtorg.com/image/data/46371_3.png",
-      "https://b2b.yugtorg.com/image/data/46371_2.png"
+      "https://b2b.yugtorg.com/image/data/46371_2.png",
+      "https://b2b.yugtorg.com/image/data/46371_1.png"
     ],
     "available": true,
     "price": 8047.0,
@@ -87462,7 +87674,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/2023-11/WD64PURZ(1).webp"
     ],
     "available": true,
-    "price": 18900.0,
+    "price": 19110.0,
     "source_supplier": "viatec"
   },
   {
@@ -87546,7 +87758,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/2/purz85w51d.webp"
     ],
     "available": true,
-    "price": 15300.0,
+    "price": 12740.0,
     "source_supplier": "viatec"
   },
   {
@@ -87589,7 +87801,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/2025-01/purz85wd.webp"
     ],
     "available": true,
-    "price": 27000.0,
+    "price": 27001.0,
     "source_supplier": "viatec"
   },
   {
@@ -87631,7 +87843,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/images/prod/2025-03/WD102PURP.webp"
     ],
     "available": true,
-    "price": 35775.0,
+    "price": 38584.0,
     "source_supplier": "viatec"
   },
   {
@@ -89293,6 +89505,31 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-9138",
+    "sku": "99-00012727",
+    "category": "Домофони та викличні панелі",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "2 Мп IP-виклична панель IP65, IK08 з Wi-Fi",
+    "model": "DS-KV8113-WME1(C)",
+    "description": "Підтримка Wi-Fi, зручне налаштування та відсутність необхідності проведення. Підтримка веб конфігурації. Алюмінієвий сплав, приємний промисловий дизайн, IP65, IK08, 3 вбудовані індикатори. Внутрішній зчитувач карток Mifare, 1-канальна станція контролю. Придушення шуму та придушення луни. 2-мегапіксельна HD-камера з ІЧ-підсвічуванням. Живлення стандартний PoE/12 В постійного струму.",
+    "features": [
+      "Роздільна здатність: 1920 × 1080",
+      "Тип підсвічування: ІЧ",
+      "Живлення: 12 В DC",
+      "Потужність споживання: 10 Вт",
+      "2 Мп",
+      "IP65"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-03/KV8113-WME1.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-03/KV8113-WME1.webp"
+    ],
+    "available": true,
+    "price": 8190.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "yugtorg-35324",
     "sku": "DS-KH6110-WE1",
     "category": "Домофони та викличні панелі",
@@ -89576,6 +89813,31 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 6255.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-13764",
+    "sku": "99-00019965",
+    "category": "Домофони та викличні панелі",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Виклична панель Hikvision",
+    "model": "DS-KV8113-WME1(C)/Flush/Europe BV Wi-Fi IP65 IK08",
+    "description": "Підтримка Wi-Fi, зручне налаштування та відсутність необхідності проведення. Підтримка веб конфігурації. Алюмінієвий сплав, приємний промисловий дизайн, IP65, IK08, 3 вбудовані індикатори. Внутрішній зчитувач карток Mifare, 1-канальна станція контролю. Придушення шуму та придушення луни. 2-мегапіксельна HD-камера з ІЧ-підсвічуванням. Живлення стандартний PoE/12 В постійного струму.",
+    "features": [
+      "Роздільна здатність: 1920 × 1080",
+      "Тип підсвічування: ІЧ",
+      "Живлення: 12 В DC",
+      "Потужність споживання: 10 Вт",
+      "2MP",
+      "IP65"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/KV8113-WME1C.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/KV8113-WME1C.webp"
+    ],
+    "available": true,
+    "price": 8010.0,
     "source_supplier": "viatec"
   },
   {
@@ -90013,6 +90275,31 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-22388",
+    "sku": "99-10039371",
+    "category": "Домофони та викличні панелі",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Набір гібридної домофонії",
+    "model": "Hikvision DS-KD9203-E6 + DS-KAD40",
+    "description": "багатоабонентськаврізний монтажкардрідер для карт Mifare (пам`ять на 25 000 карт)IP6512V DC",
+    "features": [
+      "Роздільна здатність: 1080p 25 к/с",
+      "Живлення: 12В DC",
+      "Потужність споживання: 13 Вт",
+      "2 МП",
+      "43.7 мм",
+      "13 Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/DS-KD9203-E6kit1.webp",
+    "images": [
+      "https://viatec.ua/upload/2/DS-KD9203-E6kit1.webp"
+    ],
+    "available": true,
+    "price": 23895.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "yugtorg-48056",
     "sku": "DS-KAD40",
     "category": "Домофони та викличні панелі",
@@ -90264,31 +90551,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 7699.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-19552",
-    "sku": "99-00013835",
-    "category": "Домофони та викличні панелі",
-    "subcategory": "",
-    "brand": "Neolight",
-    "name": "Виклична панель",
-    "model": "NeoLight MEGA/4 FHD black",
-    "description": "● Кількість абонентів 4;● Тип матриці камери CMOS;● Роздільна здатність камери 1080p;● Формат сигналу AHD / TVI / CVI / CVBS;● Кут огляду 110&deg;;● Підсвітка ІЧ, до 5 м;● Живлення 12В DC/2,5ВТ (від домофону);● Управління зовнішнім живленням електрозамків 5-24В DC/до 4А;● Управління живленням електроприводу воріт до 30В DC/до 100 мА;● Температура експлуатації - 30&deg;С &sim; + 60&deg;С;● Клас захисту IP66;● Матеріал корпусу: метал",
-    "features": [
-      "Роздільна здатність: 1080p",
-      "Тип підсвічування: ІЧ 5м",
-      "Живлення: 12В DC/2,5Вт (від домофона)",
-      "ІЧ 5м",
-      "IP66",
-      "AHD"
-    ],
-    "image": "https://viatec.ua/upload/2/videopanel-mega-4-fhd-black-neolight.webp",
-    "images": [
-      "https://viatec.ua/upload/2/videopanel-mega-4-fhd-black-neolight.webp"
-    ],
-    "available": true,
-    "price": 3256.0,
     "source_supplier": "viatec"
   },
   {
@@ -93484,24 +93746,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-11624",
-    "sku": "99-00017020",
-    "category": "Електрика",
-    "subcategory": "",
-    "brand": "Ajax",
-    "name": "фронтальна панель",
-    "model": "Ajax SideCover (smart) [type F] [55] ASP olive",
-    "description": "Використовується, коли необхідно встановити розетку праворуч або ліворуч від пристроїв",
-    "features": [],
-    "image": "https://viatec.ua/upload/images/2018-01-02/outlet-type-f-right-olive.webp",
-    "images": [
-      "https://viatec.ua/upload/images/2018-01-02/outlet-type-f-right-olive.webp"
-    ],
-    "available": true,
-    "price": 599.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-11625",
     "sku": "99-00017021",
     "category": "Електрика",
@@ -94306,8 +94550,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40476.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40476.png",
-      "https://b2b.yugtorg.com/image/data/40476_1.png",
-      "https://b2b.yugtorg.com/image/data/40476_2.png"
+      "https://b2b.yugtorg.com/image/data/40476_2.png",
+      "https://b2b.yugtorg.com/image/data/40476_1.png"
     ],
     "available": true,
     "price": 5530.0,
@@ -94330,8 +94574,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40478.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40478.png",
-      "https://b2b.yugtorg.com/image/data/40478_1.png",
-      "https://b2b.yugtorg.com/image/data/40478_2.png"
+      "https://b2b.yugtorg.com/image/data/40478_2.png",
+      "https://b2b.yugtorg.com/image/data/40478_1.png"
     ],
     "available": true,
     "price": 10606.0,
@@ -94354,8 +94598,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40479.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40479.png",
-      "https://b2b.yugtorg.com/image/data/40479_2.png",
-      "https://b2b.yugtorg.com/image/data/40479_1.png"
+      "https://b2b.yugtorg.com/image/data/40479_1.png",
+      "https://b2b.yugtorg.com/image/data/40479_2.png"
     ],
     "available": true,
     "price": 11564.0,
@@ -94374,8 +94618,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40673.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40673.png",
-      "https://b2b.yugtorg.com/image/data/40673_2.png",
-      "https://b2b.yugtorg.com/image/data/40673_1.png"
+      "https://b2b.yugtorg.com/image/data/40673_1.png",
+      "https://b2b.yugtorg.com/image/data/40673_2.png"
     ],
     "available": true,
     "price": 7720.0,
@@ -94396,8 +94640,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40685.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40685.png",
-      "https://b2b.yugtorg.com/image/data/40685_1.png",
-      "https://b2b.yugtorg.com/image/data/40685_2.png"
+      "https://b2b.yugtorg.com/image/data/40685_2.png",
+      "https://b2b.yugtorg.com/image/data/40685_1.png"
     ],
     "available": true,
     "price": 7490.0,
@@ -94440,8 +94684,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40622.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40622.png",
-      "https://b2b.yugtorg.com/image/data/40622_2.png",
-      "https://b2b.yugtorg.com/image/data/40622_1.png"
+      "https://b2b.yugtorg.com/image/data/40622_1.png",
+      "https://b2b.yugtorg.com/image/data/40622_2.png"
     ],
     "available": true,
     "price": 1380.0,
@@ -94508,8 +94752,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40623.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40623.png",
-      "https://b2b.yugtorg.com/image/data/40623_1.png",
-      "https://b2b.yugtorg.com/image/data/40623_2.png"
+      "https://b2b.yugtorg.com/image/data/40623_2.png",
+      "https://b2b.yugtorg.com/image/data/40623_1.png"
     ],
     "available": true,
     "price": 2280.0,
@@ -94597,9 +94841,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40468.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40468.png",
-      "https://b2b.yugtorg.com/image/data/40468_1.png",
+      "https://b2b.yugtorg.com/image/data/40468_2.png",
       "https://b2b.yugtorg.com/image/data/40468_3.png",
-      "https://b2b.yugtorg.com/image/data/40468_2.png"
+      "https://b2b.yugtorg.com/image/data/40468_1.png"
     ],
     "available": true,
     "price": 16090.0,
@@ -94641,8 +94885,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40473.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40473.png",
-      "https://b2b.yugtorg.com/image/data/40473_1.png",
-      "https://b2b.yugtorg.com/image/data/40473_2.png"
+      "https://b2b.yugtorg.com/image/data/40473_2.png",
+      "https://b2b.yugtorg.com/image/data/40473_1.png"
     ],
     "available": true,
     "price": 8780.0,
@@ -94664,9 +94908,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40469.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40469.png",
+      "https://b2b.yugtorg.com/image/data/40469_3.png",
       "https://b2b.yugtorg.com/image/data/40469_1.png",
-      "https://b2b.yugtorg.com/image/data/40469_2.png",
-      "https://b2b.yugtorg.com/image/data/40469_3.png"
+      "https://b2b.yugtorg.com/image/data/40469_2.png"
     ],
     "available": true,
     "price": 12520.0,
@@ -94688,8 +94932,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40474.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40474.png",
-      "https://b2b.yugtorg.com/image/data/40474_1.png",
       "https://b2b.yugtorg.com/image/data/40474_2.png",
+      "https://b2b.yugtorg.com/image/data/40474_1.png",
       "https://b2b.yugtorg.com/image/data/40474_3.png"
     ],
     "available": true,
@@ -94932,29 +95176,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "yugtorg-40708",
-    "sku": "NXB-63-2P-C16",
-    "category": "Електрика",
-    "subcategory": "",
-    "brand": "CHINT",
-    "name": "Автоматичний вимикач змінного струму CHINT NXB-63 2P C16, 16A",
-    "model": "NXB-63-2P-C16",
-    "description": "Автоматичний вимикач CHINT NXB-63 2P C16 – це двополюсний апарат захисту для побутових та комерційних електричних мереж змінного струму. Пристрій номінальним струмом 16А та характеристикою спрацьовування «C» призначений для комплексного захисту проводки та підключеного обладнання від перевантажень та коротких замикань. Цей вимикач призначений для встановлення в розподільні щити квартир, офісів, торгових приміщень та виробничих об`єктів. Він ефективно вирішує завдання запобігання перегріву проводки, захисту кінцевих споживачів від аварійних режимів роботи та забезпечення селективності електричної мережі. Двополюсна конструкція дозволяє одночасно розривати фазний та нульовий провідники. - Тепловий розчіплювач для захисту від перевантажень - Електромагнітний розчіплювач для відключення при КЗ - Вібростійка конструкція з дугогасною камерою - Монтаж на DIN-рейку 35 мм - Візуальний індикатор положення контактів Основні характеристики: • Виробник: CHINT • Модель: NXB-63 2P C16 • Кількість полюсів: 2 • Номінальний струм: 16А • Характеристика спрацьовування: C • Напруга: 230 / 400В AC • Здатність, що вимикає: 6 кА • Ступінь захисту: IP20 • Монтаж: DIN-рейка 35 мм • Момент затягування: 2.5 Н·м Автоматичний вимикач призначений для електромонтажників, проектувальників електроустановок, служб експлуатації будівель та приватних користувачів. Пристрій є оптимальним для захисту освітлювальних мереж, розеткових груп та окремих ліній живлення побутової техніки.",
-    "features": [
-      "IP20",
-      "35 мм"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/40708.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/40708.png",
-      "https://b2b.yugtorg.com/image/data/40708_1.png",
-      "https://b2b.yugtorg.com/image/data/40708_2.png"
-    ],
-    "available": true,
-    "price": 180.0,
-    "source_supplier": "yugtorg"
-  },
-  {
     "id": "yugtorg-40709",
     "sku": "NXB-63-2P-C20",
     "category": "Електрика",
@@ -94970,8 +95191,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40709.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40709.png",
-      "https://b2b.yugtorg.com/image/data/40709_1.png",
-      "https://b2b.yugtorg.com/image/data/40709_2.png"
+      "https://b2b.yugtorg.com/image/data/40709_2.png",
+      "https://b2b.yugtorg.com/image/data/40709_1.png"
     ],
     "available": true,
     "price": 180.0,
@@ -94994,8 +95215,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40714.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40714.png",
-      "https://b2b.yugtorg.com/image/data/40714_1.png",
-      "https://b2b.yugtorg.com/image/data/40714_2.png"
+      "https://b2b.yugtorg.com/image/data/40714_2.png",
+      "https://b2b.yugtorg.com/image/data/40714_1.png"
     ],
     "available": true,
     "price": 210.0,
@@ -95041,8 +95262,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40716.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40716.png",
-      "https://b2b.yugtorg.com/image/data/40716_2.png",
-      "https://b2b.yugtorg.com/image/data/40716_1.png"
+      "https://b2b.yugtorg.com/image/data/40716_1.png",
+      "https://b2b.yugtorg.com/image/data/40716_2.png"
     ],
     "available": true,
     "price": 210.0,
@@ -95204,8 +95425,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40719.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40719.png",
-      "https://b2b.yugtorg.com/image/data/40719_2.png",
-      "https://b2b.yugtorg.com/image/data/40719_1.png"
+      "https://b2b.yugtorg.com/image/data/40719_1.png",
+      "https://b2b.yugtorg.com/image/data/40719_2.png"
     ],
     "available": true,
     "price": 290.0,
@@ -95248,8 +95469,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40721.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40721.png",
-      "https://b2b.yugtorg.com/image/data/40721_2.png",
-      "https://b2b.yugtorg.com/image/data/40721_1.png"
+      "https://b2b.yugtorg.com/image/data/40721_1.png",
+      "https://b2b.yugtorg.com/image/data/40721_2.png"
     ],
     "available": true,
     "price": 390.0,
@@ -95272,8 +95493,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40724.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40724.png",
-      "https://b2b.yugtorg.com/image/data/40724_2.png",
-      "https://b2b.yugtorg.com/image/data/40724_1.png"
+      "https://b2b.yugtorg.com/image/data/40724_1.png",
+      "https://b2b.yugtorg.com/image/data/40724_2.png"
     ],
     "available": true,
     "price": 390.0,
@@ -95295,8 +95516,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40725.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40725.png",
-      "https://b2b.yugtorg.com/image/data/40725_1.png",
-      "https://b2b.yugtorg.com/image/data/40725_2.png"
+      "https://b2b.yugtorg.com/image/data/40725_2.png",
+      "https://b2b.yugtorg.com/image/data/40725_1.png"
     ],
     "available": true,
     "price": 390.0,
@@ -95318,8 +95539,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40726.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40726.png",
-      "https://b2b.yugtorg.com/image/data/40726_1.png",
-      "https://b2b.yugtorg.com/image/data/40726_2.png"
+      "https://b2b.yugtorg.com/image/data/40726_2.png",
+      "https://b2b.yugtorg.com/image/data/40726_1.png"
     ],
     "available": true,
     "price": 390.0,
@@ -95367,8 +95588,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40728.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40728.png",
-      "https://b2b.yugtorg.com/image/data/40728_1.png",
-      "https://b2b.yugtorg.com/image/data/40728_2.png"
+      "https://b2b.yugtorg.com/image/data/40728_2.png",
+      "https://b2b.yugtorg.com/image/data/40728_1.png"
     ],
     "available": true,
     "price": 400.0,
@@ -95439,8 +95660,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40730.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40730.png",
-      "https://b2b.yugtorg.com/image/data/40730_2.png",
-      "https://b2b.yugtorg.com/image/data/40730_1.png"
+      "https://b2b.yugtorg.com/image/data/40730_1.png",
+      "https://b2b.yugtorg.com/image/data/40730_2.png"
     ],
     "available": true,
     "price": 420.0,
@@ -95479,8 +95700,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40663.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40663.png",
-      "https://b2b.yugtorg.com/image/data/40663_1.png",
-      "https://b2b.yugtorg.com/image/data/40663_2.png"
+      "https://b2b.yugtorg.com/image/data/40663_2.png",
+      "https://b2b.yugtorg.com/image/data/40663_1.png"
     ],
     "available": true,
     "price": 1480.0,
@@ -95519,8 +95740,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40669.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40669.png",
-      "https://b2b.yugtorg.com/image/data/40669_2.png",
-      "https://b2b.yugtorg.com/image/data/40669_1.png"
+      "https://b2b.yugtorg.com/image/data/40669_1.png",
+      "https://b2b.yugtorg.com/image/data/40669_2.png"
     ],
     "available": true,
     "price": 2020.0,
@@ -95579,8 +95800,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40671.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40671.png",
-      "https://b2b.yugtorg.com/image/data/40671_1.png",
-      "https://b2b.yugtorg.com/image/data/40671_2.png"
+      "https://b2b.yugtorg.com/image/data/40671_2.png",
+      "https://b2b.yugtorg.com/image/data/40671_1.png"
     ],
     "available": true,
     "price": 3250.0,
@@ -95626,8 +95847,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40621.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40621.png",
-      "https://b2b.yugtorg.com/image/data/40621_1.png",
-      "https://b2b.yugtorg.com/image/data/40621_2.png"
+      "https://b2b.yugtorg.com/image/data/40621_2.png",
+      "https://b2b.yugtorg.com/image/data/40621_1.png"
     ],
     "available": true,
     "price": 1380.0,
@@ -95696,8 +95917,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40631.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40631.png",
-      "https://b2b.yugtorg.com/image/data/40631_1.png",
-      "https://b2b.yugtorg.com/image/data/40631_2.png"
+      "https://b2b.yugtorg.com/image/data/40631_2.png",
+      "https://b2b.yugtorg.com/image/data/40631_1.png"
     ],
     "available": true,
     "price": 368.0,
@@ -95721,8 +95942,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40630.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40630.png",
-      "https://b2b.yugtorg.com/image/data/40630_1.png",
-      "https://b2b.yugtorg.com/image/data/40630_2.png"
+      "https://b2b.yugtorg.com/image/data/40630_2.png",
+      "https://b2b.yugtorg.com/image/data/40630_1.png"
     ],
     "available": true,
     "price": 368.0,
@@ -95792,8 +96013,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40636.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40636.png",
-      "https://b2b.yugtorg.com/image/data/40636_1.png",
-      "https://b2b.yugtorg.com/image/data/40636_2.png"
+      "https://b2b.yugtorg.com/image/data/40636_2.png",
+      "https://b2b.yugtorg.com/image/data/40636_1.png"
     ],
     "available": true,
     "price": 677.0,
@@ -95817,8 +96038,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40639.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40639.png",
-      "https://b2b.yugtorg.com/image/data/40639_2.png",
-      "https://b2b.yugtorg.com/image/data/40639_1.png"
+      "https://b2b.yugtorg.com/image/data/40639_1.png",
+      "https://b2b.yugtorg.com/image/data/40639_2.png"
     ],
     "available": true,
     "price": 368.0,
@@ -95867,8 +96088,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40637.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40637.png",
-      "https://b2b.yugtorg.com/image/data/40637_1.png",
-      "https://b2b.yugtorg.com/image/data/40637_2.png"
+      "https://b2b.yugtorg.com/image/data/40637_2.png",
+      "https://b2b.yugtorg.com/image/data/40637_1.png"
     ],
     "available": true,
     "price": 368.0,
@@ -95942,8 +96163,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40641.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40641.png",
-      "https://b2b.yugtorg.com/image/data/40641_2.png",
-      "https://b2b.yugtorg.com/image/data/40641_1.png"
+      "https://b2b.yugtorg.com/image/data/40641_1.png",
+      "https://b2b.yugtorg.com/image/data/40641_2.png"
     ],
     "available": true,
     "price": 735.0,
@@ -95967,8 +96188,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40644.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40644.png",
-      "https://b2b.yugtorg.com/image/data/40644_1.png",
-      "https://b2b.yugtorg.com/image/data/40644_2.png"
+      "https://b2b.yugtorg.com/image/data/40644_2.png",
+      "https://b2b.yugtorg.com/image/data/40644_1.png"
     ],
     "available": true,
     "price": 640.0,
@@ -96067,8 +96288,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40645.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40645.png",
-      "https://b2b.yugtorg.com/image/data/40645_1.png",
-      "https://b2b.yugtorg.com/image/data/40645_2.png"
+      "https://b2b.yugtorg.com/image/data/40645_2.png",
+      "https://b2b.yugtorg.com/image/data/40645_1.png"
     ],
     "available": true,
     "price": 1131.0,
@@ -96092,8 +96313,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40646.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40646.png",
-      "https://b2b.yugtorg.com/image/data/40646_2.png",
-      "https://b2b.yugtorg.com/image/data/40646_1.png"
+      "https://b2b.yugtorg.com/image/data/40646_1.png",
+      "https://b2b.yugtorg.com/image/data/40646_2.png"
     ],
     "available": true,
     "price": 790.0,
@@ -96114,8 +96335,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40649.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40649.png",
-      "https://b2b.yugtorg.com/image/data/40649_1.png",
-      "https://b2b.yugtorg.com/image/data/40649_2.png"
+      "https://b2b.yugtorg.com/image/data/40649_2.png",
+      "https://b2b.yugtorg.com/image/data/40649_1.png"
     ],
     "available": true,
     "price": 690.0,
@@ -96164,8 +96385,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40655.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40655.png",
-      "https://b2b.yugtorg.com/image/data/40655_1.png",
-      "https://b2b.yugtorg.com/image/data/40655_2.png"
+      "https://b2b.yugtorg.com/image/data/40655_2.png",
+      "https://b2b.yugtorg.com/image/data/40655_1.png"
     ],
     "available": true,
     "price": 630.0,
@@ -96363,9 +96584,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/41420.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/41420.png",
+      "https://b2b.yugtorg.com/image/data/41420_1.png",
       "https://b2b.yugtorg.com/image/data/41420_2.png",
-      "https://b2b.yugtorg.com/image/data/41420_3.png",
-      "https://b2b.yugtorg.com/image/data/41420_1.png"
+      "https://b2b.yugtorg.com/image/data/41420_3.png"
     ],
     "available": true,
     "price": 1518.0,
@@ -96384,12 +96605,12 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/41419.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/41419.png",
-      "https://b2b.yugtorg.com/image/data/41419_1.png",
-      "https://b2b.yugtorg.com/image/data/41419_2.png",
-      "https://b2b.yugtorg.com/image/data/41419_3.png",
-      "https://b2b.yugtorg.com/image/data/41419_4.png",
+      "https://b2b.yugtorg.com/image/data/41419_6.png",
       "https://b2b.yugtorg.com/image/data/41419_5.png",
-      "https://b2b.yugtorg.com/image/data/41419_6.png"
+      "https://b2b.yugtorg.com/image/data/41419_4.png",
+      "https://b2b.yugtorg.com/image/data/41419_3.png",
+      "https://b2b.yugtorg.com/image/data/41419_1.png",
+      "https://b2b.yugtorg.com/image/data/41419_2.png"
     ],
     "available": true,
     "price": 2126.0,
@@ -96514,8 +96735,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40755.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40755.png",
-      "https://b2b.yugtorg.com/image/data/40755_1.png",
-      "https://b2b.yugtorg.com/image/data/40755_2.png"
+      "https://b2b.yugtorg.com/image/data/40755_2.png",
+      "https://b2b.yugtorg.com/image/data/40755_1.png"
     ],
     "available": true,
     "price": 1450.0,
@@ -96554,8 +96775,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40757.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40757.png",
-      "https://b2b.yugtorg.com/image/data/40757_2.png",
-      "https://b2b.yugtorg.com/image/data/40757_1.png"
+      "https://b2b.yugtorg.com/image/data/40757_1.png",
+      "https://b2b.yugtorg.com/image/data/40757_2.png"
     ],
     "available": true,
     "price": 1450.0,
@@ -96634,8 +96855,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40746.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40746.png",
-      "https://b2b.yugtorg.com/image/data/40746_2.png",
-      "https://b2b.yugtorg.com/image/data/40746_1.png"
+      "https://b2b.yugtorg.com/image/data/40746_1.png",
+      "https://b2b.yugtorg.com/image/data/40746_2.png"
     ],
     "available": true,
     "price": 1450.0,
@@ -96654,8 +96875,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40747.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40747.png",
-      "https://b2b.yugtorg.com/image/data/40747_2.png",
-      "https://b2b.yugtorg.com/image/data/40747_1.png"
+      "https://b2b.yugtorg.com/image/data/40747_1.png",
+      "https://b2b.yugtorg.com/image/data/40747_2.png"
     ],
     "available": true,
     "price": 1450.0,
@@ -96674,8 +96895,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40749.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40749.png",
-      "https://b2b.yugtorg.com/image/data/40749_2.png",
-      "https://b2b.yugtorg.com/image/data/40749_1.png"
+      "https://b2b.yugtorg.com/image/data/40749_1.png",
+      "https://b2b.yugtorg.com/image/data/40749_2.png"
     ],
     "available": true,
     "price": 1450.0,
@@ -96694,8 +96915,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40750.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40750.png",
-      "https://b2b.yugtorg.com/image/data/40750_2.png",
-      "https://b2b.yugtorg.com/image/data/40750_1.png"
+      "https://b2b.yugtorg.com/image/data/40750_1.png",
+      "https://b2b.yugtorg.com/image/data/40750_2.png"
     ],
     "available": true,
     "price": 1450.0,
@@ -96714,8 +96935,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40751.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40751.png",
-      "https://b2b.yugtorg.com/image/data/40751_2.png",
-      "https://b2b.yugtorg.com/image/data/40751_1.png"
+      "https://b2b.yugtorg.com/image/data/40751_1.png",
+      "https://b2b.yugtorg.com/image/data/40751_2.png"
     ],
     "available": true,
     "price": 1450.0,
@@ -96739,9 +96960,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40480.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40480.png",
-      "https://b2b.yugtorg.com/image/data/40480_1.png",
+      "https://b2b.yugtorg.com/image/data/40480_3.png",
       "https://b2b.yugtorg.com/image/data/40480_2.png",
-      "https://b2b.yugtorg.com/image/data/40480_3.png"
+      "https://b2b.yugtorg.com/image/data/40480_1.png"
     ],
     "available": true,
     "price": 540.0,
@@ -96791,9 +97012,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40484.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40484.png",
+      "https://b2b.yugtorg.com/image/data/40484_3.png",
       "https://b2b.yugtorg.com/image/data/40484_2.png",
-      "https://b2b.yugtorg.com/image/data/40484_1.png",
-      "https://b2b.yugtorg.com/image/data/40484_3.png"
+      "https://b2b.yugtorg.com/image/data/40484_1.png"
     ],
     "available": true,
     "price": 540.0,
@@ -96817,9 +97038,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40485.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40485.png",
-      "https://b2b.yugtorg.com/image/data/40485_3.png",
+      "https://b2b.yugtorg.com/image/data/40485_1.png",
       "https://b2b.yugtorg.com/image/data/40485_2.png",
-      "https://b2b.yugtorg.com/image/data/40485_1.png"
+      "https://b2b.yugtorg.com/image/data/40485_3.png"
     ],
     "available": true,
     "price": 540.0,
@@ -96843,8 +97064,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40486.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40486.png",
-      "https://b2b.yugtorg.com/image/data/40486_2.png",
       "https://b2b.yugtorg.com/image/data/40486_3.png",
+      "https://b2b.yugtorg.com/image/data/40486_2.png",
       "https://b2b.yugtorg.com/image/data/40486_1.png"
     ],
     "available": true,
@@ -96866,8 +97087,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40489.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40489.png",
-      "https://b2b.yugtorg.com/image/data/40489_3.png",
       "https://b2b.yugtorg.com/image/data/40489_2.png",
+      "https://b2b.yugtorg.com/image/data/40489_3.png",
       "https://b2b.yugtorg.com/image/data/40489_1.png"
     ],
     "available": true,
@@ -96918,9 +97139,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40483.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40483.png",
+      "https://b2b.yugtorg.com/image/data/40483_3.png",
       "https://b2b.yugtorg.com/image/data/40483_1.png",
-      "https://b2b.yugtorg.com/image/data/40483_2.png",
-      "https://b2b.yugtorg.com/image/data/40483_3.png"
+      "https://b2b.yugtorg.com/image/data/40483_2.png"
     ],
     "available": true,
     "price": 540.0,
@@ -97006,8 +97227,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40703.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40703.png",
-      "https://b2b.yugtorg.com/image/data/40703_1.png",
-      "https://b2b.yugtorg.com/image/data/40703_2.png"
+      "https://b2b.yugtorg.com/image/data/40703_2.png",
+      "https://b2b.yugtorg.com/image/data/40703_1.png"
     ],
     "available": true,
     "price": 3160.0,
@@ -97028,8 +97249,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40718.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40718.png",
-      "https://b2b.yugtorg.com/image/data/40718_2.png",
-      "https://b2b.yugtorg.com/image/data/40718_1.png"
+      "https://b2b.yugtorg.com/image/data/40718_1.png",
+      "https://b2b.yugtorg.com/image/data/40718_2.png"
     ],
     "available": true,
     "price": 4100.0,
@@ -97081,8 +97302,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40722.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40722.png",
-      "https://b2b.yugtorg.com/image/data/40722_1.png",
-      "https://b2b.yugtorg.com/image/data/40722_2.png"
+      "https://b2b.yugtorg.com/image/data/40722_2.png",
+      "https://b2b.yugtorg.com/image/data/40722_1.png"
     ],
     "available": true,
     "price": 6140.0,
@@ -97103,8 +97324,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40711.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40711.png",
-      "https://b2b.yugtorg.com/image/data/40711_1.png",
-      "https://b2b.yugtorg.com/image/data/40711_2.png"
+      "https://b2b.yugtorg.com/image/data/40711_2.png",
+      "https://b2b.yugtorg.com/image/data/40711_1.png"
     ],
     "available": true,
     "price": 6440.0,
@@ -97227,9 +97448,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/41422.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/41422.png",
-      "https://b2b.yugtorg.com/image/data/41422_1.png",
       "https://b2b.yugtorg.com/image/data/41422_2.png",
-      "https://b2b.yugtorg.com/image/data/41422_3.png"
+      "https://b2b.yugtorg.com/image/data/41422_3.png",
+      "https://b2b.yugtorg.com/image/data/41422_1.png"
     ],
     "available": true,
     "price": 5200.0,
@@ -97295,8 +97516,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/34531.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/34531.png",
-      "https://b2b.yugtorg.com/image/data/34531_2.png",
-      "https://b2b.yugtorg.com/image/data/34531_1.png"
+      "https://b2b.yugtorg.com/image/data/34531_1.png",
+      "https://b2b.yugtorg.com/image/data/34531_2.png"
     ],
     "available": true,
     "price": 350.0,
@@ -97914,6 +98135,29 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-10604",
+    "sku": "99-00015171",
+    "category": "Електрика",
+    "subcategory": "",
+    "brand": "ETI",
+    "name": "Перемикач навантаження",
+    "model": "ЕТІ SSQ 440 \"1-0-2\", 4p 40A",
+    "description": "Модульні перемикачі навантаження SSQ I-0-II (мережа-генератор) забезпечують просте та надійне перемикання джерел живлення в разі аварійних ситуацій (наприклад, відключення електроенергії). Призначені для встановлення в розподільні щити. Не мають теплового та електромагнітного розчіплювача (не захищають від струмів короткого замикання та перевантажень). Можливе пломбування в положенні (І) та (ІІ). Контактна група забезпечує надійний розрив кола (відстань між контактами перемикача в розімкненому стані більше 3 мм).",
+    "features": [
+      "Розрахункова напруга, Un: 40",
+      "Номінальний струм, А: 40",
+      "Стандарти: IEC 60947-3",
+      "3 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-08/SSQ_440.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-08/SSQ_440.webp"
+    ],
+    "available": true,
+    "price": 949.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-20118",
     "sku": "99-10034708",
     "category": "Електрика",
@@ -98035,6 +98279,27 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 847.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-20136",
+    "sku": "99-10034727",
+    "category": "Електрика",
+    "subcategory": "",
+    "brand": "ETI",
+    "name": "Розподільний щит",
+    "model": "ETI ECT 12PT IP40",
+    "description": "● Спосіб монтажу: зовнішньої установки;● Номінальний струм (A): 63A;● Номінальна напруга AC (В): 400В;● Номінальна напруга DC (В): 400В;● Ступінь захисту IP: 40;● Кількість модулів (всього / в ряду): 12 ;● Кількість рядів: 1",
+    "features": [
+      "IP40",
+      "112 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/ECT12PT.webp",
+    "images": [
+      "https://viatec.ua/upload/2/ECT12PT.webp"
+    ],
+    "available": true,
+    "price": 714.0,
     "source_supplier": "viatec"
   },
   {
@@ -98828,48 +99093,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-14060",
-    "sku": "99-00020988",
-    "category": "Електрика",
-    "subcategory": "",
-    "brand": "Gembird",
-    "name": "Мережевий фільтр 1.8 м кабель 3 розеток",
-    "model": "Gembird SPG3-G-6B-PRO",
-    "description": "● Напруга: 220 В, 50 Гц;● Максимальне поглинання струму імпульсної перешкоди 4500 А;● Автоматичний запобіжник: 16 А;● Максимальна енергія, що поглинається (при тривалості стрибка напруги 2мкс): 125 Дж;● Площа поперечного перерізу кабелю: 1 мм 2;● Довжина: 1.8 м",
-    "features": [
-      "Довжина кабеля, м: 1.8",
-      "1 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-07/SPG3-G-10B-PRO(1).webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-07/SPG3-G-10B-PRO(1).webp"
-    ],
-    "available": true,
-    "price": 259.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-14061",
-    "sku": "99-00020989",
-    "category": "Електрика",
-    "subcategory": "",
-    "brand": "Gembird",
-    "name": "Мережевий фільтр 1.8 м кабель 3 розеток",
-    "model": "Gembird SPG3-G-6G-PRO",
-    "description": "● Напруга: 220 В, 50 Гц;● Максимальне поглинання струму імпульсної перешкоди 4500 А;● Автоматичний запобіжник: 16 А;● Максимальна енергія, що поглинається (при тривалості стрибка напруги 2мкс): 125 Дж;● Площа поперечного перерізу кабелю: 1 мм 2;● Довжина: 1.8 м",
-    "features": [
-      "Довжина кабеля, м: 1.8",
-      "1 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-07/SPG3-G-6G-PRO.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-07/SPG3-G-6G-PRO.webp"
-    ],
-    "available": true,
-    "price": 259.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-14067",
     "sku": "99-00020996",
     "category": "Електрика",
@@ -99389,28 +99612,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-11502",
-    "sku": "99-00016345",
-    "category": "Електрика",
-    "subcategory": "",
-    "brand": "Hager",
-    "name": "Диференціальне реле 2P, 6kA, 25A, 30mA, A",
-    "model": "Hager CDA225D",
-    "description": "Тип захисту від диференціального струму: AПідключення: 1P+NНомінальний струм: 25 АНомінальний струм витоку Idn: 30 мАКількість модулів: 2Перетин з'єднання входу та виходу з гвинтами, з гнучким дротом: 1&ndash;16 мм&sup2;Робоча температура: -25&ndash;40 &deg;C",
-    "features": [
-      "Розрахункова напруга, Un: 230В",
-      "Номінальний струм, А: 25",
-      "16 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2023-12/CDA225D.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2023-12/CDA225D.webp"
-    ],
-    "available": true,
-    "price": 1744.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-10540",
     "sku": "99-00015028",
     "category": "Електрика",
@@ -99451,6 +99652,27 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 1555.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22394",
+    "sku": "99-00021082",
+    "category": "Електрика",
+    "subcategory": "",
+    "brand": "Hager",
+    "name": "Шина вилкова",
+    "model": "Hager KDN163A 1-полюсна на 12 мод. 10mm²",
+    "description": "● Підключення: 1-полюсне;● Номінальне навантаження: 63А;● Кількість модулів: 12 модулів;● Матеріал провідника: мідь;● Поперечний переріз провідника: 10 мм&sup2;.",
+    "features": [
+      "Номінальний струм, А: 63",
+      "10 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/KDN163A.webp",
+    "images": [
+      "https://viatec.ua/upload/2/KDN163A.webp"
+    ],
+    "available": true,
+    "price": 166.0,
     "source_supplier": "viatec"
   },
   {
@@ -99580,8 +99802,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/38834.png",
       "https://b2b.yugtorg.com/image/data/38834_2.png",
-      "https://b2b.yugtorg.com/image/data/38834_3.png",
-      "https://b2b.yugtorg.com/image/data/38834_1.png"
+      "https://b2b.yugtorg.com/image/data/38834_1.png",
+      "https://b2b.yugtorg.com/image/data/38834_3.png"
     ],
     "available": true,
     "price": 570.0,
@@ -99602,8 +99824,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38835.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38835.png",
-      "https://b2b.yugtorg.com/image/data/38835_1.png",
-      "https://b2b.yugtorg.com/image/data/38835_2.png"
+      "https://b2b.yugtorg.com/image/data/38835_2.png",
+      "https://b2b.yugtorg.com/image/data/38835_1.png"
     ],
     "available": true,
     "price": 790.0,
@@ -99626,9 +99848,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/35090.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/35090.png",
+      "https://b2b.yugtorg.com/image/data/35090_3.png",
       "https://b2b.yugtorg.com/image/data/35090_2.png",
-      "https://b2b.yugtorg.com/image/data/35090_1.png",
-      "https://b2b.yugtorg.com/image/data/35090_3.png"
+      "https://b2b.yugtorg.com/image/data/35090_1.png"
     ],
     "available": true,
     "price": 585.0,
@@ -99652,9 +99874,9 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/35089.png",
       "https://b2b.yugtorg.com/image/data/35089_2.png",
-      "https://b2b.yugtorg.com/image/data/35089_3.png",
       "https://b2b.yugtorg.com/image/data/35089_1.png",
-      "https://b2b.yugtorg.com/image/data/35089_4.png"
+      "https://b2b.yugtorg.com/image/data/35089_4.png",
+      "https://b2b.yugtorg.com/image/data/35089_3.png"
     ],
     "available": true,
     "price": 650.0,
@@ -99675,11 +99897,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38832.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38832.png",
+      "https://b2b.yugtorg.com/image/data/38832_1.png",
       "https://b2b.yugtorg.com/image/data/38832_2.png",
       "https://b2b.yugtorg.com/image/data/38832_5.png",
       "https://b2b.yugtorg.com/image/data/38832_4.png",
-      "https://b2b.yugtorg.com/image/data/38832_3.png",
-      "https://b2b.yugtorg.com/image/data/38832_1.png"
+      "https://b2b.yugtorg.com/image/data/38832_3.png"
     ],
     "available": true,
     "price": 1450.0,
@@ -99727,8 +99949,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/35126.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/35126.png",
-      "https://b2b.yugtorg.com/image/data/35126_2.png",
-      "https://b2b.yugtorg.com/image/data/35126_1.png"
+      "https://b2b.yugtorg.com/image/data/35126_1.png",
+      "https://b2b.yugtorg.com/image/data/35126_2.png"
     ],
     "available": true,
     "price": 545.0,
@@ -99774,9 +99996,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38836.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38836.png",
+      "https://b2b.yugtorg.com/image/data/38836_3.png",
       "https://b2b.yugtorg.com/image/data/38836_1.png",
-      "https://b2b.yugtorg.com/image/data/38836_2.png",
-      "https://b2b.yugtorg.com/image/data/38836_3.png"
+      "https://b2b.yugtorg.com/image/data/38836_2.png"
     ],
     "available": true,
     "price": 699.0,
@@ -99821,10 +100043,10 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/38837.png",
       "https://b2b.yugtorg.com/image/data/38837_3.png",
+      "https://b2b.yugtorg.com/image/data/38837_5.png",
       "https://b2b.yugtorg.com/image/data/38837_2.png",
-      "https://b2b.yugtorg.com/image/data/38837_1.png",
       "https://b2b.yugtorg.com/image/data/38837_4.png",
-      "https://b2b.yugtorg.com/image/data/38837_5.png"
+      "https://b2b.yugtorg.com/image/data/38837_1.png"
     ],
     "available": true,
     "price": 820.0,
@@ -99843,9 +100065,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38833.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38833.png",
+      "https://b2b.yugtorg.com/image/data/38833_2.png",
       "https://b2b.yugtorg.com/image/data/38833_3.png",
-      "https://b2b.yugtorg.com/image/data/38833_1.png",
-      "https://b2b.yugtorg.com/image/data/38833_2.png"
+      "https://b2b.yugtorg.com/image/data/38833_1.png"
     ],
     "available": true,
     "price": 620.0,
@@ -99866,11 +100088,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38838.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38838.png",
-      "https://b2b.yugtorg.com/image/data/38838_1.png",
-      "https://b2b.yugtorg.com/image/data/38838_2.png",
-      "https://b2b.yugtorg.com/image/data/38838_3.png",
       "https://b2b.yugtorg.com/image/data/38838_4.png",
+      "https://b2b.yugtorg.com/image/data/38838_3.png",
       "https://b2b.yugtorg.com/image/data/38838_5.png",
+      "https://b2b.yugtorg.com/image/data/38838_2.png",
+      "https://b2b.yugtorg.com/image/data/38838_1.png",
       "https://b2b.yugtorg.com/image/data/38838_6.png"
     ],
     "available": true,
@@ -100113,8 +100335,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38745.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38745.png",
-      "https://b2b.yugtorg.com/image/data/38745_1.png",
-      "https://b2b.yugtorg.com/image/data/38745_2.png"
+      "https://b2b.yugtorg.com/image/data/38745_2.png",
+      "https://b2b.yugtorg.com/image/data/38745_1.png"
     ],
     "available": true,
     "price": 1250.0,
@@ -101720,6 +101942,47 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 473.64,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-23023",
+    "sku": "WLTA04502GR-UA",
+    "category": "Електрика",
+    "subcategory": "",
+    "brand": "PANASONIC",
+    "name": "Колодка Panasonic X-tendia із заземленням 5 гнізд, з захистними шторками, з вимикачем, сіра",
+    "model": "WLTA04502GR-UA",
+    "description": "Колодка Panasonic X-tendia з заземленням - надає можливість вибрати довжину кабелю, тип вилки і зібрати подовжувач своєї мрії на 5 розеток. Якщо ти звик самостійно робити вибір у своєму житті, ця колодка для тебе. Колодка Panasonic X-tendia - з зручністю для кожного! Характеристики: • тип - колодка • матеріал - пластик • кількість розеток - 5 шт. • потужність - 3500 Вт • максимальний струм - 16 А • з захисними шторками • з заземленням • з вимикачем • кількість в упаковці - 1 шт.",
+    "features": [
+      "3500 Вт"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/23023.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/23023.png"
+    ],
+    "available": true,
+    "price": 630.6,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-23024",
+    "sku": "WLTA04602BL-UA",
+    "category": "Електрика",
+    "subcategory": "",
+    "brand": "PANASONIC",
+    "name": "Колодка Panasonic X-tendia із заземленням 6 гнізд, з захистними шторками, з вимикачем, чорна",
+    "model": "WLTA04602BL-UA",
+    "description": "Колодка Panasonic X-tendia із заземленням - універсальна річ, яка подарує можливість вирішувати самому який подовжувач ти хочеш, двометровий, п`ятиметровий або ін. Дуже зручно час від часу швидко і легко міняти під свої потреби довжину, при цьому не купуючи новий подовжувач. Також можна закріпити колодку на стіну за допомогою знімного кріплення. Колодка Panasonic X-tendia – зроби як хочеш! Характеристики: • тип - колодка • знімне кріплення • матеріал – пластик • кількість розеток – 6 шт. • потужність – 3500 Вт • максимальний струм – 16 А • із захисними шторками • із заземленням • з вимикачем • кількість в упаковці – 1 шт.",
+    "features": [
+      "3500 Вт"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/23024.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/23024.png",
+      "https://b2b.yugtorg.com/image/data/23024_1.png"
+    ],
+    "available": true,
+    "price": 660.18,
     "source_supplier": "yugtorg"
   },
   {
@@ -103362,9 +103625,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36685.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36685.png",
-      "https://b2b.yugtorg.com/image/data/36685_3.png",
       "https://b2b.yugtorg.com/image/data/36685_2.png",
-      "https://b2b.yugtorg.com/image/data/36685_1.png"
+      "https://b2b.yugtorg.com/image/data/36685_1.png",
+      "https://b2b.yugtorg.com/image/data/36685_3.png"
     ],
     "available": true,
     "price": 615.0,
@@ -103383,10 +103646,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36517.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36517.png",
+      "https://b2b.yugtorg.com/image/data/36517_1.png",
       "https://b2b.yugtorg.com/image/data/36517_2.png",
       "https://b2b.yugtorg.com/image/data/36517_3.png",
-      "https://b2b.yugtorg.com/image/data/36517_4.png",
-      "https://b2b.yugtorg.com/image/data/36517_1.png"
+      "https://b2b.yugtorg.com/image/data/36517_4.png"
     ],
     "available": true,
     "price": 1760.0,
@@ -103405,9 +103668,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36689.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36689.png",
-      "https://b2b.yugtorg.com/image/data/36689_3.png",
+      "https://b2b.yugtorg.com/image/data/36689_1.png",
       "https://b2b.yugtorg.com/image/data/36689_2.png",
-      "https://b2b.yugtorg.com/image/data/36689_1.png"
+      "https://b2b.yugtorg.com/image/data/36689_3.png"
     ],
     "available": true,
     "price": 210.0,
@@ -103426,8 +103689,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36592.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36592.png",
-      "https://b2b.yugtorg.com/image/data/36592_2.png",
       "https://b2b.yugtorg.com/image/data/36592_3.png",
+      "https://b2b.yugtorg.com/image/data/36592_2.png",
       "https://b2b.yugtorg.com/image/data/36592_1.png"
     ],
     "available": true,
@@ -103449,10 +103712,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36657.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36657.png",
-      "https://b2b.yugtorg.com/image/data/36657_4.png",
+      "https://b2b.yugtorg.com/image/data/36657_1.png",
       "https://b2b.yugtorg.com/image/data/36657_3.png",
       "https://b2b.yugtorg.com/image/data/36657_2.png",
-      "https://b2b.yugtorg.com/image/data/36657_1.png"
+      "https://b2b.yugtorg.com/image/data/36657_4.png"
     ],
     "available": true,
     "price": 590.0,
@@ -103471,9 +103734,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36590.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36590.png",
-      "https://b2b.yugtorg.com/image/data/36590_3.png",
-      "https://b2b.yugtorg.com/image/data/36590_1.png",
       "https://b2b.yugtorg.com/image/data/36590_2.png",
+      "https://b2b.yugtorg.com/image/data/36590_1.png",
+      "https://b2b.yugtorg.com/image/data/36590_3.png",
       "https://b2b.yugtorg.com/image/data/36590_4.png"
     ],
     "available": true,
@@ -103494,8 +103757,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/36593.png",
       "https://b2b.yugtorg.com/image/data/36593_3.png",
-      "https://b2b.yugtorg.com/image/data/36593_2.png",
-      "https://b2b.yugtorg.com/image/data/36593_1.png"
+      "https://b2b.yugtorg.com/image/data/36593_1.png",
+      "https://b2b.yugtorg.com/image/data/36593_2.png"
     ],
     "available": true,
     "price": 530.0,
@@ -103516,8 +103779,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36591.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36591.png",
-      "https://b2b.yugtorg.com/image/data/36591_2.png",
       "https://b2b.yugtorg.com/image/data/36591_1.png",
+      "https://b2b.yugtorg.com/image/data/36591_2.png",
       "https://b2b.yugtorg.com/image/data/36591_3.png"
     ],
     "available": true,
@@ -103558,9 +103821,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36515.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36515.png",
-      "https://b2b.yugtorg.com/image/data/36515_2.png",
       "https://b2b.yugtorg.com/image/data/36515_1.png",
-      "https://b2b.yugtorg.com/image/data/36515_3.png"
+      "https://b2b.yugtorg.com/image/data/36515_3.png",
+      "https://b2b.yugtorg.com/image/data/36515_2.png"
     ],
     "available": true,
     "price": 480.0,
@@ -103581,9 +103844,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36687.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36687.png",
-      "https://b2b.yugtorg.com/image/data/36687_2.png",
       "https://b2b.yugtorg.com/image/data/36687_3.png",
-      "https://b2b.yugtorg.com/image/data/36687_1.png"
+      "https://b2b.yugtorg.com/image/data/36687_1.png",
+      "https://b2b.yugtorg.com/image/data/36687_2.png"
     ],
     "available": true,
     "price": 440.0,
@@ -103602,9 +103865,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36714.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36714.png",
-      "https://b2b.yugtorg.com/image/data/36714_1.png",
+      "https://b2b.yugtorg.com/image/data/36714_3.png",
       "https://b2b.yugtorg.com/image/data/36714_2.png",
-      "https://b2b.yugtorg.com/image/data/36714_3.png"
+      "https://b2b.yugtorg.com/image/data/36714_1.png"
     ],
     "available": true,
     "price": 440.0,
@@ -103679,9 +103942,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36713.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36713.png",
+      "https://b2b.yugtorg.com/image/data/36713_2.png",
       "https://b2b.yugtorg.com/image/data/36713_3.png",
       "https://b2b.yugtorg.com/image/data/36713_4.png",
-      "https://b2b.yugtorg.com/image/data/36713_2.png",
       "https://b2b.yugtorg.com/image/data/36713_1.png"
     ],
     "available": true,
@@ -103721,8 +103984,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36584.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36584.png",
-      "https://b2b.yugtorg.com/image/data/36584_1.png",
-      "https://b2b.yugtorg.com/image/data/36584_2.png"
+      "https://b2b.yugtorg.com/image/data/36584_2.png",
+      "https://b2b.yugtorg.com/image/data/36584_1.png"
     ],
     "available": true,
     "price": 1404.0,
@@ -103741,8 +104004,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36586.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36586.png",
-      "https://b2b.yugtorg.com/image/data/36586_2.png",
-      "https://b2b.yugtorg.com/image/data/36586_1.png"
+      "https://b2b.yugtorg.com/image/data/36586_1.png",
+      "https://b2b.yugtorg.com/image/data/36586_2.png"
     ],
     "available": true,
     "price": 1521.0,
@@ -103829,8 +104092,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36692.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36692.png",
-      "https://b2b.yugtorg.com/image/data/36692_1.png",
-      "https://b2b.yugtorg.com/image/data/36692_2.png"
+      "https://b2b.yugtorg.com/image/data/36692_2.png",
+      "https://b2b.yugtorg.com/image/data/36692_1.png"
     ],
     "available": true,
     "price": 995.0,
@@ -104109,8 +104372,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/22082.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/22082.png",
-      "https://b2b.yugtorg.com/image/data/22082_1.png",
-      "https://b2b.yugtorg.com/image/data/22082_2.png"
+      "https://b2b.yugtorg.com/image/data/22082_2.png",
+      "https://b2b.yugtorg.com/image/data/22082_1.png"
     ],
     "available": true,
     "price": 1808.0,
@@ -104472,8 +104735,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/36330.png",
       "https://b2b.yugtorg.com/image/data/36330_3.png",
-      "https://b2b.yugtorg.com/image/data/36330_2.png",
-      "https://b2b.yugtorg.com/image/data/36330_1.png"
+      "https://b2b.yugtorg.com/image/data/36330_1.png",
+      "https://b2b.yugtorg.com/image/data/36330_2.png"
     ],
     "available": true,
     "price": 451.0,
@@ -105007,8 +105270,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/20590.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/20590.png",
-      "https://b2b.yugtorg.com/image/data/20590_2.png",
       "https://b2b.yugtorg.com/image/data/20590_3.png",
+      "https://b2b.yugtorg.com/image/data/20590_2.png",
       "https://b2b.yugtorg.com/image/data/20590_1.png"
     ],
     "available": true,
@@ -105033,8 +105296,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/20591.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/20591.png",
-      "https://b2b.yugtorg.com/image/data/20591_1.png",
       "https://b2b.yugtorg.com/image/data/20591_2.png",
+      "https://b2b.yugtorg.com/image/data/20591_1.png",
       "https://b2b.yugtorg.com/image/data/20591_3.png"
     ],
     "available": true,
@@ -105698,9 +105961,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/43590.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/43590.png",
-      "https://b2b.yugtorg.com/image/data/43590_1.png",
+      "https://b2b.yugtorg.com/image/data/43590_3.png",
       "https://b2b.yugtorg.com/image/data/43590_2.png",
-      "https://b2b.yugtorg.com/image/data/43590_3.png"
+      "https://b2b.yugtorg.com/image/data/43590_1.png"
     ],
     "available": true,
     "price": 90.0,
@@ -105740,8 +106003,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/43591.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/43591.png",
-      "https://b2b.yugtorg.com/image/data/43591_3.png",
       "https://b2b.yugtorg.com/image/data/43591_1.png",
+      "https://b2b.yugtorg.com/image/data/43591_3.png",
       "https://b2b.yugtorg.com/image/data/43591_2.png"
     ],
     "available": true,
@@ -105783,9 +106046,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/34466.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/34466.png",
+      "https://b2b.yugtorg.com/image/data/34466_2.png",
       "https://b2b.yugtorg.com/image/data/34466_3.png",
       "https://b2b.yugtorg.com/image/data/34466_1.png",
-      "https://b2b.yugtorg.com/image/data/34466_2.png",
       "https://b2b.yugtorg.com/image/data/34466_4.png"
     ],
     "available": true,
@@ -106125,8 +106388,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40195.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40195.png",
-      "https://b2b.yugtorg.com/image/data/40195_1.png",
-      "https://b2b.yugtorg.com/image/data/40195_2.png"
+      "https://b2b.yugtorg.com/image/data/40195_2.png",
+      "https://b2b.yugtorg.com/image/data/40195_1.png"
     ],
     "available": true,
     "price": 260.0,
@@ -106212,10 +106475,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/24243.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/24243.png",
-      "https://b2b.yugtorg.com/image/data/24243_1.png",
+      "https://b2b.yugtorg.com/image/data/24243_2.png",
       "https://b2b.yugtorg.com/image/data/24243_3.png",
-      "https://b2b.yugtorg.com/image/data/24243_4.png",
-      "https://b2b.yugtorg.com/image/data/24243_2.png"
+      "https://b2b.yugtorg.com/image/data/24243_1.png",
+      "https://b2b.yugtorg.com/image/data/24243_4.png"
     ],
     "available": true,
     "price": 428.0,
@@ -106686,8 +106949,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/27225.png",
       "https://b2b.yugtorg.com/image/data/27225_2.png",
-      "https://b2b.yugtorg.com/image/data/27225_1.png",
-      "https://b2b.yugtorg.com/image/data/27225_3.png"
+      "https://b2b.yugtorg.com/image/data/27225_3.png",
+      "https://b2b.yugtorg.com/image/data/27225_1.png"
     ],
     "available": true,
     "price": 100.0,
@@ -106859,9 +107122,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38183.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38183.png",
+      "https://b2b.yugtorg.com/image/data/38183_3.png",
       "https://b2b.yugtorg.com/image/data/38183_1.png",
-      "https://b2b.yugtorg.com/image/data/38183_2.png",
-      "https://b2b.yugtorg.com/image/data/38183_3.png"
+      "https://b2b.yugtorg.com/image/data/38183_2.png"
     ],
     "available": true,
     "price": 315.0,
@@ -106927,9 +107190,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38170.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38170.png",
-      "https://b2b.yugtorg.com/image/data/38170_3.png",
       "https://b2b.yugtorg.com/image/data/38170_2.png",
-      "https://b2b.yugtorg.com/image/data/38170_1.png"
+      "https://b2b.yugtorg.com/image/data/38170_1.png",
+      "https://b2b.yugtorg.com/image/data/38170_3.png"
     ],
     "available": true,
     "price": 280.0,
@@ -106975,9 +107238,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38172.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38172.png",
+      "https://b2b.yugtorg.com/image/data/38172_3.png",
       "https://b2b.yugtorg.com/image/data/38172_1.png",
-      "https://b2b.yugtorg.com/image/data/38172_2.png",
-      "https://b2b.yugtorg.com/image/data/38172_3.png"
+      "https://b2b.yugtorg.com/image/data/38172_2.png"
     ],
     "available": true,
     "price": 288.0,
@@ -106999,9 +107262,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38174.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38174.png",
-      "https://b2b.yugtorg.com/image/data/38174_2.png",
       "https://b2b.yugtorg.com/image/data/38174_3.png",
-      "https://b2b.yugtorg.com/image/data/38174_1.png"
+      "https://b2b.yugtorg.com/image/data/38174_1.png",
+      "https://b2b.yugtorg.com/image/data/38174_2.png"
     ],
     "available": true,
     "price": 288.0,
@@ -107023,9 +107286,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38177.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38177.png",
-      "https://b2b.yugtorg.com/image/data/38177_1.png",
       "https://b2b.yugtorg.com/image/data/38177_3.png",
-      "https://b2b.yugtorg.com/image/data/38177_2.png"
+      "https://b2b.yugtorg.com/image/data/38177_2.png",
+      "https://b2b.yugtorg.com/image/data/38177_1.png"
     ],
     "available": true,
     "price": 295.0,
@@ -107047,9 +107310,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38178.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38178.png",
-      "https://b2b.yugtorg.com/image/data/38178_3.png",
       "https://b2b.yugtorg.com/image/data/38178_1.png",
-      "https://b2b.yugtorg.com/image/data/38178_2.png"
+      "https://b2b.yugtorg.com/image/data/38178_2.png",
+      "https://b2b.yugtorg.com/image/data/38178_3.png"
     ],
     "available": true,
     "price": 290.0,
@@ -107384,8 +107647,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/23269.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/23269.png",
-      "https://b2b.yugtorg.com/image/data/23269_1.png",
-      "https://b2b.yugtorg.com/image/data/23269_2.png"
+      "https://b2b.yugtorg.com/image/data/23269_2.png",
+      "https://b2b.yugtorg.com/image/data/23269_1.png"
     ],
     "available": true,
     "price": 627.0,
@@ -107404,15 +107667,15 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/23282.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/23282.png",
-      "https://b2b.yugtorg.com/image/data/23282_4.png",
-      "https://b2b.yugtorg.com/image/data/23282_7.png",
-      "https://b2b.yugtorg.com/image/data/23282_9.png",
-      "https://b2b.yugtorg.com/image/data/23282_8.png",
-      "https://b2b.yugtorg.com/image/data/23282_1.png",
       "https://b2b.yugtorg.com/image/data/23282_2.png",
+      "https://b2b.yugtorg.com/image/data/23282_9.png",
+      "https://b2b.yugtorg.com/image/data/23282_7.png",
+      "https://b2b.yugtorg.com/image/data/23282_1.png",
+      "https://b2b.yugtorg.com/image/data/23282_8.png",
+      "https://b2b.yugtorg.com/image/data/23282_6.png",
       "https://b2b.yugtorg.com/image/data/23282_5.png",
-      "https://b2b.yugtorg.com/image/data/23282_3.png",
-      "https://b2b.yugtorg.com/image/data/23282_6.png"
+      "https://b2b.yugtorg.com/image/data/23282_4.png",
+      "https://b2b.yugtorg.com/image/data/23282_3.png"
     ],
     "available": true,
     "price": 2253.0,
@@ -107471,8 +107734,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/23280.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/23280.png",
-      "https://b2b.yugtorg.com/image/data/23280_1.png",
       "https://b2b.yugtorg.com/image/data/23280_3.png",
+      "https://b2b.yugtorg.com/image/data/23280_1.png",
       "https://b2b.yugtorg.com/image/data/23280_2.png"
     ],
     "available": true,
@@ -107558,8 +107821,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/39152.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/39152.png",
-      "https://b2b.yugtorg.com/image/data/39152_2.png",
-      "https://b2b.yugtorg.com/image/data/39152_1.png"
+      "https://b2b.yugtorg.com/image/data/39152_1.png",
+      "https://b2b.yugtorg.com/image/data/39152_2.png"
     ],
     "available": true,
     "price": 1640.0,
@@ -107606,8 +107869,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/39151.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/39151.png",
-      "https://b2b.yugtorg.com/image/data/39151_2.png",
-      "https://b2b.yugtorg.com/image/data/39151_1.png"
+      "https://b2b.yugtorg.com/image/data/39151_1.png",
+      "https://b2b.yugtorg.com/image/data/39151_2.png"
     ],
     "available": true,
     "price": 1470.0,
@@ -107672,8 +107935,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/39155.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/39155.png",
-      "https://b2b.yugtorg.com/image/data/39155_2.png",
-      "https://b2b.yugtorg.com/image/data/39155_1.png"
+      "https://b2b.yugtorg.com/image/data/39155_1.png",
+      "https://b2b.yugtorg.com/image/data/39155_2.png"
     ],
     "available": true,
     "price": 1640.0,
@@ -107692,8 +107955,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/39156.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/39156.png",
-      "https://b2b.yugtorg.com/image/data/39156_2.png",
-      "https://b2b.yugtorg.com/image/data/39156_1.png"
+      "https://b2b.yugtorg.com/image/data/39156_1.png",
+      "https://b2b.yugtorg.com/image/data/39156_2.png"
     ],
     "available": true,
     "price": 1870.0,
@@ -107736,10 +107999,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/39154.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/39154.png",
+      "https://b2b.yugtorg.com/image/data/39154_1.png",
       "https://b2b.yugtorg.com/image/data/39154_4.png",
-      "https://b2b.yugtorg.com/image/data/39154_3.png",
       "https://b2b.yugtorg.com/image/data/39154_2.png",
-      "https://b2b.yugtorg.com/image/data/39154_1.png"
+      "https://b2b.yugtorg.com/image/data/39154_3.png"
     ],
     "available": true,
     "price": 1642.0,
@@ -108440,6 +108703,26 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-15041",
+    "sku": "99-00022410",
+    "category": "Електрика",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Корпус пластиковий 12 модульний навісний",
+    "model": "UEA",
+    "description": "● Тип монтажу Навісний;● Кількість модулів 12;● Габарити (ВхШхГ) 220х295х100;● Ступінь захисту IP40;● Комплектація - нульова шина, DIN-рейка;● Ступінь ударостійкості ІК07.",
+    "features": [
+      "IP40"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-10/UEA4312.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-10/UEA4312.webp"
+    ],
+    "available": true,
+    "price": 453.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-12463",
     "sku": "99-00017888",
     "category": "Електрика",
@@ -108457,26 +108740,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 701.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-15042",
-    "sku": "99-00022412",
-    "category": "Електрика",
-    "subcategory": "",
-    "brand": "Інший виробник",
-    "name": "Корпус пластиковий 24 модульний навісний",
-    "model": "UEA",
-    "description": "● Тип монтажу Навісний;● Кількість модулів 24;● Ступінь захисту IP40",
-    "features": [
-      "IP40"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-10/MD9310ADALPANO.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-10/MD9310ADALPANO.webp"
-    ],
-    "available": true,
-    "price": 707.0,
     "source_supplier": "viatec"
   },
   {
@@ -108519,48 +108782,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 699.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-22311",
-    "sku": "99-10039217",
-    "category": "Електрика",
-    "subcategory": "",
-    "brand": "Інший виробник",
-    "name": "Мережевий фільтр",
-    "model": "ColorWay CCA-3G1MM 5 розеток 5м",
-    "description": "● Кількість мережевих розеток: 5;● Довжина кабеля: 5 м;&nbsp;● Номінальний струм: 10A, 2500Вт;● Номінальна напруга: 250В;● Вимикач&nbsp;",
-    "features": [
-      "Довжина кабеля, м: 5",
-      "2500Вт"
-    ],
-    "image": "https://viatec.ua/upload/2/CW-PSEA1055BK_04.webp",
-    "images": [
-      "https://viatec.ua/upload/2/CW-PSEA1055BK_04.webp"
-    ],
-    "available": true,
-    "price": 350.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-22312",
-    "sku": "99-10039218",
-    "category": "Електрика",
-    "subcategory": "",
-    "brand": "Інший виробник",
-    "name": "Мережевий фільтр",
-    "model": "ColorWay CCA-3G1MM 5 розеток 5м White",
-    "description": "● Кількість мережевих розеток: 5;● Довжина кабеля: 5 м;&nbsp;● Номінальний струм: 10A, 2500Вт;● Номінальна напруга: 250В;● Вимикач&nbsp;",
-    "features": [
-      "Довжина кабеля, м: 5",
-      "2500Вт"
-    ],
-    "image": "https://viatec.ua/upload/2/CW-PSEA1055W_04.webp",
-    "images": [
-      "https://viatec.ua/upload/2/CW-PSEA1055W_04.webp"
-    ],
-    "available": true,
-    "price": 350.0,
     "source_supplier": "viatec"
   },
   {
@@ -108729,6 +108950,26 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 41.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-21395",
+    "sku": "99-10036393",
+    "category": "Електрика",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Подовжувач 3 гнізда без заземлення",
+    "model": "3 метра (2х0,75)",
+    "description": "● Без заземлення;● Довжина 3 м",
+    "features": [
+      "Довжина кабеля, м: 3"
+    ],
+    "image": "https://viatec.ua/upload/2/pdvzh3bzm.webp",
+    "images": [
+      "https://viatec.ua/upload/2/pdvzh3bzm.webp"
+    ],
+    "available": true,
+    "price": 121.0,
     "source_supplier": "viatec"
   },
   {
@@ -108963,7 +109204,7 @@ window.ALTCAM_CATALOG = [
       "https://viatec.ua/upload/2/ALLPOWERSR25001.webp"
     ],
     "available": true,
-    "price": 49000.0,
+    "price": 50761.0,
     "source_supplier": "viatec"
   },
   {
@@ -109192,24 +109433,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-11857",
-    "sku": "99-00015861",
-    "category": "Зарядні пристрої",
-    "subcategory": "",
-    "brand": "Voltronic",
-    "name": "Балансир для акумуляторних батарей",
-    "model": "Voltronic 12V BE-12",
-    "description": "Балансир для акумуляторних батарей 12V BE-12 під 1 елемент 2шт упаковка ціна за 1 шт",
-    "features": [],
-    "image": "https://viatec.ua/upload/images/prod/2024-01/2/18036-583x500.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-01/2/18036-583x500.webp"
-    ],
-    "available": true,
-    "price": 842.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-9620",
     "sku": "99-00013433",
     "category": "Зарядні пристрої",
@@ -109326,31 +109549,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-22300",
-    "sku": "99-10039138",
-    "category": "Зарядні пристрої",
-    "subcategory": "",
-    "brand": "Інший виробник",
-    "name": "Портативна зарядна станція",
-    "model": "AFERIY AF-P010 512Wh 800W",
-    "description": "● Ємність 512Вт &bull; год;● Вихідна потужність АС 800 Вт;● Заряджання змінного струму &nbsp;400 Вт макс.;● MPPT-вхід 11,5-50 В 8 А 200 Вт макс;● Вихід USB (QC3.0 18W)*2;● Вихід TYPE-C (PD 100 Вт)*1; (PD 20 Вт)*2;● Вихід DC 6530 12В/10А;● Вихід прикурювача 12В/10А;● 272 x 184,5 x 240 мм, вага 6,5 кг",
-    "features": [
-      "Номінальна потужність, Вт: 800",
-      "Ємність, Вт·г: 512",
-      "240 мм",
-      "800W",
-      "512Вт",
-      "800 Вт"
-    ],
-    "image": "https://viatec.ua/upload/2/AFERIYAF-P010.webp",
-    "images": [
-      "https://viatec.ua/upload/2/AFERIYAF-P010.webp"
-    ],
-    "available": true,
-    "price": 19001.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-22301",
     "sku": "99-10039139",
     "category": "Зарядні пристрої",
@@ -109401,31 +109599,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-21919",
-    "sku": "99-10038501",
-    "category": "Зарядні пристрої",
-    "subcategory": "",
-    "brand": "Інший виробник",
-    "name": "Портативний зарядний пристрій",
-    "model": "IEETEK Singo2000 Plus",
-    "description": "● Тип елементів: LiFePO4;● Ємність акумулятора: 1920 Вт&middot;год;● Номінальна потужність AC: 2400 Вт;● Пікова потужність: 4800 Вт;● USB-TypeC (x2): 100 Вт кожен, 5 В, 9 В, 12 В, 15 В 3 А, 20 В 5 А;● Макс. струм розряджання: 90 А;● Життєвий цикл (при 25&deg;C, розряд 0.5C, DOD80%): 4000+;● Потужність заряджання від AC: 1800 Вт;● Макс. потужність заряджання від авто: 120 Вт;● Макс. потужність заряджання від сонця: 500 Вт;● 355 х 355 х 226 мм, 21 кг",
-    "features": [
-      "Номінальна потужність, Вт: 2400",
-      "Ємність, Вт·г: 1920",
-      "Wi-Fi",
-      "226 мм",
-      "1920 Вт",
-      "2400 Вт"
-    ],
-    "image": "https://viatec.ua/upload/2/Singo2000Plus111.webp",
-    "images": [
-      "https://viatec.ua/upload/2/Singo2000Plus111.webp"
-    ],
-    "available": true,
-    "price": 50999.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-21920",
     "sku": "99-10038502",
     "category": "Зарядні пристрої",
@@ -109448,31 +109621,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 36999.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-22299",
-    "sku": "99-10039137",
-    "category": "Зарядні пристрої",
-    "subcategory": "",
-    "brand": "Інший виробник",
-    "name": "Портативний зарядний пристрій",
-    "model": "IEETEK Singo 3000 3200W/2048Wh",
-    "description": "● Тип акумулятора LiFePO4;● Місткість 2048Wh;● Номінальний струм заряджання 40 А;● Номінальний струм розрядки 40 А;● Кількість циклів 4000+;● AC потужність заряджання (Single) 1800 Вт;● AC потужність заряджання (Parallel) 2500 Вт;● PF (коефіцієнт потужності) &gt;0.99;● MPPT діапазон 45&ndash;55 В (220&ndash;240 В мод.);● Максимальна потужність PV 1800 Вт;● Максимальний PV 150 В 30 А;● Номінальна потужність AC 3200 Вт;● Пікова AC потужність 6400 Вт;● Порти USB-A 12 Вт, 5В2.4А;● Порти USB-C PD 100 Вт;● DC5521 12.3В⎓10А;● XT60 12.3В10А;● Автомобільний вихід 12.3В10А;● Комунікації Wi-Fi/Bluetooth;● Габарити 355&times;328&times;329 мм;● Вага 37.4 кг",
-    "features": [
-      "Номінальна потужність, Вт: 3200",
-      "Ємність, Вт·г: 2048",
-      "Wi-Fi",
-      "329 мм",
-      "3200W",
-      "1800 Вт"
-    ],
-    "image": "https://viatec.ua/upload/2/singoo3000.webp",
-    "images": [
-      "https://viatec.ua/upload/2/singoo3000.webp"
-    ],
-    "available": true,
-    "price": 48000.0,
     "source_supplier": "viatec"
   },
   {
@@ -110286,7 +110434,7 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/03493.png"
     ],
     "available": true,
-    "price": 1750.0,
+    "price": 1642.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -110390,7 +110538,7 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/11354.png"
     ],
     "available": true,
-    "price": 2031.0,
+    "price": 1865.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -110470,7 +110618,7 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/06494.png"
     ],
     "available": true,
-    "price": 7337.0,
+    "price": 6884.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -110531,7 +110679,7 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/10941.png"
     ],
     "available": true,
-    "price": 2369.0,
+    "price": 2031.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -110968,6 +111116,27 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
+    "id": "viatec-18278",
+    "sku": "99-10026897",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "RITAR",
+    "name": "Кабель",
+    "model": "Ritar зовнішній з дротом КНПП UTP (4*2*0.51) 4p 24 AWG ПЕ (305м) чорний",
+    "description": "● Тип монтажу; зовнішній;● Довжина; 305 м;● Кількість жил: 8;● Кількість пар: 4 (кручені пари);● Діаметр провідника: 0.51 мм (24 AWG);● Екран: UTP;● Тип матеріалу оболонки: ПЕ;● Тип матеріалу жили: біметал",
+    "features": [
+      "Довжина кабеля: 305 м",
+      "0.51 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/ritar-4p-24-AWG.webp",
+    "images": [
+      "https://viatec.ua/upload/2/ritar-4p-24-AWG.webp"
+    ],
+    "available": true,
+    "price": 2630.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-22364",
     "sku": "99-10039145",
     "category": "Кабельна продукція",
@@ -111351,6 +111520,66 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
+    "id": "yugtorg-3494",
+    "sku": "KNPRTCCA405100B-305",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Кабель КНП UTP (4 * 2 * 0.5) 4p 24 AWG, Ritar, (CCA), ізоляція ПЕ, для зовн. робіт, 305м, Black, Corton BOX (350x350x430)",
+    "model": "KNPRTCCA405100B-305",
+    "description": "Кабель Ritar КНП UTP (4*2*0.5) - допоможе провести високошвидкісний інтернет та налагодити систему відеоспостереження. З даним кабелем забезпечена лише висока швидкість передачі сигналу, адже це Ritar, а з ним інакше не буває! Застосування: • Прокладка інтернету зовнішнім способом, від будівлі до будівлі або підземної траси. • Для систем відеоспостереження Характеристики: • Тип монтажу; зовнішній • Довжина; 305 м • Кількість жил: 8 • Кількість пар: 4 (кручені пари) • Діаметр провідника: 0.5 мм (24 AWG) • Екран: UTP • Тип матеріалу оболонки: ПЕ • Тип матеріалу жили: біметал • Колір чорний • Упаковка: коробка",
+    "features": [
+      "0.5 мм"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/03494.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/03494.png"
+    ],
+    "available": true,
+    "price": 1642.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-5058",
+    "sku": "KNPRTCCA405305BOEM",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Кабель КНП UTP (4 * 2 * 0.5) 4p 24 AWG, Ritar, (CCA), ізоляція ПЕ, для зовн. робіт, 305м, Black, по 4 штуки в мішку",
+    "model": "KNPRTCCA405305BOEM",
+    "description": "Кабель Ritar КНП UTP (4*2*0.5) - допоможе провести високошвидкісний інтернет та налагодити систему відеоспостереження. З даним кабелем забезпечена лише висока швидкість передачі сигналу, адже це Ritar, а з ним інакше не буває! Застосування: • Прокладка інтернету зовнішнім способом, від будівлі до будівлі або підземної траси. • Для систем відеоспостереження Характеристики: • Тип монтажу; зовнішній • Довжина; 305 м • Кількість жил: 8 • Кількість пар: 4 (кручені пари) • Діаметр провідника: 0.5 мм (24 AWG) • Екран: UTP • Тип матеріалу оболонки: ПЕ • Тип матеріалу жили: біметал • Колір чорний • Упаковка: мішок • Кількість в упаковці: 4 шт",
+    "features": [
+      "0.5 мм"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/05058.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/05058.png"
+    ],
+    "available": true,
+    "price": 1584.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-22513",
+    "sku": "KNPRTCCA40550B",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Кабель КНП UTP (4 * 2 * 0.5) 4p 24 AWG, Ritar, (CCA), ізоляція ПЕ, для зовн. робіт, 50м, Black, Corton BOX",
+    "model": "KNPRTCCA40550B",
+    "description": "Кабель Ritar КНП UTP (4*2*0.5) - допоможе провести високошвидкісний інтернет та налагодити систему відеоспостереження. З даним кабелем забезпечена лише висока швидкість передачі сигналу, адже це Ritar, а з ним інакше не буває! Застосування: • Прокладка інтернету зовнішнім способом, від будівлі до будівлі або підземної траси. • Для систем відеоспостереження Характеристики: • Тип монтажу; зовнішній • Довжина; 50 м • Кількість жил: 8 • Кількість пар: 4 (кручені пари) • Діаметр провідника: 0.5 мм (24 AWG) • Екран: UTP • Тип матеріалу оболонки: ПЕ • Тип матеріалу жили: біметал • Колір чорний • Упаковка: коробка",
+    "features": [
+      "0.5 мм"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/22513.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/22513.png"
+    ],
+    "available": true,
+    "price": 368.0,
+    "source_supplier": "yugtorg"
+  },
+  {
     "id": "yugtorg-3495",
     "sku": "KNPRTCCA4051305B",
     "category": "Кабельна продукція",
@@ -111368,7 +111597,7 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/03495.png"
     ],
     "available": true,
-    "price": 2031.0,
+    "price": 1923.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -111389,6 +111618,26 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 9872.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-6712",
+    "sku": "KNPRTCU4056305W",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Кабель КНП UTP-cat.6 (4 * 2 * 0.56), Ritar, (CU), для зовн. робіт, 305м, Black, Corton BOX",
+    "model": "KNPRTCU4056305W",
+    "description": "Кабель Ritar КНП UTP-cat.6 (4*2*0.56) - допоможе провести високошвидкісний інтернет та налагодити систему відеоспостереження. З даним кабелем забезпечена лише висока швидкість передачі сигналу, адже це Ritar, а з ним інакше не буває! Застосування: • Прокладка інтернету зовнішнім способом, від будівлі до будівлі або підземної траси. • Для систем відеоспостереження Характеристики: • Тип монтажу; зовнішній • Довжина; 305 м • Кількість жил: 8 • Кількість пар: 4 (кручені пари) • Діаметр провідника: 0.56 мм • Екран: UTP • Матеріал жил: мідь • Категорія: cat.6 • максимальна швидкість передачі даних: 1000 Мбіт / с на відстані 37-55 метрів • Black color • Упаковка: картонна коробка",
+    "features": [
+      "0.56 мм"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/06712.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/06712.png"
+    ],
+    "available": true,
+    "price": 8748.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -111449,7 +111698,27 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/03497.png"
     ],
     "available": true,
-    "price": 2088.0,
+    "price": 2031.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-553",
+    "sku": "KNPFRTCU4054305W",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Кабель КНПЕ FTP-cat.6 (4 * 2 * 0.54), Ritar, (CU), для зовн. робіт, 305м, BLACK, Катушка",
+    "model": "KNPFRTCU4054305W",
+    "description": "Кабель Ritar КНПЕ FTP-cat.6 (4*2*0.54) - допоможе провести високошвидкісний інтернет та налагодити систему відеоспостереження. З даним кабелем забезпечена лише висока швидкість передачі сигналу, адже це Ritar, а з ним інакше не буває! Застосування: • Прокладка інтернету зовнішнім способом, від будівлі до будівлі або підземної траси. • Для систем відеоспостереження Характеристики: • Тип монтажу; зовнішній • Довжина; 305 м • Кількість жил: 8 • Кількість пар: 4 (кручені пари) • Діаметр провідника: 0.54 мм • Екран: FTP • Матеріал жил: мідь • Категорія: cat.6 • максимальна швидкість передачі даних: 1000 Мбіт / с на відстані 37-55 метрів • Колір білий • Упаковка: картонна коробка",
+    "features": [
+      "0.54 мм"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/00553.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/00553.png"
+    ],
+    "available": true,
+    "price": 8460.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -111490,7 +111759,7 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/11830.png"
     ],
     "available": true,
-    "price": 2996.0,
+    "price": 2880.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -111511,7 +111780,7 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/03503.png"
     ],
     "available": true,
-    "price": 2996.0,
+    "price": 2657.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -112698,27 +112967,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-21970",
-    "sku": "99-00014784",
-    "category": "Кабельна продукція",
-    "subcategory": "",
-    "brand": "Vector",
-    "name": "Кабель сигнальний 100м",
-    "model": "Vector 6х0.22 Cu",
-    "description": "● Тип пристрою Кабель сигнальний;● Діаметр жили 0.22 мм;● Довжина 100 м;● Матеріал жили Мідь (Cu);● Кількість жил 6;● Перетин кабелю 0.22 мм&sup2;;● Опір кабелю 8.5 Ом/100 м",
-    "features": [
-      "Довжина кабеля: 100 м",
-      "0.22 мм"
-    ],
-    "image": "https://viatec.ua/upload/2/vector80022cu.webp",
-    "images": [
-      "https://viatec.ua/upload/2/vector80022cu.webp"
-    ],
-    "available": true,
-    "price": 1758.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "yugtorg-9991",
     "sku": "MR-CBLAC2050",
     "category": "Кабельна продукція",
@@ -112870,26 +113118,6 @@ window.ALTCAM_CATALOG = [
     "available": true,
     "price": 3393.0,
     "source_supplier": "yugtorg"
-  },
-  {
-    "id": "viatec-5877",
-    "sku": "99-00008565",
-    "category": "Кабельна продукція",
-    "subcategory": "",
-    "brand": "ЗЗКМ",
-    "name": "Дріт ЗЗКМ",
-    "model": "ШВВП 2х1 (бухта 100м.)",
-    "description": "Температура експлуатації кабелю від -40 до +40 &deg; С; Довго допустима температура нагріву жил кабелів при експлуатації + 70 &deg; С; термін служби щонайменше 6 років; Гарантійний термін експлуатації &ndash; 2 роки; Температура прокладки не нижче -5 &deg; С; Кількість жил 2; Площа перетину жили 1 мм2",
-    "features": [
-      "Довжина кабеля: 100 м"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/shvvp21.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/shvvp21.webp"
-    ],
-    "available": true,
-    "price": 2793.0,
-    "source_supplier": "viatec"
   },
   {
     "id": "viatec-5879",
@@ -117371,8 +117599,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/25193.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/25193.png",
-      "https://b2b.yugtorg.com/image/data/25193_2.png",
-      "https://b2b.yugtorg.com/image/data/25193_1.png"
+      "https://b2b.yugtorg.com/image/data/25193_1.png",
+      "https://b2b.yugtorg.com/image/data/25193_2.png"
     ],
     "available": true,
     "price": 3795.42,
@@ -117509,8 +117737,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/25196.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/25196.png",
-      "https://b2b.yugtorg.com/image/data/25196_2.png",
-      "https://b2b.yugtorg.com/image/data/25196_1.png"
+      "https://b2b.yugtorg.com/image/data/25196_1.png",
+      "https://b2b.yugtorg.com/image/data/25196_2.png"
     ],
     "available": true,
     "price": 9217.26,
@@ -117529,8 +117757,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/01220.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/01220.png",
-      "https://b2b.yugtorg.com/image/data/01220_1.png",
-      "https://b2b.yugtorg.com/image/data/01220_2.png"
+      "https://b2b.yugtorg.com/image/data/01220_2.png",
+      "https://b2b.yugtorg.com/image/data/01220_1.png"
     ],
     "available": true,
     "price": 144.09,
@@ -118817,6 +119045,29 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-4424",
+    "sku": "99-00004790",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "Одескабель(ОК-net)",
+    "name": "Кабель (FTP мідь зовнішній)",
+    "model": "OK-Net КППЭ-ВП (100) FTP кат.5е, 4х2х0.51 бухта 305м",
+    "description": "Кабель FTP мідь Зовнішній, кат. 5е, зовнішній, чорний ПЕ, пласт.катушка 305м, Одескабель",
+    "features": [
+      "Вхідна напруга: 72В",
+      "Довжина кабеля: 305 м",
+      "Матеріал: мідь",
+      "0.51мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/ok-net-kpv-vp-FTP-cat5e.jpg",
+    "images": [
+      "https://viatec.ua/upload/images/prod/ok-net-kpv-vp-FTP-cat5e.jpg"
+    ],
+    "available": true,
+    "price": 10935.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-10346",
     "sku": "99-00014606",
     "category": "Кабельна продукція",
@@ -119004,6 +119255,27 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-11959",
+    "sku": "99-00006733",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "Одескабель(ОК-net)",
+    "name": "Кабель (мідь вуличний з тросом) UTP бухта 500 м",
+    "model": "OK-Net 4*2*0,51 КППт-ВП (100) трос 7*0,5мм cat 5e,",
+    "description": "● Тип кручений пари: UTP;● Матеріал жили: мідь;● Площа поперечного перерізу жили, мм кв.: 0.51;● Кількість жил: 8;● З несучим елементом: з тросом;● Тип укладання: зовнішня;● Колір: чорний;● Довжина в бухті, м: 500",
+    "features": [
+      "Довжина кабеля: 500м",
+      "0,5мм"
+    ],
+    "image": "https://viatec.ua/upload/images/12-241/kabel-odeskabel-ok-net-kppt-vp-100-utp-kat-5e-utp-med-naruzhnyy-s-trosom-bukhta-500-m-123055.webp",
+    "images": [
+      "https://viatec.ua/upload/images/12-241/kabel-odeskabel-ok-net-kppt-vp-100-utp-kat-5e-utp-med-naruzhnyy-s-trosom-bukhta-500-m-123055.webp"
+    ],
+    "available": true,
+    "price": 20547.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-5736",
     "sku": "99-00007301",
     "category": "Кабельна продукція",
@@ -119024,26 +119296,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 8154.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-18562",
-    "sku": "99-10027557",
-    "category": "Кабельна продукція",
-    "subcategory": "",
-    "brand": "Одескабель(ОК-net)",
-    "name": "Кабель OK-net трос 500м",
-    "model": "КППЕт-ВП (100) 4 2 0,51 (FTP-cat.5E) OK-net, СU, ПЭ, экр., З трос. 7 * 0,5",
-    "description": "Ізоляція жил - поліетилен (ПЕ); Екран - алюмополімерна стрічка, накладена подовжньо або спірально; Діаметр струмопровідних жил, мм 0.5; Омічна асиметрія жил в парі,% 5; Електричний опір ізоляції, не менше, МОм&bull;км 5000",
-    "features": [
-      "Довжина кабеля: 500 м"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/image.psd(14).jpg",
-    "images": [
-      "https://viatec.ua/upload/images/prod/image.psd(14).jpg"
-    ],
-    "available": true,
-    "price": 23808.0,
     "source_supplier": "viatec"
   },
   {
@@ -119089,23 +119341,24 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-11962",
-    "sku": "99-00016992",
+    "id": "viatec-11965",
+    "sku": "99-00015885",
     "category": "Кабельна продукція",
     "subcategory": "",
     "brand": "Одескабель(ОК-net)",
-    "name": "Кабель UTP мідь вуличний 6-а кат. 305м",
-    "model": "OK-Net КПП-ВП (250) 4*2*0,57 (U/UTP-cat.6)",
-    "description": "● Тип обладнання Зовнішній кабель;● Тип кабелю UTP;● Кількість пар 4;● Категорія кат. 6;● Перетин кабелю 0,57;● Оболонка кабелю PE (Поліетилен);● Матеріал Мідь;● В упаковці 305м",
+    "name": "Кабель вуличний 4*2*0,51 (F/UTP-cat.5E) 500 м",
+    "model": "OK-Net КППЭ-ВП (100)",
+    "description": "● Діаметр жили: 0.51 мм;● Кількість пар: 4;● Матеріал жили: Мідь;● Тип кабелю: FTP;● Застосування: Зовнішнє;● Категорія: Cat 5E;● Матеріал оболонки: Поліетилен",
     "features": [
-      "Довжина кабеля: 305м"
+      "Довжина кабеля: 500м",
+      "0.51 мм"
     ],
-    "image": "https://viatec.ua/upload/images/12-241/kpp-vp-250-4-2-0-57-u-utp-cat-6___rs_442_442.webp",
+    "image": "https://viatec.ua/upload/images/12-241/futpcat5e.webp",
     "images": [
-      "https://viatec.ua/upload/images/12-241/kpp-vp-250-4-2-0-57-u-utp-cat-6___rs_442_442.webp"
+      "https://viatec.ua/upload/images/12-241/futpcat5e.webp"
     ],
     "available": true,
-    "price": 12449.0,
+    "price": 17926.0,
     "source_supplier": "viatec"
   },
   {
@@ -119269,6 +119522,27 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 3765.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-19530",
+    "sku": "99-00017937",
+    "category": "Кабельна продукція",
+    "subcategory": "",
+    "brand": "Одескабель(ОК-net)",
+    "name": "Кабель зовнішній",
+    "model": "Одескабель КППЭ-ВП (100) (F/UTP-cat.5E-SL) 305м",
+    "description": "● Тип кабелю F/UTP;● Кількість пар 4;● Категорія кат. 5e-SL;● Тип обладнання зовнішній кабель;● Матеріал мідь;● В упаковці 305м;● Оболонка кабелю PE (Поліетилен);● Перетин кабелю 0,46 мм&sup2;",
+    "features": [
+      "Довжина кабеля: 305 м",
+      "0,46 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/kppe-vp-25022.webp",
+    "images": [
+      "https://viatec.ua/upload/2/kppe-vp-25022.webp"
+    ],
+    "available": true,
+    "price": 8725.0,
     "source_supplier": "viatec"
   },
   {
@@ -121511,31 +121785,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-11749",
-    "sku": "99-00017176",
-    "category": "Камери відеоспостереження",
-    "subcategory": "",
-    "brand": "Ajax",
-    "name": "IP відеокамера Ajax",
-    "model": "TurretCam (8EU) ASP black 8МП (2.8мм)",
-    "description": "● Роздільна здатність 8МП;● Фокус 2.8мм (кут огляду 110&deg;);● Максимальна роздільна здатність відео 8 МП (3840 &times; 2160) - 20 к\\с;● Кодеки H.265, H.264;● ІЧ (до 35м);● Функції зображення: HDR, WDR;● Аналітика та аларми: виявлення руху, розпізнавання об'єктів, зона активності, візуальна верифікація тривог Ajax, мікрофон;● Micro SD (максимум 256ГБ);● 12 VDC/PoE;● IP65, IK08;● Колір корпусу &ndash; чорний",
-    "features": [
-      "Матриця: 8МП",
-      "Фокусна відстань: 2.8мм",
-      "Тип підсвічування: ІЧ",
-      "Дальність підсвічування: 35м",
-      "Живлення: 12 В, 1 А",
-      "8МП"
-    ],
-    "image": "https://viatec.ua/upload/images/2018-04-04/Ajax%20TurretCam%20b.webp",
-    "images": [
-      "https://viatec.ua/upload/images/2018-04-04/Ajax%20TurretCam%20b.webp"
-    ],
-    "available": true,
-    "price": 7599.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-11750",
     "sku": "99-00017177",
     "category": "Камери відеоспостереження",
@@ -121608,6 +121857,31 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 7599.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-17119",
+    "sku": "99-10024801",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Ajax",
+    "name": "IP відеокамера Ajax",
+    "model": "IndoorCam white",
+    "description": "● Роздільна здатність 4МП CMOS;● Кут огляду 110&deg;;● Максимальна роздільна здатність відео 4 МП (2688 &times; 1520);● Кодеки H.264;● ІЧ світло (до 8м);● Аналітика та аларми: виявлення руху, розпізнавання об'єктів;● 12 VDC;● Колір корпусу &ndash; білий",
+    "features": [
+      "Матриця: 4 MP CMOS",
+      "Тип підсвічування: ІЧ",
+      "Дальність підсвічування: 8м",
+      "Живлення: 12В DC",
+      "4МП",
+      "4 МП"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2025-04/IndoorCamw2.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2025-04/IndoorCamw2.webp"
+    ],
+    "available": true,
+    "price": 9299.0,
     "source_supplier": "viatec"
   },
   {
@@ -122469,31 +122743,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "yugtorg-45447",
-    "sku": "DH-IPC-MFW5241T2-E3-ASE",
-    "category": "Камери відеоспостереження",
-    "subcategory": "",
-    "brand": "DAHUA",
-    "name": "3х2Mп Triple-Sight відеокамера Dahua з мікрофоном та SD карткою DH-IPC-MFW5241T2-E3-ASE (3.6,12,25мм)",
-    "model": "DH-IPC-MFW5241T2-E3-ASE",
-    "description": "Dahua DH-IPC-MFW5241T2-E3-ASE — професійна мережева IP-камера серії WizMind з унікальною триоб’єктивною архітектурою Triple-Sight, призначена для далекобійного периметрального захисту та точного виявлення цілей на великих відстанях. Камера оснащена трьома незалежними 2-мегапіксельними сенсорами (1 / 2.8” CMOS) з фіксованими об’єктивами 3.6 мм, 12 мм та 25 мм, що дозволяє одночасно контролювати ближню, середню та дальню зони спостереження. Такий підхід забезпечує ефективне виявлення людей і транспортних засобів на відстані до 100 метрів і більше без втрати деталізації. Інтелектуальні алгоритми глибокого навчання підтримують функції Perimeter Protection (Intrusion та Tripwire) з точною класифікацією цілей «людина / автомобіль» та значним зменшенням кількості хибних тривог. Технології AI-ISP, Illumination by Area та Smart Illumination дозволяють адаптувати зображення й підсвітку до конкретної сцени, підвищуючи якість відео та ефективність аналітики. Камера обладнана 8 ІЧ-світлодіодами з дальністю підсвітки до 100 м, підтримує двосторонній аудіозв’язок (вбудовані подвійні мікрофони та динамік), запис на microSD карту до 1 ТБ, а також роботу з FTP / NAS. Сучасні кодеки H.265 / H.264 забезпечують високу якість відео за мінімального використання мережевого трафіку. Металевий корпус із захистом IP67 (пил, волога) та IK10 (антивандальне виконання) робить камеру надійним рішенням для експлуатації на вулиці та в складних умовах. Підтримка PoE+ (802.3at) і ePoE дозволяє передавати живлення та дані на великі відстані. Ключові переваги • Триоб’єктивна система Triple-Sight (3 × 2 МП) • Далекобійний периметральний захист до 100 м • AI-аналітика: Intrusion / Tripwire, класифікація людина / авто • 8 ІЧ-світлодіодів, інтелектуальна підсвітка • Двосторонній аудіозв’язок • Підтримка microSD до 1 ТБ, FTP, NAS • PoE+ / ePoE / 12 В DC • Захист IP67, IK10, металевий корпус",
-    "features": [
-      "2 МП",
-      "IP67",
-      "PoE",
-      "12,25мм",
-      "3.6 мм",
-      "12 мм"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/45447.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/45447.png"
-    ],
-    "available": true,
-    "price": 17575.0,
-    "source_supplier": "yugtorg"
-  },
-  {
     "id": "yugtorg-13793",
     "sku": "DH-IPC-HFW1431TP-ZS-S4",
     "category": "Камери відеоспостереження",
@@ -123055,6 +123304,31 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 5040.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-31137",
+    "sku": "DH-IPC-HDW3441EM-S-S2",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "DAHUA",
+    "name": "4Мп IP WizSense відеокамера зі звуком та SD карткою DH-IPC-HDW3441EM-S-S2 (2.8мм)",
+    "model": "DH-IPC-HDW3441EM-S-S2",
+    "description": "DH-IPC-HDW3441EM — якісна купольна камера Dahua з чітким зображенням, інтелектуальними функціями сканування, покращеним кодуванням та компресією, підсвічуванням та вбудованим мікрофоном. Має внутрішню пам`ять, а також підтримку карток SD до 256Гб. Цілодобово функціонує завдяки чутливому об`єктиву, здатному знімати в кольорі при середньому освітленні, в чорно-білому режимі при слабкому і в інфрачервоному навіть при повній його відсутності. Висока роздільна здатність поєднується зі стабільними кадрами. Підтримується налаштування у браузерах. Існує кілька алгоритмів для автоматичного контролю області. Зокрема, обчислюються цільові типи, виявляється вторгнення та порушення зазначеної лінії. HDW3441EM має регулювання для обертання та повороту корпусу. Відеокамера досить міцна, оскільки виготовлена з металу. Матриця 1 / 3' мін. чутливість 0,005 лк при F1,4 (колір, 30 IRE), 0,0005 лк при F1,4 (ч / б, 30 IRE), 0 люкс (підсвічування включене) Швидкість затвора 1 / 3 -1 / 100,000 с Придушення шуму (DNR) 3D WDR 120 дБ BLC Підтримує HLC підтримує ROI 4 зони Регулювання по осях поворот: 0 ° - 360 °, нахил: 0 ° -78 °, обертання: 0 ° -360 ° Кути огляду Г: 102 °; В: 54 °; Д: 121° Фокусна відстань 2.8 мм Апертура F1.4 Тип підсвічування ІЧ Дальність підсвічування 50 м Кількість діодів 2 Відео компресія H.265; H.264; H.264H; H.264B; Smart H.265+; Smart H.264+; AI H.265; AI H.264 Кількість потоків 3 Частота кадрів (головний потік) 2688 × 1520 25 к / с Частота кадрів (дод. потік) 704 × 576 25 к / с Частота кадрів (дод2. потік) 1920 × 1080 25 к / с Метод зберігання FTP; SFTP; Micro SD 256 Гб; NAS Програмне забезпечення Smart PSS; DSS; DMSS Сумісність ONVIF (Profile S / Profile G / Profile T); CGI; P2P; Milestone; Genetec Підтримка браузерів IE11; Chrome; Firefox Мережевий інтерфейс RJ-45 (10 / 100 Base-T) Аудіо інтерфейси вбудований мікрофон ROM / RAM 128 / 512 Мб Виявлення об`єкту 63 м Спостереження за об`єктом 25 м Розпізнання об`єкта 12 м Ідентифікація об`єкта 6 м Основні функції обробки 4 зони маскування Перетин лінії Підтримує Вторгнення в область Підтримує Виявлення аудіо винятків Підтримує Цільові типи Підтримує Харчування 12 В DC PoE 802.3af Потужність споживання 3.3 – 8 Вт Робоча температура -40 °C - +60 °C Ступінь захисту IP67 Розміри 93.6 × Φ106 мм Вага 500 г Матеріал метал Розмір упаковки (Ш х В х Г) 155 x 135 x 160 мм Вага брутто Вага: 0.792 кг",
+    "features": [
+      "4Мп",
+      "IP67",
+      "ONVIF",
+      "PoE",
+      "2.8мм",
+      "2.8 мм"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/31137.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/31137.png"
+    ],
+    "available": true,
+    "price": 6885.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -123699,6 +123973,31 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 4275.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-38793",
+    "sku": "DS-2CD2087G2H-LIU(2.8мм)(",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "DAHUA",
+    "name": "8 МП ColorVu відеокамера зі Smart Hybrid підсвічуванням DS-2CD2087G2H-LIU (2.8мм)(eF)",
+    "model": "DS-2CD2087G2H-LIU(2.8мм)(",
+    "description": "Камера — це високопродуктивне рішення для спостереження, оснащене розширеними функціями для надійного моніторингу безпеки. Завдяки роздільній здатності 8 Мп ця камера забезпечує виняткову якість зображення, забезпечуючи чітке та детальне відео. Ця камера оснащена технологією Smart Hybrid Light забезпечує розширені можливості освітлення з вражаючим дальнім радіусом дії. Камера фокусується на точній класифікації людей та транспортних засобів на основі алгоритмів глибокого навчання. Вона пропонує такі функції, як захоплення осіб та захист периметра, що дозволяють точно виявляти та ідентифікувати людей та потенційні загрози. Ця розширена функціональність підвищує безпеку, забезпечуючи попереджувальне реагування та індивідуальні стратегії спостереження. Для розширених можливостей моніторингу камера має вбудований мікрофон. Це забезпечує аудіо безпеку в режимі реального часу, дозволяючи користувачам захоплювати та контролювати звук разом із відеоматеріалами, забезпечуючи комплексне спостереження. Камера розроблена для роботи в суворих умовах, захищена від води та пилу та має клас IP67. Це забезпечує його довговічність і надійність, що робить його придатним як для внутрішньої, так і зовнішньої установки. Матриця 1 / 1.8' Progressive Scan CMOS мін. чутливість колір: 0,0005 лк (F1.0, AGC ON), 0 лк з підсвічуванням Швидкість затвора 1 / 3 – 1 / 100 000 с Придушення шуму (DNR) 3D WDR 130 дБ BLC Підтримує HLC підтримує ROI 1 зона для головного та дод. потоку Регулювання по осях Панорамування: 0 ° - 360 °, кут нахилу: 0 ° - 90 °, поворот: 0 ° - 360 ° Кути огляду Р: 105.1°, В: 54.8°, Д: 128.2° Фокусна відстань 2.8мм Апертура F1.0 Тип підсвічування ІЧ+видиме світло Дальність підсвічування 40м Відео компресія H.265 / H.264 / H.264+ / H.265+ Кількість потоків 3 Роздільна здатність відео 3840 × 2160, 3200 × 1800, 2688 × 1520, 1920 × 1080, 1280 × 720, 640 × 480, 640 × 360 Частота кадрів (головний потік) 3840×2160, 3200×1800, 2688×1520, 1920×1080, 1280×720 - 25 к / с Частота кадрів (дод. потік) 1280×720, 640×480, 640×360 - 25 к / с Частота кадрів (дод2. Потік) 1920 × 1080, 1280 × 720, 640 × 480, 640 × 360 - 10 к / с Метод зберігання NAS (NFS, SMB / CIFS), (ANR), microSD 512 Гб Програмне забезпечення iVMS-4200, Hik-Connect, Hik-Central Сумісність ONVIF (Profile S, Profile G, Profile T), ISAPI, SDK, ISUP Аудіо інтерфейси вбудований мікрофон Мережевий інтерфейс 1 RJ45 10 M / 100 M Виявлення об`єкту 89 м Спостереження за об`єктом 35 м Розпізнання об`єкта 17 м Ідентифікація об`єкта 8 м Основні функції обробки 4 зони маскування Перетин лінії Підтримує Вторгнення в область Підтримує Вхід та вихід з регіону Підтримує Виявлення аудіо винятків Підтримує Виявлення осіб Підтримує Цільові типи Підтримує Тригери тривоги виявлення руху (підтримується спрацьовування сигналізації за вказаними типами цілей (людина та автомобіль)), сигналізація саботажу, виключення Живлення 12В DC PoE 802.3af Потужність споживання 8.5 Вт Робоча температура -30 °C - +60 °C Ступінь захисту IP67 Розміри Ø 74.4 × 179.2 мм Вага 525 г Матеріал метал Розмір упаковки (Ш х В х Г) 120 x 115 x 235 мм Вага брутто Вага: 0.82 кг",
+    "features": [
+      "8 МП",
+      "IP67",
+      "ColorVu",
+      "ONVIF",
+      "PoE",
+      "2.8мм"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/38793.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/38793.png"
+    ],
+    "available": true,
+    "price": 12690.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -124595,6 +124894,31 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 2520.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-18614",
+    "sku": "99-10027633",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "HDCVI відеокамера Dahua",
+    "model": "DH-HAC-HDW1549XP-IL-A-PRO 5МП (2.8мм)",
+    "description": "● Роздільна здатність 5МП;● Фокус 2.8мм (кут огляду 111&deg;);● Максимальна роздільна здатність відео 5 МП (2880 &times; 1620) - 25 к\\с;● ІЧ+видиме світло (до 50м);● Функції зображення: WDR,3D DNR;● 12 VDC;● IP67;● Колір корпусу &ndash; білий",
+    "features": [
+      "Фокусна відстань: 2.8 мм",
+      "Тип підсвічування: ІЧ+видиме світло",
+      "Дальність підсвічування: 50 м",
+      "Живлення: 12 В DC",
+      "Потужність споживання: 6 Вт",
+      "5МП"
+    ],
+    "image": "https://viatec.ua/upload/2/HDW1549X-IL-A-PRO.webp",
+    "images": [
+      "https://viatec.ua/upload/2/HDW1549X-IL-A-PRO.webp"
+    ],
+    "available": true,
+    "price": 3150.0,
     "source_supplier": "viatec"
   },
   {
@@ -126048,56 +126372,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-15535",
-    "sku": "99-00022033",
-    "category": "Камери відеоспостереження",
-    "subcategory": "",
-    "brand": "Dahua",
-    "name": "IP відеокамера Dahua",
-    "model": "DH-IPC-MFW5241T2-E3-ASE WizMind Triple-Sight 3x 2МП (3.6,12,25мм)",
-    "description": "● Роздільна здатність 3X2МП, 1/2.8\" CMOS-матриця;● Фокус 3.6,12,25мм (кут огляду 85,25,13&deg;);● Максимальна роздільна здатність відео 3X2 МП (1920 &times; 1080) - 25 к\\с;● Кодеки H.265; H.264; H.264H; H.264B; MJPEG;● ІЧ світло (до 100м);● Функції зображення: поворот зображення, DWDR, 3D DNR, HLC, BLC, водяний знак;● Аналітика та аларми: вторгнення, перетин лінії (функції підтримують класифікацію та точне виявлення транспортного засобу та людини);● Micro SD (максимум 1024ГБ);● 12 VDC; PoE+(802.3at); ePoE;● IP67; IK10;● Колір корпусу &ndash; білий",
-    "features": [
-      "Роздільна здатність відео: 1080p (1920 × 1080)",
-      "Матриця: 1/2.8\" CMOS",
-      "Фокусна відстань: 3.6,12,25 мм",
-      "Тип підсвічування: ІЧ",
-      "Дальність підсвічування: 100 м",
-      "Живлення: 12 В DC"
-    ],
-    "image": "https://viatec.ua/upload/2/MFW5241T2-E3-ASE.webp",
-    "images": [
-      "https://viatec.ua/upload/2/MFW5241T2-E3-ASE.webp"
-    ],
-    "available": true,
-    "price": 4455.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-15536",
-    "sku": "99-00022034",
-    "category": "Камери відеоспостереження",
-    "subcategory": "",
-    "brand": "Dahua",
-    "name": "IP відеокамера Dahua",
-    "model": "DH-IPC-MFW5241T2-E3-ASE black WizMind Triple-Sight 3x 2МП (3.6,12,25мм)",
-    "description": "● Роздільна здатність 3X2МП, 1/2.8\" CMOS-матриця;● Фокус 3.6,12,25мм (кут огляду 85,25,13&deg;);● Максимальна роздільна здатність відео 3X2 МП (1920 &times; 1080) - 25 к\\с;● Кодеки H.265; H.264; H.264H; H.264B; MJPEG;● ІЧ світло (до 100м);● Функції зображення: поворот зображення, DWDR, 3D DNR, HLC, BLC, водяний знак;● Аналітика та аларми: вторгнення, перетин лінії (функції підтримують класифікацію та точне виявлення транспортного засобу та людини);● Micro SD (максимум 1024ГБ);● 12 VDC; PoE+(802.3at); ePoE;● IP67; IK10;● Колір корпусу &ndash; чорний",
-    "features": [
-      "Роздільна здатність відео: 1080p (1920 × 1080)",
-      "Матриця: 1/2.8\" CMOS",
-      "Фокусна відстань: 3.6,12,25 мм",
-      "Тип підсвічування: ІЧ",
-      "Дальність підсвічування: 100 м",
-      "Живлення: 12 В DC"
-    ],
-    "image": "https://viatec.ua/upload/2/MFW5241T2-E3-ASEb.webp",
-    "images": [
-      "https://viatec.ua/upload/2/MFW5241T2-E3-ASEb.webp"
-    ],
-    "available": true,
-    "price": 4455.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-15683",
     "sku": "99-00021511",
     "category": "Камери відеоспостереження",
@@ -127323,6 +127597,31 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-21497",
+    "sku": "99-10035282",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "IP відеокамера Dahua",
+    "model": "DH-IPC-HFW5241E-ASE 2МП (2.8мм) з мікрофоном",
+    "description": "● Роздільна здатність 2МП, 1/2.8\" CMOS-матриця;● Фокус 2.8мм (кут огляду 106&deg;);● Максимальна роздільна здатність відео 1920 &times; 1080 - 25 к\\с;● Кодеки H.265; H.264; H.264H; H.264B; MJPEG, Smart H.265 +; Smart H.264+; AI H.265; AI H.264;● ІЧ світло (до 50м);● Функції зображення: поворот зображення, WDR, 3D DNR, HLC, BLC, водяний знак;● Аналітика та аларми: розумне виявлення звуку, розумний пошук, теплова карта, підрахунок людей, виявлення облич, AI SSA, AcuPick, SMD 3.0, розумне виявлення об'єктів, вторгнень, виявлення перетину лінії, виявлення об'єктів, що швидко рухаються (три функції підтримують класифікацію і точне виявлення транспортних засобів, тварин і людей); виявлення бродячих людей, виявлення скупчень людей, виявлення парковки;● Micro SD (максимум 1ТБ);● 12 VDC/PoE;● IP67;● Колір корпусу &ndash; білий",
+    "features": [
+      "Роздільна здатність відео: 1080p (1920 × 1080); 1.3M (1280 × 960); 720p (1280 × 720); D1 (704 × 576/704 × 480); VGA (640 × 480); CIF (352 × 288/352",
+      "Матриця: 1/2.8\" CMOS",
+      "Фокусна відстань: 2.8 мм",
+      "Тип підсвічування: ІЧ",
+      "Дальність підсвічування: 50 м",
+      "Живлення: 12 В DC"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-08/HFW5241E-ASE.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-08/HFW5241E-ASE.webp"
+    ],
+    "available": true,
+    "price": 8550.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-22028",
     "sku": "99-10037073",
     "category": "Камери відеоспостереження",
@@ -128323,31 +128622,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-8677",
-    "sku": "99-00011999",
-    "category": "Камери відеоспостереження",
-    "subcategory": "",
-    "brand": "Dahua",
-    "name": "PTZ відеокамера Dahua",
-    "model": "DH-SD22204DB-GNY 2МП (2.8-12мм)",
-    "description": "1/2.8\" CMOS2.8-12мм (16х) 99&deg;&ndash;31&deg;2МП 25 к/сH.264H; H.264B; Smart H.265+; H.264; H.265прохід; вторгнення; виявлення перетину огорожі; бродячих людей; залишений/зниклий об'єкт; швидкий рух; виявлення паркування; збори людей; класифікація транспортного засобу/людина; виявлення обличчя; SMD; виявлення руху; звуку; відключення мережі; конфлікт IP; визначення стану картки пам'яті; виявлення недостатньої вільної пам'яті; виявлення відключення живленняMicroSD 512 Гб12 VDC, PoE (802.3af)IP66; IK10500 г",
-    "features": [
-      "Матриця: 1/2.8\" CMOS",
-      "Фокусна відстань: 2.8 –12 мм",
-      "Відстань фокусування: 1.5 м",
-      "Живлення: 12 В DC, 1 A",
-      "Потужність споживання: 2.3 - 6.1 Вт",
-      "Швидкість затвора: 1/1 –1/30 000 с"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2022-12/DH-SD22204DB-GNY.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2022-12/DH-SD22204DB-GNY.webp"
-    ],
-    "available": true,
-    "price": 9810.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "yugtorg-48321",
     "sku": "BP5E (3.6мм)",
     "category": "Камери відеоспостереження",
@@ -128965,8 +129239,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/13128.png",
       "https://b2b.yugtorg.com/image/data/13128_3.png",
-      "https://b2b.yugtorg.com/image/data/13128_2.png",
-      "https://b2b.yugtorg.com/image/data/13128_1.png"
+      "https://b2b.yugtorg.com/image/data/13128_1.png",
+      "https://b2b.yugtorg.com/image/data/13128_2.png"
     ],
     "available": true,
     "price": 7050.0,
@@ -129182,8 +129456,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/16696.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/16696.png",
-      "https://b2b.yugtorg.com/image/data/16696_1.png",
-      "https://b2b.yugtorg.com/image/data/16696_2.png"
+      "https://b2b.yugtorg.com/image/data/16696_2.png",
+      "https://b2b.yugtorg.com/image/data/16696_1.png"
     ],
     "available": true,
     "price": 1638.0,
@@ -129620,31 +129894,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 20279.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-29208",
-    "sku": "DS-2DE4225IW-DE (T5)",
-    "category": "Камери відеоспостереження",
-    "subcategory": "",
-    "brand": "HIKVISION",
-    "name": "2 МП поворотна камера з 25-кратним зумом IP Speed Dome DS-2DE4225IW-DE (T5) with brackets",
-    "model": "DS-2DE4225IW-DE (T5)",
-    "description": "2Мп IP PTZ с ИК; 1 / 2.8” CMOS; H.265+ / H.265 / H.264+ / H.264 / MPEG; Цвет: 0.005 лк, Ч / б: 0.001 лк, 0 лк с ИК; f=4.8-120 мм, углы обзора: 57.6° - 2.5°, 25x - оптический; 1080р - 25 к / с; аудио 1 / 1, тревога 1 вх / 1 вых; день / ночь(ICR), Defog, IVS, WDR 120 дБ, 3D-DNR, HLC / BLC, EIS; ИК подсветка до 100 метров, IP66, TVS 6.000В, DC 12В PoE (802.3at, class4), макс. 18Вт; Ф165x290 мм; 2 кг Матрица 1 / 2.8' Мин. чувствительность Цвет: 0,005 лк (F1,6, AGC ON); Ч / Б: 0,001 лк (F1.6, AGC ON), 0 лк с ИК Скорость затвора 1 - 1 / 30,000 с BLC Поддерживает HLC Поддерживает WDR 120 дБ Подавление шума (DNR ) 3D Оптическое увеличение 25х Цифровое увеличение 16х Основные функции обработки 24 зоны маскирования Фокусное расстояние 4.8 - 120 мм Углы обзора Г: 57.6° - 2.5°, В: 34.4° - 1.4°, Д: 64.5° - 2.9° Апертура F1.6 Количество потоков 3 Частота кадров (главный поток) 1920 × 1080 25 к / с Частота кадров (доп. поток) 704 × 576 25 к / с Частота кадров (доп2. поток) 1920 × 1080 25 к / с Видео компрессия H.265+ / H.265 / H.264+ / H.264 ROI 8 зон для каждого потока Программное обеспечение iVMS-4200, HikCentral Pro, Hik-Connect Количество одновременных подключений 20 Пользователи / уровни 32 / 3 Поддержка браузеров Chrome 57.0+, Firefox 52.0+, Safari 11+, IE11 Совместимость ONVIF (Version 19.12, Profile S, Profile G, Profile T), ISAPI, SDK, ISUP Сетевые интерфейсы 1 RJ45 10M / 100M Метод хранения NAS (NFS, SMB / CIFS), ANR, microSD до 256 Гб Интерфейсы тревоги 1 вх / 1 вых Аудио интерфейсы 1 вх / 1 вых Тип подсветки ИК Дальность подсветки 100 м Скорость ручного управления поворот 0.1° - 80° / с; наклон 0.1° - 80° / с Скорость по предустановкам поворот 80° / с; наклон 80° / с Количество предустановок 300 Установки скорости PTZ Предустановка, сканирование по шаблону, патрульное сканирование, автоматическое сканирование, наклонное сканирование, случайное сканирование, кадровое сканирование, панорамное сканирование, перезагрузка купола, регулировка купола, дополнительный выход Обнаружение объекта 2400 м Наблюдение за объектом 952 м Распознание объекта 480 м Идентификация объекта 240 м Память при отключении питания Поддерживает Defog цифровой Пересечение линии Поддерживает Вторжение в область Поддерживает Оставленные / пропавшие предметы Поддерживает Обнаружение аудио исключений Поддерживает Распознавание лиц Поддерживает Целевые типы Поддерживает Питание 12В DC PoE 802.3at Мощность потребления 18 Вт Рабочая температура -30 °C - 65 °C Степень защиты IP66 Размеры Ø 164.5 × 290 мм Вес 2 кг Материал алюминий Розмір упаковки (Ш х В х Г) 220 x 220 x 500 мм Вага брутто 4.752 кг",
-    "features": [
-      "2 МП",
-      "2Мп",
-      "IP66",
-      "PoE",
-      "ONVIF",
-      "120 мм"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/29208.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/29208.png"
-    ],
-    "available": true,
-    "price": 23913.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -130497,28 +130746,28 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "yugtorg-30833",
-    "sku": "DS-2CD1A43G0-IZU",
+    "id": "yugtorg-45000",
+    "sku": "iDS-2CD7A46G0 / P-IZHSY(C)",
     "category": "Камери відеоспостереження",
     "subcategory": "",
     "brand": "HIKVISION",
-    "name": "4 МП варіофокальна та поворотна відеокамера з мікрофоном DS-2CD1A43G0-IZU (2.8-12mm)",
-    "model": "DS-2CD1A43G0-IZU",
-    "description": "DS-2CD1A43G0-IZU — компактна відеокамера з настінним кронштейном, що передбачає поворотний механізм. Має вбудований мікрофон, варіофокальний об`єктив і високий клас захисту. Камера здатна нахилятися, масштабувати і працювати в режимі панорамування місцевості, забезпечивши максимальний кут огляду. Також є просунута інфрачервона технологія підсвічування. Пристрій може регулюватися та транслювати зображення через браузер. Є локальна пам`ять. Підтримується картка SD до 256Гб. Користувач отримує якісну картинку зі звуком. DS-2CD1A43G0-IZU встановлюється у житлових та комерційних приміщеннях, а може експлуатуватися і на відкритому просторі. Це універсальна техніка для цілодобового моніторингу Hikvision. Матриця 1 / 3' Швидкість затвора 1 / 3 - 1 / 100, 000 с Придушення шуму (DNR) 3D WDR 120 дБ Регулювання по осях поворот: -100 ° - 100 °, нахил: -20 ° - 45 ° Фокусна відстань 2.8 – 12 мм Апертура F1.6 Кути огляду Г: 96.7 ° - 29.7 °, В: 51.7 ° - 16.7 °, Д: 114.3 ° - 34 ° Тип підсвічування ІЧ Дальність підсвічування 50 м Відео компресія H.265+ / H.265 / H.264+ / H.264 Кількість потоків 2 Частота кадрів (головний потік) 2560×1440 20 к / с; 1920 × 1080, 1280 × 720 25 к / с Частота кадрів (дод. потік) 1280×720, 640×480, 640×360 25 к / с BLC Підтримує HLC підтримує Метод зберігання MicroSD картка до 256 Гб, FTP Програмне забезпечення iVMS-4200, Hik-Connect Сумісність ONVIF (Profile S, Profile G), ISAPI, SDK Підтримка браузерів з плагіном: IE 10, IE 11; локально: Chrome 57.0+, Firefox 52.0+ Аудіо інтерфейси вбудований мікрофон Мережевий інтерфейс 1 RJ45 10 M / 100 M Виявлення об`єкта 64 – 200 м Спостереження за об`єктом 25 – 75 м Розпізнавання об`єкта 12 – 40 м Ідентифікація об`єкта 6 – 20 м ROI 1 зона для головного потоку Основні функції обробки 4 зони маскування Живлення 12 В DC, 0.91 A PoE 802.3af, Class 3 Потужність споживання 12.5 Вт Робоча температура -30 °C - 60 °C Ступінь захисту IP66 Розміри 197×105×225 мм Вага 900 г Матеріал метал+пластик Розмір упаковки (Ш х В х Г) 275 x 300 x 270 мм Вага брутто 1.65 кг",
+    "name": "4 МП відеокамера ANPR Hikvision iDS-2CD7A46G0 / P-IZHSY(C) (8-32мм)",
+    "model": "iDS-2CD7A46G0 / P-IZHSY(C)",
+    "description": "Високопродуктивна камера спостереження розроблена для надання вам розширених можливостей моніторингу безпеки. Завдяки роздільній здатності 4 МП, ця камера здатна знімати високоякісні деталізовані та чіткі зображення, що робить її ідеальною для використання у різних умовах. Однією з ключових особливостей цієї камери є її чудова робота в умовах слабкого освітлення, яка досягається завдяки технології Hikvision DarkFighter. Ця технологія дозволяє камері створювати високоякісні зображення навіть за умов слабкого освітлення, що полегшує виявлення потенційних загроз безпеці. Ще одна корисна функція камери – це розпізнавання номерних знаків (LPR). Ця функція дозволяє камері фіксувати номерні знаки, що робить її ідеальною для використання на стоянках, пунктах оплати та інших місцях, де важливо відстежувати рух транспортних засобів. Крім того, ця камера підтримує до 5 потоків, що дозволяє налаштувати відеовихід камери відповідно до конкретних потреб. Ця функція особливо корисна, якщо вам потрібно передавати відео на кілька пристроїв або якщо потрібно записувати відео з різною роздільною здатністю. Матриця 1 / 1.8' Progressive Scan CMOS мін. чутливість колір: 0,0005 люкс (F1.2, AGC увімк.); Ч / Б: 0,0001 лк (F1.2, AGC вкл.), 0 лк з ІЧ Швидкість затвора 1 - 1 / 100 000 с Придушення шуму (DNR) 3D WDR 140 дБ BLC Підтримує HLC підтримує Електронна стабілізація зображення (EIS) Підтримує Defog Підтримує ROI 4 фіксовані області для основного потоку та підтоку Кути огляду Г: 42.5 ° - 15.1 °, В: 23.3 ° - 8.64 °, Д: 49.6 ° - 17.3 ° Фокусна відстань 8-32мм Апертура F1.7 – F1.7 Тип підсвічування ІЧ Дальність підсвічування 100м Відео компресія H.265+ / H.265 / H.264+ / H.264 / MJPEG Кількість потоків 5 Роздільна здатність відео 2688 × 1520, 2560 × 1440, 1920 × 1080, 1280 × 720, 704 × 576, 640 × 480 Частота кадрів (головний потік) 2688×1520, 2560×1440, 1920×1080, 1280×720 - 25 к / с Частота кадрів (дод. потік) 704×576, 640×480 - 25 к / с Частота кадрів (дод2. потік) 1920 × 1080, 1280 × 720, 704 × 576, 640 × 480 – 25 к / с Спосіб зберігання NAS (NFS, SMB / CIFS), (ANR), micro SD 1 Тб Програмне забезпечення iVMS-4200, Hik-Connect, Hik-Central Сумісність ONVIF (PROFILE S, PROFILE G, PROFILE T), ISAPI, SDK, ISUP Аудіо інтерфейси 1 вх / 1 вих Інтерфейси тривоги 2 вх / 2 вих Мережевий інтерфейс 1 RJ45 10 M / 100 M / 1000M; Wiegand; RS-485 Виявлення об`єкта (DORI – не аналітика) 150-400 м Спостереження за об`єктом (DORI – не аналітика) 59-158 м Розпізнавання об`єкта (DORI – не аналітика) 30-80 м Ідентифікація об`єкта (DORI – не аналітика) 15-40 м Перетин лінії Підтримує Вторгнення в область Підтримує Вхід та вихід з регіону Підтримує Розпізнавання номерних знаків Підтримує Цільові типи Підтримує Тригери тривоги виявлення руху, сигналізація несанкціонованого доступу до відео, виключення (відключення мережі, IP-адреса), конфлікт адрес, незаконний вхід до системи, позаштатне перезавантаження, жорсткий диск заповнений, помилка жорсткого диска), якість відео діагностика Живлення 12В DC PoE 802.3at Потужність споживання 17 Вт Робоча температура -40 °C - +60 °C Ступінь захисту IP67; IK10; NEMA 4X Розміри Ø 140 × 351 мм Вага 2 кг Матеріал метал Розмір упаковки (Ш х В х Г) 200 x 180 x 410 мм Вага брутто 2.88 кг",
     "features": [
       "4 МП",
-      "IP66",
+      "IP67",
       "ONVIF",
       "PoE",
-      "12 мм",
-      "225 мм"
+      "32мм",
+      "351 мм"
     ],
-    "image": "https://b2b.yugtorg.com/image/data/30833.png",
+    "image": "https://b2b.yugtorg.com/image/data/45000.png",
     "images": [
-      "https://b2b.yugtorg.com/image/data/30833.png"
+      "https://b2b.yugtorg.com/image/data/45000.png"
     ],
     "available": true,
-    "price": 9450.0,
+    "price": 55203.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -130693,30 +130942,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 30150.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-46524",
-    "sku": "DS-2CD1P43G2-IUF",
-    "category": "Камери відеоспостереження",
-    "subcategory": "",
-    "brand": "HIKVISION",
-    "name": "4 МП поворотна відеокамера з мікрофоном та SD карткою Hikvision DS-2CD1P43G2-IUF (2.8мм)",
-    "model": "DS-2CD1P43G2-IUF",
-    "description": "4 МП поворотна IP відеокамера Hikvision DS-2CD1P43G2-IUF (2.8 мм) призначена для організації відеоспостереження з розширеною зоною контролю. Завдяки функції повороту та нахилу камера дозволяє охоплювати більшу територію без необхідності встановлення додаткових пристроїв. Камера оснащена матрицею 4 МП і забезпечує чітке зображення з високою деталізацією. Об’єктив 2.8 мм забезпечує широкий кут огляду, що робить модель оптимальною для контролю відкритих територій, дворів, парковок і прилеглих зон. Вбудований мікрофон дозволяє записувати звук, а слот для microSD карти забезпечує локальне зберігання відео без використання реєстратора. Підтримка інтелектуальної аналітики (розпізнавання людини та транспорту) зменшує кількість хибних спрацювань і підвищує ефективність системи безпеки. Технологія EXIR 2.0 забезпечує якісне інфрачервоне підсвічування на відстані до 30 метрів. Корпус камери має ступінь захисту IP66, що дозволяє використовувати її на вулиці за будь-яких погодних умов. Основні характеристики: Роздільна здатність: 4 МП (2560×1440) Об’єктив: 2.8 мм Кут огляду: до 99° Поворот / нахил: є ІЧ-підсвітка: до 30 м Стиснення відео: H.265+ / H.265 / H.264+ / H.264 Аудіо: вбудований мікрофон Зберігання: microSD до 256 ГБ Аналітика: виявлення людини та транспорту Інтерфейс: RJ-45 (10 / 100 Мбіт / с) Живлення: 12V DC / PoE (802.3af) Ступінь захисту: IP66 Робоча температура: –30°C … +60°C",
-    "features": [
-      "4 МП",
-      "IP66",
-      "PoE",
-      "2.8мм",
-      "2.8 мм"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/46524.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/46524.png"
-    ],
-    "available": true,
-    "price": 4140.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -132304,6 +132529,31 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 8550.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-11079",
+    "sku": "99-00015564",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "IP відеокамера Hikvision",
+    "model": "DS-2CD2087G2H-LIU 8МП (2.8мм)(eF)",
+    "description": "● Роздільна здатність 8МП, 1/1.8\" CMOS-матриця;● Фокус 2.8мм (кут огляду 105&deg;);● Максимальна роздільна здатність відео 8 МП (3840&times; 2160) - 25 к\\с;● Кодеки H.265; H.264; H.264+; H.265+; MJPEG;● ІЧ+видиме світло (до 40м);● Функції зображення: поворот зображення, насиченість, яскравість, контрастність, різкість, WDR, 3D DNR, HLC, BLC, водяний знак;● Аналітика та аларми: перетин лінії, вторгнення, вхід у регіон, вихід з регіону, захоплення обличчя, виявлення зміни сцени, виявлення руху (підтримується спрацьовування сигналізації за вказаними типами цілей (людина та автомобіль)), сигналізація саботажу, виключення;● Micro SD (максимум 512ГБ);● 12 VDC/PoE;● IP67;● Колір корпусу &ndash; білий",
+    "features": [
+      "Роздільна здатність відео: 3840 × 2160, 3200 × 1800, 2688 × 1520, 1920 × 1080, 1280 × 720, 640 × 480, 640 × 360",
+      "Матриця: 1/1.8\" Progressive Scan CMOS",
+      "Фокусна відстань: 2.8мм",
+      "Тип підсвічування: ІЧ+видиме світло",
+      "Дальність підсвічування: 40м",
+      "Живлення: 12В DC"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-09/2CD2087G2H-LIU.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-09/2CD2087G2H-LIU.webp"
+    ],
+    "available": true,
+    "price": 12690.0,
     "source_supplier": "viatec"
   },
   {
@@ -134557,6 +134807,31 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-22398",
+    "sku": "99-10034853",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "IP відеокамера Hikvision",
+    "model": "DS-2CD2T43G2-4LI2U 4МП (2.8мм) (BLACK)",
+    "description": "● Роздільна здатність 4МП, 1/3\" CMOS-матриця;● Фокус 2.8мм (кут огляду 104&deg;);● Максимальна роздільна здатність відео 4 МП (2688&times; 1520) - 25 к\\с;● Кодеки H.265/H.264/H.264+/H.265+;● ІЧ+видиме світло (до 80м);● Функції зображення: WDR, 3D DNR, HLC, BLC, водяний знак;● Аналітика та аларми: виявлення перетину лінії, виявлення вторгнення, виявлення руху (людини та транспортного засобу), сигналізація несанкціонованого доступу до відео;● Micro SD (максимум 512ГБ);● 12 VDC/PoE;● IP67;● Колір корпусу &ndash; чорний",
+    "features": [
+      "Роздільна здатність відео: 2688 × 1520, 1920 × 1080, 1280 × 720, 640 × 480, 640 × 360",
+      "Матриця: 1/3″ Progressive Scan CMOS",
+      "Фокусна відстань: 2.8 мм",
+      "Тип підсвічування: ІЧ+видиме світло",
+      "Дальність підсвічування: 80м",
+      "Живлення: 12В DC"
+    ],
+    "image": "https://viatec.ua/upload/2/hkvsnn1.webp",
+    "images": [
+      "https://viatec.ua/upload/2/hkvsnn1.webp"
+    ],
+    "available": true,
+    "price": 9135.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-3000",
     "sku": "99-00000418",
     "category": "Камери відеоспостереження",
@@ -134953,31 +135228,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-9931",
-    "sku": "99-00013919",
-    "category": "Камери відеоспостереження",
-    "subcategory": "",
-    "brand": "Hikvision",
-    "name": "IP відеокамера Hikvision",
-    "model": "DS-2CD1P43G2-IUF 4МП (2.8мм)",
-    "description": "● Роздільна здатність 4МП, 1/3\" CMOS - матриця;● Фокус 2.8мм (кут огляду 99&deg;);● Максимальна роздільна здатність відео 4 МП (2560&times; 1440) - 20 к\\с, та підтримка (1920&times;1080) - 25 к\\с;● Кодеки H.265+/H.265/H.264+/H.264;● ІЧ світло (до 30м);● Функції зображення: поворот зображення, насиченість, яскравість, контрастність, різкість, WDR, 3D DNR, HLC, BLC, водяний знак;● Аналітика та аларми: виявлення руху (підтримка спрацьовування сигналізації за вказаними типами цілей (людина та транспортний засіб)), відеосигналізація саботажу, виключення;● Micro SD (максимум 256ГБ);● 12 VDC/PoE;● IP66;● Колір корпусу &ndash; білий",
-    "features": [
-      "Матриця: 1/3\" Progressive Scan CMOS",
-      "Фокусна відстань: 2.8 мм",
-      "Тип підсвічування: ІЧ",
-      "Дальність підсвічування: 30 м",
-      "Живлення: 12В DC",
-      "Потужність споживання: 12 Вт"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2023-06/2CD1P43G2-I.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2023-06/2CD1P43G2-I.webp"
-    ],
-    "available": true,
-    "price": 4140.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-14679",
     "sku": "99-00021716",
     "category": "Камери відеоспостереження",
@@ -135300,31 +135550,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 94185.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-5290",
-    "sku": "99-00006329",
-    "category": "Камери відеоспостереження",
-    "subcategory": "",
-    "brand": "Hikvision",
-    "name": "PTZ відеокамера Hikvision",
-    "model": "DS-2DE4225IW-DE (T5) 2МП (4.8-120мм)",
-    "description": "1/2.8\" CMOS4.8-120мм (16х) 57&deg;&ndash;2.5&deg;2МП 25 к/сH.265+/H.265/H.264+/H.264виявлення перетину лінії, вторгнення, входу до регіону, вихід із регіону, виявлення залишеного без нагляду багажу, видалення предметів, аудіовиключення; захоплення обличчя; захист периметру; виявлення руху, сигналізація несанкціонованого доступу до відео, виключення, вхід та вихід тривогиMicroSD 256 Гб12 VDC, PoE (802.3at)IP662 кг",
-    "features": [
-      "Матриця: 1/2.8\"",
-      "Фокусна відстань: 4.8 - 120 мм",
-      "Тип підсвічування: ІЧ",
-      "Дальність підсвічування: 100 м",
-      "Пам'ять при відключенні живлення: Підтримує",
-      "Живлення: 12В DC"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/4225.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/4225.webp"
-    ],
-    "available": true,
-    "price": 25200.0,
     "source_supplier": "viatec"
   },
   {
@@ -135983,6 +136208,106 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 2565.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22390",
+    "sku": "99-10039356",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Разом дешевше Hikvision",
+    "model": "iDS-7204HUHI-M1/T + DS-2CE70DF3T-PF",
+    "description": "● Роздільна здатність 2МП 25к/с;● Фокус 3.6мм (кут огляду 77&deg;);● Видимий світло (до 20м);● CVI/CVBS/AHD/TVI;● 12V DC;● Колір корпусу &ndash; білий",
+    "features": [
+      "Матриця: 2 МП CMOS",
+      "Фокусна відстань: 3.6мм",
+      "Тип підсвічування: видиме світло",
+      "Дальність підсвічування: 20м",
+      "Живлення: 12В DC",
+      "Потужність споживання: 3 Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/DS-2CE70DF3T-PFkit1.webp",
+    "images": [
+      "https://viatec.ua/upload/2/DS-2CE70DF3T-PFkit1.webp"
+    ],
+    "available": true,
+    "price": 13770.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22391",
+    "sku": "99-10039355",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Разом дешевше Hikvision",
+    "model": "iDS-7204HUHI-M1/T + DS-2CE17D0T-IT5F Black 2МП (3.6мм)",
+    "description": "● Роздільна здатність 2МП 25к/с;● Фокус 3.6мм (кут огляду 79&deg;);● ІЧ підсвічування (до 80м);● CVI/CVBS/AHD/TVI;● 12V DC;● IP67;● Колір корпусу &ndash; чорний",
+    "features": [
+      "Матриця: 2 МП CMOS",
+      "Фокусна відстань: 3.6мм",
+      "Тип підсвічування: ІЧ",
+      "Дальність підсвічування: 80м",
+      "Живлення: 12В DC",
+      "Потужність споживання: 5 Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/DS-2CE17D0T-IT5Fkit1.webp",
+    "images": [
+      "https://viatec.ua/upload/2/DS-2CE17D0T-IT5Fkit1.webp"
+    ],
+    "available": true,
+    "price": 11835.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22392",
+    "sku": "99-10039368",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Разом дешевше Hikvision",
+    "model": "DS-2CD2143G2-LIS2U BLACK 2.8mm + DS-1272ZJ-120(Black)",
+    "description": "● Роздільна здатність 4МП, 1/2.9\" CMOS-матриця;● Фокус 2.8мм (кут огляду 104&deg;);● Максимальна роздільна здатність відео 4 МП (2688&times; 1520) - 25 к\\с;● Кодеки H.265; H.264; H.264+; H.265+; MJPEG;● ІЧ+видиме світло (до 30м);● Функції зображення: BLC, HLC, 3D DNR;● Аналітика та аларми: перетин лінії, вторгнення, вхід у регіон, вихід з регіону, спрацювання сигналізації за вказаними типами цілей (людина та транспортний засіб), виявлення залишеного без нагляду багажу, виявлення видалення об'єкта, сигналізація несанкціонованого доступу до відео, виключення;● Micro SD (максимум 512ГБ);● 12 VDC/PoE;● IP67; IK10;● Колір корпусу &ndash; чорний",
+    "features": [
+      "Роздільна здатність відео: 2688 × 1520, 1920 × 1080, 1280 × 720, 640 × 480, 640 × 360",
+      "Матриця: 1/2.9\" Progressive Scan CMOS",
+      "Фокусна відстань: 2.8мм",
+      "Тип підсвічування: ІЧ+видиме світло",
+      "Дальність підсвічування: 30м",
+      "Живлення: 12В DC"
+    ],
+    "image": "https://viatec.ua/upload/2/DS-2CD2143G2-LIS2Ukit1.webp",
+    "images": [
+      "https://viatec.ua/upload/2/DS-2CD2143G2-LIS2Ukit1.webp"
+    ],
+    "available": true,
+    "price": 8595.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-22393",
+    "sku": "99-10039367",
+    "category": "Камери відеоспостереження",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Разом дешевше Hikvision",
+    "model": "DS-2CD2143G2-LIS2U BLACK 2.8mm + DS-1280ZJ-DM46 BLACK",
+    "description": "● Роздільна здатність 4МП, 1/2.9\" CMOS-матриця;● Фокус 2.8мм (кут огляду 104&deg;);● Максимальна роздільна здатність відео 4 МП (2688&times; 1520) - 25 к\\с;● Кодеки H.265; H.264; H.264+; H.265+; MJPEG;● ІЧ+видиме світло (до 30м);● Функції зображення: BLC, HLC, 3D DNR;● Аналітика та аларми: перетин лінії, вторгнення, вхід у регіон, вихід з регіону, спрацювання сигналізації за вказаними типами цілей (людина та транспортний засіб), виявлення залишеного без нагляду багажу, виявлення видалення об'єкта, сигналізація несанкціонованого доступу до відео, виключення;● Micro SD (максимум 512ГБ);● 12 VDC/PoE;● IP67; IK10;● Колір корпусу &ndash; чорний",
+    "features": [
+      "Роздільна здатність відео: 2688 × 1520, 1920 × 1080, 1280 × 720, 640 × 480, 640 × 360",
+      "Матриця: 1/2.9\" Progressive Scan CMOS",
+      "Фокусна відстань: 2.8мм",
+      "Тип підсвічування: ІЧ+видиме світло",
+      "Дальність підсвічування: 30м",
+      "Живлення: 12В DC"
+    ],
+    "image": "https://viatec.ua/upload/2/DS-1280ZJ-DM46-kit121.webp",
+    "images": [
+      "https://viatec.ua/upload/2/DS-1280ZJ-DM46-kit121.webp"
+    ],
+    "available": true,
+    "price": 8460.0,
     "source_supplier": "viatec"
   },
   {
@@ -136967,31 +137292,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-20305",
-    "sku": "99-10035189",
-    "category": "Камери відеоспостереження",
-    "subcategory": "",
-    "brand": "IMOU",
-    "name": "IP відеокамера Imou",
-    "model": "Cruiser Triple (IPC-S7UP-11M0WED) 5+3+3МП (3.6+6мм)",
-    "description": "● Роздільна здатність 3МП+3МП+5МП, CMOS - матриця;● Фокус 3.6мм+6мм (кут огляду 87+51&deg;);● Максимальна роздільна здатність відео 5 МП (2880x 1620) - 15 к\\с, 5МП (2880x 1620);● Кодеки H.265/H.264;● ІЧ+видиме світло (до 30м);● Аналітика та аларми: Виявлення людини, Транспортний засіб, Вторгнення (людина/транспортний засіб), Перетин лінії (людина/транспортний засіб);● Micro SD (максимум 1 ТБ);● 12В 1.5А;● -30&deg;C~+50&deg;C;● Колір корпусу &ndash; білий",
-    "features": [
-      "Матриця: 3+3+5МП",
-      "Фокусна відстань: 3.6+3.6+6мм",
-      "Тип підсвічування: ІЧ+видиме світло",
-      "Дальність підсвічування: 30м",
-      "Живлення: DC 12В 1.5A",
-      "Потужність споживання: 18 Вт"
-    ],
-    "image": "https://viatec.ua/upload/2/CruiserTriple.webp",
-    "images": [
-      "https://viatec.ua/upload/2/CruiserTriple.webp"
-    ],
-    "available": true,
-    "price": 6750.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-20306",
     "sku": "99-10035188",
     "category": "Камери відеоспостереження",
@@ -137256,8 +137556,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/43950.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/43950.png",
-      "https://b2b.yugtorg.com/image/data/43950_2.png",
-      "https://b2b.yugtorg.com/image/data/43950_1.png"
+      "https://b2b.yugtorg.com/image/data/43950_1.png",
+      "https://b2b.yugtorg.com/image/data/43950_2.png"
     ],
     "available": true,
     "price": 770.0,
@@ -137359,8 +137659,8 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/01439.png",
       "https://b2b.yugtorg.com/image/data/01439_2.png",
       "https://b2b.yugtorg.com/image/data/01439_4.png",
-      "https://b2b.yugtorg.com/image/data/01439_1.png",
-      "https://b2b.yugtorg.com/image/data/01439_3.png"
+      "https://b2b.yugtorg.com/image/data/01439_3.png",
+      "https://b2b.yugtorg.com/image/data/01439_1.png"
     ],
     "available": true,
     "price": 1240.0,
@@ -138217,31 +138517,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "yugtorg-37794",
-    "sku": "YT37794",
-    "category": "Камери відеоспостереження",
-    "subcategory": "",
-    "brand": "Reolink",
-    "name": "8МП 4G IP вулична поворотна відеокамера з двома об'єктивами, мікрофоном та SD карткою Reolink TrackMix G770 (2,8мм)",
-    "model": "YT37794",
-    "description": "Технічні характеристики Основні характеристики Роздільна здатність 4 МП Тип об`єктиву фіксований Фокусна відстань 2.8 мм (кут огляду 120 °) Дальність підсвічування 30 м і менше Тип підсвічування ІЧ / видиме світло Чутливість 0.01 - 0.09470 лк Клас захисту IP66 Фізичні характеристики корпусу Матеріал корпусу метал / пластик Колір White Особливості Підтримка 4G / LTE є Робота від сонячної батареї так Робота від акумуляторних батарей так Звукова сигналізація є Світлова сигналізація є Вбудований мікрофон є Тип камери Тип IP Аналітика Розпізнавання людей / автомобілів є Повідомлення про вторгнення в область є Детектор руху є Reolink TrackMix LTE Розумна 4 Мп PTZ Wi-Fi камера відеоспостереження з прожектором Розпізнавання людей / авто | ZOOM 6x | Двосторонній аудіозв`язок | Кольорове нічне бачення 4G LTE Reolink TrackMix LTE підтримує стільникову мережу 3G / 4G LTE. Вона має високу роздільну здатність 2K 4MP Super HD та інтелектуальне розпізнавання людей та транспортних засобів. Там, де Wi-Fi та електрика недоступні, Reolink TrackMix LTE все одно працюватиме і забезпечить легкий, безпечний та гнучкий моніторинг території. Для використання камери потрібна картка Nano SIM та тарифний план стільникового зв`язку. Розпізнавання людей / транспортних засобів / домашніх тварин Аналізуючи форми об`єктів, TrackMix LTE може точно розпізнавати людей, транспортні засоби та тварин*. При виявленні підозрілої особи вам одразу буде надіслано повідомлення про небезпеку. Це значно знижує кількість помилкових тривог, оскільки рух інших менш важливих об`єктів ігнорується. *В даний час функція виявлення домашніх тварин знаходиться на стадії тестування Подвійне попередження Коли TrackMix LTE фіксує підозрілий об`єкт, її прожектори та сигналізація включаються або активуються вручну. Попередьте непроханого гостя і припиніть злочин до його вчинення. -Вбудована сигналізація -Прожектор Двосторонній аудіозв`язок: більш комфортне та просте спілкування Вбудований мікрофон та динамік дозволяють слухати та говорити з тим, кого зафіксує камера в режимі реального часу. Ви можете привітатись з друзями або зробити попередження недоброзичливцям. Стеження за об`єктом та патрулювання Завдяки панорамуванню на 355° та нахилу на 90°, камера TrackMix може контролювати досить велику територію за допомогою лише однієї камери відеоспостереження. Вона може автоматично стежити за рухом людини / транспортного засобу. -Автоматичне відстеження -Ручне та автоматичне панорамування та нахил Висока чіткість зображення (4 Мп) TrackMix LTE – це якість та надчітке зображення. Насолоджуйтесь якісними фотографіями та відеозаписами, знятими на камеру відеоспостереження. Ви можете легко розглянути складні деталі, зафіксовані камерою. Супер чітке нічне бачення Камера TrackMix LTE з інфрачервоними світлодіодами бачить уночі на відстані до 15 метрів. Світло прожекторів забезпечує нічне бачення у кольорі, як за денного світла. 6-кратний гібридний зум для більшого огляду Подвійний об`єктив забезпечує широкий кут огляду, а 6-кратний оптичний зум дозволяє наблизити зображення для розгляду дрібних деталей або зменшити для максимального охоплення. Кут огляду 38 ° - 104 ° Ширококутний об`єктив – 2,8 мм Телефотооб`єктив – 8 мм Дивовижні відео за допомогою інтервальної зйомки За такими тривалими подіями, як схід чи розпускання квітів, спостерігати важко, але цікаво. Ця камера з функцією інтервальної зйомки дозволяє швидше та простіше зняти динаміку таких чудових та цікавих подій. Сильніша, ніж ви очікуєте TrackMix LTE призначений для використання в різних умовах. Міцний корпус дозволяє камері витримувати потужні струмені води, сильну спеку, вологість та холод. Контролюйте свій будинок або бізнес за допомогою мобільних додатків За допомогою програм, таких як Reolink App або Client, ви можете контролювати ваш будинок або бізнес, відреагувати на тривогу в будь-який час та з будь-якого місця. Просте відтворення та керування записами Ви можете не лише відтворювати збережені відео для пошуку потрібної інформації, але й фільтрувати відео за моментами розпізнавання об`єктів та керувати шкалою часу, щоб швидко знайти те, що потрібно. Визначення руху, повідомлення в режимі реального часу Отримуйте миттєві та правдиві повідомлення про рух об`єктів у кадрі. Камера повідомить вас щойно виявить рух. Налаштувавши чутливість до руху та розкладу, ви можете персоналізувати камеру, щоб упіймати в кадр те, що вам дійсно потрібно. Типи повідомлень: -мобільний додаток: миттєві push-повідомлення на вашому смартфоні -е-mail: повідомлення на пошту з фрагментами запису або фотографіями -сирена: при виявленні руху камера може включити потужну сирену або відтворенняє записане повідомлення Зона руху Ви можете налаштувати зону руху за потреби, визначивши, де на рух об`єкта буде реакція, а де ні. Гнучкі можливості запису: за рухом, 24 / 7 або за розкладом Камера забезпечує безперервний запис чи запис кліпів за рухом. Це допоможе зберегти пам`ятні події, такі як перші кроки вашої дитини або сюрприз-вечірку. Збереження",
-    "features": [
-      "8МП",
-      "4 МП",
-      "4MP",
-      "IP66",
-      "Wi-Fi",
-      "2,8мм"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/37794.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/37794.png"
-    ],
-    "available": true,
-    "price": 12000.0,
-    "source_supplier": "yugtorg"
-  },
-  {
     "id": "yugtorg-37552",
     "sku": "YT37552",
     "category": "Камери відеоспостереження",
@@ -138382,36 +138657,12 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/10808.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/10808.png",
-      "https://b2b.yugtorg.com/image/data/10808_3.png",
+      "https://b2b.yugtorg.com/image/data/10808_2.png",
       "https://b2b.yugtorg.com/image/data/10808_1.png",
-      "https://b2b.yugtorg.com/image/data/10808_2.png"
+      "https://b2b.yugtorg.com/image/data/10808_3.png"
     ],
     "available": true,
     "price": 188.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-1170",
-    "sku": "Ritar BNC+DC 20m",
-    "category": "Камери відеоспостереження",
-    "subcategory": "",
-    "brand": "Ritar",
-    "name": "Кабель для камер відеоспостереження Ritar BNC + DC 20m до 5МР AHD / CVI / TVI / CVBS чорний",
-    "model": "Ritar BNC+DC 20m",
-    "description": "Кабель камер відеоспостереження Ritar BNC+DC - комбінований кабель для підключення камер відеоспостереження до пристроїв запису. Забезпечує живленням, а також передає відео без втрати якості (до 5 мегапікселів) на пристрій відображення. Характеристики: • для камер - AHD / CVI / TVI / CVBS • роз`єми - BNC+DC • до 5 МП • довжина кабелю – 20 м. • колір чорний • кількість в упаковці – 1 шт.",
-    "features": [
-      "5 МП",
-      "AHD"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/01170.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/01170.png",
-      "https://b2b.yugtorg.com/image/data/01170_2.png",
-      "https://b2b.yugtorg.com/image/data/01170_3.png",
-      "https://b2b.yugtorg.com/image/data/01170_1.png"
-    ],
-    "available": true,
-    "price": 230.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -138433,9 +138684,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/12647.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/12647.png",
-      "https://b2b.yugtorg.com/image/data/12647_1.png",
+      "https://b2b.yugtorg.com/image/data/12647_3.png",
       "https://b2b.yugtorg.com/image/data/12647_2.png",
-      "https://b2b.yugtorg.com/image/data/12647_3.png"
+      "https://b2b.yugtorg.com/image/data/12647_1.png"
     ],
     "available": true,
     "price": 100.0,
@@ -139209,9 +139460,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/11491.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/11491.png",
-      "https://b2b.yugtorg.com/image/data/11491_3.png",
+      "https://b2b.yugtorg.com/image/data/11491_1.png",
       "https://b2b.yugtorg.com/image/data/11491_2.png",
-      "https://b2b.yugtorg.com/image/data/11491_1.png"
+      "https://b2b.yugtorg.com/image/data/11491_3.png"
     ],
     "available": true,
     "price": 209.0,
@@ -139231,9 +139482,9 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/11488.png",
       "https://b2b.yugtorg.com/image/data/11488_1.png",
-      "https://b2b.yugtorg.com/image/data/11488_2.png",
       "https://b2b.yugtorg.com/image/data/11488_3.png",
-      "https://b2b.yugtorg.com/image/data/11488_4.png"
+      "https://b2b.yugtorg.com/image/data/11488_4.png",
+      "https://b2b.yugtorg.com/image/data/11488_2.png"
     ],
     "available": true,
     "price": 425.0,
@@ -139252,10 +139503,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/11489.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/11489.png",
-      "https://b2b.yugtorg.com/image/data/11489_4.png",
-      "https://b2b.yugtorg.com/image/data/11489_3.png",
+      "https://b2b.yugtorg.com/image/data/11489_1.png",
       "https://b2b.yugtorg.com/image/data/11489_2.png",
-      "https://b2b.yugtorg.com/image/data/11489_1.png"
+      "https://b2b.yugtorg.com/image/data/11489_3.png",
+      "https://b2b.yugtorg.com/image/data/11489_4.png"
     ],
     "available": true,
     "price": 440.0,
@@ -139274,9 +139525,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/14599.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/14599.png",
+      "https://b2b.yugtorg.com/image/data/14599_3.png",
       "https://b2b.yugtorg.com/image/data/14599_2.png",
-      "https://b2b.yugtorg.com/image/data/14599_1.png",
-      "https://b2b.yugtorg.com/image/data/14599_3.png"
+      "https://b2b.yugtorg.com/image/data/14599_1.png"
     ],
     "available": true,
     "price": 188.0,
@@ -139341,11 +139592,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/11513.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/11513.png",
-      "https://b2b.yugtorg.com/image/data/11513_2.png",
-      "https://b2b.yugtorg.com/image/data/11513_1.png",
       "https://b2b.yugtorg.com/image/data/11513_5.png",
+      "https://b2b.yugtorg.com/image/data/11513_2.png",
+      "https://b2b.yugtorg.com/image/data/11513_3.png",
       "https://b2b.yugtorg.com/image/data/11513_4.png",
-      "https://b2b.yugtorg.com/image/data/11513_3.png"
+      "https://b2b.yugtorg.com/image/data/11513_1.png"
     ],
     "available": true,
     "price": 498.0,
@@ -139649,9 +139900,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/16071.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/16071.png",
+      "https://b2b.yugtorg.com/image/data/16071_1.png",
       "https://b2b.yugtorg.com/image/data/16071_4.png",
       "https://b2b.yugtorg.com/image/data/16071_3.png",
-      "https://b2b.yugtorg.com/image/data/16071_1.png",
       "https://b2b.yugtorg.com/image/data/16071_2.png"
     ],
     "available": true,
@@ -139791,9 +140042,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/09374.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/09374.png",
-      "https://b2b.yugtorg.com/image/data/09374_1.png",
       "https://b2b.yugtorg.com/image/data/09374_2.png",
-      "https://b2b.yugtorg.com/image/data/09374_3.png"
+      "https://b2b.yugtorg.com/image/data/09374_3.png",
+      "https://b2b.yugtorg.com/image/data/09374_1.png"
     ],
     "available": true,
     "price": 18500.0,
@@ -139849,9 +140100,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46411.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46411.png",
-      "https://b2b.yugtorg.com/image/data/46411_1.png",
       "https://b2b.yugtorg.com/image/data/46411_2.png",
-      "https://b2b.yugtorg.com/image/data/46411_3.png"
+      "https://b2b.yugtorg.com/image/data/46411_3.png",
+      "https://b2b.yugtorg.com/image/data/46411_1.png"
     ],
     "available": true,
     "price": 1131.0,
@@ -139877,9 +140128,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46408.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46408.png",
-      "https://b2b.yugtorg.com/image/data/46408_3.png",
       "https://b2b.yugtorg.com/image/data/46408_1.png",
-      "https://b2b.yugtorg.com/image/data/46408_2.png"
+      "https://b2b.yugtorg.com/image/data/46408_2.png",
+      "https://b2b.yugtorg.com/image/data/46408_3.png"
     ],
     "available": true,
     "price": 677.0,
@@ -139905,9 +140156,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46407.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46407.png",
+      "https://b2b.yugtorg.com/image/data/46407_3.png",
       "https://b2b.yugtorg.com/image/data/46407_2.png",
-      "https://b2b.yugtorg.com/image/data/46407_1.png",
-      "https://b2b.yugtorg.com/image/data/46407_3.png"
+      "https://b2b.yugtorg.com/image/data/46407_1.png"
     ],
     "available": true,
     "price": 1131.0,
@@ -139932,9 +140183,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46406.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46406.png",
-      "https://b2b.yugtorg.com/image/data/46406_3.png",
+      "https://b2b.yugtorg.com/image/data/46406_2.png",
       "https://b2b.yugtorg.com/image/data/46406_1.png",
-      "https://b2b.yugtorg.com/image/data/46406_2.png"
+      "https://b2b.yugtorg.com/image/data/46406_3.png"
     ],
     "available": true,
     "price": 2938.0,
@@ -139960,8 +140211,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/46414.png",
       "https://b2b.yugtorg.com/image/data/46414_1.png",
-      "https://b2b.yugtorg.com/image/data/46414_3.png",
       "https://b2b.yugtorg.com/image/data/46414_2.png",
+      "https://b2b.yugtorg.com/image/data/46414_3.png",
       "https://b2b.yugtorg.com/image/data/46414_4.png"
     ],
     "available": true,
@@ -140013,10 +140264,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46412.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46412.png",
-      "https://b2b.yugtorg.com/image/data/46412_4.png",
       "https://b2b.yugtorg.com/image/data/46412_1.png",
-      "https://b2b.yugtorg.com/image/data/46412_3.png",
-      "https://b2b.yugtorg.com/image/data/46412_2.png"
+      "https://b2b.yugtorg.com/image/data/46412_4.png",
+      "https://b2b.yugtorg.com/image/data/46412_2.png",
+      "https://b2b.yugtorg.com/image/data/46412_3.png"
     ],
     "available": true,
     "price": 288.0,
@@ -140038,8 +140289,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46410.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46410.png",
-      "https://b2b.yugtorg.com/image/data/46410_2.png",
       "https://b2b.yugtorg.com/image/data/46410_1.png",
+      "https://b2b.yugtorg.com/image/data/46410_2.png",
       "https://b2b.yugtorg.com/image/data/46410_3.png"
     ],
     "available": true,
@@ -140493,30 +140744,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-12725",
-    "sku": "99-00016542",
-    "category": "Комплекти домофонії",
-    "subcategory": "",
-    "brand": "BCOM",
-    "name": "Комплект відеодомофона",
-    "model": "BCOM BD-780FHD Black Kit",
-    "description": "Комплект відеодомофон+відеопанель. Кольоровий домофон з IPS екраном 7 дюймів та сенсорними кнопками, підключення 2 панелей виклику AHD/TVI/CVI або CVBS, 2 відеокамер AHD/TVI/CVI або CVBS з роздільною здатністю до 2Мп, 2 датчиків тривоги і 1 додаткового монітора (телевізора). Розмова через гучний зв'язок. З'єднання з панеллю виклику 4-дротове. Слот microSD, живлення 100-240V, споживання 700mA, в режимі очікування 300mA. Корпус чорного кольору. Розміри 190х127х22 мм. Кольорова накладна відеопанель чорного кольору з CMOS матрицею і камерою з роздільною здатністю Full HD 1920x1080. Кут огляду 120&deg;. 4-х дротове підключення до домофона. Підключення всіх типів електрозамків (NO/NC). Робоча температура -30..+50&deg;С. Живлення від домофона DC12V. Розмір 130x48x19мм.",
-    "features": [
-      "Роздільна здатність дисплея: 1024 х 800",
-      "Тип підсвічування: ІЧ",
-      "Живлення монітора: AC 100-240 В",
-      "2Мп",
-      "AHD"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-03/BCOM-BD-780FHD-Black-Kit.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-03/BCOM-BD-780FHD-Black-Kit.webp"
-    ],
-    "available": true,
-    "price": 7184.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-21960",
     "sku": "99-10034391",
     "category": "Комплекти домофонії",
@@ -140711,30 +140938,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 7891.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-7118",
-    "sku": "99-00009373",
-    "category": "Комплекти домофонії",
-    "subcategory": "",
-    "brand": "Neolight",
-    "name": "Комплект відеодомофона Neolight",
-    "model": "KAPPA HD KIT Silver",
-    "description": "Основні характеристики Neolight Kappa HD: Підтримка роздільної здатності 1080р (1920х1080) від викликових панелей та від камер по будь-якому каналу. Нове графічне меню, підтримка російської та української мови меню. Підтримка автоматичного визначення типу сигналу та роздільної здатності по всіх каналах. Блок живлення вбудований у корпус. Підтримка підключення до 4 пристроїв (викликових панелей, камер). Вбудований Блок керування замком БУЗ (обмеження на відстані). Основні характеристики панелі виклику Neolight Solo FHD: Надширокий кут огляду 110 градусів; Автоматичне налаштування посилення мікрофона та гучномовця; Управління електромеханічним замком; Потужна ІЧ-підсвічування - нові ІЧ світлодіоди з розширеним спектральним діапазоном дозволяють панелі Solo FHD бачити в темряві до 5 м. Smart IR - тепер будь-яка людина, що підходить близько до панелі в темну пору доби при включеному ІЧ підсвічуванні буде вами впізнано, т.к. технологія Smart IR автоматично зменшує інтенсивність ІЧ-підсвічування в панелі при близькому розташуванні об'єкта",
-    "features": [
-      "Роздільна здатність дисплея: 800 х 480",
-      "Тип підсвічування: ІЧ 5 м",
-      "Живлення монітора: 220В AC",
-      "ІЧ 5 м",
-      "25 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/kappa-hd-kit-silver.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/kappa-hd-kit-silver.webp"
-    ],
-    "available": true,
-    "price": 6840.0,
     "source_supplier": "viatec"
   },
   {
@@ -141156,28 +141359,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-16382",
-    "sku": "99-00023916",
-    "category": "Кронштейни та монтажні коробки",
-    "subcategory": "",
-    "brand": "Dahua",
-    "name": "Водонепроникна розподільна коробка",
-    "model": "Dahua DH-PFA124",
-    "description": "● Матеріал корпусу алюмінієвий сплав;● Розміри виробу 134&times;133,4&times;52 мм;● Тип різьблення G3/4;● Ступінь захисту IP66",
-    "features": [
-      "Матеріал: алюмінієвий сплав",
-      "IP66",
-      "52 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2025-02/DH-PFA124w.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2025-02/DH-PFA124w.webp"
-    ],
-    "available": true,
-    "price": 855.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-16383",
     "sku": "99-00023917",
     "category": "Кронштейни та монтажні коробки",
@@ -141303,27 +141484,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-3816",
-    "sku": "99-00003157",
-    "category": "Кронштейни та монтажні коробки",
-    "subcategory": "",
-    "brand": "Dahua",
-    "name": "комутаційна коробка",
-    "model": "DH-PFA130-E-B",
-    "description": "DH-PFA130-E - надійний комутаційний бокс, призначений для кріплення до нього камери, а також для захисту та охайного проведення кабелю. Дана модель Dahua виконана у фірмовому чорному кольорі. Ідеально підійде для відповідних відеокамер цього виробника. Виготовлено розподільчу коробку з алюмінію. Внутрішня частина корпусу та місце контакту з кронштейном закриті від багатьох видів впливів ззовні. Її непросто відкрити, туди не набивається пил і потрапляє волога. Для виведення проводів передбачено виходи, але можна ними і не користуватися, залишивши кришку. Крім функцій розподільника DH-PFA130-E виконує роль поверхні для кріплення пристроїв. Важить аксесуар лише 350 грам, але витримує майже в 10 разів велике навантаження &ndash; до 3 кілограм. Матеріал стійкий до температур від -40 до +60 &deg;.",
-    "features": [
-      "Матеріал: алюміній",
-      "41 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/DH-PFA130-E-B.jpg",
-    "images": [
-      "https://viatec.ua/upload/images/prod/DH-PFA130-E-B.jpg"
-    ],
-    "available": true,
-    "price": 720.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-3980",
     "sku": "99-00003083",
     "category": "Кронштейни та монтажні коробки",
@@ -141385,6 +141545,26 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-1745",
+    "sku": "10000001779",
+    "category": "Кронштейни та монтажні коробки",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "комутаційний бокс",
+    "model": "DH-PFA137",
+    "description": "DH-PFA137 &ndash; це фірмовий комутаційний бокс Dahua, який одночасно є кронштейном та розподільчою коробкою для відеокамер. Для більшої міцності, виготовлений з алюмінію. Легкий на вагу, але надійний. Утримує до 1 кілограма та спокійно переносить екстремальні температури. Може використовуватись у приміщеннях та на вулиці. У DH-PFA137 передбачені кріплення для сумісних камер та система встановлення на стелю або стіну. Усередину боксу поміщаються дроти та електронні аксесуари. Кабель виводиться через бічний отвір або в роз&#39;єм з тильного боку. Корпус пофарбований у білий колір, як і більшість пристроїв Dahua Technology, що дозволяє зробити систему відеоспостереження максимально естетичною.",
+    "features": [
+      "Матеріал: алюміній"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/PFA137.JPG",
+    "images": [
+      "https://viatec.ua/upload/images/prod/PFA137.JPG"
+    ],
+    "available": true,
+    "price": 248.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-1750",
     "sku": "10000001778",
     "category": "Кронштейни та монтажні коробки",
@@ -141402,6 +141582,27 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 405.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-1751",
+    "sku": "00-00000119",
+    "category": "Кронштейни та монтажні коробки",
+    "subcategory": "",
+    "brand": "Dahua",
+    "name": "комутаційний бокс",
+    "model": "DH-PFA121",
+    "description": "Комутаційний бокс, що має герметичні властивості - незамінний аксесуар для настінних відеокамер, що перевершує за якостями звичайні розподільні коробки. У компанії Dahua це універсальний DH-PFA121. За винятком спеціальних кріплень для камери та передбачених виходів для дроту, корпус повністю закритий від будь-яких зовнішніх впливів. Алюмінієва конструкція не пропускає у внутрішню частину воду або пил, а також захищає від вогню, атмосферних змін та ударів. Усередині розміщується проводка та &laquo;балуни&raquo; від пристрою. Крім того, DH-PFA121 виконує роль кронштейна. Бокс розрахований на трикілограмове навантаження, тож утримає навіть важкі системи спостереження. Це найкраще рішення для надійної та естетичної установки відеокамер як у приміщеннях, так і на вуличних майданчиках.",
+    "features": [
+      "Матеріал: алюміній",
+      "IP66"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/DH-PFA121.jpg",
+    "images": [
+      "https://viatec.ua/upload/images/prod/DH-PFA121.jpg"
+    ],
+    "available": true,
+    "price": 810.0,
     "source_supplier": "viatec"
   },
   {
@@ -142397,27 +142598,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 2868.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-9920",
-    "sku": "99-00002115",
-    "category": "Кронштейни та монтажні коробки",
-    "subcategory": "",
-    "brand": "Hikvision",
-    "name": "Кронштейн",
-    "model": "DS-1662ZJ",
-    "description": "Матеріал з алюмінієвого сплаву з напиленням поверхні лікування. Загальний дизайн для внутрішнього/зовнішнього приміщення Конструкція отвору для входу кабелю. Кращий водонепроникний дизайн із гумовою прокладкою. Завдяки страхувальній мотузці збірка безпечніша та більш зручна.",
-    "features": [
-      "Матеріал: алюміній",
-      "500 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2023-06/DS-1662ZJ.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2023-06/DS-1662ZJ.webp"
-    ],
-    "available": true,
-    "price": 1507.0,
     "source_supplier": "viatec"
   },
   {
@@ -143433,27 +143613,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-14748",
-    "sku": "99-00021842",
-    "category": "Кронштейни та монтажні коробки",
-    "subcategory": "",
-    "brand": "Light Vision",
-    "name": "Монтажна коробка пластик 118*98*50 мм",
-    "model": "Light Vision VLC-03BX",
-    "description": "● Матеріал корпусу пластик;● Клас захисту IP66;● Робоча температура -30 &deg;C ~ +50 &deg;C;● Розміри 118 х 98 х 50 мм",
-    "features": [
-      "IP66",
-      "50 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-08/VLC-03BX.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-08/VLC-03BX.webp"
-    ],
-    "available": true,
-    "price": 80.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-14750",
     "sku": "99-00021841",
     "category": "Кронштейни та монтажні коробки",
@@ -143475,6 +143634,27 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-14749",
+    "sku": "99-00021840",
+    "category": "Кронштейни та монтажні коробки",
+    "subcategory": "",
+    "brand": "Light Vision",
+    "name": "Монтажна коробка пластик 130*130*50 мм",
+    "model": "Light Vision VLC-02BX",
+    "description": "● Матеріал корпусу пластик;● Клас захисту IP66;● Робоча температура -30 &deg;C ~ +50 &deg;C;● Розміри 130 х 130 х 50 мм",
+    "features": [
+      "IP66",
+      "50 мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-08/VLC-02BX.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-08/VLC-02BX.webp"
+    ],
+    "available": true,
+    "price": 107.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-4727",
     "sku": "99-00005387",
     "category": "Кронштейни та монтажні коробки",
@@ -143493,6 +143673,27 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 92.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-4728",
+    "sku": "99-00005388",
+    "category": "Кронштейни та монтажні коробки",
+    "subcategory": "",
+    "brand": "OBO Bettermann",
+    "name": "Коробка розгалудження",
+    "model": "Т60 114х114х57 ІР 66 OBO",
+    "description": "розмір 114х114х57 мм; внутрішній простір 100х100х48 мм; 7х М25 входів; ізоляція 500 В, опір полум'я VDE 0471 / DIN 695 Part 2-1 650 &deg; C; клас захисту IP66, IK07; -5,00 - 60,00 &deg; C",
+    "features": [
+      "Матеріал: поліпропілен",
+      "IP66"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2007061_PG1.jpg",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2007061_PG1.jpg"
+    ],
+    "available": true,
+    "price": 195.0,
     "source_supplier": "viatec"
   },
   {
@@ -144169,8 +144370,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/00808.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/00808.png",
-      "https://b2b.yugtorg.com/image/data/00808_1.png",
-      "https://b2b.yugtorg.com/image/data/00808_2.png"
+      "https://b2b.yugtorg.com/image/data/00808_2.png",
+      "https://b2b.yugtorg.com/image/data/00808_1.png"
     ],
     "available": true,
     "price": 512.0,
@@ -145171,8 +145372,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/05009.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/05009.png",
-      "https://b2b.yugtorg.com/image/data/05009_1.png",
-      "https://b2b.yugtorg.com/image/data/05009_2.png"
+      "https://b2b.yugtorg.com/image/data/05009_2.png",
+      "https://b2b.yugtorg.com/image/data/05009_1.png"
     ],
     "available": true,
     "price": 150.0,
@@ -145199,26 +145400,6 @@ window.ALTCAM_CATALOG = [
     "available": true,
     "price": 160.0,
     "source_supplier": "yugtorg"
-  },
-  {
-    "id": "viatec-4813",
-    "sku": "99-00005503",
-    "category": "Кронштейни та монтажні коробки",
-    "subcategory": "",
-    "brand": "Інший виробник",
-    "name": "антивандальна скринька",
-    "model": "IPCOM БК-400-З-2",
-    "description": "Висота, мм 300; Ширина, мм 400; Глибина, мм 150; Тип передніх дверей: Петельна; Кабельні вводи d = 18-6 шт; Покриття: Порошково-полімерне; Колір: світло-сірий (RAL 7035); Ступінь захисту: IP20; Тип виконання: Настінне; Макс. стат. навантаження 60 кг; Вага 5,47 кг; конструктив суцільнозварний замок сувальдний",
-    "features": [
-      "IP20"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/bk-400-z-2-x.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/bk-400-z-2-x.webp"
-    ],
-    "available": true,
-    "price": 1279.0,
-    "source_supplier": "viatec"
   },
   {
     "id": "viatec-4816",
@@ -146111,26 +146292,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-17503",
-    "sku": "99-10025593",
-    "category": "Кронштейни та монтажні коробки",
-    "subcategory": "",
-    "brand": "Інший виробник",
-    "name": "Корпус металевий",
-    "model": "PRO-UEA ЩМП-30.20.15 IP54",
-    "description": "● Товщина монтажної панелі 1.5;● Тип монтажу навісний;● Товщина металу, мм 1;● Габарити (ВхШхГ) 300х200х150;● Ступінь захисту IP54;● Матеріал корпусу метал",
-    "features": [
-      "IP54"
-    ],
-    "image": "https://viatec.ua/upload/2/shchmp-302015.webp",
-    "images": [
-      "https://viatec.ua/upload/2/shchmp-302015.webp"
-    ],
-    "available": true,
-    "price": 1678.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-17505",
     "sku": "99-10025595",
     "category": "Кронштейни та монтажні коробки",
@@ -146643,8 +146804,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/21529.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/21529.png",
-      "https://b2b.yugtorg.com/image/data/21529_2.png",
-      "https://b2b.yugtorg.com/image/data/21529_1.png"
+      "https://b2b.yugtorg.com/image/data/21529_1.png",
+      "https://b2b.yugtorg.com/image/data/21529_2.png"
     ],
     "available": true,
     "price": 468.0,
@@ -146663,8 +146824,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/19621.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/19621.png",
-      "https://b2b.yugtorg.com/image/data/19621_2.png",
-      "https://b2b.yugtorg.com/image/data/19621_1.png"
+      "https://b2b.yugtorg.com/image/data/19621_1.png",
+      "https://b2b.yugtorg.com/image/data/19621_2.png"
     ],
     "available": true,
     "price": 644.0,
@@ -146683,8 +146844,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/19622.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/19622.png",
-      "https://b2b.yugtorg.com/image/data/19622_1.png",
-      "https://b2b.yugtorg.com/image/data/19622_2.png"
+      "https://b2b.yugtorg.com/image/data/19622_2.png",
+      "https://b2b.yugtorg.com/image/data/19622_1.png"
     ],
     "available": true,
     "price": 615.0,
@@ -146707,9 +146868,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/27008.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/27008.png",
-      "https://b2b.yugtorg.com/image/data/27008_3.png",
       "https://b2b.yugtorg.com/image/data/27008_2.png",
-      "https://b2b.yugtorg.com/image/data/27008_1.png"
+      "https://b2b.yugtorg.com/image/data/27008_1.png",
+      "https://b2b.yugtorg.com/image/data/27008_3.png"
     ],
     "available": true,
     "price": 32999.0,
@@ -146784,8 +146945,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/26009.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/26009.png",
-      "https://b2b.yugtorg.com/image/data/26009_1.png",
-      "https://b2b.yugtorg.com/image/data/26009_2.png"
+      "https://b2b.yugtorg.com/image/data/26009_2.png",
+      "https://b2b.yugtorg.com/image/data/26009_1.png"
     ],
     "available": true,
     "price": 878.0,
@@ -146862,9 +147023,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/33911.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/33911.png",
-      "https://b2b.yugtorg.com/image/data/33911_1.png",
+      "https://b2b.yugtorg.com/image/data/33911_2.png",
       "https://b2b.yugtorg.com/image/data/33911_3.png",
-      "https://b2b.yugtorg.com/image/data/33911_2.png"
+      "https://b2b.yugtorg.com/image/data/33911_1.png"
     ],
     "available": true,
     "price": 3756.0,
@@ -146904,8 +147065,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/33905.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/33905.png",
-      "https://b2b.yugtorg.com/image/data/33905_1.png",
-      "https://b2b.yugtorg.com/image/data/33905_2.png"
+      "https://b2b.yugtorg.com/image/data/33905_2.png",
+      "https://b2b.yugtorg.com/image/data/33905_1.png"
     ],
     "available": true,
     "price": 498.0,
@@ -146964,8 +147125,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/33903.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/33903.png",
-      "https://b2b.yugtorg.com/image/data/33903_2.png",
-      "https://b2b.yugtorg.com/image/data/33903_1.png"
+      "https://b2b.yugtorg.com/image/data/33903_1.png",
+      "https://b2b.yugtorg.com/image/data/33903_2.png"
     ],
     "available": true,
     "price": 919.0,
@@ -147133,8 +147294,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36977.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36977.png",
-      "https://b2b.yugtorg.com/image/data/36977_1.png",
-      "https://b2b.yugtorg.com/image/data/36977_2.png"
+      "https://b2b.yugtorg.com/image/data/36977_2.png",
+      "https://b2b.yugtorg.com/image/data/36977_1.png"
     ],
     "available": true,
     "price": 3672.0,
@@ -147175,8 +147336,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47797.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47797.png",
-      "https://b2b.yugtorg.com/image/data/47797_1.png",
-      "https://b2b.yugtorg.com/image/data/47797_2.png"
+      "https://b2b.yugtorg.com/image/data/47797_2.png",
+      "https://b2b.yugtorg.com/image/data/47797_1.png"
     ],
     "available": true,
     "price": 1923.0,
@@ -147195,8 +147356,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47783.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47783.png",
-      "https://b2b.yugtorg.com/image/data/47783_1.png",
-      "https://b2b.yugtorg.com/image/data/47783_2.png"
+      "https://b2b.yugtorg.com/image/data/47783_2.png",
+      "https://b2b.yugtorg.com/image/data/47783_1.png"
     ],
     "available": true,
     "price": 2938.0,
@@ -147215,8 +147376,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47796.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47796.png",
-      "https://b2b.yugtorg.com/image/data/47796_2.png",
-      "https://b2b.yugtorg.com/image/data/47796_1.png"
+      "https://b2b.yugtorg.com/image/data/47796_1.png",
+      "https://b2b.yugtorg.com/image/data/47796_2.png"
     ],
     "available": true,
     "price": 2823.0,
@@ -147505,8 +147666,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/14098.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/14098.png",
-      "https://b2b.yugtorg.com/image/data/14098_2.png",
-      "https://b2b.yugtorg.com/image/data/14098_1.png"
+      "https://b2b.yugtorg.com/image/data/14098_1.png",
+      "https://b2b.yugtorg.com/image/data/14098_2.png"
     ],
     "available": true,
     "price": 3161.0,
@@ -147527,8 +147688,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/25292.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/25292.png",
-      "https://b2b.yugtorg.com/image/data/25292_2.png",
-      "https://b2b.yugtorg.com/image/data/25292_1.png"
+      "https://b2b.yugtorg.com/image/data/25292_1.png",
+      "https://b2b.yugtorg.com/image/data/25292_2.png"
     ],
     "available": true,
     "price": 5364.0,
@@ -147571,8 +147732,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/21953.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/21953.png",
-      "https://b2b.yugtorg.com/image/data/21953_1.png",
-      "https://b2b.yugtorg.com/image/data/21953_2.png"
+      "https://b2b.yugtorg.com/image/data/21953_2.png",
+      "https://b2b.yugtorg.com/image/data/21953_1.png"
     ],
     "available": true,
     "price": 4457.0,
@@ -147591,8 +147752,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48201.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48201.png",
-      "https://b2b.yugtorg.com/image/data/48201_1.png",
-      "https://b2b.yugtorg.com/image/data/48201_2.png"
+      "https://b2b.yugtorg.com/image/data/48201_2.png",
+      "https://b2b.yugtorg.com/image/data/48201_1.png"
     ],
     "available": true,
     "price": 5645.0,
@@ -147613,8 +147774,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/25293.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/25293.png",
-      "https://b2b.yugtorg.com/image/data/25293_1.png",
       "https://b2b.yugtorg.com/image/data/25293_2.png",
+      "https://b2b.yugtorg.com/image/data/25293_1.png",
       "https://b2b.yugtorg.com/image/data/25293_3.png"
     ],
     "available": true,
@@ -147636,8 +147797,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/06739.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/06739.png",
-      "https://b2b.yugtorg.com/image/data/06739_1.png",
-      "https://b2b.yugtorg.com/image/data/06739_2.png"
+      "https://b2b.yugtorg.com/image/data/06739_2.png",
+      "https://b2b.yugtorg.com/image/data/06739_1.png"
     ],
     "available": true,
     "price": 1246.0,
@@ -147701,8 +147862,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/25296.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/25296.png",
-      "https://b2b.yugtorg.com/image/data/25296_1.png",
-      "https://b2b.yugtorg.com/image/data/25296_2.png"
+      "https://b2b.yugtorg.com/image/data/25296_2.png",
+      "https://b2b.yugtorg.com/image/data/25296_1.png"
     ],
     "available": true,
     "price": 11820.0,
@@ -147810,8 +147971,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/25265.png",
       "https://b2b.yugtorg.com/image/data/25265_1.png",
-      "https://b2b.yugtorg.com/image/data/25265_3.png",
-      "https://b2b.yugtorg.com/image/data/25265_2.png"
+      "https://b2b.yugtorg.com/image/data/25265_2.png",
+      "https://b2b.yugtorg.com/image/data/25265_3.png"
     ],
     "available": true,
     "price": 13000.0,
@@ -147832,9 +147993,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/25288.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/25288.png",
-      "https://b2b.yugtorg.com/image/data/25288_3.png",
+      "https://b2b.yugtorg.com/image/data/25288_2.png",
       "https://b2b.yugtorg.com/image/data/25288_1.png",
-      "https://b2b.yugtorg.com/image/data/25288_2.png"
+      "https://b2b.yugtorg.com/image/data/25288_3.png"
     ],
     "available": true,
     "price": 2484.0,
@@ -147877,8 +148038,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/14100.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/14100.png",
-      "https://b2b.yugtorg.com/image/data/14100_2.png",
-      "https://b2b.yugtorg.com/image/data/14100_1.png"
+      "https://b2b.yugtorg.com/image/data/14100_1.png",
+      "https://b2b.yugtorg.com/image/data/14100_2.png"
     ],
     "available": true,
     "price": 1610.0,
@@ -147899,8 +148060,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/25289.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/25289.png",
-      "https://b2b.yugtorg.com/image/data/25289_2.png",
-      "https://b2b.yugtorg.com/image/data/25289_1.png"
+      "https://b2b.yugtorg.com/image/data/25289_1.png",
+      "https://b2b.yugtorg.com/image/data/25289_2.png"
     ],
     "available": true,
     "price": 3280.0,
@@ -147921,8 +148082,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/07035.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/07035.png",
-      "https://b2b.yugtorg.com/image/data/07035_2.png",
-      "https://b2b.yugtorg.com/image/data/07035_1.png"
+      "https://b2b.yugtorg.com/image/data/07035_1.png",
+      "https://b2b.yugtorg.com/image/data/07035_2.png"
     ],
     "available": true,
     "price": 1563.0,
@@ -147943,8 +148104,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/25290.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/25290.png",
-      "https://b2b.yugtorg.com/image/data/25290_2.png",
-      "https://b2b.yugtorg.com/image/data/25290_1.png"
+      "https://b2b.yugtorg.com/image/data/25290_1.png",
+      "https://b2b.yugtorg.com/image/data/25290_2.png"
     ],
     "available": true,
     "price": 4095.0,
@@ -147963,8 +148124,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45235.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45235.png",
-      "https://b2b.yugtorg.com/image/data/45235_2.png",
-      "https://b2b.yugtorg.com/image/data/45235_1.png"
+      "https://b2b.yugtorg.com/image/data/45235_1.png",
+      "https://b2b.yugtorg.com/image/data/45235_2.png"
     ],
     "available": true,
     "price": 3104.0,
@@ -148010,8 +148171,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/12417.png",
       "https://b2b.yugtorg.com/image/data/12417_3.png",
-      "https://b2b.yugtorg.com/image/data/12417_2.png",
-      "https://b2b.yugtorg.com/image/data/12417_1.png"
+      "https://b2b.yugtorg.com/image/data/12417_1.png",
+      "https://b2b.yugtorg.com/image/data/12417_2.png"
     ],
     "available": true,
     "price": 2031.0,
@@ -148050,8 +148211,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/25252.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/25252.png",
-      "https://b2b.yugtorg.com/image/data/25252_1.png",
-      "https://b2b.yugtorg.com/image/data/25252_2.png"
+      "https://b2b.yugtorg.com/image/data/25252_2.png",
+      "https://b2b.yugtorg.com/image/data/25252_1.png"
     ],
     "available": true,
     "price": 3980.0,
@@ -148074,8 +148235,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37595.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37595.png",
-      "https://b2b.yugtorg.com/image/data/37595_1.png",
-      "https://b2b.yugtorg.com/image/data/37595_2.png"
+      "https://b2b.yugtorg.com/image/data/37595_2.png",
+      "https://b2b.yugtorg.com/image/data/37595_1.png"
     ],
     "available": true,
     "price": 317.0,
@@ -148120,8 +148281,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/10068.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/10068.png",
-      "https://b2b.yugtorg.com/image/data/10068_1.png",
-      "https://b2b.yugtorg.com/image/data/10068_2.png"
+      "https://b2b.yugtorg.com/image/data/10068_2.png",
+      "https://b2b.yugtorg.com/image/data/10068_1.png"
     ],
     "available": true,
     "price": 390.0,
@@ -148163,8 +148324,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45248.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45248.png",
-      "https://b2b.yugtorg.com/image/data/45248_1.png",
-      "https://b2b.yugtorg.com/image/data/45248_2.png"
+      "https://b2b.yugtorg.com/image/data/45248_2.png",
+      "https://b2b.yugtorg.com/image/data/45248_1.png"
     ],
     "available": true,
     "price": 735.0,
@@ -148209,8 +148370,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47787.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47787.png",
-      "https://b2b.yugtorg.com/image/data/47787_1.png",
-      "https://b2b.yugtorg.com/image/data/47787_2.png"
+      "https://b2b.yugtorg.com/image/data/47787_2.png",
+      "https://b2b.yugtorg.com/image/data/47787_1.png"
     ],
     "available": true,
     "price": 792.0,
@@ -148313,8 +148474,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/21935.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/21935.png",
-      "https://b2b.yugtorg.com/image/data/21935_1.png",
-      "https://b2b.yugtorg.com/image/data/21935_2.png"
+      "https://b2b.yugtorg.com/image/data/21935_2.png",
+      "https://b2b.yugtorg.com/image/data/21935_1.png"
     ],
     "available": true,
     "price": 1989.0,
@@ -148333,8 +148494,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47782.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47782.png",
-      "https://b2b.yugtorg.com/image/data/47782_2.png",
-      "https://b2b.yugtorg.com/image/data/47782_1.png"
+      "https://b2b.yugtorg.com/image/data/47782_1.png",
+      "https://b2b.yugtorg.com/image/data/47782_2.png"
     ],
     "available": true,
     "price": 2261.0,
@@ -148355,8 +148516,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/25278.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/25278.png",
-      "https://b2b.yugtorg.com/image/data/25278_2.png",
-      "https://b2b.yugtorg.com/image/data/25278_1.png"
+      "https://b2b.yugtorg.com/image/data/25278_1.png",
+      "https://b2b.yugtorg.com/image/data/25278_2.png"
     ],
     "available": true,
     "price": 3510.0,
@@ -148462,8 +148623,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/06749.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/06749.png",
-      "https://b2b.yugtorg.com/image/data/06749_1.png",
-      "https://b2b.yugtorg.com/image/data/06749_2.png"
+      "https://b2b.yugtorg.com/image/data/06749_2.png",
+      "https://b2b.yugtorg.com/image/data/06749_1.png"
     ],
     "available": true,
     "price": 432.0,
@@ -148503,8 +148664,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47775.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47775.png",
-      "https://b2b.yugtorg.com/image/data/47775_2.png",
-      "https://b2b.yugtorg.com/image/data/47775_1.png"
+      "https://b2b.yugtorg.com/image/data/47775_1.png",
+      "https://b2b.yugtorg.com/image/data/47775_2.png"
     ],
     "available": true,
     "price": 4457.0,
@@ -148610,8 +148771,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/07037.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/07037.png",
-      "https://b2b.yugtorg.com/image/data/07037_2.png",
-      "https://b2b.yugtorg.com/image/data/07037_1.png"
+      "https://b2b.yugtorg.com/image/data/07037_1.png",
+      "https://b2b.yugtorg.com/image/data/07037_2.png"
     ],
     "available": true,
     "price": 830.0,
@@ -148797,8 +148958,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48296.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48296.png",
-      "https://b2b.yugtorg.com/image/data/48296_2.png",
-      "https://b2b.yugtorg.com/image/data/48296_1.png"
+      "https://b2b.yugtorg.com/image/data/48296_1.png",
+      "https://b2b.yugtorg.com/image/data/48296_2.png"
     ],
     "available": true,
     "price": 3672.0,
@@ -148837,9 +148998,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37340.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37340.png",
+      "https://b2b.yugtorg.com/image/data/37340_1.png",
       "https://b2b.yugtorg.com/image/data/37340_2.png",
-      "https://b2b.yugtorg.com/image/data/37340_3.png",
-      "https://b2b.yugtorg.com/image/data/37340_1.png"
+      "https://b2b.yugtorg.com/image/data/37340_3.png"
     ],
     "available": true,
     "price": 3500.0,
@@ -148858,8 +149019,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/43742.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/43742.png",
-      "https://b2b.yugtorg.com/image/data/43742_2.png",
-      "https://b2b.yugtorg.com/image/data/43742_1.png"
+      "https://b2b.yugtorg.com/image/data/43742_1.png",
+      "https://b2b.yugtorg.com/image/data/43742_2.png"
     ],
     "available": true,
     "price": 4210.0,
@@ -148878,9 +149039,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37401.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37401.png",
+      "https://b2b.yugtorg.com/image/data/37401_1.png",
       "https://b2b.yugtorg.com/image/data/37401_3.png",
       "https://b2b.yugtorg.com/image/data/37401_4.png",
-      "https://b2b.yugtorg.com/image/data/37401_1.png",
       "https://b2b.yugtorg.com/image/data/37401_2.png"
     ],
     "available": true,
@@ -148900,10 +149061,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37403.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37403.png",
-      "https://b2b.yugtorg.com/image/data/37403_1.png",
-      "https://b2b.yugtorg.com/image/data/37403_4.png",
+      "https://b2b.yugtorg.com/image/data/37403_2.png",
       "https://b2b.yugtorg.com/image/data/37403_3.png",
-      "https://b2b.yugtorg.com/image/data/37403_2.png"
+      "https://b2b.yugtorg.com/image/data/37403_1.png",
+      "https://b2b.yugtorg.com/image/data/37403_4.png"
     ],
     "available": true,
     "price": 9540.0,
@@ -148922,10 +149083,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37395.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37395.png",
-      "https://b2b.yugtorg.com/image/data/37395_4.png",
-      "https://b2b.yugtorg.com/image/data/37395_2.png",
       "https://b2b.yugtorg.com/image/data/37395_3.png",
-      "https://b2b.yugtorg.com/image/data/37395_1.png"
+      "https://b2b.yugtorg.com/image/data/37395_2.png",
+      "https://b2b.yugtorg.com/image/data/37395_1.png",
+      "https://b2b.yugtorg.com/image/data/37395_4.png"
     ],
     "available": true,
     "price": 3040.0,
@@ -148944,10 +149105,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37397.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37397.png",
+      "https://b2b.yugtorg.com/image/data/37397_2.png",
       "https://b2b.yugtorg.com/image/data/37397_1.png",
       "https://b2b.yugtorg.com/image/data/37397_3.png",
-      "https://b2b.yugtorg.com/image/data/37397_4.png",
-      "https://b2b.yugtorg.com/image/data/37397_2.png"
+      "https://b2b.yugtorg.com/image/data/37397_4.png"
     ],
     "available": true,
     "price": 3570.0,
@@ -148987,8 +149148,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48777.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48777.png",
-      "https://b2b.yugtorg.com/image/data/48777_2.png",
-      "https://b2b.yugtorg.com/image/data/48777_1.png"
+      "https://b2b.yugtorg.com/image/data/48777_1.png",
+      "https://b2b.yugtorg.com/image/data/48777_2.png"
     ],
     "available": true,
     "price": 4515.0,
@@ -149007,8 +149168,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47781.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47781.png",
-      "https://b2b.yugtorg.com/image/data/47781_1.png",
-      "https://b2b.yugtorg.com/image/data/47781_2.png"
+      "https://b2b.yugtorg.com/image/data/47781_2.png",
+      "https://b2b.yugtorg.com/image/data/47781_1.png"
     ],
     "available": true,
     "price": 6488.0,
@@ -149027,8 +149188,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48787.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48787.png",
-      "https://b2b.yugtorg.com/image/data/48787_1.png",
-      "https://b2b.yugtorg.com/image/data/48787_2.png"
+      "https://b2b.yugtorg.com/image/data/48787_2.png",
+      "https://b2b.yugtorg.com/image/data/48787_1.png"
     ],
     "available": true,
     "price": 6768.0,
@@ -149047,9 +149208,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37404.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37404.png",
-      "https://b2b.yugtorg.com/image/data/37404_2.png",
+      "https://b2b.yugtorg.com/image/data/37404_3.png",
       "https://b2b.yugtorg.com/image/data/37404_1.png",
-      "https://b2b.yugtorg.com/image/data/37404_3.png"
+      "https://b2b.yugtorg.com/image/data/37404_2.png"
     ],
     "available": true,
     "price": 7056.0,
@@ -149068,9 +149229,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37396.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37396.png",
-      "https://b2b.yugtorg.com/image/data/37396_1.png",
+      "https://b2b.yugtorg.com/image/data/37396_3.png",
       "https://b2b.yugtorg.com/image/data/37396_2.png",
-      "https://b2b.yugtorg.com/image/data/37396_3.png"
+      "https://b2b.yugtorg.com/image/data/37396_1.png"
     ],
     "available": true,
     "price": 3630.0,
@@ -149089,9 +149250,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37398.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37398.png",
+      "https://b2b.yugtorg.com/image/data/37398_3.png",
       "https://b2b.yugtorg.com/image/data/37398_2.png",
-      "https://b2b.yugtorg.com/image/data/37398_1.png",
-      "https://b2b.yugtorg.com/image/data/37398_3.png"
+      "https://b2b.yugtorg.com/image/data/37398_1.png"
     ],
     "available": true,
     "price": 3740.0,
@@ -149156,10 +149317,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37355.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37355.png",
-      "https://b2b.yugtorg.com/image/data/37355_4.png",
-      "https://b2b.yugtorg.com/image/data/37355_1.png",
       "https://b2b.yugtorg.com/image/data/37355_3.png",
-      "https://b2b.yugtorg.com/image/data/37355_2.png"
+      "https://b2b.yugtorg.com/image/data/37355_4.png",
+      "https://b2b.yugtorg.com/image/data/37355_2.png",
+      "https://b2b.yugtorg.com/image/data/37355_1.png"
     ],
     "available": true,
     "price": 26000.0,
@@ -149178,8 +149339,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37351.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37351.png",
-      "https://b2b.yugtorg.com/image/data/37351_1.png",
-      "https://b2b.yugtorg.com/image/data/37351_2.png"
+      "https://b2b.yugtorg.com/image/data/37351_2.png",
+      "https://b2b.yugtorg.com/image/data/37351_1.png"
     ],
     "available": true,
     "price": 951.0,
@@ -149218,8 +149379,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37346.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37346.png",
-      "https://b2b.yugtorg.com/image/data/37346_2.png",
       "https://b2b.yugtorg.com/image/data/37346_3.png",
+      "https://b2b.yugtorg.com/image/data/37346_2.png",
       "https://b2b.yugtorg.com/image/data/37346_1.png"
     ],
     "available": true,
@@ -149241,8 +149402,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37353.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37353.png",
-      "https://b2b.yugtorg.com/image/data/37353_1.png",
-      "https://b2b.yugtorg.com/image/data/37353_2.png"
+      "https://b2b.yugtorg.com/image/data/37353_2.png",
+      "https://b2b.yugtorg.com/image/data/37353_1.png"
     ],
     "available": true,
     "price": 3384.0,
@@ -149282,8 +149443,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37349.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37349.png",
-      "https://b2b.yugtorg.com/image/data/37349_1.png",
-      "https://b2b.yugtorg.com/image/data/37349_2.png"
+      "https://b2b.yugtorg.com/image/data/37349_2.png",
+      "https://b2b.yugtorg.com/image/data/37349_1.png"
     ],
     "available": true,
     "price": 2600.0,
@@ -149304,10 +149465,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/25272.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/25272.png",
-      "https://b2b.yugtorg.com/image/data/25272_3.png",
+      "https://b2b.yugtorg.com/image/data/25272_1.png",
       "https://b2b.yugtorg.com/image/data/25272_4.png",
-      "https://b2b.yugtorg.com/image/data/25272_2.png",
-      "https://b2b.yugtorg.com/image/data/25272_1.png"
+      "https://b2b.yugtorg.com/image/data/25272_3.png",
+      "https://b2b.yugtorg.com/image/data/25272_2.png"
     ],
     "available": true,
     "price": 4970.0,
@@ -149414,7 +149575,10 @@ window.ALTCAM_CATALOG = [
     ],
     "image": "https://b2b.yugtorg.com/image/data/46995.png",
     "images": [
-      "https://b2b.yugtorg.com/image/data/46995.png"
+      "https://b2b.yugtorg.com/image/data/46995.png",
+      "https://b2b.yugtorg.com/image/data/46995_3.png",
+      "https://b2b.yugtorg.com/image/data/46995_2.png",
+      "https://b2b.yugtorg.com/image/data/46995_1.png"
     ],
     "available": true,
     "price": 104343.0,
@@ -149483,6 +149647,75 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
+    "id": "yugtorg-41313",
+    "sku": "BOS-G-Pack5.1",
+    "category": "Літієві акумулятори",
+    "subcategory": "",
+    "brand": "Deye",
+    "name": "Акумуляторна батарея DEYE BOS-G PRO, LiFePO4, HV, 51.2v 100AH, 5.12kwh",
+    "model": "BOS-G-Pack5.1",
+    "description": "Загальні технічні характеристики Хімія: LiFePO₄ (літій-залізо-фосфат) – надійна, безпечна і довговічна Номінальна напруга: 51,2 V DC Ємність: 100 Ah (≈ 5,12 кВт·год) . Номінальний струм заряду / розряду: 100 A; піковий розряд до 125 A (на 2 хв) ККД і ресурси: ≥ 90 % DoD, більше 6000 циклів при 25 °C Габарити та захист Розмір корпусу: залежно від моделі (≈ 440×570×133 мм для одного модуля), вага ≈ 44‑46 кг Ступінь захисту: IP20 (для внутрішньої установки, в шафі або стійці) Температурний діапазон: заряд: 0…+55 °C розряд: −20…+55 °C зберігання: 0…+35 °C Основні параметри: Тип комірок: LiFePO₄ (літій-залізо-фосфат) Номінальна напруга: 51,2 В Ємність: 100 А·год Енергетична ємність: 5,12 кВт·год Номінальний струм заряду / розряду: 100 А Піковий струм розряду: до 125 А (протягом 2 хвилин) Кількість циклів: понад 6000 при глибині розряду 90% ККД: ≥ 90 % ⚙️ Конструкція та експлуатація: Габарити: близько 440×570×133 мм Маса: 44–46 кг Температура експлуатації: заряд: від 0 до +55 °C розряд: від −20 до +55 °C Ступінь захисту корпусу: IP20 Тип установки: модуль для монтажу в стійку (Rack 19') Інтелектуальне управління: Вбудований BMS з функціями: балансування комірок захист від перенапруги, перегріву, короткого замикання, глибокого розряду Підтримка інтерфейсів CAN і RS485 для зв`язку з інвертором Сумісність з високовольтним контролером BOS‑G‑PDU‑2 Масштабованість: Використовується в складі HV-систем DEYE BOS‑G Pro Об`єднується від 5 до 16 модулів для створення батарей на 200–1000 В Загальна ємність в системі: від 25,6 до понад 80 кВт·год",
+    "features": [
+      "IP20",
+      "133 мм",
+      "100AH",
+      "100 Ah",
+      "100 А·год"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/41313.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/41313.png",
+      "https://b2b.yugtorg.com/image/data/41313_1.png",
+      "https://b2b.yugtorg.com/image/data/41313_3.png",
+      "https://b2b.yugtorg.com/image/data/41313_2.png"
+    ],
+    "available": true,
+    "price": 55000.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-48345",
+    "sku": "SE-F12-С",
+    "category": "Літієві акумулятори",
+    "subcategory": "",
+    "brand": "Deye",
+    "name": "Акумуляторна батарея Deye LiFePO4 SE-F12-С 51,2V 230Ah 11.8KWh, BMS230@16S до 6 parallel(1stack), CAN&RS485, 6000Cycles, (400 × 559 × 233), 84kg",
+    "model": "SE-F12-С",
+    "description": "Характеристики уточнюються.",
+    "features": [
+      "230Ah"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/48345.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/48345.png"
+    ],
+    "available": true,
+    "price": 88000.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-48940",
+    "sku": "SE-F16 MAX (H)",
+    "category": "Літієві акумулятори",
+    "subcategory": "",
+    "brand": "Deye",
+    "name": "Акумуляторна батарея Deye LiFePO4 SE-F16 MAX (H) з подогевом,51,2V 314Ah 16KW,BMS125A до 32 parallel, CAN&RS485, IP65,6000Cycles,(465*915*245),11kg",
+    "model": "SE-F16 MAX (H)",
+    "description": "Характеристики уточнюються.",
+    "features": [
+      "IP65",
+      "314Ah"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/48940.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/48940.png",
+      "https://b2b.yugtorg.com/image/data/48940_1.png"
+    ],
+    "available": true,
+    "price": 140000.0,
+    "source_supplier": "yugtorg"
+  },
+  {
     "id": "yugtorg-48824",
     "sku": "SE-F16 MAX",
     "category": "Літієві акумулятори",
@@ -149542,8 +149775,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/44637.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/44637.png",
-      "https://b2b.yugtorg.com/image/data/44637_1.png",
       "https://b2b.yugtorg.com/image/data/44637_2.png",
+      "https://b2b.yugtorg.com/image/data/44637_1.png",
       "https://b2b.yugtorg.com/image/data/44637_3.png"
     ],
     "available": true,
@@ -149567,10 +149800,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/34231.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/34231.png",
-      "https://b2b.yugtorg.com/image/data/34231_1.png",
+      "https://b2b.yugtorg.com/image/data/34231_2.png",
       "https://b2b.yugtorg.com/image/data/34231_4.png",
-      "https://b2b.yugtorg.com/image/data/34231_3.png",
-      "https://b2b.yugtorg.com/image/data/34231_2.png"
+      "https://b2b.yugtorg.com/image/data/34231_1.png",
+      "https://b2b.yugtorg.com/image/data/34231_3.png"
     ],
     "available": true,
     "price": 53000.0,
@@ -149591,10 +149824,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48140.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48140.png",
+      "https://b2b.yugtorg.com/image/data/48140_4.png",
       "https://b2b.yugtorg.com/image/data/48140_3.png",
       "https://b2b.yugtorg.com/image/data/48140_2.png",
-      "https://b2b.yugtorg.com/image/data/48140_1.png",
-      "https://b2b.yugtorg.com/image/data/48140_4.png"
+      "https://b2b.yugtorg.com/image/data/48140_1.png"
     ],
     "available": true,
     "price": 57528.0,
@@ -149616,9 +149849,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46366.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46366.png",
-      "https://b2b.yugtorg.com/image/data/46366_3.png",
+      "https://b2b.yugtorg.com/image/data/46366_1.png",
       "https://b2b.yugtorg.com/image/data/46366_2.png",
-      "https://b2b.yugtorg.com/image/data/46366_1.png"
+      "https://b2b.yugtorg.com/image/data/46366_3.png"
     ],
     "available": true,
     "price": 104000.0,
@@ -149663,12 +149896,12 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/41314.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/41314.png",
-      "https://b2b.yugtorg.com/image/data/41314_3.png",
-      "https://b2b.yugtorg.com/image/data/41314_5.png",
+      "https://b2b.yugtorg.com/image/data/41314_4.png",
       "https://b2b.yugtorg.com/image/data/41314_1.png",
       "https://b2b.yugtorg.com/image/data/41314_2.png",
-      "https://b2b.yugtorg.com/image/data/41314_4.png",
-      "https://b2b.yugtorg.com/image/data/41314_6.png"
+      "https://b2b.yugtorg.com/image/data/41314_3.png",
+      "https://b2b.yugtorg.com/image/data/41314_6.png",
+      "https://b2b.yugtorg.com/image/data/41314_5.png"
     ],
     "available": true,
     "price": 53000.0,
@@ -149691,10 +149924,10 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/35917.png",
       "https://b2b.yugtorg.com/image/data/35917_4.png",
-      "https://b2b.yugtorg.com/image/data/35917_1.png",
       "https://b2b.yugtorg.com/image/data/35917_2.png",
-      "https://b2b.yugtorg.com/image/data/35917_3.png",
-      "https://b2b.yugtorg.com/image/data/35917_5.png"
+      "https://b2b.yugtorg.com/image/data/35917_5.png",
+      "https://b2b.yugtorg.com/image/data/35917_1.png",
+      "https://b2b.yugtorg.com/image/data/35917_3.png"
     ],
     "available": true,
     "price": 53440.0,
@@ -149714,8 +149947,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/46900.png",
       "https://b2b.yugtorg.com/image/data/46900_1.png",
-      "https://b2b.yugtorg.com/image/data/46900_3.png",
-      "https://b2b.yugtorg.com/image/data/46900_2.png"
+      "https://b2b.yugtorg.com/image/data/46900_2.png",
+      "https://b2b.yugtorg.com/image/data/46900_3.png"
     ],
     "available": true,
     "price": 47000.0,
@@ -149810,37 +150043,16 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46369.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46369.png",
-      "https://b2b.yugtorg.com/image/data/46369_5.png",
+      "https://b2b.yugtorg.com/image/data/46369_7.png",
+      "https://b2b.yugtorg.com/image/data/46369_2.png",
+      "https://b2b.yugtorg.com/image/data/46369_1.png",
       "https://b2b.yugtorg.com/image/data/46369_3.png",
       "https://b2b.yugtorg.com/image/data/46369_4.png",
-      "https://b2b.yugtorg.com/image/data/46369_1.png",
-      "https://b2b.yugtorg.com/image/data/46369_2.png",
       "https://b2b.yugtorg.com/image/data/46369_6.png",
-      "https://b2b.yugtorg.com/image/data/46369_7.png"
+      "https://b2b.yugtorg.com/image/data/46369_5.png"
     ],
     "available": true,
     "price": 39000.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-7723",
-    "sku": "LFP12-50US",
-    "category": "Літієві акумулятори",
-    "subcategory": "",
-    "brand": "DMC",
-    "name": "Літій-залізо-фосфатний акумулятор Merlion LiFePO4 12.8V 50AH (4S1P / BMS-50A), (229x138x205), до 5000 циклів",
-    "model": "LFP12-50US",
-    "description": "Літій-залізо-фосфатний акумулятор Merlion LiFePO4 12.8V 50AH є надійним і компактним джерелом енергії, яке може бути використане в різних додатках. Цей акумулятор має високу ємність і довгий термін служби, що робить його відмінним вибором для різних енергозалежних пристроїв і систем. Характеристики: - Номінальна напруга: 12.8V - Номінальна ємність: 50Ah (при 25°C) - Енергія: 640Wh - Внутрішній опір: менше 70мΩ - Циклічне життя: <5000 циклів при 100% розряді (при струмі розряду 1C) - Ефективність заряджання: 96-99% при струмі заряду 1C - Ефективність розряду: більше 96% при струмі розряду 1C - Напруга заряду: 14.6±0.2V - Режим заряду: CC / CV (константний струм / константна напруга) - Струм заряду: до 50А - Максимальний струм заряду: 50А - Кінцева напруга заряду: 14.8V±0.2V - Максимальний постійний розрядний струм: 50А - Максимальний імпульсний струм: 150А (тривалість менше 3 секунд) - Кінцева напруга розряду: 10V - Температура заряду: від 0°C до 45°C - Температура розряду: від -20°C до 60°C - Температура зберігання: від 0 ° C до 40 ° C - Ступінь захисту від води та пилу: IP65 - Розміри (ДxШxВ): 229x138x205 мм - Маса: 6.5 кг - BMS (Battery Management System): 4S50A Застосування: Літій-залізо-фосфатний акумулятор Merlion LiFePO4 12.8V 50AH підходить для різних програм, включаючи: 1. Безперебійне харчування (ДБЖ) та джерела резервного електроживлення. 2. Електричні транспортні засоби, такі як електричні велосипеди та самокати. 3. Сонячні електростанції та системи зберігання енергії. 4. Підтримка малопотужних пристроїв та систем далеко від електричної мережі. Літій-залізо-фосфатні акумулятори відомі своєю стабільною продуктивністю та надійністю, що робить їх чудовим вибором для широкого спектру додатків.",
-    "features": [
-      "IP65",
-      "50AH"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/07723.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/07723.png"
-    ],
-    "available": true,
-    "price": 9029.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -149921,12 +150133,12 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45905.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45905.png",
-      "https://b2b.yugtorg.com/image/data/45905_4.png",
-      "https://b2b.yugtorg.com/image/data/45905_3.png",
-      "https://b2b.yugtorg.com/image/data/45905_2.png",
       "https://b2b.yugtorg.com/image/data/45905_5.png",
-      "https://b2b.yugtorg.com/image/data/45905_6.png",
+      "https://b2b.yugtorg.com/image/data/45905_2.png",
+      "https://b2b.yugtorg.com/image/data/45905_3.png",
       "https://b2b.yugtorg.com/image/data/45905_7.png",
+      "https://b2b.yugtorg.com/image/data/45905_4.png",
+      "https://b2b.yugtorg.com/image/data/45905_6.png",
       "https://b2b.yugtorg.com/image/data/45905_1.png"
     ],
     "available": true,
@@ -149972,9 +150184,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45904.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45904.png",
+      "https://b2b.yugtorg.com/image/data/45904_3.png",
       "https://b2b.yugtorg.com/image/data/45904_1.png",
-      "https://b2b.yugtorg.com/image/data/45904_2.png",
-      "https://b2b.yugtorg.com/image/data/45904_3.png"
+      "https://b2b.yugtorg.com/image/data/45904_2.png"
     ],
     "available": true,
     "price": 35000.0,
@@ -150018,11 +150230,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38754.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38754.png",
-      "https://b2b.yugtorg.com/image/data/38754_3.png",
-      "https://b2b.yugtorg.com/image/data/38754_1.png",
-      "https://b2b.yugtorg.com/image/data/38754_5.png",
       "https://b2b.yugtorg.com/image/data/38754_2.png",
-      "https://b2b.yugtorg.com/image/data/38754_4.png"
+      "https://b2b.yugtorg.com/image/data/38754_5.png",
+      "https://b2b.yugtorg.com/image/data/38754_4.png",
+      "https://b2b.yugtorg.com/image/data/38754_3.png",
+      "https://b2b.yugtorg.com/image/data/38754_1.png"
     ],
     "available": true,
     "price": 55000.0,
@@ -150333,8 +150545,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46751.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46751.png",
-      "https://b2b.yugtorg.com/image/data/46751_1.png",
-      "https://b2b.yugtorg.com/image/data/46751_2.png"
+      "https://b2b.yugtorg.com/image/data/46751_2.png",
+      "https://b2b.yugtorg.com/image/data/46751_1.png"
     ],
     "available": true,
     "price": 180.0,
@@ -150505,8 +150717,8 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/45460.png",
       "https://b2b.yugtorg.com/image/data/45460_4.png",
       "https://b2b.yugtorg.com/image/data/45460_3.png",
-      "https://b2b.yugtorg.com/image/data/45460_1.png",
-      "https://b2b.yugtorg.com/image/data/45460_2.png"
+      "https://b2b.yugtorg.com/image/data/45460_2.png",
+      "https://b2b.yugtorg.com/image/data/45460_1.png"
     ],
     "available": true,
     "price": 53583.0,
@@ -150529,9 +150741,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46804.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46804.png",
-      "https://b2b.yugtorg.com/image/data/46804_1.png",
       "https://b2b.yugtorg.com/image/data/46804_2.png",
-      "https://b2b.yugtorg.com/image/data/46804_3.png"
+      "https://b2b.yugtorg.com/image/data/46804_3.png",
+      "https://b2b.yugtorg.com/image/data/46804_1.png"
     ],
     "available": true,
     "price": 52000.0,
@@ -150554,8 +150766,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46238.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46238.png",
-      "https://b2b.yugtorg.com/image/data/46238_3.png",
       "https://b2b.yugtorg.com/image/data/46238_2.png",
+      "https://b2b.yugtorg.com/image/data/46238_3.png",
       "https://b2b.yugtorg.com/image/data/46238_1.png"
     ],
     "available": true,
@@ -150579,9 +150791,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48094.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48094.png",
-      "https://b2b.yugtorg.com/image/data/48094_2.png",
       "https://b2b.yugtorg.com/image/data/48094_4.png",
       "https://b2b.yugtorg.com/image/data/48094_3.png",
+      "https://b2b.yugtorg.com/image/data/48094_2.png",
       "https://b2b.yugtorg.com/image/data/48094_1.png"
     ],
     "available": true,
@@ -150608,10 +150820,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/44056.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/44056.png",
-      "https://b2b.yugtorg.com/image/data/44056_4.png",
-      "https://b2b.yugtorg.com/image/data/44056_3.png",
       "https://b2b.yugtorg.com/image/data/44056_1.png",
-      "https://b2b.yugtorg.com/image/data/44056_2.png"
+      "https://b2b.yugtorg.com/image/data/44056_2.png",
+      "https://b2b.yugtorg.com/image/data/44056_4.png",
+      "https://b2b.yugtorg.com/image/data/44056_3.png"
     ],
     "available": true,
     "price": 112241.0,
@@ -150633,10 +150845,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47984.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47984.png",
-      "https://b2b.yugtorg.com/image/data/47984_3.png",
       "https://b2b.yugtorg.com/image/data/47984_2.png",
-      "https://b2b.yugtorg.com/image/data/47984_1.png",
-      "https://b2b.yugtorg.com/image/data/47984_4.png"
+      "https://b2b.yugtorg.com/image/data/47984_4.png",
+      "https://b2b.yugtorg.com/image/data/47984_3.png",
+      "https://b2b.yugtorg.com/image/data/47984_1.png"
     ],
     "available": true,
     "price": 135360.0,
@@ -150659,10 +150871,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45779.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45779.png",
-      "https://b2b.yugtorg.com/image/data/45779_4.png",
       "https://b2b.yugtorg.com/image/data/45779_3.png",
+      "https://b2b.yugtorg.com/image/data/45779_2.png",
       "https://b2b.yugtorg.com/image/data/45779_1.png",
-      "https://b2b.yugtorg.com/image/data/45779_2.png"
+      "https://b2b.yugtorg.com/image/data/45779_4.png"
     ],
     "available": true,
     "price": 93060.0,
@@ -150685,13 +150897,13 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48325.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48325.png",
-      "https://b2b.yugtorg.com/image/data/48325_7.png",
-      "https://b2b.yugtorg.com/image/data/48325_6.png",
-      "https://b2b.yugtorg.com/image/data/48325_5.png",
-      "https://b2b.yugtorg.com/image/data/48325_3.png",
-      "https://b2b.yugtorg.com/image/data/48325_4.png",
+      "https://b2b.yugtorg.com/image/data/48325_1.png",
       "https://b2b.yugtorg.com/image/data/48325_2.png",
-      "https://b2b.yugtorg.com/image/data/48325_1.png"
+      "https://b2b.yugtorg.com/image/data/48325_3.png",
+      "https://b2b.yugtorg.com/image/data/48325_7.png",
+      "https://b2b.yugtorg.com/image/data/48325_5.png",
+      "https://b2b.yugtorg.com/image/data/48325_6.png",
+      "https://b2b.yugtorg.com/image/data/48325_4.png"
     ],
     "available": true,
     "price": 111672.0,
@@ -150732,9 +150944,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45563.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45563.png",
-      "https://b2b.yugtorg.com/image/data/45563_2.png",
+      "https://b2b.yugtorg.com/image/data/45563_3.png",
       "https://b2b.yugtorg.com/image/data/45563_1.png",
-      "https://b2b.yugtorg.com/image/data/45563_3.png"
+      "https://b2b.yugtorg.com/image/data/45563_2.png"
     ],
     "available": true,
     "price": 41177.0,
@@ -150757,8 +150969,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45768.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45768.png",
-      "https://b2b.yugtorg.com/image/data/45768_1.png",
       "https://b2b.yugtorg.com/image/data/45768_2.png",
+      "https://b2b.yugtorg.com/image/data/45768_1.png",
       "https://b2b.yugtorg.com/image/data/45768_3.png"
     ],
     "available": true,
@@ -150783,8 +150995,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/45562.png",
       "https://b2b.yugtorg.com/image/data/45562_1.png",
-      "https://b2b.yugtorg.com/image/data/45562_2.png",
-      "https://b2b.yugtorg.com/image/data/45562_3.png"
+      "https://b2b.yugtorg.com/image/data/45562_3.png",
+      "https://b2b.yugtorg.com/image/data/45562_2.png"
     ],
     "available": true,
     "price": 78963.0,
@@ -150809,9 +151021,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/44052.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/44052.png",
-      "https://b2b.yugtorg.com/image/data/44052_4.png",
-      "https://b2b.yugtorg.com/image/data/44052_1.png",
       "https://b2b.yugtorg.com/image/data/44052_2.png",
+      "https://b2b.yugtorg.com/image/data/44052_1.png",
+      "https://b2b.yugtorg.com/image/data/44052_4.png",
       "https://b2b.yugtorg.com/image/data/44052_3.png"
     ],
     "available": true,
@@ -150836,8 +151048,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/44978.png",
       "https://b2b.yugtorg.com/image/data/44978_3.png",
-      "https://b2b.yugtorg.com/image/data/44978_2.png",
-      "https://b2b.yugtorg.com/image/data/44978_1.png"
+      "https://b2b.yugtorg.com/image/data/44978_1.png",
+      "https://b2b.yugtorg.com/image/data/44978_2.png"
     ],
     "available": true,
     "price": 52029.0,
@@ -150861,12 +151073,12 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48095.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48095.png",
-      "https://b2b.yugtorg.com/image/data/48095_2.png",
-      "https://b2b.yugtorg.com/image/data/48095_3.png",
+      "https://b2b.yugtorg.com/image/data/48095_5.png",
       "https://b2b.yugtorg.com/image/data/48095_4.png",
+      "https://b2b.yugtorg.com/image/data/48095_3.png",
+      "https://b2b.yugtorg.com/image/data/48095_2.png",
       "https://b2b.yugtorg.com/image/data/48095_1.png",
-      "https://b2b.yugtorg.com/image/data/48095_6.png",
-      "https://b2b.yugtorg.com/image/data/48095_5.png"
+      "https://b2b.yugtorg.com/image/data/48095_6.png"
     ],
     "available": true,
     "price": 191765.0,
@@ -150891,9 +151103,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37979.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37979.png",
+      "https://b2b.yugtorg.com/image/data/37979_1.png",
       "https://b2b.yugtorg.com/image/data/37979_2.png",
-      "https://b2b.yugtorg.com/image/data/37979_3.png",
-      "https://b2b.yugtorg.com/image/data/37979_1.png"
+      "https://b2b.yugtorg.com/image/data/37979_3.png"
     ],
     "available": true,
     "price": 240000.0,
@@ -150914,9 +151126,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46772.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46772.png",
-      "https://b2b.yugtorg.com/image/data/46772_4.png",
-      "https://b2b.yugtorg.com/image/data/46772_3.png",
       "https://b2b.yugtorg.com/image/data/46772_2.png",
+      "https://b2b.yugtorg.com/image/data/46772_3.png",
+      "https://b2b.yugtorg.com/image/data/46772_4.png",
       "https://b2b.yugtorg.com/image/data/46772_1.png"
     ],
     "available": true,
@@ -150939,9 +151151,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37973.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37973.png",
-      "https://b2b.yugtorg.com/image/data/37973_3.png",
-      "https://b2b.yugtorg.com/image/data/37973_2.png",
       "https://b2b.yugtorg.com/image/data/37973_1.png",
+      "https://b2b.yugtorg.com/image/data/37973_2.png",
+      "https://b2b.yugtorg.com/image/data/37973_3.png",
       "https://b2b.yugtorg.com/image/data/37973_4.png"
     ],
     "available": true,
@@ -150963,9 +151175,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46354.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46354.png",
-      "https://b2b.yugtorg.com/image/data/46354_3.png",
       "https://b2b.yugtorg.com/image/data/46354_1.png",
       "https://b2b.yugtorg.com/image/data/46354_2.png",
+      "https://b2b.yugtorg.com/image/data/46354_3.png",
       "https://b2b.yugtorg.com/image/data/46354_4.png"
     ],
     "available": true,
@@ -150987,11 +151199,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37972.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37972.png",
-      "https://b2b.yugtorg.com/image/data/37972_2.png",
+      "https://b2b.yugtorg.com/image/data/37972_1.png",
       "https://b2b.yugtorg.com/image/data/37972_4.png",
       "https://b2b.yugtorg.com/image/data/37972_5.png",
-      "https://b2b.yugtorg.com/image/data/37972_3.png",
-      "https://b2b.yugtorg.com/image/data/37972_1.png"
+      "https://b2b.yugtorg.com/image/data/37972_2.png",
+      "https://b2b.yugtorg.com/image/data/37972_3.png"
     ],
     "available": true,
     "price": 38000.0,
@@ -151014,11 +151226,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46773.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46773.png",
-      "https://b2b.yugtorg.com/image/data/46773_5.png",
       "https://b2b.yugtorg.com/image/data/46773_4.png",
+      "https://b2b.yugtorg.com/image/data/46773_2.png",
       "https://b2b.yugtorg.com/image/data/46773_3.png",
-      "https://b2b.yugtorg.com/image/data/46773_1.png",
-      "https://b2b.yugtorg.com/image/data/46773_2.png"
+      "https://b2b.yugtorg.com/image/data/46773_5.png",
+      "https://b2b.yugtorg.com/image/data/46773_1.png"
     ],
     "available": true,
     "price": 51891.0,
@@ -151063,14 +151275,14 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37982.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37982.png",
-      "https://b2b.yugtorg.com/image/data/37982_3.png",
-      "https://b2b.yugtorg.com/image/data/37982_4.png",
-      "https://b2b.yugtorg.com/image/data/37982_8.png",
-      "https://b2b.yugtorg.com/image/data/37982_1.png",
-      "https://b2b.yugtorg.com/image/data/37982_2.png",
-      "https://b2b.yugtorg.com/image/data/37982_5.png",
-      "https://b2b.yugtorg.com/image/data/37982_6.png",
       "https://b2b.yugtorg.com/image/data/37982_9.png",
+      "https://b2b.yugtorg.com/image/data/37982_8.png",
+      "https://b2b.yugtorg.com/image/data/37982_5.png",
+      "https://b2b.yugtorg.com/image/data/37982_4.png",
+      "https://b2b.yugtorg.com/image/data/37982_3.png",
+      "https://b2b.yugtorg.com/image/data/37982_2.png",
+      "https://b2b.yugtorg.com/image/data/37982_1.png",
+      "https://b2b.yugtorg.com/image/data/37982_6.png",
       "https://b2b.yugtorg.com/image/data/37982_7.png"
     ],
     "available": true,
@@ -151093,14 +151305,14 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37984.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37984.png",
-      "https://b2b.yugtorg.com/image/data/37984_6.png",
-      "https://b2b.yugtorg.com/image/data/37984_4.png",
       "https://b2b.yugtorg.com/image/data/37984_1.png",
-      "https://b2b.yugtorg.com/image/data/37984_3.png",
-      "https://b2b.yugtorg.com/image/data/37984_2.png",
-      "https://b2b.yugtorg.com/image/data/37984_8.png",
       "https://b2b.yugtorg.com/image/data/37984_5.png",
-      "https://b2b.yugtorg.com/image/data/37984_7.png"
+      "https://b2b.yugtorg.com/image/data/37984_2.png",
+      "https://b2b.yugtorg.com/image/data/37984_3.png",
+      "https://b2b.yugtorg.com/image/data/37984_8.png",
+      "https://b2b.yugtorg.com/image/data/37984_7.png",
+      "https://b2b.yugtorg.com/image/data/37984_6.png",
+      "https://b2b.yugtorg.com/image/data/37984_4.png"
     ],
     "available": true,
     "price": 24500.0,
@@ -151125,9 +151337,9 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/37985_2.png",
       "https://b2b.yugtorg.com/image/data/37985_1.png",
       "https://b2b.yugtorg.com/image/data/37985_6.png",
-      "https://b2b.yugtorg.com/image/data/37985_3.png",
+      "https://b2b.yugtorg.com/image/data/37985_5.png",
       "https://b2b.yugtorg.com/image/data/37985_4.png",
-      "https://b2b.yugtorg.com/image/data/37985_5.png"
+      "https://b2b.yugtorg.com/image/data/37985_3.png"
     ],
     "available": true,
     "price": 40000.0,
@@ -151185,8 +151397,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30610.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30610.png",
-      "https://b2b.yugtorg.com/image/data/30610_2.png",
-      "https://b2b.yugtorg.com/image/data/30610_1.png"
+      "https://b2b.yugtorg.com/image/data/30610_1.png",
+      "https://b2b.yugtorg.com/image/data/30610_2.png"
     ],
     "available": true,
     "price": 3838.0,
@@ -151248,8 +151460,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30613.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30613.png",
-      "https://b2b.yugtorg.com/image/data/30613_1.png",
       "https://b2b.yugtorg.com/image/data/30613_2.png",
+      "https://b2b.yugtorg.com/image/data/30613_1.png",
       "https://b2b.yugtorg.com/image/data/30613_3.png"
     ],
     "available": true,
@@ -151271,8 +151483,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/39265.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/39265.png",
-      "https://b2b.yugtorg.com/image/data/39265_2.png",
-      "https://b2b.yugtorg.com/image/data/39265_1.png"
+      "https://b2b.yugtorg.com/image/data/39265_1.png",
+      "https://b2b.yugtorg.com/image/data/39265_2.png"
     ],
     "available": true,
     "price": 7056.0,
@@ -151295,35 +151507,12 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47975.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47975.png",
-      "https://b2b.yugtorg.com/image/data/47975_2.png",
       "https://b2b.yugtorg.com/image/data/47975_3.png",
+      "https://b2b.yugtorg.com/image/data/47975_2.png",
       "https://b2b.yugtorg.com/image/data/47975_1.png"
     ],
     "available": true,
     "price": 9591.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-33279",
-    "sku": "JK-B2A8S20P",
-    "category": "Літієві акумулятори",
-    "subcategory": "",
-    "brand": "JiKong",
-    "name": "BMS плата JK-B2A8S20P Li-Ion / LiFePo4 / LTO 3S-8S, 200A, 0.3mΩ, Bluetooth, Ballance 2A",
-    "model": "JK-B2A8S20P",
-    "description": "Переваги: - Двостороннє активне балансування забезпечує максимальну ефективність акумулятора та збільшує термін його служби. - Підтримка різних типів акумуляторів дозволяє використовувати плату для різноманітних застосувань. - Широкий спектр захисних функцій забезпечує безпеку акумулятора. - Точність вимірювання напруги ±5 мВ гарантує точність роботи системи. - Стандартний Bluetooth-інтерфейс дозволяє дистанційно контролювати та керувати системою. Технічні характеристики: • Модель продукту: B2A8S20P • Li-ion елементи: 3S~8S • LiFePO4 елементи: 4S~8S • LTO елементи: 6S~8S • Режим балансування: активний • Струм активного балансування: 2 А • Внутрішній опір основного ланцюга: 0,3 мОм • Безперервний струм розряду: 200 А • Максимальний струм розряду: 350 А • Захист від перевантаження за струмом (регульований): 10–200 А • Діапазон напруги окремого елемента: 1–5 В • Точність визначення напруги: ±5 мВ • Напруга захисту від перезаряду: 1,2–4,35 В (регульована) • Напруга скидання захисту від перезаряду: 1,2–4,35 В (регульована) • Час скидання захисту від перезаряду: 2–120 с (регульований) • Напруга захисту від перерозряду: 1,2–4,3 В (регульована) • Відновлювальна напруга після перерозряду: 1,2–4,3 В (регульована) • Кількість датчиків температури: 3 • Захист від перегріву: + • Захист від короткого замикання: + • Кулонометр: + BMS-плата JK-B2A8S20P — професійне рішення для керування та захисту акумуляторних батарей. Плата забезпечує активне балансування елементів, контроль основних параметрів акумулятора та комплексний захист від перевантаження, перерозряду, перезаряду, перегріву та короткого замикання. Підходить для акумуляторних збірок на базі Li-ion, LiFePO4 та LTO елементів.",
-    "features": [],
-    "image": "https://b2b.yugtorg.com/image/data/33279.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/33279.png",
-      "https://b2b.yugtorg.com/image/data/33279_2.png",
-      "https://b2b.yugtorg.com/image/data/33279_5.png",
-      "https://b2b.yugtorg.com/image/data/33279_4.png",
-      "https://b2b.yugtorg.com/image/data/33279_1.png",
-      "https://b2b.yugtorg.com/image/data/33279_3.png"
-    ],
-    "available": true,
-    "price": 2938.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -151339,9 +151528,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/39266.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/39266.png",
+      "https://b2b.yugtorg.com/image/data/39266_3.png",
       "https://b2b.yugtorg.com/image/data/39266_2.png",
-      "https://b2b.yugtorg.com/image/data/39266_1.png",
-      "https://b2b.yugtorg.com/image/data/39266_3.png"
+      "https://b2b.yugtorg.com/image/data/39266_1.png"
     ],
     "available": true,
     "price": 4061.0,
@@ -151399,8 +151588,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30602.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30602.png",
-      "https://b2b.yugtorg.com/image/data/30602_2.png",
-      "https://b2b.yugtorg.com/image/data/30602_1.png"
+      "https://b2b.yugtorg.com/image/data/30602_1.png",
+      "https://b2b.yugtorg.com/image/data/30602_2.png"
     ],
     "available": true,
     "price": 1865.0,
@@ -151461,8 +151650,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/39258.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/39258.png",
-      "https://b2b.yugtorg.com/image/data/39258_1.png",
-      "https://b2b.yugtorg.com/image/data/39258_2.png"
+      "https://b2b.yugtorg.com/image/data/39258_2.png",
+      "https://b2b.yugtorg.com/image/data/39258_1.png"
     ],
     "available": true,
     "price": 1692.0,
@@ -151523,8 +151712,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47945.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47945.png",
-      "https://b2b.yugtorg.com/image/data/47945_1.png",
-      "https://b2b.yugtorg.com/image/data/47945_2.png"
+      "https://b2b.yugtorg.com/image/data/47945_2.png",
+      "https://b2b.yugtorg.com/image/data/47945_1.png"
     ],
     "available": true,
     "price": 2823.0,
@@ -151543,8 +151732,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47763.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47763.png",
-      "https://b2b.yugtorg.com/image/data/47763_2.png",
-      "https://b2b.yugtorg.com/image/data/47763_1.png"
+      "https://b2b.yugtorg.com/image/data/47763_1.png",
+      "https://b2b.yugtorg.com/image/data/47763_2.png"
     ],
     "available": true,
     "price": 2146.0,
@@ -151563,8 +151752,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47953.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47953.png",
-      "https://b2b.yugtorg.com/image/data/47953_2.png",
-      "https://b2b.yugtorg.com/image/data/47953_1.png"
+      "https://b2b.yugtorg.com/image/data/47953_1.png",
+      "https://b2b.yugtorg.com/image/data/47953_2.png"
     ],
     "available": true,
     "price": 2938.0,
@@ -151583,8 +151772,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47951.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47951.png",
-      "https://b2b.yugtorg.com/image/data/47951_1.png",
-      "https://b2b.yugtorg.com/image/data/47951_2.png"
+      "https://b2b.yugtorg.com/image/data/47951_2.png",
+      "https://b2b.yugtorg.com/image/data/47951_1.png"
     ],
     "available": true,
     "price": 2319.0,
@@ -151623,8 +151812,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47955.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47955.png",
-      "https://b2b.yugtorg.com/image/data/47955_1.png",
-      "https://b2b.yugtorg.com/image/data/47955_2.png"
+      "https://b2b.yugtorg.com/image/data/47955_2.png",
+      "https://b2b.yugtorg.com/image/data/47955_1.png"
     ],
     "available": true,
     "price": 2765.0,
@@ -151643,8 +151832,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47960.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47960.png",
-      "https://b2b.yugtorg.com/image/data/47960_2.png",
-      "https://b2b.yugtorg.com/image/data/47960_1.png"
+      "https://b2b.yugtorg.com/image/data/47960_1.png",
+      "https://b2b.yugtorg.com/image/data/47960_2.png"
     ],
     "available": true,
     "price": 3615.0,
@@ -151663,8 +151852,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47934.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47934.png",
-      "https://b2b.yugtorg.com/image/data/47934_2.png",
-      "https://b2b.yugtorg.com/image/data/47934_1.png"
+      "https://b2b.yugtorg.com/image/data/47934_1.png",
+      "https://b2b.yugtorg.com/image/data/47934_2.png"
     ],
     "available": true,
     "price": 1584.0,
@@ -151683,31 +151872,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47944.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47944.png",
-      "https://b2b.yugtorg.com/image/data/47944_2.png",
-      "https://b2b.yugtorg.com/image/data/47944_1.png"
+      "https://b2b.yugtorg.com/image/data/47944_1.png",
+      "https://b2b.yugtorg.com/image/data/47944_2.png"
     ],
     "available": true,
     "price": 2088.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-47937",
-    "sku": "JK-BD6A20S6PD",
-    "category": "Літієві акумулятори",
-    "subcategory": "",
-    "brand": "JiKong",
-    "name": "BMS плата JK-BD6A20S6PD Li-Ion / LiFePo4 / LTO 8S-20S, 60A, CAN / RS485, 1mΩ, Bluetooth, Ballance 0.6A + кнопка",
-    "model": "JK-BD6A20S6PD",
-    "description": "BMS плата JK-BD6A20S6PD призначена для керування акумуляторними збірками Li-ion, LiFePO4 та LTO з конфігурацією 8S–20S. Балансування 0,6 А допомагає вирівнювати заряд комірок, а Bluetooth доповнює дротові інтерфейси зв’язку. Підходить збирачам батарей і сервісним фахівцям для встановлення в сумісний акумуляторний блок. Особливості: - Балансування 0,6 А для зменшення різниці заряду комірок. - Підтримка CAN / RS485 для зв’язку із сумісним обладнанням. - Bluetooth для бездротового підключення. Характеристики: • Тип: плата керування акумулятором BMS • Модель: JK-BD6A20S6PD • Тип акумуляторів: Li-ion / LiFePO4 / LTO • Конфігурація збірки: 8S–20S • Струм: 60 А • Струм балансування: 0,6 А • Опір: 1 мОм • Інтерфейси: CAN / RS485 • Bluetooth: так • Комплектація: кнопка",
-    "features": [],
-    "image": "https://b2b.yugtorg.com/image/data/47937.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/47937.png",
-      "https://b2b.yugtorg.com/image/data/47937_1.png",
-      "https://b2b.yugtorg.com/image/data/47937_2.png"
-    ],
-    "available": true,
-    "price": 1692.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -151723,8 +151892,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47946.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47946.png",
-      "https://b2b.yugtorg.com/image/data/47946_2.png",
-      "https://b2b.yugtorg.com/image/data/47946_1.png"
+      "https://b2b.yugtorg.com/image/data/47946_1.png",
+      "https://b2b.yugtorg.com/image/data/47946_2.png"
     ],
     "available": true,
     "price": 2088.0,
@@ -151743,9 +151912,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30606.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30606.png",
+      "https://b2b.yugtorg.com/image/data/30606_1.png",
       "https://b2b.yugtorg.com/image/data/30606_2.png",
-      "https://b2b.yugtorg.com/image/data/30606_3.png",
-      "https://b2b.yugtorg.com/image/data/30606_1.png"
+      "https://b2b.yugtorg.com/image/data/30606_3.png"
     ],
     "available": true,
     "price": 2823.0,
@@ -151765,8 +151934,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/30607.png",
       "https://b2b.yugtorg.com/image/data/30607_2.png",
-      "https://b2b.yugtorg.com/image/data/30607_3.png",
-      "https://b2b.yugtorg.com/image/data/30607_1.png"
+      "https://b2b.yugtorg.com/image/data/30607_1.png",
+      "https://b2b.yugtorg.com/image/data/30607_3.png"
     ],
     "available": true,
     "price": 2996.0,
@@ -151785,8 +151954,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47952.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47952.png",
-      "https://b2b.yugtorg.com/image/data/47952_1.png",
-      "https://b2b.yugtorg.com/image/data/47952_2.png"
+      "https://b2b.yugtorg.com/image/data/47952_2.png",
+      "https://b2b.yugtorg.com/image/data/47952_1.png"
     ],
     "available": true,
     "price": 2369.0,
@@ -151805,10 +151974,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30608.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30608.png",
-      "https://b2b.yugtorg.com/image/data/30608_2.png",
-      "https://b2b.yugtorg.com/image/data/30608_3.png",
+      "https://b2b.yugtorg.com/image/data/30608_4.png",
       "https://b2b.yugtorg.com/image/data/30608_1.png",
-      "https://b2b.yugtorg.com/image/data/30608_4.png"
+      "https://b2b.yugtorg.com/image/data/30608_2.png",
+      "https://b2b.yugtorg.com/image/data/30608_3.png"
     ],
     "available": true,
     "price": 3384.0,
@@ -151827,8 +151996,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47956.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47956.png",
-      "https://b2b.yugtorg.com/image/data/47956_1.png",
-      "https://b2b.yugtorg.com/image/data/47956_2.png"
+      "https://b2b.yugtorg.com/image/data/47956_2.png",
+      "https://b2b.yugtorg.com/image/data/47956_1.png"
     ],
     "available": true,
     "price": 2765.0,
@@ -151867,8 +152036,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47935.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47935.png",
-      "https://b2b.yugtorg.com/image/data/47935_1.png",
-      "https://b2b.yugtorg.com/image/data/47935_2.png"
+      "https://b2b.yugtorg.com/image/data/47935_2.png",
+      "https://b2b.yugtorg.com/image/data/47935_1.png"
     ],
     "available": true,
     "price": 1642.0,
@@ -151927,8 +152096,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47947.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47947.png",
-      "https://b2b.yugtorg.com/image/data/47947_2.png",
-      "https://b2b.yugtorg.com/image/data/47947_1.png"
+      "https://b2b.yugtorg.com/image/data/47947_1.png",
+      "https://b2b.yugtorg.com/image/data/47947_2.png"
     ],
     "available": true,
     "price": 2204.0,
@@ -152049,8 +152218,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37515.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37515.png",
-      "https://b2b.yugtorg.com/image/data/37515_2.png",
-      "https://b2b.yugtorg.com/image/data/37515_1.png"
+      "https://b2b.yugtorg.com/image/data/37515_1.png",
+      "https://b2b.yugtorg.com/image/data/37515_2.png"
     ],
     "available": true,
     "price": 6768.0,
@@ -152089,8 +152258,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47969.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47969.png",
-      "https://b2b.yugtorg.com/image/data/47969_2.png",
-      "https://b2b.yugtorg.com/image/data/47969_1.png"
+      "https://b2b.yugtorg.com/image/data/47969_1.png",
+      "https://b2b.yugtorg.com/image/data/47969_2.png"
     ],
     "available": true,
     "price": 4061.0,
@@ -152129,8 +152298,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47971.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47971.png",
-      "https://b2b.yugtorg.com/image/data/47971_2.png",
-      "https://b2b.yugtorg.com/image/data/47971_1.png"
+      "https://b2b.yugtorg.com/image/data/47971_1.png",
+      "https://b2b.yugtorg.com/image/data/47971_2.png"
     ],
     "available": true,
     "price": 5192.0,
@@ -152149,9 +152318,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/42445.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/42445.png",
+      "https://b2b.yugtorg.com/image/data/42445_3.png",
       "https://b2b.yugtorg.com/image/data/42445_1.png",
-      "https://b2b.yugtorg.com/image/data/42445_2.png",
-      "https://b2b.yugtorg.com/image/data/42445_3.png"
+      "https://b2b.yugtorg.com/image/data/42445_2.png"
     ],
     "available": true,
     "price": 4234.0,
@@ -152170,9 +152339,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36352.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36352.png",
-      "https://b2b.yugtorg.com/image/data/36352_3.png",
+      "https://b2b.yugtorg.com/image/data/36352_1.png",
       "https://b2b.yugtorg.com/image/data/36352_2.png",
-      "https://b2b.yugtorg.com/image/data/36352_1.png"
+      "https://b2b.yugtorg.com/image/data/36352_3.png"
     ],
     "available": true,
     "price": 11844.0,
@@ -152191,10 +152360,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30616.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30616.png",
-      "https://b2b.yugtorg.com/image/data/30616_3.png",
       "https://b2b.yugtorg.com/image/data/30616_4.png",
-      "https://b2b.yugtorg.com/image/data/30616_2.png",
-      "https://b2b.yugtorg.com/image/data/30616_1.png"
+      "https://b2b.yugtorg.com/image/data/30616_1.png",
+      "https://b2b.yugtorg.com/image/data/30616_3.png",
+      "https://b2b.yugtorg.com/image/data/30616_2.png"
     ],
     "available": true,
     "price": 5926.0,
@@ -152214,9 +152383,9 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/30618.png",
       "https://b2b.yugtorg.com/image/data/30618_1.png",
+      "https://b2b.yugtorg.com/image/data/30618_2.png",
       "https://b2b.yugtorg.com/image/data/30618_4.png",
-      "https://b2b.yugtorg.com/image/data/30618_3.png",
-      "https://b2b.yugtorg.com/image/data/30618_2.png"
+      "https://b2b.yugtorg.com/image/data/30618_3.png"
     ],
     "available": true,
     "price": 2280.0,
@@ -152235,8 +152404,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37622.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37622.png",
-      "https://b2b.yugtorg.com/image/data/37622_1.png",
-      "https://b2b.yugtorg.com/image/data/37622_2.png"
+      "https://b2b.yugtorg.com/image/data/37622_2.png",
+      "https://b2b.yugtorg.com/image/data/37622_1.png"
     ],
     "available": true,
     "price": 3384.0,
@@ -152276,8 +152445,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30635.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30635.png",
-      "https://b2b.yugtorg.com/image/data/30635_1.png",
-      "https://b2b.yugtorg.com/image/data/30635_2.png"
+      "https://b2b.yugtorg.com/image/data/30635_2.png",
+      "https://b2b.yugtorg.com/image/data/30635_1.png"
     ],
     "available": true,
     "price": 3101.0,
@@ -152316,10 +152485,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30633.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30633.png",
-      "https://b2b.yugtorg.com/image/data/30633_1.png",
-      "https://b2b.yugtorg.com/image/data/30633_2.png",
+      "https://b2b.yugtorg.com/image/data/30633_4.png",
       "https://b2b.yugtorg.com/image/data/30633_3.png",
-      "https://b2b.yugtorg.com/image/data/30633_4.png"
+      "https://b2b.yugtorg.com/image/data/30633_2.png",
+      "https://b2b.yugtorg.com/image/data/30633_1.png"
     ],
     "available": true,
     "price": 3219.0,
@@ -152338,9 +152507,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30634.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30634.png",
-      "https://b2b.yugtorg.com/image/data/30634_1.png",
-      "https://b2b.yugtorg.com/image/data/30634_3.png",
       "https://b2b.yugtorg.com/image/data/30634_2.png",
+      "https://b2b.yugtorg.com/image/data/30634_3.png",
+      "https://b2b.yugtorg.com/image/data/30634_1.png",
       "https://b2b.yugtorg.com/image/data/30634_4.png"
     ],
     "available": true,
@@ -152361,9 +152530,9 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/30632.png",
       "https://b2b.yugtorg.com/image/data/30632_4.png",
+      "https://b2b.yugtorg.com/image/data/30632_2.png",
       "https://b2b.yugtorg.com/image/data/30632_3.png",
-      "https://b2b.yugtorg.com/image/data/30632_1.png",
-      "https://b2b.yugtorg.com/image/data/30632_2.png"
+      "https://b2b.yugtorg.com/image/data/30632_1.png"
     ],
     "available": true,
     "price": 1640.0,
@@ -152505,8 +152674,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/17364.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/17364.png",
-      "https://b2b.yugtorg.com/image/data/17364_2.png",
-      "https://b2b.yugtorg.com/image/data/17364_1.png"
+      "https://b2b.yugtorg.com/image/data/17364_1.png",
+      "https://b2b.yugtorg.com/image/data/17364_2.png"
     ],
     "available": true,
     "price": 324.0,
@@ -152604,8 +152773,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/16854.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/16854.png",
-      "https://b2b.yugtorg.com/image/data/16854_1.png",
-      "https://b2b.yugtorg.com/image/data/16854_2.png"
+      "https://b2b.yugtorg.com/image/data/16854_2.png",
+      "https://b2b.yugtorg.com/image/data/16854_1.png"
     ],
     "available": true,
     "price": 162.0,
@@ -152689,8 +152858,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/17366.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/17366.png",
-      "https://b2b.yugtorg.com/image/data/17366_2.png",
-      "https://b2b.yugtorg.com/image/data/17366_1.png"
+      "https://b2b.yugtorg.com/image/data/17366_1.png",
+      "https://b2b.yugtorg.com/image/data/17366_2.png"
     ],
     "available": true,
     "price": 202.0,
@@ -152872,8 +153041,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/44343.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/44343.png",
-      "https://b2b.yugtorg.com/image/data/44343_2.png",
-      "https://b2b.yugtorg.com/image/data/44343_1.png"
+      "https://b2b.yugtorg.com/image/data/44343_1.png",
+      "https://b2b.yugtorg.com/image/data/44343_2.png"
     ],
     "available": true,
     "price": 240.0,
@@ -153033,26 +153202,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "yugtorg-18701",
-    "sku": "Lii-26A",
-    "category": "Літієві акумулятори",
-    "subcategory": "",
-    "brand": "LiitoKala",
-    "name": "Акумулятор 18650 Li-Ion LiitoKala Lii-26A, 2600mah (2450-2650mah), 3.7V (2.75-4.2V), Black, PVC BOX, цiна за 1 шт",
-    "model": "Lii-26A",
-    "description": "Акумулятор 18650 Li-Ion LiitoKala призначений для забезпечення працездатності портативних пристроїв різного призначення з високим постійним споживанням струму, в тому числі в електроінструментах, потужних ліхтарях, електронних сигаретах, дронах та ін. Ці акумулятори мають тривалий термін роботи та зберігають свої властивості в екстремальних умовах. Акумулятор 18650 Li-ion завдяки високій щільності струму забезпечує гарантовану стабільну напругу протягом циклу розрядки, одночасно має низький саморозряд 5-7%. Без 'ефекту пам`яті' це дає можливість заряджати його без попереднього розрядки. Характеристики: • Номінальна потужність: 2600 мА • Номінальна напруга: 3,7 В • Обмежена зарядна напруга: 4.2V • Робоча напруга: 2,75 – 4,2 В Зверніть увагу: - Не піддавайте акумулятору впливу сонячних променів або вогню - Для заряджання використовуйте тільки оригінальні зарядні пристрої - Не розбирайте та не деформуйте акумулятор - Не занурюйте акумулятор у воду - Акумулятор повинен заряджатися у відповідному режимі заряджання - Зберігайте акумулятор у прохолодному, сухому та добре провітрюваному місці",
-    "features": [],
-    "image": "https://b2b.yugtorg.com/image/data/18701.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/18701.png",
-      "https://b2b.yugtorg.com/image/data/18701_2.png",
-      "https://b2b.yugtorg.com/image/data/18701_1.png"
-    ],
-    "available": true,
-    "price": 190.0,
-    "source_supplier": "yugtorg"
-  },
-  {
     "id": "yugtorg-18708",
     "sku": "Lii-26FM",
     "category": "Літієві акумулятори",
@@ -153083,8 +153232,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18702.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18702.png",
-      "https://b2b.yugtorg.com/image/data/18702_2.png",
-      "https://b2b.yugtorg.com/image/data/18702_1.png"
+      "https://b2b.yugtorg.com/image/data/18702_1.png",
+      "https://b2b.yugtorg.com/image/data/18702_2.png"
     ],
     "available": true,
     "price": 202.0,
@@ -153106,8 +153255,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/23388.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/23388.png",
-      "https://b2b.yugtorg.com/image/data/23388_2.png",
-      "https://b2b.yugtorg.com/image/data/23388_1.png"
+      "https://b2b.yugtorg.com/image/data/23388_1.png",
+      "https://b2b.yugtorg.com/image/data/23388_2.png"
     ],
     "available": true,
     "price": 159.0,
@@ -153146,8 +153295,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18704.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18704.png",
-      "https://b2b.yugtorg.com/image/data/18704_1.png",
-      "https://b2b.yugtorg.com/image/data/18704_2.png"
+      "https://b2b.yugtorg.com/image/data/18704_2.png",
+      "https://b2b.yugtorg.com/image/data/18704_1.png"
     ],
     "available": true,
     "price": 210.0,
@@ -153166,8 +153315,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18705.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18705.png",
-      "https://b2b.yugtorg.com/image/data/18705_1.png",
-      "https://b2b.yugtorg.com/image/data/18705_2.png"
+      "https://b2b.yugtorg.com/image/data/18705_2.png",
+      "https://b2b.yugtorg.com/image/data/18705_1.png"
     ],
     "available": true,
     "price": 250.0,
@@ -153191,7 +153340,7 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/18710_1.png"
     ],
     "available": true,
-    "price": 188.0,
+    "price": 220.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -153269,8 +153418,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18706.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18706.png",
-      "https://b2b.yugtorg.com/image/data/18706_2.png",
-      "https://b2b.yugtorg.com/image/data/18706_1.png"
+      "https://b2b.yugtorg.com/image/data/18706_1.png",
+      "https://b2b.yugtorg.com/image/data/18706_2.png"
     ],
     "available": true,
     "price": 231.0,
@@ -153315,26 +153464,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "yugtorg-44361",
-    "sku": "Lii-36S+",
-    "category": "Літієві акумулятори",
-    "subcategory": "",
-    "brand": "LiitoKala",
-    "name": "Акумулятор 18650 Li-Ion LiitoKala Lii-36S+, 3600mAh, 3.7V (2.75-4.2V), 65.5mm x 18.5mm, , Black / Yelow",
-    "model": "Lii-36S+",
-    "description": "'Brand Name: LiitoKala Model: Lii-36S+ Type: Li-Ion 18650 Capacity: 3600mah Nominal Voltage: 3.7V Weight: 46g±1g Rechargeable Battery: Yes Rechargeable Times: Up to 1000 times internal resistance: ≤38mΩ Limited Charge Voltage: 4.2v Working Voltage: 2.75-4.2V Size: 65.5mm x 18.5mm (Diameter) Can customize Nickel，Pointed，PCB 200pcs / box 43*21*16cm '",
-    "features": [],
-    "image": "https://b2b.yugtorg.com/image/data/44361.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/44361.png",
-      "https://b2b.yugtorg.com/image/data/44361_1.png",
-      "https://b2b.yugtorg.com/image/data/44361_2.png"
-    ],
-    "available": true,
-    "price": 231.0,
-    "source_supplier": "yugtorg"
-  },
-  {
     "id": "yugtorg-18709",
     "sku": "Lii-HG2",
     "category": "Літієві акумулятори",
@@ -153347,30 +153476,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18709.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18709.png",
-      "https://b2b.yugtorg.com/image/data/18709_1.png",
-      "https://b2b.yugtorg.com/image/data/18709_2.png"
+      "https://b2b.yugtorg.com/image/data/18709_2.png",
+      "https://b2b.yugtorg.com/image/data/18709_1.png"
     ],
     "available": true,
     "price": 159.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-35890",
-    "sku": "Lii-HG2-N",
-    "category": "Літієві акумулятори",
-    "subcategory": "",
-    "brand": "LiitoKala",
-    "name": "Акумулятор 18650 Li-Ion LiitoKala Lii-HG2-N(Nickel), 3000mAh (2850-3000mAh), 30A, 3.7V (2.75-4.2V), Brown, PVC BOX",
-    "model": "Lii-HG2-N",
-    "description": "Акумулятор 18650 Li-Ion LiitoKala Lii-HG2-N (Нікель), ємність 3000 мАг (від 2850 до 3000 мАг), струм розряду 30A, напруга 3.7V (від 2.75 до 4.2V). Колір корпусу – коричневий, оболонка з ПВХ. Характеристики: - Тип батареї: 18650 Li-Ion - Бренд: LiitoKala - Модель: Lii-HG2-N (Нікель) - Ємність: 3000 мАг (від 2850 до 3000 мАг) - Струм розряду: 30A - Напруга: 3.7V (від 2.75 до 4.2V) - Колір коричневий - Матеріал оболонки: ПВХ",
-    "features": [],
-    "image": "https://b2b.yugtorg.com/image/data/35890.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/35890.png",
-      "https://b2b.yugtorg.com/image/data/35890_1.png"
-    ],
-    "available": true,
-    "price": 188.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -153411,25 +153521,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "yugtorg-35889",
-    "sku": "Lii-VTC5A-N",
-    "category": "Літієві акумулятори",
-    "subcategory": "",
-    "brand": "LiitoKala",
-    "name": "Акумулятор 18650 Li-Ion LiitoKala Lii-VTC5A-N(Nickel), 2600mAh (2500-2600mAh), 3.7V (2.75-4.2V), Green, PVC",
-    "model": "Lii-VTC5A-N",
-    "description": "Акумулятор 18650 Li-Ion від LiitoKala Lii-VTC5A-N(Nickel) - це високоякісний літієво-іонний акумулятор з ємністю 2600mah (2500-2600mah) та номінальною напругою 3.7V (2.75-4). Він має зелену оболонку з PVC і призначений для використання у різних пристроях, що потребують надійного та ефективного джерела живлення. Характеристики: - Тип: Li-Ion - Модель: 18650 - Бренд: LiitoKala - Найменування: Lii-VTC5A-N(Nickel) - Місткість: 2600mah (2500-2600mah) - Номінальна напруга: 3.7V (2.75-4.2V) - Колір зелений - Оболонка: PVC",
-    "features": [],
-    "image": "https://b2b.yugtorg.com/image/data/35889.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/35889.png",
-      "https://b2b.yugtorg.com/image/data/35889_1.png"
-    ],
-    "available": true,
-    "price": 152.0,
-    "source_supplier": "yugtorg"
-  },
-  {
     "id": "yugtorg-44357",
     "sku": "Lii-LT28A",
     "category": "Літієві акумулятори",
@@ -153462,8 +153553,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/44360.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/44360.png",
-      "https://b2b.yugtorg.com/image/data/44360_1.png",
-      "https://b2b.yugtorg.com/image/data/44360_2.png"
+      "https://b2b.yugtorg.com/image/data/44360_2.png",
+      "https://b2b.yugtorg.com/image/data/44360_1.png"
     ],
     "available": true,
     "price": 230.0,
@@ -153599,8 +153690,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/43633.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/43633.png",
-      "https://b2b.yugtorg.com/image/data/43633_1.png",
-      "https://b2b.yugtorg.com/image/data/43633_2.png"
+      "https://b2b.yugtorg.com/image/data/43633_2.png",
+      "https://b2b.yugtorg.com/image/data/43633_1.png"
     ],
     "available": true,
     "price": 317.0,
@@ -153639,8 +153730,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/44346.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/44346.png",
-      "https://b2b.yugtorg.com/image/data/44346_1.png",
-      "https://b2b.yugtorg.com/image/data/44346_2.png"
+      "https://b2b.yugtorg.com/image/data/44346_2.png",
+      "https://b2b.yugtorg.com/image/data/44346_1.png"
     ],
     "available": true,
     "price": 290.0,
@@ -153698,8 +153789,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/23386.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/23386.png",
-      "https://b2b.yugtorg.com/image/data/23386_2.png",
-      "https://b2b.yugtorg.com/image/data/23386_1.png"
+      "https://b2b.yugtorg.com/image/data/23386_1.png",
+      "https://b2b.yugtorg.com/image/data/23386_2.png"
     ],
     "available": true,
     "price": 260.0,
@@ -153721,8 +153812,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18723.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18723.png",
-      "https://b2b.yugtorg.com/image/data/18723_2.png",
-      "https://b2b.yugtorg.com/image/data/18723_1.png"
+      "https://b2b.yugtorg.com/image/data/18723_1.png",
+      "https://b2b.yugtorg.com/image/data/18723_2.png"
     ],
     "available": true,
     "price": 792.0,
@@ -153744,7 +153835,9 @@ window.ALTCAM_CATALOG = [
     ],
     "image": "https://b2b.yugtorg.com/image/data/18724.png",
     "images": [
-      "https://b2b.yugtorg.com/image/data/18724.png"
+      "https://b2b.yugtorg.com/image/data/18724.png",
+      "https://b2b.yugtorg.com/image/data/18724_1.png",
+      "https://b2b.yugtorg.com/image/data/18724_2.png"
     ],
     "available": true,
     "price": 850.0,
@@ -153856,8 +153949,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18729.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18729.png",
-      "https://b2b.yugtorg.com/image/data/18729_1.png",
-      "https://b2b.yugtorg.com/image/data/18729_2.png"
+      "https://b2b.yugtorg.com/image/data/18729_2.png",
+      "https://b2b.yugtorg.com/image/data/18729_1.png"
     ],
     "available": true,
     "price": 1640.0,
@@ -153878,8 +153971,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46295.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46295.png",
-      "https://b2b.yugtorg.com/image/data/46295_2.png",
-      "https://b2b.yugtorg.com/image/data/46295_1.png"
+      "https://b2b.yugtorg.com/image/data/46295_1.png",
+      "https://b2b.yugtorg.com/image/data/46295_2.png"
     ],
     "available": true,
     "price": 1299.0,
@@ -153922,8 +154015,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/44324.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/44324.png",
-      "https://b2b.yugtorg.com/image/data/44324_2.png",
-      "https://b2b.yugtorg.com/image/data/44324_1.png"
+      "https://b2b.yugtorg.com/image/data/44324_1.png",
+      "https://b2b.yugtorg.com/image/data/44324_2.png"
     ],
     "available": true,
     "price": 730.0,
@@ -153969,8 +154062,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18731.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18731.png",
-      "https://b2b.yugtorg.com/image/data/18731_2.png",
-      "https://b2b.yugtorg.com/image/data/18731_1.png"
+      "https://b2b.yugtorg.com/image/data/18731_1.png",
+      "https://b2b.yugtorg.com/image/data/18731_2.png"
     ],
     "available": true,
     "price": 1440.0,
@@ -154013,9 +154106,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/29717.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/29717.png",
-      "https://b2b.yugtorg.com/image/data/29717_3.png",
       "https://b2b.yugtorg.com/image/data/29717_1.png",
-      "https://b2b.yugtorg.com/image/data/29717_2.png"
+      "https://b2b.yugtorg.com/image/data/29717_2.png",
+      "https://b2b.yugtorg.com/image/data/29717_3.png"
     ],
     "available": true,
     "price": 980.0,
@@ -154027,7 +154120,7 @@ window.ALTCAM_CATALOG = [
     "category": "Літієві акумулятори",
     "subcategory": "",
     "brand": "LiitoKala",
-    "name": "Літій-залізо-фосфатний акумулятор LiFePO4 LiitoKala-40135, 20Ah, 3.2V, Blue, 40.5*130(163)mm, 364g",
+    "name": "Літій-залізо-фосфатний акумулятор LiFePO4 LiitoKala-40135 20Ah, 3.2V, Blue, 40.5*130(163)mm, 364g (комплект: гайка-2шт., шайба-2шт., пластина-1шт.)",
     "model": "LiitoKala-40135",
     "description": "LiitoKala LiFePO4 акумулятор є літій-залізо-фосфатний акумулятор з ємністю 20Ah і напругою 3,2V. Він має блакитний колір та важить 350 грам. Цей акумулятор ідеально підходить для використання у різних пристроях, включаючи портативні електронні пристрої та електричні транспортні засоби. Характеристики: - Тип акумулятора: Літій-залізо-фосфатний (LiFePO4) - Бренд: LiitoKala - Місткість: 20Ah - Напруга: 3,2V - Колір блакитний - Вага: 364 грам",
     "features": [
@@ -154219,10 +154312,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/33935.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/33935.png",
-      "https://b2b.yugtorg.com/image/data/33935_4.png",
       "https://b2b.yugtorg.com/image/data/33935_1.png",
       "https://b2b.yugtorg.com/image/data/33935_2.png",
-      "https://b2b.yugtorg.com/image/data/33935_3.png"
+      "https://b2b.yugtorg.com/image/data/33935_3.png",
+      "https://b2b.yugtorg.com/image/data/33935_4.png"
     ],
     "available": true,
     "price": 2511.0,
@@ -154241,10 +154334,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/33936.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/33936.png",
-      "https://b2b.yugtorg.com/image/data/33936_3.png",
       "https://b2b.yugtorg.com/image/data/33936_1.png",
       "https://b2b.yugtorg.com/image/data/33936_2.png",
-      "https://b2b.yugtorg.com/image/data/33936_4.png"
+      "https://b2b.yugtorg.com/image/data/33936_4.png",
+      "https://b2b.yugtorg.com/image/data/33936_3.png"
     ],
     "available": true,
     "price": 3087.0,
@@ -154264,8 +154357,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/33932.png",
       "https://b2b.yugtorg.com/image/data/33932_2.png",
-      "https://b2b.yugtorg.com/image/data/33932_4.png",
       "https://b2b.yugtorg.com/image/data/33932_1.png",
+      "https://b2b.yugtorg.com/image/data/33932_4.png",
       "https://b2b.yugtorg.com/image/data/33932_3.png"
     ],
     "available": true,
@@ -154534,27 +154627,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 443.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-20350",
-    "sku": "GL12650M6",
-    "category": "Літієві акумулятори",
-    "subcategory": "",
-    "brand": "MERLION",
-    "name": "Корпус для акумуляторної батареї MERLION GL12650M6 (348x168x178 мм)",
-    "model": "GL12650M6",
-    "description": "Корпус акумуляторної батареї - це міцний і надійний корпус, призначений для захисту акумуляторної батареї від зовнішніх впливів. Корпус виготовлений з високоякісного пластику, який забезпечує високу міцність та стійкість до ударів та вібрацій. Характеристики: • Розміри корпусу: 348x168x178 мм • Розміри внутрішні: 310х158х152 мм • Осередки: 6 шт. • Ширина комірки: 50мм Переваги: - Міцний та надійний корпус - Захист від зовнішніх впливів",
-    "features": [
-      "50мм"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/20350.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/20350.png",
-      "https://b2b.yugtorg.com/image/data/20350_1.png"
-    ],
-    "available": true,
-    "price": 569.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -154980,8 +155052,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/28456.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/28456.png",
-      "https://b2b.yugtorg.com/image/data/28456_2.png",
-      "https://b2b.yugtorg.com/image/data/28456_1.png"
+      "https://b2b.yugtorg.com/image/data/28456_1.png",
+      "https://b2b.yugtorg.com/image/data/28456_2.png"
     ],
     "available": true,
     "price": 39485.0,
@@ -155070,8 +155142,8 @@ window.ALTCAM_CATALOG = [
       "https://b2b.yugtorg.com/image/data/32860.png",
       "https://b2b.yugtorg.com/image/data/32860_4.png",
       "https://b2b.yugtorg.com/image/data/32860_3.png",
-      "https://b2b.yugtorg.com/image/data/32860_1.png",
-      "https://b2b.yugtorg.com/image/data/32860_2.png"
+      "https://b2b.yugtorg.com/image/data/32860_2.png",
+      "https://b2b.yugtorg.com/image/data/32860_1.png"
     ],
     "available": true,
     "price": 39888.0,
@@ -155092,9 +155164,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/32862.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/32862.png",
-      "https://b2b.yugtorg.com/image/data/32862_1.png",
+      "https://b2b.yugtorg.com/image/data/32862_3.png",
       "https://b2b.yugtorg.com/image/data/32862_2.png",
-      "https://b2b.yugtorg.com/image/data/32862_3.png"
+      "https://b2b.yugtorg.com/image/data/32862_1.png"
     ],
     "available": true,
     "price": 53583.0,
@@ -155117,8 +155189,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/32863.png",
       "https://b2b.yugtorg.com/image/data/32863_2.png",
-      "https://b2b.yugtorg.com/image/data/32863_1.png",
       "https://b2b.yugtorg.com/image/data/32863_4.png",
+      "https://b2b.yugtorg.com/image/data/32863_1.png",
       "https://b2b.yugtorg.com/image/data/32863_3.png"
     ],
     "available": true,
@@ -155172,28 +155244,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
-    "id": "viatec-15715",
-    "sku": "99-00023554",
-    "category": "Літієві акумулятори",
-    "subcategory": "",
-    "brand": "MUST",
-    "name": "Літієва акумуляторна батарея",
-    "model": "Must LP16-24200 25.6В 200А•г",
-    "description": "● Тип акумуляторної батареї: LiFePo4 &ndash; літій-залізо-фосфатна;● Вихідна напруга: 25.6 В;● Ємність: 200 А&bull;г;● CAN2.0/RS232/RS485;● Кількість циклів: &gt; 6000;● Розміри: 486 x 442 x 250 мм;● Вага: 44 кг.",
-    "features": [
-      "Вихідна напруга: 25.6 В",
-      "Ємність: 200 A●г",
-      "250 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-12/LP16-24200.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-12/LP16-24200.webp"
-    ],
-    "available": true,
-    "price": 52889.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "yugtorg-38102",
     "sku": "O-LiFePO4-228-48-15s",
     "category": "Літієві акумулятори",
@@ -155210,11 +155260,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38102.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38102.png",
-      "https://b2b.yugtorg.com/image/data/38102_5.png",
-      "https://b2b.yugtorg.com/image/data/38102_4.png",
       "https://b2b.yugtorg.com/image/data/38102_3.png",
       "https://b2b.yugtorg.com/image/data/38102_2.png",
-      "https://b2b.yugtorg.com/image/data/38102_1.png"
+      "https://b2b.yugtorg.com/image/data/38102_4.png",
+      "https://b2b.yugtorg.com/image/data/38102_1.png",
+      "https://b2b.yugtorg.com/image/data/38102_5.png"
     ],
     "available": true,
     "price": 98888.0,
@@ -155318,6 +155368,27 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
+    "id": "yugtorg-26913",
+    "sku": "NCR18650BD",
+    "category": "Літієві акумулятори",
+    "subcategory": "",
+    "brand": "PANASONIC",
+    "name": "Акумулятор 18650 Li-Ion Panasonic NCR18650BD, 3200mAh, 10A, 4.2 / 3.6 / 2.5V, Gray",
+    "model": "NCR18650BD",
+    "description": "Акумулятор 18650 Li-Ion Panasonic NCR18650BD - це високоякісний елемент живлення, призначений для використання в різних пристроях, що вимагають надійного і довговічного джерела енергії. Цей акумулятор має високу ємність і здатний забезпечувати стабільну роботу при значних навантаженнях. Технічні характеристики: - Тип акумулятора: Li-Ion - Модель: Panasonic NCR18650BD - Ємність: 3200 мАг - Максимальний розрядний струм: 10 А - Напруга: 4.2 В (повний заряд) / 3.6 В (номінальна) / 2.5 В (мінімальна) - Діаметр: 18,3 мм - Довжина: 65,0 мм - Вага: близько 47 г - Колір: сірий Особливості та переваги: - Висока ємність: 3200 мАч забезпечує тривалу роботу пристроїв, мінімізуючи необхідність частої підзарядки. - Стабільна робота під навантаженням: Максимальний розрядний струм 10 А дозволяє використовувати акумулятор у пристроях з високою споживаною потужністю. - Довговічність: Li-Ion технологія забезпечує тривалий термін служби та високу енергоефективність. - Компактні розміри: Стандартний форм-фактор 18650 робить акумулятор сумісним із широким спектром пристроїв. Акумулятор Panasonic NCR18650BD ідеально підходить для використання у ліхтарях, портативних зарядних пристроях, електроінструментах, ноутбуках, а також у різних пристроях, що потребують надійного та тривалого джерела живлення. Завдяки високому розрядному струму, акумулятор може ефективно використовуватись у пристроях із високими вимогами до потужності.",
+    "features": [
+      "18,3 мм",
+      "65,0 мм"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/26913.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/26913.png"
+    ],
+    "available": true,
+    "price": 250.0,
+    "source_supplier": "yugtorg"
+  },
+  {
     "id": "yugtorg-26914",
     "sku": "NCR18650GA",
     "category": "Літієві акумулятори",
@@ -155349,8 +155420,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/22659.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/22659.png",
-      "https://b2b.yugtorg.com/image/data/22659_1.png",
-      "https://b2b.yugtorg.com/image/data/22659_2.png"
+      "https://b2b.yugtorg.com/image/data/22659_2.png",
+      "https://b2b.yugtorg.com/image/data/22659_1.png"
     ],
     "available": true,
     "price": 202.0,
@@ -155405,8 +155476,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/20436.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/20436.png",
-      "https://b2b.yugtorg.com/image/data/20436_2.png",
-      "https://b2b.yugtorg.com/image/data/20436_1.png"
+      "https://b2b.yugtorg.com/image/data/20436_1.png",
+      "https://b2b.yugtorg.com/image/data/20436_2.png"
     ],
     "available": true,
     "price": 108.0,
@@ -155558,8 +155629,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/20426.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/20426.png",
-      "https://b2b.yugtorg.com/image/data/20426_2.png",
-      "https://b2b.yugtorg.com/image/data/20426_1.png"
+      "https://b2b.yugtorg.com/image/data/20426_1.png",
+      "https://b2b.yugtorg.com/image/data/20426_2.png"
     ],
     "available": true,
     "price": 425.0,
@@ -155709,8 +155780,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/22394.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/22394.png",
-      "https://b2b.yugtorg.com/image/data/22394_2.png",
-      "https://b2b.yugtorg.com/image/data/22394_1.png"
+      "https://b2b.yugtorg.com/image/data/22394_1.png",
+      "https://b2b.yugtorg.com/image/data/22394_2.png"
     ],
     "available": true,
     "price": 418.0,
@@ -155729,8 +155800,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/29910.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/29910.png",
-      "https://b2b.yugtorg.com/image/data/29910_1.png",
-      "https://b2b.yugtorg.com/image/data/29910_2.png"
+      "https://b2b.yugtorg.com/image/data/29910_2.png",
+      "https://b2b.yugtorg.com/image/data/29910_1.png"
     ],
     "available": true,
     "price": 380.0,
@@ -155811,9 +155882,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/22401.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/22401.png",
-      "https://b2b.yugtorg.com/image/data/22401_1.png",
+      "https://b2b.yugtorg.com/image/data/22401_3.png",
       "https://b2b.yugtorg.com/image/data/22401_2.png",
-      "https://b2b.yugtorg.com/image/data/22401_3.png"
+      "https://b2b.yugtorg.com/image/data/22401_1.png"
     ],
     "available": true,
     "price": 425.0,
@@ -155832,8 +155903,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/22402.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/22402.png",
-      "https://b2b.yugtorg.com/image/data/22402_2.png",
-      "https://b2b.yugtorg.com/image/data/22402_1.png"
+      "https://b2b.yugtorg.com/image/data/22402_1.png",
+      "https://b2b.yugtorg.com/image/data/22402_2.png"
     ],
     "available": true,
     "price": 742.0,
@@ -155894,8 +155965,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/40339.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/40339.png",
-      "https://b2b.yugtorg.com/image/data/40339_2.png",
-      "https://b2b.yugtorg.com/image/data/40339_1.png"
+      "https://b2b.yugtorg.com/image/data/40339_1.png",
+      "https://b2b.yugtorg.com/image/data/40339_2.png"
     ],
     "available": true,
     "price": 785.0,
@@ -155934,8 +156005,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/22396.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/22396.png",
-      "https://b2b.yugtorg.com/image/data/22396_2.png",
-      "https://b2b.yugtorg.com/image/data/22396_1.png"
+      "https://b2b.yugtorg.com/image/data/22396_1.png",
+      "https://b2b.yugtorg.com/image/data/22396_2.png"
     ],
     "available": true,
     "price": 540.0,
@@ -155954,8 +156025,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/29907.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/29907.png",
-      "https://b2b.yugtorg.com/image/data/29907_1.png",
-      "https://b2b.yugtorg.com/image/data/29907_2.png"
+      "https://b2b.yugtorg.com/image/data/29907_2.png",
+      "https://b2b.yugtorg.com/image/data/29907_1.png"
     ],
     "available": true,
     "price": 828.0,
@@ -155976,8 +156047,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/22403.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/22403.png",
-      "https://b2b.yugtorg.com/image/data/22403_1.png",
-      "https://b2b.yugtorg.com/image/data/22403_2.png"
+      "https://b2b.yugtorg.com/image/data/22403_2.png",
+      "https://b2b.yugtorg.com/image/data/22403_1.png"
     ],
     "available": true,
     "price": 735.0,
@@ -155998,8 +156069,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/22406.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/22406.png",
-      "https://b2b.yugtorg.com/image/data/22406_2.png",
-      "https://b2b.yugtorg.com/image/data/22406_1.png"
+      "https://b2b.yugtorg.com/image/data/22406_1.png",
+      "https://b2b.yugtorg.com/image/data/22406_2.png"
     ],
     "available": true,
     "price": 792.0,
@@ -156058,8 +156129,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/22404.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/22404.png",
-      "https://b2b.yugtorg.com/image/data/22404_2.png",
-      "https://b2b.yugtorg.com/image/data/22404_1.png"
+      "https://b2b.yugtorg.com/image/data/22404_1.png",
+      "https://b2b.yugtorg.com/image/data/22404_2.png"
     ],
     "available": true,
     "price": 820.0,
@@ -156078,8 +156149,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/22407.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/22407.png",
-      "https://b2b.yugtorg.com/image/data/22407_2.png",
-      "https://b2b.yugtorg.com/image/data/22407_1.png"
+      "https://b2b.yugtorg.com/image/data/22407_1.png",
+      "https://b2b.yugtorg.com/image/data/22407_2.png"
     ],
     "available": true,
     "price": 807.0,
@@ -156121,9 +156192,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/29904.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/29904.png",
+      "https://b2b.yugtorg.com/image/data/29904_1.png",
       "https://b2b.yugtorg.com/image/data/29904_2.png",
-      "https://b2b.yugtorg.com/image/data/29904_3.png",
-      "https://b2b.yugtorg.com/image/data/29904_1.png"
+      "https://b2b.yugtorg.com/image/data/29904_3.png"
     ],
     "available": true,
     "price": 410.0,
@@ -156144,8 +156215,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/29911.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/29911.png",
-      "https://b2b.yugtorg.com/image/data/29911_2.png",
-      "https://b2b.yugtorg.com/image/data/29911_1.png"
+      "https://b2b.yugtorg.com/image/data/29911_1.png",
+      "https://b2b.yugtorg.com/image/data/29911_2.png"
     ],
     "available": true,
     "price": 410.0,
@@ -156166,8 +156237,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/29905.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/29905.png",
-      "https://b2b.yugtorg.com/image/data/29905_1.png",
-      "https://b2b.yugtorg.com/image/data/29905_2.png"
+      "https://b2b.yugtorg.com/image/data/29905_2.png",
+      "https://b2b.yugtorg.com/image/data/29905_1.png"
     ],
     "available": true,
     "price": 470.0,
@@ -156249,8 +156320,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/29894.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/29894.png",
-      "https://b2b.yugtorg.com/image/data/29894_2.png",
-      "https://b2b.yugtorg.com/image/data/29894_1.png"
+      "https://b2b.yugtorg.com/image/data/29894_1.png",
+      "https://b2b.yugtorg.com/image/data/29894_2.png"
     ],
     "available": true,
     "price": 670.0,
@@ -156271,8 +156342,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/29895.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/29895.png",
-      "https://b2b.yugtorg.com/image/data/29895_2.png",
-      "https://b2b.yugtorg.com/image/data/29895_1.png"
+      "https://b2b.yugtorg.com/image/data/29895_1.png",
+      "https://b2b.yugtorg.com/image/data/29895_2.png"
     ],
     "available": true,
     "price": 700.0,
@@ -156293,8 +156364,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/22399.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/22399.png",
-      "https://b2b.yugtorg.com/image/data/22399_1.png",
-      "https://b2b.yugtorg.com/image/data/22399_2.png"
+      "https://b2b.yugtorg.com/image/data/22399_2.png",
+      "https://b2b.yugtorg.com/image/data/22399_1.png"
     ],
     "available": true,
     "price": 530.0,
@@ -156337,8 +156408,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/29892.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/29892.png",
-      "https://b2b.yugtorg.com/image/data/29892_2.png",
-      "https://b2b.yugtorg.com/image/data/29892_1.png"
+      "https://b2b.yugtorg.com/image/data/29892_1.png",
+      "https://b2b.yugtorg.com/image/data/29892_2.png"
     ],
     "available": true,
     "price": 760.0,
@@ -156357,8 +156428,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/42483.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/42483.png",
-      "https://b2b.yugtorg.com/image/data/42483_2.png",
-      "https://b2b.yugtorg.com/image/data/42483_1.png"
+      "https://b2b.yugtorg.com/image/data/42483_1.png",
+      "https://b2b.yugtorg.com/image/data/42483_2.png"
     ],
     "available": true,
     "price": 1288.0,
@@ -156380,8 +156451,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/33281.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/33281.png",
-      "https://b2b.yugtorg.com/image/data/33281_3.png",
       "https://b2b.yugtorg.com/image/data/33281_2.png",
+      "https://b2b.yugtorg.com/image/data/33281_3.png",
       "https://b2b.yugtorg.com/image/data/33281_1.png"
     ],
     "available": true,
@@ -156404,9 +156475,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/33282.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/33282.png",
-      "https://b2b.yugtorg.com/image/data/33282_3.png",
+      "https://b2b.yugtorg.com/image/data/33282_1.png",
       "https://b2b.yugtorg.com/image/data/33282_2.png",
-      "https://b2b.yugtorg.com/image/data/33282_1.png"
+      "https://b2b.yugtorg.com/image/data/33282_3.png"
     ],
     "available": true,
     "price": 165.0,
@@ -156428,10 +156499,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/33283.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/33283.png",
-      "https://b2b.yugtorg.com/image/data/33283_2.png",
       "https://b2b.yugtorg.com/image/data/33283_3.png",
-      "https://b2b.yugtorg.com/image/data/33283_4.png",
-      "https://b2b.yugtorg.com/image/data/33283_1.png"
+      "https://b2b.yugtorg.com/image/data/33283_2.png",
+      "https://b2b.yugtorg.com/image/data/33283_1.png",
+      "https://b2b.yugtorg.com/image/data/33283_4.png"
     ],
     "available": true,
     "price": 180.0,
@@ -156456,28 +156527,6 @@ window.ALTCAM_CATALOG = [
     "available": true,
     "price": 760.0,
     "source_supplier": "yugtorg"
-  },
-  {
-    "id": "viatec-13965",
-    "sku": "99-00015738",
-    "category": "Літієві акумулятори",
-    "subcategory": "",
-    "brand": "Pylontech",
-    "name": "Літієва акумуляторна батарея",
-    "model": "Pylontech US5000 48В 100 А●год 100А",
-    "description": "● Тип акумулятора: LiFePo4 &ndash; літій-залізо-фосфат;● Вихідна напруга: 48 В;● Місткість: 100 А●г;● Максимальний струм заряду: 100 А, максимальний струм розряду: 120 А;● Інтерфейси: CAN/RS485;● Розміри: 442 х 420 х 161 мм;● Вага: 39.7 кг",
-    "features": [
-      "Вихідна напруга: 48В",
-      "Ємність: 100 А•г",
-      "161 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-07/PylontechUS5000.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-07/PylontechUS5000.webp"
-    ],
-    "available": true,
-    "price": 53133.0,
-    "source_supplier": "viatec"
   },
   {
     "id": "yugtorg-11000",
@@ -157541,6 +157590,26 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
+    "id": "yugtorg-27414",
+    "sku": "R-LFP 25.6V 150Ah",
+    "category": "Літієві акумулятори",
+    "subcategory": "",
+    "brand": "Ritar",
+    "name": "Акумуляторна батарея Ritar LiFePO4 25,6V 150Ah BMS100A@8S (522 х 240 х 219)",
+    "model": "R-LFP 25.6V 150Ah",
+    "description": "Номінальна напруга, В - 25,6 Номінальна ємність, Ач - 150 Довжина, мм -522 Ширина, мм -268 Висота, мм - 219 Вага, кг - 35 Клеми підключення - F10 (Ф20, М8)",
+    "features": [
+      "150Ah"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/27414.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/27414.png"
+    ],
+    "available": true,
+    "price": 43990.0,
+    "source_supplier": "yugtorg"
+  },
+  {
     "id": "yugtorg-27415",
     "sku": "R-LFP 25.6V 200Ah",
     "category": "Літієві акумулятори",
@@ -157579,10 +157648,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/17445.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/17445.png",
-      "https://b2b.yugtorg.com/image/data/17445_2.png",
       "https://b2b.yugtorg.com/image/data/17445_4.png",
       "https://b2b.yugtorg.com/image/data/17445_3.png",
-      "https://b2b.yugtorg.com/image/data/17445_1.png"
+      "https://b2b.yugtorg.com/image/data/17445_1.png",
+      "https://b2b.yugtorg.com/image/data/17445_2.png"
     ],
     "available": true,
     "price": 65000.0,
@@ -157603,9 +157672,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/24124.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/24124.png",
+      "https://b2b.yugtorg.com/image/data/24124_1.png",
       "https://b2b.yugtorg.com/image/data/24124_3.png",
-      "https://b2b.yugtorg.com/image/data/24124_2.png",
-      "https://b2b.yugtorg.com/image/data/24124_1.png"
+      "https://b2b.yugtorg.com/image/data/24124_2.png"
     ],
     "available": true,
     "price": 37790.0,
@@ -157767,6 +157836,29 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 2327.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-18169",
+    "sku": "99-10026634",
+    "category": "Літієві акумулятори",
+    "subcategory": "",
+    "brand": "RITAR",
+    "name": "Літієва акумуляторна батарея",
+    "model": "Ritar LiFePO4 12.8В 100А•г",
+    "description": "● Номінальна напруга, В: 12.8;● Ємність 1280 Вт&bull;г;● Номінальна ємність, А&bull;год: 100;● Максимальний струм заряду, А: 50;● Максимальний струм розряду, А: 100;● Вбудований захист від глибокого розряду та перезарядження;● Кількість циклів: 3500;● Температурний режим роботи від -20&deg;C до +55&deg;C;● Габарити, мм: 229 х 138 х 210;● Маса, кг: 9.9 кг",
+    "features": [
+      "Вихідна напруга: 12.8В",
+      "Ємність: 100 А•г",
+      "210 мм",
+      "1280 Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/Ritar-LiFePO4-128-100.webp",
+    "images": [
+      "https://viatec.ua/upload/2/Ritar-LiFePO4-128-100.webp"
+    ],
+    "available": true,
+    "price": 15287.0,
     "source_supplier": "viatec"
   },
   {
@@ -158002,8 +158094,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18114.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18114.png",
-      "https://b2b.yugtorg.com/image/data/18114_2.png",
-      "https://b2b.yugtorg.com/image/data/18114_1.png"
+      "https://b2b.yugtorg.com/image/data/18114_1.png",
+      "https://b2b.yugtorg.com/image/data/18114_2.png"
     ],
     "available": true,
     "price": 220.0,
@@ -158103,8 +158195,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/12402.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/12402.png",
-      "https://b2b.yugtorg.com/image/data/12402_1.png",
-      "https://b2b.yugtorg.com/image/data/12402_2.png"
+      "https://b2b.yugtorg.com/image/data/12402_2.png",
+      "https://b2b.yugtorg.com/image/data/12402_1.png"
     ],
     "available": true,
     "price": 188.0,
@@ -158126,8 +158218,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/00466.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/00466.png",
-      "https://b2b.yugtorg.com/image/data/00466_2.png",
-      "https://b2b.yugtorg.com/image/data/00466_1.png"
+      "https://b2b.yugtorg.com/image/data/00466_1.png",
+      "https://b2b.yugtorg.com/image/data/00466_2.png"
     ],
     "available": true,
     "price": 180.0,
@@ -158164,8 +158256,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/17369.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/17369.png",
-      "https://b2b.yugtorg.com/image/data/17369_1.png",
-      "https://b2b.yugtorg.com/image/data/17369_2.png"
+      "https://b2b.yugtorg.com/image/data/17369_2.png",
+      "https://b2b.yugtorg.com/image/data/17369_1.png"
     ],
     "available": true,
     "price": 460.0,
@@ -158184,8 +158276,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46282.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46282.png",
-      "https://b2b.yugtorg.com/image/data/46282_1.png",
-      "https://b2b.yugtorg.com/image/data/46282_2.png"
+      "https://b2b.yugtorg.com/image/data/46282_2.png",
+      "https://b2b.yugtorg.com/image/data/46282_1.png"
     ],
     "available": true,
     "price": 350.0,
@@ -158207,8 +158299,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/17368.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/17368.png",
-      "https://b2b.yugtorg.com/image/data/17368_1.png",
-      "https://b2b.yugtorg.com/image/data/17368_2.png"
+      "https://b2b.yugtorg.com/image/data/17368_2.png",
+      "https://b2b.yugtorg.com/image/data/17368_1.png"
     ],
     "available": true,
     "price": 231.0,
@@ -158371,8 +158463,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37295.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37295.png",
-      "https://b2b.yugtorg.com/image/data/37295_2.png",
       "https://b2b.yugtorg.com/image/data/37295_3.png",
+      "https://b2b.yugtorg.com/image/data/37295_2.png",
       "https://b2b.yugtorg.com/image/data/37295_1.png"
     ],
     "available": true,
@@ -158452,10 +158544,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/43611.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/43611.png",
-      "https://b2b.yugtorg.com/image/data/43611_2.png",
       "https://b2b.yugtorg.com/image/data/43611_1.png",
-      "https://b2b.yugtorg.com/image/data/43611_3.png",
-      "https://b2b.yugtorg.com/image/data/43611_4.png"
+      "https://b2b.yugtorg.com/image/data/43611_4.png",
+      "https://b2b.yugtorg.com/image/data/43611_2.png",
+      "https://b2b.yugtorg.com/image/data/43611_3.png"
     ],
     "available": true,
     "price": 560.0,
@@ -158474,10 +158566,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/43610.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/43610.png",
-      "https://b2b.yugtorg.com/image/data/43610_1.png",
-      "https://b2b.yugtorg.com/image/data/43610_3.png",
       "https://b2b.yugtorg.com/image/data/43610_4.png",
-      "https://b2b.yugtorg.com/image/data/43610_2.png"
+      "https://b2b.yugtorg.com/image/data/43610_3.png",
+      "https://b2b.yugtorg.com/image/data/43610_2.png",
+      "https://b2b.yugtorg.com/image/data/43610_1.png"
     ],
     "available": true,
     "price": 510.0,
@@ -158497,9 +158589,9 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/43609.png",
       "https://b2b.yugtorg.com/image/data/43609_2.png",
-      "https://b2b.yugtorg.com/image/data/43609_1.png",
+      "https://b2b.yugtorg.com/image/data/43609_3.png",
       "https://b2b.yugtorg.com/image/data/43609_4.png",
-      "https://b2b.yugtorg.com/image/data/43609_3.png"
+      "https://b2b.yugtorg.com/image/data/43609_1.png"
     ],
     "available": true,
     "price": 590.0,
@@ -158519,9 +158611,9 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/43607.png",
       "https://b2b.yugtorg.com/image/data/43607_4.png",
+      "https://b2b.yugtorg.com/image/data/43607_3.png",
       "https://b2b.yugtorg.com/image/data/43607_2.png",
-      "https://b2b.yugtorg.com/image/data/43607_1.png",
-      "https://b2b.yugtorg.com/image/data/43607_3.png"
+      "https://b2b.yugtorg.com/image/data/43607_1.png"
     ],
     "available": true,
     "price": 730.0,
@@ -158540,10 +158632,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/43608.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/43608.png",
-      "https://b2b.yugtorg.com/image/data/43608_4.png",
       "https://b2b.yugtorg.com/image/data/43608_1.png",
+      "https://b2b.yugtorg.com/image/data/43608_2.png",
       "https://b2b.yugtorg.com/image/data/43608_3.png",
-      "https://b2b.yugtorg.com/image/data/43608_2.png"
+      "https://b2b.yugtorg.com/image/data/43608_4.png"
     ],
     "available": true,
     "price": 750.0,
@@ -158564,8 +158656,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45431.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45431.png",
-      "https://b2b.yugtorg.com/image/data/45431_1.png",
-      "https://b2b.yugtorg.com/image/data/45431_2.png"
+      "https://b2b.yugtorg.com/image/data/45431_2.png",
+      "https://b2b.yugtorg.com/image/data/45431_1.png"
     ],
     "available": true,
     "price": 1692.0,
@@ -158586,8 +158678,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45432.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45432.png",
-      "https://b2b.yugtorg.com/image/data/45432_2.png",
-      "https://b2b.yugtorg.com/image/data/45432_1.png"
+      "https://b2b.yugtorg.com/image/data/45432_1.png",
+      "https://b2b.yugtorg.com/image/data/45432_2.png"
     ],
     "available": true,
     "price": 2261.0,
@@ -158626,8 +158718,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45429.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45429.png",
-      "https://b2b.yugtorg.com/image/data/45429_2.png",
-      "https://b2b.yugtorg.com/image/data/45429_1.png"
+      "https://b2b.yugtorg.com/image/data/45429_1.png",
+      "https://b2b.yugtorg.com/image/data/45429_2.png"
     ],
     "available": true,
     "price": 512.0,
@@ -158647,9 +158739,9 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/45439.png",
       "https://b2b.yugtorg.com/image/data/45439_1.png",
-      "https://b2b.yugtorg.com/image/data/45439_3.png",
       "https://b2b.yugtorg.com/image/data/45439_4.png",
-      "https://b2b.yugtorg.com/image/data/45439_2.png"
+      "https://b2b.yugtorg.com/image/data/45439_2.png",
+      "https://b2b.yugtorg.com/image/data/45439_3.png"
     ],
     "available": true,
     "price": 14948.0,
@@ -158668,10 +158760,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45440.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45440.png",
-      "https://b2b.yugtorg.com/image/data/45440_1.png",
       "https://b2b.yugtorg.com/image/data/45440_2.png",
-      "https://b2b.yugtorg.com/image/data/45440_3.png",
-      "https://b2b.yugtorg.com/image/data/45440_4.png"
+      "https://b2b.yugtorg.com/image/data/45440_1.png",
+      "https://b2b.yugtorg.com/image/data/45440_4.png",
+      "https://b2b.yugtorg.com/image/data/45440_3.png"
     ],
     "available": true,
     "price": 17208.0,
@@ -158690,8 +158782,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45430.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45430.png",
-      "https://b2b.yugtorg.com/image/data/45430_2.png",
-      "https://b2b.yugtorg.com/image/data/45430_1.png"
+      "https://b2b.yugtorg.com/image/data/45430_1.png",
+      "https://b2b.yugtorg.com/image/data/45430_2.png"
     ],
     "available": true,
     "price": 1131.0,
@@ -158710,10 +158802,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45442.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45442.png",
-      "https://b2b.yugtorg.com/image/data/45442_2.png",
-      "https://b2b.yugtorg.com/image/data/45442_1.png",
+      "https://b2b.yugtorg.com/image/data/45442_3.png",
       "https://b2b.yugtorg.com/image/data/45442_4.png",
-      "https://b2b.yugtorg.com/image/data/45442_3.png"
+      "https://b2b.yugtorg.com/image/data/45442_2.png",
+      "https://b2b.yugtorg.com/image/data/45442_1.png"
     ],
     "available": true,
     "price": 42300.0,
@@ -158732,11 +158824,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45456.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45456.png",
-      "https://b2b.yugtorg.com/image/data/45456_5.png",
       "https://b2b.yugtorg.com/image/data/45456_4.png",
-      "https://b2b.yugtorg.com/image/data/45456_3.png",
+      "https://b2b.yugtorg.com/image/data/45456_2.png",
       "https://b2b.yugtorg.com/image/data/45456_1.png",
-      "https://b2b.yugtorg.com/image/data/45456_2.png"
+      "https://b2b.yugtorg.com/image/data/45456_3.png",
+      "https://b2b.yugtorg.com/image/data/45456_5.png"
     ],
     "available": true,
     "price": 101520.0,
@@ -158755,11 +158847,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45455.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45455.png",
+      "https://b2b.yugtorg.com/image/data/45455_3.png",
       "https://b2b.yugtorg.com/image/data/45455_4.png",
-      "https://b2b.yugtorg.com/image/data/45455_1.png",
       "https://b2b.yugtorg.com/image/data/45455_5.png",
       "https://b2b.yugtorg.com/image/data/45455_2.png",
-      "https://b2b.yugtorg.com/image/data/45455_3.png"
+      "https://b2b.yugtorg.com/image/data/45455_1.png"
     ],
     "available": true,
     "price": 73325.0,
@@ -158778,9 +158870,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45441.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45441.png",
+      "https://b2b.yugtorg.com/image/data/45441_3.png",
       "https://b2b.yugtorg.com/image/data/45441_1.png",
-      "https://b2b.yugtorg.com/image/data/45441_2.png",
-      "https://b2b.yugtorg.com/image/data/45441_3.png"
+      "https://b2b.yugtorg.com/image/data/45441_2.png"
     ],
     "available": true,
     "price": 30456.0,
@@ -158801,11 +158893,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45419.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45419.png",
-      "https://b2b.yugtorg.com/image/data/45419_4.png",
-      "https://b2b.yugtorg.com/image/data/45419_3.png",
       "https://b2b.yugtorg.com/image/data/45419_5.png",
+      "https://b2b.yugtorg.com/image/data/45419_3.png",
       "https://b2b.yugtorg.com/image/data/45419_2.png",
-      "https://b2b.yugtorg.com/image/data/45419_1.png"
+      "https://b2b.yugtorg.com/image/data/45419_1.png",
+      "https://b2b.yugtorg.com/image/data/45419_4.png"
     ],
     "available": true,
     "price": 6768.0,
@@ -158827,10 +158919,10 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/45420.png",
       "https://b2b.yugtorg.com/image/data/45420_4.png",
-      "https://b2b.yugtorg.com/image/data/45420_3.png",
-      "https://b2b.yugtorg.com/image/data/45420_1.png",
       "https://b2b.yugtorg.com/image/data/45420_5.png",
-      "https://b2b.yugtorg.com/image/data/45420_2.png"
+      "https://b2b.yugtorg.com/image/data/45420_2.png",
+      "https://b2b.yugtorg.com/image/data/45420_3.png",
+      "https://b2b.yugtorg.com/image/data/45420_1.png"
     ],
     "available": true,
     "price": 8180.0,
@@ -158852,8 +158944,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/45417.png",
       "https://b2b.yugtorg.com/image/data/45417_2.png",
-      "https://b2b.yugtorg.com/image/data/45417_1.png",
-      "https://b2b.yugtorg.com/image/data/45417_3.png"
+      "https://b2b.yugtorg.com/image/data/45417_3.png",
+      "https://b2b.yugtorg.com/image/data/45417_1.png"
     ],
     "available": true,
     "price": 10152.0,
@@ -158874,9 +158966,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/45418.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/45418.png",
+      "https://b2b.yugtorg.com/image/data/45418_1.png",
       "https://b2b.yugtorg.com/image/data/45418_3.png",
-      "https://b2b.yugtorg.com/image/data/45418_2.png",
-      "https://b2b.yugtorg.com/image/data/45418_1.png"
+      "https://b2b.yugtorg.com/image/data/45418_2.png"
     ],
     "available": true,
     "price": 10152.0,
@@ -158899,8 +158991,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36950.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36950.png",
-      "https://b2b.yugtorg.com/image/data/36950_1.png",
-      "https://b2b.yugtorg.com/image/data/36950_2.png"
+      "https://b2b.yugtorg.com/image/data/36950_2.png",
+      "https://b2b.yugtorg.com/image/data/36950_1.png"
     ],
     "available": true,
     "price": 677.0,
@@ -158923,8 +159015,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36949.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36949.png",
-      "https://b2b.yugtorg.com/image/data/36949_2.png",
-      "https://b2b.yugtorg.com/image/data/36949_1.png"
+      "https://b2b.yugtorg.com/image/data/36949_1.png",
+      "https://b2b.yugtorg.com/image/data/36949_2.png"
     ],
     "available": true,
     "price": 710.0,
@@ -158989,8 +159081,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18752.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18752.png",
-      "https://b2b.yugtorg.com/image/data/18752_1.png",
-      "https://b2b.yugtorg.com/image/data/18752_2.png"
+      "https://b2b.yugtorg.com/image/data/18752_2.png",
+      "https://b2b.yugtorg.com/image/data/18752_1.png"
     ],
     "available": true,
     "price": 108.0,
@@ -159051,8 +159143,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18668.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18668.png",
-      "https://b2b.yugtorg.com/image/data/18668_1.png",
-      "https://b2b.yugtorg.com/image/data/18668_2.png"
+      "https://b2b.yugtorg.com/image/data/18668_2.png",
+      "https://b2b.yugtorg.com/image/data/18668_1.png"
     ],
     "available": true,
     "price": 44.0,
@@ -159114,8 +159206,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18748.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18748.png",
-      "https://b2b.yugtorg.com/image/data/18748_2.png",
-      "https://b2b.yugtorg.com/image/data/18748_1.png"
+      "https://b2b.yugtorg.com/image/data/18748_1.png",
+      "https://b2b.yugtorg.com/image/data/18748_2.png"
     ],
     "available": true,
     "price": 137.0,
@@ -159269,27 +159361,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 22565.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-17734",
-    "sku": "LiFePO4512-50 / 40",
-    "category": "Літієві акумулятори",
-    "subcategory": "",
-    "brand": "Vipow",
-    "name": "Акумуляторна батарея Vipow LiFePO4 51,2V 50Ah з вбудованою ВМS платою 40A, 48V (520x269x220)",
-    "model": "LiFePO4512-50 / 40",
-    "description": "Vipow LiFePO4 51,2V 50Ah - акумуляторна батарея LiFePO4 типу на базі ВМS плати 40A. При ємності 50Ah і робочій напрузі 51,2 Вольта акумулятор знаходить своє широке застосування, але найбільш часто використовується для джерел безперебійного живлення, для котлів. Гарантований високий ресурс циклів - понад 2000. Високий коефіцієнт безпеки. Характеристики: Виробник - VIPOW Тип акумулятора Літій-залізо-фосфатний Ємність 50 Ah Номінальна напруга 51.2V Робоча температура -20 ~ +60 C Ресурс (циклів) більше 2000 Вага - 24 Габарити 520x269x220 mm",
-    "features": [
-      "50Ah",
-      "50 Ah"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/17734.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/17734.png"
-    ],
-    "available": true,
-    "price": 28080.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -159651,8 +159722,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/48292.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/48292.png",
-      "https://b2b.yugtorg.com/image/data/48292_1.png",
-      "https://b2b.yugtorg.com/image/data/48292_2.png"
+      "https://b2b.yugtorg.com/image/data/48292_2.png",
+      "https://b2b.yugtorg.com/image/data/48292_1.png"
     ],
     "available": true,
     "price": 2542.0,
@@ -159671,9 +159742,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/02395.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/02395.png",
-      "https://b2b.yugtorg.com/image/data/02395_3.png",
       "https://b2b.yugtorg.com/image/data/02395_1.png",
-      "https://b2b.yugtorg.com/image/data/02395_2.png"
+      "https://b2b.yugtorg.com/image/data/02395_2.png",
+      "https://b2b.yugtorg.com/image/data/02395_3.png"
     ],
     "available": true,
     "price": 612.0,
@@ -159749,9 +159820,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/32797.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/32797.png",
-      "https://b2b.yugtorg.com/image/data/32797_3.png",
       "https://b2b.yugtorg.com/image/data/32797_2.png",
-      "https://b2b.yugtorg.com/image/data/32797_1.png"
+      "https://b2b.yugtorg.com/image/data/32797_1.png",
+      "https://b2b.yugtorg.com/image/data/32797_3.png"
     ],
     "available": true,
     "price": 8460.0,
@@ -159770,8 +159841,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/13281.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/13281.png",
-      "https://b2b.yugtorg.com/image/data/13281_1.png",
-      "https://b2b.yugtorg.com/image/data/13281_2.png"
+      "https://b2b.yugtorg.com/image/data/13281_2.png",
+      "https://b2b.yugtorg.com/image/data/13281_1.png"
     ],
     "available": true,
     "price": 125.0,
@@ -159783,7 +159854,7 @@ window.ALTCAM_CATALOG = [
     "category": "Літієві акумулятори",
     "subcategory": "",
     "brand": "Voltronic",
-    "name": "Акумулятор 18650 Li-Ion LG LGGBMH11865 (LG MH1), 3200mAh, 10A, 4.2 / 3.7 / 2.5V, Cyan, 2 шт в упаковці, ціна за 1 шт",
+    "name": "Акумулятор 18650 Li-Ion LG LGGBMH11865 (LG MH1), 3100mAh, 10A, 4.2 / 3.7 / 2.5V, Cyan, 2 шт в упаковці, ціна за 1 шт",
     "model": "INR18650MH1",
     "description": "Тип акумулятора: Li-Ion LIR Типорозмір: 18650 Напруга: 3,7 V Робоча напруга – 2.75-4.2 V Місткість: 3200 mAh Опір: <80 mOm Температурний діапазон: -20 – 60С Колір: Blue Діаметр: 18 мм Висота: 65 мм Вага: 37 г Застосування: ручні ліхтарики, GPS - навігатори, тримери, електробритви, електронні іграшки, mp3 - плеєри.",
     "features": [
@@ -159980,8 +160051,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/27577.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/27577.png",
-      "https://b2b.yugtorg.com/image/data/27577_1.png",
-      "https://b2b.yugtorg.com/image/data/27577_2.png"
+      "https://b2b.yugtorg.com/image/data/27577_2.png",
+      "https://b2b.yugtorg.com/image/data/27577_1.png"
     ],
     "available": true,
     "price": 140.0,
@@ -160070,8 +160141,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37307.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37307.png",
-      "https://b2b.yugtorg.com/image/data/37307_2.png",
-      "https://b2b.yugtorg.com/image/data/37307_1.png"
+      "https://b2b.yugtorg.com/image/data/37307_1.png",
+      "https://b2b.yugtorg.com/image/data/37307_2.png"
     ],
     "available": true,
     "price": 81000.0,
@@ -160110,8 +160181,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/32748.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/32748.png",
-      "https://b2b.yugtorg.com/image/data/32748_1.png",
-      "https://b2b.yugtorg.com/image/data/32748_2.png"
+      "https://b2b.yugtorg.com/image/data/32748_2.png",
+      "https://b2b.yugtorg.com/image/data/32748_1.png"
     ],
     "available": true,
     "price": 100.0,
@@ -160170,8 +160241,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/32751.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/32751.png",
-      "https://b2b.yugtorg.com/image/data/32751_1.png",
-      "https://b2b.yugtorg.com/image/data/32751_2.png"
+      "https://b2b.yugtorg.com/image/data/32751_2.png",
+      "https://b2b.yugtorg.com/image/data/32751_1.png"
     ],
     "available": true,
     "price": 147.0,
@@ -160192,8 +160263,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/32756.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/32756.png",
-      "https://b2b.yugtorg.com/image/data/32756_2.png",
-      "https://b2b.yugtorg.com/image/data/32756_1.png"
+      "https://b2b.yugtorg.com/image/data/32756_1.png",
+      "https://b2b.yugtorg.com/image/data/32756_2.png"
     ],
     "available": true,
     "price": 223.0,
@@ -160296,40 +160367,13 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/39755.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/39755.png",
-      "https://b2b.yugtorg.com/image/data/39755_2.png",
-      "https://b2b.yugtorg.com/image/data/39755_4.png",
       "https://b2b.yugtorg.com/image/data/39755_3.png",
-      "https://b2b.yugtorg.com/image/data/39755_1.png"
+      "https://b2b.yugtorg.com/image/data/39755_2.png",
+      "https://b2b.yugtorg.com/image/data/39755_1.png",
+      "https://b2b.yugtorg.com/image/data/39755_4.png"
     ],
     "available": true,
     "price": 14105.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-39751",
-    "sku": "GLITTER 801H",
-    "category": "Літієві акумулятори",
-    "subcategory": "",
-    "brand": "Voltronic",
-    "name": "Апарат точкового зварювання конденсаторний GLITTER 801H для літієвих батарей (нікель / алюміній) 220V, max9.8kW",
-    "model": "GLITTER 801H",
-    "description": "Технічні характеристики GLITTER 801H: Вхідна напруга на адаптер живлення: АС 100-240V 50 / 60HZ Вихідна напруга з адаптера живлення: 15V 2-3 A Імпульсна сила струму: 21 кВт Сила струму: 3500А (пік) Налаштування сили струму: 0-99 1 Час імпульсу: 0-20 mS Час заряджання під час першого ввімкнення: до 18 хв Дозарядка: миттєва, у процесі роботи Режими роботи: Автоматичний / Педаль Розмір апарата: 67х176х126 мм Вага: 2 кг Товщина зварюваної стрічки: Чистий нікель з алюмінієм до 0,2 мм Алюміній-нікелевий сплав до 0,15 мм Чистий нікель між собою до 0,3 мм Нікельована сталь між собою до 0,4 мм Нікельована мідь з алюмінієм до 0,15 мм Комплектація GLITTER 801Н містить у собі: Апарат Glitter 801Н - 1 шт. Ручка точкового зварювання S-75A - 1 шт. Приставка для зварювання у вертикальному положенні S73А - 1 шт. Педаль управління 1 шт. Адаптер живлення з євро вилкою 1 шт. Пластикова База для роботи з кронштейном 1 шт. Мідні зварювальні електроди для кронштейна 73SA-2 пари Шестигранний ключ Мідні зварювальні електроди для виносної ручки S-75A-1 пара Нікелева стрічка 0,15х8х100мм - 20шт Нікель-алюмінієва стрічка 0,15х10х100мм - 20шт Керівництво з експлуатації (англ.) - 1 шт.",
-    "features": [
-      "0,2 мм",
-      "0,15 мм",
-      "0,3 мм",
-      "0,4 мм"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/39751.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/39751.png",
-      "https://b2b.yugtorg.com/image/data/39751_4.png",
-      "https://b2b.yugtorg.com/image/data/39751_3.png",
-      "https://b2b.yugtorg.com/image/data/39751_2.png",
-      "https://b2b.yugtorg.com/image/data/39751_1.png"
-    ],
-    "available": true,
-    "price": 24440.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -160364,8 +160408,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/39734.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/39734.png",
-      "https://b2b.yugtorg.com/image/data/39734_2.png",
-      "https://b2b.yugtorg.com/image/data/39734_1.png"
+      "https://b2b.yugtorg.com/image/data/39734_1.png",
+      "https://b2b.yugtorg.com/image/data/39734_2.png"
     ],
     "available": true,
     "price": 3220.0,
@@ -160538,8 +160582,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/22741.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/22741.png",
-      "https://b2b.yugtorg.com/image/data/22741_1.png",
-      "https://b2b.yugtorg.com/image/data/22741_2.png"
+      "https://b2b.yugtorg.com/image/data/22741_2.png",
+      "https://b2b.yugtorg.com/image/data/22741_1.png"
     ],
     "available": true,
     "price": 260.0,
@@ -160623,8 +160667,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/41998.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/41998.png",
-      "https://b2b.yugtorg.com/image/data/41998_2.png",
-      "https://b2b.yugtorg.com/image/data/41998_1.png"
+      "https://b2b.yugtorg.com/image/data/41998_1.png",
+      "https://b2b.yugtorg.com/image/data/41998_2.png"
     ],
     "available": true,
     "price": 807.0,
@@ -160683,8 +160727,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/43709.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/43709.png",
-      "https://b2b.yugtorg.com/image/data/43709_1.png",
-      "https://b2b.yugtorg.com/image/data/43709_2.png"
+      "https://b2b.yugtorg.com/image/data/43709_2.png",
+      "https://b2b.yugtorg.com/image/data/43709_1.png"
     ],
     "available": true,
     "price": 3795.0,
@@ -160703,8 +160747,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46894.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46894.png",
-      "https://b2b.yugtorg.com/image/data/46894_2.png",
-      "https://b2b.yugtorg.com/image/data/46894_1.png"
+      "https://b2b.yugtorg.com/image/data/46894_1.png",
+      "https://b2b.yugtorg.com/image/data/46894_2.png"
     ],
     "available": true,
     "price": 9310.0,
@@ -160725,8 +160769,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/29903.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/29903.png",
-      "https://b2b.yugtorg.com/image/data/29903_1.png",
-      "https://b2b.yugtorg.com/image/data/29903_2.png"
+      "https://b2b.yugtorg.com/image/data/29903_2.png",
+      "https://b2b.yugtorg.com/image/data/29903_1.png"
     ],
     "available": true,
     "price": 500.0,
@@ -160745,8 +160789,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/22412.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/22412.png",
-      "https://b2b.yugtorg.com/image/data/22412_1.png",
-      "https://b2b.yugtorg.com/image/data/22412_2.png"
+      "https://b2b.yugtorg.com/image/data/22412_2.png",
+      "https://b2b.yugtorg.com/image/data/22412_1.png"
     ],
     "available": true,
     "price": 1170.0,
@@ -160865,8 +160909,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/46355.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/46355.png",
-      "https://b2b.yugtorg.com/image/data/46355_1.png",
-      "https://b2b.yugtorg.com/image/data/46355_2.png"
+      "https://b2b.yugtorg.com/image/data/46355_2.png",
+      "https://b2b.yugtorg.com/image/data/46355_1.png"
     ],
     "available": true,
     "price": 590.0,
@@ -160996,8 +161040,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36779.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36779.png",
-      "https://b2b.yugtorg.com/image/data/36779_2.png",
-      "https://b2b.yugtorg.com/image/data/36779_1.png"
+      "https://b2b.yugtorg.com/image/data/36779_1.png",
+      "https://b2b.yugtorg.com/image/data/36779_2.png"
     ],
     "available": true,
     "price": 396.0,
@@ -161042,8 +161086,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37010.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37010.png",
-      "https://b2b.yugtorg.com/image/data/37010_2.png",
-      "https://b2b.yugtorg.com/image/data/37010_1.png"
+      "https://b2b.yugtorg.com/image/data/37010_1.png",
+      "https://b2b.yugtorg.com/image/data/37010_2.png"
     ],
     "available": true,
     "price": 3780.0,
@@ -161089,8 +161133,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36925.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36925.png",
-      "https://b2b.yugtorg.com/image/data/36925_2.png",
-      "https://b2b.yugtorg.com/image/data/36925_1.png"
+      "https://b2b.yugtorg.com/image/data/36925_1.png",
+      "https://b2b.yugtorg.com/image/data/36925_2.png"
     ],
     "available": true,
     "price": 116.0,
@@ -161185,8 +161229,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36907.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36907.png",
-      "https://b2b.yugtorg.com/image/data/36907_1.png",
-      "https://b2b.yugtorg.com/image/data/36907_2.png"
+      "https://b2b.yugtorg.com/image/data/36907_2.png",
+      "https://b2b.yugtorg.com/image/data/36907_1.png"
     ],
     "available": true,
     "price": 590.0,
@@ -161231,8 +161275,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36938.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36938.png",
-      "https://b2b.yugtorg.com/image/data/36938_1.png",
-      "https://b2b.yugtorg.com/image/data/36938_2.png"
+      "https://b2b.yugtorg.com/image/data/36938_2.png",
+      "https://b2b.yugtorg.com/image/data/36938_1.png"
     ],
     "available": true,
     "price": 677.0,
@@ -161255,8 +161299,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36927.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36927.png",
-      "https://b2b.yugtorg.com/image/data/36927_2.png",
-      "https://b2b.yugtorg.com/image/data/36927_1.png"
+      "https://b2b.yugtorg.com/image/data/36927_1.png",
+      "https://b2b.yugtorg.com/image/data/36927_2.png"
     ],
     "available": true,
     "price": 116.0,
@@ -161343,8 +161387,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36939.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36939.png",
-      "https://b2b.yugtorg.com/image/data/36939_2.png",
-      "https://b2b.yugtorg.com/image/data/36939_1.png"
+      "https://b2b.yugtorg.com/image/data/36939_1.png",
+      "https://b2b.yugtorg.com/image/data/36939_2.png"
     ],
     "available": true,
     "price": 180.0,
@@ -161449,8 +161493,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36768.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36768.png",
-      "https://b2b.yugtorg.com/image/data/36768_1.png",
-      "https://b2b.yugtorg.com/image/data/36768_2.png"
+      "https://b2b.yugtorg.com/image/data/36768_2.png",
+      "https://b2b.yugtorg.com/image/data/36768_1.png"
     ],
     "available": true,
     "price": 180.0,
@@ -161471,8 +161515,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36777.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36777.png",
-      "https://b2b.yugtorg.com/image/data/36777_1.png",
-      "https://b2b.yugtorg.com/image/data/36777_2.png"
+      "https://b2b.yugtorg.com/image/data/36777_2.png",
+      "https://b2b.yugtorg.com/image/data/36777_1.png"
     ],
     "available": true,
     "price": 180.0,
@@ -161513,8 +161557,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37017.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37017.png",
-      "https://b2b.yugtorg.com/image/data/37017_2.png",
-      "https://b2b.yugtorg.com/image/data/37017_1.png"
+      "https://b2b.yugtorg.com/image/data/37017_1.png",
+      "https://b2b.yugtorg.com/image/data/37017_2.png"
     ],
     "available": true,
     "price": 4515.0,
@@ -161533,8 +161577,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37018.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37018.png",
-      "https://b2b.yugtorg.com/image/data/37018_2.png",
-      "https://b2b.yugtorg.com/image/data/37018_1.png"
+      "https://b2b.yugtorg.com/image/data/37018_1.png",
+      "https://b2b.yugtorg.com/image/data/37018_2.png"
     ],
     "available": true,
     "price": 7056.0,
@@ -161556,8 +161600,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38072.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38072.png",
-      "https://b2b.yugtorg.com/image/data/38072_1.png",
-      "https://b2b.yugtorg.com/image/data/38072_2.png"
+      "https://b2b.yugtorg.com/image/data/38072_2.png",
+      "https://b2b.yugtorg.com/image/data/38072_1.png"
     ],
     "available": true,
     "price": 159.0,
@@ -161579,8 +161623,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36912.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36912.png",
-      "https://b2b.yugtorg.com/image/data/36912_1.png",
-      "https://b2b.yugtorg.com/image/data/36912_2.png"
+      "https://b2b.yugtorg.com/image/data/36912_2.png",
+      "https://b2b.yugtorg.com/image/data/36912_1.png"
     ],
     "available": true,
     "price": 562.0,
@@ -161599,8 +161643,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/38566.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/38566.png",
-      "https://b2b.yugtorg.com/image/data/38566_1.png",
-      "https://b2b.yugtorg.com/image/data/38566_2.png"
+      "https://b2b.yugtorg.com/image/data/38566_2.png",
+      "https://b2b.yugtorg.com/image/data/38566_1.png"
     ],
     "available": true,
     "price": 788.0,
@@ -161619,8 +161663,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/44286.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/44286.png",
-      "https://b2b.yugtorg.com/image/data/44286_2.png",
-      "https://b2b.yugtorg.com/image/data/44286_1.png"
+      "https://b2b.yugtorg.com/image/data/44286_1.png",
+      "https://b2b.yugtorg.com/image/data/44286_2.png"
     ],
     "available": true,
     "price": 930.0,
@@ -161663,9 +161707,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/22343.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/22343.png",
+      "https://b2b.yugtorg.com/image/data/22343_1.png",
       "https://b2b.yugtorg.com/image/data/22343_2.png",
-      "https://b2b.yugtorg.com/image/data/22343_3.png",
-      "https://b2b.yugtorg.com/image/data/22343_1.png"
+      "https://b2b.yugtorg.com/image/data/22343_3.png"
     ],
     "available": true,
     "price": 231.0,
@@ -161684,8 +161728,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/22338.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/22338.png",
-      "https://b2b.yugtorg.com/image/data/22338_1.png",
-      "https://b2b.yugtorg.com/image/data/22338_2.png"
+      "https://b2b.yugtorg.com/image/data/22338_2.png",
+      "https://b2b.yugtorg.com/image/data/22338_1.png"
     ],
     "available": true,
     "price": 350.0,
@@ -161726,8 +161770,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/28353.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/28353.png",
-      "https://b2b.yugtorg.com/image/data/28353_2.png",
-      "https://b2b.yugtorg.com/image/data/28353_1.png"
+      "https://b2b.yugtorg.com/image/data/28353_1.png",
+      "https://b2b.yugtorg.com/image/data/28353_2.png"
     ],
     "available": true,
     "price": 425.0,
@@ -161811,8 +161855,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36943.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36943.png",
-      "https://b2b.yugtorg.com/image/data/36943_1.png",
-      "https://b2b.yugtorg.com/image/data/36943_2.png"
+      "https://b2b.yugtorg.com/image/data/36943_2.png",
+      "https://b2b.yugtorg.com/image/data/36943_1.png"
     ],
     "available": true,
     "price": 200.0,
@@ -161877,8 +161921,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36991.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36991.png",
-      "https://b2b.yugtorg.com/image/data/36991_2.png",
-      "https://b2b.yugtorg.com/image/data/36991_1.png"
+      "https://b2b.yugtorg.com/image/data/36991_1.png",
+      "https://b2b.yugtorg.com/image/data/36991_2.png"
     ],
     "available": true,
     "price": 1296.0,
@@ -161921,8 +161965,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36981.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36981.png",
-      "https://b2b.yugtorg.com/image/data/36981_2.png",
-      "https://b2b.yugtorg.com/image/data/36981_1.png"
+      "https://b2b.yugtorg.com/image/data/36981_1.png",
+      "https://b2b.yugtorg.com/image/data/36981_2.png"
     ],
     "available": true,
     "price": 1073.0,
@@ -161941,8 +161985,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47556.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47556.png",
-      "https://b2b.yugtorg.com/image/data/47556_2.png",
-      "https://b2b.yugtorg.com/image/data/47556_1.png"
+      "https://b2b.yugtorg.com/image/data/47556_1.png",
+      "https://b2b.yugtorg.com/image/data/47556_2.png"
     ],
     "available": true,
     "price": 4699.0,
@@ -161963,8 +162007,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37020.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37020.png",
-      "https://b2b.yugtorg.com/image/data/37020_2.png",
-      "https://b2b.yugtorg.com/image/data/37020_1.png"
+      "https://b2b.yugtorg.com/image/data/37020_1.png",
+      "https://b2b.yugtorg.com/image/data/37020_2.png"
     ],
     "available": true,
     "price": 2427.0,
@@ -161987,8 +162031,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37022.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37022.png",
-      "https://b2b.yugtorg.com/image/data/37022_2.png",
-      "https://b2b.yugtorg.com/image/data/37022_1.png"
+      "https://b2b.yugtorg.com/image/data/37022_1.png",
+      "https://b2b.yugtorg.com/image/data/37022_2.png"
     ],
     "available": true,
     "price": 3723.0,
@@ -162009,8 +162053,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37023.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37023.png",
-      "https://b2b.yugtorg.com/image/data/37023_2.png",
-      "https://b2b.yugtorg.com/image/data/37023_1.png"
+      "https://b2b.yugtorg.com/image/data/37023_1.png",
+      "https://b2b.yugtorg.com/image/data/37023_2.png"
     ],
     "available": true,
     "price": 3795.0,
@@ -162032,8 +162076,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37019.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37019.png",
-      "https://b2b.yugtorg.com/image/data/37019_2.png",
-      "https://b2b.yugtorg.com/image/data/37019_1.png"
+      "https://b2b.yugtorg.com/image/data/37019_1.png",
+      "https://b2b.yugtorg.com/image/data/37019_2.png"
     ],
     "available": true,
     "price": 1671.0,
@@ -162055,8 +162099,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36800.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36800.png",
-      "https://b2b.yugtorg.com/image/data/36800_2.png",
-      "https://b2b.yugtorg.com/image/data/36800_1.png"
+      "https://b2b.yugtorg.com/image/data/36800_1.png",
+      "https://b2b.yugtorg.com/image/data/36800_2.png"
     ],
     "available": true,
     "price": 6770.0,
@@ -162101,8 +162145,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/41960.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/41960.png",
-      "https://b2b.yugtorg.com/image/data/41960_1.png",
-      "https://b2b.yugtorg.com/image/data/41960_2.png"
+      "https://b2b.yugtorg.com/image/data/41960_2.png",
+      "https://b2b.yugtorg.com/image/data/41960_1.png"
     ],
     "available": true,
     "price": 2204.0,
@@ -162124,8 +162168,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36982.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36982.png",
-      "https://b2b.yugtorg.com/image/data/36982_2.png",
-      "https://b2b.yugtorg.com/image/data/36982_1.png"
+      "https://b2b.yugtorg.com/image/data/36982_1.png",
+      "https://b2b.yugtorg.com/image/data/36982_2.png"
     ],
     "available": true,
     "price": 1073.0,
@@ -162267,8 +162311,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37028.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37028.png",
-      "https://b2b.yugtorg.com/image/data/37028_1.png",
-      "https://b2b.yugtorg.com/image/data/37028_2.png"
+      "https://b2b.yugtorg.com/image/data/37028_2.png",
+      "https://b2b.yugtorg.com/image/data/37028_1.png"
     ],
     "available": true,
     "price": 3104.0,
@@ -162313,8 +162357,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37026.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37026.png",
-      "https://b2b.yugtorg.com/image/data/37026_1.png",
-      "https://b2b.yugtorg.com/image/data/37026_2.png"
+      "https://b2b.yugtorg.com/image/data/37026_2.png",
+      "https://b2b.yugtorg.com/image/data/37026_1.png"
     ],
     "available": true,
     "price": 2427.0,
@@ -162404,8 +162448,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36984.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36984.png",
-      "https://b2b.yugtorg.com/image/data/36984_1.png",
-      "https://b2b.yugtorg.com/image/data/36984_2.png"
+      "https://b2b.yugtorg.com/image/data/36984_2.png",
+      "https://b2b.yugtorg.com/image/data/36984_1.png"
     ],
     "available": true,
     "price": 1642.0,
@@ -162577,8 +162621,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37035.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37035.png",
-      "https://b2b.yugtorg.com/image/data/37035_1.png",
-      "https://b2b.yugtorg.com/image/data/37035_2.png"
+      "https://b2b.yugtorg.com/image/data/37035_2.png",
+      "https://b2b.yugtorg.com/image/data/37035_1.png"
     ],
     "available": true,
     "price": 4060.0,
@@ -162619,8 +162663,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/29897.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/29897.png",
-      "https://b2b.yugtorg.com/image/data/29897_2.png",
-      "https://b2b.yugtorg.com/image/data/29897_1.png"
+      "https://b2b.yugtorg.com/image/data/29897_1.png",
+      "https://b2b.yugtorg.com/image/data/29897_2.png"
     ],
     "available": true,
     "price": 1350.0,
@@ -162678,8 +162722,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37008.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37008.png",
-      "https://b2b.yugtorg.com/image/data/37008_2.png",
-      "https://b2b.yugtorg.com/image/data/37008_1.png"
+      "https://b2b.yugtorg.com/image/data/37008_1.png",
+      "https://b2b.yugtorg.com/image/data/37008_2.png"
     ],
     "available": true,
     "price": 144.0,
@@ -162705,8 +162749,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36923.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36923.png",
-      "https://b2b.yugtorg.com/image/data/36923_2.png",
-      "https://b2b.yugtorg.com/image/data/36923_1.png"
+      "https://b2b.yugtorg.com/image/data/36923_1.png",
+      "https://b2b.yugtorg.com/image/data/36923_2.png"
     ],
     "available": true,
     "price": 137.0,
@@ -162749,8 +162793,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/43826.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/43826.png",
-      "https://b2b.yugtorg.com/image/data/43826_3.png",
       "https://b2b.yugtorg.com/image/data/43826_1.png",
+      "https://b2b.yugtorg.com/image/data/43826_3.png",
       "https://b2b.yugtorg.com/image/data/43826_2.png"
     ],
     "available": true,
@@ -162770,8 +162814,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36771.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36771.png",
-      "https://b2b.yugtorg.com/image/data/36771_1.png",
-      "https://b2b.yugtorg.com/image/data/36771_2.png"
+      "https://b2b.yugtorg.com/image/data/36771_2.png",
+      "https://b2b.yugtorg.com/image/data/36771_1.png"
     ],
     "available": true,
     "price": 188.0,
@@ -162855,8 +162899,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36817.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36817.png",
-      "https://b2b.yugtorg.com/image/data/36817_2.png",
-      "https://b2b.yugtorg.com/image/data/36817_1.png"
+      "https://b2b.yugtorg.com/image/data/36817_1.png",
+      "https://b2b.yugtorg.com/image/data/36817_2.png"
     ],
     "available": true,
     "price": 9029.0,
@@ -162878,8 +162922,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/43793.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/43793.png",
-      "https://b2b.yugtorg.com/image/data/43793_1.png",
-      "https://b2b.yugtorg.com/image/data/43793_2.png"
+      "https://b2b.yugtorg.com/image/data/43793_2.png",
+      "https://b2b.yugtorg.com/image/data/43793_1.png"
     ],
     "available": true,
     "price": 9454.0,
@@ -162919,8 +162963,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36934.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36934.png",
-      "https://b2b.yugtorg.com/image/data/36934_1.png",
-      "https://b2b.yugtorg.com/image/data/36934_2.png"
+      "https://b2b.yugtorg.com/image/data/36934_2.png",
+      "https://b2b.yugtorg.com/image/data/36934_1.png"
     ],
     "available": true,
     "price": 260.0,
@@ -162941,8 +162985,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36807.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36807.png",
-      "https://b2b.yugtorg.com/image/data/36807_2.png",
-      "https://b2b.yugtorg.com/image/data/36807_1.png"
+      "https://b2b.yugtorg.com/image/data/36807_1.png",
+      "https://b2b.yugtorg.com/image/data/36807_2.png"
     ],
     "available": true,
     "price": 24820.0,
@@ -162963,8 +163007,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36814.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36814.png",
-      "https://b2b.yugtorg.com/image/data/36814_1.png",
-      "https://b2b.yugtorg.com/image/data/36814_2.png"
+      "https://b2b.yugtorg.com/image/data/36814_2.png",
+      "https://b2b.yugtorg.com/image/data/36814_1.png"
     ],
     "available": true,
     "price": 3104.0,
@@ -162983,8 +163027,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/43710.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/43710.png",
-      "https://b2b.yugtorg.com/image/data/43710_2.png",
-      "https://b2b.yugtorg.com/image/data/43710_1.png"
+      "https://b2b.yugtorg.com/image/data/43710_1.png",
+      "https://b2b.yugtorg.com/image/data/43710_2.png"
     ],
     "available": true,
     "price": 3384.0,
@@ -163067,9 +163111,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36796.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36796.png",
+      "https://b2b.yugtorg.com/image/data/36796_3.png",
       "https://b2b.yugtorg.com/image/data/36796_2.png",
-      "https://b2b.yugtorg.com/image/data/36796_1.png",
-      "https://b2b.yugtorg.com/image/data/36796_3.png"
+      "https://b2b.yugtorg.com/image/data/36796_1.png"
     ],
     "available": true,
     "price": 23690.0,
@@ -163090,9 +163134,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/43827.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/43827.png",
-      "https://b2b.yugtorg.com/image/data/43827_3.png",
       "https://b2b.yugtorg.com/image/data/43827_1.png",
-      "https://b2b.yugtorg.com/image/data/43827_2.png"
+      "https://b2b.yugtorg.com/image/data/43827_2.png",
+      "https://b2b.yugtorg.com/image/data/43827_3.png"
     ],
     "available": true,
     "price": 15545.0,
@@ -163158,8 +163202,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/43800.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/43800.png",
-      "https://b2b.yugtorg.com/image/data/43800_2.png",
-      "https://b2b.yugtorg.com/image/data/43800_1.png"
+      "https://b2b.yugtorg.com/image/data/43800_1.png",
+      "https://b2b.yugtorg.com/image/data/43800_2.png"
     ],
     "available": true,
     "price": 6250.0,
@@ -163202,8 +163246,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36920.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36920.png",
-      "https://b2b.yugtorg.com/image/data/36920_1.png",
-      "https://b2b.yugtorg.com/image/data/36920_2.png"
+      "https://b2b.yugtorg.com/image/data/36920_2.png",
+      "https://b2b.yugtorg.com/image/data/36920_1.png"
     ],
     "available": true,
     "price": 700.0,
@@ -163293,8 +163337,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36993.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36993.png",
-      "https://b2b.yugtorg.com/image/data/36993_2.png",
-      "https://b2b.yugtorg.com/image/data/36993_1.png"
+      "https://b2b.yugtorg.com/image/data/36993_1.png",
+      "https://b2b.yugtorg.com/image/data/36993_2.png"
     ],
     "available": true,
     "price": 2348.0,
@@ -163335,9 +163379,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/43804.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/43804.png",
+      "https://b2b.yugtorg.com/image/data/43804_3.png",
       "https://b2b.yugtorg.com/image/data/43804_1.png",
-      "https://b2b.yugtorg.com/image/data/43804_2.png",
-      "https://b2b.yugtorg.com/image/data/43804_3.png"
+      "https://b2b.yugtorg.com/image/data/43804_2.png"
     ],
     "available": true,
     "price": 9454.0,
@@ -163360,8 +163404,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/36996.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/36996.png",
-      "https://b2b.yugtorg.com/image/data/36996_1.png",
-      "https://b2b.yugtorg.com/image/data/36996_2.png"
+      "https://b2b.yugtorg.com/image/data/36996_2.png",
+      "https://b2b.yugtorg.com/image/data/36996_1.png"
     ],
     "available": true,
     "price": 2232.0,
@@ -163383,8 +163427,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37033.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37033.png",
-      "https://b2b.yugtorg.com/image/data/37033_1.png",
-      "https://b2b.yugtorg.com/image/data/37033_2.png"
+      "https://b2b.yugtorg.com/image/data/37033_2.png",
+      "https://b2b.yugtorg.com/image/data/37033_1.png"
     ],
     "available": true,
     "price": 2880.0,
@@ -163698,8 +163742,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/33707.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/33707.png",
-      "https://b2b.yugtorg.com/image/data/33707_2.png",
-      "https://b2b.yugtorg.com/image/data/33707_1.png"
+      "https://b2b.yugtorg.com/image/data/33707_1.png",
+      "https://b2b.yugtorg.com/image/data/33707_2.png"
     ],
     "available": true,
     "price": 569.0,
@@ -164095,8 +164139,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/17118.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/17118.png",
-      "https://b2b.yugtorg.com/image/data/17118_2.png",
-      "https://b2b.yugtorg.com/image/data/17118_1.png"
+      "https://b2b.yugtorg.com/image/data/17118_1.png",
+      "https://b2b.yugtorg.com/image/data/17118_2.png"
     ],
     "available": true,
     "price": 344.0,
@@ -164420,8 +164464,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37378.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37378.png",
-      "https://b2b.yugtorg.com/image/data/37378_1.png",
-      "https://b2b.yugtorg.com/image/data/37378_2.png"
+      "https://b2b.yugtorg.com/image/data/37378_2.png",
+      "https://b2b.yugtorg.com/image/data/37378_1.png"
     ],
     "available": true,
     "price": 73325.0,
@@ -164439,7 +164483,10 @@ window.ALTCAM_CATALOG = [
     "features": [],
     "image": "https://b2b.yugtorg.com/image/data/30281.png",
     "images": [
-      "https://b2b.yugtorg.com/image/data/30281.png"
+      "https://b2b.yugtorg.com/image/data/30281.png",
+      "https://b2b.yugtorg.com/image/data/30281_3.png",
+      "https://b2b.yugtorg.com/image/data/30281_2.png",
+      "https://b2b.yugtorg.com/image/data/30281_1.png"
     ],
     "available": true,
     "price": 109980.0,
@@ -164458,9 +164505,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/47252.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/47252.png",
+      "https://b2b.yugtorg.com/image/data/47252_1.png",
       "https://b2b.yugtorg.com/image/data/47252_3.png",
-      "https://b2b.yugtorg.com/image/data/47252_2.png",
-      "https://b2b.yugtorg.com/image/data/47252_1.png"
+      "https://b2b.yugtorg.com/image/data/47252_2.png"
     ],
     "available": true,
     "price": 107165.0,
@@ -164479,8 +164526,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37341.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37341.png",
-      "https://b2b.yugtorg.com/image/data/37341_2.png",
-      "https://b2b.yugtorg.com/image/data/37341_1.png"
+      "https://b2b.yugtorg.com/image/data/37341_1.png",
+      "https://b2b.yugtorg.com/image/data/37341_2.png"
     ],
     "available": true,
     "price": 47945.0,
@@ -164499,8 +164546,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37343.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37343.png",
-      "https://b2b.yugtorg.com/image/data/37343_2.png",
-      "https://b2b.yugtorg.com/image/data/37343_1.png"
+      "https://b2b.yugtorg.com/image/data/37343_1.png",
+      "https://b2b.yugtorg.com/image/data/37343_2.png"
     ],
     "available": true,
     "price": 56405.0,
@@ -164519,8 +164566,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37362.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37362.png",
-      "https://b2b.yugtorg.com/image/data/37362_1.png",
-      "https://b2b.yugtorg.com/image/data/37362_2.png"
+      "https://b2b.yugtorg.com/image/data/37362_2.png",
+      "https://b2b.yugtorg.com/image/data/37362_1.png"
     ],
     "available": true,
     "price": 84600.0,
@@ -164539,8 +164586,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37368.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37368.png",
-      "https://b2b.yugtorg.com/image/data/37368_1.png",
-      "https://b2b.yugtorg.com/image/data/37368_2.png"
+      "https://b2b.yugtorg.com/image/data/37368_2.png",
+      "https://b2b.yugtorg.com/image/data/37368_1.png"
     ],
     "available": true,
     "price": 67680.0,
@@ -164559,8 +164606,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37374.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37374.png",
-      "https://b2b.yugtorg.com/image/data/37374_1.png",
-      "https://b2b.yugtorg.com/image/data/37374_2.png"
+      "https://b2b.yugtorg.com/image/data/37374_2.png",
+      "https://b2b.yugtorg.com/image/data/37374_1.png"
     ],
     "available": true,
     "price": 62043.0,
@@ -164600,8 +164647,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/42144.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/42144.png",
-      "https://b2b.yugtorg.com/image/data/42144_1.png",
-      "https://b2b.yugtorg.com/image/data/42144_2.png"
+      "https://b2b.yugtorg.com/image/data/42144_2.png",
+      "https://b2b.yugtorg.com/image/data/42144_1.png"
     ],
     "available": true,
     "price": 22565.0,
@@ -164668,8 +164715,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37813.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37813.png",
-      "https://b2b.yugtorg.com/image/data/37813_2.png",
-      "https://b2b.yugtorg.com/image/data/37813_1.png"
+      "https://b2b.yugtorg.com/image/data/37813_1.png",
+      "https://b2b.yugtorg.com/image/data/37813_2.png"
     ],
     "available": true,
     "price": 677.0,
@@ -164817,8 +164864,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/44110.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/44110.png",
-      "https://b2b.yugtorg.com/image/data/44110_1.png",
-      "https://b2b.yugtorg.com/image/data/44110_2.png"
+      "https://b2b.yugtorg.com/image/data/44110_2.png",
+      "https://b2b.yugtorg.com/image/data/44110_1.png"
     ],
     "available": true,
     "price": 380.0,
@@ -164961,9 +165008,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/37663.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/37663.png",
-      "https://b2b.yugtorg.com/image/data/37663_1.png",
       "https://b2b.yugtorg.com/image/data/37663_3.png",
-      "https://b2b.yugtorg.com/image/data/37663_2.png"
+      "https://b2b.yugtorg.com/image/data/37663_2.png",
+      "https://b2b.yugtorg.com/image/data/37663_1.png"
     ],
     "available": true,
     "price": 53750.0,
@@ -165157,23 +165204,43 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-13974",
-    "sku": "99-00020845",
+    "id": "viatec-13970",
+    "sku": "99-00020841",
     "category": "Мережеве обладнання",
     "subcategory": "",
     "brand": "Alistar",
     "name": "Модуль",
-    "model": "ALISTAR SFP-1G-BX-U-S20 SFP 1G 1SM WDM SC 20KM TX1310/RX1550nm DDM",
-    "description": "● Тип Форми &nbsp; &nbsp; SFP;● Макс. швидкість передачі даних &nbsp; 1000M;● Довжина Хвилі &nbsp; &nbsp; 1310nm-TX/1550nm-RX;● Макс. відстань передачі &nbsp; &nbsp; 20км;● Інтерфейс &nbsp; &nbsp; SC Симплекс;● Оптичні Компоненти &nbsp; &nbsp; FP BiDi;● Тип кабелю &nbsp; &nbsp; SMF*;● DOM Функція;● Протоколи &nbsp; &nbsp; Fast Ethernet, Gigabit Fibre Channel, MSA",
+    "model": "ALISTAR SFP-1G-BX-D-S03 SFP 1G 1SM WDM SC 3KM TX1550/RX1310nm DDM",
+    "description": "● Тип Роз'єму 1xSC;● Макс. Швидкість Передачі даних &nbsp; &nbsp; 1.25G;● Довжина хвилі &nbsp; &nbsp; Tx1550nm/Rx1310nm;● Напруга живлення &nbsp; &nbsp; 3.3В;● Тип підключення Оптичний кабель;● Підтримка DDM Yes;● Дальність передавання даних &nbsp; &nbsp; 3 км;● Протоколи &nbsp; &nbsp; Fast Ethernet, Gigabit Fibre Channel, MSA",
     "features": [
-      "Довжина хвилі: 1310nm-TX/1550nm-RX"
+      "Довжина хвилі: Tx1550nm/Rx1310nm"
     ],
-    "image": "https://viatec.ua/upload/images/prod/2024-07/sfp-bidi-1sm-dm.webp",
+    "image": "https://viatec.ua/upload/images/prod/2024-07/sfp-1000base-1sm.webp",
     "images": [
-      "https://viatec.ua/upload/images/prod/2024-07/sfp-bidi-1sm-dm.webp"
+      "https://viatec.ua/upload/images/prod/2024-07/sfp-1000base-1sm.webp"
     ],
     "available": true,
-    "price": 282.0,
+    "price": 254.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-13971",
+    "sku": "99-00020842",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Alistar",
+    "name": "Модуль",
+    "model": "ALISTAR SFP-1G-BX-U-S03 SFP 1G 1SM WDM SC 3KM TX1310/RX1550nm DDM",
+    "description": "● Тип Роз'єму 1xSC;● Макс. Швидкість Передачі даних&nbsp; 1.25G;● Довжина хвилі &nbsp;Tx1310nm/Rx1550nm;● Напруга живлення 3.3В;● Тип підключення Оптичний кабель;● Підтримка DDM Yes;● Дальність передавання даних&nbsp; 3 км;● Протоколи &nbsp; &nbsp; Fast Ethernet, Gigabit Fibre Channel, MSA",
+    "features": [
+      "Довжина хвилі: Tx1310nm/Rx1550nm"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-07/sfp-1000base-1sm-1310-1550.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-07/sfp-1000base-1sm-1310-1550.webp"
+    ],
+    "available": true,
+    "price": 254.0,
     "source_supplier": "viatec"
   },
   {
@@ -165211,6 +165278,26 @@ window.ALTCAM_CATALOG = [
     "image": "https://viatec.ua/upload/images/prod/2024-07/SFP-1G-BX-U-L20.webp",
     "images": [
       "https://viatec.ua/upload/images/prod/2024-07/SFP-1G-BX-U-L20.webp"
+    ],
+    "available": true,
+    "price": 282.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-14074",
+    "sku": "99-00020848",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Alistar",
+    "name": "Модуль",
+    "model": "ALISTAR SFP-1G-BX-D-L20 SFP 1G 1SM WDM LC 20KM TX1550/RX1310nm DDM",
+    "description": "● Тип Форми SFP;● Макс. швидкість передачі 1000M;● Довжина Хвилі 1550nm-TX/1310nm-RX;● Макс. відстань передачі 20 км;● Інтерфейс &nbsp;LC Симплекс;● Оптичні Компоненти DFP BiDi;● Тип кабелю SMF*;● DOM Функція;● Протоколи Fast Ethernet, Gigabit Fibre Channel, MSA",
+    "features": [
+      "Довжина хвилі: 1550nm-TX/1310nm-RX"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-07/1G-BX-D-L20.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-07/1G-BX-D-L20.webp"
     ],
     "available": true,
     "price": 282.0,
@@ -167312,31 +167399,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-17938",
-    "sku": "99-10025832",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "Ewind",
-    "name": "Комутатор 6 портів некерований",
-    "model": "Ewind EW-PIS1706-4FE",
-    "description": "● Downlink порти: 4х 10/100Base-T/TX PoE (дані/живлення), 2 комплекти резервних інтерфейсів живлення постійного струму V+, V- (5-контактний термінал Phoenix);● Uplink порти: 2х SFP 100/1000Base-X (дані);● Протокол PoE: IEEE802.3af/at бюджет 120 Вт;● Живлення: 48-57В DC;● Робоча температура: -40&ordm; - + 85&ordm;C;● 119x100x35 мм",
-    "features": [
-      "Живлення: 48-57В DC",
-      "Споживана потужність PoE: 30Вт ; IEEE802.3af/at; бюджет 60Вт/48VDC (IEEE802.3af), 120Вт/48VDC (IEEE802.3at)",
-      "Потужність споживання: 2 - 120 Вт",
-      "Швидкість пересилання пакетів: 3.57 мп/с",
-      "Мережеві стандарти: IEEE802.3 10BASE-T, IEEE802.3i 10Base-T, IEEE802.3u 100Base-TX/FX; IEEE802.3z 1000Base-X, IIEEE802.3x",
-      "3.57 мп"
-    ],
-    "image": "https://viatec.ua/upload/2/EW-PIS1706-4FE.webp",
-    "images": [
-      "https://viatec.ua/upload/2/EW-PIS1706-4FE.webp"
-    ],
-    "available": true,
-    "price": 4377.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-17939",
     "sku": "99-10025831",
     "category": "Мережеве обладнання",
@@ -168387,6 +168449,31 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-4283",
+    "sku": "99-00004415",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Комутатор 4 порти некерований",
+    "model": "Hikvision DS-3E0106HP-E POE",
+    "description": "Downlink порти: 4x RJ45 (100M) з підтримкою PoE;Uplink порти: 2x RJ45 (100M);Протокол PoE: IEEE802.3af (PoE), IEEE802.3at (PoE+), IEEE 802.3bt/ бюджет 60 Вт;Живлення: DC 48, 1.35А;Робоча температура: -10&ordm; - + 55&ordm;C;145x26x69 мм",
+    "features": [
+      "Живлення: 48 В DC, 1.35 A",
+      "Споживана потужність PoE: Порти: 1 60Вт, 2-4 30 Вт; Загальне: 60Вт",
+      "Потужність споживання: 65 Вт",
+      "Швидкість пересилання пакетів: 0.893 мп/с",
+      "Мережеві стандарти: IEEE 802.3, IEEE 802.3u, IEEE 802.3x",
+      "0.893 мп"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/DS-3E0106HP-E-1.png.thumb.1280.1280.jpg",
+    "images": [
+      "https://viatec.ua/upload/images/prod/DS-3E0106HP-E-1.png.thumb.1280.1280.jpg"
+    ],
+    "available": true,
+    "price": 2790.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-13758",
     "sku": "99-00019962",
     "category": "Мережеве обладнання",
@@ -169184,24 +169271,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-9333",
-    "sku": "99-00012627",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "Kingda",
-    "name": "Шнур живлення",
-    "model": "Kingda С13-C14, 0.3 м, 0.75 мм2",
-    "description": "Шнур живлення використовується для підключення електроустаткування до електромережі через вилку та розетку, підійде для підключення блоків живлення портативних комп&#39;ютерів або іншої домашньої техніки, що має відповідний роз&#39;єм. Довжина 0.3 м. Роз&#39;єми С13 та C14. Розрахований на напругу до 250V та струм до 10A.",
-    "features": [],
-    "image": "https://viatec.ua/upload/images/prod/2023-03/PC6063.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2023-03/PC6063.webp"
-    ],
-    "available": true,
-    "price": 108.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-7053",
     "sku": "99-00006964",
     "category": "Мережеве обладнання",
@@ -169272,8 +169341,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30025.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30025.png",
-      "https://b2b.yugtorg.com/image/data/30025_2.png",
-      "https://b2b.yugtorg.com/image/data/30025_1.png"
+      "https://b2b.yugtorg.com/image/data/30025_1.png",
+      "https://b2b.yugtorg.com/image/data/30025_2.png"
     ],
     "available": true,
     "price": 381.0,
@@ -169328,8 +169397,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30026.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30026.png",
-      "https://b2b.yugtorg.com/image/data/30026_2.png",
-      "https://b2b.yugtorg.com/image/data/30026_1.png"
+      "https://b2b.yugtorg.com/image/data/30026_1.png",
+      "https://b2b.yugtorg.com/image/data/30026_2.png"
     ],
     "available": true,
     "price": 381.0,
@@ -169406,10 +169475,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/13001.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/13001.png",
+      "https://b2b.yugtorg.com/image/data/13001_2.png",
       "https://b2b.yugtorg.com/image/data/13001_1.png",
       "https://b2b.yugtorg.com/image/data/13001_4.png",
-      "https://b2b.yugtorg.com/image/data/13001_3.png",
-      "https://b2b.yugtorg.com/image/data/13001_2.png"
+      "https://b2b.yugtorg.com/image/data/13001_3.png"
     ],
     "available": true,
     "price": 3861.0,
@@ -169534,8 +169603,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/15238.png",
       "https://b2b.yugtorg.com/image/data/15238_2.png",
-      "https://b2b.yugtorg.com/image/data/15238_1.png",
-      "https://b2b.yugtorg.com/image/data/15238_3.png"
+      "https://b2b.yugtorg.com/image/data/15238_3.png",
+      "https://b2b.yugtorg.com/image/data/15238_1.png"
     ],
     "available": true,
     "price": 2158.0,
@@ -169694,8 +169763,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/33517.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/33517.png",
-      "https://b2b.yugtorg.com/image/data/33517_1.png",
-      "https://b2b.yugtorg.com/image/data/33517_2.png"
+      "https://b2b.yugtorg.com/image/data/33517_2.png",
+      "https://b2b.yugtorg.com/image/data/33517_1.png"
     ],
     "available": true,
     "price": 1827.0,
@@ -169740,8 +169809,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/23504.png",
       "https://b2b.yugtorg.com/image/data/23504_2.png",
-      "https://b2b.yugtorg.com/image/data/23504_1.png",
-      "https://b2b.yugtorg.com/image/data/23504_3.png"
+      "https://b2b.yugtorg.com/image/data/23504_3.png",
+      "https://b2b.yugtorg.com/image/data/23504_1.png"
     ],
     "available": true,
     "price": 3953.0,
@@ -169764,8 +169833,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/32832.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/32832.png",
-      "https://b2b.yugtorg.com/image/data/32832_1.png",
       "https://b2b.yugtorg.com/image/data/32832_2.png",
+      "https://b2b.yugtorg.com/image/data/32832_1.png",
       "https://b2b.yugtorg.com/image/data/32832_3.png"
     ],
     "available": true,
@@ -169789,9 +169858,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/26491.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/26491.png",
-      "https://b2b.yugtorg.com/image/data/26491_1.png",
+      "https://b2b.yugtorg.com/image/data/26491_2.png",
       "https://b2b.yugtorg.com/image/data/26491_3.png",
-      "https://b2b.yugtorg.com/image/data/26491_2.png"
+      "https://b2b.yugtorg.com/image/data/26491_1.png"
     ],
     "available": true,
     "price": 5705.0,
@@ -169814,8 +169883,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/13447.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/13447.png",
-      "https://b2b.yugtorg.com/image/data/13447_2.png",
-      "https://b2b.yugtorg.com/image/data/13447_1.png"
+      "https://b2b.yugtorg.com/image/data/13447_1.png",
+      "https://b2b.yugtorg.com/image/data/13447_2.png"
     ],
     "available": true,
     "price": 1360.0,
@@ -169909,8 +169978,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/33516.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/33516.png",
-      "https://b2b.yugtorg.com/image/data/33516_1.png",
-      "https://b2b.yugtorg.com/image/data/33516_2.png"
+      "https://b2b.yugtorg.com/image/data/33516_2.png",
+      "https://b2b.yugtorg.com/image/data/33516_1.png"
     ],
     "available": true,
     "price": 1044.0,
@@ -169959,8 +170028,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/15752.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/15752.png",
-      "https://b2b.yugtorg.com/image/data/15752_2.png",
-      "https://b2b.yugtorg.com/image/data/15752_1.png"
+      "https://b2b.yugtorg.com/image/data/15752_1.png",
+      "https://b2b.yugtorg.com/image/data/15752_2.png"
     ],
     "available": true,
     "price": 1300.0,
@@ -169985,8 +170054,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/15755.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/15755.png",
-      "https://b2b.yugtorg.com/image/data/15755_2.png",
-      "https://b2b.yugtorg.com/image/data/15755_1.png"
+      "https://b2b.yugtorg.com/image/data/15755_1.png",
+      "https://b2b.yugtorg.com/image/data/15755_2.png"
     ],
     "available": true,
     "price": 1550.0,
@@ -170009,8 +170078,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/22106.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/22106.png",
-      "https://b2b.yugtorg.com/image/data/22106_1.png",
       "https://b2b.yugtorg.com/image/data/22106_3.png",
+      "https://b2b.yugtorg.com/image/data/22106_1.png",
       "https://b2b.yugtorg.com/image/data/22106_2.png"
     ],
     "available": true,
@@ -170319,8 +170388,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/17088.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/17088.png",
-      "https://b2b.yugtorg.com/image/data/17088_2.png",
       "https://b2b.yugtorg.com/image/data/17088_3.png",
+      "https://b2b.yugtorg.com/image/data/17088_2.png",
       "https://b2b.yugtorg.com/image/data/17088_1.png"
     ],
     "available": true,
@@ -170431,8 +170500,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/22736.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/22736.png",
-      "https://b2b.yugtorg.com/image/data/22736_2.png",
       "https://b2b.yugtorg.com/image/data/22736_4.png",
+      "https://b2b.yugtorg.com/image/data/22736_2.png",
       "https://b2b.yugtorg.com/image/data/22736_3.png",
       "https://b2b.yugtorg.com/image/data/22736_1.png"
     ],
@@ -170479,8 +170548,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18641.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18641.png",
-      "https://b2b.yugtorg.com/image/data/18641_5.png",
       "https://b2b.yugtorg.com/image/data/18641_4.png",
+      "https://b2b.yugtorg.com/image/data/18641_5.png",
       "https://b2b.yugtorg.com/image/data/18641_3.png",
       "https://b2b.yugtorg.com/image/data/18641_2.png",
       "https://b2b.yugtorg.com/image/data/18641_1.png"
@@ -170530,10 +170599,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18642.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18642.png",
-      "https://b2b.yugtorg.com/image/data/18642_1.png",
       "https://b2b.yugtorg.com/image/data/18642_4.png",
-      "https://b2b.yugtorg.com/image/data/18642_3.png",
-      "https://b2b.yugtorg.com/image/data/18642_2.png"
+      "https://b2b.yugtorg.com/image/data/18642_2.png",
+      "https://b2b.yugtorg.com/image/data/18642_1.png",
+      "https://b2b.yugtorg.com/image/data/18642_3.png"
     ],
     "available": true,
     "price": 510.0,
@@ -170578,9 +170647,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/26495.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/26495.png",
-      "https://b2b.yugtorg.com/image/data/26495_1.png",
       "https://b2b.yugtorg.com/image/data/26495_3.png",
-      "https://b2b.yugtorg.com/image/data/26495_2.png"
+      "https://b2b.yugtorg.com/image/data/26495_2.png",
+      "https://b2b.yugtorg.com/image/data/26495_1.png"
     ],
     "available": true,
     "price": 351.0,
@@ -170601,9 +170670,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/26496.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/26496.png",
-      "https://b2b.yugtorg.com/image/data/26496_1.png",
-      "https://b2b.yugtorg.com/image/data/26496_4.png",
       "https://b2b.yugtorg.com/image/data/26496_3.png",
+      "https://b2b.yugtorg.com/image/data/26496_4.png",
+      "https://b2b.yugtorg.com/image/data/26496_1.png",
       "https://b2b.yugtorg.com/image/data/26496_2.png"
     ],
     "available": true,
@@ -170629,10 +170698,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/17109.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/17109.png",
-      "https://b2b.yugtorg.com/image/data/17109_1.png",
       "https://b2b.yugtorg.com/image/data/17109_2.png",
       "https://b2b.yugtorg.com/image/data/17109_3.png",
-      "https://b2b.yugtorg.com/image/data/17109_4.png"
+      "https://b2b.yugtorg.com/image/data/17109_4.png",
+      "https://b2b.yugtorg.com/image/data/17109_1.png"
     ],
     "available": true,
     "price": 179.0,
@@ -170653,9 +170722,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/17108.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/17108.png",
-      "https://b2b.yugtorg.com/image/data/17108_3.png",
       "https://b2b.yugtorg.com/image/data/17108_2.png",
-      "https://b2b.yugtorg.com/image/data/17108_1.png"
+      "https://b2b.yugtorg.com/image/data/17108_1.png",
+      "https://b2b.yugtorg.com/image/data/17108_3.png"
     ],
     "available": true,
     "price": 179.0,
@@ -170676,10 +170745,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/26121.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/26121.png",
-      "https://b2b.yugtorg.com/image/data/26121_3.png",
-      "https://b2b.yugtorg.com/image/data/26121_2.png",
       "https://b2b.yugtorg.com/image/data/26121_4.png",
-      "https://b2b.yugtorg.com/image/data/26121_1.png"
+      "https://b2b.yugtorg.com/image/data/26121_1.png",
+      "https://b2b.yugtorg.com/image/data/26121_3.png",
+      "https://b2b.yugtorg.com/image/data/26121_2.png"
     ],
     "available": true,
     "price": 160.0,
@@ -170723,9 +170792,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/17111.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/17111.png",
+      "https://b2b.yugtorg.com/image/data/17111_2.png",
       "https://b2b.yugtorg.com/image/data/17111_1.png",
-      "https://b2b.yugtorg.com/image/data/17111_3.png",
-      "https://b2b.yugtorg.com/image/data/17111_2.png"
+      "https://b2b.yugtorg.com/image/data/17111_3.png"
     ],
     "available": true,
     "price": 150.0,
@@ -170747,9 +170816,9 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/18640.png",
       "https://b2b.yugtorg.com/image/data/18640_1.png",
-      "https://b2b.yugtorg.com/image/data/18640_4.png",
+      "https://b2b.yugtorg.com/image/data/18640_2.png",
       "https://b2b.yugtorg.com/image/data/18640_3.png",
-      "https://b2b.yugtorg.com/image/data/18640_2.png"
+      "https://b2b.yugtorg.com/image/data/18640_4.png"
     ],
     "available": true,
     "price": 380.0,
@@ -171065,9 +171134,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/27243.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/27243.png",
-      "https://b2b.yugtorg.com/image/data/27243_3.png",
+      "https://b2b.yugtorg.com/image/data/27243_1.png",
       "https://b2b.yugtorg.com/image/data/27243_2.png",
-      "https://b2b.yugtorg.com/image/data/27243_1.png"
+      "https://b2b.yugtorg.com/image/data/27243_3.png"
     ],
     "available": true,
     "price": 878.0,
@@ -171104,10 +171173,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/30797.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/30797.png",
-      "https://b2b.yugtorg.com/image/data/30797_1.png",
       "https://b2b.yugtorg.com/image/data/30797_3.png",
       "https://b2b.yugtorg.com/image/data/30797_2.png",
-      "https://b2b.yugtorg.com/image/data/30797_4.png"
+      "https://b2b.yugtorg.com/image/data/30797_4.png",
+      "https://b2b.yugtorg.com/image/data/30797_1.png"
     ],
     "available": true,
     "price": 2925.0,
@@ -171162,9 +171231,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/27240.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/27240.png",
-      "https://b2b.yugtorg.com/image/data/27240_1.png",
       "https://b2b.yugtorg.com/image/data/27240_3.png",
-      "https://b2b.yugtorg.com/image/data/27240_2.png"
+      "https://b2b.yugtorg.com/image/data/27240_2.png",
+      "https://b2b.yugtorg.com/image/data/27240_1.png"
     ],
     "available": true,
     "price": 1580.0,
@@ -171486,9 +171555,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/21532.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/21532.png",
-      "https://b2b.yugtorg.com/image/data/21532_2.png",
+      "https://b2b.yugtorg.com/image/data/21532_1.png",
       "https://b2b.yugtorg.com/image/data/21532_3.png",
-      "https://b2b.yugtorg.com/image/data/21532_1.png"
+      "https://b2b.yugtorg.com/image/data/21532_2.png"
     ],
     "available": true,
     "price": 245.0,
@@ -171880,8 +171949,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/20813.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/20813.png",
-      "https://b2b.yugtorg.com/image/data/20813_2.png",
-      "https://b2b.yugtorg.com/image/data/20813_1.png"
+      "https://b2b.yugtorg.com/image/data/20813_1.png",
+      "https://b2b.yugtorg.com/image/data/20813_2.png"
     ],
     "available": true,
     "price": 2019.0,
@@ -172362,31 +172431,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-3462",
-    "sku": "99-00002337",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "MikroTik",
-    "name": "Комутатор 24 порти керований",
-    "model": "MikroTik CRS326-24G-2S+RM L2",
-    "description": "Downlink порти: 24x RJ45 (1000M);Uplink порти: 2x SFP+(10000M) без модулів у комплекті;Живлення: DC 9 - 30В;Робоча температура: -40&ordm; - + 60&ordm;C;443x144x44 мм",
-    "features": [
-      "Живлення від PoE-in: є",
-      "Живлення: DC 9 - 30В / passive PoE",
-      "Потужність споживання: 24Вт",
-      "Моніторинг напруги: є",
-      "PoE",
-      "24Вт"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/CRS326-24G-2S%2BRM-1-1.jpg",
-    "images": [
-      "https://viatec.ua/upload/images/prod/CRS326-24G-2S%2BRM-1-1.jpg"
-    ],
-    "available": true,
-    "price": 9921.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-3779",
     "sku": "99-00002994",
     "category": "Мережеве обладнання",
@@ -172460,31 +172504,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-5831",
-    "sku": "99-00008432",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "MikroTik",
-    "name": "Комутатор 5 портів керований",
-    "model": "MikroTik CRS305-1G-4S+IN",
-    "description": "4 порти SFP+; процесор 98DX3236 800 МГц; RouterOS/SwitchOS L5; RAM 512 Мб/16 Мб FLASH; MTBF 200000 годин при 25 C; роб. темп. -40 &deg; C - 70 &deg; C, IP20; живлення 2 (DC jack) 12-57 18 Вт, PoE in 802.3af/at; 141 x 115 x 28 мм",
-    "features": [
-      "Живлення від PoE-in: 802.3af/at",
-      "Живлення: 12-57 В",
-      "Потужність споживання: 18 Вт",
-      "IP20",
-      "PoE",
-      "28 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/CRS305-1G-4SIN.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/CRS305-1G-4SIN.webp"
-    ],
-    "available": true,
-    "price": 6927.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-10263",
     "sku": "99-00014397",
     "category": "Мережеве обладнання",
@@ -172529,6 +172548,30 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 10108.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-2491",
+    "sku": "00-00000299",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "MikroTik",
+    "name": "Комутатор 8 портів керований",
+    "model": "MikroTik CRS112-8P-4S-IN PoE",
+    "description": "8-портовий керований PoE комутатор. RouterOS L5, CPU 400 МГц, RAM 128 Мб. Downlink порти: 8x RJ45 (100 / 1000M) з підтримкою PoE (802.3 af / at); Uplink порти: 4x SFP; -30&ordm;C ~ + 55&ordm;C; 200x143x40 мм",
+    "features": [
+      "Живлення: DC 18-57В",
+      "Потужність споживання: 10Вт",
+      "Швидкість пересилання пакетів: 17.8 Мpps",
+      "PoE",
+      "10Вт"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/CRS112-8P-4S-IN.jpg",
+    "images": [
+      "https://viatec.ua/upload/images/prod/CRS112-8P-4S-IN.jpg"
+    ],
+    "available": true,
+    "price": 9923.0,
     "source_supplier": "viatec"
   },
   {
@@ -172654,31 +172697,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 15210.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-2416",
-    "sku": "10000001055",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "MikroTik",
-    "name": "Маршрутизатор",
-    "model": "MikroTik RB1100AHx4 13-портовий",
-    "description": "13-портовий маршрутизатор. RouterOS L6, CPU 1,4 ГГц, RAM 1 Гб. Downlink порти: 10x RJ45 (10/100/1000M); Uplink порти: 3x RJ45 (10/100/1000M); AC 220В, PoE in (802.3at); від -40&ordm; до + 70&ordm;C; 444х148х47 мм.",
-    "features": [
-      "Порт живлення: 2 порти",
-      "Живлення: AC 220В",
-      "Потужність споживання: 20Вт",
-      "Моніторинг напруги: є",
-      "PoE",
-      "20Вт"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/RB1100x4-1.jpg",
-    "images": [
-      "https://viatec.ua/upload/images/prod/RB1100x4-1.jpg"
-    ],
-    "available": true,
-    "price": 14315.0,
     "source_supplier": "viatec"
   },
   {
@@ -172826,31 +172844,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 5106.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-5829",
-    "sku": "99-00008430",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "MikroTik",
-    "name": "Маршрутизатор",
-    "model": "MikroTik CCR2004-16G-2S+ 18-портовий",
-    "description": "16 портів Ethernet 10/100/1000 Гбіт/с; 2 SFP+ порти; RouterOS (v7); ROM|RAM 128Мб/4 Гб; MTBF 200 000 годин за темп. 25 C; процесор 4 ядра AL32400 1700 мГц; 1 USB 3.0 типу A; моніторинг вольтажу та температури; живлення АС100-240В 35-48 Вт; роб. темп. -20 &deg; C - 60 &deg; C; IP20; 443 x 210 x 44 мм",
-    "features": [
-      "Живлення: 100-240В АС",
-      "Потужність споживання: 48 Вт",
-      "Моніторинг напруги: Підтримує",
-      "IP20",
-      "44 мм",
-      "48 Вт"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/CCR2004-16G-2S.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/CCR2004-16G-2S.webp"
-    ],
-    "available": true,
-    "price": 21639.0,
     "source_supplier": "viatec"
   },
   {
@@ -173276,9 +173269,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/27283.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/27283.png",
-      "https://b2b.yugtorg.com/image/data/27283_3.png",
+      "https://b2b.yugtorg.com/image/data/27283_1.png",
       "https://b2b.yugtorg.com/image/data/27283_2.png",
-      "https://b2b.yugtorg.com/image/data/27283_1.png"
+      "https://b2b.yugtorg.com/image/data/27283_3.png"
     ],
     "available": true,
     "price": 3838.0,
@@ -173332,9 +173325,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/27284.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/27284.png",
-      "https://b2b.yugtorg.com/image/data/27284_3.png",
+      "https://b2b.yugtorg.com/image/data/27284_1.png",
       "https://b2b.yugtorg.com/image/data/27284_2.png",
-      "https://b2b.yugtorg.com/image/data/27284_1.png"
+      "https://b2b.yugtorg.com/image/data/27284_3.png"
     ],
     "available": true,
     "price": 5850.0,
@@ -173358,8 +173351,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/33851.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/33851.png",
-      "https://b2b.yugtorg.com/image/data/33851_1.png",
       "https://b2b.yugtorg.com/image/data/33851_3.png",
+      "https://b2b.yugtorg.com/image/data/33851_1.png",
       "https://b2b.yugtorg.com/image/data/33851_2.png"
     ],
     "available": true,
@@ -173384,8 +173377,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/33852.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/33852.png",
-      "https://b2b.yugtorg.com/image/data/33852_1.png",
       "https://b2b.yugtorg.com/image/data/33852_3.png",
+      "https://b2b.yugtorg.com/image/data/33852_1.png",
       "https://b2b.yugtorg.com/image/data/33852_2.png"
     ],
     "available": true,
@@ -173436,8 +173429,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/33741.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/33741.png",
-      "https://b2b.yugtorg.com/image/data/33741_3.png",
       "https://b2b.yugtorg.com/image/data/33741_1.png",
+      "https://b2b.yugtorg.com/image/data/33741_3.png",
       "https://b2b.yugtorg.com/image/data/33741_2.png"
     ],
     "available": true,
@@ -173465,8 +173458,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/33745.png",
       "https://b2b.yugtorg.com/image/data/33745_3.png",
-      "https://b2b.yugtorg.com/image/data/33745_2.png",
-      "https://b2b.yugtorg.com/image/data/33745_1.png"
+      "https://b2b.yugtorg.com/image/data/33745_1.png",
+      "https://b2b.yugtorg.com/image/data/33745_2.png"
     ],
     "available": true,
     "price": 2823.0,
@@ -173491,9 +173484,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/16425.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/16425.png",
-      "https://b2b.yugtorg.com/image/data/16425_1.png",
+      "https://b2b.yugtorg.com/image/data/16425_3.png",
       "https://b2b.yugtorg.com/image/data/16425_2.png",
-      "https://b2b.yugtorg.com/image/data/16425_3.png"
+      "https://b2b.yugtorg.com/image/data/16425_1.png"
     ],
     "available": true,
     "price": 1460.0,
@@ -173568,9 +173561,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/33853.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/33853.png",
-      "https://b2b.yugtorg.com/image/data/33853_1.png",
       "https://b2b.yugtorg.com/image/data/33853_3.png",
-      "https://b2b.yugtorg.com/image/data/33853_2.png"
+      "https://b2b.yugtorg.com/image/data/33853_2.png",
+      "https://b2b.yugtorg.com/image/data/33853_1.png"
     ],
     "available": true,
     "price": 1697.0,
@@ -173594,9 +173587,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/33854.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/33854.png",
-      "https://b2b.yugtorg.com/image/data/33854_3.png",
+      "https://b2b.yugtorg.com/image/data/33854_2.png",
       "https://b2b.yugtorg.com/image/data/33854_1.png",
-      "https://b2b.yugtorg.com/image/data/33854_2.png"
+      "https://b2b.yugtorg.com/image/data/33854_3.png"
     ],
     "available": true,
     "price": 1697.0,
@@ -173703,8 +173696,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/27282.png",
       "https://b2b.yugtorg.com/image/data/27282_3.png",
-      "https://b2b.yugtorg.com/image/data/27282_2.png",
-      "https://b2b.yugtorg.com/image/data/27282_1.png"
+      "https://b2b.yugtorg.com/image/data/27282_1.png",
+      "https://b2b.yugtorg.com/image/data/27282_2.png"
     ],
     "available": true,
     "price": 1980.0,
@@ -173780,9 +173773,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/33742.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/33742.png",
+      "https://b2b.yugtorg.com/image/data/33742_2.png",
       "https://b2b.yugtorg.com/image/data/33742_1.png",
-      "https://b2b.yugtorg.com/image/data/33742_3.png",
-      "https://b2b.yugtorg.com/image/data/33742_2.png"
+      "https://b2b.yugtorg.com/image/data/33742_3.png"
     ],
     "available": true,
     "price": 2484.0,
@@ -173808,9 +173801,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/33744.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/33744.png",
-      "https://b2b.yugtorg.com/image/data/33744_2.png",
+      "https://b2b.yugtorg.com/image/data/33744_3.png",
       "https://b2b.yugtorg.com/image/data/33744_1.png",
-      "https://b2b.yugtorg.com/image/data/33744_3.png"
+      "https://b2b.yugtorg.com/image/data/33744_2.png"
     ],
     "available": true,
     "price": 3896.0,
@@ -173833,37 +173826,11 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/27135.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/27135.png",
-      "https://b2b.yugtorg.com/image/data/27135_1.png",
-      "https://b2b.yugtorg.com/image/data/27135_2.png"
+      "https://b2b.yugtorg.com/image/data/27135_2.png",
+      "https://b2b.yugtorg.com/image/data/27135_1.png"
     ],
     "available": true,
     "price": 202.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-27260",
-    "sku": "ONV-H1005S",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "ONV",
-    "name": "Комутатор Ethernet ONV-H1005S в пластиковому корпусі, 5*100Мб портів, 5В 1Ач, 100х70х28",
-    "model": "ONV-H1005S",
-    "description": "ONV-H1005S - це некерований комутатор 10 / 100M Ethernet, розроблений компанією ONV. Він має 5 портів 10 / 100Base-TX RJ45. особливості: - Лінійна швидкість передачі 10 / 100M - Підтримка повного дуплексу на основі IEEE802.3x та напівдуплексу на основі Backpressure. - Низьке енергоспоживання, - Корпус із вогнестійкого пластику. - Сертифікати: CE, FCC, RoHS. Характеристики: • Порти: 5 портів 10 / 100Base-TX RJ45 • Тип портів: 10 / 100Base-TX з автоматичним визначенням, повна / напівдуплексна самоадаптація MDI / MDI-X. • Передача по кручений парі: - 10BASE-T: Cat3,4,5 UTP(≤100 meter) - 100BASE-TX: Cat5 or later UTP(≤100 meter) Параметри чіпа: • Протокол мережі: IEEE802.3 10BASE-T, IEEE802.3i 10Base-T, IEEE802.3u 100Base-TX, IEEE802.3x • Режим пересилання: збереження та переадресація (повна швидкість передачі даних) • Комутаційна спроможність: 1Гбіт / с (без блокування) • Швидкість пересилання при 64 байтах: 0,74 млн. пакетів в секунду. • Буферна пам`ять: 512K • Світлодіодний індикатор: живлення: PWR (зелений), мережа: з`єднання (зелений) Джерело живлення: • Сумарна потужність / вхідна напруга: <5 Вт / (DC5V) • Потужність: в режимі очікування <1 Вт, при повному навантаженні <2 Вт. • Блок живлення: AC100~240V 50-60Hz 0.56A • Розміри (Д*Ш*В): 100*70*28 мм • Вага нетто / брутто: <0.1 кг / <0.25 кг",
-    "features": [
-      "28 мм",
-      "5 Вт",
-      "1 Вт",
-      "2 Вт"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/27260.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/27260.png",
-      "https://b2b.yugtorg.com/image/data/27260_3.png",
-      "https://b2b.yugtorg.com/image/data/27260_2.png",
-      "https://b2b.yugtorg.com/image/data/27260_1.png"
-    ],
-    "available": true,
-    "price": 499.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -173884,9 +173851,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/27261.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/27261.png",
-      "https://b2b.yugtorg.com/image/data/27261_1.png",
       "https://b2b.yugtorg.com/image/data/27261_2.png",
-      "https://b2b.yugtorg.com/image/data/27261_3.png"
+      "https://b2b.yugtorg.com/image/data/27261_3.png",
+      "https://b2b.yugtorg.com/image/data/27261_1.png"
     ],
     "available": true,
     "price": 615.0,
@@ -173909,8 +173876,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/27264.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/27264.png",
-      "https://b2b.yugtorg.com/image/data/27264_1.png",
       "https://b2b.yugtorg.com/image/data/27264_3.png",
+      "https://b2b.yugtorg.com/image/data/27264_1.png",
       "https://b2b.yugtorg.com/image/data/27264_2.png"
     ],
     "available": true,
@@ -173961,9 +173928,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/27262.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/27262.png",
-      "https://b2b.yugtorg.com/image/data/27262_3.png",
+      "https://b2b.yugtorg.com/image/data/27262_1.png",
       "https://b2b.yugtorg.com/image/data/27262_2.png",
-      "https://b2b.yugtorg.com/image/data/27262_1.png"
+      "https://b2b.yugtorg.com/image/data/27262_3.png"
     ],
     "available": true,
     "price": 737.0,
@@ -173986,9 +173953,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/27263.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/27263.png",
-      "https://b2b.yugtorg.com/image/data/27263_2.png",
       "https://b2b.yugtorg.com/image/data/27263_1.png",
-      "https://b2b.yugtorg.com/image/data/27263_3.png"
+      "https://b2b.yugtorg.com/image/data/27263_3.png",
+      "https://b2b.yugtorg.com/image/data/27263_2.png"
     ],
     "available": true,
     "price": 1215.0,
@@ -174011,8 +173978,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/27266.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/27266.png",
-      "https://b2b.yugtorg.com/image/data/27266_2.png",
       "https://b2b.yugtorg.com/image/data/27266_1.png",
+      "https://b2b.yugtorg.com/image/data/27266_2.png",
       "https://b2b.yugtorg.com/image/data/27266_3.png"
     ],
     "available": true,
@@ -174419,9 +174386,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/21305.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/21305.png",
-      "https://b2b.yugtorg.com/image/data/21305_1.png",
       "https://b2b.yugtorg.com/image/data/21305_2.png",
-      "https://b2b.yugtorg.com/image/data/21305_3.png"
+      "https://b2b.yugtorg.com/image/data/21305_3.png",
+      "https://b2b.yugtorg.com/image/data/21305_1.png"
     ],
     "available": true,
     "price": 656.0,
@@ -174449,28 +174416,6 @@ window.ALTCAM_CATALOG = [
     "available": true,
     "price": 418.0,
     "source_supplier": "yugtorg"
-  },
-  {
-    "id": "viatec-22180",
-    "sku": "99-10038409",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "RITAR",
-    "name": "POE сплітер",
-    "model": "Ritar 12V ( 10/100Mbps )",
-    "description": "Комутатора 12 вольт (2 ампера) входу &ndash; порт підключення роз'єму RG-45; виходу: штекер роз'єму RG-45 плюс штекер джерела живлення DC 12 V (5.5/2.1мм)",
-    "features": [
-      "Живлення: DC 12V 2A(5.5/2.1мм )",
-      "POE",
-      "2.1мм"
-    ],
-    "image": "https://viatec.ua/upload/2/poe-splttrrittr.webp",
-    "images": [
-      "https://viatec.ua/upload/2/poe-splttrrittr.webp"
-    ],
-    "available": true,
-    "price": 159.0,
-    "source_supplier": "viatec"
   },
   {
     "id": "viatec-20854",
@@ -176152,8 +176097,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/12473.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/12473.png",
-      "https://b2b.yugtorg.com/image/data/12473_2.png",
-      "https://b2b.yugtorg.com/image/data/12473_1.png"
+      "https://b2b.yugtorg.com/image/data/12473_1.png",
+      "https://b2b.yugtorg.com/image/data/12473_2.png"
     ],
     "available": true,
     "price": 117.0,
@@ -176177,31 +176122,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 87.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-39439",
-    "sku": "RG-ES210GS-P",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "Ruijie",
-    "name": "10-портовий 10 / 100 / 1000Мб керований PoE комутатор Ruijie Reyee RG-ES210GS-P",
-    "model": "RG-ES210GS-P",
-    "description": "Порти (Uplink) 1x combo SFP Порти (DownLink) 8x 10 / 100 / 1000Base-T VLAN 16 Потужність PoE 120 Вт Макс. пропускна здатність 20 Гбіт / с Швидкість пересилання пакетів 14.8 мп / с Буферна пам`ять 1.5 Мбіт / с Розмір таблиці MAC 4К Живлення 54В DC, 2.4A Потужність споживання 130 Вт Робоча температура 0°C - +40°C Розміри 202 x 108 x 28 мм Вага 1.38 кг Розмір упаковки (Ш х В х Г) 240 x 80 x 290 мм Вага брутто 1.64 кг",
-    "features": [
-      "14.8 мп",
-      "PoE",
-      "28 мм",
-      "290 мм",
-      "120 Вт",
-      "130 Вт"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/39439.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/39439.png"
-    ],
-    "available": true,
-    "price": 8432.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -176726,31 +176646,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-5855",
-    "sku": "99-00018803",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "Ruijie",
-    "name": "Бездротовий WiFi міст",
-    "model": "Ruijie Reyee RG-EST310 V2 5 ГГц",
-    "description": "Для використання в якості мосту необхідно два пристрої однієї моделі.&nbsp;Продається комплектом з двох шт, ціна вказана за комплект.&nbsp;Зовнішній міст RG-EST310 забезпечує стійкий зв'язок між двома роутерами у міському середовищі. Це можливість підключити до однієї мережі Wi-Fi дві різні будівлі, розташовані в межах 1 кілометра. RG-EST310 використовує менш завантажену частоту 5 ГГц, що позбавляє додаткових перешкод у сигналі. Найчастіше пристрої встановлюють у великих підприємствах, що мають кілька об'єктів. Але можливе і домашнє користування. Нерідко мости застосовуються у великих будинках, де дії роутерів недостатньо. Тоді модулі розміщують на поверхах, забезпечивши якісне покриття без постійних витрат на утримання окремих точок доступу.",
-    "features": [
-      "Живлення: 12В DC, 24В DC PoE",
-      "Потужність споживання: 5 Вт",
-      "IP65",
-      "WiFi",
-      "Wi-Fi",
-      "PoE"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/RG-EST3101_BRIDGE.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/RG-EST3101_BRIDGE.webp"
-    ],
-    "available": true,
-    "price": 8739.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-11467",
     "sku": "99-00016419",
     "category": "Мережеве обладнання",
@@ -176837,31 +176732,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 10099.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-11460",
-    "sku": "99-00016218",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "Ruijie",
-    "name": "Комутатор 10 портів керований",
-    "model": "Ruijie RG-ES210GS-P PoE",
-    "description": "Downlink порти: 10x RJ45 (1000M) - 8x з підтримкою PoE;Uplink порти: 1x combo SFP (1000M);Протокол PoE: IEEE802.3af (PoE), IEEE802.3at (PoE+)/ бюджет 120 Вт;Живлення: DC 54В;Робоча температура: 0&ordm; - + 40&ordm;C;202x108x28 мм",
-    "features": [
-      "Живлення: 54В DC, 2.4A",
-      "Споживана потужність PoE: 120 Вт",
-      "Потужність споживання: 130 Вт",
-      "Швидкість пересилання пакетів: 14.8 мп/с",
-      "14.8 мп",
-      "PoE"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2023-11/RG-ES210GS-P.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2023-11/RG-ES210GS-P.webp"
-    ],
-    "available": true,
-    "price": 8549.0,
     "source_supplier": "viatec"
   },
   {
@@ -177036,31 +176906,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 11499.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-13358",
-    "sku": "99-00018550",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "Ruijie",
-    "name": "Комутатор 20 портів керований",
-    "model": "Ruijie Reyee RG-ES220GS-P POE",
-    "description": "● Downlink порти: 16x RJ45 (10/100/1000M) з підтримкою PoE;● Uplink порти: 2x RJ45 (1000M), 2x SFP (1000M);● Протокол PoE: IEEE802.3af/at бюджет 250 Вт;● Живлення: 100 - 240В AC, 4.5А;● Робоча температура: 0&ordm; - + 40&ordm;C;● 330x223x43.6 мм",
-    "features": [
-      "Живлення: 100 - 240В AC, 4.5A",
-      "Споживана потужність PoE: бюждет 250 Вт",
-      "Потужність споживання: 269 Вт",
-      "Швидкість пересилання пакетів: 29.76 мп/с",
-      "29.76 мп",
-      "POE"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-05/ES220GS-P.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-05/ES220GS-P.webp"
-    ],
-    "available": true,
-    "price": 17579.0,
     "source_supplier": "viatec"
   },
   {
@@ -177450,6 +177295,31 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 17799.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-21694",
+    "sku": "99-10036810",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ruijie",
+    "name": "Комутатор 48 портів керований",
+    "model": "Ruijie Reyee RG-NBS3200-48GT4XS-P-V2 L2+ POE",
+    "description": "Downlink порти: 48x RJ45 (1000M) з підтримкою PoE;Uplink порти: 4x SFP+ (10 000M);Протокол PoE: IEEE802.3af (PoE), IEEE802.3at (PoE+)/ бюджет 370 Вт;Живлення: AC 100 - 240В;Робоча температура: 0&ordm; - + 50&ordm;C;440x358x44 мм",
+    "features": [
+      "Живлення: 100 - 240В AC, 2A",
+      "Споживана потужність PoE: бюджет 370 Вт",
+      "Потужність споживання: 46 - 450 Вт",
+      "Швидкість пересилання пакетів: 131 мп/с",
+      "131 мп",
+      "POE"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2023-04/RG-NBS3200-48GT4XS-P.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2023-04/RG-NBS3200-48GT4XS-P.webp"
+    ],
+    "available": true,
+    "price": 51999.0,
     "source_supplier": "viatec"
   },
   {
@@ -177844,28 +177714,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 7299.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-15932",
-    "sku": "99-00023779",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "Ruijie",
-    "name": "Маршрутизатор",
-    "model": "Ruijie Reyee RG-EG105G-V3",
-    "description": "● Downlink порти: 4x(3 фікс.) RJ45 (10/100/1000M);● Uplink порти: 2x(1 фікс.) RJ45 (10/100/1000M);● Комутаційна здатність 600 Мбіт/с (1518 байт, NAT+аудит потоку) 500 Мбіт/с (1518 байт, NAT+аутентифікація, ідентифікація програми, аудит потоку та керування потоком) 1000 Мбіт/с (режим Turbo);● Живлення: 100-240В AC;● 206.5x108.5х28мм",
-    "features": [
-      "Живлення: 220В AC",
-      "Потужність споживання: 12 Вт",
-      "12 Вт"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2025-01/RG-EG105G-V3.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2025-01/RG-EG105G-V3.webp"
-    ],
-    "available": true,
-    "price": 6179.0,
     "source_supplier": "viatec"
   },
   {
@@ -178988,8 +178836,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/31216.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/31216.png",
-      "https://b2b.yugtorg.com/image/data/31216_3.png",
       "https://b2b.yugtorg.com/image/data/31216_2.png",
+      "https://b2b.yugtorg.com/image/data/31216_3.png",
       "https://b2b.yugtorg.com/image/data/31216_1.png"
     ],
     "available": true,
@@ -179038,8 +178886,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/31224.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/31224.png",
-      "https://b2b.yugtorg.com/image/data/31224_1.png",
       "https://b2b.yugtorg.com/image/data/31224_2.png",
+      "https://b2b.yugtorg.com/image/data/31224_1.png",
       "https://b2b.yugtorg.com/image/data/31224_3.png"
     ],
     "available": true,
@@ -179085,10 +178933,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/26950.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/26950.png",
-      "https://b2b.yugtorg.com/image/data/26950_1.png",
-      "https://b2b.yugtorg.com/image/data/26950_2.png",
+      "https://b2b.yugtorg.com/image/data/26950_4.png",
       "https://b2b.yugtorg.com/image/data/26950_3.png",
-      "https://b2b.yugtorg.com/image/data/26950_4.png"
+      "https://b2b.yugtorg.com/image/data/26950_2.png",
+      "https://b2b.yugtorg.com/image/data/26950_1.png"
     ],
     "available": true,
     "price": 1969.0,
@@ -179206,10 +179054,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/31225.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/31225.png",
-      "https://b2b.yugtorg.com/image/data/31225_3.png",
-      "https://b2b.yugtorg.com/image/data/31225_2.png",
       "https://b2b.yugtorg.com/image/data/31225_4.png",
-      "https://b2b.yugtorg.com/image/data/31225_1.png"
+      "https://b2b.yugtorg.com/image/data/31225_1.png",
+      "https://b2b.yugtorg.com/image/data/31225_2.png",
+      "https://b2b.yugtorg.com/image/data/31225_3.png"
     ],
     "available": true,
     "price": 2382.0,
@@ -179257,27 +179105,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 15217.0,
-    "source_supplier": "yugtorg"
-  },
-  {
-    "id": "yugtorg-41840",
-    "sku": "RG-EG105G-V3",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "Ruijie Reyee",
-    "name": "Маршрутизатор гігабітний Ruijie Reyee RG-EG105G-V3, 4 порти 10 / 100 / 1000M Base-T + 1 WAN порт 10 / 100 / 1000M Base-T, 206.5x108.5х28 мм",
-    "model": "RG-EG105G-V3",
-    "description": "Ethernet порти (DownLink) 4 10 / 100 / 1000M Base-T (3 фіксованих) Ethernet порти (Uplink) 1 10 / 100 / 1000M Base-T (до 2 WAN портів) ROM / RAM 32|128 Мб Живлення 220В AC Потужність споживання 12 Вт Розміри 206.5x108.5х28 мм Розмір упаковки (Ш х В х Г) 60 x 260 x 320 мм Вага брутто Вага: 0.94 кг",
-    "features": [
-      "320 мм",
-      "12 Вт"
-    ],
-    "image": "https://b2b.yugtorg.com/image/data/41840.png",
-    "images": [
-      "https://b2b.yugtorg.com/image/data/41840.png"
-    ],
-    "available": true,
-    "price": 6182.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -180131,28 +179958,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-14664",
-    "sku": "99-00021698",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "Tp-link",
-    "name": "Wi-Fi роутер",
-    "model": "TP-LINK TLWR 841N Wi-Fi 4",
-    "description": "● Wi-Fi 4 IEEE 802.11n/b/g 2.4 ГГц;● N300 2.4 ГГц: 300 Мбіт/с (802.11n);● 1&times;100М порт WAN, 4&times;100М порту LAN;● Живлення 9 В 0.6 А",
-    "features": [
-      "Живлення: 9ВDC/0.6A",
-      "Wi-Fi",
-      "33 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-08/WR841N.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-08/WR841N.webp"
-    ],
-    "available": true,
-    "price": 850.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-14971",
     "sku": "99-00022245",
     "category": "Мережеве обладнання",
@@ -180386,26 +180191,24 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-22179",
-    "sku": "99-10038392",
+    "id": "viatec-22402",
+    "sku": "99-10039118",
     "category": "Мережеве обладнання",
     "subcategory": "",
-    "brand": "Ubiquiti",
-    "name": "PoE інжектор",
-    "model": "Ubiquiti POE-24-24W-G-WH",
-    "description": "● Інтерфейси 2хRJ-45;● Напруга живлення 802.3af (802.3at Type 1) \"PoE\" 24 Вт;● Розміри 88x57x33 мм;● Порти 100 Мбіт/с",
+    "brand": "Trinix",
+    "name": "Серверна полиця",
+    "model": "Trinix TRX-600D/SH Black 600 мм",
+    "description": "● Підходить для встановлення у комутаційні шафи глибиною 600 мм;● Максимальне навантаження полиці 80 кг;● Має вбудовані кріплення для максимально надійного розташування у шафі;● Можливість додаткового закріплення обладнання стяжками.",
     "features": [
-      "Споживана потужність PoE: 24 Вт",
-      "PoE",
-      "24W",
-      "24 Вт"
+      "600 мм",
+      "48 мм"
     ],
-    "image": "https://viatec.ua/upload/2/ubiqqqqpoesplttr.webp",
+    "image": "https://viatec.ua/upload/2/trinix-trx-450d-sh1.webp",
     "images": [
-      "https://viatec.ua/upload/2/ubiqqqqpoesplttr.webp"
+      "https://viatec.ua/upload/2/trinix-trx-450d-sh1.webp"
     ],
     "available": true,
-    "price": 621.0,
+    "price": 918.0,
     "source_supplier": "viatec"
   },
   {
@@ -180456,6 +180259,31 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 11176.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-18271",
+    "sku": "99-10026953",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Ubiquiti",
+    "name": "Точка доступу",
+    "model": "Ubiquiti UniFi U7 Pro (U7-PRO) Wi-Fi 7",
+    "description": "● Стандарт Wi-Fi 7;● Просторові потоки 6;● Зона покриття 140 м&sup2;;● Макс. кількість клієнтів 300+;● Мережевий інтерфейс 1х 2.5GbE RJ45;● 802.11be (WiFi 7)7.3 Мбіт/с - 5.8 Гбіт/с (MCS0 - MCS13 NSS1/2, EHT 20/40/80/160/240/320);● 802.11ax (WiFi 6/6E)7.3 Мбіт/с - 2.4 Гбіт/с (MCS0 - MCS11 NSS1/2, HE 20/40/80/160);● 802.11ac (WiFi 5)6.5 Мбіт/с - 1.7 Гбіт/с (MCS0 - MCS9 NSS1/2, VHT 20/40/80/160);● Живлення 42,5&ndash;57 В постійного струму",
+    "features": [
+      "Живлення: PoE+",
+      "Потужність споживання: 21 Вт",
+      "Wi-Fi",
+      "WiFi",
+      "PoE",
+      "46 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/ubiquiti-u6-pro.webp",
+    "images": [
+      "https://viatec.ua/upload/2/ubiquiti-u6-pro.webp"
+    ],
+    "available": true,
+    "price": 10503.0,
     "source_supplier": "viatec"
   },
   {
@@ -180937,8 +180765,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/33505.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/33505.png",
-      "https://b2b.yugtorg.com/image/data/33505_3.png",
       "https://b2b.yugtorg.com/image/data/33505_2.png",
+      "https://b2b.yugtorg.com/image/data/33505_3.png",
       "https://b2b.yugtorg.com/image/data/33505_1.png"
     ],
     "available": true,
@@ -180984,8 +180812,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/20954.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/20954.png",
-      "https://b2b.yugtorg.com/image/data/20954_2.png",
-      "https://b2b.yugtorg.com/image/data/20954_1.png"
+      "https://b2b.yugtorg.com/image/data/20954_1.png",
+      "https://b2b.yugtorg.com/image/data/20954_2.png"
     ],
     "available": true,
     "price": 1463.0,
@@ -181078,8 +180906,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/26515.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/26515.png",
-      "https://b2b.yugtorg.com/image/data/26515_1.png",
-      "https://b2b.yugtorg.com/image/data/26515_2.png"
+      "https://b2b.yugtorg.com/image/data/26515_2.png",
+      "https://b2b.yugtorg.com/image/data/26515_1.png"
     ],
     "available": true,
     "price": 199.0,
@@ -181523,9 +181351,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/26498.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/26498.png",
-      "https://b2b.yugtorg.com/image/data/26498_3.png",
       "https://b2b.yugtorg.com/image/data/26498_1.png",
-      "https://b2b.yugtorg.com/image/data/26498_2.png"
+      "https://b2b.yugtorg.com/image/data/26498_2.png",
+      "https://b2b.yugtorg.com/image/data/26498_3.png"
     ],
     "available": true,
     "price": 3450.0,
@@ -181604,9 +181432,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/18635.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/18635.png",
+      "https://b2b.yugtorg.com/image/data/18635_2.png",
       "https://b2b.yugtorg.com/image/data/18635_1.png",
       "https://b2b.yugtorg.com/image/data/18635_3.png",
-      "https://b2b.yugtorg.com/image/data/18635_2.png",
       "https://b2b.yugtorg.com/image/data/18635_4.png"
     ],
     "available": true,
@@ -181705,10 +181533,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/13079.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/13079.png",
-      "https://b2b.yugtorg.com/image/data/13079_1.png",
       "https://b2b.yugtorg.com/image/data/13079_2.png",
-      "https://b2b.yugtorg.com/image/data/13079_4.png",
-      "https://b2b.yugtorg.com/image/data/13079_3.png"
+      "https://b2b.yugtorg.com/image/data/13079_1.png",
+      "https://b2b.yugtorg.com/image/data/13079_3.png",
+      "https://b2b.yugtorg.com/image/data/13079_4.png"
     ],
     "available": true,
     "price": 120.0,
@@ -181757,9 +181585,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/16372.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/16372.png",
-      "https://b2b.yugtorg.com/image/data/16372_2.png",
+      "https://b2b.yugtorg.com/image/data/16372_3.png",
       "https://b2b.yugtorg.com/image/data/16372_1.png",
-      "https://b2b.yugtorg.com/image/data/16372_3.png"
+      "https://b2b.yugtorg.com/image/data/16372_2.png"
     ],
     "available": true,
     "price": 219.8,
@@ -182267,8 +182095,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/21337.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/21337.png",
-      "https://b2b.yugtorg.com/image/data/21337_1.png",
-      "https://b2b.yugtorg.com/image/data/21337_2.png"
+      "https://b2b.yugtorg.com/image/data/21337_2.png",
+      "https://b2b.yugtorg.com/image/data/21337_1.png"
     ],
     "available": true,
     "price": 211.0,
@@ -182500,9 +182328,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/20956.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/20956.png",
-      "https://b2b.yugtorg.com/image/data/20956_3.png",
+      "https://b2b.yugtorg.com/image/data/20956_1.png",
       "https://b2b.yugtorg.com/image/data/20956_2.png",
-      "https://b2b.yugtorg.com/image/data/20956_1.png"
+      "https://b2b.yugtorg.com/image/data/20956_3.png"
     ],
     "available": true,
     "price": 330.0,
@@ -182521,11 +182349,34 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/22654.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/22654.png",
-      "https://b2b.yugtorg.com/image/data/22654_2.png",
-      "https://b2b.yugtorg.com/image/data/22654_1.png"
+      "https://b2b.yugtorg.com/image/data/22654_1.png",
+      "https://b2b.yugtorg.com/image/data/22654_2.png"
     ],
     "available": true,
     "price": 368.0,
+    "source_supplier": "yugtorg"
+  },
+  {
+    "id": "yugtorg-17106",
+    "sku": "LV-SW05",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Voltronic",
+    "name": "Комутатор PIX-LINK LV-SW05 5 портів Ethernet 10 / 100 Мбіт / сек, BOX",
+    "model": "LV-SW05",
+    "description": "Комутатор локальної мережі (switch) – це інтелектуальний пристрій, що забезпечує передачу пакетів даних. Комутатор оснащений портами 10 / 100 Мбіт / с з автопогодженням та роз`ємами RJ45. Всі порти підтримують функцію авто-MDI / MDIX, усуваючи необхідність використання кабелю з перехресними парами або портів з підтримкою функції Uplink. Технічні характеристики: Кількість портів: 5; Швидкість портів: 10 / 100 Мбіт / с з автопогодженням, з роз`ємами RJ45 (авто-MDI / MDIX); Управління потоком 802.3X, контроль зворотного потоку; Функція Auto-Uplink на кожному порту; Напруги живлення: 5 В; Струм споживання: 0,6 А; Енергоспоживання максимум: 3 Вт; Зовнішній блок живлення змінного. струму: 100 ~ 240 В, 50 / 60 Гц.",
+    "features": [
+      "3 Вт"
+    ],
+    "image": "https://b2b.yugtorg.com/image/data/17106.png",
+    "images": [
+      "https://b2b.yugtorg.com/image/data/17106.png",
+      "https://b2b.yugtorg.com/image/data/17106_2.png",
+      "https://b2b.yugtorg.com/image/data/17106_1.png",
+      "https://b2b.yugtorg.com/image/data/17106_3.png"
+    ],
+    "available": true,
+    "price": 420.0,
     "source_supplier": "yugtorg"
   },
   {
@@ -182543,8 +182394,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/17107.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/17107.png",
-      "https://b2b.yugtorg.com/image/data/17107_1.png",
       "https://b2b.yugtorg.com/image/data/17107_2.png",
+      "https://b2b.yugtorg.com/image/data/17107_1.png",
       "https://b2b.yugtorg.com/image/data/17107_3.png"
     ],
     "available": true,
@@ -182661,8 +182512,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/24087.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/24087.png",
-      "https://b2b.yugtorg.com/image/data/24087_2.png",
-      "https://b2b.yugtorg.com/image/data/24087_1.png"
+      "https://b2b.yugtorg.com/image/data/24087_1.png",
+      "https://b2b.yugtorg.com/image/data/24087_2.png"
     ],
     "available": true,
     "price": 1600.0,
@@ -182688,8 +182539,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/24109.png",
       "https://b2b.yugtorg.com/image/data/24109_4.png",
-      "https://b2b.yugtorg.com/image/data/24109_1.png",
       "https://b2b.yugtorg.com/image/data/24109_2.png",
+      "https://b2b.yugtorg.com/image/data/24109_1.png",
       "https://b2b.yugtorg.com/image/data/24109_3.png"
     ],
     "available": true,
@@ -182730,9 +182581,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/15944.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/15944.png",
+      "https://b2b.yugtorg.com/image/data/15944_1.png",
       "https://b2b.yugtorg.com/image/data/15944_3.png",
-      "https://b2b.yugtorg.com/image/data/15944_2.png",
-      "https://b2b.yugtorg.com/image/data/15944_1.png"
+      "https://b2b.yugtorg.com/image/data/15944_2.png"
     ],
     "available": true,
     "price": 3978.0,
@@ -182847,8 +182698,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/14904.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/14904.png",
-      "https://b2b.yugtorg.com/image/data/14904_2.png",
-      "https://b2b.yugtorg.com/image/data/14904_1.png"
+      "https://b2b.yugtorg.com/image/data/14904_1.png",
+      "https://b2b.yugtorg.com/image/data/14904_2.png"
     ],
     "available": true,
     "price": 425.0,
@@ -183137,8 +182988,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/15987.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/15987.png",
-      "https://b2b.yugtorg.com/image/data/15987_1.png",
-      "https://b2b.yugtorg.com/image/data/15987_2.png"
+      "https://b2b.yugtorg.com/image/data/15987_2.png",
+      "https://b2b.yugtorg.com/image/data/15987_1.png"
     ],
     "available": true,
     "price": 470.0,
@@ -183256,10 +183107,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/27916.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/27916.png",
+      "https://b2b.yugtorg.com/image/data/27916_4.png",
       "https://b2b.yugtorg.com/image/data/27916_1.png",
-      "https://b2b.yugtorg.com/image/data/27916_3.png",
       "https://b2b.yugtorg.com/image/data/27916_2.png",
-      "https://b2b.yugtorg.com/image/data/27916_4.png"
+      "https://b2b.yugtorg.com/image/data/27916_3.png"
     ],
     "available": true,
     "price": 600.0,
@@ -183938,8 +183789,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/14872.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/14872.png",
-      "https://b2b.yugtorg.com/image/data/14872_1.png",
       "https://b2b.yugtorg.com/image/data/14872_3.png",
+      "https://b2b.yugtorg.com/image/data/14872_1.png",
       "https://b2b.yugtorg.com/image/data/14872_2.png"
     ],
     "available": true,
@@ -184352,30 +184203,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-19657",
-    "sku": "99-10032736",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "Інший виробник",
-    "name": "Poe спліттер",
-    "model": "NVC-PD48/Type-C",
-    "description": "● Стандарт живлення PoE IEEE802.3af;● Потужність PoE 10 Вт;● Швидкість передачі даних 10/100 Мбіт/с;● Розпинання контактів PoE 1,2(+) / 3,6(-) та 4,5(+) / 7,8(-) &ndash; адаптивне;● Вихідний роз'єм USB Type-C;● Захист від надмірного струму вище 2.35",
-    "features": [
-      "Живлення: 48 В",
-      "Споживана потужність PoE: 10 Вт",
-      "Poe",
-      "23 мм",
-      "10 Вт"
-    ],
-    "image": "https://viatec.ua/upload/2/NVC-PD48Type-C.webp",
-    "images": [
-      "https://viatec.ua/upload/2/NVC-PD48Type-C.webp"
-    ],
-    "available": true,
-    "price": 248.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-22178",
     "sku": "99-10038382",
     "category": "Мережеве обладнання",
@@ -184656,6 +184483,28 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 3906.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-17542",
+    "sku": "99-10025348",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Комутаційна шафа",
+    "model": "Trinix TRX-9U/600x450x503 Black",
+    "description": "● Повністю зварна конструкція зі сталі, міцна та надійна;● Доступ до кабелів зверху, знизу і ззаду для зручного прокладання кабелів на місці;● Вбудована бічна панель, монтаж і демонтаж без інструментів, можна використовувати без замка;● Передні дверцята можна швидко демонтувати і змінити з правого на лівий бік без інструментів, кут відчинення дверцят 180&deg;, зручно для встановлення та обслуговування обладнання;● Максимальне статичне навантаження 55 кг;● Габаритні розміри: ширина 600 мм, глибина 450 мм, висота 9U &ndash; 503 мм",
+    "features": [
+      "600 мм",
+      "450 мм",
+      "503 мм"
+    ],
+    "image": "https://viatec.ua/upload/2/trinix-trx-9u-600.webp",
+    "images": [
+      "https://viatec.ua/upload/2/trinix-trx-9u-600.webp"
+    ],
+    "available": true,
+    "price": 4682.0,
     "source_supplier": "viatec"
   },
   {
@@ -185002,24 +184851,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-15732",
-    "sku": "99-00023110",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "Інший виробник",
-    "name": "Шафа",
-    "model": "19\" 6U, 600х500х373 мм акрилове скло сіра",
-    "description": "● Висота, U: 6;● Висота, мм: 373;● Глибина, мм: 500;● Ширина, мм: 602;● Конструктив, дюйм: 19;● Корисна глибина, мм: 460;● Двері передні: з прозорим акриловим склом;● Направляючі: одна пара з маркуванням юнітів;● Колір: чорний, RAL 7035;● Товщина металу, мм: 1 - 1,5;● Максимальне навантаження, кг: 80;● Вага, кг: 16,3",
-    "features": [],
-    "image": "https://viatec.ua/upload/images/prod/2024-12/MGSWA635G.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-12/MGSWA635G.webp"
-    ],
-    "available": true,
-    "price": 8685.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-18085",
     "sku": "99-10026414",
     "category": "Мережеве обладнання",
@@ -185137,24 +184968,21 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-15211",
-    "sku": "99-00022432",
+    "id": "viatec-14143",
+    "sku": "99-10037023",
     "category": "Мережеве обладнання",
     "subcategory": "",
     "brand": "Інший виробник",
-    "name": "Шафа настінна 19\"",
-    "model": "IPCOM СН-12U-06-06-ДС-1-7035",
-    "description": "● Висота (U) 12;● Ширина (мм) &nbsp; &nbsp; 600;● Глибина (мм) 600;● Макс. навантаження 120 кг;● Матеріал передніх дверей загартоване скло;● Бічні стінки &nbsp; &nbsp; знімні",
-    "features": [
-      "IP20",
-      "600 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-10/navesnoj-sn-12u-06-06.webp",
+    "name": "Шафа 600x600x773мм акрилове скло чорна",
+    "model": "19\" 15U",
+    "description": "● Тип: Настінна шафа 19\";● Висота: 15U;● Висота, мм: 773;● Глибина, мм: 600;● Ширина, мм: 600;● Конструктив, дюйм: 19;● Корисна глибина, мм: 560;● Передні двері: з прозорим акриловим склом;● Напрямні: одна пара без маркування юнітів;● Колір: чорний, RAL 9005;● Товщина металу, мм: 0.8 &ndash; 1,5;● Максимальне навантаження, кг: 70;● Вага, кг: 25",
+    "features": [],
+    "image": "https://viatec.ua/upload/2/shafa19-15u600.webp",
     "images": [
-      "https://viatec.ua/upload/images/prod/2024-10/navesnoj-sn-12u-06-06.webp"
+      "https://viatec.ua/upload/2/shafa19-15u600.webp"
     ],
     "available": true,
-    "price": 7547.0,
+    "price": 9450.0,
     "source_supplier": "viatec"
   },
   {
@@ -185376,6 +185204,26 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
+    "id": "viatec-12320",
+    "sku": "99-00017721",
+    "category": "Мережеве обладнання",
+    "subcategory": "",
+    "brand": "Інший виробник",
+    "name": "Шафа телекомунікаційна двері перф (чорна)",
+    "model": "IPCOM 6U 600x450",
+    "description": "● Висота, U 6;● Ширина, мм 600;● Глибина, мм 450;● Крок регулювання монтажних стійок, мм 20;● Кут відкриття дверей 180&deg;;● Колір Чорний (RAL 9005);● Ступінь захисту IP20;● Макс. Стат. навантаження 60 кг",
+    "features": [
+      "IP20"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/2024-02/ipcom-4u-600350.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/2024-02/ipcom-4u-600350.webp"
+    ],
+    "available": true,
+    "price": 4464.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-12323",
     "sku": "99-00017724",
     "category": "Мережеве обладнання",
@@ -185513,26 +185361,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 4080.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-12321",
-    "sku": "99-00017722",
-    "category": "Мережеве обладнання",
-    "subcategory": "",
-    "brand": "Інший виробник",
-    "name": "Шафа телекомунікаційна двері скло (чорна)",
-    "model": "IPCOM 6U 600x450",
-    "description": "● Висота, U 6;● Ширина, мм 600;● Глибина, мм 450;● Крок регулювання монтажних стійок, мм 25;● Кут відкриття дверей 180&deg;;● Колір Чорний (RAL 9005);● Ступінь захисту IP20;● Макс. Стат. навантаження 60 кг",
-    "features": [
-      "IP20"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-02/4u-ch-600-450.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-02/4u-ch-600-450.webp"
-    ],
-    "available": true,
-    "price": 4961.0,
     "source_supplier": "viatec"
   },
   {
@@ -186306,27 +186134,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-3874",
-    "sku": "99-00003421",
-    "category": "Системи контролю доступу",
-    "subcategory": "",
-    "brand": "Atis",
-    "name": "Контактна кнопка виходу",
-    "model": "ATIS Exit-805L (метал)",
-    "description": "Exit-805L - кнопка виходу з нержавіючої сталі з підсвічуванням кнопки, використовується для монтажу в системах контролю доступу. Підійде для установки разом з аудіо і відеодомофонами, засувками, контролерами, а також електрозамками.",
-    "features": [
-      "Номінал струму: DC12V",
-      "Матеріал: Нержавіюча сталь"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/Atis_exit_500L.jpg",
-    "images": [
-      "https://viatec.ua/upload/images/prod/Atis_exit_500L.jpg"
-    ],
-    "available": true,
-    "price": 441.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-4683",
     "sku": "99-00005283",
     "category": "Системи контролю доступу",
@@ -186625,27 +186432,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 14.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-12344",
-    "sku": "99-00012360",
-    "category": "Системи контролю доступу",
-    "subcategory": "",
-    "brand": "Atis",
-    "name": "Пульт керування турнікетом",
-    "model": "ATIS TRC-01",
-    "description": "Пульт ATIS TRC-01 дозволяє вручну управляти турнікетами ZKTeco TS1000, TS1011, TS1022, а також їх Pro модифікаціями на вхід/вихід та включати режим вільного проходу/антипаніка. Також підходить до турнікетів Форма, Бізант, Класік, Титан, Гранд, Аскольд. Має дротове підключення, оснащений світловою індикацією.",
-    "features": [
-      "Живлення: DC 12 В",
-      "47 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2024-02/ATISTRC-01.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2024-02/ATISTRC-01.webp"
-    ],
-    "available": true,
-    "price": 1793.0,
     "source_supplier": "viatec"
   },
   {
@@ -188399,6 +188185,30 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "yugtorg"
   },
   {
+    "id": "viatec-2257",
+    "sku": "00-00000096",
+    "category": "Системи контролю доступу",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "USB пристрій для введення карт",
+    "model": "DS-K1F100-D8E",
+    "description": "DS-K1F100-D8E &mdash; універсальний пристрій для зчитування, призначений для введення пропускних карт в систему охорони. Працює через USB-підключення. Завдання вводної панелі полягає у збереженні нових карток у існуючому охоронному устаткуванні. За допомогою DS-K1F100-D8E здійснюється первинна реєстрація чіпа. Підтримуються популярні формати у вигляді Mifare, EM та CPU. Після успішної інтеграції, кардридери доступу будуть впізнавати карткові перепустки мешканців та співробітників, які користуються автоматичними терміналами для входу до приміщення. На K1F100-D8E є індикація стану. Для початку роботи не потрібне налаштування. Процес займає мінімум часу. Подібна техніка найчастіше зберігається в охоронних кімнатах.",
+    "features": [
+      "Живлення: USB",
+      "Потужність споживання: 200mA",
+      "117мм",
+      "67.5мм",
+      "14.3мм"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/DS-K1F100-D8E.jpg",
+    "images": [
+      "https://viatec.ua/upload/images/prod/DS-K1F100-D8E.jpg"
+    ],
+    "available": true,
+    "price": 2588.0,
+    "source_supplier": "viatec"
+  },
+  {
     "id": "viatec-21544",
     "sku": "99-10037044",
     "category": "Системи контролю доступу",
@@ -188513,6 +188323,30 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 4725.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-19895",
+    "sku": "99-10029519",
+    "category": "Системи контролю доступу",
+    "subcategory": "",
+    "brand": "Hikvision",
+    "name": "Зчитувач Hikvision",
+    "model": "DS-K1105EMKB-QR Marine/Mifare IP66",
+    "description": "Стандарт IP66;EM card, M1 card;Доступ по карті, паролю, bluetooth, QR-коду;RS485;12В DС&nbsp;можливість роботи по bluetooth, qr-code тільки з 26-ю серією контролерів",
+    "features": [
+      "Живлення: 12В DC",
+      "Потужність споживання: 6 Вт",
+      "IP66",
+      "21.2 мм",
+      "6 Вт"
+    ],
+    "image": "https://viatec.ua/upload/2/DS-K1105EMKB-QR_image_1.webp",
+    "images": [
+      "https://viatec.ua/upload/2/DS-K1105EMKB-QR_image_1.webp"
+    ],
+    "available": true,
+    "price": 3375.0,
     "source_supplier": "viatec"
   },
   {
@@ -189492,27 +189326,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-9259",
-    "sku": "99-00012854",
-    "category": "Системи контролю доступу",
-    "subcategory": "",
-    "brand": "Ryobi",
-    "name": "Дотягувач",
-    "model": "RYOBI 1200 D-1200 SILVER",
-    "description": "Дотягувач дверей RYOBI&reg; серії 1200 модель D-1200 STD (Японія) накладного типу зі стандартною тягою &ndash; призначений для керування зовнішніми та внутрішніми дверима. Плаский дизайн європейского типу. Повністю контролює весь цикл зачинення дверей з роздільно регульованими швидкістями початкового та кінцевого зачинення (прихлопу). Корпус виготовлений за технологією лиття алюмінію під високим тиском. Клас 2/3/4, згідно EN1154, в залежності від місця монтажу. Можливість застосовувати у протипожежних дверях з межею вогнестійкості 60хв. Максимальна вага дверей до 80кг, Максимальна ширина дверей 1100мм.",
-    "features": [
-      "1100мм",
-      "1100 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2023-03/D-1200%C2%A0SILVER.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2023-03/D-1200%C2%A0SILVER.webp"
-    ],
-    "available": true,
-    "price": 2023.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-9261",
     "sku": "99-00012856",
     "category": "Системи контролю доступу",
@@ -189985,29 +189798,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-5787",
-    "sku": "99-00005900",
-    "category": "Системи контролю доступу",
-    "subcategory": "",
-    "brand": "Seven",
-    "name": "Замок електроригельний накладний",
-    "model": "SEVEN Z-727",
-    "description": "Накладний електроригельний замок; Ригель із нержавіючої сталі; Нормально відкритий (NO); Струм споживання у режимі очікування &ndash; 200 мА, у режимі роботи &ndash; 1200 мА; Роликовий механізм підняття ригеля (зменшує механічне зношування); Вбудований таймер затримки закриття дверей: 0,3,6 секунди; Розміри 150 х 27,5 х 34 мм, ригель замка діаметр 12 мм, довжина 15 мм",
-    "features": [
-      "Живлення: у режимі очікування – 200 мА, у режимі роботи – 1200 мА",
-      "34 мм",
-      "12 мм",
-      "15 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/SEVEN_Z-727.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/SEVEN_Z-727.webp"
-    ],
-    "available": true,
-    "price": 1196.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-5179",
     "sku": "99-00005901",
     "category": "Системи контролю доступу",
@@ -190028,6 +189818,26 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 1678.0,
+    "source_supplier": "viatec"
+  },
+  {
+    "id": "viatec-6608",
+    "sku": "99-00005896",
+    "category": "Системи контролю доступу",
+    "subcategory": "",
+    "brand": "Seven",
+    "name": "Зчитувач",
+    "model": "SEVEN CR-7452 MF black (mifare)",
+    "description": "Стандарт IP67;Mifare;Доступ по карті;Wiegand34;Використання на вулиці у приміщенні",
+    "features": [
+      "IP67"
+    ],
+    "image": "https://viatec.ua/upload/images/prod/SEVEN_CR-7452.webp",
+    "images": [
+      "https://viatec.ua/upload/images/prod/SEVEN_CR-7452.webp"
+    ],
+    "available": true,
+    "price": 737.0,
     "source_supplier": "viatec"
   },
   {
@@ -191787,8 +191597,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/12869.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/12869.png",
-      "https://b2b.yugtorg.com/image/data/12869_2.png",
-      "https://b2b.yugtorg.com/image/data/12869_1.png"
+      "https://b2b.yugtorg.com/image/data/12869_1.png",
+      "https://b2b.yugtorg.com/image/data/12869_2.png"
     ],
     "available": true,
     "price": 557.0,
@@ -191807,8 +191617,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/13681.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/13681.png",
-      "https://b2b.yugtorg.com/image/data/13681_2.png",
-      "https://b2b.yugtorg.com/image/data/13681_1.png"
+      "https://b2b.yugtorg.com/image/data/13681_1.png",
+      "https://b2b.yugtorg.com/image/data/13681_2.png"
     ],
     "available": true,
     "price": 1755.0,
@@ -192020,9 +191830,9 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/05007.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/05007.png",
-      "https://b2b.yugtorg.com/image/data/05007_1.png",
+      "https://b2b.yugtorg.com/image/data/05007_3.png",
       "https://b2b.yugtorg.com/image/data/05007_2.png",
-      "https://b2b.yugtorg.com/image/data/05007_3.png"
+      "https://b2b.yugtorg.com/image/data/05007_1.png"
     ],
     "available": true,
     "price": 1440.0,
@@ -192059,8 +191869,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/14844.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/14844.png",
-      "https://b2b.yugtorg.com/image/data/14844_2.png",
-      "https://b2b.yugtorg.com/image/data/14844_1.png"
+      "https://b2b.yugtorg.com/image/data/14844_1.png",
+      "https://b2b.yugtorg.com/image/data/14844_2.png"
     ],
     "available": true,
     "price": 1020.0,
@@ -192262,8 +192072,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/13162.png",
       "https://b2b.yugtorg.com/image/data/13162_1.png",
-      "https://b2b.yugtorg.com/image/data/13162_3.png",
-      "https://b2b.yugtorg.com/image/data/13162_2.png"
+      "https://b2b.yugtorg.com/image/data/13162_2.png",
+      "https://b2b.yugtorg.com/image/data/13162_3.png"
     ],
     "available": true,
     "price": 2280.0,
@@ -193023,28 +192833,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-5049",
-    "sku": "99-00005914",
-    "category": "Системи контролю доступу",
-    "subcategory": "",
-    "brand": "Yli Electronic",
-    "name": "електромеханічний замок",
-    "model": "YEH-210",
-    "description": "Електромеханічний замок, накладний, нормально відкритий (NO), сила утримання 300кг, 12В / 0.1А, короб з блокуванням 91х30х26мм, кріплення з ригелем 79х45.5х34.3мм; -40С - + 50С",
-    "features": [
-      "Живлення: DC 12B",
-      "3мм",
-      "3 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/bf08ef44d3f4b832a40a022922993ffc.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/bf08ef44d3f4b832a40a022922993ffc.webp"
-    ],
-    "available": true,
-    "price": 1255.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "yugtorg-12229",
     "sku": "YB-500A",
     "category": "Системи контролю доступу",
@@ -193061,8 +192849,8 @@ window.ALTCAM_CATALOG = [
     "images": [
       "https://b2b.yugtorg.com/image/data/12229.png",
       "https://b2b.yugtorg.com/image/data/12229_4.png",
-      "https://b2b.yugtorg.com/image/data/12229_2.png",
       "https://b2b.yugtorg.com/image/data/12229_3.png",
+      "https://b2b.yugtorg.com/image/data/12229_2.png",
       "https://b2b.yugtorg.com/image/data/12229_1.png"
     ],
     "available": true,
@@ -193085,10 +192873,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/15423.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/15423.png",
-      "https://b2b.yugtorg.com/image/data/15423_1.png",
-      "https://b2b.yugtorg.com/image/data/15423_4.png",
+      "https://b2b.yugtorg.com/image/data/15423_2.png",
       "https://b2b.yugtorg.com/image/data/15423_3.png",
-      "https://b2b.yugtorg.com/image/data/15423_2.png"
+      "https://b2b.yugtorg.com/image/data/15423_4.png",
+      "https://b2b.yugtorg.com/image/data/15423_1.png"
     ],
     "available": true,
     "price": 3674.0,
@@ -193152,8 +192940,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/16466.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/16466.png",
-      "https://b2b.yugtorg.com/image/data/16466_1.png",
       "https://b2b.yugtorg.com/image/data/16466_2.png",
+      "https://b2b.yugtorg.com/image/data/16466_1.png",
       "https://b2b.yugtorg.com/image/data/16466_3.png"
     ],
     "available": true,
@@ -193964,26 +193752,6 @@ window.ALTCAM_CATALOG = [
     "source_supplier": "viatec"
   },
   {
-    "id": "viatec-2124",
-    "sku": "99-00004753",
-    "category": "Системи контролю доступу",
-    "subcategory": "",
-    "brand": "Yli Electronic",
-    "name": "Ригельний замок",
-    "model": "YB-100S",
-    "description": "Замок електроригельний з магнітною функцією, виразний, NO (з живленням закритий), живлення: 12В DC, пуск: 900mA, в робочому режимі: 150mA. Підходить для дерев&#39;яної, скляної, металевої та протипожежних дверей. 205х35х40 мм",
-    "features": [
-      "Живлення: DC 12В, 900мА"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/YB-100S.jpg",
-    "images": [
-      "https://viatec.ua/upload/images/prod/YB-100S.jpg"
-    ],
-    "available": true,
-    "price": 1364.0,
-    "source_supplier": "viatec"
-  },
-  {
     "id": "viatec-21589",
     "sku": "99-10037172",
     "category": "Системи контролю доступу",
@@ -194025,30 +193793,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 1716.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-4740",
-    "sku": "99-00005400",
-    "category": "Системи контролю доступу",
-    "subcategory": "",
-    "brand": "Yli Electronic",
-    "name": "Ригельний замок",
-    "model": "YB-500IN(LED)",
-    "description": "Накладний електрорігельний замок з нержавіючої сталі, сила утримання 1000кг. Нормально відкритий (NO). Вбудований індикатор стану двері і таймер затримки зачинення дверей: 0,3,6 і 9 сек. Максимальна відстань спрацювання 8мм. Робочий струм: 960мА, в режимі очікування: 180мА. Живлення 12В. Розміри 185x25.7x37мм.",
-    "features": [
-      "Без живлення: відчинений",
-      "Живлення: 12В 960 мА",
-      "8мм",
-      "16 мм",
-      "13 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/YB-500IN(LED).jpg",
-    "images": [
-      "https://viatec.ua/upload/images/prod/YB-500IN(LED).jpg"
-    ],
-    "available": true,
-    "price": 2926.0,
     "source_supplier": "viatec"
   },
   {
@@ -194327,8 +194071,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/12931.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/12931.png",
-      "https://b2b.yugtorg.com/image/data/12931_2.png",
-      "https://b2b.yugtorg.com/image/data/12931_1.png"
+      "https://b2b.yugtorg.com/image/data/12931_1.png",
+      "https://b2b.yugtorg.com/image/data/12931_2.png"
     ],
     "available": true,
     "price": 756.0,
@@ -194347,8 +194091,8 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/13703.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/13703.png",
-      "https://b2b.yugtorg.com/image/data/13703_2.png",
-      "https://b2b.yugtorg.com/image/data/13703_1.png"
+      "https://b2b.yugtorg.com/image/data/13703_1.png",
+      "https://b2b.yugtorg.com/image/data/13703_2.png"
     ],
     "available": true,
     "price": 1253.0,
@@ -194445,10 +194189,10 @@ window.ALTCAM_CATALOG = [
     "image": "https://b2b.yugtorg.com/image/data/13125.png",
     "images": [
       "https://b2b.yugtorg.com/image/data/13125.png",
-      "https://b2b.yugtorg.com/image/data/13125_4.png",
       "https://b2b.yugtorg.com/image/data/13125_3.png",
+      "https://b2b.yugtorg.com/image/data/13125_1.png",
       "https://b2b.yugtorg.com/image/data/13125_2.png",
-      "https://b2b.yugtorg.com/image/data/13125_1.png"
+      "https://b2b.yugtorg.com/image/data/13125_4.png"
     ],
     "available": true,
     "price": 908.0,
@@ -194748,31 +194492,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 36.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-9368",
-    "sku": "99-00009566",
-    "category": "Системи контролю доступу",
-    "subcategory": "",
-    "brand": "Zkteco",
-    "name": "Шлагбаум (правий X00301072)",
-    "model": "ZKTeco CMP-200",
-    "description": "Нова серія CMP200 автоматичних шлагбаумів із телескопічною стрілою. Дозволяє змінювати положення стріли праворуч/ліворуч залежно від місця застосування. Для зручності використання корпус оснащений вбудованим підсвічуванням, що показує стан шлагбауму. Час відкриття/закриття: 3 с. Відстань дистанційного керування: &le;30 м. Тип стріли: пряма телескопічна стріла. Довжина стріли: 4,5 м (в упаковці 2,8 м).",
-    "features": [
-      "Живлення: AC110В/220В, 50/60 Гц; 100 Вт (максимум 120 Вт)",
-      "Швидкість відкриття: 3 с",
-      "IP54",
-      "1010 мм",
-      "100 Вт",
-      "120 Вт"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/2023-03/ZKTeco_CMP200r.webp",
-    "images": [
-      "https://viatec.ua/upload/images/prod/2023-03/ZKTeco_CMP200r.webp"
-    ],
-    "available": true,
-    "price": 25969.0,
     "source_supplier": "viatec"
   },
   {
@@ -195758,29 +195477,6 @@ window.ALTCAM_CATALOG = [
     ],
     "available": true,
     "price": 1091.0,
-    "source_supplier": "viatec"
-  },
-  {
-    "id": "viatec-4392",
-    "sku": "99-00004600",
-    "category": "Системи контролю доступу",
-    "subcategory": "",
-    "brand": "Інший виробник",
-    "name": "Електрорігельний замок",
-    "model": "YB-500H(LED)",
-    "description": "Накладний електрорігельний замок для вузьких дверей. Без живлення відкритий. Вбудований індикатор стану двері і таймер затримки зачинення дверей: 0,3,6 і 9 сек. Максимальна відстань спрацювання 8мм. Робочий струм: 1000мА, в режимі очікування: 180мА. Живлення 12В. розміри 267х45х38мм",
-    "features": [
-      "Живлення: DC 12 В, 1000 мА",
-      "8мм",
-      "38 мм",
-      "35 мм"
-    ],
-    "image": "https://viatec.ua/upload/images/prod/zamok-yb-500h.jpg",
-    "images": [
-      "https://viatec.ua/upload/images/prod/zamok-yb-500h.jpg"
-    ],
-    "available": true,
-    "price": 2684.0,
     "source_supplier": "viatec"
   },
   {
