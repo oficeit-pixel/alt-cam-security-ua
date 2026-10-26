@@ -12167,6 +12167,181 @@
           "post_id": "962902993572061_122141275623226993"
         }
       }
+    },
+    "daily-2026-10-19-015": {
+      "instagram": {
+        "published_at": "2026-10-26T14:05:25.484279+00:00",
+        "result": {
+          "container": {
+            "id": "18096595772418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18096595772418944"
+          },
+          "published": {
+            "id": "18248532304310821"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-26T14:06:32.870380+00:00",
+        "result": {
+          "container": {
+            "id": "18096493643424516"
+          },
+          "published": {
+            "id": "18112074236461702"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-26T14:06:35.605401+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 158,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793023595,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADnmrfXmrlqQ2HU1zIMacg0RZvJH7cAAJNJWsbYuf4SheRGkMfdbBLAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADTSVrG2Ln-Ep4",
+                  "file_size": 1810,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADnmrfXmrlqQ2HU1zIMacg0RZvJH7cAAJNJWsbYuf4SheRGkMfdbBLAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADTSVrG2Ln-Epy",
+                  "file_size": 29435,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADnmrfXmrlqQ2HU1zIMacg0RZvJH7cAAJNJWsbYuf4SheRGkMfdbBLAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADTSVrG2Ln-Ep9",
+                  "file_size": 131579,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADnmrfXmrlqQ2HU1zIMacg0RZvJH7cAAJNJWsbYuf4SheRGkMfdbBLAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADTSVrG2Ln-Ep-",
+                  "file_size": 276175,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADnmrfXmrlqQ2HU1zIMacg0RZvJH7cAAJNJWsbYuf4SheRGkMfdbBLAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADTSVrG2Ln-Ep8",
+                  "file_size": 288461,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🛡 Надійний захист для обладнання — у приміщенні та на вулиці\n\nЕлектроніка, мережеве обладнання, блоки живлення, автоматика чи компоненти відеоспостереження потребують захисту від пилу, вологи та механічних пошкоджень.\n\nУдаростійкі бокси з ABS-пластику IP65 — практичне рішення для безпечного розміщення обладнання в складних умовах експлуатації.\n\nОсновні переваги:\n\nміцний ABS-пластик\nступінь захисту IP65\nударостійкість до IK10 для відповідних моделей\nмонтажна панель у комплекті\nваріанти з глухими та прозорими дверцятами\nстійкість до UV-випромінювання, корозії та плісняви\nможливість використання у вологих, запилених приміщеннях та просто неба\nзручний навісний монтаж\n\nДоступні, зокрема, розміри 400×300×170 мм та 330×250×140 мм.\n\nПідходять для систем відеоспостереження, автоматики, мережевого та електротехнічного обладнання, складів, офісів, приватних будинків і зовнішніх точок монтажу.\n\nПотрібно підібрати бокс під конкретне обладнання?\nНапишіть «БОКС» у повідомлення ALT-CAM Security UA — д…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 159,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793023595,
+              "text": "🛡 Надійний захист для обладнання — у приміщенні та на вулиці\n\nЕлектроніка, мережеве обладнання, блоки живлення, автоматика чи компоненти відеоспостереження потребують захисту від пилу, вологи та механічних пошкоджень.\n\nУдаростійкі бокси з ABS-пластику IP65 — практичне рішення для безпечного розміщення обладнання в складних умовах експлуатації.\n\nОсновні переваги:\n\nміцний ABS-пластик\nступінь захисту IP65\nударостійкість до IK10 для відповідних моделей\nмонтажна панель у комплекті\nваріанти з глухими та прозорими дверцятами\nстійкість до UV-випромінювання, корозії та плісняви\nможливість використання у вологих, запилених приміщеннях та просто неба\nзручний навісний монтаж\n\nДоступні, зокрема, розміри 400×300×170 мм та 330×250×140 мм.\n\nПідходять для систем відеоспостереження, автоматики, мережевого та електротехнічного обладнання, складів, офісів, приватних будинків і зовнішніх точок монтажу.\n\nПотрібно підібрати бокс під конкретне обладнання?\nНапишіть «БОКС» у повідомлення ALT-CAM Security UA — допоможемо обрати потрібний розмір та виконання.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #IP65 #IK10 #ABSBox #МонтажнийБокс #ЗахистОбладнання #Відеоспостереження #МережевеОбладнання #Автоматика\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1053,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1077,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1085,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1103,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1109,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1115,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1123,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1138,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1156,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1176,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1196,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1212,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
