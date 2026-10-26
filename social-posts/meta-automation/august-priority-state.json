@@ -12349,6 +12349,196 @@
           "post_id": "962902993572061_122141372661226993"
         }
       }
+    },
+    "daily-2026-10-19-016": {
+      "instagram": {
+        "published_at": "2026-10-26T19:51:52.009417+00:00",
+        "result": {
+          "container": {
+            "id": "18096665987418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18096665987418944"
+          },
+          "published": {
+            "id": "17939587167400281"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-26T19:53:01.091020+00:00",
+        "result": {
+          "container": {
+            "id": "18096560681424516"
+          },
+          "published": {
+            "id": "18012396287994908"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-26T19:53:03.715645+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 160,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793044383,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADoGrfr5_niR7EvE2I9-F8Y2C6QzJqAAKlJ2sbYuf4Su3z3cILdGT9AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADpSdrG2Ln-Ep4",
+                  "file_size": 1814,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADoGrfr5_niR7EvE2I9-F8Y2C6QzJqAAKlJ2sbYuf4Su3z3cILdGT9AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADpSdrG2Ln-Epy",
+                  "file_size": 27889,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADoGrfr5_niR7EvE2I9-F8Y2C6QzJqAAKlJ2sbYuf4Su3z3cILdGT9AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADpSdrG2Ln-Ep9",
+                  "file_size": 120242,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADoGrfr5_niR7EvE2I9-F8Y2C6QzJqAAKlJ2sbYuf4Su3z3cILdGT9AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADpSdrG2Ln-Ep-",
+                  "file_size": 245302,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADoGrfr5_niR7EvE2I9-F8Y2C6QzJqAAKlJ2sbYuf4Su3z3cILdGT9AQADAgADdwADPQQ",
+                  "file_unique_id": "AQADpSdrG2Ln-Ep8",
+                  "file_size": 257021,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🏠 Відеоспостереження для квартири — спокій, навіть коли вас немає вдома\n\nХочете бачити, що відбувається у квартирі в будь-який момент? Система відеоспостереження допомагає контролювати важливі зони, отримувати сповіщення про рух та переглядати камери зі смартфона.\n\nALT-CAM Security UA підбирає та встановлює системи відеоспостереження для квартир під ключ.\n\nУ систему можна включити:\n\nкамери біля вхідних дверей та у коридорі;\nкамери у вітальні, кухні або інших важливих зонах;\nзапис на NVR або у хмару;\nвіддалений перегляд зі смартфона;\nсповіщення про рух;\nнічне бачення;\nзбереження архіву для перегляду подій.\nЩо ви отримуєте\n\n✅ Контроль квартири 24/7\n✅ Доступ до камер з телефону\n✅ Миттєві сповіщення про події\n✅ Можливість перегляду архіву\n✅ Професійний та акуратний монтаж\n✅ Налаштування системи під ваші потреби\n\nПідходить для контролю вхідної зони, квартири під час відсутності власників, дітей, домашніх тварин або орендованого житла.\n\nПрацюємо з обладнанням Hikvision, Dahua, Imou, TP-Link,…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 161,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793044383,
+              "text": "🏠 Відеоспостереження для квартири — спокій, навіть коли вас немає вдома\n\nХочете бачити, що відбувається у квартирі в будь-який момент? Система відеоспостереження допомагає контролювати важливі зони, отримувати сповіщення про рух та переглядати камери зі смартфона.\n\nALT-CAM Security UA підбирає та встановлює системи відеоспостереження для квартир під ключ.\n\nУ систему можна включити:\n\nкамери біля вхідних дверей та у коридорі;\nкамери у вітальні, кухні або інших важливих зонах;\nзапис на NVR або у хмару;\nвіддалений перегляд зі смартфона;\nсповіщення про рух;\nнічне бачення;\nзбереження архіву для перегляду подій.\nЩо ви отримуєте\n\n✅ Контроль квартири 24/7\n✅ Доступ до камер з телефону\n✅ Миттєві сповіщення про події\n✅ Можливість перегляду архіву\n✅ Професійний та акуратний монтаж\n✅ Налаштування системи під ваші потреби\n\nПідходить для контролю вхідної зони, квартири під час відсутності власників, дітей, домашніх тварин або орендованого житла.\n\nПрацюємо з обладнанням Hikvision, Dahua, Imou, TP-Link, Reolink та іншими перевіреними брендами.\n\nПотрібно підібрати систему саме для вашої квартири?\n\nНапишіть «КАМЕРА» у повідомлення ALT-CAM Security UA — підготуємо консультацію та розрахунок.\n\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#ALTCAM #ALTCAMSecurityUA #Відеоспостереження #КамериВідеоспостереження #БезпекаКвартири #IPКамери #Відеонагляд #РозумнийДім #МонтажКамер #Hikvision #Dahua #Imou #Reolink\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1195,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1257,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1265,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1283,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1303,
+                  "length": 25,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1329,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1346,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1356,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1369,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1382,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1395,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1406,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1413,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1419,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1432,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
