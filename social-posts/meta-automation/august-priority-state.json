@@ -12736,6 +12736,179 @@
           "id": "122141497839226993",
           "post_id": "962902993572061_122141497857226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-10-27T19:27:15.959370+00:00",
+        "result": {
+          "container": {
+            "id": "18096893849418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18096893849418944"
+          },
+          "published": {
+            "id": "17978467551134528"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-27T19:28:25.280959+00:00",
+        "result": {
+          "container": {
+            "id": "18096794969424516"
+          },
+          "published": {
+            "id": "18125927482972439"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-27T19:28:28.000755+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 164,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793129307,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADpGrg-1vI0ewUykPQlhFkp11O_J9eAAJVHGsb2csJS2Ojdw-pxmHkAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADVRxrG9nLCUt4",
+                  "file_size": 1904,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADpGrg-1vI0ewUykPQlhFkp11O_J9eAAJVHGsb2csJS2Ojdw-pxmHkAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADVRxrG9nLCUty",
+                  "file_size": 33370,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADpGrg-1vI0ewUykPQlhFkp11O_J9eAAJVHGsb2csJS2Ojdw-pxmHkAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADVRxrG9nLCUt9",
+                  "file_size": 152571,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADpGrg-1vI0ewUykPQlhFkp11O_J9eAAJVHGsb2csJS2Ojdw-pxmHkAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADVRxrG9nLCUt-",
+                  "file_size": 326879,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADpGrg-1vI0ewUykPQlhFkp11O_J9eAAJVHGsb2csJS2Ojdw-pxmHkAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADVRxrG9nLCUt8",
+                  "file_size": 342355,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🔥 Загоряння може початися за секунди. Захист має спрацювати ще швидше.\n\nЕлектрощити, серверні, ДБЖ, акумуляторні бокси, автоматика та інше технічне обладнання можуть залишатися без нагляду годинами. Саме тому для таких зон варто використовувати автоматичні засоби пожежогасіння, які спрацьовують без участі людини.\n\nВ ALT-CAM Security UA доступні компактні аерозольні вогнегасники для локального захисту невеликих закритих просторів.\n\nСеред доступних рішень:\n\nS-HQL-2 — автоматичне спрацювання від 170°C, класи пожеж A/B/C/E;\nS-HQL30, 30 г — захист зони до 0,3 м³, спрацювання від 170°C;\nTenyu Tech 30 г — алюмінієвий корпус, діаметр 100 мм, зона гасіння до 0,3 м³;\nQRR0.01G/S-AZ, 10 г — спрацювання від 200°C, зона захисту до 0,1 м³;\nQRR0.012GW/S, 12 г — спрацювання від 170°C, зона захисту до 0,12 м³.\n\nТакі пристрої підходять для електрощитів, серверних шаф, систем автоматики, ДБЖ, акумуляторних боксів та іншого обладнання, де важливе швидке локальне реагування на загоряння.\n\nКомпактний розмір…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 165,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793129307,
+              "text": "🔥 Загоряння може початися за секунди. Захист має спрацювати ще швидше.\n\nЕлектрощити, серверні, ДБЖ, акумуляторні бокси, автоматика та інше технічне обладнання можуть залишатися без нагляду годинами. Саме тому для таких зон варто використовувати автоматичні засоби пожежогасіння, які спрацьовують без участі людини.\n\nВ ALT-CAM Security UA доступні компактні аерозольні вогнегасники для локального захисту невеликих закритих просторів.\n\nСеред доступних рішень:\n\nS-HQL-2 — автоматичне спрацювання від 170°C, класи пожеж A/B/C/E;\nS-HQL30, 30 г — захист зони до 0,3 м³, спрацювання від 170°C;\nTenyu Tech 30 г — алюмінієвий корпус, діаметр 100 мм, зона гасіння до 0,3 м³;\nQRR0.01G/S-AZ, 10 г — спрацювання від 200°C, зона захисту до 0,1 м³;\nQRR0.012GW/S, 12 г — спрацювання від 170°C, зона захисту до 0,12 м³.\n\nТакі пристрої підходять для електрощитів, серверних шаф, систем автоматики, ДБЖ, акумуляторних боксів та іншого обладнання, де важливе швидке локальне реагування на загоряння.\n\nКомпактний розмір дозволяє встановлювати їх безпосередньо всередині або поруч із зоною підвищеного ризику.\n\n🛡 Безпека починається ще до появи відкритого полум’я.\n\nПотрібно підібрати автоматичний вогнегасник під конкретний об’єм або обладнання? Напишіть «ПОЖЕЖА» у повідомлення ALT-CAM Security UA — допоможемо підібрати відповідне рішення.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #ПожежнаБезпека #АвтоматичнийВогнегасник #АерозольнеПожежогасіння #Електрощит #Серверна #ДБЖ #ЗахистОбладнання #БезпекаБізнесу\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1328,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1352,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1360,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1378,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1394,
+                  "length": 24,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1419,
+                  "length": 24,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1444,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1456,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1466,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1471,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1489,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1509,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
       }
     }
   }
