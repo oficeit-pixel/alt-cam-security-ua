@@ -13115,6 +13115,146 @@
           "id": "122141600595226993",
           "post_id": "962902993572061_122141600613226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-10-28T20:20:01.911263+00:00",
+        "result": {
+          "container": {
+            "id": "18097153610418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18097153610418944"
+          },
+          "published": {
+            "id": "18084329885375063"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-28T20:21:13.706748+00:00",
+        "result": {
+          "container": {
+            "id": "18097045592424516"
+          },
+          "published": {
+            "id": "17969678406190321"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-28T20:21:15.984873+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 168,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793218875,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADqGriWTv4I4sbW8Lj0Miwgi2kI8wNAAL6GmsbWWwZS3uI1PvV_3xKAQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD-hprG1lsGUt4",
+                  "file_size": 2050,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADqGriWTv4I4sbW8Lj0Miwgi2kI8wNAAL6GmsbWWwZS3uI1PvV_3xKAQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD-hprG1lsGUty",
+                  "file_size": 31614,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADqGriWTv4I4sbW8Lj0Miwgi2kI8wNAAL6GmsbWWwZS3uI1PvV_3xKAQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD-hprG1lsGUt9",
+                  "file_size": 132448,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADqGriWTv4I4sbW8Lj0Miwgi2kI8wNAAL6GmsbWWwZS3uI1PvV_3xKAQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD-hprG1lsGUt-",
+                  "file_size": 265940,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADqGriWTv4I4sbW8Lj0Miwgi2kI8wNAAL6GmsbWWwZS3uI1PvV_3xKAQADAgADdwADPQQ",
+                  "file_unique_id": "AQAD-hprG1lsGUt8",
+                  "file_size": 275869,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🔌 Потрібно підключити мережеве обладнання через оптоволокно?\n\nMikroTik S-35LC20D / S-3553LC20D — комплект SFP-модулів Rx/Tx для оптичного мережевого з’єднання.\n\nОсновне:\n\nкомплект із 2 SFP-модулів\nробота в парі Rx / Tx\nшвидкість передачі даних — 1,25 Гбіт/с\nмодель — S-35LC20D / S-3553LC20D\n\nПотрібно перевірити сумісність із вашим комутатором, маршрутизатором або іншим мережевим обладнанням? Напишіть «SFP» у повідомлення ALT-CAM Security UA — допоможемо підібрати потрібний варіант.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #MikroTik #SFP #Оптоволокно #МережевеОбладнання #ОптичнаМережа #Телекомунікації\n\n🤖 https://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 491,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 515,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 523,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 541,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 551,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 556,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 569,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 589,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 604,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 625,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
       }
     }
   }
