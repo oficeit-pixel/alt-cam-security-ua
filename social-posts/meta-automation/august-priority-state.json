@@ -12910,6 +12910,196 @@
           }
         }
       }
+    },
+    "daily-2026-10-19-019": {
+      "instagram": {
+        "published_at": "2026-10-28T08:20:11.471484+00:00",
+        "result": {
+          "container": {
+            "id": "18097017176418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18097017176418944"
+          },
+          "published": {
+            "id": "18115852460590149"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-28T08:21:20.416656+00:00",
+        "result": {
+          "container": {
+            "id": "18096912158424516"
+          },
+          "published": {
+            "id": "18130895263697203"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-28T08:21:23.209457+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 166,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793175682,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADpmrhsII4bdg2l4g3W5BQrmoYC1FVAAMeaxvZywlL3Pd8Ex3lHBcBAAMCAANzAAM9BA",
+                  "file_unique_id": "AQAEHmsb2csJS3g",
+                  "file_size": 1815,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADpmrhsII4bdg2l4g3W5BQrmoYC1FVAAMeaxvZywlL3Pd8Ex3lHBcBAAMCAANtAAM9BA",
+                  "file_unique_id": "AQAEHmsb2csJS3I",
+                  "file_size": 28861,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADpmrhsII4bdg2l4g3W5BQrmoYC1FVAAMeaxvZywlL3Pd8Ex3lHBcBAAMCAAN4AAM9BA",
+                  "file_unique_id": "AQAEHmsb2csJS30",
+                  "file_size": 133945,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADpmrhsII4bdg2l4g3W5BQrmoYC1FVAAMeaxvZywlL3Pd8Ex3lHBcBAAMCAAN5AAM9BA",
+                  "file_unique_id": "AQAEHmsb2csJS34",
+                  "file_size": 281985,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADpmrhsII4bdg2l4g3W5BQrmoYC1FVAAMeaxvZywlL3Pd8Ex3lHBcBAAMCAAN3AAM9BA",
+                  "file_unique_id": "AQAEHmsb2csJS3w",
+                  "file_size": 295117,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "📹 Відеоспостереження для малого бізнесу — усе важливе під контролем\n\nКав’ярня, салон, аптека, шоурум, студія, невеликий магазин чи інше комерційне приміщення — відеоспостереження допомагає контролювати ключові зони, зменшувати ризики та швидко перевіряти спірні ситуації.\n\nALT-CAM Security UA підбирає та встановлює системи відеоспостереження під конкретний бізнес і планування приміщення.\n\nУ систему можна включити:\n\nкамери на вході та виході;\nконтроль касової зони;\nогляд торгового залу або зони обслуговування;\nконтроль складу та підсобних приміщень;\nзовнішні камери біля входу;\nзапис архіву;\nперегляд камер зі смартфона;\nсповіщення про рух та події.\nЩо отримує власник бізнесу\n\n✅ Контроль каси та розрахункової зони\n✅ Контроль персоналу та клієнтського потоку\n✅ Відеофіксацію спірних ситуацій\n✅ Контроль товару, складу та входу\n✅ Віддалений перегляд 24/7\n✅ Архів записів для перевірки подій\n✅ Професійний монтаж і налаштування\n\nМи підбираємо розташування камер так, щоб мінімізувати сліпі зони та…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 167,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793175683,
+              "text": "📹 Відеоспостереження для малого бізнесу — усе важливе під контролем\n\nКав’ярня, салон, аптека, шоурум, студія, невеликий магазин чи інше комерційне приміщення — відеоспостереження допомагає контролювати ключові зони, зменшувати ризики та швидко перевіряти спірні ситуації.\n\nALT-CAM Security UA підбирає та встановлює системи відеоспостереження під конкретний бізнес і планування приміщення.\n\nУ систему можна включити:\n\nкамери на вході та виході;\nконтроль касової зони;\nогляд торгового залу або зони обслуговування;\nконтроль складу та підсобних приміщень;\nзовнішні камери біля входу;\nзапис архіву;\nперегляд камер зі смартфона;\nсповіщення про рух та події.\nЩо отримує власник бізнесу\n\n✅ Контроль каси та розрахункової зони\n✅ Контроль персоналу та клієнтського потоку\n✅ Відеофіксацію спірних ситуацій\n✅ Контроль товару, складу та входу\n✅ Віддалений перегляд 24/7\n✅ Архів записів для перевірки подій\n✅ Професійний монтаж і налаштування\n\nМи підбираємо розташування камер так, щоб мінімізувати сліпі зони та отримати інформативний огляд саме тих місць, які важливі для вашого бізнесу.\n\nПідходить для кав’ярень, салонів, аптек, шоурумів, студій, пекарень, невеликих магазинів, пунктів видачі та офісів.\n\nПотрібен розрахунок системи?\n\nНапишіть «КАМЕРА» у повідомлення ALT-CAM Security UA — підготуємо консультацію та індивідуальну пропозицію.\n\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#ALTCAM #ALTCAMSecurityUA #Відеоспостереження #МалийБізнес #БезпекаБізнесу #КамериВідеоспостереження #МонтажКамер #Відеонагляд #Кавярня #Салон #Аптека #Шоурум #СистемиБезпеки\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1339,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1401,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1409,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1427,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1447,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1460,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1476,
+                  "length": 25,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1502,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1515,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1528,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1537,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1544,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1552,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1560,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1580,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
