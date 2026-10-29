@@ -13264,6 +13264,174 @@
           "id": "122141655159226993",
           "post_id": "962902993572061_122141655177226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-10-29T11:41:44.430465+00:00",
+        "result": {
+          "container": {
+            "id": "18097314440418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18097314440418944"
+          },
+          "published": {
+            "id": "18133941577746309"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-29T11:42:52.327238+00:00",
+        "result": {
+          "container": {
+            "id": "18097193552424516"
+          },
+          "published": {
+            "id": "18055791479804146"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-29T11:42:54.922806+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 169,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793274174,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADqWrjMT4dAAHr6mHnXhMfnzJ0vhxOywACOx1rG1lsIUtRv0cMzRdnvAEAAwIAA3MAAz0E",
+                  "file_unique_id": "AQADOx1rG1lsIUt4",
+                  "file_size": 1807,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADqWrjMT4dAAHr6mHnXhMfnzJ0vhxOywACOx1rG1lsIUtRv0cMzRdnvAEAAwIAA20AAz0E",
+                  "file_unique_id": "AQADOx1rG1lsIUty",
+                  "file_size": 27006,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADqWrjMT4dAAHr6mHnXhMfnzJ0vhxOywACOx1rG1lsIUtRv0cMzRdnvAEAAwIAA3gAAz0E",
+                  "file_unique_id": "AQADOx1rG1lsIUt9",
+                  "file_size": 119205,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADqWrjMT4dAAHr6mHnXhMfnzJ0vhxOywACOx1rG1lsIUtRv0cMzRdnvAEAAwIAA3kAAz0E",
+                  "file_unique_id": "AQADOx1rG1lsIUt-",
+                  "file_size": 244730,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADqWrjMT4dAAHr6mHnXhMfnzJ0vhxOywACOx1rG1lsIUtRv0cMzRdnvAEAAwIAA3cAAz0E",
+                  "file_unique_id": "AQADOx1rG1lsIUt8",
+                  "file_size": 260079,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "⚡ Надійний кабель для електромонтажу — Одескабель ПВСм\n\nДля підключення електрообладнання, освітлення та побудови електромереж важливо правильно підібрати не лише кабель, а й його кількість жил та переріз.\n\nУ ALT-CAM Security UA доступні кабелі Одескабель ПВСм у різних виконаннях — від компактних варіантів для невеликих навантажень до більших перерізів для серйозніших задач.\n\nУ наявності:\n\nПВСм 2×1,0 / 1,5 / 2,5 / 4 / 6 / 10 / 16 мм²\nПВСм 2×1,0 + 1×1,0\nПВСм 2×1,5 + 1×1,5\nПВСм 2×2,5 + 1×2,5\nПВСм 2×4,0 + 1×4,0\nПВСм 2×6,0 + 1×6,0\nПВСм 3×1,0 + 1×1,0\nПВСм 3×1,5 + 1×1,5\nПВСм 3×2,5 + 1×2,5\nПВСм 3×4,0 + 1×4,0\n\nПВСм підійде для електромонтажних робіт у житлових, офісних, комерційних та технічних приміщеннях, де потрібне гнучке кабельне підключення.\n\nБренд — Одескабель.\nПридбати та отримати консультацію можна в ALT-CAM Security UA.\n\nНе знаєте, який переріз потрібен під ваше навантаження?\nНапишіть «КАБЕЛЬ» у повідомлення ALT-CAM Security UA — допоможемо підібрати відповідний варіант.\n\n🌐 https://a…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 170,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793274174,
+              "text": "⚡ Надійний кабель для електромонтажу — Одескабель ПВСм\n\nДля підключення електрообладнання, освітлення та побудови електромереж важливо правильно підібрати не лише кабель, а й його кількість жил та переріз.\n\nУ ALT-CAM Security UA доступні кабелі Одескабель ПВСм у різних виконаннях — від компактних варіантів для невеликих навантажень до більших перерізів для серйозніших задач.\n\nУ наявності:\n\nПВСм 2×1,0 / 1,5 / 2,5 / 4 / 6 / 10 / 16 мм²\nПВСм 2×1,0 + 1×1,0\nПВСм 2×1,5 + 1×1,5\nПВСм 2×2,5 + 1×2,5\nПВСм 2×4,0 + 1×4,0\nПВСм 2×6,0 + 1×6,0\nПВСм 3×1,0 + 1×1,0\nПВСм 3×1,5 + 1×1,5\nПВСм 3×2,5 + 1×2,5\nПВСм 3×4,0 + 1×4,0\n\nПВСм підійде для електромонтажних робіт у житлових, офісних, комерційних та технічних приміщеннях, де потрібне гнучке кабельне підключення.\n\nБренд — Одескабель.\nПридбати та отримати консультацію можна в ALT-CAM Security UA.\n\nНе знаєте, який переріз потрібен під ваше навантаження?\nНапишіть «КАБЕЛЬ» у повідомлення ALT-CAM Security UA — допоможемо підібрати відповідний варіант.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #Одескабель #ПВСм #ЕлектричнийКабель #Електромонтаж #Електрика #Кабель #МіднийКабель\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 992,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1016,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1024,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1042,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1054,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1060,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1079,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1094,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1105,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1113,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1131,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
       }
     }
   }
