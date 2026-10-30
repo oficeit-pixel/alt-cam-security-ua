@@ -13638,6 +13638,184 @@
           "id": "122141799243226993",
           "post_id": "962902993572061_122141799261226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-10-30T14:32:54.992642+00:00",
+        "result": {
+          "container": {
+            "id": "18097572467418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18097572467418944"
+          },
+          "published": {
+            "id": "18120260162473065"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-30T14:34:03.388482+00:00",
+        "result": {
+          "container": {
+            "id": "18097457045424516"
+          },
+          "published": {
+            "id": "18132643213842630"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-30T14:34:06.819993+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 173,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793370846,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADrWrkqt3iEnqTIqzVDczUDNFOfJT1AAJDIWsb7ispS_N-yEwzPWqKAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADQyFrG-4rKUt4",
+                  "file_size": 1895,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADrWrkqt3iEnqTIqzVDczUDNFOfJT1AAJDIWsb7ispS_N-yEwzPWqKAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADQyFrG-4rKUty",
+                  "file_size": 28982,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADrWrkqt3iEnqTIqzVDczUDNFOfJT1AAJDIWsb7ispS_N-yEwzPWqKAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADQyFrG-4rKUt9",
+                  "file_size": 120498,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADrWrkqt3iEnqTIqzVDczUDNFOfJT1AAJDIWsb7ispS_N-yEwzPWqKAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADQyFrG-4rKUt-",
+                  "file_size": 246658,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADrWrkqt3iEnqTIqzVDczUDNFOfJT1AAJDIWsb7ispS_N-yEwzPWqKAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADQyFrG-4rKUt8",
+                  "file_size": 256073,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "☀️ Немає Wi-Fi? Немає розетки? Відеоспостереження все одно можливе\n\nDahua APOLLO BP3EW-4G — автономна поворотна IP-камера для об’єктів, де немає дротового інтернету та постійного електроживлення.\n\nПідключення через 4G LTE, вбудований акумулятор 36 Wh і сонячна панель 8 Вт дозволяють організувати відеоконтроль на віддалених локаціях: будівельних майданчиках, фермах, дачах, паркінгах, складах та інших територіях.\n\nКамера має 3 МП (2304×1296), об’єктив 3,6 мм F1.0, технологію кольорового нічного бачення WizColor та LED-підсвічування до 20 метрів.\n\n📹 Поворот: 350° по горизонталі / 90° по вертикалі\n🧠 Виявлення людей та автомобілів\n🔊 Двосторонній аудіозв’язок\n🚨 Світлова та звукова сигналізація\n📱 Перегляд, архів, налаштування та сповіщення через DMSS\n💾 microSD до 512 ГБ\n🎞 Кодек H.265\n🌐 Додатково — Ethernet RJ-45 10/100 Мбіт/с\n🛡 Захист корпусу IP66\n🌡 Робоча температура: від -20°C до +50°C\n\nМенше залежності від кабелів — більше можливостей для відеоконтролю там, де це потрібно.\n\nПотрібна автоно…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 174,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793370846,
+              "text": "☀️ Немає Wi-Fi? Немає розетки? Відеоспостереження все одно можливе\n\nDahua APOLLO BP3EW-4G — автономна поворотна IP-камера для об’єктів, де немає дротового інтернету та постійного електроживлення.\n\nПідключення через 4G LTE, вбудований акумулятор 36 Wh і сонячна панель 8 Вт дозволяють організувати відеоконтроль на віддалених локаціях: будівельних майданчиках, фермах, дачах, паркінгах, складах та інших територіях.\n\nКамера має 3 МП (2304×1296), об’єктив 3,6 мм F1.0, технологію кольорового нічного бачення WizColor та LED-підсвічування до 20 метрів.\n\n📹 Поворот: 350° по горизонталі / 90° по вертикалі\n🧠 Виявлення людей та автомобілів\n🔊 Двосторонній аудіозв’язок\n🚨 Світлова та звукова сигналізація\n📱 Перегляд, архів, налаштування та сповіщення через DMSS\n💾 microSD до 512 ГБ\n🎞 Кодек H.265\n🌐 Додатково — Ethernet RJ-45 10/100 Мбіт/с\n🛡 Захист корпусу IP66\n🌡 Робоча температура: від -20°C до +50°C\n\nМенше залежності від кабелів — більше можливостей для відеоконтролю там, де це потрібно.\n\nПотрібна автономна камера для вашого об’єкта? Напишіть «КАМЕРА» у повідомлення ALT-CAM Security UA — допоможемо підібрати рішення.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #Dahua #DahuaApollo #Відеоспостереження #4GКамера #АвтономнаКамера #СонячнаКамера #IPКамера #DMSS #Безпека\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1130,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1154,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1162,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1180,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1187,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1200,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1220,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1230,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1247,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1262,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1272,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1278,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1291,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
       }
     }
   }
