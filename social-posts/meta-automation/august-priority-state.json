@@ -14019,6 +14019,196 @@
           }
         }
       }
+    },
+    "daily-2026-10-19-025": {
+      "instagram": {
+        "published_at": "2026-10-31T08:44:59.142028+00:00",
+        "result": {
+          "container": {
+            "id": "18097737053418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18097737053418944"
+          },
+          "published": {
+            "id": "17980391285918951"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-31T08:46:11.418230+00:00",
+        "result": {
+          "container": {
+            "id": "18097622834424516"
+          },
+          "published": {
+            "id": "18109028494957043"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-31T08:46:15.727115+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 177,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793436375,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADsWrlqtbwaGdUfuvPw7zgzWjV3mk4AAIUHGsb7isxS1Qp5F4puMuJAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADFBxrG-4rMUt4",
+                  "file_size": 1756,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADsWrlqtbwaGdUfuvPw7zgzWjV3mk4AAIUHGsb7isxS1Qp5F4puMuJAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADFBxrG-4rMUty",
+                  "file_size": 29745,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADsWrlqtbwaGdUfuvPw7zgzWjV3mk4AAIUHGsb7isxS1Qp5F4puMuJAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADFBxrG-4rMUt9",
+                  "file_size": 133451,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADsWrlqtbwaGdUfuvPw7zgzWjV3mk4AAIUHGsb7isxS1Qp5F4puMuJAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADFBxrG-4rMUt-",
+                  "file_size": 282112,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADsWrlqtbwaGdUfuvPw7zgzWjV3mk4AAIUHGsb7isxS1Qp5F4puMuJAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADFBxrG-4rMUt8",
+                  "file_size": 294109,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "⚡ Резервне живлення для офісів, магазинів і складів — бізнес працює навіть під час відключень\n\nКоли зникає електроенергія, зупинка кас, серверів, холодильного обладнання, інтернету чи систем безпеки одразу перетворюється на втрати для бізнесу.\n\nALT-CAM Security UA підбирає, встановлює та налаштовує системи резервного живлення для комерційних об’єктів під конкретне навантаження та сценарій роботи.\n\nМожемо забезпечити резервне живлення для:\n\nофісних робочих місць і комп’ютерів;\nсерверів, мережевого та IT-обладнання;\nкасових систем і терміналів;\nосвітлення;\nхолодильників і холодильних камер;\nвідеоспостереження, сигналізації та контролю доступу;\nінтернету та зв’язку;\nнасосів, автоматики та іншого важливого обладнання.\nЩо отримує ваш бізнес\n\n✅ Розрахунок необхідної потужності та автономності\n✅ Підбір інвертора, акумуляторів і захисної автоматики\n✅ Автоматичне перемикання на резерв, якщо це передбачено системою\n✅ Професійний монтаж і підключення\n✅ Налаштування та тестування обладнання\n✅ Можл…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 178,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793436375,
+              "text": "⚡ Резервне живлення для офісів, магазинів і складів — бізнес працює навіть під час відключень\n\nКоли зникає електроенергія, зупинка кас, серверів, холодильного обладнання, інтернету чи систем безпеки одразу перетворюється на втрати для бізнесу.\n\nALT-CAM Security UA підбирає, встановлює та налаштовує системи резервного живлення для комерційних об’єктів під конкретне навантаження та сценарій роботи.\n\nМожемо забезпечити резервне живлення для:\n\nофісних робочих місць і комп’ютерів;\nсерверів, мережевого та IT-обладнання;\nкасових систем і терміналів;\nосвітлення;\nхолодильників і холодильних камер;\nвідеоспостереження, сигналізації та контролю доступу;\nінтернету та зв’язку;\nнасосів, автоматики та іншого важливого обладнання.\nЩо отримує ваш бізнес\n\n✅ Розрахунок необхідної потужності та автономності\n✅ Підбір інвертора, акумуляторів і захисної автоматики\n✅ Автоматичне перемикання на резерв, якщо це передбачено системою\n✅ Професійний монтаж і підключення\n✅ Налаштування та тестування обладнання\n✅ Можливість подальшого масштабування\n✅ Сервісну підтримку після запуску\n\nРішення підбирається індивідуально: від резерву для інтернету, каси та освітлення до системи, яка підтримує роботу значної частини офісу, магазину або складу.\n\nПрацюємо з обладнанням Deye, Victron Energy, Pylontech, EcoFlow, Schneider Electric та іншими перевіреними рішеннями.\n\nALT-CAM Security UA — проєктування, монтаж, налаштування та запуск резервного живлення під ключ.\n\n📩 Напишіть «РЕЗЕРВ» у повідомлення — підготуємо консультацію та розрахунок під ваш об’єкт.\n\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#ALTCAM #ALTCAMSecurityUA #РезервнеЖивлення #БезперебійнеЖивлення #Інвертор #Акумулятори #Енергонезалежність #РезервДляБізнесу #Офіс #Магазин #Склад #Блекаут #СистемиЖивлення\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1541,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1603,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1611,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1629,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1647,
+                  "length": 21,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1669,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1679,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1692,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1712,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1730,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1736,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1745,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1752,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1761,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1782,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
