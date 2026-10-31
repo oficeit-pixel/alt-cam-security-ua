@@ -14216,6 +14216,186 @@
           "post_id": "962902993572061_122141927535226993"
         }
       }
+    },
+    "daily-2026-10-19-026": {
+      "instagram": {
+        "published_at": "2026-10-31T18:49:30.176082+00:00",
+        "result": {
+          "container": {
+            "id": "18097843865418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18097843865418944"
+          },
+          "published": {
+            "id": "18108588308364261"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-10-31T18:50:40.005301+00:00",
+        "result": {
+          "container": {
+            "id": "18097747586424516"
+          },
+          "published": {
+            "id": "18137424601642931"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-10-31T18:50:44.165266+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 179,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793472643,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADs2rmOILEyO4vMFXsNvQEn_sfYWQ6AAJfIWsbK_cxS3k4-qS1BjUxAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADXyFrGyv3MUt4",
+                  "file_size": 1904,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADs2rmOILEyO4vMFXsNvQEn_sfYWQ6AAJfIWsbK_cxS3k4-qS1BjUxAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADXyFrGyv3MUty",
+                  "file_size": 31029,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADs2rmOILEyO4vMFXsNvQEn_sfYWQ6AAJfIWsbK_cxS3k4-qS1BjUxAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADXyFrGyv3MUt9",
+                  "file_size": 133719,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADs2rmOILEyO4vMFXsNvQEn_sfYWQ6AAJfIWsbK_cxS3k4-qS1BjUxAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADXyFrGyv3MUt-",
+                  "file_size": 275217,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADs2rmOILEyO4vMFXsNvQEn_sfYWQ6AAJfIWsbK_cxS3k4-qS1BjUxAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADXyFrGyv3MUt8",
+                  "file_size": 287758,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🔋 Світло зникло? Зв’язок і заряд мають залишатися\n\nПід час блекауту, у дорозі, на роботі чи відпочинку павербанк стає вашим резервним джерелом енергії для смартфона, планшета, роутера, смарт-годинника та інших гаджетів.\n\nВ ALT-CAM Security UA доступні моделі різної ємності — від компактних рішень до потужних павербанків на десятки тисяч мА·год.\n\n⚡ 10 000 mAh — компактний варіант з потужністю до 22,5 Вт, Power Delivery, цифровим дисплеєм, 2×USB та USB Type-C.\n⚡ MIF 20 000 mAh — QC 22,5 Вт, 2×USB-A, LED-дисплей, входи Micro-USB та USB-C.\n⚡ 7GO GPW-08 30 000 mAh — PD + QC 3.0, вбудовані Type-C та Lightning кабелі, кілька портів і цифровий дисплей.\n⚡ Remax RPP-596 40 000 mAh — 22,5 Вт, QC/PD, 2×USB + 2×Type-C.\n⚡ ACL PW-113 50 000 mAh — велика ємність і підтримка PD 22,5 Вт.\n⚡ Remax RPP-123 60 000 mAh — PD 27 Вт + QC 22,5 Вт.\n\nТакож в асортименті є моделі з LED-ліхтариками, різними наборами портів, вбудованими кабелями та рішення для автономного заряджання далеко від електромережі.\n\nКому це…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 180,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793472644,
+              "text": "🔋 Світло зникло? Зв’язок і заряд мають залишатися\n\nПід час блекауту, у дорозі, на роботі чи відпочинку павербанк стає вашим резервним джерелом енергії для смартфона, планшета, роутера, смарт-годинника та інших гаджетів.\n\nВ ALT-CAM Security UA доступні моделі різної ємності — від компактних рішень до потужних павербанків на десятки тисяч мА·год.\n\n⚡ 10 000 mAh — компактний варіант з потужністю до 22,5 Вт, Power Delivery, цифровим дисплеєм, 2×USB та USB Type-C.\n⚡ MIF 20 000 mAh — QC 22,5 Вт, 2×USB-A, LED-дисплей, входи Micro-USB та USB-C.\n⚡ 7GO GPW-08 30 000 mAh — PD + QC 3.0, вбудовані Type-C та Lightning кабелі, кілька портів і цифровий дисплей.\n⚡ Remax RPP-596 40 000 mAh — 22,5 Вт, QC/PD, 2×USB + 2×Type-C.\n⚡ ACL PW-113 50 000 mAh — велика ємність і підтримка PD 22,5 Вт.\n⚡ Remax RPP-123 60 000 mAh — PD 27 Вт + QC 22,5 Вт.\n\nТакож в асортименті є моделі з LED-ліхтариками, різними наборами портів, вбудованими кабелями та рішення для автономного заряджання далеко від електромережі.\n\nКому це стане в пригоді?\n\nДля дому під час відключень, поїздок і відряджень, роботи поза офісом, туризму, кемпінгу та як резервне живлення для важливих гаджетів.\n\nНе знаєте, яка ємність потрібна саме вам — 10 000 чи 60 000 mAh?\nНапишіть «ПАВЕРБАНК» у повідомлення ALT-CAM Security UA — допоможемо підібрати модель під ваші пристрої та сценарій використання.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #PowerBank #Павербанк #Блекаут #РезервнеЖивлення #PowerDelivery #QuickCharge #АвтономнеЖивлення #ЗаряднийПристрій #ЕнергіяЗавждиПоруч\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1356,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1380,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1388,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1406,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1417,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1428,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1437,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1455,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1470,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1483,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1502,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1520,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1544,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
