@@ -14411,6 +14411,221 @@
           "id": "122142057837226993",
           "post_id": "962902993572061_122142057861226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-11-01T14:18:07.625851+00:00",
+        "result": {
+          "container": {
+            "id": "18098020250418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18098020250418944"
+          },
+          "published": {
+            "id": "18104661185034120"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-01T14:19:18.190399+00:00",
+        "result": {
+          "container": {
+            "id": "18097930298424516"
+          },
+          "published": {
+            "id": "18108496841250483"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-01T14:19:25.158729+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 181,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793542764,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADtWrnSmw289tM2JT54kWuUXU6lfhLAALsG2sbK_dBS_a9smgAAYGFAwEAAwIAA3MAAz0E",
+                  "file_unique_id": "AQAD7BtrGyv3QUt4",
+                  "file_size": 1709,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADtWrnSmw289tM2JT54kWuUXU6lfhLAALsG2sbK_dBS_a9smgAAYGFAwEAAwIAA20AAz0E",
+                  "file_unique_id": "AQAD7BtrGyv3QUty",
+                  "file_size": 22271,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADtWrnSmw289tM2JT54kWuUXU6lfhLAALsG2sbK_dBS_a9smgAAYGFAwEAAwIAA3gAAz0E",
+                  "file_unique_id": "AQAD7BtrGyv3QUt9",
+                  "file_size": 81529,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADtWrnSmw289tM2JT54kWuUXU6lfhLAALsG2sbK_dBS_a9smgAAYGFAwEAAwIAA3kAAz0E",
+                  "file_unique_id": "AQAD7BtrGyv3QUt-",
+                  "file_size": 157118,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADtWrnSmw289tM2JT54kWuUXU6lfhLAALsG2sbK_dBS_a9smgAAYGFAwEAAwIAA3cAAz0E",
+                  "file_unique_id": "AQAD7BtrGyv3QUt8",
+                  "file_size": 165957,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🛡 Безпека об’єкта починається з правильно підібраної системи\n\nПотрібно встановити або оновити систему безпеки для будинку, квартири, офісу, магазину, складу чи підприємства?\n\nALT-CAM Security UA — комплексний підхід від підбору обладнання до повністю налаштованої системи.\n\nМи допомагаємо з:\n\nвідеоспостереженням;\nдомофонією;\nконтролем доступу;\nмережевим та телекомунікаційним обладнанням;\nрезервним живленням;\nкабелем, монтажними матеріалами та комплектуючими;\nпрофесійним монтажем і налаштуванням.\n\nПродаж • Монтаж • Налаштування\n\nПідбираємо рішення під конкретний об’єкт і задачу — без зайвого обладнання та випадкових компонентів.\n\n📍 Київ • Вишгород • Київська область\n🌐 https://alt-cam.net.ua\n\nПотрібна консультація або розрахунок системи?\nНапишіть «БЕЗПЕКА» у Direct ALT-CAM Security UA — підберемо оптимальне рішення для вашого об’єкта.\n\nALT-CAM Security UA — безпека, якість, довіра.\n\n#ALTCAM #ALTCAMSecurityUA #Відеоспостереження #СистемиБезпеки #КонтрольДоступу #Домофонія #МонтажВідеоспост…",
+              "caption_entities": [
+                {
+                  "offset": 678,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 896,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 904,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 922,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 942,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 958,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 975,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 986,
+                  "length": 17,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 182,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793542765,
+              "text": "🛡 Безпека об’єкта починається з правильно підібраної системи\n\nПотрібно встановити або оновити систему безпеки для будинку, квартири, офісу, магазину, складу чи підприємства?\n\nALT-CAM Security UA — комплексний підхід від підбору обладнання до повністю налаштованої системи.\n\nМи допомагаємо з:\n\nвідеоспостереженням;\nдомофонією;\nконтролем доступу;\nмережевим та телекомунікаційним обладнанням;\nрезервним живленням;\nкабелем, монтажними матеріалами та комплектуючими;\nпрофесійним монтажем і налаштуванням.\n\nПродаж • Монтаж • Налаштування\n\nПідбираємо рішення під конкретний об’єкт і задачу — без зайвого обладнання та випадкових компонентів.\n\n📍 Київ • Вишгород • Київська область\n🌐 https://alt-cam.net.ua\n\nПотрібна консультація або розрахунок системи?\nНапишіть «БЕЗПЕКА» у Direct ALT-CAM Security UA — підберемо оптимальне рішення для вашого об’єкта.\n\nALT-CAM Security UA — безпека, якість, довіра.\n\n#ALTCAM #ALTCAMSecurityUA #Відеоспостереження #СистемиБезпеки #КонтрольДоступу #Домофонія #МонтажВідеоспостереження #Київ #Вишгород #КиївськаОбласть\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 678,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 896,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 904,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 922,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 942,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 958,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 975,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 986,
+                  "length": 25,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1012,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1018,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1028,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1049,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
       }
     }
   }
