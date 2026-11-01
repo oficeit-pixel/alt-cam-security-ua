@@ -14635,6 +14635,184 @@
           "id": "122142109923226993",
           "post_id": "962902993572061_122142109947226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-11-01T18:58:20.868192+00:00",
+        "result": {
+          "container": {
+            "id": "18098071730418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18098071730418944"
+          },
+          "published": {
+            "id": "17993453049026054"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-01T18:59:28.918851+00:00",
+        "result": {
+          "container": {
+            "id": "18097987304424516"
+          },
+          "published": {
+            "id": "18109282346574590"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-01T18:59:31.146072+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 183,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793559570,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADt2rnjBJtQEg7aElOm5yCilntifaSAAK2HWsbK_dBS6CdbDRatcgbAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADth1rGyv3QUt4",
+                  "file_size": 1810,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADt2rnjBJtQEg7aElOm5yCilntifaSAAK2HWsbK_dBS6CdbDRatcgbAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADth1rGyv3QUty",
+                  "file_size": 27081,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADt2rnjBJtQEg7aElOm5yCilntifaSAAK2HWsbK_dBS6CdbDRatcgbAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADth1rGyv3QUt9",
+                  "file_size": 114875,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADt2rnjBJtQEg7aElOm5yCilntifaSAAK2HWsbK_dBS6CdbDRatcgbAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADth1rGyv3QUt-",
+                  "file_size": 235436,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADt2rnjBJtQEg7aElOm5yCilntifaSAAK2HWsbK_dBS6CdbDRatcgbAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADth1rGyv3QUt8",
+                  "file_size": 248046,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🛡 ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем\n\nБезпека, зв’язок і стабільне живлення мають працювати як єдина система. Саме тому ALT-CAM Security UA пропонує не окреме обладнання, а комплексні рішення під конкретний об’єкт і завдання.\n\n👩‍💼 Аліса — ваш експерт ALT-CAM Security UA допоможе підібрати оптимальний варіант для квартири, будинку, офісу, магазину, складу чи підприємства.\n\nНаші основні напрямки:\n\n📹 відеоспостереження — для дому, бізнесу та територій;\n🚪 домофонія та відеодомофони;\n🔐 контроль доступу та облік робочого часу;\n🌐 локальні мережі, Wi-Fi та кабельна інфраструктура;\n🔧 оптичні лінії — прокладання, зварювання та тестування;\n⚡ резервне живлення, інвертори та акумуляторні системи;\n☀️ сонячні панелі та автономне енергозабезпечення.\nВід ідеї до готової системи\n\n✅ Консультація та підбір обладнання\n✅ Проєктування рішення під ваш об’єкт\n✅ Професійний монтаж\n✅ Налаштування та тестування\n✅ Запуск системи під ключ\n✅ Технічна підтримка після встановленн…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 184,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793559571,
+              "text": "🛡 ALT-CAM Security UA — комплексні рішення для безпеки та інженерних систем\n\nБезпека, зв’язок і стабільне живлення мають працювати як єдина система. Саме тому ALT-CAM Security UA пропонує не окреме обладнання, а комплексні рішення під конкретний об’єкт і завдання.\n\n👩‍💼 Аліса — ваш експерт ALT-CAM Security UA допоможе підібрати оптимальний варіант для квартири, будинку, офісу, магазину, складу чи підприємства.\n\nНаші основні напрямки:\n\n📹 відеоспостереження — для дому, бізнесу та територій;\n🚪 домофонія та відеодомофони;\n🔐 контроль доступу та облік робочого часу;\n🌐 локальні мережі, Wi-Fi та кабельна інфраструктура;\n🔧 оптичні лінії — прокладання, зварювання та тестування;\n⚡ резервне живлення, інвертори та акумуляторні системи;\n☀️ сонячні панелі та автономне енергозабезпечення.\nВід ідеї до готової системи\n\n✅ Консультація та підбір обладнання\n✅ Проєктування рішення під ваш об’єкт\n✅ Професійний монтаж\n✅ Налаштування та тестування\n✅ Запуск системи під ключ\n✅ Технічна підтримка після встановлення\n\nПідбираємо обладнання з урахуванням бюджету, реальних потреб, умов монтажу та можливості подальшого розширення.\n\nALT-CAM Security UA — технології, люди, безпека та ваш спокій.\n\n📩 Напишіть «ПРОЄКТ» у Direct — Аліса допоможе зорієнтуватися в обладнанні та підготувати індивідуальне рішення.\n\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#ALTCAM #ALTCAMSecurityUA #СистемиБезпеки #Відеоспостереження #Домофонія #КонтрольДоступу #ЛокальніМережі #Оптика #РезервнеЖивлення #СонячніПанелі #МонтажПідКлюч\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1305,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1367,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1375,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1393,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1409,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1429,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1440,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1457,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1473,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1481,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1499,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1514,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1533,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
       }
     }
   }
