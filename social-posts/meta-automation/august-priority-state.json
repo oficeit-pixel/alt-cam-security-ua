@@ -14814,6 +14814,181 @@
           }
         }
       }
+    },
+    "daily-2026-10-19-029": {
+      "instagram": {
+        "published_at": "2026-11-02T08:24:32.910817+00:00",
+        "result": {
+          "container": {
+            "id": "18098175776418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18098175776418944"
+          },
+          "published": {
+            "id": "17927938089202833"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-02T08:25:40.105914+00:00",
+        "result": {
+          "container": {
+            "id": "18098093726424516"
+          },
+          "published": {
+            "id": "18118045441821560"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-02T08:25:43.950913+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 185,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793607943,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADuWroSQbqyVGYJiyzWJ3l-Dyt-fOEAAMhaxv5v0FLXN7HgR_Fv5YBAAMCAANzAAM9BA",
+                  "file_unique_id": "AQAEIWsb-b9BS3g",
+                  "file_size": 1833,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADuWroSQbqyVGYJiyzWJ3l-Dyt-fOEAAMhaxv5v0FLXN7HgR_Fv5YBAAMCAANtAAM9BA",
+                  "file_unique_id": "AQAEIWsb-b9BS3I",
+                  "file_size": 30356,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADuWroSQbqyVGYJiyzWJ3l-Dyt-fOEAAMhaxv5v0FLXN7HgR_Fv5YBAAMCAAN4AAM9BA",
+                  "file_unique_id": "AQAEIWsb-b9BS30",
+                  "file_size": 132839,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADuWroSQbqyVGYJiyzWJ3l-Dyt-fOEAAMhaxv5v0FLXN7HgR_Fv5YBAAMCAAN5AAM9BA",
+                  "file_unique_id": "AQAEIWsb-b9BS34",
+                  "file_size": 275479,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADuWroSQbqyVGYJiyzWJ3l-Dyt-fOEAAMhaxv5v0FLXN7HgR_Fv5YBAAMCAAN3AAM9BA",
+                  "file_unique_id": "AQAEIWsb-b9BS3w",
+                  "file_size": 287202,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🔐 Контроль доступу нового рівня — без зайвих ключів і складних рішень\n\nПотрібно контролювати, хто, коли і яким способом отримує доступ до приміщення? Термінали Dahua дозволяють організувати сучасну систему доступу для офісу, підприємства, складу, ЖК, навчального закладу або іншого об’єкта.\n\nЗалежно від моделі доступ можливий за обличчям, IC/NFC-карткою, PIN-кодом, Bluetooth, QR-кодом або комбінацією кількох способів.\n\nDahua DHI-ASI3103F-MEPW — розпізнавання обличчя приблизно за 0,2 секунди, до 10 000 користувачів, підтримка QR-кодів, Bluetooth, RFID, Wi-Fi, Ethernet та PoE. Корпус — IP65.\n\nDahua DHI-ASI1201E-V1 — автономний термінал із доступом за IC-карткою, PIN-кодом або їх комбінацією. Підтримує до 30 000 користувачів, TCP/IP, RS-485, Wiegand, Anti-passback та захист IP66.\n\nDahua DHI-ASI2201H-W — підтримка IC-карт, NFC, PIN-коду та Wi-Fi, до 30 000 користувачів, кольоровий 2,4\" дисплей, Ethernet, RS-485, Wiegand та USB. Захист — IP65.\n\nТакі рішення допомагають не просто відчиняти дв…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 186,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793607943,
+              "text": "🔐 Контроль доступу нового рівня — без зайвих ключів і складних рішень\n\nПотрібно контролювати, хто, коли і яким способом отримує доступ до приміщення? Термінали Dahua дозволяють організувати сучасну систему доступу для офісу, підприємства, складу, ЖК, навчального закладу або іншого об’єкта.\n\nЗалежно від моделі доступ можливий за обличчям, IC/NFC-карткою, PIN-кодом, Bluetooth, QR-кодом або комбінацією кількох способів.\n\nDahua DHI-ASI3103F-MEPW — розпізнавання обличчя приблизно за 0,2 секунди, до 10 000 користувачів, підтримка QR-кодів, Bluetooth, RFID, Wi-Fi, Ethernet та PoE. Корпус — IP65.\n\nDahua DHI-ASI1201E-V1 — автономний термінал із доступом за IC-карткою, PIN-кодом або їх комбінацією. Підтримує до 30 000 користувачів, TCP/IP, RS-485, Wiegand, Anti-passback та захист IP66.\n\nDahua DHI-ASI2201H-W — підтримка IC-карт, NFC, PIN-коду та Wi-Fi, до 30 000 користувачів, кольоровий 2,4\" дисплей, Ethernet, RS-485, Wiegand та USB. Захист — IP65.\n\nТакі рішення допомагають не просто відчиняти двері, а керувати правами доступу, вести архів подій та інтегрувати точки проходу в загальну систему безпеки.\n\nПотрібно підібрати термінал, електрозамок та схему підключення саме для вашого об’єкта?\n\nНапишіть «ДОСТУП» у повідомлення ALT-CAM Security UA — допоможемо сформувати готове рішення.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #Dahua #КонтрольДоступу #СКУД #РозпізнаванняОбличчя #RFID #NFC #FaceRecognition #БезпекаБізнесу\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1296,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1320,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1328,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1346,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1353,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1370,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1376,
+                  "length": 21,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1398,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1404,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1409,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1426,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1446,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
