@@ -14996,6 +14996,196 @@
           "post_id": "962902993572061_122142221997226993"
         }
       }
+    },
+    "daily-2026-10-19-030": {
+      "instagram": {
+        "published_at": "2026-11-02T18:45:21.758771+00:00",
+        "result": {
+          "container": {
+            "id": "18098282012418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18098282012418944"
+          },
+          "published": {
+            "id": "18400736005201857"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-02T18:45:31.418335+00:00",
+        "result": {
+          "container": {
+            "id": "18098204033424516"
+          },
+          "published": {
+            "id": "18102848630455669"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-02T18:45:34.682994+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 187,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793645134,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADu2ro2k0AAReSwVYn6FELbPAkfP6v0gACmh9rG_m_SUtMApJJjN858QEAAwIAA3MAAz0E",
+                  "file_unique_id": "AQADmh9rG_m_SUt4",
+                  "file_size": 1611,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADu2ro2k0AAReSwVYn6FELbPAkfP6v0gACmh9rG_m_SUtMApJJjN858QEAAwIAA20AAz0E",
+                  "file_unique_id": "AQADmh9rG_m_SUty",
+                  "file_size": 28406,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADu2ro2k0AAReSwVYn6FELbPAkfP6v0gACmh9rG_m_SUtMApJJjN858QEAAwIAA3gAAz0E",
+                  "file_unique_id": "AQADmh9rG_m_SUt9",
+                  "file_size": 133020,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADu2ro2k0AAReSwVYn6FELbPAkfP6v0gACmh9rG_m_SUtMApJJjN858QEAAwIAA3kAAz0E",
+                  "file_unique_id": "AQADmh9rG_m_SUt-",
+                  "file_size": 279377,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADu2ro2k0AAReSwVYn6FELbPAkfP6v0gACmh9rG_m_SUtMApJJjN858QEAAwIAA3cAAz0E",
+                  "file_unique_id": "AQADmh9rG_m_SUt8",
+                  "file_size": 292557,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🚧 Контроль доступу до двору під ключ — порядок, безпека та зручність для мешканців\n\nВільний проїзд сторонніх авто, хаотичне паркування та відсутність контролю на в’їзді — типові проблеми для дворів багатоквартирних будинків.\n\nALT-CAM Security UA допомагає організувати комплексну систему контролю доступу до території житлового комплексу.\n\nУ рішення може входити:\n\nавтоматичний шлагбаум;\nпункт пропуску або пост охорони;\nзчитувачі карт і брелоків;\nкнопки виходу та елементи керування;\nпульти та картки доступу;\nблоки керування й живлення;\nпрофесійний монтаж, налаштування та запуск системи.\nЩо отримують мешканці\n\n✅ Контроль в’їзду на територію\n✅ Доступ лише для мешканців та авторизованих відвідувачів\n✅ Зручне керування шлагбаумом\n✅ Менше стороннього транспорту у дворі\n✅ Можливість організувати централізований пункт контролю\n✅ Акуратний професійний монтаж\n\nТаке рішення підходить для ЖК, ОСББ, закритих дворів, парковок, котеджних містечок та приватних територій.\n\nПотрібно організувати контроль…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 188,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793645134,
+              "text": "🚧 Контроль доступу до двору під ключ — порядок, безпека та зручність для мешканців\n\nВільний проїзд сторонніх авто, хаотичне паркування та відсутність контролю на в’їзді — типові проблеми для дворів багатоквартирних будинків.\n\nALT-CAM Security UA допомагає організувати комплексну систему контролю доступу до території житлового комплексу.\n\nУ рішення може входити:\n\nавтоматичний шлагбаум;\nпункт пропуску або пост охорони;\nзчитувачі карт і брелоків;\nкнопки виходу та елементи керування;\nпульти та картки доступу;\nблоки керування й живлення;\nпрофесійний монтаж, налаштування та запуск системи.\nЩо отримують мешканці\n\n✅ Контроль в’їзду на територію\n✅ Доступ лише для мешканців та авторизованих відвідувачів\n✅ Зручне керування шлагбаумом\n✅ Менше стороннього транспорту у дворі\n✅ Можливість організувати централізований пункт контролю\n✅ Акуратний професійний монтаж\n\nТаке рішення підходить для ЖК, ОСББ, закритих дворів, парковок, котеджних містечок та приватних територій.\n\nПотрібно організувати контроль в’їзду до вашого двору?\nНапишіть «ДОСТУП» у повідомлення ALT-CAM Security UA — допоможемо підібрати систему під ваш об’єкт та сценарій використання.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #КонтрольДоступу #Шлагбаум #СКУД #ОСББ #ЖитловийКомплекс #БезпечнийДвір #АвтоматикаВоріт #СистемиБезпеки #МонтажШлагбаума #Київ #Вишгород\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1154,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1178,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1186,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1204,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1221,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1231,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1237,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1243,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1261,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1276,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1293,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1309,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1326,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1332,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1346,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
