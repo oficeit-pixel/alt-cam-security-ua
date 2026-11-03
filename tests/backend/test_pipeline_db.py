@@ -13,6 +13,7 @@ from sqlalchemy.engine import make_url
 SCENARIO = Path(__file__).with_name("pipeline_db_scenario.py")
 DISPATCH = Path(__file__).with_name("pipeline_dispatch_scenario.py")
 BUSINESS = Path(__file__).with_name("pipeline_business_scenario.py")
+AI = Path(__file__).with_name("pipeline_ai_scenario.py")
 
 
 def _local(url) -> bool:
@@ -59,5 +60,13 @@ def test_pipeline_end_to_end(method):
             subprocess.run([sys.executable, "-m", "alembic", "upgrade", "head"], env=env, cwd=root, check=True)
         result = subprocess.run([sys.executable, str(BUSINESS)], env=env, cwd=root, capture_output=True, text=True, timeout=180)
         assert result.returncode == 0 and "PIPELINE_BUSINESS_SCENARIO_OK" in result.stdout, result.stdout[-4000:] + result.stderr[-6000:]
+        # AI consultant with a scripted LLM (no network)
+        asyncio.run(database(False))
+        asyncio.run(database(True))
+        if method == "alembic":
+            subprocess.run([sys.executable, "-m", "alembic", "upgrade", "head"], env=env, cwd=root, check=True)
+        ai_env = {k: v for k, v in env.items() if k not in {"GEMINI_API_KEY", "LLM_BASE_URL", "LLM_MODEL"}}
+        result = subprocess.run([sys.executable, str(AI)], env=ai_env, cwd=root, capture_output=True, text=True, timeout=180)
+        assert result.returncode == 0 and "PIPELINE_AI_SCENARIO_OK" in result.stdout, result.stdout[-4000:] + result.stderr[-6000:]
     finally:
         asyncio.run(database(False))

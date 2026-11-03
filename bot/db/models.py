@@ -299,3 +299,14 @@ class BusinessConnectionRecord(Base):
     is_enabled: Mapped[bool] = mapped_column(Boolean, default=True)
     allowed: Mapped[bool] = mapped_column(Boolean, default=False)
     updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
+
+
+class AIChatPref(Base):
+    """Per-client switch for the AI consultant (owner /ai_off, automatic pause after hand-off or owner reply)."""
+
+    __tablename__ = "ai_chat_prefs"
+
+    client_tg_id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    paused: Mapped[bool] = mapped_column(Boolean, default=False)
+    reason: Mapped[str | None] = mapped_column(String(64))
+    updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())

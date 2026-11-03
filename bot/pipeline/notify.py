@@ -91,7 +91,10 @@ def owner_keyboard(inquiry: Inquiry, order: WebOrder | None = None) -> InlineKey
     ]
     for start in range(0, len(status_buttons), 2):
         rows.append(status_buttons[start:start + 2])
-    rows.append([InlineKeyboardButton(text="🔄 Оновити картку", callback_data=f"{p}:card")])
+    last = [InlineKeyboardButton(text="🔄 Оновити картку", callback_data=f"{p}:card")]
+    if get_settings().ai_active and inquiry.client_tg_id and inquiry.status not in {"closed", "rejected"}:
+        last.append(InlineKeyboardButton(text="🤖 AI вимк/увімк", callback_data=f"{p}:ai"))
+    rows.append(last)
     return InlineKeyboardMarkup(inline_keyboard=rows)
 
 

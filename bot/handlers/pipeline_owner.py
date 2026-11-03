@@ -128,6 +128,12 @@ async def owner_action(callback: CallbackQuery, state: FSMContext) -> None:
             await callback.message.answer("\n".join(lines) if rows else "У замовленні немає товарів постачальників — перевірте вручну.",
                                           disable_web_page_preview=True)
             return
+        elif action == "ai" and inquiry.client_tg_id:
+            from bot.ai import runtime as ai_runtime
+
+            paused = not await ai_runtime.is_paused(session, inquiry.client_tg_id)
+            await ai_runtime.pause_from_owner(session, inquiry, paused, "owner_button")
+            note = "🤖 AI вимкнено в цьому чаті" if paused else "🤖 AI увімкнено в цьому чаті"
         elif action != "card":
             await callback.answer()
             return
@@ -255,3 +261,31 @@ async def inquiry_card(message: Message, command: CommandObject) -> None:
             return
         await notify.send_owner_card(message.bot, session, inquiry, targets=[message.chat.id])
         await session.commit()
+
+
+async def _inquiry_from_command(message: Message, command: CommandObject, session) -> Inquiry | None:
+    arg = (command.args or "").strip().lstrip("№#")
+    if arg.isdigit():
+        return await session.get(Inquiry, int(arg))
+    if message.reply_to_message:
+        return await service.inquiry_by_owner_message(session, message.chat.id, message.reply_to_message.message_id)
+    return None
+
+
+@router.message(Command("ai_off", "ai_on"))
+async def ai_toggle(message: Message, command: CommandObject) -> None:
+    """/ai_off 123 (or reply to a card / copied message) — pause the AI consultant for that client chat."""
+    if message.from_user is None or not is_admin(message.from_user.id):
+        return
+    from bot.ai import runtime as ai_runtime
+
+    paused = command.command == "ai_off"
+    async with SessionLocal() as session:
+        inquiry = await _inquiry_from_command(message, command, session)
+        if inquiry is None or not inquiry.client_tg_id:
+            await message.answer(f"Використання: /{command.command} 123 або відповіддю на картку запиту.")
+            return
+        await ai_runtime.pause_from_owner(session, inquiry, paused, f"/{command.command}")
+        await session.commit()
+    who = inquiry.client_name or inquiry.client_username or inquiry.client_tg_id
+    await message.answer(f"🤖 AI {'вимкнено' if paused else 'увімкнено'} для чату клієнта {escape(str(who))} (запит №{inquiry.id}).")

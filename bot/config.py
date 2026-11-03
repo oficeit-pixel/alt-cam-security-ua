@@ -1,7 +1,7 @@
 from functools import lru_cache
 from typing import Any, List
 
-from pydantic import Field, field_validator
+from pydantic import AliasChoices, Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -101,6 +101,18 @@ class Settings(BaseSettings):
     business_autoreply_enabled: bool = Field(True, alias="BUSINESS_AUTOREPLY_ENABLED")
     business_autoreply_text: str | None = Field(None, alias="BUSINESS_AUTOREPLY_TEXT")
     business_ignore_chat_ids: str = Field("", alias="BUSINESS_IGNORE_CHAT_IDS")
+    # AI consultant "помічник ALT-CAM" (OpenAI-compatible API; disabled without a key)
+    llm_api_key: str | None = Field(None, validation_alias=AliasChoices("LLM_API_KEY", "GEMINI_API_KEY"))
+    llm_base_url: str = Field("https://generativelanguage.googleapis.com/v1beta/openai/", alias="LLM_BASE_URL")
+    llm_model: str = Field("gemini-3.5-flash-lite", alias="LLM_MODEL")
+    ai_enabled: bool = Field(True, alias="AI_ENABLED")
+    ai_business_enabled: bool = Field(True, alias="AI_BUSINESS_ENABLED")
+    ai_counts_as_response: bool = Field(True, alias="AI_COUNTS_AS_RESPONSE")
+    ai_pause_on_owner_reply: bool = Field(True, alias="AI_PAUSE_ON_OWNER_REPLY")
+    ai_min_interval_seconds: float = Field(4.0, alias="AI_MIN_INTERVAL_SECONDS")
+    ai_daily_request_limit: int = Field(200, alias="AI_DAILY_REQUEST_LIMIT")
+    ai_timeout_seconds: float = Field(30.0, alias="AI_TIMEOUT_SECONDS")
+    ai_max_tool_rounds: int = Field(4, alias="AI_MAX_TOOL_ROUNDS")
 
     model_config = SettingsConfigDict(
         env_file=".env",
@@ -186,6 +198,10 @@ class Settings(BaseSettings):
     @property
     def business_ignored_ids(self) -> set[int]:
         return {int(x) for x in self.business_ignore_chat_ids.replace(" ", "").split(",") if x.lstrip("-").isdigit()}
+
+    @property
+    def ai_active(self) -> bool:
+        return bool(self.ai_enabled and self.llm_api_key and self.pipeline_enabled)
 
     @property
     def scheduler_active(self) -> bool:
