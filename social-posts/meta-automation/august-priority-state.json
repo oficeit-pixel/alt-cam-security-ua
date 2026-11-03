@@ -15363,6 +15363,17 @@
             }
           }
         }
+      },
+      "threads": {
+        "published_at": "2026-11-03T21:40:12.741022+00:00",
+        "result": {
+          "container": {
+            "id": "18098438327424516"
+          },
+          "published": {
+            "id": "17907354144667661"
+          }
+        }
       }
     },
     "daily-2026-10-19-032": {
@@ -15371,6 +15382,168 @@
         "result": {
           "id": "122142346215226993",
           "post_id": "962902993572061_122142346233226993"
+        }
+      },
+      "instagram": {
+        "published_at": "2026-11-03T21:40:25.241768+00:00",
+        "result": {
+          "container": {
+            "id": "18098501570418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18098501570418944"
+          },
+          "published": {
+            "id": "18136515661674608"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-03T21:40:28.625085+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 191,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793742028,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADv2rqVMvW0HVjdAvi2eBR_-BTqiOqAAJRGmsbrmVYSwJFyN2a2OsdAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADURprG65lWEt4",
+                  "file_size": 1882,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADv2rqVMvW0HVjdAvi2eBR_-BTqiOqAAJRGmsbrmVYSwJFyN2a2OsdAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADURprG65lWEty",
+                  "file_size": 30483,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADv2rqVMvW0HVjdAvi2eBR_-BTqiOqAAJRGmsbrmVYSwJFyN2a2OsdAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADURprG65lWEt9",
+                  "file_size": 138391,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADv2rqVMvW0HVjdAvi2eBR_-BTqiOqAAJRGmsbrmVYSwJFyN2a2OsdAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADURprG65lWEt-",
+                  "file_size": 292723,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADv2rqVMvW0HVjdAvi2eBR_-BTqiOqAAJRGmsbrmVYSwJFyN2a2OsdAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADURprG65lWEt8",
+                  "file_size": 304863,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "📡 Потрібен стабільний Wi-Fi просто неба?\n\nДвір, паркінг, склад, літня тераса, територія підприємства чи інша відкрита локація — звичайного роутера тут часто недостатньо.\n\nЗовнішні точки доступу Ruijie Reyee створені для побудови стабільної бездротової мережі на відкритих територіях та підтримують сучасний стандарт Wi-Fi 6.\n\nОсновні можливості:\n\nробота у діапазонах 2,4 та 5 ГГц\nпідтримка Wi-Fi 6 / 802.11ax\nтехнологія 2×2 MIMO / MU-MIMO\nсумарна швидкість окремих моделей до 1775 Мбіт/с\nдо 100–256 підключених клієнтів залежно від моделі\nGigabit Ethernet\nживлення через PoE 802.3af / 802.3at\nу окремих моделях — SFP-порт\nзахист корпусу IP68\nробоча температура до -40…+65°C залежно від моделі\nзручне налаштування через Ruijie Cloud або мобільний застосунок\n\nДля окремих моделей заявлене покриття до 100 м у 2,4 ГГц та до 300 м у 5 ГГц.\n\nТаке рішення підійде для приватних будинків, прибудинкових територій, паркінгів, складів, виробництв, кафе, готелів, офісних комплексів та інших відкритих просторі…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 192,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793742028,
+              "text": "📡 Потрібен стабільний Wi-Fi просто неба?\n\nДвір, паркінг, склад, літня тераса, територія підприємства чи інша відкрита локація — звичайного роутера тут часто недостатньо.\n\nЗовнішні точки доступу Ruijie Reyee створені для побудови стабільної бездротової мережі на відкритих територіях та підтримують сучасний стандарт Wi-Fi 6.\n\nОсновні можливості:\n\nробота у діапазонах 2,4 та 5 ГГц\nпідтримка Wi-Fi 6 / 802.11ax\nтехнологія 2×2 MIMO / MU-MIMO\nсумарна швидкість окремих моделей до 1775 Мбіт/с\nдо 100–256 підключених клієнтів залежно від моделі\nGigabit Ethernet\nживлення через PoE 802.3af / 802.3at\nу окремих моделях — SFP-порт\nзахист корпусу IP68\nробоча температура до -40…+65°C залежно від моделі\nзручне налаштування через Ruijie Cloud або мобільний застосунок\n\nДля окремих моделей заявлене покриття до 100 м у 2,4 ГГц та до 300 м у 5 ГГц.\n\nТаке рішення підійде для приватних будинків, прибудинкових територій, паркінгів, складів, виробництв, кафе, готелів, офісних комплексів та інших відкритих просторів.\n\nПотрібно розрахувати кількість точок доступу та правильно розмістити їх на вашому об’єкті?\nНапишіть «WI-FI» у повідомлення ALT-CAM Security UA — допоможемо підібрати обладнання під площу, кількість користувачів і умови монтажу.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #Ruijie #Reyee #WiFi6 #OutdoorWiFi #ТочкаДоступу #WiFiДляБізнесу #МережевеОбладнання #IP68\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1237,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1261,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1269,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1287,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1295,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1302,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1309,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1322,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1336,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1352,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1372,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1382,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
         }
       }
     }
