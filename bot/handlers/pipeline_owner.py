@@ -14,7 +14,7 @@ from bot.db.models import Inquiry, WebOrder
 from bot.handlers.admin import is_admin
 from bot.integrations import nova_poshta_tracking as np
 from bot.integrations.supplier_stock import check_items
-from bot.pipeline import notify, service, texts
+from bot.pipeline import delivery, notify, service, texts
 from bot.pipeline.statuses import PAYMENT_METHODS, STATUS_ORDER, STATUSES, can_transition, label
 from bot.states.states import OwnerPipelineSG
 
@@ -40,12 +40,7 @@ async def _refresh_card(callback: CallbackQuery, session, inquiry: Inquiry, head
 
 async def send_to_client(bot, session, inquiry: Inquiry, text: str, owner_id: int | None, *, kind: str = "owner_reply",
                          reply_markup=None) -> bool:
-    if not inquiry.client_chat_id:
-        return False
-    try:
-        await bot.send_message(inquiry.client_chat_id, text, reply_markup=reply_markup, disable_web_page_preview=True)
-    except Exception as exc:
-        logger.warning("client_send_failed inquiry=%s (%s)", inquiry.id, type(exc).__name__)
+    if not await delivery.send_client_text(bot, inquiry, text, reply_markup=reply_markup):
         return False
     await service.record_owner_reply(session, inquiry, text, owner_id, kind=kind)
     if inquiry.status == "new" and can_transition("new", "taken"):
@@ -73,7 +68,9 @@ async def owner_action(callback: CallbackQuery, state: FSMContext) -> None:
         if action == "take":
             if can_transition(inquiry.status, "taken"):
                 await service.transition(session, inquiry, "taken", actor="owner", owner_id=owner_id)
-            sent = await send_to_client(callback.bot, session, inquiry, texts.taken_text(inquiry.id), owner_id, kind="auto_taken")
+            # Business chat: no automatic "taken" message on behalf of the owner (he answers himself).
+            sent = False if delivery.is_business(inquiry) else await send_to_client(
+                callback.bot, session, inquiry, texts.taken_text(inquiry.id), owner_id, kind="auto_taken")
             if not sent:  # site lead without Telegram: taking still stops the escalation
                 await service.record_owner_reply(session, inquiry, "taken (no client chat)", owner_id, kind="taken")
             note = "Взято в роботу" + (" · клієнту надіслано повідомлення" if sent else " · зателефонуйте клієнту")
@@ -84,7 +81,7 @@ async def owner_action(callback: CallbackQuery, state: FSMContext) -> None:
             await callback.answer()
             return
         elif action == "tpl":
-            text = texts.template_text(arg)
+            text = texts.template_text(arg, business=delivery.is_business(inquiry))
             if text is None:
                 await callback.answer("Невідомий шаблон", show_alert=True)
                 return
@@ -162,7 +159,14 @@ async def relay_owner_message(message: Message, inquiry_id: int | None) -> None:
             await message.answer("Не вдалося: клієнт не підключений до бота.")
             return
         try:
-            await message.bot.copy_message(inquiry.client_chat_id, message.chat.id, message.message_id)
+            if delivery.is_business(inquiry):
+                if not message.text:
+                    await message.answer("Медіа у бізнес-чат надішліть напряму з вашого акаунта; тут — лише текст.")
+                    return
+                if not await delivery.send_client_text(message.bot, inquiry, message.html_text):
+                    raise RuntimeError("business_send_failed")
+            else:
+                await message.bot.copy_message(inquiry.client_chat_id, message.chat.id, message.message_id)
         except Exception as exc:
             await message.answer(f"Не вдалося надіслати ({type(exc).__name__}).")
             return

@@ -236,6 +236,7 @@ class Inquiry(Base):
     client_chat_id: Mapped[int | None] = mapped_column(BigInteger)
     client_username: Mapped[str | None] = mapped_column(String(64))
     client_name: Mapped[str | None] = mapped_column(String(255))
+    business_connection_id: Mapped[str | None] = mapped_column(String(64), index=True)
     phone: Mapped[str | None] = mapped_column(String(32), index=True)
     summary: Mapped[str] = mapped_column(Text, default="", server_default="")
     site_lead_id: Mapped[int | None] = mapped_column(ForeignKey("site_leads.id", ondelete="SET NULL"), index=True)
@@ -272,3 +273,29 @@ class InquiryEvent(Base):
     owner_chat_id: Mapped[int | None] = mapped_column(BigInteger)
     owner_message_id: Mapped[int | None] = mapped_column(BigInteger, index=True)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), index=True)
+
+
+class PipelineContact(Base):
+    """Owner / second contact chat ids auto-registered by /start (used when env ids are not set)."""
+
+    __tablename__ = "pipeline_contacts"
+
+    role: Mapped[str] = mapped_column(String(16), primary_key=True)
+    chat_id: Mapped[int] = mapped_column(BigInteger)
+    username: Mapped[str | None] = mapped_column(String(64))
+    registered_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
+
+
+class BusinessConnectionRecord(Base):
+    """Telegram Business connections of this bot; only the owner's connection is used."""
+
+    __tablename__ = "business_connections"
+
+    id: Mapped[str] = mapped_column(String(64), primary_key=True)
+    user_id: Mapped[int] = mapped_column(BigInteger, index=True)
+    user_chat_id: Mapped[int] = mapped_column(BigInteger)
+    username: Mapped[str | None] = mapped_column(String(64))
+    can_reply: Mapped[bool] = mapped_column(Boolean, default=False)
+    is_enabled: Mapped[bool] = mapped_column(Boolean, default=True)
+    allowed: Mapped[bool] = mapped_column(Boolean, default=False)
+    updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())

@@ -70,6 +70,7 @@ async def capture_client_message(message: Message) -> Inquiry:
             )
         else:
             await service.record_client_message(session, inquiry, summary, now)
+            inquiry.business_connection_id = None  # latest message came to the bot: answer in the bot chat
         if message.contact and not inquiry.phone:
             inquiry.phone = message.contact.phone_number[:32]
         need_auto_reply = is_new or (
@@ -111,6 +112,43 @@ async def _start_site(message: Message) -> None:
             await notify.send_owner_card(message.bot, session, inquiry, header="👋 Клієнт відкрив бота з сайту (ще не писав)",
                                          targets=[t for t in [get_settings().owner_chat_id] if t])
             await session.commit()
+
+
+ROLE_LABELS = {"owner": "власник (основні сповіщення)", "second": "другий контакт (нагадування з 2-го рівня)"}
+
+
+def _contact_role(message: Message) -> str | None:
+    user = message.from_user
+    return get_settings().contact_role_for_username(user.username) if user else None
+
+
+@deeplink_router.message(CommandStart(), F.chat.type == "private", F.text.regexp(r"^/start(@\w+)?$"),
+                         lambda message: _contact_role(message) is not None)
+async def register_contact(message: Message) -> None:
+    """OWNER_USERNAMES / SECOND_CONTACT_USERNAMES pressing /start: remember their chat id for notifications."""
+    from bot.pipeline import contacts
+
+    settings = get_settings()
+    role = _contact_role(message)
+    env_id = (settings.admin_chat_id or (settings.admin_ids[0] if settings.admin_ids else None)) if role == "owner" \
+        else settings.second_contact_chat_id
+    async with SessionLocal() as session:
+        result = await contacts.register(session, role, message.chat.id, message.from_user.username)
+        await session.commit()
+    if result == "already":
+        from aiogram.dispatcher.event.bases import SkipHandler
+        raise SkipHandler()  # already registered: show the usual /start menu
+    if result == "taken":
+        await message.answer("Ця роль уже закріплена за іншим акаунтом. Щоб змінити — задайте ID у змінних середовища "
+                             "або видаліть запис у таблиці pipeline_contacts.")
+        return
+    lines = [f"✅ Вас зареєстровано як: <b>{ROLE_LABELS[role]}</b>.", f"Ваш chat_id: <code>{message.chat.id}</code>"]
+    if env_id and env_id != message.chat.id:
+        lines.append(f"⚠️ У змінних середовища вже задано інший ID ({env_id}) — сповіщення йдуть туди.")
+    else:
+        lines.append("Сюди надходитимуть картки запитів з кнопками та нагадування (5/15/60 хв).")
+    lines.append("Команди: /sla — зведення, /inq &lt;номер&gt; — картка запиту.")
+    await message.answer("\n".join(lines))
 
 
 PIPELINE_START = r"^/start(@\w+)? ((site|order|buy|consult)[\w-]*|[ol]\d{1,12}_[A-Za-z0-9]{10})$"

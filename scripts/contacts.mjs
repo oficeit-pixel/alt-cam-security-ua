@@ -3,11 +3,6 @@ import vm from 'node:vm';
 const context={window:{}};
 vm.runInNewContext(fs.readFileSync(new URL('../contacts.js',import.meta.url),'utf8'),context,{timeout:1000});
 export const contacts=Object.freeze({...context.window.ALTCAM_CONTACTS});
-/** Sales Telegram destination: the bot (captured in CRM, auto-reply, reminders) or the manager as fallback. */
-export function telegramSalesUrl(values=contacts,start='site'){
-  if(values.telegramBot)return `https://t.me/${encodeURIComponent(values.telegramBot.replace(/^@/,''))}?start=${encodeURIComponent(start)}`;
-  return values.telegram?`https://t.me/${encodeURIComponent(values.telegram.replace(/^@/,''))}`:'';
-}
 const escape=value=>String(value||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function renderBusinessDetails(html, values=contacts) {
   const clean=value=>typeof value==='string'?value.trim():'';
@@ -30,7 +25,7 @@ export function renderBusinessDetails(html, values=contacts) {
 }
 export function renderContacts(html, values=contacts){
   const urls={phone:values.phone?`tel:${values.phone}`:'',email:values.email?`mailto:${values.email}`:'',
-    telegram:telegramSalesUrl(values),
+    telegram:values.telegram?`https://t.me/${encodeURIComponent(values.telegram.replace(/^@/,''))}`:'',
     telegramChannel:values.telegramChannel?`https://t.me/${encodeURIComponent(values.telegramChannel.replace(/^@/,''))}`:'',
     whatsapp:values.whatsapp?`https://wa.me/${values.whatsapp.replace(/\D/g,'')}`:'',
     viber:values.viber?`viber://chat?number=${encodeURIComponent(values.viber)}`:''};
@@ -42,7 +37,7 @@ export function renderContacts(html, values=contacts){
     attrs=attrs.replace(/\s(?:href|hidden)(?:="[^"]*")?/g,'');
     if(kind==='phone'&&/^\+?[\d\s()-]+$/.test(label.trim()))label=escape(values.phoneLabel||values.phone);
     if(kind==='email')label=escape(values.email);
-    if(kind==='telegram'&&label.startsWith('@'))label='@'+escape(values.telegramBot||values.telegram);
+    if(kind==='telegram'&&label.startsWith('@'))label='@'+escape(values.telegram);
     return `<a${attrs} href="${escape(urls[kind])}">${label}</a>`;
   });
 }

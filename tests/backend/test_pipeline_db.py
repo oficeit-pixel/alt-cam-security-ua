@@ -12,6 +12,7 @@ from sqlalchemy.engine import make_url
 
 SCENARIO = Path(__file__).with_name("pipeline_db_scenario.py")
 DISPATCH = Path(__file__).with_name("pipeline_dispatch_scenario.py")
+BUSINESS = Path(__file__).with_name("pipeline_business_scenario.py")
 
 
 def _local(url) -> bool:
@@ -51,5 +52,12 @@ def test_pipeline_end_to_end(method):
             asyncio.run(database(True))
             result = subprocess.run([sys.executable, str(DISPATCH)], env=env, cwd=root, capture_output=True, text=True, timeout=180)
             assert result.returncode == 0 and "PIPELINE_DISPATCH_SCENARIO_OK" in result.stdout, result.stdout[-4000:] + result.stderr[-6000:]
+        # owner auto-registration + Telegram Business (fresh database; alembic schema for the alembic variant)
+        asyncio.run(database(False))
+        asyncio.run(database(True))
+        if method == "alembic":
+            subprocess.run([sys.executable, "-m", "alembic", "upgrade", "head"], env=env, cwd=root, check=True)
+        result = subprocess.run([sys.executable, str(BUSINESS)], env=env, cwd=root, capture_output=True, text=True, timeout=180)
+        assert result.returncode == 0 and "PIPELINE_BUSINESS_SCENARIO_OK" in result.stdout, result.stdout[-4000:] + result.stderr[-6000:]
     finally:
         asyncio.run(database(False))

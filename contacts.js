@@ -15,8 +15,6 @@ window.ALTCAM_CONTACTS = Object.freeze({
   responseTime: "",
   backupWebhook: "",
   telegram: "OficeITHelp",
-  // Sales buttons open the bot: every request is captured in CRM, auto-answered and escalated.
-  telegramBot: "AltCamSecurityUaBot",
   telegramChannel: "altcam_security_ua",
   whatsapp: "",
   phone: "+380630607088",

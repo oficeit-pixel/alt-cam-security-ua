@@ -1,5 +1,5 @@
 import fs from 'node:fs/promises';
-import {contacts,telegramSalesUrl} from './contacts.mjs';
+import {contacts} from './contacts.mjs';
 import {escape,faqEntries} from './lib/landing-md.mjs';
 import {loadInstallationRates} from './product-seo.mjs';
 const origin='https://alt-cam.net.ua';
@@ -32,7 +32,7 @@ export async function buildHomepage(html,{values=contacts}={}){
  html=html.replace(/<h1>[\s\S]*?<\/h1>/,`<h1>${escape(h1)}</h1><a class="hero-phone" href="tel:${escape(values.phone)}">${escape(values.phoneLabel)}</a>`);
  html=html.replace(/(<div class="hero-content reveal">[\s\S]*?)<p>[\s\S]*?<\/p>/,`$1<p>${escape(lead)}</p>`);
  html=html.replace(/<ul class="hero-benefits">[\s\S]*?<\/ul>/,`<ul class="hero-benefits"><li>Кошторис до початку робіт</li><li>Прозорий прайс за кількістю камер</li><li>Перегляд зі смартфона</li><li>Підбір резервного живлення</li></ul>`);
- html=html.replace(/<a class="btn btn-primary btn-large" href="#quiz">[\s\S]*?<\/a>/,telegramSalesUrl(values,'site_home')?`<a class="btn btn-primary btn-large" href="${escape(telegramSalesUrl(values,'site_home'))}">Надіслати фото в Telegram</a>`:'');
+ html=html.replace(/<a class="btn btn-primary btn-large" href="#quiz">[\s\S]*?<\/a>/,values.telegram?`<a class="btn btn-primary btn-large" href="https://t.me/${escape(values.telegram)}">Надіслати фото в Telegram</a>`:'');
  html=html.replace(/<div class="hero-trust">[\s\S]*?<\/div>\s*<\/div>\s*<\/div>/,`<div class="hero-trust"><div><strong>Київ і Вишгород</strong><span>виїзд на об’єкт</span></div><div><strong>Прайс на сайті</strong><span>кошторис до початку робіт</span></div><div><strong>Реальні об’єкти</strong><span>фото наших робіт нижче</span></div></div></div>`);
  html=html.replace(/<div class="why-grid">[\s\S]*?<\/div>/,`<div class="why-grid"><!-- ALTCAM_EXPERIENCE --><article class="why-card"><h3>Реальні об’єкти</h3><p>Під’їзди, магазини та квартири у Вишгороді й Києві.</p></article><article class="why-card"><h3>Кошторис до початку робіт</h3><p>Роботи, обладнання та матеріали — окремими рядками.</p></article><article class="why-card"><h3>Підтримка після монтажу</h3><p>Зв’язок у Telegram і за телефоном: допомога з налаштуванням та розвитком системи.</p></article></div>`);
  html=html.replace('<section class="section faq-section"',homePriceTable(rates)+'<section class="section faq-section"');

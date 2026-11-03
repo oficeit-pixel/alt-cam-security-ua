@@ -8,7 +8,9 @@ from aiogram.fsm.storage.memory import MemoryStorage
 
 from bot.config import get_settings
 from bot.db.base import init_db_with_retry, engine
-from bot.handlers import admin, auction, client_quiz, group_guide, installer, pipeline_client, pipeline_owner, service, start
+from bot.handlers import (admin, auction, client_quiz, group_guide, installer, pipeline_business, pipeline_client,
+                          pipeline_owner, service, start)
+from bot.pipeline import contacts as pipeline_contacts
 from bot.middlewares import captcha
 from bot.middlewares.terms import TermsMiddleware
 from bot.utils.cleanup import setup_cleanup_scheduler
@@ -24,6 +26,7 @@ async def main() -> None:
     settings = get_settings()
     if settings.auto_create_db:
         await init_db_with_retry()
+    await pipeline_contacts.safe_reload()  # owner / second contact registered via /start
     scheduler = setup_cleanup_scheduler()
     bot = None
     site_lead_runner = None
@@ -56,6 +59,7 @@ async def main() -> None:
     dp.include_router(captcha.router)
     dp.include_router(group_guide.router)
     dp.include_router(pipeline_owner.router)
+    dp.include_router(pipeline_business.router)  # Telegram Business updates (own observers, no terms middleware)
     dp.include_router(pipeline_client.deeplink_router)
     dp.include_router(start.router)
     dp.include_router(client_quiz.router)
@@ -67,7 +71,8 @@ async def main() -> None:
 
     await bot.delete_webhook(drop_pending_updates=False)
     try:
-        await dp.start_polling(bot)
+        # resolve_used_update_types() includes business_connection / business_message from pipeline_business
+        await dp.start_polling(bot, allowed_updates=dp.resolve_used_update_types())
     finally:
         scheduler.shutdown(wait=False)
         await site_lead_runner.cleanup()

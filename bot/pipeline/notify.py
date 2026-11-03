@@ -14,7 +14,8 @@ from bot.pipeline.statuses import PAYMENT_METHODS, STATUSES, label, next_actions
 from bot.pipeline.texts import TEMPLATES
 
 logger = logging.getLogger("altcam.pipeline")
-SOURCE_LABELS = {"bot": "Telegram-бот", "site_lead": "Заявка з сайту", "site_order": "Кошик на сайті", "business": "Особистий Telegram"}
+SOURCE_LABELS = {"bot": "Telegram-бот", "site_lead": "Заявка з сайту", "site_order": "Кошик на сайті", "business": "Особистий Telegram",
+                 "telegram_business": "Особистий Telegram (Business)"}
 LEVEL_LABELS = {1: "⏰ Нагадування", 2: "⚠️ Клієнт чекає", 3: "🚨 КЛІЄНТ ЧЕКАЄ ДОВГО"}
 
 
@@ -114,7 +115,7 @@ def client_confirm_keyboard(inquiry_id: int) -> InlineKeyboardMarkup:
 def escalation_targets(level: int) -> list[int]:
     settings = get_settings()
     targets: list[int] = []
-    for chat_id, min_level in ((settings.owner_chat_id, 1), (settings.second_contact_chat_id, 2), (settings.site_lead_group_id, 3)):
+    for chat_id, min_level in ((settings.owner_chat_id, 1), (settings.second_contact_target, 2), (settings.site_lead_group_id, 3)):
         if chat_id and level >= min_level and chat_id not in targets:
             targets.append(chat_id)
     return targets

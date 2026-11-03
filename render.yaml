@@ -66,6 +66,14 @@ services:
         generateValue: true
       - key: SECOND_CONTACT_CHAT_ID
         sync: false
+      - key: OWNER_USERNAMES
+        value: "OficeITHelp"
+      - key: SECOND_CONTACT_USERNAMES
+        value: "uniwar"
+      - key: REPLY_ETA_TEXT
+        value: "протягом 5–10 хвилин"
+      - key: BUSINESS_AUTOREPLY_ENABLED
+        value: "true"
       - key: REMINDER_MINUTES
         value: "5,15,60"
       - key: WORK_HOURS

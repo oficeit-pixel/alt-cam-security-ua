@@ -1,4 +1,4 @@
-"""Order pipeline: inquiries (SLA/state machine) and inquiry_events."""
+"""Order pipeline: inquiries (SLA/state machine), inquiry_events, pipeline_contacts, business_connections."""
 from alembic import op
 import sqlalchemy as sa
 from sqlalchemy.dialects.postgresql import JSONB
@@ -20,6 +20,7 @@ def upgrade():
             sa.Column("client_chat_id", sa.BigInteger()),
             sa.Column("client_username", sa.String(64)),
             sa.Column("client_name", sa.String(255)),
+            sa.Column("business_connection_id", sa.String(64)),
             sa.Column("phone", sa.String(32)),
             sa.Column("summary", sa.Text(), server_default="", nullable=False),
             sa.Column("site_lead_id", sa.BigInteger(), sa.ForeignKey("site_leads.id", ondelete="SET NULL")),
@@ -42,7 +43,7 @@ def upgrade():
             sa.Column("created_at", sa.DateTime(timezone=True), server_default=sa.func.now(), nullable=False),
             sa.Column("updated_at", sa.DateTime(timezone=True), server_default=sa.func.now(), nullable=False),
         )
-        for name in ("source", "status", "client_tg_id", "phone", "site_lead_id", "web_order_id", "ttn", "awaiting_since", "created_at"):
+        for name in ("source", "status", "client_tg_id", "phone", "site_lead_id", "web_order_id", "ttn", "awaiting_since", "created_at", "business_connection_id"):
             op.create_index(f"ix_inquiries_{name}", "inquiries", [name])
     if not inspector.has_table("inquiry_events"):
         op.create_table(
@@ -58,6 +59,27 @@ def upgrade():
         )
         for name in ("inquiry_id", "kind", "owner_message_id", "created_at"):
             op.create_index(f"ix_inquiry_events_{name}", "inquiry_events", [name])
+    if not inspector.has_table("pipeline_contacts"):
+        op.create_table(
+            "pipeline_contacts",
+            sa.Column("role", sa.String(16), primary_key=True),
+            sa.Column("chat_id", sa.BigInteger(), nullable=False),
+            sa.Column("username", sa.String(64)),
+            sa.Column("registered_at", sa.DateTime(timezone=True), server_default=sa.func.now(), nullable=False),
+        )
+    if not inspector.has_table("business_connections"):
+        op.create_table(
+            "business_connections",
+            sa.Column("id", sa.String(64), primary_key=True),
+            sa.Column("user_id", sa.BigInteger(), nullable=False),
+            sa.Column("user_chat_id", sa.BigInteger(), nullable=False),
+            sa.Column("username", sa.String(64)),
+            sa.Column("can_reply", sa.Boolean(), server_default=sa.false(), nullable=False),
+            sa.Column("is_enabled", sa.Boolean(), server_default=sa.true(), nullable=False),
+            sa.Column("allowed", sa.Boolean(), server_default=sa.false(), nullable=False),
+            sa.Column("updated_at", sa.DateTime(timezone=True), server_default=sa.func.now(), nullable=False),
+        )
+        op.create_index("ix_business_connections_user_id", "business_connections", ["user_id"])
 
 
 def downgrade():

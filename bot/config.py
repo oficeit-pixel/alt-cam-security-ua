@@ -82,7 +82,7 @@ class Settings(BaseSettings):
     business_timezone: str = Field("Europe/Kyiv", alias="BUSINESS_TIMEZONE")
     followup_hours: int = Field(24, alias="FOLLOWUP_HOURS")
     ship_cutoff: str = Field("13:00", alias="SHIP_CUTOFF")
-    reply_eta_text: str = Field("протягом 15 хвилин", alias="REPLY_ETA_TEXT")
+    reply_eta_text: str = Field("протягом 5–10 хвилин", alias="REPLY_ETA_TEXT")
     pipeline_link_secret: str | None = Field(None, alias="PIPELINE_LINK_SECRET")
     capture_before_terms: bool = Field(True, alias="PIPELINE_CAPTURE_BEFORE_TERMS")
     faq_payment_text: str | None = Field(None, alias="FAQ_PAYMENT_TEXT")
@@ -92,6 +92,14 @@ class Settings(BaseSettings):
     yugtorg_api_base: str = Field("https://b2b.yugtorg.com/apiservices/export", alias="YUGTORG_API_BASE")
     supplier_stock_ttl_minutes: int = Field(30, alias="SUPPLIER_STOCK_TTL_MINUTES")
     np_tracking_interval_minutes: int = Field(120, alias="NP_TRACKING_INTERVAL_MINUTES")
+    # Auto-registration: these Telegram usernames become owner / second contact when they press /start
+    owner_usernames: str = Field("OficeITHelp", alias="OWNER_USERNAMES")
+    second_contact_usernames: str = Field("uniwar", alias="SECOND_CONTACT_USERNAMES")
+    # Telegram Business (bot connected to the owner's personal account)
+    business_enabled: bool = Field(True, alias="BUSINESS_ENABLED")
+    business_autoreply_enabled: bool = Field(True, alias="BUSINESS_AUTOREPLY_ENABLED")
+    business_autoreply_text: str | None = Field(None, alias="BUSINESS_AUTOREPLY_TEXT")
+    business_ignore_chat_ids: str = Field("", alias="BUSINESS_IGNORE_CHAT_IDS")
 
     model_config = SettingsConfigDict(
         env_file=".env",
@@ -145,7 +153,37 @@ class Settings(BaseSettings):
 
     @property
     def owner_chat_id(self) -> int | None:
-        return self.admin_chat_id or (self.admin_ids[0] if self.admin_ids else None)
+        if self.admin_chat_id or self.admin_ids:
+            return self.admin_chat_id or self.admin_ids[0]
+        from bot.pipeline import contacts  # auto-registered via /start (see OWNER_USERNAMES)
+
+        return contacts.registered_chat_id("owner")
+
+    @property
+    def second_contact_target(self) -> int | None:
+        if self.second_contact_chat_id:
+            return self.second_contact_chat_id
+        from bot.pipeline import contacts
+
+        return contacts.registered_chat_id("second")
+
+    @staticmethod
+    def _usernames(raw: str) -> set[str]:
+        return {item.strip().lstrip("@").lower() for item in (raw or "").split(",") if item.strip()}
+
+    def contact_role_for_username(self, username: str | None) -> str | None:
+        name = (username or "").lstrip("@").lower()
+        if not name:
+            return None
+        if name in self._usernames(self.owner_usernames):
+            return "owner"
+        if name in self._usernames(self.second_contact_usernames):
+            return "second"
+        return None
+
+    @property
+    def business_ignored_ids(self) -> set[int]:
+        return {int(x) for x in self.business_ignore_chat_ids.replace(" ", "").split(",") if x.lstrip("-").isdigit()}
 
     @property
     def scheduler_active(self) -> bool:

@@ -84,7 +84,12 @@ TEMPLATES: dict[str, tuple[str, str]] = {
 }
 
 
-def template_text(key: str) -> str | None:
+BUSINESS_CONFIRM_TEXT = "Перевірте, будь ласка, склад, суму та умови доставки вище й підтвердіть замовлення у відповідь на це повідомлення 🙏"
+
+
+def template_text(key: str, business: bool = False) -> str | None:
+    if business and key == "cnf":  # no inline buttons in the owner's personal chat
+        return BUSINESS_CONFIRM_TEXT
     if key == "pay":
         return faq_payment()
     if key == "dlv":
@@ -120,3 +125,14 @@ def site_order_bound_text(order_number: str) -> str:
         f"Замовлення <b>{escape(order_number)}</b> прив’язано до цього чату ✅\n"
         "Сюди надійдуть підтвердження, рахунок і номер ТТН. Якщо є питання — просто напишіть їх тут."
     )
+
+
+def business_ack(now=None) -> str:
+    """Single acknowledgement in the owner's personal chat (Telegram Business), written as the owner.
+
+    Sent once per new inquiry; disable with BUSINESS_AUTOREPLY_ENABLED=false or override with BUSINESS_AUTOREPLY_TEXT.
+    """
+    settings = get_settings()
+    if settings.business_autoreply_text:
+        return settings.business_autoreply_text
+    return f"Отримав, відповім {schedule.eta_text(now)}."  # working hours: "протягом 5–10 хвилин"

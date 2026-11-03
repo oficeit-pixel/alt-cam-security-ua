@@ -35,13 +35,15 @@ async def add_event(session: AsyncSession, inquiry_id: int, kind: str, actor: st
 async def create_inquiry(session: AsyncSession, *, source: str, summary: str = "", client_tg_id: int | None = None,
                          client_chat_id: int | None = None, client_username: str | None = None,
                          client_name: str | None = None, phone: str | None = None, site_lead_id: int | None = None,
-                         web_order_id: int | None = None, now: datetime | None = None) -> Inquiry:
+                         web_order_id: int | None = None, now: datetime | None = None,
+                         business_connection_id: str | None = None) -> Inquiry:
     now = now or utcnow()
     inquiry = Inquiry(
         source=source, status="new", summary=(summary or "")[:4000], client_tg_id=client_tg_id,
         client_chat_id=client_chat_id, client_username=(client_username or "")[:64] or None,
         client_name=(client_name or "")[:255] or None, phone=(phone or "")[:32] or None,
         site_lead_id=site_lead_id, web_order_id=web_order_id, awaiting_since=now,
+        business_connection_id=business_connection_id,
         last_client_msg_at=now, reminder_level=0, status_history=[{"at": now.isoformat(), "status": "new", "actor": source}],
     )
     session.add(inquiry)
@@ -234,5 +236,6 @@ async def inquiry_for_site_lead(session: AsyncSession, site_lead_id: int) -> Inq
 
 def bind_client(inquiry: Inquiry, *, tg_id: int, chat_id: int, username: str | None, full_name: str | None) -> None:
     inquiry.client_tg_id, inquiry.client_chat_id = tg_id, chat_id
+    inquiry.business_connection_id = None  # the client is in the bot chat now: answer there
     inquiry.client_username = (username or "")[:64] or inquiry.client_username
     inquiry.client_name = inquiry.client_name or (full_name or "")[:255] or None

@@ -6,7 +6,7 @@ import logging
 from bot.config import get_settings
 from bot.db.base import SessionLocal
 from bot.integrations import nova_poshta_tracking as np
-from bot.pipeline import notify, schedule, service, texts
+from bot.pipeline import contacts, delivery, notify, schedule, service, texts
 
 logger = logging.getLogger("altcam.pipeline.jobs")
 
@@ -15,6 +15,7 @@ async def run_reminders(bot, now=None) -> int:
     settings = get_settings()
     if bot is None or not schedule.is_working_time(now):
         return 0
+    await contacts.safe_reload()  # pick up owner / second contact registered via /start in another process
     sent = 0
     async with SessionLocal() as session:
         due = await service.due_reminders(session, settings.reminder_thresholds, now)
@@ -41,7 +42,7 @@ async def run_followups(bot, now=None) -> int:
             if not await service.claim_followup(session, inquiry.id, now):
                 continue
             await session.commit()
-            if inquiry.client_chat_id:
+            if inquiry.client_chat_id and not delivery.is_business(inquiry):
                 try:
                     await bot.send_message(inquiry.client_chat_id, texts.followup_text(inquiry.id),
                                            reply_markup=notify.client_confirm_keyboard(inquiry.id))
@@ -50,7 +51,8 @@ async def run_followups(bot, now=None) -> int:
                 except Exception as exc:
                     logger.warning("followup_failed inquiry=%s (%s)", inquiry.id, type(exc).__name__)
             header = f"🔔 Клієнт мовчить {settings.followup_hours} год після пропозиції" + (
-                " — бот надіслав нагадування" if inquiry.client_chat_id else " — зателефонуйте")
+                " — напишіть клієнту в особистому чаті" if delivery.is_business(inquiry)
+                else " — бот надіслав нагадування" if inquiry.client_chat_id else " — зателефонуйте")
             await notify.send_owner_card(bot, session, inquiry, header=header, level=1)
             await session.commit()
     return sent
@@ -78,7 +80,9 @@ async def run_np_tracking(bot) -> int:
             inquiry.np_status_code = info["code"][:8]
             kind = np.classify(info["code"])
             await service.add_event(session, inquiry.id, "np_status", "system", f"{info['code']}: {info['status']}")
-            if kind == "arrived" and previous != "arrived" and inquiry.client_chat_id:
+            if kind == "arrived" and previous != "arrived" and delivery.is_business(inquiry):
+                await notify.send_owner_card(bot, session, inquiry, header="📦 Посилка прибула — повідомте клієнта", level=1)
+            elif kind == "arrived" and previous != "arrived" and inquiry.client_chat_id:
                 try:
                     await bot.send_message(inquiry.client_chat_id, texts.arrived_text(inquiry.ttn))
                 except Exception as exc:
@@ -100,6 +104,9 @@ def setup_pipeline_jobs(scheduler, bot) -> bool:
                       max_instances=1, coalesce=True, replace_existing=True)
     scheduler.add_job(run_followups, "interval", minutes=30, args=[bot], id="pipeline_followups",
                       max_instances=1, coalesce=True, replace_existing=True)
-    scheduler.add_job(run_np_tracking, "interval", minutes=max(15, settings.np_tracking_interval_minutes), args=[bot],
-                      id="pipeline_np_tracking", max_instances=1, coalesce=True, replace_existing=True)
+    if settings.nova_poshta_api_key:
+        scheduler.add_job(run_np_tracking, "interval", minutes=max(15, settings.np_tracking_interval_minutes), args=[bot],
+                          id="pipeline_np_tracking", max_instances=1, coalesce=True, replace_existing=True)
+    else:
+        logger.info("Nova Poshta tracking disabled: NOVA_POSHTA_API_KEY is not set (TTN is still sent to the client)")
     return True
