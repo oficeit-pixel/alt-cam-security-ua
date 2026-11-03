@@ -969,7 +969,59 @@ async def nova_poshta(request: web.Request) -> web.Response:
     return web.json_response({"success": True, "data": warehouses})
 
 
+async def list_inquiries(request: web.Request) -> web.Response:
+    """SLA dashboard data: open inquiries (waiting longest first) + summary."""
+    from bot.pipeline import service as pipeline
+
+    await current_admin(request)
+    now = pipeline.utcnow()
+    async with SessionLocal() as session:
+        items = await pipeline.open_inquiries(session, limit=200)
+    return web.json_response({"summary": pipeline.sla_summary(items, now), "inquiries": [pipeline.serialize(i, now) for i in items]})
+
+
+async def update_inquiry(request: web.Request) -> web.Response:
+    from bot.db.models import Inquiry
+    from bot.integrations.nova_poshta_tracking import normalize_ttn
+    from bot.pipeline import service as pipeline
+    from bot.pipeline.statuses import PAYMENT_METHODS
+
+    user = await current_admin(request)
+    try:
+        payload = await request.json()
+    except Exception:
+        return web.json_response({"ok": False, "error": "invalid_json"}, status=400)
+    async with SessionLocal() as session:
+        inquiry = await session.get(Inquiry, int(request.match_info["inquiry_id"]))
+        if inquiry is None:
+            raise web.HTTPNotFound()
+        if "ttn" in payload:
+            ttn = normalize_ttn(str(payload.get("ttn") or ""))
+            if ttn is None:
+                return web.json_response({"ok": False, "error": "invalid_ttn"}, status=422)
+            inquiry.ttn = ttn
+        if "payment_method" in payload:
+            if payload["payment_method"] not in PAYMENT_METHODS:
+                return web.json_response({"ok": False, "error": "invalid_payment_method"}, status=422)
+            inquiry.payment_method = payload["payment_method"]
+        if "supplier_order_number" in payload:
+            inquiry.supplier_order_number = str(payload.get("supplier_order_number") or "").strip()[:120] or None
+        status = payload.get("status")
+        if status:
+            try:
+                await pipeline.transition(session, inquiry, str(status), actor=user.email[:16], note=str(payload.get("note") or "")[:500] or None)
+            except ValueError:
+                return web.json_response({"ok": False, "error": "invalid_transition"}, status=422)
+        if payload.get("responded"):
+            await pipeline.record_owner_reply(session, inquiry, "responded (admin web)", None, kind="admin_ack")
+        await audit(session, user, request, "inquiry_updated", "inquiry", str(inquiry.id), {k: payload.get(k) for k in ("status", "ttn", "payment_method", "responded") if k in payload})
+        await session.commit()
+        return web.json_response({"ok": True, "inquiry": pipeline.serialize(inquiry)})
+
+
 def register_shop_admin_routes(app: web.Application) -> None:
+    app.router.add_get("/api/admin/inquiries", list_inquiries)
+    app.router.add_patch("/api/admin/inquiries/{inquiry_id}", update_inquiry)
     app.router.add_get("/api/admin/captcha", admin_captcha)
     app.router.add_post("/api/admin/register", admin_register)
     app.router.add_post("/api/admin/verify-email", admin_verify_email)

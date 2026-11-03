@@ -34,3 +34,8 @@ class InstallerOnboardingSG(StatesGroup):
 class AuctionBidSG(StatesGroup):
     price_input = State()
     comment_input = State()
+
+
+class OwnerPipelineSG(StatesGroup):
+    reply_text = State()
+    ttn = State()

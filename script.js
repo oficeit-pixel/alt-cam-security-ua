@@ -301,7 +301,9 @@ document.addEventListener("click", (event) => {
   }
 });
 
-function telegramUrl(text = "Вітаю! Хочу отримати консультацію щодо системи безпеки.") {
+function telegramUrl(text = "Вітаю! Хочу отримати консультацію щодо системи безпеки.", start = "site") {
+  // The bot captures the request in CRM and answers instantly; a personal account cannot be monitored.
+  if (CONTACTS.telegramBot) return `https://t.me/${CONTACTS.telegramBot}?start=${encodeURIComponent(start)}`;
   return CONTACTS.telegram
     ? `https://t.me/${CONTACTS.telegram}?text=${encodeURIComponent(text)}`
     : `https://t.me/share/url?url=&text=${encodeURIComponent(text)}`;

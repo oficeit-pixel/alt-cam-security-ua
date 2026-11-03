@@ -8,10 +8,11 @@ from aiogram.fsm.storage.memory import MemoryStorage
 
 from bot.config import get_settings
 from bot.db.base import init_db_with_retry, engine
-from bot.handlers import admin, auction, client_quiz, group_guide, installer, service, start
+from bot.handlers import admin, auction, client_quiz, group_guide, installer, pipeline_client, pipeline_owner, service, start
 from bot.middlewares import captcha
 from bot.middlewares.terms import TermsMiddleware
 from bot.utils.cleanup import setup_cleanup_scheduler
+from bot.pipeline.jobs import setup_pipeline_jobs
 from bot.web.site_leads import start_site_lead_server
 
 
@@ -33,6 +34,8 @@ async def main() -> None:
             default=DefaultBotProperties(parse_mode=ParseMode.HTML),
         )
     site_lead_runner = await start_site_lead_server(bot)
+    if setup_pipeline_jobs(scheduler, bot):
+        logging.info("Order pipeline jobs scheduled (reminders, follow-ups, Nova Poshta tracking)")
 
     if bot is None or not settings.enable_bot_polling:
         logging.info("Web CRM running without Telegram polling (disabled or unconfigured)")
@@ -52,12 +55,15 @@ async def main() -> None:
     dp.callback_query.middleware(TermsMiddleware())
     dp.include_router(captcha.router)
     dp.include_router(group_guide.router)
+    dp.include_router(pipeline_owner.router)
+    dp.include_router(pipeline_client.deeplink_router)
     dp.include_router(start.router)
     dp.include_router(client_quiz.router)
     dp.include_router(service.router)
     dp.include_router(installer.router)
     dp.include_router(auction.router)
     dp.include_router(admin.router)
+    dp.include_router(pipeline_client.router)  # catch-all capture must stay last
 
     await bot.delete_webhook(drop_pending_updates=False)
     try:

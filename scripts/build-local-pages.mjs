@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import {contacts} from './contacts.mjs';
+import {contacts,telegramSalesUrl} from './contacts.mjs';
 import {localContactBlock} from './local-contact-block.mjs';
 import {loadInstallationRates} from './product-seo.mjs';
 import {parseLanding,markdown,inline,escape,pending,faqEntries} from './lib/landing-md.mjs';
@@ -8,7 +8,7 @@ import {priceTable} from './lib/price-tables.mjs';
 import {serviceSchema} from './service-schema.mjs';
 const content=new URL('../content/',import.meta.url),origin='https://alt-cam.net.ua';
 export async function loadLandings(){return Promise.all((await fs.readdir(content)).filter(n=>/^landing-.*\.md$/.test(n)).sort().map(async name=>({...parseLanding(await fs.readFile(new URL(name,content),'utf8')),name})));}
-export function contactButtons(){return `<div class="landing-actions"><a href="tel:${escape(contacts.phone)}">${escape(contacts.phoneLabel)}</a>${contacts.telegram?`<a href="https://t.me/${escape(contacts.telegram)}">Написати в Telegram</a>`:''}<a href="/#calculator">Розрахувати вартість</a></div>`;}
+export function contactButtons(){return `<div class="landing-actions"><a href="tel:${escape(contacts.phone)}">${escape(contacts.phoneLabel)}</a>${telegramSalesUrl(contacts,'site_local')?`<a href="${escape(telegramSalesUrl(contacts,'site_local'))}">Написати в Telegram</a>`:''}<a href="/#calculator">Розрахувати вартість</a></div>`;}
 export async function buildLocalPages(out){
  const pages=await loadLandings(),rates=await loadInstallationRates(),prices=await fs.readFile(new URL('price-tables.md',content),'utf8'),alts=await fs.readFile(new URL('og-image-and-alt-texts.md',content),'utf8');
  const report=[],production=process.env.NODE_ENV!=='development';

@@ -90,3 +90,41 @@ async def test_retry_only_failed_recipient(monkeypatch):
     assert calls==[1,2,2] and lead.telegram_sent
     await lead_store.deliver_lead(1,bot,[1,2],lambda p:"test")
     assert calls==[1,2,2]
+
+
+@pytest.mark.asyncio
+async def test_site_lead_returns_bot_link_from_pipeline(monkeypatch):
+    monkeypatch.setattr(site_leads, "save_lead", AsyncMock(return_value=42))
+    monkeypatch.setattr(site_leads, "_deliver_saved_lead", AsyncMock())
+    capture = AsyncMock(return_value="https://t.me/AltCamSecurityUaBot?start=l42_abcdefghij")
+    monkeypatch.setattr(site_leads, "capture_site_lead", capture)
+    response = await site_leads.site_lead(request({"phone": "0630607088"}))
+    assert json.loads(response.text) == {"ok": True, "id": 42, "telegram_link": "https://t.me/AltCamSecurityUaBot?start=l42_abcdefghij"}
+    assert capture.await_args.args[1] == 42
+
+
+@pytest.mark.asyncio
+async def test_site_lead_pipeline_failure_keeps_lead_ok(monkeypatch):
+    monkeypatch.setattr(site_leads, "save_lead", AsyncMock(return_value=42))
+    monkeypatch.setattr(site_leads, "_deliver_saved_lead", AsyncMock())
+    monkeypatch.setattr(site_leads, "capture_site_lead", AsyncMock(side_effect=OSError("db down")))
+    response = await site_leads.site_lead(request({"phone": "0630607088"}))
+    assert json.loads(response.text) == {"ok": True, "id": 42}
+
+
+@pytest.mark.asyncio
+async def test_owner_not_double_notified_when_pipeline_on(monkeypatch):
+    from bot.config import get_settings
+    settings = get_settings()
+    monkeypatch.setattr(settings, "admin_chat_id", 111)
+    monkeypatch.setattr(settings, "site_lead_group_id", -333)
+    monkeypatch.setattr(settings, "pipeline_enabled", True)
+    seen = {}
+    async def fake_deliver(lead_id, bot, targets, render):
+        seen["targets"] = targets
+    monkeypatch.setattr(site_leads, "deliver_lead", fake_deliver)
+    await site_leads._deliver_saved_lead({"bot": None}, 1)
+    assert seen["targets"] == [-333]
+    monkeypatch.setattr(settings, "pipeline_enabled", False)
+    await site_leads._deliver_saved_lead({"bot": None}, 1)
+    assert seen["targets"] == [111, -333]

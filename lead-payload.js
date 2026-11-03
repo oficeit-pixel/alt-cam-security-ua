@@ -49,7 +49,11 @@
       return result;
     } finally { clearTimeout(timer); }
   }
-  function showResult(form, success, message) {
+  function telegramContinueLink(result) {
+    const url = result && typeof result.telegram_link === 'string' ? result.telegram_link : '';
+    return /^https:\/\/t\.me\/[A-Za-z0-9_]{5,32}\?start=[A-Za-z0-9_-]{1,64}$/.test(url) ? url : '';
+  }
+  function showResult(form, success, message, result) {
     const doc = form.ownerDocument;
     let status = form.querySelector('[data-lead-result]');
     if (!status) {
@@ -67,6 +71,15 @@
       ? `Дякуємо! Заявку отримано. Ми зв’яжемося з вами ${contacts.responseTime || 'найближчим часом'}.`
       : 'Не вдалося надіслати заявку автоматично. Напишіть нам — це займе хвилину:';
     status.append(text);
+    const continueUrl = success ? telegramContinueLink(result) : '';
+    if (continueUrl) {
+      const link = doc.createElement('a');
+      link.textContent = 'Продовжити в Telegram — відповімо швидше';
+      link.href = continueUrl; link.target = '_blank'; link.rel = 'noopener noreferrer';
+      link.className = 'lead-telegram-continue';
+      status.append(link);
+      root.altcamAnalytics?.('lead_telegram_link_shown');
+    }
     if (!success) {
       root.altcamAnalytics?.('lead_fallback_shown');
       const links = [];
@@ -116,7 +129,7 @@
     try {
       const result = await send();
       if (!result) throw new Error('lead_not_accepted');
-      showResult(form, true, message);
+      showResult(form, true, message, result);
       return result;
     } catch { showResult(form, false, message); return false; }
     finally {
@@ -124,6 +137,6 @@
       if (button) { button.disabled = false; button.innerHTML = label; }
     }
   }
-  root.AltcamLead = {normalizePhone, buildLeadPayload, post, showResult, submit, warmup};
+  root.AltcamLead = {normalizePhone, buildLeadPayload, post, showResult, submit, warmup, telegramContinueLink};
   if (typeof module !== 'undefined' && module.exports) module.exports = root.AltcamLead;
 })(typeof window !== 'undefined' ? window : globalThis);

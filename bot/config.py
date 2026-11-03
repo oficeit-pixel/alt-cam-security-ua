@@ -72,6 +72,26 @@ class Settings(BaseSettings):
     email_relay_url: str | None = Field(None, alias="EMAIL_RELAY_URL")
     email_relay_secret: str | None = Field(None, alias="EMAIL_RELAY_SECRET")
     nova_poshta_api_key: str | None = Field(None, alias="NOVA_POSHTA_API_KEY")
+    # Order pipeline (anti-loss): see docs/ORDER_PIPELINE.md
+    pipeline_enabled: bool = Field(True, alias="PIPELINE_ENABLED")
+    pipeline_scheduler_enabled: bool | None = Field(None, alias="PIPELINE_SCHEDULER_ENABLED")
+    second_contact_chat_id: int | None = Field(None, alias="SECOND_CONTACT_CHAT_ID")
+    reminder_minutes: str = Field("5,15,60", alias="REMINDER_MINUTES")
+    work_hours: str = Field("09:00-19:00", alias="WORK_HOURS")
+    work_days: str = Field("0,1,2,3,4,5", alias="WORK_DAYS")
+    business_timezone: str = Field("Europe/Kyiv", alias="BUSINESS_TIMEZONE")
+    followup_hours: int = Field(24, alias="FOLLOWUP_HOURS")
+    ship_cutoff: str = Field("13:00", alias="SHIP_CUTOFF")
+    reply_eta_text: str = Field("протягом 15 хвилин", alias="REPLY_ETA_TEXT")
+    pipeline_link_secret: str | None = Field(None, alias="PIPELINE_LINK_SECRET")
+    capture_before_terms: bool = Field(True, alias="PIPELINE_CAPTURE_BEFORE_TERMS")
+    faq_payment_text: str | None = Field(None, alias="FAQ_PAYMENT_TEXT")
+    faq_delivery_text: str | None = Field(None, alias="FAQ_DELIVERY_TEXT")
+    faq_warranty_text: str | None = Field(None, alias="FAQ_WARRANTY_TEXT")
+    yugtorg_api_key: str | None = Field(None, alias="YUGTORG_API_KEY")
+    yugtorg_api_base: str = Field("https://b2b.yugtorg.com/apiservices/export", alias="YUGTORG_API_BASE")
+    supplier_stock_ttl_minutes: int = Field(30, alias="SUPPLIER_STOCK_TTL_MINUTES")
+    np_tracking_interval_minutes: int = Field(120, alias="NP_TRACKING_INTERVAL_MINUTES")
 
     model_config = SettingsConfigDict(
         env_file=".env",
@@ -96,6 +116,7 @@ class Settings(BaseSettings):
         "installer_group_id",
         "client_group_id",
         "site_lead_group_id",
+        "second_contact_chat_id",
         mode="before",
     )
     @classmethod
@@ -115,6 +136,22 @@ class Settings(BaseSettings):
         if text.lstrip("-").isdigit():
             return int(text)
         return text
+
+
+    @property
+    def reminder_thresholds(self) -> list[int]:
+        values = sorted({int(item) for item in self.reminder_minutes.split(",") if item.strip().isdigit()})
+        return [value for value in values if value > 0][:3] or [5, 15, 60]
+
+    @property
+    def owner_chat_id(self) -> int | None:
+        return self.admin_chat_id or (self.admin_ids[0] if self.admin_ids else None)
+
+    @property
+    def scheduler_active(self) -> bool:
+        if self.pipeline_scheduler_enabled is not None:
+            return self.pipeline_scheduler_enabled
+        return self.enable_bot_polling
 
 
 @lru_cache

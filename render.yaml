@@ -59,6 +59,25 @@ services:
         sync: false
       - key: AUTO_CREATE_DB
         value: "true"
+      # Order pipeline (docs/ORDER_PIPELINE.md). Reminders run only on this (polling) service.
+      - key: PIPELINE_ENABLED
+        value: "true"
+      - key: PIPELINE_LINK_SECRET
+        generateValue: true
+      - key: SECOND_CONTACT_CHAT_ID
+        sync: false
+      - key: REMINDER_MINUTES
+        value: "5,15,60"
+      - key: WORK_HOURS
+        value: "09:00-19:00"
+      - key: WORK_DAYS
+        value: "0,1,2,3,4,5"
+      - key: SHIP_CUTOFF
+        value: "13:00"
+      - key: NOVA_POSHTA_API_KEY
+        sync: false
+      - key: YUGTORG_API_KEY
+        sync: false
 
   - type: web
     name: alt-cam-manager-bot

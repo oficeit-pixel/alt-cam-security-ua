@@ -13,6 +13,31 @@ from bot.states.states import CaptchaState, TermsState
 
 PUBLIC_COMMANDS = {"/start", "/help", "/delete_me"}
 PUBLIC_CALLBACK_PREFIXES = ("captcha:", "terms:", "guide:")
+# Order pipeline: sales conversations must never hit a captcha wall (clients drop off).
+PIPELINE_CALLBACK_PREFIXES = ("faq:", "cli:", "inq:")
+
+
+def pipeline_bypass(event: TelegramObject, current_state: str | None, user_id: int) -> bool:
+    """True when the event belongs to the order pipeline and may skip captcha/terms."""
+    from bot.config import get_settings
+    from bot.handlers.admin import is_admin
+
+    settings = get_settings()
+    if not (settings.pipeline_enabled and settings.capture_before_terms):
+        return False
+    if is_admin(user_id):
+        return True  # owner actions/replies never blocked
+    if current_state and current_state.startswith("OwnerPipelineSG"):
+        return True
+    if isinstance(event, CallbackQuery):
+        return bool(event.data and event.data.startswith(PIPELINE_CALLBACK_PREFIXES))
+    gate_states = {CaptchaState.waiting_for_captcha.state, TermsState.waiting_for_accept.state, None}
+    if isinstance(event, Message) and event.chat.type == "private" and current_state in gate_states:
+        text = event.text or ""
+        if text.startswith("/start "):
+            return True  # deep links: site buttons, signed order links and existing intents
+        return not text.startswith("/")
+    return False
 
 
 class TermsMiddleware(BaseMiddleware):
@@ -37,6 +62,7 @@ class TermsMiddleware(BaseMiddleware):
 
         state = data.get("state")
         current_state = await state.get_state() if state else None
+        bypass = pipeline_bypass(event, current_state, user.id)
         if current_state in {
             CaptchaState.waiting_for_captcha.state,
             TermsState.waiting_for_accept.state,
@@ -54,7 +80,7 @@ class TermsMiddleware(BaseMiddleware):
                 select(User.accepted_terms).where(User.telegram_id == user.id)
             )
 
-        if not accepted:
+        if not accepted and not bypass:
             if state:
                 await state.set_state(TermsState.waiting_for_accept)
             target = event.message if isinstance(event, CallbackQuery) else event

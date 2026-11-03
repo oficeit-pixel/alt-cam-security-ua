@@ -43,8 +43,12 @@ test('configured messengers render valid links and remove hidden',()=>{
   assert(html.includes('viber://chat?number=%2B380630607088'));
   assert(!html.includes(' hidden'));
 });
-test('manager and news channel are separate destinations',()=>{
+test('sales Telegram buttons open the bot, news channel stays separate',()=>{
   const html=renderContacts('<a data-contact="telegram">Написати</a><a data-contact="telegramChannel">Новини</a>');
-  assert(html.includes(`https://t.me/${contacts.telegram}`));
+  assert(html.includes(`https://t.me/${contacts.telegramBot}?start=site`));
   assert(html.includes(`https://t.me/${contacts.telegramChannel}`));
+});
+test('without a bot the manager account is the fallback destination',()=>{
+  const html=renderContacts('<a data-contact="telegram">Написати</a>',{...contacts,telegramBot:''});
+  assert(html.includes(`https://t.me/${contacts.telegram}"`));
 });

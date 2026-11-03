@@ -19,3 +19,11 @@ test('empty message still contains client contacts',()=>{
   const payload=buildLeadPayload('contact_form',{name:'Тест',phone:'0630607088'}, {origin:'https://example.test',pathname:'/'});
   assert(payload.message.includes('+380630607088'));
 });
+
+const {telegramContinueLink} = require('../lead-payload.js');
+test('only a well-formed bot deep link from the API is shown to the client',()=>{
+  assert.equal(telegramContinueLink({telegram_link:'https://t.me/AltCamSecurityUaBot?start=o12_abcdef1234'}),'https://t.me/AltCamSecurityUaBot?start=o12_abcdef1234');
+  assert.equal(telegramContinueLink({telegram_link:'javascript:alert(1)'}),'');
+  assert.equal(telegramContinueLink({telegram_link:'https://evil.test/?start=x'}),'');
+  assert.equal(telegramContinueLink(null),'');
+});
