@@ -11,10 +11,18 @@ from bot.db.requests import get_or_create_user
 from bot.keyboards.common import accept_terms_keyboard, captcha_keyboard
 from bot.states.states import CaptchaState, TermsState
 
-PUBLIC_COMMANDS = {"/start", "/help", "/delete_me"}
+PUBLIC_COMMANDS = {"/start", "/help", "/delete_me", "/id"}
 PUBLIC_CALLBACK_PREFIXES = ("captcha:", "terms:", "guide:")
 # Order pipeline: sales conversations must never hit a captcha wall (clients drop off).
 PIPELINE_CALLBACK_PREFIXES = ("faq:", "cli:", "inq:")
+
+
+def is_public_command(text: str | None) -> bool:
+    # Telegram group commands include @bot_username; Command filters below
+    # still validate the recipient. Deep-link arguments must not hit the gate.
+    if not text or not text.strip():
+        return False
+    return text.split(maxsplit=1)[0].split("@", 1)[0] in PUBLIC_COMMANDS
 
 
 def pipeline_bypass(event: TelegramObject, current_state: str | None, user_id: int) -> bool:
@@ -55,7 +63,7 @@ class TermsMiddleware(BaseMiddleware):
         callback_data = event.data if isinstance(event, CallbackQuery) else None
         if isinstance(event, Message) and event.new_chat_members:
             return await handler(event, data)
-        if text in PUBLIC_COMMANDS or (
+        if is_public_command(text) or (
             callback_data and callback_data.startswith(PUBLIC_CALLBACK_PREFIXES)
         ):
             return await handler(event, data)

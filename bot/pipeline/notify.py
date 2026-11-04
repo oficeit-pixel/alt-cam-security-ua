@@ -115,7 +115,7 @@ def client_confirm_keyboard(inquiry_id: int) -> InlineKeyboardMarkup:
 def escalation_targets(level: int) -> list[int]:
     settings = get_settings()
     targets: list[int] = []
-    for chat_id, min_level in ((settings.owner_chat_id, 1), (settings.second_contact_target, 2), (settings.site_lead_group_id, 3)):
+    for chat_id, min_level in ((getattr(settings, "managers_chat_id", None), 1), (settings.owner_chat_id, 1), (settings.second_contact_target, 2), (settings.site_lead_group_id, 3)):
         if chat_id and level >= min_level and chat_id not in targets:
             targets.append(chat_id)
     return targets
