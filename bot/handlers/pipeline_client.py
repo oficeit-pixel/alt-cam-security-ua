@@ -52,18 +52,15 @@ def _message_summary(message: Message) -> str:
 
 
 async def _copy_to_owner(message: Message, session, inquiry: Inquiry, header: str | None, force_card: bool = False) -> None:
-    settings = get_settings()
-    owner = settings.owner_chat_id
-    if not owner:
-        return
-    if header and (force_card or await service.card_is_stale(session, inquiry.id, owner, CARD_REPEAT)):
-        await notify.send_owner_card(message.bot, session, inquiry, header=header, targets=[owner])
-    try:
-        copied = await message.bot.copy_message(owner, message.chat.id, message.message_id)
-        await service.add_event(session, inquiry.id, "owner_copy", "system", None, owner_chat_id=owner,
-                                owner_message_id=copied.message_id)
-    except Exception as exc:
-        logger.warning("owner_copy_failed inquiry=%s (%s)", inquiry.id, type(exc).__name__)
+    for owner in notify.escalation_targets(1):
+        if header and (force_card or await service.card_is_stale(session, inquiry.id, owner, CARD_REPEAT)):
+            await notify.send_owner_card(message.bot, session, inquiry, header=header, targets=[owner])
+        try:
+            copied = await message.bot.copy_message(owner, message.chat.id, message.message_id)
+            await service.add_event(session, inquiry.id, "owner_copy", "system", None, owner_chat_id=owner,
+                                    owner_message_id=copied.message_id)
+        except Exception as exc:
+            logger.warning("owner_copy_failed inquiry=%s (%s)", inquiry.id, type(exc).__name__)
 
 
 async def capture_client_message(message: Message) -> Inquiry:
@@ -119,7 +116,7 @@ async def _start_site(message: Message) -> None:
         await session.commit()
         if is_new:
             await notify.send_owner_card(message.bot, session, inquiry, header="👋 Клієнт відкрив бота з сайту (ще не писав)",
-                                         targets=[t for t in [get_settings().owner_chat_id] if t])
+                                         targets=notify.escalation_targets(1))
             await session.commit()
 
 
@@ -199,7 +196,7 @@ async def start_deeplink(message: Message, command: CommandObject) -> None:
         await service.add_event(session, inquiry.id, "client_bound", "client", f"tg:{user.id}")
         await session.commit()
         await notify.send_owner_card(message.bot, session, inquiry, header="🔗 Клієнт підключив Telegram до запиту",
-                                     targets=[t for t in [get_settings().owner_chat_id] if t])
+                                     targets=notify.escalation_targets(1))
         await session.commit()
     await message.answer(texts.site_order_bound_text(title), reply_markup=notify.client_faq_keyboard())
 
@@ -257,7 +254,7 @@ async def client_decision(callback: CallbackQuery) -> None:
             header, reply = "❓ <b>У клієнта є питання</b>", "Напишіть, будь ласка, ваше питання — менеджер відповість."
         await session.commit()
         await notify.send_owner_card(callback.bot, session, inquiry, header=header,
-                                     targets=[t for t in [get_settings().owner_chat_id] if t])
+                                     targets=notify.escalation_targets(1))
         await session.commit()
     await callback.message.answer(reply)
     await callback.answer()
