@@ -43,6 +43,16 @@ async def route_start_intent(target, state: FSMContext, intent: str | None, *, e
 
 @router.message(Command("start"))
 async def cmd_start(message: Message, state: FSMContext, command: CommandObject) -> None:
+    if message.chat.type in {"group", "supergroup"}:
+        # A diagnostic response must not depend on the database or create a
+        # shared captcha/FSM conversation in a managers' group.
+        await message.answer(
+            "Бот ALT-CAM отримує команди в цій групі.\n"
+            f"ID чату: <code>{message.chat.id}</code>\n\n"
+            "Ця відповідь підтверджує зв'язок із Telegram, але не підключення "
+            "групи до заявок. Доступ до клієнтських діалогів налаштовується окремо."
+        )
+        return
     intent = command.args
     if intent:
         await state.update_data(start_intent=intent)
