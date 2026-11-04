@@ -11,6 +11,7 @@ class Settings(BaseSettings):
     bot_username: str = Field("AltCamSecurityUaBot", alias="BOT_USERNAME")
     database_url: str = Field(..., alias="DATABASE_URL")
     admin_chat_id: int | None = Field(None, alias="ADMIN_CHAT_ID")
+    managers_chat_id: int | None = Field(None, alias="MANAGERS_CHAT_ID")
     installer_group_id: int | None = Field(None, alias="INSTALLER_GROUP_ID")
     client_group_id: int | None = Field(None, alias="CLIENT_GROUP_ID")
     client_group_url: str | None = Field(None, alias="CLIENT_GROUP_URL")
@@ -121,6 +122,7 @@ class Settings(BaseSettings):
 
     @field_validator(
         "admin_chat_id",
+        "managers_chat_id",
         "installer_group_id",
         "client_group_id",
         "site_lead_group_id",
