@@ -15565,6 +15565,194 @@
           "id": "122142390753226993",
           "post_id": "962902993572061_122142390771226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-11-04T08:04:43.704459+00:00",
+        "result": {
+          "container": {
+            "id": "18098572475418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18098572475418944"
+          },
+          "published": {
+            "id": "18132879596494194"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-04T08:05:53.358134+00:00",
+        "result": {
+          "container": {
+            "id": "18098516141424516"
+          },
+          "published": {
+            "id": "18105811697020056"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-04T08:05:56.935283+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 193,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793779556,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADwWrq52M_bw87JPn2BgGhj9vCX2KmAAKKG2sbrmVYS5qRp5RUxWpEAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADihtrG65lWEt4",
+                  "file_size": 1746,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADwWrq52M_bw87JPn2BgGhj9vCX2KmAAKKG2sbrmVYS5qRp5RUxWpEAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADihtrG65lWEty",
+                  "file_size": 27541,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADwWrq52M_bw87JPn2BgGhj9vCX2KmAAKKG2sbrmVYS5qRp5RUxWpEAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADihtrG65lWEt9",
+                  "file_size": 119720,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADwWrq52M_bw87JPn2BgGhj9vCX2KmAAKKG2sbrmVYS5qRp5RUxWpEAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADihtrG65lWEt-",
+                  "file_size": 244184,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADwWrq52M_bw87JPn2BgGhj9vCX2KmAAKKG2sbrmVYS5qRp5RUxWpEAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADihtrG65lWEt8",
+                  "file_size": 257507,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🛗 Відеоспостереження у ліфтах — більше безпеки для всього будинку\n\nЛіфт — одна з зон багатоквартирного будинку, де особливо важливо мати контроль над ситуацією. Камера допомагає фіксувати події, зменшувати ризик вандалізму та швидше розбиратися у спірних ситуаціях.\n\nALT-CAM Security UA проєктує та встановлює системи відеоспостереження для ліфтів, під’їздів і місць загального користування.\n\nМожливості системи:\n\nвідеоконтроль у кабіні ліфта;\nзапис на NVR або інше сховище;\nперегляд архіву;\nвіддалений доступ зі смартфона;\nнічне бачення;\nінтеграція з існуючою системою відеоспостереження будинку;\nконтроль під’їздів, холів, паркінгів та вхідних груп;\nпрофесійний монтаж і налаштування.\nЩо це дає мешканцям та ОСББ\n\n✅ Більше безпеки у місцях загального користування\n✅ Контроль вандалізму та пошкодження майна\n✅ Відеофіксація у разі інцидентів\n✅ Можливість перегляду подій за потрібний період\n✅ Централізований контроль кількох камер\n✅ Акуратний монтаж з урахуванням особливостей ліфтової шахти та каб…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 194,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793779556,
+              "text": "🛗 Відеоспостереження у ліфтах — більше безпеки для всього будинку\n\nЛіфт — одна з зон багатоквартирного будинку, де особливо важливо мати контроль над ситуацією. Камера допомагає фіксувати події, зменшувати ризик вандалізму та швидше розбиратися у спірних ситуаціях.\n\nALT-CAM Security UA проєктує та встановлює системи відеоспостереження для ліфтів, під’їздів і місць загального користування.\n\nМожливості системи:\n\nвідеоконтроль у кабіні ліфта;\nзапис на NVR або інше сховище;\nперегляд архіву;\nвіддалений доступ зі смартфона;\nнічне бачення;\nінтеграція з існуючою системою відеоспостереження будинку;\nконтроль під’їздів, холів, паркінгів та вхідних груп;\nпрофесійний монтаж і налаштування.\nЩо це дає мешканцям та ОСББ\n\n✅ Більше безпеки у місцях загального користування\n✅ Контроль вандалізму та пошкодження майна\n✅ Відеофіксація у разі інцидентів\n✅ Можливість перегляду подій за потрібний період\n✅ Централізований контроль кількох камер\n✅ Акуратний монтаж з урахуванням особливостей ліфтової шахти та кабіни\n\nТакі системи підходять для ЖК, ОСББ, керуючих компаній, бізнес-центрів, паркінгів та адміністративних будівель.\n\nПотрібен розрахунок відеоспостереження для вашого будинку?\nНапишіть «ЛІФТ» у повідомлення ALT-CAM Security UA — допоможемо підібрати обладнання та конфігурацію системи.\n\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#ALTCAM #ALTCAMSecurityUA #Відеоспостереження #Відеонагляд #Ліфт #ОСББ #ЖитловийКомплекс #БезпекаБудинку #КамериВідеоспостереження #МонтажКамер #Підїзд #Паркінг #СистемиБезпеки\n\n🤖 https://t.me/alt_cam_bot",
+              "entities": [
+                {
+                  "offset": 1292,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1354,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1362,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1380,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1400,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1413,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1419,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1425,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1443,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1459,
+                  "length": 25,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1485,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1498,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1506,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1515,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1535,
+                  "length": 24,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
       }
     }
   }
