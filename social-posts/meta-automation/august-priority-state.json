@@ -15754,6 +15754,148 @@
           }
         }
       }
+    },
+    "daily-2026-10-19-034": {
+      "instagram": {
+        "published_at": "2026-11-04T16:10:36.297579+00:00",
+        "result": {
+          "container": {
+            "id": "18098649986418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18098649986418944"
+          },
+          "published": {
+            "id": "18318139543304455"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-04T16:11:46.745322+00:00",
+        "result": {
+          "container": {
+            "id": "18098601824424516"
+          },
+          "published": {
+            "id": "18132784162764814"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-04T16:11:50.448375+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 195,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793808710,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADw2rrWUZZR7FqQoPEsg11Os999X8UAAKVHmsbrmVgS_hvz_WW1smpAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADlR5rG65lYEt4",
+                  "file_size": 1898,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADw2rrWUZZR7FqQoPEsg11Os999X8UAAKVHmsbrmVgS_hvz_WW1smpAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADlR5rG65lYEty",
+                  "file_size": 27424,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADw2rrWUZZR7FqQoPEsg11Os999X8UAAKVHmsbrmVgS_hvz_WW1smpAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADlR5rG65lYEt9",
+                  "file_size": 112903,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADw2rrWUZZR7FqQoPEsg11Os999X8UAAKVHmsbrmVgS_hvz_WW1smpAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADlR5rG65lYEt-",
+                  "file_size": 229898,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADw2rrWUZZR7FqQoPEsg11Os999X8UAAKVHmsbrmVgS_hvz_WW1smpAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADlR5rG65lYEt8",
+                  "file_size": 239886,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🔌 Потрібно передати Ethernet по оптоволокну на відстань до 20 км?\n\nALISTAR mini 100BASE-FX 1SM WDM SC — компактний медіаконвертер для побудови оптичного мережевого з’єднання.\n\nОсновні характеристики:\n\nTx: 1310 нм\nRx: 1550 нм\nоптичний роз’єм SC\nдистанція — до 20 км\nживлення DC 5–12 В\nспоживана потужність — 5 Вт\n\nРішення підходить для задач, де потрібно передати мережеве з’єднання через оптичну лінію на значну відстань.\n\nПотрібно перевірити сумісність з вашим обладнанням або підібрати пару медіаконвертерів? Напишіть «ОПТИКА» у повідомлення ALT-CAM Security UA — допоможемо з вибором.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #Медіаконвертер #Оптоволокно #FiberOptic #МережевеОбладнання #Телекомунікації #ОптичнаМережа\n\n🤖 https://t.me/alt_cam_bot",
+              "caption_entities": [
+                {
+                  "offset": 593,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 617,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 625,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 643,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 659,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 672,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 684,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 704,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 721,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 740,
+                  "length": 24,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
