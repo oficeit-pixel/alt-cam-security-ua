@@ -16,6 +16,7 @@ from sqlalchemy import select, text
 from bot.db.base import SessionLocal, engine
 from bot.db.models import AdminAuditLog, AnalyticsEvent, PriceOverride, WebOrder
 from bot.integrations.order_fulfillment import auto_create_order_drive_folder
+from bot.pipeline.capture import capture_site_lead, capture_site_order
 from bot.web.shop_admin import register_shop_admin_routes
 
 from bot.config import get_settings
@@ -303,13 +304,23 @@ async def site_lead(request: web.Request) -> web.Response:
         await asyncio.wait_for(_deliver_saved_lead(request.app, lead_id), timeout=25)
     except Exception as exc:
         request.app["logger"].warning("Lead notification pending id=%s (%s)", lead_id, type(exc).__name__)
-    return web.json_response({"ok": True, "id": lead_id}, headers=_cors_headers(request))
+    result = {"ok": True, "id": lead_id}
+    try:
+        telegram_link = await asyncio.wait_for(capture_site_lead(request.app["bot"], lead_id, payload), timeout=15)
+    except Exception as exc:
+        telegram_link = None
+        request.app["logger"].warning("Lead pipeline capture failed id=%s (%s)", lead_id, type(exc).__name__)
+    if telegram_link:
+        result["telegram_link"] = telegram_link
+    return web.json_response(result, headers=_cors_headers(request))
 
 
 async def _deliver_saved_lead(app, lead_id):
     from html import unescape
     settings = get_settings()
-    targets = [settings.admin_chat_id] if settings.admin_chat_id else []
+    # With the pipeline on, the owner gets an actionable card instead (see bot/pipeline/capture.py);
+    # the plain-text copy goes only to the archive group.
+    targets = [settings.admin_chat_id] if settings.admin_chat_id and not settings.pipeline_enabled else []
     if settings.site_lead_group_id and settings.site_lead_group_id not in targets:
         targets.append(settings.site_lead_group_id)
     def render(payload):
@@ -464,13 +475,21 @@ async def create_order(request: web.Request) -> web.Response:
         lines.append(f"{index}. {escape(_clean(item.get('name'))[:220])} × {max(1, int(item.get('quantity') or 1))}")
     text = "\n".join(lines)[:4096]
     settings = get_settings()
-    targets = [settings.admin_chat_id] if settings.admin_chat_id else []
+    bot: Bot | None = request.app["bot"]
+    telegram_link = None
+    try:
+        telegram_link = await asyncio.wait_for(capture_site_order(bot, order), timeout=15)
+    except Exception as exc:
+        request.app["logger"].warning("order_pipeline_capture_failed order=%s (%s)", order_number, type(exc).__name__)
+    targets = [settings.admin_chat_id] if settings.admin_chat_id and not settings.pipeline_enabled else []
     if settings.site_lead_group_id and settings.site_lead_group_id not in targets:
         targets.append(settings.site_lead_group_id)
-    bot: Bot | None = request.app["bot"]
     for chat_id in targets:
         if bot:
-            await bot.send_message(chat_id, text)
+            try:
+                await bot.send_message(chat_id, text)
+            except Exception as exc:  # order is already saved; never answer 500 to the client
+                request.app["logger"].warning("order_telegram_failed order=%s (%s)", order_number, type(exc).__name__)
     await _post_order_notifications(
         request.app,
         order_number=order_number,
@@ -479,7 +498,10 @@ async def create_order(request: web.Request) -> web.Response:
         items=normalized_items,
         subtotal=subtotal,
     )
-    return web.json_response({"ok": True, "order_number": order_number}, headers=_cors_headers())
+    result = {"ok": True, "order_number": order_number}
+    if telegram_link:
+        result["telegram_link"] = telegram_link
+    return web.json_response(result, headers=_cors_headers())
 
 
 async def health(_: web.Request) -> web.Response:

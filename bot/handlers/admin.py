@@ -10,7 +10,11 @@ router = Router(name="admin")
 
 def is_admin(user_id: int) -> bool:
     settings = get_settings()
-    return user_id in settings.admin_ids or user_id == settings.admin_chat_id
+    if user_id in settings.admin_ids or user_id == settings.admin_chat_id:
+        return True
+    from bot.pipeline import contacts  # owner / second contact auto-registered by /start
+
+    return user_id in contacts.registered_ids()
 
 
 CHANNEL_NAVIGATION_TEXT = (

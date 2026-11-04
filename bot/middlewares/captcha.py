@@ -1,4 +1,4 @@
-from aiogram import Router
+from aiogram import F, Router
 from aiogram.fsm.context import FSMContext
 from aiogram.types import CallbackQuery
 
@@ -16,7 +16,7 @@ async def ask_captcha(message, state: FSMContext) -> None:
     )
 
 
-@router.callback_query(CaptchaState.waiting_for_captcha)
+@router.callback_query(CaptchaState.waiting_for_captcha, F.data.startswith("captcha:"))
 async def captcha_answer(callback: CallbackQuery, state: FSMContext) -> None:
     if callback.data != "captcha:camera":
         await callback.answer("Спробуйте ще раз.", show_alert=True)

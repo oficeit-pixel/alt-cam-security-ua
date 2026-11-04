@@ -222,3 +222,80 @@ class AdminAuditLog(Base):
     details: Mapped[dict] = mapped_column(JSONB, default=dict)
     ip_address: Mapped[str | None] = mapped_column(String(64))
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), index=True)
+
+
+class Inquiry(Base):
+    """One client request moving through the order pipeline (site lead, site order or bot chat)."""
+
+    __tablename__ = "inquiries"
+
+    id: Mapped[int] = mapped_column(BigInteger, Identity(), primary_key=True)
+    source: Mapped[str] = mapped_column(String(24), index=True)
+    status: Mapped[str] = mapped_column(String(32), default="new", server_default="new", index=True)
+    client_tg_id: Mapped[int | None] = mapped_column(BigInteger, index=True)
+    client_chat_id: Mapped[int | None] = mapped_column(BigInteger)
+    client_username: Mapped[str | None] = mapped_column(String(64))
+    client_name: Mapped[str | None] = mapped_column(String(255))
+    business_connection_id: Mapped[str | None] = mapped_column(String(64), index=True)
+    phone: Mapped[str | None] = mapped_column(String(32), index=True)
+    summary: Mapped[str] = mapped_column(Text, default="", server_default="")
+    site_lead_id: Mapped[int | None] = mapped_column(ForeignKey("site_leads.id", ondelete="SET NULL"), index=True)
+    web_order_id: Mapped[int | None] = mapped_column(ForeignKey("web_orders.id", ondelete="SET NULL"), index=True)
+    payment_method: Mapped[str | None] = mapped_column(String(16))
+    ttn: Mapped[str | None] = mapped_column(String(32), index=True)
+    np_status_code: Mapped[str | None] = mapped_column(String(8))
+    supplier_order_number: Mapped[str | None] = mapped_column(String(120))
+    closed_reason: Mapped[str | None] = mapped_column(Text)
+    awaiting_since: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), index=True)
+    reminder_level: Mapped[int] = mapped_column(Integer, default=0, server_default="0")
+    first_response_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    taken_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    taken_by: Mapped[int | None] = mapped_column(BigInteger)
+    last_client_msg_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    last_owner_msg_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    auto_reply_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    followup_sent_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    status_history: Mapped[list[dict]] = mapped_column(JSONB, default=list, server_default="[]")
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), index=True)
+    updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
+
+
+class InquiryEvent(Base):
+    """Message/status log; owner_message_id maps owner-chat notifications back to inquiries."""
+
+    __tablename__ = "inquiry_events"
+
+    id: Mapped[int] = mapped_column(BigInteger, Identity(), primary_key=True)
+    inquiry_id: Mapped[int] = mapped_column(ForeignKey("inquiries.id", ondelete="CASCADE"), index=True)
+    kind: Mapped[str] = mapped_column(String(32), index=True)
+    actor: Mapped[str] = mapped_column(String(16))
+    text: Mapped[str | None] = mapped_column(Text)
+    owner_chat_id: Mapped[int | None] = mapped_column(BigInteger)
+    owner_message_id: Mapped[int | None] = mapped_column(BigInteger, index=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), index=True)
+
+
+class PipelineContact(Base):
+    """Owner / second contact chat ids auto-registered by /start (used when env ids are not set)."""
+
+    __tablename__ = "pipeline_contacts"
+
+    role: Mapped[str] = mapped_column(String(16), primary_key=True)
+    chat_id: Mapped[int] = mapped_column(BigInteger)
+    username: Mapped[str | None] = mapped_column(String(64))
+    registered_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
+
+
+class BusinessConnectionRecord(Base):
+    """Telegram Business connections of this bot; only the owner's connection is used."""
+
+    __tablename__ = "business_connections"
+
+    id: Mapped[str] = mapped_column(String(64), primary_key=True)
+    user_id: Mapped[int] = mapped_column(BigInteger, index=True)
+    user_chat_id: Mapped[int] = mapped_column(BigInteger)
+    username: Mapped[str | None] = mapped_column(String(64))
+    can_reply: Mapped[bool] = mapped_column(Boolean, default=False)
+    is_enabled: Mapped[bool] = mapped_column(Boolean, default=True)
+    allowed: Mapped[bool] = mapped_column(Boolean, default=False)
+    updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
