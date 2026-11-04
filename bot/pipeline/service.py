@@ -235,6 +235,8 @@ async def inquiry_for_site_lead(session: AsyncSession, site_lead_id: int) -> Inq
 
 
 def bind_client(inquiry: Inquiry, *, tg_id: int, chat_id: int, username: str | None, full_name: str | None) -> None:
+    if inquiry.client_tg_id is not None and inquiry.client_tg_id != tg_id:
+        raise ValueError("inquiry_already_bound")
     inquiry.client_tg_id, inquiry.client_chat_id = tg_id, chat_id
     inquiry.business_connection_id = None  # the client is in the bot chat now: answer there
     inquiry.client_username = (username or "")[:64] or inquiry.client_username
