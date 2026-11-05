@@ -242,6 +242,8 @@ async def faq(callback: CallbackQuery) -> None:
                 )
             else:
                 await service.record_client_message(session, inquiry, "🙋 Покликати менеджера")
+            from bot.ai import runtime as ai_runtime
+            await ai_runtime.set_paused(session, inquiry.client_tg_id, True, "client_requested_manager")
             await session.commit()
             await notify.send_owner_card(callback.bot, session, inquiry, header="🙋 <b>Клієнт кличе менеджера</b>", level=2)
             await session.commit()

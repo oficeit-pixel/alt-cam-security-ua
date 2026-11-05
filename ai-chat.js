@@ -9,7 +9,11 @@
   const STORE = 'altcam-ai-chat-v1';
   const SAFE_LINK = /^https:\/\/(?:(?:www\.)?alt-cam\.net\.ua|oficeit-pixel\.github\.io|t\.me)\/[^\s<>"']*$/;
   let history = [];
-  try { history = JSON.parse(root.sessionStorage.getItem(STORE) || '[]').slice(-12); } catch { history = []; }
+  try {
+    const stored = JSON.parse(root.sessionStorage.getItem(STORE) || '[]');
+    history = Array.isArray(stored) ? stored.filter(m => m && ['user', 'assistant'].includes(m.role)
+      && typeof m.content === 'string').slice(-12).map(m => ({role: m.role, content: m.content.slice(0, 4000)})) : [];
+  } catch { history = []; }
   const save = () => { try { root.sessionStorage.setItem(STORE, JSON.stringify(history.slice(-12))); } catch { /* приватний режим */ } };
   const track = (event, data) => root.altcamAnalytics?.(event, data || {});
 
@@ -48,10 +52,11 @@
     panel.className = 'aic-panel'; panel.hidden = true; panel.setAttribute('aria-label', 'Консультант ALT-CAM');
     panel.innerHTML = '<div class="aic-head"><span><b>ALT-CAM</b> · консультант</span><button type="button" aria-label="Закрити">×</button></div>' +
       '<div class="aic-log" role="log" aria-live="polite"></div>' +
-      '<p class="aic-note">Ціни — з каталогу сайту; наявність і остаточну суму підтверджує менеджер.</p>' +
+      '<p class="aic-note">Автоматичний помічник ALT-CAM. Ціни — з каталогу; наявність і суму підтверджує менеджер. Історію передамо менеджеру після надсилання форми.</p>' +
+      '<button type="button" class="aic-manager">Покликати менеджера</button>' +
       '<form class="aic-form"><textarea name="q" maxlength="1500" required placeholder="Напишіть, що потрібно захистити…" aria-label="Ваше запитання"></textarea><button>➤</button></form>';
     doc.body.append(fab, panel);
-    const log = panel.querySelector('.aic-log'), form = panel.querySelector('.aic-form'), input = form.q;
+    const log = panel.querySelector('.aic-log'), form = panel.querySelector('.aic-form'), input = form.elements.namedItem('q');
 
     function bubble(role, text) {
       const p = doc.createElement('p');
@@ -60,6 +65,8 @@
       log.append(p); log.scrollTop = log.scrollHeight; return p;
     }
     function leadForm(telegramLink) {
+      const existing = log.querySelector('.aic-lead');
+      if (existing) { existing.scrollIntoView({block: 'nearest'}); return; }
       const box = doc.createElement('form');
       box.className = 'aic-lead';
       box.innerHTML = '<b>Передати питання менеджеру</b><input name="name" placeholder="Ваше ім’я" autocomplete="name">' +
@@ -72,8 +79,8 @@
         event.preventDefault();
         const transcript = history.map(m => (m.role === 'user' ? 'Клієнт: ' : 'Консультант: ') + m.content).join('\n').slice(-3500);
         const lead = root.AltcamLead;
-        if (!lead) return;
-        const payload = lead.buildLeadPayload('ai_chat', {name: box.name.value, phone: box.phone.value,
+        if (!lead) { bubble('assistant', 'Форма тимчасово недоступна. Напишіть нам у Telegram @OficeITHelp.'); return; }
+        const payload = lead.buildLeadPayload('ai_chat', {name: box.elements.namedItem('name').value, phone: box.elements.namedItem('phone').value,
           message: 'Запит із чату на сайті\n' + transcript});
         await lead.submit(box, box.querySelector('button'), payload.message, () => lead.post('/site-lead', payload));
         track('ai_chat_lead');
@@ -91,6 +98,7 @@
       }
     }
     fab.addEventListener('click', () => open(panel.hidden));
+    panel.querySelector('.aic-manager').addEventListener('click', () => leadForm(''));
     panel.querySelector('.aic-head button').addEventListener('click', () => open(false));
     input.addEventListener('keydown', event => { if (event.key === 'Enter' && !event.shiftKey) { event.preventDefault(); form.requestSubmit(); } });
     form.addEventListener('submit', async event => {
@@ -100,13 +108,16 @@
       form.dataset.busy = '1'; input.value = '';
       history.push({role: 'user', content: text}); save(); bubble('user', text);
       const wait = bubble('assistant', '…');
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 65000);
       try {
         const response = await root.fetch(API + '/api/ai/chat', {method: 'POST', headers: {'Content-Type': 'application/json'},
-          body: JSON.stringify({messages: history.slice(-12)})});
+          body: JSON.stringify({messages: history.slice(-12)}), signal: controller.signal});
         const data = await response.json().catch(() => ({}));
         if (response.status === 429) throw new Error('rate');
         if (!response.ok || !data.ok || !data.reply) throw new Error('fail');
         wait.remove(); bubble('assistant', data.reply);
+        if (data.cart_url && SAFE_LINK.test(data.cart_url) && !data.reply.includes(data.cart_url)) bubble('assistant', data.cart_url);
         history.push({role: 'assistant', content: data.reply}); save();
         if (data.handoff) leadForm(data.telegram_link);
         track('ai_chat_reply', {handoff: data.handoff || ''});
@@ -115,7 +126,7 @@
         bubble('assistant', error.message === 'rate' ? 'Забагато запитань поспіль — зачекайте хвилину, будь ласка.'
           : 'Не вдалося отримати відповідь. Залиште телефон — менеджер зв’яжеться з вами.');
         if (error.message !== 'rate') leadForm('');
-      } finally { delete form.dataset.busy; }
+      } finally { clearTimeout(timer); delete form.dataset.busy; }
     });
   }
 

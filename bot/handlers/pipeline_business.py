@@ -170,7 +170,10 @@ async def handle_business_message(message: Message, now=None) -> str:
             if ai_state == "replied":
                 header += " · 🤖 AI відповів"
             await notify.send_owner_card(message.bot, session, inquiry, header=header,
-                                         targets=[t for t in [settings.owner_chat_id] if t])
+                                         targets=notify.escalation_targets(1))
+        await notify.mirror_manager_text(message.bot, session, inquiry,
+                                        message.text or message.caption or "[Медіаповідомлення]",
+                                        "💬 Клієнт · Telegram Business")
         await session.commit()
     return "captured_new" if is_new else "captured"
 

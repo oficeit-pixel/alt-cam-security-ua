@@ -40,6 +40,10 @@ async def _refresh_card(callback: CallbackQuery, session, inquiry: Inquiry, head
 
 async def send_to_client(bot, session, inquiry: Inquiry, text: str, owner_id: int | None, *, kind: str = "owner_reply",
                          reply_markup=None) -> bool:
+    if inquiry.client_tg_id:
+        from bot.ai import runtime as ai_runtime
+        await ai_runtime.pause_from_owner(session, inquiry, True, "owner_reply")
+        await session.commit()
     if not await delivery.send_client_text(bot, inquiry, text, reply_markup=reply_markup):
         return False
     await service.record_owner_reply(session, inquiry, text, owner_id, kind=kind)
@@ -65,6 +69,10 @@ async def owner_action(callback: CallbackQuery, state: FSMContext) -> None:
             await callback.answer("Запит не знайдено", show_alert=True)
             return
         note = None
+        if action in {"take", "reply"} and inquiry.client_tg_id:
+            from bot.ai import runtime as ai_runtime
+            await ai_runtime.pause_from_owner(session, inquiry, True, "owner_takeover")
+            await session.commit()
         if action == "take":
             if can_transition(inquiry.status, "taken"):
                 await service.transition(session, inquiry, "taken", actor="owner", owner_id=owner_id)
@@ -164,6 +172,10 @@ async def relay_owner_message(message: Message, inquiry_id: int | None) -> None:
         if inquiry is None or not inquiry.client_chat_id:
             await message.answer("Не вдалося: клієнт не підключений до бота.")
             return
+        if inquiry.client_tg_id:
+            from bot.ai import runtime as ai_runtime
+            await ai_runtime.pause_from_owner(session, inquiry, True, "owner_relay")
+            await session.commit()
         try:
             if delivery.is_business(inquiry):
                 if not message.text:
