@@ -104,3 +104,44 @@ def test_llm_failure_never_breaks_site(enabled):
         return response.status, await response.json()
     code, data = run_with_client(go)
     assert code == 200 and data["handoff"] == "ai_unavailable" and data["reply"]
+
+
+def test_cart_url_returned_with_kit_reply(enabled):
+    from bot.ai.catalog import Product
+
+    cam = Product(id="viatec-1", name="IP відеокамера 4МП PoE", model="IPC", brand="Dahua",
+                  category="Камери відеоспостереження", price=1525.0)
+    fake = FakeLLM([
+        {"role": "assistant", "content": None, "tool_calls": [{"id": "c1", "type": "function", "function": {
+            "name": "create_cart_link", "arguments": '{"items": [{"id": "viatec-1", "qty": 2}]}'}}]},
+        {"role": "assistant", "content": "2 камеры по 1 525 грн.\nИтого: 3 050 грн."},
+    ])
+
+    async def factory():
+        return Consultant(fake, product_catalog={cam.id: cam})
+    ai_chat.set_consultant_factory(factory)
+
+    async def go(client):
+        return await (await client.post("/api/ai/chat", json={"messages": [
+            {"role": "user", "content": "Нужно 2 камеры"}]})).json()
+    data = run_with_client(go)
+    assert "handoff" not in data and data["cart_url"] == "https://alt-cam.net.ua/catalog.html?cart=viatec-1:2"
+    assert data["cart_url"] in data["reply"] and "3 050 грн" in data["reply"]
+
+
+def test_cart_url_parsed_from_reply_text(enabled):
+    url = "https://alt-cam.net.ua/catalog.html?cart=viatec-1:2"
+
+    class Stub:
+        async def reply(self, history):
+            from bot.ai.consultant import ConsultResult
+            return ConsultResult(text=f"Корзина: {url}")
+
+    async def factory():
+        return Stub()
+    ai_chat.set_consultant_factory(factory)
+
+    async def go(client):
+        return await (await client.post("/api/ai/chat", json={"messages": [
+            {"role": "user", "content": "Ссылка на корзину"}]})).json()
+    assert run_with_client(go)["cart_url"] == url
