@@ -121,7 +121,7 @@ async def main():
     out = sent()
     assert any(m.chat_id == 555 and "Передаю ваше питання менеджеру" in m.text for m in out)
     alerts = [m for m in out if "AI передає розмову" in (m.text or "")]
-    assert {m.chat_id for m in alerts} == {111, 222}, out
+    assert {m.chat_id for m in alerts} == {-100123, 111, 222}, out
     async with SessionLocal() as s:
         assert (await s.get(AIChatPref, 555)).paused
         assert (await s.get(Inquiry, inquiry_id)).awaiting_since is not None
