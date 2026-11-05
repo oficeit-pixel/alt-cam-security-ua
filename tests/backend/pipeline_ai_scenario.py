@@ -174,6 +174,48 @@ async def main():
     await feed(business_message=msg(biz, "4 камери", business_connection_id="bc1"))
     assert not any(m.chat_id == 777 for m in sent())
 
+    # Isolation: two clients, independent LLM histories, owner replies and pause state.
+    alice = User(id=888, is_bot=False, first_name="Isolation A")
+    bob = User(id=889, is_bot=False, first_name="Isolation B")
+    script[:] = [{"role": "assistant", "content": "Відповідь лише ALPHA_PRIVATE"}]
+    await feed(message=msg(alice, "ALPHA_PRIVATE: камера для дому"))
+    out = sent()
+    assert any(m.chat_id == 888 and "ALPHA_PRIVATE" in m.text for m in out)
+    assert not any(m.chat_id == 889 for m in out)
+    script[:] = [{"role": "assistant", "content": "Відповідь лише BETA_PRIVATE"}]
+    await feed(message=msg(bob, "BETA_PRIVATE: камера для магазину"))
+    out = sent()
+    assert any(m.chat_id == 889 and "BETA_PRIVATE" in m.text for m in out)
+    assert not any(m.chat_id == 888 for m in out)
+    async with SessionLocal() as s:
+        a = await s.scalar(select(Inquiry).where(Inquiry.client_tg_id == 888))
+        b = await s.scalar(select(Inquiry).where(Inquiry.client_tg_id == 889))
+        a_id, b_id = a.id, b.id
+        ha, _ = await runtime.history(s, a_id)
+        hb, _ = await runtime.history(s, b_id)
+        assert "BETA_PRIVATE" not in str(ha)
+        assert "ALPHA_PRIVATE" not in str(hb)
+    # Client A forges an action against B: must not alter B or reveal its data.
+    await feed(callback_query=CallbackQuery(id="isolation-forged", from_user=alice, chat_instance="x",
+        data=f"cli:{b_id}:no", message=msg(alice, "button")))
+    assert not sent()
+    async with SessionLocal() as s:
+        assert (await s.get(Inquiry, b_id)).status == "new"
+    # Client cannot invoke manager card actions either.
+    await feed(callback_query=CallbackQuery(id="isolation-manager", from_user=alice, chat_instance="x",
+        data=f"inq:{b_id}:card", message=msg(alice, "button")))
+    assert not sent()
+    # Owner replies to A: only A receives it; B stays active for AI.
+    await pipeline_owner.relay_owner_message(msg(owner, "MANAGER_ALPHA_ONLY").as_(bot), a_id)
+    assert any(isinstance(m, CopyMessage) and m.chat_id == 888 for m in calls)
+    assert not any(getattr(m, "chat_id", None) == 889 for m in calls)
+    sent()
+    async with SessionLocal() as s:
+        assert await runtime.is_paused(s, 888)
+        assert not await runtime.is_paused(s, 889)
+        hb, _ = await runtime.history(s, b_id)
+        assert "MANAGER_ALPHA_ONLY" not in str(hb)
+
     await engine.dispose()
     print("PIPELINE_AI_SCENARIO_OK")
 

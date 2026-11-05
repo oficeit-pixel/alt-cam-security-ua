@@ -122,10 +122,10 @@ async def main():
     assert await jobs.run_followups(bot, later) == 1
     assert await jobs.run_followups(bot, later) == 0
     cb = SimpleNamespace(data=f"cli:{inquiry.id}:ok", from_user=SimpleNamespace(id=555), bot=bot,
-                         message=SimpleNamespace(answer=AsyncMock(), chat=SimpleNamespace(id=555)), answer=AsyncMock())
+                         message=SimpleNamespace(answer=AsyncMock(), chat=SimpleNamespace(id=555, type="private")), answer=AsyncMock())
     await pipeline_client.client_decision(cb)
     foreign = SimpleNamespace(data=f"cli:{inquiry.id}:no", from_user=SimpleNamespace(id=999), bot=bot,
-                              message=SimpleNamespace(answer=AsyncMock()), answer=AsyncMock())
+                              message=SimpleNamespace(answer=AsyncMock(), chat=SimpleNamespace(id=999, type="private")), answer=AsyncMock())
     await pipeline_client.client_decision(foreign)
     async with SessionLocal() as s:
         row = await s.get(Inquiry, inquiry.id)

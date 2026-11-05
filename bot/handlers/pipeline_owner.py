@@ -162,6 +162,14 @@ async def owner_reply_text(message: Message, state: FSMContext) -> None:
     if not is_admin(message.from_user.id):
         return
     inquiry_id = (await state.get_data()).get("inquiry_id")
+    if message.reply_to_message:
+        async with SessionLocal() as session:
+            quoted = await service.inquiry_by_owner_message(
+                session, message.chat.id, message.reply_to_message.message_id)
+        if quoted is None or quoted.id != inquiry_id:
+            await state.clear()
+            await message.answer("Не надіслано: цитата не відповідає обраному запиту. Натисніть «Відповісти» на потрібній картці.")
+            return
     await state.clear()
     await relay_owner_message(message, inquiry_id)
 
