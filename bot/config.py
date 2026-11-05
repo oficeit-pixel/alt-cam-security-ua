@@ -102,10 +102,14 @@ class Settings(BaseSettings):
     business_autoreply_text: str | None = Field(None, alias="BUSINESS_AUTOREPLY_TEXT")
     business_ignore_chat_ids: str = Field("", alias="BUSINESS_IGNORE_CHAT_IDS")
     # AI consultant "помічник ALT-CAM" (OpenAI-compatible API; disabled without a key)
-    llm_api_key: str | None = Field(None, validation_alias=AliasChoices("LLM_API_KEY", "GEMINI_API_KEY"))
+    llm_api_key: str | None = Field(None, validation_alias=AliasChoices("GEMINI_API_KEY", "LLM_API_KEY"))
     llm_base_url: str = Field("https://generativelanguage.googleapis.com/v1beta/openai/", alias="LLM_BASE_URL")
     llm_model: str = Field("gemini-3.5-flash-lite", alias="LLM_MODEL")
-    ai_enabled: bool = Field(True, alias="AI_ENABLED")
+    # Master switch (AI_CONSULTANT_ENABLED; legacy alias AI_ENABLED). Off by default: opt-in after GEMINI_API_KEY is set.
+    ai_enabled: bool = Field(False, validation_alias=AliasChoices("AI_CONSULTANT_ENABLED", "AI_ENABLED"))
+    ai_web_enabled: bool = Field(True, alias="AI_WEB_CHAT_ENABLED")
+    ai_disclose_bot: bool = Field(False, alias="AI_DISCLOSE_BOT")
+    ai_web_rate_per_minute: int = Field(6, alias="AI_WEB_RATE_PER_MINUTE")
     ai_business_enabled: bool = Field(True, alias="AI_BUSINESS_ENABLED")
     ai_counts_as_response: bool = Field(True, alias="AI_COUNTS_AS_RESPONSE")
     ai_pause_on_owner_reply: bool = Field(True, alias="AI_PAUSE_ON_OWNER_REPLY")
@@ -202,6 +206,11 @@ class Settings(BaseSettings):
     @property
     def ai_active(self) -> bool:
         return bool(self.ai_enabled and self.llm_api_key and self.pipeline_enabled)
+
+    @property
+    def ai_web_active(self) -> bool:
+        """Website chat widget: same consultant, does not depend on the Telegram pipeline."""
+        return bool(self.ai_enabled and self.ai_web_enabled and self.llm_api_key)
 
     @property
     def scheduler_active(self) -> bool:

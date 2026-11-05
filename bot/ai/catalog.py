@@ -114,13 +114,53 @@ def _number(pattern: str, text: str) -> int | None:
 
 
 def channels(product: Product) -> int | None:
-    return _number(r"(\d{1,2})\s*-?\s*(?:ch\b|кан)", f"{product.name} {product.model}".lower())
+    return _number(r"(\d{1,2})\s*-?\s*(?:ch\b|х?\s*-?\s*кан)", f"{product.name} {product.model}".lower())
 
 
 def ports(product: Product) -> int | None:
     """PoE port count: '16-портовий', 'з 4 портами POE', '8 PoE'."""
     text = f"{product.name} {product.model}".lower()
     return _number(r"(\d{1,2})\s*(?:-?\s*портов\w*|\s+порт\w*\s+poe|\s*poe)", text) or _number(r"(\d{1,2})\s*-?\s*порт", text)
+
+
+_NVR_POE_COUNT = re.compile(r"(\d{1,2})\s*-?\s*poe(?!\s*:)", re.I)          # '8PoE', '24 PoE', '4-PoE'
+_NVR_POE_MODEL = re.compile(r"[-/](\d{1,2})p(?=[-/(\s]|$)", re.I)          # DHI-NVR2108-8P-I2, DS-7108NI-Q1/8P(D)
+_NVR_POE_SAME = re.compile(r"[-/]p(?=[-/(\s]|$)", re.I)                     # DHI-NVR1104HS-P-S3: PoE on every channel
+
+
+def _own_text(product: Product) -> str:
+    """Name/model/features only (category names contain generic words like 'PoE')."""
+    return f"{product.name} {product.model} {' '.join(product.features)}".lower()
+
+
+def is_poe_switch(product: Product) -> bool:
+    text = _own_text(product)
+    return "poe" in text and ("комутатор" in text or "коммутатор" in text or "switch" in text) \
+        and "реєстратор" not in text and "nvr" not in text
+
+
+def is_recorder(product: Product) -> bool:
+    text = _own_text(product)
+    return "nvr" in text or "відеореєстратор" in text or "реєстратор" in text
+
+
+def nvr_poe_ports(product: Product) -> int:
+    """Built-in PoE ports of a recorder (0 = no PoE, an external PoE switch is required).
+
+    Explicit counts win ('8PoE', '-8P-', '/4P('); a bare '-P-' model suffix or a plain 'PoE' mark means PoE on every
+    channel (Dahua/Hikvision naming)."""
+    if not is_recorder(product):
+        return 0
+    head = f"{product.name} {product.model}"
+    counts = [int(m.group(1)) for m in _NVR_POE_COUNT.finditer(head)]
+    counts += [int(m.group(1)) for m in _NVR_POE_MODEL.finditer(product.model or "")]
+    counts += [int(m.group(1)) for m in _NVR_POE_MODEL.finditer(product.name or "")]
+    counts = [c for c in counts if 1 <= c <= 64]
+    if counts:
+        return max(counts)
+    if _NVR_POE_SAME.search(product.model or "") or "poe" in head.lower():  # features 'PoE' = camera support only
+        return channels(product) or 0
+    return 0
 
 
 def roll_length(product: Product) -> int | None:
@@ -165,9 +205,6 @@ def build_kit(cameras: int, *, resolution_mp: int | None = None, outdoor: bool =
         text = own(p)
         return re.search(r"жорсткий диск|жесткий диск|\bhdd\b", text) is not None and "реєстратор" not in text
 
-    def is_switch(p):
-        text = own(p)
-        return "poe" in text and ("комутатор" in text or "switch" in text) and (ports(p) or 0) >= cameras
 
     def is_cable(p):
         text = own(p)
@@ -179,10 +216,26 @@ def build_kit(cameras: int, *, resolution_mp: int | None = None, outdoor: bool =
     components: dict[str, list[dict[str, Any]]] = {}
     poe_first = lambda p, pr: ("poe" not in own(p), pr)  # noqa: E731 - wired PoE cameras for NVR kits
     components["cameras"] = [p.public(price, cameras) for p, price in _pick(catalog, overrides, is_camera, poe_first)]
-    components["nvr"] = [p.public(price, 1) for p, price in
-                         _pick(catalog, overrides, is_nvr, lambda p, pr: (channels(p), "poe" not in own(p), pr))]
+    # Recorders with enough built-in PoE ports first: then the kit needs no separate PoE switch.
+    nvr_rows = _pick(catalog, overrides, is_nvr,
+                     lambda p, pr: (nvr_poe_ports(p) < cameras, channels(p) or 0, pr))
+    components["nvr"] = []
+    for p, price in nvr_rows:
+        row = p.public(price, 1)
+        row["poe_ports"] = nvr_poe_ports(p)
+        row["needs_poe_switch"] = row["poe_ports"] < cameras
+        components["nvr"].append(row)
     components["hdd"] = [p.public(price, 1) for p, price in _pick(catalog, overrides, is_hdd, lambda p, pr: pr)]
-    components["poe_switch"] = [p.public(price, 1) for p, price in _pick(catalog, overrides, is_switch, lambda p, pr: (ports(p), pr))]
+    main_nvr_poe = components["nvr"][0]["poe_ports"] if components["nvr"] else 0
+    switch_needed = main_nvr_poe < cameras
+    missing_poe = cameras - main_nvr_poe  # cameras that are not powered by the recorder itself
+
+    def is_switch(p):
+        return is_poe_switch(p) and (ports(p) or 0) >= missing_poe
+
+    components["poe_switch"] = ([p.public(price, 1) for p, price in
+                                 _pick(catalog, overrides, is_switch, lambda p, pr: (ports(p), pr))]
+                                if switch_needed else [])
     cable = []
     for p, price in _pick(catalog, overrides, is_cable, lambda p, pr: pr, limit=6):
         length = roll_length(p)
@@ -193,11 +246,17 @@ def build_kit(cameras: int, *, resolution_mp: int | None = None, outdoor: bool =
     components["cable"] = cable
     notes = [f"Кабель орієнтовно {meters} м ({'зовнішній' if outdoor else 'внутрішній'}); точний метраж — після огляду/плану.",
              "Ємність диска підбирається під потрібний архів; сумісність і наявність перевіряє менеджер.",
-             "Якщо реєстратор має вбудовані PoE-порти, окремий комутатор не потрібен."]
-    missing = [name for name, rows in components.items() if not rows]
+             ]
+    if switch_needed:
+        notes.append(f"PoE-комутатор потрібен: реєстратор живить {main_nvr_poe} з {cameras} камер." if main_nvr_poe
+                     else "PoE-комутатор потрібен: реєстратор без вбудованих PoE-портів.")
+    else:
+        notes.append(f"Окремий PoE-комутатор НЕ потрібен: реєстратор має {main_nvr_poe} вбудованих PoE-портів "
+                     f"для {cameras} камер. Не додавай комутатор у кошик.")
+    missing = [name for name, rows in components.items() if not rows and (name != "poe_switch" or switch_needed)]
     if missing:
         notes.append("Не знайдено в каталозі: " + ", ".join(missing) + " — підбере менеджер.")
-    return {"cameras": cameras, "components": components, "notes": notes}
+    return {"cameras": cameras, "components": components, "poe_switch_needed": switch_needed, "notes": notes}
 
 
 def cart_link(items: list[dict[str, Any]], *, origin: str = "https://alt-cam.net.ua",
@@ -221,8 +280,32 @@ def cart_link(items: list[dict[str, Any]], *, origin: str = "https://alt-cam.net
             total += price * qty
         parts.append(f"{pid}:{qty}")
         lines.append(product.public(price, qty))
+    removed = _drop_redundant_switches(catalog, parts)
+    if removed:
+        keep = [part for part in parts if part.split(":")[0] not in removed]
+        lines = [row for row in lines if row["id"] not in removed]
+        total = sum((row["price_uah"] or 0) * row["qty"] for row in lines)
+        priced = all(row["price_uah"] is not None for row in lines)
+        parts = keep
     if not parts:
         return {"ok": False, "error": "no_valid_items", "unknown_ids": unknown}
     return {"ok": True, "url": f"{origin.rstrip('/')}/catalog.html?cart={quote(','.join(parts), safe=':,')}",
             "items": lines, "total_uah": round(total, 2) if priced else None, "unknown_ids": unknown,
-            "note": "Ціни за каталогом сайту; наявність і остаточну суму підтверджує менеджер."}
+            "removed_redundant_poe_switch": removed,
+            "note": "Ціни за каталогом сайту; наявність і остаточну суму підтверджує менеджер."
+                    + (" PoE-комутатор прибрано: реєстратор сам живить усі камери." if removed else "")}
+
+
+def _drop_redundant_switches(catalog: dict[str, Product], parts: list[str]) -> list[str]:
+    """Ids of PoE switches that are redundant because the recorder in the same cart powers every camera."""
+    qty = {}
+    for part in parts:
+        pid, _, count = part.partition(":")
+        qty[pid] = qty.get(pid, 0) + int(count or 1)
+    items = [(catalog[pid], count) for pid, count in qty.items() if pid in catalog]
+    cams = sum(count for p, count in items if "камери відеоспостереження" in p.category.lower() and not is_recorder(p))
+    nvr_poe = sum(nvr_poe_ports(p) * count for p, count in items if is_recorder(p))
+    switches = [p.id for p, _ in items if is_poe_switch(p)]
+    if not switches or not cams or nvr_poe < cams:
+        return []
+    return switches

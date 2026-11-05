@@ -12,8 +12,64 @@ from bot.ai import catalog, policies
 from bot.ai.llm import LLMUnavailable
 
 logger = logging.getLogger("altcam.ai.consultant")
-INTRO = "Вітаю! Я помічник ALT-CAM 🤖 — автоматичний консультант магазину. Допоможу підібрати обладнання й зорієнтую за цінами з каталогу."
-BUSINESS_PREFIX = "🤖 Помічник ALT-CAM: "
+# The consultant never claims to be a human, but does not volunteer that it is a bot either (answers honestly
+# when asked). AI_DISCLOSE_BOT=true restores the explicit "🤖 automatic assistant" intro / Business prefix.
+INTRO_UK = "Вітаю! Це ALT-CAM Security — допоможу підібрати обладнання та зорієнтую за цінами з каталогу."
+INTRO_RU = "Здравствуйте! Это ALT-CAM Security — помогу подобрать оборудование и сориентирую по ценам из каталога."
+INTRO_BOT = "Вітаю! Я помічник ALT-CAM 🤖 — автоматичний консультант магазину. Допоможу підібрати обладнання й зорієнтую за цінами з каталогу."
+INTRO = INTRO_UK
+BUSINESS_PREFIX_BOT = "🤖 Помічник ALT-CAM: "
+BUSINESS_PREFIX = ""
+_RU_ONLY = re.compile(r"[ыэъё]", re.I)
+_UK_ONLY = re.compile(r"[іїєґ]", re.I)
+_RU_WORDS = re.compile(r"\b(?:что|как|сколько|нужно|нужна|нужен|здравствуйте|привет|спасибо|камеры|можно|какой|какая|есть)\b", re.I)
+
+
+def detect_language(text: str) -> str:
+    """'ru' or 'uk' (default) from the client's own words."""
+    value = text or ""
+    ru = len(_RU_ONLY.findall(value)) + 2 * len(_RU_WORDS.findall(value))
+    uk = len(_UK_ONLY.findall(value))
+    return "ru" if ru > uk else "uk"
+
+
+def conversation_language(history: list[dict[str, str]]) -> str:
+    """Language of the client's latest message; a neutral one ('ок', '4', a link) falls back to earlier messages."""
+    for item in reversed(history):
+        if item.get("role") != "user":
+            continue
+        value = item.get("content") or ""
+        if _RU_ONLY.search(value) or _UK_ONLY.search(value) or _RU_WORDS.search(value):
+            return detect_language(value)
+    return "uk"
+
+
+_MD_LINK = re.compile(r"\[([^\]\n]{1,300})\]\((https?://[^)\s]+)\)")
+_MD_BOLD = re.compile(r"(\*\*|__)(.+?)\1", re.S)
+
+
+def plain_text(text: str) -> str:
+    """Telegram (HTML-escaped) and the site widget show plain text: drop markdown bold and [link](url) wrappers."""
+    text = _MD_LINK.sub(lambda m: m.group(2) if m.group(1).strip() == m.group(2) else f"{m.group(1)}: {m.group(2)}", text)
+    return _MD_BOLD.sub(r"\2", text)
+
+
+LANGUAGE_RULE = {
+    "ru": "\n\nМОВА ЦІЄЇ ВІДПОВІДІ: клієнт пише російською — відповідай ТІЛЬКИ російською мовою (уся відповідь, включно з примітками).",
+    "uk": "\n\nМОВА ЦІЄЇ ВІДПОВІДІ: українська.",
+}
+
+
+def intro(lang: str = "uk", disclose_bot: bool = False) -> str:
+    if disclose_bot:
+        return INTRO_BOT
+    return INTRO_RU if lang == "ru" else INTRO_UK
+
+
+def business_prefix(disclose_bot: bool = False) -> str:
+    return BUSINESS_PREFIX_BOT if disclose_bot else BUSINESS_PREFIX
+
+
 HANDOFF_REASONS = {
     "payment": "оплата / рахунок",
     "complex": "складний запит / проєкт / монтаж",
@@ -24,15 +80,15 @@ HANDOFF_REASONS = {
     "other": "інше",
 }
 
-SYSTEM_PROMPT = """Ти — «помічник ALT-CAM», автоматичний консультант магазину систем безпеки ALT-CAM Security UA (alt-cam.net.ua, Київ/Вишгород).
-Ти НЕ людина: ніколи не називай себе Сергієм, менеджером чи людиною і не стверджуй, що ти людина. Якщо питають — чесно кажи, що ти автоматичний помічник, а менеджер підключиться.
-Мова: українська (якщо клієнт пише російською — відповідай російською). Коротко, по суті, до 700 символів, без markdown-таблиць.
+SYSTEM_PROMPT = """Ти — «помічник ALT-CAM», консультант магазину систем безпеки ALT-CAM Security UA (alt-cam.net.ua, Київ/Вишгород). Пишеш від імені магазину ALT-CAM.
+Ідентичність: ти НЕ людина — ніколи не стверджуй, що ти людина, не вигадуй собі ім'я і не називай себе Сергієм чи менеджером. Сам не повідомляй, що ти бот чи AI. Лише якщо клієнт прямо питає, чи він спілкується з ботом/людиною, — чесно скажи, що ти автоматичний помічник ALT-CAM і за потреби підключиться менеджер.
+Мова: відповідай мовою останнього повідомлення клієнта — українською, а якщо клієнт пише російською, то російською. Коротко, по суті, до 700 символів, без markdown-таблиць.
 
 ПРАВИЛА (обов'язкові):
 1. Моделі, ціни, характеристики — ТІЛЬКИ з результатів інструментів search_products / build_kit / create_cart_link. Ніколи не вигадуй ціну, знижку, наявність, строки, гарантію. Ціну пиши точно як у полі price_uah, у форматі «1525 грн». Якщо ціни немає — «ціну уточнить менеджер».
 2. Ціна в каталозі не означає наявність. Про наявність — лише після check_stock; якщо результат «перевірити вручну»/невідомо — скажи, що наявність підтвердить менеджер.
 3. Оплата, доставка, гарантія, повернення — ТІЛЬКИ текст з get_policy. Нічого не додавай від себе.
-4. Для комплекту відеоспостереження спершу уточни (якщо не сказано) кількість камер і вулиця/приміщення, потім build_kit, запропонуй ОДИН збалансований варіант (камери + реєстратор + диск + PoE-комутатор, якщо в реєстратора немає PoE + кабель) і дай посилання create_cart_link. Зазнач, що склад і суму остаточно підтверджує менеджер.
+4. Для комплекту відеоспостереження спершу уточни (якщо не сказано) кількість камер і вулиця/приміщення, потім build_kit, запропонуй ОДИН збалансований варіант: камери + реєстратор + диск + кабель. PoE-комутатор додавай ТІЛЬКИ якщо build_kit повернув poe_switch_needed=true (реєстратор з достатньою кількістю вбудованих PoE-портів — poe_ports — живить камери сам, окремий комутатор зайвий). Дай посилання create_cart_link. Зазнач, що склад і суму остаточно підтверджує менеджер.
 5. Виклич handoff_to_manager, якщо: клієнт хоче оплатити/отримати рахунок чи реквізити; торг/знижка/опт; монтаж, виїзд, проєкт, понад 16 камер або нестандартна задача; скарга, гарантійний випадок, повернення конкретного замовлення; клієнт незадоволений або просить людину; ти не впевнений.
 6. Не називай строки доставки в днях, якщо їх немає в get_policy: строк залежить від перевізника.
 7. Не проси і не приймай дані платіжних карток. Не обіцяй строків відповіді менеджера, окрім «найближчим часом у робочий час».
@@ -193,7 +249,9 @@ class Consultant:
         trigger = detect_handoff(last)
         if trigger:
             return ConsultResult(text=None, handoff=trigger, handoff_summary=last[:300])
-        messages: list[dict[str, Any]] = [{"role": "system", "content": SYSTEM_PROMPT}, *history[-14:]]
+        lang = conversation_language(history)
+        messages: list[dict[str, Any]] = [{"role": "system", "content": SYSTEM_PROMPT + LANGUAGE_RULE[lang]},
+                                          *history[-14:]]
         result = ConsultResult(text=None)
         allowed: set[float] = set()
         sources: list[str] = []
@@ -226,6 +284,7 @@ class Consultant:
             logger.warning("consultant_llm_unavailable (%s)", exc.reason)
             return ConsultResult(text=None, handoff="ai_unavailable", handoff_summary=last[:300], tools_used=result.tools_used)
         if result.text:
+            result.text = plain_text(result.text)
             result.text = strip_unverified_durations(result.text, " ".join(sources)) or None
         if result.text:
             bad = unverified_prices(result.text, allowed)
@@ -233,7 +292,7 @@ class Consultant:
                 logger.warning("consultant_unverified_prices %s", bad)
                 return ConsultResult(text=None, handoff="unverified", handoff_summary=last[:300], tools_used=result.tools_used)
             if result.cart_url and result.cart_url not in result.text:
-                result.text += f"\n\n🛒 Кошик: {result.cart_url}"
+                result.text += f"\n\n🛒 {'Корзина' if lang == 'ru' else 'Кошик'}: {result.cart_url}"
         elif not result.handoff:
             result.handoff = "other"
         return result

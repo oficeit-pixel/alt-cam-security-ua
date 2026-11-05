@@ -43,10 +43,64 @@ def test_build_kit_picks_ip_poe_components():
     assert kit["cameras"][0]["qty"] == 4
     assert [r["id"] for r in kit["nvr"]][0] == "viatec-10"            # 4ch PoE first, XVR excluded
     assert "viatec-12" not in [r["id"] for r in kit["nvr"]]
-    assert kit["hdd"][0]["id"] == "viatec-20" and kit["poe_switch"][0]["id"] == "viatec-30"
+    assert kit["hdd"][0]["id"] == "viatec-20"
+    assert kit["nvr"][0]["poe_ports"] == 4 and kit["poe_switch"] == []  # 4PoE NVR powers 4 cameras: no switch
     assert kit["cable"][0]["qty"] == 1                                  # 4 cams * 25 m -> one 100 m roll
-    kit8 = catalog.build_kit(8, catalog=CATALOG)["components"]
-    assert [r["id"] for r in kit8["nvr"]] == ["viatec-11"] and kit8["poe_switch"] == []
+    kit8 = catalog.build_kit(8, catalog=CATALOG)
+    assert [r["id"] for r in kit8["components"]["nvr"]] == ["viatec-11"]
+    assert kit8["poe_switch_needed"] is True                              # 8ch NVR without PoE needs a switch
+    assert "poe_switch" not in " ".join(n for n in kit8["notes"] if n.startswith("Окремий"))
+
+
+NVR = "Відеореєстратори та накопичувачі"
+POE_CATALOG = {p.id: p for p in [
+    make("cam", "IP відеокамера 4МП PoE", "IPC-1", price=1500.0),
+    make("nvr-plain", "8-канальний IP відеореєстратор", "DHI-NVR1108", NVR, price=3000.0),
+    make("nvr-8p", "8-канальний 1U 8PoE Lite відеореєстратор", "DHI-NVR1108HS-8P-S3/H", NVR, price=5000.0),
+    make("nvr-4p", "8-канальний IP відеореєстратор 4PoE", "NVR-X", NVR, price=4000.0),
+    make("sw4", "POE комутатор 4 POE + 2 RJ45", "Merlion", "Мережеве обладнання", brand="Merlion", price=900.0),
+    make("sw8", "POE комутатор 8 POE + 2 RJ45", "Merlion", "Мережеве обладнання", brand="Merlion", price=1900.0),
+]}
+
+
+@pytest.mark.parametrize("product_id,model,name,expected", [
+    ("a", "DHI-NVR2108-8P-I2", "8-канальний AI мережевий POE відеореєстратор", 8),
+    ("b", "DS-7108NI-Q1/8P(D)", "8-канальний POE мережевий відеореєстратор", 8),
+    ("c", "DHI-NVR1104HS-P-S3/H", "Відеореєстратор Dahua 4-канальний 1U PoE", 4),
+    ("d", "DS-7732NI-M4/24P", "Відеореєстратор Hikvision 32-канальний 1.5U 24 PoE 8K", 24),
+    ("e", "DHI-NVR4232-4KS3", "32-канальний мережевий відеореєстратор", 0),
+])
+def test_nvr_poe_ports(product_id, model, name, expected):
+    assert catalog.nvr_poe_ports(make(product_id, name, model, NVR)) == expected
+
+
+def test_no_redundant_poe_switch_when_nvr_has_poe():
+    kit = catalog.build_kit(8, catalog=POE_CATALOG)
+    assert kit["components"]["nvr"][0]["id"] == "nvr-8p"           # PoE NVR preferred over cheaper plain NVR
+    assert kit["poe_switch_needed"] is False and kit["components"]["poe_switch"] == []
+    assert not any("poe_switch" in n for n in kit["notes"])
+    kit4 = catalog.build_kit(4, catalog=POE_CATALOG)
+    assert kit4["components"]["nvr"][0]["id"] == "nvr-4p" and kit4["components"]["poe_switch"] == []
+
+
+def test_poe_switch_kept_when_needed():
+    no_poe = {k: v for k, v in POE_CATALOG.items() if k not in {"nvr-8p", "nvr-4p"}}
+    kit = catalog.build_kit(8, catalog=no_poe)
+    assert kit["poe_switch_needed"] is True and [r["id"] for r in kit["components"]["poe_switch"]] == ["sw8"]
+    partial = {k: v for k, v in POE_CATALOG.items() if k != "nvr-8p"}  # 4 PoE ports for 8 cameras
+    kit = catalog.build_kit(8, catalog=partial)
+    assert kit["components"]["nvr"][0]["id"] == "nvr-plain" or kit["poe_switch_needed"] is True
+    assert kit["components"]["poe_switch"]
+
+
+def test_cart_link_drops_redundant_switch():
+    link = catalog.cart_link([{"id": "cam", "qty": 8}, {"id": "nvr-8p"}, {"id": "sw8"}], catalog=POE_CATALOG)
+    assert link["ok"] and "sw8" not in link["url"] and link["removed_redundant_poe_switch"] == ["sw8"]
+    assert link["total_uah"] == 1500 * 8 + 5000
+    keep = catalog.cart_link([{"id": "cam", "qty": 8}, {"id": "nvr-plain"}, {"id": "sw8"}], catalog=POE_CATALOG)
+    assert "sw8" in keep["url"] and keep["removed_redundant_poe_switch"] == []
+    more = catalog.cart_link([{"id": "cam", "qty": 6}, {"id": "nvr-4p"}, {"id": "sw4"}], catalog=POE_CATALOG)
+    assert "sw4" in more["url"]                                          # 4 PoE ports < 6 cameras: switch stays
 
 
 def test_cart_link_validates_ids_and_totals():
@@ -64,10 +118,14 @@ def test_real_catalog_kit_when_available():
         pytest.skip("catalog-data.js not available")
     assert len(products) > 1000
     assert not any(catalog.HIDDEN_BRANDS.match(p.brand) for p in products.values())
-    kit = catalog.build_kit(4)["components"]
-    for name in ("cameras", "nvr", "hdd", "poe_switch", "cable"):
+    full = catalog.build_kit(4)
+    kit = full["components"]
+    for name in ("cameras", "nvr", "hdd", "cable"):
         assert kit[name], name
         assert all(r["price_uah"] and r["id"] in products for r in kit[name])
+    assert kit["nvr"][0]["poe_ports"] >= 4 and full["poe_switch_needed"] is False and kit["poe_switch"] == []
+    big = catalog.build_kit(20)
+    assert big["poe_switch_needed"] is (big["components"]["nvr"][0]["poe_ports"] < 20)
 
 
 @pytest.mark.parametrize("text,reason", [
@@ -242,15 +300,43 @@ def test_ai_disabled_without_key(monkeypatch):
 
     settings = get_settings()
     monkeypatch.setattr(settings, "llm_api_key", None)
-    assert not settings.ai_active
+    monkeypatch.setattr(settings, "ai_enabled", True)
+    assert not settings.ai_active and not settings.ai_web_active
     monkeypatch.setattr(settings, "llm_api_key", "x")
-    assert settings.ai_active
+    assert settings.ai_active and settings.ai_web_active
+    monkeypatch.setattr(settings, "ai_enabled", False)                 # AI_CONSULTANT_ENABLED=false wins
+    assert not settings.ai_active and not settings.ai_web_active
+
+
+def test_env_names(monkeypatch):
+    from bot.config import Settings
+
+    monkeypatch.setenv("DATABASE_URL", "postgresql://t:t@127.0.0.1:1/t")
+    monkeypatch.delenv("AI_ENABLED", raising=False)
+    assert Settings().ai_enabled is False                                # opt-in
+    monkeypatch.setenv("AI_CONSULTANT_ENABLED", "true")
+    monkeypatch.setenv("GEMINI_API_KEY", "k")
+    settings = Settings()
+    assert settings.ai_enabled and settings.llm_api_key == "k"
 
 
 def test_system_prompt_rules():
     prompt = consultant.SYSTEM_PROMPT
     assert "помічник ALT-CAM" in prompt and "НЕ людина" in prompt and "Ніколи не вигадуй ціну" in prompt
-    assert "помічник ALT-CAM" in consultant.INTRO and "автоматичний" in consultant.INTRO
+    assert "Сам не повідомляй, що ти бот" in prompt and "прямо питає" in prompt and "російською" in prompt
+    assert "poe_switch_needed" in prompt
+    for text in (consultant.INTRO_UK, consultant.INTRO_RU, consultant.intro("uk"), consultant.intro("ru")):
+        assert "бот" not in text.lower() and "автомат" not in text.lower() and "🤖" not in text
+    assert consultant.business_prefix() == "" and "🤖" in consultant.business_prefix(True)
+    assert "автоматичний" in consultant.intro("uk", disclose_bot=True)
+
+
+@pytest.mark.parametrize("text,lang", [
+    ("Здравствуйте, сколько стоит камера?", "ru"), ("Нужно 4 камеры на дом", "ru"),
+    ("Вітаю, скільки коштує камера?", "uk"), ("Потрібно 4 камери", "uk"), ("4 cameras", "uk"),
+])
+def test_detect_language(text, lang):
+    assert consultant.detect_language(text) == lang
 
 
 def test_unverified_delivery_times_are_removed():
@@ -259,3 +345,24 @@ def test_unverified_delivery_times_are_removed():
     text = "Відправляємо Новою поштою. Зазвичай доставка займає 1–2 дні. Протягом 14 днів можна повернути."
     out = strip_unverified_durations(text, "повернення протягом 14 днів")
     assert "1–2 дні" not in out and "14 днів" in out and out.startswith("Відправляємо")
+
+
+def test_conversation_language_and_ru_instruction():
+    history = [{"role": "user", "content": "Здравствуйте, нужно 4 камеры"},
+               {"role": "assistant", "content": "Уточните, улица или помещение?"},
+               {"role": "user", "content": "ок, 4"}]
+    assert consultant.conversation_language(history) == "ru"          # neutral last message keeps the client's language
+    assert consultant.conversation_language([{"role": "user", "content": "Вітаю, ок"}]) == "uk"
+    fake = FakeLLM([{"role": "assistant", "content": "Для дома подойдут 4 камеры."}])
+    run(Consultant(fake, product_catalog=CATALOG, stock_checker=no_stock).reply(history))
+    assert "ТІЛЬКИ російською" in fake.calls[0][0]["content"]
+    fake = FakeLLM([{"role": "assistant", "content": "Підійдуть 4 камери."}])
+    run(Consultant(fake, product_catalog=CATALOG, stock_checker=no_stock).reply(
+        [{"role": "user", "content": "Потрібно 4 камери"}]))
+    assert "ТІЛЬКИ російською" not in fake.calls[0][0]["content"]
+
+
+def test_plain_text_strips_markdown():
+    url = "https://alt-cam.net.ua/catalog.html?cart=a:1"
+    assert consultant.plain_text(f"**Камери:** 2 шт. [{url}]({url})") == f"Камери: 2 шт. {url}"
+    assert consultant.plain_text(f"[Кошик]({url})") == f"Кошик: {url}"

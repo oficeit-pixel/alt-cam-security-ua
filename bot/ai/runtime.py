@@ -8,7 +8,7 @@ from typing import Any
 
 from sqlalchemy import select
 
-from bot.ai.consultant import BUSINESS_PREFIX, HANDOFF_REASONS, INTRO, Consultant
+from bot.ai.consultant import HANDOFF_REASONS, Consultant, business_prefix, conversation_language, detect_language, intro  # noqa: F401 (detect_language re-exported)
 from bot.ai.llm import LLMClient
 from bot.config import get_settings
 from bot.db.models import AIChatPref, Inquiry, InquiryEvent, PriceOverride
@@ -75,7 +75,9 @@ async def _consultant(session) -> Consultant:
                       site_origin=settings.site_public_origin, max_rounds=settings.ai_max_tool_rounds)
 
 
-def handoff_client_text(now=None) -> str:
+def handoff_client_text(now=None, lang: str = "uk") -> str:
+    if lang == "ru":
+        return "Передаю ваш вопрос менеджеру ALT-CAM — он ответит в ближайшее время в рабочие часы."
     return f"Передаю ваше питання менеджеру ALT-CAM — він відповість {schedule.eta_text(now)}."
 
 
@@ -90,6 +92,8 @@ async def respond(bot, session, inquiry: Inquiry, *, business: bool = False, now
     msgs, introduced = await history(session, inquiry.id)
     if not msgs or msgs[-1]["role"] != "user":
         return "disabled"
+    lang = conversation_language(msgs)
+    prefix = business_prefix(settings.ai_disclose_bot)
     if bot is not None and not business:
         try:
             await bot.send_chat_action(inquiry.client_chat_id, "typing")
@@ -103,8 +107,9 @@ async def respond(bot, session, inquiry: Inquiry, *, business: bool = False, now
         result = ConsultResult(text=None, handoff="ai_unavailable")
     sent_text = None
     if result.text:
-        body = result.text if introduced or "помічник alt-cam" in result.text.lower() else f"{INTRO}\n\n{result.text}"
-        sent_text = escape((BUSINESS_PREFIX + body) if business else body, quote=False)
+        greeting = intro(lang, settings.ai_disclose_bot)
+        body = result.text if introduced or "alt-cam" in result.text.lower()[:120] else f"{greeting}\n\n{result.text}"
+        sent_text = escape((prefix + body) if business else body, quote=False)
         markup = None if business else notify.client_faq_keyboard()
         if await delivery.send_client_text(bot, inquiry, sent_text, reply_markup=markup):
             await service.add_event(session, inquiry.id, "ai_reply", "ai", result.text)
@@ -125,7 +130,7 @@ async def respond(bot, session, inquiry: Inquiry, *, business: bool = False, now
         return "failed"
     if result.handoff:
         await _handoff(bot, session, inquiry, result.handoff, result.handoff_summary, business=business,
-                       client_notified=bool(sent_text), now=now)
+                       client_notified=bool(sent_text), now=now, lang=lang)
         await session.commit()
         return "handoff"
     await session.commit()
@@ -133,7 +138,7 @@ async def respond(bot, session, inquiry: Inquiry, *, business: bool = False, now
 
 
 async def _handoff(bot, session, inquiry: Inquiry, reason: str, summary: str | None, *, business: bool,
-                   client_notified: bool, now=None) -> None:
+                   client_notified: bool, now=None, lang: str = "uk") -> None:
     label = HANDOFF_REASONS.get(reason, reason)
     await set_paused(session, inquiry.client_tg_id, True, f"handoff:{reason}")
     await service.add_event(session, inquiry.id, "ai_handoff", "ai", f"{reason}: {summary or ''}"[:1000])
@@ -141,8 +146,8 @@ async def _handoff(bot, session, inquiry: Inquiry, reason: str, summary: str | N
         inquiry.awaiting_since = now or service.utcnow()
     inquiry.reminder_level = 0
     if not client_notified:
-        text = handoff_client_text(now)
-        await delivery.send_client_text(bot, inquiry, (BUSINESS_PREFIX + text) if business else text)
+        text = handoff_client_text(now, lang)
+        await delivery.send_client_text(bot, inquiry, (business_prefix(get_settings().ai_disclose_bot) + text) if business else text)
     await session.commit()
     header = f"🤖➡️👤 <b>AI передає розмову</b>: {label}" + (f"\n<i>{summary[:300]}</i>" if summary else "") + \
         "\nAI у цьому чаті вимкнено (/ai_on — увімкнути)."

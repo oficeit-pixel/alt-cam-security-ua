@@ -92,14 +92,18 @@ async def capture_client_message(message: Message) -> Inquiry:
             from bot.ai import runtime as ai_runtime
 
             ai_state = await ai_runtime.respond(message.bot, session, inquiry, now=now)
-        if need_auto_reply and ai_state not in {"replied", "handoff"}:
+        if ai_state in {"replied", "handoff"}:
+            if need_auto_reply:
+                inquiry.auto_reply_at = now  # the consultant already answered: it counts as the acknowledgement
+        elif need_auto_reply:
             if await safe_ack(message, texts.auto_reply(inquiry.id, now)):
                 inquiry.auto_reply_at = now
         elif ai_state == "failed":  # AI down mid-conversation: never leave the client without an answer
             from bot.ai import runtime as ai_runtime
 
             try:
-                await message.answer(ai_runtime.handoff_client_text(now))
+                await message.answer(ai_runtime.handoff_client_text(
+                    now, ai_runtime.detect_language(message.text or message.caption or "")))
             except TelegramAPIError as exc:
                 logger.warning("client_ack_failed (%s)", type(exc).__name__)
         header = "🆕 <b>Новий запит у боті</b>" if is_new else f"💬 Нове повідомлення у запиті №{inquiry.id}"

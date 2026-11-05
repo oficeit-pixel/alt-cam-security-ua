@@ -5,7 +5,7 @@ import os
 from datetime import datetime, timezone
 
 os.environ.update(ADMIN_CHAT_ID="111", ADMIN_IDS="111", SECOND_CONTACT_CHAT_ID="222", PIPELINE_LINK_SECRET="x",
-                  WORK_HOURS="00:00-23:59", WORK_DAYS="0,1,2,3,4,5,6", LLM_API_KEY="fake-key", AI_MIN_INTERVAL_SECONDS="0")
+                  WORK_HOURS="00:00-23:59", WORK_DAYS="0,1,2,3,4,5,6", LLM_API_KEY="fake-key", AI_CONSULTANT_ENABLED="true", AI_MIN_INTERVAL_SECONDS="0")
 
 from aiogram import Bot, Dispatcher  # noqa: E402
 from aiogram.client.session.base import BaseSession  # noqa: E402
@@ -97,7 +97,7 @@ async def main():
     await feed(message=msg(client, "Підкажіть камеру для будинку"))
     out = sent()
     to_client = [m for m in out if m.chat_id == 555]
-    assert len(to_client) == 1 and "помічник ALT-CAM" in to_client[0].text and to_client[0].reply_markup is not None, to_client
+    assert len(to_client) == 1 and "ALT-CAM Security" in to_client[0].text and "бот" not in to_client[0].text.lower() and to_client[0].reply_markup is not None, to_client
     assert not any("отримано ✅" in m.text for m in to_client)
     assert any(m.chat_id == 111 and "AI відповів" in m.text for m in out)
     async with SessionLocal() as s:
@@ -111,7 +111,7 @@ async def main():
     script[:] = [{"role": "assistant", "content": "Для вулиці підійдуть циліндричні IP-камери."}]
     await feed(message=msg(client, "На вулицю"))
     reply = [m for m in sent() if m.chat_id == 555][0]
-    assert "помічник ALT-CAM" not in reply.text and "циліндричні" in reply.text
+    assert "ALT-CAM Security" not in reply.text and "циліндричні" in reply.text
 
     # 3. Payment -> hand-off without LLM: client informed, owner + partner alerted, AI paused, waiting restarted
     script[:] = []

@@ -1,6 +1,6 @@
 """Manual smoke test of the AI consultant against a real OpenAI-compatible LLM (no DB, no Telegram).
 
-    LLM_API_KEY=... [LLM_MODEL=gemini-3.5-flash-lite] python scripts/ai_smoke.py "Потрібно 4 камери на будинок"
+    GEMINI_API_KEY=... [LLM_MODEL=gemini-3.5-flash-lite] python scripts/ai_smoke.py "Потрібно 4 камери на будинок"
 
 Uses the real catalog; supplier stock is stubbed. Never prints the key.
 """
@@ -25,7 +25,7 @@ async def stub_stock(items):
 async def main(prompts):
     settings = get_settings()
     if not settings.llm_api_key:
-        raise SystemExit("LLM_API_KEY is not set")
+        raise SystemExit("GEMINI_API_KEY is not set")
     consultant = Consultant(LLMClient.from_settings(settings), stock_checker=stub_stock)
     print(f"model={settings.llm_model} base={settings.llm_base_url}")
     history = []

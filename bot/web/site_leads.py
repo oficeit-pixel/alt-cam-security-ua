@@ -17,6 +17,7 @@ from bot.db.base import SessionLocal, engine
 from bot.db.models import AdminAuditLog, AnalyticsEvent, PriceOverride, WebOrder
 from bot.integrations.order_fulfillment import auto_create_order_drive_folder
 from bot.pipeline.capture import capture_site_lead, capture_site_order
+from bot.web.ai_chat import register_ai_chat_routes
 from bot.web.shop_admin import register_shop_admin_routes
 
 from bot.config import get_settings
@@ -554,6 +555,7 @@ async def start_site_lead_server(bot: Bot | None) -> web.AppRunner:
     app.router.add_post("/api/analytics", analytics)
     app.router.add_post("/api/orders", create_order)
     register_shop_admin_routes(app)
+    register_ai_chat_routes(app)
 
     runner = web.AppRunner(app)
     await runner.setup()
