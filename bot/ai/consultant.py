@@ -195,11 +195,7 @@ def _allowed(value: float | None, allowed: set[float]) -> bool:
 
 
 def _price_ok(raw: str, allowed: set[float]) -> bool:
-    if _allowed(_num(raw), allowed):
-        return True
-    # '2 700 грн' may be '2 (pcs) 700 грн': accept when the trailing thousands-free part is a tool price.
-    parts = re.split(r"[ \u00a0\u202f\u2009]", raw.strip())
-    return len(parts) == 2 and len(parts[0]) == 1 and _allowed(_num(parts[1]), allowed)
+    return _allowed(_num(raw), allowed)
 
 
 def unverified_prices(text: str, allowed: set[float]) -> list[str]:
@@ -215,7 +211,7 @@ def fix_total_lines(text: str, allowed: set[float], total: float | None) -> str:
 
     def swap(match: re.Match) -> str:
         price = match.group(2)
-        if _price_ok(_PRICE.match(price).group(1), allowed):
+        if _price_ok(_PRICE.match(price).group(1), {total}):
             return match.group(0)
         return f"{match.group(1)}{_fmt_uah(total)} грн"
     return _TOTAL_PRICE.sub(swap, text)

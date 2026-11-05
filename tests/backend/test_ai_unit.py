@@ -182,6 +182,13 @@ def test_kit_reply_with_spaced_total_is_not_unverified():
     assert result.cart_url and result.cart_url in result.text and result.cart_total == KIT_TOTAL
 
 
+def test_thousands_price_cannot_pass_as_its_last_three_digits():
+    from bot.ai.consultant import unverified_prices, fix_total_lines
+    assert unverified_prices("Кабель 2 700 грн", {700}) == ["2 700 грн"]
+    assert unverified_prices("Кабель 2 700 грн", {2700}) == []
+    assert fix_total_lines("Итого: 700 грн", {700, 2700}, 2700) == "Итого: 2700 грн"
+
+
 def test_wrong_model_total_is_rewritten_from_cart():
     fake = FakeLLM([
         call("build_kit", {"cameras": 4}),
