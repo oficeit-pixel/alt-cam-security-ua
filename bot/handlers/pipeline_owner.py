@@ -172,6 +172,10 @@ async def relay_owner_message(message: Message, inquiry_id: int | None) -> None:
         if inquiry is None or not inquiry.client_chat_id:
             await message.answer("Не вдалося: клієнт не підключений до бота.")
             return
+        if inquiry.client_tg_id:
+            from bot.ai import runtime as ai_runtime
+            await ai_runtime.pause_from_owner(session, inquiry, True, "owner_relay")
+            await session.commit()
         try:
             if delivery.is_business(inquiry):
                 if not message.text:
