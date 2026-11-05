@@ -122,14 +122,20 @@ async def ai_chat(request: web.Request) -> web.Response:
         logger.warning("ai_web_failed (%s)", type(exc).__name__)
         return web.json_response({"ok": True, "reply": _handoff_text(lang), "handoff": "ai_unavailable",
                                   "telegram_link": telegram}, headers=headers)
+    cart_url = result.cart_url
+    if not cart_url and result.text:  # the link is in the text but the tool result was not kept
+        from bot.ai.consultant import cart_urls
+
+        found = cart_urls(result.text)
+        cart_url = found[-1] if found else None
     if result.text and not result.handoff:
         introduced = any(m["role"] == "assistant" for m in history)
         text = result.text if introduced or "alt-cam" in result.text.lower()[:120] else \
             f"{intro(lang, settings.ai_disclose_bot)}\n\n{result.text}"
-        return web.json_response({"ok": True, "reply": text, "cart_url": result.cart_url}, headers=headers)
+        return web.json_response({"ok": True, "reply": text, "cart_url": cart_url}, headers=headers)
     reply = (result.text + "\n\n" if result.text else "") + _handoff_text(lang)
     return web.json_response({"ok": True, "reply": reply, "handoff": result.handoff or "other",
-                              "cart_url": result.cart_url, "telegram_link": telegram},
+                              "cart_url": cart_url, "telegram_link": telegram},
                              headers=headers)
 
 
