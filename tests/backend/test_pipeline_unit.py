@@ -27,6 +27,26 @@ def secrets(monkeypatch):
 
 
 # --- state machine -------------------------------------------------------
+@pytest.mark.parametrize("status", sorted(service.SLA_ACK_STATUSES))
+def test_stale_sla_only_before_manager_acknowledgement(status):
+    now = datetime(2026, 11, 5, 12, tzinfo=timezone.utc)
+    row = SimpleNamespace(status=status, awaiting_since=now - timedelta(minutes=507),
+                          last_client_msg_at=now - timedelta(minutes=507),
+                          status_history=[{"status": status, "actor": "owner", "at": now.isoformat()}])
+    assert service.stale_sla_acknowledgement(row) == now
+    row.last_client_msg_at = now + timedelta(seconds=1)
+    assert service.stale_sla_acknowledgement(row) is None
+
+
+@pytest.mark.parametrize("entry", [{}, {"status": "offer_sent", "actor": "client"},
+    {"status": "offer_sent", "actor": "owner", "at": "bad"},
+    {"status": "offer_sent", "actor": "owner", "at": "2026-11-05T12:00:00"}])
+def test_uncertain_legacy_history_keeps_sla(entry):
+    now = datetime(2026, 11, 5, 11, tzinfo=timezone.utc)
+    row = SimpleNamespace(status="offer_sent", awaiting_since=now, last_client_msg_at=now, status_history=[entry])
+    assert service.stale_sla_acknowledgement(row) is None
+
+
 def test_full_happy_path_is_allowed():
     for current, target in zip(STATUS_ORDER, STATUS_ORDER[1:]):
         assert can_transition(current, target), (current, target)
