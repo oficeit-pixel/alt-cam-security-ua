@@ -160,7 +160,7 @@ def test_price_guard_accepts_spaced_totals(text):
 
 def test_price_guard_spacing_does_not_glue_numbers():
     assert unverified_prices("Камер: 4\n1525 грн за штуку", {1525.0}) == []          # no '41525' across a line break
-    assert unverified_prices("Кабель 2 700 грн", {700.0}) == []                         # '2 (шт) 700 грн'
+    assert unverified_prices("Кабель 2 шт. по 700 грн", {700.0}) == []  # quantity must be explicit
     assert unverified_prices("Итого: 17 465 грн", {17464.0}) == ["17 465 грн"]          # still exact
     assert unverified_prices("Камера 999 грн", {1525.0}) == ["999 грн"]
 
