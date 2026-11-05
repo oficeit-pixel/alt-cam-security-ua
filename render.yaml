@@ -74,6 +74,16 @@ services:
         value: "протягом 5–10 хвилин"
       - key: BUSINESS_AUTOREPLY_ENABLED
         value: "true"
+      # AI consultant (docs/AI_CONSULTANT.md): site chat + Telegram bot + Telegram Business.
+      # Off until AI_CONSULTANT_ENABLED=true AND GEMINI_API_KEY is set in the dashboard.
+      - key: AI_CONSULTANT_ENABLED
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: LLM_BASE_URL
+        value: "https://generativelanguage.googleapis.com/v1beta/openai/"
+      - key: LLM_MODEL
+        value: "gemini-3.5-flash-lite"
       - key: REMINDER_MINUTES
         value: "5,15,60"
       - key: WORK_HOURS

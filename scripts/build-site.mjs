@@ -19,7 +19,7 @@ const files = ['index.html', 'catalog.html', 'admin.html', 'privacy-policy.html'
   'tiktok-oauth-callback.html', 'tiktokoVpj7mZL347GV0n5bjaavAO1ZLPlsG1V.txt',
   'robots.txt', 'sitemap.xml', '.nojekyll', 'styles.css', 'custom-style.css',
   'catalog.css', 'admin.css', 'landing.css', 'homepage.css', 'regional-links.css', 'legal.css', 'service-prices.css', 'script.js', 'catalog.js',
-  'admin.js', 'analytics.js', 'contacts.js', 'lead-payload.js'];
+  'admin.js', 'analytics.js', 'contacts.js', 'lead-payload.js', 'cart-link.js', 'ai-chat.js'];
 for (const name of files) await fs.copyFile(path.join(root, name), path.join(out, name));
 await buildLegalPages(out);
 const homePath = path.join(out, 'index.html');

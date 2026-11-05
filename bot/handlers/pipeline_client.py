@@ -64,6 +64,7 @@ async def _copy_to_owner(message: Message, session, inquiry: Inquiry, header: st
 
 
 async def capture_client_message(message: Message) -> Inquiry:
+    settings = get_settings()
     user = message.from_user
     now = service.utcnow()
     summary = _message_summary(message)
@@ -86,11 +87,30 @@ async def capture_client_message(message: Message) -> Inquiry:
             and (inquiry.last_owner_msg_at is None or inquiry.last_owner_msg_at < inquiry.auto_reply_at)
         )
         await session.commit()
-        if need_auto_reply:
+        ai_state = "disabled"
+        if settings.ai_active:
+            from bot.ai import runtime as ai_runtime
+
+            ai_state = await ai_runtime.respond(message.bot, session, inquiry, now=now)
+        if ai_state in {"replied", "handoff"}:
+            if need_auto_reply:
+                inquiry.auto_reply_at = now  # the consultant already answered: it counts as the acknowledgement
+        elif need_auto_reply:
             if await safe_ack(message, texts.auto_reply(inquiry.id, now)):
                 inquiry.auto_reply_at = now
+        elif ai_state == "failed":  # AI down mid-conversation: never leave the client without an answer
+            from bot.ai import runtime as ai_runtime
+
+            try:
+                await message.answer(ai_runtime.handoff_client_text(
+                    now, ai_runtime.detect_language(message.text or message.caption or "")))
+            except TelegramAPIError as exc:
+                logger.warning("client_ack_failed (%s)", type(exc).__name__)
         header = "🆕 <b>Новий запит у боті</b>" if is_new else f"💬 Нове повідомлення у запиті №{inquiry.id}"
-        await _copy_to_owner(message, session, inquiry, header, force_card=new_wait)
+        if ai_state == "replied":
+            header += " · 🤖 AI відповів"
+        await _copy_to_owner(message, session, inquiry, None if ai_state == "handoff" else header,
+                             force_card=ai_state != "handoff" and (is_new or (new_wait and ai_state != "replied")))
         await session.commit()
     return inquiry
 

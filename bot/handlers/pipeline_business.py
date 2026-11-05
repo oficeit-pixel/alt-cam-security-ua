@@ -126,6 +126,10 @@ async def handle_business_message(message: Message, now=None) -> str:
             if inquiry.status == "new" and can_transition("new", "taken"):
                 await service.transition(session, inquiry, "taken", actor="owner", owner_id=record.user_id, now=now)
             inquiry.business_connection_id = message.business_connection_id
+            if settings.ai_active and settings.ai_pause_on_owner_reply:
+                from bot.ai import runtime as ai_runtime
+
+                await ai_runtime.set_paused(session, client_id, True, "owner_reply")  # owner took over this chat
             await session.commit()
             return "owner_reply"
         user = message.from_user
@@ -144,20 +148,27 @@ async def handle_business_message(message: Message, now=None) -> str:
             inquiry.business_connection_id = message.business_connection_id
         if message.contact and not inquiry.phone:
             inquiry.phone = message.contact.phone_number[:32]
-        send_ack = is_new and settings.business_autoreply_enabled and record.can_reply
+        await session.commit()
+        ai_state = "disabled"
+        if settings.ai_active and record.can_reply:
+            from bot.ai import runtime as ai_runtime
+
+            ai_state = await ai_runtime.respond(message.bot, session, inquiry, business=True, now=now)
+        send_ack = is_new and settings.business_autoreply_enabled and record.can_reply and ai_state not in {"replied", "handoff"}
         if send_ack:
             inquiry.auto_reply_at = now
-        await session.commit()
-        if send_ack:
+            await session.commit()
             try:
                 await message.bot.send_message(client_id, texts.business_ack(now),
                                                business_connection_id=message.business_connection_id)
                 await service.add_event(session, inquiry.id, "business_ack", "system", texts.business_ack(now))
             except Exception as exc:
                 logger.warning("business_ack_failed inquiry=%s (%s)", inquiry.id, type(exc).__name__)
-        if new_wait:
+        if ai_state != "handoff" and (is_new or (new_wait and ai_state != "replied")):
             header = ("🆕 <b>Новий запит в особистому Telegram</b>" if is_new
                       else f"💬 Клієнт знову пише в особистому Telegram (запит №{inquiry.id})")
+            if ai_state == "replied":
+                header += " · 🤖 AI відповів"
             await notify.send_owner_card(message.bot, session, inquiry, header=header,
                                          targets=[t for t in [settings.owner_chat_id] if t])
         await session.commit()
