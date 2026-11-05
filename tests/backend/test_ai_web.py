@@ -51,6 +51,24 @@ def test_disabled_without_key(monkeypatch):
     assert status == {"enabled": False} and code == 503
 
 
+def test_web_requests_do_not_share_client_history(enabled):
+    fake = FakeLLM([{"role": "assistant", "content": "ALPHA_REPLY"},
+                    {"role": "assistant", "content": "BETA_REPLY"}])
+    async def factory():
+        return Consultant(fake)
+    ai_chat.set_consultant_factory(factory)
+    async def go(client):
+        a = await (await client.post("/api/ai/chat", json={"messages": [
+            {"role": "user", "content": "ALPHA_PRIVATE камера"}]})).json()
+        b = await (await client.post("/api/ai/chat", json={"messages": [
+            {"role": "user", "content": "BETA_PRIVATE камера"}]})).json()
+        return a, b
+    a, b = run_with_client(go)
+    assert "BETA" not in a["reply"] and "ALPHA" not in b["reply"]
+    assert "BETA_PRIVATE" not in str(fake.calls[0])
+    assert "ALPHA_PRIVATE" not in str(fake.calls[1])
+
+
 def test_reply_intro_language_and_rate_limit(enabled):
     fake = FakeLLM([{"role": "assistant", "content": "Подскажите, улица или помещение?"},
                     {"role": "assistant", "content": "Для вулиці — циліндричні камери."}])

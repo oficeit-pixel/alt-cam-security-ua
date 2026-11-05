@@ -253,6 +253,9 @@ async def faq(callback: CallbackQuery) -> None:
 
 @router.callback_query(F.data.startswith("cli:"))
 async def client_decision(callback: CallbackQuery) -> None:
+    if callback.message is None or callback.message.chat.type != "private" or callback.message.chat.id != callback.from_user.id:
+        await callback.answer("Відкрийте особистий чат із ботом", show_alert=True)
+        return
     _, raw_id, action = (callback.data.split(":") + ["", ""])[:3]
     if not raw_id.isdigit():
         await callback.answer()
