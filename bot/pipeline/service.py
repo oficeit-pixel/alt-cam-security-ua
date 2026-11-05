@@ -11,6 +11,8 @@ from bot.db.models import Inquiry, InquiryEvent, WebOrder
 from bot.pipeline.statuses import TERMINAL, WEB_ORDER_STATUS, can_transition
 
 OPEN_WINDOW_DAYS = 14
+# Explicit manager acknowledgement ends the previous response SLA, not future questions.
+SLA_ACK_STATUSES = frozenset({"taken", "offer_sent", "paid", "supplier_ordered", "supplier_paid", "shipped"})
 
 
 def utcnow() -> datetime:
@@ -90,6 +92,9 @@ async def transition(session: AsyncSession, inquiry: Inquiry, target: str, *, ac
     inquiry.status = target
     if target == "taken" and inquiry.taken_at is None:
         inquiry.taken_at, inquiry.taken_by = now, owner_id
+    if actor == "owner" and target in SLA_ACK_STATUSES:
+        inquiry.awaiting_since = None
+        inquiry.reminder_level = 0
     if target in TERMINAL:
         inquiry.awaiting_since = None
         inquiry.reminder_level = 0
@@ -127,6 +132,48 @@ async def card_is_stale(session: AsyncSession, inquiry_id: int, chat_id: int, ma
         .order_by(InquiryEvent.id.desc()).limit(1)
     )
     return last is None or (now or utcnow()) - last > max_age
+
+
+def stale_sla_acknowledgement(inquiry: Inquiry) -> datetime | None:
+    """Repair only a proven old wait. Never suppress a question sent after the action."""
+    if inquiry.awaiting_since is None or inquiry.status not in SLA_ACK_STATUSES:
+        return None
+    for entry in reversed(inquiry.status_history or []):
+        if not isinstance(entry, dict) or entry.get("status") != inquiry.status:
+            continue
+        if entry.get("actor") != "owner":
+            return None
+        try:
+            at = datetime.fromisoformat(entry["at"])
+            if at.tzinfo is None:
+                return None
+            if inquiry.awaiting_since <= at and (inquiry.last_client_msg_at is None or inquiry.last_client_msg_at <= at):
+                return at
+        except (KeyError, TypeError, ValueError):
+            pass
+        return None
+    return None
+
+
+async def repair_stale_sla(session: AsyncSession) -> int:
+    rows = (await session.scalars(select(Inquiry).where(
+        Inquiry.awaiting_since.is_not(None), Inquiry.status.in_(SLA_ACK_STATUSES),
+    ))).all()
+    repaired = 0
+    for inquiry in rows:
+        at = stale_sla_acknowledgement(inquiry)
+        if at is None:
+            continue
+        # Compare-and-set: a concurrent client message/status update must win.
+        changed = await session.scalar(update(Inquiry).where(
+            Inquiry.id == inquiry.id, Inquiry.status == inquiry.status,
+            Inquiry.awaiting_since == inquiry.awaiting_since,
+            or_(Inquiry.last_client_msg_at.is_(None), Inquiry.last_client_msg_at <= at),
+        ).values(awaiting_since=None, reminder_level=0).returning(Inquiry.id))
+        if changed is not None:
+            await add_event(session, inquiry.id, "sla_repaired", "system", "Previous wait acknowledged by manager status")
+            repaired += 1
+    return repaired
 
 
 def reminder_level_for(waiting_minutes: float, thresholds: list[int]) -> int:

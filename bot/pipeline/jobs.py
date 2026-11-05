@@ -18,6 +18,10 @@ async def run_reminders(bot, now=None) -> int:
     await contacts.safe_reload()  # pick up owner / second contact registered via /start in another process
     sent = 0
     async with SessionLocal() as session:
+        repaired = await service.repair_stale_sla(session)
+        await session.commit()
+        if repaired:
+            logger.info("Repaired %s acknowledged SLA waits", repaired)
         due = await service.due_reminders(session, settings.reminder_thresholds, now)
         for inquiry, level in due:
             if not await service.claim_reminder(session, inquiry.id, level):
