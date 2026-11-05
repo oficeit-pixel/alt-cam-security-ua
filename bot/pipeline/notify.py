@@ -63,7 +63,7 @@ def owner_keyboard(inquiry: Inquiry, order: WebOrder | None = None) -> InlineKey
     p = f"inq:{inquiry.id}"
     rows: list[list[InlineKeyboardButton]] = []
     first = []
-    if inquiry.status == "new":
+    if inquiry.status not in {"closed", "rejected"}:
         first.append(InlineKeyboardButton(text="👤 Взяти в роботу", callback_data=f"{p}:take"))
     if inquiry.client_chat_id:
         first.append(InlineKeyboardButton(text="✍️ Відповісти", callback_data=f"{p}:reply"))
@@ -142,3 +142,20 @@ async def send_owner_card(bot, session: AsyncSession, inquiry: Inquiry, *, heade
                                 owner_message_id=message.message_id)
         sent += 1
     return sent
+
+
+async def mirror_manager_text(bot, session, inquiry: Inquiry, text: str, label: str) -> bool:
+    """Mirror only approved pipeline conversations to the explicitly configured team chat."""
+    target = getattr(get_settings(), "managers_chat_id", None)
+    if bot is None or not target:
+        return False
+    body = f"<b>{escape(label)} · Запит №{inquiry.id}</b>\n{escape(text[:2800])}"
+    try:
+        message = await bot.send_message(target, body, reply_markup=owner_keyboard(inquiry),
+                                         disable_web_page_preview=True)
+    except Exception as exc:
+        logger.warning("manager_mirror_failed inquiry=%s (%s)", inquiry.id, type(exc).__name__)
+        return False
+    await service.add_event(session, inquiry.id, "owner_copy", "system", None,
+                            owner_chat_id=target, owner_message_id=message.message_id)
+    return True

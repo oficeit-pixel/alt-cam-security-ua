@@ -29,7 +29,7 @@ def set_consultant_factory(factory) -> None:
 async def is_paused(session, client_tg_id: int | None) -> bool:
     if not client_tg_id:
         return True
-    pref = await session.get(AIChatPref, client_tg_id)
+    pref = await session.get(AIChatPref, client_tg_id, populate_existing=True)
     return bool(pref and pref.paused)
 
 
@@ -105,6 +105,9 @@ async def respond(bot, session, inquiry: Inquiry, *, business: bool = False, now
         logger.exception("consultant_crashed inquiry=%s (%s)", inquiry.id, type(exc).__name__)
         from bot.ai.consultant import ConsultResult
         result = ConsultResult(text=None, handoff="ai_unavailable")
+    # A manager may have taken over while the LLM request was in flight.
+    if await is_paused(session, inquiry.client_tg_id):
+        return "paused"
     sent_text = None
     if result.text:
         greeting = intro(lang, settings.ai_disclose_bot)
@@ -113,6 +116,7 @@ async def respond(bot, session, inquiry: Inquiry, *, business: bool = False, now
         markup = None if business else notify.client_faq_keyboard()
         if await delivery.send_client_text(bot, inquiry, sent_text, reply_markup=markup):
             await service.add_event(session, inquiry.id, "ai_reply", "ai", result.text)
+            await notify.mirror_manager_text(bot, session, inquiry, body, "🤖 Відповідь ШІ")
             if settings.ai_counts_as_response and not result.handoff:
                 inquiry.awaiting_since, inquiry.reminder_level = None, 0
         else:
@@ -122,11 +126,11 @@ async def respond(bot, session, inquiry: Inquiry, *, business: bool = False, now
         if inquiry.awaiting_since is None:
             inquiry.awaiting_since = now or service.utcnow()
         await session.commit()
-        owner = settings.owner_chat_id
-        if owner and await service.card_is_stale(session, inquiry.id, owner, timedelta(minutes=10)):
-            await notify.send_owner_card(bot, session, inquiry, header="⚠️ AI недоступний (ліміт/помилка) — відповідайте самі",
-                                         targets=[owner])
-            await session.commit()
+        for owner in notify.escalation_targets(1):
+            if await service.card_is_stale(session, inquiry.id, owner, timedelta(minutes=10)):
+                await notify.send_owner_card(bot, session, inquiry, header="⚠️ AI недоступний (ліміт/помилка) — відповідайте самі",
+                                             targets=[owner])
+        await session.commit()
         return "failed"
     if result.handoff:
         await _handoff(bot, session, inquiry, result.handoff, result.handoff_summary, business=business,
@@ -149,7 +153,7 @@ async def _handoff(bot, session, inquiry: Inquiry, reason: str, summary: str | N
         text = handoff_client_text(now, lang)
         await delivery.send_client_text(bot, inquiry, (business_prefix(get_settings().ai_disclose_bot) + text) if business else text)
     await session.commit()
-    header = f"🤖➡️👤 <b>AI передає розмову</b>: {label}" + (f"\n<i>{summary[:300]}</i>" if summary else "") + \
+    header = f"🤖➡️👤 <b>AI передає розмову</b>: {escape(label)}" + (f"\n<i>{escape(summary[:300])}</i>" if summary else "") + \
         "\nAI у цьому чаті вимкнено (/ai_on — увімкнути)."
     level = 2 if reason in {"payment", "angry", "explicit"} else 1
     await notify.send_owner_card(bot, session, inquiry, header=header, level=level)
