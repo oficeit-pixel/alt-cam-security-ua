@@ -195,6 +195,28 @@ async def main():
         event = await s.scalar(select(InquiryEvent).where(InquiryEvent.owner_message_id.is_not(None)).limit(1))
         assert (await service.inquiry_by_owner_message(s, event.owner_chat_id, event.owner_message_id)) is not None
         assert await s.scalar(select(func.count()).select_from(InquiryEvent)) > 10
+    # 10) Status acknowledgement ends old SLA; a fresh client question restarts it.
+    async with SessionLocal() as s:
+        row = await service.create_inquiry(s, source="test", now=WORK_NOW - timedelta(minutes=507))
+        await service.transition(s, row, "offer_sent", actor="owner", now=WORK_NOW)
+        assert row.awaiting_since is None and row.reminder_level == 0
+        assert row.last_owner_msg_at is None  # don't fabricate a message that was never sent
+        # Reproduce legacy data, then repair it exactly once with an audit event.
+        row.awaiting_since = WORK_NOW - timedelta(minutes=507)
+        row.reminder_level = 3
+        await s.commit()
+        assert await service.repair_stale_sla(s) == 1
+        await s.commit()
+        await s.refresh(row)
+        assert row.awaiting_since is None and row.reminder_level == 0
+        assert await service.repair_stale_sla(s) == 0
+        later_question = WORK_NOW + timedelta(minutes=1)
+        await service.record_client_message(s, row, "New question", now=later_question)
+        await s.commit()
+        assert await service.repair_stale_sla(s) == 0
+        due = await service.due_reminders(s, [5, 15, 60], later_question + timedelta(minutes=5))
+        assert any(i.id == row.id and level == 1 for i, level in due)
+        assert row.awaiting_since == later_question
     await engine.dispose()
     print("PIPELINE_DB_SCENARIO_OK")
 
