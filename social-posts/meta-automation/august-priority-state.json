@@ -16287,6 +16287,176 @@
           "post_id": "962902993572061_122142540681226993"
         }
       }
+    },
+    "daily-2026-10-19-037": {
+      "instagram": {
+        "published_at": "2026-11-06T09:57:45.523210+00:00",
+        "result": {
+          "container": {
+            "id": "18098991026418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18098991026418944"
+          },
+          "published": {
+            "id": "18112270883269565"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-06T09:58:55.022209+00:00",
+        "result": {
+          "container": {
+            "id": "18098929649424516"
+          },
+          "published": {
+            "id": "17960338995257000"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-06T09:59:00.826136+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 201,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793959140,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADyWrtpOO83vjfEzwn_FDCYPCdx-TBAAJXHGsbAAENcUsUEkL9FYPS2QEAAwIAA3MAAz0E",
+                  "file_unique_id": "AQADVxxrGwABDXFLeA",
+                  "file_size": 1900,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADyWrtpOO83vjfEzwn_FDCYPCdx-TBAAJXHGsbAAENcUsUEkL9FYPS2QEAAwIAA20AAz0E",
+                  "file_unique_id": "AQADVxxrGwABDXFLcg",
+                  "file_size": 30477,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADyWrtpOO83vjfEzwn_FDCYPCdx-TBAAJXHGsbAAENcUsUEkL9FYPS2QEAAwIAA3gAAz0E",
+                  "file_unique_id": "AQADVxxrGwABDXFLfQ",
+                  "file_size": 128528,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADyWrtpOO83vjfEzwn_FDCYPCdx-TBAAJXHGsbAAENcUsUEkL9FYPS2QEAAwIAA3kAAz0E",
+                  "file_unique_id": "AQADVxxrGwABDXFLfg",
+                  "file_size": 260673,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADyWrtpOO83vjfEzwn_FDCYPCdx-TBAAJXHGsbAAENcUsUEkL9FYPS2QEAAwIAA3cAAz0E",
+                  "file_unique_id": "AQADVxxrGwABDXFLfA",
+                  "file_size": 273050,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "☀️ Сонце, мережа чи акумулятор — COVAX готовий до будь-якого сценарію\n\nКоли потрібно організувати резервне або автономне живлення, важливо мати одне рішення, яке може працювати з різними джерелами енергії.\n\nCOVAX CV-PS-3200-24V — гібридний інвертор, який поєднує в одному корпусі інвертор, зарядний пристрій та MPPT-контролер.\n\nОсновні характеристики:\n\nномінальна потужність — 3200VA / 3000W\nробота з акумуляторними системами 24 В\nвбудований MPPT-контролер 80 А\nдіапазон MPPT — 55–450 Vdc\nзарядний струм — 0–60 А\nвхідна напруга мережі — 170–280 В\nчиста синусоїда на виході\nробота від сонячних панелей, мережі та акумуляторів\nзахист від перевантаження, короткого замикання та перегріву\nрозміри — 405 × 286 × 98 мм\nвага — 4,5 кг\n\nТакий інвертор підходить для приватного будинку, дачі, резервної або автономної сонячної системи.\n\nПотрібно підібрати інвертор під ваше навантаження та акумуляторну систему? Напишіть «ІНВЕРТОР» у повідомлення ALT-CAM Security UA — допоможемо підібрати рішення під ваші зад…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 202,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793959140,
+              "text": "☀️ Сонце, мережа чи акумулятор — COVAX готовий до будь-якого сценарію\n\nКоли потрібно організувати резервне або автономне живлення, важливо мати одне рішення, яке може працювати з різними джерелами енергії.\n\nCOVAX CV-PS-3200-24V — гібридний інвертор, який поєднує в одному корпусі інвертор, зарядний пристрій та MPPT-контролер.\n\nОсновні характеристики:\n\nномінальна потужність — 3200VA / 3000W\nробота з акумуляторними системами 24 В\nвбудований MPPT-контролер 80 А\nдіапазон MPPT — 55–450 Vdc\nзарядний струм — 0–60 А\nвхідна напруга мережі — 170–280 В\nчиста синусоїда на виході\nробота від сонячних панелей, мережі та акумуляторів\nзахист від перевантаження, короткого замикання та перегріву\nрозміри — 405 × 286 × 98 мм\nвага — 4,5 кг\n\nТакий інвертор підходить для приватного будинку, дачі, резервної або автономної сонячної системи.\n\nПотрібно підібрати інвертор під ваше навантаження та акумуляторну систему? Напишіть «ІНВЕРТОР» у повідомлення ALT-CAM Security UA — допоможемо підібрати рішення під ваші задачі.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #COVAX #ГібриднийІнвертор #Інвертор #РезервнеЖивлення #АвтономнеЖивлення #СонячнаЕнергетика #ЧистаСинусоїда\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 1009,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1033,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1041,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1059,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1066,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1085,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1095,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1113,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1132,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1151,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1171,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
