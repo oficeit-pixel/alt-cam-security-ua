@@ -61,7 +61,7 @@ async def main():
         return Update(update_id=i, message=Message(message_id=i, date=now(), chat=where, from_user=user, **kw))
 
     # Site button: instant greeting, no captcha, owner informed
-    await dp.feed_update(bot, message(1, text="/start site"))
+    await dp.feed_update(bot, message(1, text="/start"))
     out = sent()
     assert out[0][1] == 555 and "№1" in out[0][2], out
     assert any(chat_id == 111 for _, chat_id, _ in out)

@@ -37,7 +37,7 @@ class PublisherRegressionTests(unittest.TestCase):
         text = "Камери для вашого будинку. " * 40 + "\nhttps://t.me/alt_cam_bot\nhttps://alt-cam.net.ua/catalog.html?utm_content=" + "x" * 180
         result = publisher.caption_for({"caption": text}, "threads")
         self.assertLessEqual(len(result.encode("utf-16-le")) // 2, 500)
-        self.assertTrue(result.endswith("https://t.me/AltCamSecurityUaBot?start=consult"))
+        self.assertTrue(result.endswith("https://t.me/AltCamSecurityUaBot"))
         self.assertTrue(result.startswith("Камери для вашого будинку."))
 
     def test_threads_emoji_and_short_copy(self):

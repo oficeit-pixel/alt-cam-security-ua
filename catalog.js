@@ -36,7 +36,7 @@ const products=[];const seen=new Set();
 for(const item of rankedProducts){const key=identity(item);if(key&&!seen.has(key)){seen.add(key);products.push(item);}}
 function publicCategory(item){return CATEGORY_LABELS.includes(item.category)?item.category:'Аксесуари для систем безпеки';}
 products.forEach((item,index)=>{item.publicCategory=publicCategory(item);item.recommendationOrder=index;});
-const API=(window.ALTCAM_CONTACTS?.apiBase||'https://alt-cam-crm-api.onrender.com').replace(/\/$/,''),TELEGRAM='https://t.me/AltCamSecurityUaBot?start=consult';
+const API=(window.ALTCAM_CONTACTS?.apiBase||'https://alt-cam-crm-api.onrender.com').replace(/\/$/,''),TELEGRAM='https://t.me/AltCamSecurityUaBot';
 const CONTACTS=window.ALTCAM_CONTACTS||{};
 const catalogPhone=document.querySelector('.js-catalog-phone');
 const catalogTelegram=document.querySelector('.js-catalog-telegram');

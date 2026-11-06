@@ -15,7 +15,7 @@ window.ALTCAM_CONTACTS = Object.freeze({
   responseTime: "",
   backupWebhook: "",
   telegram: "AltCamSecurityUaBot",
-  consultantUrl: "https://t.me/AltCamSecurityUaBot?start=consult",
+  consultantUrl: "https://t.me/AltCamSecurityUaBot",
   telegramChannel: "altcam_security_ua",
   whatsapp: "",
   phone: "+380630607088",

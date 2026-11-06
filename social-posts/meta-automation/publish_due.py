@@ -530,7 +530,7 @@ def caption_for(post: dict, platform: str) -> str:
     text = post.get("captions", {}).get(platform) or post["caption"]
     # Replace only bare customer contact links; never rewrite signed order links or channel invites.
     text = re.sub(r"https://t\.me/(?:OficeITHelp|alt_cam_bot|AltCamSecurityUaBot)(?![\w/?#])",
-                  "https://t.me/AltCamSecurityUaBot?start=consult", text, flags=re.I)
+                  "https://t.me/AltCamSecurityUaBot", text, flags=re.I)
     return threads_caption(text) if platform == "threads" else text
 
 

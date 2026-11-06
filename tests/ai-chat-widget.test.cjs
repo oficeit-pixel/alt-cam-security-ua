@@ -39,7 +39,7 @@ test('production chat opens the private Telegram consultant, not a group or web 
   const config = {window: {}};
   vm.runInNewContext(fs.readFileSync(require.resolve('../contacts.js'), 'utf8'), config);
   const w = await widget(config.window.ALTCAM_CONTACTS);
-  assert.equal(w.fab.href, 'https://t.me/AltCamSecurityUaBot?start=consult');
+  assert.equal(w.fab.href, 'https://t.me/AltCamSecurityUaBot');
   assert.equal(w.panel, undefined);
 });
 

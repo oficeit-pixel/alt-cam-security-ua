@@ -149,6 +149,14 @@ async def _start_site(message: Message) -> None:
             await session.commit()
 
 
+@deeplink_router.message(CommandStart(deep_link=False), F.chat.type == "private",
+                         lambda m: get_settings().pipeline_enabled and get_settings().capture_before_terms
+                         and _contact_role(m) is None and not is_admin(m.from_user.id))
+async def start_private_consultation(message: Message) -> None:
+    """Bare /start from the public contact link; signed links and staff menus stay separate."""
+    await _start_site(message)
+
+
 ROLE_LABELS = {"owner": "власник (основні сповіщення)", "second": "другий контакт (нагадування з 2-го рівня)"}
 
 
