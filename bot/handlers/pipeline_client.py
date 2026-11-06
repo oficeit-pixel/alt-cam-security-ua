@@ -131,7 +131,16 @@ async def _start_site(message: Message) -> None:
             is_new = True
         else:
             is_new = False
-        if await safe_ack(message, texts.auto_reply(inquiry.id, now)):
+        greeting = (f"Запит №{inquiry.id}. Вітаю в ALT-CAM! Я автоматизований помічник. "
+                    "Що вам потрібно: підібрати товар чи замовити послугу? "
+                    "Для монтажу вкажіть місто й тип об’єкта. Щоб підключити людину, напишіть «Хочу менеджера».")
+        if get_settings().capture_before_terms:
+            from html import escape
+            greeting += f'\n\nНадсилаючи повідомлення, ви погоджуєтесь з <a href="{escape(get_settings().privacy_url)}">Політикою ПД</a>.'
+        from bot.ai import runtime as ai_runtime
+        if not get_settings().ai_active or await ai_runtime.is_paused(session, user.id):
+            greeting = texts.auto_reply(inquiry.id, now)
+        if await safe_ack(message, greeting):
             inquiry.auto_reply_at = now
         await session.commit()
         if is_new:

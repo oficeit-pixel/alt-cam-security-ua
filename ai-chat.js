@@ -79,7 +79,7 @@
         event.preventDefault();
         const transcript = history.map(m => (m.role === 'user' ? 'Клієнт: ' : 'Консультант: ') + m.content).join('\n').slice(-3500);
         const lead = root.AltcamLead;
-        if (!lead) { bubble('assistant', 'Форма тимчасово недоступна. Напишіть нам у Telegram @OficeITHelp.'); return; }
+        if (!lead) { bubble('assistant', 'Форма тимчасово недоступна. Напишіть нам у Telegram @AltCamSecurityUaBot.'); return; }
         const payload = lead.buildLeadPayload('ai_chat', {name: box.elements.namedItem('name').value, phone: box.elements.namedItem('phone').value,
           message: 'Запит із чату на сайті\n' + transcript});
         await lead.submit(box, box.querySelector('button'), payload.message, () => lead.post('/site-lead', payload));
@@ -131,6 +131,15 @@
   }
 
   async function init() {
+    if (root.ALTCAM_CONTACTS?.consultantUrl) {
+      css();
+      const link = doc.createElement('a');
+      link.className = 'aic-fab'; link.href = root.ALTCAM_CONTACTS.consultantUrl;
+      link.textContent = '💬 Консультація в Telegram'; link.target = '_blank'; link.rel = 'noopener noreferrer';
+      link.addEventListener('click', () => track('click_telegram', {location: 'consultant_widget'}));
+      doc.body.append(link);
+      return;
+    }
     try {
       const response = await root.fetch(API + '/api/ai/status', {cache: 'no-store'});
       const data = await response.json();
