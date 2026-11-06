@@ -16464,6 +16464,203 @@
           "post_id": "962902993572061_122142603489226993"
         }
       }
+    },
+    "daily-2026-10-19-038": {
+      "instagram": {
+        "published_at": "2026-11-06T17:19:28.589245+00:00",
+        "result": {
+          "container": {
+            "id": "18099068840418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18099068840418944"
+          },
+          "published": {
+            "id": "18117656696518961"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-06T17:20:36.742914+00:00",
+        "result": {
+          "container": {
+            "id": "18099004433424516"
+          },
+          "published": {
+            "id": "18120531278605829"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-06T17:20:40.823228+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 203,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793985640,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADy2ruDGfBl6-iBlUhNZ7AbwLuBxWFAAIrG2sbIQVxS26GgcTaFWi4AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADKxtrGyEFcUt4",
+                  "file_size": 1868,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADy2ruDGfBl6-iBlUhNZ7AbwLuBxWFAAIrG2sbIQVxS26GgcTaFWi4AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADKxtrGyEFcUty",
+                  "file_size": 28056,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADy2ruDGfBl6-iBlUhNZ7AbwLuBxWFAAIrG2sbIQVxS26GgcTaFWi4AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADKxtrGyEFcUt9",
+                  "file_size": 123254,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADy2ruDGfBl6-iBlUhNZ7AbwLuBxWFAAIrG2sbIQVxS26GgcTaFWi4AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADKxtrGyEFcUt-",
+                  "file_size": 254399,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADy2ruDGfBl6-iBlUhNZ7AbwLuBxWFAAIrG2sbIQVxS26GgcTaFWi4AQADAgADdwADPQQ",
+                  "file_unique_id": "AQADKxtrGyEFcUt8",
+                  "file_size": 266647,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🔧 Якісний монтаж починається з правильних дрібниць\n\nСтяжки, кліпси, монтажні майданчики, кріплення для гофри, дюбелі, саморізи та інші аксесуари здаються дрібницями — але саме вони визначають, наскільки акуратно, швидко та надійно буде змонтована система.\n\nУ ALT-CAM Security UA можна підібрати монтажні аксесуари для відеоспостереження, мереж, систем безпеки та електромонтажних робіт:\n\nкабельні стяжки різних розмірів;\nкліпси та скоби для фіксації кабелю;\nмонтажні майданчики під стяжки;\nкріплення для гофрованої труби;\nдюбелі та саморізи;\nкабельні хомути;\nкріпильні елементи для стін, стель і монтажних поверхонь;\nінші комплектуючі для професійного монтажу.\n\nПравильно підібране кріплення допомагає зробити монтаж акуратним, надійним і зручним для подальшого обслуговування.\n\nПотрібно швидко укомплектувати монтаж під конкретний об’єкт?\n\nНапишіть «МОНТАЖ» у повідомлення ALT-CAM Security UA — допоможемо підібрати всі необхідні аксесуари під вашу задачу.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAM…",
+              "caption_entities": [
+                {
+                  "offset": 963,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 987,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 995,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 204,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793985640,
+              "text": "🔧 Якісний монтаж починається з правильних дрібниць\n\nСтяжки, кліпси, монтажні майданчики, кріплення для гофри, дюбелі, саморізи та інші аксесуари здаються дрібницями — але саме вони визначають, наскільки акуратно, швидко та надійно буде змонтована система.\n\nУ ALT-CAM Security UA можна підібрати монтажні аксесуари для відеоспостереження, мереж, систем безпеки та електромонтажних робіт:\n\nкабельні стяжки різних розмірів;\nкліпси та скоби для фіксації кабелю;\nмонтажні майданчики під стяжки;\nкріплення для гофрованої труби;\nдюбелі та саморізи;\nкабельні хомути;\nкріпильні елементи для стін, стель і монтажних поверхонь;\nінші комплектуючі для професійного монтажу.\n\nПравильно підібране кріплення допомагає зробити монтаж акуратним, надійним і зручним для подальшого обслуговування.\n\nПотрібно швидко укомплектувати монтаж під конкретний об’єкт?\n\nНапишіть «МОНТАЖ» у повідомлення ALT-CAM Security UA — допоможемо підібрати всі необхідні аксесуари під вашу задачу.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #МонтажніАксесуари #Стяжки #Кліпси #Кріплення #КріпленняДляГофри #Електромонтаж #Відеоспостереження #СистемиБезпеки #КабельнийМонтаж\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 963,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 987,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 995,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1013,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1032,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1040,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1048,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1059,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1078,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1093,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1113,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1129,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1150,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
