@@ -33,7 +33,10 @@
   async function post(path, payload) {
     const backup = root.ALTCAM_CONTACTS?.backupWebhook;
     if (backup) {
-      try { root.navigator.sendBeacon(backup, JSON.stringify({kind:'lead_backup', ...payload})); }
+      try {
+        const {consultation, ...safePayload} = payload;
+        root.navigator.sendBeacon(backup, JSON.stringify({kind:'lead_backup', ...safePayload}));
+      }
       catch { /* A backup attempt never implies successful primary delivery. */ }
     }
     const controller = new AbortController();

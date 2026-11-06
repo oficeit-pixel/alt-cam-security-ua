@@ -114,6 +114,16 @@ async def respond(bot, session, inquiry: Inquiry, *, business: bool = False, now
         body = result.text if introduced or "alt-cam" in result.text.lower()[:120] else f"{greeting}\n\n{result.text}"
         sent_text = escape((prefix + body) if business else body, quote=False)
         markup = None if business else notify.client_faq_keyboard()
+        if not business:
+            from aiogram.types import InlineKeyboardButton, WebAppInfo
+            from bot.pipeline.checkout import launch_url
+            service_url = "https://alt-cam.net.ua/catalog.html#services"
+            dest = result.cart_url or (service_url if service_url in body else None)
+            url = launch_url(dest, inquiry.id) if dest else None
+            if url:
+                caption = "Відкрити кошик" if result.cart_url else "Обрати послугу"
+                markup.inline_keyboard.insert(0, [InlineKeyboardButton(text=caption, web_app=WebAppInfo(url=url))])
+                sent_text = sent_text.replace(escape(dest, quote=False), caption + " ↓")
         if await delivery.send_client_text(bot, inquiry, sent_text, reply_markup=markup):
             await service.add_event(session, inquiry.id, "ai_reply", "ai", result.text)
             await notify.mirror_manager_text(bot, session, inquiry, body, "🤖 Відповідь ШІ")
