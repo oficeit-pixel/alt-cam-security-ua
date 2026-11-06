@@ -149,7 +149,7 @@ async def _start_site(message: Message) -> None:
             await session.commit()
 
 
-@deeplink_router.message(CommandStart(deep_link=False), F.chat.type == "private",
+@deeplink_router.message(CommandStart(), F.chat.type == "private", F.text.regexp(r"^/start(@\w+)?$"),
                          lambda m: get_settings().pipeline_enabled and get_settings().capture_before_terms
                          and _contact_role(m) is None and not is_admin(m.from_user.id))
 async def start_private_consultation(message: Message) -> None:
