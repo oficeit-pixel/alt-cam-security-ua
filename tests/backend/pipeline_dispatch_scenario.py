@@ -77,8 +77,11 @@ async def main():
     await dp.feed_update(bot, message(3, photo=[PhotoSize(file_id="f", file_unique_id="u", width=1, height=1)]))
     assert ("CopyMessage", 111, "") in sent()
 
-    # Bare /start keeps the existing captcha flow; text typed during captcha is still captured
+    # A returning customer stays in the same consultation, not the legacy menu.
     await dp.feed_update(bot, message(4, text="/start"))
+    assert "№1" in sent()[0][2]
+    # Explicit questionnaire intent still uses the existing captcha flow.
+    await dp.feed_update(bot, message(40, text="/start client"))
     assert "відеокамеру" in sent()[0][2]
     await dp.feed_update(bot, message(5, text="ще питання"))
     assert ("CopyMessage", 111, "") in sent()
