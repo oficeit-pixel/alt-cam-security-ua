@@ -36,12 +36,12 @@ const products=[];const seen=new Set();
 for(const item of rankedProducts){const key=identity(item);if(key&&!seen.has(key)){seen.add(key);products.push(item);}}
 function publicCategory(item){return CATEGORY_LABELS.includes(item.category)?item.category:'Аксесуари для систем безпеки';}
 products.forEach((item,index)=>{item.publicCategory=publicCategory(item);item.recommendationOrder=index;});
-const API=(window.ALTCAM_CONTACTS?.apiBase||'https://alt-cam-crm-api.onrender.com').replace(/\/$/,''),TELEGRAM='https://t.me/OficeITHelp';
+const API=(window.ALTCAM_CONTACTS?.apiBase||'https://alt-cam-crm-api.onrender.com').replace(/\/$/,''),TELEGRAM='https://t.me/AltCamSecurityUaBot';
 const CONTACTS=window.ALTCAM_CONTACTS||{};
 const catalogPhone=document.querySelector('.js-catalog-phone');
 const catalogTelegram=document.querySelector('.js-catalog-telegram');
 if(CONTACTS.phone){catalogPhone.hidden=false;catalogPhone.href=`tel:${CONTACTS.phone}`;catalogPhone.textContent=CONTACTS.phoneLabel||CONTACTS.phone;}
-catalogTelegram.href=CONTACTS.telegram?`https://t.me/${CONTACTS.telegram}`:TELEGRAM;
+catalogTelegram.href=CONTACTS.consultantUrl || TELEGRAM;
 catalogPhone?.addEventListener('click',()=>track('click_phone',{location:'catalog_header'}));
 catalogTelegram?.addEventListener('click',()=>track('click_telegram',{location:'catalog_header'}));
 const sessionId=localStorage.getItem('altcam-session')||(crypto.randomUUID?crypto.randomUUID():String(Date.now()));localStorage.setItem('altcam-session',sessionId);

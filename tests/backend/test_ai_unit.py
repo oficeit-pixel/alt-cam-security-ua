@@ -189,6 +189,14 @@ def test_thousands_price_cannot_pass_as_its_last_three_digits():
     assert fix_total_lines("Итого: 700 грн", {700, 2700}, 2700) == "Итого: 2700 грн"
 
 
+def test_standard_checkout_does_not_force_manager_but_payment_still_does():
+    from bot.ai.consultant import detect_handoff
+    assert detect_handoff("Готовий замовити монтаж камер") is None
+    assert detect_handoff("Готов купить комплект") is None
+    assert detect_handoff("Дайте реквізити") == "payment"
+    assert detect_handoff("Хочу менеджера") == "explicit"
+
+
 def test_wrong_model_total_is_rewritten_from_cart():
     fake = FakeLLM([
         call("build_kit", {"cameras": 4}),

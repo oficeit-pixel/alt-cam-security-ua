@@ -126,7 +126,7 @@ const root=path.resolve(__dirname,'..');
           assert.equal(await status.getAttribute('role'),'alert');
           assert.equal(await status.evaluate(e=>e===document.activeElement),true);
           assert.equal(await status.locator('a[href^="tel:"]').getAttribute('href'),'tel:+380630607088');
-          assert.match(await status.locator('a[href^="https://t.me/"]').getAttribute('href'),/text=/);
+          assert.equal(await status.locator('a[href^="https://t.me/"]').getAttribute('href'),'https://t.me/AltCamSecurityUaBot');
           assert.equal(await form.locator('[name="name"]').inputValue(),'Тест QA');
         }
         assert.equal(posted,1);assert.equal(popups,0);

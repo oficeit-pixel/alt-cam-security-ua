@@ -528,6 +528,9 @@ PUBLISHERS = {
 
 def caption_for(post: dict, platform: str) -> str:
     text = post.get("captions", {}).get(platform) or post["caption"]
+    # Replace only bare customer contact links; never rewrite signed order links or channel invites.
+    text = re.sub(r"https://t\.me/(?:OficeITHelp|alt_cam_bot|AltCamSecurityUaBot)(?![\w/?#])",
+                  "https://t.me/AltCamSecurityUaBot", text, flags=re.I)
     return threads_caption(text) if platform == "threads" else text
 
 
@@ -538,7 +541,7 @@ def threads_caption(text: str) -> str:
         return text
     # Long tracking parameters were appended after generation. Use the same
     # destination without tracking before shortening the actual copy.
-    text = re.sub(r"https?://[^\s]+", lambda m: m[0].split("?")[0], text)
+    text = re.sub(r"https?://[^\s]+", lambda m: m[0] if m[0].startswith("https://t.me/") else m[0].split("?")[0], text)
     if length(text) <= 500:
         return text
     links = re.findall(r"https?://[^\s]+", text)

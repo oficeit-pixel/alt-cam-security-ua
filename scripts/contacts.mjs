@@ -25,7 +25,7 @@ export function renderBusinessDetails(html, values=contacts) {
 }
 export function renderContacts(html, values=contacts){
   const urls={phone:values.phone?`tel:${values.phone}`:'',email:values.email?`mailto:${values.email}`:'',
-    telegram:values.telegram?`https://t.me/${encodeURIComponent(values.telegram.replace(/^@/,''))}`:'',
+    telegram:values.consultantUrl || (values.telegram?`https://t.me/${encodeURIComponent(values.telegram.replace(/^@/,''))}`:''),
     telegramChannel:values.telegramChannel?`https://t.me/${encodeURIComponent(values.telegramChannel.replace(/^@/,''))}`:'',
     whatsapp:values.whatsapp?`https://wa.me/${values.whatsapp.replace(/\D/g,'')}`:'',
     viber:values.viber?`viber://chat?number=${encodeURIComponent(values.viber)}`:''};

@@ -22,17 +22,26 @@ class Element {
   remove() {}
 }
 
-async function widget() {
+async function widget(contacts) {
   const doc = {head: new Element('head'), body: new Element('body'), readyState: 'complete', createElement: tag => new Element(tag)};
   let payload;
   const root = {document: doc, sessionStorage: {getItem: () => '{"bad":true}', setItem() {}},
     fetch: async () => ({json: async () => ({enabled: true})}),
     AltcamLead: {buildLeadPayload: (type, fields) => (payload = {type, ...fields}), post: async () => ({ok: true}),
       submit: async (_box, _button, _message, send) => send()}};
+  root.ALTCAM_CONTACTS = contacts;
   vm.runInNewContext(fs.readFileSync(require.resolve('../ai-chat.js'), 'utf8'), {window: root, setTimeout, clearTimeout, AbortController});
   await new Promise(resolve => setImmediate(resolve));
-  return {panel: doc.body.children.find(n => n.className === 'aic-panel'), payload: () => payload};
+  return {fab: doc.body.children.find(n => n.className === 'aic-fab'), panel: doc.body.children.find(n => n.className === 'aic-panel'), payload: () => payload};
 }
+
+test('production chat opens the private Telegram consultant, not a group or web conversation', async () => {
+  const config = {window: {}};
+  vm.runInNewContext(fs.readFileSync(require.resolve('../contacts.js'), 'utf8'), config);
+  const w = await widget(config.window.ALTCAM_CONTACTS);
+  assert.equal(w.fab.href, 'https://t.me/AltCamSecurityUaBot');
+  assert.equal(w.panel, undefined);
+});
 
 test('manager button creates one form and reads named controls, not form.name', async () => {
   const w = await widget();

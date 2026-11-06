@@ -302,6 +302,7 @@ document.addEventListener("click", (event) => {
 });
 
 function telegramUrl(text = "Вітаю! Хочу отримати консультацію щодо системи безпеки.") {
+  if (CONTACTS.consultantUrl) return CONTACTS.consultantUrl;
   return CONTACTS.telegram
     ? `https://t.me/${CONTACTS.telegram}?text=${encodeURIComponent(text)}`
     : `https://t.me/share/url?url=&text=${encodeURIComponent(text)}`;

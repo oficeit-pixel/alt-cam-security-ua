@@ -83,7 +83,8 @@
     if (!success) {
       root.altcamAnalytics?.('lead_fallback_shown');
       const links = [];
-      if (contacts.telegram) links.push(['Telegram', `https://t.me/${encodeURIComponent(contacts.telegram.replace(/^@/, ''))}?text=${encodeURIComponent(message)}`]);
+      if (contacts.consultantUrl) links.push(['Telegram', contacts.consultantUrl]);
+      else if (contacts.telegram) links.push(['Telegram', `https://t.me/${encodeURIComponent(contacts.telegram.replace(/^@/, ''))}?text=${encodeURIComponent(message)}`]);
       if (contacts.whatsapp) links.push(['WhatsApp', `https://wa.me/${contacts.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent(message)}`]);
       if (contacts.viber) links.push(['Viber', `viber://chat?number=${encodeURIComponent(contacts.viber)}`]);
       if (contacts.phone) links.push(['Зателефонувати', `tel:${normalizePhone(contacts.phone)}`]);

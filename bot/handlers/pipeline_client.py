@@ -131,13 +131,30 @@ async def _start_site(message: Message) -> None:
             is_new = True
         else:
             is_new = False
-        if await safe_ack(message, texts.auto_reply(inquiry.id, now)):
+        greeting = (f"Запит №{inquiry.id}. Вітаю в ALT-CAM! Я автоматизований помічник. "
+                    "Що вам потрібно: підібрати товар чи замовити послугу? "
+                    "Для монтажу вкажіть місто й тип об’єкта. Щоб підключити людину, напишіть «Хочу менеджера».")
+        if get_settings().capture_before_terms:
+            from html import escape
+            greeting += f'\n\nНадсилаючи повідомлення, ви погоджуєтесь з <a href="{escape(get_settings().privacy_url)}">Політикою ПД</a>.'
+        from bot.ai import runtime as ai_runtime
+        if not get_settings().ai_active or await ai_runtime.is_paused(session, user.id):
+            greeting = texts.auto_reply(inquiry.id, now)
+        if await safe_ack(message, greeting):
             inquiry.auto_reply_at = now
         await session.commit()
         if is_new:
             await notify.send_owner_card(message.bot, session, inquiry, header="👋 Клієнт відкрив бота з сайту (ще не писав)",
                                          targets=notify.escalation_targets(1))
             await session.commit()
+
+
+@deeplink_router.message(CommandStart(), F.chat.type == "private", F.text.regexp(r"^/start(@\w+)?$"),
+                         lambda m: get_settings().pipeline_enabled and get_settings().capture_before_terms
+                         and _contact_role(m) is None and not is_admin(m.from_user.id))
+async def start_private_consultation(message: Message) -> None:
+    """Bare /start from the public contact link; signed links and staff menus stay separate."""
+    await _start_site(message)
 
 
 ROLE_LABELS = {"owner": "власник (основні сповіщення)", "second": "другий контакт (нагадування з 2-го рівня)"}
