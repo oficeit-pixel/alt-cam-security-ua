@@ -16668,6 +16668,186 @@
           "post_id": "962902993572061_122142636207226993"
         }
       }
+    },
+    "daily-2026-10-19-039": {
+      "instagram": {
+        "published_at": "2026-11-07T08:36:56.527668+00:00",
+        "result": {
+          "container": {
+            "id": "18099186038418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18099186038418944"
+          },
+          "published": {
+            "id": "17988521652065737"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-07T08:37:07.187635+00:00",
+        "result": {
+          "container": {
+            "id": "18099123524424516"
+          },
+          "published": {
+            "id": "18124060855935877"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-07T08:37:10.050647+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 205,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794040629,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADzWru4zVA1tOfpksAARizRWxbkz2_VAACOh9rGyEFcUsGBMP0oSnh8gEAAwIAA3MAAz0E",
+                  "file_unique_id": "AQADOh9rGyEFcUt4",
+                  "file_size": 1791,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADzWru4zVA1tOfpksAARizRWxbkz2_VAACOh9rGyEFcUsGBMP0oSnh8gEAAwIAA20AAz0E",
+                  "file_unique_id": "AQADOh9rGyEFcUty",
+                  "file_size": 30661,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADzWru4zVA1tOfpksAARizRWxbkz2_VAACOh9rGyEFcUsGBMP0oSnh8gEAAwIAA3gAAz0E",
+                  "file_unique_id": "AQADOh9rGyEFcUt9",
+                  "file_size": 135326,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADzWru4zVA1tOfpksAARizRWxbkz2_VAACOh9rGyEFcUsGBMP0oSnh8gEAAwIAA3kAAz0E",
+                  "file_unique_id": "AQADOh9rGyEFcUt-",
+                  "file_size": 285351,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADzWru4zVA1tOfpksAARizRWxbkz2_VAACOh9rGyEFcUsGBMP0oSnh8gEAAwIAA3cAAz0E",
+                  "file_unique_id": "AQADOh9rGyEFcUt8",
+                  "file_size": 298553,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "☀️ Сонячні панелі та резервне живлення — енергія, яка працює на вас\n\nКоли електроенергія нестабільна, важливо мати систему, яка не просто дає резерв, а допомагає ефективно використовувати власну генерацію від сонця.\n\nALT-CAM Security UA виконує підбір, монтаж і налаштування сонячних панелей та систем резервного живлення для приватних будинків, квартир, офісів, магазинів, складів, виробництв і фермерських об’єктів.\n\nУ комплекс робіт може входити:\n\nпідбір сонячних панелей під об’єкт;\nрозрахунок необхідної потужності;\nмонтаж конструкцій і панелей;\nвстановлення гібридного або автономного інвертора;\nпідключення акумуляторних батарей;\nмонтаж захисної автоматики;\nналаштування режимів роботи системи;\nпідключення моніторингу;\nтестування та запуск.\nЩо ви отримуєте\n\n✅ Власну генерацію електроенергії від сонця\n✅ Резервне живлення під час відключень\n✅ Можливість живити критично важливе обладнання\n✅ Автоматичну роботу системи відповідно до налаштувань\n✅ Контроль параметрів через сумісні системи моні…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 206,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794040629,
+              "text": "☀️ Сонячні панелі та резервне живлення — енергія, яка працює на вас\n\nКоли електроенергія нестабільна, важливо мати систему, яка не просто дає резерв, а допомагає ефективно використовувати власну генерацію від сонця.\n\nALT-CAM Security UA виконує підбір, монтаж і налаштування сонячних панелей та систем резервного живлення для приватних будинків, квартир, офісів, магазинів, складів, виробництв і фермерських об’єктів.\n\nУ комплекс робіт може входити:\n\nпідбір сонячних панелей під об’єкт;\nрозрахунок необхідної потужності;\nмонтаж конструкцій і панелей;\nвстановлення гібридного або автономного інвертора;\nпідключення акумуляторних батарей;\nмонтаж захисної автоматики;\nналаштування режимів роботи системи;\nпідключення моніторингу;\nтестування та запуск.\nЩо ви отримуєте\n\n✅ Власну генерацію електроенергії від сонця\n✅ Резервне живлення під час відключень\n✅ Можливість живити критично важливе обладнання\n✅ Автоматичну роботу системи відповідно до налаштувань\n✅ Контроль параметрів через сумісні системи моніторингу\n✅ Професійний монтаж та акуратне підключення\n✅ Можливість масштабування системи в майбутньому\n\nПідбираємо рішення індивідуально — від компактної системи для резерву основних споживачів до повноцінного комплексу з сонячними панелями, інвертором і акумуляторним накопиченням.\n\nПрацюємо з обладнанням Deye, LONGi, JA Solar, Trina Solar, SolaX, Pylontech, Victron Energy, Schneider Electric та іншими перевіреними рішеннями.\n\nALT-CAM Security UA — проєктування, монтаж, підключення, налаштування та запуск під ключ.\n\n📩 Напишіть «СОНЦЕ» у повідомлення — підготуємо консультацію та розрахунок під ваш об’єкт.\n\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#ALTCAM #ALTCAMSecurityUA #СонячніПанелі #СонячнаЕнергія #РезервнеЖивлення #ГібриднийІнвертор #Акумулятори #Енергонезалежність #СонячнаСтанція #МонтажСонячнихПанелей #СистемиЖивлення\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 1616,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1678,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1686,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1704,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1719,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1735,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1753,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1772,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1785,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1805,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1821,
+                  "length": 22,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1844,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1865,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
