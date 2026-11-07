@@ -22,17 +22,20 @@ class Element {
   remove() {}
 }
 
-async function widget(contacts) {
+async function widget(contacts, seen = false) {
   const doc = {head: new Element('head'), body: new Element('body'), readyState: 'complete', createElement: tag => new Element(tag)};
   let payload;
-  const root = {document: doc, sessionStorage: {getItem: () => '{"bad":true}', setItem() {}},
+  const events = {}, timers = [];
+  const root = {document: doc, scrollY: 0, addEventListener: (name, fn) => { events[name] = fn; },
+    setTimeout: (fn, delay) => timers.push({fn, delay}),
+    sessionStorage: {getItem: key => key === 'altcam-consultation-offer-seen' && seen ? '1' : '{"bad":true}', setItem() {}},
     fetch: async () => ({json: async () => ({enabled: true})}),
     AltcamLead: {buildLeadPayload: (type, fields) => (payload = {type, ...fields}), post: async () => ({ok: true}),
       submit: async (_box, _button, _message, send) => send()}};
   root.ALTCAM_CONTACTS = contacts;
   vm.runInNewContext(fs.readFileSync(require.resolve('../ai-chat.js'), 'utf8'), {window: root, setTimeout, clearTimeout, AbortController});
   await new Promise(resolve => setImmediate(resolve));
-  return {fab: doc.body.children.find(n => n.className === 'aic-fab'), panel: doc.body.children.find(n => n.className === 'aic-panel'), payload: () => payload};
+  return {root, events, timers, offer: doc.body.children.find(n => n.className === 'aic-offer'), fab: doc.body.children.find(n => n.className === 'aic-fab'), panel: doc.body.children.find(n => n.className === 'aic-panel'), payload: () => payload};
 }
 
 test('production chat opens the private Telegram consultant, not a group or web conversation', async () => {
@@ -41,6 +44,27 @@ test('production chat opens the private Telegram consultant, not a group or web 
   const w = await widget(config.window.ALTCAM_CONTACTS);
   assert.equal(w.fab.href, 'https://t.me/AltCamSecurityUaBot');
   assert.equal(w.panel, undefined);
+  assert.equal(w.fab.hidden, true);
+  assert.equal(w.offer.hidden, true);
+  assert.equal(w.timers.length, 0);
+  w.events.scroll();
+  assert.equal(w.timers.length, 0);
+  w.root.scrollY = 100;
+  w.events.scroll(); w.events.scroll();
+  assert.equal(w.timers.length, 1);
+  assert.equal(w.timers[0].delay, 12000);
+  w.timers[0].fn();
+  assert.equal(w.offer.hidden, false);
+  w.offer.children[2].handlers.click();
+  assert.equal(w.offer.hidden, true);
+  assert.equal(w.fab.hidden, false);
+});
+
+test('dismissed consultation does not prompt again in the same session', async () => {
+  const w = await widget({consultantUrl: 'https://t.me/AltCamSecurityUaBot'}, true);
+  assert.equal(w.fab.hidden, false);
+  assert.equal(w.offer.hidden, true);
+  assert.equal(w.events.scroll, undefined);
 });
 
 test('manager button creates one form and reads named controls, not form.name', async () => {

@@ -21,7 +21,10 @@
     const style = doc.createElement('style');
     style.textContent = `.aic-fab{position:fixed;z-index:85;left:22px;bottom:22px;display:flex;align-items:center;gap:8px;padding:12px 16px;border:0;border-radius:999px;background:#ffcc00;color:#121212;font:800 14px/1 Inter,Arial,sans-serif;box-shadow:0 12px 30px rgba(0,0,0,.28);cursor:pointer}
 .aic-panel{position:fixed;z-index:1100;left:22px;bottom:84px;display:flex;flex-direction:column;width:min(380px,calc(100vw - 24px));height:min(560px,calc(100vh - 120px));border-radius:16px;background:#fff;color:#161619;box-shadow:0 25px 70px rgba(0,0,0,.35);font:14px/1.45 Inter,Arial,sans-serif;overflow:hidden}
-.aic-panel[hidden]{display:none}.aic-head{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;background:#161619;color:#fff}.aic-head b{color:#ffcc00}.aic-head button{border:0;background:none;color:#fff;font-size:24px;cursor:pointer}
+.aic-fab[hidden],.aic-offer[hidden],.aic-panel[hidden]{display:none}
+.aic-offer{position:fixed;left:12px;bottom:124px;z-index:86;box-sizing:border-box;width:min(320px,calc(100vw - 24px));padding:18px;border:1px solid #ffcc00;border-radius:16px;background:#161619;color:#fff;font:15px/1.5 Inter,Arial,sans-serif;box-shadow:0 12px 30px #0005}
+.aic-offer p{margin:0 0 12px}.aic-offer a,.aic-offer button{display:inline-block;padding:10px 14px;border-radius:8px;border:1px solid #ffcc00;font:inherit;cursor:pointer}.aic-offer a{background:#ffcc00;color:#121212;text-decoration:none}.aic-offer button{margin-left:8px;background:transparent;color:#fff}
+.aic-head{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;background:#161619;color:#fff}.aic-head b{color:#ffcc00}.aic-head button{border:0;background:none;color:#fff;font-size:24px;cursor:pointer}
 .aic-log{flex:1;overflow:auto;padding:12px;background:#f5f5f7}.aic-msg{max-width:88%;margin:0 0 8px;padding:9px 11px;border-radius:12px;white-space:pre-wrap;overflow-wrap:anywhere}.aic-msg a{color:#6e5900;font-weight:700}
 .aic-user{margin-left:auto;background:#ffcc00}.aic-bot{background:#fff;border:1px solid #e2e2e6}.aic-form{display:flex;gap:6px;padding:10px;border-top:1px solid #e2e2e6}.aic-form textarea{flex:1;min-height:42px;max-height:110px;padding:9px;border:1px solid #d5d5da;border-radius:10px;font:inherit;resize:none}
 .aic-form button,.aic-lead button{border:0;border-radius:10px;padding:0 14px;background:#161619;color:#ffcc00;font-weight:900;cursor:pointer}.aic-lead{display:grid;gap:6px;margin:6px 0 10px;padding:10px;border:1px dashed #c9b34d;border-radius:12px;background:#fffbe6}.aic-lead input{min-height:40px;padding:8px;border:1px solid #d5d5da;border-radius:8px;font:inherit}.aic-lead button{min-height:40px}
@@ -137,7 +140,40 @@
       link.className = 'aic-fab'; link.href = root.ALTCAM_CONTACTS.consultantUrl;
       link.textContent = '💬 Консультація в Telegram'; link.target = '_blank'; link.rel = 'noopener noreferrer';
       link.addEventListener('click', () => track('click_telegram', {location: 'consultant_widget'}));
-      doc.body.append(link);
+      link.hidden = true;
+      const offer = doc.createElement('aside');
+      offer.className = 'aic-offer'; offer.hidden = true;
+      offer.setAttribute('aria-label', 'Консультація ALT-CAM');
+      const text = doc.createElement('p');
+      text.textContent = 'Потрібна допомога з обладнанням чи монтажем? Напишіть нашому консультанту.';
+      const write = doc.createElement('a');
+      write.href = link.href; write.target = link.target; write.rel = link.rel;
+      write.textContent = 'Написати';
+      const later = doc.createElement('button');
+      later.type = 'button'; later.textContent = 'Пізніше';
+      const key = 'altcam-consultation-offer-seen';
+      function dismiss() {
+        offer.hidden = true; link.hidden = false;
+        try { root.sessionStorage.setItem(key, '1'); } catch {}
+      }
+      write.addEventListener('click', () => {
+        dismiss(); track('click_telegram', {location: 'consultation_offer'});
+      });
+      later.addEventListener('click', dismiss);
+      offer.addEventListener('keydown', event => { if (event.key === 'Escape') dismiss(); });
+      offer.append(text, write, later);
+      doc.body.append(link, offer);
+      let seen = false;
+      try { seen = root.sessionStorage.getItem(key) === '1'; } catch {}
+      if (seen) link.hidden = false;
+      else {
+        let scheduled = false;
+        root.addEventListener('scroll', () => {
+          if (scheduled || root.scrollY < 40) return;
+          scheduled = true;
+          root.setTimeout(() => { offer.hidden = false; }, 12000);
+        }, {passive: true});
+      }
       return;
     }
     try {
