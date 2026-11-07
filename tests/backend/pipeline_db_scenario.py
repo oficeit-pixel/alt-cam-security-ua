@@ -217,6 +217,30 @@ async def main():
         due = await service.due_reminders(s, [5, 15, 60], later_question + timedelta(minutes=5))
         assert any(i.id == row.id and level == 1 for i, level in due)
         assert row.awaiting_since == later_question
+    # Linked private checkout: same phone, separate Telegram identities and separate orders.
+    async with SessionLocal() as s:
+        a = await service.create_inquiry(s, source="bot", client_tg_id=811, client_chat_id=811, phone="same")
+        b = await service.create_inquiry(s, source="bot", client_tg_id=812, client_chat_id=812, phone="same")
+        orders = [WebOrder(order_number=f"TEST-LINK-{n}", customer={"phone": "same"}, delivery={}, items=[],
+                           subtotal=10, status="new") for n in range(3)]
+        s.add_all(orders)
+        await service.add_event(s, a.id, "owner_notified", "system", owner_chat_id=111, owner_message_id=4321)
+        await s.commit()
+    bot.edit_message_text = AsyncMock()
+    bot.sent.clear()
+    assert await capture.capture_site_order(bot, orders[0], context=(a.id,811))
+    assert any(chat == 811 for chat,*_ in bot.sent) and not any(chat == 812 for chat,*_ in bot.sent)
+    assert bot.edit_message_text.await_args.kwargs["message_id"] == 4321
+    bot.sent.clear()
+    await capture.capture_site_order(bot, orders[0], context=(a.id,811))
+    assert not bot.sent  # idempotent notification on capture retry
+    await capture.capture_site_order(bot, orders[1], context=(b.id,811))  # forged inquiry id
+    await capture.capture_site_order(bot, orders[2], context=(a.id,811))  # second genuine order not dropped
+    assert not any(chat in (811,812) for chat,*_ in bot.sent)
+    async with SessionLocal() as s:
+        assert (await service.inquiry_for_web_order(s, orders[0].id)).id == a.id
+        assert (await s.get(Inquiry, b.id)).web_order_id is None
+        assert all(r is None for r in [(await service.inquiry_for_web_order(s, o.id)).client_chat_id for o in orders[1:]])
     await engine.dispose()
     print("PIPELINE_DB_SCENARIO_OK")
 

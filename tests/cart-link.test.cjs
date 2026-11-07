@@ -2,6 +2,17 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const {parse, apply} = require('../cart-link.js');
 
+test('Telegram launch proof stays in memory and is stripped from the visible URL', () => {
+  const vm = require('node:vm'), fs = require('node:fs');
+  let replaced;
+  const window = {location: {hash:'#tgWebAppData=signed%26payload', pathname:'/catalog.html',search:'?consultation=13'},
+    history:{replaceState: (_, __, url) => {replaced = url;}}};
+  vm.runInNewContext(fs.readFileSync(require.resolve('../cart-link.js'),'utf8'), {window, URLSearchParams});
+  assert.equal(replaced, '/catalog.html?consultation=13');
+  assert.equal(window.AltcamCartLink.checkoutContext().inquiry, '13');
+  assert.equal(window.AltcamCartLink.checkoutContext().init, 'signed&payload');
+});
+
 test('parses ids and quantities from ?cart=', () => {
   assert.deepEqual(parse('?cart=viatec-1:2,yugtorg-5'), [{id: 'viatec-1', qty: 2}, {id: 'yugtorg-5', qty: 1}]);
 });
