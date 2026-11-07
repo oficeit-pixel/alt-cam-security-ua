@@ -15,6 +15,10 @@ export function enhanceHead(html) {
   const canonical = html.match(/<link\b[^>]*rel="canonical"[^>]*href="([^"]+)"/i)?.[1];
   const description = html.match(/<meta\b[^>]*name="description"[^>]*content="([^"]*)"/i)?.[1];
   const safe = s => s.replace(/"/g, '&quot;');
+  // Social previews must use the same current price conditions as search metadata.
+  html = html.replace(/<meta\b[^>]*(?:property|name)=["'](?:og:title|og:description|twitter:title|twitter:description)["'][^>]*>/gi, '');
+  if (title) additions.push(`<meta name="twitter:title" content="${safe(title)}">`);
+  if (description) additions.push(`<meta name="twitter:description" content="${safe(description)}">`);
   for (const [key, value] of Object.entries({'og:site_name':'ALT-CAM Security UA','og:locale':'uk_UA','og:type':'website','og:title':title,'og:description':description,'og:url':canonical,'og:image':'https://alt-cam.net.ua/assets/alt-cam-mark.png'})) {
     if (value && !html.includes(`property="${key}"`)) additions.push(`<meta property="${key}" content="${safe(value)}">`);
   }
