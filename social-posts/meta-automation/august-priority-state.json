@@ -16863,6 +16863,168 @@
           "id": "122142742671226993",
           "post_id": "962902993572061_122142742689226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-11-07T19:21:42.277295+00:00",
+        "result": {
+          "container": {
+            "id": "18099296585418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18099296585418944"
+          },
+          "published": {
+            "id": "18486108370116503"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-07T19:21:51.023646+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 207,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794079310,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADz2rvek4lyhsNbWAcFlaC7lqr8870AAKAI2sbIQV5S9Et_3wcEYQbAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADgCNrGyEFeUt4",
+                  "file_size": 1657,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADz2rvek4lyhsNbWAcFlaC7lqr8870AAKAI2sbIQV5S9Et_3wcEYQbAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADgCNrGyEFeUty",
+                  "file_size": 24428,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADz2rvek4lyhsNbWAcFlaC7lqr8870AAKAI2sbIQV5S9Et_3wcEYQbAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADgCNrGyEFeUt9",
+                  "file_size": 101610,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADz2rvek4lyhsNbWAcFlaC7lqr8870AAKAI2sbIQV5S9Et_3wcEYQbAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADgCNrGyEFeUt-",
+                  "file_size": 209460,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADz2rvek4lyhsNbWAcFlaC7lqr8870AAKAI2sbIQV5S9Et_3wcEYQbAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADgCNrGyEFeUt8",
+                  "file_size": 220951,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🎥 Потрібна камера, яка дозволяє точно налаштувати зону контролю?\n\nУ наявності нові варіофокальні IP-камери Ajax HLVF з гібридною підсвіткою та об’єктивом 2.8–12 мм.\n\nЗавдяки варіофокальному об’єктиву можна гнучко налаштувати кут огляду та деталізацію саме під конкретну ділянку — вхід, двір, склад, магазин, офіс або іншу зону контролю.\n\nДоступні моделі:\n\nAjax BulletCam HLVF 5 Mp — Black / White\nAjax TurretCam HLVF 5 Mp — Black / White\nAjax BulletCam HLVF 8 Mp — Black / White\nAjax TurretCam HLVF 8 Mp — Black / White\n\nУсі моделі оснащені об’єктивом 2.8–12 мм та гібридною підсвіткою.\n\nТакі камери підійдуть для об’єктів, де важливо отримувати деталізоване зображення та мати можливість точно налаштувати зону спостереження під конкретне завдання.\n\n🏠 Приватний будинок\n🏢 Офіс\n🏭 Склад\n🏪 Магазин\n📍 Інші комерційні та приватні об’єкти\n\nПотрібно визначити, що краще саме для вашого об’єкта — 5 Mp чи 8 Mp, BulletCam чи TurretCam?\n\nНапишіть «КАМЕРА» у повідомлення ALT-CAM Security UA — допоможемо підіб…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 208,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794079310,
+              "text": "🎥 Потрібна камера, яка дозволяє точно налаштувати зону контролю?\n\nУ наявності нові варіофокальні IP-камери Ajax HLVF з гібридною підсвіткою та об’єктивом 2.8–12 мм.\n\nЗавдяки варіофокальному об’єктиву можна гнучко налаштувати кут огляду та деталізацію саме під конкретну ділянку — вхід, двір, склад, магазин, офіс або іншу зону контролю.\n\nДоступні моделі:\n\nAjax BulletCam HLVF 5 Mp — Black / White\nAjax TurretCam HLVF 5 Mp — Black / White\nAjax BulletCam HLVF 8 Mp — Black / White\nAjax TurretCam HLVF 8 Mp — Black / White\n\nУсі моделі оснащені об’єктивом 2.8–12 мм та гібридною підсвіткою.\n\nТакі камери підійдуть для об’єктів, де важливо отримувати деталізоване зображення та мати можливість точно налаштувати зону спостереження під конкретне завдання.\n\n🏠 Приватний будинок\n🏢 Офіс\n🏭 Склад\n🏪 Магазин\n📍 Інші комерційні та приватні об’єкти\n\nПотрібно визначити, що краще саме для вашого об’єкта — 5 Mp чи 8 Mp, BulletCam чи TurretCam?\n\nНапишіть «КАМЕРА» у повідомлення ALT-CAM Security UA — допоможемо підібрати оптимальний варіант.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #Ajax #AjaxSystems #BulletCam #TurretCam #Відеоспостереження #IPКамера #КамериВідеоспостереження #СистемаБезпеки\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 1036,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1060,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1068,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1086,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1092,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1105,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1116,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1127,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1147,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1157,
+                  "length": 25,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1183,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1203,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
       }
     }
   }
