@@ -11,7 +11,7 @@ export function productOffer(item,url){
  const price=productPrice(item);if(!price)return null;
  // The manager selects the actual seller after a request. Do not attribute
  // every offer or unconfirmed shipping/return policies to the site operator.
- return {'@type':'Offer',price,priceCurrency:'UAH',availability:`https://schema.org/${item.available===true?'InStock':'PreOrder'}`,url};
+ return {'@type':'Offer',price,priceCurrency:'UAH',availability:'https://schema.org/PreOrder',url};
 }
 export async function loadInstallationRates(){
  const context={window:{}};
