@@ -479,7 +479,9 @@ async def create_order(request: web.Request) -> web.Response:
     bot: Bot | None = request.app["bot"]
     telegram_link = None
     try:
-        telegram_link = await asyncio.wait_for(capture_site_order(bot, order), timeout=15)
+        from bot.pipeline.checkout import verified_context
+        context = verified_context(payload.get("consultation"), settings.bot_token)
+        telegram_link = await asyncio.wait_for(capture_site_order(bot, order, context=context), timeout=15)
     except Exception as exc:
         request.app["logger"].warning("order_pipeline_capture_failed order=%s (%s)", order_number, type(exc).__name__)
     targets = [settings.admin_chat_id] if settings.admin_chat_id and not settings.pipeline_enabled else []

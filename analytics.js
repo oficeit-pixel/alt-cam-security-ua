@@ -1,5 +1,6 @@
 (() => {
   'use strict';
+  if (new URLSearchParams((location.hash || '').slice(1)).has('tgWebAppData') || new URLSearchParams(location.search).has('consultation')) return;
   if (/\/admin(?:\/|\.html|$)/.test(location.pathname)) return;
   const id = 'G-55NS10JRQV', key = 'altcam-analytics-consent';
   let enabled = false;

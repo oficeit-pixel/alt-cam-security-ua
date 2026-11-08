@@ -25,6 +25,17 @@
     }
     return added;
   }
-  root.AltcamCartLink = {parse, apply};
+  // Keep signed Telegram identity only in this tab's memory, never in storage or analytics.
+  let context = null;
+  if (root.location) {
+    const hash = new URLSearchParams(root.location.hash.slice(1));
+    const init = hash.get('tgWebAppData');
+    if (init) {
+      const inquiry = new URLSearchParams(root.location.search).get('consultation');
+      if (/^[1-9]\d{0,9}$/.test(inquiry || '')) context = {inquiry, init};
+      root.history.replaceState(null, '', root.location.pathname + root.location.search);
+    }
+  }
+  root.AltcamCartLink = {parse, apply, checkoutContext: () => context};
   if (typeof module !== 'undefined' && module.exports) module.exports = root.AltcamCartLink;
 })(typeof window !== 'undefined' ? window : globalThis);

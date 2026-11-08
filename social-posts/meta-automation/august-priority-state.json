@@ -16287,6 +16287,756 @@
           "post_id": "962902993572061_122142540681226993"
         }
       }
+    },
+    "daily-2026-10-19-037": {
+      "instagram": {
+        "published_at": "2026-11-06T09:57:45.523210+00:00",
+        "result": {
+          "container": {
+            "id": "18098991026418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18098991026418944"
+          },
+          "published": {
+            "id": "18112270883269565"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-06T09:58:55.022209+00:00",
+        "result": {
+          "container": {
+            "id": "18098929649424516"
+          },
+          "published": {
+            "id": "17960338995257000"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-06T09:59:00.826136+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 201,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793959140,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADyWrtpOO83vjfEzwn_FDCYPCdx-TBAAJXHGsbAAENcUsUEkL9FYPS2QEAAwIAA3MAAz0E",
+                  "file_unique_id": "AQADVxxrGwABDXFLeA",
+                  "file_size": 1900,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADyWrtpOO83vjfEzwn_FDCYPCdx-TBAAJXHGsbAAENcUsUEkL9FYPS2QEAAwIAA20AAz0E",
+                  "file_unique_id": "AQADVxxrGwABDXFLcg",
+                  "file_size": 30477,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADyWrtpOO83vjfEzwn_FDCYPCdx-TBAAJXHGsbAAENcUsUEkL9FYPS2QEAAwIAA3gAAz0E",
+                  "file_unique_id": "AQADVxxrGwABDXFLfQ",
+                  "file_size": 128528,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADyWrtpOO83vjfEzwn_FDCYPCdx-TBAAJXHGsbAAENcUsUEkL9FYPS2QEAAwIAA3kAAz0E",
+                  "file_unique_id": "AQADVxxrGwABDXFLfg",
+                  "file_size": 260673,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADyWrtpOO83vjfEzwn_FDCYPCdx-TBAAJXHGsbAAENcUsUEkL9FYPS2QEAAwIAA3cAAz0E",
+                  "file_unique_id": "AQADVxxrGwABDXFLfA",
+                  "file_size": 273050,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "☀️ Сонце, мережа чи акумулятор — COVAX готовий до будь-якого сценарію\n\nКоли потрібно організувати резервне або автономне живлення, важливо мати одне рішення, яке може працювати з різними джерелами енергії.\n\nCOVAX CV-PS-3200-24V — гібридний інвертор, який поєднує в одному корпусі інвертор, зарядний пристрій та MPPT-контролер.\n\nОсновні характеристики:\n\nномінальна потужність — 3200VA / 3000W\nробота з акумуляторними системами 24 В\nвбудований MPPT-контролер 80 А\nдіапазон MPPT — 55–450 Vdc\nзарядний струм — 0–60 А\nвхідна напруга мережі — 170–280 В\nчиста синусоїда на виході\nробота від сонячних панелей, мережі та акумуляторів\nзахист від перевантаження, короткого замикання та перегріву\nрозміри — 405 × 286 × 98 мм\nвага — 4,5 кг\n\nТакий інвертор підходить для приватного будинку, дачі, резервної або автономної сонячної системи.\n\nПотрібно підібрати інвертор під ваше навантаження та акумуляторну систему? Напишіть «ІНВЕРТОР» у повідомлення ALT-CAM Security UA — допоможемо підібрати рішення під ваші зад…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 202,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793959140,
+              "text": "☀️ Сонце, мережа чи акумулятор — COVAX готовий до будь-якого сценарію\n\nКоли потрібно організувати резервне або автономне живлення, важливо мати одне рішення, яке може працювати з різними джерелами енергії.\n\nCOVAX CV-PS-3200-24V — гібридний інвертор, який поєднує в одному корпусі інвертор, зарядний пристрій та MPPT-контролер.\n\nОсновні характеристики:\n\nномінальна потужність — 3200VA / 3000W\nробота з акумуляторними системами 24 В\nвбудований MPPT-контролер 80 А\nдіапазон MPPT — 55–450 Vdc\nзарядний струм — 0–60 А\nвхідна напруга мережі — 170–280 В\nчиста синусоїда на виході\nробота від сонячних панелей, мережі та акумуляторів\nзахист від перевантаження, короткого замикання та перегріву\nрозміри — 405 × 286 × 98 мм\nвага — 4,5 кг\n\nТакий інвертор підходить для приватного будинку, дачі, резервної або автономної сонячної системи.\n\nПотрібно підібрати інвертор під ваше навантаження та акумуляторну систему? Напишіть «ІНВЕРТОР» у повідомлення ALT-CAM Security UA — допоможемо підібрати рішення під ваші задачі.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #COVAX #ГібриднийІнвертор #Інвертор #РезервнеЖивлення #АвтономнеЖивлення #СонячнаЕнергетика #ЧистаСинусоїда\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 1009,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1033,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1041,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1059,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1066,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1085,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1095,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1113,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1132,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1151,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1171,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      },
+      "facebook": {
+        "published_at": "2026-11-06T11:32:18.622629+00:00",
+        "result": {
+          "id": "122142603471226993",
+          "post_id": "962902993572061_122142603489226993"
+        }
+      }
+    },
+    "daily-2026-10-19-038": {
+      "instagram": {
+        "published_at": "2026-11-06T17:19:28.589245+00:00",
+        "result": {
+          "container": {
+            "id": "18099068840418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18099068840418944"
+          },
+          "published": {
+            "id": "18117656696518961"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-06T17:20:36.742914+00:00",
+        "result": {
+          "container": {
+            "id": "18099004433424516"
+          },
+          "published": {
+            "id": "18120531278605829"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-06T17:20:40.823228+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 203,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793985640,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADy2ruDGfBl6-iBlUhNZ7AbwLuBxWFAAIrG2sbIQVxS26GgcTaFWi4AQADAgADcwADPQQ",
+                  "file_unique_id": "AQADKxtrGyEFcUt4",
+                  "file_size": 1868,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADy2ruDGfBl6-iBlUhNZ7AbwLuBxWFAAIrG2sbIQVxS26GgcTaFWi4AQADAgADbQADPQQ",
+                  "file_unique_id": "AQADKxtrGyEFcUty",
+                  "file_size": 28056,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADy2ruDGfBl6-iBlUhNZ7AbwLuBxWFAAIrG2sbIQVxS26GgcTaFWi4AQADAgADeAADPQQ",
+                  "file_unique_id": "AQADKxtrGyEFcUt9",
+                  "file_size": 123254,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADy2ruDGfBl6-iBlUhNZ7AbwLuBxWFAAIrG2sbIQVxS26GgcTaFWi4AQADAgADeQADPQQ",
+                  "file_unique_id": "AQADKxtrGyEFcUt-",
+                  "file_size": 254399,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADy2ruDGfBl6-iBlUhNZ7AbwLuBxWFAAIrG2sbIQVxS26GgcTaFWi4AQADAgADdwADPQQ",
+                  "file_unique_id": "AQADKxtrGyEFcUt8",
+                  "file_size": 266647,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🔧 Якісний монтаж починається з правильних дрібниць\n\nСтяжки, кліпси, монтажні майданчики, кріплення для гофри, дюбелі, саморізи та інші аксесуари здаються дрібницями — але саме вони визначають, наскільки акуратно, швидко та надійно буде змонтована система.\n\nУ ALT-CAM Security UA можна підібрати монтажні аксесуари для відеоспостереження, мереж, систем безпеки та електромонтажних робіт:\n\nкабельні стяжки різних розмірів;\nкліпси та скоби для фіксації кабелю;\nмонтажні майданчики під стяжки;\nкріплення для гофрованої труби;\nдюбелі та саморізи;\nкабельні хомути;\nкріпильні елементи для стін, стель і монтажних поверхонь;\nінші комплектуючі для професійного монтажу.\n\nПравильно підібране кріплення допомагає зробити монтаж акуратним, надійним і зручним для подальшого обслуговування.\n\nПотрібно швидко укомплектувати монтаж під конкретний об’єкт?\n\nНапишіть «МОНТАЖ» у повідомлення ALT-CAM Security UA — допоможемо підібрати всі необхідні аксесуари під вашу задачу.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAM…",
+              "caption_entities": [
+                {
+                  "offset": 963,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 987,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 995,
+                  "length": 7,
+                  "type": "hashtag"
+                }
+              ]
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 204,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1793985640,
+              "text": "🔧 Якісний монтаж починається з правильних дрібниць\n\nСтяжки, кліпси, монтажні майданчики, кріплення для гофри, дюбелі, саморізи та інші аксесуари здаються дрібницями — але саме вони визначають, наскільки акуратно, швидко та надійно буде змонтована система.\n\nУ ALT-CAM Security UA можна підібрати монтажні аксесуари для відеоспостереження, мереж, систем безпеки та електромонтажних робіт:\n\nкабельні стяжки різних розмірів;\nкліпси та скоби для фіксації кабелю;\nмонтажні майданчики під стяжки;\nкріплення для гофрованої труби;\nдюбелі та саморізи;\nкабельні хомути;\nкріпильні елементи для стін, стель і монтажних поверхонь;\nінші комплектуючі для професійного монтажу.\n\nПравильно підібране кріплення допомагає зробити монтаж акуратним, надійним і зручним для подальшого обслуговування.\n\nПотрібно швидко укомплектувати монтаж під конкретний об’єкт?\n\nНапишіть «МОНТАЖ» у повідомлення ALT-CAM Security UA — допоможемо підібрати всі необхідні аксесуари під вашу задачу.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #МонтажніАксесуари #Стяжки #Кліпси #Кріплення #КріпленняДляГофри #Електромонтаж #Відеоспостереження #СистемиБезпеки #КабельнийМонтаж\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 963,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 987,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 995,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1013,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1032,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1040,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1048,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1059,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1078,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1093,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1113,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1129,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1150,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      },
+      "facebook": {
+        "published_at": "2026-11-06T18:30:25.012288+00:00",
+        "result": {
+          "id": "122142636189226993",
+          "post_id": "962902993572061_122142636207226993"
+        }
+      }
+    },
+    "daily-2026-10-19-039": {
+      "instagram": {
+        "published_at": "2026-11-07T08:36:56.527668+00:00",
+        "result": {
+          "container": {
+            "id": "18099186038418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18099186038418944"
+          },
+          "published": {
+            "id": "17988521652065737"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-07T08:37:07.187635+00:00",
+        "result": {
+          "container": {
+            "id": "18099123524424516"
+          },
+          "published": {
+            "id": "18124060855935877"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-07T08:37:10.050647+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 205,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794040629,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADzWru4zVA1tOfpksAARizRWxbkz2_VAACOh9rGyEFcUsGBMP0oSnh8gEAAwIAA3MAAz0E",
+                  "file_unique_id": "AQADOh9rGyEFcUt4",
+                  "file_size": 1791,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADzWru4zVA1tOfpksAARizRWxbkz2_VAACOh9rGyEFcUsGBMP0oSnh8gEAAwIAA20AAz0E",
+                  "file_unique_id": "AQADOh9rGyEFcUty",
+                  "file_size": 30661,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADzWru4zVA1tOfpksAARizRWxbkz2_VAACOh9rGyEFcUsGBMP0oSnh8gEAAwIAA3gAAz0E",
+                  "file_unique_id": "AQADOh9rGyEFcUt9",
+                  "file_size": 135326,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADzWru4zVA1tOfpksAARizRWxbkz2_VAACOh9rGyEFcUsGBMP0oSnh8gEAAwIAA3kAAz0E",
+                  "file_unique_id": "AQADOh9rGyEFcUt-",
+                  "file_size": 285351,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADzWru4zVA1tOfpksAARizRWxbkz2_VAACOh9rGyEFcUsGBMP0oSnh8gEAAwIAA3cAAz0E",
+                  "file_unique_id": "AQADOh9rGyEFcUt8",
+                  "file_size": 298553,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "☀️ Сонячні панелі та резервне живлення — енергія, яка працює на вас\n\nКоли електроенергія нестабільна, важливо мати систему, яка не просто дає резерв, а допомагає ефективно використовувати власну генерацію від сонця.\n\nALT-CAM Security UA виконує підбір, монтаж і налаштування сонячних панелей та систем резервного живлення для приватних будинків, квартир, офісів, магазинів, складів, виробництв і фермерських об’єктів.\n\nУ комплекс робіт може входити:\n\nпідбір сонячних панелей під об’єкт;\nрозрахунок необхідної потужності;\nмонтаж конструкцій і панелей;\nвстановлення гібридного або автономного інвертора;\nпідключення акумуляторних батарей;\nмонтаж захисної автоматики;\nналаштування режимів роботи системи;\nпідключення моніторингу;\nтестування та запуск.\nЩо ви отримуєте\n\n✅ Власну генерацію електроенергії від сонця\n✅ Резервне живлення під час відключень\n✅ Можливість живити критично важливе обладнання\n✅ Автоматичну роботу системи відповідно до налаштувань\n✅ Контроль параметрів через сумісні системи моні…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 206,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794040629,
+              "text": "☀️ Сонячні панелі та резервне живлення — енергія, яка працює на вас\n\nКоли електроенергія нестабільна, важливо мати систему, яка не просто дає резерв, а допомагає ефективно використовувати власну генерацію від сонця.\n\nALT-CAM Security UA виконує підбір, монтаж і налаштування сонячних панелей та систем резервного живлення для приватних будинків, квартир, офісів, магазинів, складів, виробництв і фермерських об’єктів.\n\nУ комплекс робіт може входити:\n\nпідбір сонячних панелей під об’єкт;\nрозрахунок необхідної потужності;\nмонтаж конструкцій і панелей;\nвстановлення гібридного або автономного інвертора;\nпідключення акумуляторних батарей;\nмонтаж захисної автоматики;\nналаштування режимів роботи системи;\nпідключення моніторингу;\nтестування та запуск.\nЩо ви отримуєте\n\n✅ Власну генерацію електроенергії від сонця\n✅ Резервне живлення під час відключень\n✅ Можливість живити критично важливе обладнання\n✅ Автоматичну роботу системи відповідно до налаштувань\n✅ Контроль параметрів через сумісні системи моніторингу\n✅ Професійний монтаж та акуратне підключення\n✅ Можливість масштабування системи в майбутньому\n\nПідбираємо рішення індивідуально — від компактної системи для резерву основних споживачів до повноцінного комплексу з сонячними панелями, інвертором і акумуляторним накопиченням.\n\nПрацюємо з обладнанням Deye, LONGi, JA Solar, Trina Solar, SolaX, Pylontech, Victron Energy, Schneider Electric та іншими перевіреними рішеннями.\n\nALT-CAM Security UA — проєктування, монтаж, підключення, налаштування та запуск під ключ.\n\n📩 Напишіть «СОНЦЕ» у повідомлення — підготуємо консультацію та розрахунок під ваш об’єкт.\n\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#ALTCAM #ALTCAMSecurityUA #СонячніПанелі #СонячнаЕнергія #РезервнеЖивлення #ГібриднийІнвертор #Акумулятори #Енергонезалежність #СонячнаСтанція #МонтажСонячнихПанелей #СистемиЖивлення\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 1616,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1678,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1686,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1704,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1719,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1735,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1753,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1772,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1785,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1805,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1821,
+                  "length": 22,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1844,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1865,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      },
+      "facebook": {
+        "published_at": "2026-11-07T10:15:32.694100+00:00",
+        "result": {
+          "id": "122142715797226993",
+          "post_id": "962902993572061_122142715815226993"
+        }
+      }
+    },
+    "daily-2026-10-19-040": {
+      "facebook": {
+        "published_at": "2026-11-07T16:29:53.842360+00:00",
+        "result": {
+          "id": "122142742671226993",
+          "post_id": "962902993572061_122142742689226993"
+        }
+      },
+      "instagram": {
+        "published_at": "2026-11-07T19:21:42.277295+00:00",
+        "result": {
+          "container": {
+            "id": "18099296585418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18099296585418944"
+          },
+          "published": {
+            "id": "18486108370116503"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-07T19:21:51.023646+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 207,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794079310,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADz2rvek4lyhsNbWAcFlaC7lqr8870AAKAI2sbIQV5S9Et_3wcEYQbAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADgCNrGyEFeUt4",
+                  "file_size": 1657,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADz2rvek4lyhsNbWAcFlaC7lqr8870AAKAI2sbIQV5S9Et_3wcEYQbAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADgCNrGyEFeUty",
+                  "file_size": 24428,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADz2rvek4lyhsNbWAcFlaC7lqr8870AAKAI2sbIQV5S9Et_3wcEYQbAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADgCNrGyEFeUt9",
+                  "file_size": 101610,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADz2rvek4lyhsNbWAcFlaC7lqr8870AAKAI2sbIQV5S9Et_3wcEYQbAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADgCNrGyEFeUt-",
+                  "file_size": 209460,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgADz2rvek4lyhsNbWAcFlaC7lqr8870AAKAI2sbIQV5S9Et_3wcEYQbAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADgCNrGyEFeUt8",
+                  "file_size": 220951,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🎥 Потрібна камера, яка дозволяє точно налаштувати зону контролю?\n\nУ наявності нові варіофокальні IP-камери Ajax HLVF з гібридною підсвіткою та об’єктивом 2.8–12 мм.\n\nЗавдяки варіофокальному об’єктиву можна гнучко налаштувати кут огляду та деталізацію саме під конкретну ділянку — вхід, двір, склад, магазин, офіс або іншу зону контролю.\n\nДоступні моделі:\n\nAjax BulletCam HLVF 5 Mp — Black / White\nAjax TurretCam HLVF 5 Mp — Black / White\nAjax BulletCam HLVF 8 Mp — Black / White\nAjax TurretCam HLVF 8 Mp — Black / White\n\nУсі моделі оснащені об’єктивом 2.8–12 мм та гібридною підсвіткою.\n\nТакі камери підійдуть для об’єктів, де важливо отримувати деталізоване зображення та мати можливість точно налаштувати зону спостереження під конкретне завдання.\n\n🏠 Приватний будинок\n🏢 Офіс\n🏭 Склад\n🏪 Магазин\n📍 Інші комерційні та приватні об’єкти\n\nПотрібно визначити, що краще саме для вашого об’єкта — 5 Mp чи 8 Mp, BulletCam чи TurretCam?\n\nНапишіть «КАМЕРА» у повідомлення ALT-CAM Security UA — допоможемо підіб…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 208,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794079310,
+              "text": "🎥 Потрібна камера, яка дозволяє точно налаштувати зону контролю?\n\nУ наявності нові варіофокальні IP-камери Ajax HLVF з гібридною підсвіткою та об’єктивом 2.8–12 мм.\n\nЗавдяки варіофокальному об’єктиву можна гнучко налаштувати кут огляду та деталізацію саме під конкретну ділянку — вхід, двір, склад, магазин, офіс або іншу зону контролю.\n\nДоступні моделі:\n\nAjax BulletCam HLVF 5 Mp — Black / White\nAjax TurretCam HLVF 5 Mp — Black / White\nAjax BulletCam HLVF 8 Mp — Black / White\nAjax TurretCam HLVF 8 Mp — Black / White\n\nУсі моделі оснащені об’єктивом 2.8–12 мм та гібридною підсвіткою.\n\nТакі камери підійдуть для об’єктів, де важливо отримувати деталізоване зображення та мати можливість точно налаштувати зону спостереження під конкретне завдання.\n\n🏠 Приватний будинок\n🏢 Офіс\n🏭 Склад\n🏪 Магазин\n📍 Інші комерційні та приватні об’єкти\n\nПотрібно визначити, що краще саме для вашого об’єкта — 5 Mp чи 8 Mp, BulletCam чи TurretCam?\n\nНапишіть «КАМЕРА» у повідомлення ALT-CAM Security UA — допоможемо підібрати оптимальний варіант.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #Ajax #AjaxSystems #BulletCam #TurretCam #Відеоспостереження #IPКамера #КамериВідеоспостереження #СистемаБезпеки\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 1036,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1060,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1068,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1086,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1092,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1105,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1116,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1127,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1147,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1157,
+                  "length": 25,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1183,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1203,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-07T22:50:17.716759+00:00",
+        "result": {
+          "container": {
+            "id": "18099252920424516"
+          },
+          "published": {
+            "id": "18224581441349738"
+          }
+        }
+      }
     }
   }
 }
