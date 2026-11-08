@@ -38,7 +38,7 @@ export async function finalizeSeo(directory) {
     if (slug) landingSources.set(slug+'/index.html','content/'+name);
   }
   function modified(relative) {
-    const source = landingSources.get(relative) || (relative.startsWith('products/') ? 'catalog-data.js' : /^(videosposterezhennia|videodomofony|rezervne-zhyvlennia)\//.test(relative) ? 'scripts/build-seo-pages.mjs' : relative.includes('/') ? 'scripts/build-local-pages.mjs' : relative);
+    const source = relative.startsWith('blog/') ? 'content/blog/'+relative.split('/')[1]+'.md' : landingSources.get(relative) || (relative.startsWith('products/') ? 'catalog-data.js' : /^(videosposterezhennia|videodomofony|rezervne-zhyvlennia)\//.test(relative) ? 'scripts/build-seo-pages.mjs' : relative.includes('/') ? 'scripts/build-local-pages.mjs' : relative);
     if (!dates.has(source)) {
       let date = '';
       const legalSource={'privacy-policy.html':'legal-privacy-uk.md','terms-of-service.html':'legal-terms-uk.md','data-deletion.html':'legal-data-deletion-uk.md'}[relative];
@@ -61,6 +61,20 @@ export async function finalizeSeo(directory) {
         const privatePage = /^(admin(?:\/|\.html$)|blanks\/|.*oauth.*\.html$)/i.test(relative);
         const redirect = /http-equiv=["']refresh["']/i.test(html);
         if (!privatePage && !redirect) html = regionalLinks(html);
+        if (!privatePage && !redirect && !html.includes('"@type":"BreadcrumbList"') && relative.startsWith('products/')) {
+          const name=html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1]?.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'")||'Товар';
+          const breadcrumb={'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[['Головна',origin+'/'],['Каталог',origin+'/catalog.html'],[name,url]].map(([name,item],i)=>({'@type':'ListItem',position:i+1,name,item}))};
+          html=html.replace('</head>',`<script type="application/ld+json">${JSON.stringify(breadcrumb).replace(/</g,'\\u003c')}</script></head>`);
+        }
+        if (/^(videosposterezhennia|videodomofony|rezervne-zhyvlennia)\/index.html$/.test(relative)) {
+          const name=html.match(/<h1>([^<]+)<\/h1>/)?.[1];
+          const schema={'@context':'https://schema.org','@type':'Service',name,provider:{'@id':origin+'/#business'},url,areaServed:['Київ','Вишгород','Київська область']};
+          html=html.replace('</head>',`<script type="application/ld+json">${JSON.stringify(schema)}</script></head>`);
+        }
+        if (!privatePage && !redirect && !html.includes('href="/blog/"')) {
+          const link='<nav aria-label="Корисні матеріали"><a href="/blog/">Блог — корисне про системи безпеки</a></nav>';
+          html=html.includes('</footer>')?html.replace('</footer>',link+'</footer>'):html.replace('</main>',link+'</main>');
+        }
         if (!privatePage && !redirect && !html.includes('"@type":"HomeAndConstructionBusiness"')) {
           html = html.replace('</head>', `<script type="application/ld+json">${JSON.stringify(organizationSchema()).replace(/</g,'\\u003c')}</script></head>`);
         }

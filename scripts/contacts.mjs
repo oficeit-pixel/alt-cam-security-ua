@@ -28,14 +28,17 @@ export function renderContacts(html, values=contacts){
     telegram:values.consultantUrl || (values.telegram?`https://t.me/${encodeURIComponent(values.telegram.replace(/^@/,''))}`:''),
     telegramChannel:values.telegramChannel?`https://t.me/${encodeURIComponent(values.telegramChannel.replace(/^@/,''))}`:'',
     whatsapp:values.whatsapp?`https://wa.me/${values.whatsapp.replace(/\D/g,'')}`:'',
-    viber:values.viber?`viber://chat?number=${encodeURIComponent(values.viber)}`:''};
+    viber:values.viber?`viber://chat?number=${encodeURIComponent(values.viber)}`:'',
+    facebook:values.facebook||'',instagram:values.instagram||'',threads:values.threads||'',tiktok:values.tiktok||'',messenger:values.messenger||''};
   return html.replace(/<a\b([^>]*)>([\s\S]*?)<\/a>/gi,(whole,attrs,label)=>{
     const kind=attrs.match(/data-contact="([^"]+)"/)?.[1]
+      || (attrs.match(/\bjs-(telegram-channel|phone|email|telegram|facebook|instagram|threads|tiktok|messenger|viber|whatsapp)\b/)?.[1]?.replace('telegram-channel','telegramChannel'))
       || (/href="tel:/.test(attrs)?'phone':/href="mailto:/.test(attrs)?'email':null);
     if(!kind||!(kind in urls))return whole;
     if(!urls[kind])return '';
     attrs=attrs.replace(/\s(?:href|hidden)(?:="[^"]*")?/g,'');
-    if(kind==='phone'&&/^\+?[\d\s()-]+$/.test(label.trim()))label=escape(values.phoneLabel||values.phone);
+    attrs=attrs.replace(/\bis-hidden\b/g,'');
+    if(kind==='phone'&&(/^(?:\+?[\d\s()-]+|Телефон)$/.test(label.trim())))label=escape(values.phoneLabel||values.phone);
     if(kind==='email')label=escape(values.email);
     if(kind==='telegram'&&label.startsWith('@'))label='@'+escape(values.telegram);
     return `<a${attrs} href="${escape(urls[kind])}">${label}</a>`;
