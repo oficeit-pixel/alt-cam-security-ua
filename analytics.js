@@ -38,7 +38,7 @@
   window.altcamAnalytics = (event, data={}) => {
     if (!enabled || read() !== 'yes') return;
     const aliases={submit_lead:'form_submit',submit_quiz:'quiz_complete',submit_calculator:'calc_confirm',checkout_completed:'cart_submit',add_to_cart:'cart_add',consultation_sent:'form_submit'};
-    const direct=new Set(['click_phone','click_telegram','click_whatsapp','quiz_start','quiz_complete','calc_confirm','form_submit','cart_add','cart_submit']);
+    const direct=new Set(['click_phone','click_telegram','click_whatsapp','quiz_start','quiz_complete','calc_confirm','form_submit','cart_add','cart_submit','widget_open','widget_submit']);
     const canonical=aliases[event]||event;
     if(!names[event]&&!direct.has(canonical))return;
     // A link can have both a local handler and the delegated click listener.

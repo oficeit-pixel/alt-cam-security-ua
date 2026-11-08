@@ -72,8 +72,8 @@
   function apiPayload(payload, cart=false) {
     const client=payload.client||payload.customer||payload;
     const details=payload.details||{};
-    const source_form=cart?'cart':({contact_form:'hero',quote_confirmation:'calculator',catalog_consultation:'consultation',ai_chat:'consultation',quiz:'quiz'})[payload.type]||'consultation';
-    const formId={hero:'lead-form',calculator:'quote-confirm-form',quiz:'security-quiz',cart:'checkout-form',consultation:'consult-form'}[source_form];
+    const source_form=cart?'cart':({contact_form:'hero',quote_confirmation:'calculator',catalog_consultation:'consultation',ai_chat:'consultation',quiz:'quiz',chat_widget:'chat_widget'})[payload.type]||'consultation';
+    const formId={hero:'lead-form',calculator:'quote-confirm-form',quiz:'security-quiz',cart:'checkout-form',consultation:'consult-form',chat_widget:'contact-widget-form'}[source_form];
     const website=root.document?.getElementById?.(formId)?.querySelector?.('[name="website"]')?.value||'';
     return {name:client.name||'',phone:normalizePhone(client.phone),email:client.email||'',source_form,
       object:{...details,...(payload.diagnostics||{}),type:details.object||payload.object||''},

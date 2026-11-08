@@ -14,7 +14,7 @@ function setup(consent){
 test('no analytics without consent, including direct named events',()=>{
  for(const consent of [null,'no']){
   const {window,events}=setup(consent);
-  for(const name of ['form_submit','quiz_complete','cart_submit','click_telegram'])window.altcamAnalytics(name);
+  for(const name of ['form_submit','quiz_complete','cart_submit','click_telegram','widget_open','widget_submit'])window.altcamAnalytics(name);
   assert.equal(events.length,0);
  }
 });
@@ -23,5 +23,8 @@ test('accepted consent sends requested events without customer fields',()=>{
  window.altcamAnalytics('submit_lead',{phone:'secret',name:'secret'});
  window.altcamAnalytics('checkout_completed',{email:'secret'});
  assert.equal(events[0][1],'form_submit');assert.equal(events[1][1],'cart_submit');
+ window.altcamAnalytics('widget_open',{phone:'secret'});
+ window.altcamAnalytics('widget_submit',{name:'secret'});
+ assert.equal(events[2][1],'widget_open');assert.equal(events[3][1],'widget_submit');
  assert.ok(!JSON.stringify(events).includes('secret'));
 });
