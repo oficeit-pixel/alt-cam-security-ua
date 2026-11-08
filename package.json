@@ -2,7 +2,7 @@
   "scripts": {
     "lint:uk": "node scripts/check-ukrainian-text.mjs",
     "build": "node scripts/build-site.mjs",
-    "test:unit": "node scripts/test-seo-head.mjs && node scripts/test-local-pages.mjs && node --test tests/build-guards.test.mjs tests/lead-payload.test.cjs tests/cart-link.test.cjs tests/contacts.test.mjs tests/catalog-localization.test.mjs tests/prices.test.mjs tests/trust-content.test.mjs tests/calculator.test.mjs tests/audience-pages.test.mjs && node scripts/test-build-guards.mjs && node scripts/test-sitemaps.mjs",
+    "test:unit": "node scripts/test-seo-head.mjs && node scripts/test-local-pages.mjs && node --test tests/build-guards.test.mjs tests/lead-payload.test.cjs tests/cart-link.test.cjs tests/contacts.test.mjs tests/catalog-localization.test.mjs tests/prices.test.mjs tests/trust-content.test.mjs tests/trust-data.test.mjs tests/calculator.test.mjs tests/audience-pages.test.mjs && node scripts/test-build-guards.mjs && node scripts/test-sitemaps.mjs",
     "test:e2e": "node scripts/layout-qa.cjs && node scripts/header-qa.cjs && node scripts/lead-qa.cjs",
     "test:leads": "node --test tests/lead-payload.test.cjs tests/lead-transport.test.cjs && node scripts/lead-qa.cjs && node scripts/landing-qa.mjs && node scripts/homepage-qa.mjs",
     "test:ai-widget": "node --test tests/ai-chat-widget.test.cjs",

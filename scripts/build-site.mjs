@@ -6,7 +6,6 @@ import { buildLocalPages } from './build-local-pages.mjs';
 import { finalizeSeo } from './finalize-seo.mjs';
 import { localizeCatalog } from './localize-catalog.mjs';
 import { renderContacts, renderBusinessDetails, contacts } from './contacts.mjs';
-import { renderReviews } from './reviews.mjs';
 import { buildHomepage } from './build-homepage.mjs';
 import { buildLegalPages } from './build-legal-pages.mjs';
 
@@ -24,8 +23,6 @@ for (const name of files) await fs.copyFile(path.join(root, name), path.join(out
 await buildLegalPages(out);
 const homePath = path.join(out, 'index.html');
 await fs.writeFile(homePath, await buildHomepage(await fs.readFile(homePath,'utf8')));
-await fs.writeFile(homePath, renderReviews(await fs.readFile(homePath, 'utf8'), contacts,
-  JSON.parse(await fs.readFile(path.join(root, 'data/reviews.json'), 'utf8'))));
 await fs.mkdir(path.join(out, 'data'), { recursive: true });
 for (const name of ['service-rates.js', 'services.js', 'calc-core.js', 'price-calculator.js', 'package-configs.js']) {
   await fs.copyFile(path.join(root, 'data', name), path.join(out, 'data', name));
