@@ -17037,6 +17037,191 @@
           }
         }
       }
+    },
+    "daily-2026-10-19-041": {
+      "instagram": {
+        "published_at": "2026-11-08T08:49:36.944303+00:00",
+        "result": {
+          "container": {
+            "id": "18099414794418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18099414794418944"
+          },
+          "published": {
+            "id": "18081691085402947"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-08T08:50:46.100344+00:00",
+        "result": {
+          "container": {
+            "id": "18099343709424516"
+          },
+          "published": {
+            "id": "18127489498873733"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-08T08:50:48.175786+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 209,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794127847,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD0WrwN-ewtjxzbQ-jNZbLa0d8GrP6AAIkIGsbMQSJS75r7rtM15HBAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADJCBrGzEEiUt4",
+                  "file_size": 1968,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD0WrwN-ewtjxzbQ-jNZbLa0d8GrP6AAIkIGsbMQSJS75r7rtM15HBAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADJCBrGzEEiUty",
+                  "file_size": 29871,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD0WrwN-ewtjxzbQ-jNZbLa0d8GrP6AAIkIGsbMQSJS75r7rtM15HBAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADJCBrGzEEiUt9",
+                  "file_size": 131880,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD0WrwN-ewtjxzbQ-jNZbLa0d8GrP6AAIkIGsbMQSJS75r7rtM15HBAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADJCBrGzEEiUt-",
+                  "file_size": 273960,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD0WrwN-ewtjxzbQ-jNZbLa0d8GrP6AAIkIGsbMQSJS75r7rtM15HBAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADJCBrGzEEiUt8",
+                  "file_size": 288342,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🌐 Надійна мережа починається не лише з кабелю\n\nНавіть якісний кабель не дасть стабільного результату, якщо використовувати випадкові конектори, модулі чи з’єднувачі.\n\nУ ALT-CAM Security UA можна підібрати пасивні мережеві аксесуари для монтажу локальних, офісних, телекомунікаційних та оптичних мереж.\n\nУ асортименті:\n\nRJ45-конектори та захисні ковпачки;\nKeystone-модулі та перехідники;\nмережеві розетки та faceplate;\nпатч-панелі та органайзери;\nз’єднувачі та адаптери RJ45;\nпатч-корди;\nкліпси, стяжки та елементи фіксації;\nкабель-канали й гофра;\nоптичні конектори SC, LC, FC, ST;\nоптичні адаптери та розетки;\nпігтейли та оптичні патч-корди;\nінші комплектуючі для структурованих кабельних систем.\n\nПравильно підібрані аксесуари допомагають зробити мережу акуратною, надійною та зручною для подальшого обслуговування.\n\nПотрібно укомплектувати монтаж для будинку, офісу, магазину, серверної або телекомунікаційного об’єкта?\n\nНапишіть «МЕРЕЖА» у повідомлення ALT-CAM Security UA — допоможемо підібрати к…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 210,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794127848,
+              "text": "🌐 Надійна мережа починається не лише з кабелю\n\nНавіть якісний кабель не дасть стабільного результату, якщо використовувати випадкові конектори, модулі чи з’єднувачі.\n\nУ ALT-CAM Security UA можна підібрати пасивні мережеві аксесуари для монтажу локальних, офісних, телекомунікаційних та оптичних мереж.\n\nУ асортименті:\n\nRJ45-конектори та захисні ковпачки;\nKeystone-модулі та перехідники;\nмережеві розетки та faceplate;\nпатч-панелі та органайзери;\nз’єднувачі та адаптери RJ45;\nпатч-корди;\nкліпси, стяжки та елементи фіксації;\nкабель-канали й гофра;\nоптичні конектори SC, LC, FC, ST;\nоптичні адаптери та розетки;\nпігтейли та оптичні патч-корди;\nінші комплектуючі для структурованих кабельних систем.\n\nПравильно підібрані аксесуари допомагають зробити мережу акуратною, надійною та зручною для подальшого обслуговування.\n\nПотрібно укомплектувати монтаж для будинку, офісу, магазину, серверної або телекомунікаційного об’єкта?\n\nНапишіть «МЕРЕЖА» у повідомлення ALT-CAM Security UA — допоможемо підібрати кабель, конектори та всі необхідні комплектуючі під вашу задачу.\n\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#ALTCAM #ALTCAMSecurityUA #МережевіАксесуари #RJ45 #Keystone #PatchPanel #ПатчКорд #Оптика #ОптичніАксесуари #ЛокальнаМережа #СКС #Телекомунікації\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 1069,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1131,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1139,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1157,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1176,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1182,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1192,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1204,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1214,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1222,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1240,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1256,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1261,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1282,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
