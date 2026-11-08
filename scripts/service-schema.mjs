@@ -12,7 +12,7 @@ export function serviceSchema(meta, body) {
     if (!Number.isFinite(amount) || amount <= 0) throw new Error('Invalid visible service price');
     return {'@type':'Offer',name,price:amount,priceCurrency:'UAH',url,seller:{'@id':origin+'/#business'}};
   });
-  if (!offers.length && meta.slug !== 'videosposterezhennia-vyshhorod') throw new Error('Service schema requires visible offers');
+  if (!offers.length && meta.slug !== 'videosposterezhennia-vyshhorod' && !/^dlia-(domu|magazyniv|skladiv|sto|kafe|ofisiv)$/.test(meta.slug)) throw new Error('Service schema requires visible offers');
   const result = {'@context':'https://schema.org','@type':'Service','@id':url+'#service',name:meta.h1,
     description:meta.description,url,serviceType:meta.h1,provider:{'@id':origin+'/#business'},
     areaServed:meta.areaServed.map(name=>({'@type':/область|громада/.test(name)?'AdministrativeArea':'City',name})),

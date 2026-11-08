@@ -42,7 +42,7 @@ export async function finalizeSeo(directory) {
     if (!dates.has(source)) {
       let date = '';
       const legalSource={'privacy-policy.html':'legal-privacy-uk.md','terms-of-service.html':'legal-terms-uk.md','data-deletion.html':'legal-data-deletion-uk.md'}[relative];
-      const sources = relative==='index.html' ? ['index.html','content/homepage.md','scripts/build-homepage.mjs','contacts.js','data/service-rates.js'] : legalSource ? [relative,'content/'+legalSource,'scripts/build-legal-pages.mjs','contacts.js'] : [source];
+      const sources = relative.startsWith('dlia-') ? ['content/audience-segments.mjs','scripts/audience-landings.mjs','scripts/build-local-pages.mjs','data/kits.json'] : relative==='index.html' ? ['index.html','content/homepage.md','scripts/build-homepage.mjs','contacts.js','data/service-rates.js','data/kits.json'] : legalSource ? [relative,'content/'+legalSource,'scripts/build-legal-pages.mjs','contacts.js'] : [source];
       try { date = execFileSync('git', ['log', '-1', '--format=%cI', '--', ...sources], {encoding:'utf8', stdio:['ignore','pipe','ignore']}).trim(); } catch {}
       dates.set(source, date || new Date().toISOString());
     }
