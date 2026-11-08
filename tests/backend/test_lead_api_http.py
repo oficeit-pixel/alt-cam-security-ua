@@ -9,7 +9,7 @@ from bot.web import site_leads
 
 
 @pytest.mark.asyncio
-@pytest.mark.parametrize('source', ['hero', 'quiz', 'calculator', 'consultation'])
+@pytest.mark.parametrize('source', ['hero', 'quiz', 'calculator', 'consultation', 'chat_widget'])
 async def test_saved_then_notified_over_http(monkeypatch, source):
     events = []
     async def save(payload, remote):

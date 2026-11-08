@@ -3,7 +3,7 @@ import pytest
 from bot.web.lead_api import normalize_api_lead
 
 
-@pytest.mark.parametrize("source", ["hero", "quiz", "calculator", "cart", "consultation"])
+@pytest.mark.parametrize("source", ["hero", "quiz", "calculator", "cart", "consultation", "chat_widget"])
 def test_each_form_contract(source):
     result = normalize_api_lead({"name": "Тест", "phone": "0630000000",
         "source_form": source, "object": {"walls": "бетон", "height": 3},

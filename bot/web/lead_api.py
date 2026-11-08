@@ -3,7 +3,7 @@ import json
 import re
 from urllib.parse import urlsplit
 
-SOURCES = {"hero", "quiz", "calculator", "cart", "consultation"}
+SOURCES = {"hero", "quiz", "calculator", "cart", "consultation", "chat_widget"}
 
 
 def normalize_api_lead(data):
