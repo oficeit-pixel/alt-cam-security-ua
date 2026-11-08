@@ -17229,6 +17229,191 @@
           "post_id": "962902993572061_122142831741226993"
         }
       }
+    },
+    "daily-2026-10-19-042": {
+      "instagram": {
+        "published_at": "2026-11-08T15:37:02.313617+00:00",
+        "result": {
+          "container": {
+            "id": "18099486026418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18099486026418944"
+          },
+          "published": {
+            "id": "17980821329918740"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-08T15:38:10.200826+00:00",
+        "result": {
+          "container": {
+            "id": "18099421526424516"
+          },
+          "published": {
+            "id": "18159108139455649"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-08T15:38:12.376469+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 211,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794152291,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD02rwl2OcUboNkLYSd_IngVR9duWUAAJQImsbMQSJS8QpJcw0YlwCAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADUCJrGzEEiUt4",
+                  "file_size": 1774,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD02rwl2OcUboNkLYSd_IngVR9duWUAAJQImsbMQSJS8QpJcw0YlwCAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADUCJrGzEEiUty",
+                  "file_size": 32133,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD02rwl2OcUboNkLYSd_IngVR9duWUAAJQImsbMQSJS8QpJcw0YlwCAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADUCJrGzEEiUt9",
+                  "file_size": 148584,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD02rwl2OcUboNkLYSd_IngVR9duWUAAJQImsbMQSJS8QpJcw0YlwCAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADUCJrGzEEiUt-",
+                  "file_size": 308493,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD02rwl2OcUboNkLYSd_IngVR9duWUAAJQImsbMQSJS8QpJcw0YlwCAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADUCJrGzEEiUt8",
+                  "file_size": 327183,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🛒 ALT-CAM Security UA — обладнання для безпеки, мереж та резервного живлення\n\nУ нас ви можете підібрати обладнання для квартири, будинку, офісу, магазину, складу або підприємства — від окремого пристрою до повного комплекту під конкретне завдання.\n\nУ продажу:\n\n📹 Відеоспостереження — IP-камери, відеореєстратори, комплекти та аксесуари\n🚪 Домофонія — відеодомофони, викличні панелі, аудіодомофони\n🔐 Контроль доступу — зчитувачі, контролери, електрозамки, турнікети, термінали\n🌐 Мережеве обладнання — комутатори, роутери, Wi-Fi точки доступу, конектори та аксесуари\n🔧 Оптичні компоненти — кабель, муфти, патч-панелі, пігтейли, адаптери, інструмент\n⚡ Резервне живлення — інвертори, акумулятори, ДБЖ, зарядні станції\n☀️ Сонячна енергетика — панелі, інвертори, кріплення та комплектуючі\n🚨 Системи сигналізації — централі, датчики, сирени, охоронні комплекти\n🔌 Кабельна продукція — вита пара, коаксіальний, сигнальний, оптичний та силовий кабель\n🗄 Шафи та монтажні аксесуари — телекомунікаційні шафи, бокси…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 212,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794152292,
+              "text": "🛒 ALT-CAM Security UA — обладнання для безпеки, мереж та резервного живлення\n\nУ нас ви можете підібрати обладнання для квартири, будинку, офісу, магазину, складу або підприємства — від окремого пристрою до повного комплекту під конкретне завдання.\n\nУ продажу:\n\n📹 Відеоспостереження — IP-камери, відеореєстратори, комплекти та аксесуари\n🚪 Домофонія — відеодомофони, викличні панелі, аудіодомофони\n🔐 Контроль доступу — зчитувачі, контролери, електрозамки, турнікети, термінали\n🌐 Мережеве обладнання — комутатори, роутери, Wi-Fi точки доступу, конектори та аксесуари\n🔧 Оптичні компоненти — кабель, муфти, патч-панелі, пігтейли, адаптери, інструмент\n⚡ Резервне живлення — інвертори, акумулятори, ДБЖ, зарядні станції\n☀️ Сонячна енергетика — панелі, інвертори, кріплення та комплектуючі\n🚨 Системи сигналізації — централі, датчики, сирени, охоронні комплекти\n🔌 Кабельна продукція — вита пара, коаксіальний, сигнальний, оптичний та силовий кабель\n🗄 Шафи та монтажні аксесуари — телекомунікаційні шафи, бокси, кріплення, органайзери\n🧰 Інструмент і тестери — для монтажу, діагностики та обслуговування мереж\n🏠 Розумний дім — датчики, реле, розетки та елементи автоматизації\n\nПрацюємо з перевіреними брендами та допомагаємо підібрати обладнання під ваш бюджет, задачу й умови монтажу.\n\n✅ Технічна консультація\n✅ Підбір сумісного обладнання\n✅ Швидка доставка\n✅ Гарантія та сервіс\n✅ Монтаж і налаштування під ключ\n\nALT-CAM Security UA — все необхідне для безпеки, зв’язку та стабільної роботи вашого об’єкта.\n\n📩 Напишіть «КАТАЛОГ» у повідомлення — допоможемо підібрати потрібну категорію та обладнання.\n\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#ALTCAM #ALTCAMSecurityUA #Відеоспостереження #Домофонія #КонтрольДоступу #МережевеОбладнання #Оптика #РезервнеЖивлення #СонячніПанелі #Сигналізація #Кабель #РозумнийДім\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 1607,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1669,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1677,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1695,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1715,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1726,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1743,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1763,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1771,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1789,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1804,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1818,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1826,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1843,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
