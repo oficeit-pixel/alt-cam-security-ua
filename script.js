@@ -142,15 +142,7 @@ document.querySelectorAll("[data-track]").forEach((element) => {
 document.querySelectorAll("[data-package]").forEach((link) => {
   const config = window.ALTCAM_PACKAGES?.[link.dataset.package];
   if (config) {
-    const estimate = window.ALTCAM_PRICING.calculateVideo(new Map(Object.entries(config)));
-    const price = link.closest('.package-card')?.querySelector('.package-price');
-    if (price) {
-      price.textContent = `Орієнтовно ${money(estimate.policy.total)}`;
-      const scope = document.createElement('p');
-      scope.className = 'service-price-note';
-      scope.textContent = `${config.videoIndoor} внутрішні + ${config.videoOutdoor} зовнішні камери, NVR ${config.videoNvr} каналів, HDD ${config.videoHdd} ТБ. Обладнання + монтаж + базові матеріали. Попередня оцінка калькулятора, не фіксована пропозиція.`;
-      price.after(scope);
-    }
+    // Public kit prices come only from owner-approved data at build time.
     link.href = '#calculator';
     link.textContent = 'Переглянути розрахунок';
   }

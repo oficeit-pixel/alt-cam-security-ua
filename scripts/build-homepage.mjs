@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import {renderKits} from './kits.mjs';
 import {contacts} from './contacts.mjs';
 import {escape,faqEntries} from './lib/landing-md.mjs';
 import {loadInstallationRates} from './product-seo.mjs';
@@ -24,6 +25,7 @@ export function homePriceTable(r){
  return `<section class="section home-prices" id="installation-prices"><div class="container"><span class="section-kicker">Прозорі ціни</span><h2>Ціни на монтаж відеоспостереження</h2><p>Ціна за роботи залежить від кількості камер одного типу. Обладнання, кабель і матеріали розраховуються окремо.</p><div class="table-scroll" tabindex="0" role="region" aria-label="Вартість монтажу камер"><table><caption>Ціна за одну камеру відповідного типу</caption><thead><tr><th scope="col">Робота</th><th scope="col">1 камера</th><th scope="col">2 камери</th><th scope="col">3–8 камер</th><th scope="col">Від 9 камер</th></tr></thead><tbody>${rows}</tbody></table></div><dl class="home-price-extras">${others.map(([label,n])=>`<div><dt>${label}</dt><dd>${money(n)}</dd></div>`).join('')}</dl><p><strong>Приклад: 2 внутрішні + 2 вуличні камери з налаштуванням реєстратора та смартфона — ${money(example)} за роботи.</strong></p><p>Роботи на висоті та нестандартні траси погоджуються окремо до початку монтажу. На телефоні таблицю можна прокрутити горизонтально.</p><div class="hero-actions"><a class="btn btn-primary" href="/#calculator">Порахувати свою систему</a><a class="btn btn-black" href="/vstanovlennia-kamer-vyshhorod/">Повний прайс</a></div></div></section>`;
 }
 export async function buildHomepage(html,{values=contacts}={}){
+ html=await renderKits(html);
  const source=await fs.readFile(new URL('../content/homepage.md',import.meta.url),'utf8'),rates=await loadInstallationRates();
  const title=source.match(/\*\*title[^\n]*?`([^`]+)`/)?.[1],description=source.match(/\*\*description[^\n]*?`([^`]+)`/)?.[1],h1=source.match(/\*\*H1:\*\* (.*)/)?.[1],lead=source.match(/\*\*Підзаголовок:\*\* (.*)/)?.[1];
  if(!title||!description||!h1||!lead)throw Error('Homepage content metadata missing');
