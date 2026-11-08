@@ -9,10 +9,10 @@ function setup(fetch){
   vm.runInNewContext(source,context);
   return {post:context.AltcamLead.post,cancel:()=>cancel(),delay:()=>delay,cleared:()=>cleared};
 }
-test('12 second timeout aborts and clears timer',async()=>{
+test('lead timeout allows server delivery and aborts cleanly',async()=>{
   const transport=setup((url,options)=>new Promise((resolve,reject)=>options.signal.addEventListener('abort',()=>reject(new Error('aborted')))));
   const sent=transport.post('/site-lead',{});
-  assert.equal(transport.delay(),12000);transport.cancel();
+  assert.equal(transport.delay(),65000);transport.cancel();
   await assert.rejects(sent,/aborted/);assert.equal(transport.cleared(),true);
 });
 test('HTTP 200 with ok:false is not success',async()=>{
@@ -22,8 +22,10 @@ test('HTTP 200 with ok:false is not success',async()=>{
 });
 test('configured API base and JSON are used',async()=>{
   const transport=setup(async(url,options)=>{
-    assert.equal(url,'https://test.invalid/site-lead');
-    assert.equal(options.body,'{"name":"test"}');
+    assert.equal(url,'https://test.invalid/api/lead');
+    const payload=JSON.parse(options.body);
+    assert.equal(payload.name,'test');
+    assert.equal(payload.source_form,'consultation');
     return {ok:true,json:async()=>({ok:true,id:42})};
   });
   assert.equal((await transport.post('/site-lead',{name:'test'})).id,42);

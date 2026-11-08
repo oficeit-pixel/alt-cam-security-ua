@@ -5,6 +5,16 @@
   const id = 'G-55NS10JRQV', key = 'altcam-analytics-consent';
   let enabled = false;
   const read = () => { try { return localStorage.getItem(key); } catch { return null; } };
+  // First-touch attribution stays in this tab; no network request is made here.
+  try {
+    if(!sessionStorage.getItem('altcam-first-touch')){
+      const p=new URLSearchParams(location.search), first={};
+      for(const k of ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'])first[k]=(p.get(k)||'').slice(0,200);
+      try{const r=new URL(document.referrer);first.referrer=r.origin+r.pathname;}catch{first.referrer='';}
+      sessionStorage.setItem('altcam-first-touch',JSON.stringify(first));
+    }
+  } catch {}
+  window.altcamAnalyticsAllowed = () => enabled && read() === 'yes';
   function start() {
     if (enabled) return;
     enabled = true;
@@ -24,13 +34,24 @@
     script.src='https://www.googletagmanager.com/gtag/js?id='+id;document.head.append(script);
   }
   const names = {product_details:'view_item',add_to_cart:'add_to_cart',submit_lead:'generate_lead',submit_quiz:'generate_lead',submit_calculator:'generate_lead',checkout_completed:'generate_lead',consultation_sent:'generate_lead',lead_fallback_shown:'lead_fallback_shown',click_phone:'contact_click',click_telegram:'contact_click',click_whatsapp:'contact_click',click_viber:'contact_click',price_request_started:'price_request'};
+  const lastClick = new Map();
   window.altcamAnalytics = (event, data={}) => {
-    if (!enabled || !names[event]) return;
+    if (!enabled || read() !== 'yes') return;
+    const aliases={submit_lead:'form_submit',submit_quiz:'quiz_complete',submit_calculator:'calc_confirm',checkout_completed:'cart_submit',add_to_cart:'cart_add',consultation_sent:'form_submit'};
+    const direct=new Set(['click_phone','click_telegram','click_whatsapp','quiz_start','quiz_complete','calc_confirm','form_submit','cart_add','cart_submit']);
+    const canonical=aliases[event]||event;
+    if(!names[event]&&!direct.has(canonical))return;
+    // A link can have both a local handler and the delegated click listener.
+    if(canonical.startsWith('click_')){
+      const now=Date.now();
+      if(now-(lastClick.get(canonical)||0)<300)return;
+      lastClick.set(canonical,now);
+    }
     const params={page_location:location.origin+location.pathname};
     if (event.startsWith('click_')) params.method=event.slice(6);
     if (names[event]==='generate_lead') params.lead_type=({submit_lead:'contact',submit_quiz:'quiz',submit_calculator:'calculator',checkout_completed:'order',consultation_sent:'consultation'})[event];
     if (/^(?:yugtorg|viatec)-[\w-]+$/.test(String(data.id||''))) params.items=[{item_id:String(data.id)}];
-    window.gtag('event',names[event],params);
+    window.gtag('event',direct.has(canonical)?canonical:names[event],params);
   };
   function choose(value) {
     try { localStorage.setItem(key,value); } catch {}
@@ -43,6 +64,9 @@
     if (!enabled || !anchor) return;
     let url;
     try { url = new URL(anchor.href); } catch { return; }
+    if(url.protocol==='tel:')window.altcamAnalytics('click_phone');
+    else if(url.hostname==='t.me')window.altcamAnalytics('click_telegram');
+    else if(url.hostname==='wa.me'||url.hostname==='api.whatsapp.com')window.altcamAnalytics('click_whatsapp');
     if (url.hostname !== 't.me' || url.pathname.replace(/\/$/, '') !== '/altcam_security_ua') return;
     window.gtag('event', 'telegram_channel_click', {
       page_location: location.origin + location.pathname,

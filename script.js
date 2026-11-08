@@ -98,7 +98,6 @@ const INTEGRATIONS = {
 };
 
 async function sendLeadToCrm(payload) {
-  if (!INTEGRATIONS.crmWebhook) return false;
   const lead = window.AltcamLead.buildLeadPayload(payload.type, {
     ...(payload.client || payload),
     message: payload.message,
@@ -108,61 +107,23 @@ async function sendLeadToCrm(payload) {
       quote:payload.quote}
   });
   try {
-    await window.AltcamLead.post('/site-lead', {
+    const result = await window.AltcamLead.post('/site-lead', {
       ...payload,
       ...lead,
       client: {...(payload.client || {}), ...lead.client},
       createdAt: new Date().toISOString()
     });
-    return true;
+    return result;
   } catch {
     return false;
   }
 }
 
 function trackEvent(name, parameters = {}) {
-  window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push({ event: name, ...parameters });
   window.altcamAnalytics?.(name, parameters);
-  if (typeof window.fbq === "function") window.fbq("trackCustom", name, parameters);
 }
 
-function initAnalytics() {
-  if (INTEGRATIONS.ga4Id) {
-    const gaScript = document.createElement("script");
-    gaScript.async = true;
-    gaScript.src = `https://www.googletagmanager.com/gtag/js?id=${INTEGRATIONS.ga4Id}`;
-    document.head.appendChild(gaScript);
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function gtag() { window.dataLayer.push(arguments); };
-    window.gtag("js", new Date());
-    window.gtag("config", INTEGRATIONS.ga4Id);
-  }
-
-  if (INTEGRATIONS.metaPixelId) {
-    window.fbq = window.fbq || function fbq() {
-      (window.fbq.queue = window.fbq.queue || []).push(arguments);
-    };
-    const metaScript = document.createElement("script");
-    metaScript.async = true;
-    metaScript.src = "https://connect.facebook.net/en_US/fbevents.js";
-    document.head.appendChild(metaScript);
-    window.fbq("init", INTEGRATIONS.metaPixelId);
-    window.fbq("track", "PageView");
-  }
-
-  if (INTEGRATIONS.clarityId) {
-    window.clarity = window.clarity || function clarity() {
-      (window.clarity.q = window.clarity.q || []).push(arguments);
-    };
-    const clarityScript = document.createElement("script");
-    clarityScript.async = true;
-    clarityScript.src = `https://www.clarity.ms/tag/${INTEGRATIONS.clarityId}`;
-    document.head.appendChild(clarityScript);
-  }
-}
-
-initAnalytics();
+// Analytics is initialized only by the consent-controlled analytics.js.
 
 document.querySelectorAll("img[data-approved-asset]").forEach((image) => {
   image.addEventListener("error", () => {
@@ -1027,6 +988,7 @@ const quizCurrent = document.querySelector("#quiz-current");
 const quizPercent = document.querySelector("#quiz-percent");
 const quizProgressBar = document.querySelector("#quiz-progress-bar");
 let currentQuizStep = 0;
+let quizStarted = false;
 
 const packageSelection = sessionStorage.getItem("altcam-selected-package");
 const packagePresets = {
@@ -1083,6 +1045,7 @@ function validateQuizStep() {
 }
 
 quizNext.addEventListener("click", async () => {
+  if (!quizStarted) { trackEvent('quiz_start'); quizStarted = true; }
   window.AltcamLead.warmup();
   if (!validateQuizStep()) return;
   if (currentQuizStep < quizSteps.length - 1) {
