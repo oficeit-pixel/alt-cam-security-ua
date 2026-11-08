@@ -22,6 +22,7 @@ from bot.web.shop_admin import register_shop_admin_routes
 
 from bot.config import get_settings
 from bot.web.lead_store import normalize_lead, save_lead, deliver_lead, pending_lead_ids
+from bot.web.lead_api import normalize_api_lead
 
 
 SERVICE_CATALOG = {
@@ -90,6 +91,11 @@ def _clean(value: Any, fallback: str = "Не вказано") -> str:
 def _rate_limited(request: web.Request, limit: int = 10, window: int = 60) -> bool:
     key = request.remote or "unknown"
     now = monotonic()
+    if len(request.app["rate_limits"]) > 10000:
+        request.app["rate_limits"] = {ip: values for ip, values in request.app["rate_limits"].items()
+                                     if values and now - values[-1] < window}
+        if len(request.app["rate_limits"]) > 10000 and key not in request.app["rate_limits"]:
+            return True
     attempts = [stamp for stamp in request.app["rate_limits"].get(key, []) if now - stamp < window]
     request.app["rate_limits"][key] = attempts
     if len(attempts) >= limit:
@@ -280,11 +286,32 @@ async def site_lead_options(_: web.Request) -> web.Response:
     return web.Response(status=204, headers=_cors_headers())
 
 
-async def site_lead(request: web.Request) -> web.Response:
+async def api_lead(request: web.Request) -> web.Response:
     if _rate_limited(request):
+        return web.json_response({"ok": False, "error": "rate_limited"}, status=429, headers=_cors_headers(request))
+    try:
+        raw = await request.json()
+        payload = normalize_api_lead(raw)
+    except (ValueError, TypeError, RecursionError):
+        return web.json_response({"ok": False, "error": "invalid_lead"}, status=400, headers=_cors_headers(request))
+    request["validated_lead"] = payload
+    if payload["source_form"] == "cart":
+        # Keep authoritative pricing, checkout authentication and order pipeline.
+        request["lead_payload"] = {
+            "customer": payload["client"], "items": raw.get("cart", []),
+            "delivery": raw.get("delivery", {}), "consultation": raw.get("consultation"),
+            "needs_installation": raw.get("needs_installation", False),
+        }
+        return await create_order(request)
+    request["lead_payload"] = payload
+    return await site_lead(request)
+
+
+async def site_lead(request: web.Request) -> web.Response:
+    if "validated_lead" not in request and _rate_limited(request):
         return web.json_response({"ok": False, "error": "rate_limited"}, status=429, headers=_cors_headers())
     try:
-        payload = await request.json()
+        payload = request["lead_payload"] if "lead_payload" in request else await request.json()
     except Exception:
         return web.json_response(
             {"ok": False, "error": "invalid_json"},
@@ -378,10 +405,10 @@ async def analytics(request: web.Request) -> web.Response:
 
 
 async def create_order(request: web.Request) -> web.Response:
-    if _rate_limited(request):
+    if "validated_lead" not in request and _rate_limited(request):
         return web.json_response({"ok": False, "error": "rate_limited"}, status=429, headers=_cors_headers())
     try:
-        payload = await request.json()
+        payload = request["lead_payload"] if "lead_payload" in request else await request.json()
     except Exception:
         return web.json_response({"ok": False, "error": "invalid_json"}, status=400, headers=_cors_headers())
     raw_customer = payload.get("customer") if isinstance(payload.get("customer"), dict) else {}
@@ -403,6 +430,8 @@ async def create_order(request: web.Request) -> web.Response:
     telegram_username = _clean(raw_customer.get("telegram"), "").lstrip("@")[:64]
     customer = {"name": name, "phone": phone, "email": email}
     delivery = {key: _clean(raw_delivery.get(key), "")[:500] for key in ("type", "label", "city", "city_ref", "place", "place_ref", "comment")}
+    if "validated_lead" in request:
+        delivery["lead_context"] = request["validated_lead"]
     delivery_type = str(delivery.get("type", ""))
     if delivery_type not in {"branch", "locker", "courier", "pickup"}:
         return web.json_response({"ok": False, "error": "invalid_delivery"}, status=422, headers=_cors_headers())
@@ -552,6 +581,7 @@ async def start_site_lead_server(bot: Bot | None) -> web.AppRunner:
     app.router.add_get("/health", health)
     app.router.add_options("/site-lead", site_lead_options)
     app.router.add_post("/site-lead", site_lead)
+    app.router.add_post("/api/lead", api_lead)
     app.router.add_options("/api/{tail:.*}", api_options)
     app.router.add_get("/api/catalog/prices", catalog_prices)
     app.router.add_post("/api/analytics", analytics)
