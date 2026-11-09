@@ -9,6 +9,7 @@ import { renderContacts, renderBusinessDetails, contacts } from './contacts.mjs'
 import { buildHomepage } from './build-homepage.mjs';
 import { buildLegalPages } from './build-legal-pages.mjs';
 import { buildBlog } from './build-blog.mjs';
+import { buildTravelPages } from './build-travel-pages.mjs';
 
 const root = process.cwd();
 const out = path.join(root, '_site');
@@ -61,6 +62,7 @@ const data = localizeCatalog(JSON.parse(match[1].replace(/;\s*$/, '')));
 await buildSeoPages(out, data);
 await buildLocalPages(out);
 await buildBlog(out);
+await buildTravelPages(out);
 await buildProductPages(out, data);
 const catalogScript=await fs.readFile(path.join(out,'catalog.js'),'utf8');
 await fs.writeFile(path.join(out,'catalog.js'),catalogScript.replace('<button class="product-more" data-details="${item.id}">Докладніше</button>','<a class="product-more" href="${item.page_url}">Докладніше</a>'));
