@@ -1,5 +1,6 @@
 // Crawlable local-service links, not location-based redirects or geo blocking.
 const links = [
+  ['/zona-vyizdu/vartist-vyizdu/', 'Вартість виїзду та зони обслуговування'],
   ['/montazh-videosposterezhennia-kyiv/', 'Монтаж відеоспостереження — Київ'],
   ['/videosposterezhennia-vyshhorod/', 'Відеоспостереження — Вишгород'],
   ['/vstanovlennia-kamer-vyshhorod/', 'Встановлення камер у Вишгороді'],

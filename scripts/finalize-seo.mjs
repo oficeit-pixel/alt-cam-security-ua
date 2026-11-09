@@ -38,6 +38,15 @@ export async function finalizeSeo(directory) {
     if (slug) landingSources.set(slug+'/index.html','content/'+name);
   }
   function modified(relative) {
+    if(relative==='zona-vyizdu/vartist-vyizdu/index.html'){
+      const key='travel-fee';
+      if(!dates.has(key)){
+        let date='';
+        try{date=execFileSync('git',['log','-1','--format=%cI','--','data/areas.json','data/travel-fee.mjs','scripts/build-travel-pages.mjs'],{encoding:'utf8',stdio:['ignore','pipe','ignore']}).trim();}catch{}
+        dates.set(key,date||new Date().toISOString());
+      }
+      return dates.get(key);
+    }
     const source = relative.startsWith('blog/') ? 'content/blog/'+relative.split('/')[1]+'.md' : landingSources.get(relative) || (relative.startsWith('products/') ? 'catalog-data.js' : /^(videosposterezhennia|videodomofony|rezervne-zhyvlennia)\//.test(relative) ? 'scripts/build-seo-pages.mjs' : relative.includes('/') ? 'scripts/build-local-pages.mjs' : relative);
     if (!dates.has(source)) {
       let date = '';
