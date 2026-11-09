@@ -17429,6 +17429,179 @@
           "id": "122142908007226993",
           "post_id": "962902993572061_122142908025226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-11-09T11:14:32.187288+00:00",
+        "result": {
+          "container": {
+            "id": "18099659735418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18099659735418944"
+          },
+          "published": {
+            "id": "18398331631162860"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-09T11:15:42.611425+00:00",
+        "result": {
+          "container": {
+            "id": "18099580232424516"
+          },
+          "published": {
+            "id": "18014900501765553"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-09T11:15:46.975608+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 213,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794222946,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD1Wrxq2FJiYAjIZpqxxvalDO_qRzHAAJNIGsbMQSRS0Ut6b1OwTNtAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADTSBrGzEEkUt4",
+                  "file_size": 1752,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD1Wrxq2FJiYAjIZpqxxvalDO_qRzHAAJNIGsbMQSRS0Ut6b1OwTNtAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADTSBrGzEEkUty",
+                  "file_size": 28863,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD1Wrxq2FJiYAjIZpqxxvalDO_qRzHAAJNIGsbMQSRS0Ut6b1OwTNtAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADTSBrGzEEkUt9",
+                  "file_size": 124952,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD1Wrxq2FJiYAjIZpqxxvalDO_qRzHAAJNIGsbMQSRS0Ut6b1OwTNtAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADTSBrGzEEkUt-",
+                  "file_size": 261210,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD1Wrxq2FJiYAjIZpqxxvalDO_qRzHAAJNIGsbMQSRS0Ut6b1OwTNtAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADTSBrGzEEkUt8",
+                  "file_size": 271363,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "⚡ Енергія під контролем — від будинку до бізнесу\n\nПотрібне резервне або автономне живлення, яке можна адаптувати під ваші навантаження, акумулятори та сонячні панелі?\n\nУ лінійці Felicity Solar є рішення для різних масштабів — від компактної домашньої системи до потужного трифазного інвертора для бізнесу.\n\nFelicity IVEM3024PRO — 3000 ВА / 24 В\nПідходить для будинку, дачі, офісу та невеликої автономної системи. Працює від мережі, АКБ і сонячних панелей, має MPPT 30–120 В, чисту синусоїду та RS485.\n\nFelicity IVEM8048-II — 8 кВт / 48 В\nДля потужніших систем резервного живлення. MPPT 90–450 В, контролер до 150 А, типове перемикання на батарею близько 10 мс, підтримка паралельної роботи.\n\nFelicity IVGM20KLP3G1 — 20 кВт / 3 фази / 48 В\nРішення для об’єктів із високим і нерівномірним споживанням. Підтримує 100% розбалансоване навантаження по фазах, 2 MPPT, до 32 кВт PV, EPS, генератор і паралельну роботу до 10 інверторів.\n\n📲 А за допомогою Felicity IOTH2407 Smart WiFi DTU-S можна організувати…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 214,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794222946,
+              "text": "⚡ Енергія під контролем — від будинку до бізнесу\n\nПотрібне резервне або автономне живлення, яке можна адаптувати під ваші навантаження, акумулятори та сонячні панелі?\n\nУ лінійці Felicity Solar є рішення для різних масштабів — від компактної домашньої системи до потужного трифазного інвертора для бізнесу.\n\nFelicity IVEM3024PRO — 3000 ВА / 24 В\nПідходить для будинку, дачі, офісу та невеликої автономної системи. Працює від мережі, АКБ і сонячних панелей, має MPPT 30–120 В, чисту синусоїду та RS485.\n\nFelicity IVEM8048-II — 8 кВт / 48 В\nДля потужніших систем резервного живлення. MPPT 90–450 В, контролер до 150 А, типове перемикання на батарею близько 10 мс, підтримка паралельної роботи.\n\nFelicity IVGM20KLP3G1 — 20 кВт / 3 фази / 48 В\nРішення для об’єктів із високим і нерівномірним споживанням. Підтримує 100% розбалансоване навантаження по фазах, 2 MPPT, до 32 кВт PV, EPS, генератор і паралельну роботу до 10 інверторів.\n\n📲 А за допомогою Felicity IOTH2407 Smart WiFi DTU-S можна організувати дистанційний моніторинг через Wi-Fi 2,4 ГГц та застосунок Fsolar.\n\nНе знаєте, який інвертор підійде саме під ваш будинок, офіс або комерційний об’єкт?\n\nНапишіть «ІНВЕРТОР» у повідомлення ALT-CAM Security UA — допоможемо підібрати конфігурацію під ваші задачі.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #FelicitySolar #Felicity #ГібриднийІнвертор #СонячнаЕнергетика #РезервнеЖивлення #АвтономнеЖивлення #MPPT #Fsolar\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 1265,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1289,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1297,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1315,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1330,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1340,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1359,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1378,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1396,
+                  "length": 18,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1415,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1421,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1433,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
       }
     }
   }
