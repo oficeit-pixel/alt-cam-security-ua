@@ -17611,6 +17611,189 @@
           "id": "122142964719226993",
           "post_id": "962902993572061_122142964737226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-11-09T21:27:47.949371+00:00",
+        "result": {
+          "container": {
+            "id": "18099763502418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18099763502418944"
+          },
+          "published": {
+            "id": "17998858941028409"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-09T21:28:58.660922+00:00",
+        "result": {
+          "container": {
+            "id": "18099687653424516"
+          },
+          "published": {
+            "id": "18113724980151902"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-09T21:29:00.775070+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 215,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794259740,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD12ryOxzCZAZdvqMScS_awhACSHo-AAJWI2sbFH6QS-2kFoMdXLrnAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADViNrGxR-kEt4",
+                  "file_size": 1875,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD12ryOxzCZAZdvqMScS_awhACSHo-AAJWI2sbFH6QS-2kFoMdXLrnAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADViNrGxR-kEty",
+                  "file_size": 29676,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD12ryOxzCZAZdvqMScS_awhACSHo-AAJWI2sbFH6QS-2kFoMdXLrnAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADViNrGxR-kEt9",
+                  "file_size": 127012,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD12ryOxzCZAZdvqMScS_awhACSHo-AAJWI2sbFH6QS-2kFoMdXLrnAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADViNrGxR-kEt-",
+                  "file_size": 262996,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD12ryOxzCZAZdvqMScS_awhACSHo-AAJWI2sbFH6QS-2kFoMdXLrnAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADViNrGxR-kEt8",
+                  "file_size": 277405,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🛡 Комплексний захист будинку з Ajax під ключ\n\nБезпека дому — це не один датчик, а ціла система, яка працює разом: контролює проникнення, пожежу, протікання води та миттєво повідомляє про події на смартфон.\n\nALT-CAM Security UA допоможе спроєктувати та встановити систему Ajax під ваш будинок, квартиру, дачу, гараж або офіс.\n\nУ систему можна включити:\n\nHub — централь керування системою;\nдатчики руху;\nдатчики відкриття дверей і вікон;\nвнутрішні та вуличні сирени;\nдатчики диму та пожежі;\nдатчики протікання води;\nбрелоки та кнопки керування;\nінші пристрої Ajax залежно від завдання об’єкта.\n📱 Усе під контролем у смартфоні\n\nЧерез застосунок Ajax можна контролювати стан системи, отримувати сповіщення про тривоги та керувати охороною дистанційно.\n\n✅ Захист від проникнення\n✅ Контроль пожежних ризиків\n✅ Контроль протікання води\n✅ Миттєві сповіщення\n✅ Сценарії автоматизації\n✅ Зручне дистанційне керування\n\nALT-CAM Security UA виконує повний комплекс робіт: виїзд на об’єкт, підбір обладнання, монтаж…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 216,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794259740,
+              "text": "🛡 Комплексний захист будинку з Ajax під ключ\n\nБезпека дому — це не один датчик, а ціла система, яка працює разом: контролює проникнення, пожежу, протікання води та миттєво повідомляє про події на смартфон.\n\nALT-CAM Security UA допоможе спроєктувати та встановити систему Ajax під ваш будинок, квартиру, дачу, гараж або офіс.\n\nУ систему можна включити:\n\nHub — централь керування системою;\nдатчики руху;\nдатчики відкриття дверей і вікон;\nвнутрішні та вуличні сирени;\nдатчики диму та пожежі;\nдатчики протікання води;\nбрелоки та кнопки керування;\nінші пристрої Ajax залежно від завдання об’єкта.\n📱 Усе під контролем у смартфоні\n\nЧерез застосунок Ajax можна контролювати стан системи, отримувати сповіщення про тривоги та керувати охороною дистанційно.\n\n✅ Захист від проникнення\n✅ Контроль пожежних ризиків\n✅ Контроль протікання води\n✅ Миттєві сповіщення\n✅ Сценарії автоматизації\n✅ Зручне дистанційне керування\n\nALT-CAM Security UA виконує повний комплекс робіт: виїзд на об’єкт, підбір обладнання, монтаж, налаштування, тестування та інструктаж користувача.\n\nПідходить для приватних будинків, квартир, котеджів, дач, гаражів, магазинів та офісів.\n\nПотрібно підібрати Ajax саме під ваш об’єкт?\nНапишіть «AJAX» у повідомлення ALT-CAM Security UA — підготуємо рішення та розрахунок.\n\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#ALTCAM #ALTCAMSecurityUA #AjaxSystems #Ajax #ОхороннаСигналізація #РозумнийДім #БезпекаБудинку #СистемаБезпеки #ДатчикРуху #ПожежнаБезпека #ЗахистВідПротікання #МонтажAjax\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 1282,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1344,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1352,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1370,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1383,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1389,
+                  "length": 21,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1411,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1424,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1440,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1456,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1468,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1484,
+                  "length": 20,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1505,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1521,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
       }
     }
   }
