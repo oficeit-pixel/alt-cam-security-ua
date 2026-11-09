@@ -14,7 +14,10 @@ export function productCopy(item){
  const original=cleanProductText(item.name),brand=/^(інший виробник|unknown|no.?name)$/i.test(cleanProductText(item.brand))?'':cleanProductText(item.brand);
  const rawModel=cleanProductText(item.model);
  const model=generic.test(rawModel)||rawModel===brand||/^\d+$/.test(rawModel)?'':rawModel;
- const general=generic.test(original)||(!/\d/.test(original)&&original.length<65);
+ // Numeric specifications do not make a name a model: e.g. "ДБЖ під акб 12В/7A".
+ // Preserve an explicitly supplied model when a short supplier label omits it.
+ const general=generic.test(original)||(!/\d/.test(original)&&original.length<65)
+  ||(model&&original.length<65&&!original.toLowerCase().includes(model.toLowerCase()));
  const features=(item.features||[]).map(cleanProductText).filter(Boolean);
  const source=cleanProductText(item.description);
  const camera=/камера/i.test(original)&&!/домофон/i.test(original);
