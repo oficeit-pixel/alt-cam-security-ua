@@ -2,7 +2,7 @@
 const {chromium}=require('playwright');
 const fs=require('node:fs/promises'),path=require('node:path'),assert=require('node:assert/strict');
 (async()=>{
- const browser=await chromium.launch({headless:true,channel:'msedge'}),results=[];
+ const browser=await chromium.launch({headless:true,channel:process.env.PW_CHANNEL||(process.platform==='win32'?'msedge':undefined)}),results=[];
  try {for(const viewport of [{width:390,height:844},{width:1440,height:900}]){
   const context=await browser.newContext({viewport,reducedMotion:'reduce'}),requests=[],errors=[],missing=[];
   await context.addInitScript(()=>localStorage.setItem('altcam-analytics-consent','no'));

@@ -2,7 +2,7 @@
 const {chromium}=require('playwright'),fs=require('node:fs/promises'),path=require('node:path'),assert=require('node:assert/strict'),{gzipSync}=require('node:zlib');
 (async()=>{
  const bytes=gzipSync(await fs.readFile('contact-widget.js')).length;assert(bytes<10240);
- const browser=await chromium.launch({headless:true,channel:'msedge'}),errors=[];
+ const browser=await chromium.launch({headless:true,channel:process.env.PW_CHANNEL||(process.platform==='win32'?'msedge':undefined)}),errors=[];
  try{for(const width of [390,768,1366])for(const consent of ['no','yes']){
   const context=await browser.newContext({viewport:{width,height:900},reducedMotion:'reduce'});let fail=false,requests=[];
   await context.addInitScript(value=>localStorage.setItem('altcam-analytics-consent',value),consent);
