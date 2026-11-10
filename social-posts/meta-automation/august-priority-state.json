@@ -17992,6 +17992,186 @@
           "id": "122143056807226993",
           "post_id": "962902993572061_122143056825226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-11-10T18:53:53.926982+00:00",
+        "result": {
+          "container": {
+            "id": "18099962615418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18099962615418944"
+          },
+          "published": {
+            "id": "18026560655867075"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-10T18:55:03.788137+00:00",
+        "result": {
+          "container": {
+            "id": "18099886511424516"
+          },
+          "published": {
+            "id": "18399696124167895"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-10T18:55:07.307311+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 219,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794336906,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD22rzaIqq_T0RQnStee2BlYJiRYGRAALsIWsbFH6YSzctifYbZPIaAQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD7CFrGxR-mEt4",
+                  "file_size": 1717,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD22rzaIqq_T0RQnStee2BlYJiRYGRAALsIWsbFH6YSzctifYbZPIaAQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD7CFrGxR-mEty",
+                  "file_size": 25137,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD22rzaIqq_T0RQnStee2BlYJiRYGRAALsIWsbFH6YSzctifYbZPIaAQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD7CFrGxR-mEt9",
+                  "file_size": 106894,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD22rzaIqq_T0RQnStee2BlYJiRYGRAALsIWsbFH6YSzctifYbZPIaAQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD7CFrGxR-mEt-",
+                  "file_size": 217524,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD22rzaIqq_T0RQnStee2BlYJiRYGRAALsIWsbFH6YSzctifYbZPIaAQADAgADdwADPQQ",
+                  "file_unique_id": "AQAD7CFrGxR-mEt8",
+                  "file_size": 228696,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "📡 Потрібно передати інтернет між двома будівлями без прокладання кабелю?\n\nКоли прокласти кабель складно, дорого або просто неможливо, можна організувати бездротовий мережевий міст на частоті 5 ГГц.\n\nMikroTik SXTsq Lite5 (RBSXTsq5nD) — зовнішня Wi-Fi точка доступу з направленою антеною 16 dBi, створена для стабільного бездротового з’єднання між об’єктами.\n\nОсновні характеристики:\n\n📡 Wi-Fi 5 ГГц, 802.11 a/n\n📶 антена 16 dBi, кут 23°\n⚙️ RouterOS L3\n🧠 процесор 600 МГц\n💾 оперативна пам’ять 64 МБ\n🔌 1 × RJ45 100 Мбіт/с\n⚡ живлення Passive PoE / DC 10–30 В\n🌡 робоча температура від -40°C до +70°C\n📐 компактний корпус 129 × 129 × 34 мм\n\n⚠️ Важливо: для створення бездротового мосту потрібно 2 пристрої MikroTik SXTsq Lite5. Кожна точка продається окремо.\n\nПотрібно з’єднати мережею будинок, офіс, склад, гараж або інший віддалений об’єкт без прокладання кабелю?\n\nНапишіть «МІСТ» у повідомлення ALT-CAM Security UA — допоможемо підібрати обладнання та конфігурацію під ваше завдання.\n\n🌐 https://alt-cam.net…",
+              "caption_entities": [
+                {
+                  "offset": 990,
+                  "length": 19,
+                  "type": "url"
+                }
+              ]
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 220,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794336907,
+              "text": "📡 Потрібно передати інтернет між двома будівлями без прокладання кабелю?\n\nКоли прокласти кабель складно, дорого або просто неможливо, можна організувати бездротовий мережевий міст на частоті 5 ГГц.\n\nMikroTik SXTsq Lite5 (RBSXTsq5nD) — зовнішня Wi-Fi точка доступу з направленою антеною 16 dBi, створена для стабільного бездротового з’єднання між об’єктами.\n\nОсновні характеристики:\n\n📡 Wi-Fi 5 ГГц, 802.11 a/n\n📶 антена 16 dBi, кут 23°\n⚙️ RouterOS L3\n🧠 процесор 600 МГц\n💾 оперативна пам’ять 64 МБ\n🔌 1 × RJ45 100 Мбіт/с\n⚡ живлення Passive PoE / DC 10–30 В\n🌡 робоча температура від -40°C до +70°C\n📐 компактний корпус 129 × 129 × 34 мм\n\n⚠️ Важливо: для створення бездротового мосту потрібно 2 пристрої MikroTik SXTsq Lite5. Кожна точка продається окремо.\n\nПотрібно з’єднати мережею будинок, офіс, склад, гараж або інший віддалений об’єкт без прокладання кабелю?\n\nНапишіть «МІСТ» у повідомлення ALT-CAM Security UA — допоможемо підібрати обладнання та конфігурацію під ваше завдання.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #MikroTik #SXTsqLite5 #WiFi5GHz #БездротовийМіст #ТочкаДоступу #МережевеОбладнання #Інтернет #МережеваІнфраструктура\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 990,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1014,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1022,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1040,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1050,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1062,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1072,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1089,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1103,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1123,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1133,
+                  "length": 23,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1161,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
       }
     }
   }
