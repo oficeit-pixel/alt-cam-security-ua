@@ -19,7 +19,7 @@ test('all public products are indexable regardless of category, price or descrip
 });
 test('offers use finite UAH prices and conservative availability',()=>{
  for(const price of [0,-1,NaN,Infinity,null,'123'])assert.equal(productOffer({...good,price},'url'),null);
- assert.equal(productOffer(good,'url').availability,'https://schema.org/InStock');
+ assert.equal(productOffer(good,'url').availability,'https://schema.org/PreOrder');
  assert.equal(productOffer({...good,available:undefined},'url').availability,'https://schema.org/PreOrder');
  for(const field of ['seller','shippingDetails','hasMerchantReturnPolicy','aggregateRating','review'])assert.equal(productOffer(good,'url')[field],undefined);
 });

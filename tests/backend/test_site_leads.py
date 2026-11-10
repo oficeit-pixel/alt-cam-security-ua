@@ -10,7 +10,14 @@ from bot.web.lead_store import normalize_lead
 
 
 def request(payload):
-    return SimpleNamespace(json=AsyncMock(return_value=payload), remote="127.0.0.1", headers={}, app={"rate_limits": {}, "logger": logging.getLogger("test"), "bot": None})
+    class Request(dict):
+        pass
+    result = Request()
+    result.json = AsyncMock(return_value=payload)
+    result.remote = "127.0.0.1"
+    result.headers = {}
+    result.app = {"rate_limits": {}, "logger": logging.getLogger("test"), "bot": None}
+    return result
 
 
 def test_lead_text_top_level_fields():

@@ -12,11 +12,13 @@ export function serviceSchema(meta, body) {
     if (!Number.isFinite(amount) || amount <= 0) throw new Error('Invalid visible service price');
     return {'@type':'Offer',name,price:amount,priceCurrency:'UAH',url,seller:{'@id':origin+'/#business'}};
   });
-  if (!offers.length) throw new Error('Service schema requires visible offers');
-  return {'@context':'https://schema.org','@type':'Service','@id':url+'#service',name:meta.h1,
+  if (!offers.length && meta.slug !== 'videosposterezhennia-vyshhorod' && !/^dlia-(domu|magazyniv|skladiv|sto|kafe|ofisiv)$/.test(meta.slug)) throw new Error('Service schema requires visible offers');
+  const result = {'@context':'https://schema.org','@type':'Service','@id':url+'#service',name:meta.h1,
     description:meta.description,url,serviceType:meta.h1,provider:{'@id':origin+'/#business'},
     areaServed:meta.areaServed.map(name=>({'@type':/область|громада/.test(name)?'AdministrativeArea':'City',name})),
     offers:{'@type':'AggregateOffer',priceCurrency:'UAH',lowPrice:Math.min(...offers.map(o=>o.price)),
       highPrice:Math.max(...offers.map(o=>o.price)),offerCount:offers.length,
       description:'Окремі монтажні роботи за таблицею цін. Не вартість системи під ключ; обладнання та матеріали окремо.',offers}};
+  if (!offers.length) delete result.offers;
+  return result;
 }

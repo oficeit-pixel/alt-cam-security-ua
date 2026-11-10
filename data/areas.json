@@ -1,0 +1,24 @@
+{
+  "currency": "UAH",
+  "fee_rules": {
+    "free_zones": ["kyiv", "vyshhorod"],
+    "per_km_rate": 5,
+    "distance_from": "nearest_of(kyiv_border,vyshhorod_border)",
+    "one_way": true,
+    "credited_to_order": true
+  },
+  "areas": [
+    {"slug":"kyiv","name":{"uk":"Київ","ru":"Киев"},"fee":{"type":"free"},"cases":[],"faq":[]},
+    {"slug":"vyshhorod","name":{"uk":"Вишгород","ru":"Вышгород"},"fee":{"type":"free"},"cases":[],"faq":[]},
+    {"slug":"vyshhorodskyi-raion","type":"hub","name":{"uk":"Вишгородський район","ru":"Вышгородский район"},"settlements":[
+      {"slug":"dymer","name":{"uk":"Димер","ru":"Дымер"},"distance_km":null,"cases":[]},
+      {"slug":"liutizh","name":{"uk":"Лютіж","ru":"Лютеж"},"distance_km":null,"cases":[]}
+    ]},
+    {"slug":"kyivska-oblast","type":"hub","name":{"uk":"Київська область","ru":"Киевская область"},"settlements":[
+      {"slug":"irpin","name":{"uk":"Ірпінь","ru":"Ирпень"},"distance_km":null,"cases":[]},
+      {"slug":"bucha","name":{"uk":"Буча","ru":"Буча"},"distance_km":null,"cases":[]},
+      {"slug":"kotsiubynske","name":{"uk":"Коцюбинське","ru":"Коцюбинское"},"distance_km":null,"cases":[]},
+      {"slug":"khotianivka","name":{"uk":"Хотянівка","ru":"Хотяновка"},"distance_km":null,"cases":[]}
+    ]}
+  ]
+}

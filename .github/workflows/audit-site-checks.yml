@@ -8,6 +8,8 @@ jobs:
   public-site:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    env:
+      PW_CHANNEL: chrome
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -17,5 +19,24 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm test
-      - run: npx playwright install --with-deps chromium
+      - run: google-chrome --version
       - run: npm run test:leads
+      - name: Measure mobile Lighthouse on built pages
+        env:
+          CHROME_PATH: /usr/bin/google-chrome
+        run: |
+          mkdir -p lighthouse-reports
+          python3 -m http.server 4173 --bind 127.0.0.1 --directory _site > /tmp/altcam-lighthouse-http.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID"' EXIT
+          for i in 1 2 3 4 5; do curl -fsS http://127.0.0.1:4173/ > /dev/null && break || sleep 1; done
+          PRODUCT=$(node -e "const fs=require('fs'); console.log(JSON.parse(fs.readFileSync('_site/product-seo-report.json')).paths[0])")
+          npx --yes lighthouse@12.8.2 http://127.0.0.1:4173/ --chrome-flags="--headless --no-sandbox" --only-categories=performance --output=json --output-path=lighthouse-reports/home.json --quiet
+          npx --yes lighthouse@12.8.2 http://127.0.0.1:4173/vstanovlennia-kamer-vyshhorod/ --chrome-flags="--headless --no-sandbox" --only-categories=performance --output=json --output-path=lighthouse-reports/prices.json --quiet
+          npx --yes lighthouse@12.8.2 "http://127.0.0.1:4173$PRODUCT" --chrome-flags="--headless --no-sandbox" --only-categories=performance --output=json --output-path=lighthouse-reports/product.json --quiet
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: lighthouse-mobile
+          path: lighthouse-reports/*.json
+          if-no-files-found: ignore

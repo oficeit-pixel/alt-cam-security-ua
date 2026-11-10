@@ -15,6 +15,10 @@ export function enhanceHead(html) {
   const canonical = html.match(/<link\b[^>]*rel="canonical"[^>]*href="([^"]+)"/i)?.[1];
   const description = html.match(/<meta\b[^>]*name="description"[^>]*content="([^"]*)"/i)?.[1];
   const safe = s => s.replace(/"/g, '&quot;');
+  // Social previews must use the same current price conditions as search metadata.
+  html = html.replace(/<meta\b[^>]*(?:property|name)=["'](?:og:title|og:description|twitter:title|twitter:description)["'][^>]*>/gi, '');
+  if (title) additions.push(`<meta name="twitter:title" content="${safe(title)}">`);
+  if (description) additions.push(`<meta name="twitter:description" content="${safe(description)}">`);
   for (const [key, value] of Object.entries({'og:site_name':'ALT-CAM Security UA','og:locale':'uk_UA','og:type':'website','og:title':title,'og:description':description,'og:url':canonical,'og:image':'https://alt-cam.net.ua/assets/alt-cam-mark.png'})) {
     if (value && !html.includes(`property="${key}"`)) additions.push(`<meta property="${key}" content="${safe(value)}">`);
   }
@@ -34,11 +38,20 @@ export async function finalizeSeo(directory) {
     if (slug) landingSources.set(slug+'/index.html','content/'+name);
   }
   function modified(relative) {
-    const source = landingSources.get(relative) || (relative.startsWith('products/') ? 'catalog-data.js' : /^(videosposterezhennia|videodomofony|rezervne-zhyvlennia)\//.test(relative) ? 'scripts/build-seo-pages.mjs' : relative.includes('/') ? 'scripts/build-local-pages.mjs' : relative);
+    if(relative==='zona-vyizdu/vartist-vyizdu/index.html'){
+      const key='travel-fee';
+      if(!dates.has(key)){
+        let date='';
+        try{date=execFileSync('git',['log','-1','--format=%cI','--','data/areas.json','data/travel-fee.mjs','scripts/build-travel-pages.mjs'],{encoding:'utf8',stdio:['ignore','pipe','ignore']}).trim();}catch{}
+        dates.set(key,date||new Date().toISOString());
+      }
+      return dates.get(key);
+    }
+    const source = relative.startsWith('blog/') ? 'content/blog/'+relative.split('/')[1]+'.md' : landingSources.get(relative) || (relative.startsWith('products/') ? 'catalog-data.js' : /^(videosposterezhennia|videodomofony|rezervne-zhyvlennia)\//.test(relative) ? 'scripts/build-seo-pages.mjs' : relative.includes('/') ? 'scripts/build-local-pages.mjs' : relative);
     if (!dates.has(source)) {
       let date = '';
       const legalSource={'privacy-policy.html':'legal-privacy-uk.md','terms-of-service.html':'legal-terms-uk.md','data-deletion.html':'legal-data-deletion-uk.md'}[relative];
-      const sources = relative==='index.html' ? ['index.html','content/homepage.md','scripts/build-homepage.mjs','contacts.js','data/service-rates.js'] : legalSource ? [relative,'content/'+legalSource,'scripts/build-legal-pages.mjs','contacts.js'] : [source];
+      const sources = relative.startsWith('dlia-') ? ['content/audience-segments.mjs','scripts/audience-landings.mjs','scripts/build-local-pages.mjs','data/kits.json'] : relative==='index.html' ? ['index.html','content/homepage.md','scripts/build-homepage.mjs','contacts.js','data/service-rates.js','data/kits.json'] : legalSource ? [relative,'content/'+legalSource,'scripts/build-legal-pages.mjs','contacts.js'] : [source];
       try { date = execFileSync('git', ['log', '-1', '--format=%cI', '--', ...sources], {encoding:'utf8', stdio:['ignore','pipe','ignore']}).trim(); } catch {}
       dates.set(source, date || new Date().toISOString());
     }
@@ -57,6 +70,20 @@ export async function finalizeSeo(directory) {
         const privatePage = /^(admin(?:\/|\.html$)|blanks\/|.*oauth.*\.html$)/i.test(relative);
         const redirect = /http-equiv=["']refresh["']/i.test(html);
         if (!privatePage && !redirect) html = regionalLinks(html);
+        if (!privatePage && !redirect && !html.includes('"@type":"BreadcrumbList"') && relative.startsWith('products/')) {
+          const name=html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1]?.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'")||'Товар';
+          const breadcrumb={'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[['Головна',origin+'/'],['Каталог',origin+'/catalog.html'],[name,url]].map(([name,item],i)=>({'@type':'ListItem',position:i+1,name,item}))};
+          html=html.replace('</head>',`<script type="application/ld+json">${JSON.stringify(breadcrumb).replace(/</g,'\\u003c')}</script></head>`);
+        }
+        if (/^(videosposterezhennia|videodomofony|rezervne-zhyvlennia)\/index.html$/.test(relative)) {
+          const name=html.match(/<h1>([^<]+)<\/h1>/)?.[1];
+          const schema={'@context':'https://schema.org','@type':'Service',name,provider:{'@id':origin+'/#business'},url,areaServed:['Київ','Вишгород','Київська область']};
+          html=html.replace('</head>',`<script type="application/ld+json">${JSON.stringify(schema)}</script></head>`);
+        }
+        if (!privatePage && !redirect && !html.includes('href="/blog/"')) {
+          const link='<nav aria-label="Корисні матеріали"><a href="/blog/">Блог — корисне про системи безпеки</a></nav>';
+          html=html.includes('</footer>')?html.replace('</footer>',link+'</footer>'):html.replace('</main>',link+'</main>');
+        }
         if (!privatePage && !redirect && !html.includes('"@type":"HomeAndConstructionBusiness"')) {
           html = html.replace('</head>', `<script type="application/ld+json">${JSON.stringify(organizationSchema()).replace(/</g,'\\u003c')}</script></head>`);
         }

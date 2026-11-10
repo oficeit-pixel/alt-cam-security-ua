@@ -5,5 +5,21 @@ Disallow: /admin.html
 Disallow: /blanks/
 Disallow: /feeds/
 Disallow: /tiktok-oauth-callback.html
+Disallow: /api/
+Disallow: /social-posts/calendar/
+# Group and product entry links stay crawlable so canonical can be read.
+# Block combinatorial filters and cart state, not public product pages.
+Disallow: /catalog.html?*cart=
+Disallow: /catalog.html?*search=
+Disallow: /catalog.html?*category=
+Disallow: /catalog.html?*brand=
+Disallow: /catalog.html?*sort=
+Disallow: /catalog.html?*price_from=
+Disallow: /catalog.html?*price_to=
+Disallow: /catalog.html?*type=
+Disallow: /catalog.html?*resolution=
+Disallow: /catalog.html?*connection=
+Disallow: /catalog.html?*placement=
+Disallow: /catalog.html?*capability=
 
 Sitemap: https://alt-cam.net.ua/sitemap.xml

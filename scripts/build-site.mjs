@@ -6,9 +6,10 @@ import { buildLocalPages } from './build-local-pages.mjs';
 import { finalizeSeo } from './finalize-seo.mjs';
 import { localizeCatalog } from './localize-catalog.mjs';
 import { renderContacts, renderBusinessDetails, contacts } from './contacts.mjs';
-import { renderReviews } from './reviews.mjs';
 import { buildHomepage } from './build-homepage.mjs';
 import { buildLegalPages } from './build-legal-pages.mjs';
+import { buildBlog } from './build-blog.mjs';
+import { buildTravelPages } from './build-travel-pages.mjs';
 
 const root = process.cwd();
 const out = path.join(root, '_site');
@@ -18,14 +19,12 @@ const files = ['index.html', 'catalog.html', 'admin.html', 'privacy-policy.html'
   'terms-of-service.html', 'delivery-and-returns.html', 'data-deletion.html',
   'tiktok-oauth-callback.html', 'tiktokoVpj7mZL347GV0n5bjaavAO1ZLPlsG1V.txt',
   'robots.txt', 'sitemap.xml', '.nojekyll', 'styles.css', 'custom-style.css',
-  'catalog.css', 'admin.css', 'landing.css', 'homepage.css', 'regional-links.css', 'legal.css', 'service-prices.css', 'script.js', 'catalog.js',
-  'admin.js', 'analytics.js', 'contacts.js', 'lead-payload.js', 'cart-link.js', 'ai-chat.js'];
+  'catalog.css', 'admin.css', 'landing.css', 'homepage.css', 'regional-links.css', 'legal.css', 'service-prices.css', 'blog.css', 'script.js', 'catalog.js',
+  'admin.js', 'analytics.js', 'contacts.js', 'lead-payload.js', 'cart-link.js', 'cart-state.js', 'ai-chat.js', 'contact-widget.js', 'catalog-canonical.js'];
 for (const name of files) await fs.copyFile(path.join(root, name), path.join(out, name));
 await buildLegalPages(out);
 const homePath = path.join(out, 'index.html');
 await fs.writeFile(homePath, await buildHomepage(await fs.readFile(homePath,'utf8')));
-await fs.writeFile(homePath, renderReviews(await fs.readFile(homePath, 'utf8'), contacts,
-  JSON.parse(await fs.readFile(path.join(root, 'data/reviews.json'), 'utf8'))));
 await fs.mkdir(path.join(out, 'data'), { recursive: true });
 for (const name of ['service-rates.js', 'services.js', 'calc-core.js', 'price-calculator.js', 'package-configs.js']) {
   await fs.copyFile(path.join(root, 'data', name), path.join(out, 'data', name));
@@ -62,6 +61,8 @@ if (!match) throw new Error('Unexpected catalog format');
 const data = localizeCatalog(JSON.parse(match[1].replace(/;\s*$/, '')));
 await buildSeoPages(out, data);
 await buildLocalPages(out);
+await buildBlog(out);
+await buildTravelPages(out);
 await buildProductPages(out, data);
 const catalogScript=await fs.readFile(path.join(out,'catalog.js'),'utf8');
 await fs.writeFile(path.join(out,'catalog.js'),catalogScript.replace('<button class="product-more" data-details="${item.id}">Докладніше</button>','<a class="product-more" href="${item.page_url}">Докладніше</a>'));
@@ -79,7 +80,14 @@ async function finalizeContacts(directory) {
       const html=await fs.readFile(file,'utf8');
       const relative=path.relative(out,file).replaceAll('\\','/');
       const internal=/^(admin(?:\/|\.html)|blanks\/|tiktok-oauth-callback\.html)/.test(relative);
-      const updated=renderContacts(internal?html:renderBusinessDetails(html));
+      let updated=renderContacts(internal?html:renderBusinessDetails(html));
+      if(!internal){
+        updated=updated.replace(/<script\b[^>]*src="(?:\/)?ai-chat\.js[^\"]*"[^>]*><\/script>/g,'');
+        for(const name of ['contacts.js','lead-payload.js','contact-widget.js']){
+          if(!new RegExp('src="/?'+name.replaceAll('.','\\.')+'(?:[?\"])').test(updated))updated=updated.replace('</body>',`<script src="/${name}" defer></script></body>`);
+        }
+      }
+      if(!internal&&!updated.includes('src="/cart-state.js"')&&!updated.includes('src="cart-state.js"'))updated=updated.replace('</body>','<script src="/cart-state.js"></script></body>');
       if(updated!==html)await fs.writeFile(file,updated);
     }
   }

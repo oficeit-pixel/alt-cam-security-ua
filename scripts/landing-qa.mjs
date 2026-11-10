@@ -22,7 +22,10 @@ try{
    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`${meta.slug} overflow ${viewport.width}`);
    assert(await page.locator('header a[href^="tel:"]').isVisible());
    await page.locator('summary').first().click();assert(await page.locator('details').first().getAttribute('open')!==null);
-   assert(await page.locator('table').count()>0);
+   if(meta.slug==='videosposterezhennia-vyshhorod'){
+    assert.equal(await page.locator('table').count(),0);
+    assert(await page.locator('main a[href="/vstanovlennia-kamer-vyshhorod/"]').count()>0);
+   }else assert(await page.locator('table').count()>0);
   }
  }
  console.log('Landing UI passed: 6 pages × mobile/tablet/desktop');

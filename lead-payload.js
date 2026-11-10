@@ -31,6 +31,10 @@
     });
   }
   async function post(path, payload) {
+    if (path === '/site-lead' || path === '/api/orders') {
+      payload = apiPayload(payload, path === '/api/orders');
+      path = '/api/lead';
+    }
     const backup = root.ALTCAM_CONTACTS?.backupWebhook;
     if (backup) {
       try {
@@ -40,7 +44,7 @@
       catch { /* A backup attempt never implies successful primary delivery. */ }
     }
     const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 12000);
+    const timer = setTimeout(() => controller.abort(), path === '/api/lead' ? 65000 : 12000);
     try {
       const base = (root.ALTCAM_CONTACTS?.apiBase || 'https://alt-cam-crm-api.onrender.com').replace(/\/$/, '');
       const response = await root.fetch(base + path, {
@@ -51,6 +55,31 @@
       if (!response.ok || result.ok !== true) throw new Error('lead_not_accepted');
       return result;
     } finally { clearTimeout(timer); }
+  }
+  function attribution() {
+    const key='altcam-first-touch';
+    try {
+      const stored=root.sessionStorage?.getItem(key);
+      if(stored) return JSON.parse(stored);
+    } catch {}
+    const params=typeof URLSearchParams==='undefined'?{get:()=>null}:new URLSearchParams(root.location?.search || '');
+    const data={};
+    for(const key of ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'])data[key]=(params.get(key)||'').slice(0,200);
+    try { const ref=new URL(root.document?.referrer||''); data.referrer=ref.origin+ref.pathname; } catch {data.referrer='';}
+    try {root.sessionStorage?.setItem(key,JSON.stringify(data));} catch {}
+    return data;
+  }
+  function apiPayload(payload, cart=false) {
+    const client=payload.client||payload.customer||payload;
+    const details=payload.details||{};
+    const source_form=cart?'cart':({contact_form:'hero',quote_confirmation:'calculator',catalog_consultation:'consultation',ai_chat:'consultation',quiz:'quiz',chat_widget:'chat_widget'})[payload.type]||'consultation';
+    const formId={hero:'lead-form',calculator:'quote-confirm-form',quiz:'security-quiz',cart:'checkout-form',consultation:'consult-form',chat_widget:'contact-widget-form'}[source_form];
+    const website=root.document?.getElementById?.(formId)?.querySelector?.('[name="website"]')?.value||'';
+    return {name:client.name||'',phone:normalizePhone(client.phone),email:client.email||'',source_form,
+      object:{...details,...(payload.diagnostics||{}),type:details.object||payload.object||''},
+      calculation:payload.quote||details.quote||{},cart:payload.items||[],comment:payload.message||payload.comment||'',
+      ...attribution(),page_url:payload.source||((root.location?.origin||'')+(root.location?.pathname||'')),
+      website,delivery:payload.delivery,needs_installation:payload.needs_installation,consultation:payload.consultation};
   }
   function telegramContinueLink(result) {
     const url = result && typeof result.telegram_link === 'string' ? result.telegram_link : '';
@@ -74,7 +103,7 @@
       ? `Дякуємо! Заявку отримано. Ми зв’яжемося з вами ${contacts.responseTime || 'найближчим часом'}.`
       : 'Не вдалося надіслати заявку автоматично. Напишіть нам — це займе хвилину:';
     status.append(text);
-    const continueUrl = success ? telegramContinueLink(result) : '';
+    const continueUrl = success ? telegramContinueLink(result) || contacts.consultantUrl : '';
     if (continueUrl) {
       const link = doc.createElement('a');
       link.textContent = 'Продовжити в Telegram — відповімо швидше';
@@ -141,6 +170,24 @@
       if (button) { button.disabled = false; button.innerHTML = label; }
     }
   }
-  root.AltcamLead = {normalizePhone, buildLeadPayload, post, showResult, submit, warmup, telegramContinueLink};
+  attribution();
+  function protectForms(){
+    for(const form of root.document?.querySelectorAll?.('form')||[]){
+      if(!form.querySelector('[name="website"]')){
+        const field=root.document.createElement('input');
+        field.name='website';field.type='text';field.tabIndex=-1;field.autocomplete='off';
+        field.setAttribute('aria-hidden','true');field.style.cssText='position:absolute;left:-10000px;width:1px;height:1px';
+        form.append(field);
+      }
+      if(!form.querySelector('a[href="/privacy-policy.html"]')){
+        const note=root.document.createElement('p');
+        note.innerHTML='Надсилаючи заявку, ви погоджуєтеся на обробку даних відповідно до <a href="/privacy-policy.html">Політики конфіденційності</a>.';
+        form.append(note);
+      }
+    }
+  }
+  if(root.document?.readyState==='loading')root.document.addEventListener('DOMContentLoaded',protectForms);
+  else protectForms();
+  root.AltcamLead = {normalizePhone, buildLeadPayload, post, showResult, submit, warmup, telegramContinueLink, apiPayload, attribution};
   if (typeof module !== 'undefined' && module.exports) module.exports = root.AltcamLead;
 })(typeof window !== 'undefined' ? window : globalThis);

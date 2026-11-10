@@ -9,7 +9,7 @@ import {loadInstallationRates} from './product-seo.mjs';
 const root=process.cwd(),html=renderContacts((await buildHomepage(await fs.readFile('index.html','utf8'))).replace('</head>','<link rel="stylesheet" href="/landing.css"></head>'));
 assert(!/\[(ЗАПОВНИТИ|ПІДТВЕРДИТИ)/.test(html));
 assert(!JSON.stringify(organizationSchema()).includes('"":""'));
-const schema=organizationSchema({brandName:'ALT-CAM',phone:'',email:'',legalName:'',openingHours:''});
+const schema=organizationSchema({brandName:'ALT-CAM',phone:'',email:'',legalName:'',openingHours:''},{});
 assert(!schema.telephone&&!schema.address&&!schema.legalName&&!schema.openingHours&&!schema.sameAs);
 const rates=await loadInstallationRates();rates.video.indoorCamera.one=9876;assert(homePriceTable(rates).includes((9876).toLocaleString('uk-UA')));
 const server=http.createServer(async(req,res)=>{try{const route=new URL(req.url,'http://localhost').pathname;if(route==='/'||route==='/index.html'){res.setHeader('Content-Type','text/html; charset=utf-8');res.end(html);return;}const file=path.resolve(root,'.'+route);if(!file.startsWith(root+path.sep))throw Error();res.setHeader('Content-Type',file.endsWith('.css')?'text/css':file.endsWith('.js')?'application/javascript':file.endsWith('.png')?'image/png':file.endsWith('.webp')?'image/webp':'application/octet-stream');res.end(await fs.readFile(file));}catch{res.writeHead(404);res.end();}});

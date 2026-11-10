@@ -17,17 +17,22 @@ try{
   assert.equal((html.match(/<h1>/g)||[]).length,1);
   assert(html.includes(`<title>${escape(meta.title)}</title>`));assert(html.includes(`<h1>${escape(meta.h1)}</h1>`));
   assert(meta.title.length<=60);assert(meta.description.length<=155,meta.slug+' description');
-  assert(!/style=|\[(ЗАПОВНИТИ|ПІДТВЕРДИТИ|ВСТАВИТИ)/.test(html));assert(html.includes('<table>'));
+  assert(!/style=|\[(ЗАПОВНИТИ|ПІДТВЕРДИТИ|ВСТАВИТИ)/.test(html));
+  const solution = meta.slug === 'videosposterezhennia-vyshhorod';
+  assert.equal(html.includes('<table>'), !solution);
   const schemas=JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);
   assert.equal(schemas[0].provider['@id'],'https://alt-cam.net.ua/#business');assert(schemas.find(s=>s['@type']==='BreadcrumbList'));
   const service=schemas[0],offers=service.offers;
   assert.equal(service['@id'],`https://alt-cam.net.ua/${meta.slug}/#service`);
   assert(service.areaServed.every(a=>a.name&&a['@type']));
+  if(solution)assert.equal(offers,undefined);
+  else {
   assert.equal(offers['@type'],'AggregateOffer');assert.equal(offers.priceCurrency,'UAH');
   assert.equal(offers.offerCount,offers.offers.length);
   assert.equal(offers.lowPrice,Math.min(...offers.offers.map(o=>o.price)));
   assert.equal(offers.highPrice,Math.max(...offers.offers.map(o=>o.price)));
   for(const o of offers.offers){assert(html.includes(o.name));assert(html.includes(o.price.toLocaleString('uk-UA')));}
+  }
   assert(html.includes('"@type":"HomeAndConstructionBusiness"'));
   const faq=schemas.find(s=>s['@type']==='FAQPage').mainEntity;
   assert.equal(faq.length,(html.match(/<details>/g)||[]).length);

@@ -1,12 +1,15 @@
 import fs from 'node:fs/promises';
+import {renderKits} from './kits.mjs';
+import {trust,trustSchema,renderTrust} from './trust.mjs';
 import {contacts} from './contacts.mjs';
 import {escape,faqEntries} from './lib/landing-md.mjs';
 import {loadInstallationRates} from './product-seo.mjs';
 const origin='https://alt-cam.net.ua';
 const strip=value=>value.replace(/<[^>]*>/g,'').replace(/&amp;/g,'&').replace(/&#39;/g,"'").replace(/&quot;/g,'"').replace(/&lt;/g,'<').replace(/&gt;/g,'>').trim();
-export function organizationSchema(c=contacts){
+export function organizationSchema(c=contacts,t=trust,reviewsVisible=false){
  const business={'@context':'https://schema.org','@type':'HomeAndConstructionBusiness','@id':origin+'/#business',name:c.brandName||'ALT-CAM',url:origin+'/',logo:origin+'/assets/alt-cam-mark.png',telephone:c.phone,email:c.email,areaServed:['Київ','Вишгород','Київська область'],sameAs:[c.facebook,c.instagram,c.threads].filter(x=>typeof x==='string'&&/^https:\/\//.test(x))};
- for(const key of ['legalName','openingHours'])if(c[key]&&!/\[/.test(c[key]))business[key]=c[key];
+ delete business.sameAs;
+ Object.assign(business,trustSchema(t,{reviewsVisible}));
  // A service-area business has no invented public office or postal address.
  for(const key of Object.keys(business))if(business[key]===''||business[key]==null||(Array.isArray(business[key])&&!business[key].length))delete business[key];
  return business;
@@ -23,7 +26,8 @@ export function homePriceTable(r){
  const example=2*v.indoorCamera.two+2*v.outdoorCamera.two+v.recorderSetup+v.mobileAppSetup;
  return `<section class="section home-prices" id="installation-prices"><div class="container"><span class="section-kicker">Прозорі ціни</span><h2>Ціни на монтаж відеоспостереження</h2><p>Ціна за роботи залежить від кількості камер одного типу. Обладнання, кабель і матеріали розраховуються окремо.</p><div class="table-scroll" tabindex="0" role="region" aria-label="Вартість монтажу камер"><table><caption>Ціна за одну камеру відповідного типу</caption><thead><tr><th scope="col">Робота</th><th scope="col">1 камера</th><th scope="col">2 камери</th><th scope="col">3–8 камер</th><th scope="col">Від 9 камер</th></tr></thead><tbody>${rows}</tbody></table></div><dl class="home-price-extras">${others.map(([label,n])=>`<div><dt>${label}</dt><dd>${money(n)}</dd></div>`).join('')}</dl><p><strong>Приклад: 2 внутрішні + 2 вуличні камери з налаштуванням реєстратора та смартфона — ${money(example)} за роботи.</strong></p><p>Роботи на висоті та нестандартні траси погоджуються окремо до початку монтажу. На телефоні таблицю можна прокрутити горизонтально.</p><div class="hero-actions"><a class="btn btn-primary" href="/#calculator">Порахувати свою систему</a><a class="btn btn-black" href="/vstanovlennia-kamer-vyshhorod/">Повний прайс</a></div></div></section>`;
 }
-export async function buildHomepage(html,{values=contacts}={}){
+export async function buildHomepage(html,{values=contacts,trustData=trust}={}){
+ html=await renderKits(html);
  const source=await fs.readFile(new URL('../content/homepage.md',import.meta.url),'utf8'),rates=await loadInstallationRates();
  const title=source.match(/\*\*title[^\n]*?`([^`]+)`/)?.[1],description=source.match(/\*\*description[^\n]*?`([^`]+)`/)?.[1],h1=source.match(/\*\*H1:\*\* (.*)/)?.[1],lead=source.match(/\*\*Підзаголовок:\*\* (.*)/)?.[1];
  if(!title||!description||!h1||!lead)throw Error('Homepage content metadata missing');
@@ -43,6 +47,7 @@ export async function buildHomepage(html,{values=contacts}={}){
  html=html.replace(/<details class="faq-item reveal"><summary>Ви працюєте по всій Україні[\s\S]*?<\/details>/,'');
  html=html.replace('<div class="faq-list">','<div class="faq-list">'+entries.map(q=>`<details class="faq-item"><summary>${escape(q.question)}<span></span></summary><p>${escape(q.answer.replace('Telegram або Viber','Telegram'))}</p></details>`).join(''));
  html=html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g,'');
- const schemas=[organizationSchema(values),{'@context':'https://schema.org','@type':'WebSite','@id':origin+'/#website',url:origin+'/',name:values.brandName||'ALT-CAM',publisher:{'@id':origin+'/#business'}},visibleFaqSchema(html)];
+ html=renderTrust(html,trustData);
+ const schemas=[organizationSchema(values,trustData,true),{'@context':'https://schema.org','@type':'WebSite','@id':origin+'/#website',url:origin+'/',name:values.brandName||'ALT-CAM',publisher:{'@id':origin+'/#business'}},visibleFaqSchema(html)];
  return html.replace('</head>',`<link rel="stylesheet" href="/homepage.css"><script type="application/ld+json">${JSON.stringify(schemas).replace(/</g,'\\u003c')}</script></head>`);
 }
