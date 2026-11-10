@@ -17803,6 +17803,186 @@
           "id": "122143023513226993",
           "post_id": "962902993572061_122143023531226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-11-10T11:49:50.712657+00:00",
+        "result": {
+          "container": {
+            "id": "18099882053418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18099882053418944"
+          },
+          "published": {
+            "id": "18031132199871582"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-10T11:51:00.833832+00:00",
+        "result": {
+          "container": {
+            "id": "18099809135424516"
+          },
+          "published": {
+            "id": "18029444756875092"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-10T11:51:03.488302+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 217,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794311462,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD2WrzBSZ6N4Xgy3w_fa4AAWIOT-7U6AACwh9rGxR-mEuhE5bLbKWFfwEAAwIAA3MAAz0E",
+                  "file_unique_id": "AQADwh9rGxR-mEt4",
+                  "file_size": 1721,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD2WrzBSZ6N4Xgy3w_fa4AAWIOT-7U6AACwh9rGxR-mEuhE5bLbKWFfwEAAwIAA20AAz0E",
+                  "file_unique_id": "AQADwh9rGxR-mEty",
+                  "file_size": 23617,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD2WrzBSZ6N4Xgy3w_fa4AAWIOT-7U6AACwh9rGxR-mEuhE5bLbKWFfwEAAwIAA3gAAz0E",
+                  "file_unique_id": "AQADwh9rGxR-mEt9",
+                  "file_size": 105152,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD2WrzBSZ6N4Xgy3w_fa4AAWIOT-7U6AACwh9rGxR-mEuhE5bLbKWFfwEAAwIAA3kAAz0E",
+                  "file_unique_id": "AQADwh9rGxR-mEt-",
+                  "file_size": 215246,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD2WrzBSZ6N4Xgy3w_fa4AAWIOT-7U6AACwh9rGxR-mEuhE5bLbKWFfwEAAwIAA3cAAz0E",
+                  "file_unique_id": "AQADwh9rGxR-mEt8",
+                  "file_size": 226616,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🏢 Один вхід — до 9 999 абонентів\n\nПотрібно організувати зручний та контрольований доступ до під’їзду, житлового комплексу або офісної будівлі?\n\nNeoLight NL-HPC 03 — багатоабонентська виклична панель нового покоління, яка об’єднує відеозв’язок і контроль доступу в одному пристрої.\n\n🔸 До 9 999 абонентів\n🔸 Виклик квартири або офісу за номером\n🔸 Вхід за персональним кодом\n🔸 Доступ за картками EM-Marine або Mifare — залежно від модифікації\n🔸 Камера 800 ТВЛ\n🔸 Широкий кут огляду 110°\n🔸 Невидиме ІЧ-підсвічування\n🔸 Металевий корпус\n🔸 Захист IP54\n🔸 Робоча температура: від -25°C до +50°C\n🔸 Підключення датчика дверей та кнопки виходу\n🔸 Окрема кнопка виклику консьєржа\n\nПанель виконана в алюмінієвому корпусі, а клавіатура має підсвічування та розрахована на тривале використання.\n\n🔐 Потрібна домофонна система для вашого об’єкта?\n\nНапишіть «ДОМОФОН» у повідомлення ALT-CAM Security UA — допоможемо підібрати обладнання та сформувати рішення під ваш будинок, під’їзд або офіс.\n\n🌐 https://alt-cam.net.ua\n\n#…",
+              "caption_entities": [
+                {
+                  "offset": 990,
+                  "length": 22,
+                  "type": "url"
+                }
+              ]
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 218,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794311463,
+              "text": "🏢 Один вхід — до 9 999 абонентів\n\nПотрібно організувати зручний та контрольований доступ до під’їзду, житлового комплексу або офісної будівлі?\n\nNeoLight NL-HPC 03 — багатоабонентська виклична панель нового покоління, яка об’єднує відеозв’язок і контроль доступу в одному пристрої.\n\n🔸 До 9 999 абонентів\n🔸 Виклик квартири або офісу за номером\n🔸 Вхід за персональним кодом\n🔸 Доступ за картками EM-Marine або Mifare — залежно від модифікації\n🔸 Камера 800 ТВЛ\n🔸 Широкий кут огляду 110°\n🔸 Невидиме ІЧ-підсвічування\n🔸 Металевий корпус\n🔸 Захист IP54\n🔸 Робоча температура: від -25°C до +50°C\n🔸 Підключення датчика дверей та кнопки виходу\n🔸 Окрема кнопка виклику консьєржа\n\nПанель виконана в алюмінієвому корпусі, а клавіатура має підсвічування та розрахована на тривале використання.\n\n🔐 Потрібна домофонна система для вашого об’єкта?\n\nНапишіть «ДОМОФОН» у повідомлення ALT-CAM Security UA — допоможемо підібрати обладнання та сформувати рішення під ваш будинок, під’їзд або офіс.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #NeoLight #Домофон #Домофонія #КонтрольДоступу #ВикличнаПанель #СистемаДоступу #БезпекаБудинку #Відеодомофон\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 990,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1014,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1022,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1040,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1050,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1059,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1070,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1087,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1103,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1119,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1135,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1153,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
       }
     }
   }
