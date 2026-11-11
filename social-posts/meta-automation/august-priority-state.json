@@ -18181,6 +18181,184 @@
           "id": "122143114977226993",
           "post_id": "962902993572061_122143114995226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-11-11T12:58:53.572936+00:00",
+        "result": {
+          "container": {
+            "id": "18100127822418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18100127822418944"
+          },
+          "published": {
+            "id": "17971976199197475"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-11T13:00:02.348913+00:00",
+        "result": {
+          "container": {
+            "id": "18100051262424516"
+          },
+          "published": {
+            "id": "18170540404481051"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-11T13:00:06.226136+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 221,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794402005,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD3Wr0ZtUy-HHewA4cTMlKN_jsRkobAAI0HWsbDv-oS8B2kIMy_ARHAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADNB1rGw7_qEt4",
+                  "file_size": 1903,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD3Wr0ZtUy-HHewA4cTMlKN_jsRkobAAI0HWsbDv-oS8B2kIMy_ARHAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADNB1rGw7_qEty",
+                  "file_size": 28648,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD3Wr0ZtUy-HHewA4cTMlKN_jsRkobAAI0HWsbDv-oS8B2kIMy_ARHAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADNB1rGw7_qEt9",
+                  "file_size": 124585,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD3Wr0ZtUy-HHewA4cTMlKN_jsRkobAAI0HWsbDv-oS8B2kIMy_ARHAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADNB1rGw7_qEt-",
+                  "file_size": 256877,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD3Wr0ZtUy-HHewA4cTMlKN_jsRkobAAI0HWsbDv-oS8B2kIMy_ARHAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADNB1rGw7_qEt8",
+                  "file_size": 268515,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🌐 Стабільна мережа починається з правильного кабелю\n\nНавіть найкраще мережеве обладнання не розкриє свій потенціал, якщо кабель не відповідає умовам монтажу та навантаженню.\n\nКабелі «Одескабель» — рішення для побудови інтернет-мереж, систем відеоспостереження, PoE-живлення та професійної мережевої інфраструктури.\n\nУ наявності варіанти для різних задач:\n\nКПП-ВП (100), cat.5E-SL — зовнішній монтаж, 305 м, 4 виті пари, мідь, швидкість до 1000 Мбіт/с;\nКПП-ВП (100), cat.5E — зовнішній кабель 305 м, мідний провідник 0,51 мм, підтримка Ethernet та PoE / PoE+ / PoE++;\nКППт-ВП (100) — зовнішній кабель із тросом 7×0,5 мм, бухта 500 м, для повітряного монтажу;\nКПпВонг-HFО-ВПЭ (500), cat.6A S/FTP — внутрішній екранований кабель, 500 м, провідник 0,56 мм, підтримка 10GBASE-T, PoE та HDBaseT.\n\nДля вулиці, офісу, складу, систем відеоспостереження, серверної чи бізнес-мережі важливо правильно підібрати тип оболонки, категорію, екранування та спосіб монтажу.\n\nНе знаєте, який кабель потрібен саме під ва…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 222,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794402006,
+              "text": "🌐 Стабільна мережа починається з правильного кабелю\n\nНавіть найкраще мережеве обладнання не розкриє свій потенціал, якщо кабель не відповідає умовам монтажу та навантаженню.\n\nКабелі «Одескабель» — рішення для побудови інтернет-мереж, систем відеоспостереження, PoE-живлення та професійної мережевої інфраструктури.\n\nУ наявності варіанти для різних задач:\n\nКПП-ВП (100), cat.5E-SL — зовнішній монтаж, 305 м, 4 виті пари, мідь, швидкість до 1000 Мбіт/с;\nКПП-ВП (100), cat.5E — зовнішній кабель 305 м, мідний провідник 0,51 мм, підтримка Ethernet та PoE / PoE+ / PoE++;\nКППт-ВП (100) — зовнішній кабель із тросом 7×0,5 мм, бухта 500 м, для повітряного монтажу;\nКПпВонг-HFО-ВПЭ (500), cat.6A S/FTP — внутрішній екранований кабель, 500 м, провідник 0,56 мм, підтримка 10GBASE-T, PoE та HDBaseT.\n\nДля вулиці, офісу, складу, систем відеоспостереження, серверної чи бізнес-мережі важливо правильно підібрати тип оболонки, категорію, екранування та спосіб монтажу.\n\nНе знаєте, який кабель потрібен саме під ваш об’єкт?\nНапишіть «КАБЕЛЬ» у повідомлення ALT-CAM Security UA — допоможемо підібрати варіант під довжину лінії, швидкість, PoE та умови прокладання.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #Одескабель #МережевийКабель #ВитаПара #Cat5e #Cat6A #PoE #Відеоспостереження #ЛокальнаМережа #Телекомунікації\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 1155,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1179,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1187,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1205,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1217,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1234,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1244,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1251,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1258,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1263,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1283,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1299,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1320,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
       }
     }
   }
