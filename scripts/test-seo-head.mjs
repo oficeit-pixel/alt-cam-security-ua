@@ -19,3 +19,9 @@ assert(result.includes('property="og:title" content="Камера | ALT-CAM"'));
 assert(result.includes('property="og:url" content="https://alt-cam.net.ua/test/"'));
 assert.equal((enhanceHead(result).match(/property="og:title"/g)||[]).length, 1);
 console.log('SEO head tests passed');
+for (const source of ['/analytics.js', 'analytics.js', '/analytics.js?v=1']) {
+  const deferred = enhanceHead(`<html><head></head><body><script src="${source}"></script></body></html>`);
+  assert(deferred.includes(`<script defer src="${source}">`));
+  assert.equal((enhanceHead(deferred).match(/<script defer/g) || []).length, 1);
+}
+assert(enhanceHead('<html><head></head><script src="/other.js"></script></html>').includes('<script src="/other.js">'));
