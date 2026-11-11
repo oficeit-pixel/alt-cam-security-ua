@@ -6,6 +6,9 @@ import {organizationSchema} from './build-homepage.mjs';
 
 export function enhanceHead(html) {
   if (!/<head\b/i.test(html)) return html;
+  // Keep consent handling local, but do not block HTML parsing on its download.
+  html = html.replace(/<script\b([^>]*\bsrc=["']\/?analytics\.js(?:\?[^"']*)?["'][^>]*)>/gi,
+    (tag, attributes) => /\bdefer\b/i.test(attributes) ? tag : `<script defer${attributes}>`);
   html = html.replace(/<link\b[^>]*rel=["'](?:icon|shortcut icon|apple-touch-icon)["'][^>]*>/gi, '');
   const additions = [
     '<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96.png">',
