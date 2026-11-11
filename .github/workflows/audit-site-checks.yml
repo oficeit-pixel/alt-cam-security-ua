@@ -19,6 +19,7 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm test
+      - run: node --test tests/lighthouse-report.test.mjs
       - run: google-chrome --version
       - run: npm run test:leads
       - name: Measure mobile Lighthouse on built pages
@@ -31,9 +32,18 @@ jobs:
           trap 'kill "$SERVER_PID"' EXIT
           for i in 1 2 3 4 5; do curl -fsS http://127.0.0.1:4173/ > /dev/null && break || sleep 1; done
           PRODUCT=$(node -e "const fs=require('fs'); console.log(JSON.parse(fs.readFileSync('_site/product-seo-report.json')).paths[0])")
-          npx --yes lighthouse@12.8.2 http://127.0.0.1:4173/ --chrome-flags="--headless --no-sandbox" --only-categories=performance --output=json --output-path=lighthouse-reports/home.json --quiet
-          npx --yes lighthouse@12.8.2 http://127.0.0.1:4173/vstanovlennia-kamer-vyshhorod/ --chrome-flags="--headless --no-sandbox" --only-categories=performance --output=json --output-path=lighthouse-reports/prices.json --quiet
-          npx --yes lighthouse@12.8.2 "http://127.0.0.1:4173$PRODUCT" --chrome-flags="--headless --no-sandbox" --only-categories=performance --output=json --output-path=lighthouse-reports/product.json --quiet
+          measure() {
+            for attempt in 1 2; do
+              if npx --yes lighthouse@12.8.2 "$1" --chrome-flags="--headless --no-sandbox" --only-categories=performance --output=json --output-path="lighthouse-reports/$2.json" --quiet && node scripts/validate-lighthouse.mjs "lighthouse-reports/$2.json"; then
+                return 0
+              fi
+              echo "Invalid measurement: $2 (attempt $attempt)"
+            done
+            return 1
+          }
+          measure http://127.0.0.1:4173/ home
+          measure http://127.0.0.1:4173/vstanovlennia-kamer-vyshhorod/ prices
+          measure "http://127.0.0.1:4173$PRODUCT" product
       - uses: actions/upload-artifact@v4
         if: always()
         with:
