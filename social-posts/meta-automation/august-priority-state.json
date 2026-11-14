@@ -19487,6 +19487,108 @@
           "post_id": "962902993572061_122143465035226993"
         }
       }
+    },
+    "daily-2026-10-19-054": {
+      "instagram": {
+        "published_at": "2026-11-14T16:55:53.085519+00:00",
+        "result": {
+          "container": {
+            "id": "18100884266418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18100884266418944"
+          },
+          "published": {
+            "id": "17915959143288596"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-14T16:57:01.285666+00:00",
+        "result": {
+          "container": {
+            "id": "18100805678424516"
+          },
+          "published": {
+            "id": "18004871849830166"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-14T16:57:04.268728+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 235,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794675424,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD62r4kt-O_FIX1lkoZ8c_QU8DX5vzAAI3HmsbNOjAS0MiAuSS8h2wAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADNx5rGzTowEt4",
+                  "file_size": 1611,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD62r4kt-O_FIX1lkoZ8c_QU8DX5vzAAI3HmsbNOjAS0MiAuSS8h2wAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADNx5rGzTowEty",
+                  "file_size": 26652,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD62r4kt-O_FIX1lkoZ8c_QU8DX5vzAAI3HmsbNOjAS0MiAuSS8h2wAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADNx5rGzTowEt9",
+                  "file_size": 122315,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD62r4kt-O_FIX1lkoZ8c_QU8DX5vzAAI3HmsbNOjAS0MiAuSS8h2wAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADNx5rGzTowEt-",
+                  "file_size": 254369,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD62r4kt-O_FIX1lkoZ8c_QU8DX5vzAAI3HmsbNOjAS0MiAuSS8h2wAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADNx5rGzTowEt8",
+                  "file_size": 268666,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🏡 Відеодомофон під ключ — безпека та контроль доступу для вашого дому\n\nХочете бачити, хто прийшов, відчиняти хвіртку або двері дистанційно та почуватися спокійно щодня?\nALT-CAM Security UA виконує підбір, монтаж і налаштування відеодомофонів під ключ для приватних будинків, дач і котеджів.\n\n🔧 Що входить у рішення:\n\nмонтаж викличної панелі на вході\nвстановлення електромеханічного замка\nмонтаж внутрішнього відеодомофона\nпідключення, перевірка та налаштування системи\n\n✅ Що ви отримуєте:\n\nзручний контроль входу на територію\nвідеозв’язок із відвідувачами\nвідкриття дверей або хвіртки без зайвих дій\nпрофесійний монтаж і акуратне підключення\nготове рішення для щоденного комфорту та безпеки\n\nІдеально для:\n🏠 приватних будинків\n🏡 дач\n🚪 котеджів\n🏘 об’єктів із хвірткою, воротами або окремим входом\n\nЗамовляйте встановлення відеодомофона під ключ від ALT-CAM Security UA\n📩 Пишіть у Direct / повідомлення\n🌐 https://alt-cam.net.ua\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "caption_entities": [
+                {
+                  "offset": 911,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 938,
+                  "length": 32,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
