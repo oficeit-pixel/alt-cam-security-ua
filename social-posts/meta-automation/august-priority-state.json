@@ -19604,6 +19604,146 @@
           "id": "122143543797226993",
           "post_id": "962902993572061_122143543815226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-11-15T14:59:11.774422+00:00",
+        "result": {
+          "container": {
+            "id": "18101112740418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18101112740418944"
+          },
+          "published": {
+            "id": "17898791094417432"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-15T15:00:21.156555+00:00",
+        "result": {
+          "container": {
+            "id": "18101024102424516"
+          },
+          "published": {
+            "id": "18158468278513336"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-15T15:00:23.536375+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 236,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794754823,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD7Gr5yQf-BCkyUgf-s4E73zkaMWqwAALZH2sbbM_RS4tJ1uNmciAFAQADAgADcwADPQQ",
+                  "file_unique_id": "AQAD2R9rG2zP0Ut4",
+                  "file_size": 1940,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD7Gr5yQf-BCkyUgf-s4E73zkaMWqwAALZH2sbbM_RS4tJ1uNmciAFAQADAgADbQADPQQ",
+                  "file_unique_id": "AQAD2R9rG2zP0Uty",
+                  "file_size": 31429,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD7Gr5yQf-BCkyUgf-s4E73zkaMWqwAALZH2sbbM_RS4tJ1uNmciAFAQADAgADeAADPQQ",
+                  "file_unique_id": "AQAD2R9rG2zP0Ut9",
+                  "file_size": 142239,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD7Gr5yQf-BCkyUgf-s4E73zkaMWqwAALZH2sbbM_RS4tJ1uNmciAFAQADAgADeQADPQQ",
+                  "file_unique_id": "AQAD2R9rG2zP0Ut-",
+                  "file_size": 295764,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD7Gr5yQf-BCkyUgf-s4E73zkaMWqwAALZH2sbbM_RS4tJ1uNmciAFAQADAgADdwADPQQ",
+                  "file_unique_id": "AQAD2R9rG2zP0Ut8",
+                  "file_size": 309640,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🛡 ALT-CAM Security UA — комплексні рішення під ваш об’єкт\n\nБезпека, стабільний зв’язок і резервне живлення мають працювати разом. ALT-CAM Security UA допомагає підібрати обладнання, змонтувати систему та налаштувати її під реальний сценарій об’єкта.\n\nПрацюємо з відеоспостереженням, домофонією, контролем доступу, мережами, оптикою, резервним живленням і сонячними рішеннями.\n\n📩 Напишіть «ПРОЄКТ» у повідомлення — підготуємо консультацію та індивідуальну пропозицію.\n\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#ALTCAM #ALTCAMSecurityUA #СистемиБезпеки #Відеоспостереження #КонтрольДоступу #РезервнеЖивлення #Київ #Вишгород\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "caption_entities": [
+                {
+                  "offset": 473,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 535,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 543,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 561,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 577,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 597,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 614,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 632,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 638,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 652,
+                  "length": 32,
+                  "type": "url"
+                }
+              ]
+            }
+          }
+        }
       }
     }
   }
