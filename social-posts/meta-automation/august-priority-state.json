@@ -20132,6 +20132,179 @@
           "id": "122143678875226993",
           "post_id": "962902993572061_122143678893226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-11-16T23:49:12.888228+00:00",
+        "result": {
+          "container": {
+            "id": "18101455550418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18101455550418944"
+          },
+          "published": {
+            "id": "18147487678580097"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-16T23:50:22.155879+00:00",
+        "result": {
+          "container": {
+            "id": "18101343806424516"
+          },
+          "published": {
+            "id": "18443545879180673"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-16T23:50:24.066727+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 241,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794873023,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD8Wr7lr8nTa2Im7r02pVLsPmMfl5NAAKCJWsbbM_ZS340v2I_U6szAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADgiVrG2zP2Ut4",
+                  "file_size": 1741,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD8Wr7lr8nTa2Im7r02pVLsPmMfl5NAAKCJWsbbM_ZS340v2I_U6szAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADgiVrG2zP2Uty",
+                  "file_size": 25690,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD8Wr7lr8nTa2Im7r02pVLsPmMfl5NAAKCJWsbbM_ZS340v2I_U6szAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADgiVrG2zP2Ut9",
+                  "file_size": 110135,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD8Wr7lr8nTa2Im7r02pVLsPmMfl5NAAKCJWsbbM_ZS340v2I_U6szAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADgiVrG2zP2Ut-",
+                  "file_size": 226057,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD8Wr7lr8nTa2Im7r02pVLsPmMfl5NAAKCJWsbbM_ZS340v2I_U6szAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADgiVrG2zP2Ut8",
+                  "file_size": 238798,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "📲 Відкривайте двері та контролюйте вхід навіть коли вас немає вдома\n\nПотрібен сучасний відеодомофон для квартири, приватного будинку або офісу? Комплект NeoLight Kappa+ HD WF дає змогу бачити відвідувача, спілкуватися з ним, вести фото- та відеозапис і керувати доступом через смартфон.\n\nУ комплект входять NeoLight Kappa+ HD WF, виклична панель NeoLight Solo FHD, карта пам’яті microSD 128 ГБ та електромеханічний замок Atis Lock SS.\n\nОсновні можливості системи:\n\nкольоровий 7\" TFT-дисплей 1024×600\nвбудований Wi-Fi\nпереадресація виклику на смартфон або планшет\nдистанційне відкриття замка або воріт через застосунок NeoLight\nперегляд камер та архіву\nзапис фото й відео\nпідтримка microSD до 128 ГБ\nзапис відео за рухом\nрежим Hands Free\nфункція «Не турбувати»\nпідключення до 2 викличних панелей і 2 відеокамер\nможливість підключення ще до 3 відеодомофонів у режимі інтерком\n\n🔐 Один комплект — для зв’язку з відвідувачем, відеоконтролю та керування доступом.\n\nХочете підібрати домофонну систему саме п…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 242,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1794873023,
+              "text": "📲 Відкривайте двері та контролюйте вхід навіть коли вас немає вдома\n\nПотрібен сучасний відеодомофон для квартири, приватного будинку або офісу? Комплект NeoLight Kappa+ HD WF дає змогу бачити відвідувача, спілкуватися з ним, вести фото- та відеозапис і керувати доступом через смартфон.\n\nУ комплект входять NeoLight Kappa+ HD WF, виклична панель NeoLight Solo FHD, карта пам’яті microSD 128 ГБ та електромеханічний замок Atis Lock SS.\n\nОсновні можливості системи:\n\nкольоровий 7\" TFT-дисплей 1024×600\nвбудований Wi-Fi\nпереадресація виклику на смартфон або планшет\nдистанційне відкриття замка або воріт через застосунок NeoLight\nперегляд камер та архіву\nзапис фото й відео\nпідтримка microSD до 128 ГБ\nзапис відео за рухом\nрежим Hands Free\nфункція «Не турбувати»\nпідключення до 2 викличних панелей і 2 відеокамер\nможливість підключення ще до 3 відеодомофонів у режимі інтерком\n\n🔐 Один комплект — для зв’язку з відвідувачем, відеоконтролю та керування доступом.\n\nХочете підібрати домофонну систему саме під ваш об’єкт? Напишіть «ДОМОФОН» у повідомлення ALT-CAM Security UA — проконсультуємо та допоможемо сформувати оптимальний комплект.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #NeoLight #KappaHDWF #Відеодомофон #Домофон #Домофонія #КонтрольДоступу #БезпекаБудинку #РозумнийДім\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 1140,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1164,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1172,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1190,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1200,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1211,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1225,
+                  "length": 8,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1234,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1245,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1262,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1278,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1295,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
       }
     }
   }
