@@ -217,7 +217,7 @@ class Settings(BaseSettings):
     def scheduler_active(self) -> bool:
         if self.pipeline_scheduler_enabled is not None:
             return self.pipeline_scheduler_enabled
-        return self.enable_bot_polling
+        return self.enable_bot_polling or bool(self.telegram_webhook_url)
 
 
 @lru_cache

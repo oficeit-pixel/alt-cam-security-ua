@@ -9,6 +9,13 @@ from bot.web.telegram_webhook import validate_url, webhook_secret, activate_webh
 URL = 'https://example.org/telegram/webhook'
 TOKEN = '123456:TEST_TOKEN_NOT_A_REAL_SECRET'
 
+def test_scheduler_runs_for_webhook_unless_explicitly_disabled():
+    from bot.config import Settings
+    settings = Settings(TELEGRAM_WEBHOOK_URL=URL, ENABLE_BOT_POLLING=False)
+    assert settings.scheduler_active is True
+    settings.pipeline_scheduler_enabled = False
+    assert settings.scheduler_active is False
+
 @pytest.mark.parametrize('url', ['http://example.org/telegram/webhook', 'https://example.org/other',
     'https://user:password@example.org/telegram/webhook', URL+'?token=x', URL+'#fragment'])
 def test_rejects_unsafe_url(url):
