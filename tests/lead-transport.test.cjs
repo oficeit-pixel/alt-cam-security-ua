@@ -7,8 +7,28 @@ function setup(fetch){
   let cancel,delay,cleared=false;
   const context={AbortController,fetch,ALTCAM_CONTACTS:{apiBase:'https://test.invalid/'},setTimeout(fn,ms){cancel=fn;delay=ms;return 1;},clearTimeout(){cleared=true;}};
   vm.runInNewContext(source,context);
-  return {post:context.AltcamLead.post,cancel:()=>cancel(),delay:()=>delay,cleared:()=>cleared};
+  return {post:context.AltcamLead.post,warmup:context.AltcamLead.warmup,cancel:()=>cancel(),delay:()=>delay,cleared:()=>cleared};
 }
+
+test('failed warmup can retry and allows a cold server to start',async()=>{
+  let calls=0;
+  const transport=setup(async()=>{calls++;return {ok:false};});
+  transport.warmup();
+  assert.equal(transport.delay(),65000);
+  await new Promise(resolve=>setImmediate(resolve));
+  transport.warmup();
+  await new Promise(resolve=>setImmediate(resolve));
+  assert.equal(calls,2);
+});
+
+test('successful warmup is not repeated',async()=>{
+  let calls=0;
+  const transport=setup(async()=>{calls++;return {ok:true};});
+  transport.warmup();
+  await new Promise(resolve=>setImmediate(resolve));
+  transport.warmup();
+  assert.equal(calls,1);
+});
 test('lead timeout allows server delivery and aborts cleanly',async()=>{
   const transport=setup((url,options)=>new Promise((resolve,reject)=>options.signal.addEventListener('abort',()=>reject(new Error('aborted')))));
   const sent=transport.post('/site-lead',{});
