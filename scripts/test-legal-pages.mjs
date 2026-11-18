@@ -10,7 +10,7 @@ try{
   const html=await fs.readFile(path.join(out,file),'utf8');
   assert.equal((html.match(/<h1>/g)||[]).length,1);
   assert(html.includes('id="uk" lang="uk"'));assert(html.includes('id="en" lang="en"'));
-  assert(html.includes('mailto:altcam777@gmail.com'));assert(html.includes('href="tel:+380630607088"'));
+  assert(html.includes('mailto:altcam.ua@gmail.com'));assert(html.includes('href="tel:+380630607088"'));
   assert(!/\[(ЗАПОВНИТИ|ПІДТВЕРДИТИ)/.test(html));assert(!html.includes('Для Codex'));
  }
  const privacy=await fs.readFile(path.join(out,'privacy-policy.html'),'utf8');
