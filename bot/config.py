@@ -7,6 +7,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
     enable_bot_polling: bool = Field(True, alias="ENABLE_BOT_POLLING")
+    telegram_webhook_url: str = Field("", alias="TELEGRAM_WEBHOOK_URL")
     bot_token: str | None = Field(None, alias="BOT_TOKEN")
     bot_username: str = Field("AltCamSecurityUaBot", alias="BOT_USERNAME")
     database_url: str = Field(..., alias="DATABASE_URL")

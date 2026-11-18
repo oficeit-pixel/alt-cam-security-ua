@@ -569,7 +569,7 @@ async def cors_middleware(request: web.Request, handler):
     return response
 
 
-async def start_site_lead_server(bot: Bot | None) -> web.AppRunner:
+async def start_site_lead_server(bot: Bot | None, dispatcher=None) -> web.AppRunner:
     settings = get_settings()
     app = web.Application(middlewares=[cors_middleware], client_max_size=256 * 1024)
     app["bot"] = bot
@@ -588,6 +588,9 @@ async def start_site_lead_server(bot: Bot | None) -> web.AppRunner:
     app.router.add_post("/api/orders", create_order)
     register_shop_admin_routes(app)
     register_ai_chat_routes(app)
+    if dispatcher is not None and settings.telegram_webhook_url:
+        from bot.web.telegram_webhook import register_webhook
+        register_webhook(app, dispatcher, bot, settings.telegram_webhook_url)
 
     runner = web.AppRunner(app)
     await runner.setup()

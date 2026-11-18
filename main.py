@@ -36,9 +36,23 @@ async def main() -> None:
             token=settings.bot_token,
             default=DefaultBotProperties(parse_mode=ParseMode.HTML),
         )
-    site_lead_runner = await start_site_lead_server(bot)
+    dp = build_dispatcher() if bot and (settings.enable_bot_polling or settings.telegram_webhook_url) else None
+    site_lead_runner = await start_site_lead_server(bot, dispatcher=dp)
     if setup_pipeline_jobs(scheduler, bot):
         logging.info("Order pipeline jobs scheduled (reminders, follow-ups, Nova Poshta tracking)")
+
+    if bot is not None and settings.telegram_webhook_url:
+        from bot.web.telegram_webhook import activate_webhook
+        try:
+            await activate_webhook(bot, dp, settings.telegram_webhook_url)
+            logging.info("Telegram webhook active; polling disabled")
+            await asyncio.Event().wait()
+        finally:
+            scheduler.shutdown(wait=False)
+            await site_lead_runner.cleanup()
+            await bot.session.close()
+            await engine.dispose()
+        return
 
     if bot is None or not settings.enable_bot_polling:
         logging.info("Web CRM running without Telegram polling (disabled or unconfigured)")
@@ -52,6 +66,17 @@ async def main() -> None:
                 await bot.session.close()
         return
 
+    await bot.delete_webhook(drop_pending_updates=False)
+    try:
+        await dp.start_polling(bot, allowed_updates=dp.resolve_used_update_types())
+    finally:
+        scheduler.shutdown(wait=False)
+        await site_lead_runner.cleanup()
+        await bot.session.close()
+        await engine.dispose()
+
+
+def build_dispatcher() -> Dispatcher:
     dp = Dispatcher(storage=MemoryStorage())
 
     dp.message.middleware(TermsMiddleware())
@@ -69,15 +94,7 @@ async def main() -> None:
     dp.include_router(admin.router)
     dp.include_router(pipeline_client.router)  # catch-all capture must stay last
 
-    await bot.delete_webhook(drop_pending_updates=False)
-    try:
-        # resolve_used_update_types() includes business_connection / business_message from pipeline_business
-        await dp.start_polling(bot, allowed_updates=dp.resolve_used_update_types())
-    finally:
-        scheduler.shutdown(wait=False)
-        await site_lead_runner.cleanup()
-        await bot.session.close()
-        await engine.dispose()
+    return dp
 
 
 if __name__ == "__main__":
