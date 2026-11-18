@@ -20,10 +20,11 @@
     if (warmed) return;
     warmed = true;
     const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 12000);
+    const timer = setTimeout(() => controller.abort(), 65000);
     const base = (root.ALTCAM_CONTACTS?.apiBase || 'https://alt-cam-crm-api.onrender.com').replace(/\/$/, '');
     root.fetch(base + '/health', {mode:'cors', cache:'no-store', signal:controller.signal})
-      .catch(() => {}).finally(() => clearTimeout(timer));
+      .then(response => { if (!response.ok) warmed = false; })
+      .catch(() => { warmed = false; }).finally(() => clearTimeout(timer));
   }
   if (root.document) {
     for (const event of ['focusin', 'input']) root.document.addEventListener(event, e => {
@@ -159,6 +160,13 @@
     form.dataset.leadBusy = 'true';
     const label = button?.innerHTML;
     if (button) { button.disabled = true; button.textContent = 'Надсилаємо…'; }
+    const pending = form.ownerDocument.createElement('p');
+    pending.setAttribute('role', 'status');
+    pending.textContent = 'Надсилаємо заявку. Не закривайте сторінку — введені дані збережено у формі.';
+    form.append(pending);
+    const slowTimer = setTimeout(() => {
+      pending.textContent = 'Сервер запускається. Надсилання може тривати до хвилини. Не надсилайте заявку повторно.';
+    }, 8000);
     try {
       const result = await send();
       if (!result) throw new Error('lead_not_accepted');
@@ -166,6 +174,8 @@
       return result;
     } catch { showResult(form, false, message); return false; }
     finally {
+      clearTimeout(slowTimer);
+      pending.remove();
       delete form.dataset.leadBusy;
       if (button) { button.disabled = false; button.innerHTML = label; }
     }

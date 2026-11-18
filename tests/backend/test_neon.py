@@ -84,7 +84,7 @@ async def test_health_success(monkeypatch):
 async def test_main_continues_without_db_and_polling(monkeypatch):
     import main as entry
     from unittest.mock import Mock
-    settings = SimpleNamespace(auto_create_db=True,bot_token='test',enable_bot_polling=False)
+    settings = SimpleNamespace(auto_create_db=True,bot_token='test',enable_bot_polling=False,telegram_webhook_url='')
     monkeypatch.setattr(entry,'get_settings',lambda:settings)
     init = AsyncMock(return_value=False)
     monkeypatch.setattr(entry,'init_db_with_retry',init)
@@ -94,7 +94,7 @@ async def test_main_continues_without_db_and_polling(monkeypatch):
     monkeypatch.setattr(entry,'setup_cleanup_scheduler',lambda:scheduler)
     runner = SimpleNamespace(cleanup=AsyncMock())
     started = asyncio.Event()
-    async def start(bot): started.set(); return runner
+    async def start(bot, dispatcher=None): started.set(); return runner
     monkeypatch.setattr(entry,'start_site_lead_server',start)
     task = asyncio.create_task(entry.main())
     await asyncio.wait_for(started.wait(), 2)

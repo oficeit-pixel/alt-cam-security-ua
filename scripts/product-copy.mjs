@@ -9,6 +9,11 @@ export function cleanProductText(value){
  return s.replace(/<[^>]*>/g,' ').replace(/[●•]/g,'; ').replace(/\s+/g,' ').replace(/^[;\s]+|[;\s]+$/g,'').trim();
 }
 const shorten=(s,n)=>s.length<=n?s:s.slice(0,n-1).trimEnd()+'…';
+const wholeWords=(s,n)=>{
+ if(s.length<=n)return s;
+ const cut=s.slice(0,n-1).replace(/\s+\S*$/,'').replace(/[;,:.\s]+$/,'');
+ return cut?cut+'…':'';
+};
 const generic=/^(?:IP\s*)?(?:відеокамера|камера|відеодомофон|домофон|реєстратор|відеореєстратор|акумулятор|ДБЖ|інвертор)$/i;
 export function productCopy(item){
  const original=cleanProductText(item.name),brand=/^(інший виробник|unknown|no.?name)$/i.test(cleanProductText(item.brand))?'':cleanProductText(item.brand);
@@ -39,7 +44,9 @@ export function productCopy(item){
  const cta='Монтаж у Києві та Вишгороді, консультація безкоштовно.';
  const useful=[...new Set(features.filter(f=>/матриц|роздільн|фокус|живлення|захист|підсвіч|IP\d|PoE|Мп|МП|ємність|напруг/i.test(f)))];
  const summary=useful.length?useful.slice(0,3).join('; '):source||'Характеристики та сумісність уточнюйте перед замовленням';
- const description=shorten(name,65)+': '+shorten(summary,110)+'. '+cta;
+ const intro=wholeWords(name,65);
+ const detail=wholeWords(summary,Math.max(0,155-cta.length-intro.length-4));
+ const description=intro+(detail?': '+detail:'')+(detail.endsWith('…')||(!detail&&intro.endsWith('…'))?' ':'. ')+cta;
  const images=[...new Set([item.image,...(Array.isArray(item.images)?item.images:[])])].filter(u=>{
   try{return new URL(u).protocol==='https:';}catch{return false;}
  });

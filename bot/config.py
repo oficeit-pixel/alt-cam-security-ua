@@ -7,6 +7,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
     enable_bot_polling: bool = Field(True, alias="ENABLE_BOT_POLLING")
+    telegram_webhook_url: str = Field("", alias="TELEGRAM_WEBHOOK_URL")
     bot_token: str | None = Field(None, alias="BOT_TOKEN")
     bot_username: str = Field("AltCamSecurityUaBot", alias="BOT_USERNAME")
     database_url: str = Field(..., alias="DATABASE_URL")
@@ -216,7 +217,7 @@ class Settings(BaseSettings):
     def scheduler_active(self) -> bool:
         if self.pipeline_scheduler_enabled is not None:
             return self.pipeline_scheduler_enabled
-        return self.enable_bot_polling
+        return self.enable_bot_polling or bool(self.telegram_webhook_url)
 
 
 @lru_cache
