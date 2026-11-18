@@ -421,6 +421,8 @@ details.messenger-dock:not([open]) > .messenger-menu { display: none; }
 
 .reveal { opacity: 0; transform: translateY(22px); transition: opacity .65s ease, transform .65s ease; }
 .reveal.visible { opacity: 1; transform: none; }
+/* Keep the first screen readable before JavaScript and its observer are ready. */
+.hero .reveal { opacity: 1; transform: none; }
 
 @media (max-width: 1050px) {
   .nav-links { gap: 17px; }
