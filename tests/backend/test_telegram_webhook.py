@@ -9,6 +9,10 @@ from bot.web.telegram_webhook import validate_url, webhook_secret, activate_webh
 URL = 'https://example.org/telegram/webhook'
 TOKEN = '123456:TEST_TOKEN_NOT_A_REAL_SECRET'
 
+@pytest.mark.parametrize('url', [URL+'/', ' '+URL+' ', '\n'+URL+'\r\n', '\u00a0'+URL+'/\u00a0'])
+def test_normalizes_dashboard_whitespace_and_trailing_slash(url):
+    assert validate_url(url) == URL
+
 def test_scheduler_runs_for_webhook_unless_explicitly_disabled():
     from bot.config import Settings
     settings = Settings(TELEGRAM_WEBHOOK_URL=URL, ENABLE_BOT_POLLING=False)
@@ -17,7 +21,8 @@ def test_scheduler_runs_for_webhook_unless_explicitly_disabled():
     assert settings.scheduler_active is False
 
 @pytest.mark.parametrize('url', ['http://example.org/telegram/webhook', 'https://example.org/other',
-    'https://user:password@example.org/telegram/webhook', URL+'?token=x', URL+'#fragment'])
+    'https://user:password@example.org/telegram/webhook', URL+'?token=x', URL+'#fragment',
+    'https://example.org/telegram/ webhook', 'https://example.org', 'https://example.org/telegram/webhook//'])
 def test_rejects_unsafe_url(url):
     with pytest.raises(ValueError): validate_url(url)
 
