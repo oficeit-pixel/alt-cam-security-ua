@@ -21019,6 +21019,194 @@
           "id": "122143950681226993",
           "post_id": "962902993572061_122143950699226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-11-19T10:06:30.147238+00:00",
+        "result": {
+          "container": {
+            "id": "18101914013418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18101914013418944"
+          },
+          "published": {
+            "id": "18644899915015962"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-19T10:07:39.537512+00:00",
+        "result": {
+          "container": {
+            "id": "18101808224424516"
+          },
+          "published": {
+            "id": "18038824523845763"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-19T10:07:43.229872+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 250,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1795082862,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD-mr-ym4TOc8drFKXcWqk4M1oq-MQAAKAH2sbjg74S8FTi83EjMcfAQADAgADcwADPQQ",
+                  "file_unique_id": "AQADgB9rG44O-Et4",
+                  "file_size": 1846,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD-mr-ym4TOc8drFKXcWqk4M1oq-MQAAKAH2sbjg74S8FTi83EjMcfAQADAgADbQADPQQ",
+                  "file_unique_id": "AQADgB9rG44O-Ety",
+                  "file_size": 31218,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD-mr-ym4TOc8drFKXcWqk4M1oq-MQAAKAH2sbjg74S8FTi83EjMcfAQADAgADeAADPQQ",
+                  "file_unique_id": "AQADgB9rG44O-Et9",
+                  "file_size": 140804,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD-mr-ym4TOc8drFKXcWqk4M1oq-MQAAKAH2sbjg74S8FTi83EjMcfAQADAgADeQADPQQ",
+                  "file_unique_id": "AQADgB9rG44O-Et-",
+                  "file_size": 296580,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD-mr-ym4TOc8drFKXcWqk4M1oq-MQAAKAH2sbjg74S8FTi83EjMcfAQADAgADdwADPQQ",
+                  "file_unique_id": "AQADgB9rG44O-Et8",
+                  "file_size": 311504,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🌐 Кабельна інфраструктура для офісу та кол-центру під ключ\n\nСтабільна робота операторів починається не з комп’ютера чи IP-телефону, а з правильно спроєктованої мережі. Якщо кабельні траси прокладені хаотично, з’єднання нестабільні або робочі місця підключені без запасу на майбутнє — це швидко перетворюється на простої, втрату дзвінків і постійні проблеми з мережею.\n\nALT-CAM Security UA виконує проєктування та монтаж структурованих кабельних систем для офісів, кол-центрів і бізнес-приміщень.\n\nМи можемо організувати:\n\nпрокладання кабельних трас у лотках, кабель-каналах та інших системах;\nпідведення мережі до кожного робочого місця;\nвстановлення RJ45-розеток і модулів;\nпідключення комп’ютерів, IP-телефонії та мережевого обладнання;\nмонтаж патч-панелей, комутації та мережевої шафи;\nмаркування кабелів і портів;\nтестування готових ліній;\nпідготовку мережі до подальшого розширення.\nЩо отримує ваш бізнес\n\n✅ Стабільний інтернет на кожному робочому місці\n✅ Надійну роботу IP-телефонії\n✅ Акуратну…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 251,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1795082863,
+              "text": "🌐 Кабельна інфраструктура для офісу та кол-центру під ключ\n\nСтабільна робота операторів починається не з комп’ютера чи IP-телефону, а з правильно спроєктованої мережі. Якщо кабельні траси прокладені хаотично, з’єднання нестабільні або робочі місця підключені без запасу на майбутнє — це швидко перетворюється на простої, втрату дзвінків і постійні проблеми з мережею.\n\nALT-CAM Security UA виконує проєктування та монтаж структурованих кабельних систем для офісів, кол-центрів і бізнес-приміщень.\n\nМи можемо організувати:\n\nпрокладання кабельних трас у лотках, кабель-каналах та інших системах;\nпідведення мережі до кожного робочого місця;\nвстановлення RJ45-розеток і модулів;\nпідключення комп’ютерів, IP-телефонії та мережевого обладнання;\nмонтаж патч-панелей, комутації та мережевої шафи;\nмаркування кабелів і портів;\nтестування готових ліній;\nпідготовку мережі до подальшого розширення.\nЩо отримує ваш бізнес\n\n✅ Стабільний інтернет на кожному робочому місці\n✅ Надійну роботу IP-телефонії\n✅ Акуратну та зрозумілу кабельну інфраструктуру\n✅ Зручне обслуговування та пошук несправностей\n✅ Можливість швидко додавати нові робочі місця\n✅ Професійний монтаж без хаосу з кабелями\n\nПідходить для кол-центрів, офісів, сервісних компаній, відділів продажу, диспетчерських, навчальних центрів та інших приміщень з великою кількістю робочих місць.\n\nALT-CAM Security UA — проєктування, прокладання кабельних трас, комутація, налаштування та запуск мережі під ключ.\n\n📩 Напишіть «МЕРЕЖА» у повідомлення — підготуємо консультацію та розрахунок під ваш офіс.\n\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#ALTCAM #ALTCAMSecurityUA #СтруктурованаКабельнаСистема #СКС #КолЦентр #ОфіснаМережа #КабельніТраси #МонтажМережі #IPТелефонія #ЛокальнаМережа #RJ45 #PatchPanel #Телекомунікації\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 1548,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1610,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1618,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1636,
+                  "length": 29,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1666,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1671,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1681,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1695,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1710,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1724,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1737,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1753,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1759,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1771,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1792,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
       }
     }
   }
