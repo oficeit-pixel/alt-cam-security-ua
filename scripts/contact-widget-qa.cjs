@@ -3,9 +3,9 @@ const {chromium}=require('playwright'),fs=require('node:fs/promises'),path=requi
 (async()=>{
  const bytes=gzipSync(await fs.readFile('contact-widget.js')).length;assert(bytes<10240);
  const browser=await chromium.launch({headless:true,channel:process.env.PW_CHANNEL||(process.platform==='win32'?'msedge':undefined)}),errors=[];
- try{for(const width of [390,768,1366])for(const consent of ['no','yes']){
+ try{for(const width of [390,768,1366])for(const consent of ['no','yes',null]){
   const context=await browser.newContext({viewport:{width,height:900},reducedMotion:'reduce'});let fail=false,requests=[];
-  await context.addInitScript(value=>localStorage.setItem('altcam-analytics-consent',value),consent);
+  await context.addInitScript(value=>{if(value!==null)localStorage.setItem('altcam-analytics-consent',value);},consent);
   await context.route('**/*',async route=>{
    const u=new URL(route.request().url());
    if(u.pathname==='/api/lead'){requests.push(route.request().postDataJSON());return route.fulfill({status:200,contentType:'application/json',body:JSON.stringify(fail?{ok:false}:{ok:true,lead_id:'test',telegram_url:'https://t.me/AltCamSecurityUaBot'})});}

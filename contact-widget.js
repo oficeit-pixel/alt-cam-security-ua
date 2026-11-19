@@ -33,6 +33,18 @@
     <p>Можна написати без форми. Фото надішліть у Telegram.</p><div class="cw-links" aria-label="Інші способи зв’язку"></div>
   </div>`;
   document.body.append(root); document.body.classList.add('cw-ready');
+  // Keep the entry point above consent controls on the first visit as well.
+  const consent=document.querySelector('.ga-consent');
+  if(consent){
+    const position=()=>{
+      const box=consent.getBoundingClientRect();
+      const overlap=!consent.hidden && box.right>innerWidth-200;
+      root.querySelector('.cw-launch').style.bottom=overlap?`${innerHeight-box.top+12}px`:'';
+    };
+    new MutationObserver(position).observe(consent,{attributes:true,attributeFilter:['hidden']});
+    new ResizeObserver(position).observe(consent);
+    window.addEventListener('resize',position);position();
+  }
   const panel=root.querySelector('.cw-panel'), launch=root.querySelector('.cw-launch'), form=root.querySelector('form');
   const mobile=matchMedia('(max-width:700px)'); let savedScroll=0, topic='';
   function link(label,url,target){
