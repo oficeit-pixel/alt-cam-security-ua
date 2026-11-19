@@ -84,7 +84,8 @@
   }
   function telegramContinueLink(result) {
     const url = result && typeof result.telegram_link === 'string' ? result.telegram_link : '';
-    return /^https:\/\/t\.me\/[A-Za-z0-9_]{5,32}\?start=[A-Za-z0-9_-]{1,64}$/.test(url) ? url : '';
+    // Accept only our client bot; preserve the signed order/lead start payload.
+    return /^https:\/\/t\.me\/AltCamSecurityUaBot\?start=[A-Za-z0-9_-]{1,64}$/i.test(url) ? url : '';
   }
   function showResult(form, success, message, result) {
     const doc = form.ownerDocument;
@@ -107,7 +108,7 @@
     const continueUrl = success ? telegramContinueLink(result) || contacts.consultantUrl : '';
     if (continueUrl) {
       const link = doc.createElement('a');
-      link.textContent = 'Продовжити в Telegram — відповімо швидше';
+      link.textContent = 'Продовжити з ШІ-консультантом у Telegram';
       link.href = continueUrl; link.target = '_blank'; link.rel = 'noopener noreferrer';
       link.className = 'lead-telegram-continue';
       status.append(link);

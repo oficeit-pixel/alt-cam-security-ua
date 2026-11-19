@@ -20,7 +20,7 @@
   root.innerHTML=`<button class="cw-launch" type="button" aria-expanded="false" aria-controls="cw-panel">Напишіть нам</button>
   <div class="cw-panel" id="cw-panel" role="dialog" aria-modal="false" aria-labelledby="cw-title" hidden>
     <div class="cw-head"><h2 id="cw-title">Напишіть нам</h2><button type="button" class="cw-close" aria-label="Закрити контакти">×</button></div>
-    <p>Залиште заявку або продовжуйте в Telegram. Це форма звернення, не онлайн-чат.</p>
+    <p>Напишіть ШІ-консультанту в Telegram або залиште заявку нижче. Діалог приватний: інші клієнти його не бачать. Менеджер може долучитися до розмови.</p>
     <div class="cw-quick" aria-label="Тема звернення"><button type="button" data-topic="Підібрати камери">Підібрати камери</button><button type="button" data-topic="Порахувати кошторис за фото">Порахувати кошторис за фото</button><button type="button" data-topic="Резервне живлення">Резервне живлення</button></div>
     <form id="contact-widget-form">
       <label for="cw-name">Ім’я</label><input id="cw-name" name="name" autocomplete="name" maxlength="120" required>
@@ -42,8 +42,7 @@
     if(url.startsWith('https:')){a.target='_blank';a.rel='noopener noreferrer';}target.append(a);
   }
   const links=root.querySelector('.cw-links');
-  link('Telegram',c.consultantUrl || (c.telegram ? 'https://t.me/'+c.telegram : ''),links);
-  link('Telegram-канал',c.telegramChannel ? 'https://t.me/'+c.telegramChannel : '',links);
+  link('ШІ-консультант у Telegram',c.consultantUrl || (c.telegram ? 'https://t.me/'+c.telegram : ''),links);
   link('WhatsApp',c.whatsapp ? (/^https:/.test(c.whatsapp)?c.whatsapp:'https://wa.me/'+c.whatsapp.replace(/\D/g,'')) : '',links);
   link('Viber',c.viber,links);
   link('Зателефонувати',c.phone ? 'tel:'+c.phone : '',root.querySelector('.cw-quick'));
