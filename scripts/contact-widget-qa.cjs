@@ -18,7 +18,9 @@ const {chromium}=require('playwright'),fs=require('node:fs/promises'),path=requi
   await page.goto('http://widget.test/?utm_source=widget_test',{waitUntil:'networkidle'});
   assert.equal(await page.locator('.cw-launch').count(),1);assert.equal(await page.locator('.messenger-dock,.aic-fab').count(),0);
   await page.locator('.cw-launch').click();assert(await page.locator('.cw-panel').isVisible());
-  await page.keyboard.press('Shift+Tab');assert.equal(await page.evaluate(()=>document.activeElement.textContent),'Telegram-канал');
+  await page.keyboard.press('Shift+Tab');assert.equal(await page.evaluate(()=>document.activeElement.textContent),'ШІ-консультант у Telegram');
+  assert.equal(await page.locator('.cw-links a[href="https://t.me/AltCamSecurityUaBot"]').count(),1);
+  assert.equal(await page.locator('.cw-links a[href*="altcam_security_ua"]').count(),0);
   await page.keyboard.press('Tab');assert.equal(await page.evaluate(()=>document.activeElement.getAttribute('aria-label')),'Закрити контакти');
   assert.equal(await page.locator('.cw-quick a').getAttribute('href'),'tel:+380630607088');
   assert.equal(await page.locator('.cw-links a[href="#"]').count(),0);

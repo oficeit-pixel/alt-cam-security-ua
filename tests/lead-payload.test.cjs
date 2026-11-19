@@ -26,4 +26,7 @@ test('only a well-formed bot deep link from the API is shown to the client',()=>
   assert.equal(telegramContinueLink({telegram_link:'javascript:alert(1)'}),'');
   assert.equal(telegramContinueLink({telegram_link:'https://evil.test/?start=x'}),'');
   assert.equal(telegramContinueLink(null),'');
+  assert.equal(telegramContinueLink({telegram_link:'https://t.me/AnotherBot?start=o12_abcdef1234'}),'');
+  assert.equal(telegramContinueLink({telegram_link:'https://t.me/+FkozHa4dG04xN2My'}),'');
+  assert.equal(telegramContinueLink({telegram_link:'https://t.me/altcam_security_ua'}),'');
 });
