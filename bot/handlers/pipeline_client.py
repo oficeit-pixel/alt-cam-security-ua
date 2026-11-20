@@ -28,10 +28,13 @@ CARD_REPEAT = timedelta(minutes=10)  # follow-up messages within 10 min: copy on
 SITE_START_PREFIXES = ("site", "order", "buy", "consult")
 
 
-async def safe_ack(message: Message, text: str) -> bool:
+async def safe_ack(message: Message, text: str, *, compact: bool = False) -> bool:
     """A failed acknowledgement must not prevent owner notification."""
     try:
-        await message.answer(text, reply_markup=notify.client_faq_keyboard(), disable_web_page_preview=True)
+        keyboard = notify.client_faq_keyboard()
+        if compact:
+            keyboard.inline_keyboard = keyboard.inline_keyboard[-1:]
+        await message.answer(text, reply_markup=keyboard, disable_web_page_preview=True)
         return True
     except TelegramAPIError as exc:
         logger.warning("client_ack_failed (%s)", type(exc).__name__)
@@ -131,17 +134,17 @@ async def _start_site(message: Message) -> None:
             is_new = True
         else:
             is_new = False
-        greeting = (f"Запит №{inquiry.id}. Вітаю в ALT-CAM! Я автоматизований помічник. "
-                    "Що вам потрібно: підібрати товар чи замовити послугу? "
-                    "Для монтажу вкажіть місто й тип об’єкта. Щоб підключити людину, напишіть «Хочу менеджера».")
+        greeting = ("Вітаю! Я ШІ-консультант ALT-CAM. Що потрібно: обладнання чи монтаж? "
+                    "Напишіть завдання, а для монтажу — місто й тип об’єкта.")
         if get_settings().capture_before_terms:
             from html import escape
-            greeting += f'\n\nНадсилаючи повідомлення, ви погоджуєтесь з <a href="{escape(get_settings().privacy_url)}">Політикою ПД</a>.'
+            greeting += f'\n\n<a href="{escape(get_settings().privacy_url)}">Політика конфіденційності</a>.'
         from bot.ai import runtime as ai_runtime
         if not get_settings().ai_active or await ai_runtime.is_paused(session, user.id):
             greeting = texts.auto_reply(inquiry.id, now)
-        if await safe_ack(message, greeting):
+        if await safe_ack(message, greeting, compact=True):
             inquiry.auto_reply_at = now
+            await service.add_event(session, inquiry.id, "ai_welcome", "system", greeting)
         await session.commit()
         if is_new:
             await notify.send_owner_card(message.bot, session, inquiry, header="👋 Клієнт відкрив бота з сайту (ще не писав)",

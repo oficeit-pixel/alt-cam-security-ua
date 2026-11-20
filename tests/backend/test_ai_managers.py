@@ -45,7 +45,7 @@ async def test_manager_reply_pauses_ai_before_sending():
 @pytest.mark.asyncio
 async def test_inflight_ai_result_discarded_after_manager_takeover():
     settings = SimpleNamespace(ai_active=True, ai_disclose_bot=False)
-    inquiry = SimpleNamespace(id=7, client_tg_id=123)
+    inquiry = SimpleNamespace(id=7, client_tg_id=123, auto_reply_at=None)
     consultant = SimpleNamespace(reply=AsyncMock(return_value=SimpleNamespace(text="late reply")))
     with patch.object(runtime, "get_settings", return_value=settings), \
          patch.object(runtime, "is_paused", new_callable=AsyncMock, side_effect=[False, True]), \
