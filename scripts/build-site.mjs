@@ -13,6 +13,12 @@ import { buildTravelPages } from './build-travel-pages.mjs';
 
 const root = process.cwd();
 const out = path.join(root, '_site');
+// Generated output must not retain products from a previous catalog build.
+// Never follow a linked output directory or remove anything outside this root.
+if (path.dirname(out) !== root || path.basename(out) !== '_site') throw new Error('Unsafe build output');
+const outputStat = await fs.lstat(out).catch(error => { if (error.code !== 'ENOENT') throw error; return null; });
+if (outputStat?.isSymbolicLink()) throw new Error('Build output must not be a symlink');
+await fs.rm(out, { recursive: true, force: true });
 await fs.mkdir(out, { recursive: true });
 // Publish an allowlist, never server code, workflow state or credentials.
 const files = ['index.html', 'catalog.html', 'admin.html', 'privacy-policy.html',
