@@ -443,6 +443,10 @@ def test_initial_qualification_and_category_links():
     assert "Не проси клієнта обирати мегапікселі" in prompt
     assert "Чи є там електрика та інтернет" in prompt
     assert "одним повідомленням" in prompt
+    assert "один основний варіант і дві альтернативи" in prompt
+    assert "не вигадуй URL або модель" in prompt
+    assert "покажи лише знайдені" in prompt
+    assert "альтернативні товари не додавай до нього автоматично" in prompt
     assert "одне конкретне уточнення за раз" not in prompt
     catalog_js = (Path(__file__).resolve().parents[2] / "catalog.js").read_text(encoding="utf-8")
     for group in ("video", "access", "ajax", "energy", "network", "electrical", "install"):
