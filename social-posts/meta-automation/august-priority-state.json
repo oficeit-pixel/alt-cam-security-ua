@@ -21403,6 +21403,199 @@
           "id": "122144041953226993",
           "post_id": "962902993572061_122144041971226993"
         }
+      },
+      "instagram": {
+        "published_at": "2026-11-20T08:36:30.282709+00:00",
+        "result": {
+          "container": {
+            "id": "18102075854418944"
+          },
+          "status": {
+            "status_code": "FINISHED",
+            "id": "18102075854418944"
+          },
+          "published": {
+            "id": "17917771785552380"
+          }
+        }
+      },
+      "threads": {
+        "published_at": "2026-11-20T08:37:38.520300+00:00",
+        "result": {
+          "container": {
+            "id": "18101974565424516"
+          },
+          "published": {
+            "id": "18101311868393531"
+          }
+        }
+      },
+      "telegram": {
+        "published_at": "2026-11-20T08:37:41.143979+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 254,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1795163860,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD_msAAQbUZb5ABCry6Am02mhwieVOQgACZCJrGzukAAFIhqVDqqyYeqMBAAMCAANzAAM9BA",
+                  "file_unique_id": "AQADZCJrGzukAAFIeA",
+                  "file_size": 1843,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD_msAAQbUZb5ABCry6Am02mhwieVOQgACZCJrGzukAAFIhqVDqqyYeqMBAAMCAANtAAM9BA",
+                  "file_unique_id": "AQADZCJrGzukAAFIcg",
+                  "file_size": 30758,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD_msAAQbUZb5ABCry6Am02mhwieVOQgACZCJrGzukAAFIhqVDqqyYeqMBAAMCAAN4AAM9BA",
+                  "file_unique_id": "AQADZCJrGzukAAFIfQ",
+                  "file_size": 137458,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD_msAAQbUZb5ABCry6Am02mhwieVOQgACZCJrGzukAAFIhqVDqqyYeqMBAAMCAAN5AAM9BA",
+                  "file_unique_id": "AQADZCJrGzukAAFIfg",
+                  "file_size": 287383,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgAD_msAAQbUZb5ABCry6Am02mhwieVOQgACZCJrGzukAAFIhqVDqqyYeqMBAAMCAAN3AAM9BA",
+                  "file_unique_id": "AQADZCJrGzukAAFIfA",
+                  "file_size": 299312,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🔗 Оптичні аксесуари — усе необхідне для якісного зварювання, підключення та обслуговування ВОЛЗ\n\nБудівництво оптичної лінії — це не лише кабель. Надійність усієї мережі залежить і від правильно підібраних аксесуарів.\n\nУ ALT-CAM Security UA ви можете підібрати оптичні аксесуари для монтажу, з’єднання та обслуговування волоконно-оптичних ліній:\n\nпатч-корди — для швидкого та зручного підключення;\nпігтейли — для акуратного зварювання та організації волокна;\nфаст-конектори — для оперативного монтажу без зайвих складнощів;\nзахисні гільзи — для надійного захисту місця зварювання;\nнульовики та інші комплектуючі — для повноцінної побудови та обслуговування оптичних мереж;\nа також інші супутні аксесуари для ВОЛЗ.\n\nПравильно підібрані оптичні комплектуючі забезпечують:\n\nстабільну передачу сигналу;\nакуратний і професійний монтаж;\nзручність у роботі інсталятору;\nнадійність і довговічність оптичної лінії.\n\nПідбираєте комплектуючі для FTTH, PON, зварювання оптики, кросування чи підключення абонентів?…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 255,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1795163861,
+              "text": "🔗 Оптичні аксесуари — усе необхідне для якісного зварювання, підключення та обслуговування ВОЛЗ\n\nБудівництво оптичної лінії — це не лише кабель. Надійність усієї мережі залежить і від правильно підібраних аксесуарів.\n\nУ ALT-CAM Security UA ви можете підібрати оптичні аксесуари для монтажу, з’єднання та обслуговування волоконно-оптичних ліній:\n\nпатч-корди — для швидкого та зручного підключення;\nпігтейли — для акуратного зварювання та організації волокна;\nфаст-конектори — для оперативного монтажу без зайвих складнощів;\nзахисні гільзи — для надійного захисту місця зварювання;\nнульовики та інші комплектуючі — для повноцінної побудови та обслуговування оптичних мереж;\nа також інші супутні аксесуари для ВОЛЗ.\n\nПравильно підібрані оптичні комплектуючі забезпечують:\n\nстабільну передачу сигналу;\nакуратний і професійний монтаж;\nзручність у роботі інсталятору;\nнадійність і довговічність оптичної лінії.\n\nПідбираєте комплектуючі для FTTH, PON, зварювання оптики, кросування чи підключення абонентів?\n\nНапишіть слово “ОПТИКА” в повідомлення ALT-CAM Security UA — допоможемо підібрати потрібні оптичні аксесуари під ваше завдання.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #Оптика #ВОЛЗ #ОптичніАксесуари #ПатчКорди #Пігтейли #ФастКонектори #Гільзи #ОптичнийМонтаж #FTTH #PON #ВолоконноОптичнийКабель #ОптичніМережі\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 1135,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1159,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1167,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1185,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1193,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1199,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1217,
+                  "length": 10,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1228,
+                  "length": 9,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1238,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1253,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1261,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1277,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1283,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1288,
+                  "length": 24,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1313,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1332,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
       }
     }
   }
