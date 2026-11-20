@@ -91,6 +91,19 @@ async def main():
     async def feed(**kw):
         await dp.feed_update(bot, Update(update_id=next(seq), **kw))
 
+    # /start + a pure greeting: one concise welcome, no second message or LLM call.
+    newcomer = User(id=56565, is_bot=False, first_name="Новий клієнт")
+    await pipeline_client._start_site(msg(newcomer, "/start").as_(bot))
+    welcome = [m for m in sent() if m.chat_id == newcomer.id]
+    assert len(welcome) == 1 and "Я ШІ-консультант ALT-CAM" in welcome[0].text
+    assert len(welcome[0].reply_markup.inline_keyboard) == 1
+    await feed(message=msg(newcomer, "Добрый день"))
+    assert not [m for m in sent() if m.chat_id == newcomer.id]
+    script[:] = [{"role": "assistant", "content": "Для вулиці чи приміщення?"}]
+    await feed(message=msg(newcomer, "Добрий день, потрібні 4 камери"))
+    response = [m for m in sent() if m.chat_id == newcomer.id]
+    assert len(response) == 1 and response[0].text == "Для вулиці чи приміщення?"
+
     # 1. Bot chat: AI answers with intro + real catalog search, no standard auto-reply, waiting cleared
     script[:] = [tool("search_products", {"query": "відеокамера poe"}),
                  {"role": "assistant", "content": "Можу запропонувати IP-камери з PoE — підкажіть, вулиця чи приміщення?"}]

@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import logging
+import re
 from datetime import timedelta
 from html import escape
 from typing import Any
@@ -16,7 +17,7 @@ from bot.pipeline import delivery, notify, schedule, service
 
 logger = logging.getLogger("altcam.ai.runtime")
 USER_KINDS = {"created", "client_message"}
-ASSISTANT_KINDS = {"ai_reply"}
+ASSISTANT_KINDS = {"ai_reply", "ai_welcome"}
 OWNER_KINDS = {"owner_reply", "owner_business_reply", "auto_taken", "paid_ack", "ttn"}
 _factory = None  # tests inject a fake consultant factory: (session) -> Consultant
 
@@ -92,6 +93,17 @@ async def respond(bot, session, inquiry: Inquiry, *, business: bool = False, now
     msgs, introduced = await history(session, inquiry.id)
     if not msgs or msgs[-1]["role"] != "user":
         return "disabled"
+    # /start already asked the opening question. A greeting immediately after it
+    # is not a second request; do not send a duplicate welcome or call the LLM.
+    if (not business and inquiry.auto_reply_at
+            and (now or service.utcnow()) - inquiry.auto_reply_at < timedelta(minutes=2)
+            and len(msgs) >= 2 and msgs[-2]["role"] == "assistant"
+            and "Я ШІ-консультант ALT-CAM" in msgs[-2]["content"]
+            and re.fullmatch(r"\s*(?:добрий день|доброго дня|добрый день|привіт|привет|вітаю|здравствуйте|hello|hi)[!.,\s]*",
+                             msgs[-1]["content"], flags=re.I)):
+        inquiry.awaiting_since, inquiry.reminder_level = None, 0
+        await session.commit()
+        return "replied"
     lang = conversation_language(msgs)
     prefix = business_prefix(settings.ai_disclose_bot)
     if bot is not None and not business:
