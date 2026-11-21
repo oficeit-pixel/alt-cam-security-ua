@@ -14,6 +14,8 @@ class Check(unittest.TestCase):
             page='<html><head><title>Test</title><meta name="description" content="Description"><link rel="canonical" href="https://alt-cam.net.ua/"><script type="application/ld+json">{"@type":"LocalBusiness"}</script></head><body><h1>Heading</h1><h2>Section</h2></body></html>'
             (root/'index.html').write_text(page)
             self.assertEqual(seo.audit(root)['issues'],[])
+            (root/'index.html').write_text(page.replace('</body>','<img src="mark.png" alt="" aria-hidden="true"></body>'))
+            self.assertNotIn('empty_alt',seo.audit(root)['counts'])
             (root/'index.html').write_text(page.replace('</body>','<nav><a href="#">Bad</a><a href="/missing/">Missing</a></nav><img src="x"><h4>Skipped</h4></body>'))
             kinds=seo.audit(root)['counts']
             for name in ['navigation_hash','broken_link','empty_alt','heading_jump']: self.assertIn(name,kinds)

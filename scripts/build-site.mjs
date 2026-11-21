@@ -87,6 +87,9 @@ async function finalizeContacts(directory) {
       const relative=path.relative(out,file).replaceAll('\\','/');
       const internal=/^(admin(?:\/|\.html)|blanks\/|tiktok-oauth-callback\.html)/.test(relative);
       let updated=renderContacts(internal?html:renderBusinessDetails(html));
+      // Logo mark repeats the adjacent visible brand text; keep it decorative.
+      updated=updated.replace(/<img\b(?=[^>]*src="\/?assets\/alt-cam-mark\.png")(?=[^>]*alt="")[^>]*>/g,
+        tag=>tag.includes('aria-hidden=')?tag:tag.replace('<img','<img aria-hidden="true"'));
       if(!internal){
         updated=updated.replace(/<script\b[^>]*src="(?:\/)?ai-chat\.js[^\"]*"[^>]*><\/script>/g,'');
         for(const name of ['contacts.js','lead-payload.js','contact-widget.js']){

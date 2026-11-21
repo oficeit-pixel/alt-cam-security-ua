@@ -119,7 +119,8 @@ def audit(root, progress=False):
             if n>level+1: add('heading_jump',route,f'H{level} → H{n}: {text}')
             level=n
         for img in p.images:
-            if not img.get('alt','').strip(): add('empty_alt',route,img.get('src',''))
+            decorative = img.get('alt') == '' and (img.get('aria-hidden') == 'true' or img.get('role') == 'presentation')
+            if not img.get('alt','').strip() and not decorative: add('empty_alt',route,img.get('src',''))
         for href,nav in p.links:
             if href=='#' and nav: add('navigation_hash',route,href)
             if not href or href=='#': continue
