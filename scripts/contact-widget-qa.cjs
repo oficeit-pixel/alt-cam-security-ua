@@ -3,7 +3,7 @@ const {chromium}=require('playwright'),fs=require('node:fs/promises'),path=requi
 (async()=>{
  const bytes=gzipSync(await fs.readFile('contact-widget.js')).length;assert(bytes<10240);
  const browser=await chromium.launch({headless:true,channel:process.env.PW_CHANNEL||(process.platform==='win32'?'msedge':undefined)}),errors=[];
- try{for(const width of [390,768,1366])for(const consent of ['no','yes',null]){
+ try{for(const width of [320,390,768,1366])for(const consent of ['no','yes',null]){
   const context=await browser.newContext({viewport:{width,height:900},reducedMotion:'reduce'});let fail=false,requests=[];
   await context.addInitScript(value=>{if(value!==null)localStorage.setItem('altcam-analytics-consent',value);},consent);
   await context.route('**/*',async route=>{
@@ -17,8 +17,16 @@ const {chromium}=require('playwright'),fs=require('node:fs/promises'),path=requi
   const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
   await page.goto('http://widget.test/?utm_source=widget_test',{waitUntil:'networkidle'});
   assert.equal(await page.locator('.cw-launch').count(),1);assert.equal(await page.locator('.messenger-dock,.aic-fab').count(),0);
+  const beforeScroll=await page.evaluate(()=>scrollY);
   await page.locator('.cw-launch').click();assert(await page.locator('.cw-panel').isVisible());
-  await page.keyboard.press('Shift+Tab');assert.equal(await page.evaluate(()=>document.activeElement.textContent),'ШІ-консультант у Telegram');
+  if(width<=700){
+   assert.equal(await page.evaluate(()=>scrollY),beforeScroll,'Opening chat must not jump to footer');
+   const panel=await page.locator('.cw-panel').boundingBox(),tg=await page.locator('.cw-links').boundingBox();
+   assert(tg.y>=panel.y&&tg.y+tg.height<=panel.y+panel.height,'Telegram visible immediately');
+   if(consent===null){const cookie=await page.locator('.ga-consent').boundingBox();assert(panel.y+panel.height<=cookie.y,'Consent must not cover chat');}
+   if(consent===null){await fs.mkdir('outputs/contact-widget-qa',{recursive:true});await page.screenshot({path:`outputs/contact-widget-qa/first-open-${width}.png`});}
+  }
+  await page.keyboard.press('Shift+Tab');assert.equal(await page.evaluate(()=>document.activeElement.textContent),'Надіслати заявку');
   assert.equal(await page.locator('.cw-links a[href="https://t.me/AltCamSecurityUaBot"]').count(),1);
   assert.equal(await page.locator('.cw-links a[href*="altcam_security_ua"]').count(),0);
   await page.keyboard.press('Tab');assert.equal(await page.evaluate(()=>document.activeElement.getAttribute('aria-label')),'Закрити контакти');
