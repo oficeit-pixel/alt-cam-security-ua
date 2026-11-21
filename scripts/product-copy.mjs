@@ -15,6 +15,36 @@ const wholeWords=(s,n)=>{
  return cut?cut+'…':'';
 };
 const generic=/^(?:IP\s*)?(?:відеокамера|камера|відеодомофон|домофон|реєстратор|відеореєстратор|акумулятор|ДБЖ|інвертор)$/i;
+const productCta='Монтаж у Києві та Вишгороді, консультація безкоштовно.';
+// Disambiguate only colliding labels using existing catalog identifiers.
+// An internal ID is explicitly a catalog code, never an invented model/SKU.
+export function productCopies(items){
+ const copies=new Map(items.map(item=>[item.id,productCopy(item)]));
+ for(const field of ['name','title','description']){
+  const groups=new Map();
+  for(const item of items){const value=copies.get(item.id)[field];const group=groups.get(value)||[];group.push(item);groups.set(value,group);}
+  for(const group of groups.values()){
+   if(group.length<2)continue;
+   for(const item of group){
+    const sku=cleanProductText(item.sku),uniqueSku=sku&&group.filter(p=>cleanProductText(p.sku)===sku).length===1;
+    const code=uniqueSku?sku:cleanProductText(item.id),label=uniqueSku?'Артикул':'Код каталогу';
+    const copy=copies.get(item.id),value=copy[field];
+    if(field==='name')copy.name=`${value} · ${label.toLowerCase()} ${code}`;
+    else if(field==='title'){
+     const tail=` · ${code} | ALT-CAM`;
+     copy.title=shorten(value.replace(/(?: — ціна, монтаж у Києві)? \| ALT-CAM$/,''),Math.max(1,65-tail.length))+tail;
+    }else{
+     const prefix=`${label} ${code}. `;
+     const detail=wholeWords(value.replace(productCta,'').trim(),Math.max(1,154-prefix.length-productCta.length));
+     copy.description=prefix+detail+' '+productCta;
+    }
+    if(!uniqueSku&&!copy.reasons.some(r=>r.includes('дублювання')))
+     copy.reasons.push('TODO_OWNER: перевірити дублювання позиції у постачальників; використано наявний код каталогу');
+   }
+  }
+ }
+ return copies;
+}
 export function productCopy(item){
  const original=cleanProductText(item.name),brand=/^(інший виробник|unknown|no.?name)$/i.test(cleanProductText(item.brand))?'':cleanProductText(item.brand);
  const rawModel=cleanProductText(item.model);
@@ -41,7 +71,7 @@ export function productCopy(item){
  // Keep a full model where possible; long names use a shorter truthful suffix.
  const compact=model?identity:name;
  const title=name.length+suffix.length<=65?name+suffix:compact.length+suffix.length<=65?compact+suffix:shorten(compact,55)+' | ALT-CAM';
- const cta='Монтаж у Києві та Вишгороді, консультація безкоштовно.';
+ const cta=productCta;
  const useful=[...new Set(features.filter(f=>/матриц|роздільн|фокус|живлення|захист|підсвіч|IP\d|PoE|Мп|МП|ємність|напруг/i.test(f)))];
  const summary=useful.length?useful.slice(0,3).join('; '):source||'Характеристики та сумісність уточнюйте перед замовленням';
  const intro=wholeWords(name,65);
