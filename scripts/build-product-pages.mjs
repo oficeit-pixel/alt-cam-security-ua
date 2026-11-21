@@ -1,18 +1,24 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
-import {productCopy,cleanProductText} from './product-copy.mjs';
+import {productCopies,cleanProductText} from './product-copy.mjs';
 import {selectIndexedProducts, productOffer, loadInstallationRates, installationBlock} from './product-seo.mjs';
 export const productPath=id=>'/products/'+createHash('sha256').update(String(id)).digest('hex').slice(0,16)+'/';
 const text=cleanProductText;
 const esc=value=>text(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export async function buildProductPages(out,products){
  const urls=[],seen=new Set(),indexed=selectIndexedProducts(products),rates=await loadInstallationRates();
+ const copies=productCopies(products);
+ await fs.mkdir('outputs/product-seo-audit',{recursive:true});
+ await fs.writeFile('outputs/product-seo-audit/manual-review.json',JSON.stringify(products.flatMap(item=>{
+  const reasons=copies.get(item.id).reasons;
+  return reasons.length?[{id:item.id,sku:item.sku,name:item.name,reasons}]:[];
+ }),null,2));
  for(const item of products){
   if(!item.id||!item.name)continue;
   const route=productPath(item.id);if(seen.has(route))throw Error('Duplicate product URL');seen.add(route);
   item.page_url=route;
-  const copy=productCopy(item),title=copy.name,url='https://alt-cam.net.ua'+route;
+  const copy=copies.get(item.id),title=copy.name,url='https://alt-cam.net.ua'+route;
   const images=copy.images;
   const description=copy.source||'Характеристики та сумісність обладнання уточнюйте перед замовленням.';
   const offer=productOffer(item,url);

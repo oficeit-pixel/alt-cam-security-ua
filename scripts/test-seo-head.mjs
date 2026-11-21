@@ -3,6 +3,7 @@ import './test-legal-pages.mjs';
 import '../tests/seo-slug.test.mjs';
 import '../tests/sitemaps.test.mjs';
 import '../tests/product-seo.test.mjs';
+import '../tests/product-copy-collisions.test.mjs';
 import {enhanceHead} from './finalize-seo.mjs';
 import {regionalLinks} from './regional-links.mjs';
 const linked = regionalLinks('<html><head></head><body><main><h1>Товар</h1></main></body></html>');
