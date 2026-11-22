@@ -45,7 +45,8 @@
       catch { /* A backup attempt never implies successful primary delivery. */ }
     }
     const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), path === '/api/lead' ? 65000 : 12000);
+    // Cold start is followed by DB and Telegram work; a timeout is not proof of failure.
+    const timer = setTimeout(() => controller.abort(), path === '/api/lead' ? 120000 : 12000);
     try {
       const base = (root.ALTCAM_CONTACTS?.apiBase || 'https://alt-cam-crm-api.onrender.com').replace(/\/$/, '');
       const response = await root.fetch(base + path, {
@@ -55,6 +56,9 @@
       const result = await response.json();
       if (!response.ok || result.ok !== true) throw new Error('lead_not_accepted');
       return result;
+    } catch (error) {
+      if (path === '/api/lead' && error.message !== 'lead_not_accepted') error.deliveryUnknown = true;
+      throw error;
     } finally { clearTimeout(timer); }
   }
   function attribution() {
@@ -103,7 +107,9 @@
     const text = doc.createElement('p');
     text.textContent = success
       ? `Дякуємо! Заявку отримано. Ми зв’яжемося з вами ${contacts.responseTime || 'найближчим часом'}.`
-      : 'Не вдалося надіслати заявку автоматично. Напишіть нам — це займе хвилину:';
+      : result?.deliveryUnknown
+        ? 'Не отримали підтвердження від сервера. Заявка могла зберегтися. Не надсилайте її повторно — уточніть у Telegram або телефоном:'
+        : 'Не вдалося надіслати заявку автоматично. Напишіть нам — це займе хвилину:';
     status.append(text);
     const continueUrl = success ? telegramContinueLink(result) || contacts.consultantUrl : '';
     if (continueUrl) {
@@ -166,14 +172,14 @@
     pending.textContent = 'Надсилаємо заявку. Не закривайте сторінку — введені дані збережено у формі.';
     form.append(pending);
     const slowTimer = setTimeout(() => {
-      pending.textContent = 'Сервер запускається. Надсилання може тривати до хвилини. Не надсилайте заявку повторно.';
+      pending.textContent = 'Сервер запускається. Очікуємо підтвердження до двох хвилин. Не надсилайте заявку повторно.';
     }, 8000);
     try {
       const result = await send();
       if (!result) throw new Error('lead_not_accepted');
       showResult(form, true, message, result);
       return result;
-    } catch { showResult(form, false, message); return false; }
+    } catch (error) { showResult(form, false, message, {deliveryUnknown: error?.deliveryUnknown === true}); return false; }
     finally {
       clearTimeout(slowTimer);
       pending.remove();

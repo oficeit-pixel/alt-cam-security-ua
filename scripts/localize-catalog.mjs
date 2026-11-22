@@ -1,5 +1,8 @@
 // Editorial replacements for recurring supplier-feed terms. Never touch IDs,
-// URLs, model numbers, prices, quantities or technical numeric values.
+// URLs, prices, quantities or technical numeric values. Model corrections below
+// require a reviewed source, matching old value and model present in supplier name.
+import {readFileSync} from 'node:fs';
+const verifiedModels=JSON.parse(readFileSync(new URL('../data/verified-product-models.json',import.meta.url),'utf8'));
 const replacements = [
   ['Гнучка настройка', 'Гнучке налаштування'],
   ['Віддалена настройка', 'Віддалене налаштування'],
@@ -24,6 +27,8 @@ export function localizeText(value) {
 export function localizeCatalog(products) {
   return products.map(product => {
     const result={...product};
+    const correction=verifiedModels[product.id];
+    if(correction&&String(product.model)===correction.expected_model&&String(product.name).includes(correction.model))result.model=correction.model;
     for (const field of ['name','description','category','subcategory']) result[field]=localizeText(result[field]);
     if(Array.isArray(result.features)) result.features=result.features.map(localizeText);
     return result;

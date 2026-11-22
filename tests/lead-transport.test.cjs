@@ -32,13 +32,20 @@ test('successful warmup is not repeated',async()=>{
 test('lead timeout allows server delivery and aborts cleanly',async()=>{
   const transport=setup((url,options)=>new Promise((resolve,reject)=>options.signal.addEventListener('abort',()=>reject(new Error('aborted')))));
   const sent=transport.post('/site-lead',{});
-  assert.equal(transport.delay(),65000);transport.cancel();
-  await assert.rejects(sent,/aborted/);assert.equal(transport.cleared(),true);
+  assert.equal(transport.delay(),120000);transport.cancel();
+  await assert.rejects(sent,error=>error.message==='aborted'&&error.deliveryUnknown===true);assert.equal(transport.cleared(),true);
 });
 test('HTTP 200 with ok:false is not success',async()=>{
   const transport=setup(async()=>({ok:true,json:async()=>({ok:false})}));
-  await assert.rejects(transport.post('/site-lead',{}));
+  await assert.rejects(transport.post('/site-lead',{}),error=>error.deliveryUnknown!==true);
   assert.equal(transport.cleared(),true);
+});
+
+test('network failure is uncertain and never silently resubmits a lead',async()=>{
+  let calls=0;const transport=setup(async()=>{calls++;throw new TypeError('Failed to fetch');});
+  await assert.rejects(transport.post('/site-lead',{}),error=>error.deliveryUnknown===true);
+  assert.equal(calls,1);assert.equal(transport.cleared(),true);
+  assert(source.includes('Заявка могла зберегтися'));
 });
 test('configured API base and JSON are used',async()=>{
   const transport=setup(async(url,options)=>{

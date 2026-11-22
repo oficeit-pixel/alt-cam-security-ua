@@ -1,0 +1,20 @@
+{
+  "yugtorg-21292": {
+    "expected_model": "21292",
+    "model": "IPC 5B36-X1S-30",
+    "source": "https://tyto.ua/catalog/ip-camcorder/172.html",
+    "verified_on": "2026-11-22"
+  },
+  "yugtorg-21316": {
+    "expected_model": "21316",
+    "model": "F-802",
+    "source": "https://yugtorg.bigopt.com/category/fotopastka/",
+    "verified_on": "2026-11-22"
+  },
+  "yugtorg-41758": {
+    "expected_model": "21324",
+    "model": "F-903",
+    "source": "https://yugtorg.bigopt.com/category/fotopastka/",
+    "verified_on": "2026-11-22"
+  }
+}
