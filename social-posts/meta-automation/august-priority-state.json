@@ -22849,6 +22849,155 @@
           "post_id": "962902993572061_122144426637226993"
         }
       }
+    },
+    "daily-2026-10-19-073": {
+      "telegram": {
+        "published_at": "2026-11-24T16:13:26.791585+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 270,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1795536806,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgACAQ5rBbelzBAeHP7vH-55qZpymMnGxQACjB9rG5jiKEidkgpoB-2ZQgEAAwIAA3MAAz0E",
+                  "file_unique_id": "AQADjB9rG5jiKEh4",
+                  "file_size": 1882,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgACAQ5rBbelzBAeHP7vH-55qZpymMnGxQACjB9rG5jiKEidkgpoB-2ZQgEAAwIAA20AAz0E",
+                  "file_unique_id": "AQADjB9rG5jiKEhy",
+                  "file_size": 30483,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgACAQ5rBbelzBAeHP7vH-55qZpymMnGxQACjB9rG5jiKEidkgpoB-2ZQgEAAwIAA3gAAz0E",
+                  "file_unique_id": "AQADjB9rG5jiKEh9",
+                  "file_size": 138391,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgACAQ5rBbelzBAeHP7vH-55qZpymMnGxQACjB9rG5jiKEidkgpoB-2ZQgEAAwIAA3kAAz0E",
+                  "file_unique_id": "AQADjB9rG5jiKEh-",
+                  "file_size": 292723,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgACAQ5rBbelzBAeHP7vH-55qZpymMnGxQACjB9rG5jiKEidkgpoB-2ZQgEAAwIAA3cAAz0E",
+                  "file_unique_id": "AQADjB9rG5jiKEh8",
+                  "file_size": 304863,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "📡 Потрібен стабільний Wi-Fi просто неба?\n\nДвір, паркінг, склад, літня тераса, територія підприємства чи інша відкрита локація — звичайного роутера тут часто недостатньо.\n\nЗовнішні точки доступу Ruijie Reyee створені для побудови стабільної бездротової мережі на відкритих територіях та підтримують сучасний стандарт Wi-Fi 6.\n\nОсновні можливості:\n\nробота у діапазонах 2,4 та 5 ГГц\nпідтримка Wi-Fi 6 / 802.11ax\nтехнологія 2×2 MIMO / MU-MIMO\nсумарна швидкість окремих моделей до 1775 Мбіт/с\nдо 100–256 підключених клієнтів залежно від моделі\nGigabit Ethernet\nживлення через PoE 802.3af / 802.3at\nу окремих моделях — SFP-порт\nзахист корпусу IP68\nробоча температура до -40…+65°C залежно від моделі\nзручне налаштування через Ruijie Cloud або мобільний застосунок\n\nДля окремих моделей заявлене покриття до 100 м у 2,4 ГГц та до 300 м у 5 ГГц.\n\nТаке рішення підійде для приватних будинків, прибудинкових територій, паркінгів, складів, виробництв, кафе, готелів, офісних комплексів та інших відкритих просторі…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 271,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1795536806,
+              "text": "📡 Потрібен стабільний Wi-Fi просто неба?\n\nДвір, паркінг, склад, літня тераса, територія підприємства чи інша відкрита локація — звичайного роутера тут часто недостатньо.\n\nЗовнішні точки доступу Ruijie Reyee створені для побудови стабільної бездротової мережі на відкритих територіях та підтримують сучасний стандарт Wi-Fi 6.\n\nОсновні можливості:\n\nробота у діапазонах 2,4 та 5 ГГц\nпідтримка Wi-Fi 6 / 802.11ax\nтехнологія 2×2 MIMO / MU-MIMO\nсумарна швидкість окремих моделей до 1775 Мбіт/с\nдо 100–256 підключених клієнтів залежно від моделі\nGigabit Ethernet\nживлення через PoE 802.3af / 802.3at\nу окремих моделях — SFP-порт\nзахист корпусу IP68\nробоча температура до -40…+65°C залежно від моделі\nзручне налаштування через Ruijie Cloud або мобільний застосунок\n\nДля окремих моделей заявлене покриття до 100 м у 2,4 ГГц та до 300 м у 5 ГГц.\n\nТаке рішення підійде для приватних будинків, прибудинкових територій, паркінгів, складів, виробництв, кафе, готелів, офісних комплексів та інших відкритих просторів.\n\nПотрібно розрахувати кількість точок доступу та правильно розмістити їх на вашому об’єкті?\nНапишіть «WI-FI» у повідомлення ALT-CAM Security UA — допоможемо підібрати обладнання під площу, кількість користувачів і умови монтажу.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #Ruijie #Reyee #WiFi6 #OutdoorWiFi #ТочкаДоступу #WiFiДляБізнесу #МережевеОбладнання #IP68\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 1237,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1261,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1269,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1287,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1295,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1302,
+                  "length": 6,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1309,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1322,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1336,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1352,
+                  "length": 19,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1372,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1382,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
