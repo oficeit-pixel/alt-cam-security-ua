@@ -41,7 +41,10 @@ def owner_card(inquiry: Inquiry, order: WebOrder | None = None, header: str | No
     if who:
         lines.append(f"Клієнт: {who}")
     if order is not None:
-        lines.append(f"Замовлення: <b>{escape(order.order_number)}</b> · {float(order.subtotal or 0):.2f} ₴")
+        amount = f"{float(order.subtotal or 0):.2f} ₴"
+        if (order.delivery or {}).get("price_breakdown", {}).get("quote_required"):
+            amount = (amount + " + за розрахунком") if order.subtotal else "за розрахунком"
+        lines.append(f"Замовлення: <b>{escape(order.order_number)}</b> · {amount}")
         for index, item in enumerate((order.items or [])[:10], 1):
             if isinstance(item, dict):
                 lines.append(f"  {index}. {escape(str(item.get('name', ''))[:120])} × {item.get('quantity', 1)} <code>{escape(str(item.get('id', '')))}</code>")

@@ -211,8 +211,8 @@ def _order_documents(order: Any) -> dict[str, str]:
             index,
             escape(str(item.get("name") or "")),
             max(1, int(item.get("quantity") or 1)),
-            money(item.get("price")),
-            money(float(item.get("price") or 0) * max(1, int(item.get("quantity") or 1))),
+            "за розрахунком" if item.get("quote_required") else money(item.get("price")),
+            "за розрахунком" if item.get("quote_required") else money(float(item.get("price") or 0) * max(1, int(item.get("quantity") or 1))),
         )
         for index, item in enumerate(items[:100], 1)
     )
@@ -231,6 +231,8 @@ def _order_documents(order: Any) -> dict[str, str]:
     )
     table = f"<table><thead><tr><th>№</th><th>Товар або послуга</th><th>К-сть</th><th>Ціна, грн</th><th>Сума, грн</th></tr></thead><tbody>{rows}</tbody></table>"
     total = f"<p class=\"total\">Разом: {money(order.subtotal)} грн</p>"
+    if delivery.get("price_breakdown", {}).get("quote_required"):
+        total = '<p class="total">Відома сума: ' + money(order.subtotal) + ' грн + за розрахунком</p>'
     prefix = '<!doctype html><html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>ALT-CAM</title>'
     suffix = '</div></body></html>'
     comment = escape(str(delivery.get("comment") or "Не зазначено"))

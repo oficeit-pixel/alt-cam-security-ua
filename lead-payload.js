@@ -80,7 +80,7 @@
       object:{...details,...(payload.diagnostics||{}),type:details.object||payload.object||''},
       calculation:payload.quote||details.quote||{},cart:payload.items||[],comment:payload.message||payload.comment||'',
       ...attribution(),page_url:payload.source||((root.location?.origin||'')+(root.location?.pathname||'')),
-      website,delivery:payload.delivery,needs_installation:payload.needs_installation,consultation:payload.consultation};
+      website,delivery:payload.delivery,needs_installation:payload.needs_installation,installation:payload.installation,consultation:payload.consultation};
   }
   function telegramContinueLink(result) {
     const url = result && typeof result.telegram_link === 'string' ? result.telegram_link : '';
@@ -103,7 +103,7 @@
     const text = doc.createElement('p');
     text.textContent = success
       ? `Дякуємо! Заявку отримано. Ми зв’яжемося з вами ${contacts.responseTime || 'найближчим часом'}.`
-      : 'Не вдалося надіслати заявку автоматично. Напишіть нам — це займе хвилину:';
+      : 'Не вдалося підтвердити отримання заявки. Вона могла зберегтися. Уточніть у менеджера, перш ніж надсилати повторно:';
     status.append(text);
     const continueUrl = success ? telegramContinueLink(result) || contacts.consultantUrl : '';
     if (continueUrl) {
