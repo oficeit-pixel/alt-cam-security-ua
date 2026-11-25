@@ -23,19 +23,20 @@ from bot.web.shop_admin import register_shop_admin_routes
 from bot.config import get_settings
 from bot.web.lead_store import normalize_lead, save_lead, deliver_lead, pending_lead_ids
 from bot.web.lead_api import normalize_api_lead
+from bot.web.order_pricing import installation_quote
 
 
 SERVICE_CATALOG = {
     "service-survey": ("Обстеження та проєктування", 0.0),
-    "service-video": ("Монтаж системи відеоспостереження", 1045.0),
-    "service-intercom-analog": ("Аналоговий відеодомофон", 1365.0),
-    "service-intercom-ip": ("IP-домофон зі смартфоном", 2375.0),
-    "service-access": ("Контроль доступу на двері або ворота", 2375.0),
-    "service-ajax": ("Монтаж Ajax під ключ", 1425.0),
-    "service-cabling": ("Прокладання кабелю та комутація", 44.0),
-    "service-network": ("Мережа, Wi‑Fi міст і серверна шафа", 475.0),
-    "service-power": ("Резервне живлення систем безпеки", 950.0),
-    "service-support": ("Діагностика та технічний супровід", 760.0),
+    "service-video": ("Монтаж системи відеоспостереження", 0.0),
+    "service-intercom-analog": ("Аналоговий відеодомофон", 0.0),
+    "service-intercom-ip": ("IP-домофон зі смартфоном", 0.0),
+    "service-access": ("Контроль доступу на двері або ворота", 0.0),
+    "service-ajax": ("Монтаж Ajax під ключ", 0.0),
+    "service-cabling": ("Прокладання кабелю та комутація", 0.0),
+    "service-network": ("Мережа, Wi‑Fi міст і серверна шафа", 0.0),
+    "service-power": ("Резервне живлення систем безпеки", 0.0),
+    "service-support": ("Діагностика та технічний супровід", 0.0),
 }
 
 PHONE_PATTERN = re.compile(r"^\+?[0-9()\s-]{7,24}$")
@@ -142,7 +143,7 @@ async def _post_order_notifications(
         "Позиції:",
         order_details,
         "",
-        f"Сума: {subtotal:.2f} ₴",
+        f"Відома сума: {subtotal:.2f} ₴" + (" + за розрахунком" if delivery.get("price_breakdown", {}).get("quote_required") else ""),
     ])
     payloads = [
         {
@@ -301,6 +302,7 @@ async def api_lead(request: web.Request) -> web.Response:
             "customer": payload["client"], "items": raw.get("cart", []),
             "delivery": raw.get("delivery", {}), "consultation": raw.get("consultation"),
             "needs_installation": raw.get("needs_installation", False),
+            "installation": raw.get("installation"),
         }
         return await create_order(request)
     request["lead_payload"] = payload
@@ -480,10 +482,29 @@ async def create_order(request: web.Request) -> web.Response:
         normalized_items.append({
             "id": item_id, "type": item_type,
             "name": item_name, "price": item_price, "quantity": item_quantity,
+            "quote_required": not item_price,
         })
     if not normalized_items:
         return web.json_response({"ok": False, "error": "invalid_order"}, status=422, headers=_cors_headers())
-    subtotal = sum(item["price"] * item["quantity"] for item in normalized_items)
+    equipment_total = sum(item["price"] * item["quantity"] for item in normalized_items)
+    work_total = 0
+    quote_required = any(item["type"] == "service" or not item["price"] for item in normalized_items)
+    if payload.get("needs_installation"):
+        config = payload.get("installation")
+        if config is None:
+            quote_required = True  # Legacy clients: never infer work from free text.
+        else:
+            try:
+                config, work_total = installation_quote(config)
+            except ValueError:
+                return web.json_response({"ok": False, "error": "invalid_installation"}, status=422, headers=_cors_headers(request))
+            delivery["installation"] = config
+            if not work_total:
+                quote_required = True
+    subtotal = equipment_total + work_total
+    delivery["price_breakdown"] = {"equipment": equipment_total, "installation": work_total, "total": subtotal, "quote_required": quote_required}
+    if work_total:
+        normalized_items.append({"id": "calculated-installation", "type": "service", "name": "Монтаж камер за розрахунком", "price": work_total, "quantity": 1})
     async with SessionLocal() as session:
         order = WebOrder(order_number=order_number, customer=customer, delivery=delivery, items=normalized_items, subtotal=subtotal, status="new", telegram_username=telegram_username or None)
         session.add(order)
