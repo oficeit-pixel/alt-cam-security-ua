@@ -7,8 +7,11 @@ test('rate table is valid JSON for server and executable for browser',()=>{
 });
 test('checkout adapter preserves structured installation',()=>{
  const context={window:{location:{origin:'https://example.test',pathname:'/'}}};
+ context.URL=URL;context.URLSearchParams=URLSearchParams;
  vm.runInNewContext(fs.readFileSync('lead-payload.js','utf8'),context);
- const script=fs.readFileSync('lead-payload.js','utf8');
- assert.match(script,/installation:payload.installation/);
+ const config={indoor:2,outdoor:2,nvr:true,mobile:true};
+ const payload=context.window.AltcamLead.apiPayload({customer:{name:'Test',phone:'0630000000'},needs_installation:true,installation:config,items:[]},true);
+ assert.equal(payload.installation,config);
+ assert.equal(payload.needs_installation,true);
  assert.match(fs.readFileSync('catalog.js','utf8'),/installation:needsInstallation\?installationConfig\(\):null/);
 });
