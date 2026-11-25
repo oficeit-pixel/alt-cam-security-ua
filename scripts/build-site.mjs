@@ -87,6 +87,11 @@ async function finalizeContacts(directory) {
       const relative=path.relative(out,file).replaceAll('\\','/');
       const internal=/^(admin(?:\/|\.html)|blanks\/|tiktok-oauth-callback\.html)/.test(relative);
       let updated=renderContacts(internal?html:renderBusinessDetails(html));
+      updated=updated.replace(/<a\b[^>]*target=["']_blank["'][^>]*>/gi, tag=>{
+        const rel=tag.match(/\brel=["']([^"']*)["']/i);
+        const value=[...new Set([...(rel?rel[1].split(/\s+/):[]),'noopener','noreferrer'])].join(' ');
+        return rel?tag.replace(rel[0],`rel="${value}"`):tag.replace(/>$/, ` rel="${value}">`);
+      });
       // Logo mark repeats the adjacent visible brand text; keep it decorative.
       updated=updated.replace(/<img\b(?=[^>]*src="\/?assets\/alt-cam-mark\.png")(?=[^>]*alt="")[^>]*>/g,
         tag=>tag.includes('aria-hidden=')?tag:tag.replace('<img','<img aria-hidden="true"'));
