@@ -23299,6 +23299,160 @@
           "post_id": "962902993572061_122144575797226993"
         }
       }
+    },
+    "daily-2026-10-19-076": {
+      "telegram": {
+        "published_at": "2026-11-25T19:20:42.916006+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 275,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1795634442,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgACARNrBzUJAa9kLfIrr0biFsGX0ApDlwACtSNrGwiiOEg9lHIY29B_OwEAAwIAA3MAAz0E",
+                  "file_unique_id": "AQADtSNrGwiiOEh4",
+                  "file_size": 1827,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgACARNrBzUJAa9kLfIrr0biFsGX0ApDlwACtSNrGwiiOEg9lHIY29B_OwEAAwIAA20AAz0E",
+                  "file_unique_id": "AQADtSNrGwiiOEhy",
+                  "file_size": 30017,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgACARNrBzUJAa9kLfIrr0biFsGX0ApDlwACtSNrGwiiOEg9lHIY29B_OwEAAwIAA3gAAz0E",
+                  "file_unique_id": "AQADtSNrGwiiOEh9",
+                  "file_size": 135091,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgACARNrBzUJAa9kLfIrr0biFsGX0ApDlwACtSNrGwiiOEg9lHIY29B_OwEAAwIAA3kAAz0E",
+                  "file_unique_id": "AQADtSNrGwiiOEh-",
+                  "file_size": 284220,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgACARNrBzUJAa9kLfIrr0biFsGX0ApDlwACtSNrGwiiOEg9lHIY29B_OwEAAwIAA3cAAz0E",
+                  "file_unique_id": "AQADtSNrGwiiOEh8",
+                  "file_size": 299890,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🌐 Оптична лінія починається з правильного кабелю\n\nПотрібно побудувати стабільну оптичну мережу для будинку, бізнесу, провайдера або системи відеоспостереження? Тип кабелю потрібно підбирати під конкретний спосіб прокладання — повітря, ґрунт, кабельну каналізацію або приміщення.\n\nУ ALT-CAM Security UA допоможемо підібрати оптичний кабель під вашу задачу.\n\nОсновні типи оптичного кабелю:\n\nADSS самонесучий — для повітряних ліній між опорами без окремого металевого троса; такі кабелі можуть мати повністю діелектричну конструкцію.\nFigure-8 із тросом — самонесуче рішення для повітряного монтажу, де несучий елемент інтегрований у конструкцію кабелю.\nБроньований кабель — для зовнішніх ліній і ділянок, де потрібен підвищений механічний захист.\nКаналізаційний / трубний — для прокладання в кабельній каналізації та захисних трубах; зовнішні loose-tube кабелі широко застосовуються в duct та aerial інсталяціях.\nFTTH Drop — компактний кабель для підключення абонента до оптичної мережі.\nВнутрішній / ро…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 276,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1795634442,
+              "text": "🌐 Оптична лінія починається з правильного кабелю\n\nПотрібно побудувати стабільну оптичну мережу для будинку, бізнесу, провайдера або системи відеоспостереження? Тип кабелю потрібно підбирати під конкретний спосіб прокладання — повітря, ґрунт, кабельну каналізацію або приміщення.\n\nУ ALT-CAM Security UA допоможемо підібрати оптичний кабель під вашу задачу.\n\nОсновні типи оптичного кабелю:\n\nADSS самонесучий — для повітряних ліній між опорами без окремого металевого троса; такі кабелі можуть мати повністю діелектричну конструкцію.\nFigure-8 із тросом — самонесуче рішення для повітряного монтажу, де несучий елемент інтегрований у конструкцію кабелю.\nБроньований кабель — для зовнішніх ліній і ділянок, де потрібен підвищений механічний захист.\nКаналізаційний / трубний — для прокладання в кабельній каналізації та захисних трубах; зовнішні loose-tube кабелі широко застосовуються в duct та aerial інсталяціях.\nFTTH Drop — компактний кабель для підключення абонента до оптичної мережі.\nВнутрішній / розподільчий — для серверних, кросових, офісів і внутрішніх магістралей; для внутрішньої прокладки важливі також вимоги до пожежної безпеки оболонки.\n\nОптичні кабелі використовують для FTTH/GPON, магістральних ліній, локальних мереж, відеоспостереження, зв’язку між будівлями та телекомунікаційної інфраструктури.\n\nНе знаєте, що вибрати — ADSS, броню, Drop чи кабель у каналізацію?\n\nНапишіть «ВОЛОКНО» у повідомлення ALT-CAM Security UA — допоможемо підібрати конструкцію, кількість волокон і тип кабелю під ваш об’єкт.\n\n🌐 https://alt-cam.net.ua\n\n#ALTCAM #ALTCAMSecurityUA #ОптичнийКабель #Оптоволокно #ВОЛЗ #FTTH #GPON #ADSS #FiberOptic #Телекомунікації #ОптичнаМережа\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 1523,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1547,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1555,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1573,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1589,
+                  "length": 12,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1602,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1608,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1614,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1620,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1626,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1638,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1655,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1674,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
