@@ -36,11 +36,21 @@ const fs=require('node:fs/promises'),path=require('node:path'),assert=require('n
   assert.equal(requests.length,quizBefore+1);assert.equal(requests.at(-1).source_form,'quiz');
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
   await page.goto('http://final.test/catalog.html',{waitUntil:'networkidle'});
+  assert(await page.locator('.catalog-header nav').isVisible(),'Catalog navigation stays available on mobile');
+  const selectedId=await page.locator('[data-add]').first().getAttribute('data-add');
   for(let i=0;i<3;i++){await page.locator('[data-add]').nth(i).click();await page.locator('#cart-close').click();}
   await page.reload({waitUntil:'networkidle'});await page.locator('#cart-open').click();
   await page.locator('#order-name').fill('Тест QA');await page.locator('#order-phone').fill('0630000000');await page.locator('[name="delivery"][value="pickup"]').check();
   const before=requests.length;await page.locator('#cart-order').click();await page.waitForFunction(()=>!document.querySelector('#checkout-form').dataset.leadBusy);
   assert.equal(requests.length,before+1,'cart submission');assert.equal(requests.at(-1).source_form,'cart');
+  await page.waitForFunction(()=>document.querySelector('#order-status').textContent.includes('прийнято'));
+  await page.goto('http://final.test/catalog.html?product='+encodeURIComponent(selectedId),{waitUntil:'networkidle'});
+  assert(await page.locator('#cart').evaluate(el=>el.classList.contains('is-open')),'Product CTA opens checkout');
+  assert.equal(await page.locator('.cart-item').count(),1);
+  await page.reload({waitUntil:'networkidle'});
+  assert.equal(await page.locator('.cart-item').count(),1,'Reload must not add the product twice');
+  await page.keyboard.press('Escape');
+  assert(!(await page.locator('#cart').evaluate(el=>el.classList.contains('is-open'))),'Escape closes cart');
   assert.deepEqual(errors,[]);assert.deepEqual(missing,[]);
   results.push({viewport,forms:requests.map(x=>x.source_form),jsErrors:errors,missingLocalResources:missing});await context.close();
  }}finally{await browser.close();}
