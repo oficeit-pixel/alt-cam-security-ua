@@ -3,9 +3,10 @@ const assert=require('node:assert/strict');
 const vm=require('node:vm');
 const fs=require('node:fs');
 const source=fs.readFileSync(require('node:path').join(__dirname,'../lead-payload.js'),'utf8');
-function setup(fetch){
+function setup(fetch,extra={}){
   let cancel,delay,cleared=false;
   const context={AbortController,fetch,ALTCAM_CONTACTS:{apiBase:'https://test.invalid/'},setTimeout(fn,ms){cancel=fn;delay=ms;return 1;},clearTimeout(){cleared=true;}};
+  Object.assign(context,extra);
   vm.runInNewContext(source,context);
   return {post:context.AltcamLead.post,warmup:context.AltcamLead.warmup,cancel:()=>cancel(),delay:()=>delay,cleared:()=>cleared};
 }
@@ -61,6 +62,21 @@ test('different payloads are not merged and failures can retry',async()=>{
   assert.ok(results.every(result=>result.status==='rejected'));
   await assert.rejects(transport.post('/site-lead',{name:'first'}),/offline/);
   assert.equal(calls,3);
+});
+
+test('duplicate submissions send only one backup and omit consultation credentials',async()=>{
+  let backups=0;
+  const transport=setup(async()=>({ok:true,json:async()=>({ok:true,id:1})}),{
+    ALTCAM_CONTACTS:{apiBase:'https://test.invalid',backupWebhook:'https://backup.invalid'},
+    navigator:{sendBeacon(url,body){
+      backups++;
+      assert.equal(url,'https://backup.invalid');
+      assert.equal(JSON.parse(body).consultation,undefined);
+    }},
+  });
+  const payload={name:'test',consultation:{token:'TEST_ONLY'}};
+  await Promise.all([transport.post('/api/lead',payload),transport.post('/api/lead',payload)]);
+  assert.equal(backups,1);
 });
 
 test('successful submission does not prevent a subsequent intentional order',async()=>{
