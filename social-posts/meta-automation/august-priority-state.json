@@ -23460,6 +23460,170 @@
           "post_id": "962902993572061_122144619267226993"
         }
       }
+    },
+    "daily-2026-10-19-077": {
+      "telegram": {
+        "published_at": "2026-11-26T10:58:24.863534+00:00",
+        "result": {
+          "photo": {
+            "ok": true,
+            "result": {
+              "message_id": 277,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1795690704,
+              "photo": [
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgACARVrCBDQ6xgXqD72cEwmxw4hDIwwlQACZR5rG0OnQEjqDDLfKUDDCAEAAwIAA3MAAz0E",
+                  "file_unique_id": "AQADZR5rG0OnQEh4",
+                  "file_size": 1765,
+                  "width": 72,
+                  "height": 90
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgACARVrCBDQ6xgXqD72cEwmxw4hDIwwlQACZR5rG0OnQEjqDDLfKUDDCAEAAwIAA20AAz0E",
+                  "file_unique_id": "AQADZR5rG0OnQEhy",
+                  "file_size": 31433,
+                  "width": 256,
+                  "height": 320
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgACARVrCBDQ6xgXqD72cEwmxw4hDIwwlQACZR5rG0OnQEjqDDLfKUDDCAEAAwIAA3gAAz0E",
+                  "file_unique_id": "AQADZR5rG0OnQEh9",
+                  "file_size": 143379,
+                  "width": 640,
+                  "height": 800
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgACARVrCBDQ6xgXqD72cEwmxw4hDIwwlQACZR5rG0OnQEjqDDLfKUDDCAEAAwIAA3kAAz0E",
+                  "file_unique_id": "AQADZR5rG0OnQEh-",
+                  "file_size": 296903,
+                  "width": 1024,
+                  "height": 1280
+                },
+                {
+                  "file_id": "AgACAgIAAyEGAAMBAYhzkgACARVrCBDQ6xgXqD72cEwmxw4hDIwwlQACZR5rG0OnQEjqDDLfKUDDCAEAAwIAA3cAAz0E",
+                  "file_unique_id": "AQADZR5rG0OnQEh8",
+                  "file_size": 309814,
+                  "width": 1080,
+                  "height": 1350
+                }
+              ],
+              "caption": "🌐 Прокладання, зварювання та тестування оптичних ліній\n\nНадійна оптична мережа починається з правильної траси, якісного зварювання волокон і професійного тестування кожної лінії.\n\nALT-CAM Security UA виконує комплексні роботи з побудови та обслуговування волоконно-оптичних мереж для бізнесу, офісів, складів, виробничих об’єктів, приватного сектору та телекомунікаційної інфраструктури.\n\nВиконуємо:\n\nпрокладання внутрішніх і зовнішніх оптичних трас;\nмонтаж оптичного кабелю в трубах, лотках, кабель-каналах та по зовнішніх трасах;\nзварювання оптичних волокон;\nмонтаж і укладання волокон у муфтах, боксах, кросах та ODF;\nвстановлення пігтейлів, адаптерів і оптичних розеток;\nтестування ліній OTDR;\nперевірку оптичної потужності та загасання;\nпошук обривів, пошкоджень і проблемних ділянок;\nмаркування, комутацію та документування ліній;\nремонт і модернізацію існуючих оптичних мереж.\nЩо отримує замовник\n\n✅ Якісні зварні з’єднання з мінімальними втратами\n✅ Перевірку лінії після монтажу\n✅ Виявлення д…"
+            }
+          },
+          "message": {
+            "ok": true,
+            "result": {
+              "message_id": 278,
+              "sender_chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1004320686994,
+                "title": "Alt-Cam Security UA",
+                "username": "altcam_security_ua",
+                "type": "channel"
+              },
+              "date": 1795690704,
+              "text": "🌐 Прокладання, зварювання та тестування оптичних ліній\n\nНадійна оптична мережа починається з правильної траси, якісного зварювання волокон і професійного тестування кожної лінії.\n\nALT-CAM Security UA виконує комплексні роботи з побудови та обслуговування волоконно-оптичних мереж для бізнесу, офісів, складів, виробничих об’єктів, приватного сектору та телекомунікаційної інфраструктури.\n\nВиконуємо:\n\nпрокладання внутрішніх і зовнішніх оптичних трас;\nмонтаж оптичного кабелю в трубах, лотках, кабель-каналах та по зовнішніх трасах;\nзварювання оптичних волокон;\nмонтаж і укладання волокон у муфтах, боксах, кросах та ODF;\nвстановлення пігтейлів, адаптерів і оптичних розеток;\nтестування ліній OTDR;\nперевірку оптичної потужності та загасання;\nпошук обривів, пошкоджень і проблемних ділянок;\nмаркування, комутацію та документування ліній;\nремонт і модернізацію існуючих оптичних мереж.\nЩо отримує замовник\n\n✅ Якісні зварні з’єднання з мінімальними втратами\n✅ Перевірку лінії після монтажу\n✅ Виявлення дефектів і проблемних ділянок\n✅ Акуратну комутацію в оптичних боксах і кросах\n✅ Готову мережу для передачі даних, відеоспостереження та телекомунікацій\n✅ Можливість масштабування мережі в майбутньому\n\nПрацюємо з одномодовими та багатомодовими оптичними лініями, внутрішніми й зовнішніми кабелями, магістральними та локальними мережами.\n\nALT-CAM Security UA — прокладання, зварювання, тестування та запуск оптики під ключ.\n\n📩 Напишіть «ОПТИКА» у повідомлення — підготуємо консультацію та розрахунок під ваш об’єкт.\n\n🌐 https://alt-cam.net.ua\n📍 Київ • Вишгород • Київська область\n\n#ALTCAM #ALTCAMSecurityUA #Оптика #ОптичнийКабель #ЗварюванняОптики #OTDR #ВОЛЗ #ОптичніЛінії #Телекомунікації #МонтажОптики #ОптичнаМережа #FiberOptic #СКС\n\n🤖 https://t.me/AltCamSecurityUaBot",
+              "entities": [
+                {
+                  "offset": 1519,
+                  "length": 22,
+                  "type": "url"
+                },
+                {
+                  "offset": 1581,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1589,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1607,
+                  "length": 7,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1615,
+                  "length": 15,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1631,
+                  "length": 17,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1649,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1655,
+                  "length": 5,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1661,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1675,
+                  "length": 16,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1692,
+                  "length": 13,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1706,
+                  "length": 14,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1721,
+                  "length": 11,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1733,
+                  "length": 4,
+                  "type": "hashtag"
+                },
+                {
+                  "offset": 1742,
+                  "length": 32,
+                  "type": "url"
+                }
+              ],
+              "link_preview_options": {
+                "is_disabled": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
