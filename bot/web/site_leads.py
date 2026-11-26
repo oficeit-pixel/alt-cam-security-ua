@@ -24,6 +24,7 @@ from bot.config import get_settings
 from bot.web.lead_store import normalize_lead, save_lead, deliver_lead, pending_lead_ids
 from bot.web.lead_api import normalize_api_lead
 from bot.web.order_pricing import installation_quote
+from bot.web.request_identity import request_identity, existing_request, RequestConflict
 
 
 SERVICE_CATALOG = {
@@ -303,6 +304,7 @@ async def api_lead(request: web.Request) -> web.Response:
             "delivery": raw.get("delivery", {}), "consultation": raw.get("consultation"),
             "needs_installation": raw.get("needs_installation", False),
             "installation": raw.get("installation"),
+            **({"request_id": raw["request_id"]} if "request_id" in raw else {}),
         }
         return await create_order(request)
     request["lead_payload"] = payload
@@ -327,6 +329,8 @@ async def site_lead(request: web.Request) -> web.Response:
         return web.json_response({"ok": False, "error": str(exc)}, status=400, headers=_cors_headers(request))
     try:
         lead_id = await asyncio.wait_for(save_lead(payload, request.remote), timeout=10)
+    except RequestConflict:
+        return web.json_response({"ok": False, "error": "request_id_conflict"}, status=409, headers=_cors_headers(request))
     except Exception as exc:
         request.app["logger"].warning("Lead save failed (%s)", type(exc).__name__)
         return web.json_response({"ok": False, "error": "temporarily_unavailable"}, status=503, headers=_cors_headers(request))
@@ -406,6 +410,19 @@ async def analytics(request: web.Request) -> web.Response:
     return web.json_response({"ok": True}, headers=_cors_headers())
 
 
+async def _replayed_order_response(request, order, payload):
+    result = {"ok": True, "order_number": order.order_number}
+    try:
+        from bot.pipeline.checkout import verified_context
+        context = verified_context(payload.get("consultation"), get_settings().bot_token)
+        link = await asyncio.wait_for(capture_site_order(request.app["bot"], order, context=context), timeout=15)
+        if link:
+            result["telegram_link"] = link
+    except Exception as exc:
+        request.app["logger"].warning("Order replay capture pending (%s)", type(exc).__name__)
+    return web.json_response(result, headers=_cors_headers(request))
+
+
 async def create_order(request: web.Request) -> web.Response:
     if "validated_lead" not in request and _rate_limited(request):
         return web.json_response({"ok": False, "error": "rate_limited"}, status=429, headers=_cors_headers())
@@ -414,6 +431,18 @@ async def create_order(request: web.Request) -> web.Response:
     except Exception:
         return web.json_response({"ok": False, "error": "invalid_json"}, status=400, headers=_cors_headers())
     raw_customer = payload.get("customer") if isinstance(payload.get("customer"), dict) else {}
+    try:
+        identity = request_identity(payload)
+    except (ValueError, TypeError):
+        return web.json_response({"ok": False, "error": "invalid_request_id"}, status=400, headers=_cors_headers(request))
+    if identity:
+        async with SessionLocal() as session:
+            try:
+                existing = await existing_request(session, WebOrder, WebOrder.delivery, identity)
+            except RequestConflict:
+                return web.json_response({"ok": False, "error": "request_id_conflict"}, status=409, headers=_cors_headers(request))
+        if existing is not None:
+            return await _replayed_order_response(request, existing, payload)
     items = payload.get("items") if isinstance(payload.get("items"), list) else []
     name = _clean(raw_customer.get("name"), "")[:120]
     phone = _clean(raw_customer.get("phone"), "")[:40]
@@ -506,6 +535,14 @@ async def create_order(request: web.Request) -> web.Response:
     if work_total:
         normalized_items.append({"id": "calculated-installation", "type": "service", "name": "Монтаж камер за розрахунком", "price": work_total, "quantity": 1})
     async with SessionLocal() as session:
+        try:
+            existing = await existing_request(session, WebOrder, WebOrder.delivery, identity)
+        except RequestConflict:
+            return web.json_response({"ok": False, "error": "request_id_conflict"}, status=409, headers=_cors_headers(request))
+        if existing is not None:
+            return await _replayed_order_response(request, existing, payload)
+        if identity:
+            delivery["_request"] = identity
         order = WebOrder(order_number=order_number, customer=customer, delivery=delivery, items=normalized_items, subtotal=subtotal, status="new", telegram_username=telegram_username or None)
         session.add(order)
         await session.commit()
