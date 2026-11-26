@@ -10,11 +10,13 @@ from sqlalchemy import select
 
 from bot.db.base import SessionLocal
 from bot.db.models import SiteLead
+from bot.web.request_identity import request_identity, existing_request
 
 
 def normalize_lead(payload):
     if not isinstance(payload, dict):
         raise ValueError("invalid_payload")
+    request_identity(payload)
     if len(json.dumps(payload, ensure_ascii=False).encode("utf-8")) > 16384:
         raise ValueError("payload_too_large")
     client = payload.get("client") if isinstance(payload.get("client"), dict) else {}
@@ -48,12 +50,19 @@ def normalize_lead(payload):
 
 
 async def save_lead(payload, remote):
+    identity = request_identity(payload)
+    payload = {key: value for key, value in payload.items() if key != "_request"}
+    if identity:
+        payload["_request"] = identity
     salt = os.environ.get("LEAD_IP_HASH_SALT", "")
     # No unsalted hash fallback: omit IP metadata until configured.
     ip_hash = hashlib.sha256((salt + ":" + remote).encode()).hexdigest() if salt and remote else None
     client = payload["client"]
     lead = SiteLead(type=payload["type"], name=client["name"], phone=client["phone"], email=client["email"], message=payload["message"], payload=payload, page=payload["page"], ip_hash=ip_hash)
     async with SessionLocal() as session:
+        existing = await existing_request(session, SiteLead, SiteLead.payload, identity)
+        if existing is not None:
+            return existing.id
         session.add(lead)
         await session.commit()
         return lead.id

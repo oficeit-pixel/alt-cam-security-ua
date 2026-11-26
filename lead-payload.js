@@ -49,6 +49,21 @@
     return tracked;
   }
   async function sendPost(path, payload, body) {
+    let identity;
+    if (path === '/api/lead' && root.crypto?.subtle && typeof TextEncoder !== 'undefined') {
+      const digest = await root.crypto.subtle.digest('SHA-256', new TextEncoder().encode(body));
+      const hash = Array.from(new Uint8Array(digest), n => n.toString(16).padStart(2, '0')).join('');
+      const storageKey = 'altcam-pending-' + hash;
+      let saved;
+      try { saved = JSON.parse(root.sessionStorage?.getItem(storageKey) || 'null'); } catch {}
+      const key = saved?.hash === hash && /^[a-f0-9]{32}$/.test(saved.key)
+        ? saved.key : Array.from(root.crypto.getRandomValues(new Uint8Array(16)), n => n.toString(16).padStart(2, '0')).join('');
+      identity = {storageKey, key};
+      // Persist only a fingerprint and random identifier, never contact details.
+      try { root.sessionStorage?.setItem(storageKey, JSON.stringify({hash, key})); } catch {}
+      payload = {...payload, request_id:key};
+      body = JSON.stringify(payload);
+    }
     const backup = root.ALTCAM_CONTACTS?.backupWebhook;
     if (backup) {
       try {
@@ -67,6 +82,12 @@
       });
       const result = await response.json();
       if (!response.ok || result.ok !== true) throw new Error('lead_not_accepted');
+      if (identity) {
+        try {
+          const saved = JSON.parse(root.sessionStorage?.getItem(identity.storageKey) || 'null');
+          if (saved?.key === identity.key) root.sessionStorage.removeItem(identity.storageKey);
+        } catch {}
+      }
       return result;
     } finally { clearTimeout(timer); }
   }

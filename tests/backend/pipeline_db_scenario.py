@@ -247,6 +247,39 @@ async def main():
         assert (await service.inquiry_for_web_order(s, orders[0].id)).id == a.id
         assert (await s.get(Inquiry, b.id)).web_order_id is None
         assert all(r is None for r in [(await service.inquiry_for_web_order(s, o.id)).client_chat_id for o in orders[1:]])
+    # Durable HTTP retry identity: new sessions and concurrent requests share one row.
+    from bot.web.lead_store import save_lead, normalize_lead
+    from bot.web.request_identity import RequestConflict
+    retry_payload = normalize_lead({"request_id": "a" * 32, "type": "test", "client": {"name": "Retry", "phone": "+380630000000"}, "message": "test", "page": "/"})
+    ids = await asyncio.gather(*(save_lead(retry_payload, "") for _ in range(3)))
+    assert len(set(ids)) == 1
+    assert await save_lead(retry_payload, "") == ids[0]
+    try:
+        await save_lead({**retry_payload, "message": "different"}, "")
+    except RequestConflict:
+        pass
+    else:
+        raise AssertionError("Changed payload must not reuse another request")
+    from bot.web import site_leads
+    from unittest.mock import patch
+    import logging
+    import json
+    class RetryRequest(dict):
+        remote = "127.0.0.1"
+        headers = {}
+        app = {"bot": None, "logger": logging.getLogger("retry-test"), "rate_limits": {}}
+    order_payload = {"request_id": "b" * 32, "customer": {"name": "Retry", "phone": "+380630000000"}, "items": [{"id": "service-survey", "type": "service", "quantity": 1}], "delivery": {"type": "pickup"}}
+    def retry_request(payload=order_payload):
+        return RetryRequest(validated_lead={}, lead_payload=payload)
+    notifications = AsyncMock()
+    with patch.object(site_leads, "auto_create_order_drive_folder", AsyncMock()), patch.object(site_leads, "_post_order_notifications", notifications), patch.object(site_leads, "capture_site_order", AsyncMock(return_value=None)):
+        responses = await asyncio.gather(*(site_leads.create_order(retry_request()) for _ in range(3)))
+        assert all(r.status == 200 for r in responses)
+        numbers = {json.loads(r.text)["order_number"] for r in responses}
+        assert len(numbers) == 1 and notifications.await_count == 1
+        assert json.loads((await site_leads.create_order(retry_request())).text)["order_number"] in numbers
+        conflict = await site_leads.create_order(retry_request({**order_payload, "customer": {"name": "Other", "phone": "+380630000001"}}))
+        assert conflict.status == 409 and "order_number" not in json.loads(conflict.text)
     await engine.dispose()
     print("PIPELINE_DB_SCENARIO_OK")
 

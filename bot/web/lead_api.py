@@ -2,6 +2,7 @@
 import json
 import re
 from urllib.parse import urlsplit
+from bot.web.request_identity import request_identity
 
 SOURCES = {"hero", "quiz", "calculator", "cart", "consultation", "chat_widget"}
 
@@ -9,6 +10,7 @@ SOURCES = {"hero", "quiz", "calculator", "cart", "consultation", "chat_widget"}
 def normalize_api_lead(data):
     if not isinstance(data, dict) or len(json.dumps(data, allow_nan=False).encode()) > 32768:
         raise ValueError("invalid_payload")
+    request_identity(data)
     def field(key, limit, default=""):
         value = data.get(key, default)
         if not isinstance(value, str) or len(value) > limit:
@@ -62,7 +64,7 @@ def normalize_api_lead(data):
         for label, value in (("Об’єкт", details), ("Розрахунок", calculation), ("Сторінка", page))
         if value
     )
-    return {"type": source, "source_form": source,
+    return {**({"request_id": data["request_id"]} if "request_id" in data else {}), "type": source, "source_form": source,
             "client": {"name": name, "phone": phone, "email": email},
             "message": message[:4000], "comment": comment, "page": page, "source": page,
             "details": {"object": details, "quote": calculation, "cart": cart},
