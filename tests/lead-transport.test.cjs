@@ -100,3 +100,29 @@ test('configured API base and JSON are used',async()=>{
   });
   assert.equal((await transport.post('/site-lead',{name:'test'})).id,42);
 });
+
+test('uncertain delivery keeps identity across reload, success clears it',async()=>{
+  const store=new Map(), sent=[];
+  const extra={crypto:require('node:crypto').webcrypto,TextEncoder,
+    sessionStorage:{getItem:k=>store.get(k)||null,setItem:(k,v)=>store.set(k,v),removeItem:k=>store.delete(k)}};
+  const payload={name:'Test',phone:'+380630000000'};
+  const first=setup(async(url,options)=>{sent.push(JSON.parse(options.body));throw new Error('lost response');},extra);
+  await assert.rejects(first.post('/site-lead',payload),/lost response/);
+  assert.match(sent[0].request_id,/^[a-f0-9]{32}$/);
+  assert.ok([...store.values()].every(value=>!value.includes(payload.phone)));
+  const reloaded=setup(async(url,options)=>{sent.push(JSON.parse(options.body));return {ok:true,json:async()=>({ok:true,id:42})};},extra);
+  await reloaded.post('/site-lead',payload);
+  assert.equal(sent[1].request_id,sent[0].request_id);
+  await reloaded.post('/site-lead',payload);
+  assert.notEqual(sent[2].request_id,sent[0].request_id);
+});
+
+test('different uncertain submissions keep independent retry identities',async()=>{
+  const store=new Map(),sent=[];
+  const extra={crypto:require('node:crypto').webcrypto,TextEncoder,
+    sessionStorage:{getItem:k=>store.get(k)||null,setItem:(k,v)=>store.set(k,v),removeItem:k=>store.delete(k)}};
+  const transport=setup(async(url,options)=>{sent.push(JSON.parse(options.body));throw new Error('offline');},extra);
+  for(const name of ['First','Second','First'])await assert.rejects(transport.post('/site-lead',{name}),/offline/);
+  assert.equal(sent[0].request_id,sent[2].request_id);
+  assert.notEqual(sent[0].request_id,sent[1].request_id);
+});
