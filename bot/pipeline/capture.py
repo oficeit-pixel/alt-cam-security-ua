@@ -8,7 +8,7 @@ from bot.config import get_settings
 from bot.db.base import SessionLocal
 from sqlalchemy import select
 
-from bot.db.models import Inquiry, InquiryEvent, WebOrder
+from bot.db.models import Inquiry, InquiryEvent, SiteLead, WebOrder
 from bot.pipeline.statuses import TERMINAL
 from bot.pipeline.delivery import send_client_text
 from bot.pipeline import links, notify, service
@@ -35,6 +35,13 @@ async def capture_site_lead(bot, lead_id: int, payload: dict[str, Any]) -> str |
     client = payload.get("client") if isinstance(payload.get("client"), dict) else {}
     try:
         async with SessionLocal() as session:
+            # Serialize capture of the same saved lead across workers/restarts.
+            # Lock the durable parent, not an inquiry that may not exist yet.
+            saved_id = await session.scalar(select(SiteLead.id).where(SiteLead.id == lead_id).with_for_update())
+            if saved_id is None:
+                return None
+            if await service.inquiry_for_site_lead(session, lead_id):
+                return links.bot_link("l", lead_id)
             inquiry = await service.create_inquiry(
                 session, source="site_lead", summary=_lead_summary(payload), client_name=client.get("name"),
                 phone=client.get("phone"), client_username=str(client.get("telegram") or "").lstrip("@") or None,

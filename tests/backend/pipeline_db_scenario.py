@@ -178,8 +178,14 @@ async def main():
         s.add(lead)
         await s.commit()
         await s.refresh(lead)
-    assert await capture.capture_site_lead(bot, lead.id, {"type": "Консультація", "client": {"name": "Олег", "phone": "+380671112233"}, "message": "Потрібні камери"})
+    lead_payload = {"type": "Консультація", "client": {"name": "Олег", "phone": "+380671112233"}, "message": "Потрібні камери"}
+    captured = await asyncio.gather(*(capture.capture_site_lead(bot, lead.id, lead_payload) for _ in range(3)))
+    assert captured[0] and len(set(captured)) == 1
+    sent_after_capture = len(bot.sent)
+    assert await capture.capture_site_lead(bot, lead.id, lead_payload) == captured[0]
+    assert len(bot.sent) == sent_after_capture, "Retry must not send another owner card"
     async with SessionLocal() as s:
+        assert await s.scalar(select(func.count()).select_from(Inquiry).where(Inquiry.site_lead_id == lead.id)) == 1
         lead_inq = await service.inquiry_for_site_lead(s, lead.id)
         lead_inq.awaiting_since = WORK_NOW - timedelta(minutes=6)
         await s.commit()
