@@ -9,6 +9,7 @@ services:
         - alembic.ini
         - render.yaml
         - feeds/meta-catalog.csv
+        - data/service-rates.js
     runtime: python
     region: frankfurt
     plan: free

@@ -31,11 +31,24 @@
       if (e.target.closest?.('form')) warmup();
     });
   }
-  async function post(path, payload) {
+  // Coalesce duplicate submissions from different UI handlers. Keep only active
+  // requests; failures must remain retryable and completed orders are not cached.
+  const pendingPosts = new Map();
+  function post(path, payload) {
     if (path === '/site-lead' || path === '/api/orders') {
       payload = apiPayload(payload, path === '/api/orders');
       path = '/api/lead';
     }
+    const body = JSON.stringify(payload);
+    const key = path + '\n' + body;
+    if (pendingPosts.has(key)) return pendingPosts.get(key);
+    // Defer transport until the map entry exists, including synchronous errors.
+    const request = Promise.resolve().then(() => sendPost(path, payload, body));
+    const tracked = request.finally(() => pendingPosts.delete(key));
+    pendingPosts.set(key, tracked);
+    return tracked;
+  }
+  async function sendPost(path, payload, body) {
     const backup = root.ALTCAM_CONTACTS?.backupWebhook;
     if (backup) {
       try {
@@ -50,7 +63,7 @@
       const base = (root.ALTCAM_CONTACTS?.apiBase || 'https://alt-cam-crm-api.onrender.com').replace(/\/$/, '');
       const response = await root.fetch(base + path, {
         method: 'POST', headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify(payload), signal: controller.signal,
+        body, signal: controller.signal,
       });
       const result = await response.json();
       if (!response.ok || result.ok !== true) throw new Error('lead_not_accepted');
