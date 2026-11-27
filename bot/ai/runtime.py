@@ -86,7 +86,7 @@ async def respond(bot, session, inquiry: Inquiry, *, business: bool = False, now
     """Returns 'disabled' | 'paused' | 'replied' | 'handoff' | 'failed' (LLM unavailable: caller uses the standard
     auto-reply, the owner is alerted). Never raises."""
     settings = get_settings()
-    if not settings.ai_active or (business and not settings.ai_business_enabled):
+    if not settings.ai_active or (business and not (settings.business_enabled and settings.ai_business_enabled)):
         return "disabled"
     if await is_paused(session, inquiry.client_tg_id):
         return "paused"

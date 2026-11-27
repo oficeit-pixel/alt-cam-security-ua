@@ -60,6 +60,8 @@ async def _store_connection(session, connection: BusinessConnection) -> Business
 @router.business_connection()
 async def on_business_connection(connection: BusinessConnection) -> None:
     settings = get_settings()
+    if not settings.business_enabled:
+        return
     async with SessionLocal() as session:
         record = await _store_connection(session, connection)
         registered = None
