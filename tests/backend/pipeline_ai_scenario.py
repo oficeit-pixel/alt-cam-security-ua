@@ -4,7 +4,7 @@ import json
 import os
 from datetime import datetime, timezone
 
-os.environ.update(ADMIN_CHAT_ID="111", ADMIN_IDS="111", MANAGERS_CHAT_ID="-100123", SECOND_CONTACT_CHAT_ID="222", PIPELINE_LINK_SECRET="x",
+os.environ.update(BUSINESS_ENABLED="true", AI_BUSINESS_ENABLED="true", BUSINESS_AUTOREPLY_ENABLED="true", ADMIN_CHAT_ID="111", ADMIN_IDS="111", MANAGERS_CHAT_ID="-100123", SECOND_CONTACT_CHAT_ID="222", PIPELINE_LINK_SECRET="x",
                   WORK_HOURS="00:00-23:59", WORK_DAYS="0,1,2,3,4,5,6", LLM_API_KEY="fake-key", AI_CONSULTANT_ENABLED="true", AI_MIN_INTERVAL_SECONDS="0")
 
 from aiogram import Bot, Dispatcher  # noqa: E402

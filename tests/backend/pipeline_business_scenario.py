@@ -8,7 +8,7 @@ from datetime import datetime, timedelta, timezone
 
 for _name in ("ADMIN_CHAT_ID", "ADMIN_IDS", "SECOND_CONTACT_CHAT_ID", "NOVA_POSHTA_API_KEY"):
     os.environ.pop(_name, None)
-os.environ.update(PIPELINE_LINK_SECRET="x",
+os.environ.update(PIPELINE_LINK_SECRET="x", BUSINESS_ENABLED="true", BUSINESS_AUTOREPLY_ENABLED="true",
                   WORK_HOURS="00:00-23:59", WORK_DAYS="0,1,2,3,4,5,6",
                   PIPELINE_SCHEDULER_ENABLED="true")
 

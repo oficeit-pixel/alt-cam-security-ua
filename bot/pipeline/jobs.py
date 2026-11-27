@@ -24,6 +24,8 @@ async def run_reminders(bot, now=None) -> int:
             logger.info("Repaired %s acknowledged SLA waits", repaired)
         due = await service.due_reminders(session, settings.reminder_thresholds, now)
         for inquiry, level in due:
+            if delivery.business_blocked(inquiry):
+                continue
             if not await service.claim_reminder(session, inquiry.id, level):
                 continue
             await session.commit()
@@ -43,6 +45,8 @@ async def run_followups(bot, now=None) -> int:
     sent = 0
     async with SessionLocal() as session:
         for inquiry in await service.due_followups(session, settings.followup_hours, now):
+            if delivery.business_blocked(inquiry):
+                continue
             if not await service.claim_followup(session, inquiry.id, now):
                 continue
             await session.commit()
@@ -69,6 +73,7 @@ async def run_np_tracking(bot) -> int:
     changed = 0
     async with SessionLocal() as session:
         inquiries = await service.shipped_with_ttn(session)
+        inquiries = [inquiry for inquiry in inquiries if not delivery.business_blocked(inquiry)]
         if not inquiries:
             return 0
         try:

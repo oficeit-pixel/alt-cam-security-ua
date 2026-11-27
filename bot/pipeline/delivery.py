@@ -4,18 +4,25 @@ from __future__ import annotations
 import logging
 
 from bot.db.models import Inquiry
+from bot.config import get_settings
 
 logger = logging.getLogger("altcam.pipeline.delivery")
 
 
 def is_business(inquiry: Inquiry) -> bool:
-    return bool(inquiry.business_connection_id)
+    return bool(inquiry.business_connection_id) or getattr(inquiry, "source", None) == "telegram_business"
+
+
+def business_blocked(inquiry: Inquiry) -> bool:
+    return is_business(inquiry) and not get_settings().business_enabled
 
 
 async def send_client_text(bot, inquiry: Inquiry, text: str, reply_markup=None) -> bool:
     """Business chats: plain text on behalf of the owner (only for owner-initiated actions and the optional
     acknowledgement); keyboards are only attached in the bot chat."""
     if bot is None or not inquiry.client_chat_id:
+        return False
+    if business_blocked(inquiry):
         return False
     try:
         if inquiry.business_connection_id:

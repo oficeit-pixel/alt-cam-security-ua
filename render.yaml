@@ -73,8 +73,12 @@ services:
         value: "uniwar"
       - key: REPLY_ETA_TEXT
         value: "протягом 5–10 хвилин"
+      - key: BUSINESS_ENABLED
+        value: "false"
       - key: BUSINESS_AUTOREPLY_ENABLED
-        value: "true"
+        value: "false"
+      - key: AI_BUSINESS_ENABLED
+        value: "false"
       # AI consultant (docs/AI_CONSULTANT.md): site chat + Telegram bot + Telegram Business.
       # Off until AI_CONSULTANT_ENABLED=true AND GEMINI_API_KEY is set in the dashboard.
       - key: AI_CONSULTANT_ENABLED
