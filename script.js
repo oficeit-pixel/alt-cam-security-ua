@@ -471,7 +471,9 @@ function renderQuoteSummary(state) {
   )).join("");
 }
 
+let quoteReturnFocus = null;
 function openQuoteModal(state) {
+  quoteReturnFocus = document.activeElement;
   activeQuoteState = state;
   renderQuoteSummary(state);
   const detailsField = quoteForm.querySelector("textarea[name='quoteDirectionDetails']");
@@ -493,9 +495,20 @@ function closeQuoteModal() {
   if (!quoteModal || quoteModal.hidden) return;
   quoteModal.hidden = true;
   document.body.classList.remove("modal-open");
+  if (quoteReturnFocus?.isConnected) quoteReturnFocus.focus();
 }
 
 quoteCloseElements.forEach((element) => element.addEventListener("click", closeQuoteModal));
+document.addEventListener('keydown', (event) => {
+  if (!quoteModal || quoteModal.hidden) return;
+  if (event.key === 'Escape') { event.preventDefault(); closeQuoteModal(); return; }
+  if (event.key !== 'Tab') return;
+  const nodes = [...quoteModal.querySelectorAll('a[href],button,input,select,textarea,[tabindex="0"]')]
+    .filter(node => !node.disabled && node.getClientRects().length);
+  const first = nodes[0], last = nodes.at(-1);
+  if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
+  else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+});
 
 quoteForm?.addEventListener("submit", async (event) => {
   event.preventDefault();

@@ -11,7 +11,7 @@
  function refresh(){const n=memory.reduce((sum,x)=>sum+Math.max(1,count(x.quantity||1)),0);for(const node of root.document?.querySelectorAll?.('[data-cart-count]')||[])node.textContent=n;}
  function init(){read();const doc=root.document;if(!doc)return;
   if(!doc.getElementById('cart-open')&&!doc.querySelector('[data-shared-cart]')){
-   const nav=doc.querySelector('main nav,header nav,nav');if(nav){const a=doc.createElement('a');a.href='/catalog.html#cart';a.dataset.sharedCart='';a.style.cssText='display:inline-block;margin-inline-start:1rem;white-space:nowrap';a.innerHTML='Кошик (<span data-cart-count>0</span>)';nav.append(a);}
+   const host=doc.querySelector('main')||doc.querySelector('header');if(host){const nav=doc.createElement('nav');nav.setAttribute('aria-label','Каталог і кошик');nav.style.cssText='display:flex;flex-wrap:wrap;gap:1rem;padding:12px 0';const catalog=doc.createElement('a');catalog.href='/catalog.html';catalog.textContent='Каталог';const a=doc.createElement('a');a.href='/catalog.html#cart';a.dataset.sharedCart='';a.style.whiteSpace='nowrap';a.innerHTML='Кошик (<span data-cart-count>0</span>)';nav.append(catalog,a);host.prepend(nav);}
   }refresh();
  }
  root.AltcamCart={read,write,install,count,refresh};

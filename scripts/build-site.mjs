@@ -31,6 +31,17 @@ for (const name of files) await fs.copyFile(path.join(root, name), path.join(out
 await buildLegalPages(out);
 const homePath = path.join(out, 'index.html');
 await fs.writeFile(homePath, await buildHomepage(await fs.readFile(homePath,'utf8')));
+// Ship calculator dependencies and consumers as one ordered, content-versioned asset.
+// A cached HTML page cannot mix versions or run before a separately failed price script.
+const calculatorFiles = ['data/service-rates.js', 'data/calc-core.js', 'data/price-calculator.js', 'data/package-configs.js', 'script.js'];
+const calculatorBundle = (await Promise.all(calculatorFiles.map(name => fs.readFile(name, 'utf8')))).join('\n;\n');
+const { createHash } = await import('node:crypto');
+const calculatorName = `calculator-${createHash('sha256').update(calculatorBundle).digest('hex').slice(0,12)}.js`;
+await fs.writeFile(path.join(out, calculatorName), calculatorBundle);
+let bundledHome = await fs.readFile(homePath, 'utf8');
+for (const name of calculatorFiles.slice(0,-1)) bundledHome = bundledHome.replace(new RegExp('<script src="'+name.replaceAll('.', '\\.')+'(?:\\?[^"<]*)?"></script>'), '');
+bundledHome = bundledHome.replace(/<script src="script\.js[^"<]*"><\/script>/, `<script src="${calculatorName}"></script>`);
+await fs.writeFile(homePath, bundledHome);
 await fs.mkdir(path.join(out, 'data'), { recursive: true });
 for (const name of ['service-rates.js', 'services.js', 'calc-core.js', 'price-calculator.js', 'package-configs.js']) {
   await fs.copyFile(path.join(root, 'data', name), path.join(out, 'data', name));
