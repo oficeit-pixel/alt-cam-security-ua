@@ -16,6 +16,12 @@ const fs=require('node:fs/promises'),path=require('node:path'),assert=require('n
   });
   const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
   await page.goto('http://final.test/',{waitUntil:'networkidle'});
+  assert.equal(await page.locator('script[src^="calculator-"]').count(),1,'Atomic calculator bundle');
+  await page.locator('#send-calculation').click();
+  assert.equal(await page.locator('.cw-launch').isVisible(),false,'Widget cannot cover estimate');
+  await page.keyboard.press('Escape');
+  assert(await page.locator('#quote-modal').isHidden(),'Escape closes estimate');
+  assert(await page.locator('#send-calculation').evaluate(el=>el===document.activeElement),'Focus returns to calculator');
   for(const [tab,button] of [['video','send-calculation'],['power','send-power-calculation'],['ajax','send-ajax-calculation']]){
    await page.locator(`[data-calc-tab="${tab}"]`).click();await page.locator('#'+button).click();
    await page.locator('[name="quoteName"]').fill('Тест QA');await page.locator('[name="quotePhone"]').fill('0630000000');
@@ -40,6 +46,7 @@ const fs=require('node:fs/promises'),path=require('node:path'),assert=require('n
   const selectedId=await page.locator('[data-add]').first().getAttribute('data-add');
   for(let i=0;i<3;i++){await page.locator('[data-add]').nth(i).click();await page.locator('#cart-close').click();}
   await page.reload({waitUntil:'networkidle'});await page.locator('#cart-open').click();
+  assert.equal(await page.locator('.cw-launch').isVisible(),false,'Widget cannot cover cart');
   await page.locator('#order-name').fill('Тест QA');await page.locator('#order-phone').fill('0630000000');await page.locator('[name="delivery"][value="pickup"]').check();
   const before=requests.length;await page.locator('#cart-order').click();await page.waitForFunction(()=>!document.querySelector('#checkout-form').dataset.leadBusy);
   assert.equal(requests.length,before+1,'cart submission');assert.equal(requests.at(-1).source_form,'cart');

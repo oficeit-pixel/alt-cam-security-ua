@@ -150,6 +150,14 @@
     }
     if (!success) {
       root.altcamAnalytics?.('lead_fallback_shown');
+      const instructions = doc.createElement('p');
+      instructions.textContent = 'Скопіюйте заявку нижче, відкрийте Telegram і вставте її в чат. Автоматично текст не передається.';
+      status.append(instructions);
+      const draft = doc.createElement('textarea');
+      draft.value = message; draft.readOnly = true;
+      draft.setAttribute('aria-label', 'Збережений текст заявки');
+      draft.style.cssText = 'display:block;width:100%;min-height:100px;box-sizing:border-box';
+      status.append(draft);
       const links = [];
       if (contacts.consultantUrl) links.push(['Telegram', contacts.consultantUrl]);
       else if (contacts.telegram) links.push(['Telegram', `https://t.me/${encodeURIComponent(contacts.telegram.replace(/^@/, ''))}?text=${encodeURIComponent(message)}`]);
@@ -167,9 +175,7 @@
       copy.addEventListener('click', async () => {
         try { await root.navigator.clipboard.writeText(message); copy.textContent = 'Скопійовано'; }
         catch {
-          const field = doc.createElement('textarea'); field.value = message;
-          field.readOnly = true; field.setAttribute('aria-label', 'Текст заявки для копіювання');
-          status.append(field); field.focus(); field.select();
+          draft.focus(); draft.select();
         }
       });
       status.append(copy);
